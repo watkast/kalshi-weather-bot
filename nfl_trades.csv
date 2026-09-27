@@ -1,1 +1,3 @@
 logged_at,sport,ticker,team,game,period_at_entry,score_at_entry,side,price,fee,contracts,peak_bid,status,result,pnl
+2026-09-27T23:08:44+00:00,NFL,KXNFLGAME-26SEP27ARISF-ARI,ARI,KXNFLGAME-26SEP27ARISF,P4 1:36,ARI 27 - SF 29,yes,0.01,0.0007,100,0.00,settled,no,-1.07
+2026-09-27T23:15:18+00:00,NFL,KXNFLGAME-26SEP27MINTB-TB,TB,KXNFLGAME-26SEP27MINTB,P4 1:32,MIN 20 - TB 16,yes,0.01,0.0007,100,0.02,open,,
