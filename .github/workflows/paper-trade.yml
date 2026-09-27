@@ -44,11 +44,14 @@ jobs:
           tail -n 1 rain.log >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           tail -n 1 longshot.log >> "$GITHUB_STEP_SUMMARY"
-      - name: Save trade logs
+      - name: Save trade logs and dashboard
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
           git add *.csv
-          git diff --cached --quiet || git commit -m "Paper trades update"
+          git diff --cached --quiet || git commit -q -m "Paper trades update"
           git pull --rebase -q
+          python dashboard.py
+          git add README.md
+          git diff --cached --quiet || git commit -q -m "Dashboard update"
           git push
