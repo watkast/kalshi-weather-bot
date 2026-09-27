@@ -1,4 +1,4 @@
-# Kalshi Weather Paper Bot
+# Kalshi Paper Bots
 
 Paper-trades Kalshi's daily high-temperature markets (NY, Chicago, Miami, Austin, Denver, LA, Philadelphia). **No real money, no Kalshi account needed.**
 
@@ -9,3 +9,10 @@ Paper-trades Kalshi's daily high-temperature markets (NY, Chicago, Miami, Austin
 - **Run it now:** Actions → paper-trade → Run workflow.
 
 Settings (edge, size, forecast error) are at the top of `bot.py`.
+
+## Bots
+| Bot | File | Log | Idea |
+|---|---|---|---|
+| Temperature | `bot.py` | `trades.csv` | NWS forecast high vs Kalshi daily high brackets |
+| Rain | `rain_bot.py` | `rain_trades.csv` | NWS hourly rain chance vs Kalshi "Will it rain?" markets (28 cities) |
+| Longshot fade | `longshot_bot.py` | `longshot_trades.csv` | Bets against liquid long shots (YES ≤ 10¢) closing within a week |

@@ -4,12 +4,16 @@ on:
   schedule:
     - cron: "17 */3 * * *"   # every 3 hours
   workflow_dispatch:          # lets you run it by hand from the Actions tab
-  push:                       # also runs whenever the bot's code changes
+  push:                       # also runs whenever the bots' code changes
     branches: [main]
-    paths: ["bot.py", ".github/workflows/**"]
+    paths: ["*.py", ".github/workflows/**"]
 
 permissions:
   contents: write
+
+concurrency:
+  group: paper-trade
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -20,14 +24,27 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Run paper bot
-        run: python bot.py | tee run.log
+      - name: Temperature bot
+        run: python bot.py | tee temp.log
+        continue-on-error: true
+      - name: Rain bot
+        run: python rain_bot.py | tee rain.log
+        continue-on-error: true
+      - name: Longshot fade bot
+        run: python longshot_bot.py | tee longshot.log
+        continue-on-error: true
       - name: Show results on the run page
-        run: tail -n 1 run.log >> "$GITHUB_STEP_SUMMARY"
-      - name: Save trade log
+        run: |
+          echo "Temperature — $(tail -n 1 temp.log)" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          tail -n 1 rain.log >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          tail -n 1 longshot.log >> "$GITHUB_STEP_SUMMARY"
+      - name: Save trade logs
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          git add trades.csv
+          git add *.csv
           git diff --cached --quiet || git commit -m "Paper trades update"
+          git pull --rebase -q
           git push
