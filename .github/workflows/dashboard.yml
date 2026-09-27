@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install matplotlib
       - name: Rebuild dashboard
         run: |
           git config user.name "paper-bot"
@@ -28,7 +29,9 @@ jobs:
           for attempt in 1 2 3; do
             git pull -q --rebase
             python dashboard.py
-            git add README.md
+            python study_dashboard.py
+            git add README.md STUDY.md
+            [ -d study/charts ] && git add study/charts
             git diff --cached --quiet && exit 0
             git commit -q -m "Dashboard update"
             git push -q && exit 0

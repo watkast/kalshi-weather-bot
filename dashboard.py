@@ -15,9 +15,6 @@ BOTS = [  # (label, file, what it does)
     ("Temperature", "trades.csv", "NWS forecast high vs Kalshi daily high brackets (7 cities)"),
     ("Rain", "rain_trades.csv", "NWS hourly rain chance vs Kalshi \"Will it rain?\" (28 cities)"),
     ("Longshot fade", "longshot_trades.csv", "Bets NO on liquid long shots (YES ≤ 10¢) closing within a week"),
-    ("MLB 1¢", "mlb_trades.csv", "Buys a team at 1¢ mid-game, holds to the final out"),
-    ("NFL 1¢", "nfl_trades.csv", "Same, NFL"),
-    ("NHL 1¢", "nhl_trades.csv", "Same, NHL"),
 ]
 
 # Longshot bets grouped by Kalshi series prefix
@@ -85,6 +82,7 @@ def main():
     md = ["# Kalshi Paper Bots — Results", "",
           f"*Updated {now}. Paper money only — no real trades. "
           "Refreshes about every 15 minutes.*", "",
+          "### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:
@@ -109,8 +107,8 @@ def main():
         md += ["## Longshot fade by category", "",
                table(["Category", "Bets", "Settled", "Win rate", "Paper P&L", "Return"], rows), ""]
 
-    # 1-cent bots: every bet, newest first
-    for label in ("MLB 1¢", "NFL 1¢", "NHL 1¢"):
+    # Retired 1-cent bots (replaced by the 1¢ Study)
+    for label in ():
         rows_ = data[label]
         md += [f"## {label} bets", ""]
         if not rows_:
@@ -145,6 +143,8 @@ def main():
 
     md += ["## The bots", "", table(["Bot", "What it does", "Full log"],
                                      [[l, d, f"[{f}]({f})"] for l, f, d in BOTS]), "",
+           "Retired: the first MLB / NFL / NHL 1¢ bots (replaced by the 1¢ Study) — "
+           "[mlb_trades.csv](mlb_trades.csv), [nfl_trades.csv](nfl_trades.csv), [nhl_trades.csv](nhl_trades.csv).", "",
            "Run everything now: **Actions → paper-trade → Run workflow**.", ""]
 
     with open(os.path.join(HERE, "README.md"), "w") as fh:
