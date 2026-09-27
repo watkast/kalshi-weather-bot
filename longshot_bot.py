@@ -30,7 +30,8 @@ FIELDS = ["logged_at", "ticker", "series", "close_time", "side", "price", "fee",
 def candidates(now):
     max_close = int((now + timedelta(days=MAX_DAYS_TO_CLOSE)).timestamp())
     min_close = int((now + timedelta(hours=1)).timestamp())
-    for m in get_markets(status="open", min_close_ts=min_close, max_close_ts=max_close):
+    for m in get_markets(status="open", min_close_ts=min_close, max_close_ts=max_close,
+                         mve_filter="exclude"):
         if m["ticker"].startswith("KXMVE") or m.get("mve_collection_ticker"):
             continue  # multi-leg parlays, not simple long shots
         yes_bid, yes_ask, no_ask = price(m, "yes_bid"), price(m, "yes_ask"), price(m, "no_ask")

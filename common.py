@@ -44,9 +44,9 @@ def kalshi_get(path, params=None):
     r.raise_for_status()
 
 
-def get_markets(**params):
+def get_markets(max_pages=60, **params):
     out, cursor = [], None
-    while True:
+    for _ in range(max_pages):
         q = dict(params, limit=1000)
         if cursor:
             q["cursor"] = cursor
@@ -55,6 +55,8 @@ def get_markets(**params):
         cursor = data.get("cursor")
         if not cursor:
             return out
+    print(f"get_markets: stopped after {max_pages} pages")
+    return out
 
 
 def load_rows(path):
