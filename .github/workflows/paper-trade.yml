@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: paper-trade
+  group: paper-trade-v2
   cancel-in-progress: false
 
 jobs:
