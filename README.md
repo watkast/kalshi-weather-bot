@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sun Sep 27, 4:28 PM MT. Paper money only — no real trades. Refreshes about every 15 minutes.*
+*Updated Sun Sep 27, 4:29 PM MT. Paper money only — no real trades. Refreshes about every 15 minutes.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -8,9 +8,9 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 14 | 0 | — | — | — | 14 | Too early |
+| **Temperature** | 15 | 0 | — | — | — | 15 | Too early |
 | **Rain** | 4 | 0 | — | — | — | 4 | Too early |
-| **Longshot fade** | 240 | 67 | 94% | -$5.33 | -0.8% | 173 | Break-even |
+| **Longshot fade** | 280 | 68 | 94% | -$4.96 | -0.8% | 212 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -18,18 +18,19 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| NFL | 127 | 16 | 94% | -$2.60 | -1.7% |
+| NFL | 156 | 16 | 94% | -$2.60 | -1.7% |
+| Other | 51 | 4 | 100% | $2.03 | +5.3% |
 | MLB | 48 | 48 | 94% | -$4.39 | -1.0% |
-| Other | 44 | 3 | 100% | $1.66 | +5.9% |
-| Crypto | 9 | 0 | — | — | — |
-| Weather | 7 | 0 | — | — | — |
-| Soccer | 4 | 0 | — | — | — |
+| Crypto | 10 | 0 | — | — | — |
+| Weather | 9 | 0 | — | — | — |
+| Soccer | 5 | 0 | — | — | — |
 | NBA / WNBA | 1 | 0 | — | — | — |
 
 ## Latest temperature bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-09-28 | MIA 85-86 | YES | 5¢ | 14% | Open | — |
 | 2026-09-28 | MIA >90 | NO | 58¢ | 69% | Open | — |
 | 2026-09-28 | PHIL 69-70 | NO | 69¢ | 81% | Open | — |
 | 2026-09-28 | PHIL <65 | YES | 10¢ | 20% | Open | — |
@@ -39,7 +40,6 @@
 | 2026-09-28 | LAX <76 | YES | 7¢ | 20% | Open | — |
 | 2026-09-28 | DEN 77-78 | YES | 12¢ | 23% | Open | — |
 | 2026-09-28 | DEN <73 | NO | 67¢ | 88% | Open | — |
-| 2026-09-28 | AUS 97-98 | NO | 47¢ | 77% | Open | — |
 
 ## Latest rain bets
 
