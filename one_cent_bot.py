@@ -24,7 +24,7 @@ MAX_ENTRY = 0.01
 CONTRACTS = 100         # $1 per bet at 1 cent
 POLL_SECONDS = 30
 SNAPSHOT_SECONDS = 60
-SAVE_MINUTES = 30
+SAVE_MINUTES = 10
 RUN_MINUTES = float(os.environ.get("RUN_MINUTES", "345"))
 
 ESPN = "https://site.api.espn.com/apis/site/v2/sports"

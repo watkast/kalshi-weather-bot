@@ -84,7 +84,7 @@ def main():
     data = {label: load(f) for label, f, _ in BOTS}
     md = ["# Kalshi Paper Bots — Results", "",
           f"*Updated {now}. Paper money only — no real trades. "
-          "Refreshes every 3 hours.*", "",
+          "Refreshes about every 15 minutes.*", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:

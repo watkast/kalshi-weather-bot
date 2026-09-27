@@ -25,7 +25,7 @@ MAX_ENTRY = 0.01        # buy when YES costs 1 cent
 CONTRACTS = 100         # $1 per bet at 1 cent
 POLL_SECONDS = 30
 SNAPSHOT_SECONDS = 60
-SAVE_MINUTES = 30
+SAVE_MINUTES = 10
 RUN_MINUTES = float(os.environ.get("RUN_MINUTES", "345"))
 
 TRADE_FIELDS = ["logged_at", "ticker", "team", "game", "inning_at_entry",
