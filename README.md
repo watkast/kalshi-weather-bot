@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sun Sep 27, 3:23 PM MT. Paper money only — no real trades. Refreshes every 3 hours.*
+*Updated Sun Sep 27, 3:24 PM MT. Paper money only — no real trades. Refreshes every 3 hours.*
 
 ## Scoreboard
 
@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 14 | 0 | — | — | — | 14 | Too early |
 | **Rain** | 3 | 0 | — | — | — | 3 | Too early |
-| **Longshot fade** | 120 | 0 | — | — | — | 120 | Too early |
+| **Longshot fade** | 160 | 5 | 100% | $2.73 | +5.8% | 155 | Too early |
 | **MLB 1¢** | 1 | 0 | — | — | — | 1 | Too early |
 | **NFL 1¢** | 0 | 0 | — | — | — | 0 | Too early |
 | **NHL 1¢** | 0 | 0 | — | — | — | 0 | Too early |
@@ -19,11 +19,11 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| NFL | 60 | 0 | — | — | — |
-| MLB | 32 | 0 | — | — | — |
-| Other | 15 | 0 | — | — | — |
-| Crypto | 5 | 0 | — | — | — |
-| Weather | 5 | 0 | — | — | — |
+| NFL | 81 | 0 | — | — | — |
+| MLB | 40 | 5 | 100% | $2.73 | +5.8% |
+| Other | 24 | 0 | — | — | — |
+| Crypto | 6 | 0 | — | — | — |
+| Weather | 6 | 0 | — | — | — |
 | Soccer | 2 | 0 | — | — | — |
 | NBA / WNBA | 1 | 0 | — | — | — |
 
