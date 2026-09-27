@@ -138,7 +138,7 @@ def open_new_trades(rows):
                                     ("no", 1 - p_yes, price(m, "no_ask"))):
                 if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
                     continue
-                fee = fee_per_contract(ask)
+                fee = fee_per_contract(ask, CONTRACTS)
                 edge = prob - ask - fee
                 if edge >= MIN_EDGE and (best is None or edge > best[0]):
                     best = (edge, side, ask, fee, prob)
@@ -148,7 +148,7 @@ def open_new_trades(rows):
             rows.append({
                 "logged_at": now.isoformat(timespec="seconds"), "ticker": m["ticker"],
                 "city": code, "market_date": day.isoformat(), "side": side,
-                "price": f"{ask:.2f}", "fee": f"{fee:.2f}", "contracts": CONTRACTS,
+                "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "contracts": CONTRACTS,
                 "model_prob": f"{prob:.3f}", "status": "open", "result": "", "pnl": "",
             })
             held.add(m["ticker"])

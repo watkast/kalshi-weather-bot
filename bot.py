@@ -40,9 +40,11 @@ FIELDS = ["logged_at", "ticker", "city", "market_date", "side", "price",
           "status", "result", "pnl"]
 
 
-def fee_per_contract(price):
-    """Kalshi taker fee: 7% * P * (1-P), rounded up to the cent."""
-    return math.ceil(0.07 * price * (1 - price) * 100 - 1e-9) / 100
+def fee_per_contract(p, contracts=1):
+    """Kalshi taker fee, per contract. Kalshi charges 7% * C * P * (1-P)
+    per order, rounded up to the cent, so bigger orders round less."""
+    total = math.ceil(0.07 * contracts * p * (1 - p) * 100 - 1e-9) / 100
+    return total / contracts
 
 
 def norm_cdf(x, mu, sigma):
@@ -150,7 +152,7 @@ def pick_trade(market, mu, sigma):
                             ("no", 1 - p_yes, price(market, "no_ask"))):
         if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
             continue
-        fee = fee_per_contract(ask)
+        fee = fee_per_contract(ask, CONTRACTS)
         edge = prob - ask - fee
         if edge >= MIN_EDGE and (best is None or edge > best[0]):
             best = (edge, side, ask, fee, prob)
@@ -184,7 +186,7 @@ def open_new_trades(trades):
                 "logged_at": now.isoformat(timespec="seconds"),
                 "ticker": m["ticker"], "city": series.replace("KXHIGH", ""),
                 "market_date": tomorrow.isoformat(), "side": side,
-                "price": f"{ask:.2f}", "fee": f"{fee:.2f}",
+                "price": f"{ask:.2f}", "fee": f"{fee:.4f}",
                 "contracts": CONTRACTS, "model_prob": f"{prob:.3f}",
                 "forecast_high": f"{mu:.0f}", "bracket": bracket_label(m),
                 "status": "open", "result": "", "pnl": "",

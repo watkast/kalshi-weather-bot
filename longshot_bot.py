@@ -54,11 +54,11 @@ def open_new_trades(rows):
         if m["ticker"] in held or per_event[event] >= MAX_PER_EVENT:
             continue
         ask = price(m, "no_ask")
-        fee = fee_per_contract(ask)
+        fee = fee_per_contract(ask, CONTRACTS)
         rows.append({
             "logged_at": now.isoformat(timespec="seconds"), "ticker": m["ticker"],
             "series": event.split("-")[0], "close_time": m.get("close_time", ""),
-            "side": "no", "price": f"{ask:.2f}", "fee": f"{fee:.2f}",
+            "side": "no", "price": f"{ask:.2f}", "fee": f"{fee:.4f}",
             "contracts": CONTRACTS, "yes_bid": f"{price(m, 'yes_bid'):.2f}",
             "yes_ask": f"{price(m, 'yes_ask'):.2f}", "volume": f"{volume(m):.0f}",
             "status": "open", "result": "", "pnl": "",

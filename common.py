@@ -11,9 +11,11 @@ NWS_HEADERS = {"User-Agent": "kalshi-weather-paper-bot (github actions)"}
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-def fee_per_contract(p):
-    """Kalshi taker fee: 7% * P * (1-P), rounded up to the cent."""
-    return math.ceil(0.07 * p * (1 - p) * 100 - 1e-9) / 100
+def fee_per_contract(p, contracts=1):
+    """Kalshi taker fee, per contract. Kalshi charges 7% * C * P * (1-P)
+    per order, rounded up to the cent, so bigger orders round less."""
+    total = math.ceil(0.07 * contracts * p * (1 - p) * 100 - 1e-9) / 100
+    return total / contracts
 
 
 def price(market, key):
