@@ -342,6 +342,7 @@ class Study:
         self.last_scan = 0.0
         self.batch_ok = True
         self.errors = []
+        self.espn_check = {}
 
     def scan(self):
         try:
@@ -378,6 +379,29 @@ class Study:
         self.markets, self.events = markets, events
         self.last_scan = time.time()
         print(f"scan: {len(wanted)} series, {len(markets)} markets in/near play")
+        self.check_espn(now)
+
+    def check_espn(self, now):
+        """Link every started game in an ESPN league now, so status.json shows
+        whether matching works before any 1-cent moment happens."""
+        started = {}
+        for m in self.markets.values():
+            if m["series"] in ESPN_LEAGUES and m["start"] <= now:
+                started[m["event"]] = m["series"]
+        matched, missed = 0, []
+        for ev, series in started.items():
+            try:
+                g = self.espn.find(series, ev, self.events.get(ev, []))
+            except Exception as exc:
+                g = None
+                self.errors.append(f"{iso(now)} espn {ev}: {exc}")
+            if g:
+                matched += 1
+            else:
+                missed.append(ev)
+        self.espn_check = {"at": iso(now), "started_games": len(started),
+                           "matched": matched, "unmatched_sample": missed[:10]}
+        print(f"ESPN check: {matched}/{len(started)} started games matched")
 
     def fetch_live(self):
         now = now_utc()
@@ -475,6 +499,7 @@ class Study:
         status = {"saved_at": iso(now_utc()), "series_watched": len(self.series_names),
                   "markets_in_or_near_play": len(self.markets),
                   "batch_lookup": self.batch_ok, "espn_games_linked": len(self.espn.links),
+                  "espn_check": self.espn_check,
                   "bets": len(self.bets), "open": sum(1 for b in self.bets if b["status"] == "open"),
                   "errors": self.errors[-15:]}
         with open(os.path.join(DIR, "status.json"), "w") as fh:
