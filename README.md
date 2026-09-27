@@ -17,3 +17,4 @@ Settings (edge, size, forecast error) are at the top of `bot.py`.
 | Rain | `rain_bot.py` | `rain_trades.csv` | NWS hourly rain chance vs Kalshi "Will it rain?" markets (28 cities) |
 | Longshot fade | `longshot_bot.py` | `longshot_trades.csv` | Bets against liquid long shots (YES ≤ 10¢) closing within a week |
 | MLB 1-cent | `mlb_bot.py` | `mlb_trades.csv`, `mlb_price_log.csv` | Buys a team at 1¢ mid-game (checked live against MLB's feed), holds to the final out, logs the price every minute |
+| NFL / NHL 1-cent | `one_cent_bot.py` | `nfl_trades.csv`, `nfl_price_log.csv`, `nhl_trades.csv`, `nhl_price_log.csv` | Same as MLB 1-cent, live-checked against ESPN's scoreboard |

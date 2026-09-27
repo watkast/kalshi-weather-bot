@@ -1,0 +1,47 @@
+name: nfl-nhl-1-cent
+
+on:
+  schedule:
+    - cron: "9 */6 * * *"   # back-to-back ~6-hour watch windows
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["one_cent_bot.py", "common.py", ".github/workflows/one-cent.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nfl-nhl-1-cent
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Set up git
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+      - name: Watch NFL and NHL games
+        env:
+          RUN_MINUTES: "340"
+          SPORTS: "NFL,NHL"
+          PYTHONUNBUFFERED: "1"
+        run: python one_cent_bot.py | tee one_cent.log
+      - name: Show results on the run page
+        if: always()
+        run: tail -n 2 one_cent.log >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Save logs
+        if: always()
+        run: |
+          git add nfl_*.csv nhl_*.csv 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "NFL/NHL 1-cent bot update"
+          git pull --rebase -q
+          git push
