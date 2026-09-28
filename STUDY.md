@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 10:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 10:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 272 finished bets | 2% | -$36.90 | -90% | -13.57¢ | -$17.80 / -$19.10 |
+| all leagues, sell at 5¢ | 274 finished bets | 2% | -$37.20 | -91% | -13.58¢ | -$17.95 / -$19.25 |
 
-*Expect **274 buys in the first 18 hours** ($41.10 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **279 buys in the first 18 hours** ($41.85 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 272 | -$37.16 | -91% |
-| all leagues, sell at 3¢ | 272 | -$37.68 | -92% |
-| all leagues, sell at 10¢ | 272 | -$39.49 | -97% |
+| all leagues, sell at 2¢ | 274 | -$37.46 | -91% |
+| all leagues, sell at 3¢ | 274 | -$37.98 | -92% |
+| all leagues, sell at 10¢ | 274 | -$39.79 | -97% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 274 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 279 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 245 | 4% | 2% | 2% | 0% | 0% | 0% |
+| Unverified | 247 | 4% | 2% | 2% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 109 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 111 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 27 | 0 | 7% | 0% | -100% | -87% | 4 min |
 | Counter-Strike 2 Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 14 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
@@ -139,7 +139,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 16:21 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | — | In play | — |
+| 09-28 16:34 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | — | In play | — |
+| 09-28 16:30 | TT Elite Series Match | Fomin Yurij | ✘ | — | — | In play | — |
+| 09-28 16:27 | League of Legends Game | Frites Esports Club | ✘ | — | — | In play | — |
+| 09-28 16:26 | Men's T20 Cricket Match | USN Indians | ✘ | — | — | In play | — |
+| 09-28 16:26 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 16:21 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:21 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:21 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:14 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -164,11 +169,6 @@
 | 09-28 15:10 | ITF Women's Match | Savine ERLER | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 15:07 | Counter-Strike 2 Game | Leo Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 15:04 | TT Elite Series Match | Artur Sobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 15:00 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:53 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:50 | TT Elite Series Match | Piotr Chodorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:50 | ITF Men's Match | Aleksandre Shvangiradze | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 14:46 | Challenger ATP  | Wilson Leite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
