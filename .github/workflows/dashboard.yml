@@ -2,7 +2,7 @@ name: dashboard
 
 on:
   schedule:
-    - cron: "7 * * * *"   # hourly backup; each bot also refreshes its own page
+    - cron: "7 * * * *"   # main page; each study bot refreshes its own page
   workflow_dispatch:
 
 permissions:
@@ -29,13 +29,7 @@ jobs:
           for attempt in 1 2 3; do
             git pull -q --rebase
             python dashboard.py
-            python study_dashboard.py
-            python fifteen_dashboard.py
-            python fv_dashboard.py
-            git add README.md STUDY.md FIFTEEN.md FAIRVALUE.md
-            [ -d fv/charts ] && git add fv/charts
-            [ -d fifteen/charts ] && git add fifteen/charts
-            [ -d study/charts ] && git add study/charts
+            git add README.md
             git diff --cached --quiet && exit 0
             git commit -q -m "Dashboard update"
             git push -q && exit 0
