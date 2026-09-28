@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 6:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 6:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 178 finished bets | 3% | -$23.45 | -88% | -13.17¢ | -$10.75 / -$12.70 |
+| all leagues, sell at 5¢ | 181 finished bets | 3% | -$23.90 | -88% | -13.20¢ | -$10.90 / -$13.00 |
 
-*Expect **183 buys in the first 14 hours** ($27.45 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect **188 buys in the first 14 hours** ($28.20 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 178 | -$23.84 | -89% |
-| all leagues, sell at 3¢ | 178 | -$24.36 | -91% |
-| all leagues, hold to the end | 178 | -$26.70 | -100% |
+| all leagues, sell at 2¢ | 181 | -$24.29 | -89% |
+| all leagues, sell at 3¢ | 181 | -$24.81 | -91% |
+| all leagues, hold to the end | 181 | -$27.15 | -100% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 183 | 23 | 0 (0%) | 1.1% | -$3.45 (-100%) | Sell at 5¢: -$2.15 (-62%) |
+| 188 | 25 | 0 (0%) | 1.1% | -$3.75 (-100%) | Sell at 5¢: -$2.45 (-65%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -60,8 +60,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 23 | 17% | 9% | 9% | 0% | 0% | 0% |
-| Unverified | 155 | 5% | 3% | 2% | 0% | 0% | 0% |
+| Verified | 25 | 16% | 8% | 8% | 0% | 0% | 0% |
+| Unverified | 156 | 4% | 3% | 2% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -69,13 +69,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$3.45 | -100% |
-| Sell at 2¢ | 4 | 17% | -$2.41 | -70% |
-| Sell at 3¢ | 2 | 9% | -$2.67 | -77% |
-| Sell at 5¢ | 2 | 9% | -$2.15 | -62% |
-| Sell at 10¢ | 0 | 0% | -$3.45 | -100% |
-| Sell at 25¢ | 0 | 0% | -$3.45 | -100% |
-| Sell at 50¢ | 0 | 0% | -$3.45 | -100% |
+| Hold to the end | 0 | 0% | -$3.75 | -100% |
+| Sell at 2¢ | 4 | 16% | -$2.71 | -72% |
+| Sell at 3¢ | 2 | 8% | -$2.97 | -79% |
+| Sell at 5¢ | 2 | 8% | -$2.45 | -65% |
+| Sell at 10¢ | 0 | 0% | -$3.75 | -100% |
+| Sell at 25¢ | 0 | 0% | -$3.75 | -100% |
+| Sell at 50¢ | 0 | 0% | -$3.75 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 71 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 72 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 4 min |
 | Challenger ATP  | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 6 min |
 | Counter-Strike 2 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -107,6 +107,7 @@
 | Major League Soccer Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | WTA Tennis Match | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 18 min |
+| International Friendly Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Dota 2 Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Japan NPB Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 42 min |
 
@@ -114,8 +115,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 9 | 0% | 0% | 0% | -100% |
-| 5–15 min | 6 | 33% | 0% | 0% | -42% |
+| Under 5 min | 10 | 0% | 0% | 0% | -100% |
+| 5–15 min | 7 | 29% | 0% | 0% | -50% |
 | 15–30 min | 3 | 33% | 33% | 0% | -42% |
 | 30–60 min | 2 | 50% | 50% | 0% | -13% |
 | Over 60 min | 3 | 0% | 0% | 0% | -100% |
@@ -136,9 +137,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-28 12:35 | Dota 2 Game | IaChIo123 | ✘ | — | — | In play | — |
+| 09-28 12:33 | Challenger ATP  | Manas Dhamne | ✘ | — | — | In play | — |
+| 09-28 12:30 | TT Elite Series Match | Buczynski Witold | ✘ | — | — | In play | — |
+| 09-28 12:29 | TT Elite Series Match | Fomin Yurij | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 12:28 | ITF Women's Match | Vanja Gudelj | ✘ | — | — | In play | — |
 | 09-28 12:27 | International Friendly Game | Tie | ✔ | 64' · URU 4 - KOR 0 | — | In play | — |
-| 09-28 12:24 | International Friendly Game | Tie | ✔ | 90'+9' · VEN 1 - JPN 2 | — | In play | — |
-| 09-28 12:20 | International Friendly Game | Venezuela | ✔ | 90'+4' · VEN 1 - JPN 1 | — | In play | — |
+| 09-28 12:24 | International Friendly Game | Tie | ✔ | 90'+9' · VEN 1 - JPN 2 | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 12:20 | International Friendly Game | Venezuela | ✔ | 90'+4' · VEN 1 - JPN 1 | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 12:16 | ITF Men's Match | Iulius Maximus Stoica | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 09-28 12:15 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 12:13 | ITF Men's Match | Aleksander Chayka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -161,11 +167,6 @@
 | 09-28 11:46 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 11:45 | International Friendly Game | Korea Republic | ✔ | 44' · URU 2 - KOR 0 | — | In play | — |
 | 09-28 11:42 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | — | In play | — |
-| 09-28 11:41 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 11:37 | Japan NPB Game | Chiba Lotte Marines | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 11:34 | ITF Men's Match | Ethan Terblanche | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 11:29 | TT Elite Series Match | Tibor Spanik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 11:28 | ITF Men's Match | Maximilian Todorov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
