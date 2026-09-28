@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 8:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 8:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 240 finished bets | 2% | -$32.10 | -89% | -13.38¢ | -$15.40 / -$16.70 |
+| all leagues, sell at 5¢ | 242 finished bets | 2% | -$32.40 | -89% | -13.39¢ | -$15.55 / -$16.85 |
 
-*Expect **245 buys in the first 16 hours** ($36.75 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **248 buys in the first 16 hours** ($37.20 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 240 | -$32.62 | -91% |
-| all leagues, sell at 3¢ | 240 | -$32.88 | -91% |
-| all leagues, sell at 10¢ | 240 | -$34.69 | -96% |
+| all leagues, sell at 2¢ | 242 | -$32.92 | -91% |
+| all leagues, sell at 3¢ | 242 | -$33.18 | -91% |
+| all leagues, sell at 10¢ | 242 | -$34.99 | -96% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 245 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 248 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 213 | 4% | 3% | 2% | 0% | 0% | 0% |
+| Unverified | 215 | 4% | 3% | 2% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,8 +83,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 95 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 4 min |
+| TT Elite Series Match | ✘ | 96 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| Challenger ATP  | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 4 min |
 | ITF Men's Match | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ITF Women's Match | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 5 min |
@@ -137,11 +137,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-28 14:53 | TT Star Series Match | Abedinian Milad | ✘ | — | — | In play | — |
+| 09-28 14:50 | TT Elite Series Match | Piotr Chodorski | ✘ | — | — | In play | — |
+| 09-28 14:50 | ITF Men's Match | Aleksandre Shvangiradze | ✘ | — | — | In play | — |
 | 09-28 14:46 | Challenger ATP  | Wilson Leite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:45 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
+| 09-28 14:45 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:45 | Challenger ATP  | Mika Petkovic | ✘ | — | — | In play | — |
 | 09-28 14:38 | TT Elite Series Match | Waldemar Jozala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:38 | Challenger ATP  | Mathys Erhard | ✘ | — | — | In play | — |
+| 09-28 14:38 | Challenger ATP  | Mathys Erhard | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 14:37 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:34 | ITF Women's Match | Justine Bretnacher | ✘ | — | — | In play | — |
 | 09-28 14:30 | ITF Men's Match | Artur Kukasian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -164,9 +167,6 @@
 | 09-28 13:53 | Counter-Strike 2 Game | FOKUS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:51 | TT Elite Series Match | Szostok Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:48 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:47 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:45 | TT Star Series Match | Saha Sourav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:41 | ITF Women's Match | Elizabeth Jurna | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
