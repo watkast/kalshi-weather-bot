@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 12:03 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 12:14 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -40,7 +40,7 @@
 | **V1** | Original (Coinbase price, 4¢ edge, no limit per window) | 82 | 21 (26%) | 25 / 57 | 8.2 | -$37.18 | -$156.41 | -43% |
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 77 | 18 (23%) | 48 / 29 | 7.7 | -$55.90 | -$128.27 | -42% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 20 | 4 (20%) | 11 / 9 | 2.0 | -$8.62 | -$21.37 | -35% |
-| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 83% of orders | 18 | 3 (17%) | 9 / 9 | 2.0 | -$10.20 | -$39.58 | -57% |
+| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 80% of orders | 18 | 3 (17%) | 9 / 9 | 2.0 | -$10.20 | -$39.58 | -57% |
 
 *Model accuracy vs Kalshi's prices on the same 2,007 readings (excluding the final minute): V1 **+0.1%**, V2 **+0.6%**, 3-exchange price (V3/V4) **-5.0%**.*
 
