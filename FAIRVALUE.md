@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 8:03 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 8:13 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 348 | 340 | 183 (54%) | 44¢ | 52% | $286.10 | +19% | +13.9¢ |
+| 349 | 340 | 183 (54%) | 44¢ | 52% | $286.10 | +19% | +13.9¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -98,6 +98,7 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 8:08:06 AM | NEAR | UP | 6.9 min | 9¢ | 17% | 7¢ | Open | — |
 | 9/28 8:02:00 AM | SOL | DOWN | 13.0 min | 76¢ | 82% | 4¢ | Open | — |
 | 9/28 8:01:44 AM | DOGE | DOWN | 13.3 min | 76¢ | 82% | 5¢ | Open | — |
 | 9/28 8:01:22 AM | ZEC | DOWN | 13.6 min | 72¢ | 78% | 4¢ | Open | — |
@@ -122,7 +123,6 @@
 | 9/28 7:31:07 AM | BTC | DOWN | 13.9 min | 55¢ | 63% | 6¢ | ❌ Lost | -$5.68 |
 | 9/28 7:31:05 AM | SOL | DOWN | 13.9 min | 65¢ | 74% | 7¢ | ❌ Lost | -$6.66 |
 | 9/28 7:31:05 AM | HYPE | DOWN | 13.9 min | 37¢ | 63% | 24¢ | ❌ Lost | -$3.87 |
-| 9/28 7:31:05 AM | XRP | DOWN | 13.9 min | 60¢ | 78% | 16¢ | ❌ Lost | -$6.17 |
 
 ## How the model works
 
