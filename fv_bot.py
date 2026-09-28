@@ -32,6 +32,14 @@ from fifteen_bot import append_csv, asset_of, iso, norm_cdf, parse_ts, side_quot
 
 DIR = os.path.join(HERE, "fv")
 TRADES = os.path.join(DIR, "trades.csv")
+TRADES_V2 = os.path.join(DIR, "trades_v2.csv")
+
+# Version 2 (added Sep 28): trend-aware and less overconfident.
+V2_VOL_MULT = 1.25        # widen volatility 25% (crypto has fatter tails than a normal curve)
+V2_MARKET_WEIGHT = 0.5    # average our number 50/50 with Kalshi's own price
+V2_TREND_MINUTES = 30     # recent trend we assume partly continues
+V2_TREND_KEEP = 0.5       # keep half of that trend's pace for the rest of the window
+V2_TREND_CAP = 0.0005     # cap the assumed trend at 0.05% per minute
 RESULTS = os.path.join(DIR, "results.csv")
 
 CONTRACTS = 10
@@ -83,6 +91,26 @@ def fair_up(spot, strike, secs_left, sigma, window_samples):
     return min(max(norm_cdf(x / math.sqrt(var)), 0.001), 0.999)
 
 
+def fair_up_v2(spot, strike, secs_left, sigma, window_samples, trend, market_mid):
+    """V2: add the recent trend as drift, widen volatility, then blend with
+    Kalshi's price. The trend fixes V1's habit of leaning DOWN in rising markets."""
+    tau = max(secs_left, 0.5) / 60
+    drift = max(-V2_TREND_CAP, min(V2_TREND_CAP, trend)) * V2_TREND_KEEP * tau
+    sig = sigma * V2_VOL_MULT
+    if tau >= 1:
+        var = sig ** 2 * (tau - 2 / 3) + BASIS_SD ** 2
+        x = math.log(spot / strike) + drift
+    else:
+        known = statistics.fmean(window_samples) if window_samples else spot
+        expected = (1 - tau) * known + tau * spot * math.exp(drift)
+        var = sig ** 2 * tau ** 3 / 3 + BASIS_SD ** 2
+        x = math.log(expected / strike)
+    p = norm_cdf(x / math.sqrt(var))
+    if market_mid is not None and 0 < market_mid < 1:
+        p = V2_MARKET_WEIGHT * market_mid + (1 - V2_MARKET_WEIGHT) * p
+    return min(max(p, 0.001), 0.999)
+
+
 def git_save():
     """Commit this bot's data and rebuild its own dashboard page (files no
     other bot writes, so parallel runs never conflict)."""
@@ -116,6 +144,9 @@ class FairValue:
     def __init__(self):
         self.trades = load(TRADES)
         self.traded = {t["ticker"] for t in self.trades}
+        self.trades_v2 = load(TRADES_V2)
+        self.traded_v2 = {t["ticker"] for t in self.trades_v2}
+        self.trend = {}           # asset -> recent per-minute trend
         self.results = {r["ticker"]: r for r in load(RESULTS)}
         self.assets = {}          # series -> asset (with Coinbase feed)
         self.markets = {}         # ticker -> meta
@@ -168,6 +199,8 @@ class FairValue:
             rows = sorted(r.json(), key=lambda c: c[0])[-61:]
             closes = [float(c[4]) for c in rows]
             rets = [math.log(b / a) for a, b in zip(closes, closes[1:]) if a > 0 and b > 0]
+            if len(rets) >= V2_TREND_MINUTES:
+                self.trend[asset] = sum(rets[-V2_TREND_MINUTES:]) / V2_TREND_MINUTES
             s60 = statistics.pstdev(rets) if len(rets) > 20 else None
             s15 = statistics.pstdev(rets[-15:]) if len(rets) >= 15 else s60
             sig = math.sqrt(0.5 * s60 ** 2 + 0.5 * s15 ** 2) if s60 else None
@@ -218,20 +251,24 @@ class FairValue:
                 continue
             window = [p for t, p in self.samples.get(a, []) if t >= meta["close"] - timedelta(seconds=60)]
             p_up = fair_up(spot[a], meta["strike"], secs_left, sig, window)
+            ybid, yask = price(m, "yes_bid"), price(m, "yes_ask")
+            mkt_mid = (ybid + yask) / 2 if ybid is not None and yask is not None and yask > 0 else None
+            p_up2 = fair_up_v2(spot[a], meta["strike"], secs_left, sig, window,
+                               self.trend.get(a, 0.0), mkt_mid)
 
             # Shadow log for model-vs-market accuracy.
             if time.time() - self.last_obs.get(ticker, 0) >= OBS_SECONDS:
                 self.obs.append({"time": iso(now), "ticker": ticker, "asset": a,
                                  "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}",
                                  "strike": meta["strike"], "sigma_pct": f"{sig * 100:.4f}",
-                                 "model_up": f"{p_up:.4f}",
+                                 "model_up": f"{p_up:.4f}", "model_up_v2": f"{p_up2:.4f}",
                                  "yes_bid": f"{price(m, 'yes_bid') or 0:.2f}",
                                  "yes_ask": f"{price(m, 'yes_ask') or 0:.2f}"})
                 self.last_obs[ticker] = time.time()
                 self.seen[ticker] = meta["close"]
 
             # Early skill check: our side's mid 3 minutes after buying (or 60s before close).
-            for t in self.trades:
+            for t in self.trades + self.trades_v2:
                 bought = parse_ts(t["time"]) if t["ticker"] == ticker else None
                 if bought and t["status"] == "open" and not t.get("mid_at_60s") and \
                         ((now - bought).total_seconds() >= 180 or secs_left <= 60):
@@ -241,34 +278,38 @@ class FairValue:
                         t["mid_at_60s"] = f"{mid:.3f}"
                         t["clv"] = f"{mid - float(t['price']):.3f}"
 
-            if not self.accept_new or ticker in self.traded or not (MIN_SECS <= secs_left <= MAX_SECS):
+            if not self.accept_new or not (MIN_SECS <= secs_left <= MAX_SECS):
                 continue
-            for side, p in (("yes", p_up), ("no", 1 - p_up)):
-                _, ask = side_quote(m, side)
-                if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
+            gap = (spot[a] - meta["strike"]) / meta["strike"] * 100
+            for book, done, pu, tag in ((self.trades, self.traded, p_up, "V1"),
+                                        (self.trades_v2, self.traded_v2, p_up2, "V2")):
+                if ticker in done:
                     continue
-                fee = fee_per_contract(ask, CONTRACTS)
-                edge = p - ask - fee
-                if edge < EDGE:
-                    continue
-                self.signals += 1
-                depth = depth_at_ask(ticker, side, ask)
-                gap = (spot[a] - meta["strike"]) / meta["strike"] * 100
-                self.trades.append({
-                    "time": iso(now), "ticker": ticker, "asset": a, "side": side,
-                    "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}", "strike": meta["strike"],
-                    "gap_pct": f"{gap:.4f}", "sigma_pct": f"{sig * 100:.4f}", "model_p": f"{p:.4f}",
-                    "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
-                    "contracts": CONTRACTS, "status": "open",
-                    "depth_at_ask": f"{depth:.0f}" if depth is not None else ""})
-                self.traded.add(ticker)
-                print(f"BUY {CONTRACTS} {'UP' if side == 'yes' else 'DOWN'} {ticker} @ {ask:.2f} "
-                      f"model {p:.1%} edge {edge * 100:.1f}c, {secs_left:.0f}s left")
-                break
+                for side, p in (("yes", pu), ("no", 1 - pu)):
+                    _, ask = side_quote(m, side)
+                    if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
+                        continue
+                    fee = fee_per_contract(ask, CONTRACTS)
+                    edge = p - ask - fee
+                    if edge < EDGE:
+                        continue
+                    self.signals += 1
+                    depth = depth_at_ask(ticker, side, ask)
+                    book.append({
+                        "time": iso(now), "ticker": ticker, "asset": a, "side": side,
+                        "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}", "strike": meta["strike"],
+                        "gap_pct": f"{gap:.4f}", "sigma_pct": f"{sig * 100:.4f}", "model_p": f"{p:.4f}",
+                        "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
+                        "contracts": CONTRACTS, "status": "open",
+                        "depth_at_ask": f"{depth:.0f}" if depth is not None else ""})
+                    done.add(ticker)
+                    print(f"{tag} BUY {CONTRACTS} {'UP' if side == 'yes' else 'DOWN'} {ticker} @ {ask:.2f} "
+                          f"model {p:.1%} edge {edge * 100:.1f}c, {secs_left:.0f}s left")
+                    break
 
     def settle(self):
         now = now_utc()
-        pending = {t["ticker"] for t in self.trades if t["status"] == "open"} | set(self.seen)
+        pending = {t["ticker"] for t in self.trades + self.trades_v2 if t["status"] == "open"} | set(self.seen)
         for ticker in list(pending):
             if ticker in self.results:
                 self.seen.pop(ticker, None)
@@ -276,7 +317,7 @@ class FairValue:
             meta = self.markets.get(ticker)
             close = meta["close"] if meta else self.seen.get(ticker)
             if close is None:
-                t = next((t for t in self.trades if t["ticker"] == ticker), None)
+                t = next((t for t in self.trades + self.trades_v2 if t["ticker"] == ticker), None)
                 if not t:
                     continue
                 close = parse_ts(t["time"]) + timedelta(seconds=float(t["secs_left"]))
@@ -289,7 +330,7 @@ class FairValue:
                 continue
             if m.get("result") in ("yes", "no"):
                 self.results[ticker] = {"ticker": ticker, "result": m["result"], "close_time": iso(close)}
-        for t in self.trades:
+        for t in self.trades + self.trades_v2:
             r = self.results.get(t["ticker"])
             if t["status"] == "open" and r:
                 n = int(t["contracts"])
@@ -303,12 +344,14 @@ class FairValue:
             by_day.setdefault(o["time"][:10], []).append(o)
         for day, rows in by_day.items():
             append_csv(os.path.join(DIR, "obs", f"{day}.csv"), rows, OBS_FIELDS)
+            append_csv(os.path.join(DIR, "obs_v2", f"{day}.csv"), rows, ["time", "ticker", "model_up_v2"])
         self.obs = []
         write_csv(TRADES, self.trades, TRADE_FIELDS)
+        write_csv(TRADES_V2, self.trades_v2, TRADE_FIELDS)
         write_csv(RESULTS, list(self.results.values()), RESULT_FIELDS)
         with open(os.path.join(DIR, "status.json"), "w") as fh:
             json.dump({"saved_at": iso(now_utc()), "assets": sorted(set(self.assets.values())),
-                       "markets": len(self.markets), "trades": len(self.trades),
+                       "markets": len(self.markets), "trades": len(self.trades), "trades_v2": len(self.trades_v2),
                        "open": sum(1 for t in self.trades if t["status"] == "open"),
                        "results_known": len(self.results),
                        "sigma_pct": {a: round(s * 100, 4) for a, (_, s) in self.sigma.items()},
@@ -343,7 +386,7 @@ def main():
         time.sleep(max(0.2, POLL_SECONDS - (time.time() - start)))
     fv.accept_new = False
     deadline = time.time() + 20 * 60
-    while any(t["status"] == "open" for t in fv.trades) and time.time() < deadline:
+    while any(t["status"] == "open" for t in fv.trades + fv.trades_v2) and time.time() < deadline:
         try:
             fv.poll()
             fv.settle()

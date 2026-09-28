@@ -276,6 +276,38 @@ def main():
                "average price paid. \"Price move 3 min after buying\" shows whether the market moved toward the "
                "model's number soon after we bought — an early sign of real skill.*", ""]
 
+    # ---------------- V1 vs V2
+    v2 = load(os.path.join(DIR, "trades_v2.csv"))
+    v2_obs = {}
+    for path in glob.glob(os.path.join(DIR, "obs_v2", "*.csv")):
+        for o in load(path):
+            v2_obs[(o["time"], o["ticker"])] = f(o["model_up_v2"])
+    if v2 or v2_obs:
+        start = min((t["time"] for t in v2), default=None)
+        v1_same = [t for t in settled if start and t["time"] >= start]
+        v2_set = [t for t in v2 if t["status"] == "settled"]
+        rows = []
+        for name, g in (("V1 — original", v1_same), ("V2 — trend-aware", v2_set)):
+            sm = summary(g) if g else None
+            ups = sum(1 for t in g if t["side"] == "yes")
+            rows.append([name, len(g), f"{sm['wins']} ({pct(sm['wins'], sm['n'])})" if sm else "—",
+                         f"{ups} / {len(g) - ups}", money(sm["pnl"]) if sm else "—",
+                         f"{sm['ret']:+.0%}" if sm else "—"])
+        acc = []
+        pairs = [(o, results[o["ticker"]]) for o in obs
+                 if (o["time"], o["ticker"]) in v2_obs and results.get(o["ticker"]) in ("yes", "no")
+                 and f(o["secs_left"], 0) >= 60]
+        if pairs:
+            mk = sum(logloss((f(o["yes_bid"], 0) + f(o["yes_ask"], 0)) / 2 or 0.5, r == "yes") for o, r in pairs)
+            s1 = 1 - sum(logloss(f(o["model_up"]), r == "yes") for o, r in pairs) / mk
+            s2 = 1 - sum(logloss(v2_obs[(o["time"], o["ticker"])], r == "yes") for o, r in pairs) / mk
+            acc = [f"*Accuracy vs Kalshi's prices on the same {len(pairs):,} readings (excluding the final minute, "
+                   f"where the bots don't trade): **V1 {s1:+.1%}**, **V2 {s2:+.1%}**.*", ""]
+        md += ["## V1 vs V2 (head to head, same windows)", "",
+               "*V2 adds the last 30 minutes' trend, allows for bigger price swings, and averages its number "
+               "50/50 with Kalshi's price. Same 4¢ edge rule and 10 contracts. Compared only from when V2 started.*", "",
+               table(["Version", "Settled trades", "Won", "Bought UP / DOWN", "P&L", "Return"], rows), ""] + acc
+
     # ---------------- fill check
     checked = [t for t in settled if f(t.get("depth_at_ask")) is not None]
     if checked:
