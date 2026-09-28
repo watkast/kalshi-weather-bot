@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 3:46 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 3:56 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 613 | 612 | 323 (53%) | 45¢ | 53% | $408.38 | +14% | +9.7¢ |
+| 621 | 612 | 323 (53%) | 45¢ | 53% | $408.38 | +14% | +9.7¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -41,7 +41,7 @@
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 187 | 67 (36%) | 85 / 102 | 7.5 | -$55.90 | -$87.43 | -12% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 45 | 11 (24%) | 18 / 27 | 2.0 | -$11.65 | -$38.53 | -26% |
 | **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 73% of orders | 47 | 18 (38%) | 16 / 31 | 2.0 | -$13.69 | -$32.79 | -15% |
-| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 3 | 2 (67%) | 1 / 2 | 1.5 | -$0.34 | $6.06 | +52% |
+| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 4 | 3 (75%) | 1 / 3 | 1.3 | -$0.34 | $9.10 | +52% |
 
 *Model accuracy vs Kalshi's prices on the same 5,099 readings (excluding the final minute): V1 **+5.5%**, V2 **+5.4%**, 3-exchange price (V3/V4) **+3.3%**.*
 
@@ -124,6 +124,14 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 3:50:50 PM | ETH | DOWN | 9.2 min | 77¢ | 85% | 6¢ | Open | — |
+| 9/28 3:50:17 PM | NEAR | DOWN | 9.7 min | 57¢ | 65% | 6¢ | Open | — |
+| 9/28 3:48:38 PM | BTC | DOWN | 11.4 min | 62¢ | 68% | 4¢ | Open | — |
+| 9/28 3:48:38 PM | XRP | DOWN | 11.4 min | 82¢ | 89% | 6¢ | Open | — |
+| 9/28 3:47:22 PM | DOGE | DOWN | 12.6 min | 72¢ | 81% | 8¢ | Open | — |
+| 9/28 3:47:08 PM | SOL | UP | 12.8 min | 24¢ | 32% | 7¢ | Open | — |
+| 9/28 3:47:01 PM | HYPE | UP | 13.0 min | 27¢ | 39% | 10¢ | Open | — |
+| 9/28 3:46:47 PM | BNB | UP | 13.2 min | 39¢ | 55% | 14¢ | Open | — |
 | 9/28 3:46:15 PM | ZEC | UP | 13.8 min | 36¢ | 47% | 10¢ | Open | — |
 | 9/28 3:39:36 PM | SOL | UP | 5.4 min | 12¢ | 18% | 5¢ | ❌ Lost | -$1.28 |
 | 9/28 3:36:51 PM | BTC | UP | 8.1 min | 59¢ | 65% | 4¢ | ❌ Lost | -$6.07 |
@@ -141,14 +149,6 @@
 | 9/28 3:17:48 PM | BNB | UP | 12.2 min | 18¢ | 26% | 7¢ | ❌ Lost | -$1.91 |
 | 9/28 3:17:18 PM | HYPE | DOWN | 12.7 min | 82¢ | 89% | 6¢ | ✅ Won | $1.65 |
 | 9/28 3:17:10 PM | ETH | UP | 12.8 min | 28¢ | 34% | 4¢ | ❌ Lost | -$2.95 |
-| 9/28 3:01:22 PM | SOL | DOWN | 13.6 min | 17¢ | 22% | 4¢ | ✅ Won | $8.20 |
-| 9/28 3:01:22 PM | BTC | UP | 13.6 min | 74¢ | 80% | 4¢ | ✅ Won | $2.46 |
-| 9/28 3:01:14 PM | BNB | DOWN | 13.8 min | 22¢ | 41% | 18¢ | ✅ Won | $7.67 |
-| 9/28 3:01:14 PM | HYPE | DOWN | 13.8 min | 24¢ | 33% | 7¢ | ✅ Won | $7.47 |
-| 9/28 2:48:01 PM | BNB | UP | 12.0 min | 34¢ | 40% | 5¢ | ✅ Won | $6.44 |
-| 9/28 2:46:58 PM | SOL | DOWN | 13.0 min | 46¢ | 53% | 6¢ | ❌ Lost | -$4.78 |
-| 9/28 2:46:58 PM | HYPE | DOWN | 13.0 min | 37¢ | 48% | 9¢ | ❌ Lost | -$3.87 |
-| 9/28 2:46:58 PM | XRP | DOWN | 13.0 min | 48¢ | 55% | 5¢ | ❌ Lost | -$4.98 |
 
 ## How the model works
 
