@@ -217,10 +217,17 @@ def main():
     live = summary(settled) if settled else None
 
     md += ["## Current strategy", ""]
-    if best_th is None and not live:
-        md += ["⏳ **Collecting data.** The first results appear once a few windows settle.", ""]
+    if best_th is None:
+        n = len(settled)
+        md += [f"⏳ **Too early to call.** {n} settled trades so far — a verdict needs at least "
+               f"{MIN_TRADES}, spread over many 15-minute windows (coins tend to move together, so "
+               "trades in the same window aren't independent).", ""]
+        rows = [[f"{th * 100:.0f}¢+" + (" ← live bot" if th == LIVE_EDGE else ""), bt[th]["n"],
+                 money(bt[th]["pnl"]), f"{bt[th]['ret']:+.0%}"] for th in THRESHOLDS]
+        md += ["**Edge thresholds so far** (replayed from the 30-second shadow log)", "",
+               table(["Buy when edge is", "Trades", "P&L", "Return"], rows), ""]
     else:
-        b = trusted.get(best_th) if best_th is not None else None
+        b = trusted.get(best_th)
         if b and b["pnl"] > 0 and b["halves"][0] > 0 and b["halves"][1] > 0 and (skill or 0) > 0:
             verdict = (f"🟢 **Trade small.** Buying when the edge is **{best_th * 100:.0f}¢+** made money in "
                        "both halves of the data, and the model predicts better than Kalshi's prices.")
@@ -249,13 +256,13 @@ def main():
         clv = [f(t["clv"]) for t in settled if f(t.get("clv")) is not None]
         md += ["## Live bot results", "",
                table(["Trades", "Settled", "Won", "Avg price paid", "Model's avg chance", "P&L", "Return",
-                      "Avg price move by 60s left"],
+                      "Avg price move 3 min after buying"],
                      [[len(trades), live["n"], f"{live['wins']} ({pct(live['wins'], live['n'])})",
                        f"{live['avg_price'] * 100:.0f}¢", f"{live['avg_model']:.0%}", money(live["pnl"]),
                        f"{live['ret']:+.0%}", f"{statistics.fmean(clv) * 100:+.1f}¢" if clv else "—"]]), "",
                "*If the model is right, the win rate should land near the model's average chance, above the "
-               "average price paid. \"Price move by 60s left\" is how our side's price moved after we bought — "
-               "positive means the market came around to the model (an early sign of real skill).*", ""]
+               "average price paid. \"Price move 3 min after buying\" shows whether the market moved toward the "
+               "model's number soon after we bought — an early sign of real skill.*", ""]
 
     # ---------------- model accuracy
     md += ["## Does the model beat the market?", ""]

@@ -216,9 +216,11 @@ class FairValue:
                 self.last_obs[ticker] = time.time()
                 self.seen[ticker] = meta["close"]
 
-            # Closing-line value for open trades: our side's mid 60s before close.
+            # Early skill check: our side's mid 3 minutes after buying (or 60s before close).
             for t in self.trades:
-                if t["ticker"] == ticker and t["status"] == "open" and not t.get("mid_at_60s") and secs_left <= 60:
+                bought = parse_ts(t["time"]) if t["ticker"] == ticker else None
+                if bought and t["status"] == "open" and not t.get("mid_at_60s") and \
+                        ((now - bought).total_seconds() >= 180 or secs_left <= 60):
                     bid, ask = side_quote(m, t["side"])
                     if bid is not None and ask is not None:
                         mid = (bid + ask) / 2
