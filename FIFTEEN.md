@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Sep 28, 4:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Sep 28, 4:11 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1147 | 1141 | 7 (1%) | 1.07% | -$40.00 (-29%) | Hold to the close: -$40.00 (-29%) |
+| 1152 | 1141 | 7 (1%) | 1.07% | -$40.00 (-29%) | Hold to the close: -$40.00 (-29%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/28 4:11:39 PM | WTI | UP | 3.4 min | — | — | In play | — |
+| 9/28 4:11:39 PM | ZEC | UP | 3.4 min | -0.605% | — | In play | — |
+| 9/28 4:11:39 PM | EURUSD | DOWN | 3.4 min | — | — | In play | — |
+| 9/28 4:11:24 PM | DOGE | UP | 3.6 min | -0.649% | — | In play | — |
+| 9/28 4:11:24 PM | BNB | UP | 3.6 min | -0.276% | — | In play | — |
 | 9/28 3:59:47 PM | SILVER | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/28 3:59:32 PM | ZEC | DOWN | 27 sec | +0.127% | 0¢ | ❌ Lost | $0.00 |
 | 9/28 3:58:44 PM | NEAR | UP | 76 sec | -0.372% | 0¢ | ❌ Lost | -$0.15 |
@@ -205,11 +210,6 @@
 | 9/28 3:29:51 PM | SILVER | UP | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/28 3:29:05 PM | NEAR | UP | 55 sec | -0.346% | 0¢ | ❌ Lost | -$0.15 |
 | 9/28 3:28:49 PM | NATGAS | DOWN | 71 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/28 3:28:34 PM | ZEC | UP | 86 sec | -0.475% | 1¢ | ❌ Lost | -$0.15 |
-| 9/28 3:28:18 PM | COPPER | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/28 3:27:15 PM | XRP | UP | 2.7 min | -0.321% | 14¢ | ❌ Lost | -$0.15 |
-| 9/28 3:27:15 PM | DOGE | UP | 2.7 min | -0.427% | 0¢ | ❌ Lost | $0.00 |
-| 9/28 3:26:59 PM | HYPE | UP | 3.0 min | -0.404% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
