@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 2:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 2:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 44 finished bets | 16% | -$4.78 | -72% | -10.86¢ | -$2.26 / -$2.52 |
+| ESPN-verified leagues only, sell at 2¢ | 46 finished bets | 17% | -$4.82 | -70% | -10.48¢ | -$2.41 / -$2.41 |
 
-*Expect **46 buys in the first 22 hours** ($6.90 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect **47 buys in the first 22 hours** ($7.05 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 44 | -$5.30 | -80% |
-| ESPN-verified leagues only, sell at 3¢ | 44 | -$5.43 | -82% |
-| ESPN-verified leagues only, hold to the end | 44 | -$6.60 | -100% |
+| ESPN-verified leagues only, sell at 5¢ | 46 | -$4.95 | -72% |
+| ESPN-verified leagues only, sell at 3¢ | 46 | -$5.34 | -77% |
+| ESPN-verified leagues only, sell at 10¢ | 46 | -$5.59 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 429 | 44 | 0 (0%) | 1.1% | -$6.60 (-100%) | Sell at 2¢: -$4.78 (-72%) |
+| 432 | 46 | 0 (0%) | 1.1% | -$6.90 (-100%) | Sell at 2¢: -$4.82 (-70%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -60,8 +60,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 44 | 16% | 7% | 5% | 0% | 0% | 0% |
-| Unverified | 375 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 46 | 17% | 9% | 7% | 2% | 0% | 0% |
+| Unverified | 381 | 4% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -69,13 +69,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$6.60 | -100% |
-| Sell at 2¢ | 7 | 16% | -$4.78 | -72% |
-| Sell at 3¢ | 3 | 7% | -$5.43 | -82% |
-| Sell at 5¢ | 2 | 5% | -$5.30 | -80% |
-| Sell at 10¢ | 0 | 0% | -$6.60 | -100% |
-| Sell at 25¢ | 0 | 0% | -$6.60 | -100% |
-| Sell at 50¢ | 0 | 0% | -$6.60 | -100% |
+| Hold to the end | 0 | 0% | -$6.90 | -100% |
+| Sell at 2¢ | 8 | 17% | -$4.82 | -70% |
+| Sell at 3¢ | 4 | 9% | -$5.34 | -77% |
+| Sell at 5¢ | 3 | 7% | -$4.95 | -72% |
+| Sell at 10¢ | 1 | 2% | -$5.59 | -81% |
+| Sell at 25¢ | 0 | 0% | -$6.90 | -100% |
+| Sell at 50¢ | 0 | 0% | -$6.90 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -83,15 +83,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 158 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| Challenger ATP  | ✘ | 36 | 0 | 6% | 0% | -100% | -90% | 4 min |
-| Counter-Strike 2 Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 13 min |
+| TT Elite Series Match | ✘ | 161 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
+| Counter-Strike 2 Game | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 12 min |
 | ITF Women's Match | ✘ | 22 | 0 | 9% | 9% | -100% | -84% | 4 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | TT Star Series Match | ✘ | 19 | 1 | 5% | 5% | +391% | -91% | 6 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
-| UEFA Nations League Game | ✔ | 15 | 0 | 13% | 0% | -100% | -77% | 5 min |
-| CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
+| UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
+| CONCACAF Nations League Game | ✔ | 9 | 0 | 22% | 11% | -100% | -61% | 19 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -103,8 +103,8 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
+| R6 Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| R6 Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -124,8 +124,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 17 | 0% | 0% | 0% | -100% |
-| 5–15 min | 12 | 25% | 0% | 0% | -57% |
+| Under 5 min | 18 | 0% | 0% | 0% | -100% |
+| 5–15 min | 13 | 31% | 8% | 0% | -47% |
 | 15–30 min | 6 | 17% | 17% | 0% | -71% |
 | 30–60 min | 4 | 75% | 25% | 0% | +30% |
 | Over 60 min | 5 | 0% | 0% | 0% | -100% |
@@ -146,18 +146,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 20:45 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | — | In play | — |
-| 09-28 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 87' · BRB 2 - GDL 1 | — | In play | — |
-| 09-28 20:44 | TT Elite Series Match | Jakub Glanowski | ✘ | — | — | In play | — |
-| 09-28 20:44 | Counter-Strike 2 Game | DFX Peek | ✘ | — | — | In play | — |
-| 09-28 20:43 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
-| 09-28 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+3' · FRA 1 - BEL 0 | — | In play | — |
-| 09-28 20:41 | R6 Game | Twisted Minds | ✘ | — | — | In play | — |
+| 09-28 20:57 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
+| 09-28 20:51 | Men's T20 Cricket Match | San Diego Surf Riders | ✘ | — | — | In play | — |
+| 09-28 20:51 | CONCACAF Nations League Game | Barbados | ✔ | 90'+3' · BRB 2 - GDL 2 | — | In play | — |
+| 09-28 20:45 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 87' · BRB 2 - GDL 1 | 11¢ | ❌ Lost | -$0.15 |
+| 09-28 20:44 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:44 | Counter-Strike 2 Game | DFX Peek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:43 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+3' · FRA 1 - BEL 0 | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:41 | R6 Game | Twisted Minds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:40 | TT Star Series Match | Seibert Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:40 | UEFA Nations League Game | Northern Ireland | ✔ | 90'+4' · HUN 0 - NIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:39 | UEFA Nations League Game | Hungary | ✔ | 90'+4' · HUN 0 - NIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:39 | TT Elite Series Match | Dawid Dytko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:39 | Challenger ATP  | Blaise Bicknell | ✘ | — | — | In play | — |
+| 09-28 20:39 | Challenger ATP  | Blaise Bicknell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:38 | Challenger ATP  | Tyler Zink | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:37 | UEFA Nations League Game | Belgium | ✔ | 88' · FRA 0 - BEL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:30 | UEFA Nations League Game | Tie | ✔ | 85' · POL 1 - SWE 3 | 0¢ | ❌ Lost | -$0.15 |
@@ -173,9 +176,6 @@
 | 09-28 20:15 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:13 | UEFA Nations League Game | Tie | ✔ | 70' · ITA 4 - TUR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:09 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:08 | ITF Women's Match | Krisha Mahendran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:04 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:03 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
