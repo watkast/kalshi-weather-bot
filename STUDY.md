@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 5:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 49 finished bets | 18% | -$5.01 | -68% | -10.22¢ | -$2.56 / -$2.45 |
 
-*Expect about **49 buys a day**, roughly **$7.29/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **49 buys a day**, roughly **$7.39/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 479 | 49 | 0 (0%) | 1.1% | -$7.35 (-100%) | Sell at 2¢: -$5.01 (-68%) |
+| 483 | 49 | 0 (0%) | 1.1% | -$7.35 (-100%) | Sell at 2¢: -$5.01 (-68%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 49 | 18% | 8% | 6% | 2% | 0% | 0% |
-| Unverified | 427 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 428 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 190 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 191 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 35 | 0 | 6% | 3% | -100% | -90% | 12 min |
 | ITF Women's Match | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 4 min |
@@ -147,6 +147,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-28 23:42 | TT Elite Series Match | Jacek Mitas | ✘ | — | — | In play | — |
+| 09-28 23:40 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
+| 09-28 23:37 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 23:34 | CONCACAF Nations League Game | Tie | ✔ | 77' · MTQ 0 - SUR 2 | — | In play | — |
 | 09-28 23:31 | ITF Women's Match | Anne Christine Lutkemeyer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:27 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:26 | CONCACAF Nations League Game | Martinique | ✔ | 69' · MTQ 0 - SUR 1 | — | In play | — |
@@ -173,10 +177,6 @@
 | 09-28 22:07 | TT Star Series Match | Zelinka Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:06 | ITF Women's Match | Martina Okalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:06 | CONCACAF Nations League Game | Bonaire | ✔ | 49' · BOE 0 - CUB 1 | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:06 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:02 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:02 | TT Elite Series Match | Jakub Cyndera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 21:58 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
