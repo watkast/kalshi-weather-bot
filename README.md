@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Mon Sep 28, 3:16 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Mon Sep 28, 3:20 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -12,9 +12,9 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 35 | 0 | — | — | — | 35 | Too early |
+| **Temperature** | 36 | 0 | — | — | — | 36 | Too early |
 | **Rain** | 14 | 0 | — | — | — | 14 | Too early |
-| **Longshot fade** | 753 | 424 | 91% | -$136.07 | -3.4% | 329 | Losing |
+| **Longshot fade** | 793 | 424 | 91% | -$136.07 | -3.4% | 369 | Losing |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -22,12 +22,12 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 339 | 138 | 94% | -$1.21 | -0.1% |
+| Other | 357 | 138 | 94% | -$1.21 | -0.1% |
 | NFL | 211 | 197 | 89% | -$111.92 | -6.0% |
-| Weather | 62 | 9 | 100% | $4.50 | +5.3% |
-| MLB | 51 | 48 | 94% | -$4.39 | -1.0% |
-| College football | 34 | 0 | — | — | — |
-| Crypto | 29 | 12 | 100% | $6.03 | +5.3% |
+| Weather | 68 | 9 | 100% | $4.50 | +5.3% |
+| MLB | 52 | 48 | 94% | -$4.39 | -1.0% |
+| College football | 45 | 0 | — | — | — |
+| Crypto | 33 | 12 | 100% | $6.03 | +5.3% |
 | Soccer | 25 | 18 | 78% | -$30.15 | -17.7% |
 | NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 
@@ -35,6 +35,7 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-09-29 | DEN 69-70 | NO | 77¢ | 86% | Open | — |
 | 2026-09-29 | DEN >72 | NO | 83¢ | 98% | Open | — |
 | 2026-09-29 | MIA <83 | NO | 82¢ | 93% | Open | — |
 | 2026-09-29 | PHIL 77-78 | NO | 74¢ | 86% | Open | — |
@@ -44,7 +45,6 @@
 | 2026-09-29 | DEN <65 | YES | 19¢ | 31% | Open | — |
 | 2026-09-29 | MIA 89-90 | YES | 7¢ | 19% | Open | — |
 | 2026-09-29 | CHI 76-77 | NO | 56¢ | 74% | Open | — |
-| 2026-09-29 | CHI 78-79 | NO | 64¢ | 77% | Open | — |
 
 ## Latest rain bets
 
