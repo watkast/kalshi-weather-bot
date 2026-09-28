@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 7:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 7:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 202 finished bets | 3% | -$26.40 | -87% | -13.07¢ | -$12.55 / -$13.85 |
+| all leagues, sell at 5¢ | 204 finished bets | 3% | -$26.70 | -87% | -13.09¢ | -$12.70 / -$14.00 |
 
-*Expect **206 buys in the first 15 hours** ($30.90 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **212 buys in the first 15 hours** ($31.80 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 202 | -$27.18 | -90% |
-| all leagues, sell at 3¢ | 202 | -$27.57 | -91% |
-| all leagues, sell at 10¢ | 202 | -$28.99 | -96% |
+| all leagues, sell at 2¢ | 204 | -$27.48 | -90% |
+| all leagues, sell at 3¢ | 204 | -$27.87 | -91% |
+| all leagues, sell at 10¢ | 204 | -$29.29 | -96% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 206 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 212 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 175 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 177 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -84,11 +84,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 80 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 4 min |
+| Challenger ATP  | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 4 min |
 | ITF Men's Match | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 4 min |
 | Counter-Strike 2 Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| ITF Women's Match | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 5 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
-| ITF Women's Match | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 4 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 2 min |
 | Challenger WTA | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -125,7 +125,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 3 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -137,8 +137,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 13:13 | ITF Women's Match | Lea Fojcik | ✘ | — | — | In play | — |
-| 09-28 13:10 | Challenger ATP  | Benjamin Bonzi | ✘ | — | — | In play | — |
+| 09-28 13:27 | Men's T20 Cricket Match | Rishikesh Falcons | ✘ | — | — | In play | — |
+| 09-28 13:27 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 09-28 13:25 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | — | In play | — |
+| 09-28 13:24 | TT Elite Series Match | Igor Szymanski | ✘ | — | — | In play | — |
+| 09-28 13:23 | ATP Tennis Match | Roman Safiullin | ✘ | — | — | In play | — |
+| 09-28 13:20 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | — | In play | — |
+| 09-28 13:13 | ITF Women's Match | Lea Fojcik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 13:10 | Challenger ATP  | Benjamin Bonzi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:06 | Challenger ATP  | Matteo Sciahbasi | ✘ | — | — | In play | — |
 | 09-28 13:05 | ITF Women's Match | Lilian Poling | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:03 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -161,12 +167,6 @@
 | 09-28 12:29 | TT Elite Series Match | Fomin Yurij | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 12:28 | ITF Women's Match | Vanja Gudelj | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
 | 09-28 12:27 | International Friendly Game | Tie | ✔ | 64' · URU 4 - KOR 0 | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 12:24 | International Friendly Game | Tie | ✔ | 90'+9' · VEN 1 - JPN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:20 | International Friendly Game | Venezuela | ✔ | 90'+4' · VEN 1 - JPN 1 | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 12:16 | ITF Men's Match | Iulius Maximus Stoica | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 09-28 12:15 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:13 | ITF Men's Match | Aleksander Chayka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:11 | TT Star Series Match | Buben Vlastimil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
