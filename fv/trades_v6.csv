@@ -1,0 +1,1 @@
+time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,quoted,window,sources,placed_at,filled_at,trend_aligned,exit_price,exit_at

@@ -1,0 +1,2 @@
+time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,quoted,window,sources,placed_at,filled_at,trend_aligned,exit_price,exit_at
+2026-09-28T21:20:17+00:00,KXZEC15M-26SEP281730-30,ZEC,no,582,1458.79,1457.4765,0.0901,0.1418,0.4164,0.2500,0.0140,0.1524,10,open,,,0.490,0.240,99791,0.34,26SEP281730,3,,,yes,,
