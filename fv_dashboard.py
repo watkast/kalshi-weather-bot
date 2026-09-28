@@ -168,6 +168,56 @@ def charts(settled, cal_rows):
     return made
 
 
+VERSION_COLORS = {"V1": "#2a78d6", "V2": "#eb6834", "V3": "#1baf7a", "V4": "#eda100"}
+
+
+def versions_chart(groups):
+    """Two line charts sharing the 0-15 minute axis: trades placed and P&L,
+    by the minute of the 15-minute window each trade was entered."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+    except ImportError:
+        return None
+    os.makedirs(CHARTS, exist_ok=True)
+    plt.rcParams.update({"font.size": 11, "axes.edgecolor": GRID, "axes.labelcolor": INK2,
+                         "xtick.color": INK2, "ytick.color": INK2, "text.color": INK,
+                         "axes.spines.top": False, "axes.spines.right": False})
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 7), dpi=150, sharex=True)
+    fig.patch.set_facecolor(SURFACE)
+    xs = list(range(15))
+    for ax, title in ((ax1, "Trades entered, by minute of the 15-minute window"),
+                      (ax2, "P&L of those trades, by minute entered")):
+        ax.set_facecolor(SURFACE)
+        ax.grid(axis="y", color=GRID, linewidth=0.8)
+        ax.set_axisbelow(True)
+        ax.set_title(title, loc="left", fontsize=12, color=INK, pad=10)
+    ax2.axhline(0, color=INK2, linewidth=1)
+    for v, g in groups.items():
+        if not g:
+            continue
+        counts, pnls = [0] * 15, [0.0] * 15
+        for t in g:
+            m = min(14, max(0, int(15 - f(t["secs_left"], 0) / 60)))
+            counts[m] += 1
+            pnls[m] += pnl(t)
+        color = VERSION_COLORS[v]
+        ax1.plot(xs, counts, color=color, linewidth=2, marker="o", markersize=4, label=v)
+        ax2.plot(xs, pnls, color=color, linewidth=2, marker="o", markersize=4, label=v)
+    from matplotlib.ticker import MaxNLocator
+    ax1.yaxis.set_major_locator(MaxNLocator(integer=True))
+    ax1.set_ylabel("Trades")
+    ax2.set_ylabel("P&L ($)")
+    ax2.set_xlabel("Minutes into the window (0 = window opens, 15 = it settles)")
+    ax2.set_xticks(xs + [15])
+    ax1.legend(frameon=False, loc="upper right", ncol=4)
+    fig.tight_layout()
+    fig.savefig(os.path.join(CHARTS, "versions.png"), facecolor=SURFACE)
+    plt.close(fig)
+    return "versions.png"
+
+
 def bucket_rows(settled, key, buckets):
     rows = []
     for lo, hi, label in buckets:
@@ -328,12 +378,18 @@ def main():
                     ([f"3-exchange price (V3/V4) **{s3:+.1%}**"] if s3 is not None else [])
             acc = [f"*Model accuracy vs Kalshi's prices on the same {len(pairs):,} readings "
                    f"(excluding the final minute): {', '.join(parts)}.*", ""]
+        in_range = {v: [t for t in g if t["time"] >= start and t["status"] == "settled"] for v, g in books.items()}
+        chart = versions_chart(in_range)
         md += ["## Versions head to head", "",
                f"*All four run side by side on the same markets, compared from when all of them were running "
                f"({datetime.fromisoformat(start).astimezone(MT).strftime('%-m/%-d %-I:%M %p')} MT). "
                "10 contracts per trade.*", "",
                table(["", "What's different", "Settled", "Won", "UP / DOWN", "Trades per window",
                       "Worst window", "P&L", "Return"], rows), ""] + acc
+        if chart:
+            md += [f"![Versions over the 15-minute window](fv/charts/{chart})", "",
+                   "*When in each window every version trades, and how those trades did. V3 only trades "
+                   "5–10 minutes into the window by design.*", ""]
 
     # ---------------- fill check
     checked = [t for t in settled if f(t.get("depth_at_ask")) is not None]
