@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 3:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 3:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 436 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
+| 440 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 47 | 19% | 9% | 6% | 2% | 0% | 0% |
-| Unverified | 382 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 386 | 4% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -83,17 +83,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 162 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 12 min |
 | ITF Women's Match | ✘ | 22 | 0 | 9% | 9% | -100% | -84% | 4 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
-| TT Star Series Match | ✘ | 19 | 1 | 5% | 5% | +391% | -91% | 6 min |
+| TT Star Series Match | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
 | CONCACAF Nations League Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 14 min |
+| Men's T20 Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | AFCON Game Winner | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Professional Football Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 2 min |
@@ -134,7 +134,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 4 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -146,12 +146,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 21:07 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
-| 09-28 21:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 09-28 21:16 | TT Elite Series Match | Dawid Dytko | ✘ | — | — | In play | — |
+| 09-28 21:13 | TT Elite Series Match | Aleksander Barton | ✘ | — | — | In play | — |
+| 09-28 21:11 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:10 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | — | In play | — |
+| 09-28 21:07 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:03 | AFCON Game Winner | Tunisia | ✘ | — | — | In play | — |
 | 09-28 21:01 | ITF Women's Match | Ana Grubor | ✘ | — | — | In play | — |
 | 09-28 20:57 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:51 | Men's T20 Cricket Match | San Diego Surf Riders | ✘ | — | — | In play | — |
+| 09-28 20:51 | Men's T20 Cricket Match | San Diego Surf Riders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:51 | CONCACAF Nations League Game | Barbados | ✔ | 90'+3' · BRB 2 - GDL 2 | 2¢ | ❌ Lost | -$0.15 |
 | 09-28 20:45 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 87' · BRB 2 - GDL 1 | 11¢ | ❌ Lost | -$0.15 |
@@ -172,10 +176,6 @@
 | 09-28 20:28 | ITF Women's Match | Kelly Keller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:25 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:23 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:20 | TT Star Series Match | Zelinka Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:16 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:16 | LaLiga 2 Game | Tie | ✔ | 87' · CAS 2 - LEG 0 | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 20:16 | AFCON Game Winner | Botswana | ✘ | — | — | In play | — |
 
 ## Raw data
 
