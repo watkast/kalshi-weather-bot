@@ -17,7 +17,9 @@ Files (all under fifteen/):
 """
 import csv
 import json
+import math
 import os
+import statistics
 import subprocess
 import sys
 import time
@@ -40,6 +42,7 @@ SKIP = ("TEST", "CRYPTOLEAD", "CRYPTOCOMP")   # not up/down markets
 
 # Spot prices for crypto come from Coinbase (close to Kalshi's CF Benchmarks index).
 COINBASE = "https://api.exchange.coinbase.com/products/{}-USD/ticker"
+CANDLES = "https://api.exchange.coinbase.com/products/{}-USD/candles"
 
 BET_FIELDS = [
     "detected_at", "series", "asset", "category", "ticker", "side", "window_close",
@@ -47,6 +50,7 @@ BET_FIELDS = [
     "status", "result", "pnl_hold", "peak_bid", "peak_at_s",
     *[f"s_to_{t}c" for t in TARGETS], "bid_at_close", "snapshots",
     "first_1c_trade_at", "detect_lag_s", "contracts_at_1c_after", "trades_in_window",
+    "vol_1m_pct", "trend_5m_pct", "model_vol", "model_mom", "model_rev",
 ]
 SNAP_FIELDS = ["time", "ticker", "side", "secs_left", "bid", "ask"]
 TICK_FIELDS = ["time", "ticker", "yes_price", "contracts", "taker"]
@@ -107,6 +111,40 @@ def git_save():
 
 def asset_of(series):
     return series.removeprefix("KX").removesuffix("15M")
+
+
+def norm_cdf(z):
+    return 0.5 * (1 + math.erf(z / math.sqrt(2)))
+
+
+def models(spot, strike, secs_left, closes):
+    """Three standard short-horizon price models -> chance the price finishes
+    at or above the strike (UP). `closes` are recent 1-minute closes, oldest first.
+
+    * Volatility (random walk / Black-Scholes digital): no drift, recent volatility.
+    * Momentum: the last 5 minutes' trend keeps going.
+    * Mean reversion: the last 5 minutes' trend reverses.
+
+    Kalshi settles crypto on a 60-second average, which smooths the final
+    minute, so the variance is adjusted for that averaging.
+    """
+    rets = [math.log(b / a) for a, b in zip(closes, closes[1:]) if a > 0 and b > 0]
+    if len(rets) < 20 or not spot or not strike:
+        return None
+    sigma = statistics.pstdev(rets[-60:])            # per minute
+    trend = sum(rets[-5:]) / 5                       # per minute
+    tau = max(secs_left, 1) / 60                     # minutes left
+    var_t = tau - 2 / 3 if tau >= 1 else tau ** 3 / 3
+    sd = sigma * math.sqrt(max(var_t, 1e-6))
+    if sd <= 0:
+        return None
+    x = math.log(spot / strike)
+
+    def p(drift):
+        return min(max(norm_cdf((x + drift * min(tau, 5)) / sd), 1e-4), 1 - 1e-4)
+
+    return {"vol": p(0.0), "mom": p(trend), "rev": p(-trend),
+            "sigma": sigma, "trend": trend}
 
 
 def side_quote(m, side):
@@ -181,6 +219,16 @@ class Fifteen:
                 self.errors.append(f"{iso(now_utc())} quotes {st}: {exc}")
         return out
 
+    def closes(self, asset):
+        try:
+            r = requests.get(CANDLES.format(asset), params={"granularity": 60}, timeout=4)
+            if r.status_code != 200:
+                return []
+            rows = sorted(r.json(), key=lambda c: c[0])[-61:]
+            return [float(c[4]) for c in rows]
+        except Exception:
+            return []
+
     def spot(self, asset):
         if self.spot_ok.get(asset) is False:
             return None
@@ -225,7 +273,17 @@ class Fifteen:
                 spot = self.spot(asset_of(st)) if cat == "Crypto" else None
                 gap = ((spot - strike) / strike * 100) if spot and strike else None
                 fee = fee_per_contract(ask, CONTRACTS) * CONTRACTS
-                bet = {"detected_at": stamp, "series": st, "asset": asset_of(st), "category": cat,
+                mdl = models(spot, strike, secs_left, self.closes(asset_of(st))) if spot else None
+                if mdl:
+                    flip = (lambda q: q) if side == "yes" else (lambda q: 1 - q)
+                    model_cols = {"vol_1m_pct": f"{mdl['sigma'] * 100:.4f}",
+                                  "trend_5m_pct": f"{mdl['trend'] * 500:.4f}",
+                                  "model_vol": f"{flip(mdl['vol']):.4f}",
+                                  "model_mom": f"{flip(mdl['mom']):.4f}",
+                                  "model_rev": f"{flip(mdl['rev']):.4f}"}
+                else:
+                    model_cols = {}
+                bet = {**model_cols, "detected_at": stamp, "series": st, "asset": asset_of(st), "category": cat,
                        "ticker": ticker, "side": side, "window_close": iso(meta["close"]),
                        "secs_left": f"{secs_left:.0f}", "strike": strike or "",
                        "spot": f"{spot:g}" if spot else "", "gap_pct": f"{gap:.4f}" if gap is not None else "",

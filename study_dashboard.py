@@ -7,12 +7,16 @@ from collections import defaultdict
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import models_report
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(HERE, "study")
 CHARTS = os.path.join(DIR, "charts")
 TARGETS = [2, 3, 5, 10, 25, 50]
 STAKE = 14         # contracts per buy — all P&L on this page is at this size
 MIN_BETS = 30      # finished bets a rule needs before we trust it at all
+MODELS = [("espn_wp", "ESPN win probability",
+           "ESPN's live in-game win-probability model (NFL, NBA, WNBA, college football & basketball)")]
 TIME_BUCKETS = [(0, 5, "Under 5 min"), (5, 15, "5–15 min"), (15, 30, "15–30 min"),
                 (30, 60, "30–60 min"), (60, 1e9, "Over 60 min")]
 
@@ -245,7 +249,7 @@ def current_strategy(bets, done):
     """Pick the best simple rule from the data so far and spell out what the
     bot would do if it were switched on right now."""
     universes = [("all leagues", lambda b: True),
-                 ("ESPN-verified leagues only", lambda b: b["verified"] == "yes")]
+                 ("ESPN-verified leagues only", lambda b: b["verified"] == "yes")] + models_report.universes(MODELS)
     rules = []
     for uname, keep in universes:
         group = [b for b in done if keep(b)]
@@ -324,7 +328,7 @@ def current_strategy(bets, done):
                        money(x["pnl"]), f"{x['ret']:+.0%}"] for u, _, tt, x in alt]),
                "", "</details>", ""]
     md += ["*Re-picked automatically from the latest data every refresh. Rules only use "
-           "what's knowable at the moment of buying (league, price), not hindsight like "
+           "what's knowable at the moment of buying (league, price, model reading), not hindsight like "
            "how the game ended.*", ""]
     return md
 
@@ -356,6 +360,11 @@ def main():
                    f"{best[0]}: {money(best[3])} ({best[4]})" if best else "—"]]), "",
            f"*In play right now: {open_n}. Verified = ESPN confirmed the game was still being "
            "played when we bought. Unverified leagues are shown separately below.*", ""]
+
+    md += models_report.section(done, MODELS, lambda b: b.get("result") == "yes",
+                                exit_pnl, cost, TARGETS,
+                                note="Readings start with the next watch session (about 10:30 PM MT, Sep 27). "
+                                     "Leagues ESPN doesn't model show no reading.")
 
     made = charts(done_v, done_u) if done else []
     if "bounce.png" in made:

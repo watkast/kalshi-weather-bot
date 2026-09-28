@@ -8,6 +8,8 @@ from collections import defaultdict
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import models_report
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(HERE, "fifteen")
 CHARTS = os.path.join(DIR, "charts")
@@ -126,6 +128,13 @@ def bucketed(done, key, buckets, title, note=None):
 
 
 # ---------------------------------------------------------------- strategy
+MODELS = [
+    ("model_vol", "Volatility model",
+     "random-walk (Black-Scholes) odds from the gap to the target, time left and the last hour's volatility"),
+    ("model_mom", "Momentum model", "same, but assumes the last 5 minutes' trend keeps going"),
+    ("model_rev", "Mean-reversion model", "same, but assumes the last 5 minutes' trend reverses"),
+]
+
 UNIVERSES = [
     ("all markets", lambda b: True),
     ("crypto only", lambda b: b["category"] == "Crypto"),
@@ -133,7 +142,7 @@ UNIVERSES = [
     ("5+ min left", lambda b: f(b["secs_left"], 0) >= 300),
     ("2–5 min left", lambda b: 120 <= f(b["secs_left"], 0) < 300),
     ("under 2 min left", lambda b: f(b["secs_left"], 0) < 120),
-]
+] + models_report.universes(MODELS)
 
 
 def rule_stats(bets, t):
@@ -203,7 +212,7 @@ def current_strategy(bets, done):
                      [[f"{u}, {'hold to the close' if tt is None else f'sell at {tt}¢'}", x["n"],
                        money(x["pnl"]), f"{x['ret']:+.0%}"] for u, _, tt, x in alt]), "", "</details>", ""]
     md += ["*Re-picked from the latest data every refresh, using only what's knowable at the moment "
-           "of buying (market type, time left, price).*", ""]
+           "of buying (market type, time left, price, model readings).*", ""]
     return md
 
 
@@ -338,6 +347,10 @@ def main():
                    f"{best[0]}: {money(sum(exit_pnl(b, best[1]) for b in done))} ({ret(done, best[1])})"
                    if best else "—"]]), "",
            f"*In play or awaiting result: {in_play}. Commodity markets can take a few hours to settle.*", ""]
+
+    md += models_report.section(done, MODELS, won, exit_pnl, cost, TARGETS,
+                                note="Models cover the crypto markets (live prices from Coinbase). "
+                                     "Readings start with the next watch session (about 12:45 AM MT, Sep 28).")
 
     if not done:
         md += ["*Charts and breakdowns appear after the first windows settle.*", ""]

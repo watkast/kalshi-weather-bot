@@ -73,8 +73,31 @@ BET_FIELDS = [
     "result", "pnl_hold", "game_end_at", "end_source", "first_1c_trade_at",
     "detect_lag_s", "minutes_to_end", "peak_bid", "peak_bid_min", "peak_trade",
     *[f"min_to_{int(t * 100)}c" for t in TARGETS], "contracts_traded_at_1c",
-    "trades_after_1c", "data",
+    "trades_after_1c", "data", "espn_wp",
 ]
+CORE = "https://sports.core.api.espn.com/v2/sports/{sport}/leagues/{league}/events/{gid}/competitions/{gid}/probabilities"
+
+
+def espn_win_prob(path, gid, home):
+    """ESPN's live win-probability model: latest chance for the home/away team."""
+    sport, league = path.split("/", 1)
+    url = CORE.format(sport=sport, league=league, gid=gid)
+    try:
+        r = requests.get(url, params={"limit": 1}, timeout=8)
+        if r.status_code != 200:
+            return None
+        n = r.json().get("count") or 0
+        if not n:
+            return None
+        r = requests.get(url, params={"limit": 1, "page": n}, timeout=8)
+        items = r.json().get("items", []) if r.status_code == 200 else []
+        if not items:
+            return None
+        key = "homeWinPercentage" if home else "awayWinPercentage"
+        v = items[-1].get(key)
+        return float(v) if v is not None else None
+    except Exception:
+        return None
 
 
 # ---------------------------------------------------------------- helpers
@@ -449,6 +472,14 @@ class Study:
                 if g and g["state"] != "in":
                     continue          # not started or already over
             verified = "yes" if g else "no"
+            wp = None
+            if g and meta["event"] in self.espn.links and len(g["teams"]) == 2:
+                code = ticker.rsplit("-", 1)[-1]
+                home_score = Scoreboards.team_matches(meta["pick"], code, g["teams"][1])
+                away_score = Scoreboards.team_matches(meta["pick"], code, g["teams"][0])
+                if home_score != away_score:
+                    epath, gid = self.espn.links[meta["event"]]
+                    wp = espn_win_prob(epath, gid, home_score > away_score)
             if not g and meta["exp"] and now > meta["exp"] + timedelta(minutes=20):
                 continue              # probably finished; skip
             fee = fee_per_contract(ask, CONTRACTS)
@@ -456,7 +487,8 @@ class Study:
                    "series": meta["series"], "event": meta["event"], "ticker": ticker,
                    "pick": meta["pick"], "verified": verified, "situation_at_entry": situation(g),
                    "entry_price": f"{ask:.2f}", "contracts": CONTRACTS, "entry_fee": f"{fee * CONTRACTS:.2f}",
-                   "status": "open", "end_source": "ESPN final" if g else "", "data": "pending"}
+                   "status": "open", "end_source": "ESPN final" if g else "", "data": "pending",
+                   "espn_wp": f"{wp:.4f}" if wp is not None else ""}
             self.bets.append(bet)
             self.by_ticker[ticker] = bet
             print(f"BUY {ticker} ({bet['league']}, {meta['pick']}) verified={verified} {bet['situation_at_entry']}")
