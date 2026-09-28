@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sun Sep 27, 6:22 PM MT. Paper money only — no real trades. Refreshes about every 15 minutes.*
+*Updated Sun Sep 27, 6:26 PM MT. Paper money only — no real trades. Refreshes about every 15 minutes.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 16 | 0 | — | — | — | 16 | Too early |
 | **Rain** | 4 | 0 | — | — | — | 4 | Too early |
-| **Longshot fade** | 320 | 71 | 93% | -$13.43 | -2.0% | 249 | Break-even |
+| **Longshot fade** | 360 | 206 | 91% | -$70.67 | -3.6% | 154 | Losing |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -18,13 +18,13 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| NFL | 176 | 17 | 88% | -$12.23 | -7.5% |
-| Other | 62 | 5 | 100% | $2.49 | +5.2% |
+| NFL | 196 | 143 | 90% | -$74.03 | -5.5% |
+| Other | 78 | 12 | 100% | $6.29 | +5.5% |
 | MLB | 48 | 48 | 94% | -$4.39 | -1.0% |
-| Crypto | 14 | 0 | — | — | — |
-| Weather | 12 | 0 | — | — | — |
-| Soccer | 7 | 0 | — | — | — |
-| NBA / WNBA | 1 | 1 | 100% | $0.70 | +7.5% |
+| Crypto | 15 | 0 | — | — | — |
+| Weather | 13 | 0 | — | — | — |
+| Soccer | 8 | 2 | 100% | $0.76 | +4.0% |
+| NBA / WNBA | 2 | 1 | 100% | $0.70 | +7.5% |
 
 ## Latest temperature bets
 
