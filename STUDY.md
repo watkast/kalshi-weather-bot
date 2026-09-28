@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 3:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 3:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 443 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
+| 447 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 47 | 19% | 9% | 6% | 2% | 0% | 0% |
-| Unverified | 391 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 397 | 4% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -83,9 +83,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 168 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 172 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
-| Counter-Strike 2 Game | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 12 min |
+| Counter-Strike 2 Game | ✘ | 33 | 0 | 6% | 3% | -100% | -89% | 12 min |
 | ITF Women's Match | ✘ | 23 | 0 | 9% | 9% | -100% | -85% | 4 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | TT Star Series Match | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
@@ -99,11 +99,11 @@
 | Professional Football Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 2 min |
 | Challenger WTA | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KHL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| R6 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
-| R6 Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -146,8 +146,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 21:37 | R6 Game | Fnatic | ✘ | — | — | In play | — |
-| 09-28 21:35 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
+| 09-28 21:49 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:46 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:44 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:41 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:37 | R6 Game | Fnatic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 21:35 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:25 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:16 | TT Elite Series Match | Dawid Dytko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:13 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -172,10 +176,6 @@
 | 09-28 20:39 | UEFA Nations League Game | Hungary | ✔ | 90'+4' · HUN 0 - NIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:39 | TT Elite Series Match | Dawid Dytko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:39 | Challenger ATP  | Blaise Bicknell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:38 | Challenger ATP  | Tyler Zink | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:37 | UEFA Nations League Game | Belgium | ✔ | 88' · FRA 0 - BEL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:30 | UEFA Nations League Game | Tie | ✔ | 85' · POL 1 - SWE 3 | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:29 | UEFA Nations League Game | Tie | ✔ | 87' · BIH 4 - ROU 2 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
