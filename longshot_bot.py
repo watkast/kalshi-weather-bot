@@ -34,6 +34,8 @@ def candidates(now):
                          mve_filter="exclude"):
         if m["ticker"].startswith("KXMVE") or m.get("mve_collection_ticker"):
             continue  # multi-leg parlays, not simple long shots
+        if m["ticker"].startswith("KXNFL"):
+            continue  # NFL long shots were fairly priced (fading them lost money), dropped Sep 27
         yes_bid, yes_ask, no_ask = price(m, "yes_bid"), price(m, "yes_ask"), price(m, "no_ask")
         if None in (yes_bid, yes_ask, no_ask):
             continue

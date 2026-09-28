@@ -31,7 +31,9 @@ jobs:
             python dashboard.py
             python study_dashboard.py
             python fifteen_dashboard.py
-            git add README.md STUDY.md FIFTEEN.md
+            python fv_dashboard.py
+            git add README.md STUDY.md FIFTEEN.md FAIRVALUE.md
+            [ -d fv/charts ] && git add fv/charts
             [ -d fifteen/charts ] && git add fifteen/charts
             [ -d study/charts ] && git add study/charts
             git diff --cached --quiet && exit 0

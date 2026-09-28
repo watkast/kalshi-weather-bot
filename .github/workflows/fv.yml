@@ -1,0 +1,42 @@
+name: fair-value-bot
+
+on:
+  schedule:
+    - cron: "26 */2 * * *"   # keeps a run queued so watch windows follow back-to-back
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["fv_bot.py", ".github/workflows/fv.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fair-value-bot
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Set up git
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+      - name: Run the fair-value bot
+        env:
+          RUN_MINUTES: "330"
+          PYTHONUNBUFFERED: "1"
+        run: python fv_bot.py | tee fv.log
+      - name: Save data
+        if: always()
+        run: |
+          git add fv 2>/dev/null || true
+          git diff --cached --quiet || git commit -q -m "Fair-value bot update"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

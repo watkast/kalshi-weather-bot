@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BOTS = [  # (label, file, what it does)
     ("Temperature", "trades.csv", "NWS forecast high vs Kalshi daily high brackets (7 cities)"),
     ("Rain", "rain_trades.csv", "NWS hourly rain chance vs Kalshi \"Will it rain?\" (28 cities)"),
-    ("Longshot fade", "longshot_trades.csv", "Bets NO on liquid long shots (YES ≤ 10¢) closing within a week"),
+    ("Longshot fade", "longshot_trades.csv", "Bets NO on liquid long shots (YES ≤ 10¢) closing within a week (NFL dropped Sep 27)"),
 ]
 
 # Longshot bets grouped by Kalshi series prefix
@@ -84,6 +84,7 @@ def main():
           "Refreshes about every 15 minutes.*", "",
           "### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle", "",
           "### → [15-Minute 1¢ Study](FIFTEEN.md) — every 1¢ moment in Kalshi's 15-minute up/down markets", "",
+          "### → [Fair-Value Bot](FAIRVALUE.md) — buys 15-minute crypto markets when a model says the price is wrong", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:
