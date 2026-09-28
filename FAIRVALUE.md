@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 10:01 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 10:11 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 416 | 412 | 226 (55%) | 44¢ | 52% | $382.16 | +20% | +12.2¢ |
+| 421 | 412 | 226 (55%) | 44¢ | 52% | $382.16 | +20% | +12.2¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -123,6 +123,11 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 10:05:00 AM | BTC | UP | 10.0 min | 24¢ | 30% | 5¢ | Open | — |
+| 9/28 10:03:52 AM | NEAR | DOWN | 11.1 min | 81¢ | 88% | 6¢ | Open | — |
+| 9/28 10:02:57 AM | ETH | DOWN | 12.1 min | 70¢ | 77% | 5¢ | Open | — |
+| 9/28 10:02:42 AM | DOGE | DOWN | 12.3 min | 65¢ | 74% | 7¢ | Open | — |
+| 9/28 10:02:42 AM | HYPE | DOWN | 12.3 min | 58¢ | 68% | 8¢ | Open | — |
 | 9/28 10:01:46 AM | XRP | DOWN | 13.2 min | 43¢ | 50% | 5¢ | Open | — |
 | 9/28 10:01:46 AM | ZEC | DOWN | 13.2 min | 57¢ | 66% | 8¢ | Open | — |
 | 9/28 10:01:33 AM | BNB | DOWN | 13.4 min | 59¢ | 66% | 6¢ | Open | — |
@@ -143,11 +148,6 @@
 | 9/28 9:32:17 AM | ETH | UP | 12.7 min | 38¢ | 49% | 10¢ | ✅ Won | $6.03 |
 | 9/28 9:32:17 AM | XRP | UP | 12.7 min | 32¢ | 41% | 8¢ | ❌ Lost | -$3.36 |
 | 9/28 9:32:17 AM | BTC | UP | 12.7 min | 36¢ | 44% | 6¢ | ✅ Won | $6.23 |
-| 9/28 9:32:17 AM | HYPE | UP | 12.7 min | 34¢ | 43% | 7¢ | ❌ Lost | -$3.56 |
-| 9/28 9:32:17 AM | SOL | UP | 12.7 min | 34¢ | 43% | 8¢ | ✅ Won | $6.44 |
-| 9/28 9:18:26 AM | DOGE | UP | 11.6 min | 25¢ | 31% | 5¢ | ✅ Won | $7.36 |
-| 9/28 9:18:03 AM | NEAR | UP | 11.9 min | 26¢ | 32% | 5¢ | ✅ Won | $7.26 |
-| 9/28 9:17:49 AM | HYPE | UP | 12.2 min | 26¢ | 32% | 4¢ | ✅ Won | $7.26 |
 
 ## How the model works
 
