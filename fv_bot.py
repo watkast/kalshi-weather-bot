@@ -27,6 +27,8 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+import hourly
+import risk
 from common import HERE, fee_per_contract, get_markets, kalshi_get, price
 from fifteen_bot import append_csv, asset_of, iso, norm_cdf, parse_ts, side_quote, write_csv
 
@@ -45,6 +47,8 @@ TRADES_V3 = os.path.join(DIR, "trades_v3.csv")
 TRADES_V4 = os.path.join(DIR, "trades_v4.csv")
 TRADES_V5 = os.path.join(DIR, "trades_v5.csv")
 TRADES_V6 = os.path.join(DIR, "trades_v6.csv")
+TRADES_V7 = os.path.join(DIR, "trades_v7.csv")
+TRADES_V8 = os.path.join(DIR, "trades_v8.csv")   # Trend Sniper on 1-hour markets   # V5 rules traded through the risk-managed account
 
 # V5 "Trend Sniper" and V6 "60s Harvester" (added Sep 28, from the user's earlier dashboard).
 V5_MIN_SECS, V5_MAX_SECS = 360, 720      # 6-12 minutes left
@@ -211,6 +215,11 @@ class FairValue:
         self.trades_v4 = load(TRADES_V4)
         self.trades_v5 = load(TRADES_V5)
         self.trades_v6 = load(TRADES_V6)
+        self.trades_v7 = load(TRADES_V7)
+        self.acct = risk.PaperAccount(DIR)
+        self.trades_v8 = load(TRADES_V8)
+        self.hourly = hourly.Hourly(self)
+        self.last_spot = {}
         self.basis = {}           # asset -> {exchange: (fetched_at, price / coinbase)}
         self.dead = {}            # (exchange, asset) -> consecutive failures
         self.last_extra = 0.0
@@ -339,6 +348,13 @@ class FairValue:
                           if time.time() - t < 60 and abs(r - 1) <= 0.001]
         return cb_price * statistics.median(ratios), len(ratios)
 
+    def quotes_for(self, tickers):
+        out = {}
+        for i in range(0, len(tickers), 50):
+            data = kalshi_get("/markets", {"tickers": ",".join(tickers[i:i + 50]), "limit": 1000})
+            out.update({m["ticker"]: m for m in data.get("markets", [])})
+        return out
+
     def quotes(self):
         tickers = [t for t, m in self.markets.items() if m["close"] > now_utc()]
         out = {}
@@ -349,6 +365,7 @@ class FairValue:
 
     def poll(self):
         spot = self.spots()
+        self.last_spot = spot
         self.extra_prices(spot)
         q = self.quotes()
         now = now_utc()
@@ -398,7 +415,7 @@ class FairValue:
                 elif (now - parse_ts(t["placed_at"])).total_seconds() > V4_ORDER_SECONDS or secs_left < 60:
                     t.update(status="unfilled", pnl="0.00")
 
-            for t in self.trades_v5:
+            for t in self.trades_v5 + self.trades_v7:
                 if t["ticker"] == ticker and t["status"] == "open":
                     bid_now, _ = side_quote(m, t["side"])
                     if bid_now is not None and bid_now >= V5_TAKE_PROFIT:
@@ -407,9 +424,11 @@ class FairValue:
                         proceeds = n * bid_now - fee_per_contract(bid_now, n) * n
                         t.update(status="settled", result="sold", exit_price=f"{bid_now:.2f}",
                                  exit_at=iso(now), pnl=f"{proceeds - cost:.2f}")
-                        print(f"V5 TAKE PROFIT {ticker} @ {bid_now:.2f}")
+                        if any(t is x for x in self.trades_v7):
+                            self.acct.close(ticker, proceeds, "SELL", f"take profit @ {bid_now:.2f}")
+                        print(f"TAKE PROFIT {ticker} @ {bid_now:.2f}")
 
-            for t in self.trades + self.trades_v2 + self.trades_v3 + self.trades_v4 + self.trades_v5 + self.trades_v6:
+            for t in self.trades + self.trades_v2 + self.trades_v3 + self.trades_v4 + self.trades_v5 + self.trades_v6 + self.trades_v7:
                 bought = parse_ts(t.get("filled_at") or t["time"]) if t["ticker"] == ticker else None
                 if bought and t["status"] == "open" and not t.get("mid_at_60s") and \
                         ((now - bought).total_seconds() >= 180 or secs_left <= 60):
@@ -527,6 +546,22 @@ class FairValue:
                                            "depth_at_ask": f"{fill[2]:.0f}",
                                            "trend_aligned": "yes" if (tr > 0) == (side == "yes") else "no"})
                     print(f"V5 BUY {side} {ticker} @ {fill[0]:.2f} edge {edge * 100:.1f}c")
+                    # V7: same signal, sized and guarded by the risk-managed account.
+                    ok, why = self.acct.can_open(ticker, side, win)
+                    n7 = self.acct.size(fill[0] + fee) if ok else 0
+                    fill7 = book_fill(ticker, side, n7) if n7 >= 1 else None
+                    if fill7 and V5_MIN_PRICE <= fill7[0] <= V5_MAX_PRICE:
+                        fee7 = fee_per_contract(fill7[0], n7)
+                        if p - fill7[0] - fee7 >= V5_EDGE and \
+                                self.acct.buy(ticker, side, n7, fill7[0], fee7, win):
+                            self.trades_v7.append({**base, "spot": f"{spot[a]:g}", "time": iso(now), "side": side,
+                                                   "model_p": f"{p:.4f}", "price": f"{fill7[0]:.4f}",
+                                                   "fee": f"{fee7:.4f}", "edge": f"{p - fill7[0] - fee7:.4f}",
+                                                   "status": "open", "contracts": n7, "quoted": f"{ask:.2f}",
+                                                   "depth_at_ask": f"{fill7[2]:.0f}"})
+                            print(f"V7 BUY {n7} {side} {ticker} @ {fill7[0]:.2f} (equity ${self.acct.equity():.2f})")
+                    elif not ok:
+                        print(f"V7 skip {ticker}: {why}")
                     break
             # V6 60s Harvester: final minute, model 98%+ sure, contract still 75-90c.
             if V6_MIN_SECS <= secs_left <= V6_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v6}:
@@ -547,7 +582,8 @@ class FairValue:
 
     def settle(self):
         now = now_utc()
-        books = self.trades + self.trades_v2 + self.trades_v3 + self.trades_v4 + self.trades_v5 + self.trades_v6
+        books = (self.trades + self.trades_v2 + self.trades_v3 + self.trades_v4 + self.trades_v5
+                 + self.trades_v6 + self.trades_v7 + self.trades_v8)
         pending = {t["ticker"] for t in books if t["status"] == "open"} | set(self.seen)
         for ticker in list(pending):
             if ticker in self.results:
@@ -574,8 +610,10 @@ class FairValue:
             if t["status"] == "open" and r:
                 n = int(t["contracts"])
                 cost = n * (float(t["price"]) + float(t["fee"]))
-                t.update(status="settled", result=r["result"],
-                         pnl=f"{(n if r['result'] == t['side'] else 0) - cost:.2f}")
+                payout = n if r["result"] == t["side"] else 0
+                t.update(status="settled", result=r["result"], pnl=f"{payout - cost:.2f}")
+                if any(t is x for x in self.trades_v7):
+                    self.acct.close(t["ticker"], payout, "SETTLE", f"result {r['result']}")
 
     def save(self):
         by_day = {}
@@ -592,12 +630,17 @@ class FairValue:
         write_csv(TRADES_V4, self.trades_v4, TRADE_FIELDS)
         write_csv(TRADES_V5, self.trades_v5, TRADE_FIELDS)
         write_csv(TRADES_V6, self.trades_v6, TRADE_FIELDS)
+        write_csv(TRADES_V7, self.trades_v7, TRADE_FIELDS)
+        write_csv(TRADES_V8, self.trades_v8, TRADE_FIELDS)
+        self.acct.save()
         write_csv(RESULTS, list(self.results.values()), RESULT_FIELDS)
         with open(os.path.join(DIR, "status.json"), "w") as fh:
             json.dump({"saved_at": iso(now_utc()), "assets": sorted(set(self.assets.values())),
                        "markets": len(self.markets), "trades": len(self.trades), "trades_v2": len(self.trades_v2),
                        "trades_v3": len(self.trades_v3), "trades_v4": len(self.trades_v4),
                        "trades_v5": len(self.trades_v5), "trades_v6": len(self.trades_v6),
+                       "trades_v7": len(self.trades_v7), "trades_v8": len(self.trades_v8), "account_equity": round(self.acct.equity(), 2),
+                       "account_halted": self.acct.halted,
                        "extra_exchanges": {a: sorted(v) for a, v in self.basis.items()},
                        "open": sum(1 for t in self.trades if t["status"] == "open"),
                        "results_known": len(self.results),
@@ -620,6 +663,10 @@ def main():
                                                        and time.time() - fv.last_refresh > 8):
                 fv.refresh()
             fv.poll()
+            try:
+                fv.hourly.check(now_utc(), fv.last_spot, fv.quotes_for, book_fill, fair_up, iso)
+            except Exception as exc:
+                fv.errors.append(f"{iso(now_utc())} hourly: {exc}")
             if time.time() - last_settle > 20:
                 fv.settle()
                 last_settle = time.time()
@@ -633,7 +680,8 @@ def main():
         time.sleep(max(0.2, POLL_SECONDS - (time.time() - start)))
     fv.accept_new = False
     deadline = time.time() + 20 * 60
-    books = lambda: fv.trades + fv.trades_v2 + fv.trades_v3 + fv.trades_v4 + fv.trades_v5 + fv.trades_v6
+    books = lambda: (fv.trades + fv.trades_v2 + fv.trades_v3 + fv.trades_v4 + fv.trades_v5 + fv.trades_v6
+                     + fv.trades_v7 + fv.trades_v8)
     while any(t["status"] in ("open", "resting") for t in books()) and time.time() < deadline:
         try:
             fv.poll()

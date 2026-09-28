@@ -178,8 +178,9 @@ def charts(settled, cal_rows):
     return made
 
 
+LATE = ("V5", "V6", "V7", "V8")   # versions added later; shown since they started
 VERSION_COLORS = {"V1": "#2a78d6", "V2": "#eb6834", "V3": "#1baf7a", "V4": "#eda100",
-                  "V5": "#e87ba4", "V6": "#4a3aa7"}
+                  "V5": "#e87ba4", "V6": "#4a3aa7", "V7": "#008300", "V8": "#e34948"}
 
 
 def versions_chart(groups):
@@ -343,13 +344,17 @@ def main():
              "V3": load(os.path.join(DIR, "trades_v3.csv")),
              "V4": load(os.path.join(DIR, "trades_v4.csv")),
              "V5": load(os.path.join(DIR, "trades_v5.csv")),
-             "V6": load(os.path.join(DIR, "trades_v6.csv"))}
+             "V6": load(os.path.join(DIR, "trades_v6.csv")),
+             "V7": load(os.path.join(DIR, "trades_v7.csv")),
+             "V8": load(os.path.join(DIR, "trades_v8.csv"))}
     desc = {"V1": "Original (Coinbase price, 4¢ edge, no limit per window)",
             "V2": "Trend-aware, wider swings, 50/50 with Kalshi's price",
             "V3": "5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window",
             "V4": "Limit orders 2¢ under the ask, 3-exchange price, max 2 per window",
             "V5": "Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢",
-            "V6": "60s Harvester: final minute, model 98%+ sure, buy 75–90¢"}
+            "V6": "60s Harvester: final minute, model 98%+ sure, buy 75–90¢",
+            "V7": "V5 signals through the risk-managed $500 account (2% bets, max 3 open, 25% peak stop)",
+            "V8": "Trend Sniper on 1-hour markets: 20–45 min left, 25–55¢, 6¢+ edge"}
     v_obs = {}
     for path in glob.glob(os.path.join(DIR, "obs_v2", "*.csv")):
         for o in load(path):
@@ -363,7 +368,7 @@ def main():
             g = [t for t in g_all if t["status"] == "settled"]
             sm = summary(g) if g else None
             ups = sum(1 for t in g if t["side"] == "yes")
-            if v in ("V5", "V6") and books[v]:
+            if v in LATE and books[v]:
                 g_all = [t for t in books[v]]
                 g = [t for t in g_all if t["status"] == "settled"]
                 sm = summary_any(g) if g else None
@@ -377,9 +382,9 @@ def main():
                 tried = [t for t in g_all if t["status"] in ("settled", "open", "unfilled")]
                 filled = [t for t in tried if t["status"] != "unfilled"]
                 fill = f" · filled {pct(len(filled), len(tried))} of orders"
-            if v in ("V5", "V6") and not books[v]:
+            if v in LATE and not books[v]:
                 continue
-            rows.append([f"**{v}**", desc[v] + fill + (" · *since it started*" if v in ("V5", "V6") else ""), len(g),
+            rows.append([f"**{v}**", desc[v] + fill + (" · *since it started*" if v in LATE else ""), len(g),
                          f"{sm['wins']} ({pct(sm['wins'], sm['n'])})" if sm else "—", f"{ups} / {len(g) - ups}",
                          f"{len(g) / n_win:.1f}" if n_win else "—",
                          money(min(wins_by.values())) if wins_by else "—",
@@ -400,7 +405,7 @@ def main():
                     ([f"3-exchange price (V3/V4) **{s3:+.1%}**"] if s3 is not None else [])
             acc = [f"*Model accuracy vs Kalshi's prices on the same {len(pairs):,} readings "
                    f"(excluding the final minute): {', '.join(parts)}.*", ""]
-        in_range = {v: [t for t in g if (t["time"] >= start or v in ("V5", "V6")) and t["status"] == "settled"]
+        in_range = {v: [t for t in g if (t["time"] >= start or v in LATE) and t["status"] == "settled"]
                     for v, g in books.items()}
         chart = versions_chart(in_range)
         md += ["## Versions head to head", "",
@@ -414,6 +419,28 @@ def main():
             md += [f"![Versions over the 15-minute window](fv/charts/{chart})", "",
                    "*When in each window every version trades, and how those trades did. V3 only trades "
                    "5–10 minutes into the window by design.*", ""]
+
+    # ---------------- risk-managed account
+    acct_path = os.path.join(DIR, "account.json")
+    if os.path.exists(acct_path):
+        import json
+        with open(acct_path) as fh:
+            acct = json.load(fh)
+        st = acct.get("settings", {})
+        eq = acct["cash"] + sum(p["cost"] for p in acct.get("positions", {}).values())
+        stop = max(st.get("hard_floor", 350), acct["peak"] * (1 - st.get("trail_dd", 0.25)))
+        light = f"⛔ **HALTED** — {acct['halt_reason']}" if acct.get("halted") else "🟢 **Trading**"
+        md += ["## Risk-managed account (V7)", "",
+               f"{light}", "",
+               table(["Started with", "Equity now", "Peak", "Stop level", "Open positions", "Bet size"],
+                     [[money(st.get("start", 500)), money(eq), money(acct["peak"]), money(stop),
+                       f"{len(acct.get('positions', {}))} of {st.get('max_open', 3)}",
+                       f"{st.get('bet_pct', 0.02):.0%} of equity"]]), "",
+               "*Trades V5's signals with the safeguards a real-money bot needs: each bet risks at most 2% of the "
+               "account, at most 3 positions open, never two bets the same direction in one window, and trading "
+               "halts after a 25% drop from the peak (or below $350). Every buy and sell is double-checked "
+               "against the ledger — a \"sell\" that spends money halts everything. Full log: "
+               "[fv/account_ledger.csv](fv/account_ledger.csv).*", ""]
 
     # ---------------- fill check
     checked = [t for t in settled if f(t.get("depth_at_ask")) is not None]
