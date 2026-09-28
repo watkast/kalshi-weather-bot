@@ -1,0 +1,3 @@
+time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,window,sources,placed_at,filled_at
+2026-09-28T15:35:04+00:00,KXBNB15M-26SEP281145-45,BNB,no,595,759.826,760.86,-0.1359,0.0933,0.6839,0.57,0.0180,0.0959,10,open,,,0.325,-0.245,,26SEP281145,3,,
+2026-09-28T15:35:12+00:00,KXZEC15M-26SEP281145-45,ZEC,yes,587,1529.92,1532.9545,-0.1980,0.2171,0.3812,0.26,0.0140,0.1072,10,open,,,0.190,-0.070,,26SEP281145,3,,
