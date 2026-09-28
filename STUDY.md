@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 11:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 11:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 303 finished bets | 2% | -$40.90 | -90% | -13.50¢ | -$20.05 / -$20.85 |
+| all leagues, sell at 5¢ | 306 finished bets | 2% | -$41.35 | -90% | -13.51¢ | -$20.35 / -$21.00 |
 
-*Expect **309 buys in the first 19 hours** ($46.35 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect **316 buys in the first 19 hours** ($47.40 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 303 | -$41.55 | -91% |
-| all leagues, sell at 3¢ | 303 | -$41.94 | -92% |
-| all leagues, sell at 25¢ | 303 | -$42.14 | -93% |
+| all leagues, sell at 2¢ | 306 | -$42.00 | -92% |
+| all leagues, sell at 3¢ | 306 | -$42.39 | -92% |
+| all leagues, sell at 25¢ | 306 | -$42.59 | -93% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 309 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 316 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 276 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 279 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,14 +83,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 123 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 124 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 4 min |
 | Counter-Strike 2 Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 13 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Women's Match | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | TT Star Series Match | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| League of Legends Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 12 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
-| League of Legends Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 12 min |
 | Men's T20 Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 2 min |
@@ -114,6 +114,7 @@
 | KHL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ELH Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -1 min |
 | Valorant game winner | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| R6 Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 19 min |
 
 ## By time left when it hit 1¢
 
@@ -129,7 +130,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 4 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -141,12 +142,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 17:31 | League of Legends Game | JSK Esports | ✘ | — | — | In play | — |
+| 09-28 17:45 | UEFA Nations League Game | Armenia | ✔ | 89' · MNE 3 - ARM 2 | — | In play | — |
+| 09-28 17:44 | League of Legends Game | SU Esports | ✘ | — | — | In play | — |
+| 09-28 17:42 | AFCON Game Winner | Sierra Leone | ✘ | — | — | In play | — |
+| 09-28 17:42 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 09-28 17:39 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | — | In play | — |
+| 09-28 17:39 | Counter-Strike 2 Game | ECSTATIC | ✘ | — | — | In play | — |
+| 09-28 17:35 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 17:31 | League of Legends Game | JSK Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:30 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:28 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:28 | AFCON Game Winner | Central African Republic | ✘ | — | — | In play | — |
 | 09-28 17:24 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:20 | R6 Game | Rebels Gaming | ✘ | — | — | In play | — |
+| 09-28 17:20 | R6 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:17 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:15 | League of Legends Game | Senshi Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:13 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -164,13 +172,6 @@
 | 09-28 16:50 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:49 | Slovakian 2. Liga Game | FK Humenne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:49 | Slovakian 2. Liga Game | Zilina B | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:49 | ITF Women's Match | Olivia Gram | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:42 | League of Legends Game | UCAM Esports Club | ✘ | — | 49¢ | ❌ Lost | -$0.15 |
-| 09-28 16:40 | League of Legends Game | eSuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:38 | TT Elite Series Match | Jakub Cyndera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:37 | Valorant game winner | Fear Never Ends | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:37 | League of Legends Game | Skillcamp Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:37 | Challenger ATP  | Alex Rybakov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
