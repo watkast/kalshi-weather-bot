@@ -50,7 +50,7 @@ CANDLES = "https://api.exchange.coinbase.com/products/{}-USD/candles"
 
 TRADE_FIELDS = ["time", "ticker", "asset", "side", "secs_left", "spot", "strike", "gap_pct",
                 "sigma_pct", "model_p", "price", "fee", "edge", "contracts", "status", "result",
-                "pnl", "mid_at_60s", "clv"]
+                "pnl", "mid_at_60s", "clv", "depth_at_ask"]
 OBS_FIELDS = ["time", "ticker", "asset", "secs_left", "spot", "strike", "sigma_pct",
               "model_up", "yes_bid", "yes_ask"]
 RESULT_FIELDS = ["ticker", "result", "close_time"]
@@ -99,6 +99,18 @@ def git_save():
         if subprocess.run(["git", "push", "-q"], cwd=HERE, capture_output=True).returncode == 0:
             return
         time.sleep(3)
+
+def depth_at_ask(ticker, side, ask):
+    """Contracts actually available at or better than our price. Buying YES at
+    `ask` means matching NO bids priced at 1-ask or higher (and vice versa)."""
+    try:
+        book = kalshi_get(f"/markets/{ticker}/orderbook").get("orderbook_fp") or {}
+    except Exception:
+        return None
+    other = book.get("no_dollars" if side == "yes" else "yes_dollars") or []
+    need = 1 - ask - 1e-9
+    return sum(float(q) for p, q in other if float(p) >= need)
+
 
 class FairValue:
     def __init__(self):
@@ -240,13 +252,15 @@ class FairValue:
                 if edge < EDGE:
                     continue
                 self.signals += 1
+                depth = depth_at_ask(ticker, side, ask)
                 gap = (spot[a] - meta["strike"]) / meta["strike"] * 100
                 self.trades.append({
                     "time": iso(now), "ticker": ticker, "asset": a, "side": side,
                     "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}", "strike": meta["strike"],
                     "gap_pct": f"{gap:.4f}", "sigma_pct": f"{sig * 100:.4f}", "model_p": f"{p:.4f}",
                     "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
-                    "contracts": CONTRACTS, "status": "open"})
+                    "contracts": CONTRACTS, "status": "open",
+                    "depth_at_ask": f"{depth:.0f}" if depth is not None else ""})
                 self.traded.add(ticker)
                 print(f"BUY {CONTRACTS} {'UP' if side == 'yes' else 'DOWN'} {ticker} @ {ask:.2f} "
                       f"model {p:.1%} edge {edge * 100:.1f}c, {secs_left:.0f}s left")

@@ -276,6 +276,20 @@ def main():
                "average price paid. \"Price move 3 min after buying\" shows whether the market moved toward the "
                "model's number soon after we bought — an early sign of real skill.*", ""]
 
+    # ---------------- fill check
+    checked = [t for t in settled if f(t.get("depth_at_ask")) is not None]
+    if checked:
+        ok = [t for t in checked if f(t["depth_at_ask"]) >= CONTRACTS]
+        s_ok = summary(ok) if ok else None
+        md += ["## Could we actually buy at that price?", "",
+               table(["Trades checked", f"{CONTRACTS}+ contracts available at our price", "P&L (fillable trades only)",
+                      "Return (fillable only)", "Typical contracts available"],
+                     [[len(checked), f"{len(ok)} ({pct(len(ok), len(checked))})",
+                       money(s_ok["pnl"]) if s_ok else "—", f"{s_ok['ret']:+.0%}" if s_ok else "—",
+                       f"{statistics.median(f(t['depth_at_ask']) for t in checked):,.0f}"]]), "",
+               "*Checked against Kalshi's order book at the moment of each buy. If profits hold on "
+               "fillable trades only, the paper results are realistic.*", ""]
+
     # ---------------- model accuracy
     md += ["## Does the model beat the market?", ""]
     if skill is None:
