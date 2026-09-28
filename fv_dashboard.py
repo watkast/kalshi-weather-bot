@@ -65,6 +65,16 @@ def pnl(t):
     return f(t["pnl"], 0)
 
 
+def summary_any(ts):
+    """Like summary(), but counts take-profit sales as wins when they made money."""
+    c = sum(cost(t) for t in ts)
+    p = sum(pnl(t) for t in ts)
+    wins = sum(1 for t in ts if (t["result"] == t["side"]) or (t["result"] == "sold" and pnl(t) > 0))
+    return {"n": len(ts), "pnl": p, "ret": p / c if c else 0, "wins": wins,
+            "avg_price": statistics.fmean(f(t["price"]) for t in ts) if ts else 0,
+            "avg_model": statistics.fmean(f(t["model_p"]) for t in ts) if ts else 0}
+
+
 def summary(ts):
     c = sum(cost(t) for t in ts)
     p = sum(pnl(t) for t in ts)
@@ -168,7 +178,8 @@ def charts(settled, cal_rows):
     return made
 
 
-VERSION_COLORS = {"V1": "#2a78d6", "V2": "#eb6834", "V3": "#1baf7a", "V4": "#eda100"}
+VERSION_COLORS = {"V1": "#2a78d6", "V2": "#eb6834", "V3": "#1baf7a", "V4": "#eda100",
+                  "V5": "#e87ba4", "V6": "#4a3aa7"}
 
 
 def versions_chart(groups):
@@ -330,11 +341,15 @@ def main():
     books = {"V1": settled,
              "V2": load(os.path.join(DIR, "trades_v2.csv")),
              "V3": load(os.path.join(DIR, "trades_v3.csv")),
-             "V4": load(os.path.join(DIR, "trades_v4.csv"))}
+             "V4": load(os.path.join(DIR, "trades_v4.csv")),
+             "V5": load(os.path.join(DIR, "trades_v5.csv")),
+             "V6": load(os.path.join(DIR, "trades_v6.csv"))}
     desc = {"V1": "Original (Coinbase price, 4¢ edge, no limit per window)",
             "V2": "Trend-aware, wider swings, 50/50 with Kalshi's price",
             "V3": "5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window",
-            "V4": "Limit orders 2¢ under the ask, 3-exchange price, max 2 per window"}
+            "V4": "Limit orders 2¢ under the ask, 3-exchange price, max 2 per window",
+            "V5": "Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢",
+            "V6": "60s Harvester: final minute, model 98%+ sure, buy 75–90¢"}
     v_obs = {}
     for path in glob.glob(os.path.join(DIR, "obs_v2", "*.csv")):
         for o in load(path):
@@ -348,6 +363,11 @@ def main():
             g = [t for t in g_all if t["status"] == "settled"]
             sm = summary(g) if g else None
             ups = sum(1 for t in g if t["side"] == "yes")
+            if v in ("V5", "V6") and books[v]:
+                g_all = [t for t in books[v]]
+                g = [t for t in g_all if t["status"] == "settled"]
+                sm = summary_any(g) if g else None
+                ups = sum(1 for t in g if t["side"] == "yes")
             wins_by = defaultdict(float)
             for t in g:
                 wins_by[t["ticker"].split("-")[1]] += pnl(t)
@@ -357,7 +377,9 @@ def main():
                 tried = [t for t in g_all if t["status"] in ("settled", "open", "unfilled")]
                 filled = [t for t in tried if t["status"] != "unfilled"]
                 fill = f" · filled {pct(len(filled), len(tried))} of orders"
-            rows.append([f"**{v}**", desc[v] + fill, len(g),
+            if v in ("V5", "V6") and not books[v]:
+                continue
+            rows.append([f"**{v}**", desc[v] + fill + (" · *since it started*" if v in ("V5", "V6") else ""), len(g),
                          f"{sm['wins']} ({pct(sm['wins'], sm['n'])})" if sm else "—", f"{ups} / {len(g) - ups}",
                          f"{len(g) / n_win:.1f}" if n_win else "—",
                          money(min(wins_by.values())) if wins_by else "—",
@@ -378,7 +400,8 @@ def main():
                     ([f"3-exchange price (V3/V4) **{s3:+.1%}**"] if s3 is not None else [])
             acc = [f"*Model accuracy vs Kalshi's prices on the same {len(pairs):,} readings "
                    f"(excluding the final minute): {', '.join(parts)}.*", ""]
-        in_range = {v: [t for t in g if t["time"] >= start and t["status"] == "settled"] for v, g in books.items()}
+        in_range = {v: [t for t in g if (t["time"] >= start or v in ("V5", "V6")) and t["status"] == "settled"]
+                    for v, g in books.items()}
         chart = versions_chart(in_range)
         md += ["## Versions head to head", "",
                f"*All four run side by side on the same markets, compared from when all of them were running "
