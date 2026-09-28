@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 7:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 7:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 212 finished bets | 3% | -$27.90 | -88% | -13.16¢ | -$13.30 / -$14.60 |
+| all leagues, sell at 5¢ | 213 finished bets | 3% | -$28.05 | -88% | -13.17¢ | -$13.30 / -$14.75 |
 
-*Expect **215 buys in the first 15 hours** ($32.25 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **219 buys in the first 15 hours** ($32.85 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 212 | -$28.42 | -89% |
-| all leagues, sell at 3¢ | 212 | -$28.68 | -90% |
-| all leagues, sell at 10¢ | 212 | -$30.49 | -96% |
+| all leagues, sell at 2¢ | 213 | -$28.57 | -89% |
+| all leagues, sell at 3¢ | 213 | -$28.83 | -90% |
+| all leagues, sell at 10¢ | 213 | -$30.64 | -96% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 215 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 219 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 185 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 186 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 83 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 84 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ITF Men's Match | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 4 min |
@@ -137,7 +137,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 13:38 | TT Elite Series Match | Jakub Kosowski | ✘ | — | — | In play | — |
+| 09-28 13:48 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
+| 09-28 13:47 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
+| 09-28 13:45 | TT Star Series Match | Saha Sourav | ✘ | — | — | In play | — |
+| 09-28 13:41 | ITF Women's Match | Elizabeth Jurna | ✘ | — | — | In play | — |
+| 09-28 13:38 | TT Elite Series Match | Jakub Kosowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:33 | ITF Men's Match | Zura Tkemaladze | ✘ | — | — | In play | — |
 | 09-28 13:31 | ITF Women's Match | Severine Deppner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:27 | Men's T20 Cricket Match | Rishikesh Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -163,10 +167,6 @@
 | 09-28 12:40 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 12:39 | Japan NPB Game | Yokohama DeNA BayStars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 12:39 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:38 | ITF Women's Match | Victoria Gomez O'Hayon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:35 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:33 | Challenger ATP  | Manas Dhamne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 12:30 | TT Elite Series Match | Buczynski Witold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
