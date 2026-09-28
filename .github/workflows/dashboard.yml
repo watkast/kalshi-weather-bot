@@ -30,7 +30,9 @@ jobs:
             git pull -q --rebase
             python dashboard.py
             python study_dashboard.py
-            git add README.md STUDY.md
+            python fifteen_dashboard.py
+            git add README.md STUDY.md FIFTEEN.md
+            [ -d fifteen/charts ] && git add fifteen/charts
             [ -d study/charts ] && git add study/charts
             git diff --cached --quiet && exit 0
             git commit -q -m "Dashboard update"

@@ -83,6 +83,7 @@ def main():
           f"*Updated {now}. Paper money only — no real trades. "
           "Refreshes about every 15 minutes.*", "",
           "### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle", "",
+          "### → [15-Minute 1¢ Study](FIFTEEN.md) — every 1¢ moment in Kalshi's 15-minute up/down markets", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:
