@@ -157,16 +157,19 @@ def write_csv(path, rows, fields):
 
 
 def git_save():
-    subprocess.run(["git", "add", "study"], cwd=HERE, capture_output=True)
-    if subprocess.run(["git", "commit", "-q", "-m", "1-cent study update"],
+    """Commit this bot's data and rebuild its own dashboard page (files no
+    other bot writes, so parallel runs never conflict)."""
+    subprocess.run([sys.executable, "study_dashboard.py"], cwd=HERE, capture_output=True)
+    subprocess.run(["git", "add", "study", 'STUDY.md', 'study/charts'], cwd=HERE, capture_output=True)
+    if subprocess.run(["git", "commit", "-q", "-m", "study update"],
                       cwd=HERE, capture_output=True).returncode != 0:
         return
     for _ in range(3):
-        subprocess.run(["git", "pull", "-q", "--rebase"], cwd=HERE, capture_output=True)
+        if subprocess.run(["git", "pull", "-q", "--rebase"], cwd=HERE, capture_output=True).returncode != 0:
+            subprocess.run(["git", "rebase", "--abort"], cwd=HERE, capture_output=True)
         if subprocess.run(["git", "push", "-q"], cwd=HERE, capture_output=True).returncode == 0:
             return
         time.sleep(3)
-
 
 # ---------------------------------------------------------------- ESPN
 class Scoreboards:

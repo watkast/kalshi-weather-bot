@@ -81,7 +81,7 @@ def main():
     data = {label: load(f) for label, f, _ in BOTS}
     md = ["# Kalshi Paper Bots — Results", "",
           f"*Updated {now}. Paper money only — no real trades. "
-          "Refreshes about every 15 minutes.*", "",
+          "Study pages refresh about every 10 minutes; this page every few hours.*", "",
           "### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle", "",
           "### → [15-Minute 1¢ Study](FIFTEEN.md) — every 1¢ moment in Kalshi's 15-minute up/down markets", "",
           "### → [Fair-Value Bot](FAIRVALUE.md) — buys 15-minute crypto markets when a model says the price is wrong", "",

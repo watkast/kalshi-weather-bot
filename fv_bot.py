@@ -84,16 +84,19 @@ def fair_up(spot, strike, secs_left, sigma, window_samples):
 
 
 def git_save():
-    subprocess.run(["git", "add", "fv"], cwd=HERE, capture_output=True)
-    if subprocess.run(["git", "commit", "-q", "-m", "Fair-value bot update"],
+    """Commit this bot's data and rebuild its own dashboard page (files no
+    other bot writes, so parallel runs never conflict)."""
+    subprocess.run([sys.executable, "fv_dashboard.py"], cwd=HERE, capture_output=True)
+    subprocess.run(["git", "add", "fv", 'FAIRVALUE.md', 'fv/charts'], cwd=HERE, capture_output=True)
+    if subprocess.run(["git", "commit", "-q", "-m", "fv update"],
                       cwd=HERE, capture_output=True).returncode != 0:
         return
     for _ in range(3):
-        subprocess.run(["git", "pull", "-q", "--rebase"], cwd=HERE, capture_output=True)
+        if subprocess.run(["git", "pull", "-q", "--rebase"], cwd=HERE, capture_output=True).returncode != 0:
+            subprocess.run(["git", "rebase", "--abort"], cwd=HERE, capture_output=True)
         if subprocess.run(["git", "push", "-q"], cwd=HERE, capture_output=True).returncode == 0:
             return
         time.sleep(3)
-
 
 class FairValue:
     def __init__(self):

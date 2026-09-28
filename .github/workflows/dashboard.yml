@@ -2,7 +2,7 @@ name: dashboard
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # about every 15 minutes
+    - cron: "7 * * * *"   # hourly backup; each bot also refreshes its own page
   workflow_dispatch:
 
 permissions:
