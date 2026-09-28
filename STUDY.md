@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 12:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 12:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 31 finished bets | 16% | -$3.35 | -72% | -10.81¢ | -$1.73 / -$1.62 |
+| ESPN-verified leagues only, sell at 2¢ | 33 finished bets | 15% | -$3.65 | -74% | -11.06¢ | -$1.88 / -$1.77 |
 
 *Expect **33 buys in the first 19 hours** ($4.95 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 31 | -$3.35 | -72% |
-| ESPN-verified leagues only, sell at 3¢ | 31 | -$3.48 | -75% |
-| ESPN-verified leagues only, hold to the end | 31 | -$4.65 | -100% |
+| ESPN-verified leagues only, sell at 5¢ | 33 | -$3.65 | -74% |
+| ESPN-verified leagues only, sell at 3¢ | 33 | -$3.78 | -76% |
+| ESPN-verified leagues only, hold to the end | 33 | -$4.95 | -100% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 341 | 31 | 0 (0%) | 1.1% | -$4.65 (-100%) | Sell at 2¢: -$3.35 (-72%) |
+| 344 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -60,8 +60,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 31 | 16% | 10% | 6% | 0% | 0% | 0% |
-| Unverified | 300 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
+| Unverified | 307 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -69,13 +69,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$4.65 | -100% |
-| Sell at 2¢ | 5 | 16% | -$3.35 | -72% |
-| Sell at 3¢ | 3 | 10% | -$3.48 | -75% |
-| Sell at 5¢ | 2 | 6% | -$3.35 | -72% |
-| Sell at 10¢ | 0 | 0% | -$4.65 | -100% |
-| Sell at 25¢ | 0 | 0% | -$4.65 | -100% |
-| Sell at 50¢ | 0 | 0% | -$4.65 | -100% |
+| Hold to the end | 0 | 0% | -$4.95 | -100% |
+| Sell at 2¢ | 5 | 15% | -$3.65 | -74% |
+| Sell at 3¢ | 3 | 9% | -$3.78 | -76% |
+| Sell at 5¢ | 2 | 6% | -$3.65 | -74% |
+| Sell at 10¢ | 0 | 0% | -$4.95 | -100% |
+| Sell at 25¢ | 0 | 0% | -$4.95 | -100% |
+| Sell at 50¢ | 0 | 0% | -$4.95 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -83,25 +83,25 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 129 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| Challenger ATP  | ✘ | 31 | 0 | 6% | 0% | -100% | -89% | 4 min |
+| TT Elite Series Match | ✘ | 131 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| Challenger ATP  | ✘ | 32 | 0 | 6% | 0% | -100% | -89% | 4 min |
 | Counter-Strike 2 Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 13 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Women's Match | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 4 min |
+| League of Legends Game | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
 | TT Star Series Match | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| League of Legends Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 12 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
-| Men's T20 Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| AFCON Game Winner | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Liga Leumit Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| UEFA Nations League Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 1 min |
 | Professional Football Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 2 min |
 | Challenger WTA | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
-| AFCON Game Winner | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| UEFA Nations League Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 1 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -123,7 +123,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 13 | 0% | 0% | 0% | -100% |
+| Under 5 min | 15 | 0% | 0% | 0% | -100% |
 | 5–15 min | 8 | 38% | 0% | 0% | -35% |
 | 15–30 min | 4 | 25% | 25% | 0% | -57% |
 | 30–60 min | 2 | 50% | 50% | 0% | -13% |
@@ -145,17 +145,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 18:05 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
-| 09-28 18:02 | League of Legends Game | MAGAZA | ✘ | — | — | In play | — |
-| 09-28 18:00 | TT Elite Series Match | Andrzej Krezel | ✘ | — | — | In play | — |
+| 09-28 18:15 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | — | In play | — |
+| 09-28 18:11 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
+| 09-28 18:10 | TT Star Series Match | Zelinka Jakub | ✘ | — | — | In play | — |
+| 09-28 18:05 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 18:02 | League of Legends Game | MAGAZA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 18:00 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:58 | Challenger ATP  | Tiago Torres | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 17:57 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:55 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:55 | UEFA Nations League Game | Georgia | ✔ | 90'+3' · UKR 0 - GEO 0 | — | In play | — |
+| 09-28 17:55 | UEFA Nations League Game | Georgia | ✔ | 90'+3' · UKR 0 - GEO 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:55 | ITF Women's Match | Julie Myatovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:54 | UEFA Nations League Game | Ukraine | ✔ | 90'+3' · UKR 0 - GEO 0 | — | In play | — |
+| 09-28 17:54 | UEFA Nations League Game | Ukraine | ✔ | 90'+3' · UKR 0 - GEO 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:53 | TT Elite Series Match | Jakub Cyndera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:53 | Challenger ATP  | Keaton Hance | ✘ | — | — | In play | — |
+| 09-28 17:53 | Challenger ATP  | Keaton Hance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:51 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:50 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -165,16 +168,13 @@
 | 09-28 17:48 | UEFA Nations League Game | Latvia | ✔ | 90'+2' · CYP 0 - LVA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:48 | Liga Leumit Game | Kfar Saba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:48 | UEFA Nations League Game | Cyprus | ✔ | 90'+2' · CYP 0 - LVA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:48 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-28 17:48 | AFCON Game Winner | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 17:47 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:47 | League of Legends Game | Team Phantasma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:46 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:45 | Counter-Strike 2 Game | Sissi State Punks | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 09-28 17:45 | UEFA Nations League Game | Armenia | ✔ | 89' · MNE 3 - ARM 2 | 3¢ | ❌ Lost | -$0.15 |
 | 09-28 17:44 | League of Legends Game | SU Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:42 | AFCON Game Winner | Sierra Leone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:42 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 17:39 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
