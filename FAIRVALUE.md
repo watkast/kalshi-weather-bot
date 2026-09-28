@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 2:45 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 2:56 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 583 | 583 | 305 (52%) | 45¢ | 53% | $359.99 | +13% | +10.2¢ |
+| 592 | 583 | 305 (52%) | 45¢ | 53% | $359.99 | +13% | +10.2¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -40,7 +40,7 @@
 | **V1** | Original (Coinbase price, 4¢ edge, no limit per window) | 181 | 79 (44%) | 52 / 129 | 8.6 | -$37.76 | -$60.92 | -7% |
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 161 | 50 (31%) | 78 / 83 | 7.7 | -$55.90 | -$163.98 | -25% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 40 | 9 (22%) | 17 / 23 | 2.0 | -$8.62 | -$41.38 | -31% |
-| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 77% of orders | 40 | 13 (32%) | 14 / 26 | 2.0 | -$13.69 | -$48.49 | -27% |
+| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 75% of orders | 40 | 13 (32%) | 14 / 26 | 2.0 | -$13.69 | -$48.49 | -27% |
 
 *Model accuracy vs Kalshi's prices on the same 4,276 readings (excluding the final minute): V1 **+4.2%**, V2 **+3.5%**, 3-exchange price (V3/V4) **+0.4%**.*
 
@@ -123,6 +123,15 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 2:48:01 PM | BNB | UP | 12.0 min | 34¢ | 40% | 5¢ | Open | — |
+| 9/28 2:46:58 PM | SOL | DOWN | 13.0 min | 46¢ | 53% | 6¢ | Open | — |
+| 9/28 2:46:58 PM | HYPE | DOWN | 13.0 min | 37¢ | 48% | 9¢ | Open | — |
+| 9/28 2:46:58 PM | XRP | DOWN | 13.0 min | 48¢ | 55% | 5¢ | Open | — |
+| 9/28 2:46:38 PM | ZEC | UP | 13.4 min | 56¢ | 63% | 5¢ | Open | — |
+| 9/28 2:46:25 PM | DOGE | UP | 13.6 min | 41¢ | 50% | 8¢ | Open | — |
+| 9/28 2:46:25 PM | ETH | UP | 13.6 min | 49¢ | 55% | 5¢ | Open | — |
+| 9/28 2:46:17 PM | NEAR | DOWN | 13.7 min | 39¢ | 47% | 6¢ | Open | — |
+| 9/28 2:46:17 PM | BTC | DOWN | 13.7 min | 56¢ | 62% | 4¢ | Open | — |
 | 9/28 2:37:20 PM | HYPE | DOWN | 7.7 min | 51¢ | 60% | 8¢ | ✅ Won | $4.72 |
 | 9/28 2:36:58 PM | ZEC | DOWN | 8.0 min | 69¢ | 79% | 8¢ | ✅ Won | $2.95 |
 | 9/28 2:34:35 PM | SOL | DOWN | 10.4 min | 40¢ | 47% | 6¢ | ✅ Won | $5.83 |
@@ -139,15 +148,6 @@
 | 9/28 2:16:27 PM | NEAR | DOWN | 13.6 min | 68¢ | 74% | 4¢ | ❌ Lost | -$6.96 |
 | 9/28 2:16:17 PM | BTC | UP | 13.7 min | 29¢ | 36% | 6¢ | ❌ Lost | -$3.05 |
 | 9/28 2:16:17 PM | XRP | UP | 13.7 min | 32¢ | 39% | 5¢ | ✅ Won | $6.64 |
-| 9/28 2:16:17 PM | BNB | UP | 13.7 min | 28¢ | 45% | 16¢ | ✅ Won | $7.05 |
-| 9/28 2:16:17 PM | HYPE | UP | 13.7 min | 31¢ | 40% | 7¢ | ✅ Won | $6.75 |
-| 9/28 2:01:56 PM | ZEC | DOWN | 13.1 min | 54¢ | 62% | 6¢ | ❌ Lost | -$5.58 |
-| 9/28 2:01:56 PM | BNB | DOWN | 13.1 min | 70¢ | 84% | 12¢ | ❌ Lost | -$7.15 |
-| 9/28 2:01:42 PM | NEAR | DOWN | 13.3 min | 59¢ | 65% | 4¢ | ❌ Lost | -$6.07 |
-| 9/28 2:01:33 PM | DOGE | UP | 13.4 min | 36¢ | 42% | 5¢ | ✅ Won | $6.23 |
-| 9/28 2:01:33 PM | SOL | UP | 13.4 min | 41¢ | 49% | 6¢ | ✅ Won | $5.73 |
-| 9/28 2:01:22 PM | BTC | DOWN | 13.6 min | 52¢ | 67% | 13¢ | ❌ Lost | -$5.38 |
-| 9/28 2:01:22 PM | XRP | DOWN | 13.6 min | 49¢ | 67% | 16¢ | ❌ Lost | -$5.08 |
 
 ## How the model works
 
