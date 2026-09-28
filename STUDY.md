@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 3:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 3:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 441 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
+| 443 | 47 | 0 (0%) | 1.1% | -$7.05 (-100%) | Sell at 2¢: -$4.71 (-67%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 47 | 19% | 9% | 6% | 2% | 0% | 0% |
-| Unverified | 390 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 391 | 4% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 167 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 168 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 12 min |
 | ITF Women's Match | ✘ | 23 | 0 | 9% | 9% | -100% | -85% | 4 min |
@@ -146,7 +146,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 21:25 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 09-28 21:37 | R6 Game | Fnatic | ✘ | — | — | In play | — |
+| 09-28 21:35 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
+| 09-28 21:25 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:16 | TT Elite Series Match | Dawid Dytko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:13 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:11 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -174,8 +176,6 @@
 | 09-28 20:37 | UEFA Nations League Game | Belgium | ✔ | 88' · FRA 0 - BEL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:30 | UEFA Nations League Game | Tie | ✔ | 85' · POL 1 - SWE 3 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:29 | UEFA Nations League Game | Tie | ✔ | 87' · BIH 4 - ROU 2 | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 20:28 | ITF Women's Match | Kelly Keller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 20:25 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
