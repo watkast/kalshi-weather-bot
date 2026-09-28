@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 5:31 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 5:42 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 259 | 252 | 145 (58%) | 43¢ | 51% | $329.06 | +29% | +16.4¢ |
+| 261 | 252 | 145 (58%) | 43¢ | 51% | $329.06 | +29% | +16.4¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -98,6 +98,8 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 5:34:04 AM | NEAR | DOWN | 10.9 min | 70¢ | 79% | 8¢ | Open | — |
+| 9/28 5:32:37 AM | DOGE | DOWN | 12.4 min | 57¢ | 64% | 5¢ | Open | — |
 | 9/28 5:31:52 AM | ZEC | DOWN | 13.1 min | 53¢ | 60% | 5¢ | Open | — |
 | 9/28 5:31:32 AM | BNB | DOWN | 13.4 min | 51¢ | 61% | 8¢ | Open | — |
 | 9/28 5:31:16 AM | XRP | UP | 13.7 min | 45¢ | 52% | 5¢ | Open | — |
@@ -121,8 +123,6 @@
 | 9/28 5:01:08 AM | ZEC | DOWN | 13.9 min | 35¢ | 42% | 5¢ | ❌ Lost | -$3.66 |
 | 9/28 5:01:08 AM | XRP | DOWN | 13.9 min | 37¢ | 47% | 8¢ | ✅ Won | $6.13 |
 | 9/28 5:01:08 AM | DOGE | DOWN | 13.9 min | 26¢ | 35% | 7¢ | ❌ Lost | -$2.74 |
-| 9/28 5:01:04 AM | BNB | DOWN | 13.9 min | 25¢ | 35% | 9¢ | ❌ Lost | -$2.64 |
-| 9/28 5:01:04 AM | ETH | UP | 13.9 min | 73¢ | 80% | 6¢ | ✅ Won | $2.56 |
 
 ## How the model works
 
