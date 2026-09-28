@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sun Sep 27, 11:31 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Mon Sep 28, 4:31 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -13,8 +13,8 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 17 | 0 | — | — | — | 17 | Too early |
-| **Rain** | 6 | 0 | — | — | — | 6 | Too early |
-| **Longshot fade** | 400 | 215 | 91% | -$76.13 | -3.7% | 185 | Losing |
+| **Rain** | 9 | 0 | — | — | — | 9 | Too early |
+| **Longshot fade** | 440 | 281 | 91% | -$107.91 | -4.1% | 159 | Losing |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -22,13 +22,13 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| NFL | 211 | 147 | 89% | -$81.62 | -5.9% |
-| Other | 98 | 17 | 100% | $8.42 | +5.2% |
+| NFL | 211 | 197 | 89% | -$111.92 | -6.0% |
+| Other | 122 | 29 | 97% | $4.90 | +1.8% |
 | MLB | 48 | 48 | 94% | -$4.39 | -1.0% |
-| Crypto | 17 | 0 | — | — | — |
-| Weather | 15 | 0 | — | — | — |
-| Soccer | 9 | 2 | 100% | $0.76 | +4.0% |
-| NBA / WNBA | 2 | 1 | 100% | $0.70 | +7.5% |
+| Weather | 23 | 0 | — | — | — |
+| Crypto | 20 | 0 | — | — | — |
+| Soccer | 14 | 5 | 100% | $2.43 | +5.1% |
+| NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 
 ## Latest temperature bets
 
@@ -49,6 +49,9 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-09-29 | SATX | YES | 24¢ | 37% | Open | — |
+| 2026-09-29 | HOU | YES | 25¢ | 40% | Open | — |
+| 2026-09-29 | BOS | YES | 38¢ | 70% | Open | — |
 | 2026-09-28 | SEA | NO | 82¢ | 96% | Open | — |
 | 2026-09-28 | PHX | NO | 13¢ | 24% | Open | — |
 | 2026-09-28 | OKC | YES | 9¢ | 21% | Open | — |
