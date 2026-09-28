@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 1:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 2:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 397 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 401 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 357 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 359 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,9 +83,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 149 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 150 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 4 min |
-| Counter-Strike 2 Game | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 13 min |
+| Counter-Strike 2 Game | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 13 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | ITF Women's Match | ✘ | 20 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
@@ -145,7 +145,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 19:57 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 09-28 20:04 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | — | In play | — |
+| 09-28 20:03 | TT Star Series Match | Abedinian Milad | ✘ | — | — | In play | — |
+| 09-28 20:03 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
+| 09-28 19:58 | Counter-Strike 2 Game | Pandaric eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:57 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:57 | UEFA Nations League Game | Romania | ✔ | 55' · BIH 3 - ROU 1 | — | In play | — |
 | 09-28 19:50 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:46 | LaLiga 2 Game | Leganes | ✔ | 57' · CAS 2 - LEG 0 | — | In play | — |
@@ -171,10 +175,6 @@
 | 09-28 19:13 | UEFA Nations League Game | Turkiye | ✔ | 27' · ITA 2 - TUR 0 | — | In play | — |
 | 09-28 19:12 | TT Star Series Match | Beneš Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:10 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:08 | Challenger ATP  | Pierre-Hugues Herbert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:07 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:07 | ITF Men's Match | Mario Martinez Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:58 | Valorant game winner | Trigon Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
