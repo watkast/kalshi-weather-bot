@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 8:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 8:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 224 finished bets | 3% | -$29.70 | -88% | -13.26¢ | -$14.20 / -$15.50 |
+| all leagues, sell at 5¢ | 228 finished bets | 3% | -$30.30 | -89% | -13.29¢ | -$14.50 / -$15.80 |
 
-*Expect **230 buys in the first 16 hours** ($34.50 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **237 buys in the first 16 hours** ($35.55 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 224 | -$30.22 | -90% |
-| all leagues, sell at 3¢ | 224 | -$30.48 | -91% |
-| all leagues, sell at 10¢ | 224 | -$32.29 | -96% |
+| all leagues, sell at 2¢ | 228 | -$30.82 | -90% |
+| all leagues, sell at 3¢ | 228 | -$31.08 | -91% |
+| all leagues, sell at 10¢ | 228 | -$32.89 | -96% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 230 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 237 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 197 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 201 | 4% | 3% | 2% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,10 +83,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 89 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
-| ITF Men's Match | ✘ | 16 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| TT Elite Series Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| Challenger ATP  | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 4 min |
+| Counter-Strike 2 Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ITF Women's Match | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 5 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -137,12 +137,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 14:17 | ITF Men's Match | Anup Bangargi | ✘ | — | — | In play | — |
-| 09-28 14:16 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | — | In play | — |
+| 09-28 14:28 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
+| 09-28 14:27 | Challenger ATP  | Leonardo Rossi | ✘ | — | — | In play | — |
+| 09-28 14:26 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | — | In play | — |
+| 09-28 14:25 | Counter-Strike 2 Game | Chaos Enforcers | ✘ | — | — | In play | — |
+| 09-28 14:25 | Challenger ATP  | Robin Bertrand | ✘ | — | — | In play | — |
+| 09-28 14:21 | Men's T20 Cricket Match | North West Dragons | ✘ | — | — | In play | — |
+| 09-28 14:19 | Challenger ATP  | Max Basing | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 14:17 | ITF Men's Match | Anup Bangargi | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-28 14:16 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:13 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | — | In play | — |
 | 09-28 14:08 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:07 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:05 | Counter-Strike 2 Game | Nexus | ✘ | — | — | In play | — |
+| 09-28 14:05 | Counter-Strike 2 Game | Nexus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:58 | ITF Women's Match | Freya Peet | ✘ | — | — | In play | — |
 | 09-28 13:54 | ITF Men's Match | Timofei Derepasko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:53 | ITF Women's Match | Tinatini Mtvarelishvili | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -160,13 +167,6 @@
 | 09-28 13:25 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:24 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 13:23 | ATP Tennis Match | Roman Safiullin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:20 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:13 | ITF Women's Match | Lea Fojcik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:10 | Challenger ATP  | Benjamin Bonzi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:06 | Challenger ATP  | Matteo Sciahbasi | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 09-28 13:05 | ITF Women's Match | Lilian Poling | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:03 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 13:01 | Counter-Strike 2 Game | OldMix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
