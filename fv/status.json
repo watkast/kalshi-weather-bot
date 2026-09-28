@@ -1,0 +1,33 @@
+{
+ "saved_at": "2026-09-28T04:36:57+00:00",
+ "assets": [
+  "ADA",
+  "BCH",
+  "BNB",
+  "BTC",
+  "DOGE",
+  "ETH",
+  "HYPE",
+  "NEAR",
+  "SOL",
+  "TON",
+  "XRP",
+  "ZEC"
+ ],
+ "markets": 9,
+ "trades": 9,
+ "open": 9,
+ "results_known": 9,
+ "sigma_pct": {
+  "NEAR": 0.1342,
+  "BNB": 0.0599,
+  "DOGE": 0.0993,
+  "SOL": 0.0641,
+  "ZEC": 0.113,
+  "BTC": 0.0352,
+  "ETH": 0.0424,
+  "HYPE": 0.0909,
+  "XRP": 0.079
+ },
+ "errors": []
+}
