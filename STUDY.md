@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 5:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 49 finished bets | 18% | -$5.01 | -68% | -10.22¢ | -$2.56 / -$2.45 |
 
-*Expect about **48 buys a day**, roughly **$7.20/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **49 buys a day**, roughly **$7.29/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 475 | 49 | 0 (0%) | 1.1% | -$7.35 (-100%) | Sell at 2¢: -$5.01 (-68%) |
+| 479 | 49 | 0 (0%) | 1.1% | -$7.35 (-100%) | Sell at 2¢: -$5.01 (-68%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 49 | 18% | 8% | 6% | 2% | 0% | 0% |
-| Unverified | 424 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 427 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,10 +83,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 188 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 190 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 35 | 0 | 6% | 3% | -100% | -90% | 12 min |
-| ITF Women's Match | ✘ | 27 | 0 | 7% | 7% | -100% | -87% | 4 min |
+| ITF Women's Match | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
@@ -135,7 +135,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 4 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -147,6 +147,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-28 23:31 | ITF Women's Match | Anne Christine Lutkemeyer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 23:27 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 23:26 | CONCACAF Nations League Game | Martinique | ✔ | 69' · MTQ 0 - SUR 1 | — | In play | — |
+| 09-28 23:24 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:19 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:11 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:08 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -173,10 +177,6 @@
 | 09-28 22:02 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:02 | TT Elite Series Match | Jakub Cyndera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 21:58 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 21:57 | APF Division de Honor Game | CD Recoleta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 21:56 | ITF Women's Match | Allura Zamarripa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 21:49 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 21:46 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
