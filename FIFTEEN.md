@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Sep 28, 5:49 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Sep 28, 5:59 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1250 | 1244 | 8 (1%) | 1.07% | -$38.15 (-25%) | Hold to the close: -$38.15 (-25%) |
+| 1254 | 1244 | 8 (1%) | 1.07% | -$38.15 (-25%) | Hold to the close: -$38.15 (-25%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/28 5:59:01 PM | DOGE | DOWN | 58 sec | +0.094% | — | In play | — |
+| 9/28 5:59:01 PM | SOL | DOWN | 58 sec | +0.088% | — | In play | — |
+| 9/28 5:58:14 PM | BTC | UP | 1.8 min | -0.070% | — | In play | — |
+| 9/28 5:58:14 PM | ETH | UP | 1.8 min | -0.124% | — | In play | — |
 | 9/28 5:44:55 PM | EURUSD | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/28 5:44:55 PM | SILVER | UP | 5 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 9/28 5:44:39 PM | BTC | DOWN | 21 sec | +0.007% | 0¢ | ❌ Lost | $0.00 |
@@ -206,10 +210,6 @@
 | 9/28 5:26:38 PM | BTC | DOWN | 3.4 min | +0.155% | 1¢ | ❌ Lost | -$0.15 |
 | 9/28 5:26:38 PM | DOGE | DOWN | 3.4 min | +0.407% | 1¢ | ❌ Lost | -$0.15 |
 | 9/28 5:26:38 PM | SOL | DOWN | 3.4 min | +0.294% | 1¢ | ❌ Lost | -$0.15 |
-| 9/28 5:26:23 PM | ETH | DOWN | 3.6 min | +0.172% | 1¢ | ❌ Lost | -$0.15 |
-| 9/28 5:26:23 PM | HYPE | DOWN | 3.6 min | +0.307% | 1¢ | ❌ Lost | -$0.15 |
-| 9/28 5:26:07 PM | SILVER | DOWN | 3.9 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 9/28 5:25:20 PM | BNB | DOWN | 4.7 min | +0.151% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
