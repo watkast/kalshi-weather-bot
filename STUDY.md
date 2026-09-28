@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 9:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 9:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 250 finished bets | 2% | -$33.60 | -90% | -13.44¢ | -$16.15 / -$17.45 |
+| all leagues, sell at 5¢ | 253 finished bets | 2% | -$34.05 | -90% | -13.46¢ | -$16.30 / -$17.75 |
 
-*Expect **254 buys in the first 17 hours** ($38.10 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
+*Expect **258 buys in the first 17 hours** ($38.70 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **7 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 250 | -$34.12 | -91% |
-| all leagues, sell at 3¢ | 250 | -$34.38 | -92% |
-| all leagues, sell at 10¢ | 250 | -$36.19 | -97% |
+| all leagues, sell at 2¢ | 253 | -$34.57 | -91% |
+| all leagues, sell at 3¢ | 253 | -$34.83 | -92% |
+| all leagues, sell at 10¢ | 253 | -$36.64 | -97% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 254 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 258 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 223 | 4% | 3% | 2% | 0% | 0% | 0% |
+| Unverified | 226 | 4% | 3% | 2% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,10 +83,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 99 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| Challenger ATP  | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 4 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
-| Counter-Strike 2 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| Counter-Strike 2 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ITF Women's Match | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 5 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | TT Star Series Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -137,10 +137,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 15:18 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | — | In play | — |
-| 09-28 15:18 | Challenger ATP  | Shunsuke Mitsui | ✘ | — | — | In play | — |
+| 09-28 15:30 | TT Star Series Match | Beneš Michal | ✘ | — | — | In play | — |
+| 09-28 15:27 | TT Elite Series Match | Mateusz Trela | ✘ | — | — | In play | — |
+| 09-28 15:24 | TT Elite Series Match | Artur Kubiak | ✘ | — | — | In play | — |
+| 09-28 15:23 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | — | In play | — |
+| 09-28 15:18 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 15:18 | Challenger ATP  | Shunsuke Mitsui | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 15:10 | ITF Women's Match | Savine ERLER | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 15:07 | Counter-Strike 2 Game | Leo Team | ✘ | — | — | In play | — |
+| 09-28 15:07 | Counter-Strike 2 Game | Leo Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 15:04 | TT Elite Series Match | Artur Sobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 15:00 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:53 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -163,10 +167,6 @@
 | 09-28 14:19 | Challenger ATP  | Max Basing | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 14:17 | ITF Men's Match | Anup Bangargi | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 14:16 | TT Elite Series Match | Wojciech Tobiasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:13 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:08 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:07 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 14:05 | Counter-Strike 2 Game | Nexus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
