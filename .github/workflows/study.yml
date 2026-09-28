@@ -29,6 +29,8 @@ jobs:
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
+          # A queued run checks out the code from when it was queued; start from the latest data instead.
+          git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
       - name: Watch every sport for 1¢ moments
         env:
           RUN_MINUTES: "348"
@@ -39,4 +41,4 @@ jobs:
         run: |
           git add study 2>/dev/null || true
           git diff --cached --quiet || git commit -q -m "1-cent study update"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done

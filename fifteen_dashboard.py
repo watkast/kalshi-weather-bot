@@ -40,12 +40,24 @@ def f(x, default=None):
         return default
 
 
-def load():
-    path = os.path.join(DIR, "bets.csv")
+def _rows(path):
     if not os.path.exists(path):
         return []
     with open(path, newline="") as fh:
         return list(csv.DictReader(fh))
+
+
+def load():
+    """Current bets plus anything archived from earlier sessions, de-duplicated
+    (keeping the most complete copy of each bet)."""
+    best = {}
+    for b in _rows(os.path.join(DIR, "archive", "bets__prev_session.csv")) + _rows(os.path.join(DIR, "bets.csv")):
+        key = (b["ticker"], b["side"])
+        score = (b["status"] == "settled", f(b.get("snapshots"), 0) > 0)
+        cur = best.get(key)
+        if cur is None or score > (cur["status"] == "settled", f(cur.get("snapshots"), 0) > 0):
+            best[key] = b
+    return sorted(best.values(), key=lambda b: b["detected_at"])
 
 
 def cost(b):
@@ -289,7 +301,8 @@ def charts(done):
     # Price paths from our 2-second snapshots (most recent 300 bets)
     recent = {(b["ticker"], b["side"]): b for b in sorted(done, key=lambda b: b["detected_at"])[-300:]}
     paths = defaultdict(list)
-    for path in sorted(glob.glob(os.path.join(DIR, "snaps", "*.csv")))[-3:]:
+    for path in sorted(glob.glob(os.path.join(DIR, "snaps", "*.csv")))[-3:] + \
+            glob.glob(os.path.join(DIR, "archive", "snaps_*.csv")):
         with open(path, newline="") as fh:
             for r in csv.DictReader(fh):
                 key = (r["ticker"], r["side"])

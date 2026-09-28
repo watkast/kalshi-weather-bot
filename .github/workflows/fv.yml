@@ -29,6 +29,8 @@ jobs:
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
+          # A queued run checks out the code from when it was queued; start from the latest data instead.
+          git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
       - name: Run the fair-value bot
         env:
           RUN_MINUTES: "330"
@@ -39,4 +41,4 @@ jobs:
         run: |
           git add fv 2>/dev/null || true
           git diff --cached --quiet || git commit -q -m "Fair-value bot update"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done

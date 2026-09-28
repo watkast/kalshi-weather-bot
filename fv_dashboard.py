@@ -184,11 +184,23 @@ HEAD = ["", "Trades", "Won", "Avg price paid", "Model's avg chance", "P&L", "Ret
 
 
 def main():
-    trades = load(os.path.join(DIR, "trades.csv"))
-    results = {r["ticker"]: r["result"] for r in load(os.path.join(DIR, "results.csv"))}
-    obs = []
-    for path in sorted(glob.glob(os.path.join(DIR, "obs", "*.csv"))):
-        obs += load(path)
+    # Current files plus anything archived from earlier sessions, de-duplicated.
+    by_ticker = {}
+    for t in load(os.path.join(DIR, "archive", "trades__prev_session.csv")) + load(os.path.join(DIR, "trades.csv")):
+        cur = by_ticker.get(t["ticker"])
+        if cur is None or (cur["status"] != "settled" and t["status"] == "settled"):
+            by_ticker[t["ticker"]] = t
+    trades = sorted(by_ticker.values(), key=lambda t: t["time"])
+    results = {}
+    for r in load(os.path.join(DIR, "archive", "results__prev_session.csv")) + load(os.path.join(DIR, "results.csv")):
+        results[r["ticker"]] = r["result"]
+    seen, obs = set(), []
+    for path in sorted(glob.glob(os.path.join(DIR, "obs", "*.csv")) + glob.glob(os.path.join(DIR, "archive", "obs_*.csv"))):
+        for o in load(path):
+            key = (o["time"], o["ticker"])
+            if key not in seen:
+                seen.add(key)
+                obs.append(o)
     settled = [t for t in trades if t["status"] == "settled"]
     now = datetime.now(MT).strftime("%a %b %-d, %-I:%M %p MT")
 

@@ -92,7 +92,9 @@ def git_save():
                       cwd=HERE, capture_output=True).returncode != 0:
         return
     for _ in range(3):
-        if subprocess.run(["git", "pull", "-q", "--rebase"], cwd=HERE, capture_output=True).returncode != 0:
+        # This bot is the only writer of its files, so on a clash keep our copy.
+        if subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs"], cwd=HERE,
+                          capture_output=True).returncode != 0:
             subprocess.run(["git", "rebase", "--abort"], cwd=HERE, capture_output=True)
         if subprocess.run(["git", "push", "-q"], cwd=HERE, capture_output=True).returncode == 0:
             return
