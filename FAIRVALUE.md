@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 12:34 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 12:44 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 508 | 502 | 258 (51%) | 44¢ | 52% | $296.91 | +13% | +10.9¢ |
+| 511 | 502 | 258 (51%) | 44¢ | 52% | $296.91 | +13% | +10.9¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -40,7 +40,7 @@
 | **V1** | Original (Coinbase price, 4¢ edge, no limit per window) | 100 | 32 (32%) | 35 / 65 | 8.3 | -$37.18 | -$124.00 | -28% |
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 94 | 21 (22%) | 57 / 37 | 7.8 | -$55.90 | -$157.68 | -43% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 24 | 4 (17%) | 13 / 11 | 2.0 | -$8.62 | -$31.18 | -44% |
-| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 76% of orders | 22 | 5 (23%) | 9 / 13 | 2.0 | -$10.20 | -$37.57 | -43% |
+| **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 77% of orders | 22 | 5 (23%) | 9 / 13 | 2.0 | -$10.20 | -$37.57 | -43% |
 
 *Model accuracy vs Kalshi's prices on the same 2,421 readings (excluding the final minute): V1 **-1.1%**, V2 **-0.8%**, 3-exchange price (V3/V4) **-5.4%**.*
 
@@ -123,6 +123,9 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 12:38:38 PM | ETH | UP | 6.4 min | 7¢ | 13% | 5¢ | Open | — |
+| 9/28 12:37:28 PM | HYPE | UP | 7.5 min | 22¢ | 30% | 6¢ | Open | — |
+| 9/28 12:34:43 PM | NEAR | UP | 10.3 min | 12¢ | 17% | 4¢ | Open | — |
 | 9/28 12:32:23 PM | SOL | DOWN | 12.6 min | 75¢ | 81% | 4¢ | Open | — |
 | 9/28 12:32:15 PM | BNB | UP | 12.8 min | 20¢ | 27% | 6¢ | Open | — |
 | 9/28 12:31:50 PM | BTC | DOWN | 13.2 min | 63¢ | 74% | 9¢ | Open | — |
@@ -145,9 +148,6 @@
 | 9/28 12:01:16 PM | ETH | UP | 13.7 min | 37¢ | 44% | 5¢ | ✅ Won | $6.13 |
 | 9/28 12:01:08 PM | SOL | UP | 13.9 min | 28¢ | 38% | 9¢ | ✅ Won | $7.05 |
 | 9/28 12:01:08 PM | XRP | UP | 13.9 min | 31¢ | 37% | 4¢ | ✅ Won | $6.75 |
-| 9/28 12:01:08 PM | DOGE | UP | 13.9 min | 29¢ | 35% | 5¢ | ✅ Won | $6.95 |
-| 9/28 12:01:08 PM | BNB | DOWN | 13.9 min | 57¢ | 67% | 8¢ | ❌ Lost | -$5.88 |
-| 9/28 11:48:32 AM | BTC | UP | 11.4 min | 31¢ | 38% | 6¢ | ❌ Lost | -$3.25 |
 
 ## How the model works
 
