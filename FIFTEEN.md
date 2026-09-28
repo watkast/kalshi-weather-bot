@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Sep 28, 5:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Sep 28, 5:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 578 | 572 | 3 (1%) | 1.07% | -$26.40 (-39%) | Hold to the close: -$26.40 (-39%) |
+| 580 | 572 | 3 (1%) | 1.07% | -$26.40 (-39%) | Hold to the close: -$26.40 (-39%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -178,6 +178,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/28 5:55:38 AM | DOGE | UP | 4.4 min | -0.320% | — | In play | — |
+| 9/28 5:53:45 AM | HYPE | UP | 6.2 min | -0.690% | — | In play | — |
 | 9/28 5:44:57 AM | WTI | UP | 2 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 9/28 5:44:25 AM | COPPER | DOWN | 34 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 9/28 5:43:51 AM | ZEC | DOWN | 69 sec | +0.167% | 1¢ | ❌ Lost | -$0.15 |
@@ -206,8 +208,6 @@
 | 9/28 5:25:19 AM | HYPE | DOWN | 4.7 min | +0.276% | 1¢ | ❌ Lost | -$0.15 |
 | 9/28 5:25:03 AM | NEAR | DOWN | 4.9 min | +0.859% | 1¢ | ❌ Lost | -$0.15 |
 | 9/28 5:14:56 AM | SOL | DOWN | 3 sec | +0.015% | 0¢ | ❌ Lost | $0.00 |
-| 9/28 5:14:40 AM | DOGE | DOWN | 19 sec | +0.015% | 0¢ | ❌ Lost | -$0.15 |
-| 9/28 5:14:24 AM | NATGAS | DOWN | 35 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
