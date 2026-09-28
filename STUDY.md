@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 1:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 1:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 33 finished bets | 15% | -$3.65 | -74% | -11.06¢ | -$1.88 / -$1.77 |
 
-*Expect **34 buys in the first 21 hours** ($5.10 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect **35 buys in the first 21 hours** ($5.25 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 388 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 394 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 346 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 354 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,13 +83,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 144 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 148 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 4 min |
-| Counter-Strike 2 Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 13 min |
+| Counter-Strike 2 Game | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 13 min |
 | ITF Men's Match | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 4 min |
-| ITF Women's Match | ✘ | 19 | 0 | 11% | 11% | -100% | -82% | 4 min |
-| League of Legends Game | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 11 min |
-| TT Star Series Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| ITF Women's Match | ✘ | 20 | 0 | 10% | 10% | -100% | -83% | 4 min |
+| League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
+| TT Star Series Match | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -145,12 +145,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 19:36 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
-| 09-28 19:35 | TT Star Series Match | Seibert Jakub | ✘ | — | — | In play | — |
-| 09-28 19:35 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
+| 09-28 19:46 | LaLiga 2 Game | Leganes | ✔ | 57' · CAS 2 - LEG 0 | — | In play | — |
+| 09-28 19:43 | TT Elite Series Match | Dawid Dytko | ✘ | — | — | In play | — |
+| 09-28 19:42 | ITF Men's Match | Yeray Andres Pastor | ✘ | — | — | In play | — |
+| 09-28 19:40 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:37 | R6 Game | Virtus.pro | ✘ | — | — | In play | — |
+| 09-28 19:37 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:36 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:35 | TT Star Series Match | Seibert Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:35 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:35 | TT Star Series Match | Gavlas Antonín | ✘ | — | — | In play | — |
-| 09-28 19:31 | League of Legends Game | The Secret Club Esport | ✘ | — | — | In play | — |
-| 09-28 19:28 | Counter-Strike 2 Game | MASQ | ✘ | — | — | In play | — |
+| 09-28 19:31 | League of Legends Game | The Secret Club Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:28 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:27 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:24 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:21 | League of Legends Game | Forsaken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -158,7 +164,7 @@
 | 09-28 19:19 | ITF Women's Match | Anna Burchak | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 09-28 19:19 | Challenger ATP  | Alafia Ayeni | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 19:18 | Counter-Strike 2 Game | struggletony | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:13 | ITF Women's Match | Charlotte Maurey | ✘ | — | — | In play | — |
+| 09-28 19:13 | ITF Women's Match | Charlotte Maurey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:13 | UEFA Nations League Game | Turkiye | ✔ | 27' · ITA 2 - TUR 0 | — | In play | — |
 | 09-28 19:12 | TT Star Series Match | Beneš Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:10 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -169,12 +175,6 @@
 | 09-28 18:58 | League of Legends Game | HMBLE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:57 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:50 | Challenger ATP  | Quinn Vandecasteele | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:50 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:46 | TT Star Series Match | Szudi Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:44 | KHL Game | HC Sochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:44 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:43 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:41 | League of Legends Game | White Dragons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
