@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 1:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 1:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 381 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 388 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 341 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 346 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,12 +83,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 142 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| Challenger ATP  | ✘ | 34 | 0 | 6% | 0% | -100% | -90% | 4 min |
+| TT Elite Series Match | ✘ | 144 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| Challenger ATP  | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 4 min |
 | Counter-Strike 2 Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 13 min |
 | ITF Men's Match | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | ITF Women's Match | ✘ | 19 | 0 | 11% | 11% | -100% | -82% | 4 min |
-| League of Legends Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 12 min |
+| League of Legends Game | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 11 min |
 | TT Star Series Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -145,11 +145,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 19:24 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | — | In play | — |
-| 09-28 19:21 | League of Legends Game | Forsaken | ✘ | — | — | In play | — |
-| 09-28 19:21 | League of Legends Game | Bushido Wildcats | ✘ | — | — | In play | — |
+| 09-28 19:36 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
+| 09-28 19:35 | TT Star Series Match | Seibert Jakub | ✘ | — | — | In play | — |
+| 09-28 19:35 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
+| 09-28 19:35 | TT Star Series Match | Gavlas Antonín | ✘ | — | — | In play | — |
+| 09-28 19:31 | League of Legends Game | The Secret Club Esport | ✘ | — | — | In play | — |
+| 09-28 19:28 | Counter-Strike 2 Game | MASQ | ✘ | — | — | In play | — |
+| 09-28 19:27 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:24 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:21 | League of Legends Game | Forsaken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 19:21 | League of Legends Game | Bushido Wildcats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:19 | ITF Women's Match | Anna Burchak | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 09-28 19:19 | Challenger ATP  | Alafia Ayeni | ✘ | — | — | In play | — |
+| 09-28 19:19 | Challenger ATP  | Alafia Ayeni | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 19:18 | Counter-Strike 2 Game | struggletony | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:13 | ITF Women's Match | Charlotte Maurey | ✘ | — | — | In play | — |
 | 09-28 19:13 | UEFA Nations League Game | Turkiye | ✔ | 27' · ITA 2 - TUR 0 | — | In play | — |
@@ -168,13 +175,6 @@
 | 09-28 18:44 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:43 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:41 | League of Legends Game | White Dragons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:39 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:38 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:38 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:38 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:37 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:35 | Counter-Strike 2 Game | megoshort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:34 | League of Legends Game | Valerion | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
