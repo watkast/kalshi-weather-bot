@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 1:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 1:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 33 finished bets | 15% | -$3.65 | -74% | -11.06¢ | -$1.88 / -$1.77 |
 
-*Expect **35 buys in the first 21 hours** ($5.25 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect **36 buys in the first 21 hours** ($5.40 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 394 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 397 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 354 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 357 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,10 +83,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 148 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 149 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 4 min |
 | Counter-Strike 2 Game | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 13 min |
-| ITF Men's Match | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 4 min |
+| ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | ITF Women's Match | ✘ | 20 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
 | TT Star Series Match | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -104,6 +104,7 @@
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| R6 Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -116,7 +117,6 @@
 | Dota 2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Valorant game winner | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| R6 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ELH Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -1 min |
 
 ## By time left when it hit 1¢
@@ -145,11 +145,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-28 19:57 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 09-28 19:57 | UEFA Nations League Game | Romania | ✔ | 55' · BIH 3 - ROU 1 | — | In play | — |
+| 09-28 19:50 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:46 | LaLiga 2 Game | Leganes | ✔ | 57' · CAS 2 - LEG 0 | — | In play | — |
 | 09-28 19:43 | TT Elite Series Match | Dawid Dytko | ✘ | — | — | In play | — |
-| 09-28 19:42 | ITF Men's Match | Yeray Andres Pastor | ✘ | — | — | In play | — |
+| 09-28 19:42 | ITF Men's Match | Yeray Andres Pastor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:40 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:37 | R6 Game | Virtus.pro | ✘ | — | — | In play | — |
+| 09-28 19:37 | R6 Game | Virtus.pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:37 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:36 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:35 | TT Star Series Match | Seibert Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -172,9 +175,6 @@
 | 09-28 19:07 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:07 | ITF Men's Match | Mario Martinez Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:58 | Valorant game winner | Trigon Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:58 | League of Legends Game | HMBLE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:57 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 18:50 | Challenger ATP  | Quinn Vandecasteele | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
