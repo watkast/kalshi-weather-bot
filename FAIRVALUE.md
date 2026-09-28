@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 4:47 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 4:57 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 653 | 646 | 336 (52%) | 45¢ | 53% | $363.95 | +12% | +8.8¢ |
+| 655 | 646 | 336 (52%) | 45¢ | 53% | $363.95 | +12% | +8.8¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -124,6 +124,8 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 4:51:30 PM | HYPE | UP | 8.5 min | 21¢ | 26% | 4¢ | Open | — |
+| 9/28 4:50:54 PM | SOL | DOWN | 9.1 min | 27¢ | 35% | 7¢ | Open | — |
 | 9/28 4:47:14 PM | ZEC | DOWN | 12.8 min | 34¢ | 42% | 6¢ | Open | — |
 | 9/28 4:47:06 PM | XRP | UP | 12.9 min | 40¢ | 50% | 8¢ | Open | — |
 | 9/28 4:47:06 PM | BTC | UP | 12.9 min | 53¢ | 65% | 10¢ | Open | — |
@@ -147,8 +149,6 @@
 | 9/28 4:17:14 PM | XRP | DOWN | 12.8 min | 43¢ | 55% | 10¢ | ❌ Lost | -$4.48 |
 | 9/28 4:17:07 PM | ZEC | DOWN | 12.9 min | 29¢ | 35% | 5¢ | ❌ Lost | -$3.03 |
 | 9/28 4:16:06 PM | BTC | DOWN | 13.9 min | 63¢ | 71% | 6¢ | ❌ Lost | -$6.47 |
-| 9/28 4:02:35 PM | NEAR | DOWN | 12.4 min | 55¢ | 61% | 4¢ | ❌ Lost | -$5.68 |
-| 9/28 4:02:26 PM | HYPE | UP | 12.6 min | 12¢ | 18% | 5¢ | ❌ Lost | -$1.26 |
 
 ## How the model works
 
