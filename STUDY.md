@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 12:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 12:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 33 finished bets | 15% | -$3.65 | -74% | -11.06¢ | -$1.88 / -$1.77 |
 
-*Expect **33 buys in the first 19 hours** ($4.95 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect **33 buys in the first 20 hours** ($4.95 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 344 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 346 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 307 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 310 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,13 +83,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 131 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 132 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 32 | 0 | 6% | 0% | -100% | -89% | 4 min |
-| Counter-Strike 2 Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 13 min |
+| Counter-Strike 2 Game | ✘ | 25 | 0 | 8% | 4% | -100% | -86% | 13 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Women's Match | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 4 min |
+| TT Star Series Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | League of Legends Game | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
-| TT Star Series Match | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -145,9 +145,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 18:15 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | — | In play | — |
-| 09-28 18:11 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
-| 09-28 18:10 | TT Star Series Match | Zelinka Jakub | ✘ | — | — | In play | — |
+| 09-28 18:21 | R6 Game | Team Secret | ✘ | — | — | In play | — |
+| 09-28 18:16 | KHL Game | Lada Togliatti | ✘ | — | — | In play | — |
+| 09-28 18:15 | TT Elite Series Match | Gesiarz Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 18:11 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 18:10 | TT Star Series Match | Zelinka Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:05 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:02 | League of Legends Game | MAGAZA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 18:00 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -173,8 +175,6 @@
 | 09-28 17:47 | League of Legends Game | Team Phantasma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:46 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:45 | Counter-Strike 2 Game | Sissi State Punks | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 09-28 17:45 | UEFA Nations League Game | Armenia | ✔ | 89' · MNE 3 - ARM 2 | 3¢ | ❌ Lost | -$0.15 |
-| 09-28 17:44 | League of Legends Game | SU Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
