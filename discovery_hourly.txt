@@ -1,0 +1,155 @@
+HOURLY SERIES 56
+
+== AUDUSDH | AUD/USD over/under | cat=Financials | open=0 events=[]
+
+== GBPUSD | GBP/USD over/under | cat=Financials | open=0 events=[]
+
+== GBPUSDH | GBP/USD over/under | cat=Financials | open=0 events=[]
+
+== INXI | S&P500 hourly | cat=Financials | open=0 events=[]
+
+== KXAUDUSDAH | AUDUSD Daily | cat=Financials | open=0 events=[]
+
+== KXAUDUSDH | AUD/USD over/under | cat=Financials | open=0 events=[]
+
+== KXBNB | BNB | cat=Crypto | open=165 events=['KXBNB-26OCT0217', 'KXBNB-26SEP2818', 'KXBNB-26SEP2917']
+   {"ticker": "KXBNB-26SEP2917-T854.99", "title": "BNB price on Sep 29, 2026?", "yes_sub_title": "$855 or above", "strike_type": "greater", "floor_strike": 854.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' BNBUSD_RTI before 5 PM EDT is above $854.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXBNB-26SEP2917-T665", "title": "BNB price on Sep 29, 2026?", "yes_sub_title": "$664.99 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 665, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' BNBUSD_RTI before 5 PM EDT is below $665 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXBNBD | BNB Directional | cat=Crypto | open=165 events=['KXBNBD-26OCT0217', 'KXBNBD-26SEP2818', 'KXBNBD-26SEP2917']
+   {"ticker": "KXBNBD-26SEP2917-T854.99", "title": "BNB price on Sep 29, 2026?", "yes_sub_title": "$855 or above", "strike_type": "greater", "floor_strike": 854.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' BNBUSD_RTI before 5 PM EDT is above $854.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXBNBD-26SEP2917-T849.99", "title": "BNB price on Sep 29, 2026?", "yes_sub_title": "$850 or above", "strike_type": "greater", "floor_strike": 849.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' BNBUSD_RTI before 5 PM EDT is above $849.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXBTC | Bitcoin range | cat=Crypto | open=318 events=['KXBTC-26OCT0217', 'KXBTC-26SEP2818', 'KXBTC-26SEP2917']
+   {"ticker": "KXBTC-26SEP2917-T92249.99", "title": "Bitcoin price range on Sep 29, 2026?", "yes_sub_title": "$92,250 or above", "strike_type": "greater", "floor_strike": 92249.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0200", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 5 PM EDT is above 92249.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXBTC-26SEP2917-T72750", "title": "Bitcoin price range on Sep 29, 2026?", "yes_sub_title": "$72,749.99 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 72750, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0200", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 5 PM EDT is below 72750 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXBTCD | Bitcoin price Above/below | cat=Crypto | open=318 events=['KXBTCD-26OCT0217', 'KXBTCD-26SEP2818', 'KXBTCD-26SEP2917']
+   {"ticker": "KXBTCD-26SEP2917-T92249.99", "title": "Bitcoin price on Sep 29, 2026?", "yes_sub_title": "$92,250 or above", "strike_type": "greater", "floor_strike": 92249.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 5 PM EDT is above 92249.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXBTCD-26SEP2917-T91999.99", "title": "Bitcoin price on Sep 29, 2026?", "yes_sub_title": "$92,000 or above", "strike_type": "greater", "floor_strike": 91999.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 5 PM EDT is above 91999.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXDJI | DJI Hourly | cat=Financials | open=74 events=['KXDJI-26SEP2910', 'KXDJI-26SEP2916']
+   {"ticker": "KXDJI-26SEP2916-50900.00", "title": "Will the Index.US30/USD be at least $50,900 at September 29, 2026 at 4pm ET?", "yes_sub_title": "At least $50,900", "strike_type": "greater_or_equal", "floor_strike": 50900, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.8700", "yes_ask_dollars": "1.0000", "volume_fp": "0.00", "rules_primary": "If the value of the Index.US30/USD is at least $50,900 at 4pm EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXDJI-26SEP2916-50925.00", "title": "Will the Index.US30/USD be at least $50,925 at September 29, 2026 at 4pm ET?", "yes_sub_title": "At least $50,925", "strike_type": "greater_or_equal", "floor_strike": 50925, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.8700", "yes_ask_dollars": "1.0000", "volume_fp": "0.00", "rules_primary": "If the value of the Index.US30/USD is at least $50,925 at 4pm EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXDOGE | Dogecoin range | cat=Crypto | open=134 events=['KXDOGE-26OCT0217', 'KXDOGE-26SEP2818', 'KXDOGE-26SEP2917']
+   {"ticker": "KXDOGE-26SEP2917-T0.1849999", "title": "Dogecoin price range on Sep 29, 2026?", "yes_sub_title": "$0.185 or above", "strike_type": "custom", "floor_strike": null, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EDT is above 0.1849999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXDOGE-26SEP2917-T0.0100000", "title": "Dogecoin price range on Sep 29, 2026?", "yes_sub_title": "$0.0099999 or below", "strike_type": "custom", "floor_strike": null, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EDT is below 0.0100000 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXDOGED | Dogecoin price Above/below | cat=Crypto | open=134 events=['KXDOGED-26OCT0217', 'KXDOGED-26SEP2818', 'KXDOGED-26SEP2917']
+   {"ticker": "KXDOGED-26SEP2917-T0.1849999", "title": "Dogecoin price on Sep 29, 2026?", "yes_sub_title": "$0.185 or above", "strike_type": "custom", "floor_strike": null, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EDT is above 0.1849999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXDOGED-26SEP2917-T0.1799999", "title": "Dogecoin price on Sep 29, 2026?", "yes_sub_title": "$0.18 or above", "strike_type": "custom", "floor_strike": null, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If there is a 60 second average of CF Benchmarks' Dogecoin Real-Time Index (DOGEUSD_RTI) before 5 PM EDT is above 0.1799999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXETH | Ethereum range | cat=Crypto | open=390 events=['KXETH-26OCT0217', 'KXETH-26SEP2818', 'KXETH-26SEP2917']
+   {"ticker": "KXETH-26SEP2917-T3409.99", "title": "Ethereum price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$3,410 or above", "strike_type": "greater", "floor_strike": 3409.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 5 PM EDT is above 3409.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXETH-26SEP2917-T1890", "title": "Ethereum price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$1,889.99 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 1890, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 5 PM EDT is below 1890 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXETHD | Ethereum price Above/below | cat=Crypto | open=390 events=['KXETHD-26OCT0217', 'KXETHD-26SEP2818', 'KXETHD-26SEP2917']
+   {"ticker": "KXETHD-26SEP2917-T3409.99", "title": "Ethereum price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$3,410 or above", "strike_type": "greater", "floor_strike": 3409.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 5 PM EDT is above 3409.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXETHD-26SEP2917-T3369.99", "title": "Ethereum price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$3,370 or above", "strike_type": "greater", "floor_strike": 3369.99, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ethereum Real-Time Index (ERTI) before 5 PM EDT is above 3369.99 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXEURUSDAH | EURUSD hourly  | cat=Financials | open=0 events=[]
+
+== KXEURUSDH | EUR/USD over/under | cat=Financials | open=0 events=[]
+
+== KXEURUSDHA | EURUSD Hourly | cat=Financials | open=0 events=[]
+
+== KXGBPUSD | GBP/USD over/under | cat=Financials | open=0 events=[]
+
+== KXGBPUSDAH | GBPUSD Hourly | cat=Financials | open=0 events=[]
+
+== KXGBPUSDH | GBP/USD over/under | cat=Financials | open=0 events=[]
+
+== KXGOLDH | Gold Hourly | cat=Commodities | open=80 events=['KXGOLDH-26SEP2818', 'KXGOLDH-26SEP2819']
+   {"ticker": "KXGOLDH-26SEP2819-T4157.99", "title": "Will the gold close price be above 4157.99 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $4157.99", "strike_type": "greater", "floor_strike": 4157.99, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for gold on September 28, 2026 at 7:00 PM EDT is above 4157.99 USD/ounce, then the market resolves to Yes."}
+   {"ticker": "KXGOLDH-26SEP2819-T4155.99", "title": "Will the gold close price be above 4155.99 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $4155.99", "strike_type": "greater", "floor_strike": 4155.99, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for gold on September 28, 2026 at 7:00 PM EDT is above 4155.99 USD/ounce, then the market resolves to Yes."}
+
+== KXHYPE | Hype  | cat=Crypto | open=390 events=['KXHYPE-26OCT0217', 'KXHYPE-26SEP2818', 'KXHYPE-26SEP2917']
+   {"ticker": "KXHYPE-26SEP2917-T70.00", "title": "HYPE price on Sep 29, 2026?", "yes_sub_title": "$69.9999 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 70, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' HYPEUSD_RTI before 5 PM EDT is below $70.00 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXHYPE-26SEP2917-T107.9999", "title": "HYPE price on Sep 29, 2026?", "yes_sub_title": "$108 or above", "strike_type": "greater", "floor_strike": 107.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' HYPEUSD_RTI before 5 PM EDT is above $107.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXHYPED | Hype Directional | cat=Crypto | open=390 events=['KXHYPED-26OCT0217', 'KXHYPED-26SEP2818', 'KXHYPED-26SEP2917']
+   {"ticker": "KXHYPED-26SEP2917-T99.9999", "title": "HYPE price on Sep 29, 2026?", "yes_sub_title": "$100 or above", "strike_type": "greater", "floor_strike": 99.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' HYPEUSD_RTI before 5 PM EDT is above $99.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXHYPED-26SEP2917-T98.9999", "title": "HYPE price on Sep 29, 2026?", "yes_sub_title": "$99 or above", "strike_type": "greater", "floor_strike": 98.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.7000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' HYPEUSD_RTI before 5 PM EDT is above $98.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXINXI | S&P500 hourly | cat=Financials | open=0 events=[]
+
+== KXINXU | S&P 500 above/below | cat=Financials | open=420 events=['KXINXU-26SEP29H1000', 'KXINXU-26SEP29H1100', 'KXINXU-26SEP29H1200']
+   {"ticker": "KXINXU-26SEP29H1600-T7869.9999", "title": "Will the S&P 500 be above 7869.9999 on Sep 29, 2026 at 4pm EDT?", "yes_sub_title": "7,870 or above", "strike_type": "greater_or_equal", "floor_strike": 7870, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0900", "volume_fp": "0.00", "rules_primary": "If the end-of-day S&P 500 index value on September 29, 2026 is above 7869.9999, then the market resolves to Yes."}
+   {"ticker": "KXINXU-26SEP29H1600-T7864.9999", "title": "Will the S&P 500 be above 7864.9999 on Sep 29, 2026 at 4pm EDT?", "yes_sub_title": "7,865 or above", "strike_type": "greater_or_equal", "floor_strike": 7865, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0900", "volume_fp": "0.00", "rules_primary": "If the end-of-day S&P 500 index value on September 29, 2026 is above 7864.9999, then the market resolves to Yes."}
+
+== KXKR200 | KOSPI | cat=Financials | open=0 events=[]
+
+== KXNASDAQ100U | Nasdaq above/below | cat=Financials | open=1000 events=['KXNASDAQ100U-26SEP29H1400', 'KXNASDAQ100U-26SEP29H1500', 'KXNASDAQ100U-26SEP29H1600']
+   {"ticker": "KXNASDAQ100U-26SEP29H1600-T32589.99", "title": "Will the Nasdaq-100 be above 32589.99 at the end of Sep 29, 2026 at 4pm EDT?", "yes_sub_title": "32,590 or above", "strike_type": "greater_or_equal", "floor_strike": 32590, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the end-of-day Nasdaq 100 index value on September 29, 2026 is above 32589.99, then the market resolves to Yes."}
+   {"ticker": "KXNASDAQ100U-26SEP29H1600-T32579.99", "title": "Will the Nasdaq-100 be above 32579.99 at the end of Sep 29, 2026 at 4pm EDT?", "yes_sub_title": "32,580 or above", "strike_type": "greater_or_equal", "floor_strike": 32580, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T20:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the end-of-day Nasdaq 100 index value on September 29, 2026 is above 32579.99, then the market resolves to Yes."}
+
+== KXNEAR | NEAR range | cat=Crypto | open=0 events=[]
+
+== KXNEARD | NEAR Directional | cat=Crypto | open=0 events=[]
+
+== KXNEARH | NEAR Directional | cat=Crypto | open=0 events=[]
+
+== KXNKY | NKY Hourly | cat=Financials | open=0 events=[]
+
+== KXNZDUSDAH | NZDUSD Hourly | cat=Financials | open=0 events=[]
+
+== KXPALLADIUMH | Palladium Hourly | cat=Commodities | open=40 events=['KXPALLADIUMH-26SEP2819']
+   {"ticker": "KXPALLADIUMH-26SEP2819-T1219.49", "title": "Will the palladium close price be above 1219.49 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $1219.49", "strike_type": "greater", "floor_strike": 1219.49, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0900", "yes_ask_dollars": "0.2300", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1219.49 USD/ounce, then the market resolves to Yes."}
+   {"ticker": "KXPALLADIUMH-26SEP2819-T1218.99", "title": "Will the palladium close price be above 1218.99 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $1218.99", "strike_type": "greater", "floor_strike": 1218.99, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.1000", "yes_ask_dollars": "0.2600", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for palladium on September 28, 2026 at 7:00 PM EDT is above 1218.99 USD/ounce, then the market resolves to Yes."}
+
+== KXRIPPLE | Ripple range | cat=Crypto | open=0 events=[]
+
+== KXSILVERH | Silver Hourly | cat=Commodities | open=80 events=['KXSILVERH-26SEP2818', 'KXSILVERH-26SEP2819']
+   {"ticker": "KXSILVERH-26SEP2819-T61.449", "title": "Will the silver close price be above 61.449 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $61.449", "strike_type": "greater", "floor_strike": 61.449, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for silver on September 28, 2026 at 7:00 PM EDT is above 61.449 USD/ounce, then the market resolves to Yes."}
+   {"ticker": "KXSILVERH-26SEP2819-T61.399", "title": "Will the silver close price be above 61.399 USD/ounce on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $61.399", "strike_type": "greater", "floor_strike": 61.399, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for silver on September 28, 2026 at 7:00 PM EDT is above 61.399 USD/ounce, then the market resolves to Yes."}
+
+== KXSOL | Solana range | cat=Crypto | open=0 events=[]
+
+== KXSOLD | SOL Directional | cat=Crypto | open=425 events=['KXSOLD-26OCT0217', 'KXSOLD-26SEP2818', 'KXSOLD-26SEP2917']
+   {"ticker": "KXSOLD-26SEP2917-T99.9999", "title": "SOL price on Sep 29, 2026?", "yes_sub_title": "$100 or above", "strike_type": "greater", "floor_strike": 99.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.9800", "yes_ask_dollars": "1.0000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' SOLUSD_RTI before 5 PM EDT is above $99.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXSOLD-26SEP2917-T98.9999", "title": "SOL price on Sep 29, 2026?", "yes_sub_title": "$99 or above", "strike_type": "greater", "floor_strike": 98.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.9800", "yes_ask_dollars": "1.0000", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' SOLUSD_RTI before 5 PM EDT is above $98.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXSOLE | SOL Range | cat=Crypto | open=425 events=['KXSOLE-26OCT0217', 'KXSOLE-26SEP2818', 'KXSOLE-26SEP2917']
+   {"ticker": "KXSOLE-26SEP2917-T79", "title": "SOL price on Sep 29, 2026?", "yes_sub_title": "$78.9999 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 79, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' SOLUSD_RTI before 5 PM EDT is below $79 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXSOLE-26SEP2917-T151.9999", "title": "SOL price on Sep 29, 2026?", "yes_sub_title": "$152 or above", "strike_type": "greater", "floor_strike": 151.9999, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' SOLUSD_RTI before 5 PM EDT is above $151.9999 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXTON | TON range | cat=Crypto | open=0 events=[]
+
+== KXTOND | TON Directional | cat=Crypto | open=0 events=[]
+
+== KXTONH | TON Directional | cat=Crypto | open=0 events=[]
+
+== KXUSDBRLAH | SDBRL Hourly | cat=Financials | open=0 events=[]
+
+== KXUSDCADAH | USDCAD Hourly | cat=Financials | open=0 events=[]
+
+== KXUSDCHFAH | USDCHF Hourly | cat=Financials | open=0 events=[]
+
+== KXUSDINRAH | USDINR Hourly | cat=Financials | open=0 events=[]
+
+== KXUSDJPYH | USD/JPY daily over/under | cat=Financials | open=0 events=[]
+
+== KXUSDNOKAH | USDNOK Hourly | cat=Financials | open=0 events=[]
+
+== KXWTIH | WTI Hourly | cat=Commodities | open=80 events=['KXWTIH-26SEP2818', 'KXWTIH-26SEP2819']
+   {"ticker": "KXWTIH-26SEP2819-T95.19", "title": "Will the WTI Oil close price be above 95.19 USD/barrel on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $95.19", "strike_type": "greater", "floor_strike": 95.19, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for WTI Oil on September 28, 2026 at 7:00 PM EDT is above 95.19 USD/barrel, then the market resolves to Yes."}
+   {"ticker": "KXWTIH-26SEP2819-T95.09", "title": "Will the WTI Oil close price be above 95.09 USD/barrel on September 28, 2026 at 7:00 PM ET?", "yes_sub_title": "Above $95.09", "strike_type": "greater", "floor_strike": 95.09, "cap_strike": null, "open_time": "2026-09-28T21:01:00Z", "close_time": "2026-09-28T23:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0000", "volume_fp": "0.00", "rules_primary": "If the close price of the 1-minute candlestick for WTI Oil on September 28, 2026 at 7:00 PM EDT is above 95.09 USD/barrel, then the market resolves to Yes."}
+
+== KXXRP | XRP Range | cat=Crypto | open=165 events=['KXXRP-26OCT0217', 'KXXRP-26SEP2818', 'KXXRP-26SEP2917']
+   {"ticker": "KXXRP-26SEP2917-T1.7799", "title": "Ripple price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$1.77991 or above", "strike_type": "greater", "floor_strike": 1.7799, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0300", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EDT is above 1.7799 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXXRP-26SEP2917-T1.02000", "title": "Ripple price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$1.0199999 or below", "strike_type": "less", "floor_strike": null, "cap_strike": 1.02, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0100", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EDT is below 1.02000 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXXRPD | XRP Price above/below | cat=Crypto | open=165 events=['KXXRPD-26OCT0217', 'KXXRPD-26SEP2818', 'KXXRPD-26SEP2917']
+   {"ticker": "KXXRPD-26SEP2917-T1.7799", "title": "Ripple price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$1.77991 or above", "strike_type": "greater", "floor_strike": 1.7799, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.6900", "volume_fp": "7457.04", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EDT is above 1.7799 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+   {"ticker": "KXXRPD-26SEP2917-T1.7599", "title": "Ripple price at Sep 29, 2026 at 5pm EDT?", "yes_sub_title": "$1.75991 or above", "strike_type": "greater", "floor_strike": 1.7599, "cap_strike": null, "open_time": "2026-09-28T20:00:00Z", "close_time": "2026-09-29T21:00:00Z", "yes_bid_dollars": "0.0000", "yes_ask_dollars": "0.0300", "volume_fp": "0.00", "rules_primary": "If the simple average of the sixty seconds of CF Benchmarks' Ripple-Dollar Real Time Index (XRPUSD_RTI) before 5 PM EDT is above 1.7599 at 5 PM EDT on Sep 29, 2026, then the market resolves to Yes."}
+
+== KXZEC | Zcash Range | cat=Crypto | open=0 events=[]
+
+== KXZECD | Zcash Directional | cat=Crypto | open=0 events=[]
+
+== KXZECH | Zcash Directional | cat=Crypto | open=0 events=[]
+
+== NASDAQ100I | Nasdaq-100 hourly | cat=Financials | open=0 events=[]
+
+== WTIH | WTI oil over/under | cat=Financials | open=0 events=[]
