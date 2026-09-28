@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Sep 27, 7:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Sep 27, 8:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 51 finished bets | 4% | -$6.35 | -83% | -12.45¢ | -$3.10 / -$3.25 |
+| all leagues, sell at 5¢ | 77 finished bets | 4% | -$9.60 | -83% | -12.47¢ | -$5.05 / -$4.55 |
 
-*Expect **65 buys in the first 3 hours** ($9.75 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect **83 buys in the first 4 hours** ($12.45 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 51 | -$6.61 | -86% |
-| all leagues, sell at 3¢ | 51 | -$6.87 | -90% |
-| all leagues, hold to the end | 51 | -$7.65 | -100% |
+| all leagues, sell at 2¢ | 77 | -$10.25 | -89% |
+| all leagues, sell at 3¢ | 77 | -$10.38 | -90% |
+| all leagues, hold to the end | 77 | -$11.55 | -100% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65 | 8 | 0 (0%) | 1.1% | -$1.20 (-100%) | Sell at 2¢: -$0.94 (-78%) |
+| 83 | 17 | 0 (0%) | 1.1% | -$2.55 (-100%) | Sell at 5¢: -$1.90 (-75%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -60,8 +60,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 8 | 12% | 0% | 0% | 0% | 0% | 0% |
-| Unverified | 43 | 7% | 5% | 5% | 0% | 0% | 0% |
+| Verified | 17 | 12% | 6% | 6% | 0% | 0% | 0% |
+| Unverified | 60 | 5% | 3% | 3% | 0% | 0% | 0% |
 
 ## Exit strategies
 
@@ -69,13 +69,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$1.20 | -100% |
-| Sell at 2¢ | 1 | 12% | -$0.94 | -78% |
-| Sell at 3¢ | 0 | 0% | -$1.20 | -100% |
-| Sell at 5¢ | 0 | 0% | -$1.20 | -100% |
-| Sell at 10¢ | 0 | 0% | -$1.20 | -100% |
-| Sell at 25¢ | 0 | 0% | -$1.20 | -100% |
-| Sell at 50¢ | 0 | 0% | -$1.20 | -100% |
+| Hold to the end | 0 | 0% | -$2.55 | -100% |
+| Sell at 2¢ | 2 | 12% | -$2.03 | -80% |
+| Sell at 3¢ | 1 | 6% | -$2.16 | -85% |
+| Sell at 5¢ | 1 | 6% | -$1.90 | -75% |
+| Sell at 10¢ | 0 | 0% | -$2.55 | -100% |
+| Sell at 25¢ | 0 | 0% | -$2.55 | -100% |
+| Sell at 50¢ | 0 | 0% | -$2.55 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -83,34 +83,38 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 5 min |
+| TT Elite Series Match | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 6 min |
+| CONCACAF Nations League Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 48 min |
+| Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
+| Liga DIMAYOR Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Counter-Strike 2 Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Professional Football Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 6 min |
 | Men's T20 Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 19 min |
-| Liga DIMAYOR Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| NWSL Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Brasileiro Serie B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| CONCACAF Nations League Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| Major League Soccer Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | League of Legends Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | LNBP Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 29 min |
+| Women's Pro Basketball Game | ✔ | 1 | 0 | 100% | 100% | -100% | +73% | 30 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 3 | 0% | 0% | 0% | -100% |
-| 5–15 min | 4 | 25% | 0% | 0% | -57% |
-| 15–30 min | 1 | 0% | 0% | 0% | -100% |
+| Under 5 min | 6 | 0% | 0% | 0% | -100% |
+| 5–15 min | 5 | 20% | 0% | 0% | -65% |
+| 15–30 min | 2 | 0% | 0% | 0% | -100% |
+| 30–60 min | 1 | 100% | 100% | 0% | +73% |
+| Over 60 min | 3 | 0% | 0% | 0% | -100% |
 
 ## Speed & liquidity
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 33 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 42 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 2 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 35 |
 
@@ -122,36 +126,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 01:09 | TT Elite Series Match | Andrzej Szurgot | ✘ | — | — | In play | — |
-| 09-28 01:05 | NWSL Game | Tie | ✔ | 90'+6' · NC 1 - UTA 2 | — | In play | — |
-| 09-28 01:03 | Liga DIMAYOR Game | Tolima | ✘ | — | — | In play | — |
-| 09-28 01:01 | TT Elite Series Match | Rafal Ogon | ✘ | — | — | In play | — |
+| 09-28 02:48 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 02:47 | Liga MX Game | Juarez | ✔ | 83' · JUA 0 - LEO 1 | — | In play | — |
+| 09-28 02:45 | CONCACAF Nations League Game | Trinidad and Tobago | ✔ | 87' · DOM 2 - TRI 1 | — | In play | — |
+| 09-28 02:40 | Counter-Strike 2 Game | regain | ✘ | — | — | In play | — |
+| 09-28 02:31 | Liga DIMAYOR Game | Aguilas Doradas Rionegro | ✘ | — | — | In play | — |
+| 09-28 02:31 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 02:27 | TT Elite Series Match | Artur Kubiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 02:14 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 02:08 | Women's Pro Basketball Game | Dallas | ✔ | Halftime · DAL 31 - GS 58 | — | In play | — |
+| 09-28 01:59 | TT Elite Series Match | Andrzej Szurgot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:58 | Women's College Volleyball Match | Stanford | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:45 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | — | In play | — |
+| 09-28 01:41 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:33 | CONCACAF Nations League Game | Tie | ✔ | 76' · PUR 2 - DMA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:28 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:21 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:19 | Major League Soccer Game | Tie | ✔ | 90'+10' · MIA 1 - CLB 2 | 1¢ | ❌ Lost | -$0.15 |
+| 09-28 01:16 | Major League Soccer Game | Miami | ✔ | 90'+7' · MIA 1 - CLB 1 | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:09 | TT Elite Series Match | Andrzej Szurgot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:05 | NWSL Game | Tie | ✔ | 90'+6' · NC 1 - UTA 2 | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:03 | Liga DIMAYOR Game | Tolima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 01:01 | TT Elite Series Match | Rafal Ogon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 01:00 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:56 | NWSL Game | North Carolina Courage | ✔ | 87' · NC 1 - UTA 2 | — | In play | — |
+| 09-28 00:56 | NWSL Game | North Carolina Courage | ✔ | 87' · NC 1 - UTA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 00:51 | TT Elite Series Match | Lukasz Pietraszko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:49 | Liga DIMAYOR Game | Fortaleza | ✘ | — | — | In play | — |
-| 09-28 00:47 | Women's Pro Basketball Game | Washington | ✔ | 7:56 - 4th · WSH 57 - ATL 74 | — | In play | — |
+| 09-28 00:49 | Liga DIMAYOR Game | Fortaleza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 00:47 | Women's Pro Basketball Game | Washington | ✔ | 7:56 - 4th · WSH 57 - ATL 74 | 8¢ | ❌ Lost | -$0.15 |
 | 09-28 00:44 | CONCACAF Nations League Game | Tie | ✔ | 86' · CRC 0 - HAI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 00:44 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 00:39 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:38 | CONCACAF Nations League Game | Dominica | ✔ | 38' · PUR 1 - DMA 0 | — | In play | — |
-| 09-28 00:31 | CONCACAF Nations League Game | Costa Rica | ✔ | 72' · CRC 0 - HAI 2 | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 00:30 | TT Elite Series Match | Michal Olbrycht | ✘ | — | — | In play | — |
-| 09-28 00:27 | CONCACAF Nations League Game | Tie | ✔ | 27' · NCA 0 - CUW 1 | — | In play | — |
-| 09-28 00:25 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:22 | TT Elite Series Match | Andrzej Szurgot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:20 | CONCACAF Nations League Game | Nicaragua | ✔ | 20' · NCA 0 - CUW 1 | — | In play | — |
-| 09-28 00:19 | Counter-Strike 2 Game | Wildcard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:13 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:10 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:09 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 00:00 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-27 23:58 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 09-27 23:56 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-27 23:47 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
-| 09-27 23:44 | Professional Football Game | Dallas | ✔ | 0:01 - 4th · BAL 31 - DAL 31 | 0¢ | ❌ Lost | -$0.15 |
-| 09-27 23:44 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-27 23:43 | Women's College Volleyball Match | Central Florida | ✘ | — | — | In play | — |
 
 ## Raw data
 
