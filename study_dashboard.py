@@ -11,6 +11,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(HERE, "study")
 CHARTS = os.path.join(DIR, "charts")
 TARGETS = [2, 3, 5, 10, 25, 50]
+STAKE = 5          # contracts per buy — all P&L on this page is at this size
+MIN_BETS = 30      # finished bets a rule needs before we trust it at all
 TIME_BUCKETS = [(0, 5, "Under 5 min"), (5, 15, "5–15 min"), (15, 30, "15–30 min"),
                 (30, 60, "30–60 min"), (60, 1e9, "Over 60 min")]
 
@@ -38,16 +40,51 @@ def f(x, default=None):
         return default
 
 
+def enrich(b):
+    """Recompute peak and time-to-target from the saved minute bars, using only
+    minutes that started after our buy (so nothing from before we owned it)."""
+    path = os.path.join(DIR, "candles", f"{b['ticker']}.csv")
+    if b.get("data") != "complete" or not os.path.exists(path):
+        return b
+    t0 = datetime.fromisoformat(b["detected_at"])
+    end = f(b.get("minutes_to_end"))
+    peak, peak_at, hit = 0.0, None, {}
+    with open(path, newline="") as fh:
+        for r in csv.DictReader(fh):
+            m_end = (datetime.fromisoformat(r["minute_end"]) - t0).total_seconds() / 60
+            if m_end - 1 < 0 or (end is not None and m_end - 1 > end):
+                continue
+            bid = f(r["bid_high"], 0) or 0
+            if bid > peak:
+                peak, peak_at = bid, m_end
+            for t in TARGETS:
+                if bid >= t / 100 - 1e-9 and t not in hit:
+                    hit[t] = m_end
+    b["peak_bid"] = f"{peak:.2f}"
+    b["peak_bid_min"] = f"{peak_at:.1f}" if peak_at is not None else ""
+    for t in TARGETS:
+        b[f"min_to_{t}c"] = f"{hit[t]:.1f}" if t in hit else ""
+    return b
+
+
 def cost(b):
-    return f(b["entry_price"]) * int(b["contracts"]) + f(b["entry_fee"], 0)
+    """Cash to buy STAKE contracts at the entry price, including Kalshi's fee."""
+    p = f(b["entry_price"], 0.01)
+    return STAKE * p + fee(p, STAKE)
+
+
+def hold_pnl(b):
+    if b.get("result") == "void":
+        return 0.0
+    return (STAKE if b.get("result") == "yes" else 0) - cost(b)
 
 
 def exit_pnl(b, target):
     """P&L if we sold the first time the bid reached `target` cents, else held."""
     if target is not None and b.get(f"min_to_{target}c"):
-        n, p = int(b["contracts"]), target / 100
-        return n * p - fee(p, n) - cost(b)
-    return f(b["pnl_hold"], 0)
+        p = target / 100
+        return STAKE * p - fee(p, STAKE) - cost(b)
+    return hold_pnl(b)
 
 
 def pct(n, d):
@@ -192,8 +229,108 @@ def charts(done_v, done_u):
 
 
 # ---------------------------------------------------------------- page
+def rule_stats(bets, target):
+    pnls = [exit_pnl(b, target) for b in bets]
+    spent = sum(cost(b) for b in bets)
+    ordered = sorted(bets, key=lambda b: b["detected_at"])
+    half = len(ordered) // 2
+    first = sum(exit_pnl(b, target) for b in ordered[:half])
+    second = sum(exit_pnl(b, target) for b in ordered[half:])
+    hits = sum(1 for b in bets if (b["result"] == "yes" if target is None else reached(b, target)))
+    return {"n": len(bets), "pnl": sum(pnls), "ret": sum(pnls) / spent if spent else 0,
+            "hits": hits, "halves": (first, second)}
+
+
+def current_strategy(bets, done):
+    """Pick the best simple rule from the data so far and spell out what the
+    bot would do if it were switched on right now."""
+    universes = [("all leagues", lambda b: True),
+                 ("ESPN-verified leagues only", lambda b: b["verified"] == "yes")]
+    rules = []
+    for uname, keep in universes:
+        group = [b for b in done if keep(b)]
+        if not group:
+            continue
+        for t in [None] + TARGETS:
+            st = rule_stats(group, t)
+            rules.append((uname, keep, t, st))
+    md = ["## Current strategy", ""]
+    if not rules:
+        return md + ["*No finished bets yet — the strategy appears once games settle.*", ""]
+
+    trusted = [r for r in rules if r[3]["n"] >= MIN_BETS]
+    pool = trusted or rules
+    uname, keep, t, st = max(pool, key=lambda r: r[3]["pnl"])
+    group = [b for b in done if keep(b)]
+    sell = "hold to the end" if t is None else f"sell at {t}¢"
+    both_halves = st["halves"][0] > 0 and st["halves"][1] > 0
+
+    if st["pnl"] <= 0:
+        verdict = "🔴 **Sit out.** No rule has made money yet, so if we turned it on now it would not buy anything."
+    elif st["n"] < MIN_BETS:
+        verdict = f"🟡 **Provisional.** Best rule so far, but only {st['n']} finished bets (needs {MIN_BETS})."
+    elif not both_halves:
+        verdict = "🟡 **Unproven.** Profitable overall, but not in both the earlier and later halves of the data."
+    elif st["n"] < 100:
+        verdict = "🟢 **Trade small.** Profitable in both halves of the data; sample still modest."
+    else:
+        verdict = "🟢 **Trade.** Profitable in both halves of the data over 100+ bets."
+
+    all_in = [b for b in bets if keep(b)]
+    span_h = 0.0
+    if all_in:
+        ts = sorted(datetime.fromisoformat(b["detected_at"]) for b in all_in)
+        span_h = (datetime.now(ts[0].tzinfo) - ts[0]).total_seconds() / 3600
+    per_day = len(all_in) / max(span_h / 24, 1)
+    buy_cost = cost({"entry_price": "0.01"})
+    wait = med([f(b.get(f"min_to_{t}c")) for b in group if t and reached(b, t)])
+
+    md += [verdict, ""]
+    if st["pnl"] > 0:
+        steps = [
+            f"1. **Watch** every live game in **{uname}**.",
+            "2. **Buy** when a team or player's YES price hits **1¢**"
+            + (" and ESPN confirms the game is still being played" if "verified" in uname else "")
+            + f": **{STAKE} contracts** with a 1¢ limit order "
+              f"(cost {buy_cost * 100:.0f}¢ including the fee). One buy per outcome.",
+        ]
+        if t is None:
+            steps.append("3. **Hold** every position until the game ends. No selling.")
+        else:
+            steps.append(f"3. **Sell** straight away with a limit order at **{t}¢**. "
+                         f"If the price never gets there, hold until the game ends.")
+        md += steps + [""]
+    md += [table(["Rule", "Based on", "Hit rate", f"P&L ({STAKE} per buy)", "Return",
+                  "Avg per bet", "Earlier half / later half"],
+                 [[f"{uname}, {sell}", f"{st['n']} finished bets", pct(st["hits"], st["n"]),
+                   money(st["pnl"]), f"{st['ret']:+.0%}", f"{st['pnl'] / st['n'] * 100:+.2f}¢",
+                   f"{money(st['halves'][0])} / {money(st['halves'][1])}"]]), ""]
+    if span_h >= 24:
+        pace = f"about **{per_day:.0f} buys a day**, roughly **{money(per_day * buy_cost)}/day** at risk"
+    else:
+        pace = (f"**{len(all_in)} buys in the first {span_h:.0f} hours** "
+                f"({money(len(all_in) * buy_cost)} risked) — daily pace shows after 24 hours")
+    extras = [pace,
+              f"max loss per buy **{buy_cost * 100:.0f}¢**"]
+    if wait is not None:
+        extras.append(f"typical wait to sell **{max(wait, 1):.0f} min**")
+    md += ["*Expect " + "; ".join(extras) + ".*", ""]
+
+    alt = sorted(pool, key=lambda r: -r[3]["pnl"])[1:4]
+    if alt:
+        md += ["<details><summary>Runner-up rules</summary>", "",
+               table(["Rule", "Bets", "P&L", "Return"],
+                     [[f"{u}, {'hold to the end' if tt is None else f'sell at {tt}¢'}", x["n"],
+                       money(x["pnl"]), f"{x['ret']:+.0%}"] for u, _, tt, x in alt]),
+               "", "</details>", ""]
+    md += ["*Re-picked automatically from the latest data every refresh. Rules only use "
+           "what's knowable at the moment of buying (league, price), not hindsight like "
+           "how the game ended.*", ""]
+    return md
+
+
 def main():
-    bets = load()
+    bets = [enrich(b) for b in load()]
     done = [b for b in bets if b["status"] == "settled" and b.get("data") == "complete"]
     done_v = [b for b in done if b["verified"] == "yes"]
     done_u = [b for b in done if b["verified"] != "yes"]
@@ -201,18 +338,20 @@ def main():
     now = datetime.now(ZoneInfo("America/Denver")).strftime("%a %b %-d, %-I:%M %p MT")
 
     md = ["# 1¢ Study", "",
-          f"*Updated {now}. Paper money: each bet buys 100 contracts at 1¢ ($1 + 7¢ fee). "
+          f"*Updated {now}. Paper money: each bet buys {STAKE} contracts at 1¢ "
+          f"({STAKE}¢ + {fee(0.01, STAKE) * 100:.0f}¢ fee). "
           "Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*", "",
           "[← Back to all bots](README.md)", ""]
+    md += current_strategy(bets, done)
 
     base = done_v or done
     wins = sum(1 for b in base if b["result"] == "yes")
-    hold = [f(b["pnl_hold"], 0) for b in base]
+    hold = [hold_pnl(b) for b in base]
     best = max(strategies(base), key=lambda r: r[3]) if base else None
     md += ["## Headline (verified live bets)", "",
            table(["1¢ moments (all leagues)", "Finished (verified)", "Came back & won", "Break-even win rate",
                   "Hold-to-end P&L", "Best exit so far"],
-                 [[len(bets), len(base), f"{wins} ({pct(wins, len(base))})", "1.07%",
+                 [[len(bets), len(base), f"{wins} ({pct(wins, len(base))})", f"{cost({'entry_price': '0.01'}) / STAKE:.1%}",
                    f"{money(sum(hold))} ({roi(hold, [cost(b) for b in base])})" if base else "—",
                    f"{best[0]}: {money(best[3])} ({best[4]})" if best else "—"]]), "",
            f"*In play right now: {open_n}. Verified = ESPN confirmed the game was still being "
@@ -239,7 +378,7 @@ def main():
         md += ["## Exit strategies", "",
                "*Sell the first time the bid reaches the target (after Kalshi's selling fee); "
                "if it never does, hold to the end. Based on the best bid each minute, "
-               "assuming a 100-contract sale would fill.*", "",
+               f"assuming a {STAKE}-contract sale would fill.*", "",
                table(["Strategy", "Hits", "Hit rate", "P&L", "Return"], rows), ""]
         if "exits.png" in made:
             md += ["![Exit strategies](study/charts/exits.png)", ""]
@@ -303,7 +442,7 @@ def main():
             rows.append([b["detected_at"][5:16].replace("T", " "), b["league"], b["pick"],
                          "✔" if b["verified"] == "yes" else "✘",
                          b.get("situation_at_entry") or "—", peak, res,
-                         money(f(b["pnl_hold"])) if b.get("pnl_hold") else "—"])
+                         money(hold_pnl(b)) if b.get("result") else "—"])
         md += ["## Latest bets", "", "*Times are UTC. Peak = best bid after our buy.*", "",
                table(["When", "League", "Pick", "Verified", "Situation at 1¢", "Peak", "Result",
                       "Hold P&L"], rows), ""]

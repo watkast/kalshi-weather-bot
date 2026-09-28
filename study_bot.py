@@ -32,7 +32,7 @@ from common import HERE, fee_per_contract, get_markets, kalshi_get, price
 DIR = os.path.join(HERE, "study")
 BETS_FILE = os.path.join(DIR, "bets.csv")
 ENTRY = 0.01
-CONTRACTS = 100
+CONTRACTS = 5
 POLL_SECONDS = 10
 SCAN_MINUTES = 30
 ESPN_SECONDS = 30
@@ -303,12 +303,14 @@ def finalize(bet, market):
               ["minute_end", "bid_high", "bid_close", "ask_low", "ask_close", "last", "volume"])
 
     # Metrics measured from our entry until the game ended.
-    live = [r for r in rows if detected <= parse_ts(r["minute_end"]) <= end + timedelta(minutes=1)]
+    live = [r for r in rows
+            if parse_ts(r["minute_end"]) - timedelta(minutes=1) >= detected
+            and parse_ts(r["minute_end"]) - timedelta(minutes=1) <= end]
     peak, peak_at = 0.0, None
     first_hit = {}
     for r in live:
         b = r["bid_high"] or 0
-        at = (parse_ts(r["minute_end"]) - detected).total_seconds() / 60
+        at = (parse_ts(r["minute_end"]) - detected).total_seconds() / 60  # minute fully after buy
         if b > peak:
             peak, peak_at = b, at
         for tgt in TARGETS:
