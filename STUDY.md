@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| all leagues, sell at 5¢ | 297 finished bets | 2% | -$40.00 | -90% | -13.47¢ | -$19.60 / -$20.40 |
+| all leagues, sell at 5¢ | 299 finished bets | 2% | -$40.30 | -90% | -13.48¢ | -$19.75 / -$20.55 |
 
-*Expect **301 buys in the first 19 hours** ($45.15 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect **305 buys in the first 19 hours** ($45.75 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| all leagues, sell at 2¢ | 297 | -$40.65 | -91% |
-| all leagues, sell at 3¢ | 297 | -$41.04 | -92% |
-| all leagues, sell at 25¢ | 297 | -$41.24 | -93% |
+| all leagues, sell at 2¢ | 299 | -$40.95 | -91% |
+| all leagues, sell at 3¢ | 299 | -$41.34 | -92% |
+| all leagues, sell at 25¢ | 299 | -$41.54 | -93% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 301 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
+| 305 | 27 | 0 (0%) | 1.1% | -$4.05 (-100%) | Sell at 5¢: -$2.75 (-68%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 27 | 15% | 7% | 7% | 0% | 0% | 0% |
-| Unverified | 270 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 272 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 119 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 121 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 4 min |
 | Counter-Strike 2 Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 13 min |
 | ITF Men's Match | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 4 min |
@@ -129,7 +129,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 4 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -141,7 +141,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 17:13 | TT Elite Series Match | Andrzej Krezel | ✘ | — | — | In play | — |
+| 09-28 17:24 | TT Elite Series Match | Rudomina Kamil | ✘ | — | — | In play | — |
+| 09-28 17:20 | R6 Game | Rebels Gaming | ✘ | — | — | In play | — |
+| 09-28 17:17 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 17:15 | League of Legends Game | Senshi Esports Club | ✘ | — | — | In play | — |
+| 09-28 17:13 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:09 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:09 | Counter-Strike 2 Game | struggletony | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 17:09 | AFCON Game Winner | Zimbabwe | ✘ | — | — | In play | — |
@@ -167,10 +171,6 @@
 | 09-28 16:30 | TT Elite Series Match | Fomin Yurij | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:27 | League of Legends Game | Frites Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 16:26 | Men's T20 Cricket Match | USN Indians | ✘ | — | — | In play | — |
-| 09-28 16:26 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:21 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:21 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 16:21 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
