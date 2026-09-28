@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 2:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 2:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 33 finished bets | 15% | -$3.65 | -74% | -11.06¢ | -$1.88 / -$1.77 |
 
-*Expect **39 buys in the first 21 hours** ($5.85 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect **39 buys in the first 22 hours** ($5.85 risked) — daily pace shows after 24 hours; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 409 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
+| 412 | 33 | 0 (0%) | 1.1% | -$4.95 (-100%) | Sell at 2¢: -$3.65 (-74%) |
 
 *In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 33 | 15% | 9% | 6% | 0% | 0% | 0% |
-| Unverified | 366 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 369 | 4% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -83,13 +83,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 153 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 155 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 4 min |
 | Counter-Strike 2 Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 13 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | ITF Women's Match | ✘ | 21 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
-| TT Star Series Match | ✘ | 17 | 1 | 6% | 6% | +449% | -90% | 6 min |
+| TT Star Series Match | ✘ | 18 | 1 | 6% | 6% | +419% | -90% | 6 min |
 | CONCACAF Nations League Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 21 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Men's T20 Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -133,7 +133,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 26 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 4 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -145,11 +145,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-28 20:16 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | — | In play | — |
+| 09-28 20:25 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | — | In play | — |
+| 09-28 20:23 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
+| 09-28 20:20 | TT Star Series Match | Zelinka Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-28 20:16 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:16 | LaLiga 2 Game | Tie | ✔ | 87' · CAS 2 - LEG 0 | — | In play | — |
 | 09-28 20:16 | AFCON Game Winner | Botswana | ✘ | — | — | In play | — |
 | 09-28 20:16 | UEFA Nations League Game | Poland | ✔ | 72' · POL 1 - SWE 2 | — | In play | — |
-| 09-28 20:15 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 09-28 20:15 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:13 | UEFA Nations League Game | Tie | ✔ | 70' · ITA 4 - TUR 1 | — | In play | — |
 | 09-28 20:09 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 20:08 | ITF Women's Match | Krisha Mahendran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -172,9 +175,6 @@
 | 09-28 19:35 | TT Star Series Match | Gavlas Antonín | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 09-28 19:31 | League of Legends Game | The Secret Club Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 19:28 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:27 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:24 | TT Elite Series Match | Dariusz Maszczynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 19:21 | League of Legends Game | Forsaken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
