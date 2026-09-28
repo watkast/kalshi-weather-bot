@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(HERE, "study")
 CHARTS = os.path.join(DIR, "charts")
 TARGETS = [2, 3, 5, 10, 25, 50]
-STAKE = 5          # contracts per buy — all P&L on this page is at this size
+STAKE = 14         # contracts per buy — all P&L on this page is at this size
 MIN_BETS = 30      # finished bets a rule needs before we trust it at all
 TIME_BUCKETS = [(0, 5, "Under 5 min"), (5, 15, "5–15 min"), (15, 30, "15–30 min"),
                 (30, 60, "30–60 min"), (60, 1e9, "Over 60 min")]

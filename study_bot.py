@@ -32,7 +32,7 @@ from common import HERE, fee_per_contract, get_markets, kalshi_get, price
 DIR = os.path.join(HERE, "study")
 BETS_FILE = os.path.join(DIR, "bets.csv")
 ENTRY = 0.01
-CONTRACTS = 5
+CONTRACTS = 14
 POLL_SECONDS = 10
 SCAN_MINUTES = 30
 ESPN_SECONDS = 30
