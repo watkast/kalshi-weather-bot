@@ -276,37 +276,64 @@ def main():
                "average price paid. \"Price move 3 min after buying\" shows whether the market moved toward the "
                "model's number soon after we bought — an early sign of real skill.*", ""]
 
-    # ---------------- V1 vs V2
-    v2 = load(os.path.join(DIR, "trades_v2.csv"))
-    v2_obs = {}
+    # ---------------- versions head to head
+    books = {"V1": settled,
+             "V2": load(os.path.join(DIR, "trades_v2.csv")),
+             "V3": load(os.path.join(DIR, "trades_v3.csv")),
+             "V4": load(os.path.join(DIR, "trades_v4.csv"))}
+    desc = {"V1": "Original (Coinbase price, 4¢ edge, no limit per window)",
+            "V2": "Trend-aware, wider swings, 50/50 with Kalshi's price",
+            "V3": "5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window",
+            "V4": "Limit orders 2¢ under the ask, 3-exchange price, max 2 per window"}
+    v_obs = {}
     for path in glob.glob(os.path.join(DIR, "obs_v2", "*.csv")):
         for o in load(path):
-            v2_obs[(o["time"], o["ticker"])] = f(o["model_up_v2"])
-    if v2 or v2_obs:
-        start = min((t["time"] for t in v2), default=None)
-        v1_same = [t for t in settled if start and t["time"] >= start]
-        v2_set = [t for t in v2 if t["status"] == "settled"]
+            v_obs[(o["time"], o["ticker"])] = o
+    newest = [min(t["time"] for t in books[v]) for v in ("V2", "V3", "V4") if books[v]]
+    if newest:
+        start = max(newest)          # compare from when every version was running
         rows = []
-        for name, g in (("V1 — original", v1_same), ("V2 — trend-aware", v2_set)):
+        for v, g in books.items():
+            g_all = [t for t in g if t["time"] >= start]
+            g = [t for t in g_all if t["status"] == "settled"]
             sm = summary(g) if g else None
             ups = sum(1 for t in g if t["side"] == "yes")
-            rows.append([name, len(g), f"{sm['wins']} ({pct(sm['wins'], sm['n'])})" if sm else "—",
-                         f"{ups} / {len(g) - ups}", money(sm["pnl"]) if sm else "—",
-                         f"{sm['ret']:+.0%}" if sm else "—"])
+            wins_by = defaultdict(float)
+            for t in g:
+                wins_by[t["ticker"].split("-")[1]] += pnl(t)
+            n_win = len(wins_by)
+            fill = ""
+            if v == "V4":
+                tried = [t for t in g_all if t["status"] in ("settled", "open", "unfilled")]
+                filled = [t for t in tried if t["status"] != "unfilled"]
+                fill = f" · filled {pct(len(filled), len(tried))} of orders"
+            rows.append([f"**{v}**", desc[v] + fill, len(g),
+                         f"{sm['wins']} ({pct(sm['wins'], sm['n'])})" if sm else "—", f"{ups} / {len(g) - ups}",
+                         f"{len(g) / n_win:.1f}" if n_win else "—",
+                         money(min(wins_by.values())) if wins_by else "—",
+                         money(sm["pnl"]) if sm else "—", f"{sm['ret']:+.0%}" if sm else "—"])
         acc = []
-        pairs = [(o, results[o["ticker"]]) for o in obs
-                 if (o["time"], o["ticker"]) in v2_obs and results.get(o["ticker"]) in ("yes", "no")
+        pairs = [(o, results[o["ticker"]], v_obs[(o["time"], o["ticker"])]) for o in obs
+                 if (o["time"], o["ticker"]) in v_obs and results.get(o["ticker"]) in ("yes", "no")
                  and f(o["secs_left"], 0) >= 60]
         if pairs:
-            mk = sum(logloss((f(o["yes_bid"], 0) + f(o["yes_ask"], 0)) / 2 or 0.5, r == "yes") for o, r in pairs)
-            s1 = 1 - sum(logloss(f(o["model_up"]), r == "yes") for o, r in pairs) / mk
-            s2 = 1 - sum(logloss(v2_obs[(o["time"], o["ticker"])], r == "yes") for o, r in pairs) / mk
-            acc = [f"*Accuracy vs Kalshi's prices on the same {len(pairs):,} readings (excluding the final minute, "
-                   f"where the bots don't trade): **V1 {s1:+.1%}**, **V2 {s2:+.1%}**.*", ""]
-        md += ["## V1 vs V2 (head to head, same windows)", "",
-               "*V2 adds the last 30 minutes' trend, allows for bigger price swings, and averages its number "
-               "50/50 with Kalshi's price. Same 4¢ edge rule and 10 contracts. Compared only from when V2 started.*", "",
-               table(["Version", "Settled trades", "Won", "Bought UP / DOWN", "P&L", "Return"], rows), ""] + acc
+            mk = sum(logloss((f(o["yes_bid"], 0) + f(o["yes_ask"], 0)) / 2 or 0.5, r == "yes") for o, r, _ in pairs)
+            def sk(get):
+                vals = [(get(o, x), r) for o, r, x in pairs if get(o, x) is not None]
+                return 1 - sum(logloss(p, r == "yes") for p, r in vals) / mk if vals else None
+            s1 = sk(lambda o, x: f(o["model_up"]))
+            s2 = sk(lambda o, x: f(x.get("model_up_v2")))
+            s3 = sk(lambda o, x: f(x.get("model_up_idx")))
+            parts = [f"V1 **{s1:+.1%}**"] + ([f"V2 **{s2:+.1%}**"] if s2 is not None else []) + \
+                    ([f"3-exchange price (V3/V4) **{s3:+.1%}**"] if s3 is not None else [])
+            acc = [f"*Model accuracy vs Kalshi's prices on the same {len(pairs):,} readings "
+                   f"(excluding the final minute): {', '.join(parts)}.*", ""]
+        md += ["## Versions head to head", "",
+               f"*All four run side by side on the same markets, compared from when all of them were running "
+               f"({datetime.fromisoformat(start).astimezone(MT).strftime('%-m/%-d %-I:%M %p')} MT). "
+               "10 contracts per trade.*", "",
+               table(["", "What's different", "Settled", "Won", "UP / DOWN", "Trades per window",
+                      "Worst window", "P&L", "Return"], rows), ""] + acc
 
     # ---------------- fill check
     checked = [t for t in settled if f(t.get("depth_at_ask")) is not None]
