@@ -383,7 +383,8 @@ def main():
         md += ["## Versions head to head", "",
                f"*All four run side by side on the same markets, compared from when all of them were running "
                f"({datetime.fromisoformat(start).astimezone(MT).strftime('%-m/%-d %-I:%M %p')} MT). "
-               "10 contracts per trade.*", "",
+               "10 contracts per trade. From Sep 28 ~11:45 AM MT every buy is priced against Kalshi's live "
+               "order book (earlier trades used the quoted price, which was often out of date).*", "",
                table(["", "What's different", "Settled", "Won", "UP / DOWN", "Trades per window",
                       "Worst window", "P&L", "Return"], rows), ""] + acc
         if chart:

@@ -74,7 +74,7 @@ CANDLES = "https://api.exchange.coinbase.com/products/{}-USD/candles"
 
 TRADE_FIELDS = ["time", "ticker", "asset", "side", "secs_left", "spot", "strike", "gap_pct",
                 "sigma_pct", "model_p", "price", "fee", "edge", "contracts", "status", "result",
-                "pnl", "mid_at_60s", "clv", "depth_at_ask", "window", "sources",
+                "pnl", "mid_at_60s", "clv", "depth_at_ask", "quoted", "window", "sources",
                 "placed_at", "filled_at"]
 OBS_FIELDS = ["time", "ticker", "asset", "secs_left", "spot", "strike", "sigma_pct",
               "model_up", "yes_bid", "yes_ask"]
@@ -152,6 +152,30 @@ def git_save():
         if subprocess.run(["git", "push", "-q"], cwd=HERE, capture_output=True).returncode == 0:
             return
         time.sleep(3)
+
+def book_fill(ticker, side, contracts):
+    """Real price to buy `contracts` of `side` right now, walking Kalshi's order
+    book. Buying YES means matching NO bids at (1 - their price), and vice versa.
+    Returns (average price, best price, contracts available) or None."""
+    try:
+        book = kalshi_get(f"/markets/{ticker}/orderbook").get("orderbook_fp") or {}
+    except Exception:
+        return None
+    levels = sorted(((1 - float(p), float(q)) for p, q in
+                     (book.get("no_dollars" if side == "yes" else "yes_dollars") or []) if float(q) > 0))
+    if not levels:
+        return None
+    need, cost = contracts, 0.0
+    for px, qty in levels:
+        take = min(need, qty)
+        cost += take * px
+        need -= take
+        if need <= 1e-9:
+            break
+    if need > 1e-9:
+        return None
+    return round(cost / contracts, 4), levels[0][0], sum(q for _, q in levels)
+
 
 def depth_at_ask(ticker, side, ask):
     """Contracts actually available at or better than our price. Buying YES at
@@ -298,7 +322,8 @@ class FairValue:
 
     def composite(self, a, cb_price):
         """Coinbase price scaled by the median ratio across all fresh exchanges."""
-        ratios = [1.0] + [r for t, r in self.basis.get(a, {}).values() if time.time() - t < 60]
+        ratios = [1.0] + [r for t, r in self.basis.get(a, {}).values()
+                          if time.time() - t < 60 and abs(r - 1) <= 0.001]
         return cb_price * statistics.median(ratios), len(ratios)
 
     def quotes(self):
@@ -350,7 +375,10 @@ class FairValue:
             for t in self.trades_v4:
                 if t["ticker"] != ticker or t["status"] != "resting":
                     continue
-                _, ask_now = side_quote(m, t["side"])
+                _, ask_q = side_quote(m, t["side"])
+                book = book_fill(ticker, t["side"], CONTRACTS) if ask_q is not None and \
+                    ask_q <= float(t["price"]) + 0.02 else None
+                ask_now = book[1] if book else None
                 if ask_now is not None and ask_now <= float(t["price"]) + 1e-9:
                     t.update(status="open", filled_at=iso(now))
                     print(f"V4 FILLED {ticker} {t['side']} @ {t['price']}")
@@ -379,18 +407,27 @@ class FairValue:
                     if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
                         continue
                     fee = fee_per_contract(ask, CONTRACTS)
+                    if p - ask - fee < EDGE:
+                        continue
+                    # Re-price against the live order book before buying.
+                    fill = book_fill(ticker, side, CONTRACTS)
+                    if not fill or not (MIN_PRICE <= fill[0] <= MAX_PRICE):
+                        continue
+                    quoted, ask = ask, fill[0]
+                    fee = fee_per_contract(ask, CONTRACTS)
                     edge = p - ask - fee
                     if edge < EDGE:
                         continue
                     self.signals += 1
-                    depth = depth_at_ask(ticker, side, ask)
+                    depth = fill[2]
                     book.append({
                         "time": iso(now), "ticker": ticker, "asset": a, "side": side,
                         "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}", "strike": meta["strike"],
                         "gap_pct": f"{gap:.4f}", "sigma_pct": f"{sig * 100:.4f}", "model_p": f"{p:.4f}",
-                        "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
+                        "price": f"{ask:.4f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
                         "contracts": CONTRACTS, "status": "open",
-                        "depth_at_ask": f"{depth:.0f}" if depth is not None else ""})
+                        "depth_at_ask": f"{depth:.0f}" if depth is not None else "",
+                        "quoted": f"{quoted:.2f}"})
                     done.add(ticker)
                     print(f"{tag} BUY {CONTRACTS} {'UP' if side == 'yes' else 'DOWN'} {ticker} @ {ask:.2f} "
                           f"model {p:.1%} edge {edge * 100:.1f}c, {secs_left:.0f}s left")
@@ -408,11 +445,19 @@ class FairValue:
                     if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
                         continue
                     fee = fee_per_contract(ask, CONTRACTS)
+                    if p - ask - fee < V3_EDGE:
+                        continue
+                    fill = book_fill(ticker, side, CONTRACTS)
+                    if not fill or not (MIN_PRICE <= fill[0] <= MAX_PRICE):
+                        continue
+                    quoted, ask = ask, fill[0]
+                    fee = fee_per_contract(ask, CONTRACTS)
                     edge = p - ask - fee
                     if edge >= V3_EDGE:
                         self.trades_v3.append({**base, "time": iso(now), "side": side, "model_p": f"{p:.4f}",
-                                               "price": f"{ask:.2f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
-                                               "status": "open"})
+                                               "price": f"{ask:.4f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
+                                               "status": "open", "quoted": f"{quoted:.2f}",
+                                               "depth_at_ask": f"{fill[2]:.0f}"})
                         print(f"V3 BUY {side} {ticker} @ {ask:.2f} edge {edge * 100:.1f}c")
                         break
             # V4: same model, but rest a limit order 2c under the ask.
@@ -421,9 +466,12 @@ class FairValue:
                     < MAX_PER_WINDOW and secs_left >= 90):
                 for side, p in (("yes", p_idx), ("no", 1 - p_idx)):
                     _, ask = side_quote(m, side)
-                    if ask is None:
+                    if ask is None or p - (ask - V4_BELOW_ASK) < EDGE:
                         continue
-                    lim = round(ask - V4_BELOW_ASK, 2)
+                    fill = book_fill(ticker, side, 1)
+                    if not fill:
+                        continue
+                    lim = round(fill[1] - V4_BELOW_ASK, 2)
                     if not (MIN_PRICE <= lim <= MAX_PRICE):
                         continue
                     fee = maker_fee(lim, CONTRACTS)
