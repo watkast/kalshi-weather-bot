@@ -1,1 +1,2 @@
 logged_at,sport,ticker,team,game,period_at_entry,score_at_entry,side,price,fee,contracts,peak_bid,status,result,pnl
+2026-09-28T03:54:58+00:00,NFL,KXNFLGAME-26SEP27LARDEN-LAR,LAR,KXNFLGAME-26SEP27LARDEN,P4 0:02,LAR 26 - DEN 30,yes,0.01,0.0007,100,0.00,settled,no,-1.07
