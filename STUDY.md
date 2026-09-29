@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 7:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 7:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **37 buys a day**, roughly **$5.56/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **37 buys a day**, roughly **$5.54/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 834 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 841 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
 *In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 764 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 771 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,11 +89,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 351 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 74 | 0 | 9% | 8% | -100% | -84% | 4 min |
+| TT Elite Series Match | ✘ | 354 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 4 min |
 | Challenger ATP  | ✘ | 63 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 60 | 0 | 5% | 2% | -100% | -91% | 5 min |
-| Counter-Strike 2 Game | ✘ | 45 | 0 | 4% | 2% | -100% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 46 | 0 | 4% | 2% | -100% | -92% | 11 min |
 | TT Star Series Match | ✘ | 30 | 1 | 3% | 3% | +211% | -94% | 4 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
@@ -104,9 +104,9 @@
 | AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
+| Dota 2 Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
-| Dota 2 Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Japan NPB Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 67 min |
 | International Friendly Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | KHL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -155,10 +155,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 13:42 | TT Elite Series Match | Petr David | ✘ | — | — | In play | — |
+| 09-29 13:51 | Men's T20 Cricket Match | Haridwar Spring Elmas | ✘ | — | — | In play | — |
+| 09-29 13:49 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
+| 09-29 13:48 | TT Elite Series Match | Pawel Polok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 13:45 | ITF Women's Match | Amelie Brooks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 13:45 | Counter-Strike 2 Game | Elite Klan | ✘ | — | — | In play | — |
+| 09-29 13:45 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 13:43 | ITF Women's Match | Briana Szabo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 13:42 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:40 | AFCON Game Winner | Namibia | ✘ | — | — | In play | — |
 | 09-29 13:38 | KBO Game | Kia Tigers | ✘ | — | — | In play | — |
-| 09-29 13:36 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
+| 09-29 13:36 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:32 | Challenger ATP  | Imanol Lopez Morillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:31 | ITF Men's Match | Gheorghe Claudiu Schinteie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:31 | ITF Men's Match | Moerani Bouzige | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -169,7 +176,7 @@
 | 09-29 13:26 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:25 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:22 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:22 | Dota 2 Game | Team Nemesis | ✘ | — | — | In play | — |
+| 09-29 13:22 | Dota 2 Game | Team Nemesis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:22 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:14 | Challenger ATP  | Anton Matusevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:12 | ATP Tennis Match | Andrey Rublev | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
@@ -178,13 +185,6 @@
 | 09-29 13:08 | ITF Women's Match | Margaux Komano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:05 | ITF Women's Match | Emira Diabate | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 13:03 | ITF Men's Match | Gabriele Pennaforti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:03 | TT Star Series Match | Onderka František | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:02 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:01 | ITF Women's Match | Alexia Trasca | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 13:00 | TT Elite Series Match | Sebastian Juzek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 12:58 | ITF Men's Match | Daniel Domingos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 12:55 | ATP Tennis Match | Hubert Hurkacz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 12:54 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
