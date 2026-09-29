@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 6:49 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 6:59 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 718 | 713 | 364 (51%) | 45¢ | 53% | $311.63 | +9% | +7.7¢ |
+| 719 | 713 | 364 (51%) | 45¢ | 53% | $311.63 | +9% | +7.7¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -126,6 +126,7 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 6:49:12 PM | BNB | UP | 10.8 min | 9¢ | 15% | 6¢ | Open | — |
 | 9/28 6:46:54 PM | ZEC | UP | 13.1 min | 26¢ | 34% | 6¢ | Open | — |
 | 9/28 6:46:35 PM | DOGE | UP | 13.4 min | 22¢ | 29% | 6¢ | Open | — |
 | 9/28 6:46:26 PM | HYPE | UP | 13.6 min | 20¢ | 30% | 8¢ | Open | — |
@@ -150,7 +151,6 @@
 | 9/28 6:16:29 PM | BTC | DOWN | 13.5 min | 75¢ | 83% | 6¢ | ❌ Lost | -$7.64 |
 | 9/28 6:06:35 PM | ZEC | DOWN | 8.4 min | 15¢ | 28% | 12¢ | ❌ Lost | -$1.59 |
 | 9/28 6:03:29 PM | HYPE | DOWN | 11.5 min | 68¢ | 84% | 15¢ | ✅ Won | $3.04 |
-| 9/28 6:02:30 PM | XRP | UP | 12.5 min | 66¢ | 74% | 6¢ | ✅ Won | $3.24 |
 
 ## How the model works
 
