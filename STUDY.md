@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 7:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 7:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 51 finished bets | 4% | -$5.03 | -66% | -9.86¢ | -$3.75 / -$1.28 |
 
-*Expect about **48 buys a day**, roughly **$7.19/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **48 buys a day**, roughly **$7.15/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 513 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
+| 516 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 51 | 20% | 10% | 8% | 4% | 0% | 0% |
-| Unverified | 456 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 459 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,10 +83,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 208 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 210 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 12 min |
-| ITF Women's Match | ✘ | 31 | 0 | 10% | 6% | -100% | -83% | 4 min |
+| ITF Women's Match | ✘ | 32 | 0 | 9% | 6% | -100% | -84% | 4 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | League of Legends Game | ✘ | 19 | 0 | 16% | 5% | -100% | -73% | 11 min |
@@ -147,9 +147,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 01:24 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | — | In play | — |
+| 09-29 01:30 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
+| 09-29 01:27 | League of Legends Game | Saudi Arabia | ✘ | — | — | In play | — |
+| 09-29 01:25 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 01:24 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 01:24 | CONCACAF Nations League Game | Tie | ✔ | 66' · BER 1 - LCA 4 | — | In play | — |
-| 09-29 01:23 | ITF Women's Match | Reina Goto | ✘ | — | — | In play | — |
+| 09-29 01:23 | ITF Women's Match | Reina Goto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 01:21 | CONCACAF Nations League Game | Grenada | ✘ | — | — | In play | — |
 | 09-29 01:12 | CONCACAF Nations League Game | Bermuda | ✔ | 54' · BER 1 - LCA 3 | — | In play | — |
 | 09-29 01:11 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -174,9 +177,6 @@
 | 09-29 00:11 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:08 | ITF Women's Match | Sofia Elena Cabezas Dominguez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:02 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 23:58 | APF Division de Honor Game | Libertad | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 23:56 | Counter-Strike 2 Game | MIBR fe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 23:50 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
