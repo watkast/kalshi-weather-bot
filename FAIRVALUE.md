@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Tue Sep 29, 2:18 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 2:28 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Gold & Silver version](METALS.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 1318 | 1311 | 621 (47%) | 45¢ | 53% | $171.67 | +3% | +4.8¢ |
+| 1320 | 1311 | 621 (47%) | 45¢ | 53% | $171.67 | +3% | +4.8¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -138,6 +138,8 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/29 2:23:11 PM | ETH | DOWN | 6.8 min | 14¢ | 20% | 5¢ | Open | — |
+| 9/29 2:20:47 PM | BTC | DOWN | 9.2 min | 18¢ | 23% | 4¢ | Open | — |
 | 9/29 2:17:12 PM | SOL | DOWN | 12.8 min | 20¢ | 29% | 8¢ | Open | — |
 | 9/29 2:17:10 PM | HYPE | DOWN | 12.8 min | 30¢ | 38% | 7¢ | Open | — |
 | 9/29 2:17:10 PM | XRP | DOWN | 12.8 min | 25¢ | 31% | 5¢ | Open | — |
@@ -161,8 +163,6 @@
 | 9/29 1:46:59 PM | BNB | DOWN | 13.0 min | 64¢ | 79% | 13¢ | ❌ Lost | -$6.62 |
 | 9/29 1:46:32 PM | SOL | UP | 13.4 min | 19¢ | 27% | 7¢ | ❌ Lost | -$2.01 |
 | 9/29 1:46:12 PM | DOGE | DOWN | 13.8 min | 71¢ | 78% | 6¢ | ✅ Won | $2.75 |
-| 9/29 1:46:06 PM | BTC | DOWN | 13.9 min | 64¢ | 74% | 8¢ | ❌ Lost | -$6.57 |
-| 9/29 1:46:06 PM | ETH | DOWN | 13.9 min | 76¢ | 88% | 11¢ | ✅ Won | $2.27 |
 
 ## How the model works
 
