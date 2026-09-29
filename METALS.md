@@ -1,6 +1,6 @@
 # Gold & Silver Fair-Value Bot
 
-*Updated Tue Sep 29, 6:03 AM MT. Paper money. Kalshi's 15-minute gold and silver up/down markets: every 2 seconds the bot works out the fair chance of UP from how far the metal has moved since the window started (live Hyperliquid prices), time left and recent volatility, then buys whichever side's real order-book price is at least 4¢ below fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 6:13 AM MT. Paper money. Kalshi's 15-minute gold and silver up/down markets: every 2 seconds the bot works out the fair chance of UP from how far the metal has moved since the window started (live Hyperliquid prices), time left and recent volatility, then buys whichever side's real order-book price is at least 4¢ below fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Crypto Fair-Value Bot](FAIRVALUE.md)
 
@@ -12,8 +12,8 @@
 
 | | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return |
 |---|---|---|---|---|---|---|---|
-| **All** | 69 | 68 | 25 (37%) | 40¢ | 48% | -$35.36 | -12% |
-| Silver | 34 | 34 | 11 (32%) | 35¢ | 43% | -$15.42 | -12% |
+| **All** | 70 | 68 | 25 (37%) | 40¢ | 48% | -$35.36 | -12% |
+| Silver | 35 | 34 | 11 (32%) | 35¢ | 43% | -$15.42 | -12% |
 | Gold | 35 | 34 | 14 (41%) | 45¢ | 53% | -$19.94 | -12% |
 
 *Earlier half $0.56 / later half -$35.92.*
@@ -46,6 +46,7 @@
 
 | When (MT) | Metal | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/29 6:05:26 AM | Silver | DOWN | 9.6 min | 26¢ | 33% | 5¢ | Open | — |
 | 9/29 6:03:11 AM | Gold | UP | 11.8 min | 63¢ | 70% | 6¢ | Open | — |
 | 9/29 5:48:47 AM | Gold | DOWN | 11.2 min | 61¢ | 67% | 4¢ | ❌ Lost | -$6.25 |
 | 9/29 5:47:19 AM | Silver | UP | 12.7 min | 39¢ | 46% | 5¢ | ✅ Won | $5.93 |
@@ -57,4 +58,3 @@
 | 9/29 5:01:26 AM | Gold | DOWN | 13.6 min | 37¢ | 45% | 6¢ | ❌ Lost | -$3.87 |
 | 9/29 4:54:40 AM | Silver | UP | 5.3 min | 25¢ | 31% | 5¢ | ✅ Won | $7.36 |
 | 9/29 4:46:03 AM | Gold | UP | 13.9 min | 53¢ | 60% | 5¢ | ✅ Won | $4.52 |
-| 9/29 4:33:10 AM | Silver | UP | 11.8 min | 36¢ | 43% | 5¢ | ✅ Won | $6.23 |
