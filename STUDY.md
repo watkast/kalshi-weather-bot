@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 2:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 2:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 77 finished bets | 14% | -$8.69 | -75% | -11.29¢ | -$3.88 / -$4.81 |
+| ESPN-verified leagues only, sell at 2¢ | 83 finished bets | 13% | -$9.59 | -77% | -11.55¢ | -$4.33 / -$5.26 |
 
-*Expect about **43 buys a day**, roughly **$6.52/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.49/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 77 | -$8.93 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 77 | -$8.95 | -77% |
-| ESPN-verified leagues only, sell at 3¢ | 77 | -$9.21 | -80% |
+| ESPN-verified leagues only, sell at 10¢ | 83 | -$9.83 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 83 | -$9.85 | -79% |
+| ESPN-verified leagues only, sell at 3¢ | 83 | -$10.11 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1142 | 77 | 0 (0%) | 1.1% | -$11.55 (-100%) | Sell at 2¢: -$8.69 (-75%) |
+| 1149 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 1 | 0.9% | 0.0% (0) | +13% | ✅ Better |
+| ESPN win probability | 2 | 0.8% | 0.0% (0) | +17% | ✅ Better |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 1 | 0 | -100% | -100% | -100% | -100% |
+| **Any 1¢ (no model)** | 2 | 0 | -100% | -100% | -100% | -100% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 77 | 14% | 8% | 5% | 3% | 0% | 0% |
-| Unverified | 1031 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 83 | 13% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 1051 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$11.55 | -100% |
-| Sell at 2¢ | 11 | 14% | -$8.69 | -75% |
-| Sell at 3¢ | 6 | 8% | -$9.21 | -80% |
-| Sell at 5¢ | 4 | 5% | -$8.95 | -77% |
-| Sell at 10¢ | 2 | 3% | -$8.93 | -77% |
-| Sell at 25¢ | 0 | 0% | -$11.55 | -100% |
-| Sell at 50¢ | 0 | 0% | -$11.55 | -100% |
+| Hold to the end | 0 | 0% | -$12.45 | -100% |
+| Sell at 2¢ | 11 | 13% | -$9.59 | -77% |
+| Sell at 3¢ | 6 | 7% | -$10.11 | -81% |
+| Sell at 5¢ | 4 | 5% | -$9.85 | -79% |
+| Sell at 10¢ | 2 | 2% | -$9.83 | -79% |
+| Sell at 25¢ | 0 | 0% | -$12.45 | -100% |
+| Sell at 50¢ | 0 | 0% | -$12.45 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,18 +89,18 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 435 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 94 | 0 | 12% | 7% | -100% | -80% | 4 min |
+| TT Elite Series Match | ✘ | 438 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 96 | 0 | 11% | 7% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 78 | 0 | 8% | 1% | -100% | -87% | 5 min |
-| ITF Men's Match | ✘ | 76 | 0 | 9% | 4% | -100% | -84% | 5 min |
+| ITF Men's Match | ✘ | 78 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 66 | 1 | 6% | 5% | +41% | -89% | 10 min |
 | League of Legends Game | ✘ | 38 | 0 | 11% | 3% | -100% | -82% | 11 min |
 | TT Star Series Match | ✘ | 38 | 1 | 3% | 3% | +146% | -95% | 4 min |
+| UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | AFCON Game Winner | ✘ | 33 | 1 | 15% | 6% | +183% | -74% | 14 min |
-| UEFA Nations League Game | ✔ | 31 | 0 | 10% | 0% | -100% | -83% | 5 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
+| English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
-| English National League Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | Dota 2 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
@@ -114,6 +114,7 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Japan NPB Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 67 min |
 | KHL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Euroleague Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | KBO Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 96 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | Uruguay Primera Division Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 15 min |
@@ -136,25 +137,26 @@
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Finland Korisliiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 124 min |
 | Liiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Euroleague Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 94 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 204 min |
+| EuroCup Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 124 min |
+| Professional Baseball Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 3 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 28 | 4% | 0% | 0% | -94% |
+| Under 5 min | 29 | 3% | 0% | 0% | -94% |
 | 5–15 min | 17 | 29% | 6% | 0% | -49% |
-| 15–30 min | 14 | 14% | 14% | 0% | -75% |
-| 30–60 min | 11 | 27% | 9% | 0% | -53% |
-| Over 60 min | 7 | 0% | 0% | 0% | -100% |
+| 15–30 min | 16 | 12% | 12% | 0% | -78% |
+| 30–60 min | 13 | 23% | 8% | 0% | -60% |
+| Over 60 min | 8 | 0% | 0% | 0% | -100% |
 
 ## Speed & liquidity
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 32 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -166,21 +168,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 20:43 | ITF Men's Match | Eudald Gonzalez | ✘ | — | — | In play | — |
-| 09-29 20:43 | English National League Game | Forest Green | ✘ | — | — | In play | — |
-| 09-29 20:43 | English National League Game | Wealdstone | ✘ | — | — | In play | — |
-| 09-29 20:42 | TT Elite Series Match | Michal Skorski | ✘ | — | — | In play | — |
-| 09-29 20:41 | Professional Baseball Game | Philadelphia | ✔ | Top 9th · PHI 3 - ATL 5 | — | In play | — |
-| 09-29 20:41 | ITF Women's Match | Isabella Kruger | ✘ | — | — | In play | — |
-| 09-29 20:40 | TT Elite Series Match | Tkocz Marek | ✘ | — | — | In play | — |
-| 09-29 20:40 | English National League Game | Aldershot | ✘ | — | — | In play | — |
-| 09-29 20:40 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 09-29 20:40 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 09-29 20:40 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
-| 09-29 20:39 | ITF Men's Match | Segundo Goity Zapico | ✘ | — | — | In play | — |
-| 09-29 20:39 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 09-29 20:38 | ITF Women's Match | Isabella Marton | ✘ | — | — | In play | — |
-| 09-29 20:38 | English National League Game | Gateshead | ✘ | — | — | In play | — |
+| 09-29 20:53 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-29 20:53 | AFCON Game Winner | Niger | ✘ | — | — | In play | — |
+| 09-29 20:52 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-29 20:52 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | — | In play | — |
+| 09-29 20:50 | AFCON Game Winner | Somalia | ✘ | — | — | In play | — |
+| 09-29 20:48 | Challenger ATP  | Duncan Chan | ✘ | — | — | In play | — |
+| 09-29 20:44 | AFCON Game Winner | Liberia | ✘ | — | — | In play | — |
+| 09-29 20:43 | ITF Men's Match | Eudald Gonzalez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:43 | English National League Game | Forest Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:43 | English National League Game | Wealdstone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:42 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:41 | Professional Baseball Game | Philadelphia | ✔ | Top 9th · PHI 3 - ATL 5 | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:41 | ITF Women's Match | Isabella Kruger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:40 | TT Elite Series Match | Tkocz Marek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:40 | English National League Game | Aldershot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:40 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:40 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:40 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:39 | ITF Men's Match | Segundo Goity Zapico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:39 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:38 | ITF Women's Match | Isabella Marton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:38 | English National League Game | Gateshead | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 09-29 20:37 | English National League Game | Hartlepool | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:37 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -189,13 +198,6 @@
 | 09-29 20:36 | UEFA Nations League Game | Bulgaria | ✔ | 90'+3' · EST 0 - BUL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:36 | Euroleague Game | Paris Basketball | ✘ | — | — | In play | — |
 | 09-29 20:35 | UEFA Nations League Game | Estonia | ✔ | 90'+3' · EST 0 - BUL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:35 | UEFA Nations League Game | Tie | ✔ | 90'+3' · KAZ 1 - SVK 2 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:35 | English National League Game | Boston | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:35 | English National League Game | Halifax | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:35 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:34 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:34 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:33 | Men's T20 Cricket Match | Lexus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
