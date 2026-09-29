@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Sep 29, 8:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Sep 29, 8:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 66 finished bets | 3% | $18.10 | +183% | +27.42¢ | $23.05 / -$4.95 |
 
-*Expect about **44 buys a day** (~$6.58/day at risk); max loss per buy **15¢**.*
+*Expect about **44 buys a day** (~$6.55/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1954 | 1948 | 8 (0%) | 1.07% | -$122.60 (-52%) | Hold to the close: -$122.60 (-52%) |
+| 1955 | 1948 | 8 (0%) | 1.07% | -$122.60 (-52%) | Hold to the close: -$122.60 (-52%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/29 8:57:31 AM | NEAR | DOWN | 2.5 min | +0.601% | — | In play | — |
 | 9/29 8:44:56 AM | SILVER | UP | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/29 8:44:40 AM | GBPUSD | UP | 19 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 9/29 8:44:40 AM | EURUSD | UP | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,7 +210,6 @@
 | 9/29 8:26:24 AM | NEAR | DOWN | 3.6 min | +1.452% | 1¢ | ❌ Lost | -$0.15 |
 | 9/29 8:26:08 AM | HYPE | DOWN | 3.9 min | +0.526% | 1¢ | ❌ Lost | -$0.15 |
 | 9/29 8:14:38 AM | USDJPY | UP | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/29 8:14:38 AM | XRP | UP | 22 sec | -0.123% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
