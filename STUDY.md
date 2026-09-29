@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 4:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 4:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 83 finished bets | 13% | -$9.59 | -77% | -11.55¢ | -$4.33 / -$5.26 |
 
-*Expect about **42 buys a day**, roughly **$6.26/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **42 buys a day**, roughly **$6.23/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1190 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
+| 1192 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 83 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1100 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1104 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,8 +89,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 457 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 98 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| TT Elite Series Match | ✘ | 459 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 100 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 69 | 1 | 6% | 4% | +35% | -90% | 10 min |
@@ -168,10 +168,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 22:34 | ITF Women's Match | Thea Frodin | ✘ | — | — | In play | — |
-| 09-29 22:34 | TT Elite Series Match | Kamil Klocek | ✘ | — | — | In play | — |
-| 09-29 22:34 | ITF Women's Match | Anna Rogers | ✘ | — | — | In play | — |
-| 09-29 22:34 | TT Elite Series Match | Jacek Mitas | ✘ | — | — | In play | — |
+| 09-29 22:48 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
+| 09-29 22:44 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
+| 09-29 22:34 | ITF Women's Match | Thea Frodin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-29 22:34 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 22:34 | ITF Women's Match | Anna Rogers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 22:34 | TT Elite Series Match | Jacek Mitas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:27 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:26 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:18 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -196,8 +198,6 @@
 | 09-29 21:17 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:17 | ITF Men's Match | Jakub Vrba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:15 | R6 Game | Heretics | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 21:15 | Counter-Strike 2 Game | Aimhaus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:11 | League of Legends Game | 9z Globant | ✘ | — | — | In play | — |
 
 ## Raw data
 
