@@ -1,0 +1,3 @@
+time,action,ticker,side,contracts,price,fee,cash_before,cash_after,open_after,equity_after,note
+2026-09-29T03:03:12+00:00,BUY,KXHYPE15M-26SEP282315-15,no,27,0.3500,0.0159,500.00,490.12,1,500.00,
+2026-09-29T03:10:42+00:00,SELL,KXHYPE15M-26SEP282315-15,no,27,,,490.12,512.82,0,512.82,take profit @ 0.85

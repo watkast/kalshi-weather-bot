@@ -1,0 +1,2 @@
+time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,quoted,window,sources,placed_at,filled_at,trend_aligned,exit_price,exit_at
+2026-09-29T03:03:12+00:00,KXHYPE15M-26SEP282315-15,HYPE,no,707,86.42,86.4015,0.0214,0.0992,0.4742,0.3500,0.0159,0.1083,27,settled,sold,12.82,0.685,0.335,266194,0.37,26SEP282315,3,,,,0.85,2026-09-29T03:10:42+00:00
