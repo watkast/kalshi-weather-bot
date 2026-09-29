@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 3:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 3:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **40 buys a day**, roughly **$6.00/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **40 buys a day**, roughly **$5.97/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 680 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 686 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 616 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 622 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,16 +89,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 302 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 304 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| Challenger ATP  | ✘ | 51 | 0 | 10% | 0% | -100% | -83% | 5 min |
 | ITF Women's Match | ✘ | 51 | 0 | 12% | 10% | -100% | -80% | 5 min |
-| Challenger ATP  | ✘ | 49 | 0 | 8% | 0% | -100% | -86% | 5 min |
-| Counter-Strike 2 Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 12 min |
+| Counter-Strike 2 Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 12 min |
 | ITF Men's Match | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 5 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | TT Star Series Match | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
-| Men's T20 Cricket Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Men's T20 Cricket Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | ATP Tennis Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -154,14 +154,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 09:39 | Challenger ATP  | Olle Wallin | ✘ | — | — | In play | — |
-| 09-29 09:39 | TT Elite Series Match | Frantisek Krcil | ✘ | — | — | In play | — |
-| 09-29 09:32 | Men's T20 Cricket Match | Tehri Titans | ✘ | — | — | In play | — |
+| 09-29 09:49 | TT Star Series Match | Buben Vlastimil | ✘ | — | — | In play | — |
+| 09-29 09:48 | TT Star Series Match | Vráblík Jiří | ✘ | — | — | In play | — |
+| 09-29 09:45 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
+| 09-29 09:44 | TT Elite Series Match | Rafal Gajda | ✘ | — | — | In play | — |
+| 09-29 09:42 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | — | In play | — |
+| 09-29 09:40 | Challenger ATP  | Matthew Dellavedova | ✘ | — | — | In play | — |
+| 09-29 09:39 | Challenger ATP  | Olle Wallin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 09:39 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 09:32 | Men's T20 Cricket Match | Tehri Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 09:32 | ITF Men's Match | Tymur Bieldiugin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 09:31 | TT Elite Series Match | Pawel Polok | ✘ | — | — | In play | — |
-| 09-29 09:30 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
+| 09-29 09:31 | TT Elite Series Match | Pawel Polok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 09:30 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 09:21 | ITF Women's Match | Sophia Ksandinov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 09:20 | Challenger ATP  | Geoffrey Blancaneaux | ✘ | — | — | In play | — |
+| 09-29 09:20 | Challenger ATP  | Geoffrey Blancaneaux | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-29 09:20 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 09:16 | Challenger ATP  | Benito Sanchez Martinez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 09:15 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -178,12 +184,6 @@
 | 09-29 08:36 | ITF Men's Match | Zichen Shao | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 08:32 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:32 | ITF Women's Match | Junlu Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:30 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 09-29 08:28 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:26 | TT Elite Series Match | Jan Zandecki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:26 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:23 | WTA Tennis Match | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:16 | ITF Men's Match | Markus Malaszszak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
