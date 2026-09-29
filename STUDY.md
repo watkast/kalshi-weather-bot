@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 8:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 8:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **37 buys a day**, roughly **$5.51/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **37 buys a day**, roughly **$5.49/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 846 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 855 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 777 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 788 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,8 +89,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 355 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 4 min |
+| TT Elite Series Match | ✘ | 359 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 78 | 0 | 10% | 8% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 64 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 61 | 0 | 5% | 2% | -100% | -91% | 5 min |
 | Counter-Strike 2 Game | ✘ | 47 | 0 | 4% | 2% | -100% | -93% | 11 min |
@@ -101,7 +101,7 @@
 | Men's T20 Cricket Match | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
-| AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
+| AFCON Game Winner | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 19 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
 | Dota 2 Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -116,6 +116,7 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie B Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| KBO Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 90 min |
 | Valorant game winner | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -128,7 +129,6 @@
 | LaLiga 2 Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 26 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | ELH Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -1 min |
-| KBO Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 25 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 
 ## By time left when it hit 1¢
@@ -145,7 +145,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -157,11 +157,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 14:11 | AFCON Game Winner | Sudan | ✘ | — | — | In play | — |
+| 09-29 14:11 | AFCON Game Winner | South Sudan | ✘ | — | — | In play | — |
+| 09-29 14:11 | Counter-Strike 2 Game | HAVENs | ✘ | — | — | In play | — |
+| 09-29 14:10 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 14:10 | ITF Women's Match | Zeel Desai | ✘ | — | — | In play | — |
+| 09-29 14:08 | TT Elite Series Match | Miroslav Sklensky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 14:08 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 14:07 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 14:06 | ITF Women's Match | Laura Mair | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:57 | ITF Men's Match | Bozo Barun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:57 | Challenger ATP  | Cezar Cretu (b. 2001) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:57 | Overwatch Game | Lazuli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:56 | ITF Women's Match | Linda Sevcikova | ✘ | — | — | In play | — |
-| 09-29 13:55 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-29 13:56 | ITF Women's Match | Linda Sevcikova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 09-29 13:55 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:51 | Men's T20 Cricket Match | Haridwar Spring Elmas | ✘ | — | — | In play | — |
 | 09-29 13:49 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:48 | TT Elite Series Match | Pawel Polok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -170,7 +179,7 @@
 | 09-29 13:45 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:43 | ITF Women's Match | Briana Szabo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:42 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:40 | AFCON Game Winner | Namibia | ✘ | — | — | In play | — |
+| 09-29 13:40 | AFCON Game Winner | Namibia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-29 13:38 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:36 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:32 | Challenger ATP  | Imanol Lopez Morillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -178,15 +187,6 @@
 | 09-29 13:31 | ITF Men's Match | Moerani Bouzige | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:30 | ITF Women's Match | Ana Candiotto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:30 | Challenger ATP  | Mackenzie McDonald | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:30 | Challenger ATP  | Alberto Barroso Campos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:28 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:26 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:25 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:22 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:22 | Dota 2 Game | Team Nemesis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:22 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:14 | Challenger ATP  | Anton Matusevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:12 | ATP Tennis Match | Andrey Rublev | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
