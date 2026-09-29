@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 1:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 1:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 66 finished bets | 3% | -$7.28 | -74% | -11.03¢ | -$4.95 / -$2.33 |
 
-*Expect about **36 buys a day**, roughly **$5.44/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **37 buys a day**, roughly **$5.50/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1044 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
+| 1054 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
 
 *In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 66 | 15% | 8% | 6% | 3% | 0% | 0% |
-| Unverified | 957 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 967 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,17 +89,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 418 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 89 | 0 | 12% | 8% | -100% | -79% | 4 min |
+| TT Elite Series Match | ✘ | 421 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 90 | 0 | 12% | 8% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 75 | 0 | 8% | 1% | -100% | -86% | 5 min |
-| ITF Men's Match | ✘ | 73 | 0 | 7% | 3% | -100% | -88% | 5 min |
+| ITF Men's Match | ✘ | 75 | 0 | 8% | 4% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 61 | 1 | 7% | 5% | +53% | -89% | 10 min |
-| TT Star Series Match | ✘ | 35 | 1 | 3% | 3% | +167% | -95% | 4 min |
+| TT Star Series Match | ✘ | 36 | 1 | 3% | 3% | +159% | -95% | 4 min |
 | League of Legends Game | ✘ | 34 | 0 | 12% | 3% | -100% | -80% | 11 min |
 | AFCON Game Winner | ✘ | 33 | 1 | 15% | 6% | +183% | -74% | 14 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | UEFA Nations League Game | ✔ | 20 | 0 | 10% | 0% | -100% | -83% | 1 min |
-| Men's T20 Cricket Match | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
+| Men's T20 Cricket Match | ✘ | 15 | 0 | 13% | 13% | -100% | -77% | 14 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | Dota 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 27 min |
@@ -120,6 +120,7 @@
 | Valorant game winner | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
@@ -132,7 +133,6 @@
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| SHL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -0 min |
 
 ## By time left when it hit 1¢
 
@@ -149,7 +149,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 29 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 5 min |
+| Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -160,36 +160,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 19:19 | Challenger ATP  | Jeffrey John Wolf | ✘ | — | — | In play | — |
+| 09-29 19:19 | League of Legends Game | White Dragons | ✘ | — | — | In play | — |
+| 09-29 19:19 | ITF Women's Match | HAJAR CRINEBOUCH | ✘ | — | — | In play | — |
+| 09-29 19:19 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 19:17 | UEFA Nations League Game | Tie | ✔ | 29' · ALB 2 - SMR 0 | — | In play | — |
+| 09-29 19:13 | TT Star Series Match | Beneš Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 19:13 | SHL Game | HV71 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 19:12 | ITF Women's Match | Mora Carrocera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 19:12 | Sweden SBL Game | BC Lulea | ✘ | — | — | In play | — |
+| 09-29 19:12 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:10 | SHL Game | Timra IK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:10 | Men's T20 Cricket Match | Knights | ✘ | — | — | In play | — |
+| 09-29 19:10 | Men's T20 Cricket Match | Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:09 | UEFA Nations League Game | San Marino | ✔ | 22' · ALB 0 - SMR 0 | — | In play | — |
-| 09-29 19:07 | SHL Game | Lulea Hockey | ✘ | — | — | In play | — |
+| 09-29 19:07 | SHL Game | Lulea Hockey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:07 | Euroleague Game | Real Madrid | ✘ | — | — | In play | — |
 | 09-29 19:06 | TT Elite Series Match | Michal Skorski | ✘ | — | — | In play | — |
 | 09-29 19:06 | Sweden SBL Game | Boraas Basket | ✘ | — | — | In play | — |
-| 09-29 19:05 | ITF Men's Match | Marko Milosavljevic | ✘ | — | — | In play | — |
+| 09-29 19:05 | ITF Men's Match | Marko Milosavljevic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:04 | Euroleague Game | Bayern Munich | ✘ | — | — | In play | — |
 | 09-29 19:02 | R6 Game | Team Secret | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:59 | KHL Game | SKA St. Petersburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:59 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:58 | Euroleague Game | BC Zalgiris Kaunas | ✘ | — | — | In play | — |
-| 09-29 18:57 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
-| 09-29 18:57 | ITF Men's Match | Volodymyr Gurenko | ✘ | — | — | In play | — |
+| 09-29 18:57 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 18:57 | ITF Men's Match | Volodymyr Gurenko | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 09-29 18:56 | Sweden SBL Game | KFUM Umea | ✘ | — | — | In play | — |
 | 09-29 18:55 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:47 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:47 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:47 | Sweden SBL Game | Nassjo Basket | ✘ | — | — | In play | — |
-| 09-29 18:46 | EuroCup Basketball Game | Rostock Seawolves | ✘ | — | — | In play | — |
-| 09-29 18:42 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:41 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:40 | Counter-Strike 2 Game | Sangal | ✘ | — | 47¢ | ❌ Lost | -$0.15 |
-| 09-29 18:37 | English National League Game | Kidderminster | ✘ | — | — | In play | — |
-| 09-29 18:37 | ITF Men's Match | Isac Stroemberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:37 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:35 | ITF Men's Match | Yannic Nittmann | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 09-29 18:33 | Dota 2 Game | GamerLegion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:33 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
