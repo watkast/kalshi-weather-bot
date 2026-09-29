@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 2:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 2:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 66 finished bets | 3% | -$7.28 | -74% | -11.03¢ | -$4.95 / -$2.33 |
 
-*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **41 buys a day**, roughly **$6.09/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1091 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
+| 1104 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 66 | 15% | 8% | 6% | 3% | 0% | 0% |
-| Unverified | 1006 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1008 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 431 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 433 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 92 | 0 | 12% | 8% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 77 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 75 | 0 | 8% | 4% | -100% | -86% | 5 min |
@@ -166,6 +166,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 20:23 | English National League Game | Woking | ✘ | — | — | In play | — |
+| 09-29 20:23 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | — | In play | — |
+| 09-29 20:22 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | — | In play | — |
+| 09-29 20:21 | ITF Women's Match | Trinetra Vijayakumar | ✘ | — | — | In play | — |
+| 09-29 20:19 | UEFA Nations League Game | Tie | ✔ | 74' · SUI 2 - SCO 0 | — | In play | — |
+| 09-29 20:19 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:19 | UEFA Nations League Game | Tie | ✔ | 74' · ISL 3 - LUX 0 | — | In play | — |
+| 09-29 20:19 | AFCON Game Winner | Mauritania | ✘ | — | — | In play | — |
+| 09-29 20:19 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:18 | English National League Game | Scunthorpe | ✘ | — | — | In play | — |
+| 09-29 20:18 | UEFA Nations League Game | Tie | ✔ | 73' · CRO 1 - ESP 3 | — | In play | — |
+| 09-29 20:14 | UEFA Nations League Game | North Macedonia | ✔ | 71' · MKD 0 - SVN 1 | — | In play | — |
+| 09-29 20:13 | UEFA Nations League Game | Tie | ✔ | 69' · ENG 1 - CZE 0 | — | In play | — |
 | 09-29 20:09 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:07 | UEFA Nations League Game | Croatia | ✔ | 63' · CRO 1 - ESP 2 | — | In play | — |
 | 09-29 20:07 | Euroleague Game | KK Crvena zvezda Belgrade | ✘ | — | — | In play | — |
@@ -183,19 +196,6 @@
 | 09-29 19:59 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:58 | ITF Men's Match | Oscar Jose Gutierrez | ✘ | — | — | In play | — |
 | 09-29 19:57 | TT Elite Series Match | Tkocz Marek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:55 | National League Game | SC Bern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:54 | Challenger ATP  | David Goffin | ✘ | — | — | In play | — |
-| 09-29 19:52 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:51 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:51 | National League Game | SC Rapperswil-Jona Lakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:51 | UEFA Nations League Game | Czechia | ✔ | 47' · ENG 0 - CZE 0 | — | In play | — |
-| 09-29 19:48 | National League Game | EHC Kloten | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:46 | UEFA Nations League Game | Luxembourg | ✔ | HT · ISL 2 - LUX 0 | — | In play | — |
-| 09-29 19:43 | ITF Women's Match | Lea Boskovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:42 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:40 | Challenger ATP  | Viktor Durasovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:39 | TT Star Series Match | Brodd Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:37 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
