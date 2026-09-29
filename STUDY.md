@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 2:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 2:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **41 buys a day**, roughly **$6.17/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 661 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 664 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 600 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 604 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,11 +89,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 292 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 295 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 49 | 0 | 12% | 10% | -100% | -79% | 5 min |
 | Challenger ATP  | ✘ | 48 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 12 min |
-| ITF Men's Match | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 4 min |
+| ITF Men's Match | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 5 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | TT Star Series Match | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
@@ -154,9 +154,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 08:43 | TT Elite Series Match | Miastowski Maksymilian | ✘ | — | — | In play | — |
+| 09-29 08:50 | TT Elite Series Match | Igor Szymanski | ✘ | — | — | In play | — |
+| 09-29 08:46 | TT Elite Series Match | Artur Sobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 08:46 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 08:43 | TT Elite Series Match | Miastowski Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:40 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 08:36 | ITF Men's Match | Zichen Shao | ✘ | — | — | In play | — |
+| 09-29 08:36 | ITF Men's Match | Zichen Shao | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 08:32 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:32 | ITF Women's Match | Junlu Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:30 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -181,9 +184,6 @@
 | 09-29 07:47 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 07:38 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 07:35 | TT Elite Series Match | Jan Zandecki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:35 | ITF Women's Match | Gaeul Jang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:29 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:24 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
