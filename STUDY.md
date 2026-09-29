@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 5:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 5:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 745 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 755 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 680 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 687 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,16 +89,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 327 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 60 | 0 | 10% | 8% | -100% | -83% | 4 min |
+| TT Elite Series Match | ✘ | 328 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 62 | 0 | 10% | 8% | -100% | -83% | 4 min |
 | Challenger ATP  | ✘ | 55 | 0 | 9% | 0% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 42 | 0 | 5% | 2% | -100% | -92% | 12 min |
-| ITF Men's Match | ✘ | 42 | 0 | 5% | 2% | -100% | -92% | 5 min |
+| ITF Men's Match | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 5 min |
+| Counter-Strike 2 Game | ✘ | 43 | 0 | 5% | 2% | -100% | -92% | 11 min |
 | TT Star Series Match | ✘ | 28 | 1 | 4% | 4% | +233% | -94% | 4 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
-| Men's T20 Cricket Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Men's T20 Cricket Match | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
 | ATP Tennis Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Challenger WTA | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
@@ -143,7 +143,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 29 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 4 min |
+| Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -154,11 +154,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 11:41 | ITF Men's Match | Lawrence Bataljin | ✘ | — | — | In play | — |
-| 09-29 11:41 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
+| 09-29 11:51 | International Friendly Game | Australia | ✔ | 78' · BRA 3 - AUS 2 | — | In play | — |
+| 09-29 11:50 | Challenger WTA | Lucia Bronzetti | ✘ | — | — | In play | — |
+| 09-29 11:48 | ITF Men's Match | Lenny Petit | ✘ | — | — | In play | — |
+| 09-29 11:47 | ITF Men's Match | Nika Bidzinashvili | ✘ | — | — | In play | — |
+| 09-29 11:45 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
+| 09-29 11:45 | ITF Men's Match | Ivan Gretskiy | ✘ | — | — | In play | — |
+| 09-29 11:44 | ITF Women's Match | Greta Fenyves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:44 | ITF Men's Match | Dmitry Bessonov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:43 | ITF Men's Match | David Tixhon | ✘ | — | — | In play | — |
+| 09-29 11:42 | Counter-Strike 2 Game | STATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:41 | ITF Men's Match | Lawrence Bataljin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:41 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:41 | Challenger ATP  | Filippo Romano | ✘ | — | — | In play | — |
 | 09-29 11:39 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:39 | ITF Women's Match | Fanny Pire | ✘ | — | — | In play | — |
+| 09-29 11:39 | ITF Women's Match | Fanny Pire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:38 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:38 | TT Star Series Match | Onderka František | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:36 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -168,22 +178,12 @@
 | 09-29 11:23 | ITF Men's Match | Vito Dell'elba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:22 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:20 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:18 | Men's T20 Cricket Match | Pithoragarh Hurricanes | ✘ | — | — | In play | — |
+| 09-29 11:18 | Men's T20 Cricket Match | Pithoragarh Hurricanes | ✘ | — | 41¢ | ❌ Lost | -$0.15 |
 | 09-29 11:17 | Japan NPB Game | Orix Buffaloes | ✘ | — | — | In play | — |
 | 09-29 11:16 | Challenger ATP  | Fausto Tabacco | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 11:16 | ITF Women's Match | Anja Casari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:15 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:14 | Challenger ATP  | Fabrizio Andaloro | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 11:13 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | — | In play | — |
-| 09-29 11:11 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:09 | ITF Men's Match | Mayank Sharma | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 11:06 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:03 | ITF Women's Match | Ingrid Carolina Millan Acosta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:03 | Women's ODI Cricket Match | South Australia Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:00 | ITF Women's Match | Alena Kharchenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:58 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:58 | ITF Men's Match | Nik Mikovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:54 | ITF Men's Match | Federico Valle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
