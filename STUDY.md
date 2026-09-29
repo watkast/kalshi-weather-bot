@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 9:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 9:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 56 finished bets | 4% | -$5.78 | -69% | -10.32¢ | -$4.20 / -$1.58 |
 
-*Expect about **49 buys a day**, roughly **$7.35/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **49 buys a day**, roughly **$7.31/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 534 | 56 | 0 (0%) | 1.1% | -$8.40 (-100%) | Sell at 10¢: -$5.78 (-69%) |
+| 539 | 56 | 0 (0%) | 1.1% | -$8.40 (-100%) | Sell at 10¢: -$5.78 (-69%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 56 | 18% | 9% | 7% | 4% | 0% | 0% |
-| Unverified | 472 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 477 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,11 +89,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 218 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 221 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Counter-Strike 2 Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 13 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | ITF Women's Match | ✘ | 32 | 0 | 9% | 6% | -100% | -84% | 4 min |
-| League of Legends Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 11 min |
+| League of Legends Game | ✘ | 22 | 0 | 14% | 5% | -100% | -76% | 10 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
 | CONCACAF Nations League Game | partly | 20 | 0 | 20% | 10% | -100% | -65% | 21 min |
@@ -103,6 +103,7 @@
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
+| ATP Tennis Match | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Challenger WTA | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KHL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | R6 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -110,7 +111,6 @@
 | Uruguay Primera Division Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 15 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie B Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -153,10 +153,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 03:21 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | — | In play | — |
+| 09-29 03:20 | TT Elite Series Match | Blazej Warpas | ✘ | — | — | In play | — |
+| 09-29 03:19 | Women's ODI Cricket Match | Queensland Fire | ✘ | — | — | In play | — |
+| 09-29 03:18 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 03:17 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 03:14 | CONCACAF Nations League Game | Tie | ✔ | 56' · SLV 0 - GUA 3 | — | In play | — |
-| 09-29 03:14 | TT Elite Series Match | Igor Szymanski | ✘ | — | — | In play | — |
-| 09-29 03:14 | ATP Tennis Match | Rinky Hijikata | ✘ | — | — | In play | — |
-| 09-29 03:09 | League of Legends Game | Malaysia | ✘ | — | — | In play | — |
+| 09-29 03:14 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 03:14 | ATP Tennis Match | Rinky Hijikata | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 03:09 | League of Legends Game | Malaysia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 03:04 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 02:50 | Professional Football Game | Philadelphia | ✔ | 8:09 - 4th · PHI 7 - CHI 20 | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 02:34 | CONCACAF Nations League Game | El Salvador | ✔ | 34' · SLV 0 - GUA 3 | — | In play | — |
@@ -178,11 +183,6 @@
 | 09-29 01:24 | CONCACAF Nations League Game | Tie | ✔ | 66' · BER 1 - LCA 4 | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 01:23 | ITF Women's Match | Reina Goto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 01:21 | CONCACAF Nations League Game | Grenada | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 01:12 | CONCACAF Nations League Game | Bermuda | ✔ | 54' · BER 1 - LCA 3 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 01:11 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 01:09 | ITF Women's Match | Dalayna Hewitt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 01:05 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 01:04 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
