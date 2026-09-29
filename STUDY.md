@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 11:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 11:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **34 buys a day**, roughly **$5.13/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **35 buys a day**, roughly **$5.28/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 974 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 981 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
 *In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 896 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 903 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,13 +89,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 399 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 402 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 88 | 0 | 12% | 8% | -100% | -78% | 4 min |
-| Challenger ATP  | ✘ | 72 | 0 | 8% | 1% | -100% | -86% | 5 min |
+| Challenger ATP  | ✘ | 73 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 69 | 0 | 6% | 3% | -100% | -90% | 5 min |
 | Counter-Strike 2 Game | ✘ | 57 | 1 | 5% | 4% | +64% | -91% | 11 min |
 | TT Star Series Match | ✘ | 33 | 1 | 3% | 3% | +183% | -95% | 4 min |
-| League of Legends Game | ✘ | 30 | 0 | 13% | 3% | -100% | -77% | 11 min |
+| League of Legends Game | ✘ | 32 | 0 | 12% | 3% | -100% | -78% | 11 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | AFCON Game Winner | ✘ | 22 | 0 | 18% | 5% | -100% | -68% | 19 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
@@ -131,6 +131,7 @@
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Liiga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 
 ## By time left when it hit 1¢
 
@@ -158,17 +159,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 17:50 | UEFA Nations League Game | Moldova | ✔ | 90'+3' · FRO 1 - MDA 1 | — | In play | — |
+| 09-29 17:50 | ELH Game | BK Mlada Boleslav | ✘ | — | — | In play | — |
+| 09-29 17:50 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+3' · FRO 1 - MDA 1 | — | In play | — |
+| 09-29 17:46 | Liiga Game | HPK Hameenlinna | ✘ | — | — | In play | — |
+| 09-29 17:46 | TT Star Series Match | Beneš Michal | ✘ | — | — | In play | — |
+| 09-29 17:45 | AFCON Game Winner | Libya | ✘ | — | — | In play | — |
+| 09-29 17:45 | TT Elite Series Match | Skorupa Jakub | ✘ | — | — | In play | — |
 | 09-29 17:40 | ITF Men's Match | Matisse Farzam | ✘ | — | — | In play | — |
 | 09-29 17:39 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | — | In play | — |
-| 09-29 17:38 | Liiga Game | Mikkelin Jukurit | ✘ | — | — | In play | — |
-| 09-29 17:37 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
-| 09-29 17:37 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | — | In play | — |
+| 09-29 17:38 | Liiga Game | Mikkelin Jukurit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:37 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:37 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 17:37 | AFCON Game Winner | Nigeria | ✘ | — | — | In play | — |
 | 09-29 17:36 | League of Legends Game | HMBLE | ✘ | — | — | In play | — |
-| 09-29 17:34 | League of Legends Game | The Otter Side | ✘ | — | — | In play | — |
-| 09-29 17:34 | League of Legends Game | Team Phantasma | ✘ | — | — | In play | — |
-| 09-29 17:31 | Challenger ATP  | Wilson Leite | ✘ | — | — | In play | — |
-| 09-29 17:31 | TT Elite Series Match | Linek Adam | ✘ | — | — | In play | — |
+| 09-29 17:34 | League of Legends Game | The Otter Side | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:34 | League of Legends Game | Team Phantasma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:31 | Challenger ATP  | Wilson Leite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:31 | TT Elite Series Match | Linek Adam | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 17:29 | ELH Game | HC Rytiri Kladno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 17:28 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 17:28 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
@@ -181,13 +189,6 @@
 | 09-29 17:18 | Finland Korisliiga Game | Helsinki Seagulls | ✘ | — | — | In play | — |
 | 09-29 17:13 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 17:07 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 17:07 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 17:07 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 17:05 | R6 Game | Geekay Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 17:01 | ITF Men's Match | Lasse Poertner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:55 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:51 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:51 | ITF Women's Match | Natalia Sousa Salazar | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
