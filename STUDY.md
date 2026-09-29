@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 11:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 11:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **34 buys a day**, roughly **$5.13/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **34 buys a day**, roughly **$5.11/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 947 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 952 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 875 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 882 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,13 +89,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 389 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 86 | 0 | 10% | 7% | -100% | -82% | 4 min |
+| TT Elite Series Match | ✘ | 392 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 87 | 0 | 11% | 8% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 71 | 0 | 8% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 68 | 0 | 6% | 3% | -100% | -90% | 5 min |
-| Counter-Strike 2 Game | ✘ | 55 | 1 | 5% | 4% | +70% | -91% | 11 min |
+| Counter-Strike 2 Game | ✘ | 57 | 1 | 5% | 4% | +64% | -91% | 11 min |
 | TT Star Series Match | ✘ | 32 | 1 | 3% | 3% | +192% | -95% | 4 min |
-| League of Legends Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 11 min |
+| League of Legends Game | ✘ | 30 | 0 | 13% | 3% | -100% | -77% | 11 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | AFCON Game Winner | ✘ | 22 | 0 | 18% | 5% | -100% | -68% | 19 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
@@ -158,17 +158,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 16:55 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | — | In play | — |
-| 09-29 16:51 | TT Elite Series Match | Mariusz Baron | ✘ | — | — | In play | — |
-| 09-29 16:51 | ITF Women's Match | Natalia Sousa Salazar | ✘ | — | — | In play | — |
-| 09-29 16:50 | TT Elite Series Match | Oracz Lukasz | ✘ | — | — | In play | — |
+| 09-29 17:07 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | — | In play | — |
+| 09-29 17:07 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | — | In play | — |
+| 09-29 17:07 | TT Elite Series Match | Mateusz Sikon | ✘ | — | — | In play | — |
+| 09-29 17:05 | R6 Game | Geekay Esports | ✘ | — | — | In play | — |
+| 09-29 17:01 | ITF Men's Match | Lasse Poertner | ✘ | — | — | In play | — |
+| 09-29 16:55 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 16:51 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 16:51 | ITF Women's Match | Natalia Sousa Salazar | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
+| 09-29 16:50 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:49 | ITF Men's Match | Luigi Valletta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:48 | League of Legends Game | PCIFIC | ✘ | — | — | In play | — |
+| 09-29 16:48 | League of Legends Game | PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:47 | ITF Men's Match | Alexander Frusina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:47 | Dota 2 Game | Xtreme Gaming | ✘ | — | — | In play | — |
-| 09-29 16:44 | Counter-Strike 2 Game | MORROW | ✘ | — | — | In play | — |
+| 09-29 16:44 | Counter-Strike 2 Game | MORROW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:43 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:39 | Counter-Strike 2 Game | Lynn Vision | ✘ | — | — | In play | — |
+| 09-29 16:39 | Counter-Strike 2 Game | Lynn Vision | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:39 | League of Legends Game | Gamespace Mediterranean College Esports | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-29 16:39 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:36 | Counter-Strike 2 Game | KUUSAMO.gg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -183,11 +188,6 @@
 | 09-29 16:28 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:25 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:21 | ITF Men's Match | Sergi Fita Juan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:21 | Counter-Strike 2 Game | HAVENs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:17 | Dota 2 Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:14 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:11 | ITF Women's Match | Urszula Radwanska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:11 | Counter-Strike 2 Game | DARKWALL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
