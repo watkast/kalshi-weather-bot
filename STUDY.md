@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 3:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 3:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 83 finished bets | 13% | -$9.59 | -77% | -11.55¢ | -$4.33 / -$5.26 |
 
-*Expect about **43 buys a day**, roughly **$6.42/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.39/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1170 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
+| 1171 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 83 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1079 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1082 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,14 +89,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 444 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 446 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 98 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 80 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | Challenger ATP  | ✘ | 79 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 68 | 1 | 6% | 4% | +37% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
+| TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
 | League of Legends Game | ✘ | 38 | 0 | 11% | 3% | -100% | -82% | 11 min |
-| TT Star Series Match | ✘ | 38 | 1 | 3% | 3% | +146% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 24 | 0 | 17% | 8% | -100% | -71% | 25 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -168,10 +168,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 21:26 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
-| 09-29 21:24 | TT Star Series Match | Szudi Adam | ✘ | — | — | In play | — |
+| 09-29 21:35 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 09-29 21:26 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 21:24 | TT Star Series Match | Szudi Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:24 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
-| 09-29 21:23 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | — | In play | — |
+| 09-29 21:23 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:21 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:17 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:17 | ITF Men's Match | Jakub Vrba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,7 +198,6 @@
 | 09-29 20:48 | Challenger ATP  | Duncan Chan | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-29 20:44 | AFCON Game Winner | Liberia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:43 | ITF Men's Match | Eudald Gonzalez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:43 | English National League Game | Forest Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
