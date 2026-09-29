@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Tue Sep 29, 3:02 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Tue Sep 29, 4:21 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -14,9 +14,9 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 59 | 17 | 29% | -$27.37 | -35.4% | 42 | Too early |
+| **Temperature** | 60 | 17 | 29% | -$27.37 | -35.4% | 43 | Too early |
 | **Rain** | 18 | 6 | 50% | $9.17 | +44.0% | 12 | Too early |
-| **Longshot fade** | 953 | 635 | 92% | -$176.33 | -2.9% | 318 | Break-even |
+| **Longshot fade** | 953 | 637 | 92% | -$175.22 | -2.9% | 316 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -24,7 +24,7 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 448 | 274 | 93% | -$34.32 | -1.3% |
+| Other | 448 | 276 | 93% | -$33.21 | -1.3% |
 | NFL | 211 | 209 | 89% | -$114.59 | -5.8% |
 | Weather | 89 | 50 | 96% | $6.38 | +1.3% |
 | MLB | 68 | 60 | 95% | $2.28 | +0.4% |
@@ -38,6 +38,7 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-09-30 | DEN >66 | NO | 87¢ | 97% | Open | — |
 | 2026-09-30 | PHIL 76-77 | YES | 11¢ | 23% | Open | — |
 | 2026-09-30 | LAX 78-79 | NO | 74¢ | 86% | Open | — |
 | 2026-09-30 | DEN 59-60 | YES | 10¢ | 23% | Open | — |
@@ -47,7 +48,6 @@
 | 2026-09-30 | AUS 97-98 | NO | 61¢ | 81% | Open | — |
 | 2026-09-30 | AUS <93 | YES | 10¢ | 20% | Open | — |
 | 2026-09-30 | CHI 71-72 | NO | 75¢ | 86% | Open | — |
-| 2026-09-30 | CHI <69 | YES | 25¢ | 57% | Open | — |
 
 ## Latest rain bets
 
