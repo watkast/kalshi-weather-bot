@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 2:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 2:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 66 finished bets | 3% | -$7.28 | -74% | -11.03¢ | -$4.95 / -$2.33 |
 
-*Expect about **38 buys a day**, roughly **$5.66/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1084 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
+| 1091 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 66 | 15% | 8% | 6% | 3% | 0% | 0% |
-| Unverified | 998 | 5% | 3% | 3% | 2% | 1% | 0% |
+| Unverified | 1006 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 427 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 431 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 92 | 0 | 12% | 8% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 77 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 75 | 0 | 8% | 4% | -100% | -86% | 5 min |
@@ -103,11 +103,12 @@
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | Dota 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| R6 Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | International Friendly Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| R6 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| National League Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Japan NPB Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 67 min |
@@ -119,7 +120,6 @@
 | Brasileiro Serie B Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Valorant game winner | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| National League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Sweden SBL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -166,11 +166,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 20:02 | National League Game | EHC Biel | ✘ | — | — | In play | — |
+| 09-29 20:09 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:07 | UEFA Nations League Game | Croatia | ✔ | 63' · CRO 1 - ESP 2 | — | In play | — |
+| 09-29 20:07 | Euroleague Game | KK Crvena zvezda Belgrade | ✘ | — | — | In play | — |
+| 09-29 20:07 | National League Game | HC Lugano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:06 | Euroleague Game | Baskonia Vitoria-Gasteiz | ✘ | — | — | In play | — |
+| 09-29 20:05 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:03 | TT Elite Series Match | Dariusz Szlubowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:02 | National League Game | EHC Biel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:02 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
-| 09-29 20:01 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
-| 09-29 20:01 | National League Game | HC Ambri-Piotta | ✘ | — | — | In play | — |
-| 09-29 20:01 | R6 Game | Virtus.pro | ✘ | — | — | In play | — |
+| 09-29 20:01 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:01 | National League Game | HC Ambri-Piotta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:01 | R6 Game | Virtus.pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:00 | UEFA Nations League Game | Scotland | ✔ | 55' · SUI 1 - SCO 0 | — | In play | — |
 | 09-29 20:00 | National League Game | HC Lausanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:59 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -189,13 +196,6 @@
 | 09-29 19:40 | Challenger ATP  | Viktor Durasovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:39 | TT Star Series Match | Brodd Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 19:37 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:35 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:32 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:31 | Counter-Strike 2 Game | Aimhaus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:30 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:28 | League of Legends Game | TLN Pirates | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:26 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 19:25 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
