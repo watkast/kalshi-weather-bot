@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 6:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 6:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 51 finished bets | 4% | -$5.03 | -66% | -9.86¢ | -$3.75 / -$1.28 |
 
-*Expect about **48 buys a day**, roughly **$7.19/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **48 buys a day**, roughly **$7.15/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 496 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
+| 498 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 51 | 20% | 10% | 8% | 4% | 0% | 0% |
-| Unverified | 439 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 444 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,7 +83,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 197 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 200 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
 | Counter-Strike 2 Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 12 min |
 | ITF Women's Match | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 4 min |
@@ -102,6 +102,7 @@
 | R6 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Brasileiro Serie B Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -109,7 +110,6 @@
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
-| Brasileiro Serie B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
 | Women's Pro Basketball Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 44 min |
 | Major League Soccer Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -147,10 +147,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 00:24 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | — | In play | — |
-| 09-29 00:24 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 09-29 00:29 | TT Elite Series Match | Bartosz Kwodawski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:24 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:24 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:18 | Uruguay Primera Division Game | Albion | ✘ | — | — | In play | — |
-| 09-29 00:18 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
+| 09-29 00:18 | Brasileiro Serie B Game | America FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 00:13 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:12 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:12 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -175,8 +177,6 @@
 | 09-28 22:59 | TT Elite Series Match | Artur Kubiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:55 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:53 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:53 | ITF Women's Match | Katherine Hui | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-28 22:53 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
