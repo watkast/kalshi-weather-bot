@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 12:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 12:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **44 buys a day**, roughly **$6.56/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **43 buys a day**, roughly **$6.52/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 616 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 621 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
 *In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 556 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 561 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 265 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 269 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 46 | 0 | 11% | 9% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 44 | 0 | 7% | 0% | -100% | -88% | 5 min |
 | Counter-Strike 2 Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 13 min |
@@ -99,9 +99,9 @@
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
 | Men's T20 Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| ATP Tennis Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| ATP Tennis Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | WTA Tennis Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
@@ -154,7 +154,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 06:41 | ATP Tennis Match | Jie Cui | ✘ | — | — | In play | — |
+| 09-29 06:46 | TT Elite Series Match | Krzysztof Hetnar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 06:46 | TT Elite Series Match | Piotr Chodorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 06:46 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 06:45 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 06:45 | Challenger WTA | Daria Egorova | ✘ | — | — | In play | — |
+| 09-29 06:41 | ATP Tennis Match | Jie Cui | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 06:35 | Challenger ATP  | Akira Santillan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 06:33 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 06:25 | TT Elite Series Match | Jakub Kosowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -179,11 +184,6 @@
 | 09-29 05:39 | ITF Women's Match | Natsuho Arakawa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 05:37 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:35 | TT Elite Series Match | Piotr Chodorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 05:29 | Challenger ATP  | Keisuke Saitoh | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 05:28 | ITF Men's Match | LIANGXUAN LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 05:26 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 05:25 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 05:22 | Challenger ATP  | Aleksandar Vukic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
