@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 3:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 4:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 83 finished bets | 13% | -$9.59 | -77% | -11.55¢ | -$4.33 / -$5.26 |
 
-*Expect about **42 buys a day**, roughly **$6.35/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **42 buys a day**, roughly **$6.32/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1178 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
+| 1179 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 83 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1088 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1091 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 451 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 452 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 98 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 80 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | Challenger ATP  | ✘ | 79 | 0 | 9% | 1% | -100% | -85% | 5 min |
@@ -98,7 +98,7 @@
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
 | League of Legends Game | ✘ | 38 | 0 | 11% | 3% | -100% | -82% | 11 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
-| CONCACAF Nations League Game | partly | 24 | 0 | 17% | 8% | -100% | -71% | 25 min |
+| CONCACAF Nations League Game | partly | 26 | 0 | 23% | 8% | -100% | -60% | 29 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
@@ -157,7 +157,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 33 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 6 min |
+| Time from 1¢ to its best bounce (bounced bets) | 7 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -168,7 +168,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 21:54 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
+| 09-29 22:06 | TT Elite Series Match | Rudomina Kamil | ✘ | — | — | In play | — |
+| 09-29 21:54 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:53 | ITF Men's Match | Khololwam Montsi | ✘ | — | — | In play | — |
 | 09-29 21:50 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:46 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -178,7 +179,7 @@
 | 09-29 21:35 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:26 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:24 | TT Star Series Match | Szudi Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:24 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 09-29 21:24 | CONCACAF Nations League Game | Tie | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 09-29 21:23 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:21 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:17 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -193,11 +194,10 @@
 | 09-29 20:59 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:58 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:58 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:58 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
+| 09-29 20:58 | CONCACAF Nations League Game | Bahamas | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 09-29 20:58 | AFCON Game Winner | Cameroon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:58 | AFCON Game Winner | Congo Republic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:55 | ITF Men's Match | Adhithya Ganesan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:53 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
