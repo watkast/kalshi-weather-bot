@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 12:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 1:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 66 finished bets | 3% | -$7.28 | -74% | -11.03¢ | -$4.95 / -$2.33 |
 
-*Expect about **36 buys a day**, roughly **$5.40/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **36 buys a day**, roughly **$5.38/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1027 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
+| 1034 | 66 | 0 (0%) | 1.1% | -$9.90 (-100%) | Sell at 10¢: -$7.28 (-74%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -159,6 +159,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 18:59 | KHL Game | SKA St. Petersburg | ✘ | — | — | In play | — |
+| 09-29 18:59 | TT Elite Series Match | Marian Brunner | ✘ | — | — | In play | — |
+| 09-29 18:58 | Euroleague Game | BC Zalgiris Kaunas | ✘ | — | — | In play | — |
+| 09-29 18:57 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
+| 09-29 18:57 | ITF Men's Match | Volodymyr Gurenko | ✘ | — | — | In play | — |
+| 09-29 18:56 | Sweden SBL Game | KFUM Umea | ✘ | — | — | In play | — |
+| 09-29 18:55 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | — | In play | — |
 | 09-29 18:47 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:47 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:47 | Sweden SBL Game | Nassjo Basket | ✘ | — | — | In play | — |
@@ -182,13 +189,6 @@
 | 09-29 18:17 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:17 | ELH Game | Bili Tygri Liberec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 18:16 | Challenger ATP  | Victor Hugo Remondy Pagotto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 18:14 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:14 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:11 | Men's T20 Cricket Match | Rishikesh Falcons | ✘ | — | — | In play | — |
-| 09-29 18:09 | ITF Women's Match | Agustina Daniela Duarte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:05 | R6 Game | Fnatic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:04 | AFCON Game Winner | Togo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 18:00 | Men's T20 Cricket Match | Bhubaneshwar Tigers | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
