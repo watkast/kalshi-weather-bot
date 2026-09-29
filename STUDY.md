@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 5:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 5:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 85 finished bets | 13% | -$9.89 | -78% | -11.64¢ | -$4.48 / -$5.41 |
 
-*Expect about **42 buys a day**, roughly **$6.34/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **42 buys a day**, roughly **$6.32/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1198 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
+| 1202 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 85 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1108 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1111 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,14 +89,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 463 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 465 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 100 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 69 | 1 | 6% | 4% | +35% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
+| League of Legends Game | ✘ | 39 | 0 | 13% | 3% | -100% | -78% | 11 min |
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
-| League of Legends Game | ✘ | 38 | 0 | 11% | 3% | -100% | -82% | 11 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 28 | 0 | 21% | 7% | -100% | -63% | 25 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -168,8 +168,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 23:07 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
-| 09-29 23:07 | TT Elite Series Match | Pawel Kurek | ✘ | — | — | In play | — |
+| 09-29 23:18 | ITF Women's Match | Eugenia Zozaya Menendez | ✘ | — | — | In play | — |
+| 09-29 23:16 | TT Elite Series Match | Marian Brunner | ✘ | — | — | In play | — |
+| 09-29 23:12 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | — | In play | — |
+| 09-29 23:10 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
+| 09-29 23:07 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 23:07 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:55 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:53 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · SMA 0 - GUF 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -194,10 +198,6 @@
 | 09-29 21:46 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:44 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 21:42 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:41 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:35 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:26 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 21:24 | TT Star Series Match | Szudi Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
