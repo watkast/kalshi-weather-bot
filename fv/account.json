@@ -1,14 +1,7 @@
 {
- "cash": 442.5206,
+ "cash": 462.0406,
  "peak": 525.36,
- "positions": {
-  "KXNEAR15M-26SEP290845-45": {
-   "side": "no",
-   "contracts": 20,
-   "cost": 8.74,
-   "window": "26SEP290845"
-  }
- },
+ "positions": {},
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -207,6 +200,10 @@
   [
    "2026-09-29T12:30:45+00:00",
    451.26
+  ],
+  [
+   "2026-09-29T12:43:22+00:00",
+   462.04
   ]
  ],
  "settings": {
