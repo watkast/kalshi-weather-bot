@@ -1,7 +1,20 @@
 {
- "cash": 506.0209,
+ "cash": 486.2306,
  "peak": 525.36,
- "positions": {},
+ "positions": {
+  "KXBNB15M-26SEP290200-00": {
+   "side": "no",
+   "contracts": 21,
+   "cost": 9.9103,
+   "window": "26SEP290200"
+  },
+  "KXSOL15M-26SEP290200-00": {
+   "side": "yes",
+   "contracts": 27,
+   "cost": 9.88,
+   "window": "26SEP290200"
+  }
+ },
  "halted": false,
  "halt_reason": "",
  "history": [
