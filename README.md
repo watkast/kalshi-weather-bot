@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Mon Sep 28, 6:20 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Mon Sep 28, 7:04 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -14,7 +14,7 @@
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 36 | 0 | — | — | — | 36 | Too early |
 | **Rain** | 14 | 0 | — | — | — | 14 | Too early |
-| **Longshot fade** | 793 | 424 | 91% | -$136.07 | -3.4% | 369 | Losing |
+| **Longshot fade** | 833 | 449 | 92% | -$132.81 | -3.1% | 384 | Losing |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -22,12 +22,12 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 357 | 138 | 94% | -$1.21 | -0.1% |
-| NFL | 211 | 197 | 89% | -$111.92 | -6.0% |
-| Weather | 68 | 9 | 100% | $4.50 | +5.3% |
-| MLB | 52 | 48 | 94% | -$4.39 | -1.0% |
-| College football | 45 | 0 | — | — | — |
-| Crypto | 33 | 12 | 100% | $6.03 | +5.3% |
+| Other | 380 | 162 | 94% | $1.40 | +0.1% |
+| NFL | 211 | 198 | 89% | -$111.27 | -5.9% |
+| Weather | 73 | 9 | 100% | $4.50 | +5.3% |
+| MLB | 54 | 48 | 94% | -$4.39 | -1.0% |
+| College football | 52 | 0 | — | — | — |
+| Crypto | 36 | 12 | 100% | $6.03 | +5.3% |
 | Soccer | 25 | 18 | 78% | -$30.15 | -17.7% |
 | NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 
