@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 5:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 5:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 735 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 745 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 669 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 680 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,12 +89,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 322 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 59 | 0 | 10% | 8% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 52 | 0 | 10% | 0% | -100% | -83% | 5 min |
+| TT Elite Series Match | ✘ | 327 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 60 | 0 | 10% | 8% | -100% | -83% | 4 min |
+| Challenger ATP  | ✘ | 55 | 0 | 9% | 0% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 42 | 0 | 5% | 2% | -100% | -92% | 12 min |
 | ITF Men's Match | ✘ | 42 | 0 | 5% | 2% | -100% | -92% | 5 min |
-| TT Star Series Match | ✘ | 26 | 1 | 4% | 4% | +259% | -93% | 5 min |
+| TT Star Series Match | ✘ | 28 | 1 | 4% | 4% | +233% | -94% | 4 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
@@ -154,16 +154,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 11:28 | ITF Women's Match | Meline Lataste | ✘ | — | — | In play | — |
+| 09-29 11:41 | ITF Men's Match | Lawrence Bataljin | ✘ | — | — | In play | — |
+| 09-29 11:41 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
+| 09-29 11:41 | Challenger ATP  | Filippo Romano | ✘ | — | — | In play | — |
+| 09-29 11:39 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:39 | ITF Women's Match | Fanny Pire | ✘ | — | — | In play | — |
+| 09-29 11:38 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:38 | TT Star Series Match | Onderka František | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:36 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:33 | Challenger ATP  | Jesper De Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:32 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:28 | ITF Women's Match | Meline Lataste | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:23 | ITF Men's Match | Vito Dell'elba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:22 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | — | In play | — |
-| 09-29 11:20 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
+| 09-29 11:22 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:20 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:18 | Men's T20 Cricket Match | Pithoragarh Hurricanes | ✘ | — | — | In play | — |
 | 09-29 11:17 | Japan NPB Game | Orix Buffaloes | ✘ | — | — | In play | — |
-| 09-29 11:16 | Challenger ATP  | Fausto Tabacco | ✘ | — | — | In play | — |
+| 09-29 11:16 | Challenger ATP  | Fausto Tabacco | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 11:16 | ITF Women's Match | Anja Casari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:15 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:14 | Challenger ATP  | Fabrizio Andaloro | ✘ | — | — | In play | — |
+| 09-29 11:14 | Challenger ATP  | Fabrizio Andaloro | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 11:13 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | — | In play | — |
 | 09-29 11:11 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:09 | ITF Men's Match | Mayank Sharma | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -174,16 +184,6 @@
 | 09-29 10:58 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 10:58 | ITF Men's Match | Nik Mikovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 10:54 | ITF Men's Match | Federico Valle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:54 | ITF Men's Match | Leonardo Angeloni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:50 | ITF Men's Match | Matic Hribar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:50 | ITF Men's Match | Gabriel Ghetu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:46 | ITF Women's Match | Timea Gross | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:46 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:46 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:40 | Counter-Strike 2 Game | THUNDER dOWNUNDER | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:40 | ITF Women's Match | Alexia-Shara Iancu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:40 | TT Elite Series Match | Jakub Kosowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 10:38 | ITF Women's Match | Amelie Worring La Torre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
