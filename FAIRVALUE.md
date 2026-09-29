@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Mon Sep 28, 7:49 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Mon Sep 28, 7:59 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Gold & Silver version](METALS.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 752 | 746 | 381 (51%) | 45¢ | 53% | $336.61 | +10% | +7.3¢ |
+| 755 | 746 | 381 (51%) | 45¢ | 53% | $336.61 | +10% | +7.3¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -126,6 +126,9 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/28 7:52:58 PM | SOL | DOWN | 7.0 min | 24¢ | 35% | 10¢ | Open | — |
+| 9/28 7:51:51 PM | NEAR | UP | 8.1 min | 30¢ | 37% | 6¢ | Open | — |
+| 9/28 7:50:31 PM | DOGE | DOWN | 9.5 min | 41¢ | 51% | 9¢ | Open | — |
 | 9/28 7:48:40 PM | XRP | DOWN | 11.3 min | 35¢ | 41% | 5¢ | Open | — |
 | 9/28 7:48:08 PM | HYPE | DOWN | 11.9 min | 20¢ | 29% | 8¢ | Open | — |
 | 9/28 7:47:35 PM | ETH | DOWN | 12.4 min | 35¢ | 42% | 6¢ | Open | — |
@@ -148,9 +151,6 @@
 | 9/28 7:17:53 PM | XRP | DOWN | 12.1 min | 72¢ | 78% | 5¢ | ✅ Won | $2.62 |
 | 9/28 7:17:22 PM | BTC | DOWN | 12.6 min | 67¢ | 75% | 7¢ | ✅ Won | $3.14 |
 | 9/28 7:17:07 PM | SOL | DOWN | 12.9 min | 73¢ | 79% | 4¢ | ✅ Won | $2.56 |
-| 9/28 7:17:07 PM | ETH | DOWN | 12.9 min | 72¢ | 79% | 6¢ | ✅ Won | $2.65 |
-| 9/28 7:16:36 PM | BNB | DOWN | 13.4 min | 52¢ | 62% | 8¢ | ✅ Won | $4.62 |
-| 9/28 7:02:34 PM | NEAR | DOWN | 12.4 min | 17¢ | 32% | 14¢ | ✅ Won | $8.20 |
 
 ## How the model works
 
