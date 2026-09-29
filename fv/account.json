@@ -1,14 +1,7 @@
 {
- "cash": 415.9573,
+ "cash": 430.3053,
  "peak": 525.36,
- "positions": {
-  "KXDOGE15M-26SEP291715-15": {
-   "side": "yes",
-   "contracts": 16,
-   "cost": 8.5392,
-   "window": "26SEP291715"
-  }
- },
+ "positions": {},
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -347,6 +340,10 @@
   [
    "2026-09-29T21:00:37+00:00",
    424.5
+  ],
+  [
+   "2026-09-29T21:12:59+00:00",
+   430.31
   ]
  ],
  "settings": {
