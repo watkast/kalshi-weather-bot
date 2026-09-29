@@ -1,7 +1,20 @@
 {
- "cash": 462.0406,
+ "cash": 443.7106,
  "peak": 525.36,
- "positions": {},
+ "positions": {
+  "KXZEC15M-26SEP290900-00": {
+   "side": "no",
+   "contracts": 31,
+   "cost": 9.12,
+   "window": "26SEP290900"
+  },
+  "KXDOGE15M-26SEP290900-00": {
+   "side": "yes",
+   "contracts": 35,
+   "cost": 9.21,
+   "window": "26SEP290900"
+  }
+ },
  "halted": false,
  "halt_reason": "",
  "history": [
