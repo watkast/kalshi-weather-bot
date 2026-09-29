@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Tue Sep 29, 2:49 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 2:59 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Gold & Silver version](METALS.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 1337 | 1329 | 623 (47%) | 44¢ | 53% | $128.82 | +2% | +4.7¢ |
+| 1338 | 1329 | 623 (47%) | 44¢ | 53% | $128.82 | +2% | +4.7¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -138,6 +138,7 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/29 2:52:53 PM | BTC | UP | 7.1 min | 57¢ | 64% | 5¢ | Open | — |
 | 9/29 2:48:35 PM | NEAR | DOWN | 11.4 min | 31¢ | 42% | 10¢ | Open | — |
 | 9/29 2:48:23 PM | ZEC | DOWN | 11.6 min | 38¢ | 47% | 7¢ | Open | — |
 | 9/29 2:48:18 PM | DOGE | UP | 11.7 min | 26¢ | 35% | 8¢ | Open | — |
@@ -162,7 +163,6 @@
 | 9/29 2:17:10 PM | XRP | DOWN | 12.8 min | 25¢ | 31% | 5¢ | ❌ Lost | -$2.64 |
 | 9/29 2:16:40 PM | DOGE | DOWN | 13.3 min | 24¢ | 30% | 5¢ | ❌ Lost | -$2.53 |
 | 9/29 2:16:22 PM | ZEC | DOWN | 13.6 min | 33¢ | 40% | 5¢ | ❌ Lost | -$3.46 |
-| 9/29 2:16:08 PM | BNB | DOWN | 13.8 min | 41¢ | 68% | 25¢ | ❌ Lost | -$4.25 |
 
 ## How the model works
 
