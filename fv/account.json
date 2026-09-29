@@ -1,13 +1,24 @@
 {
- "cash": 512.82,
- "peak": 512.82,
- "positions": {},
+ "cash": 515.61,
+ "peak": 525.36,
+ "positions": {
+  "KXZEC15M-26SEP282330-30": {
+   "side": "no",
+   "contracts": 32,
+   "cost": 9.75,
+   "window": "26SEP282330"
+  }
+ },
  "halted": false,
  "halt_reason": "",
  "history": [
   [
    "2026-09-29T03:10:42+00:00",
    512.82
+  ],
+  [
+   "2026-09-29T03:20:34+00:00",
+   525.36
   ]
  ],
  "settings": {
