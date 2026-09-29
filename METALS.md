@@ -1,6 +1,6 @@
 # Gold & Silver Fair-Value Bot
 
-*Updated Tue Sep 29, 5:43 AM MT. Paper money. Kalshi's 15-minute gold and silver up/down markets: every 2 seconds the bot works out the fair chance of UP from how far the metal has moved since the window started (live Hyperliquid prices), time left and recent volatility, then buys whichever side's real order-book price is at least 4¢ below fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 5:53 AM MT. Paper money. Kalshi's 15-minute gold and silver up/down markets: every 2 seconds the bot works out the fair chance of UP from how far the metal has moved since the window started (live Hyperliquid prices), time left and recent volatility, then buys whichever side's real order-book price is at least 4¢ below fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Crypto Fair-Value Bot](FAIRVALUE.md)
 
@@ -12,11 +12,11 @@
 
 | | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return |
 |---|---|---|---|---|---|---|---|
-| **All** | 66 | 64 | 24 (38%) | 40¢ | 48% | -$28.74 | -11% |
-| Silver | 33 | 32 | 10 (31%) | 35¢ | 43% | -$17.79 | -15% |
-| Gold | 33 | 32 | 14 (44%) | 45¢ | 54% | -$10.95 | -7% |
+| **All** | 68 | 66 | 24 (36%) | 40¢ | 48% | -$35.04 | -13% |
+| Silver | 34 | 33 | 10 (30%) | 35¢ | 43% | -$21.35 | -18% |
+| Gold | 34 | 33 | 14 (42%) | 45¢ | 53% | -$13.69 | -9% |
 
-*Earlier half -$0.51 / later half -$28.23.*
+*Earlier half -$6.49 / later half -$28.55.*
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid.*
 
@@ -26,8 +26,8 @@
 
 | Buy when edge is | Trades | Won | P&L | Return |
 |---|---|---|---|---|
-| 2¢+ | 65 | 21 (32%) | -$69.88 | -25% |
-| 4¢+ ← live bot | 62 | 21 (34%) | -$29.31 | -12% |
+| 2¢+ | 67 | 21 (31%) | -$76.18 | -27% |
+| 4¢+ ← live bot | 64 | 22 (34%) | -$24.58 | -10% |
 | 6¢+ | 57 | 23 (40%) | $30.56 | +15% |
 | 8¢+ | 50 | 19 (38%) | $29.35 | +18% |
 | 10¢+ | 41 | 13 (32%) | $9.34 | +8% |
@@ -37,8 +37,8 @@
 
 | Model | Readings scored | Accuracy vs Kalshi |
 |---|---|---|
-| Move since window start (live bot) | 1605 | -1.4% |
-| Hyperliquid price vs Kalshi's target | 1605 | +7.1% |
+| Move since window start (live bot) | 1655 | -1.1% |
+| Hyperliquid price vs Kalshi's target | 1655 | +4.9% |
 
 *Log-loss skill, excluding the final minute. Positive = the model predicted outcomes better than Kalshi's price.*
 
@@ -46,8 +46,10 @@
 
 | When (MT) | Metal | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
-| 9/29 5:32:02 AM | Gold | UP | 12.9 min | 26¢ | 32% | 4¢ | Open | — |
-| 9/29 5:31:28 AM | Silver | UP | 13.5 min | 34¢ | 42% | 6¢ | Open | — |
+| 9/29 5:48:47 AM | Gold | DOWN | 11.2 min | 61¢ | 67% | 4¢ | Open | — |
+| 9/29 5:47:19 AM | Silver | UP | 12.7 min | 39¢ | 46% | 5¢ | Open | — |
+| 9/29 5:32:02 AM | Gold | UP | 12.9 min | 26¢ | 32% | 4¢ | ❌ Lost | -$2.74 |
+| 9/29 5:31:28 AM | Silver | UP | 13.5 min | 34¢ | 42% | 6¢ | ❌ Lost | -$3.56 |
 | 9/29 5:20:37 AM | Silver | DOWN | 9.4 min | 33¢ | 42% | 7¢ | ❌ Lost | -$3.46 |
 | 9/29 5:19:24 AM | Gold | UP | 10.6 min | 56¢ | 63% | 5¢ | ✅ Won | $4.22 |
 | 9/29 5:03:59 AM | Silver | DOWN | 11.0 min | 46¢ | 53% | 5¢ | ❌ Lost | -$4.78 |
@@ -56,5 +58,3 @@
 | 9/29 4:46:03 AM | Gold | UP | 13.9 min | 53¢ | 60% | 5¢ | ✅ Won | $4.52 |
 | 9/29 4:33:10 AM | Silver | UP | 11.8 min | 36¢ | 43% | 5¢ | ✅ Won | $6.23 |
 | 9/29 4:31:21 AM | Gold | UP | 13.7 min | 46¢ | 57% | 9¢ | ✅ Won | $5.22 |
-| 9/29 4:18:16 AM | Silver | UP | 11.7 min | 30¢ | 36% | 4¢ | ❌ Lost | -$3.15 |
-| 9/29 4:17:30 AM | Gold | DOWN | 12.5 min | 51¢ | 60% | 7¢ | ❌ Lost | -$5.28 |
