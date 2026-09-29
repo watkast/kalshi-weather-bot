@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Tue Sep 29, 12:49 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Tue Sep 29, 3:56 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -15,8 +15,8 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 36 | 0 | — | — | — | 36 | Too early |
-| **Rain** | 14 | 0 | — | — | — | 14 | Too early |
-| **Longshot fade** | 873 | 450 | 92% | -$132.16 | -3.1% | 423 | Losing |
+| **Rain** | 15 | 0 | — | — | — | 15 | Too early |
+| **Longshot fade** | 913 | 488 | 91% | -$169.21 | -3.7% | 425 | Losing |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -24,13 +24,13 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 396 | 162 | 94% | $1.40 | +0.1% |
-| NFL | 211 | 199 | 89% | -$110.62 | -5.9% |
-| Weather | 78 | 9 | 100% | $4.50 | +5.3% |
-| College football | 66 | 0 | — | — | — |
-| MLB | 57 | 48 | 94% | -$4.39 | -1.0% |
+| Other | 424 | 190 | 93% | -$31.68 | -1.8% |
+| NFL | 211 | 209 | 89% | -$114.59 | -5.8% |
+| Weather | 85 | 9 | 100% | $4.50 | +5.3% |
+| College football | 67 | 0 | — | — | — |
+| MLB | 60 | 48 | 94% | -$4.39 | -1.0% |
 | Crypto | 38 | 12 | 100% | $6.03 | +5.3% |
-| Soccer | 25 | 18 | 78% | -$30.15 | -17.7% |
+| Soccer | 26 | 18 | 78% | -$30.15 | -17.7% |
 | NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 
 ## Latest temperature bets
@@ -52,6 +52,7 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-09-30 | OKC | YES | 85¢ | 97% | Open | — |
 | 2026-09-29 | LV | YES | 38¢ | 56% | Open | — |
 | 2026-09-29 | DEN | YES | 44¢ | 65% | Open | — |
 | 2026-09-29 | OKC | YES | 17¢ | 41% | Open | — |
@@ -61,7 +62,6 @@
 | 2026-09-29 | HOU | YES | 25¢ | 40% | Open | — |
 | 2026-09-29 | BOS | YES | 38¢ | 70% | Open | — |
 | 2026-09-28 | SEA | NO | 82¢ | 96% | Open | — |
-| 2026-09-28 | PHX | NO | 13¢ | 24% | Open | — |
 
 ## The bots
 
