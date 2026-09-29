@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 8:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 8:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **36 buys a day**, roughly **$5.44/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **36 buys a day**, roughly **$5.42/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 866 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 870 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 797 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 799 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,12 +89,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 362 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 363 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 80 | 0 | 11% | 8% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 64 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | ITF Men's Match | ✘ | 63 | 0 | 6% | 3% | -100% | -89% | 5 min |
 | Counter-Strike 2 Game | ✘ | 48 | 0 | 4% | 2% | -100% | -93% | 11 min |
-| TT Star Series Match | ✘ | 30 | 1 | 3% | 3% | +211% | -94% | 4 min |
+| TT Star Series Match | ✘ | 31 | 1 | 3% | 3% | +201% | -94% | 5 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
@@ -157,9 +157,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 14:42 | Challenger ATP  | Matias Soto | ✘ | — | — | In play | — |
+| 09-29 14:42 | TT Elite Series Match | Pawel Polok | ✘ | — | — | In play | — |
+| 09-29 14:41 | ITF Women's Match | Alize Lim | ✘ | — | — | In play | — |
+| 09-29 14:40 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
 | 09-29 14:33 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 09-29 14:30 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
-| 09-29 14:30 | TT Star Series Match | Reitšpies David | ✘ | — | — | In play | — |
+| 09-29 14:30 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 14:30 | TT Star Series Match | Reitšpies David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 14:28 | TT Elite Series Match | Piotr Chodorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 14:27 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 14:25 | ITF Women's Match | Anastasia Bertacchi | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -183,10 +187,6 @@
 | 09-29 13:56 | ITF Women's Match | Linda Sevcikova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 09-29 13:55 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 13:51 | Men's T20 Cricket Match | Haridwar Spring Elmas | ✘ | — | — | In play | — |
-| 09-29 13:49 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:48 | TT Elite Series Match | Pawel Polok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:45 | ITF Women's Match | Amelie Brooks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 13:45 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
