@@ -1,14 +1,7 @@
 {
- "cash": 480.1906,
+ "cash": 505.7306,
  "peak": 525.36,
- "positions": {
-  "KXHYPE15M-26SEP290245-45": {
-   "side": "no",
-   "contracts": 30,
-   "cost": 9.75,
-   "window": "26SEP290245"
-  }
- },
+ "positions": {},
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -83,6 +76,10 @@
   [
    "2026-09-29T06:30:38+00:00",
    489.94
+  ],
+  [
+   "2026-09-29T06:38:58+00:00",
+   505.73
   ]
  ],
  "settings": {
