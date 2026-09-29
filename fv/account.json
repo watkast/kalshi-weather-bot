@@ -1,7 +1,14 @@
 {
- "cash": 459.4706,
+ "cash": 450.3706,
  "peak": 525.36,
- "positions": {},
+ "positions": {
+  "KXETH15M-26SEP290815-15": {
+   "side": "yes",
+   "contracts": 28,
+   "cost": 9.1,
+   "window": "26SEP290815"
+  }
+ },
  "halted": false,
  "halt_reason": "",
  "history": [
