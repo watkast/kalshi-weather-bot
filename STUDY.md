@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 6:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 6:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 51 finished bets | 4% | -$5.03 | -66% | -9.86¢ | -$3.75 / -$1.28 |
 
-*Expect about **48 buys a day**, roughly **$7.24/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **48 buys a day**, roughly **$7.19/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 492 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
+| 496 | 51 | 0 (0%) | 1.1% | -$7.65 (-100%) | Sell at 10¢: -$5.03 (-66%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -61,7 +61,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 51 | 20% | 10% | 8% | 4% | 0% | 0% |
-| Unverified | 431 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 439 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -83,13 +83,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 194 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 197 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 4 min |
-| Counter-Strike 2 Game | ✘ | 35 | 0 | 6% | 3% | -100% | -90% | 12 min |
-| ITF Women's Match | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 4 min |
+| Counter-Strike 2 Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 12 min |
+| ITF Women's Match | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | ITF Men's Match | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 4 min |
-| League of Legends Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
+| League of Legends Game | ✘ | 19 | 0 | 16% | 5% | -100% | -73% | 11 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
 | CONCACAF Nations League Game | ✔ | 14 | 0 | 29% | 14% | -100% | -50% | 21 min |
 | Men's T20 Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -104,6 +104,7 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ATP Tennis Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
+| APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Uruguay Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -118,7 +119,6 @@
 | Valorant game winner | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 26 min |
-| APF Division de Honor Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | ELH Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -1 min |
 
 ## By time left when it hit 1¢
@@ -147,14 +147,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 00:13 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | — | In play | — |
-| 09-29 00:12 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
-| 09-29 00:12 | TT Elite Series Match | Michał Machelski | ✘ | — | — | In play | — |
-| 09-29 00:11 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
-| 09-29 00:08 | ITF Women's Match | Sofia Elena Cabezas Dominguez | ✘ | — | — | In play | — |
+| 09-29 00:24 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | — | In play | — |
+| 09-29 00:24 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 09-29 00:18 | Uruguay Primera Division Game | Albion | ✘ | — | — | In play | — |
+| 09-29 00:18 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
+| 09-29 00:13 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:12 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:12 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:11 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 00:08 | ITF Women's Match | Sofia Elena Cabezas Dominguez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:02 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 23:58 | APF Division de Honor Game | Libertad | ✘ | — | — | In play | — |
-| 09-28 23:56 | Counter-Strike 2 Game | MIBR fe | ✘ | — | — | In play | — |
+| 09-28 23:58 | APF Division de Honor Game | Libertad | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-28 23:56 | Counter-Strike 2 Game | MIBR fe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:50 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 23:42 | TT Elite Series Match | Jacek Mitas | ✘ | — | — | In play | — |
 | 09-28 23:40 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -173,10 +177,6 @@
 | 09-28 22:53 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-28 22:53 | ITF Women's Match | Katherine Hui | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-28 22:53 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:52 | ITF Women's Match | Jenna DeFalco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:38 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:34 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-28 22:33 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
