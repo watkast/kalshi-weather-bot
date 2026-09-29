@@ -13,7 +13,7 @@ DIR = os.path.join(HERE, "fv")
 CHARTS = os.path.join(DIR, "charts")
 MT = ZoneInfo("America/Denver")
 CONTRACTS = 10
-LIVE_EDGE = 0.04
+LIVE_EDGE = 0.08
 THRESHOLDS = [0.02, 0.04, 0.06, 0.08, 0.10, 0.15]
 MIN_TRADES = 30
 
@@ -337,6 +337,19 @@ def main():
                "*If the model is right, the win rate should land near the model's average chance, above the "
                "average price paid. \"Price move 3 min after buying\" shows whether the market moved toward the "
                "model's number soon after we bought — an early sign of real skill.*", ""]
+        dyn = [t for t in settled if t.get("dyn_pnl")]
+        if dyn:
+            hold = sum(float(t["pnl"]) for t in dyn)
+            act = sum(float(t["dyn_pnl"]) for t in dyn)
+            sold = [t for t in dyn if t.get("dyn_exit_price")]
+            tp = sum(1 for t in sold if t.get("dyn_exit_why") == "take profit")
+            md += ["## Active management vs holding", "",
+                   table(["Bets", "Sold early", "Take profit / cut loss", "Hold-to-close P&L", "Active P&L",
+                          "Difference"],
+                         [[len(dyn), len(sold), f"{tp} / {len(sold) - tp}", money(hold), money(act),
+                           money(act - hold)]]), "",
+                   "*Same bets, two ways: held to the close, or re-priced every 2 seconds and sold whenever the "
+                   "bid (after fee) beat the model's value by 3¢+.*", ""]
 
     # ---------------- versions head to head
     books = {"V1": settled,
@@ -347,7 +360,7 @@ def main():
              "V6": load(os.path.join(DIR, "trades_v6.csv")),
              "V7": load(os.path.join(DIR, "trades_v7.csv")),
              "V8": load(os.path.join(DIR, "trades_v8.csv"))}
-    desc = {"V1": "Original (Coinbase price, 4¢ edge, no limit per window)",
+    desc = {"V1": "Original (Coinbase price, 8¢ edge since Sep 29, was 4¢; no limit per window)",
             "V2": "Trend-aware, wider swings, 50/50 with Kalshi's price",
             "V3": "5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window",
             "V4": "Limit orders 2¢ under the ask, 3-exchange price, max 2 per window",

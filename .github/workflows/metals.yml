@@ -1,12 +1,8 @@
 name: metals-fair-value-bot
 
 on:
-  schedule:
-    - cron: "41 */2 * * *"   # keeps a run queued so watch windows follow back-to-back
+  # Retired Sep 29 (-$64 on 117 trades). Run by hand from the Actions tab to restart.
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["metals_bot.py", "metals_dashboard.py", ".github/workflows/metals.yml"]
 
 permissions:
   contents: write

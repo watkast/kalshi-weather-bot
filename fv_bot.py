@@ -74,7 +74,16 @@ KRAKEN = {"BTC": ("XBTUSD", "XXBTZUSD"), "ETH": ("ETHUSD", "XETHZUSD"), "SOL": (
           "XRP": ("XRPUSD", "XXRPZUSD"), "DOGE": ("XDGUSD", "XDGUSD")}
 
 CONTRACTS = 10
-EDGE = 0.04               # model chance must beat ask + fee by 4 cents
+EDGE = 0.04               # model chance must beat ask + fee by 4 cents (V2/V4)
+LIVE_EDGE = 0.08          # V1 live bot: raised from 4c to 8c on Sep 29 (8c+ was the best replayed threshold)
+
+# Active management (added Sep 29): every 2 seconds while a V1 bet is open, re-price it.
+# Holding is worth the model's chance of winning; selling is worth the bid minus the fee.
+# If selling beats holding by DYN_BUFFER, the bot sells (locks in a winner or cuts a loser).
+# Logged alongside the hold-to-close result so the two can be compared on the same bets.
+DYN_BUFFER = 0.03
+DYN_MIN_SECS = 20         # don't bother in the last 20 seconds (thin books, settlement averaging)
+DYN_START = "2026-09-29T21:00"   # bets before this weren't actively managed
 MIN_PRICE, MAX_PRICE = 0.05, 0.95
 MIN_SECS, MAX_SECS = 30, 840
 BASIS_SD = 0.00015        # Coinbase vs Kalshi's CF Benchmarks index (log units)
@@ -90,7 +99,8 @@ CANDLES = "https://api.exchange.coinbase.com/products/{}-USD/candles"
 TRADE_FIELDS = ["time", "ticker", "asset", "side", "secs_left", "spot", "strike", "gap_pct",
                 "sigma_pct", "model_p", "price", "fee", "edge", "contracts", "status", "result",
                 "pnl", "mid_at_60s", "clv", "depth_at_ask", "quoted", "window", "sources",
-                "placed_at", "filled_at", "trend_aligned", "exit_price", "exit_at"]
+                "placed_at", "filled_at", "trend_aligned", "exit_price", "exit_at",
+                "dyn_exit_price", "dyn_exit_at", "dyn_exit_why", "dyn_model_at_exit", "dyn_pnl"]
 OBS_FIELDS = ["time", "ticker", "asset", "secs_left", "spot", "strike", "sigma_pct",
               "model_up", "yes_bid", "yes_ask"]
 RESULT_FIELDS = ["ticker", "result", "close_time"]
@@ -415,6 +425,26 @@ class FairValue:
                 elif (now - parse_ts(t["placed_at"])).total_seconds() > V4_ORDER_SECONDS or secs_left < 60:
                     t.update(status="unfilled", pnl="0.00")
 
+            # Active management of V1 bets: sell whenever the bid (after fee) beats the model's value.
+            for t in self.trades:
+                if t["ticker"] != ticker or t["status"] != "open" or t.get("dyn_exit_price") \
+                        or secs_left < DYN_MIN_SECS:
+                    continue
+                bid_now, _ = side_quote(m, t["side"])
+                if not bid_now:
+                    continue
+                n = int(t["contracts"])
+                hold_value = p_up if t["side"] == "yes" else 1 - p_up
+                sell_value = bid_now - fee_per_contract(bid_now, n)
+                if sell_value - hold_value >= DYN_BUFFER:
+                    cost = n * (float(t["price"]) + float(t["fee"]))
+                    pnl = n * sell_value - cost
+                    t.update(dyn_exit_price=f"{bid_now:.2f}", dyn_exit_at=iso(now),
+                             dyn_exit_why="take profit" if pnl > 0 else "cut loss",
+                             dyn_model_at_exit=f"{hold_value:.4f}", dyn_pnl=f"{pnl:.2f}")
+                    print(f"ACTIVE SELL {ticker} {t['side']} @ {bid_now:.2f} (model {hold_value:.0%}) "
+                          f"{t['dyn_exit_why']} {pnl:+.2f}")
+
             for t in self.trades_v5 + self.trades_v7:
                 if t["ticker"] == ticker and t["status"] == "open":
                     bid_now, _ = side_quote(m, t["side"])
@@ -450,7 +480,8 @@ class FairValue:
                     if ask is None or not (MIN_PRICE <= ask <= MAX_PRICE):
                         continue
                     fee = fee_per_contract(ask, CONTRACTS)
-                    if p - ask - fee < EDGE:
+                    min_edge = LIVE_EDGE if tag == "V1" else EDGE
+                    if p - ask - fee < min_edge:
                         continue
                     # Re-price against the live order book before buying.
                     fill = book_fill(ticker, side, CONTRACTS)
@@ -459,7 +490,7 @@ class FairValue:
                     quoted, ask = ask, fill[0]
                     fee = fee_per_contract(ask, CONTRACTS)
                     edge = p - ask - fee
-                    if edge < EDGE:
+                    if edge < min_edge:
                         continue
                     self.signals += 1
                     depth = fill[2]
@@ -612,6 +643,8 @@ class FairValue:
                 cost = n * (float(t["price"]) + float(t["fee"]))
                 payout = n if r["result"] == t["side"] else 0
                 t.update(status="settled", result=r["result"], pnl=f"{payout - cost:.2f}")
+                if any(t is x for x in self.trades) and t.get("time", "") >= DYN_START and not t.get("dyn_pnl"):
+                    t["dyn_pnl"] = t["pnl"]   # never sold early: active result = hold result
                 if any(t is x for x in self.trades_v7):
                     self.acct.close(t["ticker"], payout, "SETTLE", f"result {r['result']}")
 

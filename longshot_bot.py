@@ -22,6 +22,7 @@ MAX_DAYS_TO_CLOSE = 7   # results within a week
 MAX_NEW_PER_RUN = 40
 MAX_PER_EVENT = 3       # spread bets across different events
 CONTRACTS = 10
+NEW_TRADES = False      # retired Sep 29 (-$180 on 581 settled bets); still settles the open ones
 
 FIELDS = ["logged_at", "ticker", "series", "close_time", "side", "price", "fee",
           "contracts", "yes_bid", "yes_ask", "volume", "status", "result", "pnl"]
@@ -75,7 +76,7 @@ def open_new_trades(rows):
 def main():
     rows = load_rows(TRADES_FILE)
     settled = settle_by_ticker(rows)
-    added = open_new_trades(rows)
+    added = open_new_trades(rows) if NEW_TRADES else 0
     save_rows(TRADES_FILE, rows, FIELDS)
     print(f"New: {added} | Newly settled: {settled}")
     print(summary("Longshot fade", rows))
