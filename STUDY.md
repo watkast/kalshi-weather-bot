@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 6:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 6:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
+| ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **39 buys a day**, roughly **$5.82/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **39 buys a day**, roughly **$5.79/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 58 | -$6.10 | -70% |
-| ESPN-verified leagues only, sell at 5¢ | 58 | -$6.10 | -70% |
-| ESPN-verified leagues only, sell at 3¢ | 58 | -$6.75 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 60 | -$6.40 | -71% |
+| ESPN-verified leagues only, sell at 5¢ | 60 | -$6.40 | -71% |
+| ESPN-verified leagues only, sell at 3¢ | 60 | -$7.05 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 765 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 776 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 694 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
+| Unverified | 704 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$8.70 | -100% |
-| Sell at 2¢ | 10 | 17% | -$6.10 | -70% |
-| Sell at 3¢ | 5 | 9% | -$6.75 | -78% |
-| Sell at 5¢ | 4 | 7% | -$6.10 | -70% |
-| Sell at 10¢ | 2 | 3% | -$6.08 | -70% |
-| Sell at 25¢ | 0 | 0% | -$8.70 | -100% |
-| Sell at 50¢ | 0 | 0% | -$8.70 | -100% |
+| Hold to the end | 0 | 0% | -$9.00 | -100% |
+| Sell at 2¢ | 10 | 17% | -$6.40 | -71% |
+| Sell at 3¢ | 5 | 8% | -$7.05 | -78% |
+| Sell at 5¢ | 4 | 7% | -$6.40 | -71% |
+| Sell at 10¢ | 2 | 3% | -$6.38 | -71% |
+| Sell at 25¢ | 0 | 0% | -$9.00 | -100% |
+| Sell at 50¢ | 0 | 0% | -$9.00 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,23 +89,24 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 330 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 334 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 62 | 0 | 10% | 8% | -100% | -83% | 4 min |
-| Challenger ATP  | ✘ | 56 | 0 | 9% | 0% | -100% | -85% | 5 min |
-| ITF Men's Match | ✘ | 47 | 0 | 4% | 2% | -100% | -93% | 5 min |
+| Challenger ATP  | ✘ | 58 | 0 | 9% | 0% | -100% | -85% | 5 min |
+| ITF Men's Match | ✘ | 50 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | Counter-Strike 2 Game | ✘ | 43 | 0 | 5% | 2% | -100% | -92% | 11 min |
 | TT Star Series Match | ✘ | 29 | 1 | 3% | 3% | +222% | -94% | 4 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
 | Men's T20 Cricket Match | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
+| Challenger WTA | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 8 min |
 | ATP Tennis Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Challenger WTA | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | AFCON Game Winner | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 25 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
+| International Friendly Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | KHL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | R6 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
@@ -113,7 +114,6 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie B Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Dota 2 Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
-| International Friendly Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Japan NPB Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -133,8 +133,8 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 20 | 5% | 0% | 0% | -91% |
-| 5–15 min | 14 | 29% | 7% | 0% | -50% |
-| 15–30 min | 9 | 22% | 22% | 0% | -61% |
+| 5–15 min | 15 | 27% | 7% | 0% | -54% |
+| 15–30 min | 10 | 20% | 20% | 0% | -65% |
 | 30–60 min | 9 | 33% | 11% | 0% | -42% |
 | Over 60 min | 6 | 0% | 0% | 0% | -100% |
 
@@ -154,18 +154,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 12:09 | ITF Men's Match | Ethan Cook | ✘ | — | — | In play | — |
+| 09-29 12:09 | Challenger ATP  | Billy Harris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 12:09 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 12:08 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 12:07 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 12:06 | ITF Men's Match | Sven Corbinais | ✘ | — | — | In play | — |
+| 09-29 12:05 | Women's ODI Cricket Match | Tasmanian Tigers | ✘ | — | — | In play | — |
+| 09-29 12:04 | Challenger WTA | Anastasia Tikhonova | ✘ | — | — | In play | — |
+| 09-29 12:04 | ITF Women's Match | Jian Ibrahim | ✘ | — | — | In play | — |
+| 09-29 12:04 | Valorant game winner | G2 Esports | ✘ | — | — | In play | — |
+| 09-29 12:02 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 12:00 | KBO Game | LG Twins | ✘ | — | — | In play | — |
-| 09-29 11:59 | ITF Men's Match | Alexey Dubinin | ✘ | — | — | In play | — |
-| 09-29 11:59 | ITF Men's Match | Noah Schachter | ✘ | — | — | In play | — |
+| 09-29 11:59 | ITF Men's Match | Alexey Dubinin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:59 | ITF Men's Match | Noah Schachter | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 11:59 | Japan NPB Game | Tohoku Rakuten Golden Eagles | ✘ | — | — | In play | — |
 | 09-29 11:59 | Dota 2 Game | Level UP | ✘ | — | — | In play | — |
 | 09-29 11:59 | TT Star Series Match | Saha Sourav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:57 | Challenger ATP  | Pyotr Nesterov | ✘ | — | — | In play | — |
-| 09-29 11:56 | International Friendly Game | Tie | ✔ | 84' · BRA 4 - AUS 2 | — | In play | — |
-| 09-29 11:52 | ITF Men's Match | Andrea Bacaloni | ✘ | — | — | In play | — |
+| 09-29 11:57 | Challenger ATP  | Pyotr Nesterov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:56 | International Friendly Game | Tie | ✔ | 84' · BRA 4 - AUS 2 | 1¢ | ❌ Lost | -$0.15 |
+| 09-29 11:52 | ITF Men's Match | Andrea Bacaloni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:51 | TT Elite Series Match | Artur Sobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:51 | International Friendly Game | Australia | ✔ | 78' · BRA 3 - AUS 2 | — | In play | — |
-| 09-29 11:50 | Challenger WTA | Lucia Bronzetti | ✘ | — | — | In play | — |
+| 09-29 11:51 | International Friendly Game | Australia | ✔ | 78' · BRA 3 - AUS 2 | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 11:50 | Challenger WTA | Lucia Bronzetti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:48 | ITF Men's Match | Lenny Petit | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 11:47 | ITF Men's Match | Nika Bidzinashvili | ✘ | — | — | In play | — |
 | 09-29 11:45 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -173,17 +184,6 @@
 | 09-29 11:44 | ITF Women's Match | Greta Fenyves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:44 | ITF Men's Match | Dmitry Bessonov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 11:43 | ITF Men's Match | David Tixhon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:42 | Counter-Strike 2 Game | STATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:41 | ITF Men's Match | Lawrence Bataljin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:41 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:41 | Challenger ATP  | Filippo Romano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:39 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:39 | ITF Women's Match | Fanny Pire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:38 | TT Elite Series Match | Felkel Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:38 | TT Star Series Match | Onderka František | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:36 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:33 | Challenger ATP  | Jesper De Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 11:32 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
