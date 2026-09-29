@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Sep 29, 3:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Sep 29, 3:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 59 finished bets | 3% | $19.15 | +216% | +32.46¢ | $23.65 / -$4.50 |
 
-*Expect about **46 buys a day** (~$6.88/day at risk); max loss per buy **15¢**.*
+*Expect about **46 buys a day** (~$6.85/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1758 | 1752 | 8 (0%) | 1.07% | -$98.60 (-47%) | Hold to the close: -$98.60 (-47%) |
+| 1760 | 1752 | 8 (0%) | 1.07% | -$98.60 (-47%) | Hold to the close: -$98.60 (-47%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/29 3:40:32 AM | DOGE | DOWN | 4.5 min | +0.314% | — | In play | — |
+| 9/29 3:40:32 AM | NEAR | DOWN | 4.5 min | +0.567% | — | In play | — |
 | 9/29 3:29:57 AM | SILVER | UP | 2 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 9/29 3:29:57 AM | GOLD | DOWN | 2 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 9/29 3:29:41 AM | ETH | DOWN | 18 sec | +0.008% | 0¢ | ❌ Lost | $0.00 |
@@ -208,8 +210,6 @@
 | 9/29 2:59:36 AM | SOL | DOWN | 23 sec | +0.037% | 0¢ | ❌ Lost | $0.00 |
 | 9/29 2:59:36 AM | XRP | DOWN | 23 sec | +0.087% | 0¢ | ❌ Lost | $0.00 |
 | 9/29 2:59:20 AM | WTI | UP | 39 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 9/29 2:59:20 AM | HYPE | UP | 39 sec | -0.107% | 0¢ | ❌ Lost | $0.00 |
-| 9/29 2:59:04 AM | BNB | UP | 56 sec | -0.086% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
