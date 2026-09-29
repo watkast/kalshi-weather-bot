@@ -1,7 +1,14 @@
 {
- "cash": 472.2195,
+ "cash": 467.8395,
  "peak": 525.36,
- "positions": {},
+ "positions": {
+  "KXBTC15M-26SEP291330-30": {
+   "side": "yes",
+   "contracts": 19,
+   "cost": 9.08,
+   "window": "26SEP291330"
+  }
+ },
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -260,6 +267,10 @@
   [
    "2026-09-29T17:15:37+00:00",
    472.22
+  ],
+  [
+   "2026-09-29T17:21:48+00:00",
+   476.92
   ]
  ],
  "settings": {
