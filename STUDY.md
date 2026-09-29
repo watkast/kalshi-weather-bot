@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 2:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 3:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 83 finished bets | 13% | -$9.59 | -77% | -11.55¢ | -$4.33 / -$5.26 |
 
-*Expect about **43 buys a day**, roughly **$6.49/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1149 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
+| 1160 | 83 | 0 (0%) | 1.1% | -$12.45 (-100%) | Sell at 2¢: -$9.59 (-77%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 83 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1051 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1071 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,16 +89,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 438 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 96 | 0 | 11% | 7% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 78 | 0 | 8% | 1% | -100% | -87% | 5 min |
-| ITF Men's Match | ✘ | 78 | 0 | 9% | 4% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 66 | 1 | 6% | 5% | +41% | -89% | 10 min |
+| TT Elite Series Match | ✘ | 441 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 98 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 79 | 0 | 9% | 1% | -100% | -85% | 5 min |
+| ITF Men's Match | ✘ | 79 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| Counter-Strike 2 Game | ✘ | 67 | 1 | 6% | 4% | +39% | -90% | 10 min |
+| AFCON Game Winner | ✘ | 41 | 1 | 15% | 5% | +128% | -75% | 10 min |
 | League of Legends Game | ✘ | 38 | 0 | 11% | 3% | -100% | -82% | 11 min |
 | TT Star Series Match | ✘ | 38 | 1 | 3% | 3% | +146% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
-| AFCON Game Winner | ✘ | 33 | 1 | 15% | 6% | +183% | -74% | 14 min |
-| CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
+| CONCACAF Nations League Game | partly | 24 | 0 | 17% | 8% | -100% | -71% | 25 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
@@ -107,6 +107,7 @@
 | R6 Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | International Friendly Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Euroleague Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | National League Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -114,7 +115,6 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Japan NPB Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 67 min |
 | KHL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Euroleague Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | KBO Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 96 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | Uruguay Primera Division Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 15 min |
@@ -156,7 +156,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 32 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 34 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -168,13 +168,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 20:53 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-29 21:05 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | — | In play | — |
+| 09-29 21:01 | ITF Women's Match | Olivia Lincer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 21:00 | ITF Women's Match | Ekaterina Maklakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:59 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:59 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 09-29 20:58 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:58 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:58 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
+| 09-29 20:58 | AFCON Game Winner | Cameroon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:58 | AFCON Game Winner | Congo Republic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:55 | ITF Men's Match | Adhithya Ganesan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:53 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:53 | AFCON Game Winner | Niger | ✘ | — | — | In play | — |
-| 09-29 20:52 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 09-29 20:52 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | — | In play | — |
-| 09-29 20:50 | AFCON Game Winner | Somalia | ✘ | — | — | In play | — |
-| 09-29 20:48 | Challenger ATP  | Duncan Chan | ✘ | — | — | In play | — |
-| 09-29 20:44 | AFCON Game Winner | Liberia | ✘ | — | — | In play | — |
+| 09-29 20:52 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:52 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:50 | AFCON Game Winner | Somalia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 20:48 | Challenger ATP  | Duncan Chan | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 09-29 20:44 | AFCON Game Winner | Liberia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:43 | ITF Men's Match | Eudald Gonzalez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:43 | English National League Game | Forest Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:43 | English National League Game | Wealdstone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -187,17 +198,6 @@
 | 09-29 20:40 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:40 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 20:39 | ITF Men's Match | Segundo Goity Zapico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:39 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:38 | ITF Women's Match | Isabella Marton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:38 | English National League Game | Gateshead | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
-| 09-29 20:37 | English National League Game | Hartlepool | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:37 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:36 | English National League Game | Worthing | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:36 | English National League Game | Yeovil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:36 | UEFA Nations League Game | Bulgaria | ✔ | 90'+3' · EST 0 - BUL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 20:36 | Euroleague Game | Paris Basketball | ✘ | — | — | In play | — |
-| 09-29 20:35 | UEFA Nations League Game | Estonia | ✔ | 90'+3' · EST 0 - BUL 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
