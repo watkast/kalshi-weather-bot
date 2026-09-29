@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 11:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 11:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **46 buys a day**, roughly **$6.93/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **46 buys a day**, roughly **$6.89/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 579 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 582 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 517 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 521 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,13 +89,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 244 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 246 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 40 | 0 | 8% | 0% | -100% | -87% | 5 min |
 | ITF Women's Match | ✘ | 38 | 0 | 11% | 8% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 13 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
+| ITF Men's Match | ✘ | 23 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
-| ITF Men's Match | ✘ | 22 | 0 | 9% | 5% | -100% | -84% | 4 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
 | Men's T20 Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -104,8 +104,8 @@
 | ATP Tennis Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga DIMAYOR Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
+| WTA Tennis Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Challenger WTA | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| WTA Tennis Match | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | KHL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | R6 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
@@ -154,8 +154,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 05:01 | WTA Tennis Match | Valeria Savinykh | ✘ | — | — | In play | — |
-| 09-29 04:56 | ITF Men's Match | Yue Xia | ✘ | — | — | In play | — |
+| 09-29 05:08 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 05:08 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 05:02 | ITF Women's Match | Guyu Xu | ✘ | — | — | In play | — |
+| 09-29 05:01 | WTA Tennis Match | Valeria Savinykh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 04:56 | ITF Men's Match | Yue Xia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:54 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
 | 09-29 04:52 | TT Elite Series Match | Dawid Dytko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:49 | ITF Men's Match | Shaoyun Liu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -181,9 +184,6 @@
 | 09-29 04:06 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:03 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 03:58 | ITF Women's Match | Jiumeng Liu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 03:57 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 03:52 | WTA Tennis Match | Jiayi Wang | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 03:49 | ITF Women's Match | Christina Dodaj | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
