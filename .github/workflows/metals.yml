@@ -1,0 +1,45 @@
+name: metals-fair-value-bot
+
+on:
+  schedule:
+    - cron: "41 */2 * * *"   # keeps a run queued so watch windows follow back-to-back
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["metals_bot.py", "metals_dashboard.py", ".github/workflows/metals.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metals-fair-value-bot
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests matplotlib
+      - name: Set up git
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          # A queued run checks out the code from when it was queued; start from the latest data instead.
+          git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
+      - name: Run the gold & silver bot
+        env:
+          RUN_MINUTES: "330"
+          PYTHONUNBUFFERED: "1"
+        run: python metals_bot.py | tee metals.log
+      - name: Save data
+        if: always()
+        run: |
+          python metals_dashboard.py || true
+          git add metals METALS.md 2>/dev/null || true
+          git diff --cached --quiet || git commit -q -m "Metals bot update"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done

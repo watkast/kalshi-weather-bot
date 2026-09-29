@@ -271,7 +271,7 @@ def main():
           "the bot works out the fair chance of UP from the live Coinbase price, the target price, "
           "time left and recent volatility, then buys whichever side is at least "
           f"{LIVE_EDGE * 100:.0f}¢ cheaper than fair value after fees ({CONTRACTS} contracts, held to the close).*", "",
-          "[← Back to all bots](README.md)", ""]
+          "[← Back to all bots](README.md) · [Gold & Silver version](METALS.md)", ""]
 
     # ---------------- model vs market (shadow log)
     scored = [(o, results[o["ticker"]]) for o in obs if results.get(o["ticker"]) in ("yes", "no")]

@@ -85,6 +85,7 @@ def main():
           "### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle", "",
           "### → [15-Minute 1¢ Study](FIFTEEN.md) — every 1¢ moment in Kalshi's 15-minute up/down markets", "",
           "### → [Fair-Value Bot](FAIRVALUE.md) — buys 15-minute crypto markets when a model says the price is wrong", "",
+          "### → [Gold & Silver Fair-Value Bot](METALS.md) — the same idea on 15-minute gold and silver markets", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:
