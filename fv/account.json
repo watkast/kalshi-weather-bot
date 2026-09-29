@@ -1,11 +1,17 @@
 {
- "cash": 485.6612,
+ "cash": 476.0412,
  "peak": 525.36,
  "positions": {
   "KXHYPE15M-26SEP290315-15": {
    "side": "no",
    "contracts": 32,
    "cost": 9.75,
+   "window": "26SEP290315"
+  },
+  "KXBTC15M-26SEP290315-15": {
+   "side": "yes",
+   "contracts": 22,
+   "cost": 9.62,
    "window": "26SEP290315"
   }
  },
