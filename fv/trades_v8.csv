@@ -1,3 +1,3 @@
 time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,quoted,window,sources,placed_at,filled_at,trend_aligned,exit_price,exit_at
 2026-09-29T03:16:52+00:00,KXBNBD-26SEP2900-T754.99,BNB,no,2587,755.86,754.99,0.1152,0.0565,0.3773,0.2600,0.0140,0.1033,10,open,,,,,800,0.28,26SEP2900,,,,,,
-2026-09-29T03:37:24+00:00,KXETHD-26SEP2900-T2669.99,ETH,yes,1356,2668.22,2669.99,-0.0663,0.0508,0.3904,0.2900,0.0150,0.0854,10,open,,,,,71144,0.30,26SEP2900,,,,,,
+2026-09-29T03:37:24+00:00,KXETHD-26SEP2900-T2669.99,ETH,yes,1356,2668.22,2669.99,-0.0663,0.0508,0.3904,0.2900,0.0150,0.0854,10,settled,no,-3.05,,,71144,0.30,26SEP2900,,,,,,
