@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 11:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 11:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **45 buys a day**, roughly **$6.77/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **45 buys a day**, roughly **$6.74/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 595 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 598 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 532 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 534 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,12 +89,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 254 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 255 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 41 | 0 | 7% | 0% | -100% | -87% | 5 min |
 | ITF Women's Match | ✘ | 39 | 0 | 10% | 8% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 13 min |
+| ITF Men's Match | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 5 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
-| ITF Men's Match | ✘ | 23 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | TT Star Series Match | ✘ | 21 | 1 | 5% | 5% | +344% | -92% | 5 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
@@ -154,12 +154,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 05:51 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
+| 09-29 05:50 | ITF Women's Match | Ziyan Zhang | ✘ | — | — | In play | — |
+| 09-29 05:48 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:40 | ITF Women's Match | I Wen Wan | ✘ | — | — | In play | — |
 | 09-29 05:39 | ITF Women's Match | Natsuho Arakawa | ✘ | — | — | In play | — |
 | 09-29 05:37 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:35 | TT Elite Series Match | Piotr Chodorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:29 | Challenger ATP  | Keisuke Saitoh | ✘ | — | — | In play | — |
-| 09-29 05:28 | ITF Men's Match | LIANGXUAN LIU | ✘ | — | — | In play | — |
+| 09-29 05:28 | ITF Men's Match | LIANGXUAN LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:26 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:25 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:22 | Challenger ATP  | Aleksandar Vukic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -181,9 +184,6 @@
 | 09-29 04:39 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:38 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:36 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:34 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:32 | WTA Tennis Match | Yexin Ma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:29 | ITF Women's Match | Eva Lopez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
