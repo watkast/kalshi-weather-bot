@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Sep 29, 4:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Sep 29, 4:11 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 62 finished bets | 3% | $18.70 | +201% | +30.16¢ | $23.35 / -$4.65 |
 
-*Expect about **47 buys a day** (~$7.12/day at risk); max loss per buy **15¢**.*
+*Expect about **48 buys a day** (~$7.19/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1788 | 1782 | 8 (0%) | 1.07% | -$102.80 (-48%) | Hold to the close: -$102.80 (-48%) |
+| 1790 | 1782 | 8 (0%) | 1.07% | -$102.80 (-48%) | Hold to the close: -$102.80 (-48%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/29 4:11:05 AM | WTI | UP | 3.9 min | — | — | In play | — |
+| 9/29 4:08:41 AM | SILVER | DOWN | 6.3 min | — | — | In play | — |
 | 9/29 3:59:53 AM | PLATINUM | UP | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/29 3:59:21 AM | PALLADIUM | UP | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/29 3:59:21 AM | GBPUSD | UP | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 9/29 3:41:54 AM | WTI | UP | 3.1 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 9/29 3:41:37 AM | BTC | DOWN | 3.4 min | +0.116% | 2¢ | ❌ Lost | -$0.15 |
 | 9/29 3:41:37 AM | SOL | DOWN | 3.4 min | +0.269% | 1¢ | ❌ Lost | -$0.15 |
-| 9/29 3:40:32 AM | DOGE | DOWN | 4.5 min | +0.314% | 1¢ | ❌ Lost | -$0.15 |
-| 9/29 3:40:32 AM | NEAR | DOWN | 4.5 min | +0.567% | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
