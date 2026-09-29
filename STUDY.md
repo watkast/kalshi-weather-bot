@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 3:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 3:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **41 buys a day**, roughly **$6.11/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **41 buys a day**, roughly **$6.08/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 665 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 670 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
-*In play right now: 1. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 606 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 607 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 297 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 298 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 49 | 0 | 12% | 10% | -100% | -79% | 5 min |
 | Challenger ATP  | ✘ | 48 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 12 min |
@@ -154,6 +154,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 09:15 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | — | In play | — |
+| 09-29 09:15 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
+| 09-29 09:13 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | — | In play | — |
+| 09-29 09:10 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 09:06 | ITF Men's Match | Haruto Ishikawa | ✘ | — | — | In play | — |
 | 09-29 08:55 | TT Elite Series Match | Krzysztof Hetnar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:50 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 08:46 | TT Elite Series Match | Artur Sobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -179,11 +184,6 @@
 | 09-29 08:03 | Counter-Strike 2 Game | REFRESHER | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 07:58 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 07:56 | Challenger ATP  | Semen Pankin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:55 | ITF Women's Match | Yuzuha Negishi | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 09-29 07:52 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:48 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:47 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 07:38 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
