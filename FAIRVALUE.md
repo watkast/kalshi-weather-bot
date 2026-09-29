@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Tue Sep 29, 2:04 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 2:15 AM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 4¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Gold & Silver version](METALS.md)
 
@@ -41,8 +41,8 @@
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 492 | 168 (34%) | 231 / 261 | 7.5 | -$55.90 | -$196.76 | -10% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 119 | 38 (32%) | 36 / 83 | 2.0 | -$14.97 | -$92.98 | -20% |
 | **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 75% of orders | 127 | 53 (42%) | 47 / 80 | 2.0 | -$13.69 | -$4.74 | -1% |
-| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 58 | 25 (43%) | 20 / 38 | 1.5 | -$10.05 | -$26.30 | -11% |
-| **V7** | V5 signals through the risk-managed $500 account (2% bets, max 3 open, 25% peak stop) · *since it started* | 27 | 12 (44%) | 9 / 18 | 1.5 | -$19.37 | -$34.42 | -13% |
+| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 59 | 26 (44%) | 20 / 39 | 1.5 | -$10.05 | -$22.77 | -9% |
+| **V7** | V5 signals through the risk-managed $500 account (2% bets, max 3 open, 25% peak stop) · *since it started* | 28 | 13 (46%) | 9 / 19 | 1.5 | -$19.37 | -$28.45 | -10% |
 | **V8** | Trend Sniper on 1-hour markets: 20–45 min left, 25–55¢, 6¢+ edge · *since it started* | 8 | 2 (25%) | 3 / 5 | 1.6 | -$5.79 | -$8.34 | -29% |
 
 *Model accuracy vs Kalshi's prices on the same 13,597 readings (excluding the final minute): V1 **+1.3%**, V2 **+2.1%**, 3-exchange price (V3/V4) **-0.2%**.*
@@ -57,7 +57,7 @@
 
 | Started with | Equity now | Peak | Stop level | Open positions | Bet size |
 |---|---|---|---|---|---|
-| $500.00 | $465.58 | $525.36 | $394.02 | 2 of 3 | 2% of equity |
+| $500.00 | $471.56 | $525.36 | $394.02 | 1 of 3 | 2% of equity |
 
 *Trades V5's signals with the safeguards a real-money bot needs: each bet risks at most 2% of the account, at most 3 positions open, never two bets the same direction in one window, and trading halts after a 25% drop from the peak (or below $350). Every buy and sell is double-checked against the ledger — a "sell" that spends money halts everything. Full log: [fv/account_ledger.csv](fv/account_ledger.csv).*
 
