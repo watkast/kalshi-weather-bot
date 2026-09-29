@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-09-29T19:01:40+00:00",
+ "saved_at": "2026-09-29T19:11:43+00:00",
  "coins": {
   "SILVER": "xyz:SILVER",
   "GOLD": "xyz:GOLD"
@@ -7,22 +7,22 @@
  "feeds": {
   "SILVER": {
    "source": "hyperliquid",
-   "price": 61.3455,
+   "price": 61.341,
    "age_s": 0
   },
   "GOLD": {
    "source": "hyperliquid",
-   "price": 4171.65,
+   "price": 4171.55,
    "age_s": 0
   }
  },
  "markets": 2,
- "trades": 105,
- "open": 0,
+ "trades": 107,
+ "open": 2,
  "results_known": 112,
  "sigma_pct": {
-  "SILVER": 0.08828,
-  "GOLD": 0.05962
+  "SILVER": 0.06549,
+  "GOLD": 0.04024
  },
  "errors": []
 }
