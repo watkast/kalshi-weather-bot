@@ -1,14 +1,7 @@
 {
  "cash": 506.0209,
  "peak": 525.36,
- "positions": {
-  "KXBNB15M-26SEP290130-30": {
-   "side": "no",
-   "contracts": 26,
-   "cost": 9.78,
-   "window": "26SEP290130"
-  }
- },
+ "positions": {},
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -63,6 +56,10 @@
   [
    "2026-09-29T05:12:05+00:00",
    515.8
+  ],
+  [
+   "2026-09-29T05:30:43+00:00",
+   506.02
   ]
  ],
  "settings": {
