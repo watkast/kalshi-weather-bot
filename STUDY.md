@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 11:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 11:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **34 buys a day**, roughly **$5.11/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **34 buys a day**, roughly **$5.17/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 952 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 956 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 882 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 887 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,10 +89,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 392 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 396 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 87 | 0 | 11% | 8% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 71 | 0 | 8% | 1% | -100% | -85% | 5 min |
-| ITF Men's Match | ✘ | 68 | 0 | 6% | 3% | -100% | -90% | 5 min |
+| ITF Men's Match | ✘ | 69 | 0 | 6% | 3% | -100% | -90% | 5 min |
 | Counter-Strike 2 Game | ✘ | 57 | 1 | 5% | 4% | +64% | -91% | 11 min |
 | TT Star Series Match | ✘ | 32 | 1 | 3% | 3% | +192% | -95% | 4 min |
 | League of Legends Game | ✘ | 30 | 0 | 13% | 3% | -100% | -77% | 11 min |
@@ -158,11 +158,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 17:07 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | — | In play | — |
-| 09-29 17:07 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | — | In play | — |
-| 09-29 17:07 | TT Elite Series Match | Mateusz Sikon | ✘ | — | — | In play | — |
+| 09-29 17:20 | International Friendly Game | IR Iran | ✔ | 53' · IRN 0 - RUS 2 | — | In play | — |
+| 09-29 17:19 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
+| 09-29 17:18 | Finland Korisliiga Game | Helsinki Seagulls | ✘ | — | — | In play | — |
+| 09-29 17:13 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 09-29 17:07 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:07 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 17:07 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 17:05 | R6 Game | Geekay Esports | ✘ | — | — | In play | — |
-| 09-29 17:01 | ITF Men's Match | Lasse Poertner | ✘ | — | — | In play | — |
+| 09-29 17:01 | ITF Men's Match | Lasse Poertner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:55 | TT Elite Series Match | Jakub Krawczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:51 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:51 | ITF Women's Match | Natalia Sousa Salazar | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
@@ -184,10 +188,6 @@
 | 09-29 16:33 | Counter-Strike 2 Game | Krytiepacani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:32 | TT Elite Series Match | Sebastian Juzek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 16:29 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:28 | Challenger ATP  | Raphael Perot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:28 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:25 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 16:21 | ITF Men's Match | Sergi Fita Juan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
