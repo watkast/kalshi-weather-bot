@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 11:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 11:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 58 finished bets | 3% | -$6.08 | -70% | -10.48¢ | -$4.35 / -$1.73 |
 
-*Expect about **46 buys a day**, roughly **$6.89/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **46 buys a day**, roughly **$6.85/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 582 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
+| 587 | 58 | 0 (0%) | 1.1% | -$8.70 (-100%) | Sell at 10¢: -$6.08 (-70%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 58 | 17% | 9% | 7% | 3% | 0% | 0% |
-| Unverified | 521 | 4% | 2% | 2% | 1% | 0% | 0% |
+| Unverified | 526 | 4% | 2% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,9 +89,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 246 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 250 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | Challenger ATP  | ✘ | 40 | 0 | 8% | 0% | -100% | -87% | 5 min |
-| ITF Women's Match | ✘ | 38 | 0 | 11% | 8% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 39 | 0 | 10% | 8% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 13 min |
 | League of Legends Game | ✘ | 23 | 0 | 13% | 4% | -100% | -77% | 10 min |
 | ITF Men's Match | ✘ | 23 | 0 | 9% | 4% | -100% | -85% | 4 min |
@@ -154,9 +154,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 05:22 | Challenger ATP  | Aleksandar Vukic | ✘ | — | — | In play | — |
+| 09-29 05:18 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 05:17 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 05:16 | TT Elite Series Match | Miroslav Sklensky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 05:13 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:08 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:08 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 05:02 | ITF Women's Match | Guyu Xu | ✘ | — | — | In play | — |
+| 09-29 05:02 | ITF Women's Match | Guyu Xu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 05:01 | WTA Tennis Match | Valeria Savinykh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:56 | ITF Men's Match | Yue Xia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:54 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
@@ -179,11 +184,6 @@
 | 09-29 04:22 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:19 | ATP Tennis Match | Aleksandar Kovacevic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 04:15 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:13 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:11 | ITF Women's Match | Himari Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:06 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 04:03 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 03:58 | ITF Women's Match | Jiumeng Liu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
