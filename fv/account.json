@@ -1,14 +1,7 @@
 {
  "cash": 501.8109,
  "peak": 525.36,
- "positions": {
-  "KXETH15M-26SEP290100-00": {
-   "side": "no",
-   "contracts": 25,
-   "cost": 9.92,
-   "window": "26SEP290100"
-  }
- },
+ "positions": {},
  "halted": false,
  "halt_reason": "",
  "history": [
@@ -51,6 +44,10 @@
   [
    "2026-09-29T04:30:39+00:00",
    511.73
+  ],
+  [
+   "2026-09-29T05:00:31+00:00",
+   501.81
   ]
  ],
  "settings": {
