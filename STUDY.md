@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Sep 28, 8:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Sep 28, 8:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 55 finished bets | 4% | -$5.63 | -68% | -10.24¢ | -$4.05 / -$1.58 |
 
-*Expect about **48 buys a day**, roughly **$7.23/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **49 buys a day**, roughly **$7.31/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 528 | 55 | 0 (0%) | 1.1% | -$8.25 (-100%) | Sell at 10¢: -$5.63 (-68%) |
+| 529 | 55 | 0 (0%) | 1.1% | -$8.25 (-100%) | Sell at 10¢: -$5.63 (-68%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -147,6 +147,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-29 02:50 | Professional Football Game | Philadelphia | ✔ | 8:09 - 4th · PHI 7 - CHI 20 | — | In play | — |
 | 09-29 02:34 | CONCACAF Nations League Game | El Salvador | ✔ | 34' · SLV 0 - GUA 3 | — | In play | — |
 | 09-29 02:33 | TT Elite Series Match | Jacek Zelezik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 02:26 | Counter-Strike 2 Game | regain | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -176,7 +177,6 @@
 | 09-29 00:48 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:45 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 00:43 | TT Elite Series Match | Artur Kubiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 00:39 | Uruguay Primera Division Game | Tie | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
