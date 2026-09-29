@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 9:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 9:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 10¢ | 60 finished bets | 3% | -$6.38 | -71% | -10.63¢ | -$4.50 / -$1.88 |
 
-*Expect about **35 buys a day**, roughly **$5.32/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
+*Expect about **35 buys a day**, roughly **$5.30/day** at risk; max loss per buy **15¢**; typical wait to sell **4 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 894 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
+| 901 | 60 | 0 (0%) | 1.1% | -$9.00 (-100%) | Sell at 10¢: -$6.38 (-71%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 60 | 17% | 8% | 7% | 3% | 0% | 0% |
-| Unverified | 824 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 832 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -89,8 +89,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 369 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 83 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| TT Elite Series Match | ✘ | 373 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 84 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 67 | 0 | 9% | 1% | -100% | -84% | 5 min |
 | ITF Men's Match | ✘ | 65 | 0 | 6% | 3% | -100% | -89% | 5 min |
 | Counter-Strike 2 Game | ✘ | 48 | 0 | 4% | 2% | -100% | -93% | 11 min |
@@ -99,7 +99,7 @@
 | CONCACAF Nations League Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | AFCON Game Winner | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 24 min |
 | UEFA Nations League Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 3 min |
-| Men's T20 Cricket Match | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 12 min |
+| Men's T20 Cricket Match | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 13 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -128,6 +128,7 @@
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 26 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ELH Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | -1 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 
@@ -157,17 +158,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-29 15:28 | TT Elite Series Match | Michal Skorski | ✘ | — | — | In play | — |
+| 09-29 15:38 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
+| 09-29 15:38 | League of Legends Game | Barça eSports | ✘ | — | — | In play | — |
+| 09-29 15:38 | League of Legends Game | The Ruddy Sack | ✘ | — | — | In play | — |
+| 09-29 15:34 | Counter-Strike 2 Game | INFURITY Gaming | ✘ | — | — | In play | — |
+| 09-29 15:33 | ITF Women's Match | Anastasiia Firman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 15:32 | Valorant game winner | Karmine Corp | ✘ | — | — | In play | — |
+| 09-29 15:31 | TT Elite Series Match | Tkocz Marek | ✘ | — | — | In play | — |
+| 09-29 15:28 | TT Elite Series Match | Michal Skorski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:27 | League of Legends Game | Skillcamp Esport | ✘ | — | — | In play | — |
-| 09-29 15:25 | TT Elite Series Match | Sebastian Juzek | ✘ | — | — | In play | — |
-| 09-29 15:22 | TT Elite Series Match | Jakub Nadolny | ✘ | — | — | In play | — |
-| 09-29 15:20 | Slovakian Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 09-29 15:25 | TT Elite Series Match | Sebastian Juzek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 15:22 | TT Elite Series Match | Jakub Nadolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 15:20 | Slovakian Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:19 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
 | 09-29 15:14 | Challenger ATP  | Miguel Tobon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 15:10 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
-| 09-29 15:09 | Slovakian Cup Game | Reg Time: Inter Bratislava | ✘ | — | — | In play | — |
+| 09-29 15:10 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-29 15:09 | Slovakian Cup Game | Reg Time: Inter Bratislava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:09 | TT Star Series Match | Seibert Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 15:09 | Men's T20 Cricket Match | Limpopo Impalas | ✘ | — | — | In play | — |
+| 09-29 15:09 | Men's T20 Cricket Match | Limpopo Impalas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:05 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:01 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 15:00 | ITF Men's Match | Mae Malige | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -180,13 +188,6 @@
 | 09-29 14:49 | TT Elite Series Match | Adrian Wiecek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 14:49 | ITF Men's Match | LUCCA LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 14:49 | ITF Women's Match | Alexandra Vagramov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:48 | ITF Women's Match | Petra Sedlackova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:42 | Challenger ATP  | Matias Soto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:42 | TT Elite Series Match | Pawel Polok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:41 | ITF Women's Match | Alize Lim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:40 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:33 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 14:30 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
