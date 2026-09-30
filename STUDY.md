@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 11:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 11:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 100 finished bets | 12% | -$11.88 | -79% | -11.88¢ | -$5.16 / -$6.72 |
 
-*Expect about **44 buys a day**, roughly **$6.64/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **45 buys a day**, roughly **$6.68/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1299 | 100 | 0 (0%) | 1.1% | -$15.00 (-100%) | Sell at 2¢: -$11.88 (-79%) |
+| 1304 | 100 | 0 (0%) | 1.1% | -$15.00 (-100%) | Sell at 2¢: -$11.88 (-79%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 100 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1195 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1197 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 522 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 524 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 108 | 0 | 10% | 6% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 84 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | ITF Men's Match | ✘ | 82 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -170,8 +170,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 05:06 | TT Elite Series Match | Milosz Kukawka | ✘ | — | — | In play | — |
-| 09-30 05:04 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | — | In play | — |
+| 09-30 05:16 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
+| 09-30 05:16 | TT Elite Series Match | Petr David | ✘ | — | — | In play | — |
+| 09-30 05:11 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
+| 09-30 05:11 | Challenger ATP  | James McCabe | ✘ | — | — | In play | — |
+| 09-30 05:09 | NHL Game | Chicago | ✔ | 5:25 - 3rd · CHI 2 - VGK 4 | — | In play | — |
+| 09-30 05:06 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 05:04 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:48 | NHL Game | Edmonton | ✔ | 3:01 - OT · VAN 5 - EDM 5 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:44 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:43 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,11 +200,6 @@
 | 09-30 04:02 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:01 | Challenger WTA | Jia-Jing Lu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 03:58 | League of Legends Game | Hong Kong | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 03:54 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 03:52 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 03:50 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 03:50 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 03:46 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
