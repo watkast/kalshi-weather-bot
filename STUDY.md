@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 8:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 8:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **38 buys a day**, roughly **$5.71/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1567 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1572 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1458 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1466 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 638 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 137 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 135 | 0 | 10% | 4% | -100% | -83% | 5 min |
+| TT Elite Series Match | ✘ | 642 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 138 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 136 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 98 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 79 | 1 | 5% | 4% | +18% | -91% | 11 min |
 | TT Star Series Match | ✘ | 52 | 1 | 4% | 4% | +79% | -93% | 4 min |
-| League of Legends Game | ✘ | 48 | 0 | 10% | 2% | -100% | -82% | 11 min |
+| League of Legends Game | ✘ | 50 | 0 | 10% | 2% | -100% | -83% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -171,10 +171,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 14:31 | TT Elite Series Match | Petr David | ✘ | — | — | In play | — |
-| 09-30 14:30 | TT Elite Series Match | Brozek Piotr | ✘ | — | — | In play | — |
-| 09-30 14:27 | League of Legends Game | PCIFIC | ✘ | — | — | In play | — |
-| 09-30 14:26 | League of Legends Game | JSK Esports | ✘ | — | — | In play | — |
+| 09-30 14:42 | ITF Men's Match | Benoit Torcq | ✘ | — | — | In play | — |
+| 09-30 14:42 | ITF Men's Match | Luke Hooper | ✘ | — | — | In play | — |
+| 09-30 14:38 | TT Elite Series Match | Adrian Spychala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 14:34 | TT Elite Series Match | Rus Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 14:33 | ITF Men's Match | Viktor Frydrych | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-30 14:31 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 14:30 | TT Elite Series Match | Brozek Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 14:27 | League of Legends Game | PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 14:26 | League of Legends Game | JSK Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:26 | TT Star Series Match | Yefimov Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:24 | ITF Men's Match | Nazim Makhlouf | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-30 14:21 | League of Legends Game | Lodis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -182,7 +187,7 @@
 | 09-30 14:16 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:16 | Dota 2 Game | OG | ✘ | — | — | In play | — |
 | 09-30 14:12 | ITF Men's Match | Hugo Pierre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:07 | ITF Women's Match | Madelief Hageman | ✘ | — | — | In play | — |
+| 09-30 14:07 | ITF Women's Match | Madelief Hageman | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 14:06 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:05 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:04 | Dota 2 Game | 1win | ✘ | — | — | In play | — |
@@ -196,11 +201,6 @@
 | 09-30 13:50 | ITF Women's Match | Eliz Maloney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 13:49 | Challenger WTA | Fiona Crawley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 13:47 | ITF Men's Match | Drazen Petrovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 13:45 | TT Elite Series Match | Buczynski Witold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 13:42 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 13:41 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 13:39 | ITF Women's Match | Elena Milovanovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 13:35 | ITF Men's Match | Aaron Gabet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
