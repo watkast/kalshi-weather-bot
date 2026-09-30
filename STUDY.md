@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.59/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **38 buys a day**, roughly **$5.63/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1657 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1661 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1542 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1547 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 670 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 149 | 0 | 9% | 4% | -100% | -84% | 6 min |
+| TT Elite Series Match | ✘ | 673 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 150 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 149 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 101 | 0 | 10% | 2% | -100% | -83% | 6 min |
 | Counter-Strike 2 Game | ✘ | 83 | 1 | 5% | 4% | +12% | -92% | 10 min |
 | TT Star Series Match | ✘ | 57 | 1 | 4% | 4% | +64% | -94% | 4 min |
-| League of Legends Game | ✘ | 53 | 0 | 9% | 2% | -100% | -84% | 11 min |
+| League of Legends Game | ✘ | 54 | 0 | 9% | 2% | -100% | -84% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -173,13 +173,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 17:13 | TT Elite Series Match | Rudomina Kamil | ✘ | — | — | In play | — |
-| 09-30 17:13 | TT Elite Series Match | Buczynski Witold | ✘ | — | — | In play | — |
-| 09-30 17:12 | TT Elite Series Match | Skorupa Jakub | ✘ | — | — | In play | — |
+| 09-30 17:24 | Champions League Women's Game | Roma | ✔ | 39' · BAR 1 - ROMA 0 | — | In play | — |
+| 09-30 17:22 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | — | In play | — |
+| 09-30 17:22 | TT Star Series Match | Keinath Thomas | ✘ | — | — | In play | — |
+| 09-30 17:20 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | — | In play | — |
+| 09-30 17:13 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 17:13 | TT Elite Series Match | Buczynski Witold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 17:12 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:12 | ITF Women's Match | Gabriela Kawano Cho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:09 | Counter-Strike 2 Game | BakS eSports | ✘ | — | — | In play | — |
-| 09-30 17:08 | League of Legends Game | eSuba | ✘ | — | — | In play | — |
-| 09-30 17:07 | ITF Men's Match | Alejandro Arcila | ✘ | — | — | In play | — |
+| 09-30 17:08 | League of Legends Game | eSuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 17:07 | ITF Men's Match | Alejandro Arcila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:05 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:04 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:04 | International Friendly Game | Tie | ✔ | 47' · AND 0 - LTU 2 | — | In play | — |
@@ -199,10 +203,6 @@
 | 09-30 16:34 | Slovakia SBL Game | Bkm Lucenec | ✘ | — | — | In play | — |
 | 09-30 16:34 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:33 | ITF Women's Match | Anna Sedysheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:32 | Men's T20 Cricket Match | Sambalpur Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:30 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:30 | League of Legends Game | Valerion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:29 | ITF Men's Match | Noah Schlagenhauf | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
