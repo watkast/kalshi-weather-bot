@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 5:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **40 buys a day**, roughly **$6.02/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **40 buys a day**, roughly **$6.00/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1447 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1451 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1336 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1343 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 600 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 604 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 119 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 108 | 0 | 8% | 4% | -100% | -86% | 5 min |
+| ITF Men's Match | ✘ | 111 | 0 | 8% | 4% | -100% | -86% | 5 min |
 | Challenger ATP  | ✘ | 94 | 0 | 11% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 75 | 1 | 5% | 4% | +24% | -91% | 10 min |
 | League of Legends Game | ✘ | 43 | 0 | 12% | 2% | -100% | -80% | 11 min |
@@ -171,12 +171,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 11:16 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
-| 09-30 11:16 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
-| 09-30 11:16 | ITF Men's Match | Ferdinand Livet Novkirichka | ✘ | — | — | In play | — |
+| 09-30 11:24 | TT Elite Series Match | Rafal Gajda | ✘ | — | — | In play | — |
+| 09-30 11:19 | ITF Men's Match | Louis Herman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:17 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:17 | ITF Men's Match | Valentin Vanta | ✘ | — | — | In play | — |
+| 09-30 11:16 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:16 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:16 | ITF Men's Match | Ferdinand Livet Novkirichka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:13 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
-| 09-30 11:12 | TT Elite Series Match | Zochniak Jakub | ✘ | — | — | In play | — |
-| 09-30 11:11 | ITF Men's Match | Sam Ryan Ziegann | ✘ | — | — | In play | — |
+| 09-30 11:12 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:11 | ITF Men's Match | Sam Ryan Ziegann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:11 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
 | 09-30 11:09 | ITF Men's Match | Karol Malirz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:04 | ITF Men's Match | Alex Kuperstein | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,10 +201,6 @@
 | 09-30 10:33 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:32 | ITF Men's Match | Aniketh Venkataraman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:32 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:31 | ITF Men's Match | Ryan Zuberbuehler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:31 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:30 | Challenger ATP  | Jay Clarke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:30 | ITF Men's Match | Jeremy Gschwendtner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
