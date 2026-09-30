@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 10:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 10:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.57/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.56/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1636 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1642 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1527 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1532 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 664 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 667 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 149 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 148 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 100 | 0 | 10% | 2% | -100% | -83% | 5 min |
@@ -103,7 +103,7 @@
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Challenger WTA | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 10 min |
 | Men's T20 Cricket Match | ✘ | 18 | 0 | 17% | 11% | -100% | -71% | 13 min |
-| Dota 2 Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 28 min |
+| Dota 2 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | International Friendly Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | R6 Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -144,6 +144,7 @@
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 204 min |
 | EuroCup Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 124 min |
+| Men's ODI Cricket Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 76 min |
 
 ## By time left when it hit 1¢
 
@@ -159,7 +160,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -171,8 +172,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 16:43 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
-| 09-30 16:35 | Dota 2 Game | LGD Gaming | ✘ | — | — | In play | — |
+| 09-30 16:51 | Russia VTB United Game | Dinamo Vladivostok | ✘ | — | — | In play | — |
+| 09-30 16:51 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
+| 09-30 16:49 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:48 | AFCON Game Winner | Eritrea | ✘ | — | — | In play | — |
+| 09-30 16:47 | TT Elite Series Match | Kaczynski Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:45 | Challenger ATP  | Andrew Fenty | ✘ | — | — | In play | — |
+| 09-30 16:43 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:35 | Dota 2 Game | LGD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:34 | Slovakia SBL Game | Bkm Lucenec | ✘ | — | — | In play | — |
 | 09-30 16:34 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:33 | ITF Women's Match | Anna Sedysheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,12 +202,6 @@
 | 09-30 16:08 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:08 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:07 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:05 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:59 | Challenger ATP  | Bruno Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:58 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:57 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:56 | ITF Men's Match | Cedric Stanke | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 15:53 | TT Elite Series Match | Rus Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
