@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 6:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 85 finished bets | 13% | -$9.89 | -78% | -11.64¢ | -$4.48 / -$5.41 |
 
-*Expect about **42 buys a day**, roughly **$6.28/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **42 buys a day**, roughly **$6.33/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1214 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
+| 1218 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -168,6 +168,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 00:20 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | — | In play | — |
+| 09-30 00:19 | Professional Baseball Game | Houston | ✔ | Bot 9th · CHW 6 - HOU 3 | — | In play | — |
+| 09-30 00:14 | ITF Women's Match | Annika Penickova | ✘ | — | — | In play | — |
+| 09-30 00:11 | TT Elite Series Match | Andriej Fomin | ✘ | — | — | In play | — |
 | 09-29 23:59 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:58 | NHL Game | Carolina | ✔ | 0:17 - OT · FLA 0 - CAR 0 | — | In play | — |
 | 09-29 23:56 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -194,10 +198,6 @@
 | 09-29 22:44 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:34 | ITF Women's Match | Thea Frodin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 22:34 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:34 | ITF Women's Match | Anna Rogers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:34 | TT Elite Series Match | Jacek Mitas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:27 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:26 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
