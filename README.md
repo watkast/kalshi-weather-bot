@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Tue Sep 29, 11:39 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Wed Sep 30, 5:40 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -14,9 +14,9 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 61 | 17 | 29% | -$27.37 | -35.4% | 44 | Too early |
-| **Rain** | 18 | 6 | 50% | $9.17 | +44.0% | 12 | Too early |
-| **Longshot fade** | 953 | 655 | 92% | -$184.75 | -3.0% | 298 | Break-even |
+| **Temperature** | 61 | 25 | 36% | -$31.36 | -25.8% | 36 | Losing |
+| **Rain** | 20 | 8 | 38% | $3.19 | +11.9% | 12 | Too early |
+| **Longshot fade** | 953 | 668 | 92% | -$178.09 | -2.8% | 285 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -24,9 +24,9 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 448 | 283 | 93% | -$39.23 | -1.5% |
+| Other | 448 | 284 | 93% | -$38.86 | -1.5% |
 | NFL | 211 | 209 | 89% | -$114.59 | -5.8% |
-| Weather | 89 | 50 | 96% | $6.38 | +1.3% |
+| Weather | 89 | 62 | 97% | $12.67 | +2.2% |
 | MLB | 68 | 68 | 96% | $7.20 | +1.1% |
 | College football | 68 | 0 | — | — | — |
 | Crypto | 39 | 20 | 95% | $1.32 | +0.7% |
@@ -53,6 +53,8 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-01 | NOLA | YES | 57¢ | 74% | Open | — |
+| 2026-10-01 | DEN | NO | 64¢ | 82% | Open | — |
 | 2026-09-30 | MIA | NO | 12¢ | 28% | Open | — |
 | 2026-09-30 | DAL | NO | 34¢ | 55% | Open | — |
 | 2026-09-30 | CLL | YES | 35¢ | 48% | Open | — |
@@ -60,9 +62,7 @@
 | 2026-09-29 | LV | YES | 38¢ | 56% | Open | — |
 | 2026-09-29 | DEN | YES | 44¢ | 65% | Open | — |
 | 2026-09-29 | OKC | YES | 17¢ | 41% | Open | — |
-| 2026-09-29 | MIA | NO | 19¢ | 41% | Open | — |
-| 2026-09-29 | AUS | YES | 14¢ | 33% | Open | — |
-| 2026-09-29 | SATX | YES | 24¢ | 37% | Open | — |
+| 2026-09-29 | MIA | NO | 19¢ | 41% | YES | -$2.01 |
 
 ## The bots
 
