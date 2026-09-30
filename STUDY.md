@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 11:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 11:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.61/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.60/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1666 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1671 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1553 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1556 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 675 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 677 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 150 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 149 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 101 | 0 | 10% | 2% | -100% | -83% | 6 min |
@@ -140,10 +140,10 @@
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| EuroCup Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 62 min |
 | Australia NBL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 204 min |
-| EuroCup Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 124 min |
 | Men's ODI Cricket Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 76 min |
 | Russia VTB United Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 0 min |
 
@@ -173,8 +173,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 17:35 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | — | In play | — |
-| 09-30 17:34 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
+| 09-30 17:44 | Slovakia SBL Game | BC Komarno | ✘ | — | — | In play | — |
+| 09-30 17:42 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | — | In play | — |
+| 09-30 17:41 | ITF Men's Match | Asahi Harazaki | ✘ | — | — | In play | — |
+| 09-30 17:40 | Slovakia SBL Game | MBK Handlova | ✘ | — | — | In play | — |
+| 09-30 17:36 | EuroCup Basketball Game | London Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 17:35 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 17:34 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:27 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:27 | Dota 2 Game | Natus Vincere | ✘ | — | — | In play | — |
 | 09-30 17:27 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -198,11 +203,6 @@
 | 09-30 16:58 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:56 | TT Elite Series Match | Boguslaw Madej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:51 | Russia VTB United Game | Dinamo Vladivostok | ✘ | — | — | In play | — |
-| 09-30 16:51 | Russia VTB United Game | Avtodor Saratov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:49 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:48 | AFCON Game Winner | Eritrea | ✘ | — | — | In play | — |
-| 09-30 16:47 | TT Elite Series Match | Kaczynski Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:45 | Challenger ATP  | Andrew Fenty | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
