@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 9:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 9:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **38 buys a day**, roughly **$5.64/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.62/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1591 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1596 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1483 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1485 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 648 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 141 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| ITF Women's Match | ✘ | 139 | 0 | 11% | 6% | -100% | -81% | 5 min |
+| ITF Women's Match | ✘ | 141 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | Challenger ATP  | ✘ | 99 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 79 | 1 | 5% | 4% | +18% | -91% | 11 min |
 | TT Star Series Match | ✘ | 53 | 1 | 4% | 4% | +76% | -93% | 4 min |
@@ -160,7 +160,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 29 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 5 min |
+| Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -171,8 +171,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 15:33 | ITF Men's Match | Tanapatt Nirundorn | ✘ | — | — | In play | — |
+| 09-30 15:31 | ITF Men's Match | Nicola Senn | ✘ | — | — | In play | — |
+| 09-30 15:27 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | — | In play | — |
+| 09-30 15:26 | ITF Men's Match | Pijus Vaitiekunas | ✘ | — | — | In play | — |
+| 09-30 15:26 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | — | In play | — |
 | 09-30 15:22 | ITF Women's Match | Kira Pavlova | ✘ | — | — | In play | — |
-| 09-30 15:22 | ITF Women's Match | Midori Castillo Meza | ✘ | — | — | In play | — |
+| 09-30 15:22 | ITF Women's Match | Midori Castillo Meza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:22 | ITF Women's Match | Caroline Werner | ✘ | — | — | In play | — |
 | 09-30 15:20 | Challenger ATP  | Thomas Faurel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:19 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -189,18 +194,13 @@
 | 09-30 14:55 | ITF Men's Match | Louis Tessa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 14:53 | Challenger WTA | Dalma Galfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:46 | ITF Men's Match | Mario Martinez Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:46 | ITF Women's Match | Eloise Newberry | ✘ | — | — | In play | — |
+| 09-30 14:46 | ITF Women's Match | Eloise Newberry | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 09-30 14:42 | ITF Men's Match | Benoit Torcq | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:42 | ITF Men's Match | Luke Hooper | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:38 | TT Elite Series Match | Adrian Spychala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:34 | TT Elite Series Match | Rus Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:33 | ITF Men's Match | Viktor Frydrych | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 14:31 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:30 | TT Elite Series Match | Brozek Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:27 | League of Legends Game | PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:26 | League of Legends Game | JSK Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:26 | TT Star Series Match | Yefimov Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:24 | ITF Men's Match | Nazim Makhlouf | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
