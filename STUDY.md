@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 5:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **40 buys a day**, roughly **$6.04/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **40 buys a day**, roughly **$6.02/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1439 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1447 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1334 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1336 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 600 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 119 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 106 | 0 | 8% | 4% | -100% | -85% | 6 min |
+| ITF Men's Match | ✘ | 108 | 0 | 8% | 4% | -100% | -86% | 5 min |
 | Challenger ATP  | ✘ | 94 | 0 | 11% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 75 | 1 | 5% | 4% | +24% | -91% | 10 min |
 | League of Legends Game | ✘ | 43 | 0 | 12% | 2% | -100% | -80% | 11 min |
@@ -159,7 +159,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -171,7 +171,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 11:04 | ITF Men's Match | Alex Kuperstein | ✘ | — | — | In play | — |
+| 09-30 11:16 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
+| 09-30 11:16 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
+| 09-30 11:16 | ITF Men's Match | Ferdinand Livet Novkirichka | ✘ | — | — | In play | — |
+| 09-30 11:13 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
+| 09-30 11:12 | TT Elite Series Match | Zochniak Jakub | ✘ | — | — | In play | — |
+| 09-30 11:11 | ITF Men's Match | Sam Ryan Ziegann | ✘ | — | — | In play | — |
+| 09-30 11:11 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
+| 09-30 11:09 | ITF Men's Match | Karol Malirz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 11:04 | ITF Men's Match | Alex Kuperstein | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:00 | ITF Men's Match | Karim Ibrahim | ✘ | — | — | In play | — |
 | 09-30 11:00 | ITF Men's Match | Andrea Fiorentini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:58 | ITF Men's Match | Pietro Orlando Fellin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -193,14 +201,6 @@
 | 09-30 10:31 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:30 | Challenger ATP  | Jay Clarke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:30 | ITF Men's Match | Jeremy Gschwendtner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:29 | TT Elite Series Match | Artur Grela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:28 | Challenger ATP  | Philip Henning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:28 | ITF Men's Match | Alejandro Mateo Berge Nourescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:27 | Challenger WTA | Julia Riera | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 09-30 10:27 | Challenger WTA | Simona Waltert | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 10:22 | Challenger WTA | Martyna Kubka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:17 | ITF Men's Match | Evangelos Kypriotis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:15 | ITF Men's Match | Tai Leonard Sach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
