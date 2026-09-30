@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 3:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 3:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1801 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1802 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 1. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1687 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1689 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 719 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 720 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 159 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 159 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 89 | 1 | 4% | 3% | +5% | -92% | 11 min |
-| TT Star Series Match | ✘ | 65 | 1 | 3% | 3% | +44% | -95% | 4 min |
+| TT Star Series Match | ✘ | 66 | 1 | 3% | 3% | +41% | -95% | 4 min |
 | League of Legends Game | ✘ | 57 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -177,7 +177,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 21:21 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
+| 09-30 21:27 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 21:21 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:16 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:11 | ITF Men's Match | Bjorn Swenson | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 09-30 21:11 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,7 +207,6 @@
 | 09-30 20:32 | R6 Game | Shifters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:30 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:28 | National League Game | Genève Servette | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
