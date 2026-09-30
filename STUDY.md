@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 7:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 7:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 90 finished bets | 12% | -$10.64 | -79% | -11.82¢ | -$4.93 / -$5.71 |
 
-*Expect about **43 buys a day**, roughly **$6.44/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.42/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1229 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
+| 1231 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 90 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1136 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1138 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,10 +89,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 482 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 483 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
+| Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
-| Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 70 | 1 | 6% | 4% | +33% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | League of Legends Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 11 min |
@@ -169,6 +169,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 01:18 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 01:15 | Challenger ATP  | Jack Kennedy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:04 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:59 | League of Legends Game | Chinese Taipei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,8 +199,6 @@
 | 09-29 23:28 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:20 | ITF Women's Match | Mimi Xu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-29 23:18 | ITF Women's Match | Eugenia Zozaya Menendez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:16 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:12 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
