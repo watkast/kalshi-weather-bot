@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 8:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 8:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 92 finished bets | 12% | -$10.94 | -79% | -11.89¢ | -$4.82 / -$6.12 |
+| ESPN-verified leagues only, sell at 2¢ | 93 finished bets | 13% | -$10.83 | -78% | -11.65¢ | -$4.82 / -$6.01 |
 
-*Expect about **43 buys a day**, roughly **$6.52/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **44 buys a day**, roughly **$6.57/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 92 | -$11.18 | -81% |
-| ESPN-verified leagues only, sell at 5¢ | 92 | -$11.20 | -81% |
-| ESPN-verified leagues only, sell at 3¢ | 92 | -$11.46 | -83% |
+| ESPN-verified leagues only, sell at 3¢ | 93 | -$11.22 | -80% |
+| ESPN-verified leagues only, sell at 10¢ | 93 | -$11.33 | -81% |
+| ESPN-verified leagues only, sell at 5¢ | 93 | -$11.35 | -81% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1242 | 92 | 0 (0%) | 1.1% | -$13.80 (-100%) | Sell at 2¢: -$10.94 (-79%) |
+| 1245 | 93 | 0 (0%) | 1.1% | -$13.95 (-100%) | Sell at 2¢: -$10.83 (-78%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 92 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1147 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 93 | 13% | 8% | 4% | 2% | 0% | 0% |
+| Unverified | 1149 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$13.80 | -100% |
-| Sell at 2¢ | 11 | 12% | -$10.94 | -79% |
-| Sell at 3¢ | 6 | 7% | -$11.46 | -83% |
-| Sell at 5¢ | 4 | 4% | -$11.20 | -81% |
-| Sell at 10¢ | 2 | 2% | -$11.18 | -81% |
-| Sell at 25¢ | 0 | 0% | -$13.80 | -100% |
-| Sell at 50¢ | 0 | 0% | -$13.80 | -100% |
+| Hold to the end | 0 | 0% | -$13.95 | -100% |
+| Sell at 2¢ | 12 | 13% | -$10.83 | -78% |
+| Sell at 3¢ | 7 | 8% | -$11.22 | -80% |
+| Sell at 5¢ | 4 | 4% | -$11.35 | -81% |
+| Sell at 10¢ | 2 | 2% | -$11.33 | -81% |
+| Sell at 25¢ | 0 | 0% | -$13.95 | -100% |
+| Sell at 50¢ | 0 | 0% | -$13.95 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 490 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 492 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -138,16 +138,16 @@
 | Finland Korisliiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 124 min |
 | Liiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Professional Baseball Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| NHL Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 3 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 204 min |
 | EuroCup Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 124 min |
-| NHL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 2 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 35 | 3% | 0% | 0% | -95% |
+| Under 5 min | 36 | 6% | 0% | 0% | -90% |
 | 5–15 min | 19 | 26% | 5% | 0% | -54% |
 | 15–30 min | 17 | 12% | 12% | 0% | -80% |
 | 30–60 min | 13 | 23% | 8% | 0% | -60% |
@@ -169,13 +169,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 02:22 | Women's Pro Basketball Game | Minnesota | ✔ | 6:01 - 4th · MIN 60 - NY 79 | — | In play | — |
+| 09-30 02:15 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 02:14 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:00 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:59 | League of Legends Game | India | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:58 | International Friendly Game | Tie | ✔ | 90'+2' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:55 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:54 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:51 | International Friendly Game | Chile | ✔ | 85' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:51 | NHL Game | Toronto | ✔ | 0:09 - 3rd · MTL 3 - TOR 2 | — | In play | — |
+| 09-30 01:51 | NHL Game | Toronto | ✔ | 0:09 - 3rd · MTL 3 - TOR 2 | 4¢ | ❌ Lost | -$0.15 |
 | 09-30 01:40 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:36 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:30 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -196,9 +199,6 @@
 | 09-30 00:20 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:19 | Professional Baseball Game | Houston | ✔ | Bot 9th · CHW 6 - HOU 3 | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 00:14 | ITF Women's Match | Annika Penickova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:11 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:59 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:58 | NHL Game | Carolina | ✔ | 0:17 - OT · FLA 0 - CAR 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
