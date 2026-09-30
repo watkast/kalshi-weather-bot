@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Sep 30, 1:34 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Sep 30, 1:45 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 89 finished bets | 2% | $14.80 | +112% | +16.63¢ | $21.40 / -$6.60 |
 
-*Expect about **40 buys a day** (~$6.05/day at risk); max loss per buy **15¢**.*
+*Expect about **41 buys a day** (~$6.10/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2852 | 2846 | 13 (0%) | 1.07% | -$164.80 (-48%) | Hold to the close: -$164.80 (-48%) |
+| 2866 | 2846 | 13 (0%) | 1.07% | -$164.80 (-48%) | Hold to the close: -$164.80 (-48%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 20. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,20 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/30 1:44:34 AM | EURUSD | UP | 25 sec | — | — | In play | — |
+| 9/30 1:44:34 AM | GOLD | UP | 25 sec | — | — | In play | — |
+| 9/30 1:44:18 AM | XRP | DOWN | 41 sec | +0.167% | — | In play | — |
+| 9/30 1:44:18 AM | SILVER | UP | 41 sec | — | — | In play | — |
+| 9/30 1:44:02 AM | DOGE | DOWN | 57 sec | +0.117% | — | In play | — |
+| 9/30 1:43:30 AM | NATGAS | UP | 89 sec | — | — | In play | — |
+| 9/30 1:43:14 AM | PALLADIUM | DOWN | 1.8 min | — | — | In play | — |
+| 9/30 1:43:14 AM | ETH | DOWN | 1.8 min | +0.113% | — | In play | — |
+| 9/30 1:42:58 AM | BTC | DOWN | 2.0 min | +0.135% | — | In play | — |
+| 9/30 1:42:43 AM | SOL | DOWN | 2.3 min | +0.163% | — | In play | — |
+| 9/30 1:41:39 AM | BNB | DOWN | 3.3 min | +0.087% | — | In play | — |
+| 9/30 1:40:35 AM | HYPE | DOWN | 4.4 min | +0.327% | — | In play | — |
+| 9/30 1:40:19 AM | NEAR | DOWN | 4.7 min | +2.403% | — | In play | — |
+| 9/30 1:39:47 AM | ZEC | DOWN | 5.2 min | +0.813% | — | In play | — |
 | 9/30 1:29:44 AM | USDJPY | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 1:26:01 AM | ZEC | DOWN | 4.0 min | +0.526% | 1¢ | ❌ Lost | -$0.15 |
 | 9/30 1:25:45 AM | XRP | DOWN | 4.2 min | +0.711% | 1¢ | ❌ Lost | -$0.15 |
@@ -196,20 +210,6 @@
 | 9/30 1:14:01 AM | NATGAS | UP | 58 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 1:13:46 AM | PLATINUM | DOWN | 74 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 1:13:46 AM | BTC | UP | 74 sec | -0.113% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 1:13:46 AM | XRP | UP | 74 sec | -0.268% | 0¢ | ❌ Lost | $0.00 |
-| 9/30 1:13:30 AM | SILVER | DOWN | 1.5 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 1:13:14 AM | WTI | UP | 1.8 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 1:13:14 AM | SOL | UP | 1.8 min | -0.249% | 0¢ | ❌ Lost | $0.00 |
-| 9/30 1:13:14 AM | BNB | UP | 1.8 min | -0.177% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 1:13:14 AM | COPPER | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/30 1:12:57 AM | PALLADIUM | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/30 1:12:42 AM | NEAR | UP | 2.3 min | -0.873% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 1:11:37 AM | ZEC | UP | 3.4 min | -0.416% | 0¢ | ❌ Lost | $0.00 |
-| 9/30 12:59:27 AM | HYPE | UP | 33 sec | -0.083% | 0¢ | ❌ Lost | -$0.15 |
-| 9/30 12:59:11 AM | DOGE | UP | 49 sec | -0.222% | 0¢ | ❌ Lost | $0.00 |
-| 9/30 12:59:11 AM | SOL | UP | 49 sec | -0.121% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 12:59:11 AM | COPPER | UP | 49 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/30 12:58:56 AM | ETH | DOWN | 63 sec | +0.020% | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
