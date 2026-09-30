@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 7:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 8:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 90 finished bets | 12% | -$10.64 | -79% | -11.82¢ | -$4.93 / -$5.71 |
 
-*Expect about **43 buys a day**, roughly **$6.50/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **44 buys a day**, roughly **$6.55/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1237 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
+| 1242 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 90 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1142 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1146 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,13 +89,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 487 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 489 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 70 | 1 | 6% | 4% | +33% | -90% | 10 min |
+| Counter-Strike 2 Game | ✘ | 71 | 1 | 6% | 4% | +31% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
-| League of Legends Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 11 min |
+| League of Legends Game | ✘ | 41 | 0 | 12% | 2% | -100% | -79% | 11 min |
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 30 | 0 | 20% | 7% | -100% | -65% | 21 min |
@@ -169,9 +169,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 02:00 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 09-30 01:59 | League of Legends Game | India | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 01:58 | International Friendly Game | Tie | ✔ | 90'+2' · CHI 2 - USA 3 | — | In play | — |
+| 09-30 01:55 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 01:54 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:51 | International Friendly Game | Chile | ✔ | 85' · CHI 2 - USA 3 | — | In play | — |
 | 09-30 01:51 | NHL Game | Toronto | ✔ | 0:09 - 3rd · MTL 3 - TOR 2 | — | In play | — |
-| 09-30 01:40 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | — | In play | — |
+| 09-30 01:40 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:36 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:30 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:23 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -194,11 +199,6 @@
 | 09-30 00:11 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:59 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:58 | NHL Game | Carolina | ✔ | 0:17 - OT · FLA 0 - CAR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:56 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:52 | Brasileiro Serie B Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 23:46 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:43 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:36 | TT Elite Series Match | Lukasz Pietraszko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
