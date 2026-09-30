@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 85 finished bets | 13% | -$9.89 | -78% | -11.64¢ | -$4.48 / -$5.41 |
 
-*Expect about **42 buys a day**, roughly **$6.33/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **42 buys a day**, roughly **$6.31/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1218 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
+| 1220 | 85 | 0 (0%) | 1.1% | -$12.75 (-100%) | Sell at 2¢: -$9.89 (-78%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 85 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1122 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1126 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,11 +89,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 473 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 103 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| TT Elite Series Match | ✘ | 475 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 69 | 1 | 6% | 4% | +35% | -90% | 10 min |
+| Counter-Strike 2 Game | ✘ | 70 | 1 | 6% | 4% | +33% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | League of Legends Game | ✘ | 39 | 0 | 13% | 3% | -100% | -78% | 11 min |
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
@@ -168,16 +168,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 00:20 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | — | In play | — |
+| 09-30 00:28 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
+| 09-30 00:21 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
+| 09-30 00:20 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:19 | Professional Baseball Game | Houston | ✔ | Bot 9th · CHW 6 - HOU 3 | — | In play | — |
-| 09-30 00:14 | ITF Women's Match | Annika Penickova | ✘ | — | — | In play | — |
-| 09-30 00:11 | TT Elite Series Match | Andriej Fomin | ✘ | — | — | In play | — |
+| 09-30 00:14 | ITF Women's Match | Annika Penickova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:11 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:59 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:58 | NHL Game | Carolina | ✔ | 0:17 - OT · FLA 0 - CAR 0 | — | In play | — |
 | 09-29 23:56 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:52 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 09-29 23:46 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:43 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | — | In play | — |
+| 09-29 23:43 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:36 | TT Elite Series Match | Lukasz Pietraszko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:36 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | — | In play | — |
 | 09-29 23:34 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -196,8 +198,6 @@
 | 09-29 22:51 | CONCACAF Nations League Game | Sint Maarten | ✔ | 90'+4' · SMA 0 - GUF 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:48 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 22:44 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:34 | ITF Women's Match | Thea Frodin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-29 22:34 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
