@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 9:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 9:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 95 finished bets | 13% | -$11.13 | -78% | -11.72¢ | -$4.71 / -$6.42 |
+| ESPN-verified leagues only, sell at 2¢ | 97 finished bets | 12% | -$11.43 | -79% | -11.78¢ | -$4.86 / -$6.57 |
 
-*Expect about **45 buys a day**, roughly **$6.76/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **45 buys a day**, roughly **$6.74/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 3¢ | 95 | -$11.52 | -81% |
-| ESPN-verified leagues only, sell at 10¢ | 95 | -$11.63 | -82% |
-| ESPN-verified leagues only, sell at 5¢ | 95 | -$11.65 | -82% |
+| ESPN-verified leagues only, sell at 3¢ | 97 | -$11.82 | -81% |
+| ESPN-verified leagues only, sell at 10¢ | 97 | -$11.93 | -82% |
+| ESPN-verified leagues only, sell at 5¢ | 97 | -$11.95 | -82% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1256 | 95 | 0 (0%) | 1.1% | -$14.25 (-100%) | Sell at 2¢: -$11.13 (-78%) |
+| 1259 | 97 | 0 (0%) | 1.1% | -$14.55 (-100%) | Sell at 2¢: -$11.43 (-79%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 95 | 13% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1154 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 97 | 12% | 7% | 4% | 2% | 0% | 0% |
+| Unverified | 1157 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$14.25 | -100% |
-| Sell at 2¢ | 12 | 13% | -$11.13 | -78% |
-| Sell at 3¢ | 7 | 7% | -$11.52 | -81% |
-| Sell at 5¢ | 4 | 4% | -$11.65 | -82% |
-| Sell at 10¢ | 2 | 2% | -$11.63 | -82% |
-| Sell at 25¢ | 0 | 0% | -$14.25 | -100% |
-| Sell at 50¢ | 0 | 0% | -$14.25 | -100% |
+| Hold to the end | 0 | 0% | -$14.55 | -100% |
+| Sell at 2¢ | 12 | 12% | -$11.43 | -79% |
+| Sell at 3¢ | 7 | 7% | -$11.82 | -81% |
+| Sell at 5¢ | 4 | 4% | -$11.95 | -82% |
+| Sell at 10¢ | 2 | 2% | -$11.93 | -82% |
+| Sell at 25¢ | 0 | 0% | -$14.55 | -100% |
+| Sell at 50¢ | 0 | 0% | -$14.55 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 496 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 497 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 105 | 0 | 10% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -101,12 +101,12 @@
 | CONCACAF Nations League Game | partly | 30 | 0 | 20% | 7% | -100% | -65% | 21 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
+| International Friendly Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | Dota 2 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
-| International Friendly Game | ✔ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | R6 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Liga DIMAYOR Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Euroleague Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
@@ -147,7 +147,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 36 | 6% | 0% | 0% | -90% |
+| Under 5 min | 38 | 5% | 0% | 0% | -91% |
 | 5–15 min | 21 | 24% | 5% | 0% | -59% |
 | 15–30 min | 17 | 12% | 12% | 0% | -80% |
 | 30–60 min | 13 | 23% | 8% | 0% | -60% |
@@ -169,11 +169,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 03:12 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | — | In play | — |
+| 09-30 03:11 | TT Elite Series Match | Igor Szymanski | ✘ | — | — | In play | — |
+| 09-30 03:06 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:59 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:59 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | — | In play | — |
-| 09-30 02:59 | Liga DIMAYOR Game | Millonarios | ✘ | — | — | In play | — |
-| 09-30 02:54 | International Friendly Game | Mexico | ✔ | 90'+3' · PER 1 - MEX 1 | — | In play | — |
-| 09-30 02:54 | International Friendly Game | Peru | ✔ | 90'+3' · PER 1 - MEX 1 | — | In play | — |
+| 09-30 02:59 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 02:59 | Liga DIMAYOR Game | Millonarios | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 02:54 | International Friendly Game | Mexico | ✔ | 90'+3' · PER 1 - MEX 1 | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 02:54 | International Friendly Game | Peru | ✔ | 90'+3' · PER 1 - MEX 1 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:53 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:44 | Professional Baseball Game | Boston | ✔ | Top 8th · BOS 0 - NYY 4 | — | In play | — |
 | 09-30 02:38 | NHL Game | New York R | ✔ | 2:54 - 3rd · NYR 0 - BOS 2 | 1¢ | ❌ Lost | -$0.15 |
@@ -196,9 +199,6 @@
 | 09-30 01:23 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:18 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:15 | Challenger ATP  | Jack Kennedy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:04 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:59 | League of Legends Game | Chinese Taipei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
