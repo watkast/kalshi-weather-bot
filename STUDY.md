@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 6:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 6:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **39 buys a day**, roughly **$5.89/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1500 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1504 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1392 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1397 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 617 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 124 | 0 | 11% | 6% | -100% | -80% | 4 min |
+| TT Elite Series Match | ✘ | 619 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 125 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 123 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| Challenger ATP  | ✘ | 96 | 0 | 10% | 2% | -100% | -82% | 5 min |
+| Challenger ATP  | ✘ | 97 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 78 | 1 | 5% | 4% | +20% | -91% | 11 min |
 | TT Star Series Match | ✘ | 47 | 1 | 2% | 2% | +99% | -96% | 4 min |
 | League of Legends Game | ✘ | 44 | 0 | 11% | 2% | -100% | -80% | 11 min |
@@ -103,7 +103,7 @@
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 17 | 0 | 12% | 12% | -100% | -80% | 12 min |
 | Challenger WTA | ✘ | 17 | 0 | 18% | 12% | -100% | -69% | 10 min |
-| Dota 2 Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| Dota 2 Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | International Friendly Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | R6 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -171,10 +171,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 12:45 | KBO Game | Kiwoom Heroes | ✘ | — | — | In play | — |
+| 09-30 12:44 | ITF Men's Match | Stefan Vujic | ✘ | — | — | In play | — |
+| 09-30 12:41 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | — | In play | — |
+| 09-30 12:41 | ITF Women's Match | Gina Marie Dittmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:36 | ITF Women's Match | Ayana Akli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:35 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
-| 09-30 12:35 | Challenger ATP  | Daniil Glinka | ✘ | — | — | In play | — |
-| 09-30 12:33 | TT Elite Series Match | Rafal Gajda | ✘ | — | — | In play | — |
+| 09-30 12:35 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 12:35 | Challenger ATP  | Daniil Glinka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 12:33 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:33 | ITF Men's Match | Rocco Piatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:31 | ITF Men's Match | Stefan Adrian Andreescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:30 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,10 +201,6 @@
 | 09-30 11:58 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:58 | Valorant game winner | LOUD | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 11:58 | ITF Men's Match | Nicolas Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:58 | ITF Men's Match | Jan Werblinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:57 | TT Elite Series Match | Artur Grela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:57 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:57 | Dota 2 Game | MOUZ | ✘ | — | — | In play | — |
 
 ## Raw data
 
