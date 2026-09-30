@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 8:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 9:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 95 finished bets | 13% | -$11.13 | -78% | -11.72¢ | -$4.71 / -$6.42 |
 
-*Expect about **45 buys a day**, roughly **$6.78/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **45 buys a day**, roughly **$6.76/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1253 | 95 | 0 (0%) | 1.1% | -$14.25 (-100%) | Sell at 2¢: -$11.13 (-78%) |
+| 1256 | 95 | 0 (0%) | 1.1% | -$14.25 (-100%) | Sell at 2¢: -$11.13 (-78%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 95 | 13% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1152 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1154 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 494 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 496 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 105 | 0 | 10% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -169,9 +169,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 02:59 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 02:59 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | — | In play | — |
+| 09-30 02:59 | Liga DIMAYOR Game | Millonarios | ✘ | — | — | In play | — |
 | 09-30 02:54 | International Friendly Game | Mexico | ✔ | 90'+3' · PER 1 - MEX 1 | — | In play | — |
 | 09-30 02:54 | International Friendly Game | Peru | ✔ | 90'+3' · PER 1 - MEX 1 | — | In play | — |
-| 09-30 02:53 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
+| 09-30 02:53 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:44 | Professional Baseball Game | Boston | ✔ | Top 8th · BOS 0 - NYY 4 | — | In play | — |
 | 09-30 02:38 | NHL Game | New York R | ✔ | 2:54 - 3rd · NYR 0 - BOS 2 | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 02:35 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -196,9 +199,6 @@
 | 09-30 01:04 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:59 | League of Legends Game | Chinese Taipei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:46 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:45 | CONCACAF Nations League Game | Tie | ✔ | 89' · ARU 1 - AIA 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
