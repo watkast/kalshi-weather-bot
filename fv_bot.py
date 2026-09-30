@@ -51,6 +51,10 @@ TRADES_V7 = os.path.join(DIR, "trades_v7.csv")
 TRADES_V9 = os.path.join(DIR, "trades_v9.csv")   # Situational: size and exit style depend on price
 TRADES_V8 = os.path.join(DIR, "trades_v8.csv")   # Trend Sniper on 1-hour markets   # V5 rules traded through the risk-managed account
 
+# Sep 30: only V6 (60s Harvester) and V8 (hourly Trend Sniper) take new bets; the rest
+# lost money and are paused. Open bets still settle. Add a tag back here to re-enable it.
+ACTIVE = {"V6", "V8"}
+
 # V5 "Trend Sniper" and V6 "60s Harvester" (added Sep 28, from the user's earlier dashboard).
 V5_MIN_SECS, V5_MAX_SECS = 360, 720      # 6-12 minutes left
 V5_MIN_PRICE, V5_MAX_PRICE = 0.25, 0.55  # only cheap-to-middling contracts
@@ -507,7 +511,7 @@ class FairValue:
             gap = (spot[a] - meta["strike"]) / meta["strike"] * 100
             for book, done, pu, tag in ((self.trades, self.traded, p_up, "V1"),
                                         (self.trades_v2, self.traded_v2, p_up2, "V2")):
-                if ticker in done:
+                if ticker in done or tag not in ACTIVE:
                     continue
                 for side, p in (("yes", pu), ("no", 1 - pu)):
                     _, ask = side_quote(m, side)
@@ -542,7 +546,7 @@ class FairValue:
                     break
 
             # V9 Situational entry: one bet per market, size and exit style set by price band.
-            if ticker not in {t["ticker"] for t in self.trades_v9}:
+            if "V9" in ACTIVE and ticker not in {t["ticker"] for t in self.trades_v9}:
                 for side, p in (("yes", p_up), ("no", 1 - p_up)):
                     _, ask = side_quote(m, side)
                     band = next((b for b in V9_BANDS if ask is not None and b[0] <= ask <= b[1]), None)
@@ -570,7 +574,7 @@ class FairValue:
                     "strike": meta["strike"], "gap_pct": f"{(idx - meta['strike']) / meta['strike'] * 100:.4f}",
                     "sigma_pct": f"{sig * 100:.4f}", "contracts": CONTRACTS, "window": win, "sources": n_src}
             # V3: timing rule, taker orders.
-            if (V3_MIN_SECS <= secs_left <= V3_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v3}
+            if ("V3" in ACTIVE and V3_MIN_SECS <= secs_left <= V3_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v3}
                     and sum(1 for t in self.trades_v3 if t.get("window") == win) < MAX_PER_WINDOW):
                 for side, p in (("yes", p_idx), ("no", 1 - p_idx)):
                     _, ask = side_quote(m, side)
@@ -593,7 +597,7 @@ class FairValue:
                         print(f"V3 BUY {side} {ticker} @ {ask:.2f} edge {edge * 100:.1f}c")
                         break
             # V4: same model, but rest a limit order 2c under the ask.
-            if (ticker not in {t["ticker"] for t in self.trades_v4}
+            if ("V4" in ACTIVE and ticker not in {t["ticker"] for t in self.trades_v4}
                     and sum(1 for t in self.trades_v4 if t.get("window") == win and t["status"] != "unfilled")
                     < MAX_PER_WINDOW and secs_left >= 90):
                 for side, p in (("yes", p_idx), ("no", 1 - p_idx)):
@@ -615,7 +619,7 @@ class FairValue:
                         print(f"V4 ORDER {side} {ticker} limit {lim:.2f} edge {edge * 100:.1f}c")
                         break
             # V5 Trend Sniper: 6-12 min left, 25-55c, 6c+ edge, one bet per direction per window.
-            if V5_MIN_SECS <= secs_left <= V5_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v5}:
+            if "V5" in ACTIVE and V5_MIN_SECS <= secs_left <= V5_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v5}:
                 taken = {t["side"] for t in self.trades_v5 if t.get("window") == win}
                 for side, p in (("yes", p_up), ("no", 1 - p_up)):
                     _, ask = side_quote(m, side)
@@ -653,7 +657,7 @@ class FairValue:
                         print(f"V7 skip {ticker}: {why}")
                     break
             # V6 60s Harvester: final minute, model 98%+ sure, contract still 75-90c.
-            if V6_MIN_SECS <= secs_left <= V6_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v6}:
+            if "V6" in ACTIVE and V6_MIN_SECS <= secs_left <= V6_MAX_SECS and ticker not in {t["ticker"] for t in self.trades_v6}:
                 for side, p in (("yes", p_up), ("no", 1 - p_up)):
                     _, ask = side_quote(m, side)
                     if p < V6_MIN_PROB or ask is None or ask > V6_MAX_PRICE:
