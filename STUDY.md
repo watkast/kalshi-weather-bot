@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 9:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 9:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 98 finished bets | 12% | -$11.58 | -79% | -11.82¢ | -$5.01 / -$6.57 |
 
-*Expect about **45 buys a day**, roughly **$6.71/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **45 buys a day**, roughly **$6.76/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1262 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
+| 1266 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 98 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1160 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1163 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 500 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 503 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 105 | 0 | 10% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -170,8 +170,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 03:22 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | — | In play | — |
-| 09-30 03:21 | TT Elite Series Match | Milosz Cesarz | ✘ | — | — | In play | — |
+| 09-30 03:35 | Professional Baseball Game | Chicago C | ✔ | Bot 5th · CHC 0 - SD 6 | — | In play | — |
+| 09-30 03:34 | TT Elite Series Match | Karol Wisniewski | ✘ | — | — | In play | — |
+| 09-30 03:31 | CONCACAF Nations League Game | Belize | ✘ | — | — | In play | — |
+| 09-30 03:26 | TT Elite Series Match | Miastowski Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 03:22 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 03:21 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:19 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:12 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:11 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -196,10 +200,6 @@
 | 09-30 01:55 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:54 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:51 | International Friendly Game | Chile | ✔ | 85' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:51 | NHL Game | Toronto | ✔ | 0:09 - 3rd · MTL 3 - TOR 2 | 4¢ | ❌ Lost | -$0.15 |
-| 09-30 01:40 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:36 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:30 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
