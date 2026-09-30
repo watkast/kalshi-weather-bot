@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 10:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 10:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.56/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.55/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1617 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1620 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1510 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1513 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 658 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 659 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 146 | 0 | 9% | 4% | -100% | -85% | 6 min |
 | ITF Women's Match | ✘ | 146 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 100 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 80 | 1 | 5% | 4% | +17% | -91% | 11 min |
 | TT Star Series Match | ✘ | 55 | 1 | 4% | 4% | +70% | -94% | 4 min |
-| League of Legends Game | ✘ | 50 | 0 | 10% | 2% | -100% | -83% | 11 min |
+| League of Legends Game | ✘ | 52 | 0 | 10% | 2% | -100% | -83% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -171,10 +171,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 16:12 | League of Legends Game | HMBLE | ✘ | — | — | In play | — |
-| 09-30 16:11 | TT Elite Series Match | Buczynski Witold | ✘ | — | — | In play | — |
+| 09-30 16:24 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | — | In play | — |
+| 09-30 16:23 | Counter-Strike 2 Game | magafans | ✘ | — | — | In play | — |
+| 09-30 16:21 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | — | In play | — |
+| 09-30 16:12 | League of Legends Game | HMBLE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:11 | TT Elite Series Match | Buczynski Witold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:08 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 16:08 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | — | In play | — |
+| 09-30 16:08 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:07 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 16:05 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:59 | Challenger ATP  | Bruno Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -198,9 +201,6 @@
 | 09-30 15:26 | ITF Men's Match | Pijus Vaitiekunas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:26 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:22 | ITF Women's Match | Kira Pavlova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:22 | ITF Women's Match | Midori Castillo Meza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:22 | ITF Women's Match | Caroline Werner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:20 | Challenger ATP  | Thomas Faurel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
