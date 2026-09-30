@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 10:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 10:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.58/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.56/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1611 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1617 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1506 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1510 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 656 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 658 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 146 | 0 | 9% | 4% | -100% | -85% | 6 min |
 | ITF Women's Match | ✘ | 146 | 0 | 11% | 6% | -100% | -81% | 5 min |
-| Challenger ATP  | ✘ | 99 | 0 | 10% | 2% | -100% | -82% | 5 min |
+| Challenger ATP  | ✘ | 100 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 80 | 1 | 5% | 4% | +17% | -91% | 11 min |
 | TT Star Series Match | ✘ | 55 | 1 | 4% | 4% | +70% | -94% | 4 min |
 | League of Legends Game | ✘ | 50 | 0 | 10% | 2% | -100% | -83% | 11 min |
@@ -113,11 +113,11 @@
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Euroleague Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 68 min |
+| KHL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | National League Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| KHL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Valorant game winner | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | NHL Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
@@ -171,7 +171,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 15:59 | Challenger ATP  | Bruno Fernandez | ✘ | — | — | In play | — |
+| 09-30 16:12 | League of Legends Game | HMBLE | ✘ | — | — | In play | — |
+| 09-30 16:11 | TT Elite Series Match | Buczynski Witold | ✘ | — | — | In play | — |
+| 09-30 16:08 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:08 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | — | In play | — |
+| 09-30 16:07 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 16:05 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 15:59 | Challenger ATP  | Bruno Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:58 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:57 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:56 | ITF Men's Match | Cedric Stanke | ✘ | — | — | In play | — |
@@ -195,12 +201,6 @@
 | 09-30 15:22 | ITF Women's Match | Midori Castillo Meza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:22 | ITF Women's Match | Caroline Werner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:20 | Challenger ATP  | Thomas Faurel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:19 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:18 | ITF Men's Match | David Naharro | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 15:15 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:14 | ITF Men's Match | Hitesh Chauhan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:14 | Counter-Strike 2 Game | Banda LFO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 15:01 | ITF Women's Match | Ayline Esina Samardzic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
