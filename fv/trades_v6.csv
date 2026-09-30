@@ -1,3 +1,4 @@
 time,ticker,asset,side,secs_left,spot,strike,gap_pct,sigma_pct,model_p,price,fee,edge,contracts,status,result,pnl,mid_at_60s,clv,depth_at_ask,quoted,window,sources,placed_at,filled_at,trend_aligned,exit_price,exit_at,dyn_exit_price,dyn_exit_at,dyn_exit_why,dyn_model_at_exit,dyn_pnl
 2026-09-30T01:29:06+00:00,KXHYPE15M-26SEP292130-30,HYPE,no,54,86.3,86.37,-0.0810,0.0610,0.9925,0.8220,0.0110,0.1595,10,settled,no,1.67,0.675,-0.147,12804,0.69,26SEP292130,1,,,,,,,,,,
 2026-09-30T03:14:06+00:00,KXHYPE15M-26SEP292315-15,HYPE,no,54,86.18,86.236,-0.0232,0.0550,0.9826,0.8956,0.0070,0.0800,10,settled,no,0.97,0.665,-0.231,12644,0.70,26SEP292315,2,,,,,,,,,,
+2026-09-30T05:59:08+00:00,KXHYPE15M-26SEP300200-00,HYPE,no,52,85.92,86.0333,-0.1509,0.0637,0.9990,0.8000,0.0120,0.1870,10,settled,no,1.88,0.830,0.030,13847,0.87,26SEP300200,2,,,,,,,,,,
