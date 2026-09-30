@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 3:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 3:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 108 finished bets | 1% | -$2.20 | -14% | -2.04¢ | -$8.10 / $5.90 |
+| ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.73/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 108 | -$9.45 | -58% |
-| ESPN-verified leagues only, sell at 10¢ | 108 | -$12.27 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 108 | -$12.30 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 112 | -$10.05 | -60% |
+| ESPN-verified leagues only, sell at 10¢ | 112 | -$12.87 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 112 | -$12.90 | -77% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1794 | 108 | 1 (1%) | 1.1% | -$2.20 (-14%) | Hold to the end: -$2.20 (-14%) |
+| 1799 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 108 | 13% | 8% | 6% | 3% | 1% | 1% |
-| Unverified | 1677 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
+| Unverified | 1682 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$2.20 | -14% |
-| Sell at 2¢ | 14 | 13% | -$12.56 | -78% |
-| Sell at 3¢ | 9 | 8% | -$12.69 | -78% |
-| Sell at 5¢ | 6 | 6% | -$12.30 | -76% |
-| Sell at 10¢ | 3 | 3% | -$12.27 | -76% |
-| Sell at 25¢ | 1 | 1% | -$12.89 | -80% |
-| Sell at 50¢ | 1 | 1% | -$9.45 | -58% |
+| Hold to the end | 1 | 1% | -$2.80 | -17% |
+| Sell at 2¢ | 14 | 12% | -$13.16 | -78% |
+| Sell at 3¢ | 9 | 8% | -$13.29 | -79% |
+| Sell at 5¢ | 6 | 5% | -$12.90 | -77% |
+| Sell at 10¢ | 3 | 3% | -$12.87 | -77% |
+| Sell at 25¢ | 1 | 1% | -$13.49 | -80% |
+| Sell at 50¢ | 1 | 1% | -$10.05 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 716 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 158 | 0 | 11% | 6% | -100% | -80% | 5 min |
-| ITF Men's Match | ✘ | 157 | 0 | 9% | 4% | -100% | -85% | 6 min |
+| TT Elite Series Match | ✘ | 718 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 159 | 0 | 11% | 6% | -100% | -80% | 5 min |
+| ITF Men's Match | ✘ | 158 | 0 | 9% | 4% | -100% | -85% | 6 min |
 | Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 88 | 1 | 5% | 3% | +6% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 89 | 1 | 4% | 3% | +5% | -92% | 11 min |
 | TT Star Series Match | ✘ | 64 | 1 | 3% | 3% | +46% | -95% | 4 min |
 | League of Legends Game | ✘ | 57 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -106,6 +106,7 @@
 | Dota 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -117,7 +118,6 @@
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Champions League Women's Game | partly | 7 | 1 | 43% | 29% | +1233% | -26% | 27 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -155,9 +155,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 40 | 5% | 0% | 0% | -91% |
-| 5–15 min | 22 | 23% | 5% | 0% | -61% |
-| 15–30 min | 18 | 17% | 17% | 6% | -71% |
+| Under 5 min | 42 | 5% | 0% | 0% | -92% |
+| 5–15 min | 23 | 22% | 4% | 0% | -62% |
+| 15–30 min | 19 | 16% | 16% | 5% | -73% |
 | 30–60 min | 17 | 24% | 12% | 0% | -59% |
 | Over 60 min | 11 | 0% | 0% | 0% | -100% |
 
@@ -177,36 +177,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 20:59 | Counter-Strike 2 Game | Young TigeRES | ✘ | — | — | In play | — |
-| 09-30 20:58 | Champions League Women's Game | Chelsea | ✔ | 90'+11' · CHE 0 - LYON 0 | — | In play | — |
-| 09-30 20:58 | Champions League Women's Game | Lyon | ✔ | 90'+11' · CHE 0 - LYON 0 | — | In play | — |
-| 09-30 20:58 | ITF Men's Match | Vignesh Gogineni | ✘ | — | — | In play | — |
+| 09-30 21:11 | ITF Men's Match | Bjorn Swenson | ✘ | — | — | In play | — |
+| 09-30 21:11 | TT Star Series Match | Vráblík Jiří | ✘ | — | — | In play | — |
+| 09-30 21:09 | EuroCup Basketball Game | Turk Telekom | ✘ | — | — | In play | — |
+| 09-30 21:09 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 21:04 | TT Elite Series Match | Kaczynski Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:59 | Counter-Strike 2 Game | Young TigeRES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:58 | Champions League Women's Game | Chelsea | ✔ | 90'+11' · CHE 0 - LYON 0 | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:58 | Champions League Women's Game | Lyon | ✔ | 90'+11' · CHE 0 - LYON 0 | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:58 | ITF Men's Match | Vignesh Gogineni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:56 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:56 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 20:55 | ITF Women's Match | Iryna Shymanovich | ✘ | — | — | In play | — |
+| 09-30 20:55 | ITF Women's Match | Iryna Shymanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:54 | Challenger ATP  | Remy Bertola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:52 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:48 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:44 | Counter-Strike 2 Game | ALKA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:42 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:38 | Champions League Women's Game | Tie | ✔ | 80' · MUN 1 - BEN 0 | — | In play | — |
+| 09-30 20:38 | Champions League Women's Game | Tie | ✔ | 80' · MUN 1 - BEN 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:36 | English National League Game | Southend | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:36 | EuroCup Basketball Game | FC Universitatea Cluj | ✘ | — | — | In play | — |
 | 09-30 20:36 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:33 | TT Star Series Match | Albuquerque Raegan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:32 | Champions League Women's Game | Benfica Lisbon | ✔ | 74' · MUN 0 - BEN 0 | — | In play | — |
+| 09-30 20:32 | Champions League Women's Game | Benfica Lisbon | ✔ | 74' · MUN 0 - BEN 0 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:32 | R6 Game | Shifters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:30 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:28 | National League Game | Genève Servette | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:28 | ITF Women's Match | Victoria Hu | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 09-30 20:26 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:26 | ITF Men's Match | Jelani Sarr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:25 | English National League Game | Eastleigh | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 09-30 20:23 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:20 | TT Elite Series Match | Sebastian Krupa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:18 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
