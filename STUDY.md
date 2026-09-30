@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 4:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 4:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.65/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1813 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1817 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1698 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1703 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,8 +90,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 725 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 160 | 0 | 9% | 4% | -100% | -84% | 6 min |
+| TT Elite Series Match | ✘ | 727 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 160 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 89 | 1 | 4% | 3% | +5% | -92% | 11 min |
@@ -148,6 +148,7 @@
 | Australia NBL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
+| Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 98 min |
 
@@ -177,7 +178,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 22:00 | ITF Men's Match | Duje Markovina | ✘ | — | — | In play | — |
+| 09-30 22:10 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | — | In play | — |
+| 09-30 22:06 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 22:04 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 22:03 | Peru Liga 1 Game | Cienciano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 22:00 | ITF Men's Match | Duje Markovina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:45 | TT Star Series Match | Keinath Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:45 | ITF Women's Match | Eva Maria Ionescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:45 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -186,7 +191,7 @@
 | 09-30 21:42 | R6 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:40 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:39 | ITF Men's Match | Pablo Martinez Gomez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 21:36 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | — | In play | — |
+| 09-30 21:36 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 09-30 21:33 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:27 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:21 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -203,10 +208,6 @@
 | 09-30 20:56 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:56 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 20:55 | ITF Women's Match | Iryna Shymanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:54 | Challenger ATP  | Remy Bertola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:52 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:48 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
