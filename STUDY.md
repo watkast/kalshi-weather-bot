@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 98 finished bets | 12% | -$11.58 | -79% | -11.82¢ | -$5.01 / -$6.57 |
 
-*Expect about **45 buys a day**, roughly **$6.70/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **44 buys a day**, roughly **$6.67/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1281 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
+| 1286 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 98 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1173 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1180 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 509 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 107 | 0 | 10% | 7% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 513 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 108 | 0 | 10% | 6% | -100% | -82% | 4 min |
+| Challenger ATP  | ✘ | 82 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 71 | 1 | 6% | 4% | +31% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
@@ -102,8 +102,8 @@
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
+| Challenger WTA | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 8 min |
 | International Friendly Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | Dota 2 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
@@ -158,7 +158,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 31 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 32 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -170,12 +170,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 04:05 | TT Elite Series Match | Stapor Rafal | ✘ | — | — | In play | — |
-| 09-30 04:04 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | — | In play | — |
+| 09-30 04:16 | TT Elite Series Match | Adrian Spychala | ✘ | — | — | In play | — |
+| 09-30 04:11 | Counter-Strike 2 Game | LAG Gaming | ✘ | — | — | In play | — |
+| 09-30 04:10 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 04:08 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 04:07 | Challenger ATP  | Masamichi Imamura | ✘ | — | — | In play | — |
+| 09-30 04:05 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 04:04 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:04 | Challenger WTA | Chenting Zhu | ✘ | — | — | In play | — |
-| 09-30 04:04 | Challenger ATP  | Alexandre Muller | ✘ | — | — | In play | — |
-| 09-30 04:02 | ITF Women's Match | Jizelle Sibai | ✘ | — | — | In play | — |
-| 09-30 04:01 | Challenger WTA | Jia-Jing Lu | ✘ | — | — | In play | — |
+| 09-30 04:04 | Challenger ATP  | Alexandre Muller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 04:02 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 04:01 | Challenger WTA | Jia-Jing Lu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 03:58 | League of Legends Game | Hong Kong | ✘ | — | — | In play | — |
 | 09-30 03:54 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:52 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,11 +200,6 @@
 | 09-30 03:12 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:11 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:06 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:59 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:59 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:59 | Liga DIMAYOR Game | Millonarios | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:54 | International Friendly Game | Mexico | ✔ | 90'+3' · PER 1 - MEX 1 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:54 | International Friendly Game | Peru | ✔ | 90'+3' · PER 1 - MEX 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
