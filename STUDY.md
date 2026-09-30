@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 6:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 6:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **39 buys a day**, roughly **$5.86/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1504 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1513 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1397 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1403 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 619 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 125 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 123 | 0 | 9% | 4% | -100% | -84% | 6 min |
+| TT Elite Series Match | ✘ | 620 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 126 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 125 | 0 | 10% | 5% | -100% | -83% | 6 min |
 | Challenger ATP  | ✘ | 97 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 78 | 1 | 5% | 4% | +20% | -91% | 11 min |
-| TT Star Series Match | ✘ | 47 | 1 | 2% | 2% | +99% | -96% | 4 min |
+| TT Star Series Match | ✘ | 48 | 1 | 2% | 2% | +94% | -96% | 4 min |
 | League of Legends Game | ✘ | 44 | 0 | 11% | 2% | -100% | -80% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -111,9 +111,9 @@
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| KBO Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 55 min |
 | Euroleague Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| KBO Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 85 min |
 | National League Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -171,9 +171,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 12:58 | ITF Women's Match | Chelsea Fontenel | ✘ | — | — | In play | — |
+| 09-30 12:57 | KBO Game | NC Dinos | ✘ | — | — | In play | — |
+| 09-30 12:57 | TT Elite Series Match | Rus Maksymilian | ✘ | — | — | In play | — |
+| 09-30 12:55 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 12:50 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
+| 09-30 12:50 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | — | In play | — |
+| 09-30 12:49 | ITF Women's Match | Camila Zouein Yanez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 12:48 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 12:48 | ITF Men's Match | Pietro Marino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:45 | KBO Game | Kiwoom Heroes | ✘ | — | — | In play | — |
-| 09-30 12:44 | ITF Men's Match | Stefan Vujic | ✘ | — | — | In play | — |
-| 09-30 12:41 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | — | In play | — |
+| 09-30 12:44 | ITF Men's Match | Stefan Vujic | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
+| 09-30 12:41 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:41 | ITF Women's Match | Gina Marie Dittmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:36 | ITF Women's Match | Ayana Akli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:35 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -192,15 +201,6 @@
 | 09-30 12:07 | ITF Men's Match | Harrison Satara | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-30 12:07 | Counter-Strike 2 Game | Leo Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:06 | TT Elite Series Match | Buczynski Witold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:06 | ITF Women's Match | Irem Kurt | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
-| 09-30 12:04 | League of Legends Game | Galions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:04 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:04 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:00 | KBO Game | Hanwha Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:58 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:58 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:58 | Valorant game winner | LOUD | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 11:58 | ITF Men's Match | Nicolas Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
