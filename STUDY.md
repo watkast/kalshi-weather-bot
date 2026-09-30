@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 2:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 2:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 108 finished bets | 1% | -$2.20 | -14% | -2.04¢ | -$8.10 / $5.90 |
 
-*Expect about **37 buys a day**, roughly **$5.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1774 | 108 | 1 (1%) | 1.1% | -$2.20 (-14%) | Hold to the end: -$2.20 (-14%) |
+| 1781 | 108 | 1 (1%) | 1.1% | -$2.20 (-14%) | Hold to the end: -$2.20 (-14%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 108 | 13% | 8% | 6% | 3% | 1% | 1% |
-| Unverified | 1655 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1664 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 709 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 156 | 0 | 9% | 4% | -100% | -84% | 6 min |
+| TT Elite Series Match | ✘ | 712 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 157 | 0 | 9% | 4% | -100% | -85% | 6 min |
 | ITF Women's Match | ✘ | 156 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 105 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 87 | 1 | 5% | 3% | +7% | -92% | 11 min |
-| TT Star Series Match | ✘ | 63 | 1 | 3% | 3% | +48% | -94% | 4 min |
+| TT Star Series Match | ✘ | 64 | 1 | 3% | 3% | +46% | -95% | 4 min |
 | League of Legends Game | ✘ | 57 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -104,7 +104,7 @@
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Challenger WTA | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 10 min |
 | Dota 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 28 min |
-| R6 Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
@@ -112,11 +112,11 @@
 | KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
 | Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
+| EuroCup Basketball Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| EuroCup Basketball Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| National League Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Champions League Women's Game | partly | 7 | 1 | 43% | 29% | +1233% | -26% | 27 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -165,7 +165,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -177,14 +177,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 20:38 | Champions League Women's Game | Tie | ✔ | 80' · MUN 1 - BEN 0 | — | In play | — |
+| 09-30 20:36 | English National League Game | Southend | ✘ | — | — | In play | — |
+| 09-30 20:36 | EuroCup Basketball Game | FC Universitatea Cluj | ✘ | — | — | In play | — |
+| 09-30 20:36 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:33 | TT Star Series Match | Albuquerque Raegan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:32 | Champions League Women's Game | Benfica Lisbon | ✔ | 74' · MUN 0 - BEN 0 | — | In play | — |
+| 09-30 20:32 | R6 Game | Shifters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:30 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 09-30 20:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | — | In play | — |
-| 09-30 20:28 | National League Game | Genève Servette | ✘ | — | — | In play | — |
+| 09-30 20:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:28 | National League Game | Genève Servette | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:28 | ITF Women's Match | Victoria Hu | ✘ | — | — | In play | — |
-| 09-30 20:26 | TT Elite Series Match | Michał Machelski | ✘ | — | — | In play | — |
-| 09-30 20:26 | ITF Men's Match | Jelani Sarr | ✘ | — | — | In play | — |
+| 09-30 20:26 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:26 | ITF Men's Match | Jelani Sarr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:25 | English National League Game | Eastleigh | ✘ | — | — | In play | — |
-| 09-30 20:23 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | — | In play | — |
+| 09-30 20:23 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:20 | TT Elite Series Match | Sebastian Krupa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:18 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:17 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -194,19 +201,12 @@
 | 09-30 20:03 | League of Legends Game | NightBirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:00 | Euroleague Game | Maccabi Tel-Aviv | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-30 19:58 | TT Elite Series Match | Piotr Strus | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 09-30 19:58 | National League Game | HC Lausanne | ✘ | — | — | In play | — |
+| 09-30 19:58 | National League Game | HC Lausanne | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 09-30 19:57 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 09-30 19:57 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 19:55 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 19:50 | ITF Men's Match | Gabriel Elicha Navas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 19:49 | TT Star Series Match | Keinath Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:42 | ITF Women's Match | Amelie Justine Hejtmanek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:42 | R6 Game | Geekay Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:40 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:36 | Dota 2 Game | Level UP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:36 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:34 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 19:33 | ITF Men's Match | Ben Weintraub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
