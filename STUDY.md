@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 2:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 3:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 108 finished bets | 1% | -$2.20 | -14% | -2.04¢ | -$8.10 / $5.90 |
 
-*Expect about **38 buys a day**, roughly **$5.66/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1785 | 108 | 1 (1%) | 1.1% | -$2.20 (-14%) | Hold to the end: -$2.20 (-14%) |
+| 1794 | 108 | 1 (1%) | 1.1% | -$2.20 (-14%) | Hold to the end: -$2.20 (-14%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 108 | 13% | 8% | 6% | 3% | 1% | 1% |
-| Unverified | 1672 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1677 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 715 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 716 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 158 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | ITF Men's Match | ✘ | 157 | 0 | 9% | 4% | -100% | -85% | 6 min |
-| ITF Women's Match | ✘ | 156 | 0 | 11% | 6% | -100% | -81% | 5 min |
-| Challenger ATP  | ✘ | 105 | 0 | 10% | 2% | -100% | -83% | 5 min |
+| Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 88 | 1 | 5% | 3% | +6% | -92% | 11 min |
 | TT Star Series Match | ✘ | 64 | 1 | 3% | 3% | +46% | -95% | 4 min |
 | League of Legends Game | ✘ | 57 | 0 | 9% | 2% | -100% | -85% | 11 min |
@@ -111,8 +111,8 @@
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
 | Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
+| EuroCup Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
-| EuroCup Basketball Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -177,6 +177,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 20:59 | Counter-Strike 2 Game | Young TigeRES | ✘ | — | — | In play | — |
+| 09-30 20:58 | Champions League Women's Game | Chelsea | ✔ | 90'+11' · CHE 0 - LYON 0 | — | In play | — |
+| 09-30 20:58 | Champions League Women's Game | Lyon | ✔ | 90'+11' · CHE 0 - LYON 0 | — | In play | — |
+| 09-30 20:58 | ITF Men's Match | Vignesh Gogineni | ✘ | — | — | In play | — |
+| 09-30 20:56 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:56 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-30 20:55 | ITF Women's Match | Iryna Shymanovich | ✘ | — | — | In play | — |
+| 09-30 20:54 | Challenger ATP  | Remy Bertola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 20:52 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:48 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:44 | Counter-Strike 2 Game | ALKA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -191,22 +200,13 @@
 | 09-30 20:30 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:28 | National League Game | Genève Servette | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:28 | ITF Women's Match | Victoria Hu | ✘ | — | — | In play | — |
+| 09-30 20:28 | ITF Women's Match | Victoria Hu | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 09-30 20:26 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:26 | ITF Men's Match | Jelani Sarr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:25 | English National League Game | Eastleigh | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 09-30 20:23 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:20 | TT Elite Series Match | Sebastian Krupa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 20:18 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:17 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:08 | English National League Game | Sutton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:08 | Challenger ATP  | Luca Staeheli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:04 | Men's T20 Cricket Match | Trinity CC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:03 | League of Legends Game | NightBirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:00 | Euroleague Game | Maccabi Tel-Aviv | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 09-30 19:58 | TT Elite Series Match | Piotr Strus | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 09-30 19:58 | National League Game | HC Lausanne | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 09-30 19:57 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
