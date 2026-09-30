@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 7:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 7:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **39 buys a day**, roughly **$5.84/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **39 buys a day**, roughly **$5.82/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1517 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1521 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1411 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1413 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -91,8 +91,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 624 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 127 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 125 | 0 | 10% | 5% | -100% | -83% | 6 min |
+| ITF Women's Match | ✘ | 128 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 126 | 0 | 10% | 5% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 97 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 78 | 1 | 5% | 4% | +20% | -91% | 11 min |
 | TT Star Series Match | ✘ | 49 | 1 | 2% | 2% | +90% | -96% | 4 min |
@@ -159,7 +159,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -171,7 +171,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 13:08 | ITF Women's Match | Bianca Elena Barbulescu | ✘ | — | — | In play | — |
+| 09-30 13:18 | R6 Game | Elevate | ✘ | — | — | In play | — |
+| 09-30 13:11 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
+| 09-30 13:10 | ITF Men's Match | Jan Hrazdil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 13:09 | ITF Women's Match | Leonie Rabl | ✘ | — | — | In play | — |
+| 09-30 13:08 | ITF Women's Match | Bianca Elena Barbulescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 13:02 | Counter-Strike 2 Game | BIG Academy | ✘ | — | — | In play | — |
 | 09-30 12:59 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:59 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,10 +201,6 @@
 | 09-30 12:30 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:26 | TT Elite Series Match | Igor Szymanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 12:23 | Challenger ATP  | Dimitar Kuzmanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:14 | ITF Men's Match | Saba Purtseladze | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:12 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:09 | ITF Men's Match | Leonid Sheyngezikht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 12:08 | Women's ODI Cricket Match | Zimbabwe | ✘ | — | — | In play | — |
 
 ## Raw data
 
