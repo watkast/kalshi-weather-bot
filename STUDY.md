@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 12:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 12:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 103 finished bets | 12% | -$12.33 | -80% | -11.97¢ | -$5.05 / -$7.28 |
 
-*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **38 buys a day**, roughly **$5.69/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1708 | 103 | 0 (0%) | 1.1% | -$15.45 (-100%) | Sell at 2¢: -$12.33 (-80%) |
+| 1714 | 103 | 0 (0%) | 1.1% | -$15.45 (-100%) | Sell at 2¢: -$12.33 (-80%) |
 
 *In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 103 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1593 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1599 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 685 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 687 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 153 | 0 | 10% | 6% | -100% | -82% | 5 min |
 | ITF Men's Match | ✘ | 151 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| Challenger ATP  | ✘ | 102 | 0 | 10% | 2% | -100% | -83% | 5 min |
+| Challenger ATP  | ✘ | 103 | 0 | 10% | 2% | -100% | -83% | 6 min |
 | Counter-Strike 2 Game | ✘ | 85 | 1 | 5% | 4% | +10% | -92% | 11 min |
 | TT Star Series Match | ✘ | 59 | 1 | 3% | 3% | +58% | -94% | 4 min |
 | League of Legends Game | ✘ | 55 | 0 | 9% | 2% | -100% | -84% | 11 min |
@@ -105,7 +105,7 @@
 | Challenger WTA | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 10 min |
 | Dota 2 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | International Friendly Game | ✔ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| R6 Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
@@ -121,6 +121,7 @@
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Valorant game winner | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| EuroCup Basketball Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NHL Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | Uruguay Primera Division Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 15 min |
@@ -129,11 +130,10 @@
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's ODI Cricket Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Finland Korisliiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 63 min |
-| EuroCup Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
 | Professional Baseball Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 19 min |
+| Slovakia SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 25 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Slovakia SBL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
@@ -175,13 +175,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 18:24 | R6 Game | Fnatic | ✘ | — | — | In play | — |
+| 09-30 18:35 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
+| 09-30 18:32 | ITF Women's Match | Kim Chiarello | ✘ | — | — | In play | — |
+| 09-30 18:31 | EuroCup Basketball Game | Balkan Botevgrad | ✘ | — | — | In play | — |
+| 09-30 18:29 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 18:27 | Champions League Women's Game | Tie | ✘ | — | — | In play | — |
+| 09-30 18:27 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 18:24 | R6 Game | Fnatic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 18:21 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 18:20 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | — | In play | — |
+| 09-30 18:20 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 18:19 | Champions League Women's Game | Hacken Gothenburg | ✘ | — | — | In play | — |
 | 09-30 18:18 | KHL Game | HC Barys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 18:15 | ITF Women's Match | Alice Soulie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 18:15 | Challenger ATP  | Braden Shick | ✘ | — | — | In play | — |
+| 09-30 18:15 | Challenger ATP  | Braden Shick | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 18:10 | Men's T20 Cricket Match | Northern Cape Heat | ✘ | — | — | In play | — |
 | 09-30 18:10 | Champions League Women's Game | Tie | ✔ | 68' · ARS 2 - PFC 0 | — | In play | — |
 | 09-30 18:08 | Czech NBL Game | Basket Brno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -199,12 +205,6 @@
 | 09-30 17:57 | Liiga Game | TPS Turku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:57 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 17:57 | EuroCup Basketball Game | Derthona Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 17:56 | ITF Women's Match | Tania Sfilio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 17:56 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 17:56 | EuroCup Basketball Game | BC Roma Spqr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 17:55 | Liiga Game | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 17:52 | Slovakia SBL Game | Inter Basket | ✘ | — | — | In play | — |
-| 09-30 17:52 | Czech NBL Game | BK Gapa Hradec Kralove | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
