@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 4:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 5:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **40 buys a day**, roughly **$6.05/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **40 buys a day**, roughly **$6.04/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1433 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1439 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1327 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1334 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 598 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 118 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 103 | 0 | 9% | 4% | -100% | -85% | 6 min |
-| Challenger ATP  | ✘ | 93 | 0 | 11% | 2% | -100% | -81% | 5 min |
+| TT Elite Series Match | ✘ | 600 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 119 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 106 | 0 | 8% | 4% | -100% | -85% | 6 min |
+| Challenger ATP  | ✘ | 94 | 0 | 11% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 75 | 1 | 5% | 4% | +24% | -91% | 10 min |
 | League of Legends Game | ✘ | 43 | 0 | 12% | 2% | -100% | -80% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
@@ -171,10 +171,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 10:51 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 09-30 11:04 | ITF Men's Match | Alex Kuperstein | ✘ | — | — | In play | — |
+| 09-30 11:00 | ITF Men's Match | Karim Ibrahim | ✘ | — | — | In play | — |
+| 09-30 11:00 | ITF Men's Match | Andrea Fiorentini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 10:58 | ITF Men's Match | Pietro Orlando Fellin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 10:57 | ITF Women's Match | Julia Stamatova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 10:57 | TT Elite Series Match | Boguslaw Madej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 10:51 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:49 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:49 | TT Elite Series Match | Brozek Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:48 | Challenger ATP  | Liam Broady | ✘ | — | — | In play | — |
+| 09-30 10:48 | Challenger ATP  | Liam Broady | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 10:44 | R6 Game | Fury | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:40 | ITF Men's Match | Makar Elesin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:39 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,12 +201,6 @@
 | 09-30 10:22 | Challenger WTA | Martyna Kubka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:17 | ITF Men's Match | Evangelos Kypriotis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 10:15 | ITF Men's Match | Tai Leonard Sach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:11 | ITF Women's Match | Vanesa Salaiova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:08 | TT Elite Series Match | Mateusz Sikon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:03 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:03 | ITF Men's Match | Giannicola Misasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:01 | ITF Men's Match | Liam Delicata | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 10:00 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
