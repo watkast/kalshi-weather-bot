@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 6:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 87 finished bets | 13% | -$10.19 | -78% | -11.71¢ | -$4.63 / -$5.56 |
 
-*Expect about **42 buys a day**, roughly **$6.36/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.48/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1222 | 87 | 0 (0%) | 1.1% | -$13.05 (-100%) | Sell at 2¢: -$10.19 (-78%) |
+| 1227 | 87 | 0 (0%) | 1.1% | -$13.05 (-100%) | Sell at 2¢: -$10.19 (-78%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,7 +67,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 87 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1130 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1131 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 477 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 478 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
@@ -169,7 +169,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 00:37 | TT Elite Series Match | Pawel Kurek | ✘ | — | — | In play | — |
+| 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 09-30 00:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | — | In play | — |
+| 09-30 00:46 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | — | In play | — |
+| 09-30 00:45 | CONCACAF Nations League Game | Tie | ✔ | 89' · ARU 1 - AIA 0 | — | In play | — |
+| 09-30 00:44 | Women's Pro Basketball Game | Las Vegas | ✔ | 1:17 - 4th · LV 87 - IND 96 | — | In play | — |
+| 09-30 00:37 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:33 | CONCACAF Nations League Game | Anguilla | ✔ | 77' · ARU 1 - AIA 0 | — | In play | — |
 | 09-30 00:28 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:21 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -194,11 +199,6 @@
 | 09-29 23:12 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:10 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:07 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:07 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:55 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:53 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · SMA 0 - GUF 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 22:51 | CONCACAF Nations League Game | Sint Maarten | ✔ | 90'+4' · SMA 0 - GUF 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
