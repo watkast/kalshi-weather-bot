@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 8:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 8:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 90 finished bets | 12% | -$10.64 | -79% | -11.82¢ | -$4.93 / -$5.71 |
+| ESPN-verified leagues only, sell at 2¢ | 92 finished bets | 12% | -$10.94 | -79% | -11.89¢ | -$4.82 / -$6.12 |
 
-*Expect about **44 buys a day**, roughly **$6.55/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.52/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 90 | -$10.88 | -81% |
-| ESPN-verified leagues only, sell at 5¢ | 90 | -$10.90 | -81% |
-| ESPN-verified leagues only, sell at 3¢ | 90 | -$11.16 | -83% |
+| ESPN-verified leagues only, sell at 10¢ | 92 | -$11.18 | -81% |
+| ESPN-verified leagues only, sell at 5¢ | 92 | -$11.20 | -81% |
+| ESPN-verified leagues only, sell at 3¢ | 92 | -$11.46 | -83% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1242 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
+| 1242 | 92 | 0 (0%) | 1.1% | -$13.80 (-100%) | Sell at 2¢: -$10.94 (-79%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 90 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1146 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 92 | 12% | 7% | 4% | 2% | 0% | 0% |
+| Unverified | 1147 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$13.50 | -100% |
-| Sell at 2¢ | 11 | 12% | -$10.64 | -79% |
-| Sell at 3¢ | 6 | 7% | -$11.16 | -83% |
-| Sell at 5¢ | 4 | 4% | -$10.90 | -81% |
-| Sell at 10¢ | 2 | 2% | -$10.88 | -81% |
-| Sell at 25¢ | 0 | 0% | -$13.50 | -100% |
-| Sell at 50¢ | 0 | 0% | -$13.50 | -100% |
+| Hold to the end | 0 | 0% | -$13.80 | -100% |
+| Sell at 2¢ | 11 | 12% | -$10.94 | -79% |
+| Sell at 3¢ | 6 | 7% | -$11.46 | -83% |
+| Sell at 5¢ | 4 | 4% | -$11.20 | -81% |
+| Sell at 10¢ | 2 | 2% | -$11.18 | -81% |
+| Sell at 25¢ | 0 | 0% | -$13.80 | -100% |
+| Sell at 50¢ | 0 | 0% | -$13.80 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,7 +89,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 489 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 490 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -104,9 +104,9 @@
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | Dota 2 Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
+| International Friendly Game | ✔ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | R6 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga DIMAYOR Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| International Friendly Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Euroleague Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 68 min |
 | WTA Tennis Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 3 min |
@@ -147,8 +147,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 34 | 3% | 0% | 0% | -95% |
-| 5–15 min | 18 | 28% | 6% | 0% | -52% |
+| Under 5 min | 35 | 3% | 0% | 0% | -95% |
+| 5–15 min | 19 | 26% | 5% | 0% | -54% |
 | 15–30 min | 17 | 12% | 12% | 0% | -80% |
 | 30–60 min | 13 | 23% | 8% | 0% | -60% |
 | Over 60 min | 8 | 0% | 0% | 0% | -100% |
@@ -169,12 +169,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 02:00 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 09-30 02:00 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:59 | League of Legends Game | India | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:58 | International Friendly Game | Tie | ✔ | 90'+2' · CHI 2 - USA 3 | — | In play | — |
+| 09-30 01:58 | International Friendly Game | Tie | ✔ | 90'+2' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:55 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:54 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:51 | International Friendly Game | Chile | ✔ | 85' · CHI 2 - USA 3 | — | In play | — |
+| 09-30 01:51 | International Friendly Game | Chile | ✔ | 85' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:51 | NHL Game | Toronto | ✔ | 0:09 - 3rd · MTL 3 - TOR 2 | — | In play | — |
 | 09-30 01:40 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 01:36 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
