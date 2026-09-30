@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Sep 30, 3:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Sep 30, 3:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 114 finished bets | 2% | $11.20 | +67% | +9.82¢ | $19.45 / -$8.25 |
 
-*Expect about **41 buys a day** (~$6.16/day at risk); max loss per buy **15¢**.*
+*Expect about **41 buys a day** (~$6.15/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3524 | 3518 | 13 (0%) | 1.07% | -$248.50 (-58%) | Hold to the close: -$248.50 (-58%) |
+| 3525 | 3518 | 13 (0%) | 1.07% | -$248.50 (-58%) | Hold to the close: -$248.50 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/30 3:25:51 PM | HYPE | UP | 4.1 min | -0.776% | — | In play | — |
 | 9/30 3:14:49 PM | SOL | DOWN | 10 sec | +0.057% | 0¢ | ❌ Lost | $0.00 |
 | 9/30 3:14:49 PM | NEAR | UP | 10 sec | -0.086% | 0¢ | ❌ Lost | $0.00 |
 | 9/30 3:14:34 PM | COPPER | DOWN | 25 sec | — | 2¢ | ❌ Lost | -$0.15 |
@@ -209,7 +210,6 @@
 | 9/30 2:44:19 PM | ZEC | UP | 40 sec | -0.142% | 0¢ | ❌ Lost | $0.00 |
 | 9/30 2:44:19 PM | ETH | UP | 40 sec | -0.065% | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 2:44:03 PM | WTI | UP | 56 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 9/30 2:44:03 PM | GOLD | DOWN | 56 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
