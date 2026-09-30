@@ -178,7 +178,7 @@ def charts(settled, cal_rows):
     return made
 
 
-LATE = ("V5", "V6", "V7", "V8")   # versions added later; shown since they started
+LATE = ("V5", "V6", "V7", "V8", "V9")   # versions added later; shown since they started
 VERSION_COLORS = {"V1": "#2a78d6", "V2": "#eb6834", "V3": "#1baf7a", "V4": "#eda100",
                   "V5": "#e87ba4", "V6": "#4a3aa7", "V7": "#008300", "V8": "#e34948"}
 
@@ -359,7 +359,8 @@ def main():
              "V5": load(os.path.join(DIR, "trades_v5.csv")),
              "V6": load(os.path.join(DIR, "trades_v6.csv")),
              "V7": load(os.path.join(DIR, "trades_v7.csv")),
-             "V8": load(os.path.join(DIR, "trades_v8.csv"))}
+             "V8": load(os.path.join(DIR, "trades_v8.csv")),
+             "V9": load(os.path.join(DIR, "trades_v9.csv"))}
     desc = {"V1": "Original (Coinbase price, 8¢ edge since Sep 29, was 4¢; no limit per window)",
             "V2": "Trend-aware, wider swings, 50/50 with Kalshi's price",
             "V3": "5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window",
@@ -367,7 +368,8 @@ def main():
             "V5": "Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢",
             "V6": "60s Harvester: final minute, model 98%+ sure, buy 75–90¢",
             "V7": "V5 signals through the risk-managed $500 account (2% bets, max 3 open, 25% peak stop)",
-            "V8": "Trend Sniper on 1-hour markets: 20–45 min left, 25–55¢, 6¢+ edge"}
+            "V8": "Trend Sniper on 1-hour markets: 20–45 min left, 25–55¢, 6¢+ edge",
+            "V9": "Situational: favorites 70–92¢ ×20 held; 20–70¢ ×5–10 sold early on model signal; skips long shots"}
     v_obs = {}
     for path in glob.glob(os.path.join(DIR, "obs_v2", "*.csv")):
         for o in load(path):

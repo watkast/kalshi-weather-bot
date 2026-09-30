@@ -48,6 +48,7 @@ TRADES_V4 = os.path.join(DIR, "trades_v4.csv")
 TRADES_V5 = os.path.join(DIR, "trades_v5.csv")
 TRADES_V6 = os.path.join(DIR, "trades_v6.csv")
 TRADES_V7 = os.path.join(DIR, "trades_v7.csv")
+TRADES_V9 = os.path.join(DIR, "trades_v9.csv")   # Situational: size and exit style depend on price
 TRADES_V8 = os.path.join(DIR, "trades_v8.csv")   # Trend Sniper on 1-hour markets   # V5 rules traded through the risk-managed account
 
 # V5 "Trend Sniper" and V6 "60s Harvester" (added Sep 28, from the user's earlier dashboard).
@@ -84,6 +85,20 @@ LIVE_EDGE = 0.08          # V1 live bot: raised from 4c to 8c on Sep 29 (8c+ was
 DYN_BUFFER = 0.03
 DYN_MIN_SECS = 20         # don't bother in the last 20 seconds (thin books, settlement averaging)
 DYN_START = "2026-09-29T21:00"   # bets before this weren't actively managed
+
+# V9 "Situational" (added Sep 30), built from 1,500+ settled V1 bets:
+#  - Favorites (70-92c) won more than their price in both halves of the data, and selling them
+#    early gave back profit -> bet bigger and HOLD to the close.
+#  - Cheaper contracts lost when held but made money when sold early on the model's signal
+#    -> smaller bets, ACTIVELY MANAGED (sell when the bid beats the model's value by 3c+).
+#  - Under 20c lost badly either way -> skip.
+#  - Bigger model "edges" did NOT win more (mostly model error), so size follows price band, not edge.
+V9_EDGE = 0.04
+V9_BANDS = [  # (min price, max price, contracts, exit style)
+    (0.70, 0.92, 20, "hold"),
+    (0.40, 0.70, 10, "active"),
+    (0.20, 0.40, 5, "active"),
+]
 MIN_PRICE, MAX_PRICE = 0.05, 0.95
 MIN_SECS, MAX_SECS = 30, 840
 BASIS_SD = 0.00015        # Coinbase vs Kalshi's CF Benchmarks index (log units)
@@ -100,7 +115,7 @@ TRADE_FIELDS = ["time", "ticker", "asset", "side", "secs_left", "spot", "strike"
                 "sigma_pct", "model_p", "price", "fee", "edge", "contracts", "status", "result",
                 "pnl", "mid_at_60s", "clv", "depth_at_ask", "quoted", "window", "sources",
                 "placed_at", "filled_at", "trend_aligned", "exit_price", "exit_at",
-                "dyn_exit_price", "dyn_exit_at", "dyn_exit_why", "dyn_model_at_exit", "dyn_pnl"]
+                "dyn_exit_price", "dyn_exit_at", "dyn_exit_why", "dyn_model_at_exit", "dyn_pnl", "style"]
 OBS_FIELDS = ["time", "ticker", "asset", "secs_left", "spot", "strike", "sigma_pct",
               "model_up", "yes_bid", "yes_ask"]
 RESULT_FIELDS = ["ticker", "result", "close_time"]
@@ -228,6 +243,7 @@ class FairValue:
         self.trades_v7 = load(TRADES_V7)
         self.acct = risk.PaperAccount(DIR)
         self.trades_v8 = load(TRADES_V8)
+        self.trades_v9 = load(TRADES_V9)
         self.hourly = hourly.Hourly(self)
         self.last_spot = {}
         self.basis = {}           # asset -> {exchange: (fetched_at, price / coinbase)}
@@ -445,6 +461,24 @@ class FairValue:
                     print(f"ACTIVE SELL {ticker} {t['side']} @ {bid_now:.2f} (model {hold_value:.0%}) "
                           f"{t['dyn_exit_why']} {pnl:+.2f}")
 
+            # V9 active exits (only for bets in the "active" bands).
+            for t in self.trades_v9:
+                if t["ticker"] != ticker or t["status"] != "open" or t.get("style") != "active" \
+                        or secs_left < DYN_MIN_SECS:
+                    continue
+                bid_now, _ = side_quote(m, t["side"])
+                if not bid_now:
+                    continue
+                n = int(t["contracts"])
+                hold_value = p_up if t["side"] == "yes" else 1 - p_up
+                sell_value = bid_now - fee_per_contract(bid_now, n)
+                if sell_value - hold_value >= DYN_BUFFER:
+                    pnl = n * sell_value - n * (float(t["price"]) + float(t["fee"]))
+                    t.update(status="settled", result="sold", exit_price=f"{bid_now:.2f}", exit_at=iso(now),
+                             dyn_exit_why="take profit" if pnl > 0 else "cut loss",
+                             dyn_model_at_exit=f"{hold_value:.4f}", pnl=f"{pnl:.2f}")
+                    print(f"V9 SELL {ticker} {t['side']} @ {bid_now:.2f} {t['dyn_exit_why']} {pnl:+.2f}")
+
             for t in self.trades_v5 + self.trades_v7:
                 if t["ticker"] == ticker and t["status"] == "open":
                     bid_now, _ = side_quote(m, t["side"])
@@ -505,6 +539,30 @@ class FairValue:
                     done.add(ticker)
                     print(f"{tag} BUY {CONTRACTS} {'UP' if side == 'yes' else 'DOWN'} {ticker} @ {ask:.2f} "
                           f"model {p:.1%} edge {edge * 100:.1f}c, {secs_left:.0f}s left")
+                    break
+
+            # V9 Situational entry: one bet per market, size and exit style set by price band.
+            if ticker not in {t["ticker"] for t in self.trades_v9}:
+                for side, p in (("yes", p_up), ("no", 1 - p_up)):
+                    _, ask = side_quote(m, side)
+                    band = next((b for b in V9_BANDS if ask is not None and b[0] <= ask <= b[1]), None)
+                    if not band or p - ask - fee_per_contract(ask, band[2]) < V9_EDGE:
+                        continue
+                    fill = book_fill(ticker, side, band[2])
+                    if not fill or not (band[0] <= fill[0] <= band[1]):
+                        continue
+                    fee = fee_per_contract(fill[0], band[2])
+                    edge = p - fill[0] - fee
+                    if edge < V9_EDGE:
+                        continue
+                    self.trades_v9.append({
+                        "time": iso(now), "ticker": ticker, "asset": a, "side": side,
+                        "secs_left": f"{secs_left:.0f}", "spot": f"{spot[a]:g}", "strike": meta["strike"],
+                        "gap_pct": f"{gap:.4f}", "sigma_pct": f"{sig * 100:.4f}", "model_p": f"{p:.4f}",
+                        "price": f"{fill[0]:.4f}", "fee": f"{fee:.4f}", "edge": f"{edge:.4f}",
+                        "contracts": band[2], "status": "open", "style": band[3], "quoted": f"{ask:.2f}",
+                        "depth_at_ask": f"{fill[2]:.0f}" if fill[2] is not None else ""})
+                    print(f"V9 BUY {band[2]} {side} {ticker} @ {fill[0]:.2f} ({band[3]}) edge {edge * 100:.1f}c")
                     break
 
             win = window_of(ticker)
@@ -614,7 +672,7 @@ class FairValue:
     def settle(self):
         now = now_utc()
         books = (self.trades + self.trades_v2 + self.trades_v3 + self.trades_v4 + self.trades_v5
-                 + self.trades_v6 + self.trades_v7 + self.trades_v8)
+                 + self.trades_v6 + self.trades_v7 + self.trades_v8 + self.trades_v9)
         pending = {t["ticker"] for t in books if t["status"] == "open"} | set(self.seen)
         for ticker in list(pending):
             if ticker in self.results:
@@ -665,6 +723,7 @@ class FairValue:
         write_csv(TRADES_V6, self.trades_v6, TRADE_FIELDS)
         write_csv(TRADES_V7, self.trades_v7, TRADE_FIELDS)
         write_csv(TRADES_V8, self.trades_v8, TRADE_FIELDS)
+        write_csv(TRADES_V9, self.trades_v9, TRADE_FIELDS)
         self.acct.save()
         write_csv(RESULTS, list(self.results.values()), RESULT_FIELDS)
         with open(os.path.join(DIR, "status.json"), "w") as fh:
@@ -672,7 +731,7 @@ class FairValue:
                        "markets": len(self.markets), "trades": len(self.trades), "trades_v2": len(self.trades_v2),
                        "trades_v3": len(self.trades_v3), "trades_v4": len(self.trades_v4),
                        "trades_v5": len(self.trades_v5), "trades_v6": len(self.trades_v6),
-                       "trades_v7": len(self.trades_v7), "trades_v8": len(self.trades_v8), "account_equity": round(self.acct.equity(), 2),
+                       "trades_v7": len(self.trades_v7), "trades_v8": len(self.trades_v8), "trades_v9": len(self.trades_v9), "account_equity": round(self.acct.equity(), 2),
                        "account_halted": self.acct.halted,
                        "extra_exchanges": {a: sorted(v) for a, v in self.basis.items()},
                        "open": sum(1 for t in self.trades if t["status"] == "open"),
@@ -714,7 +773,7 @@ def main():
     fv.accept_new = False
     deadline = time.time() + 20 * 60
     books = lambda: (fv.trades + fv.trades_v2 + fv.trades_v3 + fv.trades_v4 + fv.trades_v5 + fv.trades_v6
-                     + fv.trades_v7 + fv.trades_v8)
+                     + fv.trades_v7 + fv.trades_v8 + fv.trades_v9)
     while any(t["status"] in ("open", "resting") for t in books()) and time.time() < deadline:
         try:
             fv.poll()
