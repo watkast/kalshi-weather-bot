@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 7:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 87 finished bets | 13% | -$10.19 | -78% | -11.71¢ | -$4.63 / -$5.56 |
+| ESPN-verified leagues only, sell at 2¢ | 90 finished bets | 12% | -$10.64 | -79% | -11.82¢ | -$4.93 / -$5.71 |
 
-*Expect about **43 buys a day**, roughly **$6.48/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 87 | -$10.43 | -80% |
-| ESPN-verified leagues only, sell at 5¢ | 87 | -$10.45 | -80% |
-| ESPN-verified leagues only, sell at 3¢ | 87 | -$10.71 | -82% |
+| ESPN-verified leagues only, sell at 10¢ | 90 | -$10.88 | -81% |
+| ESPN-verified leagues only, sell at 5¢ | 90 | -$10.90 | -81% |
+| ESPN-verified leagues only, sell at 3¢ | 90 | -$11.16 | -83% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1227 | 87 | 0 (0%) | 1.1% | -$13.05 (-100%) | Sell at 2¢: -$10.19 (-78%) |
+| 1228 | 90 | 0 (0%) | 1.1% | -$13.50 (-100%) | Sell at 2¢: -$10.64 (-79%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 3 | 0.9% | 0.0% (0) | +8% | ✅ Better |
+| ESPN win probability | 4 | 0.8% | 0.0% (0) | +21% | ✅ Better |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 3 | 0 | -100% | -100% | -100% | -100% |
+| **Any 1¢ (no model)** | 4 | 0 | -100% | -100% | -100% | -100% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
 
@@ -66,8 +66,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 87 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 1131 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Verified | 90 | 12% | 7% | 4% | 2% | 0% | 0% |
+| Unverified | 1135 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -75,13 +75,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$13.05 | -100% |
-| Sell at 2¢ | 11 | 13% | -$10.19 | -78% |
-| Sell at 3¢ | 6 | 7% | -$10.71 | -82% |
-| Sell at 5¢ | 4 | 5% | -$10.45 | -80% |
-| Sell at 10¢ | 2 | 2% | -$10.43 | -80% |
-| Sell at 25¢ | 0 | 0% | -$13.05 | -100% |
-| Sell at 50¢ | 0 | 0% | -$13.05 | -100% |
+| Hold to the end | 0 | 0% | -$13.50 | -100% |
+| Sell at 2¢ | 11 | 12% | -$10.64 | -79% |
+| Sell at 3¢ | 6 | 7% | -$11.16 | -83% |
+| Sell at 5¢ | 4 | 4% | -$10.90 | -81% |
+| Sell at 10¢ | 2 | 2% | -$10.88 | -81% |
+| Sell at 25¢ | 0 | 0% | -$13.50 | -100% |
+| Sell at 50¢ | 0 | 0% | -$13.50 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -89,16 +89,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 478 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 481 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 104 | 0 | 11% | 7% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Challenger ATP  | ✘ | 80 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 70 | 1 | 6% | 4% | +33% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
-| League of Legends Game | ✘ | 39 | 0 | 13% | 3% | -100% | -78% | 11 min |
+| League of Legends Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 11 min |
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
-| CONCACAF Nations League Game | partly | 28 | 0 | 21% | 7% | -100% | -63% | 25 min |
+| CONCACAF Nations League Game | partly | 30 | 0 | 20% | 7% | -100% | -65% | 21 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Challenger WTA | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
@@ -123,12 +123,12 @@
 | Valorant game winner | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
+| Women's Pro Basketball Game | ✔ | 3 | 0 | 33% | 33% | -100% | -42% | 30 min |
 | Women's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
-| Women's Pro Basketball Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 44 min |
 | Major League Soccer Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -147,9 +147,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 33 | 3% | 0% | 0% | -95% |
-| 5–15 min | 17 | 29% | 6% | 0% | -49% |
-| 15–30 min | 16 | 12% | 12% | 0% | -78% |
+| Under 5 min | 34 | 3% | 0% | 0% | -95% |
+| 5–15 min | 18 | 28% | 6% | 0% | -52% |
+| 15–30 min | 17 | 12% | 12% | 0% | -80% |
 | 30–60 min | 13 | 23% | 8% | 0% | -60% |
 | Over 60 min | 8 | 0% | 0% | 0% | -100% |
 
@@ -169,13 +169,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
-| 09-30 00:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | — | In play | — |
-| 09-30 00:46 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | — | In play | — |
-| 09-30 00:45 | CONCACAF Nations League Game | Tie | ✔ | 89' · ARU 1 - AIA 0 | — | In play | — |
-| 09-30 00:44 | Women's Pro Basketball Game | Las Vegas | ✔ | 1:17 - 4th · LV 87 - IND 96 | — | In play | — |
+| 09-30 00:59 | League of Legends Game | Chinese Taipei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:48 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:46 | TT Elite Series Match | Mrugala Bartlomiej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:45 | CONCACAF Nations League Game | Tie | ✔ | 89' · ARU 1 - AIA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 00:44 | Women's Pro Basketball Game | Las Vegas | ✔ | 1:17 - 4th · LV 87 - IND 96 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:37 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 00:33 | CONCACAF Nations League Game | Anguilla | ✔ | 77' · ARU 1 - AIA 0 | — | In play | — |
+| 09-30 00:33 | CONCACAF Nations League Game | Anguilla | ✔ | 77' · ARU 1 - AIA 0 | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 00:28 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:21 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 00:20 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -198,7 +199,6 @@
 | 09-29 23:16 | TT Elite Series Match | Marian Brunner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:12 | TT Elite Series Match | Jakub Pruszkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-29 23:10 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-29 23:07 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
