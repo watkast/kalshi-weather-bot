@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-09-30T18:00:08+00:00",
+ "saved_at": "2026-09-30T19:24:38+00:00",
  "series": 30,
  "markets_watched": 19,
  "batch_lookup": true,
- "bets": 3293,
- "open": 1,
+ "bets": 3310,
+ "open": 0,
  "coinbase_spot": {
   "DOGE": true,
-  "XRP": true,
-  "NEAR": true,
-  "ZEC": true,
-  "BTC": true,
-  "HYPE": true,
-  "BNB": true,
+  "ETH": true,
   "SOL": true,
-  "ETH": true
+  "ZEC": true,
+  "NEAR": true,
+  "XRP": true,
+  "HYPE": true,
+  "BTC": true,
+  "BNB": true
  },
- "errors": [
-  "2026-09-30T12:46:09+00:00 refresh KXPALLADIUM15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
