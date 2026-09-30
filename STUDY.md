@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 9:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 9:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **37 buys a day**, roughly **$5.61/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **37 buys a day**, roughly **$5.59/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1601 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1607 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1494 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1499 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 650 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 653 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 145 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| ITF Women's Match | ✘ | 143 | 0 | 11% | 6% | -100% | -81% | 5 min |
+| ITF Women's Match | ✘ | 144 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 99 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Counter-Strike 2 Game | ✘ | 79 | 1 | 5% | 4% | +18% | -91% | 11 min |
-| TT Star Series Match | ✘ | 54 | 1 | 4% | 4% | +73% | -94% | 4 min |
+| TT Star Series Match | ✘ | 55 | 1 | 4% | 4% | +70% | -94% | 4 min |
 | League of Legends Game | ✘ | 50 | 0 | 10% | 2% | -100% | -83% | 11 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -171,8 +171,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 15:43 | TT Star Series Match | Vráblík Jiří | ✘ | — | — | In play | — |
-| 09-30 15:39 | TT Elite Series Match | Skorupa Jakub | ✘ | — | — | In play | — |
+| 09-30 15:53 | TT Elite Series Match | Rus Maksymilian | ✘ | — | — | In play | — |
+| 09-30 15:51 | ITF Women's Match | Daniela Darta Feldmane | ✘ | — | — | In play | — |
+| 09-30 15:50 | ITF Women's Match | Barakat Oyinlomo Quadre | ✘ | — | — | In play | — |
+| 09-30 15:49 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 15:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 15:47 | ITF Women's Match | Francesca Dell'Edera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 15:43 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 15:39 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:37 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 15:36 | ITF Men's Match | Jordi Garcia Mestre | ✘ | — | — | In play | — |
 | 09-30 15:34 | Men's ODI Cricket Match | West Indies | ✘ | — | — | In play | — |
@@ -195,12 +201,6 @@
 | 09-30 15:00 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:58 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 14:56 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:56 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:55 | ITF Men's Match | Louis Tessa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 14:53 | Challenger WTA | Dalma Galfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:46 | ITF Men's Match | Mario Martinez Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 14:46 | ITF Women's Match | Eloise Newberry | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 09-30 14:42 | ITF Men's Match | Benoit Torcq | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
