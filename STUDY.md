@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 5:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **37 buys a day**, roughly **$5.56/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.55/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1834 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1837 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -178,6 +178,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 23:34 | TT Elite Series Match | Dominik Solilo | ✘ | — | — | In play | — |
+| 09-30 23:33 | TT Elite Series Match | Adrian Burkacki | ✘ | — | — | In play | — |
+| 09-30 23:24 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
 | 09-30 23:22 | Counter-Strike 2 Game | underw0rld | ✘ | — | — | In play | — |
 | 09-30 23:18 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 23:17 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,9 +208,6 @@
 | 09-30 21:45 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:43 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:43 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 21:42 | R6 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 21:40 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 21:39 | ITF Men's Match | Pablo Martinez Gomez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
