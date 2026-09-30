@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 11:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 11:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 100 finished bets | 12% | -$11.88 | -79% | -11.88¢ | -$5.16 / -$6.72 |
+| ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **44 buys a day**, roughly **$6.66/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **44 buys a day**, roughly **$6.64/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 3¢ | 100 | -$12.27 | -82% |
-| ESPN-verified leagues only, sell at 10¢ | 100 | -$12.38 | -83% |
-| ESPN-verified leagues only, sell at 5¢ | 100 | -$12.40 | -83% |
+| ESPN-verified leagues only, sell at 3¢ | 101 | -$12.42 | -82% |
+| ESPN-verified leagues only, sell at 10¢ | 101 | -$12.53 | -83% |
+| ESPN-verified leagues only, sell at 5¢ | 101 | -$12.55 | -83% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1308 | 100 | 0 (0%) | 1.1% | -$15.00 (-100%) | Sell at 2¢: -$11.88 (-79%) |
+| 1315 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 100 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1200 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
+| Unverified | 1206 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 0 | 0% | -$15.00 | -100% |
-| Sell at 2¢ | 12 | 12% | -$11.88 | -79% |
-| Sell at 3¢ | 7 | 7% | -$12.27 | -82% |
-| Sell at 5¢ | 4 | 4% | -$12.40 | -83% |
-| Sell at 10¢ | 2 | 2% | -$12.38 | -83% |
-| Sell at 25¢ | 0 | 0% | -$15.00 | -100% |
-| Sell at 50¢ | 0 | 0% | -$15.00 | -100% |
+| Hold to the end | 0 | 0% | -$15.15 | -100% |
+| Sell at 2¢ | 12 | 12% | -$12.03 | -79% |
+| Sell at 3¢ | 7 | 7% | -$12.42 | -82% |
+| Sell at 5¢ | 4 | 4% | -$12.55 | -83% |
+| Sell at 10¢ | 2 | 2% | -$12.53 | -83% |
+| Sell at 25¢ | 0 | 0% | -$15.15 | -100% |
+| Sell at 50¢ | 0 | 0% | -$15.15 | -100% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 527 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 108 | 0 | 10% | 6% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 84 | 0 | 10% | 2% | -100% | -83% | 5 min |
+| TT Elite Series Match | ✘ | 530 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 109 | 0 | 10% | 6% | -100% | -83% | 4 min |
+| Challenger ATP  | ✘ | 86 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | ITF Men's Match | ✘ | 82 | 0 | 10% | 4% | -100% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 72 | 1 | 6% | 4% | +30% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
@@ -118,6 +118,7 @@
 | Japan NPB Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 67 min |
 | KHL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 96 min |
+| NHL Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Women's College Volleyball Match | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 26 min |
 | Uruguay Primera Division Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 15 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -126,7 +127,6 @@
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
 | Professional Baseball Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 19 min |
-| NHL Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 3 min |
 | Women's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -149,7 +149,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 39 | 5% | 0% | 0% | -91% |
-| 5–15 min | 21 | 24% | 5% | 0% | -59% |
+| 5–15 min | 22 | 23% | 5% | 0% | -61% |
 | 15–30 min | 17 | 12% | 12% | 0% | -80% |
 | 30–60 min | 14 | 21% | 7% | 0% | -63% |
 | Over 60 min | 9 | 0% | 0% | 0% | -100% |
@@ -170,15 +170,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 05:36 | ITF Women's Match | Olga Danilova | ✘ | — | — | In play | — |
+| 09-30 05:33 | TT Elite Series Match | Adrian Spychala | ✘ | — | — | In play | — |
+| 09-30 05:32 | ITF Men's Match | Minghui Zhang | ✘ | — | — | In play | — |
+| 09-30 05:30 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 05:30 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | — | In play | — |
+| 09-30 05:28 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 05:28 | ITF Women's Match | Yu Shan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 09-30 05:28 | Challenger ATP  | Alexis Galarneau | ✘ | — | — | In play | — |
-| 09-30 05:25 | Challenger ATP  | Terence Atmane | ✘ | — | — | In play | — |
-| 09-30 05:24 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
+| 09-30 05:25 | Challenger ATP  | Terence Atmane | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 05:24 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:20 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:16 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
 | 09-30 05:16 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:11 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:11 | Challenger ATP  | James McCabe | ✘ | — | — | In play | — |
-| 09-30 05:09 | NHL Game | Chicago | ✔ | 5:25 - 3rd · CHI 2 - VGK 4 | — | In play | — |
+| 09-30 05:11 | Challenger ATP  | James McCabe | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-30 05:09 | NHL Game | Chicago | ✔ | 5:25 - 3rd · CHI 2 - VGK 4 | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:06 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:04 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:48 | NHL Game | Edmonton | ✔ | 3:01 - OT · VAN 5 - EDM 5 | 0¢ | ❌ Lost | -$0.15 |
@@ -193,13 +200,6 @@
 | 09-30 04:21 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:17 | Challenger ATP  | Moise Kouame | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 04:16 | TT Elite Series Match | Adrian Spychala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:11 | Counter-Strike 2 Game | LAG Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:10 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:08 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:07 | Challenger ATP  | Masamichi Imamura | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 09-30 04:05 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:04 | TT Elite Series Match | Piotr Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 04:04 | Challenger WTA | Chenting Zhu | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
