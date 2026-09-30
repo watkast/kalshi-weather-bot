@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Sep 29, 9:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Sep 29, 9:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 98 finished bets | 12% | -$11.58 | -79% | -11.82¢ | -$5.01 / -$6.57 |
 
-*Expect about **45 buys a day**, roughly **$6.74/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **45 buys a day**, roughly **$6.72/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1269 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
+| 1274 | 98 | 0 (0%) | 1.1% | -$14.70 (-100%) | Sell at 2¢: -$11.58 (-79%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 98 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1166 | 5% | 3% | 2% | 1% | 1% | 0% |
+| Unverified | 1170 | 5% | 3% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 505 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 507 | 0 | 0% | 0% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 106 | 0 | 10% | 7% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 81 | 0 | 9% | 1% | -100% | -85% | 5 min |
 | ITF Men's Match | ✘ | 81 | 0 | 10% | 4% | -100% | -83% | 5 min |
@@ -99,7 +99,7 @@
 | League of Legends Game | ✘ | 41 | 0 | 12% | 2% | -100% | -79% | 11 min |
 | TT Star Series Match | ✘ | 39 | 1 | 3% | 3% | +139% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
-| CONCACAF Nations League Game | partly | 30 | 0 | 20% | 7% | -100% | -65% | 21 min |
+| CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Men's T20 Cricket Match | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | International Friendly Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -159,7 +159,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 32 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 6 min |
+| Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -170,12 +170,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 03:45 | TT Elite Series Match | Oskar Jadach | ✘ | — | — | In play | — |
+| 09-30 03:54 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | — | In play | — |
+| 09-30 03:52 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | — | In play | — |
+| 09-30 03:50 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 03:50 | TT Elite Series Match | Marian Brunner | ✘ | — | — | In play | — |
+| 09-30 03:46 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 03:45 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:39 | ITF Women's Match | Naomi McKenzie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:37 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:35 | Professional Baseball Game | Chicago C | ✔ | Bot 5th · CHC 0 - SD 6 | — | In play | — |
 | 09-30 03:34 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 03:31 | CONCACAF Nations League Game | Belize | ✘ | — | — | In play | — |
+| 09-30 03:31 | CONCACAF Nations League Game | Belize | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-30 03:26 | TT Elite Series Match | Miastowski Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:22 | TT Elite Series Match | Kacper Kwiatkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 03:21 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,11 +200,6 @@
 | 09-30 02:33 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:29 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 02:22 | Women's Pro Basketball Game | Minnesota | ✔ | 6:01 - 4th · MIN 60 - NY 79 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:15 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:14 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 02:00 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:59 | League of Legends Game | India | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 01:58 | International Friendly Game | Tie | ✔ | 90'+2' · CHI 2 - USA 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
