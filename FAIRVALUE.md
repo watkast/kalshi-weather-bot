@@ -1,6 +1,6 @@
 # Fair-Value Bot
 
-*Updated Tue Sep 29, 7:17 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 8¢ cheaper than fair value after fees (10 contracts, held to the close).*
+*Updated Tue Sep 29, 7:28 PM MT. Paper money. Kalshi's 15-minute crypto up/down markets: every 2 seconds the bot works out the fair chance of UP from the live Coinbase price, the target price, time left and recent volatility, then buys whichever side is at least 8¢ cheaper than fair value after fees (10 contracts, held to the close).*
 
 [← Back to all bots](README.md) · [Gold & Silver version](METALS.md)
 
@@ -27,7 +27,7 @@
 
 | Trades | Settled | Won | Avg price paid | Model's avg chance | P&L | Return | Avg price move 3 min after buying |
 |---|---|---|---|---|---|---|---|
-| 1465 | 1464 | 676 (46%) | 44¢ | 53% | $56.44 | +1% | +4.1¢ |
+| 1471 | 1464 | 676 (46%) | 44¢ | 53% | $56.44 | +1% | +4.1¢ |
 
 *If the model is right, the win rate should land near the model's average chance, above the average price paid. "Price move 3 min after buying" shows whether the market moved toward the model's number soon after we bought — an early sign of real skill.*
 
@@ -49,7 +49,7 @@
 | **V2** | Trend-aware, wider swings, 50/50 with Kalshi's price | 923 | 310 (34%) | 402 / 521 | 7.3 | -$55.90 | -$343.97 | -10% |
 | **V3** | 5–10 min left only, 8¢+ edge, 3-exchange price, max 2 per window | 234 | 78 (33%) | 65 / 169 | 2.0 | -$14.97 | -$118.57 | -13% |
 | **V4** | Limit orders 2¢ under the ask, 3-exchange price, max 2 per window · filled 78% of orders | 247 | 102 (41%) | 77 / 170 | 2.0 | -$13.69 | -$53.93 | -5% |
-| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 142 | 60 (42%) | 51 / 91 | 1.5 | -$10.05 | -$40.19 | -7% |
+| **V5** | Trend Sniper: 6–12 min left, 25–55¢, 6¢+ edge, 1 bet per direction, take profit at 85¢ · *since it started* | 143 | 61 (43%) | 51 / 92 | 1.5 | -$10.05 | -$35.23 | -6% |
 | **V7** | V5 signals through the risk-managed $500 account (2% bets, max 3 open, 25% peak stop) · *since it started* | 90 | 37 (41%) | 33 / 57 | 1.4 | -$20.08 | -$110.30 | -13% |
 | **V8** | Trend Sniper on 1-hour markets: 20–45 min left, 25–55¢, 6¢+ edge · *since it started* | 31 | 12 (39%) | 12 / 19 | 1.6 | -$5.89 | -$1.37 | -1% |
 
@@ -146,6 +146,12 @@
 
 | When (MT) | Coin | Side | Time left | Paid | Model | Edge | Result | P&L |
 |---|---|---|---|---|---|---|---|---|
+| 9/29 7:27:24 PM | ETH | DOWN | 2.6 min | 7¢ | 18% | 11¢ | Open | — |
+| 9/29 7:25:10 PM | ZEC | DOWN | 4.8 min | 46¢ | 60% | 12¢ | Open | — |
+| 9/29 7:21:25 PM | DOGE | DOWN | 8.6 min | 27¢ | 39% | 10¢ | Open | — |
+| 9/29 7:21:24 PM | XRP | DOWN | 8.6 min | 39¢ | 49% | 8¢ | Open | — |
+| 9/29 7:21:24 PM | NEAR | DOWN | 8.6 min | 50¢ | 60% | 8¢ | Open | — |
+| 9/29 7:19:18 PM | HYPE | DOWN | 10.7 min | 43¢ | 55% | 10¢ | Open | — |
 | 9/29 7:16:28 PM | BNB | DOWN | 13.5 min | 33¢ | 45% | 10¢ | Open | — |
 | 9/29 7:07:26 PM | BTC | DOWN | 7.5 min | 64¢ | 76% | 10¢ | ✅ Won | $3.43 |
 | 9/29 7:07:19 PM | SOL | DOWN | 7.7 min | 37¢ | 52% | 13¢ | ❌ Lost | -$3.87 |
@@ -165,12 +171,6 @@
 | 9/29 6:40:59 PM | XRP | DOWN | 4.0 min | 45¢ | 55% | 8¢ | ✅ Won | $5.32 |
 | 9/29 6:39:07 PM | ZEC | DOWN | 5.9 min | 46¢ | 63% | 15¢ | ✅ Won | $5.22 |
 | 9/29 6:38:07 PM | BTC | DOWN | 6.9 min | 81¢ | 91% | 9¢ | ✅ Won | $1.79 |
-| 9/29 6:36:54 PM | SOL | DOWN | 8.1 min | 60¢ | 73% | 11¢ | ✅ Won | $3.83 |
-| 9/29 6:34:02 PM | DOGE | DOWN | 10.9 min | 27¢ | 39% | 11¢ | ✅ Won | $7.16 |
-| 9/29 6:31:52 PM | BNB | DOWN | 13.1 min | 35¢ | 51% | 14¢ | ❌ Lost | -$3.68 |
-| 9/29 6:31:36 PM | ETH | DOWN | 13.4 min | 64¢ | 79% | 13¢ | ✅ Won | $3.43 |
-| 9/29 6:27:09 PM | SOL | UP | 2.8 min | 16¢ | 36% | 19¢ | ✅ Won | $8.30 |
-| 9/29 6:24:39 PM | HYPE | DOWN | 5.3 min | 52¢ | 65% | 11¢ | ❌ Lost | -$5.38 |
 
 ## How the model works
 
