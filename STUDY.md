@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 4:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 4:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **38 buys a day**, roughly **$5.64/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.63/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1820 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1824 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1705 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1709 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 729 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 732 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | ITF Women's Match | ✘ | 160 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 89 | 1 | 4% | 3% | +5% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 90 | 1 | 4% | 3% | +4% | -92% | 11 min |
 | TT Star Series Match | ✘ | 67 | 1 | 3% | 3% | +39% | -95% | 4 min |
 | League of Legends Game | ✘ | 57 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -166,7 +166,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -178,8 +178,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 09-30 22:32 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 22:32 | ITF Women's Match | Kayla Day | ✘ | — | — | In play | — |
+| 09-30 22:32 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 22:25 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:19 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:18 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | — | In play | — |
+| 09-30 22:18 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:18 | League of Legends Game | KaBuM! Ilha das Lendas | ✘ | — | — | In play | — |
 | 09-30 22:10 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:06 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -204,10 +208,6 @@
 | 09-30 21:09 | EuroCup Basketball Game | Turk Telekom | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:09 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 21:04 | TT Elite Series Match | Kaczynski Piotr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:59 | Counter-Strike 2 Game | Young TigeRES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:58 | Champions League Women's Game | Chelsea | ✔ | 90'+11' · CHE 0 - LYON 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:58 | Champions League Women's Game | Lyon | ✔ | 90'+11' · CHE 0 - LYON 0 | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 20:58 | ITF Men's Match | Vignesh Gogineni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
