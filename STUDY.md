@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 12:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 12:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 101 finished bets | 12% | -$12.03 | -79% | -11.91¢ | -$5.16 / -$6.87 |
 
-*Expect about **43 buys a day**, roughly **$6.50/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **43 buys a day**, roughly **$6.48/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1338 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
+| 1343 | 101 | 0 (0%) | 1.1% | -$15.15 (-100%) | Sell at 2¢: -$12.03 (-79%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 101 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 1231 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1237 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 545 | 0 | 0% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 114 | 0 | 11% | 6% | -100% | -80% | 4 min |
+| TT Elite Series Match | ✘ | 548 | 0 | 0% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 115 | 0 | 11% | 6% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 88 | 0 | 10% | 2% | -100% | -82% | 5 min |
-| ITF Men's Match | ✘ | 83 | 0 | 10% | 4% | -100% | -83% | 5 min |
+| ITF Men's Match | ✘ | 85 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 72 | 1 | 6% | 4% | +30% | -90% | 10 min |
 | AFCON Game Winner | ✘ | 43 | 1 | 14% | 5% | +117% | -76% | 10 min |
 | League of Legends Game | ✘ | 42 | 0 | 12% | 2% | -100% | -79% | 11 min |
@@ -170,11 +170,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 09-30 06:48 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | — | In play | — |
+| 09-30 06:59 | Challenger ATP  | Hanyi Liu | ✘ | — | — | In play | — |
+| 09-30 06:56 | ITF Women's Match | Alana Subasic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 06:53 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | — | In play | — |
+| 09-30 06:50 | TT Elite Series Match | Blazej Warpas | ✘ | — | — | In play | — |
+| 09-30 06:50 | ITF Men's Match | Shu Muto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 06:48 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 06:45 | ITF Women's Match | Alina Yuneva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 06:45 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
-| 09-30 06:44 | ITF Men's Match | Anthony Susanto | ✘ | — | — | In play | — |
-| 09-30 06:42 | TT Elite Series Match | Adrian Spychala | ✘ | — | — | In play | — |
+| 09-30 06:45 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 09-30 06:44 | ITF Men's Match | Anthony Susanto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 09-30 06:42 | TT Elite Series Match | Adrian Spychala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 06:39 | TT Elite Series Match | Rus Maksymilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 06:27 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 06:25 | TT Elite Series Match | Petr David | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -195,11 +200,6 @@
 | 09-30 05:41 | TT Elite Series Match | Rafal Gajda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 05:36 | ITF Women's Match | Olga Danilova | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 09-30 05:33 | TT Elite Series Match | Adrian Spychala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:32 | ITF Men's Match | Minghui Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:30 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:30 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:28 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 05:28 | ITF Women's Match | Yu Shan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
