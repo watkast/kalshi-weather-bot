@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 6:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 6:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.44/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.43/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2102 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2107 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1964 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1973 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 870 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 872 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 194 | 0 | 9% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 180 | 0 | 11% | 7% | -100% | -81% | 4 min |
-| Challenger ATP  | ✘ | 116 | 0 | 9% | 2% | -100% | -85% | 5 min |
+| ITF Women's Match | ✘ | 181 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 118 | 0 | 8% | 2% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 103 | 1 | 4% | 3% | -9% | -93% | 10 min |
-| TT Star Series Match | ✘ | 77 | 1 | 3% | 3% | +21% | -95% | 4 min |
+| TT Star Series Match | ✘ | 78 | 1 | 3% | 3% | +20% | -96% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -104,13 +104,13 @@
 | Men's T20 Cricket Match | ✘ | 23 | 0 | 17% | 9% | -100% | -70% | 17 min |
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
 | Dota 2 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 28 min |
+| International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | R6 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| International Friendly Game | ✔ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
-| Japan NPB Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
 | Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
@@ -180,14 +180,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 12:11 | TT Star Series Match | Tymofieiev Oleksandr | ✘ | — | — | In play | — |
-| 10-01 12:11 | TT Elite Series Match | Dawid Kosmal | ✘ | — | — | In play | — |
-| 10-01 12:11 | Japan NPB Game | Chiba Lotte Marines | ✘ | — | — | In play | — |
+| 10-01 12:19 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:19 | TT Elite Series Match | Artur Grela | ✘ | — | — | In play | — |
+| 10-01 12:17 | ITF Women's Match | Hania Abouelsaad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:13 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
+| 10-01 12:12 | Challenger ATP  | Dominic Stricker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:11 | TT Star Series Match | Tymofieiev Oleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:11 | TT Elite Series Match | Dawid Kosmal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:11 | Japan NPB Game | Chiba Lotte Marines | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:09 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:07 | ITF Women's Match | nour sahnoun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:06 | Challenger ATP  | Laurent Lokoli | ✘ | — | — | In play | — |
-| 10-01 12:06 | International Friendly Game | Ecuador | ✘ | — | — | In play | — |
-| 10-01 12:06 | International Friendly Game | Japan | ✘ | — | — | In play | — |
+| 10-01 12:06 | Challenger ATP  | Laurent Lokoli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:06 | International Friendly Game | Ecuador | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-01 12:06 | International Friendly Game | Japan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:04 | ITF Women's Match | Zi Ying Ruan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:01 | Challenger ATP  | Laslo Djere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:00 | Counter-Strike 2 Game | B8 | ✘ | — | — | In play | — |
@@ -205,11 +210,6 @@
 | 10-01 11:37 | ITF Men's Match | Michiel De Krom | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-01 11:35 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:35 | Valorant game winner | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:32 | TT Elite Series Match | Piotr Gumulinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:32 | Challenger WTA | Anna Blinkova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 11:31 | ITF Men's Match | Corentin Denolly | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 11:31 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:29 | Challenger ATP  | Goncalo Marques | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
