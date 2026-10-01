@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 3:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 3:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.68/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2403 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
+| 2407 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 2250 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2251 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 972 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 973 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 204 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 131 | 1 | 4% | 3% | -29% | -93% | 10 min |
@@ -184,9 +184,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 21:27 | Counter-Strike 2 Game | FaZe | ✘ | — | — | In play | — |
+| 10-01 21:25 | TT Elite Series Match | Lebek Marian | ✘ | — | — | In play | — |
+| 10-01 21:23 | Darts Match | Gemma Hayter | ✘ | — | — | In play | — |
+| 10-01 21:21 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | — | In play | — |
 | 10-01 21:14 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-01 21:12 | ITF Women's Match | Mary Stoiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | — | In play | — |
+| 10-01 21:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:08 | CONCACAF Nations League Game | Virgin Islands, U.S. | ✘ | — | — | In play | — |
 | 10-01 21:03 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:02 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,10 +214,6 @@
 | 10-01 20:36 | UEFA Nations League Game | Malta | ✔ | 90'+3' · GIB 1 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:35 | UEFA Nations League Game | Tie | ✔ | 90'+3' · NOR 1 - WAL 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:34 | ITF Women's Match | Francesca Pace | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-01 20:33 | UEFA Nations League Game | Tie | ✔ | 87' · POR 3 - DEN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:31 | R6 Game | Wildcard Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:30 | UEFA Nations League Game | Denmark | ✔ | 84' · POR 3 - DEN 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 20:28 | UEFA Nations League Game | Norway | ✔ | 86' · NOR 1 - WAL 2 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
