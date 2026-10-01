@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **35 buys a day**, roughly **$5.21/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.20/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2214 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2216 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2078 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2082 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 917 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 919 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 202 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 195 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| Challenger ATP  | ✘ | 122 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Challenger ATP  | ✘ | 123 | 0 | 8% | 2% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 114 | 1 | 4% | 3% | -18% | -94% | 10 min |
 | TT Star Series Match | ✘ | 83 | 1 | 2% | 2% | +12% | -96% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
@@ -117,9 +117,9 @@
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
+| Darts Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NHL Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 4 min |
-| Darts Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 53 min |
 | Women's College Volleyball Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 30 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Valorant game winner | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -181,14 +181,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 16:14 | ITF Women's Match | Amandine Monnot | ✘ | — | — | In play | — |
+| 10-01 16:06 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:03 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
-| 10-01 16:02 | TT Elite Series Match | Jakub Glanowski | ✘ | — | — | In play | — |
+| 10-01 16:02 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:59 | TT Elite Series Match | Tkocz Marek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:57 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:53 | Challenger ATP  | Pierluigi Basile | ✘ | — | — | In play | — |
+| 10-01 15:53 | Challenger ATP  | Pierluigi Basile | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 15:52 | TT Elite Series Match | Rafal Niemiec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:48 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:42 | Darts Match | Robert Thornton | ✘ | — | — | In play | — |
+| 10-01 15:42 | Darts Match | Robert Thornton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:41 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:38 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:36 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,8 +211,6 @@
 | 10-01 14:58 | ITF Women's Match | Maddalena Giordano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:57 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:56 | Dota 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:53 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:53 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
