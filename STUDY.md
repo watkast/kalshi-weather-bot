@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 2:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 2:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **35 buys a day**, roughly **$5.28/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.31/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2364 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2374 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2225 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2227 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -111,16 +111,16 @@
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Darts Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
+| Euroleague Game | ✘ | 13 | 0 | 23% | 8% | -100% | -60% | 38 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
-| Euroleague Game | ✘ | 12 | 0 | 25% | 8% | -100% | -57% | 41 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Women's College Volleyball Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 86 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
-| National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
 | ELH Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NHL Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 4 min |
 | Valorant game winner | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -184,11 +184,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 20:28 | UEFA Nations League Game | Norway | ✔ | 86' · NOR 1 - WAL 2 | — | In play | — |
+| 10-01 20:28 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
+| 10-01 20:28 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | — | In play | — |
+| 10-01 20:27 | Challenger ATP  | Stefan Kozlov | ✘ | — | — | In play | — |
+| 10-01 20:26 | ITF Men's Match | Dragos Nicolae Cazacu | ✘ | — | — | In play | — |
+| 10-01 20:26 | Counter-Strike 2 Game | SINQU | ✘ | — | — | In play | — |
+| 10-01 20:23 | Euroleague Game | BC Olympiakos Piraeus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:22 | TT Elite Series Match | Adrian Myszewski | ✘ | — | — | In play | — |
+| 10-01 20:21 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | — | In play | — |
+| 10-01 20:20 | League of Legends Game | Team Phantasma | ✘ | — | — | In play | — |
 | 10-01 20:18 | ITF Men's Match | Alejandro Melero Kretzer | ✘ | — | — | In play | — |
 | 10-01 20:15 | Champions League Women's Game | Tie | ✔ | 59' · OHL 0 - PSG 2 | — | In play | — |
 | 10-01 20:15 | UEFA Nations League Game | Austria | ✔ | 67' · AUT 0 - IRL 2 | — | In play | — |
 | 10-01 20:08 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:07 | National League Game | HC Ambri-Piotta | ✘ | — | — | In play | — |
+| 10-01 20:07 | National League Game | HC Ambri-Piotta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:05 | UEFA Nations League Game | Tie | ✔ | 61' · SRB 0 - GER 1 | — | In play | — |
 | 10-01 20:02 | Darts Match | Stephen Bunting | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:01 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -204,16 +214,6 @@
 | 10-01 19:40 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:38 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:37 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:35 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:33 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:30 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:29 | SHL Game | Malmo Redhawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:29 | UEFA Nations League Game | Serbia | ✔ | 43' · SRB 0 - GER 1 | — | In play | — |
-| 10-01 19:27 | ITF Men's Match | Felix Corwin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:25 | Men's T20 Cricket Match | Challenging Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:22 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:20 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:20 | SHL Game | Brynas IF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
