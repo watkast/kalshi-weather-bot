@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 3:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 3:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **37 buys a day**, roughly **$5.62/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.61/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2012 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2017 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1875 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1882 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 834 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 177 | 0 | 8% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 170 | 0 | 11% | 6% | -100% | -81% | 5 min |
+| TT Elite Series Match | ✘ | 838 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 179 | 0 | 8% | 4% | -100% | -85% | 5 min |
+| ITF Women's Match | ✘ | 171 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 111 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 95 | 1 | 4% | 3% | -2% | -93% | 10 min |
 | TT Star Series Match | ✘ | 72 | 1 | 3% | 3% | +30% | -95% | 4 min |
@@ -180,11 +180,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 09:24 | TT Elite Series Match | Wojciech Urban | ✘ | — | — | In play | — |
-| 10-01 09:23 | TT Elite Series Match | Dawid Michna | ✘ | — | — | In play | — |
-| 10-01 09:23 | ITF Men's Match | Lachlan Vickery | ✘ | — | — | In play | — |
-| 10-01 09:21 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | — | In play | — |
-| 10-01 09:20 | TT Elite Series Match | Jakub Kwapis | ✘ | — | — | In play | — |
+| 10-01 09:36 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | — | In play | — |
+| 10-01 09:36 | ITF Women's Match | Maia Ilinca Burcescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:35 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
+| 10-01 09:35 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | — | In play | — |
+| 10-01 09:32 | ITF Men's Match | Reece Falck | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:24 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:23 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:23 | ITF Men's Match | Lachlan Vickery | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-01 09:21 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:20 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:18 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:16 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:11 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,11 +210,6 @@
 | 10-01 09:00 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | ITF Men's Match | Mustafa Ege Sik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
