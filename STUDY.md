@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 1:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 1:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **34 buys a day**, roughly **$5.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.10/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2323 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2330 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2186 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2191 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 949 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 951 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 210 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 201 | 0 | 11% | 6% | -100% | -80% | 4 min |
+| Counter-Strike 2 Game | ✘ | 127 | 1 | 3% | 2% | -27% | -95% | 10 min |
 | Challenger ATP  | ✘ | 126 | 0 | 8% | 2% | -100% | -86% | 5 min |
-| Counter-Strike 2 Game | ✘ | 125 | 1 | 3% | 2% | -25% | -94% | 10 min |
 | TT Star Series Match | ✘ | 87 | 1 | 2% | 2% | +7% | -96% | 4 min |
-| League of Legends Game | ✘ | 67 | 0 | 9% | 3% | -100% | -84% | 11 min |
+| League of Legends Game | ✘ | 68 | 0 | 9% | 3% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | UEFA Nations League Game | ✔ | 38 | 0 | 8% | 0% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -182,13 +182,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 19:17 | SHL Game | Djurgardens IF | ✘ | — | — | In play | — |
+| 10-01 19:16 | SHL Game | Linkoping HC | ✘ | — | — | In play | — |
+| 10-01 19:11 | SHL Game | Växjö Lakers | ✘ | — | — | In play | — |
+| 10-01 19:11 | League of Legends Game | Lodis | ✘ | — | — | In play | — |
+| 10-01 19:10 | KHL Game | Severstal Cherepovets | ✘ | — | — | In play | — |
+| 10-01 19:09 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 19:08 | TT Elite Series Match | Staszczyk Konrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:05 | DEL Game | Iserlohn Roosters | ✘ | — | — | In play | — |
 | 10-01 19:05 | ITF Men's Match | Marko Mesarovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:05 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 10-01 19:05 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:04 | Dota 2 Game | Team Liquid | ✘ | — | — | In play | — |
-| 10-01 19:04 | Counter-Strike 2 Game | Astralis | ✘ | — | — | In play | — |
+| 10-01 19:04 | Counter-Strike 2 Game | Astralis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:59 | ELH Game | Ceske Budejovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:57 | League of Legends Game | JSK Esports | ✘ | — | — | In play | — |
+| 10-01 18:57 | League of Legends Game | JSK Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:56 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:54 | R6 Game | For Fun Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:54 | ITF Women's Match | Francesca Mattioli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,13 +212,6 @@
 | 10-01 18:30 | Champions League Women's Game | Inter Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:27 | Counter-Strike 2 Game | Nice Try | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:25 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:22 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:17 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:14 | League of Legends Game | Senshi Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:14 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:08 | Euroleague Game | Real Madrid | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-01 18:04 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:02 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
