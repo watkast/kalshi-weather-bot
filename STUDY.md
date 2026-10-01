@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **35 buys a day**, roughly **$5.32/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.31/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2168 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2171 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2030 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2034 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 894 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 896 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 202 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 192 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 120 | 0 | 8% | 2% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 110 | 1 | 4% | 3% | -15% | -94% | 10 min |
-| TT Star Series Match | ✘ | 79 | 1 | 3% | 3% | +18% | -96% | 4 min |
+| TT Star Series Match | ✘ | 80 | 1 | 2% | 2% | +17% | -96% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -151,9 +151,9 @@
 | Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
+| Darts Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 98 min |
-| Darts Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 16 min |
 
 ## By time left when it hit 1¢
 
@@ -181,12 +181,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 14:12 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
+| 10-01 14:20 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 14:18 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
+| 10-01 14:18 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 14:12 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:11 | Valorant game winner | XLG Gaming | ✘ | — | — | In play | — |
 | 10-01 14:08 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:06 | Counter-Strike 2 Game | Next UP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:06 | Men's T20 Cricket Match | Eastern Cape Iinyathi | ✘ | — | — | In play | — |
-| 10-01 14:04 | Darts Match | Jamie Kelling | ✘ | — | — | In play | — |
+| 10-01 14:04 | Darts Match | Jamie Kelling | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:02 | ITF Women's Match | Matilde Mariani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:02 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:00 | ITF Women's Match | Adriana Tkachenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,9 +211,6 @@
 | 10-01 13:16 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:16 | ITF Women's Match | Adrienn Nagy | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 13:14 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:06 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:05 | Women's ODI Cricket Match | Western Australia Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:04 | ITF Women's Match | Linda Klimovicova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
