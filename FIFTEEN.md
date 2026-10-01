@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Sep 30, 10:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Sep 30, 10:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 120 finished bets | 2% | $10.30 | +58% | +8.58¢ | $19.00 / -$8.70 |
 
-*Expect about **39 buys a day** (~$5.87/day at risk); max loss per buy **15¢**.*
+*Expect about **39 buys a day** (~$5.85/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3903 | 3897 | 14 (0%) | 1.07% | -$279.65 (-59%) | Hold to the close: -$279.65 (-59%) |
+| 3904 | 3897 | 14 (0%) | 1.07% | -$279.65 (-59%) | Hold to the close: -$279.65 (-59%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/30 10:27:37 PM | EURUSD | UP | 2.4 min | — | — | In play | — |
 | 9/30 10:14:38 PM | SOL | DOWN | 22 sec | +0.033% | 1¢ | ❌ Lost | -$0.15 |
 | 9/30 10:14:38 PM | GOLD | DOWN | 22 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 9/30 10:14:38 PM | XRP | UP | 22 sec | -0.060% | 1¢ | ❌ Lost | -$0.15 |
@@ -209,7 +210,6 @@
 | 9/30 9:58:06 PM | GBPUSD | DOWN | 1.9 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 9:58:06 PM | GOLD | DOWN | 1.9 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 9/30 9:57:51 PM | ETH | DOWN | 2.1 min | +0.116% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 9:57:35 PM | EURUSD | DOWN | 2.4 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
