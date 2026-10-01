@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 12:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 12:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **39 buys a day**, roughly **$5.84/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.83/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1966 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 1968 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1827 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1833 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 811 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 169 | 0 | 11% | 7% | -100% | -81% | 5 min |
+| TT Elite Series Match | ✘ | 814 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 170 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 164 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| Challenger ATP  | ✘ | 110 | 0 | 9% | 2% | -100% | -84% | 5 min |
+| Challenger ATP  | ✘ | 111 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
 | TT Star Series Match | ✘ | 67 | 1 | 3% | 3% | +39% | -95% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
@@ -102,7 +102,7 @@
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Men's T20 Cricket Match | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 15 min |
-| Challenger WTA | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 10 min |
+| Challenger WTA | ✘ | 21 | 0 | 14% | 10% | -100% | -75% | 10 min |
 | Dota 2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -180,14 +180,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 06:31 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | — | In play | — |
+| 10-01 06:30 | ITF Men's Match | Yua Taka | ✘ | — | — | In play | — |
 | 10-01 06:22 | Men's T20 Cricket Match | Sri Lanka | ✘ | — | — | In play | — |
-| 10-01 06:22 | ITF Women's Match | Albina Kakenova | ✘ | — | — | In play | — |
-| 10-01 06:22 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
-| 10-01 06:21 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | — | In play | — |
-| 10-01 06:21 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
-| 10-01 06:17 | Challenger ATP  | Michael Zheng | ✘ | — | — | In play | — |
+| 10-01 06:22 | ITF Women's Match | Albina Kakenova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 06:22 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 06:21 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 06:21 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 06:17 | Challenger ATP  | Michael Zheng | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:17 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:14 | Challenger WTA | Alevtina Ibragimova | ✘ | — | — | In play | — |
+| 10-01 06:14 | Challenger WTA | Alevtina Ibragimova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:09 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | — | In play | — |
 | 10-01 06:00 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 05:53 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 10-01 05:13 | Challenger WTA | Sofia Costoulas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 05:12 | ITF Women's Match | Ava Beck | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-01 05:11 | ITF Women's Match | Kanna Soeda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 05:07 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 05:00 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
