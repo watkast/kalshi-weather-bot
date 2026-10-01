@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Thu Oct 1, 2:48 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Thu Oct 1, 4:14 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -15,8 +15,8 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 78 | 36 | 42% | -$33.67 | -18.3% | 42 | Losing |
-| **Rain** | 22 | 14 | 29% | -$3.82 | -8.7% | 8 | Too early |
-| **Longshot fade** | 953 | 710 | 92% | -$195.94 | -2.9% | 243 | Break-even |
+| **Rain** | 24 | 14 | 29% | -$3.82 | -8.7% | 10 | Too early |
+| **Longshot fade** | 953 | 717 | 92% | -$192.42 | -2.8% | 236 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -24,13 +24,13 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 448 | 303 | 92% | -$58.47 | -2.0% |
+| Other | 448 | 309 | 93% | -$55.60 | -1.9% |
 | NFL | 211 | 209 | 89% | -$114.59 | -5.8% |
 | Weather | 89 | 82 | 96% | $12.86 | +1.7% |
 | MLB | 68 | 68 | 96% | $7.20 | +1.1% |
 | College football | 68 | 0 | — | — | — |
 | Crypto | 39 | 20 | 95% | $1.32 | +0.7% |
-| Soccer | 27 | 25 | 76% | -$46.07 | -19.5% |
+| Soccer | 27 | 26 | 77% | -$45.42 | -18.5% |
 | NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 | NHL | 1 | 1 | 100% | $0.74 | +8.0% |
 
@@ -53,6 +53,8 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-02 | PIT | YES | 71¢ | 94% | Open | — |
+| 2026-10-02 | CLL | YES | 84¢ | 96% | Open | — |
 | 2026-10-01 | PIT | YES | 5¢ | 16% | Open | — |
 | 2026-10-01 | MIA | NO | 7¢ | 18% | Open | — |
 | 2026-10-01 | NOLA | YES | 57¢ | 74% | Open | — |
@@ -61,8 +63,6 @@
 | 2026-09-30 | DAL | NO | 34¢ | 55% | Open | — |
 | 2026-09-30 | CLL | YES | 35¢ | 48% | Open | — |
 | 2026-09-30 | OKC | YES | 85¢ | 97% | Open | — |
-| 2026-09-29 | LV | YES | 38¢ | 56% | YES | $6.03 |
-| 2026-09-29 | DEN | YES | 44¢ | 65% | NO | -$4.58 |
 
 ## The bots
 
