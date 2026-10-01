@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 1:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 2:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **35 buys a day**, roughly **$5.18/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.21/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2355 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2361 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2218 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2221 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 959 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 961 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 211 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 201 | 0 | 11% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 129 | 1 | 3% | 2% | -28% | -95% | 10 min |
@@ -156,6 +156,7 @@
 | Croatia Premijer Liga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 98 min |
 | Austria BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 86 min |
 | DEL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 44 min |
+| Bundesliga Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 13 min |
 
 ## By time left when it hit 1¢
 
@@ -183,11 +184,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 20:08 | TT Elite Series Match | Michal Wolny | ✘ | — | — | In play | — |
+| 10-01 20:07 | National League Game | HC Ambri-Piotta | ✘ | — | — | In play | — |
+| 10-01 20:05 | UEFA Nations League Game | Tie | ✔ | 61' · SRB 0 - GER 1 | — | In play | — |
+| 10-01 20:02 | Darts Match | Stephen Bunting | ✘ | — | — | In play | — |
+| 10-01 20:01 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
+| 10-01 20:01 | Euroleague Game | Anadolu Efes SK | ✘ | — | — | In play | — |
 | 10-01 19:57 | UEFA Nations League Game | Gibraltar | ✔ | 54' · GIB 0 - MLT 1 | — | In play | — |
-| 10-01 19:55 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | — | In play | — |
-| 10-01 19:54 | TT Elite Series Match | Linek Adam | ✘ | — | — | In play | — |
+| 10-01 19:55 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 19:54 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:52 | Champions League Women's Game | Leuven | ✔ | HT · OHL 0 - PSG 1 | — | In play | — |
-| 10-01 19:52 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | — | In play | — |
+| 10-01 19:52 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 19:50 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:49 | Challenger ATP  | Tristan Schoolkate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:49 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -207,12 +214,6 @@
 | 10-01 19:20 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:19 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:17 | SHL Game | Timra IK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:17 | Challenger ATP  | Colton Smith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:17 | SHL Game | Djurgardens IF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:16 | SHL Game | Linkoping HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:11 | SHL Game | Växjö Lakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:11 | League of Legends Game | Lodis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:10 | KHL Game | Severstal Cherepovets | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
