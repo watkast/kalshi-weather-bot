@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 2:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 2:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 133 finished bets | 1% | -$5.95 | -30% | -4.47¢ | -$9.90 / $3.95 |
+| ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.63/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 133 | -$13.20 | -66% |
-| ESPN-verified leagues only, sell at 2¢ | 133 | -$15.27 | -77% |
-| ESPN-verified leagues only, sell at 3¢ | 133 | -$15.66 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 149 | -$15.60 | -70% |
+| ESPN-verified leagues only, sell at 10¢ | 149 | -$17.11 | -77% |
+| ESPN-verified leagues only, sell at 2¢ | 149 | -$17.15 | -77% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2391 | 133 | 1 (1%) | 1.1% | -$5.95 (-30%) | Hold to the end: -$5.95 (-30%) |
+| 2397 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 133 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2238 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
+| Unverified | 2243 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$5.95 | -30% |
-| Sell at 2¢ | 18 | 14% | -$15.27 | -77% |
-| Sell at 3¢ | 11 | 8% | -$15.66 | -78% |
-| Sell at 5¢ | 6 | 5% | -$16.05 | -80% |
-| Sell at 10¢ | 3 | 2% | -$16.02 | -80% |
-| Sell at 25¢ | 1 | 1% | -$16.64 | -83% |
-| Sell at 50¢ | 1 | 1% | -$13.20 | -66% |
+| Hold to the end | 1 | 1% | -$8.35 | -37% |
+| Sell at 2¢ | 20 | 13% | -$17.15 | -77% |
+| Sell at 3¢ | 13 | 9% | -$17.28 | -77% |
+| Sell at 5¢ | 8 | 5% | -$17.15 | -77% |
+| Sell at 10¢ | 4 | 3% | -$17.11 | -77% |
+| Sell at 25¢ | 1 | 1% | -$19.04 | -85% |
+| Sell at 50¢ | 1 | 1% | -$15.60 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,15 +90,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 967 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 212 | 0 | 8% | 4% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 969 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 202 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 130 | 1 | 4% | 3% | -28% | -93% | 10 min |
+| Counter-Strike 2 Game | ✘ | 131 | 1 | 4% | 3% | -29% | -93% | 10 min |
 | Challenger ATP  | ✘ | 129 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 89 | 1 | 2% | 2% | +5% | -96% | 4 min |
 | League of Legends Game | ✘ | 70 | 0 | 9% | 3% | -100% | -85% | 11 min |
+| UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| UEFA Nations League Game | ✔ | 40 | 0 | 8% | 0% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
 | Dota 2 Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 28 min |
@@ -106,12 +106,12 @@
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
 | R6 Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Champions League Women's Game | partly | 15 | 1 | 27% | 13% | +522% | -54% | 20 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
+| Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | Darts Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
-| Euroleague Game | ✘ | 13 | 0 | 23% | 8% | -100% | -60% | 38 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -162,10 +162,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 49 | 4% | 0% | 0% | -93% |
-| 5–15 min | 26 | 19% | 4% | 0% | -67% |
-| 15–30 min | 25 | 28% | 12% | 4% | -51% |
-| 30–60 min | 18 | 22% | 11% | 0% | -61% |
+| Under 5 min | 58 | 3% | 0% | 0% | -94% |
+| 5–15 min | 29 | 17% | 3% | 0% | -70% |
+| 15–30 min | 26 | 31% | 15% | 4% | -47% |
+| 30–60 min | 21 | 24% | 14% | 0% | -59% |
 | Over 60 min | 15 | 0% | 0% | 0% | -100% |
 
 ## Speed & liquidity
@@ -184,36 +184,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 20:59 | ITF Women's Match | Ana Victoria Gobbi Monllau | ✘ | — | — | In play | — |
+| 10-01 20:54 | TT Elite Series Match | Aleksander Barton | ✘ | — | — | In play | — |
+| 10-01 20:51 | Champions League Women's Game | Manchester City | ✔ | 90'+4' · RMA 1 - MNC 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:51 | Champions League Women's Game | Real Madrid | ✔ | 90'+4' · RMA 1 - MNC 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:51 | Euroleague Game | BC Zalgiris Kaunas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:51 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | — | In play | — |
 | 10-01 20:48 | Darts Match | Jermaine Wattimena | ✘ | — | — | In play | — |
-| 10-01 20:46 | TT Elite Series Match | Dominik Solilo | ✘ | — | — | In play | — |
-| 10-01 20:43 | Counter-Strike 2 Game | Flame Hard | ✘ | — | — | In play | — |
+| 10-01 20:46 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:43 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:43 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | — | In play | — |
-| 10-01 20:41 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | — | In play | — |
-| 10-01 20:41 | UEFA Nations League Game | Ireland | ✔ | 90'+3' · AUT 2 - IRL 2 | — | In play | — |
-| 10-01 20:40 | UEFA Nations League Game | Greece | ✔ | 90'+5' · NED 2 - GRE 2 | — | In play | — |
-| 10-01 20:40 | UEFA Nations League Game | Netherlands | ✔ | 90'+5' · NED 2 - GRE 2 | — | In play | — |
+| 10-01 20:41 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:41 | UEFA Nations League Game | Ireland | ✔ | 90'+3' · AUT 2 - IRL 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:40 | UEFA Nations League Game | Greece | ✔ | 90'+5' · NED 2 - GRE 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:40 | UEFA Nations League Game | Netherlands | ✔ | 90'+5' · NED 2 - GRE 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:40 | TT Elite Series Match | Wojciech Pytlas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:38 | UEFA Nations League Game | Israel | ✔ | 90'+4' · KOS 0 - ISR 0 | — | In play | — |
-| 10-01 20:38 | UEFA Nations League Game | Kosovo | ✔ | 90'+3' · KOS 0 - ISR 0 | — | In play | — |
-| 10-01 20:36 | UEFA Nations League Game | Malta | ✔ | 90'+3' · GIB 1 - MLT 1 | — | In play | — |
-| 10-01 20:35 | UEFA Nations League Game | Tie | ✔ | 90'+3' · NOR 1 - WAL 2 | — | In play | — |
+| 10-01 20:38 | UEFA Nations League Game | Israel | ✔ | 90'+4' · KOS 0 - ISR 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:38 | UEFA Nations League Game | Kosovo | ✔ | 90'+3' · KOS 0 - ISR 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:36 | UEFA Nations League Game | Malta | ✔ | 90'+3' · GIB 1 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:35 | UEFA Nations League Game | Tie | ✔ | 90'+3' · NOR 1 - WAL 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:34 | ITF Women's Match | Francesca Pace | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-01 20:33 | UEFA Nations League Game | Tie | ✔ | 87' · POR 3 - DEN 2 | — | In play | — |
+| 10-01 20:33 | UEFA Nations League Game | Tie | ✔ | 87' · POR 3 - DEN 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:31 | R6 Game | Wildcard Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:30 | UEFA Nations League Game | Denmark | ✔ | 84' · POR 3 - DEN 2 | — | In play | — |
-| 10-01 20:28 | UEFA Nations League Game | Norway | ✔ | 86' · NOR 1 - WAL 2 | — | In play | — |
+| 10-01 20:30 | UEFA Nations League Game | Denmark | ✔ | 84' · POR 3 - DEN 2 | 1¢ | ❌ Lost | -$0.15 |
+| 10-01 20:28 | UEFA Nations League Game | Norway | ✔ | 86' · NOR 1 - WAL 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 20:28 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:28 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:27 | Challenger ATP  | Stefan Kozlov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:26 | ITF Men's Match | Dragos Nicolae Cazacu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:26 | Counter-Strike 2 Game | SINQU | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-01 20:23 | Euroleague Game | BC Olympiakos Piraeus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:22 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:21 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:20 | League of Legends Game | Team Phantasma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:18 | ITF Men's Match | Alejandro Melero Kretzer | ✘ | — | — | In play | — |
-| 10-01 20:15 | Champions League Women's Game | Tie | ✔ | 59' · OHL 0 - PSG 2 | — | In play | — |
-| 10-01 20:15 | UEFA Nations League Game | Austria | ✔ | 67' · AUT 0 - IRL 2 | — | In play | — |
 
 ## Raw data
 
