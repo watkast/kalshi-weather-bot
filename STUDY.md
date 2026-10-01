@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 7:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 8:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 119 finished bets | 1% | -$3.85 | -22% | -3.24¢ | -$8.85 / $5.00 |
+| ESPN-verified leagues only, hold to the end | 121 finished bets | 1% | -$4.15 | -23% | -3.43¢ | -$9.00 / $4.85 |
 
-*Expect about **39 buys a day**, roughly **$5.90/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$5.93/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 119 | -$11.10 | -62% |
-| ESPN-verified leagues only, sell at 10¢ | 119 | -$13.92 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 119 | -$13.95 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 121 | -$11.40 | -63% |
+| ESPN-verified leagues only, sell at 3¢ | 121 | -$13.86 | -76% |
+| ESPN-verified leagues only, sell at 2¢ | 121 | -$13.99 | -77% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1882 | 119 | 1 (1%) | 1.1% | -$3.85 (-22%) | Hold to the end: -$3.85 (-22%) |
+| 1885 | 121 | 1 (1%) | 1.1% | -$4.15 (-23%) | Hold to the end: -$4.15 (-23%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 119 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1755 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 121 | 13% | 9% | 5% | 2% | 1% | 1% |
+| Unverified | 1756 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$3.85 | -22% |
-| Sell at 2¢ | 15 | 13% | -$13.95 | -78% |
-| Sell at 3¢ | 10 | 8% | -$13.95 | -78% |
-| Sell at 5¢ | 6 | 5% | -$13.95 | -78% |
-| Sell at 10¢ | 3 | 3% | -$13.92 | -78% |
-| Sell at 25¢ | 1 | 1% | -$14.54 | -81% |
-| Sell at 50¢ | 1 | 1% | -$11.10 | -62% |
+| Hold to the end | 1 | 1% | -$4.15 | -23% |
+| Sell at 2¢ | 16 | 13% | -$13.99 | -77% |
+| Sell at 3¢ | 11 | 9% | -$13.86 | -76% |
+| Sell at 5¢ | 6 | 5% | -$14.25 | -79% |
+| Sell at 10¢ | 3 | 2% | -$14.22 | -78% |
+| Sell at 25¢ | 1 | 1% | -$14.84 | -82% |
+| Sell at 50¢ | 1 | 1% | -$11.40 | -63% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 764 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 765 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
@@ -117,13 +117,13 @@
 | National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| USL Championship Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 11 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Women's College Volleyball Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 26 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| USL Championship Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 11 min |
 | Women's Pro Basketball Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 16 min |
 | Valorant game winner | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -158,9 +158,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 44 | 5% | 0% | 0% | -92% |
+| Under 5 min | 45 | 4% | 0% | 0% | -92% |
 | 5–15 min | 25 | 20% | 4% | 0% | -65% |
-| 15–30 min | 22 | 18% | 14% | 5% | -68% |
+| 15–30 min | 23 | 22% | 13% | 4% | -62% |
 | 30–60 min | 17 | 24% | 12% | 0% | -59% |
 | Over 60 min | 11 | 0% | 0% | 0% | -100% |
 
@@ -180,8 +180,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 02:06 | TT Elite Series Match | Witold Stechly | ✘ | — | — | In play | — |
+| 10-01 02:01 | USL Championship Game | Tie | ✔ | 90'+4' · NMU 0 - TUL 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 02:01 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:50 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | — | In play | — |
+| 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | 3¢ | ❌ Lost | -$0.15 |
 | 10-01 01:42 | League of Legends Game | Vietnam | ✘ | — | — | In play | — |
 | 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:34 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | — | In play | — |
@@ -207,9 +210,6 @@
 | 10-01 00:52 | USL Championship Game | Tie | ✔ | HT · JAX 1 - MIA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:51 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:47 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:44 | USL Championship Game | Brooklyn FC | ✔ | 80' · DET 0 - BFKC 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:43 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:41 | USL Championship Game | Sporting Jax | ✔ | HT · JAX 1 - MIA 2 | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
