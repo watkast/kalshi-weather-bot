@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 7:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.36/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.33/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2154 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2161 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2016 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2025 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 888 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 200 | 0 | 9% | 4% | -100% | -84% | 5 min |
-| ITF Women's Match | ✘ | 189 | 0 | 11% | 6% | -100% | -81% | 4 min |
-| Challenger ATP  | ✘ | 119 | 0 | 8% | 2% | -100% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 108 | 1 | 4% | 3% | -14% | -94% | 10 min |
+| TT Elite Series Match | ✘ | 892 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 202 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| ITF Women's Match | ✘ | 190 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 120 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 109 | 1 | 4% | 3% | -14% | -94% | 10 min |
 | TT Star Series Match | ✘ | 79 | 1 | 3% | 3% | +18% | -96% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -181,10 +181,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 13:33 | ITF Men's Match | Pierre Delage | ✘ | — | — | In play | — |
-| 10-01 13:33 | Challenger ATP  | Jacob Fearnley | ✘ | — | — | In play | — |
-| 10-01 13:30 | ITF Men's Match | Pedro Rodenas | ✘ | — | — | In play | — |
-| 10-01 13:30 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | — | In play | — |
+| 10-01 14:02 | TT Elite Series Match | Michal Olbrycht | ✘ | — | — | In play | — |
+| 10-01 14:00 | ITF Women's Match | Adriana Tkachenko | ✘ | — | — | In play | — |
+| 10-01 13:56 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:53 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:53 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:53 | ITF Women's Match | Klara Veldman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:35 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:33 | ITF Men's Match | Pierre Delage | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:33 | Challenger ATP  | Jacob Fearnley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:30 | ITF Men's Match | Pedro Rodenas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:30 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:24 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:24 | ITF Men's Match | Samir Hamza Reguig | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 13:22 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -204,13 +211,6 @@
 | 10-01 12:58 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:57 | Darts Match | Jamie Kelling | ✘ | — | — | In play | — |
 | 10-01 12:56 | Challenger ATP  | Mili Poljicak | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 12:56 | ITF Men's Match | Maxime Chazal | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-01 12:56 | ITF Men's Match | Filip Jeff Planinsek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:55 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:53 | ITF Women's Match | Kylie Collins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:52 | ITF Women's Match | Galena Krastenova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-01 12:51 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:50 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
