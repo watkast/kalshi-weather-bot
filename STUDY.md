@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 10:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 10:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 128 finished bets | 1% | -$5.20 | -27% | -4.06¢ | -$9.60 / $4.40 |
 
-*Expect about **40 buys a day**, roughly **$5.97/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$5.96/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1932 | 128 | 1 (1%) | 1.1% | -$5.20 (-27%) | Hold to the end: -$5.20 (-27%) |
+| 1934 | 128 | 1 (1%) | 1.1% | -$5.20 (-27%) | Hold to the end: -$5.20 (-27%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 128 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1795 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1798 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 793 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 794 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 165 | 0 | 11% | 6% | -100% | -81% | 5 min |
-| ITF Men's Match | ✘ | 162 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
+| ITF Men's Match | ✘ | 163 | 0 | 9% | 4% | -100% | -84% | 6 min |
+| Challenger ATP  | ✘ | 108 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
 | TT Star Series Match | ✘ | 67 | 1 | 3% | 3% | +39% | -95% | 4 min |
 | League of Legends Game | ✘ | 59 | 0 | 8% | 2% | -100% | -85% | 11 min |
@@ -180,10 +180,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 04:47 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 04:46 | ITF Women's Match | Tahlia Kokkinis | ✘ | — | — | In play | — |
 | 10-01 04:40 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 04:39 | ITF Men's Match | Chan-Yeong Oh | ✘ | — | — | In play | — |
+| 10-01 04:39 | ITF Men's Match | Chan-Yeong Oh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 04:37 | TT Elite Series Match | Witold Stechly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 04:37 | Challenger ATP  | Adam Walton | ✘ | — | — | In play | — |
+| 10-01 04:37 | Challenger ATP  | Adam Walton | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 04:35 | TT Elite Series Match | Oracz Lukasz | ✘ | — | — | In play | — |
 | 10-01 04:34 | NHL Game | Los Angeles | ✔ | 9:14 - 3rd · LA 3 - COL 6 | — | In play | — |
 | 10-01 04:33 | Challenger ATP  | Luka Pavlovic | ✘ | — | — | In play | — |
@@ -208,8 +210,6 @@
 | 10-01 03:48 | ITF Women's Match | Nana Onozawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 03:44 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 03:40 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 03:39 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 03:38 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
