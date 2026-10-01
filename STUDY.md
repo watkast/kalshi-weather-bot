@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 12:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 12:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **34 buys a day**, roughly **$5.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2298 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2301 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
 *In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2158 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2161 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 941 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 943 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 208 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 200 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 126 | 0 | 8% | 2% | -100% | -86% | 5 min |
@@ -113,9 +113,9 @@
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Euroleague Game | ✘ | 11 | 0 | 18% | 9% | -100% | -68% | 43 min |
 | Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
@@ -181,9 +181,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 18:25 | TT Elite Series Match | Dominik Solilo | ✘ | — | — | In play | — |
+| 10-01 18:22 | TT Star Series Match | Roșca Mihai | ✘ | — | — | In play | — |
+| 10-01 18:17 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:14 | League of Legends Game | Senshi Esports Club | ✘ | — | — | In play | — |
-| 10-01 18:14 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
-| 10-01 18:08 | Euroleague Game | Real Madrid | ✘ | — | — | In play | — |
+| 10-01 18:14 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 18:08 | Euroleague Game | Real Madrid | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-01 18:04 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:02 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:02 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,9 +211,6 @@
 | 10-01 17:50 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:45 | Challenger ATP  | Daniil Ostapenkov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:44 | Liga Leumit Game | Nazareth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:44 | AFCON Game Winner | Kenya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
