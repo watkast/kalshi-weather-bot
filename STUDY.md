@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 12:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 12:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
+| ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **34 buys a day**, roughly **$5.17/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.16/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 129 | -$12.60 | -65% |
-| ESPN-verified leagues only, sell at 2¢ | 129 | -$14.67 | -76% |
-| ESPN-verified leagues only, sell at 3¢ | 129 | -$15.06 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 131 | -$12.90 | -66% |
+| ESPN-verified leagues only, sell at 2¢ | 131 | -$14.97 | -76% |
+| ESPN-verified leagues only, sell at 3¢ | 131 | -$15.36 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2295 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2298 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2152 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 2158 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$5.35 | -28% |
-| Sell at 2¢ | 18 | 14% | -$14.67 | -76% |
-| Sell at 3¢ | 11 | 9% | -$15.06 | -78% |
-| Sell at 5¢ | 6 | 5% | -$15.45 | -80% |
-| Sell at 10¢ | 3 | 2% | -$15.42 | -80% |
-| Sell at 25¢ | 1 | 1% | -$16.04 | -83% |
-| Sell at 50¢ | 1 | 1% | -$12.60 | -65% |
+| Hold to the end | 1 | 1% | -$5.65 | -29% |
+| Sell at 2¢ | 18 | 14% | -$14.97 | -76% |
+| Sell at 3¢ | 11 | 8% | -$15.36 | -78% |
+| Sell at 5¢ | 6 | 5% | -$15.75 | -80% |
+| Sell at 10¢ | 3 | 2% | -$15.72 | -80% |
+| Sell at 25¢ | 1 | 1% | -$16.34 | -83% |
+| Sell at 50¢ | 1 | 1% | -$12.90 | -66% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,15 +90,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 940 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 941 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 208 | 0 | 9% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 199 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 200 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 126 | 0 | 8% | 2% | -100% | -86% | 5 min |
 | Counter-Strike 2 Game | ✘ | 123 | 1 | 3% | 2% | -24% | -94% | 10 min |
-| TT Star Series Match | ✘ | 84 | 1 | 2% | 2% | +11% | -96% | 4 min |
-| League of Legends Game | ✘ | 65 | 0 | 9% | 3% | -100% | -84% | 11 min |
-| AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
-| UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
+| TT Star Series Match | ✘ | 85 | 1 | 2% | 2% | +10% | -96% | 4 min |
+| League of Legends Game | ✘ | 66 | 0 | 9% | 3% | -100% | -84% | 11 min |
+| AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| UEFA Nations League Game | ✔ | 38 | 0 | 8% | 0% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | Men's T20 Cricket Match | ✘ | 24 | 0 | 17% | 8% | -100% | -71% | 18 min |
 | Dota 2 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 28 min |
@@ -159,7 +159,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 47 | 4% | 0% | 0% | -93% |
+| Under 5 min | 49 | 4% | 0% | 0% | -93% |
 | 5–15 min | 26 | 19% | 4% | 0% | -67% |
 | 15–30 min | 25 | 28% | 12% | 4% | -51% |
 | 30–60 min | 17 | 24% | 12% | 0% | -59% |
@@ -181,11 +181,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 18:04 | TT Elite Series Match | Andrzej Krezel | ✘ | — | — | In play | — |
-| 10-01 18:02 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
-| 10-01 18:02 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 10-01 17:59 | ITF Women's Match | Eszter Meri | ✘ | — | — | In play | — |
-| 10-01 17:58 | League of Legends Game | NightBirds | ✘ | — | — | In play | — |
+| 10-01 18:14 | League of Legends Game | Senshi Esports Club | ✘ | — | — | In play | — |
+| 10-01 18:14 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
+| 10-01 18:08 | Euroleague Game | Real Madrid | ✘ | — | — | In play | — |
+| 10-01 18:04 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 18:02 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 18:02 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:59 | ITF Women's Match | Eszter Meri | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-01 17:58 | League of Legends Game | NightBirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:56 | Women's College Volleyball Match | Houston Baptist | ✘ | — | — | In play | — |
 | 10-01 17:56 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:55 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -194,23 +197,20 @@
 | 10-01 17:54 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:53 | Liga Leumit Game | Maccabi Bney Reine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:53 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:53 | UEFA Nations League Game | Azerbaijan | ✔ | 90'+4' · LIE 0 - AZE 0 | — | In play | — |
+| 10-01 17:53 | UEFA Nations League Game | Azerbaijan | ✔ | 90'+4' · LIE 0 - AZE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:53 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:52 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:52 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
 | 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:51 | Liga Leumit Game | Ra`anana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:50 | UEFA Nations League Game | Liechtenstein | ✔ | 90'+1' · LIE 0 - AZE 0 | — | In play | — |
+| 10-01 17:50 | UEFA Nations League Game | Liechtenstein | ✔ | 90'+1' · LIE 0 - AZE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:50 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:45 | Challenger ATP  | Daniil Ostapenkov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:44 | Liga Leumit Game | Nazareth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:44 | AFCON Game Winner | Kenya | ✘ | — | — | In play | — |
-| 10-01 17:41 | Liga Leumit Game | M. Herzliya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:40 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:40 | Liga Leumit Game | Kfar Saba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:44 | AFCON Game Winner | Kenya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
