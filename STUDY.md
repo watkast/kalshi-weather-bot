@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 7:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 7:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.39/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.38/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2138 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2141 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1999 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2005 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 881 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 198 | 0 | 9% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 184 | 0 | 11% | 7% | -100% | -81% | 4 min |
+| TT Elite Series Match | ✘ | 883 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 199 | 0 | 9% | 5% | -100% | -84% | 5 min |
+| ITF Women's Match | ✘ | 186 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 118 | 0 | 8% | 2% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 108 | 1 | 4% | 3% | -14% | -94% | 10 min |
 | TT Star Series Match | ✘ | 79 | 1 | 3% | 3% | +18% | -96% | 4 min |
@@ -106,7 +106,7 @@
 | Dota 2 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | R6 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| KBO Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
+| KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -181,14 +181,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 13:02 | ITF Women's Match | Ophelie Boullay | ✘ | — | — | In play | — |
-| 10-01 13:01 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
-| 10-01 13:00 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | — | In play | — |
+| 10-01 13:06 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:05 | Women's ODI Cricket Match | Western Australia Women | ✘ | — | — | In play | — |
+| 10-01 13:04 | ITF Women's Match | Linda Klimovicova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:02 | ITF Women's Match | Ophelie Boullay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:01 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:00 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:58 | ITF Women's Match | Marie Weckerle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:58 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:57 | Darts Match | Jamie Kelling | ✘ | — | — | In play | — |
 | 10-01 12:56 | Challenger ATP  | Mili Poljicak | ✘ | — | — | In play | — |
-| 10-01 12:56 | ITF Men's Match | Maxime Chazal | ✘ | — | — | In play | — |
+| 10-01 12:56 | ITF Men's Match | Maxime Chazal | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-01 12:56 | ITF Men's Match | Filip Jeff Planinsek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:55 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:53 | ITF Women's Match | Kylie Collins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,9 +211,6 @@
 | 10-01 12:35 | ITF Men's Match | Michel Hopp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:35 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:35 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:34 | KBO Game | Hanwha Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:34 | ITF Women's Match | Beatris Spasova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 12:25 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
