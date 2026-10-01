@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 4:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 4:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **37 buys a day**, roughly **$5.54/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2049 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2053 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1911 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1914 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 852 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 853 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 185 | 0 | 8% | 4% | -100% | -86% | 5 min |
-| ITF Women's Match | ✘ | 173 | 0 | 12% | 7% | -100% | -80% | 5 min |
-| Challenger ATP  | ✘ | 111 | 0 | 9% | 2% | -100% | -84% | 5 min |
+| ITF Women's Match | ✘ | 174 | 0 | 11% | 7% | -100% | -80% | 5 min |
+| Challenger ATP  | ✘ | 112 | 0 | 9% | 2% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 98 | 1 | 4% | 3% | -5% | -93% | 10 min |
 | TT Star Series Match | ✘ | 75 | 1 | 3% | 3% | +24% | -95% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
@@ -180,12 +180,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 10:40 | Challenger ATP  | Harry Wendelken | ✘ | — | — | In play | — |
+| 10-01 10:49 | R6 Game | FearX | ✘ | — | — | In play | — |
+| 10-01 10:49 | ITF Men's Match | Jan Kupcic | ✘ | — | — | In play | — |
+| 10-01 10:44 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 10-01 10:41 | ITF Men's Match | Arjun Mehrotra | ✘ | — | — | In play | — |
+| 10-01 10:40 | Challenger ATP  | Harry Wendelken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:40 | TT Star Series Match | Tymofieiev Oleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:40 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
 | 10-01 10:40 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | — | In play | — |
-| 10-01 10:39 | TT Elite Series Match | Ptak Wiktor | ✘ | — | — | In play | — |
-| 10-01 10:39 | ITF Women's Match | Anna Snigireva | ✘ | — | — | In play | — |
+| 10-01 10:39 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 10:39 | ITF Women's Match | Anna Snigireva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:34 | ITF Men's Match | Matei Todoran | ✘ | — | — | In play | — |
 | 10-01 10:30 | ITF Men's Match | Matteo Fondriest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:28 | ITF Men's Match | Zangar Nurlanuly | ✘ | — | — | In play | — |
@@ -206,10 +210,6 @@
 | 10-01 10:04 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:58 | ITF Men's Match | Tamerlan Azizov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:54 | TT Star Series Match | Alexandrov Teodor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:54 | ITF Men's Match | Rares Teodor Pieleanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:53 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:50 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:44 | Counter-Strike 2 Game | CTRL Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
