@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 3:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 3:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.66/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2410 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
+| 2418 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 2255 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2256 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 975 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 976 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 205 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 131 | 1 | 4% | 3% | -29% | -93% | 10 min |
@@ -184,6 +184,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 21:45 | TT Star Series Match | Abedinian Milad | ✘ | — | — | In play | — |
+| 10-01 21:43 | Counter-Strike 2 Game | ALKA | ✘ | — | — | In play | — |
+| 10-01 21:41 | Counter-Strike 2 Game | CYBERSHOKE Esports | ✘ | — | — | In play | — |
+| 10-01 21:41 | CONCACAF Nations League Game | Dominica | ✔ | 41' · GUY 1 - DMA 0 | — | In play | — |
+| 10-01 21:41 | R6 Game | Cloud9 | ✘ | — | — | In play | — |
+| 10-01 21:41 | TT Elite Series Match | Aleksander Barton | ✘ | — | — | In play | — |
+| 10-01 21:40 | TT Elite Series Match | Linek Adam | ✘ | — | — | In play | — |
+| 10-01 21:40 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:37 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
 | 10-01 21:34 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-01 21:31 | ITF Women's Match | Sofia Meabe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,14 +214,6 @@
 | 10-01 20:48 | Darts Match | Jermaine Wattimena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:46 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:43 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:43 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | — | In play | — |
-| 10-01 20:41 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:41 | UEFA Nations League Game | Ireland | ✔ | 90'+3' · AUT 2 - IRL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:40 | UEFA Nations League Game | Greece | ✔ | 90'+5' · NED 2 - GRE 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:40 | UEFA Nations League Game | Netherlands | ✔ | 90'+5' · NED 2 - GRE 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:40 | TT Elite Series Match | Wojciech Pytlas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:38 | UEFA Nations League Game | Israel | ✔ | 90'+4' · KOS 0 - ISR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:38 | UEFA Nations League Game | Kosovo | ✔ | 90'+3' · KOS 0 - ISR 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
