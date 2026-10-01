@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 1, 12:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 1, 12:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 123 finished bets | 2% | $9.85 | +54% | +8.01¢ | $18.85 / -$9.00 |
 
-*Expect about **39 buys a day** (~$5.82/day at risk); max loss per buy **15¢**.*
+*Expect about **39 buys a day** (~$5.81/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4058 | 4052 | 14 (0%) | 1.07% | -$299.90 (-60%) | Hold to the close: -$299.90 (-60%) |
+| 4060 | 4052 | 14 (0%) | 1.07% | -$299.90 (-60%) | Hold to the close: -$299.90 (-60%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/1 12:56:18 AM | DOGE | DOWN | 3.7 min | +0.337% | — | In play | — |
+| 10/1 12:55:29 AM | HYPE | DOWN | 4.5 min | +0.320% | — | In play | — |
 | 10/1 12:44:52 AM | GBPUSD | DOWN | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/1 12:44:52 AM | COPPER | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/1 12:44:20 AM | NATGAS | DOWN | 39 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 10/1 12:29:11 AM | WTI | UP | 48 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/1 12:28:38 AM | NEAR | UP | 82 sec | -0.499% | 0¢ | ❌ Lost | $0.00 |
 | 10/1 12:28:38 AM | BTC | UP | 82 sec | -0.071% | 1¢ | ❌ Lost | -$0.15 |
-| 10/1 12:28:38 AM | HYPE | DOWN | 82 sec | +0.191% | 0¢ | ❌ Lost | -$0.15 |
-| 10/1 12:28:22 AM | EURUSD | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
