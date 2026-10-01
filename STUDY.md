@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **34 buys a day**, roughly **$5.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2234 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2237 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2101 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2102 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -115,9 +115,9 @@
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
+| Darts Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 4 min |
-| Darts Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Women's College Volleyball Match | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 58 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NHL Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 4 min |
@@ -181,10 +181,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 17:02 | ITF Men's Match | Max Sheldon | ✘ | — | — | In play | — |
+| 10-01 17:01 | Darts Match | Jamie Kelling | ✘ | — | — | In play | — |
+| 10-01 16:56 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | — | In play | — |
 | 10-01 16:45 | TT Elite Series Match | Dawid Kosmal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:45 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:44 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:43 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
+| 10-01 16:43 | Darts Match | Petri Rasmus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:40 | League of Legends Game | The Otter Side | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:38 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:35 | Counter-Strike 2 Game | Nice Try | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,9 +211,6 @@
 | 10-01 15:53 | Challenger ATP  | Pierluigi Basile | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 15:52 | TT Elite Series Match | Rafal Niemiec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:48 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:42 | Darts Match | Robert Thornton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:41 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:38 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
