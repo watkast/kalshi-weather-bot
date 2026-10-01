@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 9:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 9:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **35 buys a day**, roughly **$5.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2190 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2197 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -181,6 +181,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 15:13 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
+| 10-01 15:11 | Dota 2 Game | MOUZ | ✘ | — | — | In play | — |
+| 10-01 15:11 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 10-01 15:10 | Counter-Strike 2 Game | fnatic | ✘ | — | — | In play | — |
+| 10-01 15:10 | ITF Women's Match | Naiktha Bains | ✘ | — | — | In play | — |
+| 10-01 15:10 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | — | In play | — |
+| 10-01 15:09 | Challenger ATP  | Tiago Pereira | ✘ | — | — | In play | — |
 | 10-01 14:59 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
 | 10-01 14:58 | ITF Women's Match | Maddalena Giordano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:57 | Darts Match | Jim Widmayer | ✘ | — | — | In play | — |
@@ -204,13 +211,6 @@
 | 10-01 14:18 | Darts Match | Nico Plovier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:18 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:12 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:11 | Valorant game winner | XLG Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:08 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:06 | Counter-Strike 2 Game | Next UP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:06 | Men's T20 Cricket Match | Eastern Cape Iinyathi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:04 | Darts Match | Jamie Kelling | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:02 | ITF Women's Match | Matilde Mariani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:02 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
