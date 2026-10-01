@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 2:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 2:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **35 buys a day**, roughly **$5.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2374 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2382 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2227 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2234 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 962 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 211 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 966 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 212 | 0 | 8% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 201 | 0 | 11% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 129 | 1 | 3% | 2% | -28% | -95% | 10 min |
-| Challenger ATP  | ✘ | 128 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Challenger ATP  | ✘ | 129 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 89 | 1 | 2% | 2% | +5% | -96% | 4 min |
-| League of Legends Game | ✘ | 69 | 0 | 9% | 3% | -100% | -85% | 12 min |
+| League of Legends Game | ✘ | 70 | 0 | 9% | 3% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | UEFA Nations League Game | ✔ | 38 | 0 | 8% | 0% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -184,16 +184,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 20:38 | UEFA Nations League Game | Israel | ✔ | 90'+4' · KOS 0 - ISR 0 | — | In play | — |
+| 10-01 20:38 | UEFA Nations League Game | Kosovo | ✔ | 90'+3' · KOS 0 - ISR 0 | — | In play | — |
+| 10-01 20:36 | UEFA Nations League Game | Malta | ✔ | 90'+3' · GIB 1 - MLT 1 | — | In play | — |
+| 10-01 20:35 | UEFA Nations League Game | Tie | ✔ | 90'+3' · NOR 1 - WAL 2 | — | In play | — |
+| 10-01 20:34 | ITF Women's Match | Francesca Pace | ✘ | — | — | In play | — |
+| 10-01 20:33 | UEFA Nations League Game | Tie | ✔ | 87' · POR 3 - DEN 2 | — | In play | — |
+| 10-01 20:31 | R6 Game | Wildcard Gaming | ✘ | — | — | In play | — |
+| 10-01 20:30 | UEFA Nations League Game | Denmark | ✔ | 84' · POR 3 - DEN 2 | — | In play | — |
 | 10-01 20:28 | UEFA Nations League Game | Norway | ✔ | 86' · NOR 1 - WAL 2 | — | In play | — |
-| 10-01 20:28 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | — | In play | — |
-| 10-01 20:28 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | — | In play | — |
-| 10-01 20:27 | Challenger ATP  | Stefan Kozlov | ✘ | — | — | In play | — |
-| 10-01 20:26 | ITF Men's Match | Dragos Nicolae Cazacu | ✘ | — | — | In play | — |
+| 10-01 20:28 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:28 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:27 | Challenger ATP  | Stefan Kozlov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:26 | ITF Men's Match | Dragos Nicolae Cazacu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:26 | Counter-Strike 2 Game | SINQU | ✘ | — | — | In play | — |
 | 10-01 20:23 | Euroleague Game | BC Olympiakos Piraeus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:22 | TT Elite Series Match | Adrian Myszewski | ✘ | — | — | In play | — |
-| 10-01 20:21 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | — | In play | — |
-| 10-01 20:20 | League of Legends Game | Team Phantasma | ✘ | — | — | In play | — |
+| 10-01 20:22 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:21 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:20 | League of Legends Game | Team Phantasma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:18 | ITF Men's Match | Alejandro Melero Kretzer | ✘ | — | — | In play | — |
 | 10-01 20:15 | Champions League Women's Game | Tie | ✔ | 59' · OHL 0 - PSG 2 | — | In play | — |
 | 10-01 20:15 | UEFA Nations League Game | Austria | ✔ | 67' · AUT 0 - IRL 2 | — | In play | — |
@@ -206,14 +214,6 @@
 | 10-01 19:57 | UEFA Nations League Game | Gibraltar | ✔ | 54' · GIB 0 - MLT 1 | — | In play | — |
 | 10-01 19:55 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:54 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:52 | Champions League Women's Game | Leuven | ✔ | HT · OHL 0 - PSG 1 | — | In play | — |
-| 10-01 19:52 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 19:50 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:49 | Challenger ATP  | Tristan Schoolkate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:49 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:40 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:38 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:37 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
