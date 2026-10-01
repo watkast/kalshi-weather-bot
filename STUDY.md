@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 2:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 2:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **35 buys a day**, roughly **$5.21/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.28/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2361 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2364 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2221 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2225 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 961 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 962 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 211 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 201 | 0 | 11% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 129 | 1 | 3% | 2% | -28% | -95% | 10 min |
 | Challenger ATP  | ✘ | 128 | 0 | 8% | 2% | -100% | -86% | 5 min |
-| TT Star Series Match | ✘ | 88 | 1 | 2% | 2% | +6% | -96% | 4 min |
+| TT Star Series Match | ✘ | 89 | 1 | 2% | 2% | +5% | -96% | 4 min |
 | League of Legends Game | ✘ | 69 | 0 | 9% | 3% | -100% | -85% | 12 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | UEFA Nations League Game | ✔ | 38 | 0 | 8% | 0% | -100% | -86% | 6 min |
@@ -109,13 +109,13 @@
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Champions League Women's Game | partly | 15 | 1 | 27% | 13% | +522% | -54% | 20 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
+| Darts Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
-| Darts Match | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
+| Euroleague Game | ✘ | 12 | 0 | 25% | 8% | -100% | -57% | 41 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Euroleague Game | ✘ | 11 | 0 | 18% | 9% | -100% | -68% | 43 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Women's College Volleyball Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 86 min |
@@ -184,12 +184,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 20:08 | TT Elite Series Match | Michal Wolny | ✘ | — | — | In play | — |
+| 10-01 20:18 | ITF Men's Match | Alejandro Melero Kretzer | ✘ | — | — | In play | — |
+| 10-01 20:15 | Champions League Women's Game | Tie | ✔ | 59' · OHL 0 - PSG 2 | — | In play | — |
+| 10-01 20:15 | UEFA Nations League Game | Austria | ✔ | 67' · AUT 0 - IRL 2 | — | In play | — |
+| 10-01 20:08 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:07 | National League Game | HC Ambri-Piotta | ✘ | — | — | In play | — |
 | 10-01 20:05 | UEFA Nations League Game | Tie | ✔ | 61' · SRB 0 - GER 1 | — | In play | — |
-| 10-01 20:02 | Darts Match | Stephen Bunting | ✘ | — | — | In play | — |
-| 10-01 20:01 | TT Star Series Match | Tormos Kilian | ✘ | — | — | In play | — |
-| 10-01 20:01 | Euroleague Game | Anadolu Efes SK | ✘ | — | — | In play | — |
+| 10-01 20:02 | Darts Match | Stephen Bunting | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:01 | TT Star Series Match | Tormos Kilian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:01 | Euroleague Game | Anadolu Efes SK | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-01 19:57 | UEFA Nations League Game | Gibraltar | ✔ | 54' · GIB 0 - MLT 1 | — | In play | — |
 | 10-01 19:55 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:54 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,9 +214,6 @@
 | 10-01 19:22 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:20 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 19:20 | SHL Game | Brynas IF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:20 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:19 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 19:17 | SHL Game | Timra IK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
