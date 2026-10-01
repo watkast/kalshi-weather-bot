@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 4:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 4:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2436 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
+| 2442 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 2280 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2282 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 986 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 987 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 205 | 0 | 12% | 6% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 136 | 1 | 4% | 3% | -31% | -94% | 10 min |
 | Challenger ATP  | ✘ | 129 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 91 | 1 | 2% | 2% | +3% | -96% | 4 min |
@@ -184,8 +184,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 22:33 | TT Elite Series Match | Dariusz Molenda | ✘ | — | — | In play | — |
-| 10-01 22:32 | ITF Women's Match | Arianna Zucchini | ✘ | — | — | In play | — |
+| 10-01 22:50 | R6 Game | Outlast | ✘ | — | — | In play | — |
+| 10-01 22:50 | TT Elite Series Match | Michal Wolny | ✘ | — | — | In play | — |
+| 10-01 22:50 | Counter-Strike 2 Game | Flame Hard | ✘ | — | — | In play | — |
+| 10-01 22:47 | Darts Match | Gemma Hayter | ✘ | — | — | In play | — |
+| 10-01 22:47 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
+| 10-01 22:44 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | — | In play | — |
+| 10-01 22:33 | TT Elite Series Match | Dariusz Molenda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 22:32 | ITF Women's Match | Arianna Zucchini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 22:28 | Darts Match | Michael Wiles | ✘ | — | — | In play | — |
 | 10-01 22:25 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 22:23 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,12 +214,6 @@
 | 10-01 21:41 | CONCACAF Nations League Game | Dominica | ✔ | 41' · GUY 1 - DMA 0 | — | In play | — |
 | 10-01 21:41 | R6 Game | Cloud9 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:41 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:40 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:40 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:37 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
-| 10-01 21:34 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:31 | ITF Women's Match | Sofia Meabe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:27 | Counter-Strike 2 Game | FaZe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
