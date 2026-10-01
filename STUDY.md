@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 11:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **34 buys a day**, roughly **$5.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.18/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2271 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2288 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2127 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2133 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 936 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 207 | 0 | 9% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 198 | 0 | 11% | 6% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 125 | 0 | 8% | 2% | -100% | -86% | 5 min |
-| Counter-Strike 2 Game | ✘ | 121 | 1 | 3% | 2% | -23% | -94% | 10 min |
+| TT Elite Series Match | ✘ | 937 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 208 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| ITF Women's Match | ✘ | 199 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 126 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 123 | 1 | 3% | 2% | -24% | -94% | 10 min |
 | TT Star Series Match | ✘ | 84 | 1 | 2% | 2% | +11% | -96% | 4 min |
 | League of Legends Game | ✘ | 65 | 0 | 9% | 3% | -100% | -84% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -181,36 +181,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 17:45 | Challenger ATP  | Daniil Ostapenkov | ✘ | — | — | In play | — |
+| 10-01 17:55 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | — | In play | — |
+| 10-01 17:54 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | — | In play | — |
+| 10-01 17:54 | Liga Leumit Game | Hapoel Afula | ✘ | — | — | In play | — |
+| 10-01 17:54 | TT Elite Series Match | Jakub Glanowski | ✘ | — | — | In play | — |
+| 10-01 17:53 | Liga Leumit Game | Maccabi Bney Reine | ✘ | — | — | In play | — |
+| 10-01 17:53 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:53 | UEFA Nations League Game | Azerbaijan | ✔ | 90'+4' · LIE 0 - AZE 0 | — | In play | — |
+| 10-01 17:53 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:52 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | — | In play | — |
+| 10-01 17:52 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
+| 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:51 | Liga Leumit Game | Ra`anana | ✘ | — | — | In play | — |
+| 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:50 | UEFA Nations League Game | Liechtenstein | ✔ | 90'+1' · LIE 0 - AZE 0 | — | In play | — |
+| 10-01 17:50 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:49 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:45 | Challenger ATP  | Daniil Ostapenkov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:44 | Liga Leumit Game | Nazareth | ✘ | — | — | In play | — |
 | 10-01 17:44 | AFCON Game Winner | Kenya | ✘ | — | — | In play | — |
 | 10-01 17:41 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
-| 10-01 17:40 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
+| 10-01 17:40 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:40 | Liga Leumit Game | Kfar Saba | ✘ | — | — | In play | — |
-| 10-01 17:40 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | — | In play | — |
+| 10-01 17:40 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:38 | Liga Leumit Game | Hapoel Acre | ✘ | — | — | In play | — |
 | 10-01 17:37 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:37 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:36 | ITF Men's Match | Micah Braswell | ✘ | — | — | In play | — |
-| 10-01 17:33 | ITF Women's Match | CAIRA DELFINA VEGA GUDINO | ✘ | — | — | In play | — |
+| 10-01 17:36 | ITF Men's Match | Micah Braswell | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-01 17:33 | ITF Women's Match | CAIRA DELFINA VEGA GUDINO | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-01 17:32 | Counter-Strike 2 Game | SINQU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:28 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:28 | ITF Women's Match | Marina Bulbarella | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:27 | TT Elite Series Match | Wojciech Pytlas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:26 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
-| 10-01 17:25 | Austria BSL Game | BC Vienna | ✘ | — | — | In play | — |
-| 10-01 17:24 | League of Legends Game | Frites Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:24 | Challenger ATP  | Bryce Nakashima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:22 | League of Legends Game | Valerion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:21 | Champions League Women's Game | Tie | ✘ | — | — | In play | — |
-| 10-01 17:16 | ITF Men's Match | Neo Niedner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:16 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:15 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:15 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:14 | Champions League Women's Game | Servette Chenois | ✘ | — | — | In play | — |
-| 10-01 17:14 | League of Legends Game | BOMBA Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:14 | Challenger ATP  | Ugo Blanchet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
