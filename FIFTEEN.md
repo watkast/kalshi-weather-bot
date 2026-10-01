@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Sep 30, 11:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Sep 30, 11:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 120 finished bets | 2% | $10.30 | +58% | +8.58¢ | $19.00 / -$8.70 |
 
-*Expect about **39 buys a day** (~$5.79/day at risk); max loss per buy **15¢**.*
+*Expect about **38 buys a day** (~$5.77/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3965 | 3959 | 14 (0%) | 1.07% | -$287.75 (-59%) | Hold to the close: -$287.75 (-59%) |
+| 3966 | 3959 | 14 (0%) | 1.07% | -$287.75 (-59%) | Hold to the close: -$287.75 (-59%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -180,6 +180,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 9/30 11:27:43 PM | GOLD | DOWN | 2.3 min | — | — | In play | — |
 | 9/30 11:14:51 PM | SILVER | DOWN | 9 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 9/30 11:14:51 PM | USDJPY | DOWN | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 11:14:35 PM | ZEC | DOWN | 25 sec | +0.010% | 0¢ | ❌ Lost | -$0.15 |
@@ -209,7 +210,6 @@
 | 9/30 10:58:09 PM | BNB | DOWN | 1.9 min | +0.092% | 1¢ | ❌ Lost | -$0.15 |
 | 9/30 10:57:52 PM | PLATINUM | DOWN | 2.1 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 9/30 10:57:37 PM | ZEC | DOWN | 2.4 min | +0.427% | 1¢ | ❌ Lost | -$0.15 |
-| 9/30 10:57:21 PM | NEAR | DOWN | 2.6 min | +0.538% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
