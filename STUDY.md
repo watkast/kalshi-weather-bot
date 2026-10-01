@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 6:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 6:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.43/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.42/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2107 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2109 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1973 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1975 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 872 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 874 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 194 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 181 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 118 | 0 | 8% | 2% | -100% | -85% | 5 min |
@@ -180,8 +180,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 12:25 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:24 | Darts Match | Robert Thornton | ✘ | — | — | In play | — |
 | 10-01 12:19 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:19 | TT Elite Series Match | Artur Grela | ✘ | — | — | In play | — |
+| 10-01 12:19 | TT Elite Series Match | Artur Grela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:17 | ITF Women's Match | Hania Abouelsaad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:13 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
 | 10-01 12:12 | Challenger ATP  | Dominic Stricker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 10-01 11:40 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:39 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:37 | ITF Men's Match | Michiel De Krom | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-01 11:35 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:35 | Valorant game winner | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
