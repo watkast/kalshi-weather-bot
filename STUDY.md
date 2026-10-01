@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 9:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 125 finished bets | 1% | -$4.75 | -25% | -3.80¢ | -$9.30 / $4.55 |
 
-*Expect about **39 buys a day**, roughly **$5.90/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.89/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1897 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
+| 1901 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 125 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1765 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1770 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,8 +90,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 770 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
+| TT Elite Series Match | ✘ | 774 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 163 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
@@ -180,11 +180,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 03:09 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
-| 10-01 03:09 | ITF Women's Match | Yuhan Liu | ✘ | — | — | In play | — |
-| 10-01 03:08 | TT Elite Series Match | Adrian Burkacki | ✘ | — | — | In play | — |
-| 10-01 03:08 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
-| 10-01 03:06 | TT Elite Series Match | Jerzy Michalik | ✘ | — | — | In play | — |
+| 10-01 03:20 | Men's T20 Cricket Match | Bangladesh | ✘ | — | — | In play | — |
+| 10-01 03:18 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | — | In play | — |
+| 10-01 03:15 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 10-01 03:12 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
+| 10-01 03:09 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:09 | ITF Women's Match | Yuhan Liu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:08 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:08 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:06 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:48 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:47 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:39 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,10 +210,6 @@
 | 10-01 01:28 | USL Championship Game | Indy Eleven | ✔ | 90'+1' · INDY 0 - RHI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:25 | Major League Soccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:24 | Major League Soccer Game | New York RB | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:24 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:14 | Canadian Premier League | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:11 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:05 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
