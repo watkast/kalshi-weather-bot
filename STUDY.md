@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 9:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 9:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 125 finished bets | 1% | -$4.75 | -25% | -3.80¢ | -$9.30 / $4.55 |
 
-*Expect about **39 buys a day**, roughly **$5.86/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.89/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1905 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
+| 1909 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 125 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1775 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1778 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 778 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 781 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 163 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
@@ -180,9 +180,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 03:40 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | — | In play | — |
-| 10-01 03:39 | TT Elite Series Match | Mariusz Baron | ✘ | — | — | In play | — |
-| 10-01 03:38 | TT Elite Series Match | Blazej Warpas | ✘ | — | — | In play | — |
+| 10-01 03:49 | Women's Pro Basketball Game | Golden State | ✔ | 21.9 - OT · GS 100 - DAL 105 | — | In play | — |
+| 10-01 03:48 | TT Elite Series Match | Andriej Fomin | ✘ | — | — | In play | — |
+| 10-01 03:48 | ITF Women's Match | Nana Onozawa | ✘ | — | — | In play | — |
+| 10-01 03:44 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | — | In play | — |
+| 10-01 03:40 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:39 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 03:38 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 03:24 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 03:20 | Men's T20 Cricket Match | Bangladesh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 03:18 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,10 +210,6 @@
 | 10-01 01:50 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | 3¢ | ❌ Lost | -$0.15 |
 | 10-01 01:42 | League of Legends Game | Vietnam | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:34 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:31 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:30 | USL Championship Game | Tie | ✔ | 90'+3' · INDY 0 - RHI 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
