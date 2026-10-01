@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 9:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 125 finished bets | 1% | -$4.75 | -25% | -3.80¢ | -$9.30 / $4.55 |
 
-*Expect about **39 buys a day**, roughly **$5.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1892 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
+| 1897 | 125 | 1 (1%) | 1.1% | -$4.75 (-25%) | Hold to the end: -$4.75 (-25%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 125 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1762 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1765 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -106,9 +106,9 @@
 | Dota 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
-| Liga DIMAYOR Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | ATP Tennis Match | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 2 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
@@ -118,9 +118,9 @@
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | USL Championship Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 11 min |
+| Women's College Volleyball Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 30 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NHL Game | ✔ | 7 | 0 | 14% | 0% | -100% | -75% | 4 min |
-| Women's College Volleyball Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 26 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -180,10 +180,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 03:09 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | — | In play | — |
+| 10-01 03:09 | ITF Women's Match | Yuhan Liu | ✘ | — | — | In play | — |
+| 10-01 03:08 | TT Elite Series Match | Adrian Burkacki | ✘ | — | — | In play | — |
+| 10-01 03:08 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
+| 10-01 03:06 | TT Elite Series Match | Jerzy Michalik | ✘ | — | — | In play | — |
 | 10-01 02:48 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:47 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 02:39 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 10-01 02:30 | Liga DIMAYOR Game | Junior | ✘ | — | — | In play | — |
+| 10-01 02:39 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 02:30 | Liga DIMAYOR Game | Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:28 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:23 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:15 | NHL Game | New York I | ✔ | 0:26 - 3rd · NYI 1 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -194,7 +199,7 @@
 | 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | 3¢ | ❌ Lost | -$0.15 |
 | 10-01 01:42 | League of Legends Game | Vietnam | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:34 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | — | In play | — |
+| 10-01 01:34 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:31 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:30 | USL Championship Game | Tie | ✔ | 90'+3' · INDY 0 - RHI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:29 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,11 +210,6 @@
 | 10-01 01:14 | Canadian Premier League | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:11 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:05 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 01:04 | TT Elite Series Match | Jozefiak Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:59 | Women's Pro Basketball Game | Washington | ✔ | 6:10 - 4th · ATL 78 - WSH 62 | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 00:58 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:57 | Women's College Volleyball Match | Arkansas Pine Bluff | ✘ | — | — | In play | — |
-| 10-01 00:57 | USL Championship Game | Tie | ✔ | 90'+3' · DET 0 - BFKC 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
