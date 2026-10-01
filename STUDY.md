@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 12:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 12:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 131 finished bets | 1% | -$5.65 | -29% | -4.31¢ | -$9.75 / $4.10 |
 
-*Expect about **34 buys a day**, roughly **$5.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.13/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2305 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
+| 2309 | 131 | 1 (1%) | 1.1% | -$5.65 (-29%) | Hold to the end: -$5.65 (-29%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 131 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2167 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2171 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -107,6 +107,7 @@
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
 | R6 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Champions League Women's Game | partly | 15 | 1 | 27% | 13% | +522% | -54% | 20 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Darts Match | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -114,7 +115,6 @@
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Euroleague Game | ✘ | 11 | 0 | 18% | 9% | -100% | -68% | 43 min |
-| Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
@@ -181,9 +181,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 18:36 | Champions League Women's Game | Austria Wien | ✘ | — | — | In play | — |
+| 10-01 18:46 | KHL Game | Dinamo Minsk | ✘ | — | — | In play | — |
+| 10-01 18:45 | KHL Game | HC Dynamo Moscow | ✘ | — | — | In play | — |
+| 10-01 18:45 | TT Elite Series Match | Tkocz Marek | ✘ | — | — | In play | — |
+| 10-01 18:43 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | — | In play | — |
+| 10-01 18:36 | Champions League Women's Game | Austria Wien | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:30 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 18:30 | Champions League Women's Game | Inter Milano | ✘ | — | — | In play | — |
+| 10-01 18:30 | Champions League Women's Game | Inter Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:27 | Counter-Strike 2 Game | Nice Try | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:25 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 18:22 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -207,10 +211,6 @@
 | 10-01 17:53 | UEFA Nations League Game | Azerbaijan | ✔ | 90'+4' · LIE 0 - AZE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:53 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:52 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:52 | Dota 2 Game | Yakult's Brothers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:51 | Liga Leumit Game | Ra`anana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
