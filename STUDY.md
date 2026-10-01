@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 6:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 7:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.82/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1862 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1868 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1738 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1740 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 755 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 757 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
@@ -178,12 +178,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 01:05 | TT Elite Series Match | Andriej Fomin | ✘ | — | — | In play | — |
+| 10-01 01:04 | TT Elite Series Match | Jozefiak Michal | ✘ | — | — | In play | — |
+| 10-01 00:59 | Women's Pro Basketball Game | Washington | ✔ | 6:10 - 4th · ATL 78 - WSH 62 | — | In play | — |
+| 10-01 00:58 | TT Elite Series Match | Przemyslaw Blocho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 00:57 | Women's College Volleyball Match | Arkansas Pine Bluff | ✘ | — | — | In play | — |
+| 10-01 00:57 | USL Championship Game | Tie | ✔ | 90'+3' · DET 0 - BFKC 0 | — | In play | — |
 | 10-01 00:54 | Canadian Premier League | Cavalry | ✘ | — | — | In play | — |
 | 10-01 00:53 | NHL Game | Philadelphia | ✔ | 9:37 - 2nd · PIT 5 - PHI 0 | — | In play | — |
 | 10-01 00:52 | Uruguay Primera Division Game | Penarol | ✘ | — | — | In play | — |
 | 10-01 00:52 | Uruguay Primera Division Game | Montevideo City | ✘ | — | — | In play | — |
 | 10-01 00:52 | USL Championship Game | Tie | ✔ | HT · JAX 1 - MIA 2 | — | In play | — |
-| 10-01 00:51 | TT Elite Series Match | Michał Machelski | ✘ | — | — | In play | — |
+| 10-01 00:51 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:47 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:44 | USL Championship Game | Brooklyn FC | ✔ | 80' · DET 0 - BFKC 0 | — | In play | — |
 | 10-01 00:43 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -202,12 +208,6 @@
 | 09-30 23:44 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 23:43 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 23:40 | TT Elite Series Match | Kowalczyk Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 23:36 | ITF Women's Match | Victoria Bosio | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 09-30 23:34 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 23:33 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 23:24 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
-| 09-30 23:22 | Counter-Strike 2 Game | underw0rld | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 23:18 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
