@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 6:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 6:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **37 buys a day**, roughly **$5.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.65/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1852 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1855 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -178,6 +178,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 00:44 | USL Championship Game | Brooklyn FC | ✔ | 80' · DET 0 - BFKC 0 | — | In play | — |
+| 10-01 00:43 | TT Elite Series Match | Adrian Burkacki | ✘ | — | — | In play | — |
+| 10-01 00:41 | USL Championship Game | Sporting Jax | ✔ | HT · JAX 1 - MIA 2 | — | In play | — |
 | 10-01 00:32 | International Friendly Game | Tie | ✔ | 29' · BOL 0 - ARG 0 | — | In play | — |
 | 10-01 00:29 | Women's College Volleyball Match | LSU | ✘ | — | — | In play | — |
 | 10-01 00:23 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,9 +208,6 @@
 | 09-30 22:58 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:47 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:42 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:37 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:32 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:32 | ITF Women's Match | Kayla Day | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
