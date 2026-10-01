@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 1:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 1:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **39 buys a day**, roughly **$5.79/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.78/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 1977 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1844 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1845 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
-| Men's T20 Cricket Match | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 15 min |
+| Men's T20 Cricket Match | ✘ | 23 | 0 | 17% | 9% | -100% | -70% | 17 min |
 | Challenger WTA | ✘ | 21 | 0 | 14% | 10% | -100% | -75% | 10 min |
 | Dota 2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -191,7 +191,7 @@
 | 10-01 06:35 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:31 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:30 | ITF Men's Match | Yua Taka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:22 | Men's T20 Cricket Match | Sri Lanka | ✘ | — | — | In play | — |
+| 10-01 06:22 | Men's T20 Cricket Match | Sri Lanka | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-01 06:22 | ITF Women's Match | Albina Kakenova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:22 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 06:21 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
