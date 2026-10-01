@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **35 buys a day**, roughly **$5.18/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2227 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2232 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -181,6 +181,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 16:44 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | — | In play | — |
+| 10-01 16:43 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
+| 10-01 16:40 | League of Legends Game | The Otter Side | ✘ | — | — | In play | — |
+| 10-01 16:38 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | — | In play | — |
+| 10-01 16:35 | Counter-Strike 2 Game | Nice Try | ✘ | — | — | In play | — |
 | 10-01 16:31 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | — | In play | — |
 | 10-01 16:28 | ITF Women's Match | Salma Drugdova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:28 | ITF Men's Match | Alexander Bernard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,11 +211,6 @@
 | 10-01 15:38 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:36 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 15:27 | Counter-Strike 2 Game | PRIVATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:26 | League of Legends Game | Colossal Gaming | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-01 15:25 | Challenger ATP  | Andrea Guerrieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:20 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:19 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 15:14 | TT Elite Series Match | Andriej Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
