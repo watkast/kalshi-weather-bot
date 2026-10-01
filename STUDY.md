@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 7:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 7:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 117 finished bets | 1% | -$3.55 | -20% | -3.03¢ | -$8.70 / $5.15 |
+| ESPN-verified leagues only, hold to the end | 119 finished bets | 1% | -$3.85 | -22% | -3.24¢ | -$8.85 / $5.00 |
 
-*Expect about **39 buys a day**, roughly **$5.88/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.91/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 117 | -$10.80 | -62% |
-| ESPN-verified leagues only, sell at 10¢ | 117 | -$13.62 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 117 | -$13.65 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 119 | -$11.10 | -62% |
+| ESPN-verified leagues only, sell at 10¢ | 119 | -$13.92 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 119 | -$13.95 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1879 | 117 | 1 (1%) | 1.1% | -$3.55 (-20%) | Hold to the end: -$3.55 (-20%) |
+| 1881 | 119 | 1 (1%) | 1.1% | -$3.85 (-22%) | Hold to the end: -$3.85 (-22%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 117 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 1748 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 119 | 13% | 8% | 5% | 3% | 1% | 1% |
+| Unverified | 1753 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$3.55 | -20% |
-| Sell at 2¢ | 15 | 13% | -$13.65 | -78% |
-| Sell at 3¢ | 10 | 9% | -$13.65 | -78% |
-| Sell at 5¢ | 6 | 5% | -$13.65 | -78% |
-| Sell at 10¢ | 3 | 3% | -$13.62 | -78% |
-| Sell at 25¢ | 1 | 1% | -$14.24 | -81% |
-| Sell at 50¢ | 1 | 1% | -$10.80 | -62% |
+| Hold to the end | 1 | 1% | -$3.85 | -22% |
+| Sell at 2¢ | 15 | 13% | -$13.95 | -78% |
+| Sell at 3¢ | 10 | 8% | -$13.95 | -78% |
+| Sell at 5¢ | 6 | 5% | -$13.95 | -78% |
+| Sell at 10¢ | 3 | 3% | -$13.92 | -78% |
+| Sell at 25¢ | 1 | 1% | -$14.54 | -81% |
+| Sell at 50¢ | 1 | 1% | -$11.10 | -62% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 761 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 763 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 91 | 1 | 4% | 3% | +3% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
 | TT Star Series Match | ✘ | 67 | 1 | 3% | 3% | +39% | -95% | 4 min |
 | League of Legends Game | ✘ | 58 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -122,6 +122,7 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| USL Championship Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 11 min |
 | Women's College Volleyball Match | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 21 min |
 | Women's Pro Basketball Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 16 min |
 | Valorant game winner | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -129,17 +130,16 @@
 | NHL Game | ✔ | 5 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Major League Soccer Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's ODI Cricket Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Finland Korisliiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 63 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
 | Professional Baseball Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 19 min |
-| USL Championship Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 18 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
-| Major League Soccer Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 26 min |
@@ -158,7 +158,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 42 | 5% | 0% | 0% | -92% |
+| Under 5 min | 44 | 5% | 0% | 0% | -92% |
 | 5–15 min | 25 | 20% | 4% | 0% | -65% |
 | 15–30 min | 22 | 18% | 14% | 5% | -68% |
 | 30–60 min | 17 | 24% | 12% | 0% | -59% |
@@ -180,14 +180,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | — | In play | — |
+| 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | — | In play | — |
+| 10-01 01:42 | League of Legends Game | Vietnam | ✘ | — | — | In play | — |
+| 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:34 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | — | In play | — |
-| 10-01 01:31 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
-| 10-01 01:30 | USL Championship Game | Tie | ✔ | 90'+3' · INDY 0 - RHI 1 | — | In play | — |
-| 10-01 01:29 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | — | In play | — |
-| 10-01 01:28 | USL Championship Game | Indy Eleven | ✔ | 90'+1' · INDY 0 - RHI 1 | — | In play | — |
-| 10-01 01:25 | Major League Soccer Game | Tie | ✘ | — | — | In play | — |
-| 10-01 01:24 | Major League Soccer Game | New York RB | ✘ | — | — | In play | — |
+| 10-01 01:31 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 01:30 | USL Championship Game | Tie | ✔ | 90'+3' · INDY 0 - RHI 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 01:29 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 01:28 | USL Championship Game | Indy Eleven | ✔ | 90'+1' · INDY 0 - RHI 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 01:25 | Major League Soccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 01:24 | Major League Soccer Game | New York RB | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:24 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:14 | Canadian Premier League | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:11 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 10-01 00:43 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:41 | USL Championship Game | Sporting Jax | ✔ | HT · JAX 1 - MIA 2 | 3¢ | ❌ Lost | -$0.15 |
 | 10-01 00:32 | International Friendly Game | Tie | ✔ | 29' · BOL 0 - ARG 0 | — | In play | — |
-| 10-01 00:29 | Women's College Volleyball Match | LSU | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 00:23 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
