@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 5:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 5:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **37 buys a day**, roughly **$5.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2074 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2082 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1937 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1945 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 862 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 190 | 0 | 8% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 175 | 0 | 11% | 7% | -100% | -80% | 5 min |
-| Challenger ATP  | ✘ | 113 | 0 | 9% | 2% | -100% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 101 | 1 | 4% | 3% | -8% | -93% | 10 min |
+| TT Elite Series Match | ✘ | 865 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 191 | 0 | 8% | 4% | -100% | -85% | 5 min |
+| ITF Women's Match | ✘ | 176 | 0 | 11% | 7% | -100% | -80% | 5 min |
+| Challenger ATP  | ✘ | 114 | 0 | 9% | 2% | -100% | -85% | 5 min |
+| Counter-Strike 2 Game | ✘ | 102 | 1 | 4% | 3% | -8% | -93% | 10 min |
 | TT Star Series Match | ✘ | 77 | 1 | 3% | 3% | +21% | -95% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -102,8 +102,8 @@
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Men's T20 Cricket Match | ✘ | 23 | 0 | 17% | 9% | -100% | -70% | 17 min |
+| Dota 2 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Challenger WTA | ✘ | 21 | 0 | 14% | 10% | -100% | -75% | 10 min |
-| Dota 2 Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -180,15 +180,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 11:31 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | — | In play | — |
-| 10-01 11:29 | Challenger ATP  | Goncalo Marques | ✘ | — | — | In play | — |
+| 10-01 11:40 | TT Elite Series Match | Michal Minda | ✘ | — | — | In play | — |
+| 10-01 11:39 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 11:37 | ITF Men's Match | Michiel De Krom | ✘ | — | — | In play | — |
+| 10-01 11:35 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 11:35 | Valorant game winner | TYLOO | ✘ | — | — | In play | — |
+| 10-01 11:32 | TT Elite Series Match | Piotr Gumulinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 11:32 | Challenger WTA | Anna Blinkova | ✘ | — | — | In play | — |
+| 10-01 11:31 | ITF Men's Match | Corentin Denolly | ✘ | — | — | In play | — |
+| 10-01 11:31 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 11:29 | Challenger ATP  | Goncalo Marques | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:28 | TT Star Series Match | Koldas Tomáš | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:26 | ITF Men's Match | Ammar Faleh Alhogbani | ✘ | — | — | In play | — |
-| 10-01 11:26 | ITF Women's Match | Andrea Lola Popovic | ✘ | — | — | In play | — |
+| 10-01 11:26 | ITF Men's Match | Ammar Faleh Alhogbani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 11:26 | ITF Women's Match | Andrea Lola Popovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:23 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:20 | Japan NPB Game | Tohoku Rakuten Golden Eagles | ✘ | — | — | In play | — |
 | 10-01 11:20 | ITF Women's Match | Patricia Georgiana Goina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:18 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
+| 10-01 11:18 | Dota 2 Game | Direborn | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:17 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:14 | Japan NPB Game | Chunichi Dragons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:12 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -202,14 +210,6 @@
 | 10-01 10:59 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:51 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 10:49 | R6 Game | FearX | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:49 | ITF Men's Match | Jan Kupcic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:44 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:41 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 10:40 | Challenger ATP  | Harry Wendelken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:40 | TT Star Series Match | Tymofieiev Oleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:40 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:40 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 10:39 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
