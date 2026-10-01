@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **35 buys a day**, roughly **$5.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **35 buys a day**, roughly **$5.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2171 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2176 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2034 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2038 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 896 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 898 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 202 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 192 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 120 | 0 | 8% | 2% | -100% | -86% | 5 min |
@@ -121,11 +121,11 @@
 | NHL Game | ✔ | 8 | 0 | 25% | 0% | -100% | -57% | 4 min |
 | Women's College Volleyball Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 30 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Valorant game winner | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Women's Pro Basketball Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 15 min |
-| Valorant game winner | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -138,6 +138,7 @@
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
 | SHL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Australia NBL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 20 min |
+| Darts Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | LNBP Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 82 min |
@@ -151,7 +152,6 @@
 | Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
-| Darts Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 98 min |
 
@@ -181,11 +181,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 14:32 | TT Elite Series Match | Stapor Rafal | ✘ | — | — | In play | — |
+| 10-01 14:29 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 14:28 | R6 Game | SCARZ | ✘ | — | — | In play | — |
+| 10-01 14:25 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 14:24 | Counter-Strike 2 Game | eternal premium | ✘ | — | — | In play | — |
 | 10-01 14:20 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:18 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
+| 10-01 14:18 | Darts Match | Nico Plovier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:18 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:12 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 14:11 | Valorant game winner | XLG Gaming | ✘ | — | — | In play | — |
+| 10-01 14:11 | Valorant game winner | XLG Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:08 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:06 | Counter-Strike 2 Game | Next UP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 14:06 | Men's T20 Cricket Match | Eastern Cape Iinyathi | ✘ | — | — | In play | — |
@@ -206,11 +211,6 @@
 | 10-01 13:24 | ITF Men's Match | Samir Hamza Reguig | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 13:22 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:21 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:20 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
-| 10-01 13:17 | ITF Women's Match | Clara Vlasselaer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:16 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 13:16 | ITF Women's Match | Adrienn Nagy | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 13:14 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
