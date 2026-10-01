@@ -1,16 +1,18 @@
 {
- "saved_at": "2026-10-01T06:02:42+00:00",
+ "saved_at": "2026-10-01T06:12:53+00:00",
  "series_watched": 326,
- "markets_in_or_near_play": 83,
+ "markets_in_or_near_play": 77,
  "batch_lookup": true,
  "espn_games_linked": 9,
  "espn_check": {
-  "at": "2026-10-01T05:38:49+00:00",
-  "started_games": 0,
+  "at": "2026-10-01T06:10:05+00:00",
+  "started_games": 1,
   "matched": 0,
-  "unmatched_sample": []
+  "unmatched_sample": [
+   "KXINTLFRIENDLYGAME-26OCT01PANNZL"
+  ]
  },
- "bets": 1957,
- "open": 6,
+ "bets": 1958,
+ "open": 3,
  "errors": []
 }
