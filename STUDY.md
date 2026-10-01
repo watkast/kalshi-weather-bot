@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **34 buys a day**, roughly **$5.13/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.12/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2254 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2260 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
 *In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2113 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2119 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 932 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 933 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 207 | 0 | 9% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 197 | 0 | 11% | 6% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 124 | 0 | 8% | 2% | -100% | -86% | 5 min |
-| Counter-Strike 2 Game | ✘ | 119 | 1 | 3% | 3% | -22% | -94% | 10 min |
-| TT Star Series Match | ✘ | 83 | 1 | 2% | 2% | +12% | -96% | 4 min |
-| League of Legends Game | ✘ | 63 | 0 | 10% | 3% | -100% | -83% | 11 min |
+| ITF Women's Match | ✘ | 198 | 0 | 11% | 6% | -100% | -82% | 4 min |
+| Challenger ATP  | ✘ | 125 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 120 | 1 | 3% | 2% | -22% | -94% | 10 min |
+| TT Star Series Match | ✘ | 84 | 1 | 2% | 2% | +11% | -96% | 4 min |
+| League of Legends Game | ✘ | 64 | 0 | 9% | 3% | -100% | -84% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -181,14 +181,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 17:33 | ITF Women's Match | CAIRA DELFINA VEGA GUDINO | ✘ | — | — | In play | — |
+| 10-01 17:32 | Counter-Strike 2 Game | SINQU | ✘ | — | — | In play | — |
+| 10-01 17:28 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:28 | ITF Women's Match | Marina Bulbarella | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:27 | TT Elite Series Match | Wojciech Pytlas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:26 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
 | 10-01 17:25 | Austria BSL Game | BC Vienna | ✘ | — | — | In play | — |
 | 10-01 17:24 | League of Legends Game | Frites Esports Club | ✘ | — | — | In play | — |
-| 10-01 17:24 | Challenger ATP  | Bryce Nakashima | ✘ | — | — | In play | — |
-| 10-01 17:22 | League of Legends Game | Valerion | ✘ | — | — | In play | — |
+| 10-01 17:24 | Challenger ATP  | Bryce Nakashima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:22 | League of Legends Game | Valerion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:21 | Champions League Women's Game | Tie | ✘ | — | — | In play | — |
 | 10-01 17:16 | ITF Men's Match | Neo Niedner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:16 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:15 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | — | In play | — |
+| 10-01 17:15 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:15 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:14 | Champions League Women's Game | Servette Chenois | ✘ | — | — | In play | — |
 | 10-01 17:14 | League of Legends Game | BOMBA Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,12 +211,6 @@
 | 10-01 16:45 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:44 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:43 | Darts Match | Petri Rasmus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:40 | League of Legends Game | The Otter Side | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:38 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:35 | Counter-Strike 2 Game | Nice Try | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:31 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:28 | ITF Women's Match | Salma Drugdova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:28 | ITF Men's Match | Alexander Bernard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
