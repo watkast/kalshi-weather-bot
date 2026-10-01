@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 8:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 8:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 123 finished bets | 1% | -$4.45 | -24% | -3.62¢ | -$9.15 / $4.70 |
 
-*Expect about **40 buys a day**, roughly **$5.95/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$5.94/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1888 | 123 | 1 (1%) | 1.1% | -$4.45 (-24%) | Hold to the end: -$4.45 (-24%) |
+| 1890 | 123 | 1 (1%) | 1.1% | -$4.45 (-24%) | Hold to the end: -$4.45 (-24%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 123 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1758 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1760 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 766 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 768 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
@@ -180,8 +180,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 02:28 | TT Elite Series Match | Michał Machelski | ✘ | — | — | In play | — |
-| 10-01 02:23 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
+| 10-01 02:39 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
+| 10-01 02:30 | Liga DIMAYOR Game | Junior | ✘ | — | — | In play | — |
+| 10-01 02:28 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 02:23 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:15 | NHL Game | New York I | ✔ | 0:26 - 3rd · NYI 1 - TOR 2 | — | In play | — |
 | 10-01 02:06 | TT Elite Series Match | Witold Stechly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 02:01 | USL Championship Game | Tie | ✔ | 90'+4' · NMU 0 - TUL 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -208,8 +210,6 @@
 | 10-01 00:57 | USL Championship Game | Tie | ✔ | 90'+3' · DET 0 - BFKC 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:54 | Canadian Premier League | Cavalry | ✘ | — | 16¢ | ❌ Lost | -$0.15 |
 | 10-01 00:53 | NHL Game | Philadelphia | ✔ | 9:37 - 2nd · PIT 5 - PHI 0 | — | In play | — |
-| 10-01 00:52 | Uruguay Primera Division Game | Penarol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 00:52 | Uruguay Primera Division Game | Montevideo City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
