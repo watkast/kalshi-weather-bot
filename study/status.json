@@ -1,11 +1,11 @@
 {
- "saved_at": "2026-10-01T17:56:03+00:00",
+ "saved_at": "2026-10-01T18:06:08+00:00",
  "series_watched": 326,
- "markets_in_or_near_play": 194,
+ "markets_in_or_near_play": 181,
  "batch_lookup": true,
- "espn_games_linked": 3,
+ "espn_games_linked": 4,
  "espn_check": {
-  "at": "2026-10-01T17:29:22+00:00",
+  "at": "2026-10-01T18:00:25+00:00",
   "started_games": 3,
   "matched": 1,
   "unmatched_sample": [
@@ -13,7 +13,7 @@
    "KXUCLWGAME-26OCT01KOESER"
   ]
  },
- "bets": 2288,
- "open": 26,
+ "bets": 2295,
+ "open": 14,
  "errors": []
 }
