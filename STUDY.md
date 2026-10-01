@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 4:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 4:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2428 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
+| 2431 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 2270 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2275 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 979 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 983 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 205 | 0 | 12% | 6% | -100% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 134 | 1 | 4% | 3% | -30% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 135 | 1 | 4% | 3% | -31% | -94% | 10 min |
 | Challenger ATP  | ✘ | 129 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 91 | 1 | 2% | 2% | +3% | -96% | 4 min |
 | League of Legends Game | ✘ | 70 | 0 | 9% | 3% | -100% | -85% | 11 min |
@@ -184,13 +184,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 22:09 | TT Elite Series Match | Andrzej Krezel | ✘ | — | — | In play | — |
+| 10-01 22:20 | Counter-Strike 2 Game | MIBR fe | ✘ | — | — | In play | — |
+| 10-01 22:16 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
+| 10-01 22:13 | Counter-Strike 2 Game | Rush | ✘ | — | — | In play | — |
+| 10-01 22:09 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 22:09 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
 | 10-01 22:07 | CONCACAF Nations League Game | Tie | ✔ | 50' · GUY 2 - DMA 0 | — | In play | — |
-| 10-01 22:07 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | — | In play | — |
-| 10-01 22:07 | TT Elite Series Match | Kamil Klocek | ✘ | — | — | In play | — |
-| 10-01 22:05 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
-| 10-01 22:03 | Counter-Strike 2 Game | SAW | ✘ | — | — | In play | — |
+| 10-01 22:07 | TT Elite Series Match | Bartek Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 22:07 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 22:05 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 22:03 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:54 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:51 | Darts Match | Ryan Searle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:50 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,9 +214,6 @@
 | 10-01 21:21 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 21:14 | CONCACAF Nations League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 21:12 | ITF Women's Match | Mary Stoiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:08 | CONCACAF Nations League Game | Virgin Islands, U.S. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 21:03 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
