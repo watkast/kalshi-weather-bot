@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **34 buys a day**, roughly **$5.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **34 buys a day**, roughly **$5.13/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2246 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2254 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2106 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2113 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 930 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 205 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 932 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 207 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 197 | 0 | 11% | 6% | -100% | -82% | 4 min |
-| Challenger ATP  | ✘ | 123 | 0 | 8% | 2% | -100% | -86% | 5 min |
-| Counter-Strike 2 Game | ✘ | 118 | 1 | 3% | 3% | -21% | -94% | 10 min |
+| Challenger ATP  | ✘ | 124 | 0 | 8% | 2% | -100% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 119 | 1 | 3% | 3% | -22% | -94% | 10 min |
 | TT Star Series Match | ✘ | 83 | 1 | 2% | 2% | +12% | -96% | 4 min |
-| League of Legends Game | ✘ | 62 | 0 | 10% | 3% | -100% | -83% | 11 min |
+| League of Legends Game | ✘ | 63 | 0 | 10% | 3% | -100% | -83% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
@@ -181,16 +181,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 17:15 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
+| 10-01 17:25 | Austria BSL Game | BC Vienna | ✘ | — | — | In play | — |
+| 10-01 17:24 | League of Legends Game | Frites Esports Club | ✘ | — | — | In play | — |
+| 10-01 17:24 | Challenger ATP  | Bryce Nakashima | ✘ | — | — | In play | — |
+| 10-01 17:22 | League of Legends Game | Valerion | ✘ | — | — | In play | — |
+| 10-01 17:21 | Champions League Women's Game | Tie | ✘ | — | — | In play | — |
+| 10-01 17:16 | ITF Men's Match | Neo Niedner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:16 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:15 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | — | In play | — |
+| 10-01 17:15 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:14 | Champions League Women's Game | Servette Chenois | ✘ | — | — | In play | — |
-| 10-01 17:14 | League of Legends Game | BOMBA Team | ✘ | — | — | In play | — |
-| 10-01 17:14 | Challenger ATP  | Ugo Blanchet | ✘ | — | — | In play | — |
-| 10-01 17:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | — | In play | — |
+| 10-01 17:14 | League of Legends Game | BOMBA Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:14 | Challenger ATP  | Ugo Blanchet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 17:10 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:10 | ITF Men's Match | Jordan Lee | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:09 | TT Elite Series Match | Jaroslaw Rolak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:07 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 17:06 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 17:02 | ITF Men's Match | Max Sheldon | ✘ | — | — | In play | — |
+| 10-01 17:02 | ITF Men's Match | Max Sheldon | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-01 17:01 | Darts Match | Jamie Kelling | ✘ | — | — | In play | — |
 | 10-01 16:56 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | — | In play | — |
 | 10-01 16:45 | TT Elite Series Match | Dawid Kosmal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -203,14 +211,6 @@
 | 10-01 16:31 | TT Elite Series Match | Waldemar Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:28 | ITF Women's Match | Salma Drugdova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 16:28 | ITF Men's Match | Alexander Bernard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:28 | ITF Men's Match | Vlado Jankanj | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:26 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:25 | Counter-Strike 2 Game | Butterfly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:23 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:22 | Counter-Strike 2 Game | SINQU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:19 | Darts Match | Jim Widmayer | ✘ | — | — | In play | — |
-| 10-01 16:17 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 16:15 | TT Elite Series Match | Grzegorz Jurowicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
