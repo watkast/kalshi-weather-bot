@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 6:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 6:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.42/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.41/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2109 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2119 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1975 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1982 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 874 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 876 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 194 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 181 | 0 | 11% | 7% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 118 | 0 | 8% | 2% | -100% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 103 | 1 | 4% | 3% | -9% | -93% | 10 min |
-| TT Star Series Match | ✘ | 78 | 1 | 3% | 3% | +20% | -96% | 4 min |
+| Counter-Strike 2 Game | ✘ | 105 | 1 | 4% | 3% | -11% | -93% | 10 min |
+| TT Star Series Match | ✘ | 79 | 1 | 3% | 3% | +18% | -96% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
 | UEFA Nations League Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 8 min |
@@ -108,11 +108,11 @@
 | R6 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
+| KBO Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 9 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Champions League Women's Game | partly | 11 | 1 | 27% | 18% | +748% | -53% | 20 min |
 | KHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| KBO Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
 | Euroleague Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 45 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | WTA Tennis Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 3 min |
@@ -180,6 +180,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 12:40 | Counter-Strike 2 Game | PURE | ✘ | — | — | In play | — |
+| 10-01 12:40 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
+| 10-01 12:38 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:37 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:35 | TT Star Series Match | Koldas Tomáš | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:35 | ITF Men's Match | Michel Hopp | ✘ | — | — | In play | — |
+| 10-01 12:35 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:35 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:34 | KBO Game | Hanwha Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 12:34 | ITF Women's Match | Beatris Spasova | ✘ | — | — | In play | — |
 | 10-01 12:25 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:24 | Darts Match | Robert Thornton | ✘ | — | — | In play | — |
 | 10-01 12:19 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,19 +207,9 @@
 | 10-01 12:06 | International Friendly Game | Japan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:04 | ITF Women's Match | Zi Ying Ruan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:01 | Challenger ATP  | Laslo Djere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:00 | Counter-Strike 2 Game | B8 | ✘ | — | — | In play | — |
+| 10-01 12:00 | Counter-Strike 2 Game | B8 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:59 | ITF Men's Match | Rodrigo Alujas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 11:57 | ITF Women's Match | Sarina Schnyder | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:54 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:52 | Counter-Strike 2 Game | Krytiepacani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:50 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:48 | Challenger ATP  | Toby Samuel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:47 | Australia NBL Game | Melbourne United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:45 | ITF Women's Match | Katherine Sebov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:43 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:40 | TT Elite Series Match | Michal Minda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:39 | TT Elite Series Match | Michal Olbrycht | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 11:37 | ITF Men's Match | Michiel De Krom | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
