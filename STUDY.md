@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 7:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 7:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **36 buys a day**, roughly **$5.37/day** at risk; max loss per buy **15¢**.*
+*Expect about **36 buys a day**, roughly **$5.36/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2148 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2154 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2012 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2016 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,8 +90,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 885 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 199 | 0 | 9% | 5% | -100% | -84% | 5 min |
+| TT Elite Series Match | ✘ | 888 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 200 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 189 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Challenger ATP  | ✘ | 119 | 0 | 8% | 2% | -100% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 108 | 1 | 4% | 3% | -14% | -94% | 10 min |
@@ -181,8 +181,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 13:22 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | — | In play | — |
-| 10-01 13:21 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
+| 10-01 13:33 | ITF Men's Match | Pierre Delage | ✘ | — | — | In play | — |
+| 10-01 13:33 | Challenger ATP  | Jacob Fearnley | ✘ | — | — | In play | — |
+| 10-01 13:30 | ITF Men's Match | Pedro Rodenas | ✘ | — | — | In play | — |
+| 10-01 13:30 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | — | In play | — |
+| 10-01 13:24 | TT Elite Series Match | Kaczmarek Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:24 | ITF Men's Match | Samir Hamza Reguig | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-01 13:22 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 13:21 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:20 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
 | 10-01 13:17 | ITF Women's Match | Clara Vlasselaer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 13:16 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -205,12 +211,6 @@
 | 10-01 12:52 | ITF Women's Match | Galena Krastenova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-01 12:51 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 12:50 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:50 | ITF Men's Match | Piotr Galus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:45 | Counter-Strike 2 Game | Next UP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:45 | TT Elite Series Match | Rafal Niemiec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:44 | ITF Men's Match | Samuele Seghetti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 12:42 | Darts Match | Jim Widmayer | ✘ | — | — | In play | — |
-| 10-01 12:40 | Counter-Strike 2 Game | PURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
