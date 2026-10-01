@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 3:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 3:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **38 buys a day**, roughly **$5.64/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.63/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2003 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 2007 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1867 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1871 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 831 | 0 | 1% | 0% | -100% | -99% | 5 min |
-| ITF Men's Match | ✘ | 176 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 833 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| ITF Men's Match | ✘ | 177 | 0 | 8% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 170 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | Challenger ATP  | ✘ | 111 | 0 | 9% | 2% | -100% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 93 | 1 | 4% | 3% | +0% | -93% | 11 min |
 | TT Star Series Match | ✘ | 71 | 1 | 3% | 3% | +31% | -95% | 4 min |
 | League of Legends Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 11 min |
 | AFCON Game Winner | ✘ | 45 | 1 | 16% | 4% | +107% | -73% | 12 min |
@@ -180,8 +180,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 09:07 | ITF Men's Match | Alessio Basile | ✘ | — | — | In play | — |
-| 10-01 09:04 | TT Elite Series Match | Ptak Wiktor | ✘ | — | — | In play | — |
+| 10-01 09:18 | TT Star Series Match | Koblížek Martin | ✘ | — | — | In play | — |
+| 10-01 09:16 | TT Elite Series Match | Zochniak Jakub | ✘ | — | — | In play | — |
+| 10-01 09:11 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | — | In play | — |
+| 10-01 09:09 | Counter-Strike 2 Game | ABT Esports | ✘ | — | — | In play | — |
+| 10-01 09:07 | ITF Men's Match | Alessio Basile | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:04 | TT Elite Series Match | Ptak Wiktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:01 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
 | 10-01 09:01 | ITF Men's Match | Dong Ju Kim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:01 | ITF Men's Match | Zaharije-Zak Talic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -189,8 +193,8 @@
 | 10-01 09:01 | ITF Men's Match | Makar Krivoshchekov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:01 | ITF Men's Match | Snir Morag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Star Series Match | Liao Cheng-Ting | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 09:00 | Counter-Strike 2 Game | Falcons Force | ✘ | — | — | In play | — |
-| 10-01 09:00 | TT Elite Series Match | Adrian Burkacki | ✘ | — | — | In play | — |
+| 10-01 09:00 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 09:00 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Star Series Match | Keshavarzi Amirmahdi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Star Series Match | Liao Cheng-Ting | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | TT Elite Series Match | Lukasz Jarocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,10 +210,6 @@
 | 10-01 09:00 | ITF Men's Match | Nicola Rispoli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | ITF Men's Match | Gabriele Bosio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 09:00 | ITF Men's Match | Michele Mecarelli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:56 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:52 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:52 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 06:49 | TT Elite Series Match | Rafal Idaczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
