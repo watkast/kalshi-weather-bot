@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 2:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 3:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 149 finished bets | 1% | -$8.35 | -37% | -5.60¢ | -$11.10 / $2.75 |
 
-*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2397 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
+| 2400 | 149 | 1 (1%) | 1.1% | -$8.35 (-37%) | Hold to the end: -$8.35 (-37%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 149 | 13% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 2243 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2247 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 969 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 970 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 202 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 203 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 131 | 1 | 4% | 3% | -29% | -93% | 10 min |
 | Challenger ATP  | ✘ | 129 | 0 | 8% | 2% | -100% | -87% | 5 min |
-| TT Star Series Match | ✘ | 89 | 1 | 2% | 2% | +5% | -96% | 4 min |
+| TT Star Series Match | ✘ | 90 | 1 | 2% | 2% | +4% | -96% | 4 min |
 | League of Legends Game | ✘ | 70 | 0 | 9% | 3% | -100% | -85% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -108,9 +108,9 @@
 | R6 Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Darts Match | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
-| Darts Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
@@ -184,13 +184,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 20:59 | ITF Women's Match | Ana Victoria Gobbi Monllau | ✘ | — | — | In play | — |
-| 10-01 20:54 | TT Elite Series Match | Aleksander Barton | ✘ | — | — | In play | — |
+| 10-01 21:08 | CONCACAF Nations League Game | Virgin Islands, U.S. | ✘ | — | — | In play | — |
+| 10-01 21:03 | TT Elite Series Match | Kacper Adamus | ✘ | — | — | In play | — |
+| 10-01 21:02 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 10-01 20:59 | ITF Women's Match | Ana Victoria Gobbi Monllau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:54 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:51 | Champions League Women's Game | Manchester City | ✔ | 90'+4' · RMA 1 - MNC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:51 | Champions League Women's Game | Real Madrid | ✔ | 90'+4' · RMA 1 - MNC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:51 | Euroleague Game | BC Zalgiris Kaunas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:51 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | — | In play | — |
-| 10-01 20:48 | Darts Match | Jermaine Wattimena | ✘ | — | — | In play | — |
+| 10-01 20:51 | TT Star Series Match | Mousavi Taher Mohammad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 20:48 | Darts Match | Jermaine Wattimena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:46 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:43 | Counter-Strike 2 Game | Flame Hard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:43 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | — | In play | — |
@@ -211,9 +214,6 @@
 | 10-01 20:28 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:28 | TT Elite Series Match | Arkadiusz Mugowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 20:27 | Challenger ATP  | Stefan Kozlov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:26 | ITF Men's Match | Dragos Nicolae Cazacu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 20:26 | Counter-Strike 2 Game | SINQU | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-01 20:23 | Euroleague Game | BC Olympiakos Piraeus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
