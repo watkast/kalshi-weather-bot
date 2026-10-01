@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 11:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 11:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 129 finished bets | 1% | -$5.35 | -28% | -4.15¢ | -$9.60 / $4.25 |
 
-*Expect about **40 buys a day**, roughly **$5.93/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.92/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1939 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
+| 1944 | 129 | 1 (1%) | 1.1% | -$5.35 (-28%) | Hold to the end: -$5.35 (-28%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 129 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 1804 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1809 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,8 +90,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 796 | 0 | 1% | 1% | -100% | -99% | 5 min |
-| ITF Women's Match | ✘ | 166 | 0 | 11% | 6% | -100% | -81% | 5 min |
+| TT Elite Series Match | ✘ | 799 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| ITF Women's Match | ✘ | 167 | 0 | 11% | 7% | -100% | -80% | 5 min |
 | ITF Men's Match | ✘ | 163 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 110 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 92 | 1 | 4% | 3% | +1% | -92% | 11 min |
@@ -102,7 +102,7 @@
 | CONCACAF Nations League Game | partly | 32 | 0 | 22% | 6% | -100% | -62% | 21 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Men's T20 Cricket Match | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 15 min |
-| Challenger WTA | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 10 min |
+| Challenger WTA | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 10 min |
 | Dota 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | International Friendly Game | ✔ | 16 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -180,6 +180,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 05:19 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 05:16 | TT Elite Series Match | Artur Grela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 05:15 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 05:13 | Challenger WTA | Sofia Costoulas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 05:12 | ITF Women's Match | Ava Beck | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-01 05:11 | ITF Women's Match | Kanna Soeda | ✘ | — | — | In play | — |
 | 10-01 05:07 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 05:00 | Dota 2 Game | Ivory | ✘ | — | — | In play | — |
@@ -205,11 +210,6 @@
 | 10-01 04:16 | TT Elite Series Match | Jozefiak Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 04:13 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 04:12 | ATP Tennis Match | Arthur Fery | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 04:07 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 04:07 | USL Championship Game | Tie | ✔ | 90'+8' · LVL 2 - SAC 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 04:06 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 03:55 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 03:53 | USL Championship Game | Las Vegas Lights | ✔ | 84' · LVL 2 - SAC 3 | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
