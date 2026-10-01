@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 6:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 6:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 112 finished bets | 1% | -$2.80 | -17% | -2.50¢ | -$8.40 / $5.60 |
 
-*Expect about **37 buys a day**, roughly **$5.53/day** at risk; max loss per buy **15¢**.*
+*Expect about **37 buys a day**, roughly **$5.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1850 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
+| 1852 | 112 | 1 (1%) | 1.1% | -$2.80 (-17%) | Hold to the end: -$2.80 (-17%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 112 | 12% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1732 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1735 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 751 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 753 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
-| Challenger ATP  | ✘ | 106 | 0 | 9% | 2% | -100% | -84% | 5 min |
+| Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 91 | 1 | 4% | 3% | +3% | -92% | 11 min |
 | TT Star Series Match | ✘ | 67 | 1 | 3% | 3% | +39% | -95% | 4 min |
 | League of Legends Game | ✘ | 58 | 0 | 9% | 2% | -100% | -85% | 11 min |
@@ -178,10 +178,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-01 00:23 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | — | In play | — |
+| 10-01 00:32 | International Friendly Game | Tie | ✔ | 29' · BOL 0 - ARG 0 | — | In play | — |
+| 10-01 00:29 | Women's College Volleyball Match | LSU | ✘ | — | — | In play | — |
+| 10-01 00:23 | TT Elite Series Match | Mucha Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:22 | International Friendly Game | Bolivia | ✔ | 20' · BOL 0 - ARG 0 | — | In play | — |
-| 10-01 00:21 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | — | In play | — |
-| 10-01 00:16 | Challenger ATP  | Joao Lucas Reis Da Silva | ✘ | — | — | In play | — |
+| 10-01 00:21 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-01 00:16 | Challenger ATP  | Joao Lucas Reis Da Silva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:15 | TT Elite Series Match | Pawel Kurek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:07 | TT Elite Series Match | Witold Stechly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:00 | TT Elite Series Match | Michał Machelski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,8 +208,6 @@
 | 09-30 22:37 | TT Elite Series Match | Dawid Kotwica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:32 | TT Elite Series Match | Janus Slawomir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 09-30 22:32 | ITF Women's Match | Kayla Day | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:32 | TT Elite Series Match | Miroslaw Lewczuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 09-30 22:25 | TT Elite Series Match | Rudomina Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
