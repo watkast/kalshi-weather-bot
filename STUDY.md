@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Sep 30, 7:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Sep 30, 7:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 119 finished bets | 1% | -$3.85 | -22% | -3.24¢ | -$8.85 / $5.00 |
 
-*Expect about **39 buys a day**, roughly **$5.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 1881 | 119 | 1 (1%) | 1.1% | -$3.85 (-22%) | Hold to the end: -$3.85 (-22%) |
+| 1882 | 119 | 1 (1%) | 1.1% | -$3.85 (-22%) | Hold to the end: -$3.85 (-22%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 119 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 1753 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 1755 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 763 | 0 | 1% | 1% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 764 | 0 | 1% | 1% | -100% | -99% | 5 min |
 | ITF Women's Match | ✘ | 162 | 0 | 11% | 6% | -100% | -81% | 5 min |
 | ITF Men's Match | ✘ | 161 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | Challenger ATP  | ✘ | 107 | 0 | 9% | 2% | -100% | -84% | 5 min |
@@ -118,12 +118,12 @@
 | Japan NPB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Liga Leumit Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | ELH Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Women's College Volleyball Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 26 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie B Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | USL Championship Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 11 min |
-| Women's College Volleyball Match | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 21 min |
 | Women's Pro Basketball Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 16 min |
 | Valorant game winner | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -180,6 +180,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-01 01:50 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 01:43 | USL Championship Game | New Mexico United | ✔ | 77' · NMU 0 - TUL 1 | — | In play | — |
 | 10-01 01:42 | League of Legends Game | Vietnam | ✘ | — | — | In play | — |
 | 10-01 01:35 | TT Elite Series Match | Skorupa Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,7 +210,6 @@
 | 10-01 00:44 | USL Championship Game | Brooklyn FC | ✔ | 80' · DET 0 - BFKC 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:43 | TT Elite Series Match | Adrian Burkacki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 00:41 | USL Championship Game | Sporting Jax | ✔ | HT · JAX 1 - MIA 2 | 3¢ | ❌ Lost | -$0.15 |
-| 10-01 00:32 | International Friendly Game | Tie | ✔ | 29' · BOL 0 - ARG 0 | — | In play | — |
 
 ## Raw data
 
