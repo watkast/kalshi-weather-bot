@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-01T14:56:58+00:00",
+ "saved_at": "2026-10-01T17:14:15+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -27,11 +27,6 @@
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
-  "XRP": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
   "BTC": [
    "bitstamp",
    "gemini",
@@ -43,6 +38,11 @@
    "kraken"
   ],
   "SOL": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "XRP": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -60,38 +60,36 @@
    "bitstamp",
    "gemini"
   ],
-  "ADA": [
-   "bitstamp"
-  ],
   "TON": [
    "bitstamp"
   ],
   "NEAR": [
    "bitstamp"
   ],
-  "BNB": [
+  "HYPE": [
    "bitstamp",
    "gemini"
   ],
-  "HYPE": [
+  "ADA": [
+   "bitstamp"
+  ],
+  "BNB": [
    "bitstamp",
    "gemini"
   ]
  },
  "open": 0,
- "results_known": 2725,
+ "results_known": 2727,
  "sigma_pct": {
-  "BNB": 0.0647,
-  "ZEC": 0.1645,
-  "XRP": 0.1033,
-  "NEAR": 0.2574,
-  "ETH": 0.0849,
-  "HYPE": 0.1082,
-  "DOGE": 0.1143,
-  "SOL": 0.0957,
-  "BTC": 0.0782
+  "ETH": 0.0671,
+  "BTC": 0.0568,
+  "ZEC": 0.2409,
+  "BNB": 0.0574,
+  "DOGE": 0.0939,
+  "NEAR": 0.2018,
+  "XRP": 0.0936,
+  "SOL": 0.0762,
+  "HYPE": 0.1316
  },
- "errors": [
-  "2026-10-01T10:58:34+00:00 refresh KXTON15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
