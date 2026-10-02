@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 2:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 3:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 201 finished bets | 0% | -$16.15 | -54% | -8.03¢ | -$15.00 / -$1.15 |
+| ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
 *Expect about **41 buys a day**, roughly **$6.19/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 201 | -$23.00 | -76% |
-| ESPN-verified leagues only, sell at 2¢ | 201 | -$23.13 | -77% |
-| ESPN-verified leagues only, sell at 50¢ | 201 | -$23.40 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 203 | -$23.30 | -77% |
+| ESPN-verified leagues only, sell at 2¢ | 203 | -$23.43 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 203 | -$23.70 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3027 | 201 | 1 (0%) | 1.1% | -$16.15 (-54%) | Hold to the end: -$16.15 (-54%) |
+| 3029 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 201 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2821 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
+| Unverified | 2822 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$16.15 | -54% |
-| Sell at 2¢ | 27 | 13% | -$23.13 | -77% |
-| Sell at 3¢ | 16 | 8% | -$23.91 | -79% |
-| Sell at 5¢ | 11 | 5% | -$23.00 | -76% |
-| Sell at 10¢ | 5 | 2% | -$23.60 | -78% |
-| Sell at 25¢ | 1 | 0% | -$26.84 | -89% |
-| Sell at 50¢ | 1 | 0% | -$23.40 | -78% |
+| Hold to the end | 1 | 0% | -$16.45 | -54% |
+| Sell at 2¢ | 27 | 13% | -$23.43 | -77% |
+| Sell at 3¢ | 16 | 8% | -$24.21 | -80% |
+| Sell at 5¢ | 11 | 5% | -$23.30 | -77% |
+| Sell at 10¢ | 5 | 2% | -$23.90 | -78% |
+| Sell at 25¢ | 1 | 0% | -$27.14 | -89% |
+| Sell at 50¢ | 1 | 0% | -$23.70 | -78% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -98,7 +98,7 @@
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
-| CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
+| CONCACAF Nations League Game | partly | 50 | 0 | 20% | 6% | -100% | -65% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Darts Match | ✘ | 44 | 0 | 2% | 2% | -100% | -96% | 11 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
@@ -108,8 +108,8 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
+| Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
-| Euroleague Game | ✘ | 19 | 0 | 16% | 5% | -100% | -73% | 14 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
@@ -172,8 +172,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 75 | 7% | 1% | 0% | -88% |
 | 5–15 min | 38 | 16% | 3% | 0% | -73% |
-| 15–30 min | 36 | 25% | 11% | 3% | -57% |
-| 30–60 min | 30 | 17% | 10% | 0% | -71% |
+| 15–30 min | 37 | 24% | 11% | 3% | -58% |
+| 30–60 min | 31 | 16% | 10% | 0% | -72% |
 | Over 60 min | 22 | 9% | 9% | 0% | -84% |
 
 ## Speed & liquidity
@@ -192,6 +192,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 21:00 | Eerste Divisie Game | Helmond | ✘ | — | — | In play | — |
+| 10-02 21:00 | TT Elite Series Match | Jakub Michalski | ✘ | — | — | In play | — |
 | 10-02 20:47 | Darts Match | Gian van Veen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:47 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:46 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,19 +211,17 @@
 | 10-02 20:35 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:34 | TT Elite Series Match | Kocik Tomasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:30 | UEFA Nations League Game | Georgia | ✔ | 86' · GEO 0 - HUN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:29 | CONCACAF Nations League Game | Tie | ✔ | 70' · GDL 0 - LCA 3 | — | In play | — |
+| 10-02 20:29 | CONCACAF Nations League Game | Tie | ✔ | 70' · GDL 0 - LCA 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:28 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:27 | Adriatic ABA Game | KK Krka Novo Mesto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:21 | LNB Elite 2 Game | Antibes Sharks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:19 | Euroleague Game | Olimpia Milano | ✘ | — | — | In play | — |
+| 10-02 20:19 | Euroleague Game | Olimpia Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:19 | UEFA Nations League Game | Tie | ✔ | 75' · TUR 0 - BEL 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:18 | National League Game | SC Bern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:17 | Dota 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:17 | LaLiga 2 Game | Tie | ✔ | 90'+1' · OVI 1 - ELD 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:16 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:16 | CONCACAF Nations League Game | Guadeloupe | ✔ | 57' · GDL 0 - LCA 2 | — | In play | — |
-| 10-02 20:16 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:14 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 20:16 | CONCACAF Nations League Game | Guadeloupe | ✔ | 57' · GDL 0 - LCA 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
