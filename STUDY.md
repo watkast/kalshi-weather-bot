@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **41 buys a day**, roughly **$6.10/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.09/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2580 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2583 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2402 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2403 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1059 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1060 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 214 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -187,8 +187,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 06:21 | TT Elite Series Match | Milosz Cesarz | ✘ | — | — | In play | — |
+| 10-02 06:18 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
+| 10-02 06:17 | ATP Tennis Match | Alex Molcan | ✘ | — | — | In play | — |
 | 10-02 06:09 | League of Legends Game | Chinese Taipei | ✘ | — | — | In play | — |
-| 10-02 06:02 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | — | In play | — |
+| 10-02 06:02 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:59 | Challenger WTA | Sara Sorribes Tormo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 05:54 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:53 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,9 +217,6 @@
 | 10-02 05:04 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:03 | Club Friendlies | Cruz Azul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:03 | Club Friendlies | America | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 05:00 | ITF Men's Match | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:53 | WTA Tennis Match | Yue Yuan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 04:53 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
