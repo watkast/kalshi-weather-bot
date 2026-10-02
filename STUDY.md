@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 11:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 174 finished bets | 1% | -$12.10 | -46% | -6.95¢ | -$13.05 / $0.95 |
+| ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 174 | -$19.35 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 174 | -$19.60 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 174 | -$19.60 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 175 | -$19.10 | -73% |
+| ESPN-verified leagues only, sell at 2¢ | 175 | -$19.49 | -74% |
+| ESPN-verified leagues only, sell at 50¢ | 175 | -$19.50 | -74% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2558 | 174 | 1 (1%) | 1.1% | -$12.10 (-46%) | Hold to the end: -$12.10 (-46%) |
+| 2563 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 12 | 1.2% | 0.0% (0) | -25% | ❌ Worse |
+| ESPN win probability | 13 | 1.1% | 0.0% (0) | -15% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 12 | 0 | -100% | -86% | -100% | -100% |
+| **Any 1¢ (no model)** | 13 | 0 | -100% | -73% | -80% | -67% |
 | ESPN win probability ≥ 2% | 3 | 0 | -100% | -42% | -100% | -100% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 174 | 14% | 9% | 6% | 2% | 1% | 1% |
-| Unverified | 2377 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 2381 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$12.10 | -46% |
-| Sell at 2¢ | 25 | 14% | -$19.60 | -75% |
-| Sell at 3¢ | 15 | 9% | -$20.25 | -78% |
-| Sell at 5¢ | 10 | 6% | -$19.60 | -75% |
-| Sell at 10¢ | 4 | 2% | -$20.86 | -80% |
-| Sell at 25¢ | 1 | 1% | -$22.79 | -87% |
-| Sell at 50¢ | 1 | 1% | -$19.35 | -74% |
+| Hold to the end | 1 | 1% | -$12.25 | -47% |
+| Sell at 2¢ | 26 | 15% | -$19.49 | -74% |
+| Sell at 3¢ | 16 | 9% | -$20.01 | -76% |
+| Sell at 5¢ | 11 | 6% | -$19.10 | -73% |
+| Sell at 10¢ | 5 | 3% | -$19.70 | -75% |
+| Sell at 25¢ | 1 | 1% | -$22.94 | -87% |
+| Sell at 50¢ | 1 | 1% | -$19.50 | -74% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1045 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1046 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 214 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 208 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -106,7 +106,7 @@
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
-| Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
+| Challenger WTA | ✘ | 23 | 0 | 17% | 13% | -100% | -70% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
@@ -152,19 +152,20 @@
 | Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
+| College Football Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 13 min |
+| Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Overwatch Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 98 min |
 | Austria BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 86 min |
 | DEL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 44 min |
 | Bundesliga Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 13 min |
-| College Football Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 63 | 5% | 0% | 0% | -92% |
+| Under 5 min | 64 | 6% | 2% | 0% | -89% |
 | 5–15 min | 33 | 18% | 3% | 0% | -68% |
 | 15–30 min | 33 | 27% | 12% | 3% | -53% |
 | 30–60 min | 24 | 21% | 12% | 0% | -64% |
@@ -186,17 +187,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 05:20 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
+| 10-02 05:17 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 10-02 05:15 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
+| 10-02 05:14 | TT Elite Series Match | Wojciech Urban | ✘ | — | — | In play | — |
+| 10-02 05:12 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
 | 10-02 05:08 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
-| 10-02 05:08 | College Football Game | Tulsa | ✔ | OT · UNT 45 - TLSA 44 | — | In play | — |
-| 10-02 05:04 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | — | In play | — |
-| 10-02 05:03 | Club Friendlies | Cruz Azul | ✘ | — | — | In play | — |
-| 10-02 05:03 | Club Friendlies | America | ✘ | — | — | In play | — |
+| 10-02 05:08 | College Football Game | Tulsa | ✔ | OT · UNT 45 - TLSA 44 | 24¢ | ❌ Lost | -$0.15 |
+| 10-02 05:04 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:03 | Club Friendlies | Cruz Azul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:03 | Club Friendlies | America | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:00 | ITF Men's Match | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:53 | WTA Tennis Match | Yue Yuan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 04:53 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:53 | NHL Game | Florida | ✔ | 1:55 - OT · FLA 3 - SJ 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:51 | ITF Women's Match | Ke Ren | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 04:48 | Challenger WTA | Kyoka Okamura | ✘ | — | — | In play | — |
+| 10-02 04:48 | Challenger WTA | Kyoka Okamura | ✘ | — | 15¢ | ❌ Lost | -$0.15 |
 | 10-02 04:44 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:44 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:43 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,11 +217,6 @@
 | 10-02 04:16 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:09 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:54 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:50 | LNBP Basketball Game | Abejas de Leon | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 03:47 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:43 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:43 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
