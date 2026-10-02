@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 4:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 4:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2649 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2650 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2466 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2472 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,17 +90,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1103 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1107 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 219 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
 | Challenger ATP  | ✘ | 131 | 0 | 8% | 2% | -100% | -87% | 5 min |
-| TT Star Series Match | ✘ | 99 | 1 | 3% | 3% | -6% | -95% | 4 min |
+| TT Star Series Match | ✘ | 100 | 1 | 3% | 3% | -7% | -95% | 4 min |
 | League of Legends Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Dota 2 Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 28 min |
+| Dota 2 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | Darts Match | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 20 min |
@@ -187,14 +187,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 10:07 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
-| 10-02 10:07 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
-| 10-02 10:05 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
-| 10-02 10:04 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | — | In play | — |
+| 10-02 10:09 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 10:07 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 10:07 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 10:05 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 10:04 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:54 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:53 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:42 | ITF Men's Match | Volodymyr Iakubenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 09:37 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
+| 10-02 09:37 | Dota 2 Game | Team Kinetix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:36 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:31 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:28 | TT Star Series Match | Fuchs Michael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,7 +217,6 @@
 | 10-02 08:35 | TT Elite Series Match | Krzysztof Hetnar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:28 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:26 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 08:22 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
