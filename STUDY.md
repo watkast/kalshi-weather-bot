@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 7:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 8:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 179 finished bets | 1% | -$12.85 | -48% | -7.18¢ | -$13.35 / $0.50 |
 
-*Expect about **39 buys a day**, roughly **$5.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2763 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2768 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2578 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2584 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,15 +92,15 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1150 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 228 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 219 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 163 | 1 | 3% | 2% | -43% | -95% | 10 min |
+| ITF Women's Match | ✘ | 220 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| Counter-Strike 2 Game | ✘ | 166 | 1 | 3% | 2% | -44% | -95% | 9 min |
 | Challenger ATP  | ✘ | 138 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Darts Match | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 13 min |
+| Darts Match | ✘ | 31 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Dota 2 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
@@ -123,9 +123,9 @@
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
+| Valorant game winner | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | LNBP Basketball Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 22 min |
 | ELH Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Valorant game winner | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Women's Pro Basketball Game | ✔ | 7 | 0 | 29% | 14% | -100% | -50% | 13 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
@@ -187,13 +187,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 13:54 | ITF Women's Match | Francisca Jorge | ✘ | — | — | In play | — |
-| 10-02 13:54 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
+| 10-02 14:04 | Counter-Strike 2 Game | Sinners | ✘ | — | — | In play | — |
+| 10-02 14:04 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | — | In play | — |
+| 10-02 14:00 | ITF Men's Match | Yshai Oliel | ✘ | — | — | In play | — |
+| 10-02 13:58 | Counter-Strike 2 Game | Matrix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 13:55 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 13:54 | ITF Women's Match | Francisca Jorge | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-02 13:54 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:48 | ATP Tennis Match | Arthur Gea | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 13:47 | ITF Women's Match | Polona Hercog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:47 | Challenger ATP  | August Holmgren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:47 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:47 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
+| 10-02 13:47 | Darts Match | Nico Plovier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:46 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:44 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | — | In play | — |
 | 10-02 13:42 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -203,7 +208,7 @@
 | 10-02 13:34 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:34 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:33 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:33 | Valorant game winner | JD Gaming | ✘ | — | — | In play | — |
+| 10-02 13:33 | Valorant game winner | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:28 | Challenger ATP  | Enrico Dalla Valle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:28 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:25 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -212,11 +217,6 @@
 | 10-02 13:18 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:17 | Counter-Strike 2 Game | UPGRADE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:17 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:17 | Counter-Strike 2 Game | BBL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:16 | Darts Match | Jamie Kelling | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:11 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:07 | ITF Women's Match | Nahia Berecoechea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:04 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
