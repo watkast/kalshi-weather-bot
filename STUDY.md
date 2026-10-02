@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 9:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 9:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 179 finished bets | 1% | -$12.85 | -48% | -7.18¢ | -$13.35 / $0.50 |
 
-*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.73/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2797 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2804 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2614 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2619 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,14 +93,14 @@
 | TT Elite Series Match | ✘ | 1162 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 230 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 176 | 1 | 3% | 3% | -47% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 180 | 1 | 3% | 3% | -48% | -94% | 9 min |
 | Challenger ATP  | ✘ | 138 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Darts Match | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 12 min |
+| Darts Match | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 11 min |
 | Dota 2 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 27 | 0 | 15% | 7% | -100% | -74% | 17 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
@@ -175,7 +175,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 28 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 27 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -187,11 +187,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 15:06 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
-| 10-02 15:04 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | — | In play | — |
+| 10-02 15:15 | Counter-Strike 2 Game | Voca | ✘ | — | — | In play | — |
+| 10-02 15:14 | Dota 2 Game | Team Nemesis | ✘ | — | — | In play | — |
+| 10-02 15:14 | TT Elite Series Match | Kowalski Kamil | ✘ | — | — | In play | — |
+| 10-02 15:13 | TT Elite Series Match | Mateusz Trela | ✘ | — | — | In play | — |
+| 10-02 15:10 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | — | In play | — |
+| 10-02 15:09 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:07 | Counter-Strike 2 Game | aimclub | ✘ | — | — | In play | — |
+| 10-02 15:06 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:04 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:02 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:02 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
-| 10-02 14:59 | Darts Match | Jim Widmayer | ✘ | — | — | In play | — |
+| 10-02 15:02 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:59 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:52 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:52 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:49 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,13 +217,6 @@
 | 10-02 14:12 | ITF Men's Match | Nicolas Ifi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:12 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:12 | Men's T20 Cricket Match | Tuskers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:11 | Counter-Strike 2 Game | NIP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:10 | Counter-Strike 2 Game | 9INE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:09 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:09 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:07 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:05 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:04 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
