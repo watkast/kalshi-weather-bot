@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 02 21:46 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +20¢, then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 02 21:56 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +20¢, then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,18 +10,20 @@
 
 | Trades | Sold at +20¢ | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|
-| 67 | 46 | 21 (0) | 6 | $-30.49 | -7.3% |
+| 73 | 52 | 21 (0) | 2 | $-19.00 | -4.2% |
 
 ## Latest trades
 
 | Time (UTC) | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|
-| 10-02 21:46 | ZEC | UP | 0.56 | open |  |
-| 10-02 21:46 | BNB | UP | 0.66 | open |  |
+| 10-02 21:51 | HYPE | DOWN | 0.66 | open |  |
+| 10-02 21:50 | SOL | UP | 0.67 | 0.88 | 1.86 |
+| 10-02 21:46 | ZEC | UP | 0.56 | 0.76 | 1.69 |
+| 10-02 21:46 | BNB | UP | 0.66 | 0.91 | 2.28 |
 | 10-02 21:46 | BTC | UP | 0.55 | open |  |
-| 10-02 21:46 | NEAR | UP | 0.49 | open |  |
-| 10-02 21:46 | ETH | UP | 0.61 | open |  |
-| 10-02 21:46 | DOGE | UP | 0.65 | open |  |
+| 10-02 21:46 | NEAR | UP | 0.49 | 0.70 | 1.77 |
+| 10-02 21:46 | ETH | UP | 0.61 | 0.81 | 1.72 |
+| 10-02 21:46 | DOGE | UP | 0.65 | 0.89 | 2.17 |
 | 10-02 21:32 | HYPE | UP | 0.57 | 0.78 | 1.79 |
 | 10-02 21:32 | BNB | UP | 0.59 | 0.85 | 2.34 |
 | 10-02 21:31 | XRP | UP | 0.66 | 0.87 | 1.86 |
@@ -39,5 +41,3 @@
 | 10-02 21:16 | XRP | UP | 0.70 | no | -7.15 |
 | 10-02 21:16 | BNB | UP | 0.60 | no | -6.17 |
 | 10-02 21:16 | NEAR | UP | 0.55 | 0.80 | 2.20 |
-| 10-02 21:16 | ETH | UP | 0.55 | no | -5.68 |
-| 10-02 21:16 | DOGE | UP | 0.60 | 0.80 | 1.71 |
