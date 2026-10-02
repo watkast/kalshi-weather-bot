@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 4:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 4:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3054 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3057 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2840 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2846 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1234 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1240 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 222 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -193,11 +193,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 22:20 | TT Elite Series Match | Cezary Pawlik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:16 | TT Elite Series Match | Waldemar Jozala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:13 | Darts Match | Michael Wiles | ✘ | — | — | In play | — |
 | 10-02 22:08 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | — | In play | — |
-| 10-02 22:07 | TT Elite Series Match | Jakub Lamperski | ✘ | — | — | In play | — |
-| 10-02 22:04 | TT Elite Series Match | Gracjan Kesic | ✘ | — | — | In play | — |
-| 10-02 22:04 | TT Elite Series Match | Jakub Michalski | ✘ | — | — | In play | — |
-| 10-02 22:02 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | — | In play | — |
+| 10-02 22:07 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:04 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:04 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:02 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:53 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
 | 10-02 21:51 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:49 | ITF Women's Match | Emily Zornada | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -220,9 +223,6 @@
 | 10-02 21:02 | Eerste Divisie Game | Heracles Almelo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:00 | Eerste Divisie Game | Helmond | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 10-02 21:00 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:47 | Darts Match | Gian van Veen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:47 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:46 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
