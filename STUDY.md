@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 162 finished bets | 1% | -$10.30 | -42% | -6.36¢ | -$12.15 / $1.85 |
 
-*Expect about **39 buys a day**, roughly **$5.86/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.85/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2502 | 162 | 1 (1%) | 1.1% | -$10.30 (-42%) | Hold to the end: -$10.30 (-42%) |
+| 2504 | 162 | 1 (1%) | 1.1% | -$10.30 (-42%) | Hold to the end: -$10.30 (-42%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 162 | 14% | 9% | 6% | 2% | 1% | 1% |
-| Unverified | 2336 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2337 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1019 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1020 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -184,7 +184,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 02:21 | TT Elite Series Match | Andrzej Krezel | ✘ | — | — | In play | — |
+| 10-02 02:36 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
+| 10-02 02:32 | TT Elite Series Match | Artur Zmijewski | ✘ | — | — | In play | — |
+| 10-02 02:21 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:10 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:59 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:47 | NHL Game | Buffalo | ✔ | 2:39 - 3rd · BUF 3 - CBJ 5 | 0¢ | ❌ Lost | -$0.15 |
@@ -212,8 +214,6 @@
 | 10-02 00:42 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:34 | Women's College Volleyball Match | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:30 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:30 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:27 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
