@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 3:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 4:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **39 buys a day**, roughly **$5.88/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2645 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2649 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2464 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2466 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1101 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1103 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 219 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -187,8 +187,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 09:54 | TT Elite Series Match | Wojciech Urban | ✘ | — | — | In play | — |
-| 10-02 09:53 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | — | In play | — |
+| 10-02 10:07 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
+| 10-02 10:07 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
+| 10-02 10:05 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
+| 10-02 10:04 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | — | In play | — |
+| 10-02 09:54 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 09:53 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:42 | ITF Men's Match | Volodymyr Iakubenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:37 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
 | 10-02 09:36 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,10 +217,6 @@
 | 10-02 08:28 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:26 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:22 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 08:21 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 08:19 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
-| 10-02 08:12 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 08:01 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
