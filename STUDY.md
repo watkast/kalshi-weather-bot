@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 7:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 7:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 155 finished bets | 1% | -$9.25 | -40% | -5.97¢ | -$11.55 / $2.30 |
 
-*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2486 | 155 | 1 (1%) | 1.1% | -$9.25 (-40%) | Hold to the end: -$9.25 (-40%) |
+| 2489 | 155 | 1 (1%) | 1.1% | -$9.25 (-40%) | Hold to the end: -$9.25 (-40%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 155 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2324 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2327 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -109,10 +109,10 @@
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Women's College Volleyball Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 30 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
-| Women's College Volleyball Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 35 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -173,7 +173,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 28 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 5 min |
+| Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -184,7 +184,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 01:06 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-02 01:22 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | — | In play | — |
+| 10-02 01:20 | Brasileiro Serie B Game | Goias | ✘ | — | — | In play | — |
+| 10-02 01:16 | Women's College Volleyball Match | Iowa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 01:06 | Women's College Volleyball Match | Northwestern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:05 | TT Elite Series Match | Tkocz Marek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:04 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:55 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -199,7 +202,7 @@
 | 10-02 00:30 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:27 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:25 | CONCACAF Nations League Game | Tie | ✔ | 65' · ATG 1 - AIA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:19 | Women's College Volleyball Match | Utah | ✘ | — | — | In play | — |
+| 10-02 00:19 | Women's College Volleyball Match | Utah | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-02 00:19 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:11 | Women's College Volleyball Match | Penn State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:11 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,9 +214,6 @@
 | 10-01 23:57 | R6 Game | DarkZero Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · TRI 0 - CUW 1 | 2¢ | ❌ Lost | -$0.15 |
 | 10-01 23:47 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 23:45 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 23:43 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 23:40 | TT Elite Series Match | Iwasyszyn Wojciech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
