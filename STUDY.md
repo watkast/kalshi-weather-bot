@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 172 finished bets | 1% | -$11.80 | -46% | -6.86¢ | -$12.90 / $1.10 |
 
-*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.13/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2537 | 172 | 1 (1%) | 1.1% | -$11.80 (-46%) | Hold to the end: -$11.80 (-46%) |
+| 2543 | 172 | 1 (1%) | 1.1% | -$11.80 (-46%) | Hold to the end: -$11.80 (-46%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 172 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2357 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2362 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1034 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1037 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -109,7 +109,7 @@
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Women's College Volleyball Match | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 29 min |
+| Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | NHL Game | ✔ | 14 | 0 | 14% | 0% | -100% | -75% | 6 min |
@@ -131,11 +131,11 @@
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| LNBP Basketball Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 28 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| LNBP Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Finland Korisliiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 63 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
@@ -186,12 +186,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 04:17 | TT Elite Series Match | Zochniak Jakub | ✘ | — | — | In play | — |
-| 10-02 04:16 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
-| 10-02 04:09 | TT Elite Series Match | Milosz Cesarz | ✘ | — | — | In play | — |
+| 10-02 04:29 | ITF Women's Match | Ha Yoon Son | ✘ | — | — | In play | — |
+| 10-02 04:29 | WTA Tennis Match | Janice Tjen | ✘ | — | — | In play | — |
+| 10-02 04:28 | TT Elite Series Match | Stapor Rafal | ✘ | — | — | In play | — |
+| 10-02 04:25 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | — | In play | — |
+| 10-02 04:24 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
+| 10-02 04:23 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
+| 10-02 04:17 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:16 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:09 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:54 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:50 | LNBP Basketball Game | Abejas de Leon | ✘ | — | — | In play | — |
+| 10-02 03:50 | LNBP Basketball Game | Abejas de Leon | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 03:47 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:43 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:43 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,12 +216,6 @@
 | 10-02 03:16 | CONCACAF Nations League Game | Nicaragua | ✔ | 60' · CRC 1 - NCA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:16 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:16 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:15 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:14 | NHL Game | Vancouver | ✔ | 19:31 - 2nd · EDM 4 - VAN 0 | — | In play | — |
-| 10-02 03:07 | ATP Tennis Match | Jaime Faria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:02 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:01 | NHL Game | Chicago | ✔ | 6:54 - 2nd · CHI 0 - UTA 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:01 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
