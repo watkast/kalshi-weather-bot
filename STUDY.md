@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 6:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 7:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 153 finished bets | 1% | -$8.95 | -39% | -5.85¢ | -$11.40 / $2.45 |
 
-*Expect about **38 buys a day**, roughly **$5.77/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2482 | 153 | 1 (1%) | 1.1% | -$8.95 (-39%) | Hold to the end: -$8.95 (-39%) |
+| 2483 | 153 | 1 (1%) | 1.1% | -$8.95 (-39%) | Hold to the end: -$8.95 (-39%) |
 
 *In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 153 | 14% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 2320 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2321 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1011 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1012 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 140 | 1 | 4% | 3% | -33% | -94% | 10 min |
@@ -184,7 +184,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 00:50 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | — | In play | — |
+| 10-02 00:55 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
+| 10-02 00:50 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:49 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:48 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:45 | CONCACAF Nations League Game | Tie | ✔ | 45' · PUR 1 - CAY 0 | — | In play | — |
@@ -213,7 +214,6 @@
 | 10-01 23:35 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:29 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
 | 10-01 23:28 | CONCACAF Nations League Game | Trinidad and Tobago | ✔ | 71' · TRI 0 - CUW 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-01 23:25 | League of Legends Game | Estral Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
