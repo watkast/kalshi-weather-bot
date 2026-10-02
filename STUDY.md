@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 2:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 2:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 185 finished bets | 1% | -$13.75 | -50% | -7.43¢ | -$13.80 / $0.05 |
+| ESPN-verified leagues only, hold to the end | 187 finished bets | 1% | -$14.05 | -50% | -7.51¢ | -$13.95 / -$0.10 |
 
-*Expect about **40 buys a day**, roughly **$5.95/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$6.00/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 185 | -$20.60 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 185 | -$20.73 | -75% |
-| ESPN-verified leagues only, sell at 50¢ | 185 | -$21.00 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 187 | -$20.90 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 187 | -$21.03 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 187 | -$21.30 | -76% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3006 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 3011 | 187 | 1 (1%) | 1.1% | -$14.05 (-50%) | Hold to the end: -$14.05 (-50%) |
 
 *In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2800 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 187 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 2803 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$13.75 | -50% |
-| Sell at 2¢ | 27 | 15% | -$20.73 | -75% |
-| Sell at 3¢ | 16 | 9% | -$21.51 | -78% |
-| Sell at 5¢ | 11 | 6% | -$20.60 | -74% |
-| Sell at 10¢ | 5 | 3% | -$21.20 | -76% |
-| Sell at 25¢ | 1 | 1% | -$24.44 | -88% |
-| Sell at 50¢ | 1 | 1% | -$21.00 | -76% |
+| Hold to the end | 1 | 1% | -$14.05 | -50% |
+| Sell at 2¢ | 27 | 14% | -$21.03 | -75% |
+| Sell at 3¢ | 16 | 9% | -$21.81 | -78% |
+| Sell at 5¢ | 11 | 6% | -$20.90 | -75% |
+| Sell at 10¢ | 5 | 3% | -$21.50 | -77% |
+| Sell at 25¢ | 1 | 1% | -$24.74 | -88% |
+| Sell at 50¢ | 1 | 1% | -$21.30 | -76% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -136,12 +136,13 @@
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LNB Elite 2 Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
-| LNB Elite 2 Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| LaLiga 2 Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -150,7 +151,6 @@
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian 2. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| LaLiga 2 Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 26 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Slovenia 1. SKL Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 105 min |
@@ -161,6 +161,7 @@
 | Bundesliga Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | College Football Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 13 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| England Super League Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Adriatic ABA Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -170,7 +171,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 68 | 7% | 1% | 0% | -87% |
-| 5–15 min | 35 | 17% | 3% | 0% | -70% |
+| 5–15 min | 37 | 16% | 3% | 0% | -72% |
 | 15–30 min | 34 | 26% | 12% | 3% | -54% |
 | 30–60 min | 26 | 19% | 12% | 0% | -67% |
 | Over 60 min | 22 | 9% | 9% | 0% | -84% |
@@ -191,22 +192,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 20:30 | UEFA Nations League Game | Georgia | ✔ | 86' · GEO 0 - HUN 1 | — | In play | — |
+| 10-02 20:29 | CONCACAF Nations League Game | Tie | ✔ | 70' · GDL 0 - LCA 3 | — | In play | — |
+| 10-02 20:28 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
+| 10-02 20:27 | Adriatic ABA Game | KK Krka Novo Mesto | ✘ | — | — | In play | — |
+| 10-02 20:21 | LNB Elite 2 Game | Antibes Sharks | ✘ | — | — | In play | — |
 | 10-02 20:19 | Euroleague Game | Olimpia Milano | ✘ | — | — | In play | — |
 | 10-02 20:19 | UEFA Nations League Game | Tie | ✔ | 75' · TUR 0 - BEL 2 | — | In play | — |
 | 10-02 20:18 | National League Game | SC Bern | ✘ | — | — | In play | — |
 | 10-02 20:17 | Dota 2 Game | BetBoom Team | ✘ | — | — | In play | — |
-| 10-02 20:17 | LaLiga 2 Game | Tie | ✔ | 90'+1' · OVI 1 - ELD 2 | — | In play | — |
+| 10-02 20:17 | LaLiga 2 Game | Tie | ✔ | 90'+1' · OVI 1 - ELD 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:16 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:16 | CONCACAF Nations League Game | Guadeloupe | ✔ | 57' · GDL 0 - LCA 2 | — | In play | — |
 | 10-02 20:16 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:14 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:14 | TT Elite Series Match | Dariusz Szlubowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:14 | UEFA Nations League Game | Tie | ✔ | 69' · NIR 3 - UKR 0 | — | In play | — |
-| 10-02 20:13 | England Super League Basketball Game | Leicester Riders | ✘ | — | — | In play | — |
+| 10-02 20:13 | England Super League Basketball Game | Leicester Riders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:12 | Men's T20 Cricket Match | Avengers XI | ✘ | — | — | In play | — |
 | 10-02 20:11 | LNB Elite Game | Nanterre 92 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:11 | Euroleague Game | Bayern Munich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:10 | LaLiga 2 Game | Oviedo | ✔ | 85' · OVI 1 - ELD 2 | — | In play | — |
+| 10-02 20:10 | LaLiga 2 Game | Oviedo | ✔ | 85' · OVI 1 - ELD 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:09 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
 | 10-02 20:06 | Bundesliga Basketball Game | Baskets Bonn | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:06 | UEFA Nations League Game | Ukraine | ✔ | 61' · NIR 2 - UKR 0 | — | In play | — |
@@ -215,12 +221,7 @@
 | 10-02 20:02 | Challenger ATP  | Harold Mayot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:02 | Darts Match | Jonny Clayton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:01 | Euroleague Game | ASVEL Lyon-Villeurbanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:01 | LNB Elite 2 Game | Basket Le Havre | ✘ | — | — | In play | — |
-| 10-02 20:01 | TT Elite Series Match | Waldemar Jozala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:00 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:00 | Counter-Strike 2 Game | Alliance | ✘ | — | — | In play | — |
-| 10-02 19:58 | LNB Elite 2 Game | JA Vichy-Clermont | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 19:57 | National League Game | EHC Biel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 20:01 | LNB Elite 2 Game | Basket Le Havre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
