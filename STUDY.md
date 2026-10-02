@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 11:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 11:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 181 finished bets | 1% | -$13.15 | -48% | -7.27¢ | -$13.50 / $0.35 |
 
-*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2878 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
+| 2888 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 181 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2689 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2695 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | TT Elite Series Match | ✘ | 1188 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 231 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 205 | 1 | 3% | 2% | -54% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 210 | 1 | 3% | 2% | -56% | -95% | 9 min |
 | Challenger ATP  | ✘ | 143 | 0 | 8% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 102 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 76 | 0 | 8% | 3% | -100% | -86% | 12 min |
@@ -132,6 +132,7 @@
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
@@ -139,7 +140,6 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Finland Korisliiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 63 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -187,9 +187,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 17:26 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | — | In play | — |
-| 10-02 17:26 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
-| 10-02 17:25 | Finland Korisliiga Game | Lahti Basketball | ✘ | — | — | In play | — |
+| 10-02 17:38 | TT Elite Series Match | Dawid Kosmal | ✘ | — | — | In play | — |
+| 10-02 17:38 | Dota 2 Game | Team Liquid | ✘ | — | — | In play | — |
+| 10-02 17:35 | Counter-Strike 2 Game | BBL | ✘ | — | — | In play | — |
+| 10-02 17:35 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
+| 10-02 17:34 | UEFA Nations League Game | Armenia | ✔ | 77' · ARM 0 - CYP 2 | — | In play | — |
+| 10-02 17:32 | TT Elite Series Match | Kamil Klocek | ✘ | — | — | In play | — |
+| 10-02 17:29 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:29 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:28 | Counter-Strike 2 Game | FOKUS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:28 | Croatia Premijer Liga Game | KK Kvarner 2010 | ✘ | — | — | In play | — |
+| 10-02 17:26 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:26 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:25 | Finland Korisliiga Game | Lahti Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:22 | Challenger ATP  | Martin Krumich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:20 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:20 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -207,16 +217,6 @@
 | 10-02 17:02 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:01 | Challenger ATP  | Mees Rottgering | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:54 | TT Elite Series Match | Jerzy Pelka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:49 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:48 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:47 | Counter-Strike 2 Game | Nuclear TigeRES | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:44 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:44 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:43 | Challenger ATP  | Keegan Smith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:38 | League of Legends Game | Colossal Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:38 | League of Legends Game | PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:37 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:36 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
 
 ## Raw data
 
