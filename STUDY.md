@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 3:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 3:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
-*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3045 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3048 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2836 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2838 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1232 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1233 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -103,7 +103,7 @@
 | Darts Match | ✘ | 44 | 0 | 2% | 2% | -100% | -96% | 11 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 31 | 0 | 16% | 6% | -100% | -72% | 19 min |
-| R6 Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -193,8 +193,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 21:51 | TT Elite Series Match | Jacek Oracz | ✘ | — | — | In play | — |
+| 10-02 21:49 | ITF Women's Match | Emily Zornada | ✘ | — | — | In play | — |
+| 10-02 21:45 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:39 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 21:39 | R6 Game | 100 Thieves | ✘ | — | — | In play | — |
+| 10-02 21:39 | R6 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:39 | Darts Match | Niels Zonneveld | ✘ | — | — | In play | — |
 | 10-02 21:39 | Darts Match | Gemma Hayter | ✘ | — | — | In play | — |
 | 10-02 21:35 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -220,9 +223,6 @@
 | 10-02 20:39 | UEFA Nations League Game | France | ✔ | 90'+4' · ITA 1 - FRA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:39 | UEFA Nations League Game | Italy | ✔ | 90'+4' · ITA 1 - FRA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:39 | UEFA Nations League Game | Bosnia and Herzegovina | ✔ | 90'+5' · SWE 1 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:39 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:38 | UEFA Nations League Game | Sweden | ✔ | 90'+4' · SWE 1 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · GEO 0 - HUN 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
