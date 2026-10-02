@@ -1,24 +1,13 @@
 {
- "saved_at": "2026-10-02T01:00:25+00:00",
+ "saved_at": "2026-10-02T01:11:04+00:00",
  "series": 31,
  "markets_watched": 19,
- "batch_lookup": false,
- "bets": 4762,
- "open": 11,
+ "batch_lookup": true,
+ "bets": 4766,
+ "open": 4,
  "coinbase_spot": {
-  "ZEC": true,
-  "SOL": true,
-  "NEAR": true,
-  "ETH": true,
-  "XRP": true,
-  "BNB": true,
-  "DOGE": true,
-  "BTC": true,
-  "HYPE": true
+  "HYPE": true,
+  "ZEC": true
  },
- "errors": [
-  "2026-10-01T20:50:33+00:00 batch off: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?tickers=KXNATGAS15M-26OCT011700-00%2CKXSOL15M-26OCT011700-00%2CKXGBPUSD15M-26OCT011700-30%2CKXETH15M-26OCT011700-00%2CKXGOLD15M-26OCT011700-00%2CKXWTI15M-26OCT011700-00%2CKXCOPPER15M-26OCT011700-00%2CKXPLATINUM15M-26OCT011700-00%2CKXSILVER15M-26OCT011700-00%2CKXZEC15M-26OCT011700-00%2CKXPALLADIUM15M-26OCT011700-00%2CKXNEAR15M-26OCT011700-00%2CKXUSDJPY15M-26OCT011700-30%2CKXHYPE15M-26OCT011700-00%2CKXBTC15M-26OCT011700-00%2CKXBNB15M-26OCT011700-00%2CKXXRP15M-26OCT011700-00%2CKXEURUSD15M-26OCT011700-30%2CKXDOGE15M-26OCT011700-00&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))",
-  "2026-10-01T20:50:53+00:00 quotes KXNATGAS15M: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?series_ticker=KXNATGAS15M&status=open&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))",
-  "2026-10-01T20:51:13+00:00 quotes KXDOGE15M: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?series_ticker=KXDOGE15M&status=open&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))"
- ]
+ "errors": []
 }
