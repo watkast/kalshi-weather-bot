@@ -87,7 +87,7 @@ def main():
           "### → [Fair-Value Bot](FAIRVALUE.md) — buys 15-minute crypto markets when a model says the price is wrong", "",
           "### → [Gold & Silver Fair-Value Bot](METALS.md) — the same idea on 15-minute gold and silver markets", "",
           "### → [Range-Scalp Bot](SCALP.md) — buys 15-minute crypto sides holding at 55–70¢, sells at +20¢, repeats", "",
-          "### → [Momentum Bot](MOMENTUM.md) — buys a 15-minute crypto side right after its price jumps, sells at +5¢ or more", "",
+          "### → [Momentum Bot](MOMENTUM.md) — buys a 15-minute crypto side after a 20¢+ price jump, sells at +5¢ or more", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:

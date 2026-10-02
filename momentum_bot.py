@@ -6,9 +6,8 @@ at the real order-book price, then sell at +5¢ or more. No stop-loss.
 One position per window per version; after a sale it looks for the next jump.
 
 Versions run side by side on the same markets:
-  R5   jump of 5¢+,  sell the moment the bid is +5¢
-  R10  jump of 10¢+, sell the moment the bid is +5¢
-  R10R jump of 10¢+, once +5¢ is reached keep riding while it rises,
+  J20  jump of 20¢+, sell the moment the bid is +5¢
+  J20R jump of 20¢+, once +5¢ is reached keep riding while it rises,
        sell when the bid slips 2¢ off its high (never below +5¢)
 Anything not sold is held to the close.
 
@@ -35,8 +34,8 @@ PAGE = os.path.join(HERE, "MOMENTUM.md")
 LOOKBACK = 30           # seconds over which the jump is measured
 TAKE_PROFIT = 0.05
 TRAIL = 0.02            # ride version: sell when bid falls this far off its high
-VERSIONS = {"R5": (0.05, False), "R10": (0.10, False), "R10R": (0.10, True)}
-LABELS = {"R5": "5¢ jump, sell +5¢", "R10": "10¢ jump, sell +5¢", "R10R": "10¢ jump, ride past +5¢"}
+VERSIONS = {"J20": (0.20, False), "J20R": (0.20, True)}
+LABELS = {"J20": "20¢+ jump, sell +5¢", "J20R": "20¢+ jump, ride past +5¢"}
 MIN_PRICE, MAX_PRICE, MAX_SPREAD = 0.05, 0.90, 0.04
 MIN_SECS_LEFT = 30
 CONTRACTS = 10
@@ -141,19 +140,21 @@ def write_page(trades):
     lines = [
         "# Momentum Bot", "",
         f"*Updated {datetime.now(timezone.utc):%a %b %d %H:%M} UTC. Paper money. Kalshi's 15-minute crypto "
-        "up/down markets: when either side's price jumps over 30 seconds, buy 10 contracts and sell at "
+        "up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at "
         "+5¢ or more. No stop-loss; anything not sold rides to the close.*", "",
         "[← Back to all bots](README.md)", "",
         "| Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |",
         "|---|---|---|---|---|---|---|",
     ]
-    for ver in VERSIONS:
+    for ver in dict.fromkeys(list(VERSIONS) + [t["version"] for t in trades]):
         vt = [t for t in trades if t["version"] == ver]
+        if not vt and ver not in VERSIONS:
+            continue
         vd = [t for t in vt if t["status"] in ("sold", "settled")]
         vh = [t for t in vd if t["status"] == "settled"]
         vp = sum(float(t["pnl"]) for t in vd)
         vr = sum(int(t["contracts"]) * (float(t["price"]) + float(t["fee"])) for t in vd)
-        lines.append(f"| **{LABELS[ver]}** | {len(vd)} | {len(vd) - len(vh)} | {len(vh)} "
+        lines.append(f"| **{LABELS.get(ver, ver + ' (retired)')}** | {len(vd)} | {len(vd) - len(vh)} | {len(vh)} "
                      f"({sum(1 for t in vh if float(t['pnl']) > 0)}) | "
                      f"{sum(1 for t in vt if t['status'] == 'open')} | ${vp:.2f} | "
                      f"{(vp / vr if vr else 0):+.1%} |")
