@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 1:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 185 finished bets | 1% | -$13.75 | -50% | -7.43¢ | -$13.80 / $0.05 |
 
-*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2947 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 2958 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2748 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2757 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,13 +90,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1202 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1203 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 237 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 213 | 1 | 3% | 2% | -56% | -95% | 9 min |
 | Challenger ATP  | ✘ | 146 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
-| League of Legends Game | ✘ | 77 | 0 | 8% | 3% | -100% | -86% | 12 min |
+| League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 58 | 0 | 9% | 3% | -100% | -85% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -114,20 +114,21 @@
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
+| Euroleague Game | ✘ | 15 | 0 | 20% | 7% | -100% | -65% | 15 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
-| Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ELH Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Valorant game winner | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 16 min |
-| Liiga Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 22 min |
 | Women's Pro Basketball Game | ✔ | 7 | 0 | 29% | 14% | -100% | -50% | 13 min |
+| Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -141,8 +142,8 @@
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
-| Austria BSL Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 19 min |
+| Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
+| Croatia Premijer Liga Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -153,7 +154,6 @@
 | Slovenia 1. SKL Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 105 min |
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
-| Croatia Premijer Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 61 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | College Football Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 13 min |
@@ -189,36 +189,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 18:59 | Sweden SBL Game | Hogsbo Basket | ✘ | — | — | In play | — |
+| 10-02 19:40 | TT Elite Series Match | Tkaczyk Henryk | ✘ | — | — | In play | — |
+| 10-02 19:40 | Croatia Premijer Liga Game | KK Dubrava | ✘ | — | — | In play | — |
+| 10-02 19:38 | DEL Game | Lowen Frankfurt | ✘ | — | — | In play | — |
+| 10-02 19:37 | Men's T20 Cricket Match | Lions | ✘ | — | — | In play | — |
+| 10-02 19:36 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
+| 10-02 19:35 | R6 Game | Five Fears | ✘ | — | — | In play | — |
+| 10-02 19:35 | Euroleague Game | Maccabi Tel-Aviv | ✘ | — | — | In play | — |
+| 10-02 19:34 | LNB Elite 2 Game | Fos Provence Basket | ✘ | — | — | In play | — |
+| 10-02 19:31 | England Super League Basketball Game | Caledonia Gladiators | ✘ | — | — | In play | — |
+| 10-02 19:31 | TT Elite Series Match | Gracjan Kesic | ✘ | — | — | In play | — |
+| 10-02 19:31 | TT Elite Series Match | Mariusz Baron | ✘ | — | — | In play | — |
+| 10-02 18:59 | Sweden SBL Game | Hogsbo Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:58 | Darts Match | Ryan Joyce | ✘ | — | — | In play | — |
-| 10-02 18:58 | TT Elite Series Match | Zielinski Marcin | ✘ | — | — | In play | — |
+| 10-02 18:58 | TT Elite Series Match | Zielinski Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:53 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:53 | Liiga Game | Porin Assat | ✘ | — | — | In play | — |
-| 10-02 18:53 | Austria BSL Game | Eagles Graz | ✘ | — | — | In play | — |
+| 10-02 18:53 | Liiga Game | Porin Assat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:53 | Austria BSL Game | Eagles Graz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:50 | TT Elite Series Match | Dariusz Szlubowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:50 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:48 | ITF Men's Match | Pedro Vives Marcos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:48 | Sweden SBL Game | Koping Stars | ✘ | — | — | In play | — |
-| 10-02 18:47 | Croatia Premijer Liga Game | KK Skrljevo | ✘ | — | — | In play | — |
-| 10-02 18:47 | Euroleague Game | Besiktas JK | ✘ | — | — | In play | — |
+| 10-02 18:48 | Sweden SBL Game | Koping Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:47 | Croatia Premijer Liga Game | KK Skrljevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:47 | Euroleague Game | Besiktas JK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:47 | Ettan Game | Lunds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:45 | League of Legends Game | MAGAZA | ✘ | — | — | In play | — |
+| 10-02 18:45 | League of Legends Game | MAGAZA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:44 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:44 | Ettan Game | Sollentuna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:44 | Austria BSL Game | Kufstein Towers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:44 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:42 | Ettan Game | Kristianstad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:39 | R6 Game | Outlast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:37 | Adriatic ABA Game | KK Borac Cacak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:37 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:35 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:33 | ELH Game | HC Rytiri Kladno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:29 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:29 | KHL Game | Ak Bars Kazan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:29 | ELH Game | HC Skoda Plzen | ✘ | — | — | In play | — |
-| 10-02 18:28 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
