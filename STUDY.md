@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 9:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 163 finished bets | 1% | -$10.45 | -43% | -6.41¢ | -$12.15 / $1.70 |
 
-*Expect about **39 buys a day**, roughly **$5.86/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.92/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2506 | 163 | 1 (1%) | 1.1% | -$10.45 (-43%) | Hold to the end: -$10.45 (-43%) |
+| 2511 | 163 | 1 (1%) | 1.1% | -$10.45 (-43%) | Hold to the end: -$10.45 (-43%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -184,6 +184,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 03:07 | ATP Tennis Match | Jaime Faria | ✘ | — | — | In play | — |
+| 10-02 03:02 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
+| 10-02 03:01 | NHL Game | Chicago | ✔ | 6:54 - 2nd · CHI 0 - UTA 4 | — | In play | — |
+| 10-02 03:01 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
+| 10-02 02:58 | College Football Game | Western Kentucky | ✔ | 7:54 - 4th · WKU 13 - NMSU 33 | — | In play | — |
 | 10-02 02:50 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | — | In play | — |
 | 10-02 02:38 | NHL Game | Nashville | ✔ | 2:16 - 3rd · MIN 3 - NSH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:36 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
@@ -209,11 +214,6 @@
 | 10-02 01:04 | TT Elite Series Match | Jerzy Michalik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:55 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:50 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:49 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:48 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:45 | CONCACAF Nations League Game | Tie | ✔ | 45' · PUR 1 - CAY 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 00:44 | CONCACAF Nations League Game | Cayman Islands | ✔ | 45' · PUR 1 - CAY 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:42 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
