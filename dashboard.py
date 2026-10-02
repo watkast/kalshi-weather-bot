@@ -86,6 +86,7 @@ def main():
           "### → [15-Minute 1¢ Study](FIFTEEN.md) — every 1¢ moment in Kalshi's 15-minute up/down markets", "",
           "### → [Fair-Value Bot](FAIRVALUE.md) — buys 15-minute crypto markets when a model says the price is wrong", "",
           "### → [Gold & Silver Fair-Value Bot](METALS.md) — the same idea on 15-minute gold and silver markets", "",
+          "### → [Range-Scalp Bot](SCALP.md) — buys 15-minute crypto sides holding at 55–70¢, sells at +20¢, repeats", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:

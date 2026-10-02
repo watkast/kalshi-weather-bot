@@ -10,6 +10,8 @@
 
 ### → [Gold & Silver Fair-Value Bot](METALS.md) — the same idea on 15-minute gold and silver markets
 
+### → [Range-Scalp Bot](SCALP.md) — buys 15-minute crypto sides holding at 55–70¢, sells at +20¢, repeats
+
 ## Scoreboard
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
