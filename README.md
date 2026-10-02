@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Fri Oct 2, 2:40 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Fri Oct 2, 4:19 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -18,9 +18,9 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 123 | 78 | 40% | -$56.39 | -15.4% | 45 | Losing |
+| **Temperature** | 124 | 78 | 40% | -$56.39 | -15.4% | 46 | Losing |
 | **Rain** | 43 | 22 | 32% | -$4.65 | -6.2% | 21 | Losing |
-| **Longshot fade** | 953 | 789 | 92% | -$166.69 | -2.2% | 164 | Break-even |
+| **Longshot fade** | 953 | 809 | 92% | -$165.86 | -2.2% | 144 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
 
@@ -28,12 +28,12 @@
 
 | Category | Bets | Settled | Win rate | Paper P&L | Return |
 |---|---|---|---|---|---|
-| Other | 448 | 360 | 93% | -$39.96 | -1.2% |
+| Other | 448 | 371 | 94% | -$33.65 | -1.0% |
 | NFL | 211 | 209 | 89% | -$114.59 | -5.8% |
 | Weather | 89 | 89 | 97% | $16.09 | +1.9% |
 | MLB | 68 | 68 | 96% | $7.20 | +1.1% |
 | College football | 68 | 3 | 100% | $1.86 | +6.6% |
-| Crypto | 39 | 30 | 97% | $5.67 | +2.0% |
+| Crypto | 39 | 39 | 95% | $0.19 | +0.1% |
 | Soccer | 27 | 27 | 78% | -$44.77 | -17.6% |
 | NBA / WNBA | 2 | 2 | 100% | $1.07 | +5.7% |
 | NHL | 1 | 1 | 100% | $0.74 | +8.0% |
@@ -42,6 +42,7 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-03 | NY 74-75 | YES | 5¢ | 14% | Open | — |
 | 2026-10-03 | LAX 91-92 | YES | 10¢ | 26% | Open | — |
 | 2026-10-03 | LAX 95-96 | NO | 73¢ | 86% | Open | — |
 | 2026-10-03 | LAX 97-98 | NO | 77¢ | 95% | Open | — |
@@ -51,7 +52,6 @@
 | 2026-10-03 | PHIL 74-75 | NO | 63¢ | 77% | Open | — |
 | 2026-10-03 | LAX 93-94 | YES | 14¢ | 23% | Open | — |
 | 2026-10-03 | LAX >98 | NO | 75¢ | 88% | Open | — |
-| 2026-10-03 | DEN 83-84 | NO | 56¢ | 74% | Open | — |
 
 ## Latest rain bets
 
