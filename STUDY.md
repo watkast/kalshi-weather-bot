@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 3:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 3:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
-*Expect about **41 buys a day**, roughly **$6.18/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3034 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3038 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2827 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2831 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1224 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1227 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 216 | 1 | 3% | 2% | -57% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 147 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
@@ -193,8 +193,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 21:11 | TT Elite Series Match | Makajew Maciej | ✘ | — | — | In play | — |
-| 10-02 21:08 | Counter-Strike 2 Game | Isurus | ✘ | — | — | In play | — |
+| 10-02 21:21 | TT Elite Series Match | Mateusz Trela | ✘ | — | — | In play | — |
+| 10-02 21:20 | Darts Match | Aden Kirk | ✘ | — | — | In play | — |
+| 10-02 21:19 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 21:13 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 21:11 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 21:08 | Counter-Strike 2 Game | Isurus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:04 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:02 | LNB Elite 2 Game | Saint-Chamond | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:02 | Eerste Divisie Game | Heracles Almelo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -219,10 +223,6 @@
 | 10-02 20:30 | UEFA Nations League Game | Georgia | ✔ | 86' · GEO 0 - HUN 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:29 | CONCACAF Nations League Game | Tie | ✔ | 70' · GDL 0 - LCA 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:28 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:27 | Adriatic ABA Game | KK Krka Novo Mesto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:21 | LNB Elite 2 Game | Antibes Sharks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:19 | Euroleague Game | Olimpia Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:19 | UEFA Nations League Game | Tie | ✔ | 75' · TUR 0 - BEL 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
