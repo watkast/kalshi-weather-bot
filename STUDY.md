@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 162 finished bets | 1% | -$10.30 | -42% | -6.36¢ | -$12.15 / $1.85 |
 
-*Expect about **39 buys a day**, roughly **$5.88/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2500 | 162 | 1 (1%) | 1.1% | -$10.30 (-42%) | Hold to the end: -$10.30 (-42%) |
+| 2501 | 162 | 1 (1%) | 1.1% | -$10.30 (-42%) | Hold to the end: -$10.30 (-42%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 162 | 14% | 9% | 6% | 2% | 1% | 1% |
-| Unverified | 2335 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2336 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1018 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1019 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -184,6 +184,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 02:10 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:59 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:47 | NHL Game | Buffalo | ✔ | 2:39 - 3rd · BUF 3 - CBJ 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:44 | NHL Game | Philadelphia | ✔ | 2:21 - OT · PHI 2 - NJ 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -213,7 +214,6 @@
 | 10-02 00:30 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:27 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:25 | CONCACAF Nations League Game | Tie | ✔ | 65' · ATG 1 - AIA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:19 | Women's College Volleyball Match | Utah | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
