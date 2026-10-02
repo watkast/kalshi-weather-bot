@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 6:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **39 buys a day**, roughly **$5.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2703 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2716 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2520 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2523 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1131 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1132 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 226 | 0 | 8% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 215 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 143 | 1 | 3% | 3% | -35% | -94% | 10 min |
-| Challenger ATP  | ✘ | 134 | 0 | 7% | 1% | -100% | -87% | 5 min |
+| Challenger ATP  | ✘ | 135 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
@@ -102,8 +102,8 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Dota 2 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
+| Darts Match | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
-| Darts Match | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -187,14 +187,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 12:27 | Challenger ATP  | Carlos Taberner | ✘ | — | — | In play | — |
+| 10-02 12:39 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
+| 10-02 12:38 | League of Legends Game | Solary | ✘ | — | — | In play | — |
+| 10-02 12:38 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
+| 10-02 12:38 | Counter-Strike 2 Game | EAC Extra | ✘ | — | — | In play | — |
+| 10-02 12:37 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | — | In play | — |
+| 10-02 12:36 | ITF Men's Match | Aziz Ouakaa | ✘ | — | — | In play | — |
+| 10-02 12:35 | Counter-Strike 2 Game | GLITCH | ✘ | — | — | In play | — |
+| 10-02 12:34 | ITF Men's Match | Dev Javia | ✘ | — | — | In play | — |
+| 10-02 12:33 | Counter-Strike 2 Game | PURE | ✘ | — | — | In play | — |
+| 10-02 12:33 | Counter-Strike 2 Game | x3pt | ✘ | — | — | In play | — |
+| 10-02 12:32 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
+| 10-02 12:31 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
+| 10-02 12:31 | Counter-Strike 2 Game | Anteiku | ✘ | — | — | In play | — |
+| 10-02 12:27 | Challenger ATP  | Carlos Taberner | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 12:26 | International Friendly Game | China PR | ✔ | 45'+5' · PLE 2 - CHN 0 | — | In play | — |
 | 10-02 12:24 | Overwatch Game | SEIJI ESPORTS | ✘ | — | — | In play | — |
 | 10-02 12:24 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
-| 10-02 12:22 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
+| 10-02 12:22 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:21 | ITF Men's Match | Carles Hernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:19 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:18 | Darts Match | Robert Thornton | ✘ | — | — | In play | — |
+| 10-02 12:18 | Darts Match | Robert Thornton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:14 | Challenger ATP  | Hugo Grenier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:11 | ITF Men's Match | Alec Beckley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:08 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -204,19 +217,6 @@
 | 10-02 12:04 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:57 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:53 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:50 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:50 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-02 11:41 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:41 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:39 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:33 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 11:31 | Challenger ATP  | Daniel Rincon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:29 | TT Elite Series Match | Dawid Michna | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 11:25 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:21 | ITF Women's Match | Astrid Cirotte | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 11:20 | ITF Men's Match | Manuel Plunger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:20 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 11:19 | ITF Women's Match | Jessica Hinojosa Gomez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
