@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 9:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 9:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 179 finished bets | 1% | -$12.85 | -48% | -7.18¢ | -$13.35 / $0.50 |
 
-*Expect about **38 buys a day**, roughly **$5.71/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2817 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2825 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2632 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2638 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,17 +90,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1167 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1170 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 230 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 185 | 1 | 3% | 3% | -50% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 186 | 1 | 3% | 3% | -50% | -94% | 9 min |
 | Challenger ATP  | ✘ | 139 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Darts Match | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 11 min |
+| Darts Match | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 11 min |
 | Dota 2 Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 27 | 0 | 15% | 7% | -100% | -74% | 17 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
@@ -113,10 +113,10 @@
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
+| KHL Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 5 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -187,12 +187,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 15:45 | KHL Game | Lada Togliatti | ✘ | — | — | In play | — |
+| 10-02 15:54 | Counter-Strike 2 Game | x3pt | ✘ | — | — | In play | — |
+| 10-02 15:54 | TT Elite Series Match | Dawid Michna | ✘ | — | — | In play | — |
+| 10-02 15:54 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | — | In play | — |
+| 10-02 15:54 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
+| 10-02 15:51 | Counter-Strike 2 Game | MORROW | ✘ | — | — | In play | — |
+| 10-02 15:51 | UEFA Nations League Game | Tie | ✔ | 90'+3' · MDA 2 - KAZ 1 | — | In play | — |
+| 10-02 15:48 | UEFA Nations League Game | Kazakhstan | ✔ | 89' · MDA 2 - KAZ 1 | — | In play | — |
+| 10-02 15:47 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:45 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:45 | Counter-Strike 2 Game | Butterfly | ✘ | — | — | In play | — |
-| 10-02 15:43 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | — | In play | — |
-| 10-02 15:42 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | — | In play | — |
-| 10-02 15:40 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
-| 10-02 15:40 | TT Elite Series Match | Oracz Lukasz | ✘ | — | — | In play | — |
+| 10-02 15:43 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:42 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:40 | Darts Match | Harry Ward | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:40 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:38 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:34 | Challenger ATP  | Clement Tabur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:25 | TT Elite Series Match | Cezary Pawlik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,14 +217,6 @@
 | 10-02 15:07 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:06 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:04 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:02 | TT Elite Series Match | Wichowski Grzegorz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:02 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:59 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:52 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:52 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:49 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:49 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 14:47 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
