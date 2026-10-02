@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 172 finished bets | 1% | -$11.80 | -46% | -6.86¢ | -$12.90 / $1.10 |
 
-*Expect about **41 buys a day**, roughly **$6.12/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.11/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2543 | 172 | 1 (1%) | 1.1% | -$11.80 (-46%) | Hold to the end: -$11.80 (-46%) |
+| 2548 | 172 | 1 (1%) | 1.1% | -$11.80 (-46%) | Hold to the end: -$11.80 (-46%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -186,6 +186,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 04:48 | Challenger WTA | Kyoka Okamura | ✘ | — | — | In play | — |
+| 10-02 04:44 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
+| 10-02 04:44 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | — | In play | — |
+| 10-02 04:43 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
+| 10-02 04:40 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | — | In play | — |
 | 10-02 04:29 | ITF Women's Match | Ha Yoon Son | ✘ | — | — | In play | — |
 | 10-02 04:29 | WTA Tennis Match | Janice Tjen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:28 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,11 +216,6 @@
 | 10-02 03:27 | Major League Soccer Game | Kansas City | ✔ | 90' · SKC 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:26 | Women's Pro Basketball Game | Indiana | ✔ | 39.6 - 4th · IND 82 - LV 88 | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 03:23 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:19 | NHL Game | Calgary | ✔ | 16:40 - 3rd · SEA 4 - CGY 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:18 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:16 | CONCACAF Nations League Game | Nicaragua | ✔ | 60' · CRC 1 - NCA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:16 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:16 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
