@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 162 finished bets | 1% | -$10.30 | -42% | -6.36¢ | -$12.15 / $1.85 |
+| ESPN-verified leagues only, hold to the end | 163 finished bets | 1% | -$10.45 | -43% | -6.41¢ | -$12.15 / $1.70 |
 
-*Expect about **39 buys a day**, roughly **$5.85/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 162 | -$17.55 | -72% |
-| ESPN-verified leagues only, sell at 5¢ | 162 | -$18.45 | -76% |
-| ESPN-verified leagues only, sell at 2¢ | 162 | -$18.58 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 163 | -$17.70 | -72% |
+| ESPN-verified leagues only, sell at 5¢ | 163 | -$18.60 | -76% |
+| ESPN-verified leagues only, sell at 2¢ | 163 | -$18.73 | -77% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2504 | 162 | 1 (1%) | 1.1% | -$10.30 (-42%) | Hold to the end: -$10.30 (-42%) |
+| 2505 | 163 | 1 (1%) | 1.1% | -$10.45 (-43%) | Hold to the end: -$10.45 (-43%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 162 | 14% | 9% | 6% | 2% | 1% | 1% |
-| Unverified | 2337 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 163 | 13% | 9% | 6% | 2% | 1% | 1% |
+| Unverified | 2338 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$10.30 | -42% |
-| Sell at 2¢ | 22 | 14% | -$18.58 | -76% |
-| Sell at 3¢ | 14 | 9% | -$18.84 | -78% |
-| Sell at 5¢ | 9 | 6% | -$18.45 | -76% |
-| Sell at 10¢ | 4 | 2% | -$19.06 | -78% |
-| Sell at 25¢ | 1 | 1% | -$20.99 | -86% |
-| Sell at 50¢ | 1 | 1% | -$17.55 | -72% |
+| Hold to the end | 1 | 1% | -$10.45 | -43% |
+| Sell at 2¢ | 22 | 13% | -$18.73 | -77% |
+| Sell at 3¢ | 14 | 9% | -$18.99 | -78% |
+| Sell at 5¢ | 9 | 6% | -$18.60 | -76% |
+| Sell at 10¢ | 4 | 2% | -$19.21 | -79% |
+| Sell at 25¢ | 1 | 1% | -$21.14 | -86% |
+| Sell at 50¢ | 1 | 1% | -$17.70 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1020 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1021 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -116,8 +116,8 @@
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ATP Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 2 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| NHL Game | ✔ | 12 | 0 | 17% | 0% | -100% | -71% | 5 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| NHL Game | ✔ | 11 | 0 | 18% | 0% | -100% | -68% | 5 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
@@ -163,7 +163,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 60 | 5% | 0% | 0% | -91% |
-| 5–15 min | 30 | 17% | 3% | 0% | -71% |
+| 5–15 min | 31 | 16% | 3% | 0% | -72% |
 | 15–30 min | 31 | 26% | 13% | 3% | -55% |
 | 30–60 min | 22 | 23% | 14% | 0% | -61% |
 | Over 60 min | 19 | 5% | 5% | 0% | -91% |
@@ -184,8 +184,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 02:38 | NHL Game | Nashville | ✔ | 2:16 - 3rd · MIN 3 - NSH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:36 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
-| 10-02 02:32 | TT Elite Series Match | Artur Zmijewski | ✘ | — | — | In play | — |
+| 10-02 02:32 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:21 | TT Elite Series Match | Andrzej Krezel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:10 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:59 | TT Elite Series Match | Arkadiusz Skupinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,7 +214,6 @@
 | 10-02 00:44 | CONCACAF Nations League Game | Cayman Islands | ✔ | 45' · PUR 1 - CAY 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:42 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:34 | Women's College Volleyball Match | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:30 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
