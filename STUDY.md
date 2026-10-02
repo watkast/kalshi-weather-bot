@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 9:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 179 finished bets | 1% | -$12.85 | -48% | -7.18¢ | -$13.35 / $0.50 |
+| ESPN-verified leagues only, hold to the end | 181 finished bets | 1% | -$13.15 | -48% | -7.27¢ | -$13.50 / $0.35 |
 
-*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 179 | -$19.70 | -73% |
-| ESPN-verified leagues only, sell at 2¢ | 179 | -$19.83 | -74% |
-| ESPN-verified leagues only, sell at 50¢ | 179 | -$20.10 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 181 | -$20.00 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 181 | -$20.13 | -74% |
+| ESPN-verified leagues only, sell at 50¢ | 181 | -$20.40 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2825 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2828 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2638 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 181 | 15% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 2641 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$12.85 | -48% |
-| Sell at 2¢ | 27 | 15% | -$19.83 | -74% |
-| Sell at 3¢ | 16 | 9% | -$20.61 | -77% |
-| Sell at 5¢ | 11 | 6% | -$19.70 | -73% |
-| Sell at 10¢ | 5 | 3% | -$20.30 | -76% |
-| Sell at 25¢ | 1 | 1% | -$23.54 | -88% |
-| Sell at 50¢ | 1 | 1% | -$20.10 | -75% |
+| Hold to the end | 1 | 1% | -$13.15 | -48% |
+| Sell at 2¢ | 27 | 15% | -$20.13 | -74% |
+| Sell at 3¢ | 16 | 9% | -$20.91 | -77% |
+| Sell at 5¢ | 11 | 6% | -$20.00 | -74% |
+| Sell at 10¢ | 5 | 3% | -$20.60 | -76% |
+| Sell at 25¢ | 1 | 1% | -$23.84 | -88% |
+| Sell at 50¢ | 1 | 1% | -$20.40 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,14 +90,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1170 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1171 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 230 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 186 | 1 | 3% | 3% | -50% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 188 | 1 | 3% | 3% | -50% | -94% | 9 min |
 | Challenger ATP  | ✘ | 139 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
-| UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
+| UEFA Nations League Game | ✔ | 54 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Darts Match | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 11 min |
@@ -165,8 +165,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 66 | 8% | 2% | 0% | -87% |
-| 5–15 min | 33 | 18% | 3% | 0% | -68% |
+| Under 5 min | 67 | 7% | 1% | 0% | -87% |
+| 5–15 min | 34 | 18% | 3% | 0% | -69% |
 | 15–30 min | 33 | 27% | 12% | 3% | -53% |
 | 30–60 min | 25 | 20% | 12% | 0% | -65% |
 | Over 60 min | 22 | 9% | 9% | 0% | -84% |
@@ -187,13 +187,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 15:54 | Counter-Strike 2 Game | x3pt | ✘ | — | — | In play | — |
-| 10-02 15:54 | TT Elite Series Match | Dawid Michna | ✘ | — | — | In play | — |
-| 10-02 15:54 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | — | In play | — |
+| 10-02 16:07 | Counter-Strike 2 Game | Matrix | ✘ | — | — | In play | — |
+| 10-02 16:01 | TT Elite Series Match | Piotr Strus | ✘ | — | — | In play | — |
+| 10-02 15:58 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | — | In play | — |
+| 10-02 15:54 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:54 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:54 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:54 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
 | 10-02 15:51 | Counter-Strike 2 Game | MORROW | ✘ | — | — | In play | — |
-| 10-02 15:51 | UEFA Nations League Game | Tie | ✔ | 90'+3' · MDA 2 - KAZ 1 | — | In play | — |
-| 10-02 15:48 | UEFA Nations League Game | Kazakhstan | ✔ | 89' · MDA 2 - KAZ 1 | — | In play | — |
+| 10-02 15:51 | UEFA Nations League Game | Tie | ✔ | 90'+3' · MDA 2 - KAZ 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 15:48 | UEFA Nations League Game | Kazakhstan | ✔ | 89' · MDA 2 - KAZ 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:47 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:45 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:45 | Counter-Strike 2 Game | Butterfly | ✘ | — | — | In play | — |
@@ -214,9 +217,6 @@
 | 10-02 15:13 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:10 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 15:09 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:07 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:06 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:04 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
