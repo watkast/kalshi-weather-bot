@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 185 finished bets | 1% | -$13.75 | -50% | -7.43¢ | -$13.80 / $0.05 |
 
-*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2926 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 2938 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2730 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2734 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1199 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1200 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 236 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 212 | 1 | 3% | 2% | -56% | -95% | 9 min |
@@ -109,17 +109,17 @@
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| KHL Game | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
-| KHL Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ELH Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| ELH Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
@@ -187,11 +187,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 18:48 | ITF Men's Match | Pedro Vives Marcos | ✘ | — | — | In play | — |
+| 10-02 18:48 | Sweden SBL Game | Koping Stars | ✘ | — | — | In play | — |
+| 10-02 18:47 | Croatia Premijer Liga Game | KK Skrljevo | ✘ | — | — | In play | — |
+| 10-02 18:47 | Euroleague Game | Besiktas JK | ✘ | — | — | In play | — |
+| 10-02 18:47 | Ettan Game | Lunds | ✘ | — | — | In play | — |
+| 10-02 18:45 | League of Legends Game | MAGAZA | ✘ | — | — | In play | — |
+| 10-02 18:44 | KHL Game | Spartak Moscow | ✘ | — | — | In play | — |
+| 10-02 18:44 | Ettan Game | Sollentuna | ✘ | — | — | In play | — |
+| 10-02 18:44 | Austria BSL Game | Kufstein Towers | ✘ | — | — | In play | — |
+| 10-02 18:44 | TT Elite Series Match | Szymon Brud | ✘ | — | — | In play | — |
+| 10-02 18:42 | Ettan Game | Kristianstad | ✘ | — | — | In play | — |
+| 10-02 18:39 | R6 Game | Outlast | ✘ | — | — | In play | — |
 | 10-02 18:37 | Adriatic ABA Game | KK Borac Cacak | ✘ | — | — | In play | — |
-| 10-02 18:37 | ELH Game | BK Mlada Boleslav | ✘ | — | — | In play | — |
-| 10-02 18:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | — | In play | — |
-| 10-02 18:35 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | — | In play | — |
-| 10-02 18:33 | ELH Game | HC Rytiri Kladno | ✘ | — | — | In play | — |
+| 10-02 18:37 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:35 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:33 | ELH Game | HC Rytiri Kladno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:29 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:29 | KHL Game | Ak Bars Kazan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:29 | ELH Game | HC Skoda Plzen | ✘ | — | — | In play | — |
@@ -205,18 +217,6 @@
 | 10-02 18:15 | TT Star Series Match | Zimmermann Karl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:12 | ITF Men's Match | Alvin Nicholas Tudorica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:08 | Challenger ATP  | Gonzalo Villanueva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:07 | Challenger ATP  | Darwin Blanch | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 18:07 | Austria BSL Game | BBC Nord Dragonz | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-02 18:04 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:02 | ITF Men's Match | John Hallquist Lithen | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-02 18:01 | League of Legends Game | BOMBA Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:59 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:59 | Liiga Game | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:59 | ITF Men's Match | Hoyoung Roh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:57 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:54 | ITF Men's Match | Nikola Djosic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:52 | Liiga Game | Jokerit Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:52 | UEFA Nations League Game | Tie | ✔ | 90'+4' · MNE 2 - LVA 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
