@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 2:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 2:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **40 buys a day**, roughly **$5.98/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$5.97/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2617 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2621 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2439 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2440 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
 | Challenger ATP  | ✘ | 131 | 0 | 8% | 2% | -100% | -87% | 5 min |
-| TT Star Series Match | ✘ | 95 | 1 | 2% | 2% | -2% | -96% | 4 min |
+| TT Star Series Match | ✘ | 96 | 1 | 2% | 2% | -3% | -96% | 4 min |
 | League of Legends Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
@@ -187,7 +187,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 08:12 | TT Star Series Match | Řeháček Jiří | ✘ | — | — | In play | — |
+| 10-02 08:26 | TT Elite Series Match | Dawid Michna | ✘ | — | — | In play | — |
+| 10-02 08:22 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | — | In play | — |
+| 10-02 08:21 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 10-02 08:19 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
+| 10-02 08:12 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:01 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 08:01 | ITF Men's Match | Colin Sinclair | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 07:57 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,10 +217,6 @@
 | 10-02 06:55 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 06:51 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 06:51 | Challenger ATP  | Andre Ilagan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 06:51 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 06:44 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 06:39 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 06:38 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
