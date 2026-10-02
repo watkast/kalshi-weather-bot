@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 6:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **38 buys a day**, roughly **$5.77/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2693 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2697 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2511 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2517 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,8 +90,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1128 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 223 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 1130 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Men's Match | ✘ | 225 | 0 | 8% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 215 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 143 | 1 | 3% | 3% | -35% | -94% | 10 min |
 | Challenger ATP  | ✘ | 133 | 0 | 8% | 2% | -100% | -87% | 5 min |
@@ -115,10 +115,10 @@
 | ATP Tennis Match | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 2 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
+| Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
@@ -187,11 +187,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 12:08 | TT Elite Series Match | Frantisek Krcil | ✘ | — | — | In play | — |
-| 10-02 12:07 | ITF Men's Match | Jeffrey Von Der Schulenburg | ✘ | — | — | In play | — |
-| 10-02 12:07 | Japan NPB Game | Chiba Lotte Marines | ✘ | — | — | In play | — |
-| 10-02 12:05 | Japan NPB Game | Yomiuri Giants | ✘ | — | — | In play | — |
-| 10-02 12:04 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | — | In play | — |
+| 10-02 12:19 | TT Elite Series Match | Jakub Kwapis | ✘ | — | — | In play | — |
+| 10-02 12:18 | Darts Match | Robert Thornton | ✘ | — | — | In play | — |
+| 10-02 12:14 | Challenger ATP  | Hugo Grenier | ✘ | — | — | In play | — |
+| 10-02 12:11 | ITF Men's Match | Alec Beckley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:08 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:07 | ITF Men's Match | Jeffrey Von Der Schulenburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:07 | Japan NPB Game | Chiba Lotte Marines | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:05 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:04 | TT Elite Series Match | Rafal Skotniczny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:57 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:53 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:50 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,10 +217,6 @@
 | 10-02 11:14 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 11:13 | ITF Women's Match | Tara Wuerth | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-02 11:02 | ITF Men's Match | Jake Delaney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 10:59 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 10:58 | ITF Women's Match | Oana Georgeta Simion | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 10:57 | ITF Men's Match | Florian Broska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 10:56 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
