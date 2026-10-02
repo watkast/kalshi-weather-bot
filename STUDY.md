@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 4:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 4:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
-*Expect about **41 buys a day**, roughly **$6.13/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.12/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3049 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3054 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -193,6 +193,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 22:08 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | — | In play | — |
+| 10-02 22:07 | TT Elite Series Match | Jakub Lamperski | ✘ | — | — | In play | — |
+| 10-02 22:04 | TT Elite Series Match | Gracjan Kesic | ✘ | — | — | In play | — |
+| 10-02 22:04 | TT Elite Series Match | Jakub Michalski | ✘ | — | — | In play | — |
+| 10-02 22:02 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | — | In play | — |
 | 10-02 21:53 | Darts Match | Radek Szaganski | ✘ | — | — | In play | — |
 | 10-02 21:51 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:49 | ITF Women's Match | Emily Zornada | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -218,11 +223,6 @@
 | 10-02 20:47 | Darts Match | Gian van Veen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:47 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:46 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:44 | ITF Men's Match | Aryan Shah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:44 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:42 | R6 Game | Wildcard Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:39 | UEFA Nations League Game | France | ✔ | 90'+4' · ITA 1 - FRA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:39 | UEFA Nations League Game | Italy | ✔ | 90'+4' · ITA 1 - FRA 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
