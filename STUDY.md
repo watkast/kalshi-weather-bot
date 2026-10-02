@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 11:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 11:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 181 finished bets | 1% | -$13.15 | -48% | -7.27¢ | -$13.50 / $0.35 |
 
-*Expect about **38 buys a day**, roughly **$5.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.73/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2864 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
+| 2871 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 181 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2676 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2680 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1182 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1186 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 231 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 201 | 1 | 3% | 2% | -54% | -95% | 9 min |
@@ -187,10 +187,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 17:06 | TT Elite Series Match | Jakub Nowak | ✘ | — | — | In play | — |
-| 10-02 17:06 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
-| 10-02 17:04 | TT Elite Series Match | Makajew Maciej | ✘ | — | — | In play | — |
-| 10-02 17:02 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | — | In play | — |
+| 10-02 17:17 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | — | In play | — |
+| 10-02 17:17 | Counter-Strike 2 Game | Anteiku | ✘ | — | — | In play | — |
+| 10-02 17:15 | ELH Game | HC Verva Litvinov | ✘ | — | — | In play | — |
+| 10-02 17:14 | UEFA Nations League Game | Latvia | ✔ | 56' · MNE 1 - LVA 0 | — | In play | — |
+| 10-02 17:12 | Men's T20 Cricket Match | Knights | ✘ | — | — | In play | — |
+| 10-02 17:11 | Counter-Strike 2 Game | GLITCH | ✘ | — | — | In play | — |
+| 10-02 17:11 | Counter-Strike 2 Game | Prestige | ✘ | — | — | In play | — |
+| 10-02 17:06 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:06 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:04 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:02 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:01 | Challenger ATP  | Mees Rottgering | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:54 | TT Elite Series Match | Jerzy Pelka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:49 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,13 +217,6 @@
 | 10-02 16:26 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:26 | Dota 2 Game | Xtreme Gaming | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 16:24 | Counter-Strike 2 Game | 9INE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:23 | Counter-Strike 2 Game | Prestige | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:22 | ITF Men's Match | Miguel Damas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:22 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:17 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:16 | KHL Game | Salavat Yulaev UFA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:16 | League of Legends Game | NightBirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:15 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
 
 ## Raw data
 
