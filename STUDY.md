@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 3:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 3:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
-*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3040 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3045 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2834 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2836 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1230 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1232 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -193,6 +193,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 21:39 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 21:39 | R6 Game | 100 Thieves | ✘ | — | — | In play | — |
+| 10-02 21:39 | Darts Match | Niels Zonneveld | ✘ | — | — | In play | — |
+| 10-02 21:39 | Darts Match | Gemma Hayter | ✘ | — | — | In play | — |
+| 10-02 21:35 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:27 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:23 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:21 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -218,11 +223,6 @@
 | 10-02 20:39 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:38 | UEFA Nations League Game | Sweden | ✔ | 90'+4' · SWE 1 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · GEO 0 - HUN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:36 | UEFA Nations League Game | Slovakia | ✔ | 90'+5' · SVK 1 - FRO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:36 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · SVK 1 - FRO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:35 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:34 | TT Elite Series Match | Kocik Tomasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 20:30 | UEFA Nations League Game | Georgia | ✔ | 86' · GEO 0 - HUN 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
