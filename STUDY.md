@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 6:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 6:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 153 finished bets | 1% | -$8.95 | -39% | -5.85¢ | -$11.40 / $2.45 |
 
-*Expect about **38 buys a day**, roughly **$5.69/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2471 | 153 | 1 (1%) | 1.1% | -$8.95 (-39%) | Hold to the end: -$8.95 (-39%) |
+| 2475 | 153 | 1 (1%) | 1.1% | -$8.95 (-39%) | Hold to the end: -$8.95 (-39%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 153 | 14% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 2310 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2313 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1005 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1007 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 140 | 1 | 4% | 3% | -33% | -94% | 10 min |
@@ -105,8 +105,8 @@
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
+| Darts Match | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Challenger WTA | ✘ | 22 | 0 | 14% | 9% | -100% | -76% | 10 min |
-| Darts Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
@@ -184,13 +184,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 00:30 | TT Elite Series Match | Dominik Solilo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 00:30 | TT Elite Series Match | Aleksander Barton | ✘ | — | — | In play | — |
+| 10-02 00:27 | TT Elite Series Match | Adrian Myszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 00:25 | CONCACAF Nations League Game | Tie | ✔ | 65' · ATG 1 - AIA 0 | — | In play | — |
 | 10-02 00:19 | Women's College Volleyball Match | Utah | ✘ | — | — | In play | — |
 | 10-02 00:19 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:11 | Women's College Volleyball Match | Penn State | ✘ | — | — | In play | — |
 | 10-02 00:11 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:04 | Women's College Volleyball Match | Buffalo | ✘ | — | — | In play | — |
 | 10-02 00:00 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 23:59 | Darts Match | Jamie Atkins | ✘ | — | — | In play | — |
+| 10-01 23:59 | Darts Match | Jamie Atkins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:59 | TT Elite Series Match | Lebek Marian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:59 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:57 | R6 Game | DarkZero Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,10 +214,6 @@
 | 10-01 23:11 | CONCACAF Nations League Game | Anguilla | ✔ | 11' · ATG 1 - AIA 0 | — | In play | — |
 | 10-01 23:08 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-01 23:08 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 23:07 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 22:59 | Counter-Strike 2 Game | SINQU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 22:52 | TT Elite Series Match | Zbigniew Nocun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-01 22:50 | R6 Game | Outlast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
