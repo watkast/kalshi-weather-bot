@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2938 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 2947 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2734 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2748 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1200 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 236 | 0 | 9% | 5% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 1202 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Men's Match | ✘ | 237 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 212 | 1 | 3% | 2% | -56% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 213 | 1 | 3% | 2% | -56% | -95% | 9 min |
 | Challenger ATP  | ✘ | 146 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 77 | 0 | 8% | 3% | -100% | -86% | 12 min |
@@ -104,12 +104,12 @@
 | Dota 2 Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 28 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
-| R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
+| KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| KHL Game | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
@@ -133,6 +133,7 @@
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
@@ -141,6 +142,7 @@
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
+| Austria BSL Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 19 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -154,12 +156,12 @@
 | Croatia Premijer Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 61 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
-| Austria BSL Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 52 min |
 | College Football Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 13 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | DEL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 44 min |
 | Bundesliga Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
+| Adriatic ABA Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 12 min |
 
 ## By time left when it hit 1¢
 
@@ -187,19 +189,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 18:48 | ITF Men's Match | Pedro Vives Marcos | ✘ | — | — | In play | — |
+| 10-02 18:59 | Sweden SBL Game | Hogsbo Basket | ✘ | — | — | In play | — |
+| 10-02 18:58 | Darts Match | Ryan Joyce | ✘ | — | — | In play | — |
+| 10-02 18:58 | TT Elite Series Match | Zielinski Marcin | ✘ | — | — | In play | — |
+| 10-02 18:53 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:53 | Liiga Game | Porin Assat | ✘ | — | — | In play | — |
+| 10-02 18:53 | Austria BSL Game | Eagles Graz | ✘ | — | — | In play | — |
+| 10-02 18:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:50 | TT Elite Series Match | Dariusz Szlubowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:50 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:48 | ITF Men's Match | Pedro Vives Marcos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:48 | Sweden SBL Game | Koping Stars | ✘ | — | — | In play | — |
 | 10-02 18:47 | Croatia Premijer Liga Game | KK Skrljevo | ✘ | — | — | In play | — |
 | 10-02 18:47 | Euroleague Game | Besiktas JK | ✘ | — | — | In play | — |
-| 10-02 18:47 | Ettan Game | Lunds | ✘ | — | — | In play | — |
+| 10-02 18:47 | Ettan Game | Lunds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:45 | League of Legends Game | MAGAZA | ✘ | — | — | In play | — |
-| 10-02 18:44 | KHL Game | Spartak Moscow | ✘ | — | — | In play | — |
-| 10-02 18:44 | Ettan Game | Sollentuna | ✘ | — | — | In play | — |
-| 10-02 18:44 | Austria BSL Game | Kufstein Towers | ✘ | — | — | In play | — |
-| 10-02 18:44 | TT Elite Series Match | Szymon Brud | ✘ | — | — | In play | — |
-| 10-02 18:42 | Ettan Game | Kristianstad | ✘ | — | — | In play | — |
-| 10-02 18:39 | R6 Game | Outlast | ✘ | — | — | In play | — |
-| 10-02 18:37 | Adriatic ABA Game | KK Borac Cacak | ✘ | — | — | In play | — |
+| 10-02 18:44 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:44 | Ettan Game | Sollentuna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:44 | Austria BSL Game | Kufstein Towers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:44 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:42 | Ettan Game | Kristianstad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:39 | R6 Game | Outlast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:37 | Adriatic ABA Game | KK Borac Cacak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:37 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:35 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,15 +219,6 @@
 | 10-02 18:29 | KHL Game | Ak Bars Kazan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:29 | ELH Game | HC Skoda Plzen | ✘ | — | — | In play | — |
 | 10-02 18:28 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:27 | Challenger ATP  | Felix Balshaw | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:23 | ELH Game | HC Olomouc | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:19 | TT Elite Series Match | Zielinski Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:18 | Turkey BSL Game | Galatasaray SK | ✘ | — | — | In play | — |
-| 10-02 18:17 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
-| 10-02 18:17 | TT Elite Series Match | Milosz Kukawka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:15 | TT Star Series Match | Zimmermann Karl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:12 | ITF Men's Match | Alvin Nicholas Tudorica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 18:08 | Challenger ATP  | Gonzalo Villanueva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
