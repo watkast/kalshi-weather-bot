@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 4:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 5:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 203 finished bets | 0% | -$16.45 | -54% | -8.10¢ | -$15.15 / -$1.30 |
 
-*Expect about **41 buys a day**, roughly **$6.09/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.08/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3067 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
+| 3070 | 203 | 1 (0%) | 1.1% | -$16.45 (-54%) | Hold to the end: -$16.45 (-54%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 203 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2859 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2864 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1244 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1246 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 223 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -98,7 +98,7 @@
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
-| CONCACAF Nations League Game | partly | 50 | 0 | 20% | 6% | -100% | -65% | 28 min |
+| CONCACAF Nations League Game | partly | 53 | 1 | 23% | 9% | +76% | -61% | 27 min |
 | Darts Match | ✘ | 50 | 0 | 2% | 2% | -100% | -97% | 13 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
@@ -193,20 +193,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 22:52 | CONCACAF Nations League Game | Cuba | ✘ | — | — | In play | — |
-| 10-02 22:50 | TT Elite Series Match | Mariusz Baron | ✘ | — | — | In play | — |
+| 10-02 23:03 | TT Elite Series Match | Kocik Tomasz | ✘ | — | — | In play | — |
+| 10-02 23:00 | TT Elite Series Match | Waldemar Jozala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:54 | Darts Match | Michael Wiles | ✘ | — | — | In play | — |
+| 10-02 22:52 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 22:50 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:49 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:33 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:33 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:33 | R6 Game | For Fun Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:33 | Darts Match | Radek Szaganski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 22:31 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 10-02 22:31 | CONCACAF Nations League Game | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 10-02 22:30 | ITF Women's Match | Emma Kamper | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:28 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:20 | TT Elite Series Match | Cezary Pawlik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:16 | TT Elite Series Match | Waldemar Jozala | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:13 | Darts Match | Michael Wiles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 22:08 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | — | In play | — |
+| 10-02 22:08 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 10-02 22:07 | TT Elite Series Match | Jakub Lamperski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:04 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 22:04 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -220,9 +223,6 @@
 | 10-02 21:39 | Darts Match | Niels Zonneveld | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:39 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 21:35 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 21:27 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 21:23 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 21:21 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
