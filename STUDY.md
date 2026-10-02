@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 185 finished bets | 1% | -$13.75 | -50% | -7.43¢ | -$13.80 / $0.05 |
 
-*Expect about **39 buys a day**, roughly **$5.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2909 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 2914 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2712 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2720 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,17 +90,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1194 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 234 | 0 | 9% | 5% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 1195 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Men's Match | ✘ | 236 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 212 | 1 | 3% | 2% | -56% | -95% | 9 min |
-| Challenger ATP  | ✘ | 143 | 0 | 8% | 1% | -100% | -87% | 5 min |
+| Challenger ATP  | ✘ | 145 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 102 | 1 | 3% | 3% | -8% | -95% | 4 min |
-| League of Legends Game | ✘ | 76 | 0 | 8% | 3% | -100% | -86% | 12 min |
+| League of Legends Game | ✘ | 77 | 0 | 8% | 3% | -100% | -86% | 12 min |
 | UEFA Nations League Game | ✔ | 58 | 0 | 9% | 3% | -100% | -85% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Darts Match | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 11 min |
+| Darts Match | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 11 min |
 | Dota 2 Game | ✘ | 31 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 28 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
@@ -187,12 +187,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 18:08 | Challenger ATP  | Gonzalo Villanueva | ✘ | — | — | In play | — |
-| 10-02 18:07 | Challenger ATP  | Darwin Blanch | ✘ | — | — | In play | — |
+| 10-02 18:18 | Turkey BSL Game | Galatasaray SK | ✘ | — | — | In play | — |
+| 10-02 18:17 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
+| 10-02 18:17 | TT Elite Series Match | Milosz Kukawka | ✘ | — | — | In play | — |
+| 10-02 18:15 | TT Star Series Match | Zimmermann Karl | ✘ | — | — | In play | — |
+| 10-02 18:12 | ITF Men's Match | Alvin Nicholas Tudorica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:08 | Challenger ATP  | Gonzalo Villanueva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:07 | Challenger ATP  | Darwin Blanch | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 18:07 | Austria BSL Game | BBC Nord Dragonz | ✘ | — | — | In play | — |
-| 10-02 18:04 | TT Elite Series Match | Mateusz Trela | ✘ | — | — | In play | — |
-| 10-02 18:02 | ITF Men's Match | John Hallquist Lithen | ✘ | — | — | In play | — |
-| 10-02 18:01 | League of Legends Game | BOMBA Team | ✘ | — | — | In play | — |
+| 10-02 18:04 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:02 | ITF Men's Match | John Hallquist Lithen | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-02 18:01 | League of Legends Game | BOMBA Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:59 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:59 | Liiga Game | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:59 | ITF Men's Match | Hoyoung Roh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -212,11 +217,6 @@
 | 10-02 17:38 | Dota 2 Game | Team Liquid | ✘ | — | — | In play | — |
 | 10-02 17:35 | Counter-Strike 2 Game | BBL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:35 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:34 | UEFA Nations League Game | Armenia | ✔ | 77' · ARM 0 - CYP 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:32 | TT Elite Series Match | Kamil Klocek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:29 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:29 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:28 | Counter-Strike 2 Game | FOKUS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
