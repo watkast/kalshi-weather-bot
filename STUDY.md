@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 5:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 5:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **39 buys a day**, roughly **$5.82/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.81/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2668 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2670 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2488 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2489 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1116 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 221 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 211 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 212 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 142 | 1 | 4% | 3% | -34% | -94% | 10 min |
 | Challenger ATP  | ✘ | 131 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
@@ -187,9 +187,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 11:14 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | — | In play | — |
+| 10-02 11:13 | ITF Women's Match | Tara Wuerth | ✘ | — | — | In play | — |
 | 10-02 11:02 | ITF Men's Match | Jake Delaney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 10:59 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 10:58 | ITF Women's Match | Oana Georgeta Simion | ✘ | — | — | In play | — |
+| 10-02 10:58 | ITF Women's Match | Oana Georgeta Simion | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 10:57 | ITF Men's Match | Florian Broska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 10:56 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 10:55 | TT Elite Series Match | Krzysztof Hetnar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,8 +217,6 @@
 | 10-02 09:42 | ITF Men's Match | Volodymyr Iakubenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:37 | Dota 2 Game | Team Kinetix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 09:36 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 09:31 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 09:28 | TT Star Series Match | Fuchs Michael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
