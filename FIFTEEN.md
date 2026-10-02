@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 1, 10:33 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 1, 10:43 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Momentum model ≥ 5%, hold to the close | 312 finished bets | 1% | $7.95 | +23% | +2.55¢ | -$3.40 / $11.35 |
 
-*Expect about **80 buys a day** (~$11.97/day at risk); max loss per buy **15¢**.*
+*Expect about **80 buys a day** (~$11.95/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5071 | 5065 | 16 (0%) | 1.07% | -$394.90 (-64%) | Hold to the close: -$394.90 (-64%) |
+| 5073 | 5065 | 16 (0%) | 1.07% | -$394.90 (-64%) | Hold to the close: -$394.90 (-64%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/1 10:42:46 PM | GOLD | UP | 2.2 min | — | — | In play | — |
+| 10/1 10:42:46 PM | BTC | UP | 2.2 min | -0.253% | — | In play | — |
 | 10/1 10:29:36 PM | GBPUSD | DOWN | 23 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/1 10:29:20 PM | EURUSD | DOWN | 39 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/1 10:28:36 PM | GOLD | DOWN | 84 sec | — | 1¢ | ❌ Lost | -$0.15 |
@@ -209,8 +211,6 @@
 | 10/1 10:12:28 PM | NEAR | UP | 2.5 min | -0.649% | 2¢ | ❌ Lost | -$0.15 |
 | 10/1 10:12:28 PM | ZEC | UP | 2.5 min | -0.454% | 1¢ | ❌ Lost | -$0.15 |
 | 10/1 10:12:12 PM | HYPE | UP | 2.8 min | -0.265% | 0¢ | ❌ Lost | -$0.15 |
-| 10/1 10:11:56 PM | ETH | UP | 3.1 min | -0.129% | 1¢ | ❌ Lost | -$0.15 |
-| 10/1 9:59:29 PM | PALLADIUM | DOWN | 31 sec | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
