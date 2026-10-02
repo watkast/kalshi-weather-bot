@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 11:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 11:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2563 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2568 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2381 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2388 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1046 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1051 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 214 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 208 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -114,9 +114,9 @@
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
 | ATP Tennis Match | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 2 min |
+| WTA Tennis Match | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 3 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| WTA Tennis Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 4 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan NPB Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -124,11 +124,11 @@
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | ELH Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| LNBP Basketball Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 25 min |
 | Women's Pro Basketball Game | ✔ | 7 | 0 | 29% | 14% | -100% | -50% | 13 min |
 | Valorant game winner | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
-| LNBP Basketball Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 26 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -187,11 +187,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 05:20 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | — | In play | — |
-| 10-02 05:17 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
-| 10-02 05:15 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
-| 10-02 05:14 | TT Elite Series Match | Wojciech Urban | ✘ | — | — | In play | — |
-| 10-02 05:12 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | — | In play | — |
+| 10-02 05:27 | TT Elite Series Match | Maciej Kolek | ✘ | — | — | In play | — |
+| 10-02 05:25 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | — | In play | — |
+| 10-02 05:23 | WTA Tennis Match | Peyton Stearns | ✘ | — | — | In play | — |
+| 10-02 05:21 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:21 | WTA Tennis Match | Maja Chwalinska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:20 | TT Elite Series Match | Oliwier Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:17 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:15 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:14 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:12 | TT Elite Series Match | Grzegorz Poliniewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:08 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
 | 10-02 05:08 | College Football Game | Tulsa | ✔ | OT · UNT 45 - TLSA 44 | 24¢ | ❌ Lost | -$0.15 |
 | 10-02 05:04 | TT Elite Series Match | Krzysztof Kapik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -212,11 +217,6 @@
 | 10-02 04:28 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:25 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:24 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:23 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 04:17 | TT Elite Series Match | Zochniak Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:16 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:09 | TT Elite Series Match | Milosz Cesarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
