@@ -30,7 +30,9 @@ PAGE = os.path.join(HERE, "SCALP.md")
 LOW, HIGH = 0.55, 0.70      # entry band for the side we buy
 HOLD_SECONDS = 20           # price must stay in the band this long
 # Versions run side by side, each with its own positions: sell when bid >= entry + target.
-TARGETS = {"+5": 0.05, "+10": 0.10, "+15": 0.15, "+20": 0.20}
+TARGETS = {"+5": 0.05, "+10": 0.10, "+15": 0.15, "+20": 0.20, "+10 stop": 0.10}
+# Stop-loss: sell early when the bid falls this far below what we paid.
+STOPS = {"+10 stop": 0.15}
 MIN_SECS_LEFT = 30          # no new buys in the last 30 seconds
 CONTRACTS = 10
 POLL_SECONDS = 2
@@ -117,7 +119,10 @@ class Scalp:
             if pos:
                 bid, _ = side_quote(m, pos["side"])
                 entry = float(pos["price"])
-                if bid is not None and bid >= entry + target - 1e-9 and secs_left > 1:
+                stop = STOPS.get(ver)
+                hit_tp = bid is not None and bid >= entry + target - 1e-9
+                hit_stop = stop is not None and bid is not None and bid <= entry - stop + 1e-9
+                if (hit_tp or hit_stop) and secs_left > 1:
                     n = int(pos["contracts"])
                     xfee = fee_per_contract(bid, n)
                     pnl = n * (bid - xfee - entry - float(pos["fee"]))
@@ -204,10 +209,10 @@ def write_page(trades):
         "# Range-Scalp Bot", "",
         f"*Updated {datetime.now(timezone.utc):%a %b %d %H:%M} UTC. Paper money. Kalshi's 15-minute crypto "
         "up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 "
-        "contracts, sell at +5/+10/+15/+20¢ (four versions side by side), then look for the next one. Anything not sold rides to the close.*", "",
+        "contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*", "",
         "[← Back to all bots](README.md)", "",
         "## Verdict", "", verdict, "",
-        "| Sell at | Trades | Sold at target | Held to close (won) | Open | P&L | Return |",
+        "| Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |",
         "|---|---|---|---|---|---|---|",
     ]
     for ver in TARGETS:
@@ -216,7 +221,7 @@ def write_page(trades):
         vh = [t for t in vd if t["status"] == "settled"]
         vp = sum(float(t["pnl"]) for t in vd)
         vr = sum(int(t["contracts"]) * (float(t["price"]) + float(t["fee"])) for t in vd)
-        lines.append(f"| **{ver}¢** | {len(vd)} | {len(vd) - len(vh)} | {len(vh)} "
+        lines.append(f"| **{ver.replace('stop', '(15¢ stop)').replace('+10 ', '+10¢ ') if 'stop' in ver else ver + '¢'}** | {len(vd)} | {len(vd) - len(vh)} | {len(vh)} "
                      f"({sum(1 for t in vh if float(t['pnl']) > 0)}) | "
                      f"{sum(1 for t in vt if t['status'] == 'open')} | ${vp:.2f} | "
                      f"{(vp / vr if vr else 0):+.1%} |")
