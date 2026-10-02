@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Fri Oct 2, 11:55 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Fri Oct 2, 1:56 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -16,8 +16,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 119 | 72 | 40% | -$48.57 | -14.3% | 47 | Losing |
-| **Rain** | 42 | 22 | 32% | -$4.65 | -6.2% | 20 | Losing |
+| **Temperature** | 123 | 78 | 40% | -$56.39 | -15.4% | 45 | Losing |
+| **Rain** | 43 | 22 | 32% | -$4.65 | -6.2% | 21 | Losing |
 | **Longshot fade** | 953 | 789 | 92% | -$166.69 | -2.2% | 164 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -40,21 +40,22 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-03 | LAX 91-92 | YES | 10¢ | 26% | Open | — |
+| 2026-10-03 | LAX 95-96 | NO | 73¢ | 86% | Open | — |
+| 2026-10-03 | LAX 97-98 | NO | 77¢ | 95% | Open | — |
+| 2026-10-03 | DEN 87-88 | YES | 5¢ | 14% | Open | — |
 | 2026-10-03 | PHIL 70-71 | YES | 7¢ | 19% | Open | — |
 | 2026-10-03 | PHIL 72-73 | NO | 62¢ | 74% | Open | — |
 | 2026-10-03 | PHIL 74-75 | NO | 63¢ | 77% | Open | — |
 | 2026-10-03 | LAX 93-94 | YES | 14¢ | 23% | Open | — |
 | 2026-10-03 | LAX >98 | NO | 75¢ | 88% | Open | — |
 | 2026-10-03 | DEN 83-84 | NO | 56¢ | 74% | Open | — |
-| 2026-10-03 | DEN 85-86 | NO | 66¢ | 77% | Open | — |
-| 2026-10-03 | AUS 81-82 | NO | 66¢ | 77% | Open | — |
-| 2026-10-03 | AUS 83-84 | NO | 62¢ | 74% | Open | — |
-| 2026-10-03 | MIA 86-87 | YES | 8¢ | 19% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-03 | ATL | NO | 17¢ | 33% | Open | — |
 | 2026-10-03 | TTN | YES | 5¢ | 29% | Open | — |
 | 2026-10-03 | SATX | NO | 24¢ | 39% | Open | — |
 | 2026-10-03 | PVD | YES | 16¢ | 34% | Open | — |
@@ -64,7 +65,6 @@
 | 2026-10-03 | DAL | NO | 6¢ | 25% | Open | — |
 | 2026-10-03 | AUS | NO | 13¢ | 38% | Open | — |
 | 2026-10-03 | OKC | YES | 26¢ | 53% | Open | — |
-| 2026-10-03 | MIN | YES | 48¢ | 60% | Open | — |
 
 ## The bots
 
