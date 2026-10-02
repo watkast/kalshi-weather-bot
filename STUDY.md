@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 9:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 9:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 164 finished bets | 1% | -$10.60 | -43% | -6.46¢ | -$12.30 / $1.70 |
+| ESPN-verified leagues only, hold to the end | 166 finished bets | 1% | -$10.90 | -44% | -6.57¢ | -$12.45 / $1.55 |
 
-*Expect about **41 buys a day**, roughly **$6.12/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 164 | -$17.85 | -73% |
-| ESPN-verified leagues only, sell at 5¢ | 164 | -$18.75 | -76% |
-| ESPN-verified leagues only, sell at 2¢ | 164 | -$18.88 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 166 | -$18.15 | -73% |
+| ESPN-verified leagues only, sell at 5¢ | 166 | -$19.05 | -77% |
+| ESPN-verified leagues only, sell at 2¢ | 166 | -$19.18 | -77% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2522 | 164 | 1 (1%) | 1.1% | -$10.60 (-43%) | Hold to the end: -$10.60 (-43%) |
+| 2525 | 166 | 1 (1%) | 1.1% | -$10.90 (-44%) | Hold to the end: -$10.90 (-44%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 164 | 13% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 2345 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 166 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 2347 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$10.60 | -43% |
-| Sell at 2¢ | 22 | 13% | -$18.88 | -77% |
-| Sell at 3¢ | 14 | 9% | -$19.14 | -78% |
-| Sell at 5¢ | 9 | 5% | -$18.75 | -76% |
-| Sell at 10¢ | 4 | 2% | -$19.36 | -79% |
-| Sell at 25¢ | 1 | 1% | -$21.29 | -87% |
-| Sell at 50¢ | 1 | 1% | -$17.85 | -73% |
+| Hold to the end | 1 | 1% | -$10.90 | -44% |
+| Sell at 2¢ | 22 | 13% | -$19.18 | -77% |
+| Sell at 3¢ | 14 | 8% | -$19.44 | -78% |
+| Sell at 5¢ | 9 | 5% | -$19.05 | -77% |
+| Sell at 10¢ | 4 | 2% | -$19.66 | -79% |
+| Sell at 25¢ | 1 | 1% | -$21.59 | -87% |
+| Sell at 50¢ | 1 | 1% | -$18.15 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1026 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1027 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -128,17 +128,17 @@
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Women's Pro Basketball Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 15 min |
+| Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | NWSL Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Major League Soccer Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| LNBP Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Finland Korisliiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 63 min |
 | Sweden SBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 36 min |
-| LNBP Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | Australia NBL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -163,8 +163,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 60 | 5% | 0% | 0% | -91% |
-| 5–15 min | 31 | 16% | 3% | 0% | -72% |
+| Under 5 min | 61 | 5% | 0% | 0% | -91% |
+| 5–15 min | 32 | 16% | 3% | 0% | -73% |
 | 15–30 min | 32 | 25% | 12% | 3% | -57% |
 | 30–60 min | 22 | 23% | 14% | 0% | -61% |
 | Over 60 min | 19 | 5% | 5% | 0% | -91% |
@@ -185,10 +185,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 03:34 | Women's College Volleyball Match | Indiana | ✘ | — | — | In play | — |
+| 10-02 03:32 | WTA Tennis Match | Anastasia Potapova | ✘ | — | — | In play | — |
+| 10-02 03:31 | Major League Soccer Game | Tie | ✔ | 90'+4' · SKC 1 - SEA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:27 | CONCACAF Nations League Game | Tie | ✔ | 71' · CRC 2 - NCA 0 | — | In play | — |
-| 10-02 03:27 | Major League Soccer Game | Kansas City | ✔ | 90' · SKC 1 - SEA 1 | — | In play | — |
+| 10-02 03:27 | Major League Soccer Game | Kansas City | ✔ | 90' · SKC 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:26 | Women's Pro Basketball Game | Indiana | ✔ | 39.6 - 4th · IND 82 - LV 88 | — | In play | — |
-| 10-02 03:23 | TT Elite Series Match | Artur Zmijewski | ✘ | — | — | In play | — |
+| 10-02 03:23 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:19 | NHL Game | Calgary | ✔ | 16:40 - 3rd · SEA 4 - CGY 0 | — | In play | — |
 | 10-02 03:18 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:16 | CONCACAF Nations League Game | Nicaragua | ✔ | 60' · CRC 1 - NCA 0 | — | In play | — |
@@ -197,7 +200,7 @@
 | 10-02 03:15 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:14 | NHL Game | Vancouver | ✔ | 19:31 - 2nd · EDM 4 - VAN 0 | — | In play | — |
 | 10-02 03:07 | ATP Tennis Match | Jaime Faria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:02 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
+| 10-02 03:02 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:01 | NHL Game | Chicago | ✔ | 6:54 - 2nd · CHI 0 - UTA 4 | — | In play | — |
 | 10-02 03:01 | TT Elite Series Match | Gluszek Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:58 | College Football Game | Western Kentucky | ✔ | 7:54 - 4th · WKU 13 - NMSU 33 | 1¢ | ❌ Lost | -$0.15 |
@@ -212,9 +215,6 @@
 | 10-02 01:44 | NHL Game | Philadelphia | ✔ | 2:21 - OT · PHI 2 - NJ 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:44 | CONCACAF Nations League Game | Tie | ✔ | 76' · HAI 3 - DOM 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 01:43 | TT Elite Series Match | Adam Staniczek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 01:42 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 01:42 | TT Elite Series Match | Aleksander Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 01:35 | NHL Game | Tampa Bay | ✔ | 8:44 - 3rd · TB 1 - NYR 4 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
