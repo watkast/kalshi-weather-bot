@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 7:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.85/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2723 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2729 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2536 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2543 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1135 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1137 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 227 | 0 | 8% | 4% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 215 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 149 | 1 | 3% | 3% | -37% | -94% | 10 min |
+| ITF Women's Match | ✘ | 216 | 0 | 12% | 6% | -100% | -78% | 4 min |
+| Counter-Strike 2 Game | ✘ | 153 | 1 | 3% | 3% | -39% | -94% | 10 min |
 | Challenger ATP  | ✘ | 135 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
@@ -187,13 +187,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 12:49 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | — | In play | — |
-| 10-02 12:46 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | — | In play | — |
-| 10-02 12:46 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | — | In play | — |
-| 10-02 12:46 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | — | In play | — |
+| 10-02 12:54 | International Friendly Game | Tie | ✔ | 54' · PLE 3 - CHN 0 | — | In play | — |
+| 10-02 12:54 | TT Elite Series Match | Blazej Warpas | ✘ | — | — | In play | — |
+| 10-02 12:53 | Counter-Strike 2 Game | Matrix | ✘ | — | — | In play | — |
+| 10-02 12:52 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
+| 10-02 12:51 | International Friendly Game | Korea Republic | ✔ | 90'+3' · VEN 0 - KOR 0 | — | In play | — |
+| 10-02 12:50 | International Friendly Game | Venezuela | ✔ | 90'+1' · VEN 0 - KOR 0 | — | In play | — |
+| 10-02 12:49 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:46 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:46 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:46 | Counter-Strike 2 Game | Sashi Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:45 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
-| 10-02 12:45 | Counter-Strike 2 Game | HAVU | ✘ | — | — | In play | — |
-| 10-02 12:42 | ITF Women's Match | Manon Leonard | ✘ | — | — | In play | — |
+| 10-02 12:45 | Counter-Strike 2 Game | HAVU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 12:42 | ITF Women's Match | Manon Leonard | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 12:39 | TT Elite Series Match | Pawel Adamus | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 10-02 12:38 | League of Legends Game | Solary | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:38 | Darts Match | Harry Ward | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -204,19 +210,13 @@
 | 10-02 12:34 | ITF Men's Match | Dev Javia | ✘ | — | — | In play | — |
 | 10-02 12:33 | Counter-Strike 2 Game | PURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:33 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:32 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
+| 10-02 12:32 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:31 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:31 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:27 | Challenger ATP  | Carlos Taberner | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 12:26 | International Friendly Game | China PR | ✔ | 45'+5' · PLE 2 - CHN 0 | — | In play | — |
 | 10-02 12:24 | Overwatch Game | SEIJI ESPORTS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 12:24 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:22 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:21 | ITF Men's Match | Carles Hernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:19 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:18 | Darts Match | Robert Thornton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:14 | Challenger ATP  | Hugo Grenier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 12:11 | ITF Men's Match | Alec Beckley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
