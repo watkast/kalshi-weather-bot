@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 8:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 8:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2768 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2777 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2584 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2590 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1150 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 228 | 0 | 9% | 5% | -100% | -85% | 5 min |
+| TT Elite Series Match | ✘ | 1152 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Men's Match | ✘ | 229 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 220 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 166 | 1 | 3% | 2% | -44% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 169 | 1 | 4% | 3% | -45% | -94% | 9 min |
 | Challenger ATP  | ✘ | 138 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 73 | 0 | 8% | 3% | -100% | -86% | 11 min |
@@ -187,9 +187,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 14:04 | Counter-Strike 2 Game | Sinners | ✘ | — | — | In play | — |
-| 10-02 14:04 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | — | In play | — |
-| 10-02 14:00 | ITF Men's Match | Yshai Oliel | ✘ | — | — | In play | — |
+| 10-02 14:12 | ITF Men's Match | Nicolas Ifi | ✘ | — | — | In play | — |
+| 10-02 14:12 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | — | In play | — |
+| 10-02 14:12 | Men's T20 Cricket Match | Tuskers | ✘ | — | — | In play | — |
+| 10-02 14:11 | Counter-Strike 2 Game | NIP | ✘ | — | — | In play | — |
+| 10-02 14:10 | Counter-Strike 2 Game | 9INE | ✘ | — | — | In play | — |
+| 10-02 14:09 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
+| 10-02 14:09 | Darts Match | Jim Widmayer | ✘ | — | — | In play | — |
+| 10-02 14:07 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:05 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:04 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:04 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:00 | ITF Men's Match | Yshai Oliel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:58 | Counter-Strike 2 Game | Matrix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:55 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:54 | ITF Women's Match | Francisca Jorge | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
@@ -200,7 +209,7 @@
 | 10-02 13:47 | TT Elite Series Match | Jakub Kwapis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:47 | Darts Match | Nico Plovier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:46 | TT Elite Series Match | Wojciech Urban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:44 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | — | In play | — |
+| 10-02 13:44 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | 22¢ | ❌ Lost | -$0.15 |
 | 10-02 13:42 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:41 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:41 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -208,15 +217,6 @@
 | 10-02 13:34 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:34 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:33 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:33 | Valorant game winner | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:28 | Challenger ATP  | Enrico Dalla Valle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:28 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:25 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:23 | TT Elite Series Match | Jerzy Pelka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:22 | Australia NBL Game | SE Melbourne Phoenix | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 13:18 | TT Elite Series Match | Krystian Kolodziej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:17 | Counter-Strike 2 Game | UPGRADE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:17 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
