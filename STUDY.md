@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 10:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 172 finished bets | 1% | -$11.80 | -46% | -6.86¢ | -$12.90 / $1.10 |
+| ESPN-verified leagues only, hold to the end | 174 finished bets | 1% | -$12.10 | -46% | -6.95¢ | -$13.05 / $0.95 |
 
-*Expect about **41 buys a day**, roughly **$6.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.13/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 172 | -$19.05 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 172 | -$19.56 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 172 | -$19.95 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 174 | -$19.35 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 174 | -$19.60 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 174 | -$19.60 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2548 | 172 | 1 (1%) | 1.1% | -$11.80 (-46%) | Hold to the end: -$11.80 (-46%) |
+| 2552 | 174 | 1 (1%) | 1.1% | -$12.10 (-46%) | Hold to the end: -$12.10 (-46%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 172 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2368 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 174 | 14% | 9% | 6% | 2% | 1% | 1% |
+| Unverified | 2372 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$11.80 | -46% |
-| Sell at 2¢ | 24 | 14% | -$19.56 | -76% |
-| Sell at 3¢ | 14 | 8% | -$20.34 | -79% |
-| Sell at 5¢ | 9 | 5% | -$19.95 | -77% |
-| Sell at 10¢ | 4 | 2% | -$20.56 | -80% |
-| Sell at 25¢ | 1 | 1% | -$22.49 | -87% |
-| Sell at 50¢ | 1 | 1% | -$19.05 | -74% |
+| Hold to the end | 1 | 1% | -$12.10 | -46% |
+| Sell at 2¢ | 25 | 14% | -$19.60 | -75% |
+| Sell at 3¢ | 15 | 9% | -$20.25 | -78% |
+| Sell at 5¢ | 10 | 6% | -$19.60 | -75% |
+| Sell at 10¢ | 4 | 2% | -$20.86 | -80% |
+| Sell at 25¢ | 1 | 1% | -$22.79 | -87% |
+| Sell at 50¢ | 1 | 1% | -$19.35 | -74% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1040 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1044 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -110,9 +110,9 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
+| NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Euroleague Game | ✘ | 14 | 0 | 21% | 7% | -100% | -63% | 26 min |
-| NHL Game | ✔ | 14 | 0 | 14% | 0% | -100% | -75% | 6 min |
 | ATP Tennis Match | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 2 min |
 | KHL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 5 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -164,11 +164,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 62 | 5% | 0% | 0% | -92% |
+| Under 5 min | 63 | 5% | 0% | 0% | -92% |
 | 5–15 min | 33 | 18% | 3% | 0% | -68% |
 | 15–30 min | 33 | 27% | 12% | 3% | -53% |
 | 30–60 min | 24 | 21% | 12% | 0% | -64% |
-| Over 60 min | 20 | 5% | 5% | 0% | -91% |
+| Over 60 min | 21 | 10% | 10% | 0% | -83% |
 
 ## Speed & liquidity
 
@@ -186,11 +186,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 04:53 | WTA Tennis Match | Yue Yuan | ✘ | — | — | In play | — |
+| 10-02 04:53 | TT Elite Series Match | Michal Wolny | ✘ | — | — | In play | — |
+| 10-02 04:53 | NHL Game | Florida | ✔ | 1:55 - OT · FLA 3 - SJ 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:51 | ITF Women's Match | Ke Ren | ✘ | — | — | In play | — |
 | 10-02 04:48 | Challenger WTA | Kyoka Okamura | ✘ | — | — | In play | — |
-| 10-02 04:44 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | — | In play | — |
-| 10-02 04:44 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | — | In play | — |
-| 10-02 04:43 | TT Elite Series Match | Mariusz Adamus | ✘ | — | — | In play | — |
-| 10-02 04:40 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | — | In play | — |
+| 10-02 04:44 | TT Elite Series Match | Mateusz Rutkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:44 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:43 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 04:40 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:29 | ITF Women's Match | Ha Yoon Son | ✘ | — | — | In play | — |
 | 10-02 04:29 | WTA Tennis Match | Janice Tjen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:28 | TT Elite Series Match | Stapor Rafal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -212,10 +216,6 @@
 | 10-02 03:34 | Women's College Volleyball Match | Indiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:32 | WTA Tennis Match | Anastasia Potapova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:31 | Major League Soccer Game | Tie | ✔ | 90'+4' · SKC 1 - SEA 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:27 | CONCACAF Nations League Game | Tie | ✔ | 71' · CRC 2 - NCA 0 | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 03:27 | Major League Soccer Game | Kansas City | ✔ | 90' · SKC 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:26 | Women's Pro Basketball Game | Indiana | ✔ | 39.6 - 4th · IND 82 - LV 88 | 2¢ | ❌ Lost | -$0.15 |
-| 10-02 03:23 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
