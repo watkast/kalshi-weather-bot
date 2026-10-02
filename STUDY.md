@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **41 buys a day**, roughly **$6.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.10/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2578 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2580 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2399 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2402 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1057 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1059 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 214 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -103,10 +103,10 @@
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
 | Dota 2 Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Darts Match | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 20 min |
+| Challenger WTA | ✘ | 24 | 0 | 17% | 12% | -100% | -71% | 10 min |
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
-| Challenger WTA | ✘ | 23 | 0 | 17% | 13% | -100% | -70% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | International Friendly Game | partly | 18 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
@@ -187,9 +187,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 05:59 | Challenger WTA | Sara Sorribes Tormo | ✘ | — | — | In play | — |
-| 10-02 05:54 | TT Elite Series Match | Pawel Adamus | ✘ | — | — | In play | — |
-| 10-02 05:53 | TT Elite Series Match | Karol Wisniewski | ✘ | — | — | In play | — |
+| 10-02 06:09 | League of Legends Game | Chinese Taipei | ✘ | — | — | In play | — |
+| 10-02 06:02 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | — | In play | — |
+| 10-02 05:59 | Challenger WTA | Sara Sorribes Tormo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-02 05:54 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 05:53 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:51 | ITF Women's Match | Jiayu Xu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:48 | WTA Tennis Match | Linda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:46 | TT Elite Series Match | Jerzy Pelka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,8 +217,6 @@
 | 10-02 05:00 | ITF Men's Match | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 04:53 | WTA Tennis Match | Yue Yuan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 04:53 | TT Elite Series Match | Michal Wolny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:53 | NHL Game | Florida | ✔ | 1:55 - OT · FLA 3 - SJ 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 04:51 | ITF Women's Match | Ke Ren | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
