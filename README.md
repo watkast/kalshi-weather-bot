@@ -12,6 +12,8 @@
 
 ### → [Range-Scalp Bot](SCALP.md) — buys 15-minute crypto sides holding at 55–70¢, sells at +20¢, repeats
 
+### → [Momentum Bot](MOMENTUM.md) — buys a 15-minute crypto side right after its price jumps, sells at +5¢ or more
+
 ## Scoreboard
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |

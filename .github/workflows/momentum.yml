@@ -1,0 +1,44 @@
+name: momentum-bot
+
+on:
+  schedule:
+    - cron: "11 */2 * * *"   # keeps a run queued so watch windows follow back-to-back
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["momentum_bot.py", "scalp_bot.py", ".github/workflows/momentum.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: momentum-bot
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests matplotlib
+      - name: Set up git
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          # A queued run checks out the code from when it was queued; start from the latest data instead.
+          git fetch -q --depth=1 origin main && git reset -q --hard FETCH_HEAD
+      - name: Run the momentum bot
+        env:
+          RUN_MINUTES: "330"
+          PYTHONUNBUFFERED: "1"
+        run: python momentum_bot.py | tee momentum.log
+      - name: Save data
+        if: always()
+        run: |
+          git add momentum MOMENTUM.md 2>/dev/null || true
+          git diff --cached --quiet || git commit -q -m "Momentum bot update"
+          for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; git rebase --abort 2>/dev/null; sleep 5; done
