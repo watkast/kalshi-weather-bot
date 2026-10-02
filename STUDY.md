@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 12:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 12:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 185 finished bets | 1% | -$13.75 | -50% | -7.43¢ | -$13.80 / $0.05 |
 
-*Expect about **38 buys a day**, roughly **$5.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2920 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
+| 2926 | 185 | 1 (1%) | 1.1% | -$13.75 (-50%) | Hold to the end: -$13.75 (-50%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 185 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2725 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2730 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1197 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1199 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 236 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 212 | 1 | 3% | 2% | -56% | -95% | 9 min |
-| Challenger ATP  | ✘ | 145 | 0 | 8% | 1% | -100% | -86% | 5 min |
+| Challenger ATP  | ✘ | 146 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 77 | 0 | 8% | 3% | -100% | -86% | 12 min |
 | UEFA Nations League Game | ✔ | 58 | 0 | 9% | 3% | -100% | -85% | 6 min |
@@ -110,7 +110,7 @@
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
-| KHL Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 5 min |
+| KHL Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
@@ -119,8 +119,8 @@
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| ELH Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
-| ELH Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
@@ -187,11 +187,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 18:29 | KHL Game | Ak Bars Kazan | ✘ | — | — | In play | — |
+| 10-02 18:37 | Adriatic ABA Game | KK Borac Cacak | ✘ | — | — | In play | — |
+| 10-02 18:37 | ELH Game | BK Mlada Boleslav | ✘ | — | — | In play | — |
+| 10-02 18:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | — | In play | — |
+| 10-02 18:35 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | — | In play | — |
+| 10-02 18:33 | ELH Game | HC Rytiri Kladno | ✘ | — | — | In play | — |
+| 10-02 18:29 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:29 | KHL Game | Ak Bars Kazan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:29 | ELH Game | HC Skoda Plzen | ✘ | — | — | In play | — |
-| 10-02 18:28 | TT Elite Series Match | Piotr Strus | ✘ | — | — | In play | — |
-| 10-02 18:27 | Challenger ATP  | Felix Balshaw | ✘ | — | — | In play | — |
-| 10-02 18:23 | ELH Game | HC Olomouc | ✘ | — | — | In play | — |
+| 10-02 18:28 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:27 | Challenger ATP  | Felix Balshaw | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 18:23 | ELH Game | HC Olomouc | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:19 | TT Elite Series Match | Zielinski Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 18:18 | Turkey BSL Game | Galatasaray SK | ✘ | — | — | In play | — |
 | 10-02 18:17 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
@@ -211,12 +217,6 @@
 | 10-02 17:54 | ITF Men's Match | Nikola Djosic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:52 | Liiga Game | Jokerit Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:52 | UEFA Nations League Game | Tie | ✔ | 90'+4' · MNE 2 - LVA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:52 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:52 | TT Elite Series Match | Kocik Tomasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:49 | Liiga Game | JYP Jyvaskyla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:47 | ITF Men's Match | Johan Alexander Rodriguez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 17:45 | UEFA Nations League Game | Tie | ✔ | 87' · ARM 0 - CYP 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 17:43 | ELH Game | HC Vitkovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
