@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 181 finished bets | 1% | -$13.15 | -48% | -7.27¢ | -$13.50 / $0.35 |
 
-*Expect about **38 buys a day**, roughly **$5.73/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2850 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
+| 2856 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 181 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2660 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2665 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,11 +90,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1176 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1177 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 231 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 198 | 1 | 3% | 3% | -53% | -95% | 9 min |
-| Challenger ATP  | ✘ | 139 | 0 | 8% | 1% | -100% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 200 | 1 | 3% | 2% | -53% | -95% | 9 min |
+| Challenger ATP  | ✘ | 140 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 74 | 0 | 8% | 3% | -100% | -86% | 11 min |
 | UEFA Nations League Game | ✔ | 54 | 0 | 9% | 4% | -100% | -84% | 6 min |
@@ -102,7 +102,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Darts Match | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 11 min |
 | Dota 2 Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 28 min |
-| Men's T20 Cricket Match | ✘ | 27 | 0 | 15% | 7% | -100% | -74% | 17 min |
+| Men's T20 Cricket Match | ✘ | 28 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -187,11 +187,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 16:37 | Counter-Strike 2 Game | x3pt | ✘ | — | — | In play | — |
+| 10-02 16:47 | Counter-Strike 2 Game | Nuclear TigeRES | ✘ | — | — | In play | — |
+| 10-02 16:44 | TT Elite Series Match | Jacek Oracz | ✘ | — | — | In play | — |
+| 10-02 16:44 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | — | In play | — |
+| 10-02 16:43 | Challenger ATP  | Keegan Smith | ✘ | — | — | In play | — |
+| 10-02 16:38 | League of Legends Game | Colossal Gaming | ✘ | — | — | In play | — |
+| 10-02 16:38 | League of Legends Game | PCIFIC | ✘ | — | — | In play | — |
+| 10-02 16:37 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:36 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
-| 10-02 16:34 | TT Elite Series Match | Mateusz Trela | ✘ | — | — | In play | — |
-| 10-02 16:31 | Challenger ATP  | Matheus Pucinelli de Almeida | ✘ | — | — | In play | — |
-| 10-02 16:27 | Counter-Strike 2 Game | Eternal Fire | ✘ | — | — | In play | — |
+| 10-02 16:34 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 16:31 | Challenger ATP  | Matheus Pucinelli de Almeida | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-02 16:27 | Counter-Strike 2 Game | Eternal Fire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:27 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:26 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:26 | Dota 2 Game | Xtreme Gaming | ✘ | — | — | In play | — |
@@ -205,18 +211,12 @@
 | 10-02 16:15 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
 | 10-02 16:14 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 16:13 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:13 | Men's T20 Cricket Match | Pro Sports Titans | ✘ | — | — | In play | — |
+| 10-02 16:13 | Men's T20 Cricket Match | Pro Sports Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:12 | Counter-Strike 2 Game | HAVU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:12 | TT Elite Series Match | Krzysztof Juszczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:11 | KHL Game | Amur Khabarovsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:07 | Counter-Strike 2 Game | Matrix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:01 | TT Elite Series Match | Piotr Strus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:58 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:54 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:54 | TT Elite Series Match | Dawid Michna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:54 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 15:54 | Darts Match | Nico Plovier | ✘ | — | — | In play | — |
-| 10-02 15:51 | Counter-Strike 2 Game | MORROW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
