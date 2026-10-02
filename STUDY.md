@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 11:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 11:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 181 finished bets | 1% | -$13.15 | -48% | -7.27¢ | -$13.50 / $0.35 |
 
-*Expect about **38 buys a day**, roughly **$5.73/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.72/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2871 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
+| 2878 | 181 | 1 (1%) | 1.1% | -$13.15 (-48%) | Hold to the end: -$13.15 (-48%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 181 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2680 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2689 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,12 +90,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1186 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1188 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 231 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 201 | 1 | 3% | 2% | -54% | -95% | 9 min |
-| Challenger ATP  | ✘ | 142 | 0 | 8% | 1% | -100% | -87% | 5 min |
-| TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
+| Counter-Strike 2 Game | ✘ | 205 | 1 | 3% | 2% | -54% | -95% | 9 min |
+| Challenger ATP  | ✘ | 143 | 0 | 8% | 1% | -100% | -87% | 5 min |
+| TT Star Series Match | ✘ | 102 | 1 | 3% | 3% | -8% | -95% | 4 min |
 | League of Legends Game | ✘ | 76 | 0 | 8% | 3% | -100% | -86% | 12 min |
 | UEFA Nations League Game | ✔ | 54 | 0 | 9% | 4% | -100% | -84% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
@@ -123,9 +123,9 @@
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 10 | 1 | 10% | 10% | +833% | -83% | 6 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
+| ELH Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Valorant game winner | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | LNBP Basketball Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 22 min |
-| ELH Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Women's Pro Basketball Game | ✔ | 7 | 0 | 29% | 14% | -100% | -50% | 13 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
@@ -187,13 +187,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 17:17 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | — | In play | — |
-| 10-02 17:17 | Counter-Strike 2 Game | Anteiku | ✘ | — | — | In play | — |
-| 10-02 17:15 | ELH Game | HC Verva Litvinov | ✘ | — | — | In play | — |
+| 10-02 17:26 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | — | In play | — |
+| 10-02 17:26 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
+| 10-02 17:25 | Finland Korisliiga Game | Lahti Basketball | ✘ | — | — | In play | — |
+| 10-02 17:22 | Challenger ATP  | Martin Krumich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:20 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:20 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:19 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:17 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:17 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:15 | ELH Game | HC Verva Litvinov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:14 | UEFA Nations League Game | Latvia | ✔ | 56' · MNE 1 - LVA 0 | — | In play | — |
 | 10-02 17:12 | Men's T20 Cricket Match | Knights | ✘ | — | — | In play | — |
-| 10-02 17:11 | Counter-Strike 2 Game | GLITCH | ✘ | — | — | In play | — |
-| 10-02 17:11 | Counter-Strike 2 Game | Prestige | ✘ | — | — | In play | — |
+| 10-02 17:11 | Counter-Strike 2 Game | GLITCH | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 17:11 | Counter-Strike 2 Game | Prestige | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:06 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:06 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 17:04 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,13 +217,6 @@
 | 10-02 16:38 | League of Legends Game | PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:37 | Counter-Strike 2 Game | x3pt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 16:36 | Darts Match | Petri Rasmus | ✘ | — | — | In play | — |
-| 10-02 16:34 | TT Elite Series Match | Mateusz Trela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:31 | Challenger ATP  | Matheus Pucinelli de Almeida | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 16:27 | Counter-Strike 2 Game | Eternal Fire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:27 | Counter-Strike 2 Game | Anteiku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:26 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 16:26 | Dota 2 Game | Xtreme Gaming | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 16:24 | Counter-Strike 2 Game | 9INE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
