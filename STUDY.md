@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 8:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 8:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 179 finished bets | 1% | -$12.85 | -48% | -7.18¢ | -$13.35 / $0.50 |
 
-*Expect about **39 buys a day**, roughly **$5.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **38 buys a day**, roughly **$5.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2778 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
+| 2782 | 179 | 1 (1%) | 1.1% | -$12.85 (-48%) | Hold to the end: -$12.85 (-48%) |
 
-*In play right now: 0. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 179 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2599 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2601 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,9 +90,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1154 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1155 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 230 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 220 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 221 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 172 | 1 | 3% | 3% | -46% | -94% | 9 min |
 | Challenger ATP  | ✘ | 138 | 0 | 8% | 1% | -100% | -86% | 5 min |
 | TT Star Series Match | ✘ | 101 | 1 | 3% | 3% | -8% | -95% | 4 min |
@@ -187,6 +187,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 14:35 | TT Elite Series Match | Schaniel Krzysztof | ✘ | — | — | In play | — |
+| 10-02 14:28 | Darts Match | Harry Ward | ✘ | — | — | In play | — |
+| 10-02 14:28 | ITF Women's Match | Juliana Giaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 14:26 | TT Elite Series Match | Marcin Jadczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:17 | Counter-Strike 2 Game | BC.Game Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:12 | ITF Men's Match | Nicolas Ifi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 14:12 | TT Elite Series Match | Jacek Przewlocki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,10 +217,6 @@
 | 10-02 13:44 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | 22¢ | ❌ Lost | -$0.15 |
 | 10-02 13:42 | TT Elite Series Match | Bartosz Czerwinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 13:41 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:41 | TT Elite Series Match | Pawel Slosarczyk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:37 | Counter-Strike 2 Game | GLITCH | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:34 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 13:34 | Darts Match | Jim Widmayer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
