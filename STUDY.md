@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 1:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 1:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 175 finished bets | 1% | -$12.25 | -47% | -7.00¢ | -$13.05 / $0.80 |
 
-*Expect about **40 buys a day**, roughly **$6.03/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$6.02/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2603 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
+| 2607 | 175 | 1 (1%) | 1.1% | -$12.25 (-47%) | Hold to the end: -$12.25 (-47%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 175 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 2425 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2429 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1075 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1077 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 214 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 210 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -100,10 +100,10 @@
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
 | CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| Dota 2 Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
-| Dota 2 Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 28 min |
+| Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | Darts Match | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 20 min |
-| Challenger WTA | ✘ | 24 | 0 | 17% | 12% | -100% | -71% | 10 min |
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -187,11 +187,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 07:35 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | — | In play | — |
+| 10-02 07:27 | TT Elite Series Match | Maciej Kolek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 07:27 | TT Elite Series Match | Gluszek Michal | ✘ | — | — | In play | — |
+| 10-02 07:24 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 07:15 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 07:15 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 07:11 | TT Elite Series Match | Frantisek Krcil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 07:10 | Challenger WTA | Sofya Lansere | ✘ | — | — | In play | — |
-| 10-02 07:09 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
+| 10-02 07:10 | Challenger WTA | Sofya Lansere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-02 07:09 | Dota 2 Game | InterActive Philippines | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 07:08 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 07:07 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 06:57 | TT Star Series Match | Coton Adrien | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,10 +217,6 @@
 | 10-02 06:09 | League of Legends Game | Chinese Taipei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 06:02 | TT Elite Series Match | Jakub Kuzmicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 05:59 | Challenger WTA | Sara Sorribes Tormo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 05:54 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 05:53 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 05:51 | ITF Women's Match | Jiayu Xu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 05:48 | WTA Tennis Match | Linda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
