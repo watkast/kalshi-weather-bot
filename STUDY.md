@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 8:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 8:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 163 finished bets | 1% | -$10.45 | -43% | -6.41¢ | -$12.15 / $1.70 |
 
-*Expect about **39 buys a day**, roughly **$5.87/day** at risk; max loss per buy **15¢**.*
+*Expect about **39 buys a day**, roughly **$5.86/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2505 | 163 | 1 (1%) | 1.1% | -$10.45 (-43%) | Hold to the end: -$10.45 (-43%) |
+| 2506 | 163 | 1 (1%) | 1.1% | -$10.45 (-43%) | Hold to the end: -$10.45 (-43%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -184,6 +184,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-02 02:50 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | — | In play | — |
 | 10-02 02:38 | NHL Game | Nashville | ✔ | 2:16 - 3rd · MIN 3 - NSH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:36 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
 | 10-02 02:32 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,7 +214,6 @@
 | 10-02 00:45 | CONCACAF Nations League Game | Tie | ✔ | 45' · PUR 1 - CAY 0 | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 00:44 | CONCACAF Nations League Game | Cayman Islands | ✔ | 45' · PUR 1 - CAY 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 00:42 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 00:34 | Women's College Volleyball Match | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
