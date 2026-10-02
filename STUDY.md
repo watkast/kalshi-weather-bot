@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 1, 9:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 1, 10:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 169 finished bets | 1% | -$11.35 | -45% | -6.72¢ | -$12.60 / $1.25 |
+| ESPN-verified leagues only, hold to the end | 171 finished bets | 1% | -$11.65 | -45% | -6.81¢ | -$12.75 / $1.10 |
 
-*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 169 | -$18.60 | -73% |
-| ESPN-verified leagues only, sell at 2¢ | 169 | -$19.37 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 169 | -$19.50 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 171 | -$18.90 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 171 | -$19.41 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 171 | -$19.80 | -77% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 2533 | 169 | 1 (1%) | 1.1% | -$11.35 (-45%) | Hold to the end: -$11.35 (-45%) |
+| 2534 | 171 | 1 (1%) | 1.1% | -$11.65 (-45%) | Hold to the end: -$11.65 (-45%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 169 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 2355 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 171 | 14% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 2356 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 1% | -$11.35 | -45% |
-| Sell at 2¢ | 23 | 14% | -$19.37 | -76% |
-| Sell at 3¢ | 14 | 8% | -$19.89 | -78% |
-| Sell at 5¢ | 9 | 5% | -$19.50 | -77% |
-| Sell at 10¢ | 4 | 2% | -$20.11 | -79% |
-| Sell at 25¢ | 1 | 1% | -$22.04 | -87% |
-| Sell at 50¢ | 1 | 1% | -$18.60 | -73% |
+| Hold to the end | 1 | 1% | -$11.65 | -45% |
+| Sell at 2¢ | 24 | 14% | -$19.41 | -76% |
+| Sell at 3¢ | 14 | 8% | -$20.19 | -79% |
+| Sell at 5¢ | 9 | 5% | -$19.80 | -77% |
+| Sell at 10¢ | 4 | 2% | -$20.41 | -80% |
+| Sell at 25¢ | 1 | 1% | -$22.34 | -87% |
+| Sell at 50¢ | 1 | 1% | -$18.90 | -74% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1032 | 0 | 1% | 0% | -100% | -99% | 5 min |
+| TT Elite Series Match | ✘ | 1033 | 0 | 1% | 0% | -100% | -99% | 5 min |
 | ITF Men's Match | ✘ | 213 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 206 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 141 | 1 | 4% | 3% | -34% | -94% | 10 min |
@@ -98,8 +98,8 @@
 | TT Star Series Match | ✘ | 91 | 1 | 2% | 2% | +3% | -96% | 4 min |
 | League of Legends Game | ✘ | 71 | 0 | 8% | 3% | -100% | -85% | 11 min |
 | UEFA Nations League Game | ✔ | 52 | 0 | 10% | 4% | -100% | -83% | 6 min |
+| CONCACAF Nations League Game | partly | 48 | 0 | 21% | 6% | -100% | -64% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| CONCACAF Nations League Game | partly | 46 | 0 | 20% | 7% | -100% | -66% | 27 min |
 | Men's T20 Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 18 min |
 | Dota 2 Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -166,8 +166,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 62 | 5% | 0% | 0% | -92% |
 | 5–15 min | 33 | 18% | 3% | 0% | -68% |
-| 15–30 min | 32 | 25% | 12% | 3% | -57% |
-| 30–60 min | 23 | 22% | 13% | 0% | -62% |
+| 15–30 min | 33 | 27% | 12% | 3% | -53% |
+| 30–60 min | 24 | 21% | 12% | 0% | -64% |
 | Over 60 min | 19 | 5% | 5% | 0% | -91% |
 
 ## Speed & liquidity
@@ -186,7 +186,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-02 03:54 | TT Elite Series Match | Karol Wisniewski | ✘ | — | — | In play | — |
+| 10-02 04:07 | TT Elite Series Match | Adam Staniczek | ✘ | — | — | In play | — |
+| 10-02 03:54 | TT Elite Series Match | Karol Wisniewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:50 | LNBP Basketball Game | Abejas de Leon | ✘ | — | — | In play | — |
 | 10-02 03:47 | TT Elite Series Match | Mariusz Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:43 | TT Elite Series Match | Oskar Jadach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -197,13 +198,13 @@
 | 10-02 03:34 | Women's College Volleyball Match | Indiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:32 | WTA Tennis Match | Anastasia Potapova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:31 | Major League Soccer Game | Tie | ✔ | 90'+4' · SKC 1 - SEA 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:27 | CONCACAF Nations League Game | Tie | ✔ | 71' · CRC 2 - NCA 0 | — | In play | — |
+| 10-02 03:27 | CONCACAF Nations League Game | Tie | ✔ | 71' · CRC 2 - NCA 0 | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 03:27 | Major League Soccer Game | Kansas City | ✔ | 90' · SKC 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:26 | Women's Pro Basketball Game | Indiana | ✔ | 39.6 - 4th · IND 82 - LV 88 | 2¢ | ❌ Lost | -$0.15 |
 | 10-02 03:23 | TT Elite Series Match | Artur Zmijewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:19 | NHL Game | Calgary | ✔ | 16:40 - 3rd · SEA 4 - CGY 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:18 | TT Elite Series Match | Patryk Jendrzejewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 03:16 | CONCACAF Nations League Game | Nicaragua | ✔ | 60' · CRC 1 - NCA 0 | — | In play | — |
+| 10-02 03:16 | CONCACAF Nations League Game | Nicaragua | ✔ | 60' · CRC 1 - NCA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:16 | TT Elite Series Match | Krzysztof Wloczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:16 | TT Elite Series Match | Blazej Warpas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 03:15 | TT Elite Series Match | Pawel Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,7 +216,6 @@
 | 10-02 02:58 | College Football Game | Western Kentucky | ✔ | 7:54 - 4th · WKU 13 - NMSU 33 | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 02:50 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 02:38 | NHL Game | Nashville | ✔ | 2:16 - 3rd · MIN 3 - NSH 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 02:36 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
 
 ## Raw data
 
