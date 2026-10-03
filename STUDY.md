@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 12:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **43 buys a day**, roughly **$6.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3245 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3249 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3010 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3012 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -170,6 +170,7 @@
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
+| Japan J2 League Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 8 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Turkey BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 382 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -200,8 +201,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 07:01 | Japan J2 League Game | Fujieda | ✘ | — | — | In play | — |
+| 10-03 06:57 | Japan J2 League Game | Shonan | ✘ | — | — | In play | — |
+| 10-03 06:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 06:55 | Challenger WTA | Emerson Jones | ✘ | — | — | In play | — |
 | 10-03 06:54 | Men's T20 Cricket Match | Pakistan | ✘ | — | — | In play | — |
-| 10-03 06:44 | Japan J2 League Game | Vortis | ✘ | — | — | In play | — |
+| 10-03 06:44 | Japan J2 League Game | Vortis | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-03 06:38 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 06:17 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 05:21 | WTA Tennis Match | Camila Osorio | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -226,10 +231,6 @@
 | 10-03 04:02 | NWSL Game | Tie | ✔ | 90'+8' · NC 1 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:02 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:00 | TT Elite Series Match | Mateusz Misiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:58 | TT Elite Series Match | Kacper Makowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:55 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 03:54 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:53 | NHL Game | Dallas | ✔ | 2:23 - 3rd · STL 2 - DAL 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
