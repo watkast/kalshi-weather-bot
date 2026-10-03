@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
-*Expect about **41 buys a day**, roughly **$6.17/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3349 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3362 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3103 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3113 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -124,7 +124,7 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Ettan Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Valorant game winner | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -134,6 +134,7 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
+| Women's ODI Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -141,7 +142,6 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | LaLiga 2 Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
-| Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
@@ -153,7 +153,9 @@
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
+| Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| Tweede Divisie Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -166,14 +168,15 @@
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | Bundesliga Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Turkey BSL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 199 min |
 | Adriatic ABA Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Eerste Divisie Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | -0 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | Serie A Femminile Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Tweede Divisie Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Rugby French 14 Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 59 min |
+| Serie C Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
@@ -205,36 +208,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 14:28 | Tweede Divisie Game | IJsselmeervogels | ✘ | — | — | In play | — |
+| 10-03 14:28 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:26 | Tweede Divisie Game | Rkav Volendam | ✘ | — | — | In play | — |
+| 10-03 14:25 | Serie C Game | Cittadella | ✘ | — | — | In play | — |
+| 10-03 14:24 | Serie C Game | Forli | ✘ | — | — | In play | — |
+| 10-03 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:21 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:19 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:18 | Serie C Game | Gubbio | ✘ | — | — | In play | — |
+| 10-03 14:18 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
 | 10-03 14:16 | Serie A Femminile Game | Sassuolo | ✘ | — | — | In play | — |
-| 10-03 14:15 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:15 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:15 | Tweede Divisie Game | Treffers Groesbeek | ✘ | — | — | In play | — |
-| 10-03 14:14 | England Women's Super League Game | Liverpool | ✘ | — | — | In play | — |
-| 10-03 14:12 | Turkey BSL Game | Bursaspor | ✘ | — | — | In play | — |
-| 10-03 14:10 | Serie C Game | Casarano | ✘ | — | — | In play | — |
-| 10-03 14:10 | Valorant game winner | Karmine Corp | ✘ | — | — | In play | — |
+| 10-03 14:14 | England Women's Super League Game | Liverpool | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 14:12 | Turkey BSL Game | Bursaspor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:10 | Serie C Game | Casarano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:10 | Valorant game winner | Karmine Corp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:59 | ITF Men's Match | Radu David Turcanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:56 | Serie C Game | Casertana | ✘ | — | — | In play | — |
 | 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:53 | ITF Men's Match | Sander Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:52 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | — | In play | — |
-| 10-03 13:50 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 13:52 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 13:50 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:49 | LaLiga 2 Game | Albacete | ✔ | 88' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | — | In play | — |
-| 10-03 13:41 | Tweede Divisie Game | Koninklijke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:41 | Challenger ATP  | Joel Schwaerzler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:30 | Challenger ATP  | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:23 | Tweede Divisie Game | Kloetinge | ✘ | — | — | In play | — |
-| 10-03 13:17 | Russia VTB United Game | MBA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:11 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:06 | Dota 2 Game | Rostik Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:00 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
-| 10-03 12:57 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:57 | Counter-Strike 2 Game | 1WIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:54 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
