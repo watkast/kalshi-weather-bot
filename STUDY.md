@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **43 buys a day**, roughly **$6.43/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3479 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
+| 3485 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3208 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3223 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -110,7 +110,7 @@
 | International Friendly Game | partly | 26 | 0 | 4% | 0% | -100% | -93% | 12 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| KHL Game | ✘ | 21 | 0 | 5% | 5% | -100% | -92% | 5 min |
+| KHL Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
@@ -118,14 +118,15 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
+| Liiga Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Liiga Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Slovakian 2. Liga Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 109 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -146,20 +147,20 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Eerste Divisie Game | ✘ | 6 | 0 | 33% | 33% | -100% | -42% | 8 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
-| Slovakian 2. Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 54 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
-| Eerste Divisie Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 11 min |
 | Serie A Femminile Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
+| Bundesliga Basketball Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 13 min |
 | Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -171,7 +172,6 @@
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
-| Bundesliga Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Adriatic ABA Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -199,7 +199,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 31 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -211,13 +211,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 16:49 | Adriatic ABA Game | KK Cibona | ✘ | — | — | In play | — |
+| 10-03 16:45 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | — | In play | — |
+| 10-03 16:44 | Liiga Game | Vaasan Sport | ✘ | — | — | In play | — |
+| 10-03 16:43 | UEFA Nations League Game | Tie | ✔ | 42' · ENG 3 - CRO 0 | — | In play | — |
+| 10-03 16:42 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | — | In play | — |
+| 10-03 16:40 | UEFA Nations League Game | Croatia | ✔ | 38' · ENG 2 - CRO 0 | — | In play | — |
 | 10-03 16:40 | Dota 2 Game | GamerLegion | ✘ | — | — | In play | — |
 | 10-03 16:40 | ITF Women's Match | Salma Djoubri | ✘ | — | — | In play | — |
-| 10-03 16:36 | Liiga Game | KooKoo Kouvola | ✘ | — | — | In play | — |
-| 10-03 16:34 | KHL Game | HC Dynamo Moscow | ✘ | — | — | In play | — |
-| 10-03 16:33 | Eerste Divisie Game | Breda | ✘ | — | — | In play | — |
-| 10-03 16:33 | Liiga Game | Kiekko-Espoo | ✘ | — | — | In play | — |
-| 10-03 16:31 | Liiga Game | Jokerit Helsinki | ✘ | — | — | In play | — |
+| 10-03 16:36 | Liiga Game | KooKoo Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:34 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:33 | Eerste Divisie Game | Breda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:33 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:31 | Liiga Game | Jokerit Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:30 | KHL Game | Admiral Vladivostok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:29 | Liiga Game | Lukko Rauma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:28 | College Football Game | Charlotte | ✔ | 2:00 - 2nd · MEM 21 - CLT 0 | — | In play | — |
@@ -232,15 +238,9 @@
 | 10-03 16:24 | Rugby French 14 Match | Stade Francais Paris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:24 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:24 | Liiga Game | JYP Jyvaskyla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:23 | Eerste Divisie Game | Vitesse | ✘ | — | — | In play | — |
-| 10-03 16:22 | Bundesliga Basketball Game | Hamburg Towers | ✘ | — | — | In play | — |
+| 10-03 16:23 | Eerste Divisie Game | Vitesse | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 10-03 16:22 | Bundesliga Basketball Game | Hamburg Towers | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-03 16:20 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
-| 10-03 16:14 | Liiga Game | KalPa Kuopio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:09 | LaLiga 2 Game | Tie | ✔ | 90'+5' · BUR 1 - ALM 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:07 | PREM Rugby Match | Northampton Saints | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:04 | Eerste Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:04 | Counter-Strike 2 Game | Infinite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:03 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
