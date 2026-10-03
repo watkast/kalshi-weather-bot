@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
 
-*Expect about **42 buys a day**, roughly **$6.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3407 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
+| 3409 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3149 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3150 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -126,9 +126,9 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| SHL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -208,8 +208,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 15:33 | Challenger ATP  | Henry Bernet | ✘ | — | — | In play | — |
+| 10-03 15:32 | SHL Game | Brynas IF | ✘ | — | — | In play | — |
 | 10-03 15:27 | EFL League One Game | Burton | ✔ | 69' · HUD 3 - BRT 1 | — | In play | — |
-| 10-03 15:24 | SHL Game | Timra IK | ✘ | — | — | In play | — |
+| 10-03 15:24 | SHL Game | Timra IK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:24 | English National League Game | Tie | ✘ | — | — | In play | — |
 | 10-03 15:24 | English National League Game | Solihull | ✘ | — | — | In play | — |
 | 10-03 15:23 | English National League Game | Fylde | ✘ | — | — | In play | — |
@@ -236,8 +238,6 @@
 | 10-03 14:50 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:49 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:47 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:45 | Slovakian 2. Liga Game | Slovan Galanta | ✘ | — | — | In play | — |
 
 ## Raw data
 
