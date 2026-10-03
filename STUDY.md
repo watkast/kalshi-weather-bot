@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 12:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 12:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 257 finished bets | 0% | -$24.55 | -64% | -9.55¢ | -$5.20 / -$19.35 |
 
-*Expect about **45 buys a day**, roughly **$6.72/day** at risk; max loss per buy **15¢**.*
+*Expect about **45 buys a day**, roughly **$6.76/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3564 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
+| 3570 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 257 | 11% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3282 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3284 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 156 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
-| League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 82 | 0 | 7% | 2% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
+| Women's College Volleyball Match | ✘ | 47 | 0 | 4% | 0% | -100% | -93% | 46 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | Men's T20 Cricket Match | ✘ | 37 | 0 | 19% | 8% | -100% | -67% | 19 min |
@@ -212,6 +212,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 18:55 | England Super League Rugby Match | Warrington Wolves | ✘ | — | — | In play | — |
+| 10-03 18:53 | College Football Game | Brown | ✘ | — | — | In play | — |
+| 10-03 18:53 | UEFA Nations League Game | Czechia | ✔ | 6' · CZE 0 - ESP 0 | — | In play | — |
+| 10-03 18:52 | International Friendly Game | Peru | ✔ | 35' · PER 0 - CAN 1 | — | In play | — |
+| 10-03 18:52 | KHL Game | HC Sochi | ✘ | — | — | In play | — |
+| 10-03 18:43 | Counter-Strike 2 Game | fnatic | ✘ | — | — | In play | — |
 | 10-03 18:41 | Croatia Premijer Liga Game | KK Dubrovnik | ✘ | — | — | In play | — |
 | 10-03 18:41 | College Football Game | VMI | ✘ | — | — | In play | — |
 | 10-03 18:38 | College Football Game | Mississippi St. | ✔ | 4:00 - 3rd · ALA 42 - MSST 17 | — | In play | — |
@@ -236,12 +242,6 @@
 | 10-03 18:01 | Slovakia SBL Game | Nitra Blue Wings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:01 | Men's T20 Cricket Match | BD CC Lisbon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:59 | LaLiga 2 Game | Leganes | ✔ | 69' · LEG 0 - CAD 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 17:58 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
-| 10-03 17:58 | League of Legends Game | LOUD | ✘ | — | — | In play | — |
-| 10-03 17:58 | LNB Elite Game | Saint Quentin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 17:57 | LNB Elite Game | Elan Bearnais Pau-Lacq-Orthez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:57 | Slovenia 1. SKL Game | Kk Rogaska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:56 | Sweden SBL Game | Jamtland Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
