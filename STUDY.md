@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 227 finished bets | 0% | -$20.05 | -59% | -8.83¢ | -$2.95 / -$17.10 |
+| ESPN-verified leagues only, hold to the end | 229 finished bets | 0% | -$20.35 | -59% | -8.89¢ | -$3.10 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.56/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.58/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 227 | -$26.77 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 227 | -$26.90 | -79% |
-| ESPN-verified leagues only, sell at 50¢ | 227 | -$27.30 | -80% |
+| ESPN-verified leagues only, sell at 2¢ | 229 | -$27.07 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 229 | -$27.20 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 229 | -$27.60 | -80% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3220 | 227 | 1 (0%) | 1.1% | -$20.05 (-59%) | Hold to the end: -$20.05 (-59%) |
+| 3226 | 229 | 1 (0%) | 1.1% | -$20.35 (-59%) | Hold to the end: -$20.35 (-59%) |
 
 *In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 227 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2984 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 229 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 2988 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$20.05 | -59% |
-| Sell at 2¢ | 28 | 12% | -$26.77 | -79% |
-| Sell at 3¢ | 16 | 7% | -$27.81 | -82% |
-| Sell at 5¢ | 11 | 5% | -$26.90 | -79% |
-| Sell at 10¢ | 5 | 2% | -$27.50 | -81% |
-| Sell at 25¢ | 1 | 0% | -$30.74 | -90% |
-| Sell at 50¢ | 1 | 0% | -$27.30 | -80% |
+| Hold to the end | 1 | 0% | -$20.35 | -59% |
+| Sell at 2¢ | 28 | 12% | -$27.07 | -79% |
+| Sell at 3¢ | 16 | 7% | -$28.11 | -82% |
+| Sell at 5¢ | 11 | 5% | -$27.20 | -79% |
+| Sell at 10¢ | 5 | 2% | -$27.80 | -81% |
+| Sell at 25¢ | 1 | 0% | -$31.04 | -90% |
+| Sell at 50¢ | 1 | 0% | -$27.60 | -80% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1299 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1302 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -122,18 +122,18 @@
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| LNBP Basketball Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 22 min |
+| LNBP Basketball Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Valorant game winner | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | AHL Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 8 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
-| NWSL Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
@@ -178,9 +178,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 86 | 6% | 1% | 0% | -90% |
+| Under 5 min | 87 | 6% | 1% | 0% | -90% |
 | 5–15 min | 44 | 14% | 2% | 0% | -76% |
-| 15–30 min | 39 | 26% | 10% | 3% | -56% |
+| 15–30 min | 40 | 25% | 10% | 2% | -57% |
 | 30–60 min | 35 | 14% | 9% | 0% | -75% |
 | Over 60 min | 23 | 9% | 9% | 0% | -85% |
 
@@ -200,13 +200,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 04:00 | TT Elite Series Match | Mateusz Misiak | ✘ | — | — | In play | — |
+| 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | — | In play | — |
+| 10-03 04:09 | CFL Game | Saskatchewan Roughriders | ✘ | — | — | In play | — |
+| 10-03 04:07 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:05 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:02 | NWSL Game | Tie | ✔ | 90'+8' · NC 1 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:02 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
+| 10-03 04:00 | TT Elite Series Match | Mateusz Misiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:58 | TT Elite Series Match | Kacper Makowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:55 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | — | In play | — |
+| 10-03 03:55 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 03:54 | Men's T20 Cricket Match | Indonesia | ✘ | — | — | In play | — |
 | 10-03 03:53 | NHL Game | Dallas | ✔ | 2:23 - 3rd · STL 2 - DAL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:52 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:48 | NWSL Game | Seattle Reign | ✔ | 84' · NC 1 - SEA 0 | — | In play | — |
+| 10-03 03:48 | NWSL Game | Seattle Reign | ✔ | 84' · NC 1 - SEA 0 | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 03:43 | TT Elite Series Match | Bartlomiej Mleczko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:42 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:41 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -224,12 +230,6 @@
 | 10-03 03:21 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:20 | CONCACAF Nations League Game | El Salvador | ✔ | 63' · JAM 1 - SLV 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:20 | Women's Pro Basketball Game | Dallas | ✔ | 6.9 - 4th · DAL 73 - GS 76 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:20 | TT Elite Series Match | Tadeusz Piotrowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:17 | TT Elite Series Match | Jakub Jesiek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:16 | TT Elite Series Match | Linek Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:14 | Liga DIMAYOR Game | Alianza FC Valledupar | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 03:04 | Women's College Volleyball Match | California Riverside | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:00 | Liga Expansion Game | Correcaminos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
