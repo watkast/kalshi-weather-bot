@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 273 finished bets | 0% | -$26.95 | -66% | -9.87¢ | -$6.40 / -$20.55 |
+| ESPN-verified leagues only, hold to the end | 278 finished bets | 0% | -$27.70 | -66% | -9.96¢ | -$6.85 / -$20.85 |
 
-*Expect about **47 buys a day**, roughly **$7.09/day** at risk; max loss per buy **15¢**.*
+*Expect about **47 buys a day**, roughly **$7.08/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 273 | -$32.63 | -80% |
-| ESPN-verified leagues only, sell at 10¢ | 273 | -$33.09 | -81% |
-| ESPN-verified leagues only, sell at 5¢ | 273 | -$33.15 | -81% |
+| ESPN-verified leagues only, sell at 10¢ | 278 | -$32.53 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 278 | -$32.60 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 278 | -$32.86 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3657 | 273 | 1 (0%) | 1.1% | -$26.95 (-66%) | Hold to the end: -$26.95 (-66%) |
+| 3659 | 278 | 1 (0%) | 1.1% | -$27.70 (-66%) | Hold to the end: -$27.70 (-66%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 273 | 12% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3345 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 278 | 12% | 7% | 5% | 3% | 1% | 0% |
+| Unverified | 3348 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$26.95 | -66% |
-| Sell at 2¢ | 32 | 12% | -$32.63 | -80% |
-| Sell at 3¢ | 17 | 6% | -$34.32 | -84% |
-| Sell at 5¢ | 12 | 4% | -$33.15 | -81% |
-| Sell at 10¢ | 6 | 2% | -$33.09 | -81% |
-| Sell at 25¢ | 1 | 0% | -$37.64 | -92% |
-| Sell at 50¢ | 1 | 0% | -$34.20 | -84% |
+| Hold to the end | 1 | 0% | -$27.70 | -66% |
+| Sell at 2¢ | 34 | 12% | -$32.86 | -79% |
+| Sell at 3¢ | 19 | 7% | -$34.29 | -82% |
+| Sell at 5¢ | 14 | 5% | -$32.60 | -78% |
+| Sell at 10¢ | 7 | 3% | -$32.53 | -78% |
+| Sell at 25¢ | 2 | 1% | -$35.08 | -84% |
+| Sell at 50¢ | 1 | 0% | -$34.95 | -84% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -98,8 +98,8 @@
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 157 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
+| UEFA Nations League Game | ✔ | 87 | 0 | 9% | 5% | -100% | -84% | 8 min |
 | League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| UEFA Nations League Game | ✔ | 82 | 0 | 7% | 2% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Women's College Volleyball Match | ✘ | 48 | 0 | 4% | 0% | -100% | -93% | 51 min |
@@ -110,11 +110,11 @@
 | International Friendly Game | partly | 30 | 0 | 3% | 0% | -100% | -94% | 17 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
+| Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
 | College Football Game | partly | 25 | 0 | 16% | 8% | -100% | -72% | 37 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Serie C Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
@@ -157,13 +157,13 @@
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Professional Baseball Game | partly | 6 | 0 | 17% | 0% | -100% | -71% | 7 min |
 | Adriatic ABA Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| LNB Elite Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
-| LNB Elite Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -196,11 +196,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 99 | 5% | 1% | 0% | -91% |
+| Under 5 min | 100 | 5% | 1% | 0% | -91% |
 | 5–15 min | 50 | 12% | 2% | 0% | -79% |
-| 15–30 min | 49 | 24% | 8% | 2% | -58% |
+| 15–30 min | 51 | 24% | 8% | 2% | -59% |
 | 30–60 min | 42 | 14% | 7% | 0% | -75% |
-| Over 60 min | 33 | 9% | 9% | 0% | -84% |
+| Over 60 min | 35 | 14% | 14% | 0% | -75% |
 
 ## Speed & liquidity
 
@@ -218,23 +218,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 1 - SUI 2 | — | In play | — |
+| 10-03 20:46 | Liga DIMAYOR Game | Jaguares | ✘ | — | — | In play | — |
+| 10-03 20:37 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:36 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
 | 10-03 20:35 | Women's College Volleyball Match | Virginia Commonwealth | ✘ | — | — | In play | — |
 | 10-03 20:31 | United Rugby Championship Match | Bulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:29 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
-| 10-03 20:29 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 20:29 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:28 | College Football Game | New Haven | ✘ | — | — | In play | — |
 | 10-03 20:27 | Serie C Game | Ospitaletto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:26 | Serie C Game | Crotone | ✘ | — | — | In play | — |
+| 10-03 20:26 | Serie C Game | Crotone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Serie C Game | Folgore Caratese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Serie C Game | Renate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | — | In play | — |
-| 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | — | In play | — |
+| 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:16 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:14 | UEFA Nations League Game | Tie | ✔ | 70' · SCO 1 - MKD 0 | — | In play | — |
+| 10-03 20:14 | UEFA Nations League Game | Tie | ✔ | 70' · SCO 1 - MKD 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:14 | College Football Game | Murray St. | ✘ | — | — | In play | — |
 | 10-03 20:14 | College Football Game | Penn | ✘ | — | — | In play | — |
 | 10-03 20:13 | National League Game | SC Bern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,8 +248,6 @@
 | 10-03 20:05 | UEFA Nations League Game | North Macedonia | ✔ | 61' · SCO 1 - MKD 0 | — | In play | — |
 | 10-03 20:05 | Argentine Nacional B Game | Tie | ✘ | — | — | In play | — |
 | 10-03 20:04 | College Football Game | UConn | ✔ | OT · SYR 40 - CONN 41 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:03 | National League Game | Fribourg Gottéron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:01 | Italy Serie A Game | Aquila Basket Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
