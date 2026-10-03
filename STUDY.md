@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3330 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3334 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3093 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3096 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
 | Dota 2 Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 30 min |
-| Men's T20 Cricket Match | ✘ | 35 | 0 | 20% | 9% | -100% | -65% | 20 min |
+| Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -125,11 +125,11 @@
 | Ettan Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
-| Overwatch Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -175,6 +175,7 @@
 | Serie A Femminile Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 
 ## By time left when it hit 1¢
 
@@ -202,9 +203,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | — | In play | — |
+| 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | — | In play | — |
+| 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | — | In play | — |
+| 10-03 13:41 | Tweede Divisie Game | Koninklijke | ✘ | — | — | In play | — |
+| 10-03 13:41 | Challenger ATP  | Joel Schwaerzler | ✘ | — | — | In play | — |
+| 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:30 | Challenger ATP  | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | — | In play | — |
+| 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:23 | Tweede Divisie Game | Kloetinge | ✘ | — | — | In play | — |
 | 10-03 13:17 | Russia VTB United Game | MBA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:11 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,7 +219,7 @@
 | 10-03 12:57 | Counter-Strike 2 Game | 1WIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:54 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:54 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:48 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
+| 10-03 12:48 | Women's T20 Match | Zimbabwe | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 12:46 | Ettan Game | Tvaakers | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-03 12:44 | Ettan Game | Gefle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:44 | Counter-Strike 2 Game | BIG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -228,10 +233,6 @@
 | 10-03 12:31 | Ettan Game | Rosengaard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:30 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:23 | Serie A Femminile Game | Parma Calcio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:12 | League of Legends Game | GAM Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:12 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:56 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:56 | Counter-Strike 2 Game | BC.Game Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
