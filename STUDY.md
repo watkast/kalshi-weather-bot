@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 6:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 205 finished bets | 0% | -$16.75 | -54% | -8.17¢ | -$15.30 / -$1.45 |
 
-*Expect about **41 buys a day**, roughly **$6.08/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$6.07/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3100 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
+| 3104 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 205 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2886 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2889 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1261 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1262 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 225 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -164,6 +164,7 @@
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Adriatic ABA Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Eerste Divisie Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | -0 min |
+| Argentina Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 
@@ -193,6 +194,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 00:21 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
+| 10-03 00:20 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
+| 10-03 00:19 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:18 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 10-03 00:10 | Brasileiro Serie B Game | CR Brasil | ✘ | — | — | In play | — |
 | 10-03 00:10 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -200,14 +205,14 @@
 | 10-03 00:06 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:04 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:58 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:54 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-02 23:54 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:52 | CONCACAF Nations League Game | Suriname | ✔ | 90'+5' · GUA 0 - SUR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:51 | CONCACAF Nations League Game | Guatemala | ✔ | 90'+4' · GUA 0 - SUR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:50 | TT Elite Series Match | Kocik Tomasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:47 | Darts Match | Michael Wiles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:43 | Women's College Volleyball Match | George Washington | ✘ | — | — | In play | — |
 | 10-02 23:41 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:39 | Argentina Primera Division Game | Independiente Avellaneda | ✘ | — | — | In play | — |
+| 10-02 23:39 | Argentina Primera Division Game | Independiente Avellaneda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:32 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:31 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:31 | Women's College Volleyball Match | North Carolina State | ✘ | — | — | In play | — |
@@ -219,10 +224,6 @@
 | 10-02 23:25 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:19 | Women's College Volleyball Match | Syracuse | ✘ | — | — | In play | — |
 | 10-02 23:13 | Darts Match | Jamie Atkins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:13 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:10 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
-| 10-02 23:10 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:05 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
