@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3706 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
+| 3712 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 284 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3391 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3395 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -107,7 +107,7 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
-| College Football Game | partly | 34 | 0 | 12% | 6% | -100% | -80% | 56 min |
+| College Football Game | partly | 35 | 0 | 11% | 6% | -100% | -80% | 58 min |
 | International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -152,6 +152,7 @@
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Slovakia SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
+| Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Brasileiro Serie C Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 4 min |
@@ -167,7 +168,6 @@
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
-| Canadian Premier League | ✘ | 4 | 0 | 50% | 50% | -100% | -13% | 119 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -218,9 +218,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 22:28 | College Football Game | Delaware St. | ✘ | — | — | In play | — |
+| 10-03 22:28 | College Football Game | Chicago St. | ✘ | — | — | In play | — |
+| 10-03 22:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
+| 10-03 22:26 | College Football Game | Chattanooga | ✘ | — | — | In play | — |
+| 10-03 22:24 | College Football Game | William & Mary | ✘ | — | — | In play | — |
+| 10-03 22:24 | College Football Game | Maine | ✘ | — | — | In play | — |
 | 10-03 22:17 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-03 22:14 | College Football Game | Florida | ✔ | 0:49 - 3rd · FLA 10 - MIZ 30 | — | In play | — |
-| 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | — | In play | — |
+| 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:13 | College Football Game | Samford | ✔ | 9:51 - 4th · SAM 14 - UAB 23 | — | In play | — |
 | 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | — | In play | — |
 | 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
@@ -238,16 +244,10 @@
 | 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
-| 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
+| 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:45 | College Football Game | Akron | ✔ | 3:29 - 3rd · AKR 10 - CMU 35 | — | In play | — |
-| 10-03 21:44 | Canadian Premier League | HFX | ✘ | — | — | In play | — |
-| 10-03 21:44 | Argentina Primera Division Game | Tucuman | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 10-03 21:42 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:41 | CFL Game | Toronto Argonauts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:36 | College Football Game | Wyoming | ✔ | 14:00 - 3rd · WYO 0 - NDSU 17 | — | In play | — |
-| 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:35 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
+| 10-03 21:44 | Canadian Premier League | HFX | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
