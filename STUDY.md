@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 229 finished bets | 0% | -$20.35 | -59% | -8.89¢ | -$3.10 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.56/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 3229 | 229 | 1 (0%) | 1.1% | -$20.35 (-59%) | Hold to the end: -$20.35 (-59%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 229 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2992 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2993 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -120,8 +120,8 @@
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
+| LNBP Basketball Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| LNBP Basketball Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 16 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -200,7 +200,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | — | In play | — |
+| 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
 | 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
