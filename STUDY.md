@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 7:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 205 finished bets | 0% | -$16.75 | -54% | -8.17¢ | -$15.30 / -$1.45 |
 
-*Expect about **40 buys a day**, roughly **$6.05/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$6.07/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3116 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
+| 3127 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 205 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2904 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2907 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1267 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1268 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 226 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -105,9 +105,9 @@
 | Men's T20 Cricket Match | ✘ | 31 | 0 | 16% | 6% | -100% | -72% | 19 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
+| Women's College Volleyball Match | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 25 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
-| Women's College Volleyball Match | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 29 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
@@ -195,8 +195,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 01:04 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 01:02 | TT Elite Series Match | Vincenec Oliver | ✘ | — | — | In play | — |
+| 10-03 01:01 | TT Elite Series Match | Jacek Oracz | ✘ | — | — | In play | — |
+| 10-03 01:01 | TT Elite Series Match | Szymon Brud | ✘ | — | — | In play | — |
+| 10-03 01:01 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
+| 10-03 01:00 | Women's College Volleyball Match | South Carolina | ✘ | — | — | In play | — |
+| 10-03 01:00 | Women's College Volleyball Match | Arkansas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:59 | Brasileiro Serie A Game | Sao Paulo | ✔ | 89' · SAN 2 - SAO 1 | — | In play | — |
+| 10-03 00:58 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
+| 10-03 00:57 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:55 | Women's College Volleyball Match | Alabama | ✘ | — | — | In play | — |
 | 10-03 00:54 | Brasileiro Serie B Game | Londrina | ✘ | — | — | In play | — |
-| 10-03 00:52 | Women's College Volleyball Match | Tennessee | ✘ | — | — | In play | — |
+| 10-03 00:52 | Women's College Volleyball Match | Tennessee | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:45 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:42 | Chile Liga de Primera Game | U de Concepcion | ✘ | — | — | In play | — |
 | 10-03 00:37 | Women's College Volleyball Match | Duke | ✘ | — | — | In play | — |
@@ -214,17 +225,6 @@
 | 10-03 00:10 | Brasileiro Serie B Game | CR Brasil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:10 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:06 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:04 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:58 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:54 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:52 | CONCACAF Nations League Game | Suriname | ✔ | 90'+5' · GUA 0 - SUR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:51 | CONCACAF Nations League Game | Guatemala | ✔ | 90'+4' · GUA 0 - SUR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:50 | TT Elite Series Match | Kocik Tomasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:47 | Darts Match | Michael Wiles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:43 | Women's College Volleyball Match | George Washington | ✘ | — | — | In play | — |
-| 10-02 23:41 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
