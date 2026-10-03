@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 282 finished bets | 0% | -$28.30 | -67% | -10.04¢ | -$7.15 / -$21.15 |
 
-*Expect about **48 buys a day**, roughly **$7.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **48 buys a day**, roughly **$7.25/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3686 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
+| 3696 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 282 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3372 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3379 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -135,22 +135,22 @@
 | Valorant game winner | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
+| Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Uruguay Primera Division Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 12 min |
 | Argentine Nacional B Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| AHL Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Finland Korisliiga Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| AHL Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 8 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Slovakia SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 18 min |
-| Argentina Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 20 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
@@ -162,10 +162,11 @@
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Copa Del Rey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 69 min |
+| APF Division de Honor Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
-| APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Brasileiro Serie C Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 4 min |
 | Canadian Premier League | ✘ | 4 | 0 | 50% | 50% | -100% | -13% | 119 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -174,7 +175,6 @@
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | CFL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -218,12 +218,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 21:56 | Valorant game winner | Eternal Fire | ✘ | — | — | In play | — |
+| 10-03 21:55 | Brasileiro Serie C Game | Santa Cruz FC PE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:55 | Brasileiro Serie C Game | Floresta | ✘ | — | — | In play | — |
+| 10-03 21:55 | Brasileiro Serie C Game | Maringa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:54 | APF Division de Honor Game | Club Guarani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | — | In play | — |
+| 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | — | In play | — |
+| 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:52 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
 | 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
 | 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | — | In play | — |
 | 10-03 21:45 | College Football Game | Akron | ✔ | 3:29 - 3rd · AKR 10 - CMU 35 | — | In play | — |
 | 10-03 21:44 | Canadian Premier League | HFX | ✘ | — | — | In play | — |
-| 10-03 21:44 | Argentina Primera Division Game | Tucuman | ✘ | — | — | In play | — |
-| 10-03 21:42 | AHL Game | Chicago Wolves | ✘ | — | — | In play | — |
+| 10-03 21:44 | Argentina Primera Division Game | Tucuman | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
+| 10-03 21:42 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:41 | CFL Game | Toronto Argonauts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:36 | College Football Game | Wyoming | ✔ | 14:00 - 3rd · WYO 0 - NDSU 17 | — | In play | — |
 | 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
@@ -238,16 +248,6 @@
 | 10-03 20:55 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | International Friendly Game | Tie | ✔ | 90'+5' · CMR 1 - CIV 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | Darts Match | Nathan Aspinall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:53 | College Football Game | UTEP | ✔ | 8:23 - 2nd · UTEP 0 - UNM 14 | — | In play | — |
-| 10-03 20:52 | College Football Game | Ball St. | ✔ | 9:51 - 4th · TOL 29 - BALL 17 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 20:52 | Rugby French 14 Match | Castres Olympique | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:52 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:51 | Italy Serie A Game | Pallacanestro Reggiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:48 | College Football Game | Davidson | ✘ | — | — | In play | — |
-| 10-03 20:47 | International Friendly Game | Ivory Coast | ✔ | 88' · CMR 1 - CIV 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 20:46 | Liga DIMAYOR Game | Jaguares | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 20:37 | Brasileiro Serie B Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
