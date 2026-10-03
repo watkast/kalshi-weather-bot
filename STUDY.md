@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 281 finished bets | 0% | -$28.15 | -67% | -10.02¢ | -$7.00 / -$21.15 |
 
-*Expect about **48 buys a day**, roughly **$7.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **48 buys a day**, roughly **$7.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3670 | 281 | 1 (0%) | 1.1% | -$28.15 (-67%) | Hold to the end: -$28.15 (-67%) |
+| 3672 | 281 | 1 (0%) | 1.1% | -$28.15 (-67%) | Hold to the end: -$28.15 (-67%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -218,6 +218,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 21:17 | ITF Men's Match | Jonah Braswell | ✘ | — | — | In play | — |
+| 10-03 21:15 | College Football Game | South Carolina St. | ✘ | — | — | In play | — |
 | 10-03 20:57 | Spain Liga ACB Game | Basquet Manresa | ✘ | — | — | In play | — |
 | 10-03 20:55 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | International Friendly Game | Tie | ✔ | 90'+5' · CMR 1 - CIV 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -246,8 +248,6 @@
 | 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:16 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:14 | UEFA Nations League Game | Tie | ✔ | 70' · SCO 1 - MKD 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
