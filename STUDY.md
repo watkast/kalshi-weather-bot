@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 6:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.22/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3299 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3302 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3064 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3066 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -116,9 +116,9 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
+| Japan NPB Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
-| Japan NPB Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -134,12 +134,12 @@
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
+| Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
-| Australia NBL Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 13 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
@@ -201,12 +201,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 11:56 | Counter-Strike 2 Game | Sinners | ✘ | — | — | In play | — |
+| 10-03 11:56 | Counter-Strike 2 Game | BC.Game Esports | ✘ | — | — | In play | — |
+| 10-03 11:55 | Japan NPB Game | Tokyo Yakult Swallows | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:50 | Turkey BSL Game | Tofas SK Bursa | ✘ | — | — | In play | — |
 | 10-03 11:50 | ITF Men's Match | Lars Goran Verwerft | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:45 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:44 | TT Star Series Match | Danzer Matthias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:41 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:38 | Australia NBL Game | Melbourne United | ✘ | — | — | In play | — |
+| 10-03 11:38 | Australia NBL Game | Melbourne United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:38 | Japan NPB Game | Orix Buffaloes | ✘ | — | — | In play | — |
 | 10-03 11:30 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:30 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -228,9 +231,6 @@
 | 10-03 09:51 | Japan J2 League Game | Tochigi City FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 09:51 | Japan J2 League Game | Montedio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:41 | League of Legends Game | FlyQuest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:40 | Australia NBL Game | Brisbane Bullets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:39 | Overwatch Game | O2 Blast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:29 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
