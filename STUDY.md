@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **43 buys a day**, roughly **$6.39/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.44/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3455 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
+| 3471 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3195 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3197 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -127,8 +127,8 @@
 | SHL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Liiga Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -183,6 +183,7 @@
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
+| PREM Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 13 min |
 
 ## By time left when it hit 1¢
 
@@ -210,9 +211,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 16:14 | Liiga Game | KalPa Kuopio | ✘ | — | — | In play | — |
+| 10-03 16:29 | Liiga Game | Lukko Rauma | ✘ | — | — | In play | — |
+| 10-03 16:28 | College Football Game | Charlotte | ✔ | 2:00 - 2nd · MEM 21 - CLT 0 | — | In play | — |
+| 10-03 16:27 | Rugby French 14 Match | RC Vannes | ✘ | — | — | In play | — |
+| 10-03 16:27 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-03 16:26 | Liiga Game | Oulun Karpat | ✘ | — | — | In play | — |
+| 10-03 16:25 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-03 16:25 | KHL Game | Kunlun Red Star | ✘ | — | — | In play | — |
+| 10-03 16:25 | International Friendly Game | Namibia | ✔ | 41' · NAM 0 - RUS 1 | — | In play | — |
+| 10-03 16:25 | Rugby French 14 Match | ASM Clermont Auvergne | ✘ | — | — | In play | — |
+| 10-03 16:25 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-03 16:24 | Rugby French 14 Match | Stade Francais Paris | ✘ | — | — | In play | — |
+| 10-03 16:24 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-03 16:24 | Liiga Game | JYP Jyvaskyla | ✘ | — | — | In play | — |
+| 10-03 16:23 | Eerste Divisie Game | Vitesse | ✘ | — | — | In play | — |
+| 10-03 16:22 | Bundesliga Basketball Game | Hamburg Towers | ✘ | — | — | In play | — |
+| 10-03 16:20 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
+| 10-03 16:14 | Liiga Game | KalPa Kuopio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:09 | LaLiga 2 Game | Tie | ✔ | 90'+5' · BUR 1 - ALM 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:07 | PREM Rugby Match | Northampton Saints | ✘ | — | — | In play | — |
+| 10-03 16:07 | PREM Rugby Match | Northampton Saints | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:04 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
 | 10-03 16:04 | Counter-Strike 2 Game | Infinite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:03 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -224,22 +241,6 @@
 | 10-03 15:56 | Eerste Divisie Game | Maastricht | ✘ | — | — | In play | — |
 | 10-03 15:55 | Rugby French 14 Match | USA Perpignan | ✘ | — | — | In play | — |
 | 10-03 15:55 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:54 | English National League Game | Wealdstone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:54 | LKL Lithuania Game | BC Rytas Vilnius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:54 | Ettan Game | Karlstad Fotbol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:54 | Ettan Game | Pitea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | EFL League One Game | Bradford | ✔ | 90'+5' · BRD 1 - REA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | EFL League One Game | Reading | ✔ | 90'+5' · BRD 1 - REA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | Ettan Game | Utsiktens | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:52 | English National League Game | Kidderminster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:51 | Ettan Game | Aatvidabergs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:51 | Ettan Game | Trollhattans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:51 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:48 | English National League Game | Tie | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
