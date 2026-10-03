@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 12:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 246 finished bets | 0% | -$22.90 | -62% | -9.31¢ | -$4.45 / -$18.45 |
+| ESPN-verified leagues only, hold to the end | 250 finished bets | 0% | -$23.50 | -63% | -9.40¢ | -$4.75 / -$18.75 |
 
-*Expect about **44 buys a day**, roughly **$6.66/day** at risk; max loss per buy **15¢**.*
+*Expect about **45 buys a day**, roughly **$6.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 246 | -$29.36 | -80% |
-| ESPN-verified leagues only, sell at 5¢ | 246 | -$29.75 | -81% |
-| ESPN-verified leagues only, sell at 50¢ | 246 | -$30.15 | -82% |
+| ESPN-verified leagues only, sell at 2¢ | 250 | -$29.96 | -80% |
+| ESPN-verified leagues only, sell at 5¢ | 250 | -$30.35 | -81% |
+| ESPN-verified leagues only, sell at 50¢ | 250 | -$30.75 | -82% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3530 | 246 | 1 (0%) | 1.1% | -$22.90 (-62%) | Hold to the end: -$22.90 (-62%) |
+| 3543 | 250 | 1 (0%) | 1.1% | -$23.50 (-63%) | Hold to the end: -$23.50 (-63%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 246 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 3255 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 250 | 12% | 6% | 4% | 2% | 0% | 0% |
+| Unverified | 3256 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$22.90 | -62% |
-| Sell at 2¢ | 29 | 12% | -$29.36 | -80% |
-| Sell at 3¢ | 16 | 7% | -$30.66 | -83% |
-| Sell at 5¢ | 11 | 4% | -$29.75 | -81% |
-| Sell at 10¢ | 5 | 2% | -$30.35 | -82% |
-| Sell at 25¢ | 1 | 0% | -$33.59 | -91% |
-| Sell at 50¢ | 1 | 0% | -$30.15 | -82% |
+| Hold to the end | 1 | 0% | -$23.50 | -63% |
+| Sell at 2¢ | 29 | 12% | -$29.96 | -80% |
+| Sell at 3¢ | 16 | 6% | -$31.26 | -83% |
+| Sell at 5¢ | 11 | 4% | -$30.35 | -81% |
+| Sell at 10¢ | 5 | 2% | -$30.95 | -83% |
+| Sell at 25¢ | 1 | 0% | -$34.19 | -91% |
+| Sell at 50¢ | 1 | 0% | -$30.75 | -82% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -97,7 +97,7 @@
 | Challenger ATP  | ✘ | 155 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| UEFA Nations League Game | ✔ | 74 | 0 | 8% | 3% | -100% | -86% | 6 min |
+| UEFA Nations League Game | ✔ | 78 | 0 | 8% | 3% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -174,6 +174,7 @@
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| LNB Elite Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
@@ -181,7 +182,6 @@
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LKL Lithuania Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
-| LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 | PREM Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 13 min |
 
@@ -191,8 +191,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 93 | 5% | 1% | 0% | -91% |
 | 5–15 min | 48 | 12% | 2% | 0% | -78% |
-| 15–30 min | 42 | 26% | 10% | 2% | -55% |
-| 30–60 min | 37 | 14% | 8% | 0% | -77% |
+| 15–30 min | 44 | 25% | 9% | 2% | -57% |
+| 30–60 min | 39 | 13% | 8% | 0% | -78% |
 | Over 60 min | 26 | 8% | 8% | 0% | -87% |
 
 ## Speed & liquidity
@@ -211,6 +211,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 18:01 | Slovakia SBL Game | Nitra Blue Wings | ✘ | — | — | In play | — |
+| 10-03 18:01 | Men's T20 Cricket Match | BD CC Lisbon | ✘ | — | — | In play | — |
+| 10-03 17:59 | LaLiga 2 Game | Leganes | ✔ | 69' · LEG 0 - CAD 2 | — | In play | — |
+| 10-03 17:58 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
+| 10-03 17:58 | League of Legends Game | LOUD | ✘ | — | — | In play | — |
+| 10-03 17:58 | LNB Elite Game | Saint Quentin | ✘ | — | — | In play | — |
+| 10-03 17:57 | LNB Elite Game | Elan Bearnais Pau-Lacq-Orthez | ✘ | — | — | In play | — |
+| 10-03 17:57 | Slovenia 1. SKL Game | Kk Rogaska | ✘ | — | — | In play | — |
+| 10-03 17:56 | Sweden SBL Game | Jamtland Basket | ✘ | — | — | In play | — |
+| 10-03 17:56 | LKL Lithuania Game | BC Jonava | ✘ | — | — | In play | — |
+| 10-03 17:54 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-03 17:54 | Copa Del Rey Game | Reg Time: CD Ceuta 6 de Junio | ✘ | — | — | In play | — |
+| 10-03 17:52 | UEFA Nations League Game | Tie | ✔ | 90'+3' · LUX 0 - EST 1 | — | In play | — |
 | 10-03 17:51 | Women's College Volleyball Match | Arkansas University at Little Rocks | ✘ | — | — | In play | — |
 | 10-03 17:50 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
 | 10-03 17:49 | PREM Rugby Match | Harlequin FC | ✘ | — | — | In play | — |
@@ -220,27 +233,14 @@
 | 10-03 17:46 | Canadian Premier League | Cavalry | ✘ | — | — | In play | — |
 | 10-03 17:43 | UEFA Nations League Game | Luxembourg | ✔ | 84' · LUX 0 - EST 1 | — | In play | — |
 | 10-03 17:41 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
-| 10-03 17:40 | LNB Elite Game | Sluc Nancy Basket | ✘ | — | — | In play | — |
+| 10-03 17:40 | LNB Elite Game | Sluc Nancy Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:39 | Copa Del Rey Game | Reg Time: Tedeon | ✘ | — | — | In play | — |
 | 10-03 17:39 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-03 17:37 | Serie A Femminile Game | Lazio | ✘ | — | — | In play | — |
-| 10-03 17:36 | UEFA Nations League Game | Tie | ✔ | 79' · BUL 0 - ISL 2 | — | In play | — |
+| 10-03 17:36 | UEFA Nations League Game | Tie | ✔ | 79' · BUL 0 - ISL 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:32 | Czech NBL Game | Srsni Pisek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:31 | Challenger ATP  | Andres Andrade | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:31 | Serie C Game | Arzignano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:30 | ITF Men's Match | Alexander Rozin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 17:26 | Serie C Game | Crema | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-03 17:26 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:25 | College Football Game | Fordham | ✘ | — | — | In play | — |
-| 10-03 17:25 | Serie C Game | Livorno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:23 | UEFA Nations League Game | Tie | ✔ | 65' · SMR 0 - BLR 1 | — | In play | — |
-| 10-03 17:23 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:22 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-03 17:22 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:20 | College Football Game | Stanford | ✔ | 2:39 - 2nd · STAN 3 - WAKE 22 | — | In play | — |
-| 10-03 17:20 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:19 | College Football Game | Middle Tennessee | ✔ | 2:23 - 2nd · MTSU 0 - KU 17 | — | In play | — |
-| 10-03 17:18 | UEFA Nations League Game | Bulgaria | ✔ | 61' · BUL 0 - ISL 1 | — | In play | — |
 
 ## Raw data
 
