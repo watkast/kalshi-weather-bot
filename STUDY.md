@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 12:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 12:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 257 finished bets | 0% | -$24.55 | -64% | -9.55¢ | -$5.20 / -$19.35 |
 
-*Expect about **45 buys a day**, roughly **$6.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **45 buys a day**, roughly **$6.72/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3558 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
+| 3564 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 257 | 11% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3278 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3282 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Dota 2 Game | ✘ | 39 | 0 | 3% | 3% | -100% | -96% | 30 min |
+| Dota 2 Game | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | Men's T20 Cricket Match | ✘ | 37 | 0 | 19% | 8% | -100% | -67% | 19 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -127,9 +127,9 @@
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Valorant game winner | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Slovakian 2. Liga Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 109 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
@@ -159,13 +159,13 @@
 | Adriatic ABA Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Slovenia 1. SKL Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 27 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
+| Bundesliga Basketball Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 10 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Copa Del Rey Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 43 min |
-| Slovenia 1. SKL Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 15 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
-| Bundesliga Basketball Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 13 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | United Rugby Championship Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -212,11 +212,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 18:31 | Valorant game winner | NKVT | ✘ | — | — | In play | — |
+| 10-03 18:41 | Croatia Premijer Liga Game | KK Dubrovnik | ✘ | — | — | In play | — |
+| 10-03 18:41 | College Football Game | VMI | ✘ | — | — | In play | — |
+| 10-03 18:38 | College Football Game | Mississippi St. | ✔ | 4:00 - 3rd · ALA 42 - MSST 17 | — | In play | — |
+| 10-03 18:34 | Slovakia SBL Game | Kosice Wolves | ✘ | — | — | In play | — |
+| 10-03 18:33 | Slovenia 1. SKL Game | Šentjur | ✘ | — | — | In play | — |
+| 10-03 18:33 | Argentina Primera Division Game | San Lorenzo de Almagro | ✘ | — | — | In play | — |
+| 10-03 18:31 | Valorant game winner | NKVT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:30 | Slovakia SBL Game | BK Iskra Svit | ✘ | — | — | In play | — |
 | 10-03 18:28 | Women's College Volleyball Match | Houston Baptist | ✘ | — | — | In play | — |
 | 10-03 18:27 | College Football Game | Columbia | ✘ | — | — | In play | — |
-| 10-03 18:24 | Bundesliga Basketball Game | Alba Berlin | ✘ | — | — | In play | — |
+| 10-03 18:24 | Bundesliga Basketball Game | Alba Berlin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 18:23 | SHL Game | HV71 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:18 | SHL Game | Linkoping HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:16 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -224,7 +230,7 @@
 | 10-03 18:15 | United Rugby Championship Match | Leinster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:15 | Counter-Strike 2 Game | G2 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:07 | Challenger ATP  | Marcelo Tomas Barrios Vera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:07 | Dota 2 Game | OG | ✘ | — | — | In play | — |
+| 10-03 18:07 | Dota 2 Game | OG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:05 | LNB Elite Game | Boulazac Basket Dordogne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:03 | LaLiga 2 Game | Tie | ✔ | 72' · LEG 0 - CAD 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:01 | Slovakia SBL Game | Nitra Blue Wings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -234,14 +240,8 @@
 | 10-03 17:58 | League of Legends Game | LOUD | ✘ | — | — | In play | — |
 | 10-03 17:58 | LNB Elite Game | Saint Quentin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 17:57 | LNB Elite Game | Elan Bearnais Pau-Lacq-Orthez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:57 | Slovenia 1. SKL Game | Kk Rogaska | ✘ | — | — | In play | — |
+| 10-03 17:57 | Slovenia 1. SKL Game | Kk Rogaska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:56 | Sweden SBL Game | Jamtland Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:56 | LKL Lithuania Game | BC Jonava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:54 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:54 | Copa Del Rey Game | Reg Time: CD Ceuta 6 de Junio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:52 | UEFA Nations League Game | Tie | ✔ | 90'+3' · LUX 0 - EST 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:51 | Women's College Volleyball Match | Arkansas University at Little Rocks | ✘ | — | — | In play | — |
-| 10-03 17:50 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
