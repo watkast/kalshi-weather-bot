@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 7:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 7:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 207 finished bets | 0% | -$17.05 | -55% | -8.24¢ | -$15.45 / -$1.60 |
+| ESPN-verified leagues only, hold to the end | 208 finished bets | 0% | -$17.20 | -55% | -8.27¢ | -$15.60 / -$1.60 |
 
-*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.20/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 207 | -$23.90 | -77% |
-| ESPN-verified leagues only, sell at 2¢ | 207 | -$24.03 | -77% |
-| ESPN-verified leagues only, sell at 50¢ | 207 | -$24.30 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 208 | -$24.05 | -77% |
+| ESPN-verified leagues only, sell at 2¢ | 208 | -$24.18 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 208 | -$24.45 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3135 | 207 | 1 (0%) | 1.1% | -$17.05 (-55%) | Hold to the end: -$17.05 (-55%) |
+| 3141 | 208 | 1 (0%) | 1.1% | -$17.20 (-55%) | Hold to the end: -$17.20 (-55%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 207 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2916 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 208 | 13% | 8% | 5% | 2% | 0% | 0% |
+| Unverified | 2919 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$17.05 | -55% |
-| Sell at 2¢ | 27 | 13% | -$24.03 | -77% |
-| Sell at 3¢ | 16 | 8% | -$24.81 | -80% |
-| Sell at 5¢ | 11 | 5% | -$23.90 | -77% |
-| Sell at 10¢ | 5 | 2% | -$24.50 | -79% |
-| Sell at 25¢ | 1 | 0% | -$27.74 | -89% |
-| Sell at 50¢ | 1 | 0% | -$24.30 | -78% |
+| Hold to the end | 1 | 0% | -$17.20 | -55% |
+| Sell at 2¢ | 27 | 13% | -$24.18 | -78% |
+| Sell at 3¢ | 16 | 8% | -$24.96 | -80% |
+| Sell at 5¢ | 11 | 5% | -$24.05 | -77% |
+| Sell at 10¢ | 5 | 2% | -$24.65 | -79% |
+| Sell at 25¢ | 1 | 0% | -$27.89 | -89% |
+| Sell at 50¢ | 1 | 0% | -$24.45 | -78% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1271 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1272 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -103,8 +103,8 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 31 | 0 | 16% | 6% | -100% | -72% | 19 min |
+| Women's College Volleyball Match | ✘ | 29 | 0 | 7% | 0% | -100% | -88% | 21 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Women's College Volleyball Match | ✘ | 27 | 0 | 7% | 0% | -100% | -87% | 21 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -112,7 +112,7 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
+| NHL Game | ✔ | 17 | 0 | 18% | 6% | -100% | -69% | 5 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
@@ -175,7 +175,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 78 | 6% | 1% | 0% | -89% |
+| Under 5 min | 79 | 6% | 1% | 0% | -89% |
 | 5–15 min | 39 | 15% | 3% | 0% | -73% |
 | 15–30 min | 37 | 24% | 11% | 3% | -58% |
 | 30–60 min | 31 | 16% | 10% | 0% | -72% |
@@ -197,7 +197,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 01:15 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | — | In play | — |
+| 10-03 01:27 | TT Elite Series Match | Roman Wiza | ✘ | — | — | In play | — |
+| 10-03 01:24 | TT Elite Series Match | Szymon Brud | ✘ | — | — | In play | — |
+| 10-03 01:24 | TT Elite Series Match | Cezary Pawlik | ✘ | — | — | In play | — |
+| 10-03 01:18 | College Football Game | Delaware | ✔ | 5:03 - 3rd · LIB 20 - DEL 0 | — | In play | — |
+| 10-03 01:17 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 01:17 | NHL Game | Detroit | ✔ | 1:27 - 3rd · NYR 1 - DET 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 01:15 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:13 | Women's College Volleyball Match | Missouri | ✘ | — | — | In play | — |
 | 10-03 01:11 | NHL Game | Carolina | ✔ | 18:02 - 3rd · WSH 5 - CAR 1 | — | In play | — |
 | 10-03 01:10 | ITF Women's Match | Caroline Dolehide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,7 +215,7 @@
 | 10-03 01:02 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:01 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:01 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:01 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
+| 10-03 01:01 | Women's College Volleyball Match | Wake Forest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:00 | Women's College Volleyball Match | South Carolina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:00 | Women's College Volleyball Match | Arkansas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:59 | Brasileiro Serie A Game | Sao Paulo | ✔ | 89' · SAN 2 - SAO 1 | 1¢ | ❌ Lost | -$0.15 |
@@ -221,12 +227,6 @@
 | 10-03 00:45 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:42 | Chile Liga de Primera Game | U de Concepcion | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 00:37 | Women's College Volleyball Match | Duke | ✘ | — | — | In play | — |
-| 10-03 00:37 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:36 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:33 | Women's College Volleyball Match | Boston College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:30 | Women's College Volleyball Match | Buffalo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:29 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
 
 ## Raw data
 
