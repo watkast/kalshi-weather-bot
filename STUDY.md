@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 273 finished bets | 0% | -$26.95 | -66% | -9.87¢ | -$6.40 / -$20.55 |
 
-*Expect about **47 buys a day**, roughly **$7.07/day** at risk; max loss per buy **15¢**.*
+*Expect about **47 buys a day**, roughly **$7.09/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3649 | 273 | 1 (0%) | 1.1% | -$26.95 (-66%) | Hold to the end: -$26.95 (-66%) |
+| 3657 | 273 | 1 (0%) | 1.1% | -$26.95 (-66%) | Hold to the end: -$26.95 (-66%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 273 | 12% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3336 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3345 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,20 +102,20 @@
 | UEFA Nations League Game | ✔ | 82 | 0 | 7% | 2% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
-| Women's College Volleyball Match | ✘ | 47 | 0 | 4% | 0% | -100% | -93% | 46 min |
+| Women's College Volleyball Match | ✘ | 48 | 0 | 4% | 0% | -100% | -93% | 51 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Dota 2 Game | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 30 min |
+| Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
 | International Friendly Game | partly | 30 | 0 | 3% | 0% | -100% | -94% | 17 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
+| College Football Game | partly | 25 | 0 | 16% | 8% | -100% | -72% | 37 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Serie C Game | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 5 min |
+| Serie C Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
-| College Football Game | partly | 21 | 0 | 19% | 10% | -100% | -67% | 26 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
@@ -167,10 +167,10 @@
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Copa Del Rey Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| United Rugby Championship Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -218,10 +218,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 1 - SUI 2 | — | In play | — |
+| 10-03 20:36 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
+| 10-03 20:35 | Women's College Volleyball Match | Virginia Commonwealth | ✘ | — | — | In play | — |
+| 10-03 20:31 | United Rugby Championship Match | Bulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 20:29 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
+| 10-03 20:29 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 20:28 | College Football Game | New Haven | ✘ | — | — | In play | — |
+| 10-03 20:27 | Serie C Game | Ospitaletto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:26 | Serie C Game | Crotone | ✘ | — | — | In play | — |
 | 10-03 20:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Serie C Game | Folgore Caratese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:21 | Serie C Game | Renate | ✘ | — | — | In play | — |
+| 10-03 20:21 | Serie C Game | Renate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | — | In play | — |
 | 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | — | In play | — |
@@ -240,14 +248,6 @@
 | 10-03 20:04 | College Football Game | UConn | ✔ | OT · SYR 40 - CONN 41 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:03 | National League Game | Fribourg Gottéron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:01 | Italy Serie A Game | Aquila Basket Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:59 | National League Game | EHC Kloten | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:59 | Men's T20 Cricket Match | Reddy's XI | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:59 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:59 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:58 | Dota 2 Game | Team Yandex | ✘ | — | — | In play | — |
-| 10-03 19:58 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:58 | National League Game | HC Lausanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:57 | College Football Game | Mississippi Valley St. | ✘ | — | — | In play | — |
 
 ## Raw data
 
