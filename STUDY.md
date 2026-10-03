@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
-*Expect about **41 buys a day**, roughly **$6.21/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.22/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3369 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3380 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3129 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3131 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 247 | 0 | 9% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 232 | 1 | 3% | 2% | -60% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 233 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 152 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
@@ -105,7 +105,7 @@
 | Dota 2 Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
+| Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -208,7 +208,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | — | In play | — |
+| 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | — | In play | — |
+| 10-03 14:47 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:45 | Slovakian 2. Liga Game | Slovan Galanta | ✘ | — | — | In play | — |
+| 10-03 14:45 | Slovakian 2. Liga Game | Inter Bratislava | ✘ | — | — | In play | — |
+| 10-03 14:45 | English National League Game | Boston | ✘ | — | — | In play | — |
+| 10-03 14:45 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:44 | International Friendly Game | Tie | ✔ | 41' · BRA 1 - IND 0 | — | In play | — |
+| 10-03 14:43 | LKL Lithuania Game | BC Nevezis Kedainiai | ✘ | — | — | In play | — |
+| 10-03 14:43 | Challenger WTA | Erika Andreeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:41 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | — | In play | — |
+| 10-03 14:40 | Slovakian 2. Liga Game | MFk Bytca | ✘ | — | — | In play | — |
+| 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:33 | Slovakian 2. Liga Game | Zvolen | ✘ | — | — | In play | — |
 | 10-03 14:32 | UEFA Nations League Game | Albania | ✔ | 72' · ALB 1 - FIN 2 | — | In play | — |
 | 10-03 14:31 | International Friendly Game | India | ✔ | 28' · BRA 0 - IND 0 | — | In play | — |
@@ -227,17 +238,6 @@
 | 10-03 14:21 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:19 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:18 | Serie C Game | Gubbio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:18 | Counter-Strike 2 Game | ENJOY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:16 | Serie A Femminile Game | Sassuolo | ✘ | — | — | In play | — |
-| 10-03 14:15 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:15 | Tweede Divisie Game | Treffers Groesbeek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:14 | England Women's Super League Game | Liverpool | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 14:12 | Turkey BSL Game | Bursaspor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:10 | Serie C Game | Casarano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:10 | Valorant game winner | Karmine Corp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:59 | ITF Men's Match | Radu David Turcanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:56 | Serie C Game | Casertana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
