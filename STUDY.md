@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.33/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3270 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3273 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3036 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3037 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 241 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 229 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 219 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
 | League of Legends Game | ✘ | 79 | 0 | 8% | 3% | -100% | -87% | 12 min |
@@ -201,7 +201,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 09:29 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | — | In play | — |
+| 10-03 09:41 | League of Legends Game | FlyQuest | ✘ | — | — | In play | — |
+| 10-03 09:40 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
+| 10-03 09:39 | Overwatch Game | O2 Blast | ✘ | — | — | In play | — |
+| 10-03 09:29 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:16 | Dota 2 Game | Ivory | ✘ | — | — | In play | — |
 | 10-03 09:00 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -228,9 +231,6 @@
 | 10-03 06:55 | Challenger WTA | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 06:54 | Men's T20 Cricket Match | Pakistan | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-03 06:44 | Japan J2 League Game | Vortis | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-03 06:38 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 06:17 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 05:21 | WTA Tennis Match | Camila Osorio | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
