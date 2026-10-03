@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 1:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 267 finished bets | 0% | -$26.05 | -65% | -9.76¢ | -$5.95 / -$20.10 |
 
-*Expect about **46 buys a day**, roughly **$6.92/day** at risk; max loss per buy **15¢**.*
+*Expect about **46 buys a day**, roughly **$6.97/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3594 | 267 | 1 (0%) | 1.1% | -$26.05 (-65%) | Hold to the end: -$26.05 (-65%) |
+| 3616 | 267 | 1 (0%) | 1.1% | -$26.05 (-65%) | Hold to the end: -$26.05 (-65%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 267 | 12% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3299 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3301 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -145,6 +145,7 @@
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Slovakia SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Eerste Divisie Game | ✘ | 8 | 0 | 25% | 25% | -100% | -57% | 2 min |
 | Argentina Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 20 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
@@ -152,7 +153,6 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Adriatic ABA Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Eerste Divisie Game | ✘ | 6 | 0 | 33% | 33% | -100% | -42% | 8 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -214,6 +214,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 19:56 | Argentine Nacional B Game | Quilmes | ✘ | — | — | In play | — |
+| 10-03 19:55 | National League Game | HC Davos | ✘ | — | — | In play | — |
+| 10-03 19:55 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 3 - CLE 0 | — | In play | — |
+| 10-03 19:54 | Italy Serie A2 Game | Basket Mestre 1958 | ✘ | — | — | In play | — |
+| 10-03 19:54 | LNB Elite 2 Game | Rouen Metropole Basket | ✘ | — | — | In play | — |
+| 10-03 19:54 | Argentine Nacional B Game | Jujuy | ✘ | — | — | In play | — |
+| 10-03 19:54 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-03 19:53 | Eerste Divisie Game | FC Eindhoven | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 19:53 | Eerste Divisie Game | De Graafschap | ✘ | — | — | In play | — |
+| 10-03 19:53 | Eerste Divisie Game | Waalwijk | ✘ | — | — | In play | — |
+| 10-03 19:53 | LNB Elite 2 Game | Poitiers Basket 86 | ✘ | — | — | In play | — |
+| 10-03 19:53 | Argentine Nacional B Game | Estudiantes | ✘ | — | — | In play | — |
+| 10-03 19:53 | Eerste Divisie Game | Emmen | ✘ | — | — | In play | — |
+| 10-03 19:52 | Eerste Divisie Game | Den Bosch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 19:52 | Eerste Divisie Game | Dordrecht | ✘ | — | — | In play | — |
+| 10-03 19:51 | International Friendly Game | Tie | ✔ | 77' · PER 0 - CAN 2 | — | In play | — |
+| 10-03 19:51 | Bundesliga Basketball Game | Ulm Basketball | ✘ | — | — | In play | — |
+| 10-03 19:49 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 19:49 | Argentine Nacional B Game | Acassuso | ✘ | — | — | In play | — |
+| 10-03 19:48 | Argentine Nacional B Game | San Miguel | ✘ | — | — | In play | — |
+| 10-03 19:47 | Counter-Strike 2 Game | Eternal Fire | ✘ | — | — | In play | — |
+| 10-03 19:46 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | — | In play | — |
 | 10-03 19:41 | Eerste Divisie Game | Volendam | ✘ | — | — | In play | — |
 | 10-03 19:40 | Women's College Volleyball Match | Texas AM Corpus-Christi | ✘ | — | — | In play | — |
 | 10-03 19:37 | Women's College Volleyball Match | Nebraska Omaha | ✘ | — | — | In play | — |
@@ -222,28 +244,6 @@
 | 10-03 19:30 | Uruguay Primera Division Game | Defensor | ✘ | — | — | In play | — |
 | 10-03 19:27 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 19:27 | College Football Game | West Virginia | ✔ | 0:29 - 4th · WVU 42 - ISU 45 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:26 | Spain Liga ACB Game | CB Malaga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:22 | UEFA Nations League Game | Tie | ✔ | 35' · CZE 0 - ESP 1 | — | In play | — |
-| 10-03 19:20 | College Football Game | Michigan | ✔ | 0:37 - 4th · MICH 14 - MINN 20 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:17 | College Football Game | Georgetown | ✘ | — | — | In play | — |
-| 10-03 19:17 | College Football Game | UCF | ✔ | 2:30 - 4th · UCF 17 - HOU 24 | 2¢ | ❌ Lost | -$0.15 |
-| 10-03 19:13 | Counter-Strike 2 Game | Lavked | ✘ | — | — | In play | — |
-| 10-03 19:12 | College Football Game | Merrimack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:12 | Challenger ATP  | Mitchell Krueger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:10 | College Football Game | Navy | ✔ | 1:47 - 4th · NAVY 9 - AFA 14 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:08 | College Football Game | Vanderbilt | ✔ | 1:07 - 3rd · VAN 14 - UGA 28 | — | In play | — |
-| 10-03 19:04 | Argentina Primera Division Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 19:03 | College Football Game | St. Thomas | ✘ | — | — | In play | — |
-| 10-03 19:02 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:02 | Adriatic ABA Game | Spartak Subotica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:02 | College Football Game | Boston College | ✔ | 6:26 - 4th · BC 10 - SMU 19 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 18:56 | College Football Game | Michigan St. | ✔ | 1:10 - 3rd · MSU 3 - WIS 24 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:55 | England Super League Rugby Match | Warrington Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:53 | College Football Game | Brown | ✘ | — | — | In play | — |
-| 10-03 18:53 | UEFA Nations League Game | Czechia | ✔ | 6' · CZE 0 - ESP 0 | — | In play | — |
-| 10-03 18:52 | International Friendly Game | Peru | ✔ | 35' · PER 0 - CAN 1 | — | In play | — |
-| 10-03 18:52 | KHL Game | HC Sochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:43 | Counter-Strike 2 Game | fnatic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
