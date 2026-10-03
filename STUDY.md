@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3325 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3328 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3089 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3091 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 150 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
-| League of Legends Game | ✘ | 83 | 0 | 7% | 2% | -100% | -87% | 11 min |
+| League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
-| Dota 2 Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 30 min |
+| Dota 2 Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | Men's T20 Cricket Match | ✘ | 35 | 0 | 20% | 9% | -100% | -65% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
@@ -202,8 +202,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 13:11 | League of Legends Game | JD Gaming | ✘ | — | — | In play | — |
-| 10-03 13:06 | Dota 2 Game | Rostik Team | ✘ | — | — | In play | — |
+| 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | — | In play | — |
+| 10-03 13:23 | Tweede Divisie Game | Kloetinge | ✘ | — | — | In play | — |
+| 10-03 13:17 | Russia VTB United Game | MBA Moscow | ✘ | — | — | In play | — |
+| 10-03 13:11 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 13:06 | Dota 2 Game | Rostik Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:00 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
 | 10-03 12:57 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:57 | Counter-Strike 2 Game | 1WIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -229,9 +232,6 @@
 | 10-03 11:56 | Counter-Strike 2 Game | BC.Game Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:55 | Japan NPB Game | Tokyo Yakult Swallows | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:50 | Turkey BSL Game | Tofas SK Bursa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:50 | ITF Men's Match | Lars Goran Verwerft | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:45 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:44 | TT Star Series Match | Danzer Matthias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
