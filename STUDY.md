@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
-*Expect about **41 buys a day**, roughly **$6.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.21/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3362 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3369 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3113 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3129 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 247 | 0 | 9% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 231 | 1 | 3% | 2% | -60% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 232 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 152 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
@@ -130,6 +130,8 @@
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
+| Tweede Divisie Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -155,7 +157,6 @@
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| Tweede Divisie Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -175,7 +176,6 @@
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | Serie A Femminile Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 59 min |
-| Serie C Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -196,7 +196,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 29 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 30 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -208,36 +208,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 14:28 | Tweede Divisie Game | IJsselmeervogels | ✘ | — | — | In play | — |
-| 10-03 14:28 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:26 | Tweede Divisie Game | Rkav Volendam | ✘ | — | — | In play | — |
-| 10-03 14:25 | Serie C Game | Cittadella | ✘ | — | — | In play | — |
-| 10-03 14:24 | Serie C Game | Forli | ✘ | — | — | In play | — |
-| 10-03 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | — | In play | — |
+| 10-03 14:33 | Slovakian 2. Liga Game | Zvolen | ✘ | — | — | In play | — |
+| 10-03 14:32 | UEFA Nations League Game | Albania | ✔ | 72' · ALB 1 - FIN 2 | — | In play | — |
+| 10-03 14:31 | International Friendly Game | India | ✔ | 28' · BRA 0 - IND 0 | — | In play | — |
+| 10-03 14:30 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:30 | Slovakian 2. Liga Game | FK Humenne | ✘ | — | — | In play | — |
+| 10-03 14:30 | Women's ODI Cricket Match | Garden Route Badgers Women | ✘ | — | — | In play | — |
+| 10-03 14:28 | Tweede Divisie Game | IJsselmeervogels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:28 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:26 | Tweede Divisie Game | Rkav Volendam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:25 | Serie C Game | Cittadella | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:24 | Serie C Game | Forli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:21 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:19 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:18 | Serie C Game | Gubbio | ✘ | — | — | In play | — |
-| 10-03 14:18 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
+| 10-03 14:19 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:18 | Serie C Game | Gubbio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:18 | Counter-Strike 2 Game | ENJOY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:16 | Serie A Femminile Game | Sassuolo | ✘ | — | — | In play | — |
 | 10-03 14:15 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:15 | Tweede Divisie Game | Treffers Groesbeek | ✘ | — | — | In play | — |
+| 10-03 14:15 | Tweede Divisie Game | Treffers Groesbeek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:14 | England Women's Super League Game | Liverpool | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 14:12 | Turkey BSL Game | Bursaspor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:10 | Serie C Game | Casarano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:10 | Valorant game winner | Karmine Corp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:59 | ITF Men's Match | Radu David Turcanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:56 | Serie C Game | Casertana | ✘ | — | — | In play | — |
+| 10-03 13:56 | Serie C Game | Casertana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:53 | ITF Men's Match | Sander Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:52 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:50 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:49 | LaLiga 2 Game | Albacete | ✔ | 88' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
