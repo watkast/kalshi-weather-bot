@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
+| ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
 
 *Expect about **42 buys a day**, roughly **$6.24/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 232 | -$27.52 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 232 | -$27.65 | -79% |
-| ESPN-verified leagues only, sell at 50¢ | 232 | -$28.05 | -81% |
+| ESPN-verified leagues only, sell at 2¢ | 234 | -$27.56 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 234 | -$27.95 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 234 | -$28.35 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3396 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3398 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3134 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 3146 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$20.80 | -60% |
-| Sell at 2¢ | 28 | 12% | -$27.52 | -79% |
-| Sell at 3¢ | 16 | 7% | -$28.56 | -82% |
-| Sell at 5¢ | 11 | 5% | -$27.65 | -79% |
-| Sell at 10¢ | 5 | 2% | -$28.25 | -81% |
-| Sell at 25¢ | 1 | 0% | -$31.49 | -90% |
-| Sell at 50¢ | 1 | 0% | -$28.05 | -81% |
+| Hold to the end | 1 | 0% | -$21.10 | -60% |
+| Sell at 2¢ | 29 | 12% | -$27.56 | -79% |
+| Sell at 3¢ | 16 | 7% | -$28.86 | -82% |
+| Sell at 5¢ | 11 | 5% | -$27.95 | -80% |
+| Sell at 10¢ | 5 | 2% | -$28.55 | -81% |
+| Sell at 25¢ | 1 | 0% | -$31.79 | -91% |
+| Sell at 50¢ | 1 | 0% | -$28.35 | -81% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -91,13 +91,13 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 247 | 0 | 9% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 233 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 152 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 153 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
+| UEFA Nations League Game | ✔ | 74 | 0 | 8% | 3% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -117,6 +117,7 @@
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
+| Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Ettan Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 7 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
@@ -125,7 +126,6 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
-| Tweede Divisie Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -137,6 +137,7 @@
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Women's ODI Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 28 min |
+| Finland Korisliiga Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -147,13 +148,13 @@
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
-| Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
+| Serie A Femminile Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -174,7 +175,6 @@
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
-| Serie A Femminile Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 59 min |
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
@@ -186,9 +186,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 89 | 6% | 1% | 0% | -90% |
+| Under 5 min | 90 | 6% | 1% | 0% | -90% |
 | 5–15 min | 45 | 13% | 2% | 0% | -77% |
-| 15–30 min | 40 | 25% | 10% | 2% | -57% |
+| 15–30 min | 41 | 27% | 10% | 2% | -53% |
 | 30–60 min | 35 | 14% | 9% | 0% | -75% |
 | Over 60 min | 23 | 9% | 9% | 0% | -85% |
 
@@ -208,17 +208,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 14:58 | ITF Men's Match | Max Houkes | ✘ | — | — | In play | — |
-| 10-03 14:57 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:56 | Tweede Divisie Game | Katwijk | ✘ | — | — | In play | — |
-| 10-03 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+5' · ALB 1 - FIN 2 | — | In play | — |
+| 10-03 15:01 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:59 | Challenger ATP  | Matthew William Donald | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 14:58 | ITF Men's Match | Max Houkes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:57 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:56 | Tweede Divisie Game | Katwijk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+5' · ALB 1 - FIN 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:55 | Dota 2 Game | Aurora | ✘ | — | — | In play | — |
-| 10-03 14:54 | Tweede Divisie Game | Rohda Raalte | ✘ | — | — | In play | — |
-| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:54 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | — | In play | — |
-| 10-03 14:54 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:54 | Tweede Divisie Game | Jong Sparta | ✘ | — | — | In play | — |
-| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:54 | Tweede Divisie Game | Rohda Raalte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:54 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:54 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:54 | Tweede Divisie Game | Jong Sparta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:53 | Ettan Game | FBK Karlstad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:53 | Ettan Game | Eskilstuna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:50 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
@@ -233,11 +235,9 @@
 | 10-03 14:44 | International Friendly Game | Tie | ✔ | 41' · BRA 1 - IND 0 | — | In play | — |
 | 10-03 14:43 | LKL Lithuania Game | BC Nevezis Kedainiai | ✘ | — | — | In play | — |
 | 10-03 14:43 | Challenger WTA | Erika Andreeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:41 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | — | In play | — |
+| 10-03 14:41 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:40 | Slovakian 2. Liga Game | MFk Bytca | ✘ | — | — | In play | — |
 | 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:33 | Slovakian 2. Liga Game | Zvolen | ✘ | — | — | In play | — |
-| 10-03 14:32 | UEFA Nations League Game | Albania | ✔ | 72' · ALB 1 - FIN 2 | — | In play | — |
 
 ## Raw data
 
