@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **44 buys a day**, roughly **$6.53/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.60/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3497 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
+| 3504 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3234 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3239 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 236 | 1 | 3% | 3% | -60% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 237 | 1 | 3% | 3% | -61% | -94% | 9 min |
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 154 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
@@ -103,7 +103,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Dota 2 Game | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 29 min |
+| Dota 2 Game | ✘ | 39 | 0 | 3% | 3% | -100% | -96% | 30 min |
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -134,12 +134,12 @@
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Rugby French 14 Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Finland Korisliiga Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Uruguay Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 12 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LaLiga 2 Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 9 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
-| Finland Korisliiga Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
@@ -155,6 +155,7 @@
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
+| Adriatic ABA Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
@@ -162,7 +163,6 @@
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | Bundesliga Basketball Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 13 min |
 | Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
-| Adriatic ABA Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -211,36 +211,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 17:11 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
+| 10-03 17:20 | College Football Game | Stanford | ✔ | 2:39 - 2nd · STAN 3 - WAKE 22 | — | In play | — |
+| 10-03 17:20 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | — | In play | — |
+| 10-03 17:19 | College Football Game | Middle Tennessee | ✔ | 2:23 - 2nd · MTSU 0 - KU 17 | — | In play | — |
+| 10-03 17:18 | UEFA Nations League Game | Bulgaria | ✔ | 61' · BUL 0 - ISL 1 | — | In play | — |
+| 10-03 17:17 | Serie C Game | Barletta | ✘ | — | — | In play | — |
+| 10-03 17:13 | Czech NBL Game | BK Nova Hut Ostrava | ✘ | — | — | In play | — |
+| 10-03 17:11 | Slovenia 1. SKL Game | Helios Domzale | ✘ | — | — | In play | — |
+| 10-03 17:11 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:09 | International Friendly Game | Tie | ✔ | 65' · NAM 0 - RUS 2 | — | In play | — |
 | 10-03 17:08 | College Football Game | Wagner | ✘ | — | — | In play | — |
 | 10-03 17:08 | Copa Del Rey Game | Reg Time: CD Baztan | ✘ | — | — | In play | — |
 | 10-03 17:06 | College Football Game | North Carolina | ✔ | 10:27 - 2nd · ND 21 - UNC 7 | — | In play | — |
-| 10-03 17:05 | Adriatic ABA Game | BC Vienna | ✘ | — | — | In play | — |
+| 10-03 17:05 | Adriatic ABA Game | BC Vienna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:04 | UEFA Nations League Game | San Marino | ✔ | 46' · SMR 0 - BLR 0 | — | In play | — |
 | 10-03 17:02 | Turkey BSL Game | Petkim Spor Aliaga | ✘ | — | — | In play | — |
-| 10-03 16:59 | Adriatic ABA Game | BC Slovan Bratislava | ✘ | — | — | In play | — |
+| 10-03 16:59 | Adriatic ABA Game | BC Slovan Bratislava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:59 | Counter-Strike 2 Game | Luminosity | ✘ | — | — | In play | — |
 | 10-03 16:58 | Serie C Game | Grosseto | ✘ | — | — | In play | — |
-| 10-03 16:57 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
+| 10-03 16:57 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:49 | Adriatic ABA Game | KK Cibona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:45 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:44 | Liiga Game | Vaasan Sport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:43 | UEFA Nations League Game | Tie | ✔ | 42' · ENG 3 - CRO 0 | — | In play | — |
 | 10-03 16:42 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:40 | UEFA Nations League Game | Croatia | ✔ | 38' · ENG 2 - CRO 0 | — | In play | — |
-| 10-03 16:40 | Dota 2 Game | GamerLegion | ✘ | — | — | In play | — |
+| 10-03 16:40 | Dota 2 Game | GamerLegion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:40 | ITF Women's Match | Salma Djoubri | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 16:36 | Liiga Game | KooKoo Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:34 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:33 | Eerste Divisie Game | Breda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:33 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:31 | Liiga Game | Jokerit Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:30 | KHL Game | Admiral Vladivostok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:29 | Liiga Game | Lukko Rauma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:28 | College Football Game | Charlotte | ✔ | 2:00 - 2nd · MEM 21 - CLT 0 | — | In play | — |
-| 10-03 16:27 | Rugby French 14 Match | RC Vannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:27 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
