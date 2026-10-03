@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 284 finished bets | 0% | -$28.60 | -67% | -10.07¢ | -$7.30 / -$21.30 |
+| ESPN-verified leagues only, hold to the end | 286 finished bets | 0% | -$28.90 | -67% | -10.10¢ | -$7.45 / -$21.45 |
 
-*Expect about **49 buys a day**, roughly **$7.41/day** at risk; max loss per buy **15¢**.*
+*Expect about **50 buys a day**, roughly **$7.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 284 | -$33.43 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 284 | -$33.50 | -79% |
-| ESPN-verified leagues only, sell at 2¢ | 284 | -$33.76 | -79% |
+| ESPN-verified leagues only, sell at 10¢ | 286 | -$33.73 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 286 | -$33.80 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 286 | -$34.06 | -79% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3714 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
+| 3718 | 286 | 1 (0%) | 1.1% | -$28.90 (-67%) | Hold to the end: -$28.90 (-67%) |
 
 *In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 33 | 2.8% | 0.0% (0) | -285% | ❌ Worse |
+| ESPN win probability | 35 | 2.7% | 0.0% (0) | -271% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,8 +54,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 33 | 0 | -100% | -74% | -84% | -74% |
-| ESPN win probability ≥ 2% | 5 | 0 | -100% | -65% | -100% | -100% |
+| **Any 1¢ (no model)** | 35 | 0 | -100% | -75% | -85% | -75% |
+| ESPN win probability ≥ 2% | 6 | 0 | -100% | -71% | -100% | -100% |
 | ESPN win probability ≥ 5% | 1 | 0 | -100% | -100% | -100% | -100% |
 | ESPN win probability ≥ 10% | 1 | 0 | -100% | -100% | -100% | -100% |
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 284 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3396 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 286 | 12% | 7% | 5% | 2% | 1% | 0% |
+| Unverified | 3398 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$28.60 | -67% |
-| Sell at 2¢ | 34 | 12% | -$33.76 | -79% |
-| Sell at 3¢ | 19 | 7% | -$35.19 | -83% |
-| Sell at 5¢ | 14 | 5% | -$33.50 | -79% |
-| Sell at 10¢ | 7 | 2% | -$33.43 | -78% |
-| Sell at 25¢ | 2 | 1% | -$35.98 | -84% |
-| Sell at 50¢ | 1 | 0% | -$35.85 | -84% |
+| Hold to the end | 1 | 0% | -$28.90 | -67% |
+| Sell at 2¢ | 34 | 12% | -$34.06 | -79% |
+| Sell at 3¢ | 19 | 7% | -$35.49 | -83% |
+| Sell at 5¢ | 14 | 5% | -$33.80 | -79% |
+| Sell at 10¢ | 7 | 2% | -$33.73 | -79% |
+| Sell at 25¢ | 2 | 1% | -$36.28 | -85% |
+| Sell at 50¢ | 1 | 0% | -$36.15 | -84% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -106,8 +106,8 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
+| College Football Game | partly | 39 | 0 | 10% | 5% | -100% | -82% | 55 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
-| College Football Game | partly | 35 | 0 | 11% | 6% | -100% | -80% | 58 min |
 | International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -198,8 +198,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 102 | 5% | 1% | 0% | -92% |
 | 5–15 min | 52 | 12% | 2% | 0% | -80% |
-| 15–30 min | 51 | 24% | 8% | 2% | -59% |
-| 30–60 min | 44 | 14% | 7% | 0% | -76% |
+| 15–30 min | 52 | 23% | 8% | 2% | -60% |
+| 30–60 min | 45 | 13% | 7% | 0% | -77% |
 | Over 60 min | 35 | 14% | 14% | 0% | -75% |
 
 ## Speed & liquidity
@@ -218,19 +218,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 22:47 | College Football Game | Kent St. | ✔ | 0:10 - 4th · OHIO 13 - KENT 10 | — | In play | — |
+| 10-03 22:45 | College Football Game | Miami (OH) | ✔ | 0:07 - 4th · BGSU 24 - M-OH 20 | — | In play | — |
+| 10-03 22:43 | College Football Game | Auburn | ✔ | 3:30 - 4th · AUB 14 - TENN 24 | — | In play | — |
+| 10-03 22:40 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
 | 10-03 22:39 | Uruguay Primera Division Game | Central Espanol | ✘ | — | — | In play | — |
 | 10-03 22:30 | Professional Baseball Game | Atlanta | ✔ | Top 8th · ATL 1 - LAD 5 | — | In play | — |
 | 10-03 22:28 | College Football Game | Delaware St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Chicago St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
-| 10-03 22:26 | College Football Game | Chattanooga | ✘ | — | — | In play | — |
+| 10-03 22:26 | College Football Game | Chattanooga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:24 | College Football Game | William & Mary | ✘ | — | — | In play | — |
-| 10-03 22:24 | College Football Game | Maine | ✘ | — | — | In play | — |
+| 10-03 22:24 | College Football Game | Maine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:17 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-03 22:14 | College Football Game | Florida | ✔ | 0:49 - 3rd · FLA 10 - MIZ 30 | — | In play | — |
 | 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:13 | College Football Game | Samford | ✔ | 9:51 - 4th · SAM 14 - UAB 23 | — | In play | — |
-| 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | — | In play | — |
+| 10-03 22:13 | College Football Game | Samford | ✔ | 9:51 - 4th · SAM 14 - UAB 23 | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
 | 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | — | In play | — |
@@ -244,10 +248,6 @@
 | 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:52 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
-| 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
