@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 11:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 11:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.56/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.55/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3237 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3238 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3001 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3004 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -114,13 +114,13 @@
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| WTA Tennis Match | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 3 min |
+| LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
-| WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
-| LNBP Basketball Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -200,12 +200,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 04:59 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
+| 10-03 05:03 | WTA Tennis Match | Lin Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:59 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:57 | Challenger ATP  | Alex Bolt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:56 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:50 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
+| 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:42 | NHL Game | Vegas | ✔ | End of 3rd · ANA 4 - VGK 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:34 | ITF Men's Match | Ryuki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -229,7 +230,6 @@
 | 10-03 03:41 | TT Elite Series Match | Oskar Sokolowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:39 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:39 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:37 | Women's College Volleyball Match | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
