@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **43 buys a day**, roughly **$6.40/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.39/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3259 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3261 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3025 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3028 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,9 +92,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 241 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 229 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
-| Challenger ATP  | ✘ | 148 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 106 | 1 | 3% | 3% | -12% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
@@ -201,7 +201,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 08:17 | ITF Women's Match | Yingqun Sun | ✘ | — | — | In play | — |
+| 10-03 08:25 | ITF Women's Match | Zijun Jiang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 08:19 | Challenger ATP  | Yanki Erel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 08:17 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:09 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:08 | ITF Men's Match | Herman Hoeyeraal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:53 | KBO Game | Hanwha Eagles | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -229,8 +231,6 @@
 | 10-03 04:50 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:42 | NHL Game | Vegas | ✔ | End of 3rd · ANA 4 - VGK 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:34 | ITF Men's Match | Ryuki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
