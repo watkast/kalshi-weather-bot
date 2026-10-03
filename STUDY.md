@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3328 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3330 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3091 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3093 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 | ITF Men's Match | ✘ | 245 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 231 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 150 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 151 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
@@ -152,6 +152,7 @@
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
+| Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -161,7 +162,6 @@
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Slovenia 1. SKL Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 105 min |
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
-| Russia VTB United Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 37 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | Bundesliga Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -202,9 +202,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | — | In play | — |
+| 10-03 13:30 | Challenger ATP  | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | — | In play | — |
 | 10-03 13:23 | Tweede Divisie Game | Kloetinge | ✘ | — | — | In play | — |
-| 10-03 13:17 | Russia VTB United Game | MBA Moscow | ✘ | — | — | In play | — |
+| 10-03 13:17 | Russia VTB United Game | MBA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:11 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:06 | Dota 2 Game | Rostik Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:00 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
@@ -230,8 +232,6 @@
 | 10-03 12:12 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:56 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:56 | Counter-Strike 2 Game | BC.Game Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:55 | Japan NPB Game | Tokyo Yakult Swallows | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:50 | Turkey BSL Game | Tofas SK Bursa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
