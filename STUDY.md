@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
+| ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
 *Expect about **41 buys a day**, roughly **$6.18/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 230 | -$27.22 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 230 | -$27.35 | -79% |
-| ESPN-verified leagues only, sell at 50¢ | 230 | -$27.75 | -80% |
+| ESPN-verified leagues only, sell at 2¢ | 232 | -$27.52 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 232 | -$27.65 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 232 | -$28.05 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3341 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3342 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3099 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 3103 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$20.50 | -59% |
-| Sell at 2¢ | 28 | 12% | -$27.22 | -79% |
-| Sell at 3¢ | 16 | 7% | -$28.26 | -82% |
-| Sell at 5¢ | 11 | 5% | -$27.35 | -79% |
-| Sell at 10¢ | 5 | 2% | -$27.95 | -81% |
-| Sell at 25¢ | 1 | 0% | -$31.19 | -90% |
-| Sell at 50¢ | 1 | 0% | -$27.75 | -80% |
+| Hold to the end | 1 | 0% | -$20.80 | -60% |
+| Sell at 2¢ | 28 | 12% | -$27.52 | -79% |
+| Sell at 3¢ | 16 | 7% | -$28.56 | -82% |
+| Sell at 5¢ | 11 | 5% | -$27.65 | -79% |
+| Sell at 10¢ | 5 | 2% | -$28.25 | -81% |
+| Sell at 25¢ | 1 | 0% | -$31.49 | -90% |
+| Sell at 50¢ | 1 | 0% | -$28.05 | -81% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -91,7 +91,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 246 | 0 | 9% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 247 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 231 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 152 | 0 | 8% | 1% | -100% | -86% | 4 min |
@@ -101,7 +101,7 @@
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
+| Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
 | Dota 2 Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -140,6 +140,7 @@
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| LaLiga 2 Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
@@ -148,7 +149,6 @@
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
-| LaLiga 2 Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
@@ -173,6 +173,7 @@
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | Serie A Femminile Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Tweede Divisie Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
@@ -182,8 +183,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 88 | 6% | 1% | 0% | -90% |
-| 5–15 min | 44 | 14% | 2% | 0% | -76% |
+| Under 5 min | 89 | 6% | 1% | 0% | -90% |
+| 5–15 min | 45 | 13% | 2% | 0% | -77% |
 | 15–30 min | 40 | 25% | 10% | 2% | -57% |
 | 30–60 min | 35 | 14% | 9% | 0% | -75% |
 | Over 60 min | 23 | 9% | 9% | 0% | -85% |
@@ -204,16 +205,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 13:59 | ITF Men's Match | Radu David Turcanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:56 | Serie C Game | Casertana | ✘ | — | — | In play | — |
-| 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | — | In play | — |
-| 10-03 13:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 13:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:53 | ITF Men's Match | Sander Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:52 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | — | In play | — |
 | 10-03 13:50 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 13:49 | LaLiga 2 Game | Albacete | ✔ | 88' · EIB 2 - ALB 1 | — | In play | — |
+| 10-03 13:49 | LaLiga 2 Game | Albacete | ✔ | 88' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | — | In play | — |
-| 10-03 13:41 | Tweede Divisie Game | Koninklijke | ✘ | — | — | In play | — |
+| 10-03 13:41 | Tweede Divisie Game | Koninklijke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:41 | Challenger ATP  | Joel Schwaerzler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:30 | Challenger ATP  | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -233,7 +235,6 @@
 | 10-03 12:44 | Counter-Strike 2 Game | BIG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:43 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:42 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:42 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
