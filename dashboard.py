@@ -88,6 +88,7 @@ def main():
           "### → [Gold & Silver Fair-Value Bot](METALS.md) — the same idea on 15-minute gold and silver markets", "",
           "### → [Range-Scalp Bot](SCALP.md) — buys 15-minute crypto sides holding at 55–70¢, sells at +20¢, repeats", "",
           "### → [Momentum Bot](MOMENTUM.md) — buys a 15-minute crypto side after a 20¢+ price jump, sells at +5¢ or more", "",
+          "### → [Lag Tracker](LAG.md) — times how fast Kalshi's 15-minute crypto prices follow live Coinbase/Kraken moves, and paper-trades the gap", "",
           "## Scoreboard", ""]
     rows = []
     for label, f, _ in BOTS:
