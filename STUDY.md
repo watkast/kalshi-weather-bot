@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 229 finished bets | 0% | -$20.35 | -59% | -8.89¢ | -$3.10 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3226 | 229 | 1 (0%) | 1.1% | -$20.35 (-59%) | Hold to the end: -$20.35 (-59%) |
+| 3229 | 229 | 1 (0%) | 1.1% | -$20.35 (-59%) | Hold to the end: -$20.35 (-59%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 229 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2988 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2992 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1302 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -102,8 +102,8 @@
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 40 | 0 | 5% | 0% | -100% | -91% | 25 min |
+| Men's T20 Cricket Match | ✘ | 33 | 0 | 18% | 6% | -100% | -68% | 20 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
-| Men's T20 Cricket Match | ✘ | 32 | 0 | 19% | 6% | -100% | -68% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -121,8 +121,8 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LNBP Basketball Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 16 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| LNBP Basketball Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
@@ -200,16 +200,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | — | In play | — |
+| 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | — | In play | — |
+| 10-03 04:18 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:18 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
+| 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:09 | CFL Game | Saskatchewan Roughriders | ✘ | — | — | In play | — |
 | 10-03 04:07 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:05 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:02 | NWSL Game | Tie | ✔ | 90'+8' · NC 1 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:02 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
+| 10-03 04:02 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:00 | TT Elite Series Match | Mateusz Misiak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:58 | TT Elite Series Match | Kacper Makowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:55 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 03:54 | Men's T20 Cricket Match | Indonesia | ✘ | — | — | In play | — |
+| 10-03 03:54 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:53 | NHL Game | Dallas | ✔ | 2:23 - 3rd · STL 2 - DAL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:52 | TT Elite Series Match | Mariusz Koczyba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:48 | NWSL Game | Seattle Reign | ✔ | 84' · NC 1 - SEA 0 | 1¢ | ❌ Lost | -$0.15 |
@@ -227,9 +230,6 @@
 | 10-03 03:28 | Women's College Volleyball Match | Virginia Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:26 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:23 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:21 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:20 | CONCACAF Nations League Game | El Salvador | ✔ | 63' · JAM 1 - SLV 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:20 | Women's Pro Basketball Game | Dallas | ✔ | 6.9 - 4th · DAL 73 - GS 76 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
