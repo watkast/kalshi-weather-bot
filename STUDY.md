@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 1:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 257 finished bets | 0% | -$24.55 | -64% | -9.55¢ | -$5.20 / -$19.35 |
 
-*Expect about **45 buys a day**, roughly **$6.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **46 buys a day**, roughly **$6.85/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3576 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
+| 3581 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 257 | 11% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3290 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3292 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | Counter-Strike 2 Game | ✘ | 241 | 1 | 3% | 2% | -61% | -94% | 9 min |
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 156 | 0 | 8% | 1% | -100% | -87% | 4 min |
-| TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
+| TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 82 | 0 | 7% | 2% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
@@ -147,9 +147,9 @@
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| College Football Game | partly | 7 | 0 | 14% | 14% | -100% | -75% | 34 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| College Football Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 41 min |
 | Eerste Divisie Game | ✘ | 6 | 0 | 33% | 33% | -100% | -42% | 8 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
@@ -213,9 +213,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 19:13 | Counter-Strike 2 Game | Lavked | ✘ | — | — | In play | — |
+| 10-03 19:12 | College Football Game | Merrimack | ✘ | — | — | In play | — |
+| 10-03 19:12 | Challenger ATP  | Mitchell Krueger | ✘ | — | — | In play | — |
+| 10-03 19:10 | College Football Game | Navy | ✔ | 1:47 - 4th · NAVY 9 - AFA 14 | — | In play | — |
+| 10-03 19:08 | College Football Game | Vanderbilt | ✔ | 1:07 - 3rd · VAN 14 - UGA 28 | — | In play | — |
 | 10-03 19:04 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
 | 10-03 19:03 | College Football Game | St. Thomas | ✘ | — | — | In play | — |
-| 10-03 19:02 | TT Star Series Match | Lorenzo Santiago | ✘ | — | — | In play | — |
+| 10-03 19:02 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 19:02 | Adriatic ABA Game | Spartak Subotica | ✘ | — | — | In play | — |
 | 10-03 19:02 | College Football Game | Boston College | ✔ | 6:26 - 4th · BC 10 - SMU 19 | — | In play | — |
 | 10-03 18:56 | College Football Game | Michigan St. | ✔ | 1:10 - 3rd · MSU 3 - WIS 24 | — | In play | — |
@@ -234,15 +239,10 @@
 | 10-03 18:31 | Valorant game winner | NKVT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:30 | Slovakia SBL Game | BK Iskra Svit | ✘ | — | — | In play | — |
 | 10-03 18:28 | Women's College Volleyball Match | Houston Baptist | ✘ | — | — | In play | — |
-| 10-03 18:27 | College Football Game | Columbia | ✘ | — | — | In play | — |
+| 10-03 18:27 | College Football Game | Columbia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:24 | Bundesliga Basketball Game | Alba Berlin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 18:23 | SHL Game | HV71 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:18 | SHL Game | Linkoping HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:16 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:15 | Slovakia SBL Game | BC Komarno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:15 | United Rugby Championship Match | Leinster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:15 | Counter-Strike 2 Game | G2 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:07 | Challenger ATP  | Marcelo Tomas Barrios Vera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
