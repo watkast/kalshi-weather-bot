@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3672 | 281 | 1 (0%) | 1.1% | -$28.15 (-67%) | Hold to the end: -$28.15 (-67%) |
+| 3673 | 281 | 1 (0%) | 1.1% | -$28.15 (-67%) | Hold to the end: -$28.15 (-67%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 281 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3360 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3362 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 249 | 0 | 8% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 157 | 0 | 8% | 1% | -100% | -87% | 4 min |
@@ -185,12 +185,12 @@
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | PREM Rugby Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| Spain Liga ACB Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Italy Serie A2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Italy Serie A Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Spain Liga ACB Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 
 ## By time left when it hit 1¢
 
@@ -218,9 +218,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 21:17 | ITF Men's Match | Jonah Braswell | ✘ | — | — | In play | — |
+| 10-03 21:23 | AHL Game | Syracuse Crunch | ✘ | — | — | In play | — |
+| 10-03 21:17 | ITF Men's Match | Jonah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:15 | College Football Game | South Carolina St. | ✘ | — | — | In play | — |
-| 10-03 20:57 | Spain Liga ACB Game | Basquet Manresa | ✘ | — | — | In play | — |
+| 10-03 20:57 | Spain Liga ACB Game | Basquet Manresa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 20:55 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | International Friendly Game | Tie | ✔ | 90'+5' · CMR 1 - CIV 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | Darts Match | Nathan Aspinall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,7 +248,6 @@
 | 10-03 20:21 | Serie C Game | Renate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
