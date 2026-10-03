@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 282 finished bets | 0% | -$28.30 | -67% | -10.04¢ | -$7.15 / -$21.15 |
 
-*Expect about **48 buys a day**, roughly **$7.25/day** at risk; max loss per buy **15¢**.*
+*Expect about **49 buys a day**, roughly **$7.36/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3696 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
+| 3702 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
 
 *In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 282 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3379 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3385 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -113,9 +113,9 @@
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
 | Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
+| Brasileiro Serie B Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Brasileiro Serie B Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
@@ -140,11 +140,11 @@
 | Argentine Nacional B Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AHL Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
-| Finland Korisliiga Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
@@ -154,7 +154,9 @@
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
+| Brasileiro Serie C Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 4 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Professional Baseball Game | partly | 6 | 0 | 17% | 0% | -100% | -71% | 7 min |
 | Adriatic ABA Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | LNB Elite Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 17 min |
@@ -162,11 +164,9 @@
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Copa Del Rey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 69 min |
-| APF Division de Honor Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
-| Brasileiro Serie C Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 4 min |
 | Canadian Premier League | ✘ | 4 | 0 | 50% | 50% | -100% | -13% | 119 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -218,36 +218,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | — | In play | — |
+| 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
+| 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | — | In play | — |
+| 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | — | In play | — |
+| 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | — | In play | — |
+| 10-03 21:59 | College Football Game | Hampton | ✘ | — | — | In play | — |
 | 10-03 21:56 | Valorant game winner | Eternal Fire | ✘ | — | — | In play | — |
 | 10-03 21:55 | Brasileiro Serie C Game | Santa Cruz FC PE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:55 | Brasileiro Serie C Game | Floresta | ✘ | — | — | In play | — |
+| 10-03 21:55 | Brasileiro Serie C Game | Floresta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Maringa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:54 | APF Division de Honor Game | Club Guarani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | — | In play | — |
+| 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | — | In play | — |
 | 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
 | 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
-| 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | — | In play | — |
+| 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:45 | College Football Game | Akron | ✔ | 3:29 - 3rd · AKR 10 - CMU 35 | — | In play | — |
 | 10-03 21:44 | Canadian Premier League | HFX | ✘ | — | — | In play | — |
 | 10-03 21:44 | Argentina Primera Division Game | Tucuman | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 10-03 21:42 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:41 | CFL Game | Toronto Argonauts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:36 | College Football Game | Wyoming | ✔ | 14:00 - 3rd · WYO 0 - NDSU 17 | — | In play | — |
-| 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:35 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
 | 10-03 21:35 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
 | 10-03 21:33 | College Football Game | Old Dominion | ✔ | 11:59 - 3rd · ODU 3 - GAST 35 | — | In play | — |
 | 10-03 21:30 | College Football Game | Marshall | ✔ | 0:31 - 2nd · MRSH 14 - JMU 31 | — | In play | — |
 | 10-03 21:23 | AHL Game | Syracuse Crunch | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 21:17 | ITF Men's Match | Jonah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:15 | College Football Game | South Carolina St. | ✘ | — | — | In play | — |
-| 10-03 20:57 | Spain Liga ACB Game | Basquet Manresa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 20:55 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:54 | International Friendly Game | Tie | ✔ | 90'+5' · CMR 1 - CIV 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:54 | Darts Match | Nathan Aspinall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
