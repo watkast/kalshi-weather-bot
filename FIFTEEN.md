@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 2, 9:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 2, 9:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6206 | 6200 | 23 (0%) | 1.07% | -$428.30 (-57%) | Hold to the close: -$428.30 (-57%) |
+| 6209 | 6200 | 23 (0%) | 1.07% | -$428.30 (-57%) | Hold to the close: -$428.30 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/2 9:57:39 PM | NEAR | DOWN | 2.3 min | +0.160% | — | In play | — |
+| 10/2 9:57:23 PM | DOGE | DOWN | 2.6 min | +0.093% | — | In play | — |
+| 10/2 9:56:03 PM | XRP | DOWN | 3.9 min | +0.208% | — | In play | — |
 | 10/2 9:44:34 PM | BNB | UP | 25 sec | -0.044% | 0¢ | ❌ Lost | -$0.15 |
 | 10/2 9:44:34 PM | ZEC | UP | 25 sec | -0.031% | 0¢ | ❌ Lost | $0.00 |
 | 10/2 9:44:34 PM | NEAR | DOWN | 25 sec | -0.070% | 1¢ | ❌ Lost | -$0.15 |
@@ -208,9 +211,6 @@
 | 10/2 9:13:10 PM | DOGE | UP | 1.8 min | -0.166% | 1¢ | ❌ Lost | -$0.15 |
 | 10/2 9:11:19 PM | ZEC | DOWN | 3.7 min | +0.367% | 1¢ | ❌ Lost | -$0.15 |
 | 10/2 9:10:13 PM | NEAR | DOWN | 4.8 min | +0.478% | 1¢ | ❌ Lost | -$0.15 |
-| 10/2 8:58:15 PM | XRP | UP | 1.7 min | -0.181% | 0¢ | ❌ Lost | -$0.15 |
-| 10/2 8:58:15 PM | DOGE | UP | 1.7 min | -0.179% | 0¢ | ❌ Lost | -$0.15 |
-| 10/2 8:57:59 PM | SOL | UP | 2.0 min | -0.125% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
