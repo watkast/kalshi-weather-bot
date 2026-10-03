@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sat Oct 03 16:08 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sat Oct 03 16:18 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 620 | 529 | 91 (2) | 1 | $-82.80 | -2.1% |
-| **20¢+ jump, ride past +5¢** | 400 | 210 | 190 (73) | 1 | $-282.32 | -10.8% |
+| **20¢+ jump, sell +5¢** | 622 | 530 | 92 (2) | 0 | $-87.43 | -2.3% |
+| **20¢+ jump, ride past +5¢** | 401 | 210 | 191 (73) | 0 | $-286.39 | -11.0% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,8 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 16:04 | J20R | DOGE | UP | 20¢ | 0.39 | open |  |
-| 10-03 16:04 | J20 | DOGE | UP | 20¢ | 0.39 | open |  |
+| 10-03 16:09 | J20 | DOGE | UP | 36¢ | 0.54 | no | -5.58 |
+| 10-03 16:04 | J20R | DOGE | UP | 20¢ | 0.39 | no | -4.07 |
+| 10-03 16:04 | J20 | DOGE | UP | 20¢ | 0.39 | 0.52 | 0.95 |
 | 10-03 16:02 | J20 | ZEC | DOWN | 24¢ | 0.58 | 0.70 | 0.85 |
 | 10-03 16:02 | J20R | BTC | DOWN | 20¢ | 0.67 | 0.74 | 0.40 |
 | 10-03 16:02 | J20 | BTC | DOWN | 20¢ | 0.67 | 0.76 | 0.61 |
@@ -57,4 +58,3 @@
 | 10-03 15:38 | J20 | SOL | UP | 31¢ | 0.60 | 0.67 | 0.37 |
 | 10-03 15:38 | J20 | SOL | UP | 31¢ | 0.60 | 0.67 | 0.37 |
 | 10-03 15:38 | J20R | ZEC | UP | 21¢ | 0.33 | 0.49 | 1.26 |
-| 10-03 15:38 | J20 | ZEC | UP | 21¢ | 0.33 | 0.53 | 1.66 |
