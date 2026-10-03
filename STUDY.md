@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 9:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 222 finished bets | 0% | -$19.30 | -58% | -8.69¢ | -$2.65 / -$16.65 |
 
-*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.51/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3192 | 222 | 1 (0%) | 1.1% | -$19.30 (-58%) | Hold to the end: -$19.30 (-58%) |
+| 3198 | 222 | 1 (0%) | 1.1% | -$19.30 (-58%) | Hold to the end: -$19.30 (-58%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 222 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2959 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2961 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,9 +101,9 @@
 | CONCACAF Nations League Game | partly | 61 | 1 | 21% | 8% | +53% | -63% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Women's College Volleyball Match | ✘ | 34 | 0 | 6% | 0% | -100% | -90% | 25 min |
+| Women's College Volleyball Match | ✘ | 35 | 0 | 6% | 0% | -100% | -90% | 21 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
-| Men's T20 Cricket Match | ✘ | 31 | 0 | 16% | 6% | -100% | -72% | 19 min |
+| Men's T20 Cricket Match | ✘ | 32 | 0 | 19% | 6% | -100% | -68% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 25 | 0 | 16% | 12% | -100% | -72% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -199,7 +199,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 03:04 | Women's College Volleyball Match | California Riverside | ✘ | — | — | In play | — |
+| 10-03 03:20 | CONCACAF Nations League Game | El Salvador | ✔ | 63' · JAM 1 - SLV 0 | — | In play | — |
+| 10-03 03:20 | Women's Pro Basketball Game | Dallas | ✔ | 6.9 - 4th · DAL 73 - GS 76 | — | In play | — |
+| 10-03 03:20 | TT Elite Series Match | Tadeusz Piotrowski | ✘ | — | — | In play | — |
+| 10-03 03:17 | TT Elite Series Match | Jakub Jesiek | ✘ | — | — | In play | — |
+| 10-03 03:16 | TT Elite Series Match | Linek Adam | ✘ | — | — | In play | — |
+| 10-03 03:14 | Liga DIMAYOR Game | Alianza FC Valledupar | ✘ | — | — | In play | — |
+| 10-03 03:04 | Women's College Volleyball Match | California Riverside | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:00 | Liga Expansion Game | Correcaminos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:59 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:58 | NHL Game | Winnipeg | ✔ | 1:39 - OT · BOS 4 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
@@ -214,7 +220,7 @@
 | 10-03 02:42 | College Football Game | Penn St. | ✔ | 1:23 - 3rd · PSU 7 - NU 24 | — | In play | — |
 | 10-03 02:37 | Brasileiro Serie B Game | Fortaleza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:36 | Brasileiro Serie B Game | Nautico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:34 | Men's T20 Cricket Match | Bangladesh | ✘ | — | — | In play | — |
+| 10-03 02:34 | Men's T20 Cricket Match | Bangladesh | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-03 02:30 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:30 | TT Elite Series Match | Zielinski Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:29 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -223,12 +229,6 @@
 | 10-03 02:20 | Liga Expansion Game | Jaiba Brava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:17 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:15 | Women's College Volleyball Match | Central Florida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:12 | Argentina Primera Division Game | Gimnasia La Plata | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
-| 10-03 02:10 | TT Elite Series Match | Fira Damian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:10 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:07 | NWSL Game | Tie | ✔ | 90'+11' · SD 2 - ORL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:59 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:59 | International Friendly Game | Tie | ✔ | 90'+3' · PAR 1 - COL 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
