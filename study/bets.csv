@@ -3563,3 +3563,4 @@ detected_at,league,series,event,ticker,pick,verified,situation_at_entry,entry_pr
 2026-10-03T18:38:27+00:00,College Football Game,KXNCAAFGAME,KXNCAAFGAME-26OCT03ALAMSST,KXNCAAFGAME-26OCT03ALAMSST-MSST,Mississippi St.,yes,4:00 - 3rd · ALA 42 - MSST 17,0.01,14,0.01,open,,,,ESPN final,,,,,,,,,,,,,,,pending,0.0026
 2026-10-03T18:41:16+00:00,College Football Game,KXNCAAFGAME,KXNCAAFGAME-26OCT03MERVMI,KXNCAAFGAME-26OCT03MERVMI-VMI,VMI,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
 2026-10-03T18:41:57+00:00,Croatia Premijer Liga Game,KXPHKLGAME,KXPHKLGAME-26OCT031300DBKDIN,KXPHKLGAME-26OCT031300DBKDIN-DBK,KK Dubrovnik,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-03T18:43:06+00:00,Counter-Strike 2 Game,KXCS2GAME,KXCS2GAME-26OCT031330FNCAST,KXCS2GAME-26OCT031330FNCAST-FNC,fnatic,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
