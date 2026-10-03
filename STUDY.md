@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 8:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 9:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 221 finished bets | 0% | -$19.15 | -58% | -8.67¢ | -$2.50 / -$16.65 |
 
-*Expect about **43 buys a day**, roughly **$6.45/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3183 | 221 | 1 (0%) | 1.1% | -$19.15 (-58%) | Hold to the end: -$19.15 (-58%) |
+| 3191 | 221 | 1 (0%) | 1.1% | -$19.15 (-58%) | Hold to the end: -$19.15 (-58%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 221 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2950 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2952 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1284 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1285 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -101,7 +101,7 @@
 | CONCACAF Nations League Game | partly | 61 | 1 | 21% | 8% | +53% | -63% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Women's College Volleyball Match | ✘ | 33 | 0 | 6% | 0% | -100% | -89% | 21 min |
+| Women's College Volleyball Match | ✘ | 34 | 0 | 6% | 0% | -100% | -90% | 25 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Men's T20 Cricket Match | ✘ | 31 | 0 | 16% | 6% | -100% | -72% | 19 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -198,9 +198,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 03:00 | Liga Expansion Game | Correcaminos | ✘ | — | — | In play | — |
+| 10-03 02:59 | TT Elite Series Match | Roman Wiza | ✘ | — | — | In play | — |
+| 10-03 02:58 | NHL Game | Winnipeg | ✔ | 1:39 - OT · BOS 4 - WPG 3 | — | In play | — |
+| 10-03 02:57 | Liga Expansion Game | Cruz Azul Hidalgo | ✘ | — | — | In play | — |
+| 10-03 02:56 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
+| 10-03 02:52 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | — | In play | — |
+| 10-03 02:52 | Women's College Volleyball Match | California State Fullerton | ✘ | — | — | In play | — |
+| 10-03 02:51 | AHL Game | Iowa Wild | ✘ | — | — | In play | — |
 | 10-03 02:48 | Women's College Volleyball Match | Arizona | ✘ | — | — | In play | — |
 | 10-03 02:44 | College Football Game | Virginia Tech | ✔ | 0:03 - 4th · PITT 35 - VT 33 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:44 | TT Elite Series Match | Oracz Lukasz | ✘ | — | — | In play | — |
+| 10-03 02:44 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:42 | College Football Game | Penn St. | ✔ | 1:23 - 3rd · PSU 7 - NU 24 | — | In play | — |
 | 10-03 02:37 | Brasileiro Serie B Game | Fortaleza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:36 | Brasileiro Serie B Game | Nautico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -220,14 +228,6 @@
 | 10-03 01:59 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:59 | International Friendly Game | Tie | ✔ | 90'+3' · PAR 1 - COL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:59 | Women's College Volleyball Match | Houston | ✘ | — | — | In play | — |
-| 10-03 01:58 | Argentina Primera Division Game | Union Santa Fe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:57 | CONCACAF Nations League Game | Tie | ✔ | 90'+9' · HON 1 - MTQ 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:56 | NWSL Game | Orlando | ✔ | 90'+1' · SD 2 - ORL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:54 | AHL Game | Laval Rocket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:53 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:53 | International Friendly Game | Colombia | ✔ | 88' · PAR 1 - COL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+4' · GRN 3 - BOE 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:52 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
 
 ## Raw data
 
