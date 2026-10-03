@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 12:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 257 finished bets | 0% | -$24.55 | -64% | -9.55¢ | -$5.20 / -$19.35 |
 
-*Expect about **45 buys a day**, roughly **$6.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **45 buys a day**, roughly **$6.80/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3570 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
+| 3576 | 257 | 1 (0%) | 1.1% | -$24.55 (-64%) | Hold to the end: -$24.55 (-64%) |
 
 *In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 257 | 11% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3284 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3290 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 249 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 240 | 1 | 3% | 2% | -61% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 241 | 1 | 3% | 2% | -61% | -94% | 9 min |
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 156 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
@@ -109,8 +109,8 @@
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
 | International Friendly Game | partly | 28 | 0 | 4% | 0% | -100% | -94% | 14 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
+| KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| KHL Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
@@ -142,10 +142,10 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| Slovakia SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
-| Slovakia SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -155,12 +155,12 @@
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
+| Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Adriatic ABA Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Slovenia 1. SKL Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 27 min |
-| Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Bundesliga Basketball Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 10 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -185,6 +185,7 @@
 | PREM Rugby Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
+| England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 
 ## By time left when it hit 1¢
 
@@ -212,17 +213,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 18:55 | England Super League Rugby Match | Warrington Wolves | ✘ | — | — | In play | — |
+| 10-03 19:04 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-03 19:03 | College Football Game | St. Thomas | ✘ | — | — | In play | — |
+| 10-03 19:02 | TT Star Series Match | Lorenzo Santiago | ✘ | — | — | In play | — |
+| 10-03 19:02 | Adriatic ABA Game | Spartak Subotica | ✘ | — | — | In play | — |
+| 10-03 19:02 | College Football Game | Boston College | ✔ | 6:26 - 4th · BC 10 - SMU 19 | — | In play | — |
+| 10-03 18:56 | College Football Game | Michigan St. | ✔ | 1:10 - 3rd · MSU 3 - WIS 24 | — | In play | — |
+| 10-03 18:55 | England Super League Rugby Match | Warrington Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:53 | College Football Game | Brown | ✘ | — | — | In play | — |
 | 10-03 18:53 | UEFA Nations League Game | Czechia | ✔ | 6' · CZE 0 - ESP 0 | — | In play | — |
 | 10-03 18:52 | International Friendly Game | Peru | ✔ | 35' · PER 0 - CAN 1 | — | In play | — |
-| 10-03 18:52 | KHL Game | HC Sochi | ✘ | — | — | In play | — |
-| 10-03 18:43 | Counter-Strike 2 Game | fnatic | ✘ | — | — | In play | — |
-| 10-03 18:41 | Croatia Premijer Liga Game | KK Dubrovnik | ✘ | — | — | In play | — |
+| 10-03 18:52 | KHL Game | HC Sochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 18:43 | Counter-Strike 2 Game | fnatic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 18:41 | Croatia Premijer Liga Game | KK Dubrovnik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:41 | College Football Game | VMI | ✘ | — | — | In play | — |
 | 10-03 18:38 | College Football Game | Mississippi St. | ✔ | 4:00 - 3rd · ALA 42 - MSST 17 | — | In play | — |
-| 10-03 18:34 | Slovakia SBL Game | Kosice Wolves | ✘ | — | — | In play | — |
-| 10-03 18:33 | Slovenia 1. SKL Game | Šentjur | ✘ | — | — | In play | — |
+| 10-03 18:34 | Slovakia SBL Game | Kosice Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 18:33 | Slovenia 1. SKL Game | Šentjur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:33 | Argentina Primera Division Game | San Lorenzo de Almagro | ✘ | — | — | In play | — |
 | 10-03 18:31 | Valorant game winner | NKVT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:30 | Slovakia SBL Game | BK Iskra Svit | ✘ | — | — | In play | — |
@@ -236,12 +243,6 @@
 | 10-03 18:15 | United Rugby Championship Match | Leinster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:15 | Counter-Strike 2 Game | G2 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 18:07 | Challenger ATP  | Marcelo Tomas Barrios Vera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:07 | Dota 2 Game | OG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:05 | LNB Elite Game | Boulazac Basket Dordogne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:03 | LaLiga 2 Game | Tie | ✔ | 72' · LEG 0 - CAD 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:01 | Slovakia SBL Game | Nitra Blue Wings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 18:01 | Men's T20 Cricket Match | BD CC Lisbon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:59 | LaLiga 2 Game | Leganes | ✔ | 69' · LEG 0 - CAD 2 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
