@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 7:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 7:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 209 finished bets | 0% | -$17.35 | -55% | -8.30¢ | -$15.60 / -$1.75 |
+| ESPN-verified leagues only, hold to the end | 213 finished bets | 0% | -$17.95 | -56% | -8.43¢ | -$15.90 / -$2.05 |
 
-*Expect about **42 buys a day**, roughly **$6.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 209 | -$24.20 | -77% |
-| ESPN-verified leagues only, sell at 2¢ | 209 | -$24.33 | -78% |
-| ESPN-verified leagues only, sell at 50¢ | 209 | -$24.60 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 213 | -$24.67 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 213 | -$24.80 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 213 | -$25.20 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3152 | 209 | 1 (0%) | 1.1% | -$17.35 (-55%) | Hold to the end: -$17.35 (-55%) |
+| 3164 | 213 | 1 (0%) | 1.1% | -$17.95 (-56%) | Hold to the end: -$17.95 (-56%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 209 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2929 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 213 | 13% | 8% | 5% | 2% | 0% | 0% |
+| Unverified | 2933 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$17.35 | -55% |
-| Sell at 2¢ | 27 | 13% | -$24.33 | -78% |
-| Sell at 3¢ | 16 | 8% | -$25.11 | -80% |
-| Sell at 5¢ | 11 | 5% | -$24.20 | -77% |
-| Sell at 10¢ | 5 | 2% | -$24.80 | -79% |
-| Sell at 25¢ | 1 | 0% | -$28.04 | -89% |
-| Sell at 50¢ | 1 | 0% | -$24.60 | -78% |
+| Hold to the end | 1 | 0% | -$17.95 | -56% |
+| Sell at 2¢ | 28 | 13% | -$24.67 | -77% |
+| Sell at 3¢ | 16 | 8% | -$25.71 | -80% |
+| Sell at 5¢ | 11 | 5% | -$24.80 | -78% |
+| Sell at 10¢ | 5 | 2% | -$25.40 | -79% |
+| Sell at 25¢ | 1 | 0% | -$28.64 | -90% |
+| Sell at 50¢ | 1 | 0% | -$25.20 | -79% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1275 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1277 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -98,7 +98,7 @@
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
-| CONCACAF Nations League Game | partly | 55 | 1 | 22% | 9% | +70% | -62% | 27 min |
+| CONCACAF Nations League Game | partly | 59 | 1 | 22% | 8% | +58% | -62% | 26 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
@@ -147,6 +147,7 @@
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
+| AHL Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 6 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -167,7 +168,6 @@
 | Argentina Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| AHL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Turkey BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 382 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -176,10 +176,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 79 | 6% | 1% | 0% | -89% |
-| 5–15 min | 39 | 15% | 3% | 0% | -73% |
-| 15–30 min | 37 | 24% | 11% | 3% | -58% |
-| 30–60 min | 32 | 16% | 9% | 0% | -73% |
+| Under 5 min | 80 | 6% | 1% | 0% | -89% |
+| 5–15 min | 40 | 15% | 2% | 0% | -74% |
+| 15–30 min | 38 | 26% | 11% | 3% | -54% |
+| 30–60 min | 33 | 15% | 9% | 0% | -74% |
 | Over 60 min | 22 | 9% | 9% | 0% | -84% |
 
 ## Speed & liquidity
@@ -198,17 +198,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 01:59 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | — | In play | — |
+| 10-03 01:59 | International Friendly Game | Tie | ✔ | 90'+3' · PAR 1 - COL 0 | — | In play | — |
+| 10-03 01:59 | Women's College Volleyball Match | Houston | ✘ | — | — | In play | — |
+| 10-03 01:58 | Argentina Primera Division Game | Union Santa Fe | ✘ | — | — | In play | — |
+| 10-03 01:57 | CONCACAF Nations League Game | Tie | ✔ | 90'+9' · HON 1 - MTQ 2 | — | In play | — |
+| 10-03 01:56 | NWSL Game | Orlando | ✔ | 90'+1' · SD 2 - ORL 1 | — | In play | — |
+| 10-03 01:54 | AHL Game | Laval Rocket | ✘ | — | — | In play | — |
+| 10-03 01:53 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | — | In play | — |
+| 10-03 01:53 | International Friendly Game | Colombia | ✔ | 88' · PAR 1 - COL 0 | — | In play | — |
+| 10-03 01:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+4' · GRN 3 - BOE 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 01:52 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
+| 10-03 01:52 | Women's College Volleyball Match | Cincinnati | ✘ | — | — | In play | — |
 | 10-03 01:48 | CFL Game | Ottawa Redblacks | ✘ | — | — | In play | — |
 | 10-03 01:46 | CONCACAF Nations League Game | Honduras | ✔ | 88' · HON 1 - MTQ 1 | — | In play | — |
-| 10-03 01:43 | TT Elite Series Match | Makajew Maciej | ✘ | — | — | In play | — |
-| 10-03 01:42 | AHL Game | Belleville Senators | ✘ | — | — | In play | — |
-| 10-03 01:40 | CONCACAF Nations League Game | Tie | ✔ | 83' · BER 1 - BRB 3 | — | In play | — |
-| 10-03 01:39 | TT Elite Series Match | Mariusz Baron | ✘ | — | — | In play | — |
+| 10-03 01:43 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 01:42 | AHL Game | Belleville Senators | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 01:40 | CONCACAF Nations League Game | Tie | ✔ | 83' · BER 1 - BRB 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 01:39 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:38 | AHL Game | Cleveland Monsters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:38 | AHL Game | Toronto Marlies | ✘ | — | — | In play | — |
+| 10-03 01:38 | AHL Game | Toronto Marlies | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
 | 10-03 01:37 | Women's College Volleyball Match | Colorado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:35 | AHL Game | Providence Bruins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:33 | CONCACAF Nations League Game | Bonaire | ✔ | 76' · GRN 3 - BOE 2 | — | In play | — |
+| 10-03 01:33 | CONCACAF Nations League Game | Bonaire | ✔ | 76' · GRN 3 - BOE 2 | 2¢ | ❌ Lost | -$0.15 |
 | 10-03 01:27 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:24 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:24 | TT Elite Series Match | Cezary Pawlik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,18 +228,6 @@
 | 10-03 01:17 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:17 | NHL Game | Detroit | ✔ | 1:27 - 3rd · NYR 1 - DET 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:15 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:13 | Women's College Volleyball Match | Missouri | ✘ | — | — | In play | — |
-| 10-03 01:11 | NHL Game | Carolina | ✔ | 18:02 - 3rd · WSH 5 - CAR 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 01:10 | ITF Women's Match | Caroline Dolehide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:08 | CONCACAF Nations League Game | Bermuda | ✔ | 51' · BER 1 - BRB 3 | — | In play | — |
-| 10-03 01:06 | Women's College Volleyball Match | Mississippi State | ✘ | — | — | In play | — |
-| 10-03 01:05 | Women's College Volleyball Match | Auburn | ✘ | — | — | In play | — |
-| 10-03 01:05 | Brasileiro Serie A Game | Tie | ✔ | 90'+5' · SAN 2 - SAO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:04 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:02 | TT Elite Series Match | Vincenec Oliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:01 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:01 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:01 | Women's College Volleyball Match | Wake Forest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
