@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 6:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **41 buys a day**, roughly **$6.18/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3318 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3324 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3078 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3088 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 245 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 228 | 1 | 3% | 2% | -59% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 230 | 1 | 3% | 2% | -59% | -95% | 9 min |
 | Challenger ATP  | ✘ | 150 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 83 | 0 | 7% | 2% | -100% | -87% | 11 min |
@@ -122,6 +122,7 @@
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Ettan Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -141,7 +142,6 @@
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -202,18 +202,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 13:06 | Dota 2 Game | Rostik Team | ✘ | — | — | In play | — |
+| 10-03 13:00 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-03 12:57 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 12:57 | Counter-Strike 2 Game | 1WIN | ✘ | — | — | In play | — |
+| 10-03 12:54 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 12:54 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:48 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
-| 10-03 12:46 | Ettan Game | Tvaakers | ✘ | — | — | In play | — |
-| 10-03 12:44 | Ettan Game | Gefle | ✘ | — | — | In play | — |
-| 10-03 12:44 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
+| 10-03 12:46 | Ettan Game | Tvaakers | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-03 12:44 | Ettan Game | Gefle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 12:44 | Counter-Strike 2 Game | BIG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:43 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:42 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:42 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 10-03 12:42 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:41 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:39 | Ettan Game | Assyriska | ✘ | — | — | In play | — |
+| 10-03 12:39 | Ettan Game | Assyriska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:36 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:35 | Ettan Game | Tie | ✘ | — | — | In play | — |
-| 10-03 12:31 | Ettan Game | Rosengaard | ✘ | — | — | In play | — |
+| 10-03 12:35 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 12:31 | Ettan Game | Rosengaard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:30 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:23 | Serie A Femminile Game | Parma Calcio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:12 | League of Legends Game | GAM Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -226,12 +232,6 @@
 | 10-03 11:45 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:44 | TT Star Series Match | Danzer Matthias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:41 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:38 | Australia NBL Game | Melbourne United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:38 | Japan NPB Game | Orix Buffaloes | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 11:30 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:30 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:29 | Japan NPB Game | Fukuoka Hawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:29 | ITF Men's Match | Martin VAN DER MEERSCHEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
