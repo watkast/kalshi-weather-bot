@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.37/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.36/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3266 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3267 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3032 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3033 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
-| League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
+| League of Legends Game | ✘ | 79 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
@@ -201,7 +201,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | — | In play | — |
+| 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:43 | Japan J2 League Game | Ventforet | ✘ | — | — | In play | — |
 | 10-03 08:39 | Japan NPB Game | Hanshin Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:38 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -230,7 +231,6 @@
 | 10-03 05:19 | Dota 2 Game | Cloud Dawning | ✘ | — | 30¢ | ❌ Lost | -$0.15 |
 | 10-03 05:16 | Women's College Volleyball Match | Southern California | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 05:03 | WTA Tennis Match | Lin Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:59 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
