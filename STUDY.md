@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 5:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3284 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3285 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3049 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3051 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 242 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 230 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 219 | 1 | 3% | 2% | -57% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 221 | 1 | 3% | 2% | -58% | -95% | 9 min |
 | Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
 | League of Legends Game | ✘ | 81 | 0 | 7% | 2% | -100% | -87% | 12 min |
@@ -201,9 +201,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 11:08 | Dota 2 Game | IaChIo123 | ✘ | — | — | In play | — |
 | 10-03 10:58 | Valorant game winner | Team Liquid | ✘ | — | — | In play | — |
-| 10-03 10:47 | Counter-Strike 2 Game | Sangal | ✘ | — | — | In play | — |
-| 10-03 10:40 | Counter-Strike 2 Game | TYLOO | ✘ | — | — | In play | — |
+| 10-03 10:47 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 10:40 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:27 | League of Legends Game | Shopify Rebellion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:17 | Men's T20 Cricket Match | EU Pak Friendship | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:13 | ITF Men's Match | Derek Pham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -230,7 +231,6 @@
 | 10-03 08:09 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:08 | ITF Men's Match | Herman Hoeyeraal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:53 | KBO Game | Hanwha Eagles | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
