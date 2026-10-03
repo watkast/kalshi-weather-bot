@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sat Oct 03 01:55 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sat Oct 03 02:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 7 | 5 | 2 (0) | 0 | $-9.64 | -21.6% |
-| **20¢+ jump, ride past +5¢** | 6 | 3 | 3 (0) | 0 | $-14.50 | -39.8% |
+| **20¢+ jump, sell +5¢** | 9 | 7 | 2 (0) | 2 | $-8.65 | -15.0% |
+| **20¢+ jump, ride past +5¢** | 8 | 5 | 3 (0) | 1 | $-13.62 | -27.4% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,13 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 02:05 | J20R | DOGE | DOWN | 22¢ | 0.70 | open |  |
+| 10-03 02:05 | J20 | DOGE | DOWN | 22¢ | 0.70 | open |  |
+| 10-03 02:02 | J20 | XRP | UP | 21¢ | 0.78 | open |  |
+| 10-03 02:02 | J20R | XRP | UP | 20¢ | 0.72 | 0.77 | 0.22 |
+| 10-03 02:02 | J20 | XRP | UP | 20¢ | 0.72 | 0.79 | 0.43 |
+| 10-03 02:01 | J20R | ZEC | UP | 25¢ | 0.57 | 0.67 | 0.66 |
+| 10-03 02:01 | J20 | ZEC | UP | 25¢ | 0.57 | 0.66 | 0.56 |
 | 10-03 01:51 | J20R | BTC | DOWN | 20¢ | 0.62 | 0.70 | 0.48 |
 | 10-03 01:51 | J20 | BTC | DOWN | 20¢ | 0.62 | 0.70 | 0.48 |
 | 10-03 01:42 | J20 | DOGE | UP | 28¢ | 0.77 | no | -7.83 |
@@ -51,10 +58,3 @@
 | 10-03 01:32 | R5 | ETH | UP | 5¢ | 0.81 | 0.86 | 0.30 |
 | 10-03 01:32 | R10R | DOGE | UP | 10¢ | 0.68 | no | -6.96 |
 | 10-03 01:32 | R10 | DOGE | UP | 10¢ | 0.68 | no | -6.96 |
-| 10-03 01:32 | R10 | ZEC | UP | 15¢ | 0.85 | yes | 1.36 |
-| 10-03 01:32 | R5 | ZEC | UP | 15¢ | 0.85 | yes | 1.36 |
-| 10-03 01:32 | R10 | BNB | UP | 14¢ | 0.86 | yes | 1.28 |
-| 10-03 01:32 | R5 | BNB | UP | 14¢ | 0.86 | yes | 1.28 |
-| 10-03 01:32 | R10 | NEAR | DOWN | 13¢ | 0.46 | 0.53 | 0.34 |
-| 10-03 01:32 | R5 | NEAR | DOWN | 13¢ | 0.46 | 0.53 | 0.34 |
-| 10-03 01:32 | R10 | NEAR | UP | 16¢ | 0.56 | 0.73 | 1.38 |
