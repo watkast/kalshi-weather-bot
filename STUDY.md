@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 5:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3294 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3299 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3060 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3064 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -91,11 +91,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 244 | 0 | 9% | 5% | -100% | -85% | 5 min |
+| ITF Men's Match | ✘ | 245 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 222 | 1 | 3% | 2% | -58% | -95% | 9 min |
+| Counter-Strike 2 Game | ✘ | 224 | 1 | 3% | 2% | -58% | -95% | 9 min |
 | Challenger ATP  | ✘ | 150 | 0 | 8% | 1% | -100% | -86% | 4 min |
-| TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
+| TT Star Series Match | ✘ | 108 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 82 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
@@ -201,6 +201,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 11:50 | Turkey BSL Game | Tofas SK Bursa | ✘ | — | — | In play | — |
+| 10-03 11:50 | ITF Men's Match | Lars Goran Verwerft | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:45 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:44 | TT Star Series Match | Danzer Matthias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:41 | Counter-Strike 2 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:38 | Australia NBL Game | Melbourne United | ✘ | — | — | In play | — |
 | 10-03 11:38 | Japan NPB Game | Orix Buffaloes | ✘ | — | — | In play | — |
 | 10-03 11:30 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -226,11 +231,6 @@
 | 10-03 09:40 | Australia NBL Game | Brisbane Bullets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:39 | Overwatch Game | O2 Blast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:29 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:16 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:00 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 08:43 | Japan J2 League Game | Ventforet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
