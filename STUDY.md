@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 281 finished bets | 0% | -$28.15 | -67% | -10.02¢ | -$7.00 / -$21.15 |
+| ESPN-verified leagues only, hold to the end | 282 finished bets | 0% | -$28.30 | -67% | -10.04¢ | -$7.15 / -$21.15 |
 
-*Expect about **48 buys a day**, roughly **$7.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **48 buys a day**, roughly **$7.21/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 281 | -$32.98 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 281 | -$33.05 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 281 | -$33.31 | -79% |
+| ESPN-verified leagues only, sell at 10¢ | 282 | -$33.13 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 282 | -$33.20 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 282 | -$33.46 | -79% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3673 | 281 | 1 (0%) | 1.1% | -$28.15 (-67%) | Hold to the end: -$28.15 (-67%) |
+| 3679 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
 
 *In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 32 | 2.9% | 0.0% (0) | -295% | ❌ Worse |
+| ESPN win probability | 33 | 2.8% | 0.0% (0) | -285% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 32 | 0 | -100% | -73% | -84% | -73% |
+| **Any 1¢ (no model)** | 33 | 0 | -100% | -74% | -84% | -74% |
 | ESPN win probability ≥ 2% | 5 | 0 | -100% | -65% | -100% | -100% |
 | ESPN win probability ≥ 5% | 1 | 0 | -100% | -100% | -100% | -100% |
 | ESPN win probability ≥ 10% | 1 | 0 | -100% | -100% | -100% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 281 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3362 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 282 | 12% | 7% | 5% | 2% | 1% | 0% |
+| Unverified | 3367 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$28.15 | -67% |
-| Sell at 2¢ | 34 | 12% | -$33.31 | -79% |
-| Sell at 3¢ | 19 | 7% | -$34.74 | -82% |
-| Sell at 5¢ | 14 | 5% | -$33.05 | -78% |
-| Sell at 10¢ | 7 | 2% | -$32.98 | -78% |
-| Sell at 25¢ | 2 | 1% | -$35.53 | -84% |
-| Sell at 50¢ | 1 | 0% | -$35.40 | -84% |
+| Hold to the end | 1 | 0% | -$28.30 | -67% |
+| Sell at 2¢ | 34 | 12% | -$33.46 | -79% |
+| Sell at 3¢ | 19 | 7% | -$34.89 | -82% |
+| Sell at 5¢ | 14 | 5% | -$33.20 | -78% |
+| Sell at 10¢ | 7 | 2% | -$33.13 | -78% |
+| Sell at 25¢ | 2 | 1% | -$35.68 | -84% |
+| Sell at 50¢ | 1 | 0% | -$35.55 | -84% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -110,8 +110,8 @@
 | International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
+| College Football Game | partly | 27 | 0 | 15% | 7% | -100% | -74% | 37 min |
 | Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
-| College Football Game | partly | 25 | 0 | 16% | 8% | -100% | -72% | 37 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -161,14 +161,15 @@
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Copa Del Rey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Canadian Premier League | ✘ | 4 | 0 | 50% | 50% | -100% | -13% | 119 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Copa Del Rey Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -178,7 +179,6 @@
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
-| Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -199,7 +199,7 @@
 | Under 5 min | 101 | 5% | 1% | 0% | -91% |
 | 5–15 min | 51 | 12% | 2% | 0% | -80% |
 | 15–30 min | 51 | 24% | 8% | 2% | -59% |
-| 30–60 min | 43 | 14% | 7% | 0% | -76% |
+| 30–60 min | 44 | 14% | 7% | 0% | -76% |
 | Over 60 min | 35 | 14% | 14% | 0% | -75% |
 
 ## Speed & liquidity
@@ -218,6 +218,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 21:36 | College Football Game | Wyoming | ✔ | 14:00 - 3rd · WYO 0 - NDSU 17 | — | In play | — |
+| 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 21:35 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
+| 10-03 21:35 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
+| 10-03 21:33 | College Football Game | Old Dominion | ✔ | 11:59 - 3rd · ODU 3 - GAST 35 | — | In play | — |
+| 10-03 21:30 | College Football Game | Marshall | ✔ | 0:31 - 2nd · MRSH 14 - JMU 31 | — | In play | — |
 | 10-03 21:23 | AHL Game | Syracuse Crunch | ✘ | — | — | In play | — |
 | 10-03 21:17 | ITF Men's Match | Jonah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:15 | College Football Game | South Carolina St. | ✘ | — | — | In play | — |
@@ -226,7 +232,7 @@
 | 10-03 20:54 | International Friendly Game | Tie | ✔ | 90'+5' · CMR 1 - CIV 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:54 | Darts Match | Nathan Aspinall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:53 | College Football Game | UTEP | ✔ | 8:23 - 2nd · UTEP 0 - UNM 14 | — | In play | — |
-| 10-03 20:52 | College Football Game | Ball St. | ✔ | 9:51 - 4th · TOL 29 - BALL 17 | — | In play | — |
+| 10-03 20:52 | College Football Game | Ball St. | ✔ | 9:51 - 4th · TOL 29 - BALL 17 | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 20:52 | Rugby French 14 Match | Castres Olympique | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:52 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:51 | Italy Serie A Game | Pallacanestro Reggiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -242,12 +248,6 @@
 | 10-03 20:29 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:28 | College Football Game | New Haven | ✘ | — | — | In play | — |
 | 10-03 20:27 | Serie C Game | Ospitaletto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:26 | Serie C Game | Crotone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:21 | Serie C Game | Folgore Caratese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:21 | Serie C Game | Renate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
