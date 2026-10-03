@@ -462,9 +462,9 @@ def write_page(events, rtt=None, cb=None):
     ts = {label: trade_stats(trades, key) for label, key in exits.items()}
     best_label, best = max(ts.items(), key=lambda kv: kv[1]["pnl"]) if trades else (None, None)
 
-    if len(seen) < 50:
-        verdict = "🟡 **Too early.** Collecting data — needs at least 50 events."
-    elif best and best["n"] >= 30 and best["pnl"] > 0 and best["h1"] > 0 and best["h2"] > 0:
+    if len(seen) < 50 or not best or best["n"] < 150:
+        verdict = "🟡 **Too early.** Collecting data — needs at least 150 paper trades before calling it."
+    elif best and best["n"] >= 150 and best["pnl"] > 0 and best["h1"] > 0 and best["h2"] > 0:
         verdict = (f"🟢 **There's a tradable gap.** Buying right after a price jump made money in both "
                    f"halves of the data ({best_label.lower()}).")
     elif allstats["ahead"] is not None and allstats["ahead"] >= 0.7:
@@ -477,7 +477,7 @@ def write_page(events, rtt=None, cb=None):
         if v is None:
             return "—"
         if pct:
-            return f"{v:.0%}"
+            return f"{abs(v) if abs(v) < 0.005 else v:.0%}"
         return f"{v:.1f}s" if secs else f"{v:.2f}"
 
     lines = [
