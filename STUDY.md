@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
+| ESPN-verified leagues only, hold to the end | 242 finished bets | 0% | -$22.30 | -61% | -9.21¢ | -$4.15 / -$18.15 |
 
-*Expect about **43 buys a day**, roughly **$6.38/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 234 | -$27.56 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 234 | -$27.95 | -80% |
-| ESPN-verified leagues only, sell at 50¢ | 234 | -$28.35 | -81% |
+| ESPN-verified leagues only, sell at 2¢ | 242 | -$28.76 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 242 | -$29.15 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 242 | -$29.55 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3448 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
+| 3454 | 242 | 1 (0%) | 1.1% | -$22.30 (-61%) | Hold to the end: -$22.30 (-61%) |
 
-*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3166 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 242 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 3192 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$21.10 | -60% |
-| Sell at 2¢ | 29 | 12% | -$27.56 | -79% |
-| Sell at 3¢ | 16 | 7% | -$28.86 | -82% |
-| Sell at 5¢ | 11 | 5% | -$27.95 | -80% |
-| Sell at 10¢ | 5 | 2% | -$28.55 | -81% |
-| Sell at 25¢ | 1 | 0% | -$31.79 | -91% |
-| Sell at 50¢ | 1 | 0% | -$28.35 | -81% |
+| Hold to the end | 1 | 0% | -$22.30 | -61% |
+| Sell at 2¢ | 29 | 12% | -$28.76 | -79% |
+| Sell at 3¢ | 16 | 7% | -$30.06 | -83% |
+| Sell at 5¢ | 11 | 5% | -$29.15 | -80% |
+| Sell at 10¢ | 5 | 2% | -$29.75 | -82% |
+| Sell at 25¢ | 1 | 0% | -$32.99 | -91% |
+| Sell at 50¢ | 1 | 0% | -$29.55 | -81% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -102,15 +102,15 @@
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
+| English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 29 min |
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
-| English National League Game | ✘ | 28 | 0 | 11% | 7% | -100% | -81% | 6 min |
-| International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
+| International Friendly Game | partly | 26 | 0 | 4% | 0% | -100% | -93% | 12 min |
+| Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
-| Ettan Game | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
@@ -132,13 +132,13 @@
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Uruguay Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 12 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
+| Finland Korisliiga Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
-| Uruguay Primera Division Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 13 min |
-| Finland Korisliiga Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -148,6 +148,7 @@
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
+| EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
@@ -178,6 +179,7 @@
 | Rugby French 14 Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 59 min |
 | United Rugby Championship Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LKL Lithuania Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
@@ -186,11 +188,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 90 | 6% | 1% | 0% | -90% |
-| 5–15 min | 45 | 13% | 2% | 0% | -77% |
-| 15–30 min | 41 | 27% | 10% | 2% | -53% |
-| 30–60 min | 35 | 14% | 9% | 0% | -75% |
-| Over 60 min | 23 | 9% | 9% | 0% | -85% |
+| Under 5 min | 92 | 5% | 1% | 0% | -91% |
+| 5–15 min | 47 | 13% | 2% | 0% | -78% |
+| 15–30 min | 42 | 26% | 10% | 2% | -55% |
+| 30–60 min | 36 | 14% | 8% | 0% | -76% |
+| Over 60 min | 25 | 8% | 8% | 0% | -86% |
 
 ## Speed & liquidity
 
@@ -208,36 +210,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 16:09 | LaLiga 2 Game | Tie | ✔ | 90'+5' · BUR 1 - ALM 2 | — | In play | — |
+| 10-03 16:07 | PREM Rugby Match | Northampton Saints | ✘ | — | — | In play | — |
+| 10-03 16:04 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 16:04 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
+| 10-03 16:03 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 16:00 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:59 | Brasileiro Serie B Game | Avai | ✘ | — | — | In play | — |
 | 10-03 15:58 | LaLiga 2 Game | Burgos | ✔ | 84' · BUR 1 - ALM 1 | — | In play | — |
 | 10-03 15:57 | Ettan Game | Jarfalla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:57 | Ettan Game | Stocksund | ✘ | — | — | In play | — |
+| 10-03 15:57 | Ettan Game | Stocksund | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:56 | Eerste Divisie Game | Maastricht | ✘ | — | — | In play | — |
 | 10-03 15:55 | Rugby French 14 Match | USA Perpignan | ✘ | — | — | In play | — |
-| 10-03 15:55 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:54 | English National League Game | Wealdstone | ✘ | — | — | In play | — |
-| 10-03 15:54 | LKL Lithuania Game | BC Rytas Vilnius | ✘ | — | — | In play | — |
-| 10-03 15:54 | Ettan Game | Karlstad Fotbol | ✘ | — | — | In play | — |
+| 10-03 15:55 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:54 | English National League Game | Wealdstone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:54 | LKL Lithuania Game | BC Rytas Vilnius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:54 | Ettan Game | Karlstad Fotbol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:54 | Ettan Game | Pitea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:53 | EFL League One Game | Bradford | ✔ | 90'+5' · BRD 1 - REA 1 | — | In play | — |
-| 10-03 15:53 | EFL League One Game | Reading | ✔ | 90'+5' · BRD 1 - REA 1 | — | In play | — |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:53 | Ettan Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:53 | Ettan Game | Utsiktens | ✘ | — | — | In play | — |
-| 10-03 15:53 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:52 | English National League Game | Kidderminster | ✘ | — | — | In play | — |
+| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | EFL League One Game | Bradford | ✔ | 90'+5' · BRD 1 - REA 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | EFL League One Game | Reading | ✔ | 90'+5' · BRD 1 - REA 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | Ettan Game | Utsiktens | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:53 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:52 | English National League Game | Kidderminster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:51 | Ettan Game | Aatvidabergs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:51 | Ettan Game | Trollhattans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:51 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:48 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:48 | English National League Game | Tie | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 10-03 15:48 | Ettan Game | Jonkopings Sodra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:47 | United Rugby Championship Match | Scarlets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:47 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:46 | English National League Game | Hartlepool | ✘ | — | — | In play | — |
-| 10-03 15:46 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 10-03 15:46 | English National League Game | Eastleigh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:45 | English National League Game | Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
