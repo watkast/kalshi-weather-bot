@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 9:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 221 finished bets | 0% | -$19.15 | -58% | -8.67¢ | -$2.50 / -$16.65 |
+| ESPN-verified leagues only, hold to the end | 222 finished bets | 0% | -$19.30 | -58% | -8.69¢ | -$2.65 / -$16.65 |
 
-*Expect about **43 buys a day**, roughly **$6.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 221 | -$25.87 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 221 | -$26.00 | -78% |
-| ESPN-verified leagues only, sell at 50¢ | 221 | -$26.40 | -80% |
+| ESPN-verified leagues only, sell at 2¢ | 222 | -$26.02 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 222 | -$26.15 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 222 | -$26.55 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3191 | 221 | 1 (0%) | 1.1% | -$19.15 (-58%) | Hold to the end: -$19.15 (-58%) |
+| 3192 | 222 | 1 (0%) | 1.1% | -$19.30 (-58%) | Hold to the end: -$19.30 (-58%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 221 | 13% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2952 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 222 | 13% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 2959 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$19.15 | -58% |
-| Sell at 2¢ | 28 | 13% | -$25.87 | -78% |
-| Sell at 3¢ | 16 | 7% | -$26.91 | -81% |
-| Sell at 5¢ | 11 | 5% | -$26.00 | -78% |
-| Sell at 10¢ | 5 | 2% | -$26.60 | -80% |
-| Sell at 25¢ | 1 | 0% | -$29.84 | -90% |
-| Sell at 50¢ | 1 | 0% | -$26.40 | -80% |
+| Hold to the end | 1 | 0% | -$19.30 | -58% |
+| Sell at 2¢ | 28 | 13% | -$26.02 | -78% |
+| Sell at 3¢ | 16 | 7% | -$27.06 | -81% |
+| Sell at 5¢ | 11 | 5% | -$26.15 | -79% |
+| Sell at 10¢ | 5 | 2% | -$26.75 | -80% |
+| Sell at 25¢ | 1 | 0% | -$29.99 | -90% |
+| Sell at 50¢ | 1 | 0% | -$26.55 | -80% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1285 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1287 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -111,9 +111,9 @@
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
+| NHL Game | ✔ | 19 | 0 | 16% | 5% | -100% | -73% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| NHL Game | ✔ | 18 | 0 | 17% | 6% | -100% | -71% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
@@ -139,17 +139,18 @@
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
+| AHL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
-| AHL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 6 min |
 | LaLiga 2 Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | APF Division de Honor Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | College Football Game | ✔ | 4 | 0 | 25% | 25% | -100% | -57% | 13 min |
+| Liga Expansion Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 22 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -176,7 +177,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 84 | 6% | 1% | 0% | -90% |
+| Under 5 min | 85 | 6% | 1% | 0% | -90% |
 | 5–15 min | 43 | 14% | 2% | 0% | -76% |
 | 15–30 min | 38 | 26% | 11% | 3% | -54% |
 | 30–60 min | 33 | 15% | 9% | 0% | -74% |
@@ -198,14 +199,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 03:00 | Liga Expansion Game | Correcaminos | ✘ | — | — | In play | — |
-| 10-03 02:59 | TT Elite Series Match | Roman Wiza | ✘ | — | — | In play | — |
-| 10-03 02:58 | NHL Game | Winnipeg | ✔ | 1:39 - OT · BOS 4 - WPG 3 | — | In play | — |
-| 10-03 02:57 | Liga Expansion Game | Cruz Azul Hidalgo | ✘ | — | — | In play | — |
+| 10-03 03:04 | Women's College Volleyball Match | California Riverside | ✘ | — | — | In play | — |
+| 10-03 03:00 | Liga Expansion Game | Correcaminos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 02:59 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 02:58 | NHL Game | Winnipeg | ✔ | 1:39 - OT · BOS 4 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 02:57 | Liga Expansion Game | Cruz Azul Hidalgo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 02:56 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
-| 10-03 02:52 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | — | In play | — |
+| 10-03 02:52 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:52 | Women's College Volleyball Match | California State Fullerton | ✘ | — | — | In play | — |
-| 10-03 02:51 | AHL Game | Iowa Wild | ✘ | — | — | In play | — |
+| 10-03 02:51 | AHL Game | Iowa Wild | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:48 | Women's College Volleyball Match | Arizona | ✘ | — | — | In play | — |
 | 10-03 02:44 | College Football Game | Virginia Tech | ✔ | 0:03 - 4th · PITT 35 - VT 33 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:44 | TT Elite Series Match | Oracz Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,8 @@
 | 10-03 02:30 | TT Elite Series Match | Zielinski Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:29 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:24 | Argentina Primera Division Game | Rivadavia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 02:20 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
-| 10-03 02:20 | Liga Expansion Game | Jaiba Brava | ✘ | — | — | In play | — |
+| 10-03 02:20 | Liga Expansion Game | Tie | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
+| 10-03 02:20 | Liga Expansion Game | Jaiba Brava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:17 | TT Elite Series Match | Jacek Oracz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:15 | Women's College Volleyball Match | Central Florida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 02:12 | Argentina Primera Division Game | Gimnasia La Plata | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
@@ -227,7 +229,6 @@
 | 10-03 02:07 | NWSL Game | Tie | ✔ | 90'+11' · SD 2 - ORL 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:59 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 01:59 | International Friendly Game | Tie | ✔ | 90'+3' · PAR 1 - COL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 01:59 | Women's College Volleyball Match | Houston | ✘ | — | — | In play | — |
 
 ## Raw data
 
