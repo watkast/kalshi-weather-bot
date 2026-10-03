@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 6:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 205 finished bets | 0% | -$16.75 | -54% | -8.17¢ | -$15.30 / -$1.45 |
 
-*Expect about **40 buys a day**, roughly **$6.07/day** at risk; max loss per buy **15¢**.*
+*Expect about **40 buys a day**, roughly **$6.06/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3104 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
+| 3108 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 205 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2889 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2894 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,10 +90,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1262 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1263 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
-| ITF Women's Match | ✘ | 225 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 217 | 1 | 3% | 2% | -57% | -94% | 9 min |
+| ITF Women's Match | ✘ | 226 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 147 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
@@ -109,9 +109,9 @@
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
+| Women's College Volleyball Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 30 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| Women's College Volleyball Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 30 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | WTA Tennis Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 3 min |
@@ -194,14 +194,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 00:21 | TT Elite Series Match | Karol Sulkowski | ✘ | — | — | In play | — |
-| 10-03 00:20 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
+| 10-03 00:33 | Women's College Volleyball Match | Boston College | ✘ | — | — | In play | — |
+| 10-03 00:30 | Women's College Volleyball Match | Buffalo | ✘ | — | — | In play | — |
+| 10-03 00:29 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
+| 10-03 00:27 | ITF Women's Match | Ashley Lahey | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 00:21 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:20 | Women's College Volleyball Match | Clemson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:19 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:18 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 10-03 00:10 | Brasileiro Serie B Game | CR Brasil | ✘ | — | — | In play | — |
 | 10-03 00:10 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:10 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | — | In play | — |
+| 10-03 00:10 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:06 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:04 | TT Elite Series Match | Jakub Nowak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:58 | TT Elite Series Match | Jakub Glanowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -220,10 +224,6 @@
 | 10-02 23:28 | ITF Women's Match | Chiara Di Genova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-02 23:27 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:26 | ITF Women's Match | Amelie Van Impe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:26 | TT Elite Series Match | Roman Wiza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:25 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:19 | Women's College Volleyball Match | Syracuse | ✘ | — | — | In play | — |
-| 10-02 23:13 | Darts Match | Jamie Atkins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
