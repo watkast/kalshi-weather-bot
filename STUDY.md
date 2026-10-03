@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.36/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.35/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3268 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3269 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3035 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3036 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -131,13 +131,13 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
+| Overwatch Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
-| Overwatch Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
@@ -201,7 +201,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 09:00 | Overwatch Game | T1 | ✘ | — | — | In play | — |
+| 10-03 09:16 | Dota 2 Game | Ivory | ✘ | — | — | In play | — |
+| 10-03 09:00 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:43 | Japan J2 League Game | Ventforet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -230,7 +231,6 @@
 | 10-03 06:17 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 05:21 | WTA Tennis Match | Camila Osorio | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 05:19 | Dota 2 Game | Cloud Dawning | ✘ | — | 30¢ | ❌ Lost | -$0.15 |
-| 10-03 05:16 | Women's College Volleyball Match | Southern California | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
