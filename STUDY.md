@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 5:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3283 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3284 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -201,6 +201,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 10:58 | Valorant game winner | Team Liquid | ✘ | — | — | In play | — |
 | 10-03 10:47 | Counter-Strike 2 Game | Sangal | ✘ | — | — | In play | — |
 | 10-03 10:40 | Counter-Strike 2 Game | TYLOO | ✘ | — | — | In play | — |
 | 10-03 10:27 | League of Legends Game | Shopify Rebellion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -230,7 +231,6 @@
 | 10-03 08:08 | ITF Men's Match | Herman Hoeyeraal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:53 | KBO Game | Hanwha Eagles | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 07:31 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
