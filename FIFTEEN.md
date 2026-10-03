@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 2, 10:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 2, 10:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 171 finished bets | 1% | $2.80 | +11% | +1.64¢ | $15.40 / -$12.60 |
 
-*Expect about **34 buys a day** (~$5.04/day at risk); max loss per buy **15¢**.*
+*Expect about **34 buys a day** (~$5.03/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6242 | 6236 | 23 (0%) | 1.07% | -$432.95 (-57%) | Hold to the close: -$432.95 (-57%) |
+| 6243 | 6236 | 23 (0%) | 1.07% | -$432.95 (-57%) | Hold to the close: -$432.95 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/2 10:57:10 PM | BNB | DOWN | 2.8 min | +0.090% | — | In play | — |
 | 10/2 10:44:49 PM | ETH | UP | 10 sec | -0.018% | 0¢ | ❌ Lost | $0.00 |
 | 10/2 10:44:17 PM | ZEC | DOWN | 42 sec | +0.141% | 0¢ | ❌ Lost | -$0.15 |
 | 10/2 10:44:17 PM | BTC | DOWN | 42 sec | +0.017% | 1¢ | ❌ Lost | -$0.15 |
@@ -210,7 +211,6 @@
 | 10/2 9:59:47 PM | ZEC | UP | 13 sec | +0.050% | 0¢ | ❌ Lost | $0.00 |
 | 10/2 9:59:47 PM | NATGAS | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/2 9:59:00 PM | BNB | DOWN | 59 sec | -0.004% | 0¢ | ❌ Lost | -$0.15 |
-| 10/2 9:58:44 PM | SOL | DOWN | 75 sec | +0.064% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
