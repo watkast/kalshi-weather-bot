@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 245 finished bets | 0% | -$22.75 | -62% | -9.29¢ | -$4.30 / -$18.45 |
+| ESPN-verified leagues only, hold to the end | 246 finished bets | 0% | -$22.90 | -62% | -9.31¢ | -$4.45 / -$18.45 |
 
-*Expect about **44 buys a day**, roughly **$6.64/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 245 | -$29.21 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 245 | -$29.60 | -81% |
-| ESPN-verified leagues only, sell at 50¢ | 245 | -$30.00 | -82% |
+| ESPN-verified leagues only, sell at 2¢ | 246 | -$29.36 | -80% |
+| ESPN-verified leagues only, sell at 5¢ | 246 | -$29.75 | -81% |
+| ESPN-verified leagues only, sell at 50¢ | 246 | -$30.15 | -82% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3522 | 245 | 1 (0%) | 1.1% | -$22.75 (-62%) | Hold to the end: -$22.75 (-62%) |
+| 3530 | 246 | 1 (0%) | 1.1% | -$22.90 (-62%) | Hold to the end: -$22.90 (-62%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 245 | 12% | 7% | 4% | 2% | 0% | 0% |
-| Unverified | 3254 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 246 | 12% | 7% | 4% | 2% | 0% | 0% |
+| Unverified | 3255 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$22.75 | -62% |
-| Sell at 2¢ | 29 | 12% | -$29.21 | -79% |
-| Sell at 3¢ | 16 | 7% | -$30.51 | -83% |
-| Sell at 5¢ | 11 | 4% | -$29.60 | -81% |
-| Sell at 10¢ | 5 | 2% | -$30.20 | -82% |
-| Sell at 25¢ | 1 | 0% | -$33.44 | -91% |
-| Sell at 50¢ | 1 | 0% | -$30.00 | -82% |
+| Hold to the end | 1 | 0% | -$22.90 | -62% |
+| Sell at 2¢ | 29 | 12% | -$29.36 | -80% |
+| Sell at 3¢ | 16 | 7% | -$30.66 | -83% |
+| Sell at 5¢ | 11 | 4% | -$29.75 | -81% |
+| Sell at 10¢ | 5 | 2% | -$30.35 | -82% |
+| Sell at 25¢ | 1 | 0% | -$33.59 | -91% |
+| Sell at 50¢ | 1 | 0% | -$30.15 | -82% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -107,7 +107,7 @@
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
-| International Friendly Game | partly | 27 | 0 | 4% | 0% | -100% | -94% | 12 min |
+| International Friendly Game | partly | 28 | 0 | 4% | 0% | -100% | -94% | 14 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | KHL Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
@@ -140,11 +140,11 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LaLiga 2 Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 9 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
+| Czech NBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
-| Czech NBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -193,7 +193,7 @@
 | 5–15 min | 48 | 12% | 2% | 0% | -78% |
 | 15–30 min | 42 | 26% | 10% | 2% | -55% |
 | 30–60 min | 37 | 14% | 8% | 0% | -77% |
-| Over 60 min | 25 | 8% | 8% | 0% | -86% |
+| Over 60 min | 26 | 8% | 8% | 0% | -87% |
 
 ## Speed & liquidity
 
@@ -211,13 +211,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 17:51 | Women's College Volleyball Match | Arkansas University at Little Rocks | ✘ | — | — | In play | — |
+| 10-03 17:50 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 10-03 17:49 | PREM Rugby Match | Harlequin FC | ✘ | — | — | In play | — |
+| 10-03 17:49 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-03 17:49 | Czech NBL Game | BK Gapa Hradec Kralove | ✘ | — | — | In play | — |
+| 10-03 17:47 | Slovakian 2. Liga Game | Banik Lehota | ✘ | — | — | In play | — |
+| 10-03 17:46 | Canadian Premier League | Cavalry | ✘ | — | — | In play | — |
+| 10-03 17:43 | UEFA Nations League Game | Luxembourg | ✔ | 84' · LUX 0 - EST 1 | — | In play | — |
 | 10-03 17:41 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
 | 10-03 17:40 | LNB Elite Game | Sluc Nancy Basket | ✘ | — | — | In play | — |
 | 10-03 17:39 | Copa Del Rey Game | Reg Time: Tedeon | ✘ | — | — | In play | — |
 | 10-03 17:39 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-03 17:37 | Serie A Femminile Game | Lazio | ✘ | — | — | In play | — |
 | 10-03 17:36 | UEFA Nations League Game | Tie | ✔ | 79' · BUL 0 - ISL 2 | — | In play | — |
-| 10-03 17:32 | Czech NBL Game | Srsni Pisek | ✘ | — | — | In play | — |
+| 10-03 17:32 | Czech NBL Game | Srsni Pisek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:31 | Challenger ATP  | Andres Andrade | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:31 | Serie C Game | Arzignano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:30 | ITF Men's Match | Alexander Rozin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -233,14 +241,6 @@
 | 10-03 17:20 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 17:19 | College Football Game | Middle Tennessee | ✔ | 2:23 - 2nd · MTSU 0 - KU 17 | — | In play | — |
 | 10-03 17:18 | UEFA Nations League Game | Bulgaria | ✔ | 61' · BUL 0 - ISL 1 | — | In play | — |
-| 10-03 17:17 | Serie C Game | Barletta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:13 | Czech NBL Game | BK Nova Hut Ostrava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:11 | Slovenia 1. SKL Game | Helios Domzale | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:11 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:09 | International Friendly Game | Tie | ✔ | 65' · NAM 0 - RUS 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 17:08 | College Football Game | Wagner | ✘ | — | — | In play | — |
-| 10-03 17:08 | Copa Del Rey Game | Reg Time: CD Baztan | ✘ | — | — | In play | — |
-| 10-03 17:06 | College Football Game | North Carolina | ✔ | 10:27 - 2nd · ND 21 - UNC 7 | — | In play | — |
 
 ## Raw data
 
