@@ -1,27 +1,27 @@
 # Lag Tracker
 
-*Updated Sat Oct 03 17:42 UTC. Paper money. Coin prices arrive live from Coinbase and Kraken; Kalshi's 15-minute crypto prices are checked every 0.5 seconds. When a coin move shifts the fair chance of UP by 5¢+ within 3 seconds, we time how long Kalshi takes to follow, and paper-buy the favored side if it's still 3¢+ cheap after fees.*
+*Updated Sat Oct 03 17:52 UTC. Paper money. Coin prices arrive live from Coinbase and Kraken; Kalshi's 15-minute crypto prices are checked every 0.5 seconds. When a coin move shifts the fair chance of UP by 5¢+ within 3 seconds, we time how long Kalshi takes to follow, and paper-buy the favored side if it's still 3¢+ cheap after fees.*
 
 [← Back to all bots](README.md)
 
 ## Verdict
 
-🟡 **Too early.** Collecting data — needs at least 150 paper trades before calling it.
+🟢 **There's a tradable gap.** Buying right after a price jump made money in both halves of the data (hold to the close).
 
 ## How fast does Kalshi follow?
 
 | Coin | Events | Kalshi catches up in (median) | Already moved before we could buy | Share of the move Kalshi made within 2 sec |
 |---|---|---|---|---|
-| BNB | 39 | 11.1s | 3% | 0% |
-| BTC | 23 | 10.8s | 4% | 0% |
-| DOGE | 26 | 9.5s | 4% | 0% |
-| ETH | 27 | 9.3s | 4% | 0% |
-| HYPE | 23 | 8.8s | 4% | 0% |
-| NEAR | 18 | 8.3s | 11% | 0% |
-| SOL | 53 | 5.6s | 6% | 0% |
-| XRP | 42 | 7.6s | 10% | 0% |
-| ZEC | 37 | 11.8s | 11% | 0% |
-| **All** | **288** | **9.0s** | **6%** | **0%** |
+| BNB | 48 | 11.1s | 6% | 0% |
+| BTC | 37 | 11.2s | 3% | 0% |
+| DOGE | 36 | 9.5s | 6% | 0% |
+| ETH | 40 | 9.6s | 2% | 0% |
+| HYPE | 29 | 10.6s | 3% | 0% |
+| NEAR | 22 | 8.9s | 9% | 0% |
+| SOL | 67 | 6.1s | 6% | 0% |
+| XRP | 61 | 7.7s | 13% | 0% |
+| ZEC | 56 | 9.9s | 7% | 0% |
+| **All** | **396** | **9.2s** | **7%** | **0%** |
 
 *"Catches up" = Kalshi's price moved at least half as far as our fair value did. "Already moved" = that had happened by the first Kalshi price we saw after the jump — those are moves the pros beat us to. Kalshi is checked every 0.5 seconds, so 0.5s is the fastest we can measure.*
 
@@ -29,9 +29,9 @@
 
 | Exit | Trades | Won | P&L | Return | Earlier / later half |
 |---|---|---|---|---|---|
-| Sell after 10 sec | 161 | 58 | $-8.00 | -1.2% | $-9.90 / $1.90 |
-| Sell after 30 sec | 158 | 111 | $87.07 | +13.7% | $33.71 / $53.36 |
-| Hold to the close | 91 | 47 | $117.36 | +33.3% | $-68.79 / $186.15 |
+| Sell after 10 sec | 208 | 74 | $-10.95 | -1.3% | $-4.26 / $-6.69 |
+| Sell after 30 sec | 207 | 141 | $110.59 | +13.1% | $56.92 / $53.67 |
+| Hold to the close | 166 | 82 | $159.60 | +24.2% | $101.63 / $57.97 |
 
 *Same buys scored three ways. 10 contracts at Kalshi's quoted ask (a little optimistic — order-book depth isn't checked).*
 
@@ -43,33 +43,33 @@ Kalshi price check round trip: **30 ms** · Coinbase price delay: **34 ms**
 
 | Time (UTC) | Coin | Move | Fair | Kalshi before → at entry → 5s | Caught up | Trade | P&L (10s / 30s / close) |
 |---|---|---|---|---|---|---|---|
-| 10-03 17:41:58 | ZEC | down | 0.18→0.12 | 0.03 → 0.05 → 0.05 | no | — |  |
-| 10-03 17:41:57 | XRP | down | 0.29→0.23 | 0.20 → 0.20 → 0.23 | no | — |  |
-| 10-03 17:41:54 | DOGE | up | 0.01→0.07 | 0.04 → 0.04 → 0.06 | no | — |  |
-| 10-03 17:41:41 | ZEC | up | 0.09→0.16 | 0.03 → 0.03 → 0.03 | no | — |  |
-| 10-03 17:41:37 | XRP | up | 0.16→0.21 | 0.16 → 0.16 → 0.16 | 5.31s | UP @ 0.17 | -0.01 / · / · |
-| 10-03 17:41:37 | BTC | up | 0.90→0.97 | 0.88 → 0.88 → 0.88 | 20.56s | UP @ 0.88 | -0.16 / · / · |
-| 10-03 17:41:37 | ETH | up | 0.76→0.84 | 0.59 → 0.59 → 0.59 | 5.56s | UP @ 0.60 | 2.55 / · / · |
-| 10-03 17:41:32 | BNB | down | 0.66→0.56 | 0.81 → 0.81 → 0.81 | 10.81s | DOWN @ 0.22 | -0.73 / -0.92 / · |
-| 10-03 17:41:19 | BTC | down | 0.95→0.89 | 0.93 → 0.93 → 0.93 | 9.06s | DOWN @ 0.07 | 0.35 / 0.26 / · |
-| 10-03 17:41:18 | XRP | down | 0.23→0.14 | 0.18 → 0.18 → 0.18 | no | DOWN @ 0.82 | -0.11 / -0.64 / · |
-| 10-03 17:41:14 | ZEC | up | 0.13→0.19 | 0.06 → 0.06 → 0.06 | no | UP @ 0.07 | -0.24 / -0.52 / · |
-| 10-03 17:41:12 | BNB | up | 0.62→0.69 | 0.75 → 0.75 → 0.74 | 16.06s | — |  |
-| 10-03 17:41:02 | DOGE | down | 0.15→0.08 | 0.12 → 0.12 → 0.12 | 10.31s | DOWN @ 0.88 | -0.26 / 0.75 / · |
-| 10-03 17:41:01 | ETH | down | 0.82→0.75 | 0.81 → 0.81 → 0.81 | 11.81s | DOWN @ 0.20 | -0.33 / 1.71 / · |
-| 10-03 17:41:00 | BTC | down | 0.96→0.90 | 0.95 → 0.95 → 0.95 | 28.07s | — |  |
-| 10-03 17:40:59 | ZEC | down | 0.26→0.17 | 0.12 → 0.11 → 0.11 | 13.31s | — |  |
-| 10-03 17:40:48 | XRP | up | 0.30→0.35 | 0.29 → 0.29 → 0.29 | no | — |  |
-| 10-03 17:40:38 | ETH | up | 0.67→0.74 | 0.59 → 0.59 → 0.59 | 5.06s | UP @ 0.60 | 0.99 / 1.71 / · |
-| 10-03 17:40:36 | ZEC | up | 0.22→0.31 | 0.14 → 0.14 → 0.14 | no | — |  |
-| 10-03 17:40:33 | XRP | up | 0.28→0.33 | 0.22 → 0.22 → 0.22 | 9.31s | UP @ 0.23 | 0.22 / 0.13 / · |
-| 10-03 17:40:32 | BNB | up | 0.49→0.60 | 0.64 → 0.64 → 0.64 | 25.31s | — |  |
-| 10-03 17:40:32 | HYPE | up | 0.74→0.85 | 0.86 → 0.86 → 0.86 | no | — |  |
-| 10-03 17:40:31 | BTC | up | 0.74→0.83 | 0.74 → 0.74 → 0.74 | 11.81s | UP @ 0.75 | -0.38 / 1.83 / · |
-| 10-03 17:40:18 | XRP | down | 0.28→0.23 | 0.24 → 0.24 → 0.24 | no | — |  |
-| 10-03 17:40:15 | BNB | down | 0.57→0.49 | 0.64 → 0.64 → 0.64 | no | DOWN @ 0.37 | -0.53 / -0.92 / · |
-| 10-03 17:40:14 | ZEC | down | 0.32→0.25 | 0.20 → 0.14 → 0.14 | 0.27s | — |  |
-| 10-03 17:40:02 | XRP | down | 0.34→0.29 | 0.30 → 0.30 → 0.30 | 10.31s | — |  |
-| 10-03 17:40:01 | ETH | down | 0.66→0.60 | 0.61 → 0.61 → 0.61 | 11.81s | — |  |
-| 10-03 17:40:00 | BNB | down | 0.52→0.46 | 0.52 → 0.52 → 0.52 | no | DOWN @ 0.49 | -0.56 / -1.84 / · |
-| 10-03 17:39:47 | XRP | down | 0.37→0.32 | 0.30 → 0.30 → 0.30 | 25.31s | — |  |
+| 10-03 17:52:07 | XRP | up | 0.37→0.42 | 0.47 → 0.47 → — | no | — |  |
+| 10-03 17:52:05 | ZEC | down | 0.68→0.62 | 0.74 → 0.74 → — | 3.35s | DOWN @ 0.26 | · / · / · |
+| 10-03 17:52:01 | BTC | down | 0.59→0.50 | 0.54 → 0.54 → 0.54 | no | — |  |
+| 10-03 17:51:50 | ZEC | down | 0.76→0.70 | 0.58 → 0.58 → 0.74 | no | — |  |
+| 10-03 17:51:49 | SOL | down | 0.35→0.29 | 0.26 → 0.26 → 0.26 | no | — |  |
+| 10-03 17:51:47 | XRP | down | 0.44→0.38 | 0.33 → 0.33 → 0.33 | no | — |  |
+| 10-03 17:51:45 | DOGE | up | 0.47→0.60 | 0.60 → 0.60 → 0.60 | no | — |  |
+| 10-03 17:51:42 | BTC | up | 0.53→0.59 | 0.46 → 0.46 → 0.46 | 11.87s | UP @ 0.46 | -0.46 / · / · |
+| 10-03 17:51:37 | ETH | up | 0.79→0.85 | 0.81 → 0.81 → 0.77 | 16.63s | — |  |
+| 10-03 17:51:34 | HYPE | down | 0.69→0.54 | 0.81 → 0.81 → 0.78 | no | DOWN @ 0.20 | -0.14 / -0.05 / · |
+| 10-03 17:51:32 | SOL | down | 0.30→0.25 | 0.35 → 0.35 → 0.35 | 6.61s | DOWN @ 0.66 | 0.50 / -0.12 / · |
+| 10-03 17:51:31 | ZEC | down | 0.62→0.55 | 0.58 → 0.58 → 0.58 | no | — |  |
+| 10-03 17:51:26 | BTC | down | 0.59→0.47 | 0.57 → 0.57 → 0.57 | 13.11s | DOWN @ 0.43 | -0.46 / -0.06 / · |
+| 10-03 17:51:26 | DOGE | down | 0.59→0.54 | 0.68 → 0.68 → 0.68 | 13.11s | DOWN @ 0.33 | -0.42 / 0.07 / · |
+| 10-03 17:51:26 | XRP | down | 0.44→0.35 | 0.53 → 0.41 → 0.41 | 0.07s | DOWN @ 0.60 | -0.44 / -1.05 / · |
+| 10-03 17:51:19 | HYPE | up | 0.71→0.76 | 0.79 → 0.79 → 0.81 | no | — |  |
+| 10-03 17:51:16 | ZEC | up | 0.62→0.68 | 0.48 → 0.48 → 0.48 | 8.11s | UP @ 0.49 | 0.54 / 0.54 / · |
+| 10-03 17:51:14 | SOL | down | 0.44→0.36 | 0.43 → 0.43 → 0.43 | 9.86s | DOWN @ 0.57 | 0.25 / 1.38 / · |
+| 10-03 17:51:14 | NEAR | down | 0.30→0.22 | 0.28 → 0.28 → 0.28 | 25.12s | DOWN @ 0.73 | -0.39 / 0.34 / · |
+| 10-03 17:51:08 | BTC | down | 0.65→0.59 | 0.59 → 0.59 → 0.65 | no | — |  |
+| 10-03 17:51:06 | XRP | up | 0.42→0.48 | 0.41 → 0.41 → 0.53 | 2.36s | UP @ 0.42 | 0.64 / -0.55 / · |
+| 10-03 17:51:00 | ZEC | up | 0.44→0.54 | 0.27 → 0.27 → 0.27 | 9.12s | UP @ 0.27 | 1.78 / 2.78 / · |
+| 10-03 17:50:53 | HYPE | up | 0.61→0.70 | 0.69 → 0.69 → 0.70 | 15.87s | — |  |
+| 10-03 17:50:52 | SOL | down | 0.42→0.36 | 0.43 → 0.43 → 0.41 | no | DOWN @ 0.58 | -0.46 / -0.56 / · |
+| 10-03 17:50:51 | XRP | up | 0.37→0.42 | 0.43 → 0.43 → 0.41 | 17.37s | — |  |
+| 10-03 17:50:48 | BTC | down | 0.64→0.58 | 0.57 → 0.57 → 0.57 | no | — |  |
+| 10-03 17:50:48 | DOGE | down | 0.63→0.54 | 0.73 → 0.73 → 0.73 | no | DOWN @ 0.27 | -0.28 / 0.01 / · |
+| 10-03 17:50:45 | ZEC | down | 0.30→0.24 | 0.16 → 0.16 → 0.16 | no | — |  |
+| 10-03 17:50:37 | SOL | down | 0.53→0.47 | 0.26 → 0.26 → 0.43 | no | — |  |
+| 10-03 17:50:36 | XRP | down | 0.54→0.48 | 0.23 → 0.23 → 0.43 | no | — |  |
