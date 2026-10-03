@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
 
-*Expect about **42 buys a day**, roughly **$6.24/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3398 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
+| 3400 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3146 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3147 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 233 | 1 | 3% | 2% | -60% | -95% | 9 min |
-| ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 232 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 153 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -208,6 +208,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 15:18 | English National League Game | Hornchurch | ✘ | — | — | In play | — |
+| 10-03 15:10 | ITF Women's Match | Sada Nahimana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:01 | English National League Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:59 | Challenger ATP  | Matthew William Donald | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 14:58 | ITF Men's Match | Max Houkes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -236,8 +238,6 @@
 | 10-03 14:43 | LKL Lithuania Game | BC Nevezis Kedainiai | ✘ | — | — | In play | — |
 | 10-03 14:43 | Challenger WTA | Erika Andreeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:41 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:40 | Slovakian 2. Liga Game | MFk Bytca | ✘ | — | — | In play | — |
-| 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
