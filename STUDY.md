@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3489 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
+| 3497 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3227 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3234 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -132,6 +132,7 @@
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
+| Rugby French 14 Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Uruguay Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 12 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -158,10 +159,10 @@
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Serie A Femminile Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Rugby French 14 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | Bundesliga Basketball Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 13 min |
 | Turkey BSL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| Adriatic ABA Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -173,7 +174,6 @@
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Canadian Premier League | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 18 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Adriatic ABA Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
@@ -211,11 +211,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 17:11 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
+| 10-03 17:09 | International Friendly Game | Tie | ✔ | 65' · NAM 0 - RUS 2 | — | In play | — |
+| 10-03 17:08 | College Football Game | Wagner | ✘ | — | — | In play | — |
+| 10-03 17:08 | Copa Del Rey Game | Reg Time: CD Baztan | ✘ | — | — | In play | — |
+| 10-03 17:06 | College Football Game | North Carolina | ✔ | 10:27 - 2nd · ND 21 - UNC 7 | — | In play | — |
+| 10-03 17:05 | Adriatic ABA Game | BC Vienna | ✘ | — | — | In play | — |
+| 10-03 17:04 | UEFA Nations League Game | San Marino | ✔ | 46' · SMR 0 - BLR 0 | — | In play | — |
+| 10-03 17:02 | Turkey BSL Game | Petkim Spor Aliaga | ✘ | — | — | In play | — |
 | 10-03 16:59 | Adriatic ABA Game | BC Slovan Bratislava | ✘ | — | — | In play | — |
 | 10-03 16:59 | Counter-Strike 2 Game | Luminosity | ✘ | — | — | In play | — |
 | 10-03 16:58 | Serie C Game | Grosseto | ✘ | — | — | In play | — |
 | 10-03 16:57 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
-| 10-03 16:49 | Adriatic ABA Game | KK Cibona | ✘ | — | — | In play | — |
+| 10-03 16:49 | Adriatic ABA Game | KK Cibona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:45 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:44 | Liiga Game | Vaasan Sport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:43 | UEFA Nations League Game | Tie | ✔ | 42' · ENG 3 - CRO 0 | — | In play | — |
@@ -231,16 +239,8 @@
 | 10-03 16:30 | KHL Game | Admiral Vladivostok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:29 | Liiga Game | Lukko Rauma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:28 | College Football Game | Charlotte | ✔ | 2:00 - 2nd · MEM 21 - CLT 0 | — | In play | — |
-| 10-03 16:27 | Rugby French 14 Match | RC Vannes | ✘ | — | — | In play | — |
-| 10-03 16:27 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
-| 10-03 16:26 | Liiga Game | Oulun Karpat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:25 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
-| 10-03 16:25 | KHL Game | Kunlun Red Star | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:25 | International Friendly Game | Namibia | ✔ | 41' · NAM 0 - RUS 1 | — | In play | — |
-| 10-03 16:25 | Rugby French 14 Match | ASM Clermont Auvergne | ✘ | — | — | In play | — |
-| 10-03 16:25 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
-| 10-03 16:24 | Rugby French 14 Match | Stade Francais Paris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:24 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:27 | Rugby French 14 Match | RC Vannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:27 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
