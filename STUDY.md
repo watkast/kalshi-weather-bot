@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **43 buys a day**, roughly **$6.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3485 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
+| 3489 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
 *In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3223 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3227 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,8 +92,8 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 235 | 1 | 3% | 3% | -60% | -94% | 9 min |
-| ITF Women's Match | ✘ | 232 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 236 | 1 | 3% | 3% | -60% | -94% | 9 min |
+| ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 154 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -110,15 +110,15 @@
 | International Friendly Game | partly | 26 | 0 | 4% | 0% | -100% | -93% | 12 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| KHL Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 5 min |
+| KHL Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
-| Liiga Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
@@ -211,14 +211,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 16:59 | Adriatic ABA Game | BC Slovan Bratislava | ✘ | — | — | In play | — |
+| 10-03 16:59 | Counter-Strike 2 Game | Luminosity | ✘ | — | — | In play | — |
+| 10-03 16:58 | Serie C Game | Grosseto | ✘ | — | — | In play | — |
+| 10-03 16:57 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
 | 10-03 16:49 | Adriatic ABA Game | KK Cibona | ✘ | — | — | In play | — |
-| 10-03 16:45 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | — | In play | — |
-| 10-03 16:44 | Liiga Game | Vaasan Sport | ✘ | — | — | In play | — |
+| 10-03 16:45 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:44 | Liiga Game | Vaasan Sport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:43 | UEFA Nations League Game | Tie | ✔ | 42' · ENG 3 - CRO 0 | — | In play | — |
-| 10-03 16:42 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | — | In play | — |
+| 10-03 16:42 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:40 | UEFA Nations League Game | Croatia | ✔ | 38' · ENG 2 - CRO 0 | — | In play | — |
 | 10-03 16:40 | Dota 2 Game | GamerLegion | ✘ | — | — | In play | — |
-| 10-03 16:40 | ITF Women's Match | Salma Djoubri | ✘ | — | — | In play | — |
+| 10-03 16:40 | ITF Women's Match | Salma Djoubri | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 16:36 | Liiga Game | KooKoo Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:34 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:33 | Eerste Divisie Game | Breda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -237,10 +241,6 @@
 | 10-03 16:25 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
 | 10-03 16:24 | Rugby French 14 Match | Stade Francais Paris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:24 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:24 | Liiga Game | JYP Jyvaskyla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 16:23 | Eerste Divisie Game | Vitesse | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 10-03 16:22 | Bundesliga Basketball Game | Hamburg Towers | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-03 16:20 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
 
 ## Raw data
 
