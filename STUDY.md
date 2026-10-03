@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 1:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3256 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3257 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3021 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3022 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -115,7 +115,7 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
-| KBO Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 4 min |
+| KBO Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 5 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
@@ -201,9 +201,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 08:08 | ITF Men's Match | Herman Hoeyeraal | ✘ | — | — | In play | — |
 | 10-03 07:53 | KBO Game | Hanwha Eagles | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 07:31 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
+| 10-03 07:31 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:30 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:24 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:10 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -230,7 +231,6 @@
 | 10-03 04:34 | ITF Men's Match | Ryuki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:18 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
