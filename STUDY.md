@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
 
-*Expect about **42 buys a day**, roughly **$6.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.27/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3400 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
+| 3407 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3147 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3149 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,7 +102,7 @@
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 43 min |
-| Dota 2 Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 30 min |
+| Dota 2 Game | ✘ | 38 | 0 | 3% | 3% | -100% | -95% | 29 min |
 | Men's T20 Cricket Match | ✘ | 36 | 0 | 19% | 8% | -100% | -66% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -134,9 +134,9 @@
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
+| Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
-| Women's ODI Cricket Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | Finland Korisliiga Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
@@ -208,6 +208,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 15:27 | EFL League One Game | Burton | ✔ | 69' · HUD 3 - BRT 1 | — | In play | — |
+| 10-03 15:24 | SHL Game | Timra IK | ✘ | — | — | In play | — |
+| 10-03 15:24 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:24 | English National League Game | Solihull | ✘ | — | — | In play | — |
+| 10-03 15:23 | English National League Game | Fylde | ✘ | — | — | In play | — |
+| 10-03 15:22 | EFL League One Game | Leyton Orient | ✔ | 64' · PLY 2 - LEY 0 | — | In play | — |
+| 10-03 15:19 | English National League Game | Aldershot | ✘ | — | — | In play | — |
 | 10-03 15:18 | English National League Game | Hornchurch | ✘ | — | — | In play | — |
 | 10-03 15:10 | ITF Women's Match | Sada Nahimana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:01 | English National League Game | Tie | ✘ | — | — | In play | — |
@@ -216,7 +223,7 @@
 | 10-03 14:57 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:56 | Tweede Divisie Game | Katwijk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+5' · ALB 1 - FIN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:55 | Dota 2 Game | Aurora | ✘ | — | — | In play | — |
+| 10-03 14:55 | Dota 2 Game | Aurora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:54 | Tweede Divisie Game | Rohda Raalte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:54 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -231,13 +238,6 @@
 | 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:47 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:45 | Slovakian 2. Liga Game | Slovan Galanta | ✘ | — | — | In play | — |
-| 10-03 14:45 | Slovakian 2. Liga Game | Inter Bratislava | ✘ | — | — | In play | — |
-| 10-03 14:45 | English National League Game | Boston | ✘ | — | — | In play | — |
-| 10-03 14:45 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:44 | International Friendly Game | Tie | ✔ | 41' · BRA 1 - IND 0 | — | In play | — |
-| 10-03 14:43 | LKL Lithuania Game | BC Nevezis Kedainiai | ✘ | — | — | In play | — |
-| 10-03 14:43 | Challenger WTA | Erika Andreeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:41 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
