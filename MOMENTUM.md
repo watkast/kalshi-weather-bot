@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sat Oct 03 19:07 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sat Oct 03 19:17 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 754 | 649 | 105 (2) | 0 | $-69.58 | -1.5% |
-| **20¢+ jump, ride past +5¢** | 488 | 264 | 224 (91) | 1 | $-271.30 | -8.6% |
+| **20¢+ jump, sell +5¢** | 754 | 649 | 105 (2) | 1 | $-69.58 | -1.5% |
+| **20¢+ jump, ride past +5¢** | 489 | 265 | 224 (91) | 1 | $-268.16 | -8.5% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 19:04 | J20R | ZEC | UP | 28¢ | 0.53 | open |  |
+| 10-03 19:16 | J20R | BNB | UP | 38¢ | 0.85 | open |  |
+| 10-03 19:16 | J20 | BNB | UP | 38¢ | 0.85 | open |  |
+| 10-03 19:04 | J20R | ZEC | UP | 28¢ | 0.53 | 0.87 | 3.14 |
 | 10-03 19:04 | J20 | ZEC | UP | 28¢ | 0.53 | 0.71 | 1.47 |
 | 10-03 19:04 | J20 | NEAR | UP | 27¢ | 0.22 | 0.32 | 0.71 |
 | 10-03 19:04 | J20 | NEAR | UP | 27¢ | 0.26 | 0.38 | 0.93 |
@@ -56,5 +58,3 @@
 | 10-03 18:39 | J20 | NEAR | UP | 20¢ | 0.80 | 0.87 | 0.50 |
 | 10-03 18:38 | J20 | SOL | UP | 24¢ | 0.68 | 0.74 | 0.30 |
 | 10-03 18:38 | J20R | SOL | UP | 24¢ | 0.67 | yes | 3.14 |
-| 10-03 18:37 | J20R | XRP | UP | 42¢ | 0.71 | yes | 2.70 |
-| 10-03 18:37 | J20 | XRP | UP | 42¢ | 0.71 | 0.80 | 0.58 |
