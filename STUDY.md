@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 6:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 6:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3108 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
+| 3114 | 205 | 1 (0%) | 1.1% | -$16.75 (-54%) | Hold to the end: -$16.75 (-54%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 205 | 13% | 8% | 5% | 2% | 0% | 0% |
-| Unverified | 2894 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 2902 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -90,7 +90,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| TT Elite Series Match | ✘ | 1263 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| TT Elite Series Match | ✘ | 1266 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 239 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 226 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
@@ -108,8 +108,8 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | International Friendly Game | partly | 22 | 0 | 5% | 0% | -100% | -92% | 12 min |
+| Women's College Volleyball Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 28 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
-| Women's College Volleyball Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 30 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | NHL Game | ✔ | 16 | 0 | 19% | 6% | -100% | -68% | 6 min |
@@ -120,8 +120,8 @@
 | KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liga DIMAYOR Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| Brasileiro Serie B Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Brasileiro Serie B Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
@@ -166,6 +166,7 @@
 | Eerste Divisie Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | -0 min |
 | Argentina Primera Division Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
+| Turkey BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 382 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 
 ## By time left when it hit 1¢
@@ -194,15 +195,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 00:33 | Women's College Volleyball Match | Boston College | ✘ | — | — | In play | — |
-| 10-03 00:30 | Women's College Volleyball Match | Buffalo | ✘ | — | — | In play | — |
+| 10-03 00:45 | TT Elite Series Match | Dawid Poloszczanski | ✘ | — | — | In play | — |
+| 10-03 00:42 | Chile Liga de Primera Game | U de Concepcion | ✘ | — | — | In play | — |
+| 10-03 00:37 | Women's College Volleyball Match | Duke | ✘ | — | — | In play | — |
+| 10-03 00:37 | TT Elite Series Match | Jakub Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:36 | TT Elite Series Match | Krzysztof Malcher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:36 | TT Elite Series Match | Gracjan Kesic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:33 | Women's College Volleyball Match | Boston College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:30 | Women's College Volleyball Match | Buffalo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:29 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
 | 10-03 00:27 | ITF Women's Match | Ashley Lahey | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 00:21 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:20 | Women's College Volleyball Match | Clemson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:19 | TT Elite Series Match | Grzegorz Sawicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 00:18 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 10-03 00:10 | Brasileiro Serie B Game | CR Brasil | ✘ | — | — | In play | — |
+| 10-03 00:18 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 00:10 | Brasileiro Serie B Game | CR Brasil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Szymon Brud | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | TT Elite Series Match | Wozniczka Marcin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 00:10 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -218,12 +225,6 @@
 | 10-02 23:41 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:39 | Argentina Primera Division Game | Independiente Avellaneda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-02 23:32 | TT Elite Series Match | Mariusz Baron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:31 | Darts Match | Gemma Hayter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:31 | Women's College Volleyball Match | North Carolina State | ✘ | — | — | In play | — |
-| 10-02 23:30 | TT Elite Series Match | Karol Sulkowski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:28 | ITF Women's Match | Chiara Di Genova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-02 23:27 | TT Elite Series Match | Makajew Maciej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-02 23:26 | ITF Women's Match | Amelie Van Impe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
