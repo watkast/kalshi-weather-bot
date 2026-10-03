@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 3:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 3:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3273 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3278 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3037 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3040 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 | Counter-Strike 2 Game | ✘ | 219 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
-| League of Legends Game | ✘ | 79 | 0 | 8% | 3% | -100% | -87% | 12 min |
+| League of Legends Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
+| Dota 2 Game | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | Men's T20 Cricket Match | ✘ | 34 | 0 | 21% | 9% | -100% | -64% | 21 min |
-| Dota 2 Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 29 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -138,6 +138,7 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's ODI Cricket Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 38 min |
+| Australia NBL Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 13 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
@@ -145,7 +146,6 @@
 | Japan J2 League Game | ✘ | 6 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
-| Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
 | Slovakia SBL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | College Football Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 24 min |
 | LaLiga 2 Game | ✔ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
@@ -201,11 +201,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 09:41 | League of Legends Game | FlyQuest | ✘ | — | — | In play | — |
-| 10-03 09:40 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
+| 10-03 09:58 | ITF Women's Match | Sapfo Sakellaridi | ✘ | — | — | In play | — |
+| 10-03 09:54 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 09:53 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 09:51 | Japan J2 League Game | Tochigi City FC | ✘ | — | — | In play | — |
+| 10-03 09:51 | Japan J2 League Game | Montedio | ✘ | — | — | In play | — |
+| 10-03 09:41 | League of Legends Game | FlyQuest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 09:40 | Australia NBL Game | Brisbane Bullets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:39 | Overwatch Game | O2 Blast | ✘ | — | — | In play | — |
 | 10-03 09:29 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 09:16 | Dota 2 Game | Ivory | ✘ | — | — | In play | — |
+| 10-03 09:16 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 09:00 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -226,11 +231,6 @@
 | 10-03 07:10 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:09 | TT Star Series Match | Fuchs Michael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:01 | Japan J2 League Game | Fujieda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 06:57 | Japan J2 League Game | Shonan | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-03 06:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 06:55 | Challenger WTA | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 06:54 | Men's T20 Cricket Match | Pakistan | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-03 06:44 | Japan J2 League Game | Vortis | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
