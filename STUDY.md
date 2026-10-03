@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 234 finished bets | 0% | -$21.10 | -60% | -9.02¢ | -$3.55 / -$17.55 |
 
-*Expect about **42 buys a day**, roughly **$6.26/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.31/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3409 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
+| 3426 | 234 | 1 (0%) | 1.1% | -$21.10 (-60%) | Hold to the end: -$21.10 (-60%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 234 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3150 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3153 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 | ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 233 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 232 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 153 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 154 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 74 | 0 | 8% | 3% | -100% | -86% | 6 min |
@@ -124,9 +124,9 @@
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| SHL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
-| SHL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
@@ -208,8 +208,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 15:33 | Challenger ATP  | Henry Bernet | ✘ | — | — | In play | — |
-| 10-03 15:32 | SHL Game | Brynas IF | ✘ | — | — | In play | — |
+| 10-03 15:48 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:48 | Ettan Game | Jonkopings Sodra | ✘ | — | — | In play | — |
+| 10-03 15:47 | United Rugby Championship Match | Scarlets | ✘ | — | — | In play | — |
+| 10-03 15:47 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:46 | English National League Game | Hartlepool | ✘ | — | — | In play | — |
+| 10-03 15:46 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:46 | English National League Game | Eastleigh | ✘ | — | — | In play | — |
+| 10-03 15:45 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 15:45 | EFL League One Game | Tie | ✔ | 87' · PLY 2 - LEY 0 | — | In play | — |
+| 10-03 15:43 | English National League Game | Gateshead | ✘ | — | — | In play | — |
+| 10-03 15:43 | English National League Game | Sutton | ✘ | — | — | In play | — |
+| 10-03 15:42 | EFL League One Game | Tie | ✔ | 85' · HUD 3 - BRT 1 | — | In play | — |
+| 10-03 15:42 | Uruguay Primera Division Game | Progreso | ✘ | — | — | In play | — |
+| 10-03 15:41 | SHL Game | Rogle BK | ✘ | — | — | In play | — |
+| 10-03 15:39 | English National League Game | Altrincham | ✘ | — | — | In play | — |
+| 10-03 15:39 | Counter-Strike 2 Game | 9z | ✘ | — | — | In play | — |
+| 10-03 15:39 | SHL Game | Djurgardens IF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 15:33 | Challenger ATP  | Henry Bernet | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 15:32 | SHL Game | Brynas IF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:27 | EFL League One Game | Burton | ✔ | 69' · HUD 3 - BRT 1 | — | In play | — |
 | 10-03 15:24 | SHL Game | Timra IK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:24 | English National League Game | Tie | ✘ | — | — | In play | — |
@@ -221,23 +238,6 @@
 | 10-03 15:10 | ITF Women's Match | Sada Nahimana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:01 | English National League Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:59 | Challenger ATP  | Matthew William Donald | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 14:58 | ITF Men's Match | Max Houkes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:57 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:56 | Tweede Divisie Game | Katwijk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+5' · ALB 1 - FIN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:55 | Dota 2 Game | Aurora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Tweede Divisie Game | Rohda Raalte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Tweede Divisie Game | Jong Sparta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:53 | Ettan Game | FBK Karlstad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:53 | Ettan Game | Eskilstuna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:50 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
-| 10-03 14:50 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:49 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
