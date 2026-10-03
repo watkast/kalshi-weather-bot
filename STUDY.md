@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 284 finished bets | 0% | -$28.60 | -67% | -10.07¢ | -$7.30 / -$21.30 |
 
-*Expect about **49 buys a day**, roughly **$7.40/day** at risk; max loss per buy **15¢**.*
+*Expect about **49 buys a day**, roughly **$7.41/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3712 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
+| 3714 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 284 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3395 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3396 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -132,7 +132,7 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
 | Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
-| Valorant game winner | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 13 min |
+| Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
@@ -218,6 +218,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 22:39 | Uruguay Primera Division Game | Central Espanol | ✘ | — | — | In play | — |
+| 10-03 22:30 | Professional Baseball Game | Atlanta | ✔ | Top 8th · ATL 1 - LAD 5 | — | In play | — |
 | 10-03 22:28 | College Football Game | Delaware St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Chicago St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
@@ -234,7 +236,7 @@
 | 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | — | In play | — |
 | 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | — | In play | — |
 | 10-03 21:59 | College Football Game | Hampton | ✘ | — | — | In play | — |
-| 10-03 21:56 | Valorant game winner | Eternal Fire | ✘ | — | — | In play | — |
+| 10-03 21:56 | Valorant game winner | Eternal Fire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Santa Cruz FC PE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Floresta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Maringa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,8 +248,6 @@
 | 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
 | 10-03 21:46 | Canadian Premier League | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 10-03 21:45 | Brasileiro Serie C Game | Botafogo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:45 | College Football Game | Akron | ✔ | 3:29 - 3rd · AKR 10 - CMU 35 | — | In play | — |
-| 10-03 21:44 | Canadian Premier League | HFX | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
