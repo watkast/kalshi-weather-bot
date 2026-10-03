@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 273 finished bets | 0% | -$26.95 | -66% | -9.87¢ | -$6.40 / -$20.55 |
 
-*Expect about **47 buys a day**, roughly **$7.05/day** at risk; max loss per buy **15¢**.*
+*Expect about **47 buys a day**, roughly **$7.07/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3642 | 273 | 1 (0%) | 1.1% | -$26.95 (-66%) | Hold to the end: -$26.95 (-66%) |
+| 3649 | 273 | 1 (0%) | 1.1% | -$26.95 (-66%) | Hold to the end: -$26.95 (-66%) |
 
-*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 273 | 12% | 6% | 4% | 2% | 0% | 0% |
-| Unverified | 3325 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3336 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 249 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 243 | 1 | 3% | 2% | -62% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 245 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 233 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 157 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
@@ -113,16 +113,16 @@
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Serie C Game | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 5 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | College Football Game | partly | 21 | 0 | 19% | 10% | -100% | -67% | 26 min |
 | Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
+| National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
-| National League Game | ✘ | 19 | 1 | 5% | 5% | +391% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Serie C Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 5 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -130,10 +130,10 @@
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
 | Valorant game winner | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Slovakian 2. Liga Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 109 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Eerste Divisie Game | ✘ | 12 | 0 | 17% | 17% | -100% | -71% | 2 min |
 | Uruguay Primera Division Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 12 min |
 | Argentine Nacional B Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
@@ -185,6 +185,7 @@
 | CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | England Women's Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | PREM Rugby Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| Italy Serie A2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -217,11 +218,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 20:16 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 20:26 | Serie C Game | Crotone | ✘ | — | — | In play | — |
+| 10-03 20:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 20:21 | Serie C Game | Folgore Caratese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 20:21 | Serie C Game | Renate | ✘ | — | — | In play | — |
+| 10-03 20:21 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 20:20 | UEFA Nations League Game | Slovenia | ✔ | 76' · SVN 1 - SUI 2 | — | In play | — |
+| 10-03 20:17 | LNB Elite Game | Elan Chalon | ✘ | — | — | In play | — |
+| 10-03 20:16 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:14 | UEFA Nations League Game | Tie | ✔ | 70' · SCO 1 - MKD 0 | — | In play | — |
 | 10-03 20:14 | College Football Game | Murray St. | ✘ | — | — | In play | — |
 | 10-03 20:14 | College Football Game | Penn | ✘ | — | — | In play | — |
-| 10-03 20:13 | National League Game | SC Bern | ✘ | — | — | In play | — |
+| 10-03 20:13 | National League Game | SC Bern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 20:13 | College Football Game | Indiana St. | ✘ | — | — | In play | — |
 | 10-03 20:12 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
 | 10-03 20:11 | College Football Game | Towson | ✘ | — | — | In play | — |
@@ -240,13 +248,6 @@
 | 10-03 19:58 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 19:58 | National League Game | HC Lausanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 19:57 | College Football Game | Mississippi Valley St. | ✘ | — | — | In play | — |
-| 10-03 19:57 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:57 | Serie C Game | Carpi | ✘ | — | — | In play | — |
-| 10-03 19:56 | Argentine Nacional B Game | Tristan Suarez | ✘ | — | — | In play | — |
-| 10-03 19:56 | Argentine Nacional B Game | Quilmes | ✘ | — | — | In play | — |
-| 10-03 19:55 | National League Game | HC Davos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 19:55 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 3 - CLE 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 19:54 | Italy Serie A2 Game | Basket Mestre 1958 | ✘ | — | — | In play | — |
 
 ## Raw data
 
