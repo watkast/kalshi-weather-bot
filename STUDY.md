@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 1:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **43 buys a day**, roughly **$6.43/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.42/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 3255 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3019 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3020 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -105,7 +105,7 @@
 | Dota 2 Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 29 min |
 | Men's T20 Cricket Match | ✘ | 33 | 0 | 18% | 6% | -100% | -68% | 20 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Challenger WTA | ✘ | 26 | 0 | 15% | 12% | -100% | -73% | 10 min |
+| Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
@@ -201,7 +201,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | — | In play | — |
+| 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:31 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
 | 10-03 07:30 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:24 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
