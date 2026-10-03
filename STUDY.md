@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
-*Expect about **41 buys a day**, roughly **$6.22/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3380 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3396 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 232 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3131 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3134 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -117,20 +117,20 @@
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
+| Ettan Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 7 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Ettan Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Tweede Divisie Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | SHL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
-| Tweede Divisie Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Serie C Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
@@ -208,7 +208,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | — | In play | — |
+| 10-03 14:58 | ITF Men's Match | Max Houkes | ✘ | — | — | In play | — |
+| 10-03 14:57 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:56 | Tweede Divisie Game | Katwijk | ✘ | — | — | In play | — |
+| 10-03 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+5' · ALB 1 - FIN 2 | — | In play | — |
+| 10-03 14:55 | Dota 2 Game | Aurora | ✘ | — | — | In play | — |
+| 10-03 14:54 | Tweede Divisie Game | Rohda Raalte | ✘ | — | — | In play | — |
+| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:54 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | — | In play | — |
+| 10-03 14:54 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:54 | Tweede Divisie Game | Jong Sparta | ✘ | — | — | In play | — |
+| 10-03 14:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:53 | Ettan Game | FBK Karlstad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:53 | Ettan Game | Eskilstuna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 14:50 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
+| 10-03 14:50 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:49 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:48 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:47 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-03 14:45 | Slovakian 2. Liga Game | Slovan Galanta | ✘ | — | — | In play | — |
 | 10-03 14:45 | Slovakian 2. Liga Game | Inter Bratislava | ✘ | — | — | In play | — |
@@ -222,22 +238,6 @@
 | 10-03 14:37 | Counter-Strike 2 Game | Alliance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 14:33 | Slovakian 2. Liga Game | Zvolen | ✘ | — | — | In play | — |
 | 10-03 14:32 | UEFA Nations League Game | Albania | ✔ | 72' · ALB 1 - FIN 2 | — | In play | — |
-| 10-03 14:31 | International Friendly Game | India | ✔ | 28' · BRA 0 - IND 0 | — | In play | — |
-| 10-03 14:30 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:30 | Slovakian 2. Liga Game | FK Humenne | ✘ | — | — | In play | — |
-| 10-03 14:30 | Women's ODI Cricket Match | Garden Route Badgers Women | ✘ | — | — | In play | — |
-| 10-03 14:28 | Tweede Divisie Game | IJsselmeervogels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:28 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:27 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:26 | Tweede Divisie Game | Rkav Volendam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:25 | Serie C Game | Cittadella | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:24 | Serie C Game | Forli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:21 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:19 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 14:18 | Serie C Game | Gubbio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
