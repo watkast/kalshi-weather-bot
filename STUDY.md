@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **41 buys a day**, roughly **$6.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.18/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3334 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3341 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3096 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3099 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -91,10 +91,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 245 | 0 | 9% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 246 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 231 | 1 | 3% | 2% | -60% | -95% | 9 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 151 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 152 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
 | League of Legends Game | ✘ | 84 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
@@ -176,6 +176,7 @@
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
+| United Rugby Championship Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 8 min |
 
 ## By time left when it hit 1¢
 
@@ -203,10 +204,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | — | In play | — |
+| 10-03 13:56 | Serie C Game | Casertana | ✘ | — | — | In play | — |
+| 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | — | In play | — |
+| 10-03 13:54 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 13:53 | ITF Men's Match | Sander Jong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 13:52 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | — | In play | — |
+| 10-03 13:50 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-03 13:49 | LaLiga 2 Game | Albacete | ✔ | 88' · EIB 2 - ALB 1 | — | In play | — |
+| 10-03 13:42 | United Rugby Championship Match | Ospreys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:41 | Rugby French 14 Match | Lyon OU | ✘ | — | — | In play | — |
 | 10-03 13:41 | Tweede Divisie Game | Koninklijke | ✘ | — | — | In play | — |
-| 10-03 13:41 | Challenger ATP  | Joel Schwaerzler | ✘ | — | — | In play | — |
+| 10-03 13:41 | Challenger ATP  | Joel Schwaerzler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:33 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:30 | Challenger ATP  | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:26 | Men's T20 Cricket Match | Precious CC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -226,13 +234,6 @@
 | 10-03 12:43 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:42 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:42 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:41 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:39 | Ettan Game | Assyriska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:36 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:35 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:31 | Ettan Game | Rosengaard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:30 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:23 | Serie A Femminile Game | Parma Calcio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
