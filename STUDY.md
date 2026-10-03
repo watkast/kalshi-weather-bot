@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 286 finished bets | 0% | -$28.90 | -67% | -10.10¢ | -$7.45 / -$21.45 |
+| ESPN-verified leagues only, hold to the end | 293 finished bets | 0% | -$29.95 | -68% | -10.22¢ | -$7.90 / -$22.05 |
 
-*Expect about **50 buys a day**, roughly **$7.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **50 buys a day**, roughly **$7.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 286 | -$33.73 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 286 | -$33.80 | -79% |
-| ESPN-verified leagues only, sell at 2¢ | 286 | -$34.06 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 293 | -$34.20 | -78% |
+| ESPN-verified leagues only, sell at 10¢ | 293 | -$34.78 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 293 | -$34.85 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3718 | 286 | 1 (0%) | 1.1% | -$28.90 (-67%) | Hold to the end: -$28.90 (-67%) |
+| 3719 | 293 | 1 (0%) | 1.1% | -$29.95 (-68%) | Hold to the end: -$29.95 (-68%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 35 | 2.7% | 0.0% (0) | -271% | ❌ Worse |
+| ESPN win probability | 42 | 2.4% | 0.0% (0) | -221% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 35 | 0 | -100% | -75% | -85% | -75% |
+| **Any 1¢ (no model)** | 42 | 0 | -100% | -75% | -81% | -69% |
 | ESPN win probability ≥ 2% | 6 | 0 | -100% | -71% | -100% | -100% |
 | ESPN win probability ≥ 5% | 1 | 0 | -100% | -100% | -100% | -100% |
 | ESPN win probability ≥ 10% | 1 | 0 | -100% | -100% | -100% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 286 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3398 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 293 | 12% | 7% | 5% | 2% | 1% | 0% |
+| Unverified | 3402 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$28.90 | -67% |
-| Sell at 2¢ | 34 | 12% | -$34.06 | -79% |
-| Sell at 3¢ | 19 | 7% | -$35.49 | -83% |
-| Sell at 5¢ | 14 | 5% | -$33.80 | -79% |
-| Sell at 10¢ | 7 | 2% | -$33.73 | -79% |
-| Sell at 25¢ | 2 | 1% | -$36.28 | -85% |
-| Sell at 50¢ | 1 | 0% | -$36.15 | -84% |
+| Hold to the end | 1 | 0% | -$29.95 | -68% |
+| Sell at 2¢ | 35 | 12% | -$34.85 | -79% |
+| Sell at 3¢ | 20 | 7% | -$36.15 | -82% |
+| Sell at 5¢ | 15 | 5% | -$34.20 | -78% |
+| Sell at 10¢ | 7 | 2% | -$34.78 | -79% |
+| Sell at 25¢ | 2 | 1% | -$37.33 | -85% |
+| Sell at 50¢ | 1 | 0% | -$37.20 | -85% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -104,9 +104,9 @@
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Women's College Volleyball Match | ✘ | 51 | 0 | 6% | 2% | -100% | -90% | 63 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| College Football Game | partly | 47 | 0 | 9% | 4% | -100% | -85% | 52 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
-| College Football Game | partly | 39 | 0 | 10% | 5% | -100% | -82% | 55 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
 | International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -136,6 +136,7 @@
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
+| AHL Game | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
 | Uruguay Primera Division Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 12 min |
 | Argentine Nacional B Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | NWSL Game | ✔ | 10 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -144,13 +145,13 @@
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| AHL Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Slovakia SBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| Slovakia SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 18 min |
+| Professional Baseball Game | partly | 7 | 0 | 29% | 14% | -100% | -50% | 9 min |
 | Australia NBL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 8 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -158,7 +159,6 @@
 | Brasileiro Serie C Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 4 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Professional Baseball Game | partly | 6 | 0 | 17% | 0% | -100% | -71% | 7 min |
 | Adriatic ABA Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | LNB Elite Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
@@ -196,11 +196,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 102 | 5% | 1% | 0% | -92% |
+| Under 5 min | 104 | 5% | 1% | 0% | -92% |
 | 5–15 min | 52 | 12% | 2% | 0% | -80% |
-| 15–30 min | 52 | 23% | 8% | 2% | -60% |
-| 30–60 min | 45 | 13% | 7% | 0% | -77% |
-| Over 60 min | 35 | 14% | 14% | 0% | -75% |
+| 15–30 min | 53 | 25% | 9% | 2% | -57% |
+| 30–60 min | 47 | 13% | 6% | 0% | -78% |
+| Over 60 min | 37 | 14% | 14% | 0% | -77% |
 
 ## Speed & liquidity
 
@@ -218,13 +218,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 22:47 | College Football Game | Kent St. | ✔ | 0:10 - 4th · OHIO 13 - KENT 10 | — | In play | — |
-| 10-03 22:45 | College Football Game | Miami (OH) | ✔ | 0:07 - 4th · BGSU 24 - M-OH 20 | — | In play | — |
+| 10-03 22:49 | AHL Game | Bridgeport Islanders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 22:47 | College Football Game | Kent St. | ✔ | 0:10 - 4th · OHIO 13 - KENT 10 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 22:45 | College Football Game | Miami (OH) | ✔ | 0:07 - 4th · BGSU 24 - M-OH 20 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:43 | College Football Game | Auburn | ✔ | 3:30 - 4th · AUB 14 - TENN 24 | — | In play | — |
 | 10-03 22:40 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
 | 10-03 22:39 | Uruguay Primera Division Game | Central Espanol | ✘ | — | — | In play | — |
-| 10-03 22:30 | Professional Baseball Game | Atlanta | ✔ | Top 8th · ATL 1 - LAD 5 | — | In play | — |
-| 10-03 22:28 | College Football Game | Delaware St. | ✘ | — | — | In play | — |
+| 10-03 22:30 | Professional Baseball Game | Atlanta | ✔ | Top 8th · ATL 1 - LAD 5 | 6¢ | ❌ Lost | -$0.15 |
+| 10-03 22:28 | College Football Game | Delaware St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:28 | College Football Game | Chicago St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
 | 10-03 22:26 | College Football Game | Chattanooga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -238,8 +239,8 @@
 | 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
 | 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | — | In play | — |
-| 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | — | In play | — |
-| 10-03 21:59 | College Football Game | Hampton | ✘ | — | — | In play | — |
+| 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 21:59 | College Football Game | Hampton | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 21:56 | Valorant game winner | Eternal Fire | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Santa Cruz FC PE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:55 | Brasileiro Serie C Game | Floresta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,7 +248,6 @@
 | 10-03 21:54 | APF Division de Honor Game | Club Guarani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
