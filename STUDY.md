@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 2:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 2:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **43 buys a day**, roughly **$6.39/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.38/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3261 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3263 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -201,6 +201,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 08:38 | KBO Game | LG Twins | ✘ | — | — | In play | — |
+| 10-03 08:34 | Overwatch Game | OU Gaming | ✘ | — | — | In play | — |
 | 10-03 08:25 | ITF Women's Match | Zijun Jiang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:19 | Challenger ATP  | Yanki Erel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:17 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -229,8 +231,6 @@
 | 10-03 04:57 | Challenger ATP  | Alex Bolt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:56 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:50 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
