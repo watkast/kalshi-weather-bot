@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 5:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **42 buys a day**, roughly **$6.24/day** at risk; max loss per buy **15¢**.*
+*Expect about **42 buys a day**, roughly **$6.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3292 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3294 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3054 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3060 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -91,10 +91,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 242 | 0 | 9% | 5% | -100% | -85% | 5 min |
+| ITF Men's Match | ✘ | 244 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 231 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 221 | 1 | 3% | 2% | -58% | -95% | 9 min |
-| Challenger ATP  | ✘ | 149 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Counter-Strike 2 Game | ✘ | 222 | 1 | 3% | 2% | -58% | -95% | 9 min |
+| Challenger ATP  | ✘ | 150 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 107 | 1 | 3% | 3% | -13% | -95% | 4 min |
 | League of Legends Game | ✘ | 82 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
@@ -102,8 +102,8 @@
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
+| Dota 2 Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | Men's T20 Cricket Match | ✘ | 35 | 0 | 20% | 9% | -100% | -65% | 20 min |
-| Dota 2 Game | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 27 | 0 | 15% | 11% | -100% | -74% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -118,9 +118,9 @@
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
+| Japan NPB Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Japan NPB Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Valorant game winner | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -201,14 +201,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 11:30 | Counter-Strike 2 Game | Elite Klan | ✘ | — | — | In play | — |
-| 10-03 11:30 | Challenger ATP  | David Jorda Sanchis | ✘ | — | — | In play | — |
-| 10-03 11:29 | Japan NPB Game | Fukuoka Hawks | ✘ | — | — | In play | — |
-| 10-03 11:29 | ITF Men's Match | Martin VAN DER MEERSCHEN | ✘ | — | — | In play | — |
-| 10-03 11:28 | ITF Men's Match | Florent Bax | ✘ | — | — | In play | — |
+| 10-03 11:38 | Australia NBL Game | Melbourne United | ✘ | — | — | In play | — |
+| 10-03 11:38 | Japan NPB Game | Orix Buffaloes | ✘ | — | — | In play | — |
+| 10-03 11:30 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:30 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:29 | Japan NPB Game | Fukuoka Hawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:29 | ITF Men's Match | Martin VAN DER MEERSCHEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 11:28 | ITF Men's Match | Florent Bax | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:25 | ITF Women's Match | Felitsata Dorofeeva-Rybas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 11:16 | League of Legends Game | Team Vitality | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 11:08 | Dota 2 Game | IaChIo123 | ✘ | — | — | In play | — |
+| 10-03 11:08 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:58 | Valorant game winner | Team Liquid | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:47 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 10:40 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -229,8 +231,6 @@
 | 10-03 08:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:45 | League of Legends Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 08:43 | Japan J2 League Game | Ventforet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 08:39 | Japan NPB Game | Hanshin Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 08:38 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
