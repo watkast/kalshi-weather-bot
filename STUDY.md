@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 11:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.56/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3234 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3237 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2998 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3001 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 | ITF Men's Match | ✘ | 240 | 0 | 9% | 5% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
-| Challenger ATP  | ✘ | 147 | 0 | 8% | 1% | -100% | -86% | 4 min |
+| Challenger ATP  | ✘ | 148 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 103 | 1 | 3% | 3% | -9% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
@@ -140,6 +140,7 @@
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Ettan Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
+| Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
 | Finland Korisliiga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Professional Baseball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 9 min |
 | Australia NBL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 20 min |
@@ -150,7 +151,6 @@
 | Overwatch Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Croatia Premijer Liga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
-| Liga Expansion Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 22 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Argentine Nacional B Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Brasileiro Serie C Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 11 min |
@@ -200,8 +200,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 04:59 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
+| 10-03 04:57 | Challenger ATP  | Alex Bolt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:56 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:50 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | — | In play | — |
+| 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
 | 10-03 04:42 | NHL Game | Vegas | ✔ | End of 3rd · ANA 4 - VGK 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:34 | ITF Men's Match | Ryuki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -227,9 +230,6 @@
 | 10-03 03:39 | TT Elite Series Match | Kowalski Kamil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:39 | TT Elite Series Match | Mikolaj Lukaszewski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:37 | Women's College Volleyball Match | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:36 | Women's College Volleyball Match | Washington | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:36 | TT Elite Series Match | Maciej Sinicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:32 | AHL Game | Abbotsford Canucks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
