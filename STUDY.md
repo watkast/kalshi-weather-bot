@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 232 finished bets | 0% | -$20.80 | -60% | -8.97¢ | -$3.40 / -$17.40 |
 
-*Expect about **41 buys a day**, roughly **$6.18/day** at risk; max loss per buy **15¢**.*
+*Expect about **41 buys a day**, roughly **$6.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3342 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
+| 3349 | 232 | 1 (0%) | 1.1% | -$20.80 (-60%) | Hold to the end: -$20.80 (-60%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -205,6 +205,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 14:16 | Serie A Femminile Game | Sassuolo | ✘ | — | — | In play | — |
+| 10-03 14:15 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-03 14:15 | Tweede Divisie Game | Treffers Groesbeek | ✘ | — | — | In play | — |
+| 10-03 14:14 | England Women's Super League Game | Liverpool | ✘ | — | — | In play | — |
+| 10-03 14:12 | Turkey BSL Game | Bursaspor | ✘ | — | — | In play | — |
+| 10-03 14:10 | Serie C Game | Casarano | ✘ | — | — | In play | — |
+| 10-03 14:10 | Valorant game winner | Karmine Corp | ✘ | — | — | In play | — |
 | 10-03 13:59 | ITF Men's Match | Radu David Turcanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 13:56 | Serie C Game | Casertana | ✘ | — | — | In play | — |
 | 10-03 13:55 | LaLiga 2 Game | Tie | ✔ | 90'+4' · EIB 2 - ALB 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -228,13 +235,6 @@
 | 10-03 12:57 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:57 | Counter-Strike 2 Game | 1WIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 12:54 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:54 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:48 | Women's T20 Match | Zimbabwe | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 12:46 | Ettan Game | Tvaakers | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-03 12:44 | Ettan Game | Gefle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:44 | Counter-Strike 2 Game | BIG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:43 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 12:42 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
