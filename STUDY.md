@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 1:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 1:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **43 buys a day**, roughly **$6.44/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.43/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3252 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
+| 3255 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -68,7 +68,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3016 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3019 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,15 +95,15 @@
 | ITF Women's Match | ✘ | 227 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 218 | 1 | 3% | 2% | -57% | -94% | 9 min |
 | Challenger ATP  | ✘ | 148 | 0 | 8% | 1% | -100% | -86% | 4 min |
-| TT Star Series Match | ✘ | 105 | 1 | 3% | 3% | -11% | -95% | 4 min |
+| TT Star Series Match | ✘ | 106 | 1 | 3% | 3% | -12% | -95% | 4 min |
 | League of Legends Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 12 min |
 | UEFA Nations League Game | ✔ | 72 | 0 | 7% | 3% | -100% | -88% | 6 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | Women's College Volleyball Match | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 40 min |
+| Dota 2 Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 29 min |
 | Men's T20 Cricket Match | ✘ | 33 | 0 | 18% | 6% | -100% | -68% | 20 min |
-| Dota 2 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 28 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 26 | 0 | 15% | 12% | -100% | -73% | 10 min |
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
@@ -117,10 +117,10 @@
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
 | LNBP Basketball Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
+| KBO Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 5 min |
 | National League Game | ✘ | 15 | 1 | 7% | 7% | +522% | -88% | 5 min |
 | Liga DIMAYOR Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| KBO Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 4 min |
 | Japan NPB Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -201,7 +201,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 07:24 | KBO Game | Lotte Giants | ✘ | — | — | In play | — |
+| 10-03 07:35 | Challenger WTA | Aliona Falei | ✘ | — | — | In play | — |
+| 10-03 07:31 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
+| 10-03 07:30 | TT Star Series Match | Kilicoglu Taha Mert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 07:24 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:10 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 07:09 | TT Star Series Match | Fuchs Michael | ✘ | — | — | In play | — |
 | 10-03 07:01 | Japan J2 League Game | Fujieda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,7 +216,7 @@
 | 10-03 06:38 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 06:17 | TT Star Series Match | Řeháček Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 05:21 | WTA Tennis Match | Camila Osorio | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 05:19 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
+| 10-03 05:19 | Dota 2 Game | Cloud Dawning | ✘ | — | 30¢ | ❌ Lost | -$0.15 |
 | 10-03 05:16 | Women's College Volleyball Match | Southern California | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 05:03 | WTA Tennis Match | Lin Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:59 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -228,9 +231,6 @@
 | 10-03 04:18 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:09 | CFL Game | Saskatchewan Roughriders | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 04:07 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:05 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
