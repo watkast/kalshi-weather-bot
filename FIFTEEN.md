@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 2, 8:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 2, 8:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | 5+ min left, hold to the close | 171 finished bets | 1% | $2.80 | +11% | +1.64¢ | $15.40 / -$12.60 |
 
-*Expect about **34 buys a day** (~$5.15/day at risk); max loss per buy **15¢**.*
+*Expect about **34 buys a day** (~$5.14/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6151 | 6145 | 23 (0%) | 1.07% | -$421.55 (-57%) | Hold to the close: -$421.55 (-57%) |
+| 6152 | 6145 | 23 (0%) | 1.07% | -$421.55 (-57%) | Hold to the close: -$421.55 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/2 8:25:34 PM | NEAR | DOWN | 4.4 min | +0.530% | — | In play | — |
 | 10/2 8:14:49 PM | XRP | DOWN | 11 sec | +0.000% | 0¢ | ❌ Lost | $0.00 |
 | 10/2 8:14:49 PM | WTI | UP | 11 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/2 8:14:33 PM | SOL | DOWN | 27 sec | +0.062% | 0¢ | ❌ Lost | $0.00 |
@@ -210,7 +211,6 @@
 | 10/2 7:40:16 PM | BNB | DOWN | 4.7 min | +0.130% | 1¢ | ❌ Lost | $0.00 |
 | 10/2 7:29:18 PM | ETH | UP | 41 sec | -0.044% | 0¢ | ❌ Lost | $0.00 |
 | 10/2 7:29:18 PM | ZEC | UP | 41 sec | -0.135% | 0¢ | ❌ Lost | -$0.15 |
-| 10/2 7:29:04 PM | BTC | UP | 56 sec | -0.047% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
