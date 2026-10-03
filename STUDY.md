@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 4:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 4:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 282 finished bets | 0% | -$28.30 | -67% | -10.04¢ | -$7.15 / -$21.15 |
+| ESPN-verified leagues only, hold to the end | 284 finished bets | 0% | -$28.60 | -67% | -10.07¢ | -$7.30 / -$21.30 |
 
-*Expect about **49 buys a day**, roughly **$7.36/day** at risk; max loss per buy **15¢**.*
+*Expect about **49 buys a day**, roughly **$7.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 10¢ | 282 | -$33.13 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 282 | -$33.20 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 282 | -$33.46 | -79% |
+| ESPN-verified leagues only, sell at 10¢ | 284 | -$33.43 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 284 | -$33.50 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 284 | -$33.76 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3702 | 282 | 1 (0%) | 1.1% | -$28.30 (-67%) | Hold to the end: -$28.30 (-67%) |
+| 3706 | 284 | 1 (0%) | 1.1% | -$28.60 (-67%) | Hold to the end: -$28.60 (-67%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 282 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3385 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 284 | 12% | 7% | 5% | 2% | 1% | 0% |
+| Unverified | 3391 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$28.30 | -67% |
-| Sell at 2¢ | 34 | 12% | -$33.46 | -79% |
-| Sell at 3¢ | 19 | 7% | -$34.89 | -82% |
-| Sell at 5¢ | 14 | 5% | -$33.20 | -78% |
-| Sell at 10¢ | 7 | 2% | -$33.13 | -78% |
-| Sell at 25¢ | 2 | 1% | -$35.68 | -84% |
-| Sell at 50¢ | 1 | 0% | -$35.55 | -84% |
+| Hold to the end | 1 | 0% | -$28.60 | -67% |
+| Sell at 2¢ | 34 | 12% | -$33.76 | -79% |
+| Sell at 3¢ | 19 | 7% | -$35.19 | -83% |
+| Sell at 5¢ | 14 | 5% | -$33.50 | -79% |
+| Sell at 10¢ | 7 | 2% | -$33.43 | -78% |
+| Sell at 25¢ | 2 | 1% | -$35.98 | -84% |
+| Sell at 50¢ | 1 | 0% | -$35.85 | -84% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -102,13 +102,13 @@
 | League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 63 | 1 | 21% | 8% | +48% | -64% | 25 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
-| Women's College Volleyball Match | ✘ | 49 | 0 | 6% | 2% | -100% | -89% | 55 min |
+| Women's College Volleyball Match | ✘ | 51 | 0 | 6% | 2% | -100% | -90% | 63 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
+| College Football Game | partly | 34 | 0 | 12% | 6% | -100% | -80% | 56 min |
 | International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
-| College Football Game | partly | 30 | 0 | 13% | 7% | -100% | -77% | 48 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
 | Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
@@ -138,6 +138,7 @@
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Uruguay Primera Division Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 12 min |
 | Argentine Nacional B Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
+| NWSL Game | ✔ | 10 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -146,7 +147,6 @@
 | AHL Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 8 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -196,8 +196,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 101 | 5% | 1% | 0% | -91% |
-| 5–15 min | 51 | 12% | 2% | 0% | -80% |
+| Under 5 min | 102 | 5% | 1% | 0% | -92% |
+| 5–15 min | 52 | 12% | 2% | 0% | -80% |
 | 15–30 min | 51 | 24% | 8% | 2% | -59% |
 | 30–60 min | 44 | 14% | 7% | 0% | -76% |
 | Over 60 min | 35 | 14% | 14% | 0% | -75% |
@@ -218,9 +218,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 22:17 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 10-03 22:14 | College Football Game | Florida | ✔ | 0:49 - 3rd · FLA 10 - MIZ 30 | — | In play | — |
+| 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | — | In play | — |
+| 10-03 22:13 | College Football Game | Samford | ✔ | 9:51 - 4th · SAM 14 - UAB 23 | — | In play | — |
 | 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | — | In play | — |
 | 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
-| 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | — | In play | — |
+| 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | — | In play | — |
 | 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | — | In play | — |
 | 10-03 21:59 | College Football Game | Hampton | ✘ | — | — | In play | — |
@@ -230,7 +234,7 @@
 | 10-03 21:55 | Brasileiro Serie C Game | Maringa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:54 | APF Division de Honor Game | Club Guarani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:54 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | — | In play | — |
+| 10-03 21:53 | NWSL Game | Utah Royals | ✔ | 89' · UTA 0 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:52 | College Football Game | Northern Colorado | ✘ | — | — | In play | — |
@@ -244,10 +248,6 @@
 | 10-03 21:36 | College Football Game | Wyoming | ✔ | 14:00 - 3rd · WYO 0 - NDSU 17 | — | In play | — |
 | 10-03 21:35 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 21:35 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
-| 10-03 21:35 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
-| 10-03 21:33 | College Football Game | Old Dominion | ✔ | 11:59 - 3rd · ODU 3 - GAST 35 | — | In play | — |
-| 10-03 21:30 | College Football Game | Marshall | ✔ | 0:31 - 2nd · MRSH 14 - JMU 31 | — | In play | — |
-| 10-03 21:23 | AHL Game | Syracuse Crunch | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
