@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Oct 03 01:36 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Oct 03 01:46 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,53 +10,53 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 17 | 17 | 0 (0) | 3 | $11.68 | +10.8% |
-| **+10¢** | 13 | 13 | 0 (0) | 4 | $16.43 | +19.6% |
-| **+15¢** | 10 | 10 | 0 (0) | 5 | $15.95 | +25.3% |
-| **+20¢** | 225 | 158 | 67 (1) | 6 | $-69.77 | -4.9% |
-| **+10¢ (15¢ stop)** | 23 | 23 | 0 (0) | 1 | $-3.18 | -2.2% |
+| **+5¢** | 27 | 26 | 1 (0) | 6 | $11.84 | +7.0% |
+| **+10¢** | 22 | 20 | 2 (0) | 7 | $11.28 | +8.2% |
+| **+15¢** | 17 | 15 | 2 (0) | 7 | $11.48 | +10.8% |
+| **+20¢** | 233 | 164 | 69 (1) | 7 | $-70.36 | -4.8% |
+| **+10¢ (15¢ stop)** | 37 | 37 | 0 (0) | 7 | $-3.76 | -1.6% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
-| 10-03 01:35 | +5 | HYPE | DOWN | 0.69 | open |  |
-| 10-03 01:35 | +5 | SOL | UP | 0.56 | 0.67 | 0.76 |
-| 10-03 01:35 | +10 stop | XRP | DOWN | 0.53 | 0.37 | -1.95 |
-| 10-03 01:34 | +10 stop | BNB | UP | 0.60 | 0.86 | 2.34 |
-| 10-03 01:34 | +15 | BNB | UP | 0.60 | 0.86 | 2.34 |
-| 10-03 01:34 | +10 | BNB | UP | 0.60 | 0.86 | 2.34 |
-| 10-03 01:34 | +5 | BNB | UP | 0.62 | 0.68 | 0.27 |
-| 10-03 01:34 | +10 stop | DOGE | DOWN | 0.64 | 0.48 | -1.94 |
-| 10-03 01:34 | +10 stop | SOL | UP | 0.59 | 0.73 | 1.09 |
-| 10-03 01:34 | +15 | SOL | UP | 0.59 | 0.75 | 1.29 |
-| 10-03 01:34 | +10 | SOL | UP | 0.59 | 0.73 | 1.09 |
-| 10-03 01:34 | +5 | SOL | UP | 0.59 | 0.65 | 0.27 |
-| 10-03 01:33 | +10 stop | NEAR | DOWN | 0.61 | 0.73 | 0.89 |
-| 10-03 01:33 | +5 | NEAR | DOWN | 0.61 | 0.73 | 0.89 |
-| 10-03 01:33 | +10 stop | HYPE | DOWN | 0.62 | open |  |
-| 10-03 01:33 | +10 stop | XRP | UP | 0.64 | 0.48 | -1.95 |
-| 10-03 01:33 | +10 | XRP | UP | 0.64 | open |  |
-| 10-03 01:33 | +5 | XRP | UP | 0.64 | 0.71 | 0.38 |
-| 10-03 01:33 | +10 stop | ZEC | UP | 0.57 | 0.69 | 0.87 |
-| 10-03 01:33 | +10 stop | BTC | UP | 0.67 | 0.80 | 1.02 |
-| 10-03 01:33 | +10 | BTC | UP | 0.67 | 0.80 | 1.02 |
-| 10-03 01:33 | +5 | BTC | UP | 0.67 | 0.73 | 0.30 |
-| 10-03 01:32 | +10 stop | NEAR | UP | 0.51 | 0.33 | -2.13 |
-| 10-03 01:32 | +10 stop | HYPE | UP | 0.63 | 0.43 | -2.38 |
-| 10-03 01:31 | +10 stop | BNB | UP | 0.70 | 0.83 | 1.05 |
-| 10-03 01:31 | +20 | BNB | UP | 0.70 | 0.90 | 1.81 |
-| 10-03 01:31 | +15 | BNB | UP | 0.70 | 0.85 | 1.26 |
-| 10-03 01:31 | +10 | BNB | UP | 0.70 | 0.83 | 1.05 |
-| 10-03 01:31 | +5 | BNB | UP | 0.70 | 0.77 | 0.42 |
-| 10-03 01:31 | +10 stop | XRP | UP | 0.67 | 0.78 | 0.81 |
-| 10-03 01:31 | +20 | XRP | UP | 0.67 | open |  |
-| 10-03 01:31 | +15 | XRP | UP | 0.67 | open |  |
-| 10-03 01:31 | +10 | XRP | UP | 0.67 | 0.78 | 0.81 |
-| 10-03 01:31 | +5 | XRP | UP | 0.67 | 0.74 | 0.40 |
-| 10-03 01:31 | +10 stop | DOGE | UP | 0.67 | 0.51 | -1.93 |
-| 10-03 01:31 | +20 | DOGE | UP | 0.67 | open |  |
-| 10-03 01:31 | +15 | DOGE | UP | 0.67 | open |  |
-| 10-03 01:31 | +10 | DOGE | UP | 0.67 | open |  |
-| 10-03 01:31 | +5 | DOGE | UP | 0.67 | open |  |
-| 10-03 01:31 | +10 stop | BTC | UP | 0.66 | 0.79 | 1.02 |
+| 10-03 01:46 | +10 stop | NEAR | DOWN | 0.66 | open |  |
+| 10-03 01:46 | +20 | NEAR | DOWN | 0.66 | open |  |
+| 10-03 01:46 | +15 | NEAR | DOWN | 0.66 | open |  |
+| 10-03 01:46 | +10 | NEAR | DOWN | 0.66 | open |  |
+| 10-03 01:46 | +5 | NEAR | DOWN | 0.66 | open |  |
+| 10-03 01:46 | +10 stop | BNB | DOWN | 0.59 | open |  |
+| 10-03 01:46 | +20 | BNB | DOWN | 0.59 | open |  |
+| 10-03 01:46 | +15 | BNB | DOWN | 0.59 | open |  |
+| 10-03 01:46 | +10 | BNB | DOWN | 0.59 | open |  |
+| 10-03 01:46 | +5 | BNB | DOWN | 0.59 | open |  |
+| 10-03 01:46 | +10 stop | HYPE | DOWN | 0.68 | open |  |
+| 10-03 01:46 | +20 | HYPE | DOWN | 0.68 | open |  |
+| 10-03 01:46 | +15 | HYPE | DOWN | 0.68 | open |  |
+| 10-03 01:46 | +10 | HYPE | DOWN | 0.68 | open |  |
+| 10-03 01:46 | +5 | HYPE | DOWN | 0.68 | open |  |
+| 10-03 01:46 | +10 stop | ZEC | DOWN | 0.54 | open |  |
+| 10-03 01:46 | +20 | ZEC | DOWN | 0.54 | open |  |
+| 10-03 01:46 | +15 | ZEC | DOWN | 0.54 | open |  |
+| 10-03 01:46 | +10 | ZEC | DOWN | 0.54 | open |  |
+| 10-03 01:46 | +5 | ZEC | DOWN | 0.54 | 0.60 | 0.25 |
+| 10-03 01:46 | +10 stop | SOL | DOWN | 0.56 | open |  |
+| 10-03 01:46 | +20 | SOL | DOWN | 0.56 | open |  |
+| 10-03 01:46 | +15 | SOL | DOWN | 0.56 | open |  |
+| 10-03 01:46 | +10 | SOL | DOWN | 0.56 | open |  |
+| 10-03 01:46 | +5 | SOL | DOWN | 0.56 | open |  |
+| 10-03 01:45 | +10 stop | XRP | DOWN | 0.66 | open |  |
+| 10-03 01:45 | +20 | XRP | DOWN | 0.66 | open |  |
+| 10-03 01:45 | +15 | XRP | DOWN | 0.66 | open |  |
+| 10-03 01:45 | +10 | XRP | DOWN | 0.66 | open |  |
+| 10-03 01:45 | +5 | XRP | DOWN | 0.66 | open |  |
+| 10-03 01:45 | +10 stop | DOGE | DOWN | 0.59 | open |  |
+| 10-03 01:45 | +20 | DOGE | DOWN | 0.59 | open |  |
+| 10-03 01:45 | +15 | DOGE | DOWN | 0.59 | open |  |
+| 10-03 01:45 | +10 | DOGE | DOWN | 0.59 | open |  |
+| 10-03 01:45 | +5 | DOGE | DOWN | 0.59 | open |  |
+| 10-03 01:41 | +10 stop | DOGE | UP | 0.48 | 0.60 | 0.85 |
+| 10-03 01:40 | +10 stop | HYPE | DOWN | 0.63 | 0.78 | 1.20 |
+| 10-03 01:40 | +10 | HYPE | DOWN | 0.63 | 0.78 | 1.20 |
+| 10-03 01:40 | +5 | HYPE | DOWN | 0.63 | 0.78 | 1.20 |
+| 10-03 01:40 | +10 stop | DOGE | UP | 0.62 | 0.44 | -2.15 |
