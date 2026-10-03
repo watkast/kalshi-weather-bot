@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 5:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 298 finished bets | 0% | -$30.70 | -69% | -10.30¢ | -$8.35 / -$22.35 |
 
-*Expect about **50 buys a day**, roughly **$7.50/day** at risk; max loss per buy **15¢**.*
+*Expect about **50 buys a day**, roughly **$7.54/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3726 | 298 | 1 (0%) | 1.1% | -$30.70 (-69%) | Hold to the end: -$30.70 (-69%) |
+| 3731 | 298 | 1 (0%) | 1.1% | -$30.70 (-69%) | Hold to the end: -$30.70 (-69%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 298 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3410 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3411 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,7 +102,7 @@
 | League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 65 | 1 | 22% | 9% | +44% | -63% | 26 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
-| College Football Game | partly | 54 | 1 | 11% | 6% | +73% | -81% | 52 min |
+| College Football Game | partly | 55 | 1 | 11% | 5% | +70% | -81% | 52 min |
 | Women's College Volleyball Match | ✘ | 51 | 0 | 6% | 2% | -100% | -90% | 63 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -218,6 +218,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 23:25 | College Football Game | Maryland | ✔ | 11:28 - 4th · MD 23 - NEB 35 | — | In play | — |
+| 10-03 23:25 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 23:22 | Brasileiro Serie A Game | Bragantino | ✘ | — | — | In play | — |
+| 10-03 23:20 | Women's College Volleyball Match | Maryland | ✘ | — | — | In play | — |
+| 10-03 23:20 | College Football Game | California | ✔ | 3:25 - 4th · CAL 25 - UNLV 38 | — | In play | — |
 | 10-03 23:17 | Brasileiro Serie B Game | Botafogo | ✘ | — | — | In play | — |
 | 10-03 23:11 | College Football Game | Illinois | ✔ | 3:28 - 4th · PUR 24 - ILL 10 | — | In play | — |
 | 10-03 23:08 | Women's College Volleyball Match | Air Force | ✘ | — | — | In play | — |
@@ -243,11 +248,6 @@
 | 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 22:13 | College Football Game | Samford | ✔ | 9:51 - 4th · SAM 14 - UAB 23 | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 22:05 | College Football Game | UMass | ✔ | 14:13 - 4th · EMU 34 - MASS 7 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:04 | College Football Game | Texas Southern | ✔ | 15:00 - 1st · TXSO 0 - FAU 0 | — | In play | — |
-| 10-03 22:03 | NWSL Game | Racing Louisville | ✔ | 90'+8' · UTA 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:00 | College Football Game | Virginia | ✔ | 3:16 - 3rd · UVA 7 - FSU 30 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 21:59 | College Football Game | Iowa | ✔ | 6:11 - 3rd · OSU 23 - IOWA 6 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 21:59 | College Football Game | Hampton | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
