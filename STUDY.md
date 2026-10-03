@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 2, 10:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 2, 10:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 229 finished bets | 0% | -$20.35 | -59% | -8.89¢ | -$3.10 / -$17.25 |
+| ESPN-verified leagues only, hold to the end | 230 finished bets | 0% | -$20.50 | -59% | -8.91¢ | -$3.25 / -$17.25 |
 
-*Expect about **44 buys a day**, roughly **$6.55/day** at risk; max loss per buy **15¢**.*
+*Expect about **44 buys a day**, roughly **$6.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 229 | -$27.07 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 229 | -$27.20 | -79% |
-| ESPN-verified leagues only, sell at 50¢ | 229 | -$27.60 | -80% |
+| ESPN-verified leagues only, sell at 2¢ | 230 | -$27.22 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 230 | -$27.35 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 230 | -$27.75 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3230 | 229 | 1 (0%) | 1.1% | -$20.35 (-59%) | Hold to the end: -$20.35 (-59%) |
+| 3234 | 230 | 1 (0%) | 1.1% | -$20.50 (-59%) | Hold to the end: -$20.50 (-59%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 229 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 2996 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 230 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 2998 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$20.35 | -59% |
-| Sell at 2¢ | 28 | 12% | -$27.07 | -79% |
-| Sell at 3¢ | 16 | 7% | -$28.11 | -82% |
-| Sell at 5¢ | 11 | 5% | -$27.20 | -79% |
-| Sell at 10¢ | 5 | 2% | -$27.80 | -81% |
-| Sell at 25¢ | 1 | 0% | -$31.04 | -90% |
-| Sell at 50¢ | 1 | 0% | -$27.60 | -80% |
+| Hold to the end | 1 | 0% | -$20.50 | -59% |
+| Sell at 2¢ | 28 | 12% | -$27.22 | -79% |
+| Sell at 3¢ | 16 | 7% | -$28.26 | -82% |
+| Sell at 5¢ | 11 | 5% | -$27.35 | -79% |
+| Sell at 10¢ | 5 | 2% | -$27.95 | -81% |
+| Sell at 25¢ | 1 | 0% | -$31.19 | -90% |
+| Sell at 50¢ | 1 | 0% | -$27.75 | -80% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -109,8 +109,8 @@
 | International Friendly Game | partly | 24 | 0 | 4% | 0% | -100% | -93% | 10 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | English National League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
+| NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
-| NHL Game | ✔ | 20 | 0 | 15% | 5% | -100% | -74% | 5 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -130,9 +130,9 @@
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| AHL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Sweden SBL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 31 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| AHL Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 8 min |
 | Uruguay Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 10 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -169,16 +169,16 @@
 | Eerste Divisie Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | -0 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie A Game | ✔ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| CFL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 69 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Turkey BSL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 382 min |
 | LNB Elite Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| CFL Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 102 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 87 | 6% | 1% | 0% | -90% |
+| Under 5 min | 88 | 6% | 1% | 0% | -90% |
 | 5–15 min | 44 | 14% | 2% | 0% | -76% |
 | 15–30 min | 40 | 25% | 10% | 2% | -57% |
 | 30–60 min | 35 | 14% | 9% | 0% | -75% |
@@ -200,12 +200,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 04:50 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 04:48 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | — | In play | — |
+| 10-03 04:43 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
+| 10-03 04:42 | NHL Game | Vegas | ✔ | End of 3rd · ANA 4 - VGK 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:34 | ITF Men's Match | Ryuki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:19 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | TT Elite Series Match | Dariusz Wrobel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:18 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
 | 10-03 04:11 | TT Elite Series Match | Mariusz Zwolinski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 04:09 | CFL Game | Saskatchewan Roughriders | ✘ | — | — | In play | — |
+| 10-03 04:09 | CFL Game | Saskatchewan Roughriders | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-03 04:07 | TT Elite Series Match | Adam Ruszkiewicz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:05 | TT Elite Series Match | Bernacki Lukasz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 04:02 | NWSL Game | Tie | ✔ | 90'+8' · NC 1 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -226,10 +230,6 @@
 | 10-03 03:36 | Women's College Volleyball Match | Washington | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:36 | TT Elite Series Match | Maciej Sinicki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 03:32 | AHL Game | Abbotsford Canucks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:31 | Women's College Volleyball Match | UCLA | ✘ | — | — | In play | — |
-| 10-03 03:30 | CONCACAF Nations League Game | Tie | ✔ | 73' · JAM 2 - SLV 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 03:28 | Women's College Volleyball Match | Virginia Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 03:26 | TT Elite Series Match | Kacper Adamus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
