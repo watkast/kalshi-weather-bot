@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 242 finished bets | 0% | -$22.30 | -61% | -9.21¢ | -$4.15 / -$18.15 |
+| ESPN-verified leagues only, hold to the end | 244 finished bets | 0% | -$22.60 | -62% | -9.26¢ | -$4.30 / -$18.30 |
 
-*Expect about **43 buys a day**, roughly **$6.40/day** at risk; max loss per buy **15¢**.*
+*Expect about **43 buys a day**, roughly **$6.39/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 242 | -$28.76 | -79% |
-| ESPN-verified leagues only, sell at 5¢ | 242 | -$29.15 | -80% |
-| ESPN-verified leagues only, sell at 50¢ | 242 | -$29.55 | -81% |
+| ESPN-verified leagues only, sell at 2¢ | 244 | -$29.06 | -79% |
+| ESPN-verified leagues only, sell at 5¢ | 244 | -$29.45 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 244 | -$29.85 | -82% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3454 | 242 | 1 (0%) | 1.1% | -$22.30 (-61%) | Hold to the end: -$22.30 (-61%) |
+| 3455 | 244 | 1 (0%) | 1.1% | -$22.60 (-62%) | Hold to the end: -$22.60 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -67,8 +67,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 242 | 12% | 7% | 5% | 2% | 0% | 0% |
-| Unverified | 3192 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 244 | 12% | 7% | 5% | 2% | 0% | 0% |
+| Unverified | 3195 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -76,13 +76,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$22.30 | -61% |
-| Sell at 2¢ | 29 | 12% | -$28.76 | -79% |
-| Sell at 3¢ | 16 | 7% | -$30.06 | -83% |
-| Sell at 5¢ | 11 | 5% | -$29.15 | -80% |
-| Sell at 10¢ | 5 | 2% | -$29.75 | -82% |
-| Sell at 25¢ | 1 | 0% | -$32.99 | -91% |
-| Sell at 50¢ | 1 | 0% | -$29.55 | -81% |
+| Hold to the end | 1 | 0% | -$22.60 | -62% |
+| Sell at 2¢ | 29 | 12% | -$29.06 | -79% |
+| Sell at 3¢ | 16 | 7% | -$30.36 | -83% |
+| Sell at 5¢ | 11 | 5% | -$29.45 | -80% |
+| Sell at 10¢ | 5 | 2% | -$30.05 | -82% |
+| Sell at 25¢ | 1 | 0% | -$33.29 | -91% |
+| Sell at 50¢ | 1 | 0% | -$29.85 | -82% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -92,7 +92,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 248 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 234 | 1 | 3% | 3% | -60% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 235 | 1 | 3% | 3% | -60% | -94% | 9 min |
 | ITF Women's Match | ✘ | 232 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 154 | 0 | 8% | 1% | -100% | -86% | 4 min |
 | TT Star Series Match | ✘ | 109 | 1 | 3% | 3% | -14% | -95% | 4 min |
@@ -111,11 +111,11 @@
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | NHL Game | ✔ | 21 | 0 | 14% | 5% | -100% | -75% | 5 min |
+| Brasileiro Serie B Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | KHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| Brasileiro Serie B Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 3 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -135,6 +135,7 @@
 | Uruguay Primera Division Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 12 min |
 | NWSL Game | ✔ | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
+| LaLiga 2 Game | ✔ | 8 | 0 | 12% | 0% | -100% | -78% | 9 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Finland Korisliiga Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite 2 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -144,7 +145,6 @@
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| LaLiga 2 Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
 | Czech NBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 14 min |
 | Liga Expansion Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 7 min |
@@ -188,8 +188,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 92 | 5% | 1% | 0% | -91% |
-| 5–15 min | 47 | 13% | 2% | 0% | -78% |
+| Under 5 min | 93 | 5% | 1% | 0% | -91% |
+| 5–15 min | 48 | 12% | 2% | 0% | -78% |
 | 15–30 min | 42 | 26% | 10% | 2% | -55% |
 | 30–60 min | 36 | 14% | 8% | 0% | -76% |
 | Over 60 min | 25 | 8% | 8% | 0% | -86% |
@@ -210,14 +210,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-03 16:09 | LaLiga 2 Game | Tie | ✔ | 90'+5' · BUR 1 - ALM 2 | — | In play | — |
+| 10-03 16:14 | Liiga Game | KalPa Kuopio | ✘ | — | — | In play | — |
+| 10-03 16:09 | LaLiga 2 Game | Tie | ✔ | 90'+5' · BUR 1 - ALM 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:07 | PREM Rugby Match | Northampton Saints | ✘ | — | — | In play | — |
 | 10-03 16:04 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-03 16:04 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
-| 10-03 16:03 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-03 16:04 | Counter-Strike 2 Game | Infinite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 16:03 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 16:00 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 15:59 | Brasileiro Serie B Game | Avai | ✘ | — | — | In play | — |
-| 10-03 15:58 | LaLiga 2 Game | Burgos | ✔ | 84' · BUR 1 - ALM 1 | — | In play | — |
+| 10-03 15:59 | Brasileiro Serie B Game | Avai | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-03 15:58 | LaLiga 2 Game | Burgos | ✔ | 84' · BUR 1 - ALM 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:57 | Ettan Game | Jarfalla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:57 | Ettan Game | Stocksund | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:56 | Eerste Divisie Game | Maastricht | ✘ | — | — | In play | — |
@@ -239,7 +240,6 @@
 | 10-03 15:51 | Ettan Game | Trollhattans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:51 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 15:48 | English National League Game | Tie | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 10-03 15:48 | Ettan Game | Jonkopings Sodra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
