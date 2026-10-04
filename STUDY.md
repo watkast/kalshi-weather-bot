@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 358 finished bets | 0% | -$39.70 | -74% | -11.09¢ | -$12.85 / -$26.85 |
+| ESPN-verified leagues only, hold to the end | 359 finished bets | 0% | -$39.85 | -74% | -11.10¢ | -$12.85 / -$27.00 |
 
-*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 358 | -$40.20 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 358 | -$42.00 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 358 | -$43.04 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 359 | -$40.35 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 359 | -$42.15 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 359 | -$43.19 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3848 | 358 | 1 (0%) | 1.1% | -$39.70 (-74%) | Hold to the end: -$39.70 (-74%) |
+| 3851 | 359 | 1 (0%) | 1.1% | -$39.85 (-74%) | Hold to the end: -$39.85 (-74%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 358 | 11% | 6% | 5% | 2% | 1% | 1% |
+| Verified | 359 | 11% | 6% | 5% | 2% | 1% | 1% |
 | Unverified | 3481 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$39.70 | -74% |
-| Sell at 2¢ | 41 | 11% | -$43.04 | -80% |
-| Sell at 3¢ | 23 | 6% | -$44.73 | -83% |
-| Sell at 5¢ | 18 | 5% | -$42.00 | -78% |
-| Sell at 10¢ | 8 | 2% | -$43.22 | -80% |
-| Sell at 25¢ | 3 | 1% | -$43.77 | -82% |
-| Sell at 50¢ | 2 | 1% | -$40.20 | -75% |
+| Hold to the end | 1 | 0% | -$39.85 | -74% |
+| Sell at 2¢ | 41 | 11% | -$43.19 | -80% |
+| Sell at 3¢ | 23 | 6% | -$44.88 | -83% |
+| Sell at 5¢ | 18 | 5% | -$42.15 | -78% |
+| Sell at 10¢ | 8 | 2% | -$43.37 | -81% |
+| Sell at 25¢ | 3 | 1% | -$43.92 | -82% |
+| Sell at 50¢ | 2 | 1% | -$40.35 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -109,7 +109,7 @@
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 39 | 0 | 18% | 8% | -100% | -69% | 17 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
-| NHL Game | ✔ | 32 | 0 | 12% | 6% | -100% | -78% | 5 min |
+| NHL Game | ✔ | 33 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -198,7 +198,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 126 | 4% | 1% | 0% | -93% |
+| Under 5 min | 127 | 4% | 1% | 0% | -93% |
 | 5–15 min | 63 | 11% | 3% | 0% | -81% |
 | 15–30 min | 68 | 26% | 10% | 1% | -54% |
 | 30–60 min | 53 | 11% | 6% | 0% | -80% |
@@ -220,6 +220,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 04:56 | NHL Game | Calgary | ✔ | 2:44 - 3rd · CGY 1 - VAN 3 | — | In play | — |
+| 10-04 04:53 | Challenger ATP  | Siddhant Banthia | ✘ | — | — | In play | — |
+| 10-04 04:49 | NHL Game | Los Angeles | ✔ | 1:42 - OT · LA 4 - SJ 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:45 | WTA Tennis Match | Aryna Sabalenka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:44 | WTA Tennis Match | Dayana Yastremska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:41 | College Football Game | Washington St. | ✔ | 4:00 - 4th · FRES 16 - WSU 6 | — | In play | — |
@@ -247,9 +250,6 @@
 | 10-04 03:02 | USL Championship Game | Oakland Roots SC | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:02 | Liga Expansion Game | Atletico Morelia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:00 | Challenger ATP  | Yan Lang Chen | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 03:00 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:59 | College Football Game | Arkansas St. | ✔ | 0:03 - 4th · ARST 20 - UL 20 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:55 | Women's College Volleyball Match | Virginia Tech | ✘ | — | — | In play | — |
 
 ## Raw data
 
