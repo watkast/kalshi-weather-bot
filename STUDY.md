@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 7:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 7:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.35/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3972 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3975 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3570 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3571 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | Counter-Strike 2 Game | ✘ | 255 | 1 | 4% | 3% | -63% | -94% | 9 min |
 | ITF Men's Match | ✘ | 254 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | ITF Women's Match | ✘ | 243 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 190 | 1 | 8% | 3% | -51% | -85% | 5 min |
+| Challenger ATP  | ✘ | 191 | 1 | 8% | 3% | -51% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -221,9 +221,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 13:42 | Bundesliga Basketball Game | Baskets Oldenburg | ✘ | — | — | In play | — |
+| 10-04 13:41 | Men's T20 Cricket Match | Tuskers | ✘ | — | — | In play | — |
+| 10-04 13:35 | Challenger WTA | Alya Naz Altinel | ✘ | — | — | In play | — |
 | 10-04 13:32 | Men's T20 Cricket Match | Limpopo Impalas | ✘ | — | — | In play | — |
 | 10-04 13:31 | International Friendly Game | Comoros | ✔ | 27' · SEN 1 - COM 0 | — | In play | — |
-| 10-04 13:26 | Challenger ATP  | Rafael Izquierdo Luque | ✘ | — | — | In play | — |
+| 10-04 13:26 | Challenger ATP  | Rafael Izquierdo Luque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:22 | Valorant game winner | FUT Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:16 | ITF Men's Match | AUM HIREN THAKKAR | ✘ | — | — | In play | — |
 | 10-04 13:13 | KHL Game | Sibir Novosibirsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,9 +251,6 @@
 | 10-04 12:30 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:30 | Ettan Game | Vasalunds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:29 | Ettan Game | Olympic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 12:29 | Serie A Femminile Game | Napoli | ✘ | — | — | In play | — |
-| 10-04 12:29 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
-| 10-04 12:29 | Serie C Game | Union Brescia | ✘ | — | — | In play | — |
 
 ## Raw data
 
