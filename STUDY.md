@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 2:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 3:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 409 finished bets | 0% | -$47.35 | -77% | -11.58¢ | -$16.60 / -$30.75 |
+| ESPN-verified leagues only, hold to the end | 411 finished bets | 0% | -$47.65 | -77% | -11.59¢ | -$16.75 / -$30.90 |
 
-*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 409 | -$47.57 | -78% |
-| ESPN-verified leagues only, sell at 50¢ | 409 | -$47.85 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 409 | -$48.35 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 411 | -$47.87 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 411 | -$48.15 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 411 | -$48.65 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4207 | 409 | 1 (0%) | 1.1% | -$47.35 (-77%) | Hold to the end: -$47.35 (-77%) |
+| 4214 | 411 | 1 (0%) | 1.1% | -$47.65 (-77%) | Hold to the end: -$47.65 (-77%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 409 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3787 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Verified | 411 | 13% | 8% | 5% | 2% | 1% | 0% |
+| Unverified | 3789 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$47.35 | -77% |
-| Sell at 2¢ | 53 | 13% | -$47.57 | -78% |
-| Sell at 3¢ | 32 | 8% | -$48.87 | -80% |
-| Sell at 5¢ | 20 | 5% | -$48.35 | -79% |
-| Sell at 10¢ | 9 | 2% | -$49.56 | -81% |
-| Sell at 25¢ | 3 | 1% | -$51.42 | -84% |
-| Sell at 50¢ | 2 | 0% | -$47.85 | -78% |
+| Hold to the end | 1 | 0% | -$47.65 | -77% |
+| Sell at 2¢ | 53 | 13% | -$47.87 | -78% |
+| Sell at 3¢ | 32 | 8% | -$49.17 | -80% |
+| Sell at 5¢ | 20 | 5% | -$48.65 | -79% |
+| Sell at 10¢ | 9 | 2% | -$49.86 | -81% |
+| Sell at 25¢ | 3 | 1% | -$51.72 | -84% |
+| Sell at 50¢ | 2 | 0% | -$48.15 | -78% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -123,17 +123,17 @@
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LaLiga 2 Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 9 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | AHL Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | ATP Tennis Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| LaLiga 2 Game | partly | 18 | 0 | 11% | 6% | -100% | -81% | 11 min |
+| Uruguay Primera Division Game | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 14 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Uruguay Primera Division Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 14 min |
 | NWSL Game | ✔ | 16 | 0 | 12% | 0% | -100% | -78% | 10 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
 | Slovakian 2. Liga Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 111 min |
@@ -200,7 +200,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 155 | 6% | 1% | 0% | -90% |
+| Under 5 min | 157 | 6% | 1% | 0% | -90% |
 | 5–15 min | 69 | 12% | 3% | 0% | -80% |
 | 15–30 min | 75 | 29% | 12% | 1% | -49% |
 | 30–60 min | 56 | 12% | 5% | 0% | -78% |
@@ -222,10 +222,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 20:50 | LaLiga 2 Game | Girona | ✔ | 90'+2' · MLL 0 - GIR 0 | — | In play | — |
-| 10-04 20:50 | LaLiga 2 Game | Mallorca | ✔ | 90'+2' · MLL 0 - GIR 0 | — | In play | — |
+| 10-04 21:02 | USL Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-04 21:01 | USL Cup Game | Reg Time: Hartford Athletic | ✘ | — | — | In play | — |
+| 10-04 21:01 | Rugby French 14 Match | RC Toulon | ✘ | — | — | In play | — |
+| 10-04 21:01 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
+| 10-04 20:57 | Liga DIMAYOR Game | Fortaleza | ✘ | — | — | In play | — |
+| 10-04 20:56 | Liga DIMAYOR Game | Pasto | ✘ | — | — | In play | — |
+| 10-04 20:55 | Darts Match | Gerwyn Price | ✘ | — | — | In play | — |
+| 10-04 20:50 | LaLiga 2 Game | Girona | ✔ | 90'+2' · MLL 0 - GIR 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:50 | LaLiga 2 Game | Mallorca | ✔ | 90'+2' · MLL 0 - GIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:49 | R6 Game | LOUD | ✘ | — | — | In play | — |
-| 10-04 20:44 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-04 20:44 | Uruguay Primera Division Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+5' · NOR 1 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:38 | UEFA Nations League Game | Germany | ✔ | 90'+3' · GER 0 - GRE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:37 | UEFA Nations League Game | Greece | ✔ | 90'+3' · GER 0 - GRE 0 | 2¢ | ❌ Lost | -$0.15 |
@@ -240,18 +247,11 @@
 | 10-04 20:28 | UEFA Nations League Game | Wales | ✔ | 85' · DEN 1 - WAL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:27 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:27 | Women's College Volleyball Match | Ole Miss | ✘ | — | — | In play | — |
-| 10-04 20:26 | Uruguay Primera Division Game | Cerro | ✘ | — | — | In play | — |
+| 10-04 20:26 | Uruguay Primera Division Game | Cerro | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 20:26 | Serie C Game | Latina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:26 | Serie C Game | Ostia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:25 | Women's College Volleyball Match | Njit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:25 | Men's T20 Cricket Match | Stack CC B | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 20:24 | Serie C Game | Bari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:24 | Women's College Volleyball Match | Texas Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:23 | Serie C Game | Altamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:23 | Serie C Game | Cerignola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:23 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:20 | Women's College Volleyball Match | Georgia Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:17 | UEFA Nations League Game | Serbia | ✔ | 75' · SRB 1 - NED 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
