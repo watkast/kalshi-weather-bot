@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 373 finished bets | 0% | -$41.95 | -75% | -11.25¢ | -$13.90 / -$28.05 |
 
-*Expect about **55 buys a day**, roughly **$8.29/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.28/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4076 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
+| 4079 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
 
 *In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3692 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3695 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 261 | 1 | 4% | 3% | -64% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 262 | 1 | 4% | 3% | -64% | -93% | 9 min |
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 202 | 1 | 8% | 2% | -54% | -85% | 5 min |
@@ -141,9 +141,9 @@
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | LaLiga 2 Game | partly | 14 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
+| DEL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| DEL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | England Women's Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 48 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
@@ -170,10 +170,10 @@
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | College Hockey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
+| Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Austria BSL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 14 min |
 | Spain Liga ACB Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 149 min |
-| Russia VTB United Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 25 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
@@ -222,15 +222,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 17:05 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | — | In play | — |
+| 10-04 17:00 | Czech NBL Game | BK Olomoucko | ✘ | — | — | In play | — |
+| 10-04 16:59 | England Super League Basketball Game | Manchester Basketball | ✘ | — | — | In play | — |
 | 10-04 16:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:49 | Counter-Strike 2 Game | G2 | ✘ | — | — | In play | — |
+| 10-04 16:49 | Counter-Strike 2 Game | G2 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:49 | DEL Game | Adler Mannheim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:48 | DEL Game | Krefeld Pinguine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:48 | Spain Liga ACB Game | Basket Zaragoza 2002 | ✘ | — | — | In play | — |
 | 10-04 16:48 | League of Legends Game | The Secret Club Esport | ✘ | — | — | In play | — |
 | 10-04 16:47 | Ettan Game | Hammarby Talang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:44 | Eredivisie Vrouwen Game | Heerenveen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:41 | DEL Game | ERC Ingolstadt | ✘ | — | — | In play | — |
+| 10-04 16:41 | DEL Game | ERC Ingolstadt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:38 | R6 Game | INTZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:37 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:33 | ITF Women's Match | Leila Fabbri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,9 +252,6 @@
 | 10-04 16:14 | Eredivisie Vrouwen Game | ADO Den Haag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:14 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:13 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:12 | Russia VTB United Game | Zenit Saint Petersburg | ✘ | — | — | In play | — |
-| 10-04 16:12 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:11 | Challenger ATP  | Sergi Perez Contri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
