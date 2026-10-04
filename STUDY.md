@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 361 finished bets | 0% | -$40.15 | -74% | -11.12¢ | -$13.00 / -$27.15 |
 
-*Expect about **58 buys a day**, roughly **$8.72/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3860 | 361 | 1 (0%) | 1.1% | -$40.15 (-74%) | Hold to the end: -$40.15 (-74%) |
+| 3863 | 361 | 1 (0%) | 1.1% | -$40.15 (-74%) | Hold to the end: -$40.15 (-74%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -220,6 +220,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 05:48 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 05:47 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 05:45 | Challenger ATP  | Zicong Wang | ✘ | — | — | In play | — |
 | 10-04 05:37 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
 | 10-04 05:29 | Challenger ATP  | Mattia Bellucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 05:29 | Japan J2 League Game | Iwaki FC | ✘ | — | — | In play | — |
@@ -247,9 +250,6 @@
 | 10-04 03:45 | ATP Tennis Match | Kyrian Jacquet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:44 | Challenger ATP  | Ajeet Rai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:43 | AHL Game | Bakersfield Condors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:42 | AHL Game | Ontario Reign | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:42 | CONCACAF Nations League Game | Tie | ✔ | 86' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
