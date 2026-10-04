@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 11:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4093 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
+| 4097 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3710 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3712 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -128,8 +128,8 @@
 | ATP Tennis Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| ELH Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| ELH Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
@@ -174,13 +174,13 @@
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
+| Italy Serie A Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LKL Lithuania Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Italy Serie A Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -222,8 +222,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 17:45 | Bundesliga Basketball Game | Riesen Ludwigsburg | ✘ | — | — | In play | — |
+| 10-04 17:43 | Men's T20 Cricket Match | Gamblers SC | ✘ | — | — | In play | — |
+| 10-04 17:39 | ELH Game | HC Vitkovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:38 | Italy Serie A2 Game | Urania Milano | ✘ | — | — | In play | — |
 | 10-04 17:36 | UEFA Nations League Game | Andorra | ✔ | 80' · AND 0 - MLT 1 | — | In play | — |
-| 10-04 17:29 | Italy Serie A Game | Pallacanestro Trieste 2004 | ✘ | — | — | In play | — |
+| 10-04 17:29 | Italy Serie A Game | Pallacanestro Trieste 2004 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:28 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:22 | Serie C Game | Dolomiti Bellunesi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,10 +252,6 @@
 | 10-04 16:47 | Ettan Game | Hammarby Talang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:44 | Eredivisie Vrouwen Game | Heerenveen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:41 | DEL Game | ERC Ingolstadt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:38 | R6 Game | INTZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:37 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:33 | ITF Women's Match | Leila Fabbri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:32 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
