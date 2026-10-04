@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 6:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 6:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.38/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.37/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3948 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3953 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
 *In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3545 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3550 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 252 | 0 | 9% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 253 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 251 | 1 | 3% | 2% | -63% | -94% | 9 min |
 | ITF Women's Match | ✘ | 240 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 184 | 1 | 8% | 2% | -49% | -86% | 5 min |
+| Challenger ATP  | ✘ | 186 | 1 | 9% | 3% | -50% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -109,8 +109,8 @@
 | Dota 2 Game | ✘ | 42 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | Men's T20 Cricket Match | ✘ | 40 | 0 | 18% | 8% | -100% | -70% | 16 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
+| Challenger WTA | ✘ | 34 | 0 | 21% | 12% | -100% | -64% | 10 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
-| Challenger WTA | ✘ | 32 | 0 | 19% | 12% | -100% | -68% | 10 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Championship Game | partly | 26 | 0 | 15% | 4% | -100% | -73% | 8 min |
@@ -221,6 +221,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 12:40 | Challenger ATP  | Inaki Montes-de la Torre | ✘ | — | — | In play | — |
+| 10-04 12:38 | ITF Men's Match | Joao Azzari Cabas | ✘ | — | — | In play | — |
+| 10-04 12:36 | Challenger WTA | Adelina Lachinova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 12:36 | Challenger ATP  | Niels Visker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 12:33 | Ettan Game | Tie | ✘ | — | — | In play | — |
 | 10-04 12:30 | Dota 2 Game | IaChIo123 | ✘ | — | — | In play | — |
 | 10-04 12:30 | Ettan Game | Vasalunds | ✘ | — | — | In play | — |
 | 10-04 12:29 | Ettan Game | Olympic | ✘ | — | — | In play | — |
@@ -230,9 +235,9 @@
 | 10-04 12:28 | Serie C Game | Lecco | ✘ | — | — | In play | — |
 | 10-04 12:28 | Serie C Game | Treviso FBC | ✘ | — | — | In play | — |
 | 10-04 12:28 | Serie C Game | Giana Erminio | ✘ | — | — | In play | — |
-| 10-04 12:28 | ITF Men's Match | Calvin Habiyambere | ✘ | — | — | In play | — |
+| 10-04 12:28 | ITF Men's Match | Calvin Habiyambere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:26 | Spain Liga ACB Game | Bilbao Basket | ✘ | — | — | In play | — |
-| 10-04 12:18 | Challenger ATP  | Enrique Carrascosa Diaz | ✘ | — | — | In play | — |
+| 10-04 12:18 | Challenger ATP  | Enrique Carrascosa Diaz | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-04 12:14 | Challenger ATP  | Pedro Rodenas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:12 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:08 | Challenger ATP  | Andrea de Marchi | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
@@ -246,11 +251,6 @@
 | 10-04 11:53 | Overwatch Game | Solus Victorem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:50 | Challenger ATP  | Milos Karol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:49 | Counter-Strike 2 Game | PARIVISION | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 11:47 | Japan NPB Game | Tohoku Rakuten Golden Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 11:42 | ITF Women's Match | Daniella Dimitrova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 11:29 | ITF Men's Match | Rahul Lokesh | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 11:28 | ITF Men's Match | Harel Tarshish | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 11:22 | Challenger ATP  | Alberto Barroso Campos | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
