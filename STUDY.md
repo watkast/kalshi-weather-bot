@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 9:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 347 finished bets | 0% | -$38.05 | -73% | -10.97¢ | -$11.95 / -$26.10 |
+| ESPN-verified leagues only, hold to the end | 349 finished bets | 0% | -$38.35 | -73% | -10.99¢ | -$12.10 / -$26.25 |
 
-*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.51/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 347 | -$38.55 | -74% |
-| ESPN-verified leagues only, sell at 5¢ | 347 | -$40.35 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 347 | -$41.39 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 349 | -$38.85 | -74% |
+| ESPN-verified leagues only, sell at 5¢ | 349 | -$40.65 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 349 | -$41.69 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3826 | 347 | 1 (0%) | 1.1% | -$38.05 (-73%) | Hold to the end: -$38.05 (-73%) |
+| 3826 | 349 | 1 (0%) | 1.1% | -$38.35 (-73%) | Hold to the end: -$38.35 (-73%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 67 | 2.0% | 0.0% (0) | -157% | ❌ Worse |
+| ESPN win probability | 69 | 2.0% | 0.0% (0) | -154% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 67 | 0 | -100% | -77% | -84% | -74% |
+| **Any 1¢ (no model)** | 69 | 0 | -100% | -77% | -85% | -75% |
 | ESPN win probability ≥ 2% | 10 | 0 | -100% | -83% | -100% | -100% |
 | ESPN win probability ≥ 5% | 2 | 0 | -100% | -100% | -100% | -100% |
 | ESPN win probability ≥ 10% | 2 | 0 | -100% | -100% | -100% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 347 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3466 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 349 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Unverified | 3467 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$38.05 | -73% |
-| Sell at 2¢ | 41 | 12% | -$41.39 | -80% |
-| Sell at 3¢ | 23 | 7% | -$43.08 | -83% |
-| Sell at 5¢ | 18 | 5% | -$40.35 | -78% |
-| Sell at 10¢ | 8 | 2% | -$41.57 | -80% |
-| Sell at 25¢ | 3 | 1% | -$42.12 | -81% |
-| Sell at 50¢ | 2 | 1% | -$38.55 | -74% |
+| Hold to the end | 1 | 0% | -$38.35 | -73% |
+| Sell at 2¢ | 41 | 12% | -$41.69 | -80% |
+| Sell at 3¢ | 23 | 7% | -$43.38 | -83% |
+| Sell at 5¢ | 18 | 5% | -$40.65 | -78% |
+| Sell at 10¢ | 8 | 2% | -$41.87 | -80% |
+| Sell at 25¢ | 3 | 1% | -$42.42 | -81% |
+| Sell at 50¢ | 2 | 1% | -$38.85 | -74% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,10 +96,10 @@
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 234 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 157 | 0 | 8% | 1% | -100% | -87% | 4 min |
+| Challenger ATP  | ✘ | 158 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
+| College Football Game | partly | 89 | 2 | 13% | 6% | +110% | -77% | 49 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
-| College Football Game | partly | 87 | 2 | 14% | 6% | +115% | -76% | 46 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 65 | 1 | 22% | 9% | +44% | -63% | 26 min |
 | Women's College Volleyball Match | ✘ | 59 | 0 | 5% | 2% | -100% | -91% | 68 min |
@@ -200,8 +200,8 @@
 | Under 5 min | 124 | 4% | 1% | 0% | -93% |
 | 5–15 min | 59 | 12% | 3% | 0% | -79% |
 | 15–30 min | 66 | 27% | 11% | 2% | -53% |
-| 30–60 min | 51 | 12% | 6% | 0% | -80% |
-| Over 60 min | 47 | 11% | 11% | 0% | -82% |
+| 30–60 min | 52 | 12% | 6% | 0% | -80% |
+| Over 60 min | 48 | 10% | 10% | 0% | -82% |
 
 ## Speed & liquidity
 
@@ -223,7 +223,7 @@
 | 10-04 03:02 | USL Championship Game | Colorado Springs Sw. | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:02 | USL Championship Game | Oakland Roots SC | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:02 | Liga Expansion Game | Atletico Morelia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:00 | Challenger ATP  | Yan Lang Chen | ✘ | — | — | In play | — |
+| 10-04 03:00 | Challenger ATP  | Yan Lang Chen | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 03:00 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:59 | College Football Game | Arkansas St. | ✔ | 0:03 - 4th · ARST 20 - UL 20 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:55 | Women's College Volleyball Match | Virginia Tech | ✘ | — | — | In play | — |
