@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3899 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3904 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3509 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3511 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -107,7 +107,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 42 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Men's T20 Cricket Match | ✘ | 39 | 0 | 18% | 8% | -100% | -69% | 17 min |
+| Men's T20 Cricket Match | ✘ | 40 | 0 | 18% | 8% | -100% | -70% | 16 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
 | Challenger WTA | ✘ | 29 | 0 | 17% | 14% | -100% | -70% | 10 min |
@@ -127,10 +127,10 @@
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ATP Tennis Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 2 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
-| ATP Tennis Match | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 2 min |
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
@@ -220,9 +220,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 10:34 | Challenger ATP  | Oscar Jose Gutierrez | ✘ | — | — | In play | — |
+| 10-04 10:33 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | — | In play | — |
+| 10-04 10:33 | Rugby NRL Match | Newcastle Knights | ✘ | — | — | In play | — |
+| 10-04 10:33 | Challenger ATP  | Mathys Erhard | ✘ | — | — | In play | — |
+| 10-04 10:31 | League of Legends Game | RED Canids | ✘ | — | — | In play | — |
 | 10-04 10:26 | Challenger ATP  | Sergey Betov | ✘ | — | — | In play | — |
-| 10-04 10:21 | Men's T20 Cricket Match | Tiger Strikers | ✘ | — | — | In play | — |
-| 10-04 10:20 | ATP Tennis Match | Francisco Cerundolo | ✘ | — | — | In play | — |
+| 10-04 10:21 | Men's T20 Cricket Match | Tiger Strikers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:20 | ATP Tennis Match | Francisco Cerundolo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:19 | Slovakian 2. Liga Game | Petrzalka | ✘ | — | — | In play | — |
 | 10-04 10:08 | Challenger ATP  | Sergi Fita Juan | ✘ | — | — | In play | — |
 | 10-04 10:03 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
@@ -245,11 +250,6 @@
 | 10-04 08:09 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:01 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 07:59 | Japan J2 League Game | Jubilo I | ✘ | — | — | In play | — |
-| 10-04 07:53 | Australia NBL Game | Adelaide 36ers | ✘ | — | — | In play | — |
-| 10-04 07:42 | KBO Game | Hanwha Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 07:38 | Challenger ATP  | Egor Agafonov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 07:35 | Overwatch Game | SEIJI ESPORTS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 07:18 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
