@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 5:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 5:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 415 finished bets | 0% | -$48.25 | -78% | -11.63¢ | -$17.05 / -$31.20 |
 
-*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.92/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4245 | 415 | 1 (0%) | 1.1% | -$48.25 (-78%) | Hold to the end: -$48.25 (-78%) |
+| 4246 | 415 | 1 (0%) | 1.1% | -$48.25 (-78%) | Hold to the end: -$48.25 (-78%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 23:29 | NFL Game | Denver | ✔ | 2:00 - 4th · DEN 14 - SF 24 | — | In play | — |
 | 10-04 23:24 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
 | 10-04 23:22 | CONCACAF Nations League Game | Cayman Islands | ✔ | 64' · CAY 0 - PUR 0 | — | In play | — |
 | 10-04 22:57 | NFL Game | Miami | ✔ | 2:07 - 4th · MIA 10 - MIN 15 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 21:22 | College Hockey Game | Minnesota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:22 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 21:14 | Canadian Premier League | Pacific | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:12 | CONCACAF Nations League Game | Bahamas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
