@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 6:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 6:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.40/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.39/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3933 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3937 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
 *In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3540 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3544 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 252 | 0 | 9% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 248 | 1 | 3% | 2% | -62% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 251 | 1 | 3% | 2% | -63% | -94% | 9 min |
 | ITF Women's Match | ✘ | 240 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 182 | 1 | 8% | 2% | -49% | -87% | 5 min |
+| Challenger ATP  | ✘ | 183 | 1 | 8% | 2% | -49% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -221,7 +221,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 12:06 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
+| 10-04 12:18 | Challenger ATP  | Enrique Carrascosa Diaz | ✘ | — | — | In play | — |
+| 10-04 12:14 | Challenger ATP  | Pedro Rodenas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 12:12 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 12:08 | Challenger ATP  | Andrea de Marchi | ✘ | — | — | In play | — |
+| 10-04 12:06 | Counter-Strike 2 Game | Infinite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:00 | Japan NPB Game | Tokyo Yakult Swallows | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:57 | Japan J2 League Game | Omiya ArdijaA | ✘ | — | — | In play | — |
 | 10-04 11:57 | Japan J2 League Game | Tegevajaro | ✘ | — | — | In play | — |
@@ -230,7 +234,7 @@
 | 10-04 11:55 | Challenger ATP  | Daniele Rapagnetta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:53 | Overwatch Game | Solus Victorem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:50 | Challenger ATP  | Milos Karol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 11:49 | Counter-Strike 2 Game | PARIVISION | ✘ | — | — | In play | — |
+| 10-04 11:49 | Counter-Strike 2 Game | PARIVISION | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:47 | Japan NPB Game | Tohoku Rakuten Golden Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:42 | ITF Women's Match | Daniella Dimitrova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:29 | ITF Men's Match | Rahul Lokesh | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -247,10 +251,6 @@
 | 10-04 10:53 | Challenger ATP  | Juan Cruz Martin Manzano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:52 | ITF Women's Match | Sapir Cohen | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:51 | Valorant game winner | Global Esports | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-04 10:39 | Challenger ATP  | Daniel Siniakov | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-04 10:38 | Challenger WTA | Maria Golovina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 10:37 | ATP Tennis Match | Adolfo Daniel Vallejo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 10:34 | Challenger ATP  | Oscar Jose Gutierrez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
