@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 370 finished bets | 0% | -$41.50 | -75% | -11.22¢ | -$13.75 / -$27.75 |
 
-*Expect about **55 buys a day**, roughly **$8.28/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.29/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4032 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
+| 4035 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 370 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3655 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3657 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 257 | 1 | 4% | 3% | -64% | -93% | 9 min |
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
-| ITF Women's Match | ✘ | 246 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 247 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 196 | 1 | 9% | 3% | -52% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -177,9 +177,9 @@
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| LKL Lithuania Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
-| LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -222,10 +222,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 15:53 | Counter-Strike 2 Game | FURIA | ✘ | — | — | In play | — |
+| 10-04 15:47 | LaLiga 2 Game | Celta Fortuna | ✔ | 60' · CEL 1 - RSG 2 | — | In play | — |
+| 10-04 15:47 | ITF Men's Match | Vansh Janghu | ✘ | — | — | In play | — |
 | 10-04 15:41 | Challenger ATP  | Santiago De la Fuente | ✘ | — | — | In play | — |
 | 10-04 15:37 | Italy Serie A Game | Derthona Basket | ✘ | — | — | In play | — |
-| 10-04 15:36 | LKL Lithuania Game | BC Lietkabelis Panevezys | ✘ | — | — | In play | — |
-| 10-04 15:34 | ITF Women's Match | Andreya Glushkova | ✘ | — | — | In play | — |
+| 10-04 15:36 | LKL Lithuania Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 15:34 | ITF Women's Match | Andreya Glushkova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 15:28 | ITF Women's Match | Florence Fedeli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:21 | ITF Women's Match | Alexa Karatancheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:17 | Austria BSL Game | Oberwart Gunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,9 +252,6 @@
 | 10-04 14:31 | England Women's Super League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 14:30 | Counter-Strike 2 Game | Luminosity | ✘ | — | 34¢ | ❌ Lost | -$0.15 |
 | 10-04 14:28 | Serie C Game | Sassari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:28 | Serie C Game | Campobasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:27 | National League Game | HC Lugano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:25 | DEL Game | Nuremberg Ice Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
