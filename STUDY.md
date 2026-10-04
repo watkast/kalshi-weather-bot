@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 1:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 1:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 364 finished bets | 0% | -$40.60 | -74% | -11.15¢ | -$13.30 / -$27.30 |
+| ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 364 | -$41.10 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 364 | -$42.90 | -79% |
-| ESPN-verified leagues only, sell at 2¢ | 364 | -$43.68 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 365 | -$41.25 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 365 | -$43.05 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 365 | -$43.83 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3868 | 364 | 1 (0%) | 1.1% | -$40.60 (-74%) | Hold to the end: -$40.60 (-74%) |
+| 3870 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 74 | 2.3% | 0.0% (0) | -181% | ❌ Worse |
+| ESPN win probability | 75 | 2.3% | 0.0% (0) | -177% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 74 | 0 | -100% | -77% | -82% | -77% |
+| **Any 1¢ (no model)** | 75 | 0 | -100% | -77% | -83% | -77% |
 | ESPN win probability ≥ 2% | 12 | 0 | -100% | -71% | -78% | -100% |
 | ESPN win probability ≥ 5% | 4 | 0 | -100% | -57% | -35% | -100% |
 | ESPN win probability ≥ 10% | 3 | 0 | -100% | -42% | -13% | -100% |
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 364 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
 | Unverified | 3488 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$40.60 | -74% |
-| Sell at 2¢ | 42 | 12% | -$43.68 | -80% |
-| Sell at 3¢ | 24 | 7% | -$45.24 | -83% |
-| Sell at 5¢ | 18 | 5% | -$42.90 | -79% |
-| Sell at 10¢ | 8 | 2% | -$44.12 | -81% |
-| Sell at 25¢ | 3 | 1% | -$44.67 | -82% |
-| Sell at 50¢ | 2 | 1% | -$41.10 | -75% |
+| Hold to the end | 1 | 0% | -$40.75 | -74% |
+| Sell at 2¢ | 42 | 12% | -$43.83 | -80% |
+| Sell at 3¢ | 24 | 7% | -$45.39 | -83% |
+| Sell at 5¢ | 18 | 5% | -$43.05 | -79% |
+| Sell at 10¢ | 8 | 2% | -$44.27 | -81% |
+| Sell at 25¢ | 3 | 1% | -$44.82 | -82% |
+| Sell at 50¢ | 2 | 1% | -$41.25 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -98,7 +98,7 @@
 | ITF Women's Match | ✘ | 235 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 164 | 0 | 7% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
-| College Football Game | partly | 96 | 2 | 14% | 5% | +94% | -77% | 48 min |
+| College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
@@ -198,7 +198,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 128 | 5% | 1% | 0% | -92% |
+| Under 5 min | 129 | 5% | 1% | 0% | -92% |
 | 5–15 min | 64 | 11% | 3% | 0% | -81% |
 | 15–30 min | 69 | 26% | 10% | 1% | -55% |
 | 30–60 min | 54 | 11% | 6% | 0% | -81% |
@@ -220,6 +220,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 07:18 | KBO Game | Samsung Lions | ✘ | — | — | In play | — |
+| 10-04 07:13 | College Football Game | Hawai'i | ✔ | 0:03 - 4th · SJSU 20 - HAW 16 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 07:03 | Challenger WTA | Jessica Bouzas Maneiro | ✘ | — | — | In play | — |
 | 10-04 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 06:48 | Japan J2 League Game | Tosu | ✘ | — | — | In play | — |
@@ -248,8 +250,6 @@
 | 10-04 04:26 | AHL Game | Tucson Roadrunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:07 | Professional Baseball Game | San Diego | ✔ | Top 9th · SD 2 - MIL 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:02 | USL Championship Game | Tie | ✔ | 90'+7' · MTB 2 - OCSC 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:57 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
-| 10-04 03:54 | USL Championship Game | Orange County | ✔ | 90' · MTB 2 - OCSC 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
