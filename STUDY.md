@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 2:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 2:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.60/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.59/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3879 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3881 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3494 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3496 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -118,7 +118,7 @@
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| KBO Game | ✘ | 21 | 0 | 5% | 5% | -100% | -92% | 5 min |
+| KBO Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 7 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
@@ -139,9 +139,9 @@
 | Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 14 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
+| Overwatch Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
-| Overwatch Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
@@ -220,8 +220,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 08:33 | Overwatch Game | SHENGSHI Esports | ✘ | — | — | In play | — |
-| 10-04 08:13 | KBO Game | NC Dinos | ✘ | — | — | In play | — |
+| 10-04 08:42 | Challenger ATP  | Taisei Ichikawa | ✘ | — | — | In play | — |
+| 10-04 08:41 | KBO Game | LG Twins | ✘ | — | — | In play | — |
+| 10-04 08:33 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 08:13 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:09 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:01 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 07:59 | Japan J2 League Game | Jubilo I | ✘ | — | — | In play | — |
@@ -248,8 +250,6 @@
 | 10-04 05:15 | College Football Game | Eastern Washington | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 05:13 | ITF Women's Match | Xi Luo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:59 | College Football Game | Arizona St. | ✔ | 9:29 - 3rd · BAY 38 - ASU 13 | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 04:56 | NHL Game | Calgary | ✔ | 2:44 - 3rd · CGY 1 - VAN 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 04:53 | Challenger ATP  | Siddhant Banthia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
