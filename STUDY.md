@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 11:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 373 finished bets | 0% | -$41.95 | -75% | -11.25¢ | -$13.90 / -$28.05 |
 
-*Expect about **55 buys a day**, roughly **$8.26/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.27/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4090 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
+| 4093 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3702 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3710 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -108,7 +108,7 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Men's T20 Cricket Match | ✘ | 43 | 0 | 16% | 7% | -100% | -72% | 18 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Serie C Game | ✘ | 38 | 0 | 8% | 0% | -100% | -86% | 9 min |
+| Serie C Game | ✘ | 43 | 1 | 9% | 2% | +117% | -84% | 9 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
 | International Friendly Game | partly | 37 | 0 | 5% | 0% | -100% | -91% | 17 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
@@ -141,11 +141,11 @@
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | LaLiga 2 Game | partly | 14 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
+| England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | DEL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
-| England Women's Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 48 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -160,9 +160,9 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| Austria BSL Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 5 min |
 | Bundesliga Basketball Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
-| Austria BSL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 5 min |
 | LNB Elite Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -222,17 +222,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | — | In play | — |
-| 10-04 17:22 | Serie C Game | Dolomiti Bellunesi | ✘ | — | — | In play | — |
-| 10-04 17:22 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-04 17:36 | UEFA Nations League Game | Andorra | ✔ | 80' · AND 0 - MLT 1 | — | In play | — |
+| 10-04 17:29 | Italy Serie A Game | Pallacanestro Trieste 2004 | ✘ | — | — | In play | — |
+| 10-04 17:28 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:22 | Serie C Game | Dolomiti Bellunesi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:22 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:21 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-04 17:20 | Copa Del Rey Game | Reg Time: Cp Talayuela | ✘ | — | — | In play | — |
-| 10-04 17:20 | Serie C Game | Reggiana | ✘ | — | — | In play | — |
+| 10-04 17:20 | Serie C Game | Reggiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:17 | Austria BSL Game | Flyers Wels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:17 | Serie C Game | Novara | ✘ | — | — | In play | — |
-| 10-04 17:16 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 17:17 | Serie C Game | Novara | ✘ | — | 99¢ | ✅ Won | $13.85 |
+| 10-04 17:16 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:16 | Austria BSL Game | Eagles Graz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:14 | England Women's Super League Game | Arsenal | ✘ | — | — | In play | — |
+| 10-04 17:14 | England Women's Super League Game | Arsenal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:05 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:00 | Czech NBL Game | BK Olomoucko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:59 | England Super League Basketball Game | Manchester Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,9 +252,6 @@
 | 10-04 16:37 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:33 | ITF Women's Match | Leila Fabbri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:32 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:29 | Eredivisie Vrouwen Game | PEC Zwolle | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-04 16:27 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:27 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
