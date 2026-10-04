@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 6:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 6:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 307 finished bets | 0% | -$32.05 | -70% | -10.44¢ | -$8.95 / -$23.10 |
 
-*Expect about **52 buys a day**, roughly **$7.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.84/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3756 | 307 | 1 (0%) | 1.1% | -$32.05 (-70%) | Hold to the end: -$32.05 (-70%) |
+| 3759 | 307 | 1 (0%) | 1.1% | -$32.05 (-70%) | Hold to the end: -$32.05 (-70%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 307 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3429 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3432 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 65 | 1 | 22% | 9% | +44% | -63% | 26 min |
-| College Football Game | partly | 62 | 1 | 11% | 5% | +51% | -80% | 52 min |
+| College Football Game | partly | 63 | 1 | 11% | 5% | +48% | -81% | 52 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Women's College Volleyball Match | ✘ | 53 | 0 | 6% | 2% | -100% | -90% | 63 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -132,13 +132,13 @@
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
 | Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
+| AHL Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 8 min |
 | Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 14 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
 | NWSL Game | ✔ | 12 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | USL Championship Game | ✔ | 12 | 0 | 25% | 0% | -100% | -57% | 8 min |
-| AHL Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 7 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
@@ -219,11 +219,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 00:42 | AHL Game | Hershey Bears | ✘ | — | — | In play | — |
+| 10-04 00:53 | College Football Game | Rutgers | ✔ | 11:36 - 2nd · IU 10 - RUTG 0 | — | In play | — |
+| 10-04 00:52 | USL Championship Game | Tie | ✔ | 84' · RHI 3 - BFKC 0 | — | In play | — |
+| 10-04 00:51 | USL Championship Game | Birmingham Legion FC | ✔ | 85' · BRM 0 - DET 1 | — | In play | — |
+| 10-04 00:42 | AHL Game | Hershey Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:38 | Women's College Volleyball Match | California State Fullerton | ✘ | — | — | In play | — |
 | 10-04 00:38 | USL Championship Game | Brooklyn FC | ✔ | 70' · RHI 3 - BFKC 0 | — | In play | — |
 | 10-04 00:37 | College Football Game | Utah St. | ✔ | 9:26 - 2nd · USU 0 - BOIS 14 | — | In play | — |
-| 10-04 00:35 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
+| 10-04 00:35 | AHL Game | San Jose Barracuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:35 | USL Championship Game | El Paso Locomotive FC | ✔ | 68' · ELP 1 - LEX 3 | — | In play | — |
 | 10-04 00:35 | AHL Game | Wilkes Barre-Scranton Penguins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:29 | College Hockey Game | Arizona State | ✘ | — | — | In play | — |
@@ -241,14 +244,11 @@
 | 10-03 23:58 | USL Championship Game | Indy Eleven | ✔ | 90'+5' · INDY 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:56 | College Football Game | McNeese | ✔ | 15:00 - 1st · MCN 0 - LSU 0 | — | In play | — |
 | 10-03 23:52 | USL Championship Game | Loudoun United FC | ✔ | 89' · INDY 1 - LOU 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:51 | College Football Game | Southern Illinois | ✘ | — | — | In play | — |
+| 10-03 23:51 | College Football Game | Southern Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:38 | League of Legends Game | Cloud9 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:30 | Brasileiro Serie A Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:25 | College Football Game | Maryland | ✔ | 11:28 - 4th · MD 23 - NEB 35 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:25 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:22 | Brasileiro Serie A Game | Bragantino | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 23:20 | Women's College Volleyball Match | Maryland | ✘ | — | — | In play | — |
-| 10-03 23:20 | College Football Game | California | ✔ | 3:25 - 4th · CAL 25 - UNLV 38 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
