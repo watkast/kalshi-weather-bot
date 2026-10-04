@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 8:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 325 finished bets | 0% | -$34.75 | -71% | -10.69¢ | -$10.30 / -$24.45 |
+| ESPN-verified leagues only, hold to the end | 329 finished bets | 0% | -$35.35 | -72% | -10.74¢ | -$10.60 / -$24.75 |
 
-*Expect about **55 buys a day**, roughly **$8.22/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 325 | -$38.35 | -79% |
-| ESPN-verified leagues only, sell at 2¢ | 325 | -$39.13 | -80% |
-| ESPN-verified leagues only, sell at 10¢ | 325 | -$39.58 | -81% |
+| ESPN-verified leagues only, sell at 50¢ | 329 | -$35.85 | -73% |
+| ESPN-verified leagues only, sell at 5¢ | 329 | -$38.30 | -78% |
+| ESPN-verified leagues only, sell at 10¢ | 329 | -$38.87 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3791 | 325 | 1 (0%) | 1.1% | -$34.75 (-71%) | Hold to the end: -$34.75 (-71%) |
+| 3794 | 329 | 1 (0%) | 1.1% | -$35.35 (-72%) | Hold to the end: -$35.35 (-72%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 325 | 11% | 6% | 5% | 2% | 1% | 0% |
-| Unverified | 3440 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 329 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Unverified | 3442 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$34.75 | -71% |
-| Sell at 2¢ | 37 | 11% | -$39.13 | -80% |
-| Sell at 3¢ | 21 | 6% | -$40.56 | -83% |
-| Sell at 5¢ | 16 | 5% | -$38.35 | -79% |
-| Sell at 10¢ | 7 | 2% | -$39.58 | -81% |
-| Sell at 25¢ | 2 | 1% | -$42.13 | -86% |
-| Sell at 50¢ | 1 | 0% | -$42.00 | -86% |
+| Hold to the end | 1 | 0% | -$35.35 | -72% |
+| Sell at 2¢ | 38 | 12% | -$39.47 | -80% |
+| Sell at 3¢ | 22 | 7% | -$40.77 | -83% |
+| Sell at 5¢ | 17 | 5% | -$38.30 | -78% |
+| Sell at 10¢ | 8 | 2% | -$38.87 | -79% |
+| Sell at 25¢ | 3 | 1% | -$39.42 | -80% |
+| Sell at 50¢ | 2 | 1% | -$35.85 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -100,7 +100,7 @@
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| College Football Game | partly | 68 | 2 | 12% | 6% | +175% | -80% | 50 min |
+| College Football Game | partly | 69 | 2 | 12% | 6% | +171% | -80% | 49 min |
 | CONCACAF Nations League Game | partly | 65 | 1 | 22% | 9% | +44% | -63% | 26 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Women's College Volleyball Match | ✘ | 54 | 0 | 6% | 2% | -100% | -90% | 63 min |
@@ -108,10 +108,10 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 38 | 0 | 18% | 8% | -100% | -68% | 18 min |
-| International Friendly Game | partly | 32 | 0 | 3% | 0% | -100% | -95% | 14 min |
+| International Friendly Game | partly | 34 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| NHL Game | ✔ | 29 | 0 | 14% | 7% | -100% | -76% | 5 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
-| NHL Game | ✔ | 27 | 0 | 11% | 4% | -100% | -81% | 4 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
@@ -171,11 +171,11 @@
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | College Hockey Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Russia VTB United Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 5 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| CFL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -198,10 +198,10 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 116 | 4% | 1% | 0% | -93% |
-| 5–15 min | 57 | 11% | 2% | 0% | -82% |
-| 15–30 min | 60 | 25% | 10% | 2% | -57% |
+| 5–15 min | 58 | 12% | 3% | 0% | -79% |
+| 15–30 min | 61 | 25% | 10% | 2% | -57% |
 | 30–60 min | 51 | 12% | 6% | 0% | -80% |
-| Over 60 min | 41 | 12% | 12% | 0% | -79% |
+| Over 60 min | 43 | 12% | 12% | 0% | -80% |
 
 ## Speed & liquidity
 
@@ -219,14 +219,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 02:14 | College Football Game | Rice | ✔ | 0:57 - 4th · UTSA 16 - RICE 14 | — | In play | — |
+| 10-04 02:14 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-04 02:11 | College Football Game | Coastal Carolina | ✔ | 3:41 - 4th · GASO 31 - CCU 17 | — | In play | — |
 | 10-04 02:04 | College Football Game | West Florida | ✘ | — | — | In play | — |
 | 10-04 02:01 | USL Championship Game | Tulsa | ✔ | 90'+4' · SAC 1 - TUL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 01:57 | NHL Game | Montreal | ✔ | 2:05 - 3rd · MTL 3 - PIT 5 | — | In play | — |
-| 10-04 01:57 | NHL Game | New Jersey | ✔ | 8:28 - 3rd · NJ 0 - NYI 3 | — | In play | — |
-| 10-04 01:51 | CFL Game | Winnipeg Blue Bombers | ✘ | — | — | In play | — |
+| 10-04 01:57 | NHL Game | Montreal | ✔ | 2:05 - 3rd · MTL 3 - PIT 5 | 55¢ | ❌ Lost | -$0.15 |
+| 10-04 01:57 | NHL Game | New Jersey | ✔ | 8:28 - 3rd · NJ 0 - NYI 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 01:51 | CFL Game | Winnipeg Blue Bombers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:51 | College Football Game | TCU | ✔ | 2:06 - 4th · BYU 16 - TCU 7 | — | In play | — |
 | 10-04 01:50 | NHL Game | Toronto | ✔ | End of 3rd · OTT 3 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 01:50 | College Football Game | Nicholls St. | ✘ | — | — | In play | — |
+| 10-04 01:50 | College Football Game | Nicholls St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:46 | NHL Game | Philadelphia | ✔ | 2:20 - OT · CAR 2 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:46 | AHL Game | Lehigh Valley Phantoms | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:45 | USL Championship Game | Sacramento Republic | ✔ | 79' · SAC 0 - TUL 1 | 8¢ | ❌ Lost | -$0.15 |
@@ -246,9 +249,6 @@
 | 10-04 01:08 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 0 - TB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:03 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
 | 10-04 01:03 | College Football Game | Louisiana-Monroe | ✔ | 11:42 - 3rd · ULM 14 - USA 38 | — | In play | — |
-| 10-04 01:02 | USL Championship Game | Tie | ✔ | 90'+6' · BRM 0 - DET 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 01:00 | College Hockey Game | Bowling Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 00:57 | College Football Game | Arkansas | ✔ | 14:15 - 3rd · ARK 7 - TA&M 24 | — | In play | — |
 
 ## Raw data
 
