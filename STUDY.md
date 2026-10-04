@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 9:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 353 finished bets | 0% | -$38.95 | -74% | -11.03¢ | -$12.40 / -$26.55 |
+| ESPN-verified leagues only, hold to the end | 355 finished bets | 0% | -$39.25 | -74% | -11.06¢ | -$12.55 / -$26.70 |
 
-*Expect about **57 buys a day**, roughly **$8.60/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 353 | -$39.45 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 353 | -$41.25 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 353 | -$42.29 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 355 | -$39.75 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 355 | -$41.55 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 355 | -$42.59 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3839 | 353 | 1 (0%) | 1.1% | -$38.95 (-74%) | Hold to the end: -$38.95 (-74%) |
+| 3842 | 355 | 1 (0%) | 1.1% | -$39.25 (-74%) | Hold to the end: -$39.25 (-74%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 353 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3474 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 355 | 12% | 6% | 5% | 2% | 1% | 1% |
+| Unverified | 3477 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$38.95 | -74% |
-| Sell at 2¢ | 41 | 12% | -$42.29 | -80% |
-| Sell at 3¢ | 23 | 7% | -$43.98 | -83% |
-| Sell at 5¢ | 18 | 5% | -$41.25 | -78% |
-| Sell at 10¢ | 8 | 2% | -$42.47 | -80% |
-| Sell at 25¢ | 3 | 1% | -$43.02 | -81% |
-| Sell at 50¢ | 2 | 1% | -$39.45 | -75% |
+| Hold to the end | 1 | 0% | -$39.25 | -74% |
+| Sell at 2¢ | 41 | 12% | -$42.59 | -80% |
+| Sell at 3¢ | 23 | 6% | -$44.28 | -83% |
+| Sell at 5¢ | 18 | 5% | -$41.55 | -78% |
+| Sell at 10¢ | 8 | 2% | -$42.77 | -80% |
+| Sell at 25¢ | 3 | 1% | -$43.32 | -81% |
+| Sell at 50¢ | 2 | 1% | -$39.75 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,19 +96,19 @@
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 234 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 159 | 0 | 8% | 1% | -100% | -87% | 4 min |
+| Challenger ATP  | ✘ | 160 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 91 | 2 | 13% | 5% | +105% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
-| Women's College Volleyball Match | ✘ | 60 | 0 | 5% | 2% | -100% | -91% | 68 min |
+| Women's College Volleyball Match | ✘ | 61 | 0 | 5% | 2% | -100% | -91% | 68 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 31 min |
 | Men's T20 Cricket Match | ✘ | 39 | 0 | 18% | 8% | -100% | -69% | 17 min |
-| International Friendly Game | partly | 34 | 0 | 3% | 0% | -100% | -95% | 17 min |
+| International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | NHL Game | ✔ | 32 | 0 | 12% | 6% | -100% | -78% | 5 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Challenger WTA | ✘ | 28 | 0 | 14% | 11% | -100% | -75% | 10 min |
@@ -130,7 +130,7 @@
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
-| ATP Tennis Match | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 2 min |
+| ATP Tennis Match | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 2 min |
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
@@ -199,8 +199,8 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 124 | 4% | 1% | 0% | -93% |
-| 5–15 min | 61 | 11% | 3% | 0% | -80% |
-| 15–30 min | 67 | 27% | 10% | 1% | -53% |
+| 5–15 min | 62 | 11% | 3% | 0% | -80% |
+| 15–30 min | 68 | 26% | 10% | 1% | -54% |
 | 30–60 min | 53 | 11% | 6% | 0% | -80% |
 | Over 60 min | 48 | 10% | 10% | 0% | -82% |
 
@@ -220,19 +220,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 04:07 | Professional Baseball Game | San Diego | ✔ | Top 9th · SD 2 - MIL 3 | — | In play | — |
+| 10-04 04:02 | USL Championship Game | Tie | ✔ | 90'+7' · MTB 2 - OCSC 1 | — | In play | — |
+| 10-04 03:57 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
 | 10-04 03:54 | USL Championship Game | Orange County | ✔ | 90' · MTB 2 - OCSC 1 | — | In play | — |
-| 10-04 03:53 | Challenger ATP  | Naoya Honda | ✘ | — | — | In play | — |
-| 10-04 03:47 | International Friendly Game | Tie | ✔ | 78' · MEX 0 - USA 2 | — | In play | — |
-| 10-04 03:45 | ATP Tennis Match | Kyrian Jacquet | ✘ | — | — | In play | — |
+| 10-04 03:53 | Challenger ATP  | Naoya Honda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 03:47 | International Friendly Game | Tie | ✔ | 78' · MEX 0 - USA 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 03:45 | ATP Tennis Match | Kyrian Jacquet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:44 | Challenger ATP  | Ajeet Rai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:43 | AHL Game | Bakersfield Condors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:42 | AHL Game | Ontario Reign | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:42 | CONCACAF Nations League Game | Tie | ✔ | 86' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:36 | International Friendly Game | Mexico | ✔ | 67' · MEX 0 - USA 2 | — | In play | — |
+| 10-04 03:36 | International Friendly Game | Mexico | ✔ | 67' · MEX 0 - USA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:36 | College Hockey Game | Alaska Anchorage | ✘ | — | — | In play | — |
 | 10-04 03:34 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:28 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
+| 10-04 03:28 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:06 | College Football Game | Washington | ✔ | 0:45 - 4th · WASH 21 - USC 25 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:02 | USL Championship Game | Colorado Springs Sw. | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:02 | USL Championship Game | Oakland Roots SC | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -247,9 +250,6 @@
 | 10-04 02:48 | Liga Expansion Game | Tapatio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:48 | NWSL Game | Tie | ✔ | 90'+4' · BOS 4 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:46 | College Hockey Game | Massachusetts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:44 | NHL Game | Boston | ✔ | 1:42 - 3rd · BOS 1 - MIN 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:43 | College Football Game | South Florida | ✔ | 0:51 - 4th · TEM 17 - USF 13 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:43 | NHL Game | St. Louis | ✔ | 1:58 - 2nd · STL 0 - COL 5 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
