@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 2:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 2:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 397 finished bets | 0% | -$45.55 | -76% | -11.47¢ | -$15.70 / -$29.85 |
 
-*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4179 | 397 | 1 (0%) | 1.1% | -$45.55 (-76%) | Hold to the end: -$45.55 (-76%) |
+| 4196 | 397 | 1 (0%) | 1.1% | -$45.55 (-76%) | Hold to the end: -$45.55 (-76%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 397 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3769 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3780 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,14 +101,14 @@
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 74 | 0 | 5% | 1% | -100% | -91% | 63 min |
+| Women's College Volleyball Match | ✘ | 77 | 1 | 6% | 3% | +21% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
+| Serie C Game | ✘ | 51 | 1 | 8% | 2% | +83% | -86% | 8 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Men's T20 Cricket Match | ✘ | 44 | 0 | 16% | 7% | -100% | -72% | 17 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Serie C Game | ✘ | 43 | 1 | 9% | 2% | +117% | -84% | 9 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
 | NHL Game | ✔ | 35 | 0 | 11% | 6% | -100% | -80% | 4 min |
@@ -222,7 +222,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 20:20 | Women's College Volleyball Match | Georgia Tech | ✘ | — | — | In play | — |
+| 10-04 20:29 | Serie C Game | Alcione Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:29 | Serie C Game | Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:29 | Women's College Volleyball Match | Auburn | ✘ | — | — | In play | — |
+| 10-04 20:28 | UEFA Nations League Game | Norway | ✔ | 80' · NOR 1 - POR 2 | — | In play | — |
+| 10-04 20:28 | UEFA Nations League Game | Wales | ✔ | 85' · DEN 1 - WAL 0 | — | In play | — |
+| 10-04 20:27 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-04 20:27 | Women's College Volleyball Match | Ole Miss | ✘ | — | — | In play | — |
+| 10-04 20:26 | Uruguay Primera Division Game | Cerro | ✘ | — | — | In play | — |
+| 10-04 20:26 | Serie C Game | Latina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:26 | Serie C Game | Ostia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:25 | Women's College Volleyball Match | Njit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:25 | Men's T20 Cricket Match | Stack CC B | ✘ | — | — | In play | — |
+| 10-04 20:24 | Serie C Game | Bari | ✘ | — | — | In play | — |
+| 10-04 20:24 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
+| 10-04 20:23 | Serie C Game | Altamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:23 | Serie C Game | Cerignola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:23 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:20 | Women's College Volleyball Match | Georgia Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:17 | UEFA Nations League Game | Serbia | ✔ | 75' · SRB 1 - NED 2 | — | In play | — |
 | 10-04 20:15 | NFL Game | Philadelphia | ✔ | 0:38 - 4th · LAR 24 - PHI 20 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:14 | NFL Game | Cincinnati | ✔ | 0:50 - 4th · JAX 22 - CIN 17 | 0¢ | ❌ Lost | -$0.15 |
@@ -234,24 +251,7 @@
 | 10-04 20:05 | Women's Pro Basketball Game | New York | ✔ | 1:44 - 4th · NY 77 - ATL 84 | 3¢ | ❌ Lost | -$0.15 |
 | 10-04 20:01 | Women's College Volleyball Match | Oklahoma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 19:59 | International Friendly Game | Morocco | ✔ | 90'+4' · MLI 1 - MAR 1 | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 19:57 | Serie C Game | Picerno | ✘ | — | — | In play | — |
-| 10-04 19:55 | NFL Game | Tampa Bay | ✔ | 1:34 - 4th · GB 17 - TB 14 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:54 | Women's College Volleyball Match | Rutgers | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-04 19:54 | League of Legends Game | UCAM Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:53 | International Friendly Game | Egypt | ✔ | 87' · RSA 1 - EGY 0 | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 19:49 | Women's College Volleyball Match | Alabama Birmingham | ✘ | — | — | In play | — |
-| 10-04 19:46 | Counter-Strike 2 Game | Bounty Hunters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:43 | R6 Game | LOS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:42 | Women's College Volleyball Match | Wake Forest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:41 | Counter-Strike 2 Game | ENJOY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:40 | International Friendly Game | Mali | ✔ | 74' · MLI 0 - MAR 1 | 9¢ | ❌ Lost | -$0.15 |
-| 10-04 19:38 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:37 | NHL Game | Detroit | ✔ | 0:05 - 3rd · WPG 3 - DET 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:36 | Women's College Volleyball Match | Missouri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:30 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:29 | DEL Game | Augsburger Panther | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:24 | Counter-Strike 2 Game | M80 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:23 | Counter-Strike 2 Game | Nice Try | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 19:57 | Serie C Game | Picerno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
