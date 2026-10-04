@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 1:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 1:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 383 finished bets | 0% | -$43.45 | -76% | -11.34¢ | -$14.65 / -$28.80 |
 
-*Expect about **56 buys a day**, roughly **$8.44/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4141 | 383 | 1 (0%) | 1.1% | -$43.45 (-76%) | Hold to the end: -$43.45 (-76%) |
+| 4148 | 383 | 1 (0%) | 1.1% | -$43.45 (-76%) | Hold to the end: -$43.45 (-76%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 383 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3746 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3749 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -106,7 +106,7 @@
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Men's T20 Cricket Match | ✘ | 43 | 0 | 16% | 7% | -100% | -72% | 18 min |
+| Men's T20 Cricket Match | ✘ | 44 | 0 | 16% | 7% | -100% | -72% | 17 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | Serie C Game | ✘ | 43 | 1 | 9% | 2% | +117% | -84% | 9 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
@@ -143,11 +143,11 @@
 | Argentine Nacional B Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
+| Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | DEL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
-| Copa Del Rey Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
@@ -210,7 +210,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 40 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 39 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -222,6 +222,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 19:21 | Women's College Volleyball Match | Arkansas | ✘ | — | — | In play | — |
+| 10-04 19:19 | Argentina Primera Division Game | Aldosivi | ✘ | — | — | In play | — |
+| 10-04 19:19 | CONCACAF Nations League Game | Tie | ✔ | 19' · DMA 0 - GUY 1 | — | In play | — |
+| 10-04 19:19 | Women's College Volleyball Match | Alabama | ✘ | — | — | In play | — |
+| 10-04 19:17 | NFL Game | New York J | ✔ | 0:20 - 3rd · NYJ 6 - CHI 20 | — | In play | — |
+| 10-04 19:14 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 19:11 | Women's College Volleyball Match | North Carolina | ✘ | — | — | In play | — |
 | 10-04 19:08 | CONCACAF Nations League Game | Dominica | ✔ | 8' · DMA 0 - GUY 1 | — | In play | — |
 | 10-04 19:05 | Spain Liga ACB Game | FC Barcelona | ✘ | — | — | In play | — |
 | 10-04 19:03 | NWSL Game | Gotham | ✔ | 90'+6' · LA 1 - GFC 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -245,13 +252,6 @@
 | 10-04 18:17 | Challenger ATP  | Arklon Huertas Del Pino Cordova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:10 | LKL Lithuania Game | Taurages Krepsinio Klubas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:08 | R6 Game | FaZe Clan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:07 | ITF Men's Match | Theo Papamalamis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:59 | Italy Serie A2 Game | Juvi Cremona 1952 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:58 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:58 | League of Legends Game | Barça eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:55 | ELH Game | HC Verva Litvinov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:55 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:55 | Austria BSL Game | BC Vienna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
