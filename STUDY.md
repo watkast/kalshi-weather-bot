@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 12:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 12:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 362 finished bets | 0% | -$40.30 | -74% | -11.13¢ | -$13.15 / -$27.15 |
+| ESPN-verified leagues only, hold to the end | 364 finished bets | 0% | -$40.60 | -74% | -11.15¢ | -$13.30 / -$27.30 |
 
-*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 362 | -$40.80 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 362 | -$42.60 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 362 | -$43.64 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 364 | -$41.10 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 364 | -$42.90 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 364 | -$43.68 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3865 | 362 | 1 (0%) | 1.1% | -$40.30 (-74%) | Hold to the end: -$40.30 (-74%) |
+| 3865 | 364 | 1 (0%) | 1.1% | -$40.60 (-74%) | Hold to the end: -$40.60 (-74%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 72 | 2.0% | 0.0% (0) | -154% | ❌ Worse |
+| ESPN win probability | 74 | 2.3% | 0.0% (0) | -181% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,10 +54,10 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 72 | 0 | -100% | -78% | -86% | -76% |
-| ESPN win probability ≥ 2% | 11 | 0 | -100% | -84% | -100% | -100% |
-| ESPN win probability ≥ 5% | 3 | 0 | -100% | -100% | -100% | -100% |
-| ESPN win probability ≥ 10% | 2 | 0 | -100% | -100% | -100% | -100% |
+| **Any 1¢ (no model)** | 74 | 0 | -100% | -77% | -82% | -77% |
+| ESPN win probability ≥ 2% | 12 | 0 | -100% | -71% | -78% | -100% |
+| ESPN win probability ≥ 5% | 4 | 0 | -100% | -57% | -35% | -100% |
+| ESPN win probability ≥ 10% | 3 | 0 | -100% | -42% | -13% | -100% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 362 | 11% | 6% | 5% | 2% | 1% | 1% |
-| Unverified | 3487 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 364 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Unverified | 3488 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$40.30 | -74% |
-| Sell at 2¢ | 41 | 11% | -$43.64 | -80% |
-| Sell at 3¢ | 23 | 6% | -$45.33 | -83% |
-| Sell at 5¢ | 18 | 5% | -$42.60 | -78% |
-| Sell at 10¢ | 8 | 2% | -$43.82 | -81% |
-| Sell at 25¢ | 3 | 1% | -$44.37 | -82% |
-| Sell at 50¢ | 2 | 1% | -$40.80 | -75% |
+| Hold to the end | 1 | 0% | -$40.60 | -74% |
+| Sell at 2¢ | 42 | 12% | -$43.68 | -80% |
+| Sell at 3¢ | 24 | 7% | -$45.24 | -83% |
+| Sell at 5¢ | 18 | 5% | -$42.90 | -79% |
+| Sell at 10¢ | 8 | 2% | -$44.12 | -81% |
+| Sell at 25¢ | 3 | 1% | -$44.67 | -82% |
+| Sell at 50¢ | 2 | 1% | -$41.10 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -98,7 +98,7 @@
 | ITF Women's Match | ✘ | 235 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 164 | 0 | 7% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
-| College Football Game | partly | 94 | 2 | 13% | 5% | +99% | -78% | 48 min |
+| College Football Game | partly | 96 | 2 | 14% | 5% | +94% | -77% | 48 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
@@ -118,10 +118,10 @@
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
 | AHL Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 7 min |
-| WTA Tennis Match | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -198,10 +198,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 127 | 4% | 1% | 0% | -93% |
+| Under 5 min | 128 | 5% | 1% | 0% | -92% |
 | 5–15 min | 64 | 11% | 3% | 0% | -81% |
 | 15–30 min | 69 | 26% | 10% | 1% | -55% |
-| 30–60 min | 53 | 11% | 6% | 0% | -80% |
+| 30–60 min | 54 | 11% | 6% | 0% | -81% |
 | Over 60 min | 49 | 10% | 10% | 0% | -82% |
 
 ## Speed & liquidity
@@ -220,15 +220,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 06:14 | College Football Game | Texas St. | ✔ | 0:07 - 4th · TXST 29 - SDSU 31 | — | In play | — |
-| 10-04 06:13 | WTA Tennis Match | Polina Kudermetova | ✘ | — | — | In play | — |
+| 10-04 06:14 | College Football Game | Texas St. | ✔ | 0:07 - 4th · TXST 29 - SDSU 31 | 4¢ | ❌ Lost | -$0.15 |
+| 10-04 06:13 | WTA Tennis Match | Polina Kudermetova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 05:48 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 05:47 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 05:45 | Challenger ATP  | Zicong Wang | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 05:37 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
 | 10-04 05:29 | Challenger ATP  | Mattia Bellucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 05:29 | Japan J2 League Game | Iwaki FC | ✘ | — | — | In play | — |
-| 10-04 05:23 | College Football Game | Cincinnati | ✔ | 3:07 - 3rd · CIN 0 - ARIZ 23 | — | In play | — |
+| 10-04 05:23 | College Football Game | Cincinnati | ✔ | 3:07 - 3rd · CIN 0 - ARIZ 23 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 05:21 | Challenger ATP  | Jumpei Yamasaki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 05:16 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
 | 10-04 05:15 | College Football Game | Eastern Washington | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
