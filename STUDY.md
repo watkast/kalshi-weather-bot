@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 11:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 373 finished bets | 0% | -$41.95 | -75% | -11.25¢ | -$13.90 / -$28.05 |
+| ESPN-verified leagues only, hold to the end | 375 finished bets | 0% | -$42.25 | -75% | -11.27¢ | -$14.05 / -$28.20 |
 
-*Expect about **55 buys a day**, roughly **$8.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 373 | -$42.45 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 373 | -$43.60 | -78% |
-| ESPN-verified leagues only, sell at 10¢ | 373 | -$44.16 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 375 | -$42.75 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 375 | -$43.90 | -78% |
+| ESPN-verified leagues only, sell at 10¢ | 375 | -$44.46 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4097 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
+| 4114 | 375 | 1 (0%) | 1.1% | -$42.25 (-75%) | Hold to the end: -$42.25 (-75%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3712 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 375 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Unverified | 3713 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$41.95 | -75% |
-| Sell at 2¢ | 45 | 12% | -$44.25 | -79% |
-| Sell at 3¢ | 27 | 7% | -$45.42 | -81% |
-| Sell at 5¢ | 19 | 5% | -$43.60 | -78% |
-| Sell at 10¢ | 9 | 2% | -$44.16 | -79% |
-| Sell at 25¢ | 3 | 1% | -$46.02 | -82% |
-| Sell at 50¢ | 2 | 1% | -$42.45 | -76% |
+| Hold to the end | 1 | 0% | -$42.25 | -75% |
+| Sell at 2¢ | 45 | 12% | -$44.55 | -79% |
+| Sell at 3¢ | 27 | 7% | -$45.72 | -81% |
+| Sell at 5¢ | 19 | 5% | -$43.90 | -78% |
+| Sell at 10¢ | 9 | 2% | -$44.46 | -79% |
+| Sell at 25¢ | 3 | 1% | -$46.32 | -82% |
+| Sell at 50¢ | 2 | 1% | -$42.75 | -76% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -99,8 +99,8 @@
 | Challenger ATP  | ✘ | 202 | 1 | 8% | 2% | -54% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
-| UEFA Nations League Game | ✔ | 90 | 0 | 9% | 4% | -100% | -85% | 9 min |
-| League of Legends Game | ✘ | 87 | 0 | 7% | 2% | -100% | -88% | 12 min |
+| UEFA Nations League Game | ✔ | 92 | 0 | 9% | 4% | -100% | -85% | 9 min |
+| League of Legends Game | ✘ | 88 | 0 | 7% | 2% | -100% | -88% | 12 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Women's College Volleyball Match | ✘ | 64 | 0 | 5% | 2% | -100% | -92% | 71 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
@@ -200,8 +200,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 131 | 5% | 1% | 0% | -92% |
-| 5–15 min | 66 | 11% | 3% | 0% | -82% |
+| Under 5 min | 132 | 5% | 1% | 0% | -92% |
+| 5–15 min | 67 | 10% | 3% | 0% | -82% |
 | 15–30 min | 71 | 28% | 11% | 1% | -51% |
 | 30–60 min | 55 | 11% | 5% | 0% | -81% |
 | Over 60 min | 50 | 12% | 10% | 0% | -79% |
@@ -222,11 +222,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 17:55 | ELH Game | HC Verva Litvinov | ✘ | — | — | In play | — |
+| 10-04 17:55 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 10-04 17:55 | Austria BSL Game | BC Vienna | ✘ | — | — | In play | — |
+| 10-04 17:54 | Italy Serie A2 Game | AS Pistoia Basket 2000 | ✘ | — | — | In play | — |
+| 10-04 17:54 | Adriatic ABA Game | KK Crvena zvezda Belgrade | ✘ | — | — | In play | — |
+| 10-04 17:54 | Copa Del Rey Game | Reg Time: UD Maracena | ✘ | — | — | In play | — |
+| 10-04 17:54 | Copa Del Rey Game | Reg Time: UE Tavernes | ✘ | — | — | In play | — |
+| 10-04 17:53 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | — | In play | — |
+| 10-04 17:52 | UEFA Nations League Game | Austria | ✔ | 90'+4' · AUT 1 - KOS 1 | — | In play | — |
+| 10-04 17:52 | Italy Serie A2 Game | Dinamo Sassari | ✘ | — | — | In play | — |
+| 10-04 17:52 | UEFA Nations League Game | Kosovo | ✔ | 90'+4' · AUT 1 - KOS 1 | — | In play | — |
+| 10-04 17:51 | Uruguay Primera Division Game | Las Piedras | ✘ | — | — | In play | — |
+| 10-04 17:51 | Uruguay Primera Division Game | Boston River | ✘ | — | — | In play | — |
+| 10-04 17:49 | Serie A Femminile Game | Como | ✘ | — | — | In play | — |
+| 10-04 17:49 | UEFA Nations League Game | Tie | ✔ | 90'+3' · AND 0 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:48 | Czech NBL Game | Basket Brno | ✘ | — | — | In play | — |
+| 10-04 17:47 | Italy Serie A2 Game | Rinascita Basket Rimini | ✘ | — | — | In play | — |
 | 10-04 17:45 | Bundesliga Basketball Game | Riesen Ludwigsburg | ✘ | — | — | In play | — |
 | 10-04 17:43 | Men's T20 Cricket Match | Gamblers SC | ✘ | — | — | In play | — |
 | 10-04 17:39 | ELH Game | HC Vitkovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:38 | Italy Serie A2 Game | Urania Milano | ✘ | — | — | In play | — |
-| 10-04 17:36 | UEFA Nations League Game | Andorra | ✔ | 80' · AND 0 - MLT 1 | — | In play | — |
+| 10-04 17:36 | UEFA Nations League Game | Andorra | ✔ | 80' · AND 0 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:29 | Italy Serie A Game | Pallacanestro Trieste 2004 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:28 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -235,23 +252,6 @@
 | 10-04 17:21 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-04 17:20 | Copa Del Rey Game | Reg Time: Cp Talayuela | ✘ | — | — | In play | — |
 | 10-04 17:20 | Serie C Game | Reggiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:17 | Austria BSL Game | Flyers Wels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:17 | Serie C Game | Novara | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-04 17:16 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:16 | Austria BSL Game | Eagles Graz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:14 | England Women's Super League Game | Arsenal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:05 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:00 | Czech NBL Game | BK Olomoucko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:59 | England Super League Basketball Game | Manchester Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:49 | Counter-Strike 2 Game | G2 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:49 | DEL Game | Adler Mannheim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:48 | DEL Game | Krefeld Pinguine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:48 | Spain Liga ACB Game | Basket Zaragoza 2002 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:48 | League of Legends Game | The Secret Club Esport | ✘ | — | — | In play | — |
-| 10-04 16:47 | Ettan Game | Hammarby Talang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:44 | Eredivisie Vrouwen Game | Heerenveen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:41 | DEL Game | ERC Ingolstadt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
