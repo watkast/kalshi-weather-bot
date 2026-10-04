@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 358 finished bets | 0% | -$39.70 | -74% | -11.09¢ | -$12.85 / -$26.85 |
 
-*Expect about **58 buys a day**, roughly **$8.63/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3842 | 358 | 1 (0%) | 1.1% | -$39.70 (-74%) | Hold to the end: -$39.70 (-74%) |
+| 3844 | 358 | 1 (0%) | 1.1% | -$39.70 (-74%) | Hold to the end: -$39.70 (-74%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -220,6 +220,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 04:27 | USL Championship Game | San Antonio | ✔ | 86' · SAFC 0 - LVL 1 | — | In play | — |
+| 10-04 04:26 | AHL Game | Tucson Roadrunners | ✘ | — | — | In play | — |
 | 10-04 04:07 | Professional Baseball Game | San Diego | ✔ | Top 9th · SD 2 - MIL 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:02 | USL Championship Game | Tie | ✔ | 90'+7' · MTB 2 - OCSC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:57 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
@@ -248,8 +250,6 @@
 | 10-04 02:54 | College Football Game | Utah Tech | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 02:51 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:48 | Liga Expansion Game | Tapatio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:48 | NWSL Game | Tie | ✔ | 90'+4' · BOS 4 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:46 | College Hockey Game | Massachusetts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
