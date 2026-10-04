@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 8:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 8:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 367 finished bets | 0% | -$41.05 | -75% | -11.19¢ | -$13.45 / -$27.60 |
 
-*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.29/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4008 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
+| 4010 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
 
-*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 367 | 11% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3589 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3590 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 256 | 1 | 4% | 3% | -64% | -94% | 9 min |
-| ITF Men's Match | ✘ | 256 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 244 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 193 | 1 | 9% | 3% | -52% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
@@ -221,6 +221,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 14:43 | Uruguay Primera Division Game | Cerro Largo | ✘ | — | — | In play | — |
+| 10-04 14:37 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:31 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:30 | Counter-Strike 2 Game | Luminosity | ✘ | — | — | In play | — |
 | 10-04 14:28 | Serie C Game | Sassari | ✘ | — | — | In play | — |
@@ -244,13 +246,11 @@
 | 10-04 14:12 | England Women's Super League Game | Charlton | ✘ | — | — | In play | — |
 | 10-04 14:11 | DEL Game | Lowen Frankfurt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 14:10 | Serie C Game | Ravenna | ✘ | — | — | In play | — |
-| 10-04 14:07 | ITF Men's Match | Nicholas Van Aken | ✘ | — | — | In play | — |
+| 10-04 14:07 | ITF Men's Match | Nicholas Van Aken | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 14:03 | ITF Women's Match | Lola Collin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 14:00 | Challenger ATP  | Sascha Gueymard Wayenburg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 14:00 | Counter-Strike 2 Game | Aurora Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:58 | Challenger WTA | Lucija Ciric-Bagaric | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
-| 10-04 13:55 | LaLiga 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-04 13:52 | LaLiga 2 Game | Real Sociedad B | ✘ | — | — | In play | — |
 
 ## Raw data
 
