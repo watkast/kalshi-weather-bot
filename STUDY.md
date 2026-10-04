@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 2:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 3:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3881 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3882 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -220,6 +220,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 09:02 | Challenger ATP  | Kosuke Ogura | ✘ | — | — | In play | — |
 | 10-04 08:42 | Challenger ATP  | Taisei Ichikawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:41 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:33 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,7 +250,6 @@
 | 10-04 05:16 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
 | 10-04 05:15 | College Football Game | Eastern Washington | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 05:13 | ITF Women's Match | Xi Luo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 04:59 | College Football Game | Arizona St. | ✔ | 9:29 - 3rd · BAY 38 - ASU 13 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
