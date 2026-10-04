@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 8:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 8:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 367 finished bets | 0% | -$41.05 | -75% | -11.19¢ | -$13.45 / -$27.60 |
 
-*Expect about **55 buys a day**, roughly **$8.29/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4010 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
+| 4019 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 60. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 367 | 11% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3590 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3592 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 256 | 1 | 4% | 3% | -64% | -94% | 9 min |
 | ITF Women's Match | ✘ | 244 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 193 | 1 | 9% | 3% | -52% | -85% | 5 min |
+| Challenger ATP  | ✘ | 195 | 1 | 9% | 3% | -52% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -221,6 +221,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 14:52 | Serie A Femminile Game | Juventus | ✘ | — | — | In play | — |
+| 10-04 14:52 | England Women's Super League Game | Aston Villa | ✘ | — | — | In play | — |
+| 10-04 14:52 | England Women's Super League Game | Crystal Palace | ✘ | — | — | In play | — |
+| 10-04 14:49 | Challenger ATP  | Nico Hipfl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 14:48 | England Women's Super League Game | Birmingham City WFC | ✘ | — | — | In play | — |
+| 10-04 14:46 | Russia VTB United Game | BC Samara | ✘ | — | — | In play | — |
+| 10-04 14:45 | UEFA Nations League Game | Lithuania | ✔ | 86' · LTU 0 - AZE 1 | — | In play | — |
+| 10-04 14:45 | Challenger ATP  | Lorenzo Angelini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 14:43 | Challenger WTA | Ekaterina Yashina | ✘ | — | — | In play | — |
 | 10-04 14:43 | Uruguay Primera Division Game | Cerro Largo | ✘ | — | — | In play | — |
 | 10-04 14:37 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:31 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
@@ -242,15 +251,6 @@
 | 10-04 14:14 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:14 | England Women's Super League Game | Tottenham | ✘ | — | — | In play | — |
 | 10-04 14:13 | ITF Men's Match | Trishan Dhawan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 14:13 | National League Game | EV Zug | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:12 | England Women's Super League Game | Charlton | ✘ | — | — | In play | — |
-| 10-04 14:11 | DEL Game | Lowen Frankfurt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:10 | Serie C Game | Ravenna | ✘ | — | — | In play | — |
-| 10-04 14:07 | ITF Men's Match | Nicholas Van Aken | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 14:03 | ITF Women's Match | Lola Collin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:00 | Challenger ATP  | Sascha Gueymard Wayenburg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 14:00 | Counter-Strike 2 Game | Aurora Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 13:58 | Challenger WTA | Lucija Ciric-Bagaric | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
