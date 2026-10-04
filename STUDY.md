@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 8:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 367 finished bets | 0% | -$41.05 | -75% | -11.19¢ | -$13.45 / -$27.60 |
 
-*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4019 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
+| 4024 | 367 | 1 (0%) | 1.1% | -$41.05 (-75%) | Hold to the end: -$41.05 (-75%) |
 
-*In play right now: 60. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 64. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 367 | 11% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3592 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3593 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -108,7 +108,7 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Men's T20 Cricket Match | ✘ | 43 | 0 | 16% | 7% | -100% | -72% | 18 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Challenger WTA | ✘ | 36 | 0 | 22% | 14% | -100% | -61% | 10 min |
+| Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -221,6 +221,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 15:01 | Bundesliga Basketball Game | Phoenix Hagen | ✘ | — | — | In play | — |
+| 10-04 15:00 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 10-04 14:57 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+6' · LTU 0 - AZE 1 | — | In play | — |
+| 10-04 14:55 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:52 | Serie A Femminile Game | Juventus | ✘ | — | — | In play | — |
 | 10-04 14:52 | England Women's Super League Game | Aston Villa | ✘ | — | — | In play | — |
 | 10-04 14:52 | England Women's Super League Game | Crystal Palace | ✘ | — | — | In play | — |
@@ -229,7 +234,7 @@
 | 10-04 14:46 | Russia VTB United Game | BC Samara | ✘ | — | — | In play | — |
 | 10-04 14:45 | UEFA Nations League Game | Lithuania | ✔ | 86' · LTU 0 - AZE 1 | — | In play | — |
 | 10-04 14:45 | Challenger ATP  | Lorenzo Angelini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:43 | Challenger WTA | Ekaterina Yashina | ✘ | — | — | In play | — |
+| 10-04 14:43 | Challenger WTA | Ekaterina Yashina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 14:43 | Uruguay Primera Division Game | Cerro Largo | ✘ | — | — | In play | — |
 | 10-04 14:37 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:31 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
@@ -246,11 +251,6 @@
 | 10-04 14:23 | Serie C Game | Cosenza | ✘ | — | — | In play | — |
 | 10-04 14:21 | DEL Game | Schwenninger Wild Wings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 14:19 | Challenger ATP  | Franco Ribero | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 14:19 | Eerste Divisie Game | Roda | ✘ | — | — | In play | — |
-| 10-04 14:16 | Serie C Game | Pineto | ✘ | — | — | In play | — |
-| 10-04 14:14 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-04 14:14 | England Women's Super League Game | Tottenham | ✘ | — | — | In play | — |
-| 10-04 14:13 | ITF Men's Match | Trishan Dhawan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
