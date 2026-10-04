@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 3:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 3:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4214 | 411 | 1 (0%) | 1.1% | -$47.65 (-77%) | Hold to the end: -$47.65 (-77%) |
+| 4216 | 411 | 1 (0%) | 1.1% | -$47.65 (-77%) | Hold to the end: -$47.65 (-77%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 411 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3789 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3797 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 80 | 1 | 6% | 2% | +17% | -89% | 60 min |
+| Women's College Volleyball Match | ✘ | 81 | 1 | 6% | 2% | +15% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 69 | 1 | 20% | 9% | +35% | -65% | 26 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -112,7 +112,7 @@
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
 | NHL Game | ✔ | 35 | 0 | 11% | 6% | -100% | -80% | 4 min |
-| R6 Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 28 | 0 | 14% | 4% | -100% | -75% | 8 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
@@ -121,6 +121,7 @@
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| Liga DIMAYOR Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 7 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LaLiga 2 Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 9 min |
@@ -129,7 +130,6 @@
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | ATP Tennis Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Uruguay Primera Division Game | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 14 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -143,12 +143,12 @@
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
 | Argentine Nacional B Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | Argentina Primera Division Game | ✘ | 13 | 0 | 15% | 15% | -100% | -73% | 12 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
-| Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -192,6 +192,7 @@
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NBA Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -222,16 +223,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 21:02 | USL Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-04 21:01 | USL Cup Game | Reg Time: Hartford Athletic | ✘ | — | — | In play | — |
-| 10-04 21:01 | Rugby French 14 Match | RC Toulon | ✘ | — | — | In play | — |
-| 10-04 21:01 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
-| 10-04 20:57 | Liga DIMAYOR Game | Fortaleza | ✘ | — | — | In play | — |
-| 10-04 20:56 | Liga DIMAYOR Game | Pasto | ✘ | — | — | In play | — |
+| 10-04 21:12 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
+| 10-04 21:04 | Women's College Volleyball Match | Central Florida | ✘ | — | — | In play | — |
+| 10-04 21:02 | USL Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 21:01 | USL Cup Game | Reg Time: Hartford Athletic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 21:01 | Rugby French 14 Match | RC Toulon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 21:01 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:57 | Liga DIMAYOR Game | Fortaleza | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-04 20:56 | Liga DIMAYOR Game | Pasto | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-04 20:55 | Darts Match | Gerwyn Price | ✘ | — | — | In play | — |
 | 10-04 20:50 | LaLiga 2 Game | Girona | ✔ | 90'+2' · MLL 0 - GIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:50 | LaLiga 2 Game | Mallorca | ✔ | 90'+2' · MLL 0 - GIR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:49 | R6 Game | LOUD | ✘ | — | — | In play | — |
+| 10-04 20:49 | R6 Game | LOUD | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:44 | Uruguay Primera Division Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+5' · NOR 1 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:38 | UEFA Nations League Game | Germany | ✔ | 90'+3' · GER 0 - GRE 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -250,8 +253,6 @@
 | 10-04 20:26 | Uruguay Primera Division Game | Cerro | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 20:26 | Serie C Game | Latina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:26 | Serie C Game | Ostia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:25 | Women's College Volleyball Match | Njit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:25 | Men's T20 Cricket Match | Stack CC B | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
