@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 1:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 1:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 383 finished bets | 0% | -$43.45 | -76% | -11.34¢ | -$14.65 / -$28.80 |
 
-*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4148 | 383 | 1 (0%) | 1.1% | -$43.45 (-76%) | Hold to the end: -$43.45 (-76%) |
+| 4153 | 383 | 1 (0%) | 1.1% | -$43.45 (-76%) | Hold to the end: -$43.45 (-76%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 383 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3749 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3753 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 263 | 1 | 4% | 3% | -65% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 264 | 1 | 4% | 3% | -65% | -93% | 9 min |
 | ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 203 | 1 | 8% | 2% | -54% | -85% | 5 min |
@@ -101,7 +101,7 @@
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | League of Legends Game | ✘ | 89 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 67 | 0 | 4% | 1% | -100% | -92% | 68 min |
+| Women's College Volleyball Match | ✘ | 68 | 0 | 4% | 1% | -100% | -92% | 66 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -141,10 +141,10 @@
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
 | Argentine Nacional B Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
+| DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
-| DEL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
@@ -164,9 +164,9 @@
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
+| Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | Adriatic ABA Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Spain Liga ACB Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -222,7 +222,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 19:21 | Women's College Volleyball Match | Arkansas | ✘ | — | — | In play | — |
+| 10-04 19:30 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
+| 10-04 19:29 | DEL Game | Augsburger Panther | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 19:24 | Counter-Strike 2 Game | M80 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 19:23 | Counter-Strike 2 Game | Nice Try | ✘ | — | — | In play | — |
+| 10-04 19:22 | Adriatic ABA Game | KD Ilirija | ✘ | — | — | In play | — |
+| 10-04 19:21 | Women's College Volleyball Match | Arkansas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 19:19 | Argentina Primera Division Game | Aldosivi | ✘ | — | — | In play | — |
 | 10-04 19:19 | CONCACAF Nations League Game | Tie | ✔ | 19' · DMA 0 - GUY 1 | — | In play | — |
 | 10-04 19:19 | Women's College Volleyball Match | Alabama | ✘ | — | — | In play | — |
@@ -230,7 +235,7 @@
 | 10-04 19:14 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 19:11 | Women's College Volleyball Match | North Carolina | ✘ | — | — | In play | — |
 | 10-04 19:08 | CONCACAF Nations League Game | Dominica | ✔ | 8' · DMA 0 - GUY 1 | — | In play | — |
-| 10-04 19:05 | Spain Liga ACB Game | FC Barcelona | ✘ | — | — | In play | — |
+| 10-04 19:05 | Spain Liga ACB Game | FC Barcelona | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 19:03 | NWSL Game | Gotham | ✔ | 90'+6' · LA 1 - GFC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:59 | Counter-Strike 2 Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:56 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,11 +252,6 @@
 | 10-04 18:26 | Women's College Volleyball Match | North Carolina State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:23 | Italy Serie A Game | Maxima Roma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:23 | LaLiga 2 Game | Castellon | ✔ | 90'+3' · CEU 1 - CAS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:22 | Spain Liga ACB Game | Basquet Girona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:22 | LaLiga 2 Game | Ceuta | ✔ | 90'+2' · CEU 1 - CAS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:17 | Challenger ATP  | Arklon Huertas Del Pino Cordova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:10 | LKL Lithuania Game | Taurages Krepsinio Klubas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 18:08 | R6 Game | FaZe Clan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
