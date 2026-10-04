@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 361 finished bets | 0% | -$40.15 | -74% | -11.12¢ | -$13.00 / -$27.15 |
 
-*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.73/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3855 | 361 | 1 (0%) | 1.1% | -$40.15 (-74%) | Hold to the end: -$40.15 (-74%) |
+| 3857 | 361 | 1 (0%) | 1.1% | -$40.15 (-74%) | Hold to the end: -$40.15 (-74%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 361 | 11% | 6% | 5% | 2% | 1% | 1% |
-| Unverified | 3482 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3483 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 235 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 160 | 0 | 8% | 1% | -100% | -87% | 4 min |
+| Challenger ATP  | ✘ | 161 | 0 | 7% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 92 | 2 | 13% | 5% | +103% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -220,12 +220,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 05:23 | College Football Game | Cincinnati | ✔ | 3:07 - 3rd · CIN 0 - ARIZ 23 | — | In play | — |
+| 10-04 05:21 | Challenger ATP  | Jumpei Yamasaki | ✘ | — | — | In play | — |
 | 10-04 05:16 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
 | 10-04 05:15 | College Football Game | Eastern Washington | ✘ | — | — | In play | — |
 | 10-04 05:13 | ITF Women's Match | Xi Luo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:59 | College Football Game | Arizona St. | ✔ | 9:29 - 3rd · BAY 38 - ASU 13 | — | In play | — |
 | 10-04 04:56 | NHL Game | Calgary | ✔ | 2:44 - 3rd · CGY 1 - VAN 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 04:53 | Challenger ATP  | Siddhant Banthia | ✘ | — | — | In play | — |
+| 10-04 04:53 | Challenger ATP  | Siddhant Banthia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 04:49 | NHL Game | Los Angeles | ✔ | 1:42 - OT · LA 4 - SJ 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:45 | WTA Tennis Match | Aryna Sabalenka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:44 | WTA Tennis Match | Dayana Yastremska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,8 +250,6 @@
 | 10-04 03:36 | International Friendly Game | Mexico | ✔ | 67' · MEX 0 - USA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:36 | College Hockey Game | Alaska Anchorage | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:34 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:28 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:06 | College Football Game | Washington | ✔ | 0:45 - 4th · WASH 21 - USC 25 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
