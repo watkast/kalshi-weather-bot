@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 372 finished bets | 0% | -$41.80 | -75% | -11.24¢ | -$13.90 / -$27.90 |
+| ESPN-verified leagues only, hold to the end | 373 finished bets | 0% | -$41.95 | -75% | -11.25¢ | -$13.90 / -$28.05 |
 
 *Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 372 | -$42.30 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 372 | -$43.45 | -78% |
-| ESPN-verified leagues only, sell at 10¢ | 372 | -$44.01 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 373 | -$42.45 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 373 | -$43.60 | -78% |
+| ESPN-verified leagues only, sell at 10¢ | 373 | -$44.16 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4065 | 372 | 1 (0%) | 1.1% | -$41.80 (-75%) | Hold to the end: -$41.80 (-75%) |
+| 4069 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 75 | 2.3% | 0.0% (0) | -177% | ❌ Worse |
+| ESPN win probability | 76 | 2.2% | 0.0% (0) | -175% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 75 | 0 | -100% | -77% | -83% | -77% |
+| **Any 1¢ (no model)** | 76 | 0 | -100% | -75% | -79% | -77% |
 | ESPN win probability ≥ 2% | 12 | 0 | -100% | -71% | -78% | -100% |
 | ESPN win probability ≥ 5% | 4 | 0 | -100% | -57% | -35% | -100% |
 | ESPN win probability ≥ 10% | 3 | 0 | -100% | -42% | -13% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 372 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3677 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
+| Unverified | 3684 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$41.80 | -75% |
-| Sell at 2¢ | 44 | 12% | -$44.36 | -79% |
-| Sell at 3¢ | 26 | 7% | -$45.66 | -82% |
-| Sell at 5¢ | 19 | 5% | -$43.45 | -78% |
-| Sell at 10¢ | 9 | 2% | -$44.01 | -79% |
-| Sell at 25¢ | 3 | 1% | -$45.87 | -82% |
-| Sell at 50¢ | 2 | 1% | -$42.30 | -76% |
+| Hold to the end | 1 | 0% | -$41.95 | -75% |
+| Sell at 2¢ | 45 | 12% | -$44.25 | -79% |
+| Sell at 3¢ | 27 | 7% | -$45.42 | -81% |
+| Sell at 5¢ | 19 | 5% | -$43.60 | -78% |
+| Sell at 10¢ | 9 | 2% | -$44.16 | -79% |
+| Sell at 25¢ | 3 | 1% | -$46.02 | -82% |
+| Sell at 50¢ | 2 | 1% | -$42.45 | -76% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 260 | 1 | 4% | 3% | -64% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 261 | 1 | 4% | 3% | -64% | -93% | 9 min |
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
-| ITF Women's Match | ✘ | 247 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 202 | 1 | 8% | 2% | -54% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -115,8 +115,8 @@
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 29 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 28 | 0 | 14% | 4% | -100% | -75% | 8 min |
+| KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| KHL Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
@@ -159,9 +159,10 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| Bundesliga Basketball Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
-| Bundesliga Basketball Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 13 min |
 | LNB Elite Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| Eredivisie Vrouwen Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 15 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -178,7 +179,6 @@
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LKL Lithuania Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Eredivisie Vrouwen Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 138 min |
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
@@ -188,10 +188,10 @@
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
+| NFL Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Italy Serie A2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
-| NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NBA Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -202,7 +202,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 131 | 5% | 1% | 0% | -92% |
 | 5–15 min | 66 | 11% | 3% | 0% | -82% |
-| 15–30 min | 70 | 27% | 11% | 1% | -53% |
+| 15–30 min | 71 | 28% | 11% | 1% | -51% |
 | 30–60 min | 55 | 11% | 5% | 0% | -81% |
 | Over 60 min | 50 | 12% | 10% | 0% | -79% |
 
@@ -210,7 +210,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 39 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -222,19 +222,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 16:33 | ITF Women's Match | Leila Fabbri | ✘ | — | — | In play | — |
+| 10-04 16:44 | Eredivisie Vrouwen Game | Heerenveen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 16:41 | DEL Game | ERC Ingolstadt | ✘ | — | — | In play | — |
+| 10-04 16:38 | R6 Game | INTZ | ✘ | — | — | In play | — |
+| 10-04 16:37 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 16:33 | ITF Women's Match | Leila Fabbri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:32 | Eredivisie Vrouwen Game | Tie | ✘ | — | — | In play | — |
-| 10-04 16:29 | Eredivisie Vrouwen Game | PEC Zwolle | ✘ | — | — | In play | — |
+| 10-04 16:29 | Eredivisie Vrouwen Game | PEC Zwolle | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-04 16:27 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:27 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:27 | ELH Game | HC Skoda Plzen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:25 | Eredivisie Vrouwen Game | Alkmaar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:25 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
+| 10-04 16:25 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:24 | Challenger ATP  | Francisco Rocha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:19 | Bundesliga Basketball Game | Niners Chemnitz | ✘ | — | — | In play | — |
+| 10-04 16:19 | Bundesliga Basketball Game | Niners Chemnitz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:17 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:15 | NFL Game | Washington | ✔ | 9:48 - 4th · IND 27 - WSH 13 | — | In play | — |
-| 10-04 16:14 | Eredivisie Vrouwen Game | Feyenoord Rotterdam | ✘ | — | — | In play | — |
+| 10-04 16:15 | NFL Game | Washington | ✔ | 9:48 - 4th · IND 27 - WSH 13 | 3¢ | ❌ Lost | -$0.15 |
+| 10-04 16:14 | Eredivisie Vrouwen Game | Feyenoord Rotterdam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:14 | Eredivisie Vrouwen Game | ADO Den Haag | ✘ | — | — | In play | — |
 | 10-04 16:14 | Eredivisie Vrouwen Game | Tie | ✘ | — | — | In play | — |
 | 10-04 16:13 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,10 +252,6 @@
 | 10-04 16:02 | Copa Del Rey Game | Reg Time: Auriense Cented Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:00 | Counter-Strike 2 Game | megoshort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:59 | PREM Rugby Match | Saracens FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:57 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
-| 10-04 15:56 | Challenger ATP  | Benjamin Torrealba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:56 | Copa Del Rey Game | Reg Time: Noja | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:56 | Copa Del Rey Game | Reg Time: Ribadesella CF | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
