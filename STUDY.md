@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 2:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 2:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 397 finished bets | 0% | -$45.55 | -76% | -11.47¢ | -$15.70 / -$29.85 |
+| ESPN-verified leagues only, hold to the end | 403 finished bets | 0% | -$46.45 | -77% | -11.53¢ | -$16.15 / -$30.30 |
 
-*Expect about **58 buys a day**, roughly **$8.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.88/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 397 | -$46.03 | -77% |
-| ESPN-verified leagues only, sell at 50¢ | 397 | -$46.05 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 397 | -$46.55 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 403 | -$46.67 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 403 | -$46.95 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 403 | -$47.45 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4196 | 397 | 1 (0%) | 1.1% | -$45.55 (-76%) | Hold to the end: -$45.55 (-76%) |
+| 4203 | 403 | 1 (0%) | 1.1% | -$46.45 (-77%) | Hold to the end: -$46.45 (-77%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 397 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3780 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Verified | 403 | 13% | 8% | 5% | 2% | 1% | 0% |
+| Unverified | 3784 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$45.55 | -76% |
-| Sell at 2¢ | 52 | 13% | -$46.03 | -77% |
-| Sell at 3¢ | 32 | 8% | -$47.07 | -79% |
-| Sell at 5¢ | 20 | 5% | -$46.55 | -78% |
-| Sell at 10¢ | 9 | 2% | -$47.76 | -80% |
-| Sell at 25¢ | 3 | 1% | -$49.62 | -83% |
-| Sell at 50¢ | 2 | 1% | -$46.05 | -77% |
+| Hold to the end | 1 | 0% | -$46.45 | -77% |
+| Sell at 2¢ | 53 | 13% | -$46.67 | -77% |
+| Sell at 3¢ | 32 | 8% | -$47.97 | -79% |
+| Sell at 5¢ | 20 | 5% | -$47.45 | -78% |
+| Sell at 10¢ | 9 | 2% | -$48.66 | -80% |
+| Sell at 25¢ | 3 | 1% | -$50.52 | -84% |
+| Sell at 50¢ | 2 | 0% | -$46.95 | -78% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -98,16 +98,16 @@
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 203 | 1 | 8% | 2% | -54% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
+| UEFA Nations League Game | ✔ | 100 | 0 | 9% | 4% | -100% | -84% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
-| UEFA Nations League Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 77 | 1 | 6% | 3% | +21% | -89% | 63 min |
+| Women's College Volleyball Match | ✘ | 78 | 1 | 6% | 3% | +20% | -89% | 60 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
-| Serie C Game | ✘ | 51 | 1 | 8% | 2% | +83% | -86% | 8 min |
+| Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Men's T20 Cricket Match | ✘ | 44 | 0 | 16% | 7% | -100% | -72% | 17 min |
+| Men's T20 Cricket Match | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 17 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
@@ -200,9 +200,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 148 | 5% | 1% | 0% | -91% |
+| Under 5 min | 153 | 6% | 1% | 0% | -90% |
 | 5–15 min | 68 | 12% | 3% | 0% | -80% |
-| 15–30 min | 73 | 30% | 12% | 1% | -48% |
+| 15–30 min | 74 | 30% | 12% | 1% | -48% |
 | 30–60 min | 56 | 12% | 5% | 0% | -78% |
 | Over 60 min | 51 | 14% | 10% | 0% | -76% |
 
@@ -222,36 +222,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+5' · NOR 1 - POR 2 | — | In play | — |
+| 10-04 20:38 | UEFA Nations League Game | Germany | ✔ | 90'+3' · GER 0 - GRE 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:37 | UEFA Nations League Game | Greece | ✔ | 90'+3' · GER 0 - GRE 0 | 2¢ | ❌ Lost | -$0.15 |
+| 10-04 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+6' · SRB 1 - NED 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+5' · DEN 1 - WAL 0 | — | In play | — |
+| 10-04 20:37 | UEFA Nations League Game | Ireland | ✔ | 90'+4' · ISR 1 - IRL 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:37 | UEFA Nations League Game | Israel | ✔ | 90'+4' · ISR 1 - IRL 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:29 | Serie C Game | Alcione Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:29 | Serie C Game | Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:29 | Women's College Volleyball Match | Auburn | ✘ | — | — | In play | — |
 | 10-04 20:28 | UEFA Nations League Game | Norway | ✔ | 80' · NOR 1 - POR 2 | — | In play | — |
 | 10-04 20:28 | UEFA Nations League Game | Wales | ✔ | 85' · DEN 1 - WAL 0 | — | In play | — |
-| 10-04 20:27 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-04 20:27 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:27 | Women's College Volleyball Match | Ole Miss | ✘ | — | — | In play | — |
 | 10-04 20:26 | Uruguay Primera Division Game | Cerro | ✘ | — | — | In play | — |
 | 10-04 20:26 | Serie C Game | Latina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:26 | Serie C Game | Ostia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:25 | Women's College Volleyball Match | Njit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:25 | Men's T20 Cricket Match | Stack CC B | ✘ | — | — | In play | — |
-| 10-04 20:24 | Serie C Game | Bari | ✘ | — | — | In play | — |
-| 10-04 20:24 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
+| 10-04 20:25 | Men's T20 Cricket Match | Stack CC B | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-04 20:24 | Serie C Game | Bari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 20:24 | Women's College Volleyball Match | Texas Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:23 | Serie C Game | Altamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:23 | Serie C Game | Cerignola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:23 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:20 | Women's College Volleyball Match | Georgia Tech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:17 | UEFA Nations League Game | Serbia | ✔ | 75' · SRB 1 - NED 2 | — | In play | — |
+| 10-04 20:17 | UEFA Nations League Game | Serbia | ✔ | 75' · SRB 1 - NED 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:15 | NFL Game | Philadelphia | ✔ | 0:38 - 4th · LAR 24 - PHI 20 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:14 | NFL Game | Cincinnati | ✔ | 0:50 - 4th · JAX 22 - CIN 17 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:13 | NFL Game | Houston | ✔ | 0:16 - 4th · DAL 34 - HOU 30 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:11 | NFL Game | Arizona | ✔ | 0:11 - 4th · ARI 24 - NYG 30 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:10 | NFL Game | Buffalo | ✔ | 0:42 - 4th · NE 29 - BUF 26 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:10 | Counter-Strike 2 Game | Nemiga | ✘ | — | — | In play | — |
-| 10-04 20:07 | International Friendly Game | Tie | ✔ | 90'+11' · RSA 1 - EGY 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:05 | Women's Pro Basketball Game | New York | ✔ | 1:44 - 4th · NY 77 - ATL 84 | 3¢ | ❌ Lost | -$0.15 |
-| 10-04 20:01 | Women's College Volleyball Match | Oklahoma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 19:59 | International Friendly Game | Morocco | ✔ | 90'+4' · MLI 1 - MAR 1 | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 19:57 | Serie C Game | Picerno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
