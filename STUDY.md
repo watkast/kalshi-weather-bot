@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 3:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 3:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 411 finished bets | 0% | -$47.65 | -77% | -11.59¢ | -$16.75 / -$30.90 |
 
-*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4228 | 411 | 1 (0%) | 1.1% | -$47.65 (-77%) | Hold to the end: -$47.65 (-77%) |
+| 4233 | 411 | 1 (0%) | 1.1% | -$47.65 (-77%) | Hold to the end: -$47.65 (-77%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 411 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3800 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3803 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 82 | 1 | 7% | 2% | +14% | -87% | 60 min |
+| Women's College Volleyball Match | ✘ | 83 | 1 | 7% | 2% | +12% | -87% | 63 min |
 | CONCACAF Nations League Game | partly | 69 | 1 | 20% | 9% | +35% | -65% | 26 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -118,9 +118,9 @@
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| AHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 7 min |
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
-| AHL Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 7 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga DIMAYOR Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 7 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
@@ -223,14 +223,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 21:54 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-04 21:50 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 21:47 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 21:47 | Argentina Primera Division Game | Talleres Cordoba | ✘ | — | — | In play | — |
+| 10-04 21:46 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
 | 10-04 21:42 | Argentine Nacional B Game | Guemes | ✘ | — | — | In play | — |
 | 10-04 21:42 | NWSL Game | Tie | ✔ | 75' · DEN 2 - CHI 0 | — | In play | — |
 | 10-04 21:41 | NWSL Game | Chicago | ✔ | 74' · DEN 2 - CHI 0 | — | In play | — |
-| 10-04 21:40 | AHL Game | Rochester Americans | ✘ | — | — | In play | — |
+| 10-04 21:40 | AHL Game | Rochester Americans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:39 | Liga DIMAYOR Game | Pereira | ✘ | — | — | In play | — |
 | 10-04 21:33 | AHL Game | Charlotte Checkers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:33 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | — | In play | — |
-| 10-04 21:27 | AHL Game | Chicago Wolves | ✘ | — | — | In play | — |
+| 10-04 21:27 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:23 | AHL Game | Providence Bruins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:22 | College Hockey Game | Minnesota | ✘ | — | — | In play | — |
 | 10-04 21:22 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
@@ -248,11 +253,6 @@
 | 10-04 20:50 | LaLiga 2 Game | Mallorca | ✔ | 90'+2' · MLL 0 - GIR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:49 | R6 Game | LOUD | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:44 | Uruguay Primera Division Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 20:42 | UEFA Nations League Game | Tie | ✔ | 90'+5' · NOR 1 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:38 | UEFA Nations League Game | Germany | ✔ | 90'+3' · GER 0 - GRE 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:37 | UEFA Nations League Game | Greece | ✔ | 90'+3' · GER 0 - GRE 0 | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+6' · SRB 1 - NED 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+5' · DEN 1 - WAL 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
