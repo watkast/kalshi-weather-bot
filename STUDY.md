@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 414 finished bets | 0% | -$48.10 | -77% | -11.62¢ | -$17.05 / -$31.05 |
 
-*Expect about **59 buys a day**, roughly **$8.90/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4239 | 414 | 1 (0%) | 1.1% | -$48.10 (-77%) | Hold to the end: -$48.10 (-77%) |
+| 4241 | 414 | 1 (0%) | 1.1% | -$48.10 (-77%) | Hold to the end: -$48.10 (-77%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 414 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3815 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3816 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | Counter-Strike 2 Game | ✘ | 268 | 1 | 4% | 3% | -65% | -94% | 9 min |
 | ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 203 | 1 | 8% | 2% | -54% | -85% | 5 min |
+| Challenger ATP  | ✘ | 204 | 1 | 8% | 2% | -54% | -86% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -223,9 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 22:29 | NFL Game | Los Angeles C | ✔ | 9:23 - 3rd · LAC 6 - SEA 27 | — | In play | — |
+| 10-04 22:25 | Women's College Volleyball Match | Illinois | ✘ | — | — | In play | — |
 | 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | — | In play | — |
 | 10-04 22:12 | R6 Game | FURIA Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 22:10 | Challenger ATP  | Diego Ortiz Gamonal | ✘ | — | — | In play | — |
+| 10-04 22:10 | Challenger ATP  | Diego Ortiz Gamonal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:58 | AHL Game | Grand Rapids Griffins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:55 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:54 | Women's Pro Basketball Game | Las Vegas | ✔ | 2:00 - 4th · LV 58 - GS 71 | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-04 21:02 | USL Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:01 | USL Cup Game | Reg Time: Hartford Athletic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:01 | Rugby French 14 Match | RC Toulon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:01 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 20:57 | Liga DIMAYOR Game | Fortaleza | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
