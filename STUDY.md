@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 11:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 373 finished bets | 0% | -$41.95 | -75% | -11.25¢ | -$13.90 / -$28.05 |
 
-*Expect about **55 buys a day**, roughly **$8.27/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4081 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
+| 4090 | 373 | 1 (0%) | 1.1% | -$41.95 (-75%) | Hold to the end: -$41.95 (-75%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 373 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3699 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3702 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -162,6 +162,7 @@
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Bundesliga Basketball Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 13 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
+| Austria BSL Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 5 min |
 | LNB Elite Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -173,16 +174,15 @@
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
-| Austria BSL Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 14 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LKL Lithuania Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Italy Serie A Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
-| Italy Serie A Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -222,9 +222,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 17:16 | Austria BSL Game | Eagles Graz | ✘ | — | — | In play | — |
+| 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | — | In play | — |
+| 10-04 17:22 | Serie C Game | Dolomiti Bellunesi | ✘ | — | — | In play | — |
+| 10-04 17:22 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-04 17:21 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-04 17:20 | Copa Del Rey Game | Reg Time: Cp Talayuela | ✘ | — | — | In play | — |
+| 10-04 17:20 | Serie C Game | Reggiana | ✘ | — | — | In play | — |
+| 10-04 17:17 | Austria BSL Game | Flyers Wels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:17 | Serie C Game | Novara | ✘ | — | — | In play | — |
+| 10-04 17:16 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-04 17:16 | Austria BSL Game | Eagles Graz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:14 | England Women's Super League Game | Arsenal | ✘ | — | — | In play | — |
-| 10-04 17:05 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | — | In play | — |
+| 10-04 17:05 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:00 | Czech NBL Game | BK Olomoucko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:59 | England Super League Basketball Game | Manchester Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -243,15 +252,6 @@
 | 10-04 16:29 | Eredivisie Vrouwen Game | PEC Zwolle | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-04 16:27 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:27 | Eredivisie Vrouwen Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:27 | ELH Game | HC Skoda Plzen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:25 | Eredivisie Vrouwen Game | Alkmaar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:25 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:24 | Challenger ATP  | Francisco Rocha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:19 | Bundesliga Basketball Game | Niners Chemnitz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:17 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:15 | NFL Game | Washington | ✔ | 9:48 - 4th · IND 27 - WSH 13 | 3¢ | ❌ Lost | -$0.15 |
-| 10-04 16:14 | Eredivisie Vrouwen Game | Feyenoord Rotterdam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:14 | Eredivisie Vrouwen Game | ADO Den Haag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
