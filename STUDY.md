@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 370 finished bets | 0% | -$41.50 | -75% | -11.22¢ | -$13.75 / -$27.75 |
 
-*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4053 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
+| 4059 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 370 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3664 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3665 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | Counter-Strike 2 Game | ✘ | 259 | 1 | 4% | 3% | -64% | -93% | 9 min |
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 247 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 199 | 1 | 9% | 3% | -53% | -85% | 5 min |
+| Challenger ATP  | ✘ | 200 | 1 | 8% | 2% | -53% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 90 | 0 | 9% | 4% | -100% | -85% | 9 min |
@@ -222,6 +222,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 16:25 | Eredivisie Vrouwen Game | Alkmaar | ✘ | — | — | In play | — |
+| 10-04 16:25 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
+| 10-04 16:24 | Challenger ATP  | Francisco Rocha | ✘ | — | — | In play | — |
+| 10-04 16:19 | Bundesliga Basketball Game | Niners Chemnitz | ✘ | — | — | In play | — |
+| 10-04 16:17 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | — | In play | — |
+| 10-04 16:15 | NFL Game | Washington | ✔ | 9:48 - 4th · IND 27 - WSH 13 | — | In play | — |
 | 10-04 16:14 | Eredivisie Vrouwen Game | Feyenoord Rotterdam | ✘ | — | — | In play | — |
 | 10-04 16:14 | Eredivisie Vrouwen Game | ADO Den Haag | ✘ | — | — | In play | — |
 | 10-04 16:14 | Eredivisie Vrouwen Game | Tie | ✘ | — | — | In play | — |
@@ -229,7 +235,7 @@
 | 10-04 16:12 | Russia VTB United Game | Zenit Saint Petersburg | ✘ | — | — | In play | — |
 | 10-04 16:12 | Counter-Strike 2 Game | SAW | ✘ | — | — | In play | — |
 | 10-04 16:11 | Challenger ATP  | Sergi Perez Contri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 16:06 | Challenger ATP  | Bruno Fernandez | ✘ | — | — | In play | — |
+| 10-04 16:06 | Challenger ATP  | Bruno Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 16:06 | ELH Game | HC Olomouc | ✘ | — | — | In play | — |
 | 10-04 16:04 | LaLiga 2 Game | Tie | ✔ | 77' · CEL 1 - RSG 3 | — | In play | — |
 | 10-04 16:03 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
@@ -246,12 +252,6 @@
 | 10-04 15:41 | Challenger ATP  | Santiago De la Fuente | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 15:37 | Italy Serie A Game | Derthona Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:36 | LKL Lithuania Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:34 | ITF Women's Match | Andreya Glushkova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 15:28 | ITF Women's Match | Florence Fedeli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:21 | ITF Women's Match | Alexa Karatancheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:17 | Austria BSL Game | Oberwart Gunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:08 | Challenger ATP  | Daniel Cukierman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:01 | Bundesliga Basketball Game | Phoenix Hagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
