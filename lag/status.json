@@ -1,14 +1,14 @@
 {
- "saved_at": "2026-10-04T14:05:45+00:00",
+ "saved_at": "2026-10-04T14:15:50+00:00",
  "windows_watched": 9,
- "events": 8684,
- "trades": 4116,
+ "events": 8718,
+ "trades": 4123,
  "kalshi_poll_rtt_s": 0.022,
  "book_rtt_s": 0.049,
  "coinbase_delay_s": 0.033,
  "ws_messages": {
-  "coinbase": 105032,
-  "kraken": 22737
+  "coinbase": 109818,
+  "kraken": 23626
  },
  "errors": []
 }
