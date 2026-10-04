@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.51/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.50/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3894 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3895 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3504 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3506 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,8 +95,8 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
-| ITF Women's Match | ✘ | 236 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Challenger ATP  | ✘ | 169 | 0 | 7% | 1% | -100% | -88% | 4 min |
+| ITF Women's Match | ✘ | 237 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| Challenger ATP  | ✘ | 170 | 0 | 7% | 1% | -100% | -88% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -220,10 +220,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 10:08 | Challenger ATP  | Sergi Fita Juan | ✘ | — | — | In play | — |
 | 10-04 10:03 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
-| 10-04 10:01 | ITF Women's Match | Milana Konovalova | ✘ | — | — | In play | — |
+| 10-04 10:01 | ITF Women's Match | Milana Konovalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:00 | Challenger WTA | Ilay Yoruk | ✘ | — | — | In play | — |
-| 10-04 10:00 | Challenger ATP  | Pietro Marino | ✘ | — | — | In play | — |
+| 10-04 10:00 | Challenger ATP  | Pietro Marino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:49 | Challenger ATP  | Tiago Esculcas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:45 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:45 | Challenger ATP  | Guilherme Valdoleiros | ✘ | — | — | In play | — |
@@ -249,7 +250,6 @@
 | 10-04 07:03 | Challenger WTA | Jessica Bouzas Maneiro | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-04 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 06:48 | Japan J2 League Game | Tosu | ✘ | — | — | In play | — |
-| 10-04 06:14 | College Football Game | Texas St. | ✔ | 0:07 - 4th · TXST 29 - SDSU 31 | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
