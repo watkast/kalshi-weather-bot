@@ -606,6 +606,99 @@ def first_per_window(trades):
     return out
 
 
+def peak_exposure(trades):
+    """Most money tied up in open positions at any moment, holding each to its close."""
+    pts = []
+    for t in trades:
+        try:
+            start = datetime.fromisoformat(t["time"]).timestamp()
+            cost = CONTRACTS * (float(t["ask"]) + float(t["fee"]))
+        except (KeyError, ValueError, TypeError):
+            continue
+        pts += [(start, cost), (start + float(t.get("secs_left") or 0), -cost)]
+    run = peak = 0.0
+    for _, c in sorted(pts):
+        run += c
+        peak = max(peak, run)
+    return peak
+
+
+CHARTS = os.path.join(DIR, "charts")
+SURFACE, INK, INK2, GRID = "#fcfcfb", "#0b0b0b", "#52514e", "#e6e5e1"
+BLUE, ORANGE, RED, MUTED = "#2a78d6", "#eb6834", "#e34948", "#b9b8b3"
+
+
+def charts(book_trades, legacy_trades, seen):
+    """Cumulative P&L (order-book fills vs the earlier quoted prices) and how fast Kalshi follows."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+    except ImportError:
+        return []
+    os.makedirs(CHARTS, exist_ok=True)
+    plt.rcParams.update({"font.size": 11, "axes.edgecolor": GRID, "axes.labelcolor": INK2,
+                         "xtick.color": INK2, "ytick.color": INK2, "text.color": INK,
+                         "axes.spines.top": False, "axes.spines.right": False})
+    made = []
+
+    def frame(fig, ax, title):
+        fig.patch.set_facecolor(SURFACE)
+        ax.set_facecolor(SURFACE)
+        ax.grid(color=GRID, linewidth=0.8)
+        ax.set_axisbelow(True)
+        ax.set_title(title, loc="left", fontsize=13, color=INK, pad=12)
+
+    def cum(trades, key="pnl_close"):
+        out, run = [], 0.0
+        for t in trades:
+            p = _f(t.get(key))
+            if p is None:
+                p = _f(t.get("pnl_close"))
+            if p is None:
+                continue
+            run += p
+            out.append(run)
+        return out
+
+    lines = [(cum(book_trades), "Order-book fills, hold to close", BLUE),
+             (cum(book_trades, "pnl30"), "Order-book fills, sell after 30 sec", ORANGE),
+             (cum(legacy_trades), "Earlier quoted prices, hold to close", "#8a8984")]
+    lines = [x for x in lines if x[0]]
+    if lines:
+        fig, ax = plt.subplots(figsize=(8, 4), dpi=150)
+        frame(fig, ax, "Cumulative paper P&L")
+        for ys, label, color in lines:
+            ax.plot(range(1, len(ys) + 1), ys, color=color, linewidth=2, label=label)
+            ax.annotate(f"-${-ys[-1]:,.0f}" if ys[-1] < 0 else f"${ys[-1]:,.0f}", (len(ys), ys[-1]),
+                        xytext=(6, 0), textcoords="offset points", va="center", fontsize=10, color=color)
+        ax.axhline(0, color=INK2, linewidth=1)
+        ax.set_xlabel("Trades")
+        ax.set_ylabel("Dollars")
+        ax.legend(frameon=False, loc="upper left", fontsize=9)
+        fig.tight_layout()
+        fig.savefig(os.path.join(CHARTS, "pnl.png"), facecolor=SURFACE)
+        plt.close(fig)
+        made.append("pnl.png")
+
+    react = [_f(e.get("react_secs")) for e in seen if _f(e.get("react_secs")) is not None]
+    if len(react) >= 20:
+        fig, ax = plt.subplots(figsize=(8, 3.6), dpi=150)
+        frame(fig, ax, "Seconds until Kalshi's price followed a coin move")
+        ax.hist([min(r, 30) for r in react], bins=range(0, 31), color=BLUE, edgecolor=SURFACE)
+        med = statistics.median(react)
+        ax.axvline(med, color=ORANGE, linewidth=2)
+        ax.annotate(f"median {med:.1f}s", (med, ax.get_ylim()[1] * 0.92), xytext=(6, 0),
+                    textcoords="offset points", color=ORANGE, fontsize=10)
+        ax.set_xlabel("Seconds after the move")
+        ax.set_ylabel("Events")
+        fig.tight_layout()
+        fig.savefig(os.path.join(CHARTS, "lag.png"), facecolor=SURFACE)
+        plt.close(fig)
+        made.append("lag.png")
+    return made
+
+
 def write_page(events, rtt=None, cb=None, brtt=None):
     seen = [e for e in events if e.get("kalshi_at_entry")]
     booked = [e for e in events if e.get("fill") == "book"]
@@ -649,6 +742,13 @@ def write_page(events, rtt=None, cb=None, brtt=None):
     def money(v):
         return f"-${-v:,.2f}" if v < 0 else f"${v:,.2f}"
 
+    made = charts(trades, legacy, seen)
+    use, label = (trades, "Order-book fills") if closed else (legacy, "Earlier quoted prices until order-book trades settle")
+    g = trade_stats(use, "pnl_close")
+    costs = [CONTRACTS * (float(t["ask"]) + float(t["fee"])) for t in use if _f(t.get("ask")) is not None]
+    glance = {"pnl": g["pnl"], "ret": g["ret"], "n": g["n"], "label": label,
+              "avg": sum(costs) / len(costs) if costs else 0.0, "peak": peak_exposure(use)}
+
     lines = [
         "# Lag Tracker", "",
         f"*Updated {datetime.now(timezone.utc):%a %b %d %H:%M} UTC. Paper money. Coin prices arrive live from "
@@ -657,6 +757,12 @@ def write_page(events, rtt=None, cb=None, brtt=None):
         "contracts exactly as they'd fill, and paper-buys if that's still 3¢+ below fair value after fees.*", "",
         "[← Back to all bots](README.md)", "",
         "## Verdict", "", verdict, "",
+        "## At a glance", "",
+        "| Paper P&L (hold) | Return | Trades | Avg bet | Most money tied up at once | Kalshi lag (median) |",
+        "|---|---|---|---|---|---|",
+        f"| **{money(glance['pnl'])}** | {glance['ret']:+.1%} | {glance['n']} | {money(glance['avg'])} | "
+        f"{money(glance['peak'])} | {fmt(allstats['react'], secs=True)} |", "",
+        f"*{glance['label']}. 10 contracts per buy, no bankroll limit — every trade is scored on its own.*", "",
         "## Paper trades on real order-book prices", "",
         "| Exit | Trades | Won | P&L | Return | Earlier / later half |",
         "|---|---|---|---|---|---|",
@@ -670,6 +776,8 @@ def write_page(events, rtt=None, cb=None, brtt=None):
         s = trade_stats(group, "pnl_close")
         lines.append(f"| {label} | {s['n']} | {s['won']} | {money(s['pnl'])} | {s['ret']:+.1%} | "
                      f"{money(s['h1'])} / {money(s['h2'])} |")
+    if "pnl.png" in made:
+        lines += ["", "![Cumulative P&L](lag/charts/pnl.png)"]
     lines += ["", "*Every buy and sell is priced by walking Kalshi's live order book for 10 contracts, using only "
               "what the bot knew at that moment. A timed sell with no buyers counts as held to the close. The last "
               "two rows re-score the same trades with stricter rules, as a robustness check.*", ""]
@@ -709,6 +817,8 @@ def write_page(events, rtt=None, cb=None, brtt=None):
         "*\"Catches up\" = Kalshi's quoted price moved at least half as far as our fair value did. "
         "\"Already moved\" = that had happened by the first Kalshi price we saw after the jump. "
         "Kalshi is checked every 0.5 seconds, so 0.5s is the fastest we can measure.*", ""]
+    if "lag.png" in made:
+        lines += ["![How fast Kalshi follows](lag/charts/lag.png)", ""]
     if rtt is not None or cb is not None or brtt is not None:
         part = []
         if rtt is not None:
