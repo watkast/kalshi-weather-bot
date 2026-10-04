@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 5:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 5:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.43/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.42/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3921 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3922 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3530 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3532 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
+| ITF Men's Match | ✘ | 252 | 0 | 9% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 248 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 239 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 179 | 0 | 7% | 1% | -100% | -87% | 5 min |
@@ -209,7 +209,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 36 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -221,8 +221,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 11:29 | ITF Men's Match | Rahul Lokesh | ✘ | — | — | In play | — |
-| 10-04 11:28 | ITF Men's Match | Harel Tarshish | ✘ | — | — | In play | — |
+| 10-04 11:42 | ITF Women's Match | Daniella Dimitrova | ✘ | — | — | In play | — |
+| 10-04 11:29 | ITF Men's Match | Rahul Lokesh | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-04 11:28 | ITF Men's Match | Harel Tarshish | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 11:22 | Challenger ATP  | Alberto Barroso Campos | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:14 | Challenger ATP  | Vadym Ursu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:13 | Challenger WTA | Doga Turkmen | ✘ | — | — | In play | — |
@@ -250,7 +251,6 @@
 | 10-04 10:08 | Challenger ATP  | Sergi Fita Juan | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-04 10:03 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
 | 10-04 10:01 | ITF Women's Match | Milana Konovalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 10:00 | Challenger WTA | Ilay Yoruk | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
