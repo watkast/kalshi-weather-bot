@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 8:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 323 finished bets | 0% | -$34.45 | -71% | -10.67¢ | -$10.15 / -$24.30 |
+| ESPN-verified leagues only, hold to the end | 325 finished bets | 0% | -$34.75 | -71% | -10.69¢ | -$10.30 / -$24.45 |
 
-*Expect about **54 buys a day**, roughly **$8.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.22/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 323 | -$38.70 | -80% |
-| ESPN-verified leagues only, sell at 2¢ | 323 | -$39.09 | -81% |
-| ESPN-verified leagues only, sell at 10¢ | 323 | -$39.28 | -81% |
+| ESPN-verified leagues only, sell at 5¢ | 325 | -$38.35 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 325 | -$39.13 | -80% |
+| ESPN-verified leagues only, sell at 10¢ | 325 | -$39.58 | -81% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3787 | 323 | 1 (0%) | 1.1% | -$34.45 (-71%) | Hold to the end: -$34.45 (-71%) |
+| 3791 | 325 | 1 (0%) | 1.1% | -$34.75 (-71%) | Hold to the end: -$34.75 (-71%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 323 | 11% | 6% | 5% | 2% | 1% | 0% |
+| Verified | 325 | 11% | 6% | 5% | 2% | 1% | 0% |
 | Unverified | 3440 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$34.45 | -71% |
-| Sell at 2¢ | 36 | 11% | -$39.09 | -81% |
-| Sell at 3¢ | 20 | 6% | -$40.65 | -84% |
-| Sell at 5¢ | 15 | 5% | -$38.70 | -80% |
-| Sell at 10¢ | 7 | 2% | -$39.28 | -81% |
-| Sell at 25¢ | 2 | 1% | -$41.83 | -86% |
-| Sell at 50¢ | 1 | 0% | -$41.70 | -86% |
+| Hold to the end | 1 | 0% | -$34.75 | -71% |
+| Sell at 2¢ | 37 | 11% | -$39.13 | -80% |
+| Sell at 3¢ | 21 | 6% | -$40.56 | -83% |
+| Sell at 5¢ | 16 | 5% | -$38.35 | -79% |
+| Sell at 10¢ | 7 | 2% | -$39.58 | -81% |
+| Sell at 25¢ | 2 | 1% | -$42.13 | -86% |
+| Sell at 50¢ | 1 | 0% | -$42.00 | -86% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -117,9 +117,9 @@
 | Ettan Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 4 min |
 | KHL Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| USL Championship Game | partly | 22 | 0 | 18% | 5% | -100% | -68% | 10 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
-| USL Championship Game | partly | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -197,9 +197,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 115 | 4% | 1% | 0% | -92% |
+| Under 5 min | 116 | 4% | 1% | 0% | -93% |
 | 5–15 min | 57 | 11% | 2% | 0% | -82% |
-| 15–30 min | 59 | 24% | 8% | 2% | -59% |
+| 15–30 min | 60 | 25% | 10% | 2% | -57% |
 | 30–60 min | 51 | 12% | 6% | 0% | -80% |
 | Over 60 min | 41 | 12% | 12% | 0% | -79% |
 
@@ -219,13 +219,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 02:04 | College Football Game | West Florida | ✘ | — | — | In play | — |
+| 10-04 02:01 | USL Championship Game | Tulsa | ✔ | 90'+4' · SAC 1 - TUL 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 01:57 | NHL Game | Montreal | ✔ | 2:05 - 3rd · MTL 3 - PIT 5 | — | In play | — |
+| 10-04 01:57 | NHL Game | New Jersey | ✔ | 8:28 - 3rd · NJ 0 - NYI 3 | — | In play | — |
 | 10-04 01:51 | CFL Game | Winnipeg Blue Bombers | ✘ | — | — | In play | — |
 | 10-04 01:51 | College Football Game | TCU | ✔ | 2:06 - 4th · BYU 16 - TCU 7 | — | In play | — |
 | 10-04 01:50 | NHL Game | Toronto | ✔ | End of 3rd · OTT 3 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:50 | College Football Game | Nicholls St. | ✘ | — | — | In play | — |
 | 10-04 01:46 | NHL Game | Philadelphia | ✔ | 2:20 - OT · CAR 2 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:46 | AHL Game | Lehigh Valley Phantoms | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 01:45 | USL Championship Game | Sacramento Republic | ✔ | 79' · SAC 0 - TUL 1 | — | In play | — |
+| 10-04 01:45 | USL Championship Game | Sacramento Republic | ✔ | 79' · SAC 0 - TUL 1 | 8¢ | ❌ Lost | -$0.15 |
 | 10-04 01:42 | NHL Game | Seattle | ✔ | 1:40 - 3rd · SEA 1 - EDM 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:40 | NHL Game | Washington | ✔ | 2:11 - 3rd · WSH 1 - TB 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:39 | College Football Game | Illinois St. | ✘ | — | — | In play | — |
@@ -245,10 +249,6 @@
 | 10-04 01:02 | USL Championship Game | Tie | ✔ | 90'+6' · BRM 0 - DET 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:00 | College Hockey Game | Bowling Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:57 | College Football Game | Arkansas | ✔ | 14:15 - 3rd · ARK 7 - TA&M 24 | — | In play | — |
-| 10-04 00:57 | College Football Game | Bryant | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-04 00:55 | USL Championship Game | Tie | ✔ | 88' · ELP 1 - LEX 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 00:53 | College Football Game | Rutgers | ✔ | 11:36 - 2nd · IU 10 - RUTG 0 | — | In play | — |
-| 10-04 00:52 | USL Championship Game | Tie | ✔ | 84' · RHI 3 - BFKC 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
