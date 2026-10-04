@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 5:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 6:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 301 finished bets | 0% | -$31.15 | -69% | -10.35¢ | -$8.50 / -$22.65 |
+| ESPN-verified leagues only, hold to the end | 303 finished bets | 0% | -$31.45 | -69% | -10.38¢ | -$8.65 / -$22.80 |
 
-*Expect about **50 buys a day**, roughly **$7.53/day** at risk; max loss per buy **15¢**.*
+*Expect about **51 buys a day**, roughly **$7.62/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 5¢ | 301 | -$35.40 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 301 | -$35.79 | -79% |
-| ESPN-verified leagues only, sell at 10¢ | 301 | -$35.98 | -80% |
+| ESPN-verified leagues only, sell at 5¢ | 303 | -$35.70 | -79% |
+| ESPN-verified leagues only, sell at 2¢ | 303 | -$36.09 | -79% |
+| ESPN-verified leagues only, sell at 10¢ | 303 | -$36.28 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3733 | 301 | 1 (0%) | 1.1% | -$31.15 (-69%) | Hold to the end: -$31.15 (-69%) |
+| 3738 | 303 | 1 (0%) | 1.1% | -$31.45 (-69%) | Hold to the end: -$31.45 (-69%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 301 | 12% | 7% | 5% | 2% | 1% | 0% |
+| Verified | 303 | 12% | 7% | 5% | 2% | 1% | 0% |
 | Unverified | 3418 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$31.15 | -69% |
-| Sell at 2¢ | 36 | 12% | -$35.79 | -79% |
-| Sell at 3¢ | 20 | 7% | -$37.35 | -83% |
-| Sell at 5¢ | 15 | 5% | -$35.40 | -78% |
-| Sell at 10¢ | 7 | 2% | -$35.98 | -80% |
-| Sell at 25¢ | 2 | 1% | -$38.53 | -85% |
-| Sell at 50¢ | 1 | 0% | -$38.40 | -85% |
+| Hold to the end | 1 | 0% | -$31.45 | -69% |
+| Sell at 2¢ | 36 | 12% | -$36.09 | -79% |
+| Sell at 3¢ | 20 | 7% | -$37.65 | -83% |
+| Sell at 5¢ | 15 | 5% | -$35.70 | -79% |
+| Sell at 10¢ | 7 | 2% | -$36.28 | -80% |
+| Sell at 25¢ | 2 | 1% | -$38.83 | -85% |
+| Sell at 50¢ | 1 | 0% | -$38.70 | -85% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -135,6 +135,7 @@
 | Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 14 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| USL Championship Game | ✔ | 12 | 0 | 25% | 0% | -100% | -57% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
 | AHL Game | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 8 min |
@@ -143,7 +144,6 @@
 | LaLiga 2 Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| USL Championship Game | ✔ | 10 | 0 | 30% | 0% | -100% | -48% | 11 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -197,8 +197,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 105 | 5% | 1% | 0% | -92% |
-| 5–15 min | 52 | 12% | 2% | 0% | -80% |
+| Under 5 min | 106 | 5% | 1% | 0% | -92% |
+| 5–15 min | 53 | 11% | 2% | 0% | -80% |
 | 15–30 min | 56 | 25% | 9% | 2% | -57% |
 | 30–60 min | 49 | 12% | 6% | 0% | -79% |
 | Over 60 min | 39 | 13% | 13% | 0% | -78% |
@@ -219,6 +219,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-03 23:58 | NWSL Game | Tie | ✔ | 63' · BAY 1 - KC 3 | — | In play | — |
+| 10-03 23:58 | USL Championship Game | Indy Eleven | ✔ | 90'+5' · INDY 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 23:56 | College Football Game | McNeese | ✔ | 15:00 - 1st · MCN 0 - LSU 0 | — | In play | — |
+| 10-03 23:52 | USL Championship Game | Loudoun United FC | ✔ | 89' · INDY 1 - LOU 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-03 23:51 | College Football Game | Southern Illinois | ✘ | — | — | In play | — |
 | 10-03 23:38 | League of Legends Game | Cloud9 | ✘ | — | — | In play | — |
 | 10-03 23:30 | Brasileiro Serie A Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:25 | College Football Game | Maryland | ✔ | 11:28 - 4th · MD 23 - NEB 35 | — | In play | — |
@@ -244,11 +249,6 @@
 | 10-03 22:28 | College Football Game | Chicago St. | ✘ | — | — | In play | — |
 | 10-03 22:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
 | 10-03 22:26 | College Football Game | Chattanooga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:24 | College Football Game | William & Mary | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:24 | College Football Game | Maine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:17 | CONCACAF Nations League Game | Tie | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-03 22:14 | College Football Game | Florida | ✔ | 0:49 - 3rd · FLA 10 - MIZ 30 | 1¢ | ❌ Lost | -$0.15 |
-| 10-03 22:13 | Canadian Premier League | Hamilton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
