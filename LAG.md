@@ -6,6 +6,8 @@
 
 ## Verdict
 
+⏸️ **Paused Oct 4.** Priced on Kalshi's real order book, the edge disappeared — the 11-second lag was only in Kalshi's displayed price; the order book had already moved. Final results below.
+
 🔴 **The gap was mostly a stale quote.** Kalshi's real order book had usually already moved, so the earlier paper profits weren't fillable.
 
 ## At a glance

@@ -1,12 +1,9 @@
 name: lag-tracker
 
 on:
-  schedule:
-    - cron: "51 */2 * * *"   # keeps a run queued so watch windows follow back-to-back
+  # Paused Oct 4: on real order-book fills the lag edge disappeared (the delay was only in Kalshi's
+  # displayed price). Run manually if needed.
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["lag_bot.py", ".github/workflows/lag.yml"]
 
 permissions:
   contents: write
