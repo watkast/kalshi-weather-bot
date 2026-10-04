@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 305 finished bets | 0% | -$31.75 | -69% | -10.41¢ | -$8.80 / -$22.95 |
 
-*Expect about **51 buys a day**, roughly **$7.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **51 buys a day**, roughly **$7.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3743 | 305 | 1 (0%) | 1.1% | -$31.75 (-69%) | Hold to the end: -$31.75 (-69%) |
+| 3749 | 305 | 1 (0%) | 1.1% | -$31.75 (-69%) | Hold to the end: -$31.75 (-69%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 305 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3421 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3426 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -99,9 +99,9 @@
 | Challenger ATP  | ✘ | 157 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
-| League of Legends Game | ✘ | 85 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 65 | 1 | 22% | 9% | +44% | -63% | 26 min |
-| College Football Game | partly | 61 | 1 | 10% | 5% | +53% | -83% | 52 min |
+| College Football Game | partly | 62 | 1 | 11% | 5% | +51% | -80% | 52 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Women's College Volleyball Match | ✘ | 53 | 0 | 6% | 2% | -100% | -90% | 63 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -148,6 +148,7 @@
 | Japan J2 League Game | ✘ | 10 | 0 | 20% | 0% | -100% | -65% | 4 min |
 | Czech NBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Slovakia SBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
+| Brasileiro Serie C Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 4 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -156,7 +157,6 @@
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | DEL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
-| Brasileiro Serie C Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 4 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Adriatic ABA Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -188,10 +188,10 @@
 | Spain Liga ACB Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Italy Serie A2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Italy Serie A Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| College Hockey Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 25 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| College Hockey Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 31 min |
 
 ## By time left when it hit 1¢
 
@@ -219,17 +219,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 00:13 | Brasileiro Serie C Game | Ferroviaria | ✘ | — | — | In play | — |
+| 10-04 00:29 | College Hockey Game | Arizona State | ✘ | — | — | In play | — |
+| 10-04 00:27 | Brasileiro Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 00:27 | Brasileiro Serie C Game | Brusque | ✘ | — | — | In play | — |
+| 10-04 00:27 | Brasileiro Serie C Game | Internacional | ✘ | — | — | In play | — |
+| 10-04 00:21 | International Friendly Game | Burkina Faso | ✔ | 15' · BKA 0 - ARG 3 | — | In play | — |
+| 10-04 00:21 | International Friendly Game | Tie | ✔ | 15' · BKA 0 - ARG 3 | — | In play | — |
+| 10-04 00:13 | Brasileiro Serie C Game | Ferroviaria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:09 | College Football Game | Colorado St. | ✔ | 9:30 - 3rd · ORST 35 - CSU 14 | — | In play | — |
 | 10-04 00:05 | NWSL Game | Bay FC | ✔ | 70' · BAY 1 - KC 3 | — | In play | — |
-| 10-04 00:04 | College Hockey Game | Niagara | ✘ | — | — | In play | — |
+| 10-04 00:04 | College Hockey Game | Niagara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:03 | College Football Game | South Carolina | ✔ | OT · UK 33 - SC 34 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:58 | NWSL Game | Tie | ✔ | 63' · BAY 1 - KC 3 | — | In play | — |
 | 10-03 23:58 | USL Championship Game | Indy Eleven | ✔ | 90'+5' · INDY 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:56 | College Football Game | McNeese | ✔ | 15:00 - 1st · MCN 0 - LSU 0 | — | In play | — |
 | 10-03 23:52 | USL Championship Game | Loudoun United FC | ✔ | 89' · INDY 1 - LOU 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:51 | College Football Game | Southern Illinois | ✘ | — | — | In play | — |
-| 10-03 23:38 | League of Legends Game | Cloud9 | ✘ | — | — | In play | — |
+| 10-03 23:38 | League of Legends Game | Cloud9 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:30 | Brasileiro Serie A Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:25 | College Football Game | Maryland | ✔ | 11:28 - 4th · MD 23 - NEB 35 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:25 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -243,12 +249,6 @@
 | 10-03 23:02 | Liga DIMAYOR Game | Tolima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:00 | College Football Game | Louisville | ✔ | 1:07 - 4th · LOU 28 - NCSU 31 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:00 | Liga DIMAYOR Game | Boyaca Chico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:49 | AHL Game | Bridgeport Islanders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:47 | College Football Game | Kent St. | ✔ | 0:10 - 4th · OHIO 13 - KENT 10 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:45 | College Football Game | Miami (OH) | ✔ | 0:07 - 4th · BGSU 24 - M-OH 20 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:43 | College Football Game | Auburn | ✔ | 3:30 - 4th · AUB 14 - TENN 24 | 2¢ | ❌ Lost | -$0.15 |
-| 10-03 22:40 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 22:39 | Uruguay Primera Division Game | Central Espanol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
