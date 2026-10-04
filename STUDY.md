@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 3:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 3:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.54/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3885 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3889 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3501 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3502 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -137,9 +137,9 @@
 | Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
 | Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Overwatch Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Uruguay Primera Division Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 14 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
-| Overwatch Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
@@ -220,7 +220,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 09:34 | Overwatch Game | ZANSIDE GAMING | ✘ | — | — | In play | — |
+| 10-04 09:45 | Overwatch Game | Black Flag | ✘ | — | — | In play | — |
+| 10-04 09:45 | Challenger ATP  | Guilherme Valdoleiros | ✘ | — | — | In play | — |
+| 10-04 09:42 | Women's T20 Match | Dolphins Women | ✘ | — | — | In play | — |
+| 10-04 09:39 | Challenger ATP  | Martim Bernardo | ✘ | — | — | In play | — |
+| 10-04 09:34 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:28 | ITF Women's Match | Natalia Fehr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:10 | Challenger ATP  | Sebastiano Cocola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:02 | Challenger ATP  | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,10 +250,6 @@
 | 10-04 05:47 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 05:45 | Challenger ATP  | Zicong Wang | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 05:37 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
-| 10-04 05:29 | Challenger ATP  | Mattia Bellucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 05:29 | Japan J2 League Game | Iwaki FC | ✘ | — | — | In play | — |
-| 10-04 05:23 | College Football Game | Cincinnati | ✔ | 3:07 - 3rd · CIN 0 - ARIZ 23 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 05:21 | Challenger ATP  | Jumpei Yamasaki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
