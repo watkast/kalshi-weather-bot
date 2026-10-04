@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 370 finished bets | 0% | -$41.50 | -75% | -11.22¢ | -$13.75 / -$27.75 |
 
-*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4044 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
+| 4053 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 370 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3659 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3664 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 257 | 1 | 4% | 3% | -64% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 259 | 1 | 4% | 3% | -64% | -93% | 9 min |
 | ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 247 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 196 | 1 | 9% | 3% | -52% | -85% | 5 min |
+| Challenger ATP  | ✘ | 199 | 1 | 9% | 3% | -53% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 90 | 0 | 9% | 4% | -100% | -85% | 9 min |
@@ -222,19 +222,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 16:14 | Eredivisie Vrouwen Game | Feyenoord Rotterdam | ✘ | — | — | In play | — |
+| 10-04 16:14 | Eredivisie Vrouwen Game | ADO Den Haag | ✘ | — | — | In play | — |
+| 10-04 16:14 | Eredivisie Vrouwen Game | Tie | ✘ | — | — | In play | — |
+| 10-04 16:13 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | — | In play | — |
+| 10-04 16:12 | Russia VTB United Game | Zenit Saint Petersburg | ✘ | — | — | In play | — |
+| 10-04 16:12 | Counter-Strike 2 Game | SAW | ✘ | — | — | In play | — |
+| 10-04 16:11 | Challenger ATP  | Sergi Perez Contri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 16:06 | Challenger ATP  | Bruno Fernandez | ✘ | — | — | In play | — |
+| 10-04 16:06 | ELH Game | HC Olomouc | ✘ | — | — | In play | — |
 | 10-04 16:04 | LaLiga 2 Game | Tie | ✔ | 77' · CEL 1 - RSG 3 | — | In play | — |
 | 10-04 16:03 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-04 16:02 | Copa Del Rey Game | Reg Time: Auriense Cented Academy | ✘ | — | — | In play | — |
-| 10-04 16:00 | Counter-Strike 2 Game | megoshort | ✘ | — | — | In play | — |
+| 10-04 16:00 | Counter-Strike 2 Game | megoshort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:59 | PREM Rugby Match | Saracens FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:57 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
-| 10-04 15:56 | Challenger ATP  | Benjamin Torrealba | ✘ | — | — | In play | — |
+| 10-04 15:56 | Challenger ATP  | Benjamin Torrealba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:56 | Copa Del Rey Game | Reg Time: Noja | ✘ | — | — | In play | — |
 | 10-04 15:56 | Copa Del Rey Game | Reg Time: Ribadesella CF | ✘ | — | — | In play | — |
-| 10-04 15:53 | Counter-Strike 2 Game | FURIA | ✘ | — | — | In play | — |
+| 10-04 15:53 | Counter-Strike 2 Game | FURIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:47 | LaLiga 2 Game | Celta Fortuna | ✔ | 60' · CEL 1 - RSG 2 | — | In play | — |
 | 10-04 15:47 | ITF Men's Match | Vansh Janghu | ✘ | — | — | In play | — |
-| 10-04 15:41 | Challenger ATP  | Santiago De la Fuente | ✘ | — | — | In play | — |
+| 10-04 15:41 | Challenger ATP  | Santiago De la Fuente | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 15:37 | Italy Serie A Game | Derthona Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:36 | LKL Lithuania Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:34 | ITF Women's Match | Andreya Glushkova | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -243,15 +252,6 @@
 | 10-04 15:17 | Austria BSL Game | Oberwart Gunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:08 | Challenger ATP  | Daniel Cukierman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:01 | Bundesliga Basketball Game | Phoenix Hagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 15:00 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:57 | England Women's Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:56 | UEFA Nations League Game | Tie | ✔ | 90'+6' · LTU 0 - AZE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:55 | Uruguay Primera Division Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 14:52 | Serie A Femminile Game | Juventus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:52 | England Women's Super League Game | Aston Villa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:52 | England Women's Super League Game | Crystal Palace | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:49 | Challenger ATP  | Nico Hipfl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 14:48 | England Women's Super League Game | Birmingham City WFC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
