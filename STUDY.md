@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 370 finished bets | 0% | -$41.50 | -75% | -11.22¢ | -$13.75 / -$27.75 |
 
-*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4025 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
+| 4027 | 370 | 1 (0%) | 1.1% | -$41.50 (-75%) | Hold to the end: -$41.50 (-75%) |
 
-*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -221,6 +221,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 15:21 | ITF Women's Match | Alexa Karatancheva | ✘ | — | — | In play | — |
+| 10-04 15:17 | Austria BSL Game | Oberwart Gunners | ✘ | — | — | In play | — |
 | 10-04 15:08 | Challenger ATP  | Daniel Cukierman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 15:01 | Bundesliga Basketball Game | Phoenix Hagen | ✘ | — | — | In play | — |
 | 10-04 15:00 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
@@ -249,8 +251,6 @@
 | 10-04 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 10-04 14:23 | England Women's Super League Game | West Ham | ✘ | — | — | In play | — |
 | 10-04 14:23 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 10-04 14:23 | Serie C Game | Cosenza | ✘ | — | — | In play | — |
-| 10-04 14:21 | DEL Game | Schwenninger Wild Wings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
