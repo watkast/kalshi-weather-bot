@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 12:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 1:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 364 finished bets | 0% | -$40.60 | -74% | -11.15¢ | -$13.30 / -$27.30 |
 
-*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3866 | 364 | 1 (0%) | 1.1% | -$40.60 (-74%) | Hold to the end: -$40.60 (-74%) |
+| 3867 | 364 | 1 (0%) | 1.1% | -$40.60 (-74%) | Hold to the end: -$40.60 (-74%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -220,6 +220,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 10-04 06:48 | Japan J2 League Game | Tosu | ✘ | — | — | In play | — |
 | 10-04 06:14 | College Football Game | Texas St. | ✔ | 0:07 - 4th · TXST 29 - SDSU 31 | 4¢ | ❌ Lost | -$0.15 |
 | 10-04 06:13 | WTA Tennis Match | Polina Kudermetova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,7 +250,6 @@
 | 10-04 03:57 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
 | 10-04 03:54 | USL Championship Game | Orange County | ✔ | 90' · MTB 2 - OCSC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:53 | Challenger ATP  | Naoya Honda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:47 | International Friendly Game | Tie | ✔ | 78' · MEX 0 - USA 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
