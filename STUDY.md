@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 414 finished bets | 0% | -$48.10 | -77% | -11.62¢ | -$17.05 / -$31.05 |
 
-*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4241 | 414 | 1 (0%) | 1.1% | -$48.10 (-77%) | Hold to the end: -$48.10 (-77%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 414 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3816 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3819 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,9 +101,9 @@
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 83 | 1 | 7% | 2% | +12% | -87% | 63 min |
+| Women's College Volleyball Match | ✘ | 85 | 1 | 7% | 2% | +10% | -88% | 56 min |
 | CONCACAF Nations League Game | partly | 73 | 1 | 21% | 10% | +28% | -64% | 25 min |
-| Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
+| Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -224,8 +224,8 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-04 22:29 | NFL Game | Los Angeles C | ✔ | 9:23 - 3rd · LAC 6 - SEA 27 | — | In play | — |
-| 10-04 22:25 | Women's College Volleyball Match | Illinois | ✘ | — | — | In play | — |
-| 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | — | In play | — |
+| 10-04 22:25 | Women's College Volleyball Match | Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:12 | R6 Game | FURIA Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:10 | Challenger ATP  | Diego Ortiz Gamonal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:58 | AHL Game | Grand Rapids Griffins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
