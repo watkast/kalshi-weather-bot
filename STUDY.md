@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 10:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 10:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 358 finished bets | 0% | -$39.70 | -74% | -11.09¢ | -$12.85 / -$26.85 |
 
-*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3844 | 358 | 1 (0%) | 1.1% | -$39.70 (-74%) | Hold to the end: -$39.70 (-74%) |
+| 3845 | 358 | 1 (0%) | 1.1% | -$39.70 (-74%) | Hold to the end: -$39.70 (-74%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 358 | 11% | 6% | 5% | 2% | 1% | 1% |
-| Unverified | 3477 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3479 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -120,9 +120,9 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
+| AHL Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KBO Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| AHL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 8 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -165,10 +165,10 @@
 | Serie A Femminile Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Copa Del Rey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 69 min |
+| College Hockey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Bundesliga Basketball Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 13 min |
-| College Hockey Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Austria BSL Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
 | Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -220,8 +220,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 04:37 | USL Championship Game | Tie | ✔ | 90'+6' · SAFC 0 - LVL 1 | — | In play | — |
 | 10-04 04:27 | USL Championship Game | San Antonio | ✔ | 86' · SAFC 0 - LVL 1 | — | In play | — |
-| 10-04 04:26 | AHL Game | Tucson Roadrunners | ✘ | — | — | In play | — |
+| 10-04 04:26 | AHL Game | Tucson Roadrunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:07 | Professional Baseball Game | San Diego | ✔ | Top 9th · SD 2 - MIL 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:02 | USL Championship Game | Tie | ✔ | 90'+7' · MTB 2 - OCSC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:57 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
@@ -235,7 +236,7 @@
 | 10-04 03:42 | CONCACAF Nations League Game | Tie | ✔ | 86' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · GUF 1 - BLZ 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:36 | International Friendly Game | Mexico | ✔ | 67' · MEX 0 - USA 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:36 | College Hockey Game | Alaska Anchorage | ✘ | — | — | In play | — |
+| 10-04 03:36 | College Hockey Game | Alaska Anchorage | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:34 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:28 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:06 | College Football Game | Washington | ✔ | 0:45 - 4th · WASH 21 - USC 25 | 0¢ | ❌ Lost | -$0.15 |
@@ -249,7 +250,6 @@
 | 10-04 02:54 | College Football Game | Idaho St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 02:54 | College Football Game | Utah Tech | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 02:51 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 02:48 | Liga Expansion Game | Tapatio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
