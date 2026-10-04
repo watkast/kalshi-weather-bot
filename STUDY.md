@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 12:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 12:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 377 finished bets | 0% | -$42.55 | -75% | -11.29¢ | -$14.20 / -$28.35 |
 
-*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4119 | 377 | 1 (0%) | 1.1% | -$42.55 (-75%) | Hold to the end: -$42.55 (-75%) |
+| 4121 | 377 | 1 (0%) | 1.1% | -$42.55 (-75%) | Hold to the end: -$42.55 (-75%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 377 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3721 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3734 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,13 +94,13 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 262 | 1 | 4% | 3% | -64% | -93% | 9 min |
-| ITF Men's Match | ✘ | 257 | 0 | 9% | 4% | -100% | -84% | 5 min |
+| ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 202 | 1 | 8% | 2% | -54% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 8 min |
-| League of Legends Game | ✘ | 88 | 0 | 7% | 2% | -100% | -88% | 12 min |
+| League of Legends Game | ✘ | 89 | 0 | 7% | 2% | -100% | -88% | 12 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Women's College Volleyball Match | ✘ | 64 | 0 | 5% | 2% | -100% | -92% | 71 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
@@ -138,13 +138,14 @@
 | Overwatch Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
+| Argentine Nacional B Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | LaLiga 2 Game | partly | 14 | 0 | 14% | 7% | -100% | -75% | 18 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | DEL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Rugby French 14 Match | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 42 min |
 | Copa Del Rey Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Argentina Primera Division Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
@@ -152,16 +153,16 @@
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Czech NBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Serie A Femminile Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Professional Baseball Game | partly | 9 | 0 | 22% | 11% | -100% | -61% | 5 min |
 | Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
 | Slovakia SBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
+| Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Bundesliga Basketball Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 13 min |
+| Italy Serie A2 Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| Austria BSL Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 5 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | Adriatic ABA Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNB Elite Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 16 min |
@@ -183,7 +184,6 @@
 | LKL Lithuania Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
-| Italy Serie A2 Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -222,36 +222,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 18:17 | Challenger ATP  | Arklon Huertas Del Pino Cordova | ✘ | — | — | In play | — |
+| 10-04 18:10 | LKL Lithuania Game | Taurages Krepsinio Klubas | ✘ | — | — | In play | — |
 | 10-04 18:08 | R6 Game | FaZe Clan | ✘ | — | — | In play | — |
-| 10-04 18:07 | ITF Men's Match | Theo Papamalamis | ✘ | — | — | In play | — |
-| 10-04 17:59 | Italy Serie A2 Game | Juvi Cremona 1952 | ✘ | — | — | In play | — |
-| 10-04 17:58 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | — | In play | — |
-| 10-04 17:58 | League of Legends Game | Barça eSports | ✘ | — | — | In play | — |
+| 10-04 18:07 | ITF Men's Match | Theo Papamalamis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:59 | Italy Serie A2 Game | Juvi Cremona 1952 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:58 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:58 | League of Legends Game | Barça eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:55 | ELH Game | HC Verva Litvinov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:55 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
-| 10-04 17:55 | Austria BSL Game | BC Vienna | ✘ | — | — | In play | — |
-| 10-04 17:54 | Italy Serie A2 Game | AS Pistoia Basket 2000 | ✘ | — | — | In play | — |
+| 10-04 17:55 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:55 | Austria BSL Game | BC Vienna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 17:54 | Italy Serie A2 Game | AS Pistoia Basket 2000 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:54 | Adriatic ABA Game | KK Crvena zvezda Belgrade | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:54 | Copa Del Rey Game | Reg Time: UD Maracena | ✘ | — | — | In play | — |
 | 10-04 17:54 | Copa Del Rey Game | Reg Time: UE Tavernes | ✘ | — | — | In play | — |
-| 10-04 17:53 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | — | In play | — |
+| 10-04 17:53 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:52 | UEFA Nations League Game | Austria | ✔ | 90'+4' · AUT 1 - KOS 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:52 | Italy Serie A2 Game | Dinamo Sassari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:52 | UEFA Nations League Game | Kosovo | ✔ | 90'+4' · AUT 1 - KOS 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:51 | Uruguay Primera Division Game | Las Piedras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:51 | Uruguay Primera Division Game | Boston River | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:49 | Serie A Femminile Game | Como | ✘ | — | — | In play | — |
+| 10-04 17:49 | Serie A Femminile Game | Como | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:49 | UEFA Nations League Game | Tie | ✔ | 90'+3' · AND 0 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:48 | Czech NBL Game | Basket Brno | ✘ | — | — | In play | — |
-| 10-04 17:47 | Italy Serie A2 Game | Rinascita Basket Rimini | ✘ | — | — | In play | — |
+| 10-04 17:47 | Italy Serie A2 Game | Rinascita Basket Rimini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:45 | Bundesliga Basketball Game | Riesen Ludwigsburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:43 | Men's T20 Cricket Match | Gamblers SC | ✘ | — | — | In play | — |
 | 10-04 17:39 | ELH Game | HC Vitkovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:38 | Italy Serie A2 Game | Urania Milano | ✘ | — | — | In play | — |
+| 10-04 17:38 | Italy Serie A2 Game | Urania Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:36 | UEFA Nations League Game | Andorra | ✔ | 80' · AND 0 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 17:29 | Italy Serie A Game | Pallacanestro Trieste 2004 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:28 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:23 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
