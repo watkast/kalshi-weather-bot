@@ -1,18 +1,19 @@
 {
- "saved_at": "2026-10-04T19:31:46+00:00",
+ "saved_at": "2026-10-04T19:41:54+00:00",
  "series_watched": 329,
- "markets_in_or_near_play": 219,
+ "markets_in_or_near_play": 206,
  "batch_lookup": true,
- "espn_games_linked": 22,
+ "espn_games_linked": 24,
  "espn_check": {
-  "at": "2026-10-04T19:02:15+00:00",
-  "started_games": 21,
-  "matched": 20,
+  "at": "2026-10-04T19:33:16+00:00",
+  "started_games": 23,
+  "matched": 21,
   "unmatched_sample": [
+   "KXCONCACAFNLGAME-26OCT04BAHVIR",
    "KXCONCACAFNLGAME-26OCT04TCAIVB"
   ]
  },
- "bets": 4153,
- "open": 17,
+ "bets": 4158,
+ "open": 20,
  "errors": []
 }
