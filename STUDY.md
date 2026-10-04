@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 5:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 5:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.44/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.43/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3919 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3921 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
 *In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3528 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3530 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 248 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 239 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 178 | 0 | 7% | 1% | -100% | -87% | 5 min |
+| Challenger ATP  | ✘ | 179 | 0 | 7% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -134,10 +134,10 @@
 | Overwatch Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Valorant game winner | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 15 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
 | Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
-| Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Uruguay Primera Division Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 14 min |
 | Argentine Nacional B Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 11 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -221,7 +221,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 11:22 | Challenger ATP  | Alberto Barroso Campos | ✘ | — | — | In play | — |
+| 10-04 11:29 | ITF Men's Match | Rahul Lokesh | ✘ | — | — | In play | — |
+| 10-04 11:28 | ITF Men's Match | Harel Tarshish | ✘ | — | — | In play | — |
+| 10-04 11:22 | Challenger ATP  | Alberto Barroso Campos | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:14 | Challenger ATP  | Vadym Ursu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 11:13 | Challenger WTA | Doga Turkmen | ✘ | — | — | In play | — |
 | 10-04 11:10 | ITF Women's Match | Karyna Fiadosik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -232,7 +234,7 @@
 | 10-04 10:53 | Counter-Strike 2 Game | ShindeN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:53 | Challenger ATP  | Juan Cruz Martin Manzano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:52 | ITF Women's Match | Sapir Cohen | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 10:51 | Valorant game winner | Global Esports | ✘ | — | — | In play | — |
+| 10-04 10:51 | Valorant game winner | Global Esports | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-04 10:39 | Challenger ATP  | Daniel Siniakov | ✘ | — | — | In play | — |
 | 10-04 10:38 | Challenger WTA | Maria Golovina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:37 | ATP Tennis Match | Adolfo Daniel Vallejo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -249,8 +251,6 @@
 | 10-04 10:03 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
 | 10-04 10:01 | ITF Women's Match | Milana Konovalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:00 | Challenger WTA | Ilay Yoruk | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-04 10:00 | Challenger ATP  | Pietro Marino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 09:49 | Challenger ATP  | Tiago Esculcas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
