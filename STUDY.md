@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 5:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3911 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3915 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
 *In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3520 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3524 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,13 +94,13 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 247 | 1 | 3% | 2% | -62% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 248 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 237 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 176 | 0 | 7% | 1% | -100% | -87% | 5 min |
+| Challenger ATP  | ✘ | 177 | 0 | 7% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
-| League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| League of Legends Game | ✘ | 87 | 0 | 7% | 2% | -100% | -88% | 12 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
 | Women's College Volleyball Match | ✘ | 61 | 0 | 5% | 2% | -100% | -91% | 68 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
@@ -131,10 +131,10 @@
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
+| Overwatch Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NWSL Game | ✔ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | ELH Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 111 min |
-| Overwatch Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Eerste Divisie Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 3 min |
 | Liga Expansion Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 17 min |
 | Valorant game winner | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -221,8 +221,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 10:53 | Counter-Strike 2 Game | ShindeN | ✘ | — | — | In play | — |
-| 10-04 10:53 | Challenger ATP  | Juan Cruz Martin Manzano | ✘ | — | — | In play | — |
+| 10-04 11:06 | Women's T20 Match | Western Province Women | ✘ | — | — | In play | — |
+| 10-04 11:04 | Eredivisie Vrouwen Game | Tie | ✘ | — | — | In play | — |
+| 10-04 11:00 | Overwatch Game | Poker Face | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 11:00 | Eredivisie Vrouwen Game | FC Utrecht | ✘ | — | — | In play | — |
+| 10-04 10:53 | Counter-Strike 2 Game | ShindeN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:53 | Challenger ATP  | Juan Cruz Martin Manzano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:52 | ITF Women's Match | Sapir Cohen | ✘ | — | — | In play | — |
 | 10-04 10:51 | Valorant game winner | Global Esports | ✘ | — | — | In play | — |
 | 10-04 10:39 | Challenger ATP  | Daniel Siniakov | ✘ | — | — | In play | — |
@@ -232,7 +236,7 @@
 | 10-04 10:33 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:33 | Rugby NRL Match | Newcastle Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:33 | Challenger ATP  | Mathys Erhard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 10:31 | League of Legends Game | RED Canids | ✘ | — | — | In play | — |
+| 10-04 10:31 | League of Legends Game | RED Canids | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:26 | Challenger ATP  | Sergey Betov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:21 | Men's T20 Cricket Match | Tiger Strikers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:20 | ATP Tennis Match | Francisco Cerundolo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,10 +251,6 @@
 | 10-04 09:45 | Challenger ATP  | Guilherme Valdoleiros | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 09:42 | Women's T20 Match | Dolphins Women | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 09:39 | Challenger ATP  | Martim Bernardo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 09:34 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 09:28 | ITF Women's Match | Natalia Fehr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 09:10 | Challenger ATP  | Sebastiano Cocola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 09:02 | Challenger ATP  | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
