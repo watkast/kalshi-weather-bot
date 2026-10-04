@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 7:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 314 finished bets | 0% | -$33.10 | -70% | -10.54¢ | -$9.55 / -$23.55 |
 
-*Expect about **53 buys a day**, roughly **$7.94/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.96/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3767 | 314 | 1 (0%) | 1.1% | -$33.10 (-70%) | Hold to the end: -$33.10 (-70%) |
+| 3771 | 314 | 1 (0%) | 1.1% | -$33.10 (-70%) | Hold to the end: -$33.10 (-70%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -219,6 +219,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 01:24 | USL Championship Game | Tampa Bay | ✘ | — | — | In play | — |
+| 10-04 01:19 | College Football Game | Charleston Southern | ✘ | — | — | In play | — |
+| 10-04 01:18 | NBA Game | Toronto | ✔ | 7:12 - 4th · MIA 110 - TOR 87 | — | In play | — |
+| 10-04 01:17 | College Football Game | North Carolina A&T | ✘ | — | — | In play | — |
 | 10-04 01:08 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 0 - TB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 01:03 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
 | 10-04 01:03 | College Football Game | Louisiana-Monroe | ✔ | 11:42 - 3rd · ULM 14 - USA 38 | — | In play | — |
@@ -245,10 +249,6 @@
 | 10-04 00:21 | International Friendly Game | Tie | ✔ | 15' · BKA 0 - ARG 3 | — | In play | — |
 | 10-04 00:13 | Brasileiro Serie C Game | Ferroviaria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:09 | College Football Game | Colorado St. | ✔ | 9:30 - 3rd · ORST 35 - CSU 14 | — | In play | — |
-| 10-04 00:05 | NWSL Game | Bay FC | ✔ | 70' · BAY 1 - KC 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 00:04 | College Hockey Game | Niagara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 00:03 | College Football Game | South Carolina | ✔ | OT · UK 33 - SC 34 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:58 | NWSL Game | Tie | ✔ | 63' · BAY 1 - KC 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
