@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3904 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3907 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3511 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3519 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
-| Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 247 | 1 | 3% | 2% | -62% | -94% | 9 min |
 | ITF Women's Match | ✘ | 237 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 172 | 0 | 7% | 1% | -100% | -88% | 5 min |
+| Challenger ATP  | ✘ | 176 | 0 | 7% | 1% | -100% | -87% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -110,7 +110,7 @@
 | Men's T20 Cricket Match | ✘ | 40 | 0 | 18% | 8% | -100% | -70% | 16 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
-| Challenger WTA | ✘ | 29 | 0 | 17% | 14% | -100% | -70% | 10 min |
+| Challenger WTA | ✘ | 31 | 0 | 19% | 13% | -100% | -66% | 10 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Championship Game | partly | 26 | 0 | 15% | 4% | -100% | -73% | 8 min |
@@ -193,6 +193,7 @@
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NBA Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 20 min |
+| Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
 ## By time left when it hit 1¢
 
@@ -220,19 +221,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 10:34 | Challenger ATP  | Oscar Jose Gutierrez | ✘ | — | — | In play | — |
-| 10-04 10:33 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | — | In play | — |
-| 10-04 10:33 | Rugby NRL Match | Newcastle Knights | ✘ | — | — | In play | — |
-| 10-04 10:33 | Challenger ATP  | Mathys Erhard | ✘ | — | — | In play | — |
+| 10-04 10:39 | Challenger ATP  | Daniel Siniakov | ✘ | — | — | In play | — |
+| 10-04 10:38 | Challenger WTA | Maria Golovina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:37 | ATP Tennis Match | Adolfo Daniel Vallejo | ✘ | — | — | In play | — |
+| 10-04 10:34 | Challenger ATP  | Oscar Jose Gutierrez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:33 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:33 | Rugby NRL Match | Newcastle Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 10:33 | Challenger ATP  | Mathys Erhard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:31 | League of Legends Game | RED Canids | ✘ | — | — | In play | — |
-| 10-04 10:26 | Challenger ATP  | Sergey Betov | ✘ | — | — | In play | — |
+| 10-04 10:26 | Challenger ATP  | Sergey Betov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:21 | Men's T20 Cricket Match | Tiger Strikers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:20 | ATP Tennis Match | Francisco Cerundolo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:19 | Slovakian 2. Liga Game | Petrzalka | ✘ | — | — | In play | — |
-| 10-04 10:08 | Challenger ATP  | Sergi Fita Juan | ✘ | — | — | In play | — |
+| 10-04 10:08 | Challenger ATP  | Sergi Fita Juan | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-04 10:03 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
 | 10-04 10:01 | ITF Women's Match | Milana Konovalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 10:00 | Challenger WTA | Ilay Yoruk | ✘ | — | — | In play | — |
+| 10-04 10:00 | Challenger WTA | Ilay Yoruk | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-04 10:00 | Challenger ATP  | Pietro Marino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:49 | Challenger ATP  | Tiago Esculcas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:45 | Overwatch Game | Black Flag | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,9 +251,6 @@
 | 10-04 08:41 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:33 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 08:13 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:09 | Dota 2 Game | Ivory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:01 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 10-04 07:59 | Japan J2 League Game | Jubilo I | ✘ | — | — | In play | — |
 
 ## Raw data
 
