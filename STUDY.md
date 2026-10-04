@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 11:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 11:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 360 finished bets | 0% | -$40.00 | -74% | -11.11¢ | -$13.00 / -$27.00 |
+| ESPN-verified leagues only, hold to the end | 361 finished bets | 0% | -$40.15 | -74% | -11.12¢ | -$13.00 / -$27.15 |
 
-*Expect about **58 buys a day**, roughly **$8.72/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 360 | -$40.50 | -75% |
-| ESPN-verified leagues only, sell at 5¢ | 360 | -$42.30 | -78% |
-| ESPN-verified leagues only, sell at 2¢ | 360 | -$43.34 | -80% |
+| ESPN-verified leagues only, sell at 50¢ | 361 | -$40.65 | -75% |
+| ESPN-verified leagues only, sell at 5¢ | 361 | -$42.45 | -78% |
+| ESPN-verified leagues only, sell at 2¢ | 361 | -$43.49 | -80% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3852 | 360 | 1 (0%) | 1.1% | -$40.00 (-74%) | Hold to the end: -$40.00 (-74%) |
+| 3855 | 361 | 1 (0%) | 1.1% | -$40.15 (-74%) | Hold to the end: -$40.15 (-74%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 70 | 2.1% | 0.0% (0) | -160% | ❌ Worse |
+| ESPN win probability | 71 | 2.1% | 0.0% (0) | -157% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 70 | 0 | -100% | -78% | -85% | -75% |
+| **Any 1¢ (no model)** | 71 | 0 | -100% | -78% | -85% | -76% |
 | ESPN win probability ≥ 2% | 11 | 0 | -100% | -84% | -100% | -100% |
 | ESPN win probability ≥ 5% | 3 | 0 | -100% | -100% | -100% | -100% |
 | ESPN win probability ≥ 10% | 2 | 0 | -100% | -100% | -100% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 360 | 11% | 6% | 5% | 2% | 1% | 1% |
-| Unverified | 3481 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 361 | 11% | 6% | 5% | 2% | 1% | 1% |
+| Unverified | 3482 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$40.00 | -74% |
-| Sell at 2¢ | 41 | 11% | -$43.34 | -80% |
-| Sell at 3¢ | 23 | 6% | -$45.03 | -83% |
-| Sell at 5¢ | 18 | 5% | -$42.30 | -78% |
-| Sell at 10¢ | 8 | 2% | -$43.52 | -81% |
-| Sell at 25¢ | 3 | 1% | -$44.07 | -82% |
-| Sell at 50¢ | 2 | 1% | -$40.50 | -75% |
+| Hold to the end | 1 | 0% | -$40.15 | -74% |
+| Sell at 2¢ | 41 | 11% | -$43.49 | -80% |
+| Sell at 3¢ | 23 | 6% | -$45.18 | -83% |
+| Sell at 5¢ | 18 | 5% | -$42.45 | -78% |
+| Sell at 10¢ | 8 | 2% | -$43.67 | -81% |
+| Sell at 25¢ | 3 | 1% | -$44.22 | -82% |
+| Sell at 50¢ | 2 | 1% | -$40.65 | -75% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -95,10 +95,10 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 250 | 0 | 8% | 4% | -100% | -85% | 4 min |
 | Counter-Strike 2 Game | ✘ | 246 | 1 | 3% | 2% | -62% | -94% | 9 min |
-| ITF Women's Match | ✘ | 234 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 235 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Challenger ATP  | ✘ | 160 | 0 | 8% | 1% | -100% | -87% | 4 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
-| College Football Game | partly | 91 | 2 | 13% | 5% | +105% | -77% | 46 min |
+| College Football Game | partly | 92 | 2 | 13% | 5% | +103% | -77% | 46 min |
 | UEFA Nations League Game | ✔ | 88 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | League of Legends Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
@@ -200,7 +200,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 127 | 4% | 1% | 0% | -93% |
 | 5–15 min | 64 | 11% | 3% | 0% | -81% |
-| 15–30 min | 68 | 26% | 10% | 1% | -54% |
+| 15–30 min | 69 | 26% | 10% | 1% | -55% |
 | 30–60 min | 53 | 11% | 6% | 0% | -80% |
 | Over 60 min | 48 | 10% | 10% | 0% | -82% |
 
@@ -220,13 +220,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 05:16 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
+| 10-04 05:15 | College Football Game | Eastern Washington | ✘ | — | — | In play | — |
+| 10-04 05:13 | ITF Women's Match | Xi Luo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:59 | College Football Game | Arizona St. | ✔ | 9:29 - 3rd · BAY 38 - ASU 13 | — | In play | — |
 | 10-04 04:56 | NHL Game | Calgary | ✔ | 2:44 - 3rd · CGY 1 - VAN 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:53 | Challenger ATP  | Siddhant Banthia | ✘ | — | — | In play | — |
 | 10-04 04:49 | NHL Game | Los Angeles | ✔ | 1:42 - OT · LA 4 - SJ 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:45 | WTA Tennis Match | Aryna Sabalenka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:44 | WTA Tennis Match | Dayana Yastremska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 04:41 | College Football Game | Washington St. | ✔ | 4:00 - 4th · FRES 16 - WSU 6 | — | In play | — |
+| 10-04 04:41 | College Football Game | Washington St. | ✔ | 4:00 - 4th · FRES 16 - WSU 6 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 04:37 | USL Championship Game | Tie | ✔ | 90'+6' · SAFC 0 - LVL 1 | — | In play | — |
 | 10-04 04:27 | USL Championship Game | San Antonio | ✔ | 86' · SAFC 0 - LVL 1 | — | In play | — |
 | 10-04 04:26 | AHL Game | Tucson Roadrunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,9 +250,6 @@
 | 10-04 03:34 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:28 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 03:06 | College Football Game | Washington | ✔ | 0:45 - 4th · WASH 21 - USC 25 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:02 | USL Championship Game | Colorado Springs Sw. | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:02 | USL Championship Game | Oakland Roots SC | ✔ | 90'+8' · OAK 0 - COS 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 03:02 | Liga Expansion Game | Atletico Morelia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
