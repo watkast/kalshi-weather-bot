@@ -1,18 +1,18 @@
 # Lag Tracker
 
-*Updated Sun Oct 04 10:44 UTC. Paper money. Coin prices arrive live from Coinbase and Kraken; Kalshi's 15-minute crypto prices are checked every 0.5 seconds. When a coin move shifts the fair chance of UP by 5¢+ within 3 seconds, the bot pulls Kalshi's live order book, prices 10 contracts exactly as they'd fill, and paper-buys if that's still 3¢+ below fair value after fees.*
+*Updated Sun Oct 04 10:54 UTC. Paper money. Coin prices arrive live from Coinbase and Kraken; Kalshi's 15-minute crypto prices are checked every 0.5 seconds. When a coin move shifts the fair chance of UP by 5¢+ within 3 seconds, the bot pulls Kalshi's live order book, prices 10 contracts exactly as they'd fill, and paper-buys if that's still 3¢+ below fair value after fees.*
 
 [← Back to all bots](README.md)
 
 ## Verdict
 
-🟡 **Testing with real order-book fills.** 74 of 150 settled trades needed before calling it. The earlier results below used quoted prices, which may not have been fillable.
+🟡 **Testing with real order-book fills.** 88 of 150 settled trades needed before calling it. The earlier results below used quoted prices, which may not have been fillable.
 
 ## At a glance
 
 | Paper P&L (hold) | Return | Trades | Avg bet | Most money tied up at once | Kalshi lag (median) |
 |---|---|---|---|---|---|
-| **$9.07** | +3.1% | 74 | $3.94 | $83.77 | 10.8s |
+| **$12.92** | +3.7% | 88 | $3.88 | $83.77 | 10.8s |
 
 *Order-book fills. 10 contracts per buy, no bankroll limit — every trade is scored on its own.*
 
@@ -20,11 +20,11 @@
 
 | Exit | Trades | Won | P&L | Return | Earlier / later half |
 |---|---|---|---|---|---|
-| Sell after 10 sec | 88 | 22 | -$30.59 | -8.8% | -$14.79 / -$15.80 |
-| Sell after 30 sec | 88 | 28 | -$30.57 | -8.8% | -$24.19 / -$6.38 |
-| Hold to the close | 74 | 30 | $9.07 | +3.1% | -$11.90 / $20.97 |
-| Hold, only edge 10¢+ | 18 | 2 | -$23.31 | -53.8% | -$15.83 / -$7.48 |
-| Hold, first trade per window only | 31 | 14 | $2.73 | +2.0% | -$8.54 / $11.27 |
+| Sell after 10 sec | 94 | 22 | -$34.11 | -9.3% | -$15.77 / -$18.34 |
+| Sell after 30 sec | 93 | 28 | -$33.39 | -9.2% | -$24.90 / -$8.49 |
+| Hold to the close | 88 | 36 | $12.92 | +3.7% | $2.49 / $10.43 |
+| Hold, only edge 10¢+ | 21 | 3 | -$24.92 | -45.4% | -$20.21 / -$4.71 |
+| Hold, first trade per window only | 35 | 16 | $8.66 | +5.7% | -$5.72 / $14.38 |
 
 ![Cumulative P&L](lag/charts/pnl.png)
 
@@ -34,7 +34,7 @@
 
 | Events checked | Order book matched the quote (within 1¢) | Book was 2¢+ worse | Median gap (book − quote) | Avg cost of filling 10 vs best price | Skipped |
 |---|---|---|---|---|---|
-| 385 | 9% | 70% | +5.1¢ | 0.2¢ | edge gone 275, price out of range 18, spread too wide 4 |
+| 428 | 9% | 69% | +5.0¢ | 0.3¢ | edge gone 312, price out of range 18, spread too wide 4 |
 
 *If the book usually matches the quote, the lag is real. If the book is usually worse, the "lag" was just a slow price display and the old paper profits weren't fillable.*
 
@@ -51,15 +51,15 @@
 | Coin | Events | Kalshi catches up in (median) | Already moved before we could buy | Share of the move Kalshi made within 2 sec |
 |---|---|---|---|---|
 | BNB | 650 | 11.1s | 3% | 0% |
-| BTC | 568 | 11.9s | 3% | 0% |
-| DOGE | 752 | 10.5s | 2% | 0% |
-| ETH | 732 | 11.0s | 4% | 0% |
-| HYPE | 604 | 11.4s | 4% | 0% |
-| NEAR | 738 | 10.8s | 4% | 0% |
-| SOL | 1356 | 10.9s | 3% | 0% |
-| XRP | 1371 | 10.9s | 4% | 0% |
-| ZEC | 881 | 9.6s | 4% | 0% |
-| **All** | **7652** | **10.8s** | **3%** | **0%** |
+| BTC | 572 | 11.9s | 3% | 0% |
+| DOGE | 754 | 10.5s | 2% | 0% |
+| ETH | 734 | 11.0s | 4% | 0% |
+| HYPE | 611 | 11.4s | 4% | 0% |
+| NEAR | 747 | 10.8s | 4% | 0% |
+| SOL | 1364 | 10.8s | 3% | 0% |
+| XRP | 1381 | 11.0s | 4% | 0% |
+| ZEC | 882 | 9.6s | 4% | 0% |
+| **All** | **7695** | **10.8s** | **3%** | **0%** |
 
 *"Catches up" = Kalshi's quoted price moved at least half as far as our fair value did. "Already moved" = that had happened by the first Kalshi price we saw after the jump. Kalshi is checked every 0.5 seconds, so 0.5s is the fastest we can measure.*
 
@@ -67,39 +67,39 @@
 
 ## Feed speed
 
-Kalshi quote check: **22 ms** · Order book check: **49 ms** · Coinbase price delay: **34 ms**
+Kalshi quote check: **22 ms** · Order book check: **49 ms** · Coinbase price delay: **33 ms**
 
 ## Latest events
 
 | Time (UTC) | Coin | Move | Fair | Quote → book | Caught up | Trade | P&L (10s / 30s / close) |
 |---|---|---|---|---|---|---|---|
-| 10-04 10:43:38 | XRP | up | 0.82→0.91 | 0.95 → 0.96 | 27.57s | price out of range |  |
-| 10-04 10:43:29 | SOL | down | 0.98→0.91 | 0.01 → 0.01 | no | price out of range |  |
-| 10-04 10:42:49 | DOGE | down | 0.95→0.89 | 0.09 → 0.09 | no | edge gone |  |
-| 10-04 10:42:45 | XRP | up | 0.77→0.84 | 0.88 → 0.88 | no | edge gone |  |
-| 10-04 10:42:21 | XRP | up | 0.59→0.71 | 0.70 → 0.79 | 14.84s | edge gone |  |
-| 10-04 10:42:04 | XRP | down | 0.73→0.62 | 0.26 → 0.27 | no | DOWN @ 0.27 | -0.09 / -1.72 / · |
-| 10-04 10:42:02 | DOGE | down | 0.84→0.77 | 0.21 → 0.19 | no | edge gone |  |
-| 10-04 10:42:01 | NEAR | down | 0.90→0.80 | 0.02 → 0.05 | no | price out of range |  |
-| 10-04 10:41:41 | XRP | down | 0.77→0.72 | 0.32 → 0.21 | no | DOWN @ 0.21 | -0.43 / 0.22 / · |
-| 10-04 10:41:28 | SOL | up | 0.77→0.84 | 0.34 → 0.79 | 7.35s | UP @ 0.79 | 0.24 / 1.07 / · |
-| 10-04 10:41:27 | BTC | up | 0.00→0.06 | 0.01 → 0.04 | no | price out of range |  |
-| 10-04 10:41:27 | DOGE | up | 0.63→0.74 | 0.08 → 0.59 | 9.10s | UP @ 0.59 | 0.78 / 1.98 / · |
-| 10-04 10:41:26 | NEAR | up | 0.79→0.89 | 0.92 → 0.97 | 24.35s | price out of range |  |
-| 10-04 10:41:26 | XRP | up | 0.15→0.68 | 0.10 → 0.58 | 9.35s | UP @ 0.58 | 1.18 / 1.90 / · |
-| 10-04 10:41:26 | ETH | up | 0.00→0.09 | 0.01 → 0.09 | 9.35s | edge gone |  |
-| 10-04 10:40:44 | NEAR | down | 0.77→0.72 | 0.05 → 0.08 | no | DOWN @ 0.08 | -0.27 / -0.07 / · |
-| 10-04 10:40:32 | SOL | down | 0.43→0.37 | 0.49 → 0.59 | 3.86s | edge gone |  |
-| 10-04 10:40:23 | XRP | down | 0.26→0.18 | 0.82 → 0.88 | 12.36s | edge gone |  |
-| 10-04 10:40:19 | NEAR | up | 0.77→0.83 | 0.93 → 0.95 | no | edge gone |  |
-| 10-04 10:40:04 | SOL | up | 0.41→0.47 | 0.34 → 0.50 | 1.37s | edge gone |  |
-| 10-04 10:39:53 | DOGE | up | 0.24→0.30 | 0.13 → 0.25 | 12.87s | UP @ 0.25 | -0.85 / -0.76 / · |
-| 10-04 10:39:44 | XRP | up | 0.16→0.22 | 0.21 → 0.18 | no | UP @ 0.18 | -0.10 / -0.68 / · |
-| 10-04 10:39:28 | SOL | down | 0.47→0.41 | 0.49 → 0.45 | 22.88s | DOWN @ 0.45 | 1.35 / 0.34 / · |
-| 10-04 10:39:05 | SOL | down | 0.53→0.47 | 0.36 → 0.46 | 15.38s | DOWN @ 0.46 | -0.36 / 1.06 / · |
-| 10-04 10:38:42 | SOL | up | 0.55→0.60 | 0.65 → 0.65 | no | edge gone |  |
-| 10-04 10:38:32 | XRP | down | 0.30→0.24 | 0.77 → 0.82 | 18.89s | edge gone |  |
-| 10-04 10:38:25 | SOL | up | 0.50→0.62 | 0.50 → 0.67 | 10.89s | edge gone |  |
-| 10-04 10:38:05 | NEAR | up | 0.60→0.65 | 0.78 → 0.77 | 15.40s | edge gone |  |
-| 10-04 10:38:04 | XRP | up | 0.25→0.33 | 0.16 → 0.26 | 17.15s | UP @ 0.28 | -1.04 / -1.23 / · |
-| 10-04 10:38:04 | DOGE | up | 0.30→0.39 | 0.29 → 0.41 | 2.14s | edge gone |  |
+| 10-04 10:54:28 | DOGE | down | 0.55→0.48 | 0.44 → 0.54 | no | edge gone |  |
+| 10-04 10:54:21 | XRP | down | 0.69→0.63 | 0.22 → 0.27 | no | DOWN @ 0.28 | -0.82 / · / · |
+| 10-04 10:53:55 | XRP | down | 0.71→0.63 | 0.24 → 0.22 | no | DOWN @ 0.23 | -0.45 / -0.38 / · |
+| 10-04 10:53:55 | SOL | down | 0.46→0.34 | 0.55 → 0.66 | 8.83s | edge gone |  |
+| 10-04 10:53:48 | NEAR | up | 0.57→0.65 | 0.71 → 0.79 | 16.08s | edge gone |  |
+| 10-04 10:53:41 | HYPE | up | 0.46→0.53 | 0.47 → 0.52 | 8.08s | edge gone |  |
+| 10-04 10:53:40 | XRP | down | 0.71→0.65 | 0.25 → 0.24 | no | DOWN @ 0.25 | -0.76 / -0.66 / · |
+| 10-04 10:53:24 | SOL | up | 0.40→0.46 | 0.44 → 0.44 | no | edge gone |  |
+| 10-04 10:53:15 | XRP | down | 0.70→0.64 | 0.29 → 0.29 | no | DOWN @ 0.29 | -0.83 / -0.97 / · |
+| 10-04 10:53:07 | SOL | down | 0.46→0.40 | 0.55 → 0.57 | 27.35s | edge gone |  |
+| 10-04 10:52:54 | NEAR | up | 0.40→0.47 | 0.47 → 0.59 | 9.60s | edge gone |  |
+| 10-04 10:52:32 | SOL | down | 0.51→0.46 | 0.45 → 0.51 | 2.10s | edge gone |  |
+| 10-04 10:52:25 | NEAR | down | 0.48→0.41 | 0.41 → 0.55 | 9.35s | edge gone |  |
+| 10-04 10:52:17 | SOL | down | 0.56→0.51 | 0.34 → 0.45 | 2.10s | edge gone |  |
+| 10-04 10:52:12 | XRP | up | 0.63→0.70 | 0.74 → 0.74 | 22.36s | edge gone |  |
+| 10-04 10:51:50 | HYPE | up | 0.47→0.52 | 0.45 → 0.65 | 14.11s | edge gone |  |
+| 10-04 10:51:42 | XRP | up | 0.58→0.63 | 0.62 → 0.64 | 21.61s | edge gone |  |
+| 10-04 10:51:37 | DOGE | down | 0.46→0.37 | 0.65 → 0.65 | no | edge gone |  |
+| 10-04 10:51:34 | BTC | up | 0.44→0.50 | 0.44 → 0.42 | no | UP @ 0.42 | -0.36 / -0.45 / · |
+| 10-04 10:51:27 | XRP | up | 0.50→0.55 | 0.63 → 0.60 | no | edge gone |  |
+| 10-04 10:51:23 | NEAR | up | 0.39→0.46 | 0.43 → 0.54 | 11.37s | edge gone |  |
+| 10-04 10:51:11 | HYPE | up | 0.36→0.41 | 0.34 → 0.45 | 8.12s | edge gone |  |
+| 10-04 10:51:01 | XRP | up | 0.53→0.58 | 0.59 → 0.64 | 17.62s | edge gone |  |
+| 10-04 10:50:33 | HYPE | down | 0.31→0.24 | 0.68 → 0.80 | 1.38s | edge gone |  |
+| 10-04 10:50:30 | SOL | down | 0.49→0.43 | 0.55 → 0.53 | no | edge gone |  |
+| 10-04 10:50:15 | BTC | down | 0.46→0.41 | 0.54 → 0.57 | no | edge gone |  |
+| 10-04 10:50:14 | NEAR | up | 0.43→0.50 | 0.52 → 0.60 | no | edge gone |  |
+| 10-04 10:49:46 | HYPE | down | 0.37→0.23 | 0.70 → 0.73 | 17.39s | edge gone |  |
+| 10-04 10:49:46 | SOL | up | 0.49→0.55 | 0.55 → 0.53 | no | edge gone |  |
+| 10-04 10:49:36 | NEAR | up | 0.41→0.47 | 0.44 → 0.54 | 13.14s | edge gone |  |
