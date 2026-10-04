@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 5:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 5:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 415 finished bets | 0% | -$48.25 | -78% | -11.63¢ | -$17.05 / -$31.20 |
 
-*Expect about **59 buys a day**, roughly **$8.89/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4243 | 415 | 1 (0%) | 1.1% | -$48.25 (-78%) | Hold to the end: -$48.25 (-78%) |
+| 4245 | 415 | 1 (0%) | 1.1% | -$48.25 (-78%) | Hold to the end: -$48.25 (-78%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 415 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3821 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3823 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 85 | 1 | 7% | 2% | +10% | -88% | 56 min |
+| Women's College Volleyball Match | ✘ | 86 | 1 | 7% | 2% | +9% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 73 | 1 | 21% | 10% | +28% | -64% | 25 min |
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -168,12 +168,12 @@
 | Adriatic ABA Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
+| College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Italy Serie A Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| College Hockey Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
@@ -223,8 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 23:24 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
+| 10-04 23:22 | CONCACAF Nations League Game | Cayman Islands | ✔ | 64' · CAY 0 - PUR 0 | — | In play | — |
 | 10-04 22:57 | NFL Game | Miami | ✔ | 2:07 - 4th · MIA 10 - MIN 15 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 22:56 | Women's College Volleyball Match | Iowa State | ✘ | — | — | In play | — |
+| 10-04 22:56 | Women's College Volleyball Match | Iowa State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:29 | NFL Game | Los Angeles C | ✔ | 9:23 - 3rd · LAC 6 - SEA 27 | — | In play | — |
 | 10-04 22:25 | Women's College Volleyball Match | Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,12 +249,10 @@
 | 10-04 21:33 | CONCACAF Nations League Game | Virgin Islands, British | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 21:27 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:23 | AHL Game | Providence Bruins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:22 | College Hockey Game | Minnesota | ✘ | — | — | In play | — |
+| 10-04 21:22 | College Hockey Game | Minnesota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:22 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 21:14 | Canadian Premier League | Pacific | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:12 | CONCACAF Nations League Game | Bahamas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 21:04 | Women's College Volleyball Match | Central Florida | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 21:02 | USL Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
