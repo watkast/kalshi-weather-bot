@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 3, 6:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 3, 7:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 307 finished bets | 0% | -$32.05 | -70% | -10.44¢ | -$8.95 / -$23.10 |
 
-*Expect about **52 buys a day**, roughly **$7.84/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.93/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3759 | 307 | 1 (0%) | 1.1% | -$32.05 (-70%) | Hold to the end: -$32.05 (-70%) |
+| 3766 | 307 | 1 (0%) | 1.1% | -$32.05 (-70%) | Hold to the end: -$32.05 (-70%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 307 | 12% | 7% | 5% | 2% | 1% | 0% |
-| Unverified | 3432 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3433 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -176,6 +176,7 @@
 | England Super League Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | CFL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 35 min |
 | LKL Lithuania Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| College Hockey Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -188,7 +189,6 @@
 | Spain Liga ACB Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Italy Serie A2 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Italy Serie A Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| College Hockey Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 25 min |
 | NFL Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Women's T20 Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 52 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -219,6 +219,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 01:03 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
+| 10-04 01:03 | College Football Game | Louisiana-Monroe | ✔ | 11:42 - 3rd · ULM 14 - USA 38 | — | In play | — |
+| 10-04 01:02 | USL Championship Game | Tie | ✔ | 90'+6' · BRM 0 - DET 1 | — | In play | — |
+| 10-04 01:00 | College Hockey Game | Bowling Green | ✘ | — | — | In play | — |
+| 10-04 00:57 | College Football Game | Arkansas | ✔ | 14:15 - 3rd · ARK 7 - TA&M 24 | — | In play | — |
+| 10-04 00:57 | College Football Game | Bryant | ✘ | — | — | In play | — |
+| 10-04 00:55 | USL Championship Game | Tie | ✔ | 88' · ELP 1 - LEX 3 | — | In play | — |
 | 10-04 00:53 | College Football Game | Rutgers | ✔ | 11:36 - 2nd · IU 10 - RUTG 0 | — | In play | — |
 | 10-04 00:52 | USL Championship Game | Tie | ✔ | 84' · RHI 3 - BFKC 0 | — | In play | — |
 | 10-04 00:51 | USL Championship Game | Birmingham Legion FC | ✔ | 85' · BRM 0 - DET 1 | — | In play | — |
@@ -229,7 +236,7 @@
 | 10-04 00:35 | AHL Game | San Jose Barracuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:35 | USL Championship Game | El Paso Locomotive FC | ✔ | 68' · ELP 1 - LEX 3 | — | In play | — |
 | 10-04 00:35 | AHL Game | Wilkes Barre-Scranton Penguins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 00:29 | College Hockey Game | Arizona State | ✘ | — | — | In play | — |
+| 10-04 00:29 | College Hockey Game | Arizona State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:27 | Brasileiro Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:27 | Brasileiro Serie C Game | Brusque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 00:27 | Brasileiro Serie C Game | Internacional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -242,13 +249,6 @@
 | 10-04 00:03 | College Football Game | South Carolina | ✔ | OT · UK 33 - SC 34 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:58 | NWSL Game | Tie | ✔ | 63' · BAY 1 - KC 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-03 23:58 | USL Championship Game | Indy Eleven | ✔ | 90'+5' · INDY 1 - LOU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:56 | College Football Game | McNeese | ✔ | 15:00 - 1st · MCN 0 - LSU 0 | — | In play | — |
-| 10-03 23:52 | USL Championship Game | Loudoun United FC | ✔ | 89' · INDY 1 - LOU 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:51 | College Football Game | Southern Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:38 | League of Legends Game | Cloud9 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:30 | Brasileiro Serie A Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:25 | College Football Game | Maryland | ✔ | 11:28 - 4th · MD 23 - NEB 35 | 0¢ | ❌ Lost | -$0.15 |
-| 10-03 23:25 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
