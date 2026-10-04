@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 7:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 7:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 365 finished bets | 0% | -$40.75 | -74% | -11.16¢ | -$13.30 / -$27.45 |
 
-*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3975 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3979 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3571 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3574 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -107,16 +107,16 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Men's T20 Cricket Match | ✘ | 40 | 0 | 18% | 8% | -100% | -70% | 16 min |
+| Men's T20 Cricket Match | ✘ | 41 | 0 | 17% | 7% | -100% | -70% | 17 min |
 | International Friendly Game | partly | 36 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | Challenger WTA | ✘ | 34 | 0 | 21% | 12% | -100% | -64% | 10 min |
 | NHL Game | ✔ | 34 | 0 | 12% | 6% | -100% | -80% | 5 min |
 | R6 Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 29 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| KHL Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | USL Championship Game | partly | 26 | 0 | 15% | 4% | -100% | -73% | 8 min |
 | Serie C Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 5 min |
-| KHL Game | ✘ | 25 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -124,9 +124,9 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | National League Game | ✘ | 20 | 1 | 5% | 5% | +367% | -91% | 5 min |
 | AHL Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 7 min |
+| ATP Tennis Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| ATP Tennis Match | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -221,10 +221,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 13:52 | LaLiga 2 Game | Real Sociedad B | ✘ | — | — | In play | — |
+| 10-04 13:49 | Men's T20 Cricket Match | Oeiras 2nd XI | ✘ | — | — | In play | — |
+| 10-04 13:46 | ATP Tennis Match | Alexander Zverev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-04 13:44 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:42 | Bundesliga Basketball Game | Baskets Oldenburg | ✘ | — | — | In play | — |
 | 10-04 13:41 | Men's T20 Cricket Match | Tuskers | ✘ | — | — | In play | — |
 | 10-04 13:35 | Challenger WTA | Alya Naz Altinel | ✘ | — | — | In play | — |
-| 10-04 13:32 | Men's T20 Cricket Match | Limpopo Impalas | ✘ | — | — | In play | — |
+| 10-04 13:32 | Men's T20 Cricket Match | Limpopo Impalas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:31 | International Friendly Game | Comoros | ✔ | 27' · SEN 1 - COM 0 | — | In play | — |
 | 10-04 13:26 | Challenger ATP  | Rafael Izquierdo Luque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 13:22 | Valorant game winner | FUT Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,10 +251,6 @@
 | 10-04 12:38 | ITF Men's Match | Joao Azzari Cabas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 12:36 | Challenger WTA | Adelina Lachinova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 12:36 | Challenger ATP  | Niels Visker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 12:33 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 12:30 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 12:30 | Ettan Game | Vasalunds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 12:29 | Ettan Game | Olympic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
