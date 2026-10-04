@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 414 finished bets | 0% | -$48.10 | -77% | -11.62¢ | -$17.05 / -$31.05 |
 
-*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.90/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4238 | 414 | 1 (0%) | 1.1% | -$48.10 (-77%) | Hold to the end: -$48.10 (-77%) |
+| 4239 | 414 | 1 (0%) | 1.1% | -$48.10 (-77%) | Hold to the end: -$48.10 (-77%) |
 
 *In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 414 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3814 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3815 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -112,7 +112,7 @@
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
 | NHL Game | ✔ | 35 | 0 | 11% | 6% | -100% | -80% | 4 min |
-| R6 Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 28 | 0 | 14% | 4% | -100% | -75% | 8 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-04 22:12 | R6 Game | FURIA Esports | ✘ | — | — | In play | — |
+| 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | — | In play | — |
+| 10-04 22:12 | R6 Game | FURIA Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:10 | Challenger ATP  | Diego Ortiz Gamonal | ✘ | — | — | In play | — |
 | 10-04 21:58 | AHL Game | Grand Rapids Griffins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:55 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 21:01 | Rugby French 14 Match | RC Toulon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:01 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 20:57 | Liga DIMAYOR Game | Fortaleza | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-04 20:56 | Liga DIMAYOR Game | Pasto | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
