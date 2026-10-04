@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 4:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 4:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 3907 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
+| 3911 | 365 | 1 (0%) | 1.1% | -$40.75 (-74%) | Hold to the end: -$40.75 (-74%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 365 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3519 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 3520 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -125,9 +125,9 @@
 | AHL Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liga DIMAYOR Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| ATP Tennis Match | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | Japan NPB Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| ATP Tennis Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 2 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
@@ -221,9 +221,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 10:53 | Counter-Strike 2 Game | ShindeN | ✘ | — | — | In play | — |
+| 10-04 10:53 | Challenger ATP  | Juan Cruz Martin Manzano | ✘ | — | — | In play | — |
+| 10-04 10:52 | ITF Women's Match | Sapir Cohen | ✘ | — | — | In play | — |
+| 10-04 10:51 | Valorant game winner | Global Esports | ✘ | — | — | In play | — |
 | 10-04 10:39 | Challenger ATP  | Daniel Siniakov | ✘ | — | — | In play | — |
 | 10-04 10:38 | Challenger WTA | Maria Golovina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 10:37 | ATP Tennis Match | Adolfo Daniel Vallejo | ✘ | — | — | In play | — |
+| 10-04 10:37 | ATP Tennis Match | Adolfo Daniel Vallejo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 10:34 | Challenger ATP  | Oscar Jose Gutierrez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:33 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 10:33 | Rugby NRL Match | Newcastle Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,10 +251,6 @@
 | 10-04 09:28 | ITF Women's Match | Natalia Fehr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:10 | Challenger ATP  | Sebastiano Cocola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 09:02 | Challenger ATP  | Kosuke Ogura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:42 | Challenger ATP  | Taisei Ichikawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:41 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:33 | Overwatch Game | SHENGSHI Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 08:13 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
