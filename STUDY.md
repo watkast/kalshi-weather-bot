@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 12:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 12:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 381 finished bets | 0% | -$43.15 | -76% | -11.33¢ | -$14.50 / -$28.65 |
 
-*Expect about **56 buys a day**, roughly **$8.42/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4134 | 381 | 1 (0%) | 1.1% | -$43.15 (-76%) | Hold to the end: -$43.15 (-76%) |
+| 4136 | 381 | 1 (0%) | 1.1% | -$43.15 (-76%) | Hold to the end: -$43.15 (-76%) |
 
 *In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 381 | 12% | 7% | 5% | 2% | 1% | 1% |
-| Unverified | 3740 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3742 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,7 +102,7 @@
 | UEFA Nations League Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | League of Legends Game | ✘ | 89 | 0 | 7% | 2% | -100% | -88% | 12 min |
 | CONCACAF Nations League Game | partly | 67 | 1 | 21% | 9% | +39% | -64% | 25 min |
-| Women's College Volleyball Match | ✘ | 65 | 0 | 5% | 2% | -100% | -92% | 69 min |
+| Women's College Volleyball Match | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 68 min |
 | Darts Match | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -163,9 +163,9 @@
 | Women's Pro Basketball Game | ✔ | 8 | 0 | 25% | 12% | -100% | -57% | 13 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Canadian Premier League | ✘ | 7 | 1 | 57% | 57% | +1233% | -1% | 29 min |
 | Adriatic ABA Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| LNB Elite Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -222,12 +222,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-04 18:47 | Women's College Volleyball Match | Mississippi State | ✘ | — | — | In play | — |
+| 10-04 18:43 | LNB Elite Game | Le Mans Sarthe Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:40 | NWSL Game | Angel City FC | ✔ | 73' · LA 0 - GFC 1 | — | In play | — |
 | 10-04 18:37 | Liga Expansion Game | Dorados | ✘ | — | — | In play | — |
 | 10-04 18:33 | Women's College Volleyball Match | Boston College | ✘ | — | — | In play | — |
 | 10-04 18:33 | NFL Game | Tennessee | ✔ | 0:05 - 2nd · TEN 7 - BAL 21 | — | In play | — |
 | 10-04 18:32 | Women's College Volleyball Match | Syracuse | ✘ | — | — | In play | — |
-| 10-04 18:30 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
+| 10-04 18:30 | Women's College Volleyball Match | Clemson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:28 | LaLiga 2 Game | Valladolid | ✔ | 90'+4' · VLL 2 - LPA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:27 | LaLiga 2 Game | Las Palmas | ✔ | 90'+4' · VLL 2 - LPA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 18:26 | Women's College Volleyball Match | North Carolina State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,8 +252,6 @@
 | 10-04 17:54 | Copa Del Rey Game | Reg Time: UD Maracena | ✘ | — | — | In play | — |
 | 10-04 17:54 | Copa Del Rey Game | Reg Time: UE Tavernes | ✘ | — | — | In play | — |
 | 10-04 17:53 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:52 | UEFA Nations League Game | Austria | ✔ | 90'+4' · AUT 1 - KOS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 17:52 | Italy Serie A2 Game | Dinamo Sassari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
