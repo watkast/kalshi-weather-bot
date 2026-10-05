@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4471 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
+| 4472 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | — | In play | — |
 | 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 20:25 | UEFA Nations League Game | Turkiye | ✔ | 83' · TUR 1 - ITA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:24 | UEFA Nations League Game | Belgium | ✔ | 82' · BEL 1 - FRA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:21 | ITF Men's Match | Gonzalo Zeitune | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:20 | LaLiga 2 Game | Tenerife | ✔ | 83' · TEN 2 - COR 3 | 8¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
