@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 1:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 1:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **60 buys a day**, roughly **$8.96/day** at risk; max loss per buy **15¢**.*
+*Expect about **60 buys a day**, roughly **$8.95/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4308 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4310 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3863 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3864 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -119,9 +119,9 @@
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga DIMAYOR Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| KBO Game | ✘ | 25 | 0 | 4% | 4% | -100% | -93% | 5 min |
 | ATP Tennis Match | ✘ | 24 | 0 | 12% | 4% | -100% | -78% | 3 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| KBO Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 7 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Uruguay Primera Division Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 12 min |
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 07:51 | TT Star Series Match | Morávek Jindřich | ✘ | — | — | In play | — |
+| 10-05 07:48 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:25 | Challenger ATP  | Semen Pankin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:16 | TT Star Series Match | Dettmar Jannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:15 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 03:38 | NFL Game | Detroit | ✔ | 1:29 - 4th · DET 26 - CAR 32 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:36 | NHL Game | Vancouver | ✔ | 0:17 - 3rd · VGK 3 - VAN 2 | 3¢ | ❌ Lost | -$0.15 |
-| 10-05 03:31 | Challenger WTA | Katarina Zavatska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 03:23 | Challenger ATP  | Kristjan Tamm | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
