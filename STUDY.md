@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 10:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 10:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.51/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4399 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4401 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3953 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3956 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 274 | 1 | 4% | 3% | -66% | -93% | 9 min |
-| ITF Women's Match | ✘ | 270 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| Counter-Strike 2 Game | ✘ | 276 | 1 | 4% | 3% | -66% | -93% | 9 min |
+| ITF Women's Match | ✘ | 271 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 268 | 1 | 9% | 5% | -65% | -84% | 4 min |
 | Challenger ATP  | ✘ | 225 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 125 | 1 | 2% | 2% | -25% | -96% | 4 min |
@@ -223,13 +223,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 16:55 | ITF Men's Match | Yannis Batsabaken | ✘ | — | — | In play | — |
+| 10-05 16:50 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:44 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-05 16:42 | Counter-Strike 2 Game | ECSTATIC | ✘ | — | — | In play | — |
+| 10-05 16:42 | Counter-Strike 2 Game | ECSTATIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:40 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:37 | Challenger ATP  | Nicolas Kicker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:35 | Slovakian 2. Liga Game | 1914 Samorin | ✘ | — | — | In play | — |
 | 10-05 16:31 | ITF Men's Match | Philippe Renard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:29 | ITF Women's Match | Maria Kononova | ✘ | — | — | In play | — |
+| 10-05 16:29 | ITF Women's Match | Maria Kononova | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-05 16:28 | ITF Women's Match | Justina Lassaga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:28 | ITF Women's Match | Isabella Mai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:22 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 11:50 | League of Legends Game | Shopify Rebellion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:46 | TT Star Series Match | Nemras Reda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:42 | ITF Men's Match | Maximilian Todorov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:41 | ITF Men's Match | Lilian Chidekh | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 11:36 | ITF Men's Match | Ethan Terblanche | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
