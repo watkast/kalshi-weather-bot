@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 1:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 1:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 444 finished bets | 0% | -$38.60 | -58% | -8.69¢ | -$19.30 / -$19.30 |
 
-*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4433 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 444 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3982 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3985 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 282 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 276 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| Counter-Strike 2 Game | ✘ | 283 | 1 | 4% | 3% | -67% | -93% | 9 min |
+| ITF Women's Match | ✘ | 278 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 271 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 228 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
@@ -225,9 +225,9 @@
 |---|---|---|---|---|---|---|---|
 | 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | — | In play | — |
 | 10-05 19:17 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
-| 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | — | In play | — |
-| 10-05 19:00 | ITF Women's Match | Nalah Kaler | ✘ | — | — | In play | — |
-| 10-05 18:56 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
+| 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
+| 10-05 19:00 | ITF Women's Match | Nalah Kaler | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-05 18:56 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:53 | Counter-Strike 2 Game | XI Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:43 | ITF Women's Match | Pietra Rivoli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 18:40 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
