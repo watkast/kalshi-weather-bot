@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 3:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 3:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **59 buys a day**, roughly **$8.89/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.88/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4315 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4316 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 09:08 | Men's T20 Cricket Match | Qatar | ✘ | — | — | In play | — |
 | 10-05 09:04 | Counter-Strike 2 Game | Elite Klan | ✘ | — | — | In play | — |
 | 10-05 08:50 | TT Star Series Match | Dettmar Jannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 08:28 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 04:16 | Challenger WTA | Yidi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 

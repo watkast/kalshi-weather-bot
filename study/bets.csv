@@ -4314,3 +4314,4 @@ detected_at,league,series,event,ticker,pick,verified,situation_at_entry,entry_pr
 2026-10-05T08:28:43+00:00,KBO Game,KXKBOGAME,KXKBOGAME-26OCT050100KIALG,KXKBOGAME-26OCT050100KIALG-LG,LG Twins,no,,0.01,14,0.01,settled,no,-0.15,,approx (market close),2026-10-05T08:26:39+00:00,123,1.2,0.00,,0.01,,,,,,,2,41,complete,
 2026-10-05T08:50:01+00:00,TT Star Series Match,KXTTSTARMATCH,KXTTSTARMATCH-26OCT050430DETLOV,KXTTSTARMATCH-26OCT050430DETLOV-DET,Dettmar Jannes,no,,0.01,14,0.01,settled,no,-0.15,,approx (market close),2026-10-05T08:49:48+00:00,13,10.2,0.00,,,,,,,,,0,3,complete,
 2026-10-05T09:04:10+00:00,Counter-Strike 2 Game,KXCS2GAME,KXCS2GAME-26OCT050400CTREK,KXCS2GAME-26OCT050400CTREK-EK,Elite Klan,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-05T09:08:39+00:00,Men's T20 Cricket Match,KXT20MATCH,KXT20MATCH-26OCT050200QATKUW,KXT20MATCH-26OCT050200QATKUW-QAT,Qatar,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
