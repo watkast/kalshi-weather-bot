@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 9:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 9:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4379 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4381 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3937 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3938 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,8 +94,8 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 273 | 1 | 4% | 3% | -66% | -94% | 9 min |
+| ITF Women's Match | ✘ | 266 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 265 | 0 | 9% | 5% | -100% | -84% | 4 min |
-| ITF Women's Match | ✘ | 265 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 221 | 1 | 8% | 2% | -58% | -86% | 5 min |
 | TT Star Series Match | ✘ | 122 | 1 | 2% | 2% | -23% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 15:30 | Challenger ATP  | Maxi Carrascosa Diaz | ✘ | — | — | In play | — |
+| 10-05 15:30 | ITF Women's Match | Margaux Komano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 15:16 | Challenger ATP  | Lorenzo Joaquin Rodriguez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:59 | Counter-Strike 2 Game | PARIVISION | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:56 | ITF Women's Match | Andzhelina Kostova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 11:12 | ITF Women's Match | Silvia Caliman | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 11:12 | TT Star Series Match | Lovo Axel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:06 | Counter-Strike 2 Game | OldMix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:03 | Challenger ATP  | Tiago Cacao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:02 | Overwatch Game | Please Not Hero Ban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
