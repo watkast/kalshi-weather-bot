@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 3:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4465 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
+| 4471 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3998 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4004 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,15 +94,15 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 279 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 272 | 1 | 10% | 5% | -66% | -83% | 4 min |
+| ITF Women's Match | ✘ | 282 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 93 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| CONCACAF Nations League Game | partly | 86 | 2 | 21% | 9% | +117% | -64% | 21 min |
+| CONCACAF Nations League Game | partly | 88 | 2 | 20% | 9% | +112% | -65% | 21 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 50 | 0 | 16% | 6% | -100% | -72% | 17 min |
@@ -211,7 +211,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 42 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 43 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -223,9 +223,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | — | In play | — |
+| 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 22:55 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 22:55 | ITF Women's Match | Amaliia Elizarova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 21:02 | ITF Women's Match | Diae El Jardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 21:02 | ITF Men's Match | Jose Luis Claro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:57 | Challenger ATP  | Valerio Aboian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:55 | CONCACAF Nations League Game | Tie | ✔ | 90'+4' · LCA 1 - GDL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:54 | ITF Women's Match | Diana Maria Ilie | ✘ | — | — | In play | — |
+| 10-05 20:54 | ITF Women's Match | Diana Maria Ilie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 83' · LCA 1 - GDL 0 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 20:41 | UEFA Nations League Game | Tie | ✔ | 90'+4' · POL 0 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:41 | Italy Serie A Game | Olimpia Milano | ✘ | — | 34¢ | ❌ Lost | -$0.15 |
@@ -247,12 +253,6 @@
 | 10-05 20:24 | UEFA Nations League Game | Belgium | ✔ | 82' · BEL 1 - FRA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:21 | ITF Men's Match | Gonzalo Zeitune | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:20 | LaLiga 2 Game | Tenerife | ✔ | 83' · TEN 2 - COR 3 | 8¢ | ❌ Lost | -$0.15 |
-| 10-05 20:11 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:10 | Italy Serie A Game | Pallacanestro Cantu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:03 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:02 | International Friendly Game | Liechtenstein | ✔ | 58' · GIB 2 - LIE 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 19:56 | Counter-Strike 2 Game | Team LEISURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 19:51 | R6 Game | Virtus.pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
