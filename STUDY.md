@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 8:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 8:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 432 finished bets | 0% | -$36.80 | -57% | -8.52¢ | -$18.40 / -$18.40 |
+| ESPN-verified leagues only, hold to the end | 433 finished bets | 0% | -$36.95 | -57% | -8.53¢ | -$18.40 / -$18.55 |
 
-*Expect about **61 buys a day**, roughly **$9.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.10/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 432 | -$44.55 | -69% |
-| ESPN-verified leagues only, sell at 2¢ | 432 | -$49.98 | -77% |
-| ESPN-verified leagues only, sell at 10¢ | 432 | -$50.39 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 433 | -$44.70 | -69% |
+| ESPN-verified leagues only, sell at 2¢ | 433 | -$50.13 | -77% |
+| ESPN-verified leagues only, sell at 10¢ | 433 | -$50.54 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4273 | 432 | 2 (0%) | 1.1% | -$36.80 (-57%) | Hold to the end: -$36.80 (-57%) |
+| 4273 | 433 | 2 (0%) | 1.1% | -$36.95 (-57%) | Hold to the end: -$36.95 (-57%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 432 | 13% | 8% | 5% | 3% | 1% | 1% |
+| Verified | 433 | 13% | 8% | 5% | 3% | 1% | 1% |
 | Unverified | 3834 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$36.80 | -57% |
-| Sell at 2¢ | 57 | 13% | -$49.98 | -77% |
-| Sell at 3¢ | 35 | 8% | -$51.15 | -79% |
-| Sell at 5¢ | 22 | 5% | -$50.50 | -78% |
-| Sell at 10¢ | 11 | 3% | -$50.39 | -78% |
-| Sell at 25¢ | 4 | 1% | -$51.56 | -80% |
-| Sell at 50¢ | 3 | 1% | -$44.55 | -69% |
+| Hold to the end | 2 | 0% | -$36.95 | -57% |
+| Sell at 2¢ | 57 | 13% | -$50.13 | -77% |
+| Sell at 3¢ | 35 | 8% | -$51.30 | -79% |
+| Sell at 5¢ | 22 | 5% | -$50.65 | -78% |
+| Sell at 10¢ | 11 | 3% | -$50.54 | -78% |
+| Sell at 25¢ | 4 | 1% | -$51.71 | -80% |
+| Sell at 50¢ | 3 | 1% | -$44.70 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -111,7 +111,7 @@
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
-| NHL Game | ✔ | 36 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| NHL Game | ✔ | 37 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -205,7 +205,7 @@
 | 5–15 min | 76 | 13% | 4% | 1% | -77% |
 | 15–30 min | 78 | 28% | 12% | 1% | -51% |
 | 30–60 min | 57 | 12% | 5% | 0% | -79% |
-| Over 60 min | 54 | 15% | 11% | 0% | -74% |
+| Over 60 min | 55 | 15% | 11% | 0% | -75% |
 
 ## Speed & liquidity
 
@@ -224,7 +224,7 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-05 02:24 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | — | In play | — |
+| 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:38 | CONCACAF Nations League Game | Tie | ✔ | 82' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 01:34 | NBA Game | Golden State | ✔ | End of 4th · GS 101 - LAC 104 | — | In play | — |
 | 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
