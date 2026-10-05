@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 12:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4427 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
+| 4429 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 18:56 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
+| 10-05 18:53 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
 | 10-05 18:43 | ITF Women's Match | Pietra Rivoli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 18:40 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
 | 10-05 18:40 | ITF Men's Match | Diego Giraldo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 16:59 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:55 | ITF Men's Match | Yannis Batsabaken | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 10-05 16:50 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:44 | Slovakian 2. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:42 | Counter-Strike 2 Game | ECSTATIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
