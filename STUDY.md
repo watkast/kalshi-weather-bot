@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 10:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 10:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **57 buys a day**, roughly **$8.54/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4390 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4395 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3946 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3951 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,10 +94,10 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 274 | 1 | 4% | 3% | -66% | -93% | 9 min |
-| ITF Women's Match | ✘ | 268 | 0 | 10% | 5% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 266 | 0 | 9% | 5% | -100% | -84% | 4 min |
+| ITF Women's Match | ✘ | 270 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 268 | 1 | 9% | 5% | -65% | -84% | 4 min |
 | Challenger ATP  | ✘ | 224 | 1 | 8% | 2% | -58% | -86% | 5 min |
-| TT Star Series Match | ✘ | 123 | 1 | 2% | 2% | -24% | -96% | 4 min |
+| TT Star Series Match | ✘ | 124 | 1 | 2% | 2% | -25% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 93 | 0 | 6% | 2% | -100% | -89% | 12 min |
@@ -223,12 +223,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 16:22 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | — | In play | — |
+| 10-05 16:35 | Slovakian 2. Liga Game | 1914 Samorin | ✘ | — | — | In play | — |
+| 10-05 16:31 | ITF Men's Match | Philippe Renard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 16:29 | ITF Women's Match | Maria Kononova | ✘ | — | — | In play | — |
+| 10-05 16:28 | ITF Women's Match | Justina Lassaga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 16:28 | ITF Women's Match | Isabella Mai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 16:22 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:09 | Challenger ATP  | Mateus Alves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:04 | ITF Men's Match | Paul Theate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 15:59 | ITF Women's Match | Melina Maria Maruca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 15:56 | Counter-Strike 2 Game | Spirit | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
-| 10-05 15:49 | ITF Men's Match | Jules Alias | ✘ | — | — | In play | — |
+| 10-05 15:49 | ITF Men's Match | Jules Alias | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 10-05 15:48 | Challenger ATP  | Raul Brancaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 15:43 | ITF Women's Match | Elise Renard | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 15:39 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,11 +253,6 @@
 | 10-05 11:35 | Challenger ATP  | Nicolas Barrientos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:34 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:33 | ITF Women's Match | Nicole Gadient | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:32 | ITF Women's Match | Angelica Sara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:28 | Challenger WTA | Weronika Falkowska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:27 | Dota 2 Game | Team Kinetix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:24 | ATP Tennis Match | Valentin Vacherot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:22 | ITF Men's Match | Vardan Manukyan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
