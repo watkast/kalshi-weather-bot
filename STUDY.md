@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 438 finished bets | 0% | -$37.70 | -57% | -8.61¢ | -$18.85 / -$18.85 |
 
-*Expect about **61 buys a day**, roughly **$9.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.16/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4284 | 438 | 2 (0%) | 1.1% | -$37.70 (-57%) | Hold to the end: -$37.70 (-57%) |
+| 4285 | 438 | 2 (0%) | 1.1% | -$37.70 (-57%) | Hold to the end: -$37.70 (-57%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 438 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 3839 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3841 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -106,12 +106,12 @@
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| Men's T20 Cricket Match | ✘ | 46 | 0 | 15% | 7% | -100% | -74% | 16 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Men's T20 Cricket Match | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 17 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
-| Challenger WTA | ✘ | 37 | 0 | 22% | 14% | -100% | -63% | 10 min |
+| Challenger WTA | ✘ | 38 | 0 | 21% | 13% | -100% | -64% | 10 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -223,11 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | — | In play | — |
+| 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | — | In play | — |
+| 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | — | In play | — |
 | 10-05 03:38 | NFL Game | Detroit | ✔ | 1:29 - 4th · DET 26 - CAR 32 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:36 | NHL Game | Vancouver | ✔ | 0:17 - 3rd · VGK 3 - VAN 2 | 3¢ | ❌ Lost | -$0.15 |
-| 10-05 03:31 | Challenger WTA | Katarina Zavatska | ✘ | — | — | In play | — |
+| 10-05 03:31 | Challenger WTA | Katarina Zavatska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 03:23 | Challenger ATP  | Kristjan Tamm | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-05 03:13 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:09 | Women's College Volleyball Match | Kentucky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 00:33 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:33 | NHL Game | Utah | ✔ | 1:15 - 3rd · UTA 2 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:26 | Uruguay Primera Division Game | Racing Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:18 | Women's College Volleyball Match | Minnesota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
