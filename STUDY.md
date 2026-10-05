@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.78/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4352 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4358 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3903 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3910 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,17 +93,17 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 271 | 1 | 4% | 3% | -66% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 272 | 1 | 4% | 3% | -66% | -94% | 9 min |
 | ITF Men's Match | ✘ | 260 | 0 | 9% | 5% | -100% | -84% | 5 min |
-| ITF Women's Match | ✘ | 257 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| Challenger ATP  | ✘ | 215 | 1 | 8% | 2% | -57% | -85% | 5 min |
+| ITF Women's Match | ✘ | 259 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 217 | 1 | 8% | 2% | -57% | -86% | 5 min |
 | TT Star Series Match | ✘ | 119 | 1 | 3% | 3% | -22% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 92 | 0 | 7% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
-| Darts Match | ✘ | 61 | 0 | 2% | 2% | -100% | -97% | 11 min |
+| Darts Match | ✘ | 62 | 0 | 2% | 2% | -100% | -97% | 10 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 17 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -132,8 +132,8 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| Overwatch Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Overwatch Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Argentina Primera Division Game | ✘ | 17 | 0 | 18% | 12% | -100% | -69% | 12 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -223,12 +223,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 11:06 | Counter-Strike 2 Game | OldMix | ✘ | — | — | In play | — |
-| 10-05 11:03 | Challenger ATP  | Tiago Cacao | ✘ | — | — | In play | — |
-| 10-05 11:02 | Overwatch Game | Please Not Hero Ban | ✘ | — | — | In play | — |
-| 10-05 11:00 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
-| 10-05 10:58 | ITF Women's Match | Maria Trujillo Garnica | ✘ | — | — | In play | — |
-| 10-05 10:57 | Challenger ATP  | Marko ToPo | ✘ | — | — | In play | — |
+| 10-05 11:16 | ITF Women's Match | Darya Velikova | ✘ | — | — | In play | — |
+| 10-05 11:15 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
+| 10-05 11:13 | ITF Women's Match | Keira Blackbeard | ✘ | — | — | In play | — |
+| 10-05 11:12 | ITF Women's Match | Alessia Marinescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 11:12 | ITF Women's Match | Silvia Caliman | ✘ | — | — | In play | — |
+| 10-05 11:12 | TT Star Series Match | Lovo Axel | ✘ | — | — | In play | — |
+| 10-05 11:06 | Counter-Strike 2 Game | OldMix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 11:03 | Challenger ATP  | Tiago Cacao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 11:02 | Overwatch Game | Please Not Hero Ban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 11:00 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 10:58 | ITF Women's Match | Maria Trujillo Garnica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 10:57 | Challenger ATP  | Marko ToPo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:57 | ITF Women's Match | Zejda Veljacic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:54 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:53 | Challenger ATP  | Diego Dedura-Palomero | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,12 +253,6 @@
 | 10-05 09:59 | ITF Women's Match | Anastasia Huijsegoms | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:58 | ITF Men's Match | Jasza Szajrych | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:57 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:46 | ITF Women's Match | Nala Kovacic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:45 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:44 | Challenger WTA | Elena Micic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:39 | TT Star Series Match | Nemras Reda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:38 | ITF Women's Match | Giulia Alessia Monteleone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:33 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
