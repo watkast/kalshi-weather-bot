@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 2:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 2:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **60 buys a day**, roughly **$8.93/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.92/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4311 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4312 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3866 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3867 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -116,10 +116,10 @@
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
+| KBO Game | ✘ | 27 | 0 | 7% | 7% | -100% | -87% | 10 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga DIMAYOR Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| KBO Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 7 min |
 | ATP Tennis Match | ✘ | 24 | 0 | 12% | 4% | -100% | -78% | 3 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 07:56 | KBO Game | Kiwoom Heroes | ✘ | — | — | In play | — |
+| 10-05 08:22 | TT Star Series Match | Thamer Ameer | ✘ | — | — | In play | — |
+| 10-05 07:56 | KBO Game | Kiwoom Heroes | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-05 07:51 | TT Star Series Match | Morávek Jindřich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:48 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:25 | Challenger ATP  | Semen Pankin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | 2¢ | ❌ Lost | -$0.15 |
-| 10-05 03:38 | NFL Game | Detroit | ✔ | 1:29 - 4th · DET 26 - CAR 32 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
