@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 7:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 7:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 430 finished bets | 0% | -$36.50 | -57% | -8.49¢ | -$18.25 / -$18.25 |
 
-*Expect about **61 buys a day**, roughly **$9.10/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.11/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4268 | 430 | 2 (0%) | 1.1% | -$36.50 (-57%) | Hold to the end: -$36.50 (-57%) |
+| 4269 | 430 | 2 (0%) | 1.1% | -$36.50 (-57%) | Hold to the end: -$36.50 (-57%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | — | In play | — |
 | 10-05 01:16 | NBA Game | Denver | ✔ | 6:18 - 4th · UTAH 100 - DEN 82 | — | In play | — |
 | 10-05 01:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | — | In play | — |
 | 10-05 00:59 | NWSL Game | Tie | ✔ | 90'+3' · WAS 3 - HOU 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 22:56 | Women's College Volleyball Match | Iowa State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:29 | NFL Game | Los Angeles C | ✔ | 9:23 - 3rd · LAC 6 - SEA 27 | 11¢ | ❌ Lost | -$0.15 |
 | 10-04 22:25 | Women's College Volleyball Match | Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 22:22 | Women's College Volleyball Match | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
