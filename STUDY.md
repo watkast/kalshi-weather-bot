@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 438 finished bets | 0% | -$37.70 | -57% | -8.61¢ | -$18.85 / -$18.85 |
+| ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **61 buys a day**, roughly **$9.13/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.12/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 438 | -$45.45 | -69% |
-| ESPN-verified leagues only, sell at 2¢ | 438 | -$50.36 | -77% |
-| ESPN-verified leagues only, sell at 10¢ | 438 | -$51.29 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 440 | -$45.75 | -69% |
+| ESPN-verified leagues only, sell at 2¢ | 440 | -$50.40 | -76% |
+| ESPN-verified leagues only, sell at 10¢ | 440 | -$51.59 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4289 | 438 | 2 (0%) | 1.1% | -$37.70 (-57%) | Hold to the end: -$37.70 (-57%) |
+| 4290 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 438 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 3842 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 3843 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$37.70 | -57% |
-| Sell at 2¢ | 59 | 13% | -$50.36 | -77% |
-| Sell at 3¢ | 36 | 8% | -$51.66 | -79% |
-| Sell at 5¢ | 22 | 5% | -$51.40 | -78% |
-| Sell at 10¢ | 11 | 3% | -$51.29 | -78% |
-| Sell at 25¢ | 4 | 1% | -$52.46 | -80% |
-| Sell at 50¢ | 3 | 1% | -$45.45 | -69% |
+| Hold to the end | 2 | 0% | -$38.00 | -58% |
+| Sell at 2¢ | 60 | 14% | -$50.40 | -76% |
+| Sell at 3¢ | 36 | 8% | -$51.96 | -79% |
+| Sell at 5¢ | 22 | 5% | -$51.70 | -78% |
+| Sell at 10¢ | 11 | 2% | -$51.59 | -78% |
+| Sell at 25¢ | 4 | 1% | -$52.76 | -80% |
+| Sell at 50¢ | 3 | 1% | -$45.75 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,13 +96,13 @@
 | Counter-Strike 2 Game | ✘ | 268 | 1 | 4% | 3% | -65% | -94% | 9 min |
 | ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 206 | 1 | 9% | 2% | -55% | -85% | 5 min |
+| Challenger ATP  | ✘ | 207 | 1 | 9% | 2% | -55% | -85% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 91 | 0 | 7% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| CONCACAF Nations League Game | partly | 82 | 2 | 21% | 10% | +128% | -64% | 23 min |
+| CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -201,8 +201,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 170 | 6% | 1% | 0% | -89% |
-| 5–15 min | 76 | 13% | 4% | 1% | -77% |
+| Under 5 min | 171 | 6% | 1% | 0% | -89% |
+| 5–15 min | 77 | 14% | 4% | 1% | -75% |
 | 15–30 min | 79 | 29% | 11% | 1% | -50% |
 | 30–60 min | 57 | 12% | 5% | 0% | -79% |
 | Over 60 min | 55 | 15% | 11% | 0% | -75% |
@@ -223,13 +223,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | — | In play | — |
+| 10-05 04:29 | Challenger WTA | Jia-Jing Lu | ✘ | — | — | In play | — |
+| 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
 | 10-05 04:16 | Challenger WTA | Yidi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
-| 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | — | In play | — |
+| 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | — | In play | — |
+| 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 03:38 | NFL Game | Detroit | ✔ | 1:29 - 4th · DET 26 - CAR 32 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:36 | NHL Game | Vancouver | ✔ | 0:17 - 3rd · VGK 3 - VAN 2 | 3¢ | ❌ Lost | -$0.15 |
 | 10-05 03:31 | Challenger WTA | Katarina Zavatska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 00:53 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · AIA 2 - ARU 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:51 | CONCACAF Nations League Game | Anguilla | ✔ | 90'+3' · AIA 2 - ARU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:48 | Liga DIMAYOR Game | Junior | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 00:48 | CONCACAF Nations League Game | Aruba | ✔ | 90' · AIA 2 - ARU 1 | 99¢ | ✅ Won | $13.85 |
 
 ## Raw data
 
