@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4472 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
+| 4474 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | — | In play | — |
+| 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | — | In play | — |
 | 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 20:27 | UEFA Nations League Game | Romania | ✔ | 84' · SWE 1 - ROU 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:26 | International Friendly Game | Tie | ✔ | 81' · GIB 2 - LIE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:25 | UEFA Nations League Game | Turkiye | ✔ | 83' · TUR 1 - ITA 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:24 | UEFA Nations League Game | Belgium | ✔ | 82' · BEL 1 - FRA 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:21 | ITF Men's Match | Gonzalo Zeitune | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
