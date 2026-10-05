@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **61 buys a day**, roughly **$9.12/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.11/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4290 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3843 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3846 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -105,12 +105,12 @@
 | CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
+| Men's T20 Cricket Match | ✘ | 48 | 0 | 17% | 6% | -100% | -71% | 16 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Men's T20 Cricket Match | ✘ | 46 | 0 | 15% | 7% | -100% | -74% | 16 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
-| Challenger WTA | ✘ | 39 | 0 | 21% | 13% | -100% | -64% | 10 min |
+| Challenger WTA | ✘ | 40 | 0 | 20% | 12% | -100% | -65% | 10 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
@@ -223,11 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 04:29 | Challenger WTA | Jia-Jing Lu | ✘ | — | — | In play | — |
+| 10-05 04:29 | Challenger WTA | Jia-Jing Lu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
+| 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 04:16 | Challenger WTA | Yidi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
+| 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | 2¢ | ❌ Lost | -$0.15 |
