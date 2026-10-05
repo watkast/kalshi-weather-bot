@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 424 finished bets | 13% | -$49.30 | -78% | -11.63¢ | -$24.52 / -$24.78 |
 
-*Expect about **60 buys a day**, roughly **$9.01/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **60 buys a day**, roughly **$9.00/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4255 | 424 | 1 (0%) | 1.1% | -$49.60 (-78%) | Sell at 2¢: -$49.30 (-78%) |
+| 4256 | 424 | 1 (0%) | 1.1% | -$49.60 (-78%) | Sell at 2¢: -$49.30 (-78%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 424 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3824 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3825 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 90 | 0 | 7% | 2% | -100% | -88% | 12 min |
-| Women's College Volleyball Match | ✘ | 86 | 1 | 7% | 2% | +9% | -88% | 55 min |
+| Women's College Volleyball Match | ✘ | 87 | 1 | 7% | 2% | +7% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 77 | 1 | 21% | 9% | +21% | -64% | 24 min |
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 00:18 | Women's College Volleyball Match | Minnesota | ✘ | — | — | In play | — |
+| 10-05 00:26 | Uruguay Primera Division Game | Racing Club | ✘ | — | — | In play | — |
+| 10-05 00:18 | Women's College Volleyball Match | Minnesota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:02 | USL Championship Game | Tie | ✔ | 90'+8' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:56 | League of Legends Game | LYON | ✘ | — | — | In play | — |
 | 10-04 23:55 | USL Championship Game | Phoenix Rising | ✔ | 90' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 21:46 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:42 | Argentine Nacional B Game | Guemes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:42 | NWSL Game | Tie | ✔ | 75' · DEN 2 - CHI 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:41 | NWSL Game | Chicago | ✔ | 74' · DEN 2 - CHI 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
