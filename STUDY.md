@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 6:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, sell at 2¢ | 423 finished bets | 13% | -$49.15 | -77% | -11.62¢ | -$24.63 / -$24.52 |
+| ESPN-verified leagues only, sell at 2¢ | 424 finished bets | 13% | -$49.30 | -78% | -11.63¢ | -$24.52 / -$24.78 |
 
-*Expect about **60 buys a day**, roughly **$9.02/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **60 buys a day**, roughly **$9.01/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 423 | -$49.45 | -78% |
-| ESPN-verified leagues only, sell at 5¢ | 423 | -$49.80 | -78% |
-| ESPN-verified leagues only, sell at 50¢ | 423 | -$49.95 | -79% |
+| ESPN-verified leagues only, hold to the end | 424 | -$49.60 | -78% |
+| ESPN-verified leagues only, sell at 5¢ | 424 | -$49.95 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 424 | -$50.10 | -79% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4254 | 423 | 1 (0%) | 1.1% | -$49.45 (-78%) | Sell at 2¢: -$49.15 (-77%) |
+| 4255 | 424 | 1 (0%) | 1.1% | -$49.60 (-78%) | Sell at 2¢: -$49.30 (-78%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 423 | 13% | 8% | 5% | 2% | 1% | 0% |
+| Verified | 424 | 13% | 8% | 5% | 2% | 1% | 0% |
 | Unverified | 3824 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 1 | 0% | -$49.45 | -78% |
-| Sell at 2¢ | 55 | 13% | -$49.15 | -77% |
-| Sell at 3¢ | 33 | 8% | -$50.58 | -80% |
-| Sell at 5¢ | 21 | 5% | -$49.80 | -78% |
-| Sell at 10¢ | 10 | 2% | -$50.35 | -79% |
-| Sell at 25¢ | 3 | 1% | -$53.52 | -84% |
-| Sell at 50¢ | 2 | 0% | -$49.95 | -79% |
+| Hold to the end | 1 | 0% | -$49.60 | -78% |
+| Sell at 2¢ | 55 | 13% | -$49.30 | -78% |
+| Sell at 3¢ | 33 | 8% | -$50.73 | -80% |
+| Sell at 5¢ | 21 | 5% | -$49.95 | -79% |
+| Sell at 10¢ | 10 | 2% | -$50.50 | -79% |
+| Sell at 25¢ | 3 | 1% | -$53.67 | -84% |
+| Sell at 50¢ | 2 | 0% | -$50.10 | -79% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -114,7 +114,7 @@
 | NHL Game | ✔ | 35 | 0 | 11% | 6% | -100% | -80% | 4 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
-| USL Championship Game | partly | 29 | 0 | 14% | 3% | -100% | -76% | 8 min |
+| USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | AHL Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 7 min |
@@ -201,7 +201,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 161 | 6% | 1% | 0% | -89% |
+| Under 5 min | 162 | 6% | 1% | 0% | -89% |
 | 5–15 min | 73 | 11% | 3% | 0% | -81% |
 | 15–30 min | 77 | 29% | 12% | 1% | -50% |
 | 30–60 min | 57 | 12% | 5% | 0% | -79% |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 00:02 | USL Championship Game | Tie | ✔ | 90'+8' · PHX 1 - NMU 2 | — | In play | — |
+| 10-05 00:18 | Women's College Volleyball Match | Minnesota | ✘ | — | — | In play | — |
+| 10-05 00:02 | USL Championship Game | Tie | ✔ | 90'+8' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:56 | League of Legends Game | LYON | ✘ | — | — | In play | — |
 | 10-04 23:55 | USL Championship Game | Phoenix Rising | ✔ | 90' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:52 | CONCACAF Nations League Game | Curacao | ✔ | 90'+4' · CUW 1 - TRI 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 21:42 | Argentine Nacional B Game | Guemes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:42 | NWSL Game | Tie | ✔ | 75' · DEN 2 - CHI 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:41 | NWSL Game | Chicago | ✔ | 74' · DEN 2 - CHI 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:40 | AHL Game | Rochester Americans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
