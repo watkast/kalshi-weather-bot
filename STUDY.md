@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 11:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 12:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **60 buys a day**, roughly **$9.07/day** at risk; max loss per buy **15¢**.*
+*Expect about **60 buys a day**, roughly **$9.03/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4295 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4296 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3849 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3851 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -109,7 +109,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
-| Challenger WTA | ✘ | 41 | 0 | 22% | 12% | -100% | -62% | 9 min |
+| Challenger WTA | ✘ | 42 | 0 | 21% | 12% | -100% | -63% | 9 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -122,10 +122,10 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
+| ATP Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Uruguay Primera Division Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 12 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
-| ATP Tennis Match | ✘ | 20 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LaLiga 2 Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 9 min |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 05:33 | Challenger WTA | Sijia Wei | ✘ | — | — | In play | — |
+| 10-05 06:13 | ATP Tennis Match | Linang Xiao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 05:33 | Challenger WTA | Sijia Wei | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 05:14 | ATP Tennis Match | Alexis Galarneau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 05:11 | Challenger WTA | Alevtina Ibragimova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-05 05:00 | Challenger ATP  | Maxim Zhukov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 01:16 | NBA Game | Denver | ✔ | 6:18 - 4th · UTAH 100 - DEN 82 | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 01:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 00:59 | NWSL Game | Tie | ✔ | 90'+3' · WAS 3 - HOU 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
