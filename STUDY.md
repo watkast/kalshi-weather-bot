@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 436 finished bets | 0% | -$37.40 | -57% | -8.58¢ | -$18.70 / -$18.70 |
 
-*Expect about **61 buys a day**, roughly **$9.11/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.10/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4277 | 436 | 2 (0%) | 1.1% | -$37.40 (-57%) | Hold to the end: -$37.40 (-57%) |
+| 4278 | 436 | 2 (0%) | 1.1% | -$37.40 (-57%) | Hold to the end: -$37.40 (-57%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 436 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 3834 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3838 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 | Counter-Strike 2 Game | ✘ | 268 | 1 | 4% | 3% | -65% | -94% | 9 min |
 | ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 204 | 1 | 8% | 2% | -54% | -86% | 5 min |
+| Challenger ATP  | ✘ | 205 | 1 | 8% | 2% | -54% | -86% | 5 min |
 | TT Star Series Match | ✘ | 110 | 1 | 3% | 3% | -15% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 91 | 0 | 7% | 2% | -100% | -89% | 12 min |
-| Women's College Volleyball Match | ✘ | 88 | 1 | 7% | 2% | +6% | -88% | 55 min |
+| Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 82 | 2 | 21% | 10% | +128% | -64% | 23 min |
 | Darts Match | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -117,8 +117,8 @@
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
+| Liga DIMAYOR Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Liga DIMAYOR Game | ✘ | 24 | 0 | 4% | 0% | -100% | -93% | 11 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | KBO Game | ✘ | 23 | 0 | 4% | 4% | -100% | -92% | 5 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
@@ -223,9 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 03:09 | Women's College Volleyball Match | Kentucky | ✘ | — | — | In play | — |
-| 10-05 03:08 | Liga DIMAYOR Game | Llaneros | ✘ | — | — | In play | — |
-| 10-05 02:59 | Challenger ATP  | Grigoriy Lomakin | ✘ | — | — | In play | — |
+| 10-05 03:13 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 03:09 | Women's College Volleyball Match | Kentucky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 03:08 | Liga DIMAYOR Game | Llaneros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 02:59 | Challenger ATP  | Grigoriy Lomakin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 02:55 | NHL Game | Florida | ✔ | 0:45 - OT · FLA 2 - ANA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 02:24 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 23:52 | CONCACAF Nations League Game | Curacao | ✔ | 90'+4' · CUW 1 - TRI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:51 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · CAY 0 - PUR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:51 | CONCACAF Nations League Game | Trinidad and Tobago | ✔ | 90'+3' · CUW 1 - TRI 1 | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 23:44 | NFL Game | Las Vegas | ✔ | 0:10 - 4th · KC 30 - LV 27 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
