@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 3:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 3:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **59 buys a day**, roughly **$8.87/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.86/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4320 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4323 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3872 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3875 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,9 +95,9 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 269 | 1 | 4% | 3% | -65% | -94% | 9 min |
 | ITF Men's Match | ✘ | 259 | 0 | 9% | 5% | -100% | -84% | 5 min |
-| ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| Challenger ATP  | ✘ | 211 | 1 | 9% | 2% | -56% | -85% | 5 min |
-| TT Star Series Match | ✘ | 116 | 1 | 3% | 3% | -20% | -96% | 4 min |
+| ITF Women's Match | ✘ | 249 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| Challenger ATP  | ✘ | 212 | 1 | 8% | 2% | -56% | -85% | 5 min |
+| TT Star Series Match | ✘ | 117 | 1 | 3% | 3% | -20% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 91 | 0 | 7% | 2% | -100% | -89% | 12 min |
@@ -223,9 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 09:33 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 10-05 09:28 | ITF Women's Match | Justine Bretnacher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 09:27 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
 | 10-05 09:24 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
-| 10-05 09:23 | TT Star Series Match | Roșca Mihai | ✘ | — | — | In play | — |
-| 10-05 09:21 | Challenger ATP  | Luca Castelnuovo | ✘ | — | — | In play | — |
+| 10-05 09:23 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 09:21 | Challenger ATP  | Luca Castelnuovo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:20 | Overwatch Game | Uwinks | ✘ | — | — | In play | — |
 | 10-05 09:08 | Men's T20 Cricket Match | Qatar | ✘ | — | — | In play | — |
 | 10-05 09:04 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 06:13 | ATP Tennis Match | Linang Xiao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 05:33 | Challenger WTA | Sijia Wei | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 05:14 | ATP Tennis Match | Alexis Galarneau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 05:11 | Challenger WTA | Alevtina Ibragimova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-05 05:00 | Challenger ATP  | Maxim Zhukov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 04:55 | ATP Tennis Match | Andre Ilagan | ✘ | — | 77¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
