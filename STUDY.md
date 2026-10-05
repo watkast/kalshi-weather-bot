@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 1:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 1:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 444 finished bets | 0% | -$38.60 | -58% | -8.69¢ | -$19.30 / -$19.30 |
 
-*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4431 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
+| 4433 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | — | In play | — |
+| 10-05 19:17 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
 | 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | — | In play | — |
 | 10-05 19:00 | ITF Women's Match | Nalah Kaler | ✘ | — | — | In play | — |
 | 10-05 18:56 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
@@ -251,8 +253,6 @@
 | 10-05 17:08 | ITF Women's Match | Amparo Corvalan Mitilli | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 17:02 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:02 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:00 | ITF Women's Match | Catherine Rennard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:59 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
