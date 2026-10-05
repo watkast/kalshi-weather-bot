@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 2:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 3:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 462 finished bets | 0% | -$41.30 | -60% | -8.94¢ | -$20.65 / -$20.65 |
+| ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **58 buys a day**, roughly **$8.77/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 462 | -$49.05 | -71% |
-| ESPN-verified leagues only, sell at 2¢ | 462 | -$52.92 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 462 | -$53.70 | -77% |
+| ESPN-verified leagues only, sell at 50¢ | 464 | -$49.35 | -71% |
+| ESPN-verified leagues only, sell at 2¢ | 464 | -$53.22 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 464 | -$54.00 | -78% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4462 | 462 | 2 (0%) | 1.1% | -$41.30 (-60%) | Hold to the end: -$41.30 (-60%) |
+| 4465 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 462 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3997 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 3998 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$41.30 | -60% |
-| Sell at 2¢ | 63 | 14% | -$52.92 | -76% |
-| Sell at 3¢ | 38 | 8% | -$54.48 | -79% |
-| Sell at 5¢ | 24 | 5% | -$53.70 | -77% |
-| Sell at 10¢ | 11 | 2% | -$54.89 | -79% |
-| Sell at 25¢ | 4 | 1% | -$56.06 | -81% |
-| Sell at 50¢ | 3 | 1% | -$49.05 | -71% |
+| Hold to the end | 2 | 0% | -$41.60 | -60% |
+| Sell at 2¢ | 63 | 14% | -$53.22 | -76% |
+| Sell at 3¢ | 38 | 8% | -$54.78 | -79% |
+| Sell at 5¢ | 24 | 5% | -$54.00 | -78% |
+| Sell at 10¢ | 11 | 2% | -$55.19 | -79% |
+| Sell at 25¢ | 4 | 1% | -$56.36 | -81% |
+| Sell at 50¢ | 3 | 1% | -$49.35 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,13 +96,13 @@
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Women's Match | ✘ | 279 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 272 | 1 | 10% | 5% | -66% | -83% | 4 min |
-| Challenger ATP  | ✘ | 229 | 1 | 8% | 2% | -59% | -86% | 5 min |
+| Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 93 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
+| CONCACAF Nations League Game | partly | 86 | 2 | 21% | 9% | +117% | -64% | 21 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 50 | 0 | 16% | 6% | -100% | -72% | 17 min |
@@ -201,8 +201,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 179 | 7% | 1% | 0% | -87% |
-| 5–15 min | 88 | 14% | 5% | 1% | -76% |
+| Under 5 min | 180 | 7% | 1% | 0% | -87% |
+| 5–15 min | 89 | 13% | 4% | 1% | -77% |
 | 15–30 min | 81 | 28% | 11% | 1% | -51% |
 | 30–60 min | 58 | 12% | 5% | 0% | -79% |
 | Over 60 min | 55 | 15% | 11% | 0% | -75% |
@@ -223,7 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 83' · LCA 1 - GDL 0 | — | In play | — |
+| 10-05 20:57 | Challenger ATP  | Valerio Aboian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 20:55 | CONCACAF Nations League Game | Tie | ✔ | 90'+4' · LCA 1 - GDL 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 20:54 | ITF Women's Match | Diana Maria Ilie | ✘ | — | — | In play | — |
+| 10-05 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 83' · LCA 1 - GDL 0 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 20:41 | UEFA Nations League Game | Tie | ✔ | 90'+4' · POL 0 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:41 | Italy Serie A Game | Olimpia Milano | ✘ | — | 34¢ | ❌ Lost | -$0.15 |
 | 10-05 20:38 | UEFA Nations League Game | Georgia | ✔ | 90'+4' · GEO 0 - NIR 0 | 5¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 20:02 | International Friendly Game | Liechtenstein | ✔ | 58' · GIB 2 - LIE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:56 | Counter-Strike 2 Game | Team LEISURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:51 | R6 Game | Virtus.pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 19:50 | ITF Women's Match | Ana Victoria Gobbi Monllau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 19:47 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
