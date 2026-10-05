@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Mon Oct 05 13:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Mon Oct 05 13:15 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -12,8 +12,8 @@
 |---|---|---|---|---|---|---|
 | **+5¢** | 3837 | 3305 | 532 (3) | 0 | $-1320.95 | -5.5% |
 | **+10¢** | 2972 | 2360 | 612 (4) | 0 | $-1184.16 | -6.3% |
-| **+15¢** | 2493 | 1849 | 644 (7) | 2 | $-1016.46 | -6.5% |
-| **+20¢** | 2225 | 1553 | 672 (12) | 2 | $-854.95 | -6.1% |
+| **+15¢** | 2495 | 1851 | 644 (7) | 0 | $-1013.71 | -6.5% |
+| **+20¢** | 2227 | 1555 | 672 (12) | 0 | $-851.22 | -6.1% |
 | **+10¢ (15¢ stop)** | 4741 | 4740 | 1 (1) | 0 | $-1752.66 | -5.9% |
 
 ## Latest trades
@@ -25,8 +25,8 @@
 | 10-05 13:03 | +10 | ZEC | UP | 0.67 | 0.78 | 0.81 |
 | 10-05 13:03 | +5 | ZEC | UP | 0.67 | 0.78 | 0.81 |
 | 10-05 13:03 | +10 stop | NEAR | UP | 0.66 | 0.78 | 0.96 |
-| 10-05 13:03 | +20 | NEAR | UP | 0.66 | open |  |
-| 10-05 13:03 | +15 | NEAR | UP | 0.66 | open |  |
+| 10-05 13:03 | +20 | NEAR | UP | 0.66 | 0.86 | 1.80 |
+| 10-05 13:03 | +15 | NEAR | UP | 0.66 | 0.83 | 1.49 |
 | 10-05 13:03 | +10 | NEAR | UP | 0.66 | 0.78 | 0.96 |
 | 10-05 13:03 | +5 | NEAR | UP | 0.66 | 0.78 | 0.96 |
 | 10-05 13:01 | +10 stop | ZEC | UP | 0.59 | 0.71 | 0.88 |
@@ -40,8 +40,8 @@
 | 10-05 13:01 | +10 | NEAR | UP | 0.56 | 0.72 | 1.28 |
 | 10-05 13:01 | +5 | NEAR | UP | 0.56 | 0.65 | 0.57 |
 | 10-05 13:01 | +10 stop | HYPE | DOWN | 0.70 | 0.80 | 0.73 |
-| 10-05 13:01 | +20 | HYPE | DOWN | 0.70 | open |  |
-| 10-05 13:01 | +15 | HYPE | DOWN | 0.70 | open |  |
+| 10-05 13:01 | +20 | HYPE | DOWN | 0.70 | 0.91 | 1.93 |
+| 10-05 13:01 | +15 | HYPE | DOWN | 0.70 | 0.85 | 1.26 |
 | 10-05 13:01 | +10 | HYPE | DOWN | 0.70 | 0.80 | 0.73 |
 | 10-05 13:01 | +5 | HYPE | DOWN | 0.70 | 0.78 | 0.52 |
 | 10-05 13:00 | +10 stop | DOGE | UP | 0.68 | 0.79 | 0.82 |
