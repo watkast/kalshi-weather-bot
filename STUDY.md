@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.68/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4471 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4004 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4005 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 282 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 283 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
@@ -223,7 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | — | In play | — |
+| 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | ITF Women's Match | Amaliia Elizarova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
