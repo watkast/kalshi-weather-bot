@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 1:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 1:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4433 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 444 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3985 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3986 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 283 | 1 | 4% | 3% | -67% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 284 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Women's Match | ✘ | 278 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 271 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 228 | 1 | 8% | 2% | -59% | -86% | 5 min |
@@ -223,7 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | — | In play | — |
+| 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:17 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
 | 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-05 19:00 | ITF Women's Match | Nalah Kaler | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
