@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 8:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 8:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 432 finished bets | 0% | -$36.80 | -57% | -8.52¢ | -$18.40 / -$18.40 |
 
-*Expect about **61 buys a day**, roughly **$9.13/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.12/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4272 | 432 | 2 (0%) | 1.1% | -$36.80 (-57%) | Hold to the end: -$36.80 (-57%) |
+| 4273 | 432 | 2 (0%) | 1.1% | -$36.80 (-57%) | Hold to the end: -$36.80 (-57%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 432 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 3832 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3834 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -134,6 +134,7 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Argentina Primera Division Game | ✘ | 17 | 0 | 18% | 12% | -100% | -69% | 12 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
@@ -142,7 +143,6 @@
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
-| Argentina Primera Division Game | ✘ | 15 | 0 | 20% | 13% | -100% | -65% | 12 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | NFL Game | ✔ | 14 | 0 | 29% | 7% | -100% | -50% | 3 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
@@ -223,12 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 02:24 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | — | In play | — |
 | 10-05 01:38 | CONCACAF Nations League Game | Tie | ✔ | 82' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 01:34 | NBA Game | Golden State | ✔ | End of 4th · GS 101 - LAC 104 | — | In play | — |
 | 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 01:16 | NBA Game | Denver | ✔ | 6:18 - 4th · UTAH 100 - DEN 82 | — | In play | — |
-| 10-05 01:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | — | In play | — |
+| 10-05 01:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 00:59 | NWSL Game | Tie | ✔ | 90'+3' · WAS 3 - HOU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:58 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:54 | NWSL Game | Houston | ✔ | 88' · WAS 3 - HOU 2 | 3¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-04 23:29 | NFL Game | Denver | ✔ | 2:00 - 4th · DEN 14 - SF 24 | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 23:24 | Women's College Volleyball Match | Southern California | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:22 | CONCACAF Nations League Game | Cayman Islands | ✔ | 64' · CAY 0 - PUR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 22:57 | NFL Game | Miami | ✔ | 2:07 - 4th · MIA 10 - MIN 15 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
