@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Mon Oct 05 17:00 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Mon Oct 05 17:10 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 2757 | 2367 | 390 (9) | 0 | $-197.63 | -1.2% |
-| **20¢+ jump, ride past +5¢** | 1744 | 954 | 790 (336) | 1 | $-684.99 | -6.2% |
+| **20¢+ jump, sell +5¢** | 2757 | 2367 | 390 (9) | 1 | $-197.63 | -1.2% |
+| **20¢+ jump, ride past +5¢** | 1745 | 954 | 791 (337) | 1 | $-683.87 | -6.1% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 16:50 | J20R | HYPE | UP | 22¢ | 0.88 | open |  |
+| 10-05 17:02 | J20R | HYPE | UP | 20¢ | 0.54 | open |  |
+| 10-05 17:02 | J20 | HYPE | UP | 20¢ | 0.54 | open |  |
+| 10-05 16:50 | J20R | HYPE | UP | 22¢ | 0.88 | yes | 1.12 |
 | 10-05 16:50 | J20 | HYPE | UP | 22¢ | 0.88 | 0.93 | 0.41 |
 | 10-05 16:43 | J20 | XRP | UP | 26¢ | 0.60 | no | -6.15 |
 | 10-05 16:43 | J20 | XRP | UP | 26¢ | 0.53 | 0.62 | 0.55 |
@@ -56,5 +58,3 @@
 | 10-05 16:06 | J20 | SOL | DOWN | 21¢ | 0.63 | yes | -6.47 |
 | 10-05 16:06 | J20 | XRP | UP | 26¢ | 0.54 | 0.67 | 0.96 |
 | 10-05 16:06 | J20 | XRP | UP | 26¢ | 0.54 | 0.67 | 0.96 |
-| 10-05 16:06 | J20 | XRP | UP | 26¢ | 0.55 | 0.67 | 0.86 |
-| 10-05 16:05 | J20R | XRP | UP | 20¢ | 0.62 | 0.85 | 2.02 |
