@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 2:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 2:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 444 finished bets | 0% | -$38.60 | -58% | -8.69¢ | -$19.30 / -$19.30 |
 
-*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4442 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
+| 4449 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 444 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3993 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3994 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Women's Match | ✘ | 279 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 271 | 1 | 10% | 5% | -66% | -83% | 4 min |
+| ITF Men's Match | ✘ | 272 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 228 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 106 | 0 | 8% | 4% | -100% | -85% | 7 min |
@@ -223,6 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 20:29 | UEFA Nations League Game | Tie | ✔ | 88' · TUR 1 - ITA 2 | — | In play | — |
+| 10-05 20:29 | UEFA Nations League Game | Ukraine | ✔ | 87' · HUN 2 - UKR 1 | — | In play | — |
+| 10-05 20:27 | UEFA Nations League Game | Romania | ✔ | 84' · SWE 1 - ROU 0 | — | In play | — |
+| 10-05 20:26 | International Friendly Game | Tie | ✔ | 81' · GIB 2 - LIE 0 | — | In play | — |
+| 10-05 20:25 | UEFA Nations League Game | Turkiye | ✔ | 83' · TUR 1 - ITA 2 | — | In play | — |
+| 10-05 20:24 | UEFA Nations League Game | Belgium | ✔ | 82' · BEL 1 - FRA 2 | — | In play | — |
+| 10-05 20:21 | ITF Men's Match | Gonzalo Zeitune | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:20 | LaLiga 2 Game | Tenerife | ✔ | 83' · TEN 2 - COR 3 | — | In play | — |
 | 10-05 20:11 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:10 | Italy Serie A Game | Pallacanestro Cantu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,13 +253,6 @@
 | 10-05 18:07 | Challenger ATP  | Juan Estevez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:02 | ITF Women's Match | Guadalupe Rondinoni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:58 | International Friendly Game | Kenya | ✔ | 90'+5' · KEN 0 - RWA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:58 | International Friendly Game | Rwanda | ✔ | 90'+5' · KEN 0 - RWA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:58 | TT Star Series Match | Keinath Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:54 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:53 | Adriatic ABA Game | KK Mega Basket Belgrade | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:53 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:53 | UEFA Nations League Game | Tie | ✔ | 90'+6' · LVA 1 - CYP 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:49 | UEFA Nations League Game | Latvia | ✔ | 90'+2' · LVA 1 - CYP 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
