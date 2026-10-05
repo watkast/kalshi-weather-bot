@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 434 finished bets | 0% | -$37.10 | -57% | -8.55¢ | -$18.55 / -$18.55 |
+| ESPN-verified leagues only, hold to the end | 436 finished bets | 0% | -$37.40 | -57% | -8.58¢ | -$18.70 / -$18.70 |
 
-*Expect about **61 buys a day**, roughly **$9.12/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.11/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 434 | -$44.85 | -69% |
-| ESPN-verified leagues only, sell at 2¢ | 434 | -$50.28 | -77% |
-| ESPN-verified leagues only, sell at 10¢ | 434 | -$50.69 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 436 | -$45.15 | -69% |
+| ESPN-verified leagues only, sell at 2¢ | 436 | -$50.32 | -77% |
+| ESPN-verified leagues only, sell at 10¢ | 436 | -$50.99 | -78% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4275 | 434 | 2 (0%) | 1.1% | -$37.10 (-57%) | Hold to the end: -$37.10 (-57%) |
+| 4277 | 436 | 2 (0%) | 1.1% | -$37.40 (-57%) | Hold to the end: -$37.40 (-57%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 434 | 13% | 8% | 5% | 3% | 1% | 1% |
+| Verified | 436 | 13% | 8% | 5% | 3% | 1% | 1% |
 | Unverified | 3834 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$37.10 | -57% |
-| Sell at 2¢ | 57 | 13% | -$50.28 | -77% |
-| Sell at 3¢ | 35 | 8% | -$51.45 | -79% |
-| Sell at 5¢ | 22 | 5% | -$50.80 | -78% |
-| Sell at 10¢ | 11 | 3% | -$50.69 | -78% |
-| Sell at 25¢ | 4 | 1% | -$51.86 | -80% |
-| Sell at 50¢ | 3 | 1% | -$44.85 | -69% |
+| Hold to the end | 2 | 0% | -$37.40 | -57% |
+| Sell at 2¢ | 58 | 13% | -$50.32 | -77% |
+| Sell at 3¢ | 35 | 8% | -$51.75 | -79% |
+| Sell at 5¢ | 22 | 5% | -$51.10 | -78% |
+| Sell at 10¢ | 11 | 3% | -$50.99 | -78% |
+| Sell at 25¢ | 4 | 1% | -$52.16 | -80% |
+| Sell at 50¢ | 3 | 1% | -$45.15 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -185,6 +185,7 @@
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
+| NBA Game | ✔ | 3 | 0 | 33% | 0% | -100% | -42% | 15 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -194,16 +195,15 @@
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| NBA Game | ✔ | 1 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
 ## By time left when it hit 1¢
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 167 | 6% | 1% | 0% | -90% |
+| Under 5 min | 168 | 6% | 1% | 0% | -90% |
 | 5–15 min | 76 | 13% | 4% | 1% | -77% |
-| 15–30 min | 78 | 28% | 12% | 1% | -51% |
+| 15–30 min | 79 | 29% | 11% | 1% | -50% |
 | 30–60 min | 57 | 12% | 5% | 0% | -79% |
 | Over 60 min | 55 | 15% | 11% | 0% | -75% |
 
@@ -223,14 +223,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 03:09 | Women's College Volleyball Match | Kentucky | ✘ | — | — | In play | — |
+| 10-05 03:08 | Liga DIMAYOR Game | Llaneros | ✘ | — | — | In play | — |
 | 10-05 02:59 | Challenger ATP  | Grigoriy Lomakin | ✘ | — | — | In play | — |
 | 10-05 02:55 | NHL Game | Florida | ✔ | 0:45 - OT · FLA 2 - ANA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 02:24 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:38 | CONCACAF Nations League Game | Tie | ✔ | 82' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 01:34 | NBA Game | Golden State | ✔ | End of 4th · GS 101 - LAC 104 | — | In play | — |
+| 10-05 01:34 | NBA Game | Golden State | ✔ | End of 4th · GS 101 - LAC 104 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 01:16 | NBA Game | Denver | ✔ | 6:18 - 4th · UTAH 100 - DEN 82 | — | In play | — |
+| 10-05 01:16 | NBA Game | Denver | ✔ | 6:18 - 4th · UTAH 100 - DEN 82 | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 01:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 00:59 | NWSL Game | Tie | ✔ | 90'+3' · WAS 3 - HOU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:58 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-04 23:51 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · CAY 0 - PUR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:51 | CONCACAF Nations League Game | Trinidad and Tobago | ✔ | 90'+3' · CUW 1 - TRI 1 | 2¢ | ❌ Lost | -$0.15 |
 | 10-04 23:44 | NFL Game | Las Vegas | ✔ | 0:10 - 4th · KC 30 - LV 27 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 23:38 | AHL Game | Wilkes Barre-Scranton Penguins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 23:29 | NFL Game | Denver | ✔ | 2:00 - 4th · DEN 14 - SF 24 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
