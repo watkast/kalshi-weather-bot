@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 7:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 7:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 430 finished bets | 0% | -$36.50 | -57% | -8.49¢ | -$18.25 / -$18.25 |
 
-*Expect about **61 buys a day**, roughly **$9.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.16/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4271 | 430 | 2 (0%) | 1.1% | -$36.50 (-57%) | Hold to the end: -$36.50 (-57%) |
+| 4272 | 430 | 2 (0%) | 1.1% | -$36.50 (-57%) | Hold to the end: -$36.50 (-57%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 01:44 | NHL Game | Calgary | ✔ | 3:40 - 2nd · CGY 0 - SEA 4 | — | In play | — |
 | 10-05 01:38 | CONCACAF Nations League Game | Tie | ✔ | 82' · HAI 0 - CRC 2 | — | In play | — |
 | 10-05 01:34 | NBA Game | Golden State | ✔ | End of 4th · GS 101 - LAC 104 | — | In play | — |
 | 10-05 01:24 | CONCACAF Nations League Game | Haiti | ✔ | 67' · HAI 0 - CRC 2 | — | In play | — |
@@ -252,7 +253,6 @@
 | 10-04 23:24 | Women's College Volleyball Match | Southern California | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:22 | CONCACAF Nations League Game | Cayman Islands | ✔ | 64' · CAY 0 - PUR 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 22:57 | NFL Game | Miami | ✔ | 2:07 - 4th · MIA 10 - MIN 15 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 22:56 | Women's College Volleyball Match | Iowa State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
