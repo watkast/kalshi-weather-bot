@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 6:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 6:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, sell at 2¢ | 425 finished bets | 13% | -$49.45 | -78% | -11.64¢ | -$24.52 / -$24.93 |
 
-*Expect about **60 buys a day**, roughly **$9.01/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
+*Expect about **60 buys a day**, roughly **$9.02/day** at risk; max loss per buy **15¢**; typical wait to sell **3 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4258 | 425 | 1 (0%) | 1.1% | -$49.75 (-78%) | Sell at 2¢: -$49.45 (-78%) |
+| 4261 | 425 | 1 (0%) | 1.1% | -$49.75 (-78%) | Sell at 2¢: -$49.45 (-78%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 425 | 13% | 8% | 5% | 2% | 1% | 0% |
-| Unverified | 3827 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3828 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -123,12 +123,12 @@
 | Liga DIMAYOR Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| Uruguay Primera Division Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 12 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | LaLiga 2 Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 9 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
-| Uruguay Primera Division Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 13 min |
 | ATP Tennis Match | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | NWSL Game | ✔ | 18 | 0 | 11% | 0% | -100% | -81% | 11 min |
@@ -211,7 +211,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 41 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 40 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -223,9 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 00:48 | Liga DIMAYOR Game | Junior | ✘ | — | — | In play | — |
+| 10-05 00:48 | CONCACAF Nations League Game | Aruba | ✔ | 90' · AIA 2 - ARU 1 | — | In play | — |
+| 10-05 00:46 | AHL Game | San Diego Gulls | ✘ | — | — | In play | — |
 | 10-05 00:33 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:33 | NHL Game | Utah | ✔ | 1:15 - 3rd · UTA 2 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:26 | Uruguay Primera Division Game | Racing Club | ✘ | — | — | In play | — |
+| 10-05 00:26 | Uruguay Primera Division Game | Racing Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:18 | Women's College Volleyball Match | Minnesota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:02 | USL Championship Game | Tie | ✔ | 90'+8' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:56 | League of Legends Game | LYON | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-04 21:54 | Women's Pro Basketball Game | Las Vegas | ✔ | 2:00 - 4th · LV 58 - GS 71 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:54 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 21:50 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 21:47 | CONCACAF Nations League Game | Tie | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-04 21:47 | Argentina Primera Division Game | Talleres Cordoba | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-04 21:46 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
