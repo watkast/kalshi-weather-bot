@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **58 buys a day**, roughly **$8.68/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4472 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4005 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4006 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -183,13 +183,13 @@
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Men's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | NBA Game | ✔ | 3 | 0 | 33% | 0% | -100% | -42% | 15 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Men's ODI Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 45 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -223,7 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | — | In play | — |
+| 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Saint Kitts and Nevis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
