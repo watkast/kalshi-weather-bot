@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 5, 7:16 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 5, 7:26 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 590 finished bets | 1% | $34.55 | +54% | +5.86¢ | -$18.40 / $52.95 |
 
-*Expect about **81 buys a day** (~$12.17/day at risk); max loss per buy **15¢**.*
+*Expect about **81 buys a day** (~$12.16/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8503 | 8497 | 37 (0%) | 1.07% | -$503.20 (-49%) | Hold to the close: -$503.20 (-49%) |
+| 8505 | 8497 | 37 (0%) | 1.07% | -$503.20 (-49%) | Hold to the close: -$503.20 (-49%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/5 7:25:38 AM | NEAR | UP | 4.4 min | -0.765% | — | In play | — |
+| 10/5 7:23:37 AM | COPPER | UP | 6.4 min | — | — | In play | — |
 | 10/5 7:14:57 AM | COPPER | UP | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 7:14:27 AM | NATGAS | UP | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 7:14:17 AM | PALLADIUM | DOWN | 42 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,8 +211,6 @@
 | 10/5 6:57:38 AM | DOGE | UP | 2.4 min | -0.227% | 1¢ | ❌ Lost | -$0.15 |
 | 10/5 6:56:13 AM | NEAR | DOWN | 3.8 min | +0.363% | 1¢ | ❌ Lost | -$0.15 |
 | 10/5 6:44:59 AM | PLATINUM | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/5 6:44:43 AM | SILVER | UP | 17 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/5 6:44:02 AM | GBPUSD | UP | 58 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
