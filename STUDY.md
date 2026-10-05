@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 9:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 9:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 436 finished bets | 0% | -$37.40 | -57% | -8.58¢ | -$18.70 / -$18.70 |
 
-*Expect about **61 buys a day**, roughly **$9.10/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.09/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4278 | 436 | 2 (0%) | 1.1% | -$37.40 (-57%) | Hold to the end: -$37.40 (-57%) |
+| 4280 | 436 | 2 (0%) | 1.1% | -$37.40 (-57%) | Hold to the end: -$37.40 (-57%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 03:31 | Challenger WTA | Katarina Zavatska | ✘ | — | — | In play | — |
+| 10-05 03:23 | Challenger ATP  | Kristjan Tamm | ✘ | — | — | In play | — |
 | 10-05 03:13 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:09 | Women's College Volleyball Match | Kentucky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:08 | Liga DIMAYOR Game | Llaneros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-04 23:56 | League of Legends Game | LYON | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-04 23:55 | USL Championship Game | Phoenix Rising | ✔ | 90' · PHX 1 - NMU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-04 23:52 | CONCACAF Nations League Game | Curacao | ✔ | 90'+4' · CUW 1 - TRI 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 23:51 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · CAY 0 - PUR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-04 23:51 | CONCACAF Nations League Game | Trinidad and Tobago | ✔ | 90'+3' · CUW 1 - TRI 1 | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
