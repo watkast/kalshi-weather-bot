@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 2:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 2:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 444 finished bets | 0% | -$38.60 | -58% | -8.69¢ | -$19.30 / -$19.30 |
 
-*Expect about **56 buys a day**, roughly **$8.45/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4437 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
+| 4440 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 444 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3988 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3991 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 285 | 1 | 4% | 3% | -67% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 286 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Women's Match | ✘ | 279 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 271 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 228 | 1 | 8% | 2% | -59% | -86% | 5 min |
@@ -112,7 +112,7 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | International Friendly Game | partly | 43 | 0 | 12% | 2% | -100% | -80% | 14 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
-| R6 Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | KBO Game | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 7 min |
@@ -154,6 +154,7 @@
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
@@ -162,7 +163,6 @@
 | Slovakia SBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
-| Bundesliga Basketball Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 13 min |
 | Adriatic ABA Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -223,10 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 19:56 | Counter-Strike 2 Game | Team LEISURE | ✘ | — | — | In play | — |
-| 10-05 19:51 | R6 Game | Virtus.pro | ✘ | — | — | In play | — |
+| 10-05 20:10 | Italy Serie A Game | Pallacanestro Cantu | ✘ | — | — | In play | — |
+| 10-05 20:03 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | — | In play | — |
+| 10-05 20:02 | International Friendly Game | Liechtenstein | ✔ | 58' · GIB 2 - LIE 0 | — | In play | — |
+| 10-05 19:56 | Counter-Strike 2 Game | Team LEISURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 19:51 | R6 Game | Virtus.pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:50 | ITF Women's Match | Ana Victoria Gobbi Monllau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 19:47 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | — | In play | — |
+| 10-05 19:47 | Bundesliga Basketball Game | Rasta Vechta | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 19:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:17 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 17:49 | UEFA Nations League Game | Latvia | ✔ | 90'+2' · LVA 1 - CYP 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:49 | R6 Game | Geekay Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:47 | Turkey BSL Game | Trabzonspor Basketbol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:39 | Dota 2 Game | Blasterbl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:34 | Challenger ATP  | Luca Nardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 17:12 | ITF Women's Match | Serafima Elizarova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
