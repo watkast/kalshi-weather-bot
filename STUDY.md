@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 2:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 2:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **59 buys a day**, roughly **$8.92/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.91/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4312 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4313 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3867 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3870 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,10 +94,10 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 268 | 1 | 4% | 3% | -65% | -94% | 9 min |
-| ITF Men's Match | ✘ | 258 | 0 | 9% | 4% | -100% | -85% | 5 min |
+| ITF Men's Match | ✘ | 259 | 0 | 9% | 5% | -100% | -84% | 5 min |
 | ITF Women's Match | ✘ | 248 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | Challenger ATP  | ✘ | 211 | 1 | 9% | 2% | -56% | -85% | 5 min |
-| TT Star Series Match | ✘ | 114 | 1 | 3% | 3% | -18% | -95% | 4 min |
+| TT Star Series Match | ✘ | 115 | 1 | 3% | 3% | -19% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 91 | 0 | 7% | 2% | -100% | -89% | 12 min |
@@ -115,8 +115,8 @@
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
+| KBO Game | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 7 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
-| KBO Game | ✘ | 27 | 0 | 7% | 7% | -100% | -87% | 10 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga DIMAYOR Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 9 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -223,7 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 08:22 | TT Star Series Match | Thamer Ameer | ✘ | — | — | In play | — |
+| 10-05 08:28 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 08:22 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:56 | KBO Game | Kiwoom Heroes | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-05 07:51 | TT Star Series Match | Morávek Jindřich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:48 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 03:39 | CONCACAF Nations League Game | Nicaragua | ✔ | 84' · DOM 2 - NCA 1 | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
