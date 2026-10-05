@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 11:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 11:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **57 buys a day**, roughly **$8.50/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4408 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3960 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3962 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 277 | 1 | 4% | 3% | -66% | -93% | 9 min |
-| ITF Women's Match | ✘ | 272 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| Counter-Strike 2 Game | ✘ | 278 | 1 | 4% | 3% | -66% | -93% | 9 min |
+| ITF Women's Match | ✘ | 273 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 269 | 1 | 10% | 5% | -65% | -83% | 4 min |
 | Challenger ATP  | ✘ | 225 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 126 | 1 | 2% | 2% | -26% | -96% | 4 min |
@@ -223,10 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 17:12 | ITF Women's Match | Serafima Elizarova | ✘ | — | — | In play | — |
+| 10-05 17:12 | ITF Women's Match | Serafima Elizarova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:08 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | — | In play | — |
 | 10-05 17:08 | ITF Women's Match | Amparo Corvalan Mitilli | ✘ | — | — | In play | — |
-| 10-05 17:02 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | — | In play | — |
+| 10-05 17:02 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:02 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:00 | ITF Women's Match | Catherine Rennard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:59 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
