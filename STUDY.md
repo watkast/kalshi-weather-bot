@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 11:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 11:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **56 buys a day**, roughly **$8.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.54/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4411 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4420 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3965 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3969 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -107,8 +107,8 @@
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 17 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
+| Dota 2 Game | ✘ | 47 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| Dota 2 Game | ✘ | 46 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
@@ -132,6 +132,7 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Overwatch Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -139,7 +140,6 @@
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
-| Slovakian 2. Liga Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 111 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
@@ -177,8 +177,8 @@
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
+| Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Turkey BSL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
@@ -223,8 +223,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 17:47 | Turkey BSL Game | Trabzonspor Basketbol | ✘ | — | — | In play | — |
-| 10-05 17:39 | Dota 2 Game | Blasterbl | ✘ | — | — | In play | — |
+| 10-05 17:58 | International Friendly Game | Kenya | ✔ | 90'+5' · KEN 0 - RWA 0 | — | In play | — |
+| 10-05 17:58 | International Friendly Game | Rwanda | ✔ | 90'+5' · KEN 0 - RWA 0 | — | In play | — |
+| 10-05 17:58 | TT Star Series Match | Keinath Thomas | ✘ | — | — | In play | — |
+| 10-05 17:54 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | — | In play | — |
+| 10-05 17:53 | Adriatic ABA Game | KK Mega Basket Belgrade | ✘ | — | — | In play | — |
+| 10-05 17:53 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
+| 10-05 17:53 | UEFA Nations League Game | Tie | ✔ | 90'+6' · LVA 1 - CYP 2 | — | In play | — |
+| 10-05 17:49 | UEFA Nations League Game | Latvia | ✔ | 90'+2' · LVA 1 - CYP 1 | — | In play | — |
+| 10-05 17:49 | R6 Game | Geekay Esports | ✘ | — | — | In play | — |
+| 10-05 17:47 | Turkey BSL Game | Trabzonspor Basketbol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 17:39 | Dota 2 Game | Blasterbl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:34 | Challenger ATP  | Luca Nardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:12 | ITF Women's Match | Serafima Elizarova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:08 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -235,24 +244,15 @@
 | 10-05 16:59 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:55 | ITF Men's Match | Yannis Batsabaken | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 10-05 16:50 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:44 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-05 16:44 | Slovakian 2. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:42 | Counter-Strike 2 Game | ECSTATIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:40 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:37 | Challenger ATP  | Nicolas Kicker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:35 | Slovakian 2. Liga Game | 1914 Samorin | ✘ | — | — | In play | — |
+| 10-05 16:35 | Slovakian 2. Liga Game | 1914 Samorin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:31 | ITF Men's Match | Philippe Renard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:29 | ITF Women's Match | Maria Kononova | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-05 16:28 | ITF Women's Match | Justina Lassaga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:28 | ITF Women's Match | Isabella Mai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:22 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:09 | Challenger ATP  | Mateus Alves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:04 | ITF Men's Match | Paul Theate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 15:59 | ITF Women's Match | Melina Maria Maruca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 15:56 | Counter-Strike 2 Game | Spirit | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
-| 10-05 15:49 | ITF Men's Match | Jules Alias | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-05 15:48 | Challenger ATP  | Raul Brancaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 15:43 | ITF Women's Match | Elise Renard | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 15:39 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
