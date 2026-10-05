@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 11:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **61 buys a day**, roughly **$9.10/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.09/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4290 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4292 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 05:00 | Challenger ATP  | Maxim Zhukov | ✘ | — | — | In play | — |
+| 10-05 04:55 | ATP Tennis Match | Andre Ilagan | ✘ | — | — | In play | — |
 | 10-05 04:29 | Challenger WTA | Jia-Jing Lu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 00:58 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:54 | NWSL Game | Houston | ✔ | 88' · WAS 3 - HOU 2 | 3¢ | ❌ Lost | -$0.15 |
 | 10-05 00:53 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · AIA 2 - ARU 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:51 | CONCACAF Nations League Game | Anguilla | ✔ | 90'+3' · AIA 2 - ARU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:48 | Liga DIMAYOR Game | Junior | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
