@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 5:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **58 buys a day**, roughly **$8.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4373 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4377 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3926 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3930 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,10 +94,10 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 272 | 1 | 4% | 3% | -66% | -94% | 9 min |
-| ITF Men's Match | ✘ | 263 | 0 | 9% | 5% | -100% | -84% | 4 min |
-| ITF Women's Match | ✘ | 263 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 264 | 0 | 9% | 5% | -100% | -84% | 4 min |
+| ITF Women's Match | ✘ | 264 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | Challenger ATP  | ✘ | 220 | 1 | 8% | 2% | -58% | -86% | 5 min |
-| TT Star Series Match | ✘ | 120 | 1 | 2% | 2% | -22% | -96% | 4 min |
+| TT Star Series Match | ✘ | 121 | 1 | 2% | 2% | -23% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 104 | 0 | 9% | 4% | -100% | -85% | 8 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 92 | 0 | 7% | 2% | -100% | -89% | 12 min |
@@ -108,8 +108,8 @@
 | Men's T20 Cricket Match | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 17 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| Dota 2 Game | ✘ | 46 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Dota 2 Game | ✘ | 45 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -223,17 +223,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-05 11:46 | TT Star Series Match | Nemras Reda | ✘ | — | — | In play | — |
+| 10-05 11:56 | ITF Women's Match | Andzhelina Kostova | ✘ | — | — | In play | — |
+| 10-05 11:56 | ITF Men's Match | Mayank Sharma | ✘ | — | — | In play | — |
+| 10-05 11:55 | Darts Match | Conor Heneghan | ✘ | — | — | In play | — |
+| 10-05 11:50 | League of Legends Game | Shopify Rebellion | ✘ | — | — | In play | — |
+| 10-05 11:46 | TT Star Series Match | Nemras Reda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:42 | ITF Men's Match | Maximilian Todorov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:41 | ITF Men's Match | Lilian Chidekh | ✘ | — | — | In play | — |
+| 10-05 11:41 | ITF Men's Match | Lilian Chidekh | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 11:36 | ITF Men's Match | Ethan Terblanche | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:36 | Challenger ATP  | Hugo Grenier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:35 | Challenger ATP  | Nicolas Barrientos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:34 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:33 | ITF Women's Match | Nicole Gadient | ✘ | — | — | In play | — |
+| 10-05 11:33 | ITF Women's Match | Nicole Gadient | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:32 | ITF Women's Match | Angelica Sara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:28 | Challenger WTA | Weronika Falkowska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 11:27 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
+| 10-05 11:27 | Dota 2 Game | Team Kinetix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:24 | ATP Tennis Match | Valentin Vacherot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:22 | ITF Men's Match | Vardan Manukyan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:19 | Challenger WTA | Julia Grabher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,10 +253,6 @@
 | 10-05 11:02 | Overwatch Game | Please Not Hero Ban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 11:00 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:58 | ITF Women's Match | Maria Trujillo Garnica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 10:57 | Challenger ATP  | Marko ToPo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 10:57 | ITF Women's Match | Zejda Veljacic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 10:54 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 10:53 | Challenger ATP  | Diego Dedura-Palomero | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
