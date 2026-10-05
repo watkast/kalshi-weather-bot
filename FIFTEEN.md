@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 5, 3:02 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 5, 3:12 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 578 finished bets | 1% | $35.60 | +57% | +6.16¢ | -$17.80 / $53.40 |
 
-*Expect about **81 buys a day** (~$12.22/day at risk); max loss per buy **15¢**.*
+*Expect about **81 buys a day** (~$12.20/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8271 | 8265 | 37 (0%) | 1.07% | -$474.85 (-48%) | Hold to the close: -$474.85 (-48%) |
+| 8272 | 8265 | 37 (0%) | 1.07% | -$474.85 (-48%) | Hold to the close: -$474.85 (-48%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/5 3:11:14 AM | BTC | UP | 3.8 min | -0.201% | — | In play | — |
 | 10/5 2:59:38 AM | PALLADIUM | DOWN | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 2:59:22 AM | COPPER | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 2:59:06 AM | BTC | UP | 54 sec | -0.076% | 0¢ | ❌ Lost | $0.00 |
@@ -210,7 +211,6 @@
 | 10/5 2:42:30 AM | PLATINUM | UP | 2.5 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 2:42:14 AM | NATGAS | DOWN | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 2:41:58 AM | PALLADIUM | UP | 3.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/5 2:41:25 AM | DOGE | DOWN | 3.6 min | +0.630% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
