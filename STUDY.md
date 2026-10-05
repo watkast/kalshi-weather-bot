@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 4:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 4:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 440 finished bets | 0% | -$38.00 | -58% | -8.64¢ | -$19.00 / -$19.00 |
 
-*Expect about **59 buys a day**, roughly **$8.84/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.83/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4331 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4334 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 440 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3887 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3889 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | League of Legends Game | ✘ | 91 | 0 | 7% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
-| Darts Match | ✘ | 59 | 0 | 2% | 2% | -100% | -97% | 11 min |
+| Darts Match | ✘ | 60 | 0 | 2% | 2% | -100% | -97% | 11 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 17 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -155,6 +155,7 @@
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Professional Baseball Game | partly | 9 | 0 | 22% | 11% | -100% | -61% | 5 min |
 | Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
@@ -162,7 +163,6 @@
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Bundesliga Basketball Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 13 min |
-| Italy Serie A2 Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | Adriatic ABA Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -223,9 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 10:13 | TT Star Series Match | Goldír Jakub | ✘ | — | — | In play | — |
+| 10-05 10:11 | ITF Women's Match | Luisa Hrda | ✘ | — | — | In play | — |
+| 10-05 10:08 | Dota 2 Game | HULIGANI | ✘ | — | — | In play | — |
 | 10-05 09:59 | ITF Women's Match | Anastasia Huijsegoms | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:58 | ITF Men's Match | Jasza Szajrych | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 09:57 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-05 09:57 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:46 | ITF Women's Match | Nala Kovacic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:45 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 09:44 | Challenger WTA | Elena Micic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 07:16 | TT Star Series Match | Dettmar Jannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:15 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 07:08 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 06:54 | TT Star Series Match | Lovo Axel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 06:49 | Challenger ATP  | Sergey Fomin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 06:45 | ATP Tennis Match | Lorenzo Sonego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
