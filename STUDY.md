@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 4:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 4:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4339 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
+| 4342 | 440 | 2 (0%) | 1.1% | -$38.00 (-58%) | Hold to the end: -$38.00 (-58%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 10:45 | Counter-Strike 2 Game | ShindeN | ✘ | — | — | In play | — |
+| 10-05 10:44 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-05 10:41 | ITF Women's Match | Yeva Galiievska | ✘ | — | — | In play | — |
 | 10-05 10:30 | ITF Women's Match | Ekaterina Agureeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:29 | Challenger ATP  | Vladyslav Orlov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 10:23 | League of Legends Game | FlyQuest | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 09:04 | Counter-Strike 2 Game | Elite Klan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 08:50 | TT Star Series Match | Dettmar Jannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 08:28 | KBO Game | LG Twins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 08:22 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 07:56 | KBO Game | Kiwoom Heroes | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-05 07:51 | TT Star Series Match | Morávek Jindřich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
