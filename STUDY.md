@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 12:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 1:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 444 finished bets | 0% | -$38.60 | -58% | -8.69¢ | -$19.30 / -$19.30 |
 
-*Expect about **57 buys a day**, roughly **$8.50/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4429 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
+| 4431 | 444 | 2 (0%) | 1.1% | -$38.60 (-58%) | Hold to the end: -$38.60 (-58%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 444 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 3980 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 3982 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 281 | 1 | 4% | 3% | -67% | -93% | 9 min |
+| Counter-Strike 2 Game | ✘ | 282 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Women's Match | ✘ | 276 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 271 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 228 | 1 | 8% | 2% | -59% | -86% | 5 min |
@@ -105,7 +105,7 @@
 | CONCACAF Nations League Game | partly | 84 | 2 | 21% | 10% | +122% | -63% | 22 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Men's T20 Cricket Match | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 17 min |
+| Men's T20 Cricket Match | ✘ | 50 | 0 | 16% | 6% | -100% | -72% | 17 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
 | Dota 2 Game | ✘ | 47 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -223,10 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 19:06 | ITF Women's Match | Charlotte Narti | ✘ | — | — | In play | — |
+| 10-05 19:00 | ITF Women's Match | Nalah Kaler | ✘ | — | — | In play | — |
 | 10-05 18:56 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
-| 10-05 18:53 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
+| 10-05 18:53 | Counter-Strike 2 Game | XI Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:43 | ITF Women's Match | Pietra Rivoli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 18:40 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
+| 10-05 18:40 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:40 | ITF Men's Match | Diego Giraldo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:13 | ITF Men's Match | Julien Dando | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 18:08 | Challenger ATP  | Louis Wessels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 17:02 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 17:00 | ITF Women's Match | Catherine Rennard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 16:59 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 16:55 | ITF Men's Match | Yannis Batsabaken | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 10-05 16:50 | Counter-Strike 2 Game | MASONIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
