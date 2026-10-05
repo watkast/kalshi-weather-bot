@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 4, 10:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 4, 10:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 438 finished bets | 0% | -$37.70 | -57% | -8.61¢ | -$18.85 / -$18.85 |
 
-*Expect about **61 buys a day**, roughly **$9.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **61 buys a day**, roughly **$9.13/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4286 | 438 | 2 (0%) | 1.1% | -$37.70 (-57%) | Hold to the end: -$37.70 (-57%) |
+| 4289 | 438 | 2 (0%) | 1.1% | -$37.70 (-57%) | Hold to the end: -$37.70 (-57%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 438 | 13% | 8% | 5% | 3% | 1% | 1% |
-| Unverified | 3841 | 5% | 3% | 3% | 1% | 0% | 0% |
+| Unverified | 3842 | 5% | 3% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -110,8 +110,8 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Dota 2 Game | ✘ | 43 | 0 | 2% | 2% | -100% | -96% | 30 min |
 | International Friendly Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 17 min |
+| Challenger WTA | ✘ | 39 | 0 | 21% | 13% | -100% | -64% | 10 min |
 | NHL Game | ✔ | 39 | 0 | 13% | 5% | -100% | -78% | 4 min |
-| Challenger WTA | ✘ | 38 | 0 | 21% | 13% | -100% | -64% | 10 min |
 | R6 Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -223,6 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-05 04:21 | Challenger ATP  | Yusuke Takahashi | ✘ | — | — | In play | — |
+| 10-05 04:18 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
+| 10-05 04:16 | Challenger WTA | Yidi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 04:09 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
 | 10-05 03:47 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · DOM 2 - NCA 1 | — | In play | — |
 | 10-05 03:40 | Men's T20 Cricket Match | Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 00:51 | CONCACAF Nations League Game | Anguilla | ✔ | 90'+3' · AIA 2 - ARU 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 00:48 | Liga DIMAYOR Game | Junior | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 00:48 | CONCACAF Nations League Game | Aruba | ✔ | 90' · AIA 2 - ARU 1 | 99¢ | ✅ Won | $13.85 |
-| 10-05 00:46 | AHL Game | San Diego Gulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:33 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 00:33 | NHL Game | Utah | ✔ | 1:15 - 3rd · UTA 2 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
