@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 6:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 6:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4483 | 467 | 2 (0%) | 1.1% | -$42.05 (-60%) | Hold to the end: -$42.05 (-60%) |
+| 4484 | 467 | 2 (0%) | 1.1% | -$42.05 (-60%) | Hold to the end: -$42.05 (-60%) |
 
 *In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 467 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4013 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4014 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,7 +100,7 @@
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
-| League of Legends Game | ✘ | 94 | 0 | 6% | 2% | -100% | -89% | 12 min |
+| League of Legends Game | ✘ | 95 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | CONCACAF Nations League Game | partly | 90 | 2 | 21% | 9% | +107% | -63% | 20 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 00:16 | League of Legends Game | Zeu5 Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 00:14 | Uruguay Primera Division Game | Montevideo City | ✘ | — | — | In play | — |
 | 10-06 00:11 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 4 - CLE 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+5' · SWE 1 - ROU 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:37 | UEFA Nations League Game | Armenia | ✔ | 90'+6' · ARM 0 - MNE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:37 | UEFA Nations League Game | Montenegro | ✔ | 90'+6' · ARM 0 - MNE 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+3' · HUN 2 - UKR 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
