@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 5:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 5:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **57 buys a day**, roughly **$8.56/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.55/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4593 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4595 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4100 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4104 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 308 | 0 | 10% | 5% | -100% | -83% | 4 min |
-| ITF Men's Match | ✘ | 291 | 1 | 10% | 5% | -68% | -83% | 4 min |
+| ITF Women's Match | ✘ | 310 | 0 | 10% | 5% | -100% | -83% | 4 min |
+| ITF Men's Match | ✘ | 293 | 1 | 10% | 6% | -68% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 288 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 240 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
@@ -223,12 +223,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 11:14 | ITF Women's Match | Lorena Solar Donoso | ✘ | — | — | In play | — |
-| 10-06 11:11 | ITF Men's Match | Barney Fitzpatrick | ✘ | — | — | In play | — |
+| 10-06 11:21 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
+| 10-06 11:17 | ITF Women's Match | Lavinia Luciano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:14 | ITF Women's Match | Lorena Solar Donoso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:11 | ITF Men's Match | Barney Fitzpatrick | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:08 | ITF Women's Match | Amandine Hesse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:07 | ITF Men's Match | Danila Folkheims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:06 | ITF Women's Match | Alessia Antici | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:04 | ITF Men's Match | Anuj Watane | ✘ | — | — | In play | — |
+| 10-06 11:04 | ITF Men's Match | Anuj Watane | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-06 11:04 | Darts Match | Niek Tuik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:03 | ITF Men's Match | Victor Ryden | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:02 | League of Legends Game | RED Canids | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 10:28 | ITF Men's Match | Sacha Bouillard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:28 | ITF Men's Match | Theofanis Kontopoulos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:26 | Challenger ATP  | Benito Sanchez Martinez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:24 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:18 | ITF Men's Match | Rodion Chetverikov | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
