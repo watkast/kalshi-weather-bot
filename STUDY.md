@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 5:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 5:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4595 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4599 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4104 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4106 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 310 | 0 | 10% | 5% | -100% | -83% | 4 min |
-| ITF Men's Match | ✘ | 293 | 1 | 10% | 6% | -68% | -83% | 5 min |
+| ITF Women's Match | ✘ | 311 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 294 | 1 | 10% | 6% | -68% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 288 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 240 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
@@ -223,6 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 11:28 | ITF Men's Match | Rafael De Alba | ✘ | — | — | In play | — |
+| 10-06 11:27 | ITF Women's Match | Noa Krznaric Uygungul | ✘ | — | — | In play | — |
+| 10-06 11:26 | ITF Men's Match | Antoni Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:25 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
 | 10-06 11:21 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
 | 10-06 11:17 | ITF Women's Match | Lavinia Luciano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:14 | ITF Women's Match | Lorena Solar Donoso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -240,7 +244,7 @@
 | 10-06 10:57 | ITF Women's Match | Federica Bilardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:56 | Men's ODI Cricket Match | Colombo Aces | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:55 | ITF Men's Match | Courtney John Lock | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:49 | ITF Women's Match | Sara Victoria Balan | ✘ | — | — | In play | — |
+| 10-06 10:49 | ITF Women's Match | Sara Victoria Balan | ✘ | — | 76¢ | ❌ Lost | -$0.15 |
 | 10-06 10:48 | ITF Men's Match | Chetanna Amadike | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-06 10:47 | ITF Women's Match | Ushna Suhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:44 | ATP Tennis Match | Jiri Lehecka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -249,10 +253,6 @@
 | 10-06 10:35 | Challenger WTA | Elena Micic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:33 | Overwatch Game | ENTER FORCE.36 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:33 | ITF Women's Match | Polona Hercog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:29 | ITF Women's Match | Carola Cavelli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:28 | ITF Men's Match | Sacha Bouillard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:28 | ITF Men's Match | Theofanis Kontopoulos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:26 | Challenger ATP  | Benito Sanchez Martinez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
