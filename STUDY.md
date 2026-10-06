@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 9:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 9:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 483 finished bets | 0% | -$44.45 | -61% | -9.20¢ | -$22.15 / -$22.30 |
+| ESPN-verified leagues only, hold to the end | 485 finished bets | 0% | -$44.75 | -62% | -9.23¢ | -$22.30 / -$22.45 |
 
-*Expect about **59 buys a day**, roughly **$8.83/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.86/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 483 | -$52.20 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 483 | -$55.55 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 483 | -$56.85 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 485 | -$52.50 | -72% |
+| ESPN-verified leagues only, sell at 2¢ | 485 | -$55.85 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 485 | -$57.15 | -79% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4512 | 483 | 2 (0%) | 1.1% | -$44.45 (-61%) | Hold to the end: -$44.45 (-61%) |
+| 4515 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 483 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4025 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 485 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4026 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$44.45 | -61% |
-| Sell at 2¢ | 65 | 13% | -$55.55 | -77% |
-| Sell at 3¢ | 39 | 8% | -$57.24 | -79% |
-| Sell at 5¢ | 24 | 5% | -$56.85 | -78% |
-| Sell at 10¢ | 11 | 2% | -$58.04 | -80% |
-| Sell at 25¢ | 4 | 1% | -$59.21 | -82% |
-| Sell at 50¢ | 3 | 1% | -$52.20 | -72% |
+| Hold to the end | 2 | 0% | -$44.75 | -62% |
+| Sell at 2¢ | 65 | 13% | -$55.85 | -77% |
+| Sell at 3¢ | 39 | 8% | -$57.54 | -79% |
+| Sell at 5¢ | 24 | 5% | -$57.15 | -79% |
+| Sell at 10¢ | 11 | 2% | -$58.34 | -80% |
+| Sell at 25¢ | 4 | 1% | -$59.51 | -82% |
+| Sell at 50¢ | 3 | 1% | -$52.50 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -99,13 +99,13 @@
 | Challenger ATP  | ✘ | 232 | 1 | 8% | 2% | -60% | -87% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
+| CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
-| CONCACAF Nations League Game | partly | 96 | 2 | 20% | 8% | +94% | -66% | 19 min |
 | League of Legends Game | ✘ | 95 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Men's T20 Cricket Match | ✘ | 50 | 0 | 16% | 6% | -100% | -72% | 17 min |
+| Men's T20 Cricket Match | ✘ | 51 | 0 | 16% | 6% | -100% | -73% | 18 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
 | Dota 2 Game | ✘ | 47 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -201,7 +201,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 189 | 7% | 1% | 0% | -87% |
+| Under 5 min | 191 | 7% | 1% | 0% | -87% |
 | 5–15 min | 94 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
 | 30–60 min | 60 | 12% | 5% | 0% | -80% |
@@ -223,12 +223,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 03:57 | ITF Women's Match | Ai Maruyama | ✘ | — | — | In play | — |
+| 10-06 03:50 | CONCACAF Nations League Game | Honduras | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 03:49 | CONCACAF Nations League Game | Jamaica | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:45 | WTA Tennis Match | Daria Snigur | ✘ | — | — | In play | — |
 | 10-06 03:40 | Challenger ATP  | Masamichi Imamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:35 | ITF Women's Match | Mana Kawamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:12 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 2 - TB 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
+| 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-06 01:29 | NHL Game | San Jose | ✔ | 3:30 - 2nd · SJ 0 - DAL 4 | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 01:16 | NHL Game | Boston | ✔ | 4:24 - 2nd · OTT 4 - BOS 0 | 2¢ | ❌ Lost | -$0.15 |
 | 10-06 01:10 | NBA Game | New York | ✔ | 6:46 - 4th · NY 82 - PHI 101 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 00:49 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 00:16 | League of Legends Game | Zeu5 Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 00:14 | Uruguay Primera Division Game | Montevideo City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
