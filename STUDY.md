@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4535 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4539 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4046 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4047 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 275 | 1 | 9% | 5% | -66% | -84% | 4 min |
 | Challenger ATP  | ✘ | 236 | 1 | 8% | 2% | -60% | -87% | 5 min |
-| TT Star Series Match | ✘ | 129 | 1 | 2% | 2% | -28% | -96% | 4 min |
+| TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -223,6 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 08:30 | ITF Men's Match | Reece Falck | ✘ | — | — | In play | — |
+| 10-06 08:28 | TT Star Series Match | Goldír Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 08:27 | ITF Men's Match | Stefan Storch | ✘ | — | — | In play | — |
+| 10-06 08:23 | Challenger ATP  | Yuta Kikuchi | ✘ | — | — | In play | — |
 | 10-06 08:09 | Challenger ATP  | Enzo Aguiard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:03 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:56 | Men's T20 Cricket Match | Bhutan | ✘ | — | — | In play | — |
@@ -249,10 +253,6 @@
 | 10-06 03:45 | WTA Tennis Match | Daria Snigur | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-06 03:40 | Challenger ATP  | Masamichi Imamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:35 | ITF Women's Match | Mana Kawamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:12 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 2 - TB 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
