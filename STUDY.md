@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 9:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 9:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 482 finished bets | 0% | -$44.30 | -61% | -9.19¢ | -$22.15 / -$22.15 |
+| ESPN-verified leagues only, hold to the end | 483 finished bets | 0% | -$44.45 | -61% | -9.20¢ | -$22.15 / -$22.30 |
 
 *Expect about **59 buys a day**, roughly **$8.84/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 482 | -$52.05 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 482 | -$55.40 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 482 | -$56.70 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 483 | -$52.20 | -72% |
+| ESPN-verified leagues only, sell at 2¢ | 483 | -$55.55 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 483 | -$56.85 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4509 | 482 | 2 (0%) | 1.1% | -$44.30 (-61%) | Hold to the end: -$44.30 (-61%) |
+| 4510 | 483 | 2 (0%) | 1.1% | -$44.45 (-61%) | Hold to the end: -$44.45 (-61%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 97 | 2.6% | 0.0% (0) | -212% | ❌ Worse |
+| ESPN win probability | 98 | 2.5% | 0.0% (0) | -210% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 97 | 0 | -100% | -73% | -73% | -78% |
+| **Any 1¢ (no model)** | 98 | 0 | -100% | -73% | -73% | -78% |
 | ESPN win probability ≥ 2% | 19 | 0 | -100% | -64% | -59% | -100% |
 | ESPN win probability ≥ 5% | 7 | 0 | -100% | -75% | -63% | -100% |
 | ESPN win probability ≥ 10% | 4 | 0 | -100% | -57% | -35% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 482 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4022 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 483 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4024 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$44.30 | -61% |
-| Sell at 2¢ | 65 | 13% | -$55.40 | -77% |
-| Sell at 3¢ | 39 | 8% | -$57.09 | -79% |
-| Sell at 5¢ | 24 | 5% | -$56.70 | -78% |
-| Sell at 10¢ | 11 | 2% | -$57.89 | -80% |
-| Sell at 25¢ | 4 | 1% | -$59.06 | -82% |
-| Sell at 50¢ | 3 | 1% | -$52.05 | -72% |
+| Hold to the end | 2 | 0% | -$44.45 | -61% |
+| Sell at 2¢ | 65 | 13% | -$55.55 | -77% |
+| Sell at 3¢ | 39 | 8% | -$57.24 | -79% |
+| Sell at 5¢ | 24 | 5% | -$56.85 | -78% |
+| Sell at 10¢ | 11 | 2% | -$58.04 | -80% |
+| Sell at 25¢ | 4 | 1% | -$59.21 | -82% |
+| Sell at 50¢ | 3 | 1% | -$52.20 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 285 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 286 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
-| Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
+| Challenger ATP  | ✘ | 231 | 1 | 8% | 2% | -60% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -140,10 +140,10 @@
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
+| NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
-| NFL Game | ✔ | 15 | 0 | 27% | 7% | -100% | -54% | 3 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
@@ -204,7 +204,7 @@
 | Under 5 min | 189 | 7% | 1% | 0% | -87% |
 | 5–15 min | 94 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
-| 30–60 min | 59 | 12% | 5% | 0% | -79% |
+| 30–60 min | 60 | 12% | 5% | 0% | -80% |
 | Over 60 min | 56 | 16% | 11% | 0% | -72% |
 
 ## Speed & liquidity
@@ -223,10 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | — | In play | — |
+| 10-06 03:35 | ITF Women's Match | Mana Kawamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:12 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 2 - TB 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
-| 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | — | In play | — |
+| 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:23 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · WPG 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-06 00:14 | Uruguay Primera Division Game | Montevideo City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 00:11 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 4 - CLE 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 23:58 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
