@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 4:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 5:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4578 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4588 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4085 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4092 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 303 | 0 | 10% | 5% | -100% | -82% | 4 min |
-| Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Men's Match | ✘ | 286 | 1 | 9% | 5% | -67% | -84% | 5 min |
+| ITF Women's Match | ✘ | 305 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 289 | 1 | 10% | 6% | -68% | -83% | 5 min |
+| Counter-Strike 2 Game | ✘ | 288 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 240 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
@@ -103,7 +103,7 @@
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 96 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 70 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 71 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 19 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
@@ -223,12 +223,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 11:04 | ITF Men's Match | Anuj Watane | ✘ | — | — | In play | — |
+| 10-06 11:04 | Darts Match | Niek Tuik | ✘ | — | — | In play | — |
+| 10-06 11:03 | ITF Men's Match | Victor Ryden | ✘ | — | — | In play | — |
+| 10-06 11:02 | League of Legends Game | RED Canids | ✘ | — | — | In play | — |
+| 10-06 11:00 | ITF Women's Match | Emma Slavikova | ✘ | — | — | In play | — |
+| 10-06 10:58 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 10:58 | ITF Women's Match | Summer Yardley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 10:57 | ITF Women's Match | Federica Bilardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 10:56 | Men's ODI Cricket Match | Colombo Aces | ✘ | — | — | In play | — |
+| 10-06 10:55 | ITF Men's Match | Courtney John Lock | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:49 | ITF Women's Match | Sara Victoria Balan | ✘ | — | — | In play | — |
-| 10-06 10:48 | ITF Men's Match | Chetanna Amadike | ✘ | — | — | In play | — |
+| 10-06 10:48 | ITF Men's Match | Chetanna Amadike | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-06 10:47 | ITF Women's Match | Ushna Suhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:44 | ATP Tennis Match | Jiri Lehecka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 10:42 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
-| 10-06 10:39 | Counter-Strike 2 Game | MORROW | ✘ | — | — | In play | — |
+| 10-06 10:42 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 10:39 | Counter-Strike 2 Game | MORROW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:35 | Challenger WTA | Elena Micic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:33 | Overwatch Game | ENTER FORCE.36 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:33 | ITF Women's Match | Polona Hercog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -243,16 +253,6 @@
 | 10-06 10:06 | Challenger ATP  | Pedro Vives Marcos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:04 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:04 | ITF Men's Match | Alec Braund | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:04 | ITF Women's Match | Parneet Kaur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:56 | ITF Men's Match | Adrian Arcon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:51 | ITF Women's Match | Kei Yau Cheung | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:51 | ITF Women's Match | Serife Pelin Sari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:51 | ITF Women's Match | Nissa Finnigan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:51 | ITF Women's Match | Warona Mdlulwa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:43 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:34 | ATP Tennis Match | Dane Sweeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:33 | ITF Men's Match | Filippo Alfano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:31 | Challenger ATP  | Samuele Pieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
