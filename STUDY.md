@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 4:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 4:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4781 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4261 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4263 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -99,8 +99,8 @@
 | Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
+| CONCACAF Nations League Game | partly | 104 | 2 | 19% | 8% | +79% | -67% | 20 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
-| CONCACAF Nations League Game | partly | 102 | 2 | 20% | 8% | +83% | -66% | 20 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
@@ -225,8 +225,8 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-06 22:23 | Challenger ATP  | Nicolas Villalon Valdes | ✘ | — | — | In play | — |
-| 10-06 21:46 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
-| 10-06 21:44 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
+| 10-06 21:46 | CONCACAF Nations League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-06 21:44 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:43 | APF Division de Honor Game | Tie | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-06 21:39 | ITF Women's Match | Krisha Mahendran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
