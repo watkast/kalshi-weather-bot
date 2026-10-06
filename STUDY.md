@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4542 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4544 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4051 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4054 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 | ITF Women's Match | ✘ | 293 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 278 | 1 | 9% | 5% | -66% | -84% | 5 min |
-| Challenger ATP  | ✘ | 236 | 1 | 8% | 2% | -60% | -87% | 5 min |
+| Challenger ATP  | ✘ | 237 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 95 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
+| Darts Match | ✘ | 66 | 0 | 2% | 2% | -100% | -97% | 9 min |
+| Men's T20 Cricket Match | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 19 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Men's T20 Cricket Match | ✘ | 52 | 0 | 15% | 6% | -100% | -73% | 19 min |
 | Challenger WTA | ✘ | 49 | 0 | 18% | 10% | -100% | -68% | 9 min |
 | Dota 2 Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -223,16 +223,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 09:08 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
+| 10-06 09:07 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
 | 10-06 08:58 | ITF Women's Match | Valeria Monko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 08:55 | Darts Match | Niek Tuik | ✘ | — | — | In play | — |
+| 10-06 08:55 | Darts Match | Niek Tuik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:36 | ITF Men's Match | Nikolai Barsukov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:30 | ITF Men's Match | Reece Falck | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:28 | TT Star Series Match | Goldír Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:27 | ITF Men's Match | Stefan Storch | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 08:23 | Challenger ATP  | Yuta Kikuchi | ✘ | — | — | In play | — |
+| 10-06 08:23 | Challenger ATP  | Yuta Kikuchi | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-06 08:09 | Challenger ATP  | Enzo Aguiard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:03 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 07:56 | Men's T20 Cricket Match | Bhutan | ✘ | — | — | In play | — |
+| 10-06 07:56 | Men's T20 Cricket Match | Bhutan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:55 | Challenger WTA | Yushan Shao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:47 | ITF Men's Match | Zhao Zhao | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 07:40 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 04:14 | NBA Game | Sacramento | ✔ | 10:23 - 4th · LAL 102 - SAC 78 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 03:57 | ITF Women's Match | Ai Maruyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:50 | CONCACAF Nations League Game | Honduras | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:49 | CONCACAF Nations League Game | Jamaica | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
