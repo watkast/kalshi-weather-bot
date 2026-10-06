@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 491 finished bets | 0% | -$45.65 | -62% | -9.30¢ | -$22.75 / -$22.90 |
 
-*Expect about **56 buys a day**, roughly **$8.42/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4655 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
+| 4658 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | — | In play | — |
+| 10-06 16:56 | Dota 2 Game | Yellow Submarine | ✘ | — | — | In play | — |
+| 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | — | In play | — |
 | 10-06 16:42 | ITF Women's Match | Rebecca Munk Mortensen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:39 | ITF Women's Match | Francoise Abanda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:38 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-06 12:31 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:28 | ITF Women's Match | Anna Cabassers Morros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:28 | ITF Women's Match | Lucie Petruzelova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:23 | ITF Men's Match | Dimitri Bagaric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:21 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:20 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
