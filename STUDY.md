@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 10:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 10:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 485 finished bets | 0% | -$44.75 | -62% | -9.23¢ | -$22.30 / -$22.45 |
 
-*Expect about **59 buys a day**, roughly **$8.86/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.85/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4518 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
+| 4520 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 485 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4028 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4030 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| ITF Women's Match | ✘ | 288 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 287 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
-| Challenger ATP  | ✘ | 232 | 1 | 8% | 2% | -60% | -87% | 5 min |
+| Challenger ATP  | ✘ | 233 | 1 | 8% | 2% | -60% | -87% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,9 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | — | In play | — |
+| 10-06 04:28 | ITF Men's Match | Jake Dembo | ✘ | — | — | In play | — |
+| 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | — | In play | — |
+| 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:14 | NBA Game | Sacramento | ✔ | 10:23 - 4th · LAL 102 - SAC 78 | — | In play | — |
-| 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | — | In play | — |
+| 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 03:57 | ITF Women's Match | Ai Maruyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:50 | CONCACAF Nations League Game | Honduras | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:49 | CONCACAF Nations League Game | Jamaica | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 01:44 | NHL Game | Philadelphia | ✔ | 4:02 - 3rd · PHI 1 - TB 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 01:40 | CONCACAF Nations League Game | Tie | ✔ | 82' · BOE 3 - GRN 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:40 | CONCACAF Nations League Game | Bermuda | ✔ | 84' · BRB 1 - BER 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 01:35 | CONCACAF Nations League Game | Grenada | ✔ | 77' · BOE 3 - GRN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 01:29 | NBA Game | Atlanta | ✔ | 57.2 - 4th · MEM 128 - ATL 121 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
