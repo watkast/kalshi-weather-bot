@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4712 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4721 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 496 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4206 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4207 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 336 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 299 | 1 | 4% | 3% | -69% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 300 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 247 | 1 | 9% | 2% | -62% | -85% | 5 min |
 | TT Star Series Match | ✘ | 139 | 1 | 3% | 3% | -33% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
@@ -223,7 +223,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 19:39 | Counter-Strike 2 Game | Legacy | ✘ | — | — | In play | — |
+| 10-06 19:50 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 10-06 19:50 | EFL Trophy Game | Burton | ✘ | — | — | In play | — |
+| 10-06 19:50 | EFL Trophy Game | Grimsby | ✘ | — | — | In play | — |
+| 10-06 19:49 | Dota 2 Game | MOUZ | ✘ | — | — | In play | — |
+| 10-06 19:47 | EFL Trophy Game | Mansfield | ✘ | — | — | In play | — |
+| 10-06 19:47 | TT Star Series Match | Keinath Thomas | ✘ | — | — | In play | — |
+| 10-06 19:44 | EFL Trophy Game | Rotherham | ✘ | — | — | In play | — |
+| 10-06 19:42 | EFL Trophy Game | Shrewsbury | ✘ | — | — | In play | — |
+| 10-06 19:42 | ITF Women's Match | Dalayna Hewitt | ✘ | — | — | In play | — |
+| 10-06 19:39 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:38 | AFCON Game Winner | Malawi | ✘ | — | — | In play | — |
 | 10-06 19:36 | Counter-Strike 2 Game | PENSIONERS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:34 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -244,15 +253,6 @@
 | 10-06 18:53 | R6 Game | Shifters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:53 | KHL Game | SKA St. Petersburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:52 | International Friendly Game | Jordan | ✔ | 90'+2' · VEN 0 - JOR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:52 | International Friendly Game | Venezuela | ✔ | 90'+2' · VEN 0 - JOR 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:50 | ITF Women's Match | Briley Rhoden | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 18:49 | TT Star Series Match | Gavlas Antonín | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:48 | UEFA Nations League Game | San Marino | ✔ | 1' · SMR 0 - ALB 0 | — | In play | — |
-| 10-06 18:43 | Counter-Strike 2 Game | FURIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:36 | Challenger ATP  | Bernardo Munk Mesa | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-06 18:31 | EuroCup Basketball Game | KK Buducnost Voli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 18:31 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
