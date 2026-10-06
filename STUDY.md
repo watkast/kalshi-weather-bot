@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4544 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4546 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 09:23 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-06 09:18 | League of Legends Game | Natus Vincere | ✘ | — | — | In play | — |
 | 10-06 09:08 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
 | 10-06 09:07 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
 | 10-06 08:58 | ITF Women's Match | Valeria Monko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:14 | NBA Game | Sacramento | ✔ | 10:23 - 4th · LAL 102 - SAC 78 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 03:57 | ITF Women's Match | Ai Maruyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
