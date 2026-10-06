@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 514 finished bets | 1% | -$35.10 | -46% | -6.83¢ | -$24.55 / -$10.55 |
 
-*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4776 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
+| 4779 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -224,6 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 21:44 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
+| 10-06 21:43 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
+| 10-06 21:39 | ITF Women's Match | Krisha Mahendran | ✘ | — | — | In play | — |
 | 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | — | In play | — |
 | 10-06 21:10 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:09 | CONCACAF Nations League Game | Tie | ✔ | 48' · TCA 0 - MSR 2 | — | In play | — |
@@ -251,9 +254,6 @@
 | 10-06 20:15 | UEFA Nations League Game | Tie | ✔ | 73' · MKD 0 - SUI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
