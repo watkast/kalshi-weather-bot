@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4770 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
+| 4772 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 514 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4242 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4246 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 338 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 339 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 304 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
@@ -104,12 +104,12 @@
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 56 | 0 | 16% | 7% | -100% | -72% | 19 min |
+| Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | International Friendly Game | partly | 53 | 1 | 13% | 6% | +76% | -77% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
-| AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| AFCON Game Winner | ✘ | 48 | 1 | 15% | 4% | +94% | -75% | 13 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | NHL Game | ✔ | 43 | 0 | 14% | 5% | -100% | -76% | 4 min |
 | R6 Game | ✘ | 37 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -129,10 +129,10 @@
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
+| EuroCup Basketball Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
-| EuroCup Basketball Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
@@ -224,16 +224,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 21:02 | ITF Men's Match | Darwin Andres Macias Elizalde | ✘ | — | — | In play | — |
+| 10-06 20:58 | R6 Game | Twisted Minds | ✘ | — | — | In play | — |
 | 10-06 20:51 | ITF Women's Match | Chloe Noel | ✘ | — | — | In play | — |
 | 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | — | In play | — |
-| 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | — | In play | — |
+| 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | — | In play | — |
+| 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+4' · ESP 2 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:34 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 10-06 20:34 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | UEFA Nations League Game | Estonia | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | UEFA Nations League Game | Iceland | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | UEFA Nations League Game | Tie | ✔ | 90'+1' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -247,13 +249,11 @@
 | 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | — | In play | — |
+| 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:06 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:04 | Counter-Strike 2 Game | aimers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 19:59 | EuroCup Basketball Game | Aquila Basket Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:57 | EFL Trophy Game | Accrington | ✘ | — | 95¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
