@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 9:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 9:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 482 finished bets | 0% | -$44.30 | -61% | -9.19¢ | -$22.15 / -$22.15 |
 
-*Expect about **59 buys a day**, roughly **$8.85/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.84/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4508 | 482 | 2 (0%) | 1.1% | -$44.30 (-61%) | Hold to the end: -$44.30 (-61%) |
+| 4509 | 482 | 2 (0%) | 1.1% | -$44.30 (-61%) | Hold to the end: -$44.30 (-61%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | — | In play | — |
 | 10-06 03:12 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 2 - TB 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
 | 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | — | In play | — |
@@ -252,7 +253,6 @@
 | 10-06 00:11 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 4 - CLE 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:58 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-05 23:54 | CONCACAF Nations League Game | Martinique | ✔ | 90'+4' · SLV 1 - MTQ 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
