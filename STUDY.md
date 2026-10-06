@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 10:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 10:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4520 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 485 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4030 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4032 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,8 +95,8 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 288 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
-| Challenger ATP  | ✘ | 233 | 1 | 8% | 2% | -60% | -87% | 5 min |
+| ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
+| Challenger ATP  | ✘ | 234 | 1 | 8% | 2% | -60% | -87% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,8 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 04:28 | ITF Men's Match | Jake Dembo | ✘ | — | — | In play | — |
-| 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | — | In play | — |
+| 10-06 04:28 | ITF Men's Match | Jake Dembo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:14 | NBA Game | Sacramento | ✔ | 10:23 - 4th · LAL 102 - SAC 78 | — | In play | — |
 | 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
