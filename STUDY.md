@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 5:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 6:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4610 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4617 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4115 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4118 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 316 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 319 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 296 | 1 | 10% | 6% | -68% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 288 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 240 | 1 | 8% | 2% | -61% | -86% | 5 min |
@@ -223,10 +223,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 12:05 | ITF Women's Match | Romane Longueville | ✘ | — | — | In play | — |
+| 10-06 12:05 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-06 12:05 | Counter-Strike 2 Game | THE UNIT | ✘ | — | — | In play | — |
+| 10-06 11:59 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | — | In play | — |
+| 10-06 11:59 | ITF Women's Match | Diana-Ioana Simionescu | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-06 11:58 | ITF Women's Match | Tereza Tsybulska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:57 | ITF Men's Match | Mihail Ivanov | ✘ | — | — | In play | — |
 | 10-06 11:55 | KBO Game | Kiwoom Heroes | ✘ | — | — | In play | — |
 | 10-06 11:50 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:49 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
-| 10-06 11:48 | ITF Women's Match | Aleksija Neskovic | ✘ | — | — | In play | — |
+| 10-06 11:48 | ITF Women's Match | Aleksija Neskovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:46 | ITF Women's Match | Nauhany Vitoria Leme Da Silva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:46 | ITF Men's Match | Ryuichiro Nakano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:44 | ITF Women's Match | Isabel Skoog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,13 +253,6 @@
 | 10-06 11:07 | ITF Men's Match | Danila Folkheims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:06 | ITF Women's Match | Alessia Antici | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:04 | ITF Men's Match | Anuj Watane | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
-| 10-06 11:04 | Darts Match | Niek Tuik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:03 | ITF Men's Match | Victor Ryden | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:02 | League of Legends Game | RED Canids | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 11:00 | ITF Women's Match | Emma Slavikova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:58 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:58 | ITF Women's Match | Summer Yardley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:57 | ITF Women's Match | Federica Bilardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
