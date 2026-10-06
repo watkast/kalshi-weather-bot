@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 514 finished bets | 1% | -$35.10 | -46% | -6.83¢ | -$24.55 / -$10.55 |
 
-*Expect about **58 buys a day**, roughly **$8.66/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4772 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
+| 4775 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 514 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4246 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4251 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 339 | 0 | 10% | 4% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 304 | 1 | 10% | 6% | -69% | -83% | 5 min |
+| ITF Women's Match | ✘ | 340 | 0 | 11% | 4% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
-| TT Star Series Match | ✘ | 140 | 1 | 3% | 3% | -33% | -95% | 4 min |
+| TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -109,10 +109,10 @@
 | International Friendly Game | partly | 53 | 1 | 13% | 6% | +76% | -77% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
-| AFCON Game Winner | ✘ | 48 | 1 | 15% | 4% | +94% | -75% | 13 min |
+| AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | NHL Game | ✔ | 43 | 0 | 14% | 5% | -100% | -76% | 4 min |
-| R6 Game | ✘ | 37 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 33 | 0 | 6% | 6% | -100% | -89% | 8 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | KHL Game | ✘ | 30 | 0 | 3% | 3% | -100% | -94% | 5 min |
@@ -224,9 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 21:02 | ITF Men's Match | Darwin Andres Macias Elizalde | ✘ | — | — | In play | — |
-| 10-06 20:58 | R6 Game | Twisted Minds | ✘ | — | — | In play | — |
-| 10-06 20:51 | ITF Women's Match | Chloe Noel | ✘ | — | — | In play | — |
+| 10-06 21:10 | ITF Women's Match | Anita Sahdiieva | ✘ | — | — | In play | — |
+| 10-06 21:09 | CONCACAF Nations League Game | Tie | ✔ | 48' · TCA 0 - MSR 2 | — | In play | — |
+| 10-06 21:06 | TT Star Series Match | Gavlas Antonín | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 21:02 | ITF Men's Match | Darwin Andres Macias Elizalde | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:58 | R6 Game | Twisted Minds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:51 | ITF Women's Match | Chloe Noel | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | — | In play | — |
 | 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
@@ -251,9 +254,6 @@
 | 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:06 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:04 | Counter-Strike 2 Game | aimers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
