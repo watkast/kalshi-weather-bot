@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.73/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4525 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4032 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4035 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 288 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
-| Challenger ATP  | ✘ | 234 | 1 | 8% | 2% | -60% | -87% | 5 min |
+| Challenger ATP  | ✘ | 235 | 1 | 8% | 2% | -60% | -87% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -107,7 +107,7 @@
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 51 | 0 | 16% | 6% | -100% | -73% | 18 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
-| Dota 2 Game | ✘ | 47 | 0 | 2% | 2% | -100% | -96% | 28 min |
+| Dota 2 Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | International Friendly Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 17 min |
@@ -120,7 +120,7 @@
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| ATP Tennis Match | ✘ | 25 | 0 | 12% | 4% | -100% | -79% | 3 min |
+| ATP Tennis Match | ✘ | 26 | 0 | 12% | 4% | -100% | -80% | 3 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
@@ -224,10 +224,10 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | — | In play | — |
-| 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | — | In play | — |
-| 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | — | In play | — |
+| 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
-| 10-06 06:52 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
+| 10-06 06:52 | Dota 2 Game | Yangon Galacticos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:28 | ITF Men's Match | Jake Dembo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
