@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 9:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 9:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 487 finished bets | 0% | -$45.05 | -62% | -9.25¢ | -$22.45 / -$22.60 |
 
-*Expect about **56 buys a day**, roughly **$8.39/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.45/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4638 | 487 | 2 (0%) | 1.1% | -$45.05 (-62%) | Hold to the end: -$45.05 (-62%) |
+| 4643 | 487 | 2 (0%) | 1.1% | -$45.05 (-62%) | Hold to the end: -$45.05 (-62%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 487 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4148 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4149 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 328 | 0 | 10% | 5% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 298 | 1 | 10% | 6% | -69% | -83% | 5 min |
+| ITF Men's Match | ✘ | 299 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 290 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 241 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 132 | 1 | 3% | 3% | -29% | -95% | 4 min |
@@ -223,7 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 15:42 | ITF Men's Match | OLUWASEUN PETER OGUNSAKIN | ✘ | — | — | In play | — |
+| 10-06 15:56 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | — | In play | — |
+| 10-06 15:54 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · FRO 2 - KAZ 2 | — | In play | — |
+| 10-06 15:54 | UEFA Nations League Game | Kazakhstan | ✔ | 90'+4' · FRO 2 - KAZ 2 | — | In play | — |
+| 10-06 15:51 | International Friendly Game | Tie | ✔ | 53' · URU 2 - IND 1 | — | In play | — |
+| 10-06 15:50 | International Friendly Game | India | ✔ | 52' · URU 2 - IND 1 | — | In play | — |
+| 10-06 15:42 | ITF Men's Match | OLUWASEUN PETER OGUNSAKIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:29 | ITF Women's Match | Marie Villet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:28 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:37 | ATP Tennis Match | Alex de Minaur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,11 +253,6 @@
 | 10-06 12:05 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:05 | Counter-Strike 2 Game | THE UNIT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:59 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:59 | ITF Women's Match | Diana-Ioana Simionescu | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-06 11:58 | ITF Women's Match | Tereza Tsybulska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:57 | ITF Men's Match | Mihail Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:55 | KBO Game | Kiwoom Heroes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:50 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
