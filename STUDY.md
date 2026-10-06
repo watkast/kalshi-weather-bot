@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.56/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4753 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4756 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 496 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4215 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4216 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -131,9 +131,9 @@
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
+| EuroCup Basketball Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| EuroCup Basketball Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -223,9 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 20:30 | UEFA Nations League Game | Croatia | ✔ | 88' · ESP 1 - CRO 1 | — | In play | — |
+| 10-06 20:30 | UEFA Nations League Game | Finland | ✔ | 88' · FIN 0 - BLR 1 | — | In play | — |
+| 10-06 20:28 | UEFA Nations League Game | Tie | ✔ | 86' · BUL 2 - LUX 0 | — | In play | — |
 | 10-06 20:19 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
 | 10-06 20:15 | UEFA Nations League Game | Tie | ✔ | 73' · MKD 0 - SUI 1 | — | In play | — |
-| 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | — | In play | — |
+| 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | — | In play | — |
 | 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
 | 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | — | In play | — |
@@ -250,9 +253,6 @@
 | 10-06 19:52 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
 | 10-06 19:52 | EFL Trophy Game | Rochdale | ✘ | — | — | In play | — |
 | 10-06 19:52 | EFL Trophy Game | Exeter | ✘ | — | — | In play | — |
-| 10-06 19:52 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
-| 10-06 19:52 | EFL Trophy Game | Oxford United | ✘ | — | — | In play | — |
-| 10-06 19:52 | EFL Trophy Game | Barnet | ✘ | — | — | In play | — |
 
 ## Raw data
 
