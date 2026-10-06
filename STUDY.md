@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **57 buys a day**, roughly **$8.50/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4708 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4712 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 496 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4200 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4206 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,9 +95,9 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 336 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 296 | 1 | 4% | 3% | -68% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 299 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 247 | 1 | 9% | 2% | -62% | -85% | 5 min |
-| TT Star Series Match | ✘ | 138 | 1 | 3% | 3% | -32% | -95% | 4 min |
+| TT Star Series Match | ✘ | 139 | 1 | 3% | 3% | -33% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -136,11 +136,11 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| EuroCup Basketball Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
-| EuroCup Basketball Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
@@ -223,13 +223,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 19:39 | Counter-Strike 2 Game | Legacy | ✘ | — | — | In play | — |
+| 10-06 19:38 | AFCON Game Winner | Malawi | ✘ | — | — | In play | — |
+| 10-06 19:36 | Counter-Strike 2 Game | PENSIONERS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 19:34 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:30 | UEFA Nations League Game | Moldova | ✔ | 45' · SVK 1 - MDA 0 | — | In play | — |
 | 10-06 19:29 | UEFA Nations League Game | North Macedonia | ✔ | 43' · MKD 0 - SUI 1 | — | In play | — |
-| 10-06 19:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | — | In play | — |
+| 10-06 19:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:29 | UEFA Nations League Game | Tie | ✔ | 43' · CZE 0 - ENG 2 | — | In play | — |
-| 10-06 19:27 | TT Star Series Match | Turrini Rafael | ✘ | — | — | In play | — |
-| 10-06 19:26 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
-| 10-06 19:22 | Counter-Strike 2 Game | PARTIZAN | ✘ | — | — | In play | — |
+| 10-06 19:27 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 19:26 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 19:22 | Counter-Strike 2 Game | PARTIZAN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:16 | Counter-Strike 2 Game | GamersLab Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:16 | EuroCup Basketball Game | BC Siauliai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:12 | Counter-Strike 2 Game | Inner Circle Prospect | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,10 +253,6 @@
 | 10-06 18:31 | EuroCup Basketball Game | KK Buducnost Voli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 18:31 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:24 | League of Legends Game | Bushido Wildcats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:19 | EuroCup Basketball Game | Maxima Roma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:13 | ITF Women's Match | Isabella Marton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:10 | ITF Women's Match | Jensen Diianni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
