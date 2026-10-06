@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 489 finished bets | 0% | -$45.35 | -62% | -9.27¢ | -$22.60 / -$22.75 |
+| ESPN-verified leagues only, hold to the end | 491 finished bets | 0% | -$45.65 | -62% | -9.30¢ | -$22.75 / -$22.90 |
 
 *Expect about **56 buys a day**, roughly **$8.43/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 489 | -$53.10 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 489 | -$56.45 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 489 | -$57.75 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 491 | -$53.40 | -73% |
+| ESPN-verified leagues only, sell at 2¢ | 491 | -$56.75 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 491 | -$58.05 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4652 | 489 | 2 (0%) | 1.1% | -$45.35 (-62%) | Hold to the end: -$45.35 (-62%) |
+| 4652 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 489 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4155 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4157 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$45.35 | -62% |
-| Sell at 2¢ | 65 | 13% | -$56.45 | -77% |
-| Sell at 3¢ | 39 | 8% | -$58.14 | -79% |
-| Sell at 5¢ | 24 | 5% | -$57.75 | -79% |
-| Sell at 10¢ | 11 | 2% | -$58.94 | -80% |
-| Sell at 25¢ | 4 | 1% | -$60.11 | -82% |
-| Sell at 50¢ | 3 | 1% | -$53.10 | -72% |
+| Hold to the end | 2 | 0% | -$45.65 | -62% |
+| Sell at 2¢ | 65 | 13% | -$56.75 | -77% |
+| Sell at 3¢ | 39 | 8% | -$58.44 | -79% |
+| Sell at 5¢ | 24 | 5% | -$58.05 | -79% |
+| Sell at 10¢ | 11 | 2% | -$59.24 | -80% |
+| Sell at 25¢ | 4 | 1% | -$60.41 | -82% |
+| Sell at 50¢ | 3 | 1% | -$53.40 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -95,8 +95,8 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 330 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 300 | 1 | 10% | 6% | -69% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 290 | 1 | 4% | 3% | -68% | -93% | 9 min |
-| Challenger ATP  | ✘ | 241 | 1 | 8% | 2% | -61% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 291 | 1 | 4% | 3% | -68% | -93% | 9 min |
+| Challenger ATP  | ✘ | 242 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 133 | 1 | 3% | 3% | -30% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 98 | 0 | 6% | 2% | -100% | -89% | 11 min |
@@ -108,8 +108,8 @@
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Dota 2 Game | ✘ | 51 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
+| International Friendly Game | partly | 48 | 0 | 10% | 2% | -100% | -82% | 17 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
-| International Friendly Game | partly | 46 | 0 | 11% | 2% | -100% | -81% | 17 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | NHL Game | ✔ | 43 | 0 | 14% | 5% | -100% | -76% | 4 min |
 | R6 Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -204,7 +204,7 @@
 | Under 5 min | 193 | 7% | 1% | 0% | -87% |
 | 5–15 min | 94 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
-| 30–60 min | 62 | 11% | 5% | 0% | -80% |
+| 30–60 min | 64 | 11% | 5% | 0% | -81% |
 | Over 60 min | 56 | 16% | 11% | 0% | -72% |
 
 ## Speed & liquidity
@@ -224,9 +224,9 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-06 16:28 | Challenger ATP  | Franco Roncadelli | ✘ | — | — | In play | — |
-| 10-06 16:26 | Challenger ATP  | Alex Barrena | ✘ | — | — | In play | — |
+| 10-06 16:26 | Challenger ATP  | Alex Barrena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:21 | Men's T20 Cricket Match | West Indies | ✘ | — | — | In play | — |
-| 10-06 16:18 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | — | In play | — |
+| 10-06 16:18 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:12 | ITF Women's Match | Hanna Bougouffa | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-06 16:07 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:05 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -235,8 +235,8 @@
 | 10-06 15:56 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:54 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · FRO 2 - KAZ 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:54 | UEFA Nations League Game | Kazakhstan | ✔ | 90'+4' · FRO 2 - KAZ 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 15:51 | International Friendly Game | Tie | ✔ | 53' · URU 2 - IND 1 | — | In play | — |
-| 10-06 15:50 | International Friendly Game | India | ✔ | 52' · URU 2 - IND 1 | — | In play | — |
+| 10-06 15:51 | International Friendly Game | Tie | ✔ | 53' · URU 2 - IND 1 | 1¢ | ❌ Lost | -$0.15 |
+| 10-06 15:50 | International Friendly Game | India | ✔ | 52' · URU 2 - IND 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:42 | ITF Men's Match | OLUWASEUN PETER OGUNSAKIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:29 | ITF Women's Match | Marie Villet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:28 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
