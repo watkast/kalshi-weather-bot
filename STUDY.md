@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 4:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 4:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4563 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4565 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4071 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4073 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 299 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 300 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 282 | 1 | 9% | 5% | -67% | -84% | 4 min |
 | Challenger ATP  | ✘ | 239 | 1 | 8% | 2% | -61% | -86% | 5 min |
@@ -103,7 +103,7 @@
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 96 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 68 | 0 | 1% | 1% | -100% | -97% | 9 min |
+| Darts Match | ✘ | 69 | 0 | 1% | 1% | -100% | -97% | 9 min |
 | Men's T20 Cricket Match | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 19 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 49 | 0 | 18% | 10% | -100% | -68% | 9 min |
@@ -223,10 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 10:24 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-06 10:18 | ITF Men's Match | Rodion Chetverikov | ✘ | — | — | In play | — |
 | 10-06 10:12 | ITF Men's Match | Mustafa Ege Sik | ✘ | — | — | In play | — |
-| 10-06 10:11 | ITF Women's Match | COSTANZA MUSETTI | ✘ | — | — | In play | — |
+| 10-06 10:11 | ITF Women's Match | COSTANZA MUSETTI | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:06 | Challenger ATP  | Pedro Vives Marcos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:04 | Darts Match | Conor Heneghan | ✘ | — | — | In play | — |
+| 10-06 10:04 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:04 | ITF Men's Match | Alec Braund | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:04 | ITF Women's Match | Parneet Kaur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:56 | ITF Men's Match | Adrian Arcon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 08:28 | TT Star Series Match | Goldír Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:27 | ITF Men's Match | Stefan Storch | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 08:23 | Challenger ATP  | Yuta Kikuchi | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-06 08:09 | Challenger ATP  | Enzo Aguiard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 08:03 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
