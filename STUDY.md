@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 7:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 7:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 467 finished bets | 0% | -$42.05 | -60% | -9.00¢ | -$20.95 / -$21.10 |
 
-*Expect about **58 buys a day**, roughly **$8.73/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4490 | 467 | 2 (0%) | 1.1% | -$42.05 (-60%) | Hold to the end: -$42.05 (-60%) |
+| 4493 | 467 | 2 (0%) | 1.1% | -$42.05 (-60%) | Hold to the end: -$42.05 (-60%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 01:44 | NHL Game | Philadelphia | ✔ | 4:02 - 3rd · PHI 1 - TB 2 | — | In play | — |
+| 10-06 01:40 | CONCACAF Nations League Game | Tie | ✔ | 82' · BOE 3 - GRN 1 | — | In play | — |
+| 10-06 01:40 | CONCACAF Nations League Game | Bermuda | ✔ | 84' · BRB 1 - BER 1 | — | In play | — |
 | 10-06 01:35 | CONCACAF Nations League Game | Grenada | ✔ | 77' · BOE 3 - GRN 1 | — | In play | — |
 | 10-06 01:29 | NBA Game | Atlanta | ✔ | 57.2 - 4th · MEM 128 - ATL 121 | — | In play | — |
 | 10-06 01:29 | NHL Game | San Jose | ✔ | 3:30 - 2nd · SJ 0 - DAL 4 | — | In play | — |
@@ -250,9 +253,6 @@
 | 10-05 21:02 | ITF Men's Match | Jose Luis Claro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:57 | Challenger ATP  | Valerio Aboian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:55 | CONCACAF Nations League Game | Tie | ✔ | 90'+4' · LCA 1 - GDL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:54 | ITF Women's Match | Diana Maria Ilie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:44 | CONCACAF Nations League Game | Guadeloupe | ✔ | 83' · LCA 1 - GDL 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 20:41 | UEFA Nations League Game | Tie | ✔ | 90'+4' · POL 0 - BIH 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
