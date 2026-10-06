@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 5:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 5:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **57 buys a day**, roughly **$8.54/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4604 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4610 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4110 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4115 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 313 | 0 | 10% | 5% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 295 | 1 | 10% | 6% | -68% | -83% | 5 min |
+| ITF Women's Match | ✘ | 316 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 296 | 1 | 10% | 6% | -68% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 288 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 240 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
@@ -124,10 +124,10 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
+| Japan NPB Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
-| Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
@@ -223,13 +223,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 11:44 | ITF Women's Match | Isabel Skoog | ✘ | — | — | In play | — |
+| 10-06 11:55 | KBO Game | Kiwoom Heroes | ✘ | — | — | In play | — |
+| 10-06 11:50 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:49 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
+| 10-06 11:48 | ITF Women's Match | Aleksija Neskovic | ✘ | — | — | In play | — |
+| 10-06 11:46 | ITF Women's Match | Nauhany Vitoria Leme Da Silva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:46 | ITF Men's Match | Ryuichiro Nakano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 11:44 | ITF Women's Match | Isabel Skoog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:41 | ITF Women's Match | Sabastiani Leon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:39 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
 | 10-06 11:38 | ITF Women's Match | Lia Belibova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:36 | TT Star Series Match | Thamer Ameer | ✘ | — | — | In play | — |
 | 10-06 11:28 | ITF Men's Match | Rafael De Alba | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 11:27 | ITF Women's Match | Noa Krznaric Uygungul | ✘ | — | — | In play | — |
+| 10-06 11:27 | ITF Women's Match | Noa Krznaric Uygungul | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 11:26 | ITF Men's Match | Antoni Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:25 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:21 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
@@ -247,12 +253,6 @@
 | 10-06 10:58 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:58 | ITF Women's Match | Summer Yardley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 10:57 | ITF Women's Match | Federica Bilardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:56 | Men's ODI Cricket Match | Colombo Aces | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:55 | ITF Men's Match | Courtney John Lock | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:49 | ITF Women's Match | Sara Victoria Balan | ✘ | — | 76¢ | ❌ Lost | -$0.15 |
-| 10-06 10:48 | ITF Men's Match | Chetanna Amadike | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-06 10:47 | ITF Women's Match | Ushna Suhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 10:44 | ATP Tennis Match | Jiri Lehecka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
