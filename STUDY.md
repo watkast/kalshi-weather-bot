@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4525 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4527 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4035 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4037 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 288 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 289 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
 | Challenger ATP  | ✘ | 235 | 1 | 8% | 2% | -60% | -87% | 5 min |
@@ -180,11 +180,11 @@
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Men's ODI Cricket Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Men's ODI Cricket Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
@@ -223,7 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | — | In play | — |
+| 10-06 07:19 | ITF Women's Match | Jiarui Sun | ✘ | — | — | In play | — |
+| 10-06 07:14 | ITF Women's Match | aoyi li | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
@@ -251,8 +253,6 @@
 | 10-06 02:07 | ITF Women's Match | Catherine Aulia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:00 | CONCACAF Nations League Game | Tie | ✔ | 90'+12' · SUR 0 - GUA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:56 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 01:53 | CONCACAF Nations League Game | Suriname | ✔ | 90'+6' · SUR 0 - GUA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 01:51 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · BRB 2 - BER 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
