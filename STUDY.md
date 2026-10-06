@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4550 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4551 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4056 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4062 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,21 +93,21 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 293 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 294 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Men's Match | ✘ | 279 | 1 | 9% | 5% | -67% | -84% | 4 min |
-| Challenger ATP  | ✘ | 237 | 1 | 8% | 2% | -61% | -86% | 5 min |
+| ITF Men's Match | ✘ | 280 | 1 | 9% | 5% | -67% | -84% | 4 min |
+| Challenger ATP  | ✘ | 238 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 130 | 1 | 2% | 2% | -28% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 96 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 66 | 0 | 2% | 2% | -100% | -97% | 9 min |
+| Darts Match | ✘ | 67 | 0 | 1% | 1% | -100% | -97% | 9 min |
 | Men's T20 Cricket Match | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 19 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 49 | 0 | 18% | 10% | -100% | -68% | 9 min |
-| Dota 2 Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 28 min |
+| Dota 2 Game | ✘ | 49 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | International Friendly Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 17 min |
@@ -117,10 +117,10 @@
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | KBO Game | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 7 min |
+| ATP Tennis Match | ✘ | 27 | 0 | 11% | 4% | -100% | -81% | 3 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| ATP Tennis Match | ✘ | 26 | 0 | 12% | 4% | -100% | -80% | 3 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
@@ -223,13 +223,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 09:33 | ITF Men's Match | Filippo Alfano | ✘ | — | — | In play | — |
-| 10-06 09:31 | Challenger ATP  | Samuele Pieri | ✘ | — | — | In play | — |
+| 10-06 09:34 | ATP Tennis Match | Dane Sweeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:33 | ITF Men's Match | Filippo Alfano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:31 | Challenger ATP  | Samuele Pieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:29 | ITF Men's Match | Louis Herman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 09:29 | ITF Women's Match | Anna Lena Ebster | ✘ | — | — | In play | — |
-| 10-06 09:23 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-06 09:29 | ITF Women's Match | Anna Lena Ebster | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-06 09:23 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:18 | League of Legends Game | Natus Vincere | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 09:08 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
+| 10-06 09:08 | Dota 2 Game | Direborn | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:07 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
 | 10-06 08:58 | ITF Women's Match | Valeria Monko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 08:55 | Darts Match | Niek Tuik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 06:52 | Dota 2 Game | Yangon Galacticos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
