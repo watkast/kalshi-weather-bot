@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.63/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.62/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4551 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4556 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4062 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4066 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 294 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 298 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 280 | 1 | 9% | 5% | -67% | -84% | 4 min |
 | Challenger ATP  | ✘ | 238 | 1 | 8% | 2% | -61% | -86% | 5 min |
@@ -223,6 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 09:51 | ITF Women's Match | Kei Yau Cheung | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:51 | ITF Women's Match | Serife Pelin Sari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:51 | ITF Women's Match | Nissa Finnigan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:51 | ITF Women's Match | Warona Mdlulwa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 09:43 | Darts Match | Steve Lennon | ✘ | — | — | In play | — |
 | 10-06 09:34 | ATP Tennis Match | Dane Sweeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:33 | ITF Men's Match | Filippo Alfano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 09:31 | Challenger ATP  | Samuele Pieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,11 +253,6 @@
 | 10-06 07:36 | ITF Women's Match | Mariya Zharkikh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:31 | ITF Women's Match | Meiling Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:19 | ITF Women's Match | Jiarui Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 07:14 | ITF Women's Match | aoyi li | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
