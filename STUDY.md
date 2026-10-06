@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4658 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4162 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4163 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 332 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 333 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 300 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 291 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 243 | 1 | 8% | 2% | -62% | -86% | 5 min |
@@ -223,7 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | — | In play | — |
+| 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:56 | Dota 2 Game | Yellow Submarine | ✘ | — | — | In play | — |
 | 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | — | In play | — |
 | 10-06 16:42 | ITF Women's Match | Rebecca Munk Mortensen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
