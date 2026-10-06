@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 5:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 5:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 516 finished bets | 1% | -$35.40 | -46% | -6.86¢ | -$24.70 / -$10.70 |
 
-*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.60/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4783 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
+| 4785 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4264 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4265 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -100,7 +100,7 @@
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 104 | 2 | 19% | 8% | +79% | -67% | 20 min |
-| League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
+| League of Legends Game | ✘ | 103 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
@@ -224,7 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 23:22 | League of Legends Game | Fuego | ✘ | — | — | In play | — |
+| 10-06 23:33 | International Friendly Game | Benin | ✔ | 2' · BEN 0 - ARG 0 | — | In play | — |
+| 10-06 23:31 | International Friendly Game | Tie | ✔ | 1' · BEN 0 - ARG 0 | — | In play | — |
+| 10-06 23:22 | League of Legends Game | Fuego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:14 | Women's College Volleyball Match | Davidson | ✘ | — | — | In play | — |
 | 10-06 22:23 | Challenger ATP  | Nicolas Villalon Valdes | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 10-06 21:46 | CONCACAF Nations League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-06 20:34 | UEFA Nations League Game | Tie | ✔ | 90'+1' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:33 | UEFA Nations League Game | Scotland | ✔ | 89' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:30 | UEFA Nations League Game | Croatia | ✔ | 88' · ESP 1 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:30 | UEFA Nations League Game | Finland | ✔ | 88' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:28 | UEFA Nations League Game | Tie | ✔ | 86' · BUL 2 - LUX 0 | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
