@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4533 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4535 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4042 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4044 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
 | Challenger ATP  | ✘ | 235 | 1 | 8% | 2% | -60% | -87% | 5 min |
-| TT Star Series Match | ✘ | 128 | 1 | 2% | 2% | -27% | -96% | 4 min |
+| TT Star Series Match | ✘ | 129 | 1 | 2% | 2% | -28% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -106,7 +106,7 @@
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 52 | 0 | 15% | 6% | -100% | -73% | 19 min |
-| Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
+| Challenger WTA | ✘ | 49 | 0 | 18% | 10% | -100% | -68% | 9 min |
 | Dota 2 Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -223,8 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 08:09 | Challenger ATP  | Enzo Aguiard | ✘ | — | — | In play | — |
+| 10-06 08:03 | TT Star Series Match | Thamer Ameer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:56 | Men's T20 Cricket Match | Bhutan | ✘ | — | — | In play | — |
-| 10-06 07:55 | Challenger WTA | Yushan Shao | ✘ | — | — | In play | — |
+| 10-06 07:55 | Challenger WTA | Yushan Shao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:47 | ITF Men's Match | Zhao Zhao | ✘ | — | — | In play | — |
 | 10-06 07:40 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:36 | ITF Women's Match | Mariya Zharkikh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 03:12 | Professional Baseball Game | New York Y | ✔ | Top 9th · NYY 2 - TB 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:04 | Men's T20 Cricket Match | Thailand | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
