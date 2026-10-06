@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4530 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4531 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4040 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4042 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 290 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 292 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
 | Challenger ATP  | ✘ | 235 | 1 | 8% | 2% | -60% | -87% | 5 min |
@@ -223,9 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 07:47 | ITF Men's Match | Zhao Zhao | ✘ | — | — | In play | — |
 | 10-06 07:40 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 07:36 | ITF Women's Match | Mariya Zharkikh | ✘ | — | — | In play | — |
-| 10-06 07:31 | ITF Women's Match | Meiling Wang | ✘ | — | — | In play | — |
+| 10-06 07:36 | ITF Women's Match | Mariya Zharkikh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 07:31 | ITF Women's Match | Meiling Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:19 | ITF Women's Match | Jiarui Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:14 | ITF Women's Match | aoyi li | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:23 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · WPG 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:11 | Argentina Primera Division Game | Banfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 02:11 | Argentina Primera Division Game | Rosario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
