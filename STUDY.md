@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 8:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 8:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 477 finished bets | 0% | -$43.55 | -61% | -9.13¢ | -$21.70 / -$21.85 |
+| ESPN-verified leagues only, hold to the end | 479 finished bets | 0% | -$43.85 | -61% | -9.15¢ | -$21.85 / -$22.00 |
 
-*Expect about **59 buys a day**, roughly **$8.82/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.84/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 477 | -$51.30 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 477 | -$54.91 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 477 | -$55.95 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 479 | -$51.60 | -72% |
+| ESPN-verified leagues only, sell at 2¢ | 479 | -$54.95 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 479 | -$56.25 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4502 | 477 | 2 (0%) | 1.1% | -$43.55 (-61%) | Hold to the end: -$43.55 (-61%) |
+| 4503 | 479 | 2 (0%) | 1.1% | -$43.85 (-61%) | Hold to the end: -$43.85 (-61%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 477 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Verified | 479 | 14% | 8% | 5% | 2% | 1% | 1% |
 | Unverified | 4021 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$43.55 | -61% |
-| Sell at 2¢ | 64 | 13% | -$54.91 | -77% |
-| Sell at 3¢ | 39 | 8% | -$56.34 | -79% |
-| Sell at 5¢ | 24 | 5% | -$55.95 | -78% |
-| Sell at 10¢ | 11 | 2% | -$57.14 | -80% |
-| Sell at 25¢ | 4 | 1% | -$58.31 | -81% |
-| Sell at 50¢ | 3 | 1% | -$51.30 | -72% |
+| Hold to the end | 2 | 0% | -$43.85 | -61% |
+| Sell at 2¢ | 65 | 14% | -$54.95 | -76% |
+| Sell at 3¢ | 39 | 8% | -$56.64 | -79% |
+| Sell at 5¢ | 24 | 5% | -$56.25 | -78% |
+| Sell at 10¢ | 11 | 2% | -$57.44 | -80% |
+| Sell at 25¢ | 4 | 1% | -$58.61 | -82% |
+| Sell at 50¢ | 3 | 1% | -$51.60 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -111,7 +111,7 @@
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | International Friendly Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 17 min |
-| NHL Game | ✔ | 40 | 0 | 12% | 5% | -100% | -78% | 4 min |
+| NHL Game | ✔ | 42 | 0 | 14% | 5% | -100% | -75% | 4 min |
 | R6 Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -201,18 +201,18 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 187 | 7% | 1% | 0% | -87% |
+| Under 5 min | 188 | 7% | 1% | 0% | -87% |
 | 5–15 min | 93 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
 | 30–60 min | 58 | 12% | 5% | 0% | -79% |
-| Over 60 min | 55 | 15% | 11% | 0% | -75% |
+| Over 60 min | 56 | 16% | 11% | 0% | -72% |
 
 ## Speed & liquidity
 
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 43 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 5 min |
+| Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -223,6 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 02:23 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · WPG 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:11 | Argentina Primera Division Game | Banfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:11 | Argentina Primera Division Game | Rosario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:07 | ITF Women's Match | Catherine Aulia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -238,7 +239,7 @@
 | 10-06 01:35 | CONCACAF Nations League Game | Grenada | ✔ | 77' · BOE 3 - GRN 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:29 | NBA Game | Atlanta | ✔ | 57.2 - 4th · MEM 128 - ATL 121 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:29 | NHL Game | San Jose | ✔ | 3:30 - 2nd · SJ 0 - DAL 4 | — | In play | — |
-| 10-06 01:16 | NHL Game | Boston | ✔ | 4:24 - 2nd · OTT 4 - BOS 0 | — | In play | — |
+| 10-06 01:16 | NHL Game | Boston | ✔ | 4:24 - 2nd · OTT 4 - BOS 0 | 2¢ | ❌ Lost | -$0.15 |
 | 10-06 01:10 | NBA Game | New York | ✔ | 6:46 - 4th · NY 82 - PHI 101 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 00:49 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 00:16 | League of Legends Game | Zeu5 Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -252,7 +253,6 @@
 | 10-05 23:48 | Argentina Primera Division Game | Platense | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-05 23:46 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
