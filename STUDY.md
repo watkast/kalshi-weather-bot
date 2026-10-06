@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4743 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4746 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 496 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4210 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4215 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 337 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 338 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 301 | 1 | 4% | 3% | -69% | -94% | 9 min |
-| Challenger ATP  | ✘ | 247 | 1 | 9% | 2% | -62% | -85% | 5 min |
+| Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
+| Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
 | TT Star Series Match | ✘ | 140 | 1 | 3% | 3% | -33% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
@@ -105,9 +105,9 @@
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 56 | 0 | 16% | 7% | -100% | -72% | 19 min |
+| Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | International Friendly Game | partly | 53 | 1 | 13% | 6% | +76% | -77% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Dota 2 Game | ✘ | 52 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -133,10 +133,10 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| EuroCup Basketball Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| EuroCup Basketball Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -223,8 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | — | In play | — |
-| 10-06 19:59 | EuroCup Basketball Game | Aquila Basket Trento | ✘ | — | — | In play | — |
+| 10-06 20:06 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:04 | Counter-Strike 2 Game | aimers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | — | In play | — |
+| 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-06 19:59 | EuroCup Basketball Game | Aquila Basket Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:57 | EFL Trophy Game | Accrington | ✘ | — | — | In play | — |
 | 10-06 19:56 | EFL Trophy Game | Newport | ✘ | — | — | In play | — |
 | 10-06 19:56 | EFL Trophy Game | Plymouth | ✘ | — | — | In play | — |
@@ -248,11 +251,8 @@
 | 10-06 19:50 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:50 | EFL Trophy Game | Burton | ✘ | — | — | In play | — |
 | 10-06 19:50 | EFL Trophy Game | Grimsby | ✘ | — | — | In play | — |
-| 10-06 19:49 | Dota 2 Game | MOUZ | ✘ | — | — | In play | — |
+| 10-06 19:49 | Dota 2 Game | MOUZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:47 | EFL Trophy Game | Mansfield | ✘ | — | — | In play | — |
-| 10-06 19:47 | TT Star Series Match | Keinath Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:44 | EFL Trophy Game | Rotherham | ✘ | — | — | In play | — |
-| 10-06 19:42 | EFL Trophy Game | Shrewsbury | ✘ | — | — | In play | — |
 
 ## Raw data
 
