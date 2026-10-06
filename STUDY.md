@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4721 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4743 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 496 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4207 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4210 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 336 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 337 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 300 | 1 | 4% | 3% | -69% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 301 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 247 | 1 | 9% | 2% | -62% | -85% | 5 min |
-| TT Star Series Match | ✘ | 139 | 1 | 3% | 3% | -33% | -95% | 4 min |
+| TT Star Series Match | ✘ | 140 | 1 | 3% | 3% | -33% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,36 +223,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 19:50 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | — | In play | — |
+| 10-06 19:59 | EuroCup Basketball Game | Aquila Basket Trento | ✘ | — | — | In play | — |
+| 10-06 19:57 | EFL Trophy Game | Accrington | ✘ | — | — | In play | — |
+| 10-06 19:56 | EFL Trophy Game | Newport | ✘ | — | — | In play | — |
+| 10-06 19:56 | EFL Trophy Game | Plymouth | ✘ | — | — | In play | — |
+| 10-06 19:56 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:54 | EFL Trophy Game | Leicester | ✘ | — | — | In play | — |
+| 10-06 19:54 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:54 | EFL Trophy Game | Northampton | ✘ | — | — | In play | — |
+| 10-06 19:53 | EFL Trophy Game | Blackpool | ✘ | — | — | In play | — |
+| 10-06 19:53 | EFL Trophy Game | Crewe | ✘ | — | — | In play | — |
+| 10-06 19:53 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:53 | EFL Trophy Game | Barnsley | ✘ | — | — | In play | — |
+| 10-06 19:53 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Rochdale | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Exeter | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Oxford United | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Barnet | ✘ | — | — | In play | — |
+| 10-06 19:52 | EFL Trophy Game | Wimbledon | ✘ | — | — | In play | — |
+| 10-06 19:51 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 19:50 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:50 | EFL Trophy Game | Burton | ✘ | — | — | In play | — |
 | 10-06 19:50 | EFL Trophy Game | Grimsby | ✘ | — | — | In play | — |
 | 10-06 19:49 | Dota 2 Game | MOUZ | ✘ | — | — | In play | — |
 | 10-06 19:47 | EFL Trophy Game | Mansfield | ✘ | — | — | In play | — |
-| 10-06 19:47 | TT Star Series Match | Keinath Thomas | ✘ | — | — | In play | — |
+| 10-06 19:47 | TT Star Series Match | Keinath Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 19:44 | EFL Trophy Game | Rotherham | ✘ | — | — | In play | — |
 | 10-06 19:42 | EFL Trophy Game | Shrewsbury | ✘ | — | — | In play | — |
-| 10-06 19:42 | ITF Women's Match | Dalayna Hewitt | ✘ | — | — | In play | — |
-| 10-06 19:39 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:38 | AFCON Game Winner | Malawi | ✘ | — | — | In play | — |
-| 10-06 19:36 | Counter-Strike 2 Game | PENSIONERS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:34 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:30 | UEFA Nations League Game | Moldova | ✔ | 45' · SVK 1 - MDA 0 | — | In play | — |
-| 10-06 19:29 | UEFA Nations League Game | North Macedonia | ✔ | 43' · MKD 0 - SUI 1 | — | In play | — |
-| 10-06 19:29 | EuroCup Basketball Game | JL Bourg Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:29 | UEFA Nations League Game | Tie | ✔ | 43' · CZE 0 - ENG 2 | — | In play | — |
-| 10-06 19:27 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:26 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:22 | Counter-Strike 2 Game | PARTIZAN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:16 | Counter-Strike 2 Game | GamersLab Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:16 | EuroCup Basketball Game | BC Siauliai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:12 | Counter-Strike 2 Game | Inner Circle Prospect | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:12 | UEFA Nations League Game | Czechia | ✔ | 27' · CZE 0 - ENG 0 | — | In play | — |
-| 10-06 19:01 | EFL Trophy Game | Bristol Rovers | ✘ | — | — | In play | — |
-| 10-06 18:58 | League of Legends Game | Frites Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:58 | UEFA Nations League Game | Tie | ✔ | 12' · SMR 0 - ALB 1 | — | In play | — |
-| 10-06 18:53 | R6 Game | Shifters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:53 | KHL Game | SKA St. Petersburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:52 | International Friendly Game | Jordan | ✔ | 90'+2' · VEN 0 - JOR 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
