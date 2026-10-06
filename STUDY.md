@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 10:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 10:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 485 finished bets | 0% | -$44.75 | -62% | -9.23¢ | -$22.30 / -$22.45 |
 
-*Expect about **59 buys a day**, roughly **$8.85/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.86/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4516 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
+| 4518 | 485 | 2 (0%) | 1.1% | -$44.75 (-62%) | Hold to the end: -$44.75 (-62%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 485 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4027 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4028 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -126,9 +126,9 @@
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
+| WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
-| WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
@@ -223,11 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 04:15 | Challenger ATP  | Aoran Wang | ✘ | — | — | In play | — |
+| 10-06 04:14 | NBA Game | Sacramento | ✔ | 10:23 - 4th · LAL 102 - SAC 78 | — | In play | — |
 | 10-06 04:07 | ITF Women's Match | Sara Mickoska | ✘ | — | — | In play | — |
 | 10-06 03:57 | ITF Women's Match | Ai Maruyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:50 | CONCACAF Nations League Game | Honduras | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:49 | CONCACAF Nations League Game | Jamaica | ✔ | 90'+4' · JAM 1 - HON 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 03:45 | WTA Tennis Match | Daria Snigur | ✘ | — | — | In play | — |
+| 10-06 03:45 | WTA Tennis Match | Daria Snigur | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-06 03:40 | Challenger ATP  | Masamichi Imamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:35 | ITF Women's Match | Mana Kawamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 03:26 | Challenger ATP  | Max Purcell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 01:40 | CONCACAF Nations League Game | Bermuda | ✔ | 84' · BRB 1 - BER 1 | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 01:35 | CONCACAF Nations League Game | Grenada | ✔ | 77' · BOE 3 - GRN 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:29 | NBA Game | Atlanta | ✔ | 57.2 - 4th · MEM 128 - ATL 121 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 01:29 | NHL Game | San Jose | ✔ | 3:30 - 2nd · SJ 0 - DAL 4 | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 01:16 | NHL Game | Boston | ✔ | 4:24 - 2nd · OTT 4 - BOS 0 | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
