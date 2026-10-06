@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **56 buys a day**, roughly **$8.44/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4697 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4701 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 19:16 | Counter-Strike 2 Game | GamersLab Esports | ✘ | — | — | In play | — |
+| 10-06 19:16 | EuroCup Basketball Game | BC Siauliai | ✘ | — | — | In play | — |
+| 10-06 19:12 | Counter-Strike 2 Game | Inner Circle Prospect | ✘ | — | — | In play | — |
+| 10-06 19:12 | UEFA Nations League Game | Czechia | ✔ | 27' · CZE 0 - ENG 0 | — | In play | — |
 | 10-06 19:01 | EFL Trophy Game | Bristol Rovers | ✘ | — | — | In play | — |
 | 10-06 18:58 | League of Legends Game | Frites Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:58 | UEFA Nations League Game | Tie | ✔ | 12' · SMR 0 - ALB 1 | — | In play | — |
@@ -249,10 +253,6 @@
 | 10-06 17:58 | League of Legends Game | Berlin International Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 17:56 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 17:56 | League of Legends Game | Valerion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:48 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:48 | Challenger ATP  | Joao Eduardo Schiessl | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 17:36 | International Friendly Game | Tie | ✔ | 69' · NGA 1 - RUS 3 | 99¢ | ✅ Won | $13.85 |
-| 10-06 17:35 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
