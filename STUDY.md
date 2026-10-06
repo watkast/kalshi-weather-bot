@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 6:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 6:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
+| ESPN-verified leagues only, hold to the end | 467 finished bets | 0% | -$42.05 | -60% | -9.00¢ | -$20.95 / -$21.10 |
 
-*Expect about **58 buys a day**, roughly **$8.68/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 464 | -$49.35 | -71% |
-| ESPN-verified leagues only, sell at 2¢ | 464 | -$53.22 | -76% |
-| ESPN-verified leagues only, sell at 5¢ | 464 | -$54.00 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 467 | -$49.80 | -71% |
+| ESPN-verified leagues only, sell at 2¢ | 467 | -$53.41 | -76% |
+| ESPN-verified leagues only, sell at 5¢ | 467 | -$54.45 | -78% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4481 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
+| 4483 | 467 | 2 (0%) | 1.1% | -$42.05 (-60%) | Hold to the end: -$42.05 (-60%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 91 | 2.7% | 0.0% (0) | -225% | ❌ Worse |
+| ESPN win probability | 92 | 2.7% | 0.0% (0) | -225% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,8 +54,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 91 | 0 | -100% | -71% | -71% | -76% |
-| ESPN win probability ≥ 2% | 17 | 0 | -100% | -59% | -54% | -100% |
+| **Any 1¢ (no model)** | 92 | 0 | -100% | -72% | -72% | -76% |
+| ESPN win probability ≥ 2% | 18 | 0 | -100% | -61% | -57% | -100% |
 | ESPN win probability ≥ 5% | 7 | 0 | -100% | -75% | -63% | -100% |
 | ESPN win probability ≥ 10% | 4 | 0 | -100% | -57% | -35% | -100% |
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4009 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 467 | 14% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4013 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$41.60 | -60% |
-| Sell at 2¢ | 63 | 14% | -$53.22 | -76% |
-| Sell at 3¢ | 38 | 8% | -$54.78 | -79% |
-| Sell at 5¢ | 24 | 5% | -$54.00 | -78% |
-| Sell at 10¢ | 11 | 2% | -$55.19 | -79% |
-| Sell at 25¢ | 4 | 1% | -$56.36 | -81% |
-| Sell at 50¢ | 3 | 1% | -$49.35 | -71% |
+| Hold to the end | 2 | 0% | -$42.05 | -60% |
+| Sell at 2¢ | 64 | 14% | -$53.41 | -76% |
+| Sell at 3¢ | 39 | 8% | -$54.84 | -78% |
+| Sell at 5¢ | 24 | 5% | -$54.45 | -78% |
+| Sell at 10¢ | 11 | 2% | -$55.64 | -79% |
+| Sell at 25¢ | 4 | 1% | -$56.81 | -81% |
+| Sell at 50¢ | 3 | 1% | -$49.80 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -101,8 +101,8 @@
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | League of Legends Game | ✘ | 94 | 0 | 6% | 2% | -100% | -89% | 12 min |
+| CONCACAF Nations League Game | partly | 90 | 2 | 21% | 9% | +107% | -63% | 20 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| CONCACAF Nations League Game | partly | 88 | 2 | 20% | 9% | +112% | -65% | 21 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Men's T20 Cricket Match | ✘ | 50 | 0 | 16% | 6% | -100% | -72% | 17 min |
@@ -125,6 +125,7 @@
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| Argentina Primera Division Game | ✘ | 21 | 0 | 24% | 14% | -100% | -59% | 12 min |
 | Uruguay Primera Division Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 12 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
@@ -132,7 +133,6 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| Argentina Primera Division Game | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 12 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Overwatch Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -154,16 +154,17 @@
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Finland Korisliiga Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Professional Baseball Game | partly | 10 | 0 | 20% | 10% | -100% | -65% | 4 min |
 | Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
-| Professional Baseball Game | partly | 9 | 0 | 22% | 11% | -100% | -61% | 5 min |
 | Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
 | Slovakia SBL Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
+| APF Division de Honor Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
@@ -172,7 +173,6 @@
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Major League Soccer Game | partly | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| APF Division de Honor Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Slovenia 1. SKL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 22 min |
 | Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
@@ -201,7 +201,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 180 | 7% | 1% | 0% | -87% |
+| Under 5 min | 183 | 8% | 1% | 0% | -87% |
 | 5–15 min | 89 | 13% | 4% | 1% | -77% |
 | 15–30 min | 81 | 28% | 11% | 1% | -51% |
 | 30–60 min | 58 | 12% | 5% | 0% | -79% |
@@ -212,7 +212,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 43 sec later |
-| Time from 1¢ to its best bounce (bounced bets) | 6 min |
+| Time from 1¢ to its best bounce (bounced bets) | 5 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
 ![Price paths](study/charts/paths.png)
@@ -223,12 +223,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
-| 10-05 23:58 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | — | In play | — |
-| 10-05 23:54 | CONCACAF Nations League Game | Martinique | ✔ | 90'+4' · SLV 1 - MTQ 1 | — | In play | — |
-| 10-05 23:52 | CONCACAF Nations League Game | El Salvador | ✔ | 90'+2' · SLV 1 - MTQ 1 | — | In play | — |
-| 10-05 23:52 | APF Division de Honor Game | Cerro Porteno | ✘ | — | — | In play | — |
-| 10-05 23:48 | Argentina Primera Division Game | Platense | ✘ | — | — | In play | — |
+| 10-06 00:14 | Uruguay Primera Division Game | Montevideo City | ✘ | — | — | In play | — |
+| 10-06 00:11 | Professional Baseball Game | Cleveland | ✔ | Bot 9th · CHW 4 - CLE 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 23:58 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-05 23:54 | CONCACAF Nations League Game | Martinique | ✔ | 90'+4' · SLV 1 - MTQ 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 23:52 | CONCACAF Nations League Game | El Salvador | ✔ | 90'+2' · SLV 1 - MTQ 1 | 4¢ | ❌ Lost | -$0.15 |
+| 10-05 23:52 | APF Division de Honor Game | Cerro Porteno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 23:48 | Argentina Primera Division Game | Platense | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-05 23:46 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 20:37 | UEFA Nations League Game | Armenia | ✔ | 90'+6' · ARM 0 - MNE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:37 | UEFA Nations League Game | Montenegro | ✔ | 90'+6' · ARM 0 - MNE 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+3' · HUN 2 - UKR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:32 | LaLiga 2 Game | Tie | ✔ | 90'+5' · TEN 2 - COR 3 | 2¢ | ❌ Lost | -$0.15 |
-| 10-05 20:32 | UEFA Nations League Game | Poland | ✔ | 88' · POL 0 - BIH 1 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
