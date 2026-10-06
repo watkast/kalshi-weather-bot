@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 491 finished bets | 0% | -$45.65 | -62% | -9.30¢ | -$22.75 / -$22.90 |
 
-*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4658 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
+| 4660 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4163 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4164 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 333 | 0 | 11% | 5% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 300 | 1 | 10% | 6% | -69% | -83% | 5 min |
+| ITF Men's Match | ✘ | 301 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 291 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 243 | 1 | 8% | 2% | -62% | -86% | 5 min |
 | TT Star Series Match | ✘ | 134 | 1 | 3% | 3% | -30% | -95% | 4 min |
@@ -223,9 +223,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 17:12 | Finland Korisliiga Game | Helsinki Seagulls | ✘ | — | — | In play | — |
+| 10-06 17:11 | Counter-Strike 2 Game | Butterfly | ✘ | — | — | In play | — |
 | 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:56 | Dota 2 Game | Yellow Submarine | ✘ | — | — | In play | — |
-| 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | — | In play | — |
+| 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:42 | ITF Women's Match | Rebecca Munk Mortensen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:39 | ITF Women's Match | Francoise Abanda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:38 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 12:34 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:32 | ITF Women's Match | Teodora Naidenova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-06 12:31 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:28 | ITF Women's Match | Anna Cabassers Morros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:28 | ITF Women's Match | Lucie Petruzelova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
