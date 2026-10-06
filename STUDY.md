@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 12:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 12:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4683 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
+| 4686 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 494 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4183 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4185 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | ITF Men's Match | ✘ | 302 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 293 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 246 | 1 | 8% | 2% | -62% | -86% | 5 min |
-| TT Star Series Match | ✘ | 136 | 1 | 3% | 3% | -31% | -95% | 4 min |
+| TT Star Series Match | ✘ | 137 | 1 | 3% | 3% | -32% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 100 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -149,7 +149,7 @@
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
-| EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| EuroCup Basketball Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Professional Baseball Game | partly | 11 | 0 | 18% | 9% | -100% | -68% | 4 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -223,9 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | — | In play | — |
+| 10-06 18:36 | Challenger ATP  | Bernardo Munk Mesa | ✘ | — | — | In play | — |
+| 10-06 18:31 | EuroCup Basketball Game | KK Buducnost Voli | ✘ | — | — | In play | — |
+| 10-06 18:31 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | — | In play | — |
+| 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:24 | League of Legends Game | Bushido Wildcats | ✘ | — | — | In play | — |
-| 10-06 18:19 | EuroCup Basketball Game | Maxima Roma | ✘ | — | — | In play | — |
+| 10-06 18:19 | EuroCup Basketball Game | Maxima Roma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:13 | ITF Women's Match | Isabella Marton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:10 | ITF Women's Match | Jensen Diianni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:04 | Challenger ATP  | Juan Pablo Varillas | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-06 17:11 | Counter-Strike 2 Game | Butterfly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:56 | Dota 2 Game | Yellow Submarine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:42 | ITF Women's Match | Rebecca Munk Mortensen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:39 | ITF Women's Match | Francoise Abanda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
