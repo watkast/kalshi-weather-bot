@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4671 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
+| 4674 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4175 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4176 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | ITF Men's Match | ✘ | 302 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 293 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 244 | 1 | 8% | 2% | -62% | -87% | 5 min |
-| TT Star Series Match | ✘ | 135 | 1 | 3% | 3% | -31% | -95% | 4 min |
+| TT Star Series Match | ✘ | 136 | 1 | 3% | 3% | -31% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 98 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,7 +223,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 17:48 | TT Star Series Match | Lorenzo Santiago | ✘ | — | — | In play | — |
+| 10-06 17:58 | League of Legends Game | Berlin International Gaming | ✘ | — | — | In play | — |
+| 10-06 17:56 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
+| 10-06 17:56 | League of Legends Game | Valerion | ✘ | — | — | In play | — |
+| 10-06 17:48 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 17:48 | Challenger ATP  | Joao Eduardo Schiessl | ✘ | — | — | In play | — |
 | 10-06 17:36 | International Friendly Game | Tie | ✔ | 69' · NGA 1 - RUS 3 | — | In play | — |
 | 10-06 17:35 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-06 16:07 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:05 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:05 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:02 | ITF Women's Match | Esther Lopez Alcaraz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 15:56 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 15:54 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · FRO 2 - KAZ 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
