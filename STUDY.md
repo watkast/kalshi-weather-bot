@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 8:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 8:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 477 finished bets | 0% | -$43.55 | -61% | -9.13¢ | -$21.70 / -$21.85 |
 
-*Expect about **59 buys a day**, roughly **$8.83/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.82/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4499 | 477 | 2 (0%) | 1.1% | -$43.55 (-61%) | Hold to the end: -$43.55 (-61%) |
+| 4502 | 477 | 2 (0%) | 1.1% | -$43.55 (-61%) | Hold to the end: -$43.55 (-61%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 477 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4018 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4021 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 283 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 284 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
@@ -122,11 +122,11 @@
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | ATP Tennis Match | ✘ | 25 | 0 | 12% | 4% | -100% | -79% | 3 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | Japan NPB Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Argentina Primera Division Game | ✘ | 21 | 0 | 24% | 14% | -100% | -59% | 12 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | WTA Tennis Match | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 3 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -223,6 +223,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 02:11 | Argentina Primera Division Game | Banfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 02:11 | Argentina Primera Division Game | Rosario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 02:07 | ITF Women's Match | Catherine Aulia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:00 | CONCACAF Nations League Game | Tie | ✔ | 90'+12' · SUR 0 - GUA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:56 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 01:53 | CONCACAF Nations League Game | Suriname | ✔ | 90'+6' · SUR 0 - GUA 0 | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-05 23:46 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
