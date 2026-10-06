@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4531 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4533 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 07:56 | Men's T20 Cricket Match | Bhutan | ✘ | — | — | In play | — |
+| 10-06 07:55 | Challenger WTA | Yushan Shao | ✘ | — | — | In play | — |
 | 10-06 07:47 | ITF Men's Match | Zhao Zhao | ✘ | — | — | In play | — |
 | 10-06 07:40 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:36 | ITF Women's Match | Mariya Zharkikh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 03:00 | NFL Game | New Orleans | ✔ | 9:57 - 4th · ATL 31 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 02:23 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · WPG 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 02:11 | Argentina Primera Division Game | Banfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
