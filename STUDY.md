@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 12:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 494 finished bets | 1% | -$32.10 | -43% | -6.50¢ | -$23.05 / -$9.05 |
 
-*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.45/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4690 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
+| 4696 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 494 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4189 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4192 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 335 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 336 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 294 | 1 | 4% | 3% | -68% | -94% | 9 min |
-| Challenger ATP  | ✘ | 246 | 1 | 8% | 2% | -62% | -86% | 5 min |
-| TT Star Series Match | ✘ | 137 | 1 | 3% | 3% | -32% | -95% | 4 min |
+| Challenger ATP  | ✘ | 247 | 1 | 9% | 2% | -62% | -85% | 5 min |
+| TT Star Series Match | ✘ | 138 | 1 | 3% | 3% | -32% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 101 | 0 | 6% | 2% | -100% | -90% | 12 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,11 +223,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 18:50 | ITF Women's Match | Briley Rhoden | ✘ | — | — | In play | — |
-| 10-06 18:49 | TT Star Series Match | Gavlas Antonín | ✘ | — | — | In play | — |
+| 10-06 18:58 | League of Legends Game | Frites Esports Club | ✘ | — | — | In play | — |
+| 10-06 18:58 | UEFA Nations League Game | Tie | ✔ | 12' · SMR 0 - ALB 1 | — | In play | — |
+| 10-06 18:53 | R6 Game | Shifters | ✘ | — | — | In play | — |
+| 10-06 18:53 | KHL Game | SKA St. Petersburg | ✘ | — | — | In play | — |
+| 10-06 18:52 | International Friendly Game | Jordan | ✔ | 90'+2' · VEN 0 - JOR 0 | — | In play | — |
+| 10-06 18:52 | International Friendly Game | Venezuela | ✔ | 90'+2' · VEN 0 - JOR 0 | — | In play | — |
+| 10-06 18:50 | ITF Women's Match | Briley Rhoden | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-06 18:49 | TT Star Series Match | Gavlas Antonín | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:48 | UEFA Nations League Game | San Marino | ✔ | 1' · SMR 0 - ALB 0 | — | In play | — |
 | 10-06 18:43 | Counter-Strike 2 Game | FURIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 18:36 | Challenger ATP  | Bernardo Munk Mesa | ✘ | — | — | In play | — |
+| 10-06 18:36 | Challenger ATP  | Bernardo Munk Mesa | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-06 18:31 | EuroCup Basketball Game | KK Buducnost Voli | ✘ | — | — | In play | — |
 | 10-06 18:31 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,12 +253,6 @@
 | 10-06 17:36 | International Friendly Game | Tie | ✔ | 69' · NGA 1 - RUS 3 | 99¢ | ✅ Won | $13.85 |
 | 10-06 17:35 | Counter-Strike 2 Game | MASQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 17:25 | Slovakia SBL Game | BK 04 AC LB SNV Spisski Rytieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:24 | ITF Men's Match | Ivan Dreycopp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:24 | Challenger ATP  | Juan Bautista Torres | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:23 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:21 | International Friendly Game | Nigeria | ✔ | 54' · NGA 1 - RUS 2 | 5¢ | ❌ Lost | -$0.15 |
-| 10-06 17:20 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 17:19 | TT Star Series Match | Robinot Alexandre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
