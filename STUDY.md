@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 507 finished bets | 1% | -$34.05 | -45% | -6.72¢ | -$23.95 / -$10.10 |
+| ESPN-verified leagues only, hold to the end | 514 finished bets | 1% | -$35.10 | -46% | -6.83¢ | -$24.55 / -$10.55 |
 
-*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.66/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 507 | -$49.05 | -64% |
-| ESPN-verified leagues only, sell at 2¢ | 507 | -$58.37 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 507 | -$59.15 | -78% |
+| ESPN-verified leagues only, sell at 50¢ | 514 | -$43.35 | -56% |
+| ESPN-verified leagues only, sell at 25¢ | 514 | -$57.24 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 514 | -$58.90 | -76% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4768 | 507 | 3 (1%) | 1.1% | -$34.05 (-45%) | Hold to the end: -$34.05 (-45%) |
+| 4770 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
 
-*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 507 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4216 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 514 | 14% | 9% | 5% | 3% | 1% | 1% |
+| Unverified | 4242 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$34.05 | -45% |
-| Sell at 2¢ | 68 | 13% | -$58.37 | -77% |
-| Sell at 3¢ | 42 | 8% | -$59.67 | -78% |
-| Sell at 5¢ | 26 | 5% | -$59.15 | -78% |
-| Sell at 10¢ | 12 | 2% | -$60.33 | -79% |
-| Sell at 25¢ | 5 | 1% | -$59.50 | -78% |
-| Sell at 50¢ | 4 | 1% | -$49.05 | -64% |
+| Hold to the end | 3 | 1% | -$35.10 | -46% |
+| Sell at 2¢ | 70 | 14% | -$58.90 | -76% |
+| Sell at 3¢ | 44 | 9% | -$59.94 | -78% |
+| Sell at 5¢ | 28 | 5% | -$58.90 | -76% |
+| Sell at 10¢ | 13 | 3% | -$60.07 | -78% |
+| Sell at 25¢ | 6 | 1% | -$57.24 | -74% |
+| Sell at 50¢ | 5 | 1% | -$43.35 | -56% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -94,11 +94,11 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 338 | 0 | 10% | 4% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 303 | 1 | 10% | 6% | -69% | -83% | 5 min |
+| ITF Men's Match | ✘ | 304 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
 | TT Star Series Match | ✘ | 140 | 1 | 3% | 3% | -33% | -95% | 4 min |
-| UEFA Nations League Game | ✔ | 133 | 0 | 8% | 4% | -100% | -86% | 6 min |
+| UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -121,6 +121,7 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| EFL Trophy Game | ✘ | 25 | 0 | 8% | 8% | -100% | -86% | 46 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
@@ -201,11 +202,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 200 | 7% | 1% | 0% | -88% |
-| 5–15 min | 97 | 13% | 4% | 1% | -77% |
-| 15–30 min | 85 | 28% | 12% | 2% | -51% |
-| 30–60 min | 65 | 12% | 6% | 0% | -79% |
-| Over 60 min | 59 | 15% | 10% | 0% | -74% |
+| Under 5 min | 201 | 7% | 1% | 0% | -88% |
+| 5–15 min | 98 | 13% | 4% | 1% | -77% |
+| 15–30 min | 86 | 28% | 12% | 2% | -52% |
+| 30–60 min | 66 | 12% | 6% | 0% | -79% |
+| Over 60 min | 62 | 18% | 13% | 0% | -69% |
 
 ## Speed & liquidity
 
@@ -223,36 +224,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 20:51 | ITF Women's Match | Chloe Noel | ✘ | — | — | In play | — |
+| 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | — | In play | — |
 | 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | — | In play | — |
 | 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
-| 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | — | In play | — |
+| 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | — | In play | — |
-| 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | — | In play | — |
-| 10-06 20:37 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:37 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+4' · ESP 2 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
 | 10-06 20:34 | UEFA Nations League Game | Estonia | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | UEFA Nations League Game | Iceland | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:34 | UEFA Nations League Game | Tie | ✔ | 90'+1' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:33 | UEFA Nations League Game | Scotland | ✔ | 89' · SVN 2 - SCO 1 | — | In play | — |
+| 10-06 20:33 | UEFA Nations League Game | Scotland | ✔ | 89' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:30 | UEFA Nations League Game | Croatia | ✔ | 88' · ESP 1 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:30 | UEFA Nations League Game | Finland | ✔ | 88' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:28 | UEFA Nations League Game | Tie | ✔ | 86' · BUL 2 - LUX 0 | 3¢ | ❌ Lost | -$0.15 |
 | 10-06 20:19 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
 | 10-06 20:15 | UEFA Nations League Game | Tie | ✔ | 73' · MKD 0 - SUI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | — | In play | — |
-| 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
-| 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | — | In play | — |
+| 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | — | In play | — |
 | 10-06 20:06 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:04 | Counter-Strike 2 Game | aimers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | — | In play | — |
+| 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:00 | Challenger ATP  | Jose Pereira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 19:59 | EuroCup Basketball Game | Aquila Basket Trento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:57 | EFL Trophy Game | Accrington | ✘ | — | — | In play | — |
-| 10-06 19:56 | EFL Trophy Game | Newport | ✘ | — | — | In play | — |
-| 10-06 19:56 | EFL Trophy Game | Plymouth | ✘ | — | — | In play | — |
+| 10-06 19:57 | EFL Trophy Game | Accrington | ✘ | — | 95¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
