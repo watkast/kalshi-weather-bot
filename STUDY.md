@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 3:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 3:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 514 finished bets | 1% | -$35.10 | -46% | -6.83¢ | -$24.55 / -$10.55 |
+| ESPN-verified leagues only, hold to the end | 515 finished bets | 1% | -$35.25 | -46% | -6.84¢ | -$24.55 / -$10.70 |
 
 *Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 514 | -$43.35 | -56% |
-| ESPN-verified leagues only, sell at 25¢ | 514 | -$57.24 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 514 | -$58.90 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 515 | -$43.50 | -56% |
+| ESPN-verified leagues only, sell at 25¢ | 515 | -$57.39 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 515 | -$59.05 | -76% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4779 | 514 | 3 (1%) | 1.1% | -$35.10 (-46%) | Hold to the end: -$35.10 (-46%) |
+| 4780 | 515 | 3 (1%) | 1.1% | -$35.25 (-46%) | Hold to the end: -$35.25 (-46%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 514 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4252 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 515 | 14% | 9% | 5% | 3% | 1% | 1% |
+| Unverified | 4256 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$35.10 | -46% |
-| Sell at 2¢ | 70 | 14% | -$58.90 | -76% |
-| Sell at 3¢ | 44 | 9% | -$59.94 | -78% |
-| Sell at 5¢ | 28 | 5% | -$58.90 | -76% |
-| Sell at 10¢ | 13 | 3% | -$60.07 | -78% |
-| Sell at 25¢ | 6 | 1% | -$57.24 | -74% |
-| Sell at 50¢ | 5 | 1% | -$43.35 | -56% |
+| Hold to the end | 3 | 1% | -$35.25 | -46% |
+| Sell at 2¢ | 70 | 14% | -$59.05 | -76% |
+| Sell at 3¢ | 44 | 9% | -$60.09 | -78% |
+| Sell at 5¢ | 28 | 5% | -$59.05 | -76% |
+| Sell at 10¢ | 13 | 3% | -$60.22 | -78% |
+| Sell at 25¢ | 6 | 1% | -$57.39 | -74% |
+| Sell at 50¢ | 5 | 1% | -$43.50 | -56% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,14 +93,14 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 341 | 0 | 11% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 342 | 0 | 11% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 248 | 1 | 8% | 2% | -62% | -85% | 5 min |
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 102 | 0 | 6% | 2% | -100% | -90% | 11 min |
-| CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
+| CONCACAF Nations League Game | partly | 100 | 2 | 19% | 8% | +87% | -67% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
@@ -156,6 +156,7 @@
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
+| APF Division de Honor Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 5 min |
 | Slovakia SBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -165,7 +166,6 @@
 | Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
-| APF Division de Honor Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
@@ -206,7 +206,7 @@
 | 5–15 min | 98 | 13% | 4% | 1% | -77% |
 | 15–30 min | 86 | 28% | 12% | 2% | -52% |
 | 30–60 min | 66 | 12% | 6% | 0% | -79% |
-| Over 60 min | 62 | 18% | 13% | 0% | -69% |
+| Over 60 min | 63 | 17% | 13% | 0% | -70% |
 
 ## Speed & liquidity
 
@@ -224,19 +224,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 21:46 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
 | 10-06 21:44 | CONCACAF Nations League Game | Sint Maarten | ✘ | — | — | In play | — |
-| 10-06 21:43 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
-| 10-06 21:39 | ITF Women's Match | Krisha Mahendran | ✘ | — | — | In play | — |
-| 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | — | In play | — |
+| 10-06 21:43 | APF Division de Honor Game | Tie | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-06 21:39 | ITF Women's Match | Krisha Mahendran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 21:10 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:09 | CONCACAF Nations League Game | Tie | ✔ | 48' · TCA 0 - MSR 2 | — | In play | — |
 | 10-06 21:06 | TT Star Series Match | Gavlas Antonín | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:02 | ITF Men's Match | Darwin Andres Macias Elizalde | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:58 | R6 Game | Twisted Minds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:51 | ITF Women's Match | Chloe Noel | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | — | In play | — |
+| 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | — | In play | — |
+| 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-06 20:19 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
 | 10-06 20:15 | UEFA Nations League Game | Tie | ✔ | 73' · MKD 0 - SUI 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 

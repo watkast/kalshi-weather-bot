@@ -1,11 +1,11 @@
 {
- "saved_at": "2026-10-06T21:46:09+00:00",
+ "saved_at": "2026-10-06T21:56:16+00:00",
  "series_watched": 345,
- "markets_in_or_near_play": 107,
+ "markets_in_or_near_play": 108,
  "batch_lookup": true,
  "espn_games_linked": 1,
  "espn_check": {
-  "at": "2026-10-06T21:15:47+00:00",
+  "at": "2026-10-06T21:47:07+00:00",
   "started_games": 3,
   "matched": 1,
   "unmatched_sample": [
@@ -13,7 +13,7 @@
    "KXCONCACAFNLGAME-26OCT06SMABAH"
   ]
  },
- "bets": 4779,
- "open": 13,
+ "bets": 4780,
+ "open": 9,
  "errors": []
 }
