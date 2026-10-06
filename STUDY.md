@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 9:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 487 finished bets | 0% | -$45.05 | -62% | -9.25¢ | -$22.45 / -$22.60 |
+| ESPN-verified leagues only, hold to the end | 489 finished bets | 0% | -$45.35 | -62% | -9.27¢ | -$22.60 / -$22.75 |
 
 *Expect about **56 buys a day**, roughly **$8.45/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 487 | -$52.80 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 487 | -$56.15 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 487 | -$57.45 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 489 | -$53.10 | -72% |
+| ESPN-verified leagues only, sell at 2¢ | 489 | -$56.45 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 489 | -$57.75 | -79% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4643 | 487 | 2 (0%) | 1.1% | -$45.05 (-62%) | Hold to the end: -$45.05 (-62%) |
+| 4647 | 489 | 2 (0%) | 1.1% | -$45.35 (-62%) | Hold to the end: -$45.35 (-62%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 487 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4149 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 489 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4151 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$45.05 | -62% |
-| Sell at 2¢ | 65 | 13% | -$56.15 | -77% |
-| Sell at 3¢ | 39 | 8% | -$57.84 | -79% |
-| Sell at 5¢ | 24 | 5% | -$57.45 | -79% |
-| Sell at 10¢ | 11 | 2% | -$58.64 | -80% |
-| Sell at 25¢ | 4 | 1% | -$59.81 | -82% |
-| Sell at 50¢ | 3 | 1% | -$52.80 | -72% |
+| Hold to the end | 2 | 0% | -$45.35 | -62% |
+| Sell at 2¢ | 65 | 13% | -$56.45 | -77% |
+| Sell at 3¢ | 39 | 8% | -$58.14 | -79% |
+| Sell at 5¢ | 24 | 5% | -$57.75 | -79% |
+| Sell at 10¢ | 11 | 2% | -$58.94 | -80% |
+| Sell at 25¢ | 4 | 1% | -$60.11 | -82% |
+| Sell at 50¢ | 3 | 1% | -$53.10 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,12 +93,12 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 328 | 0 | 10% | 5% | -100% | -82% | 4 min |
-| ITF Men's Match | ✘ | 299 | 1 | 10% | 6% | -69% | -83% | 5 min |
+| ITF Women's Match | ✘ | 329 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Men's Match | ✘ | 300 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 290 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 241 | 1 | 8% | 2% | -61% | -86% | 5 min |
 | TT Star Series Match | ✘ | 132 | 1 | 3% | 3% | -29% | -95% | 4 min |
-| UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
+| UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 98 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
@@ -201,7 +201,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 191 | 7% | 1% | 0% | -87% |
+| Under 5 min | 193 | 7% | 1% | 0% | -87% |
 | 5–15 min | 94 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
 | 30–60 min | 62 | 11% | 5% | 0% | -80% |
@@ -223,9 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 15:56 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | — | In play | — |
-| 10-06 15:54 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · FRO 2 - KAZ 2 | — | In play | — |
-| 10-06 15:54 | UEFA Nations League Game | Kazakhstan | ✔ | 90'+4' · FRO 2 - KAZ 2 | — | In play | — |
+| 10-06 16:07 | KHL Game | Traktor Chelyabinsk | ✘ | — | — | In play | — |
+| 10-06 16:05 | KHL Game | HK Avangard Omsk | ✘ | — | — | In play | — |
+| 10-06 16:05 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | — | In play | — |
+| 10-06 16:02 | ITF Women's Match | Esther Lopez Alcaraz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 15:56 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 15:54 | UEFA Nations League Game | Faroe Islands | ✔ | 90'+4' · FRO 2 - KAZ 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 15:54 | UEFA Nations League Game | Kazakhstan | ✔ | 90'+4' · FRO 2 - KAZ 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:51 | International Friendly Game | Tie | ✔ | 53' · URU 2 - IND 1 | — | In play | — |
 | 10-06 15:50 | International Friendly Game | India | ✔ | 52' · URU 2 - IND 1 | — | In play | — |
 | 10-06 15:42 | ITF Men's Match | OLUWASEUN PETER OGUNSAKIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,10 +253,6 @@
 | 10-06 12:07 | Challenger ATP  | Pierluigi Basile | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 12:07 | Dota 2 Game | HULIGANI | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:06 | ITF Women's Match | Giulia Paterno | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 12:05 | ITF Women's Match | Romane Longueville | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:05 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:05 | Counter-Strike 2 Game | THE UNIT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:59 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
