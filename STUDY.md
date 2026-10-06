@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 12:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 491 finished bets | 0% | -$45.65 | -62% | -9.30¢ | -$22.75 / -$22.90 |
 
-*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.42/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4674 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
+| 4678 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4176 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4177 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -144,11 +144,11 @@
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
+| Finland Korisliiga Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
-| Finland Korisliiga Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | EuroCup Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Professional Baseball Game | partly | 11 | 0 | 18% | 9% | -100% | -68% | 4 min |
@@ -223,8 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 18:04 | Challenger ATP  | Juan Pablo Varillas | ✘ | — | — | In play | — |
+| 10-06 18:04 | International Friendly Game | Russia | ✔ | 90'+7' · NGA 3 - RUS 3 | — | In play | — |
+| 10-06 18:03 | Men's T20 Cricket Match | Eastern Storm | ✘ | — | — | In play | — |
+| 10-06 18:00 | ITF Men's Match | Mario Andre Galarraga | ✘ | — | — | In play | — |
 | 10-06 17:58 | League of Legends Game | Berlin International Gaming | ✘ | — | — | In play | — |
-| 10-06 17:56 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
+| 10-06 17:56 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 17:56 | League of Legends Game | Valerion | ✘ | — | — | In play | — |
 | 10-06 17:48 | TT Star Series Match | Lorenzo Santiago | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 17:48 | Challenger ATP  | Joao Eduardo Schiessl | ✘ | — | — | In play | — |
@@ -249,10 +253,6 @@
 | 10-06 16:26 | Challenger ATP  | Alex Barrena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:21 | Men's T20 Cricket Match | West Indies | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 16:18 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:12 | ITF Women's Match | Hanna Bougouffa | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-06 16:07 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:05 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:05 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
