@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 1:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 1:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
 
-*Expect about **58 buys a day**, roughly **$8.73/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.72/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4527 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4037 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4039 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 289 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 290 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
 | ITF Men's Match | ✘ | 274 | 1 | 9% | 5% | -66% | -84% | 4 min |
 | Challenger ATP  | ✘ | 235 | 1 | 8% | 2% | -60% | -87% | 5 min |
@@ -105,7 +105,7 @@
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Men's T20 Cricket Match | ✘ | 51 | 0 | 16% | 6% | -100% | -73% | 18 min |
+| Men's T20 Cricket Match | ✘ | 52 | 0 | 15% | 6% | -100% | -73% | 19 min |
 | Challenger WTA | ✘ | 48 | 0 | 19% | 10% | -100% | -68% | 9 min |
 | Dota 2 Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
@@ -223,12 +223,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 07:19 | ITF Women's Match | Jiarui Sun | ✘ | — | — | In play | — |
+| 10-06 07:19 | ITF Women's Match | Jiarui Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:14 | ITF Women's Match | aoyi li | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 07:00 | Men's ODI Cricket Match | BBK Partnership | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:58 | ATP Tennis Match | Liam Draxl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:54 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
+| 10-06 06:52 | Men's T20 Cricket Match | Mongolia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 06:52 | Dota 2 Game | Yangon Galacticos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:28 | ITF Men's Match | Jake Dembo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 04:27 | Challenger ATP  | Martin Borisiouk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
