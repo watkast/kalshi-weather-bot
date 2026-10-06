@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 5:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 6:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 464 finished bets | 0% | -$41.60 | -60% | -8.97¢ | -$20.80 / -$20.80 |
 
-*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.68/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4479 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
+| 4481 | 464 | 2 (0%) | 1.1% | -$41.60 (-60%) | Hold to the end: -$41.60 (-60%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 464 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4006 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4009 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,7 +100,7 @@
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
-| League of Legends Game | ✘ | 93 | 0 | 6% | 2% | -100% | -89% | 12 min |
+| League of Legends Game | ✘ | 94 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | CONCACAF Nations League Game | partly | 88 | 2 | 20% | 9% | +112% | -65% | 21 min |
 | Darts Match | ✘ | 65 | 0 | 2% | 2% | -100% | -97% | 9 min |
@@ -132,11 +132,11 @@
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| Argentina Primera Division Game | ✘ | 19 | 0 | 16% | 11% | -100% | -73% | 12 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Overwatch Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Argentina Primera Division Game | ✘ | 17 | 0 | 18% | 12% | -100% | -69% | 12 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
@@ -223,13 +223,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 00:04 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
+| 10-05 23:58 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | — | In play | — |
 | 10-05 23:54 | CONCACAF Nations League Game | Martinique | ✔ | 90'+4' · SLV 1 - MTQ 1 | — | In play | — |
 | 10-05 23:52 | CONCACAF Nations League Game | El Salvador | ✔ | 90'+2' · SLV 1 - MTQ 1 | — | In play | — |
 | 10-05 23:52 | APF Division de Honor Game | Cerro Porteno | ✘ | — | — | In play | — |
 | 10-05 23:48 | Argentina Primera Division Game | Platense | ✘ | — | — | In play | — |
-| 10-05 23:46 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | — | In play | — |
-| 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | — | In play | — |
+| 10-05 23:46 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 23:43 | League of Legends Game | 9z Globant | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-05 23:39 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:17 | Men's ODI Cricket Match | United Arab Emirates | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 23:00 | ITF Women's Match | Kate Sharabura | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-05 22:55 | CONCACAF Nations League Game | Cuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-05 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+3' · HUN 2 - UKR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-05 20:32 | LaLiga 2 Game | Tie | ✔ | 90'+5' · TEN 2 - COR 3 | 2¢ | ❌ Lost | -$0.15 |
 | 10-05 20:32 | UEFA Nations League Game | Poland | ✔ | 88' · POL 0 - BIH 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-05 20:32 | Challenger ATP  | Sandro Kopp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-05 20:31 | UEFA Nations League Game | Tie | ✔ | 88' · BEL 1 - FRA 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
