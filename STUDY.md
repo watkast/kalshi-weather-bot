@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 12:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 12:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 494 finished bets | 1% | -$32.10 | -43% | -6.50¢ | -$23.05 / -$9.05 |
 
-*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4681 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
+| 4683 | 494 | 3 (1%) | 1.1% | -$32.10 (-43%) | Hold to the end: -$32.10 (-43%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 18:28 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | — | In play | — |
+| 10-06 18:24 | League of Legends Game | Bushido Wildcats | ✘ | — | — | In play | — |
 | 10-06 18:19 | EuroCup Basketball Game | Maxima Roma | ✘ | — | — | In play | — |
 | 10-06 18:13 | ITF Women's Match | Isabella Marton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 18:10 | ITF Women's Match | Jensen Diianni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,8 +253,6 @@
 | 10-06 16:56 | ITF Men's Match | Martin Rodriguez Figueiredo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:42 | ITF Women's Match | Rebecca Munk Mortensen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 16:39 | ITF Women's Match | Francoise Abanda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:38 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 16:28 | Challenger ATP  | Franco Roncadelli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
