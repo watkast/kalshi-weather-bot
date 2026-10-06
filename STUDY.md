@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 5, 8:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 5, 8:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 480 finished bets | 0% | -$44.00 | -61% | -9.17¢ | -$22.00 / -$22.00 |
 
-*Expect about **59 buys a day**, roughly **$8.84/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.83/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4505 | 480 | 2 (0%) | 1.1% | -$44.00 (-61%) | Hold to the end: -$44.00 (-61%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 480 | 14% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4021 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 4022 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 287 | 1 | 4% | 3% | -67% | -93% | 9 min |
-| ITF Women's Match | ✘ | 284 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 285 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 273 | 1 | 10% | 5% | -66% | -83% | 4 min |
 | Challenger ATP  | ✘ | 230 | 1 | 8% | 2% | -59% | -86% | 5 min |
 | TT Star Series Match | ✘ | 127 | 1 | 2% | 2% | -27% | -96% | 4 min |
@@ -223,7 +223,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | — | In play | — |
+| 10-06 02:45 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:30 | NBA Game | Milwaukee | ✔ | 3:01 - 4th · MIN 105 - MIL 93 | — | In play | — |
 | 10-06 02:23 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · WPG 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 02:11 | Argentina Primera Division Game | Banfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
