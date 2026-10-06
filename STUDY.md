@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 491 finished bets | 0% | -$45.65 | -62% | -9.30¢ | -$22.75 / -$22.90 |
 
-*Expect about **56 buys a day**, roughly **$8.40/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.41/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4660 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
+| 4667 | 491 | 2 (0%) | 1.1% | -$45.65 (-62%) | Hold to the end: -$45.65 (-62%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 491 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4164 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4166 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 | ITF Women's Match | ✘ | 333 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 301 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 291 | 1 | 4% | 3% | -68% | -93% | 9 min |
-| Challenger ATP  | ✘ | 243 | 1 | 8% | 2% | -62% | -86% | 5 min |
-| TT Star Series Match | ✘ | 134 | 1 | 3% | 3% | -30% | -95% | 4 min |
+| Challenger ATP  | ✘ | 244 | 1 | 8% | 2% | -62% | -87% | 5 min |
+| TT Star Series Match | ✘ | 135 | 1 | 3% | 3% | -31% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 122 | 0 | 8% | 4% | -100% | -86% | 6 min |
 | League of Legends Game | ✘ | 98 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
@@ -223,6 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 17:25 | Slovakia SBL Game | BK 04 AC LB SNV Spisski Rytieri | ✘ | — | — | In play | — |
+| 10-06 17:24 | ITF Men's Match | Ivan Dreycopp | ✘ | — | — | In play | — |
+| 10-06 17:24 | Challenger ATP  | Juan Bautista Torres | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 17:23 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | — | In play | — |
+| 10-06 17:21 | International Friendly Game | Nigeria | ✔ | 54' · NGA 1 - RUS 2 | — | In play | — |
+| 10-06 17:20 | Finland Korisliiga Game | Kauhajoki Karhu Basket | ✘ | — | — | In play | — |
+| 10-06 17:19 | TT Star Series Match | Robinot Alexandre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 17:12 | Finland Korisliiga Game | Helsinki Seagulls | ✘ | — | — | In play | — |
 | 10-06 17:11 | Counter-Strike 2 Game | Butterfly | ✘ | — | — | In play | — |
 | 10-06 16:57 | ITF Women's Match | Megan Heuser | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,13 +253,6 @@
 | 10-06 15:51 | International Friendly Game | Tie | ✔ | 53' · URU 2 - IND 1 | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 15:50 | International Friendly Game | India | ✔ | 52' · URU 2 - IND 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 15:42 | ITF Men's Match | OLUWASEUN PETER OGUNSAKIN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 15:29 | ITF Women's Match | Marie Villet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 15:28 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:37 | ATP Tennis Match | Alex de Minaur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:35 | Dota 2 Game | Cloud Dawning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:34 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:32 | ITF Women's Match | Teodora Naidenova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-06 12:31 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
