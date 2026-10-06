@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 6:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 9:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 486 finished bets | 0% | -$44.90 | -62% | -9.24¢ | -$22.45 / -$22.45 |
+| ESPN-verified leagues only, hold to the end | 487 finished bets | 0% | -$45.05 | -62% | -9.25¢ | -$22.45 / -$22.60 |
 
-*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.40/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 486 | -$52.65 | -72% |
-| ESPN-verified leagues only, sell at 2¢ | 486 | -$56.00 | -77% |
-| ESPN-verified leagues only, sell at 5¢ | 486 | -$57.30 | -79% |
+| ESPN-verified leagues only, sell at 50¢ | 487 | -$52.80 | -72% |
+| ESPN-verified leagues only, sell at 2¢ | 487 | -$56.15 | -77% |
+| ESPN-verified leagues only, sell at 5¢ | 487 | -$57.45 | -79% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4634 | 486 | 2 (0%) | 1.1% | -$44.90 (-62%) | Hold to the end: -$44.90 (-62%) |
+| 4637 | 487 | 2 (0%) | 1.1% | -$45.05 (-62%) | Hold to the end: -$45.05 (-62%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 2. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 486 | 13% | 8% | 5% | 2% | 1% | 1% |
-| Unverified | 4138 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 487 | 13% | 8% | 5% | 2% | 1% | 1% |
+| Unverified | 4148 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 2 | 0% | -$44.90 | -62% |
-| Sell at 2¢ | 65 | 13% | -$56.00 | -77% |
-| Sell at 3¢ | 39 | 8% | -$57.69 | -79% |
-| Sell at 5¢ | 24 | 5% | -$57.30 | -79% |
-| Sell at 10¢ | 11 | 2% | -$58.49 | -80% |
-| Sell at 25¢ | 4 | 1% | -$59.66 | -82% |
-| Sell at 50¢ | 3 | 1% | -$52.65 | -72% |
+| Hold to the end | 2 | 0% | -$45.05 | -62% |
+| Sell at 2¢ | 65 | 13% | -$56.15 | -77% |
+| Sell at 3¢ | 39 | 8% | -$57.84 | -79% |
+| Sell at 5¢ | 24 | 5% | -$57.45 | -79% |
+| Sell at 10¢ | 11 | 2% | -$58.64 | -80% |
+| Sell at 25¢ | 4 | 1% | -$59.81 | -82% |
+| Sell at 50¢ | 3 | 1% | -$52.80 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,31 +93,31 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 325 | 0 | 10% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 328 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 298 | 1 | 10% | 6% | -69% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 290 | 1 | 4% | 3% | -68% | -93% | 9 min |
 | Challenger ATP  | ✘ | 241 | 1 | 8% | 2% | -61% | -86% | 5 min |
-| TT Star Series Match | ✘ | 131 | 1 | 3% | 3% | -29% | -95% | 4 min |
+| TT Star Series Match | ✘ | 132 | 1 | 3% | 3% | -29% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 120 | 0 | 8% | 4% | -100% | -86% | 6 min |
+| League of Legends Game | ✘ | 98 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 98 | 2 | 19% | 8% | +90% | -66% | 19 min |
-| League of Legends Game | ✘ | 97 | 0 | 6% | 2% | -100% | -89% | 12 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 76 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 19 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
+| Dota 2 Game | ✘ | 51 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
-| Dota 2 Game | ✘ | 49 | 0 | 2% | 2% | -100% | -96% | 28 min |
 | AFCON Game Winner | ✘ | 47 | 1 | 15% | 4% | +99% | -74% | 12 min |
+| International Friendly Game | partly | 46 | 0 | 11% | 2% | -100% | -81% | 17 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| International Friendly Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 17 min |
 | NHL Game | ✔ | 43 | 0 | 14% | 5% | -100% | -76% | 4 min |
 | R6 Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 33 | 0 | 6% | 6% | -100% | -89% | 8 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
+| ATP Tennis Match | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 3 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
-| ATP Tennis Match | ✘ | 28 | 0 | 11% | 4% | -100% | -81% | 3 min |
 | KHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 5 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -185,10 +185,10 @@
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| China League 1 Game | ✘ | 3 | 0 | 33% | 33% | -100% | -42% | 17 min |
 | Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
-| China League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -204,7 +204,7 @@
 | Under 5 min | 191 | 7% | 1% | 0% | -87% |
 | 5–15 min | 94 | 13% | 4% | 1% | -78% |
 | 15–30 min | 83 | 28% | 11% | 1% | -52% |
-| 30–60 min | 61 | 11% | 5% | 0% | -80% |
+| 30–60 min | 62 | 11% | 5% | 0% | -80% |
 | Over 60 min | 56 | 16% | 11% | 0% | -72% |
 
 ## Speed & liquidity
@@ -223,22 +223,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-06 12:35 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
-| 10-06 12:34 | League of Legends Game | JD Gaming | ✘ | — | — | In play | — |
-| 10-06 12:32 | ITF Women's Match | Teodora Naidenova | ✘ | — | — | In play | — |
+| 10-06 15:29 | ITF Women's Match | Marie Villet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 15:28 | TT Star Series Match | Turrini Rafael | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 12:37 | ATP Tennis Match | Alex de Minaur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 12:35 | Dota 2 Game | Cloud Dawning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 12:34 | League of Legends Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-06 12:32 | ITF Women's Match | Teodora Naidenova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-06 12:31 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:28 | ITF Women's Match | Anna Cabassers Morros | ✘ | — | — | In play | — |
+| 10-06 12:28 | ITF Women's Match | Anna Cabassers Morros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:28 | ITF Women's Match | Lucie Petruzelova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:23 | ITF Men's Match | Dimitri Bagaric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:21 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:20 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:19 | International Friendly Game | Uzbekistan | ✔ | 62' · UZB 0 - KOR 2 | — | In play | — |
+| 10-06 12:19 | International Friendly Game | Uzbekistan | ✔ | 62' · UZB 0 - KOR 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:18 | ITF Women's Match | Miyu Nakashima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 12:17 | China League 1 Game | Wuxi Wugou | ✘ | — | — | In play | — |
+| 10-06 12:17 | China League 1 Game | Wuxi Wugou | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
 | 10-06 12:14 | ITF Women's Match | Defne Cirpanli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:12 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:07 | Challenger ATP  | Pierluigi Basile | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 12:07 | Dota 2 Game | HULIGANI | ✘ | — | — | In play | — |
+| 10-06 12:07 | Dota 2 Game | HULIGANI | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:06 | ITF Women's Match | Giulia Paterno | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 12:05 | ITF Women's Match | Romane Longueville | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 12:05 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,9 +253,6 @@
 | 10-06 11:55 | KBO Game | Kiwoom Heroes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:50 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 11:49 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:48 | ITF Women's Match | Aleksija Neskovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:46 | ITF Women's Match | Nauhany Vitoria Leme Da Silva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 11:46 | ITF Men's Match | Ryuichiro Nakano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
