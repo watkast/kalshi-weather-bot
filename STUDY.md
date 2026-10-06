@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 2:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 2:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 496 finished bets | 1% | -$32.40 | -44% | -6.53¢ | -$23.20 / -$9.20 |
 
-*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4746 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
+| 4753 | 496 | 3 (1%) | 1.1% | -$32.40 (-44%) | Hold to the end: -$32.40 (-44%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -223,6 +223,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-06 20:19 | CONCACAF Nations League Game | Bahamas | ✘ | — | — | In play | — |
+| 10-06 20:15 | UEFA Nations League Game | Tie | ✔ | 73' · MKD 0 - SUI 1 | — | In play | — |
+| 10-06 20:15 | EuroCup Basketball Game | Rigas Zelli | ✘ | — | — | In play | — |
+| 10-06 20:15 | EFL Trophy Game | Bromley | ✘ | — | — | In play | — |
+| 10-06 20:14 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
+| 10-06 20:13 | UEFA Nations League Game | Luxembourg | ✔ | 71' · BUL 2 - LUX 0 | — | In play | — |
+| 10-06 20:12 | Men's T20 Cricket Match | Salwa Boys | ✘ | — | — | In play | — |
 | 10-06 20:06 | ITF Women's Match | Ena Koike | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:04 | Counter-Strike 2 Game | aimers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:03 | UEFA Nations League Game | Tie | ✔ | 60' · SVK 2 - MDA 0 | — | In play | — |
@@ -246,13 +253,6 @@
 | 10-06 19:52 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
 | 10-06 19:52 | EFL Trophy Game | Oxford United | ✘ | — | — | In play | — |
 | 10-06 19:52 | EFL Trophy Game | Barnet | ✘ | — | — | In play | — |
-| 10-06 19:52 | EFL Trophy Game | Wimbledon | ✘ | — | — | In play | — |
-| 10-06 19:51 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
-| 10-06 19:50 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:50 | EFL Trophy Game | Burton | ✘ | — | — | In play | — |
-| 10-06 19:50 | EFL Trophy Game | Grimsby | ✘ | — | — | In play | — |
-| 10-06 19:49 | Dota 2 Game | MOUZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 19:47 | EFL Trophy Game | Mansfield | ✘ | — | — | In play | — |
 
 ## Raw data
 
