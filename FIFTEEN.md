@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 5, 6:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 5, 6:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 619 finished bets | 1% | $31.25 | +47% | +5.05¢ | -$5.90 / $37.15 |
 
-*Expect about **80 buys a day** (~$12.01/day at risk); max loss per buy **15¢**.*
+*Expect about **80 buys a day** (~$12.00/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8944 | 8938 | 39 (0%) | 1.07% | -$529.05 (-49%) | Hold to the close: -$529.05 (-49%) |
+| 8945 | 8938 | 39 (0%) | 1.07% | -$529.05 (-49%) | Hold to the close: -$529.05 (-49%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/5 6:26:37 PM | ZEC | DOWN | 3.4 min | +0.463% | — | In play | — |
 | 10/5 6:14:52 PM | ZEC | UP | 8 sec | -0.082% | 0¢ | ❌ Lost | $0.00 |
 | 10/5 6:14:52 PM | GOLD | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/5 6:14:52 PM | DOGE | UP | 8 sec | -0.065% | 0¢ | ❌ Lost | $0.00 |
@@ -210,7 +211,6 @@
 | 10/5 5:56:21 PM | NEAR | DOWN | 3.6 min | +2.224% | 1¢ | ❌ Lost | -$0.15 |
 | 10/5 5:55:49 PM | ZEC | DOWN | 4.2 min | +0.497% | 1¢ | ❌ Lost | -$0.15 |
 | 10/5 5:44:53 PM | PALLADIUM | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/5 5:44:53 PM | COPPER | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
