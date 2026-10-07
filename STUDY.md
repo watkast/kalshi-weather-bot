@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5077 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5080 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4528 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4532 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,13 +94,13 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 414 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 371 | 1 | 9% | 5% | -75% | -85% | 5 min |
+| ITF Men's Match | ✘ | 372 | 1 | 9% | 5% | -75% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 332 | 1 | 4% | 3% | -72% | -94% | 9 min |
 | Challenger ATP  | ✘ | 258 | 1 | 9% | 2% | -64% | -85% | 5 min |
-| TT Star Series Match | ✘ | 157 | 1 | 3% | 3% | -41% | -96% | 4 min |
+| TT Star Series Match | ✘ | 158 | 1 | 3% | 3% | -41% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
+| League of Legends Game | ✘ | 108 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| League of Legends Game | ✘ | 107 | 0 | 7% | 3% | -100% | -89% | 11 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
@@ -125,10 +125,10 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNBP Basketball Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 12 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| EuroCup Basketball Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
-| EuroCup Basketball Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -224,13 +224,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | — | In play | — |
+| 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | — | In play | — |
+| 10-07 18:05 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
 | 10-07 18:01 | ITF Women's Match | Valentina Steiner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:00 | ITF Men's Match | Gray Voelzke | ✘ | — | — | In play | — |
-| 10-07 18:00 | TT Star Series Match | Kim Taehyun | ✘ | — | — | In play | — |
+| 10-07 18:00 | ITF Men's Match | Gray Voelzke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:00 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:57 | Slovenia 1. SKL Game | KD Ilirija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:56 | ITF Men's Match | Valentin Lapalu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:54 | ITF Women's Match | Yuki Naito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:53 | EuroCup Basketball Game | Reyer Venezia | ✘ | — | — | In play | — |
+| 10-07 17:53 | EuroCup Basketball Game | Reyer Venezia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:50 | Liiga Game | Tampereen Ilves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:47 | Counter-Strike 2 Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:40 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -239,7 +242,7 @@
 | 10-07 17:33 | Counter-Strike 2 Game | Huskies eSport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:33 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:33 | Finland Korisliiga Game | Kataja Basket Joensuu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:33 | League of Legends Game | Skillcamp Esport | ✘ | — | — | In play | — |
+| 10-07 17:33 | League of Legends Game | Skillcamp Esport | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 17:33 | Dota 2 Game | Team Synapse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 15:00 | ITF Men's Match | Maxence Rivet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 15:00 | ITF Men's Match | Javier Munoz Fuster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 14:50 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:48 | ITF Women's Match | Chenting Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:48 | ITF Women's Match | Iveta Dapkute | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 14:47 | Dota 2 Game | MOUZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:46 | ITF Men's Match | Luc Fomba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:46 | Counter-Strike 2 Game | Vexar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
