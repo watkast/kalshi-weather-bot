@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 542 finished bets | 1% | -$39.30 | -48% | -7.25¢ | -$26.65 / -$12.65 |
 
-*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.81/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4843 | 542 | 3 (1%) | 1.1% | -$39.30 (-48%) | Hold to the end: -$39.30 (-48%) |
+| 4846 | 542 | 3 (1%) | 1.1% | -$39.30 (-48%) | Hold to the end: -$39.30 (-48%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 542 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4294 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4298 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 352 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 355 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 306 | 1 | 9% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 252 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -125,10 +125,10 @@
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
+| LNBP Basketball Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 14 min |
 | Japan NPB Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
-| LNBP Basketball Game | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 16 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | EuroCup Basketball Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -224,10 +224,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 04:54 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
-| 10-07 04:53 | ITF Women's Match | Nana Onozawa | ✘ | — | — | In play | — |
+| 10-07 05:03 | NHL Game | Los Angeles | ✔ | End of 3rd · FLA 2 - LA 1 | — | In play | — |
+| 10-07 05:01 | Professional Baseball Game | Milwaukee | ✔ | Top 9th · MIL 3 - SD 4 | — | In play | — |
+| 10-07 04:58 | ITF Women's Match | Honori Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 04:54 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 04:53 | ITF Women's Match | Nana Onozawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:50 | ITF Men's Match | Qian Sun | ✘ | — | — | In play | — |
-| 10-07 04:39 | ITF Women's Match | Rira Kosaka | ✘ | — | — | In play | — |
+| 10-07 04:39 | ITF Women's Match | Rira Kosaka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 04:30 | International Friendly Game | Tie | ✔ | 89' · CHI 2 - MEX 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:28 | ITF Men's Match | Yua Taka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 04:18 | International Friendly Game | Mexico | ✔ | 77' · CHI 2 - MEX 0 | 1¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:33 | NBA Game | Oklahoma City | ✔ | 20.6 - 4th · NO 116 - OKC 110 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:30 | Major League Soccer Game | Tie | ✔ | 88' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:29 | Major League Soccer Game | Vancouver | ✔ | 87' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
