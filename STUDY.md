@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 6:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 6:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 516 finished bets | 1% | -$35.40 | -46% | -6.86¢ | -$24.70 / -$10.70 |
 
-*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4791 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
+| 4793 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4268 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4270 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -151,12 +151,12 @@
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
+| APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Professional Baseball Game | partly | 11 | 0 | 18% | 9% | -100% | -68% | 4 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
-| APF Division de Honor Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 5 min |
 | Slovakia SBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -224,9 +224,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-07 00:27 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
 | 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | — | In play | — |
-| 10-07 00:12 | APF Division de Honor Game | Nacional | ✘ | — | — | In play | — |
-| 10-07 00:12 | APF Division de Honor Game | Olimpia | ✘ | — | — | In play | — |
+| 10-07 00:12 | APF Division de Honor Game | Nacional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 00:12 | APF Division de Honor Game | Olimpia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:10 | ITF Women's Match | Alina Shcherbinina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:42 | ITF Women's Match | Ekaterina Maklakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:39 | ITF Women's Match | Jo-Yee Chan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:37 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+4' · ESP 2 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
