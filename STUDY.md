@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.54/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.53/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4956 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4966 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4399 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4411 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 385 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 332 | 1 | 9% | 5% | -72% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 313 | 1 | 4% | 3% | -70% | -94% | 9 min |
+| ITF Women's Match | ✘ | 388 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Men's Match | ✘ | 338 | 1 | 9% | 6% | -72% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 314 | 1 | 4% | 3% | -70% | -94% | 9 min |
 | Challenger ATP  | ✘ | 255 | 1 | 9% | 2% | -63% | -84% | 5 min |
-| TT Star Series Match | ✘ | 150 | 1 | 3% | 3% | -38% | -95% | 4 min |
+| TT Star Series Match | ✘ | 151 | 1 | 3% | 3% | -38% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 106 | 0 | 7% | 3% | -100% | -89% | 11 min |
@@ -106,8 +106,8 @@
 | Darts Match | ✘ | 87 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
+| Challenger WTA | ✘ | 55 | 0 | 18% | 11% | -100% | -68% | 8 min |
 | Dota 2 Game | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 28 min |
-| Challenger WTA | ✘ | 54 | 0 | 17% | 9% | -100% | -71% | 8 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -224,36 +224,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 12:16 | ITF Men's Match | LUCCA LIU | ✘ | — | — | In play | — |
-| 10-07 12:16 | ITF Men's Match | Robin Eldin | ✘ | — | — | In play | — |
-| 10-07 12:10 | TT Star Series Match | Limura Yuta | ✘ | — | — | In play | — |
+| 10-07 12:27 | ITF Men's Match | Yurii Dzhavakian | ✘ | — | — | In play | — |
+| 10-07 12:26 | KBO Game | Doosan Bears | ✘ | — | — | In play | — |
+| 10-07 12:26 | KBO Game | Hanwha Eagles | ✘ | — | — | In play | — |
+| 10-07 12:24 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-07 12:22 | ITF Women's Match | Alina Nesmianovych | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 12:21 | League of Legends Game | Shopify Rebellion | ✘ | — | — | In play | — |
+| 10-07 12:21 | ITF Men's Match | Lachlan Vickery | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 12:20 | ITF Women's Match | Chanel Janssen | ✘ | — | — | In play | — |
+| 10-07 12:19 | Counter-Strike 2 Game | SINQU | ✘ | — | — | In play | — |
+| 10-07 12:18 | ITF Women's Match | Gabriella Price | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 12:16 | ITF Men's Match | LUCCA LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 12:16 | ITF Men's Match | Robin Eldin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 12:10 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:10 | ITF Women's Match | Nellie Taraba Wallberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:08 | Counter-Strike 2 Game | TheChampionGG | ✘ | — | — | In play | — |
+| 10-07 12:08 | Counter-Strike 2 Game | TheChampionGG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:05 | ITF Women's Match | Ariana Geerlings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:04 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:04 | Counter-Strike 2 Game | G2 Ares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:02 | ITF Men's Match | Noah Thurner | ✘ | — | — | In play | — |
+| 10-07 12:02 | ITF Men's Match | Noah Thurner | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 12:01 | ITF Women's Match | Jade Groen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:00 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:58 | ITF Women's Match | Abigeyle Bhopal | ✘ | — | — | In play | — |
-| 10-07 11:58 | ITF Men's Match | Frederic Schlossmann | ✘ | — | — | In play | — |
+| 10-07 11:58 | ITF Women's Match | Abigeyle Bhopal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 11:58 | ITF Men's Match | Frederic Schlossmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:58 | ITF Men's Match | Barney Fitzpatrick | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:58 | ITF Men's Match | Iago Dominguez Alvarez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:54 | Challenger ATP  | Martin Krumich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:52 | Challenger WTA | Oksana Selekhmeteva | ✘ | — | — | In play | — |
-| 10-07 11:52 | ITF Men's Match | Matthias Ujvary | ✘ | — | — | In play | — |
+| 10-07 11:52 | Challenger WTA | Oksana Selekhmeteva | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
+| 10-07 11:52 | ITF Men's Match | Matthias Ujvary | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
 | 10-07 11:46 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:45 | ITF Women's Match | Carlota Martinez Cirez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:41 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:39 | ITF Women's Match | Enola Chiesa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:35 | ITF Women's Match | Agnese Gentili | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:33 | ITF Women's Match | Simona Ogescu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 11:33 | ITF Men's Match | Rodrigo Alujas | ✘ | — | — | In play | — |
-| 10-07 11:33 | Counter-Strike 2 Game | STATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:28 | ITF Women's Match | Victoria Kapcia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:26 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:23 | Challenger WTA | Noma Noha Akugue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:12 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
