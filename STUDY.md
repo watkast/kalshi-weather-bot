@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4850 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4851 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4301 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4302 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -123,9 +123,9 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| LNBP Basketball Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 12 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
-| LNBP Basketball Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 14 min |
 | Japan NPB Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
@@ -224,8 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 05:45 | Dota 2 Game | IaChIo123 | ✘ | — | — | In play | — |
 | 10-07 05:36 | ITF Women's Match | Amy Stevens | ✘ | — | — | In play | — |
-| 10-07 05:35 | LNBP Basketball Game | Fuerza Regia | ✘ | — | — | In play | — |
+| 10-07 05:35 | LNBP Basketball Game | Fuerza Regia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:29 | ITF Women's Match | Darja Suvirdjonkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:07 | Challenger WTA | Linda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:03 | NHL Game | Los Angeles | ✔ | End of 3rd · FLA 2 - LA 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
-| 10-07 03:05 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
