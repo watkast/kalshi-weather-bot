@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 2:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5115 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5119 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4566 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4569 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,9 +95,9 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 420 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 374 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 342 | 1 | 4% | 3% | -73% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 344 | 1 | 3% | 3% | -73% | -94% | 9 min |
 | Challenger ATP  | ✘ | 259 | 1 | 9% | 2% | -64% | -85% | 5 min |
-| TT Star Series Match | ✘ | 161 | 1 | 2% | 2% | -42% | -96% | 4 min |
+| TT Star Series Match | ✘ | 162 | 1 | 2% | 2% | -42% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 109 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -224,8 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 20:04 | ITF Women's Match | Chukwumelije Clarke | ✘ | — | — | In play | — |
+| 10-07 20:00 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 19:57 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 19:57 | League of Legends Game | The Ruddy Sack | ✘ | — | — | In play | — |
 | 10-07 19:54 | Counter-Strike 2 Game | Noir Verse | ✘ | — | — | In play | — |
-| 10-07 19:54 | Counter-Strike 2 Game | SAW | ✘ | — | — | In play | — |
+| 10-07 19:54 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:52 | National League Game | HC Lausanne | ✘ | — | — | In play | — |
 | 10-07 19:42 | ITF Women's Match | Allegra Korpanec Davies | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-07 19:40 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 18:46 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:46 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:46 | ITF Men's Match | Yannick Baluska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:45 | Counter-Strike 2 Game | STATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:39 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:36 | Men's T20 Cricket Match | England Champions | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 18:36 | Russia VTB United Game | Parma Permsky Kray | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
