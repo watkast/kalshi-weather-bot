@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 545 finished bets | 1% | -$39.75 | -49% | -7.29¢ | -$26.80 / -$12.95 |
 
-*Expect about **54 buys a day**, roughly **$8.15/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.14/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5149 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
+| 5152 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -225,6 +225,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | — | In play | — |
+| 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
+| 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | — | In play | — |
 | 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:02 | Professional Baseball Game | Chicago WS | ✔ | Bot 8th · CLE 7 - CHW 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,9 +255,6 @@
 | 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:20 | EuroCup Basketball Game | Ulm Basketball | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-07 20:11 | Men's T20 Cricket Match | Cochin Hurricanes | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-07 20:11 | EuroCup Basketball Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:07 | ITF Men's Match | Alberto Odiseo Alvarado Berrospi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
