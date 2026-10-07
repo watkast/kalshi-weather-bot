@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 9:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 9:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 534 finished bets | 1% | -$38.10 | -48% | -7.13¢ | -$26.05 / -$12.05 |
 
-*Expect about **58 buys a day**, roughly **$8.74/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4822 | 534 | 3 (1%) | 1.1% | -$38.10 (-48%) | Hold to the end: -$38.10 (-48%) |
+| 4824 | 534 | 3 (1%) | 1.1% | -$38.10 (-48%) | Hold to the end: -$38.10 (-48%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 534 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4283 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4284 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 349 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 350 | 0 | 11% | 5% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -224,7 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | — | In play | — |
+| 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | — | In play | — |
+| 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | — | In play | — |
+| 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 10-07 03:05 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | 15¢ | ❌ Lost | -$0.15 |
 | 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-07 01:00 | League of Legends Game | Estral Esports | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-07 00:58 | ITF Women's Match | Yara Bartashevich | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 00:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · ARU 2 - ATG 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 00:43 | CONCACAF Nations League Game | Aruba | ✔ | 86' · ARU 2 - ATG 2 | 3¢ | ❌ Lost | -$0.15 |
-| 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
