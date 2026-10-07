@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 8:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 8:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 533 finished bets | 1% | -$37.95 | -47% | -7.12¢ | -$25.90 / -$12.05 |
 
-*Expect about **58 buys a day**, roughly **$8.75/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.76/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4818 | 533 | 3 (1%) | 1.1% | -$37.95 (-47%) | Hold to the end: -$37.95 (-47%) |
+| 4820 | 533 | 3 (1%) | 1.1% | -$37.95 (-47%) | Hold to the end: -$37.95 (-47%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 533 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 4278 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4280 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -114,8 +114,8 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 33 | 0 | 6% | 6% | -100% | -89% | 8 min |
+| Brasileiro Serie B Game | ✘ | 32 | 0 | 3% | 0% | -100% | -95% | 13 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
-| Brasileiro Serie B Game | ✘ | 30 | 0 | 3% | 0% | -100% | -94% | 11 min |
 | KHL Game | ✘ | 30 | 0 | 3% | 3% | -100% | -94% | 5 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | ATP Tennis Match | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 3 min |
@@ -224,12 +224,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | — | In play | — |
+| 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | — | In play | — |
 | 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | — | In play | — |
 | 10-07 02:33 | NBA Game | Oklahoma City | ✔ | 20.6 - 4th · NO 116 - OKC 110 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:30 | Major League Soccer Game | Tie | ✔ | 88' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:29 | Major League Soccer Game | Vancouver | ✔ | 87' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:27 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 10-07 02:18 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
+| 10-07 02:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 02:18 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 02:14 | NHL Game | New York I | ✔ | 1:38 - 3rd · NYI 2 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:01 | International Friendly Game | Tie | ✔ | 90'+3' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:51 | NHL Game | Montreal | ✔ | 1:29 - 3rd · CAR 5 - MTL 4 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:27 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
 | 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 00:12 | APF Division de Honor Game | Nacional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 00:12 | APF Division de Honor Game | Olimpia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
