@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 8:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 8:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 529 finished bets | 1% | -$37.35 | -47% | -7.06¢ | -$25.60 / -$11.75 |
 
-*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4811 | 529 | 3 (1%) | 1.1% | -$37.35 (-47%) | Hold to the end: -$37.35 (-47%) |
+| 4813 | 529 | 3 (1%) | 1.1% | -$37.35 (-47%) | Hold to the end: -$37.35 (-47%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -224,6 +224,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 02:18 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
+| 10-07 02:14 | NHL Game | New York I | ✔ | 1:38 - 3rd · NYI 2 - NYR 3 | — | In play | — |
 | 10-07 02:01 | International Friendly Game | Tie | ✔ | 90'+3' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:51 | NHL Game | Montreal | ✔ | 1:29 - 3rd · CAR 5 - MTL 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:47 | International Friendly Game | Canada | ✔ | 80' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-06 23:39 | ITF Women's Match | Jo-Yee Chan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:33 | International Friendly Game | Benin | ✔ | 2' · BEN 0 - ARG 0 | 3¢ | ❌ Lost | -$0.15 |
 | 10-06 23:31 | International Friendly Game | Tie | ✔ | 1' · BEN 0 - ARG 0 | 9¢ | ❌ Lost | -$0.15 |
-| 10-06 23:22 | League of Legends Game | Fuego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 23:14 | Women's College Volleyball Match | Davidson | ✘ | — | — | In play | — |
 
 ## Raw data
 
