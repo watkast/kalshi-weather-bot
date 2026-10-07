@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.56/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4929 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4934 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4381 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4382 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | League of Legends Game | ✘ | 106 | 0 | 7% | 3% | -100% | -89% | 11 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 84 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 85 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 28 min |
@@ -224,7 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 11:26 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
+| 10-07 11:35 | ITF Women's Match | Agnese Gentili | ✘ | — | — | In play | — |
+| 10-07 11:33 | ITF Women's Match | Simona Ogescu | ✘ | — | — | In play | — |
+| 10-07 11:33 | ITF Men's Match | Rodrigo Alujas | ✘ | — | — | In play | — |
+| 10-07 11:33 | Counter-Strike 2 Game | STATE | ✘ | — | — | In play | — |
+| 10-07 11:28 | ITF Women's Match | Victoria Kapcia | ✘ | — | — | In play | — |
+| 10-07 11:26 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:23 | Challenger WTA | Noma Noha Akugue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:12 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:09 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,11 +254,6 @@
 | 10-07 10:32 | ITF Men's Match | Stefan Ilie Bogdan Petre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:29 | ITF Women's Match | Denislava Glushkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:28 | ITF Men's Match | Allan Gatoto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:26 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-07 10:24 | Australia NBL Game | Adelaide 36ers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:20 | ITF Women's Match | Ksenia Meshcheryakova | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-07 10:12 | ITF Women's Match | Tilwith Di Girolami | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:11 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
