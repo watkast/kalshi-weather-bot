@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 1:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **58 buys a day**, roughly **$8.71/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4870 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4318 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4322 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 363 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 310 | 1 | 10% | 6% | -70% | -83% | 5 min |
+| ITF Women's Match | ✘ | 365 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 311 | 1 | 10% | 6% | -70% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 253 | 1 | 9% | 2% | -63% | -85% | 5 min |
-| TT Star Series Match | ✘ | 143 | 1 | 3% | 3% | -35% | -95% | 4 min |
+| TT Star Series Match | ✘ | 144 | 1 | 3% | 3% | -35% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 104 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -224,10 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 07:47 | ITF Men's Match | Tsung-Hao Huang | ✘ | — | — | In play | — |
-| 10-07 07:43 | TT Star Series Match | Mühlbach Carlos | ✘ | — | — | In play | — |
-| 10-07 07:43 | ITF Women's Match | Liliya Piskun | ✘ | — | — | In play | — |
-| 10-07 07:43 | ITF Women's Match | Jeong Moon | ✘ | — | — | In play | — |
+| 10-07 07:47 | ITF Men's Match | Tsung-Hao Huang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 07:43 | TT Star Series Match | Mühlbach Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 07:43 | ITF Women's Match | Liliya Piskun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 07:43 | ITF Women's Match | Jeong Moon | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 07:23 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | — | In play | — |
 | 10-07 07:16 | ITF Men's Match | Kuan-Yi Lee | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:15 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
