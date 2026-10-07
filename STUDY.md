@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 9:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 538 finished bets | 1% | -$38.70 | -48% | -7.19¢ | -$26.35 / -$12.35 |
 
-*Expect about **59 buys a day**, roughly **$8.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4833 | 538 | 3 (1%) | 1.1% | -$38.70 (-48%) | Hold to the end: -$38.70 (-48%) |
+| 4834 | 538 | 3 (1%) | 1.1% | -$38.70 (-48%) | Hold to the end: -$38.70 (-48%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 538 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4288 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4289 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -134,9 +134,9 @@
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
+| LNBP Basketball Game | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 16 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| LNBP Basketball Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 14 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -224,13 +224,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 04:04 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
 | 10-07 03:52 | NBA Game | Los Angeles L | ✔ | 3:56 - 3rd · LAL 65 - GS 91 | — | In play | — |
 | 10-07 03:48 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · BLZ 0 - GUF 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:46 | Challenger ATP  | Marat Sharipov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:44 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
 | 10-07 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · BLZ 0 - GUF 0 | 3¢ | ❌ Lost | -$0.15 |
 | 10-07 03:35 | ITF Women's Match | Elyse Tse | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 10-07 03:33 | LNBP Basketball Game | Santos Del Potosi | ✘ | — | — | In play | — |
+| 10-07 03:33 | LNBP Basketball Game | Santos Del Potosi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:30 | NBA Game | Utah | ✔ | 1:35 - 4th · DEN 111 - UTAH 101 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:28 | ITF Women's Match | Kanon Sawashiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | — | In play | — |
@@ -253,7 +254,6 @@
 | 10-07 01:45 | NHL Game | Nashville | ✔ | 0:25 - OT · NSH 4 - TOR 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:42 | NHL Game | Minnesota | ✔ | 0:48 - OT · MIN 2 - BUF 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:39 | NHL Game | Ottawa | ✔ | 0:57 - 3rd · OTT 3 - DET 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:33 | College Football Game | Southern Miss | ✔ | 0:21 - 2nd · USM 7 - TROY 30 | 10¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
