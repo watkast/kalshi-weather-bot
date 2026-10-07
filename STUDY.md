@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 4:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 4:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **54 buys a day**, roughly **$8.17/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.16/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5145 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5147 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4595 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4596 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -178,8 +178,8 @@
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
+| Men's ODI Cricket Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
-| Men's ODI Cricket Match | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -225,6 +225,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
+| 10-07 22:47 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
 | 10-07 22:31 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | — | In play | — |
 | 10-07 22:15 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:45 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
@@ -235,7 +237,7 @@
 | 10-07 21:23 | Challenger ATP  | Nick Hardt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:19 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:16 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:11 | Men's ODI Cricket Match | Namibia | ✘ | — | — | In play | — |
+| 10-07 21:11 | Men's ODI Cricket Match | Namibia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 21:07 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:58 | ITF Women's Match | Sahaja Yamalapalli | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 20:57 | ITF Women's Match | McKenna Schaefbauer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,8 +255,6 @@
 | 10-07 20:07 | ITF Men's Match | Alberto Odiseo Alvarado Berrospi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:04 | ITF Women's Match | Chukwumelije Clarke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:00 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:57 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:57 | League of Legends Game | The Ruddy Sack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
