@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.52/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.51/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4982 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4984 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4427 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4429 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 | ITF Women's Match | ✘ | 393 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 342 | 1 | 9% | 6% | -73% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 315 | 1 | 3% | 3% | -70% | -94% | 9 min |
-| Challenger ATP  | ✘ | 255 | 1 | 9% | 2% | -63% | -84% | 5 min |
-| TT Star Series Match | ✘ | 151 | 1 | 3% | 3% | -38% | -95% | 4 min |
+| Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
+| TT Star Series Match | ✘ | 152 | 1 | 3% | 3% | -39% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 107 | 0 | 7% | 3% | -100% | -89% | 11 min |
@@ -224,11 +224,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 12:43 | Challenger ATP  | Zdenek Kolar | ✘ | — | — | In play | — |
+| 10-07 12:54 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
+| 10-07 12:48 | ITF Men's Match | Karl Friberg | ✘ | — | — | In play | — |
+| 10-07 12:43 | Challenger ATP  | Zdenek Kolar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:43 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:42 | China League 1 Game | Tie | ✘ | — | — | In play | — |
 | 10-07 12:42 | ITF Men's Match | Shintaro Imai | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 12:41 | TT Star Series Match | Franco Carlos | ✘ | — | — | In play | — |
+| 10-07 12:41 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:40 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | — | In play | — |
 | 10-07 12:40 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | — | In play | — |
 | 10-07 12:38 | KBO Game | Samsung Lions | ✘ | — | — | In play | — |
@@ -252,8 +254,6 @@
 | 10-07 12:18 | ITF Women's Match | Gabriella Price | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:16 | ITF Men's Match | LUCCA LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:16 | ITF Men's Match | Robin Eldin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:10 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:10 | ITF Women's Match | Nellie Taraba Wallberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
