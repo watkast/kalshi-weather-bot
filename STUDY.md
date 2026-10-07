@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 2:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 3:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **55 buys a day**, roughly **$8.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.22/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5130 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5133 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4581 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4584 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 421 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 423 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 347 | 1 | 3% | 3% | -73% | -94% | 9 min |
 | Challenger ATP  | ✘ | 260 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -104,7 +104,7 @@
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 62 | 0 | 16% | 6% | -100% | -72% | 20 min |
+| Men's T20 Cricket Match | ✘ | 63 | 0 | 17% | 6% | -100% | -70% | 20 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Dota 2 Game | ✘ | 58 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -224,7 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 20:50 | ITF Women's Match | Emma Ottavia Ghirardato | ✘ | — | — | In play | — |
+| 10-07 20:58 | ITF Women's Match | Sahaja Yamalapalli | ✘ | — | — | In play | — |
+| 10-07 20:57 | ITF Women's Match | McKenna Schaefbauer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 20:56 | ITF Women's Match | Natalie Kha | ✘ | — | — | In play | — |
+| 10-07 20:50 | ITF Women's Match | Emma Ottavia Ghirardato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:45 | Euroleague Game | Paris Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:33 | Counter-Strike 2 Game | Metizport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:31 | Dota 2 Game | CyberHero | ✘ | — | — | In play | — |
@@ -232,7 +235,7 @@
 | 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:20 | EuroCup Basketball Game | Ulm Basketball | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-07 20:11 | Men's T20 Cricket Match | Cochin Hurricanes | ✘ | — | — | In play | — |
+| 10-07 20:11 | Men's T20 Cricket Match | Cochin Hurricanes | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-07 20:11 | EuroCup Basketball Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:07 | ITF Men's Match | Alberto Odiseo Alvarado Berrospi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:04 | ITF Women's Match | Chukwumelije Clarke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 19:30 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:20 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:18 | TT Star Series Match | Keshavarzi Amirmahdi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:16 | Counter-Strike 2 Game | Vexar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:14 | Challenger ATP  | Guido Ivan Justo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:12 | ITF Women's Match | Ema Burgic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
