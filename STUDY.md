@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 5149 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 545 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4600 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4601 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 425 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 426 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 354 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -225,7 +225,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | — | In play | — |
+| 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:02 | Professional Baseball Game | Chicago WS | ✔ | Bot 8th · CLE 7 - CHW 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
