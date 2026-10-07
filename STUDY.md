@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5080 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5081 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4532 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4533 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -131,9 +131,9 @@
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | National League Game | ✘ | 22 | 1 | 5% | 5% | +324% | -92% | 5 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
+| Liiga Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Liiga Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Euroleague Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -224,8 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 18:23 | Counter-Strike 2 Game | Rebels Gaming | ✘ | — | — | In play | — |
 | 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | — | In play | — |
-| 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | — | In play | — |
+| 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:05 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
 | 10-07 18:01 | ITF Women's Match | Valentina Steiner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:00 | ITF Men's Match | Gray Voelzke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 14:57 | KHL Game | Sibir Novosibirsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:50 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:48 | ITF Women's Match | Chenting Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:48 | ITF Women's Match | Iveta Dapkute | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
