@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 1:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5108 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5112 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4557 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4562 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 416 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 417 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 374 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 339 | 1 | 4% | 3% | -72% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 341 | 1 | 4% | 3% | -73% | -94% | 9 min |
 | Challenger ATP  | ✘ | 259 | 1 | 9% | 2% | -64% | -85% | 5 min |
-| TT Star Series Match | ✘ | 160 | 1 | 2% | 2% | -42% | -96% | 4 min |
+| TT Star Series Match | ✘ | 161 | 1 | 2% | 2% | -42% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 109 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -122,7 +122,7 @@
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
-| EuroCup Basketball Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| EuroCup Basketball Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | LNBP Basketball Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 12 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -224,12 +224,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 19:33 | Counter-Strike 2 Game | Reveal | ✘ | — | — | In play | — |
-| 10-07 19:32 | ITF Women's Match | Anne Christine Lutkemeyer | ✘ | — | — | In play | — |
+| 10-07 19:42 | ITF Women's Match | Allegra Korpanec Davies | ✘ | — | — | In play | — |
+| 10-07 19:40 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 19:36 | EuroCup Basketball Game | Le Mans Sarthe Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 19:35 | ITF Women's Match | Mimi Xu | ✘ | — | — | In play | — |
+| 10-07 19:33 | Counter-Strike 2 Game | Reveal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 19:32 | ITF Women's Match | Anne Christine Lutkemeyer | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-07 19:30 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
 | 10-07 19:20 | League of Legends Game | Unicorns Of Love Sexy Edition | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:18 | TT Star Series Match | Keshavarzi Amirmahdi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:16 | Counter-Strike 2 Game | Vexar | ✘ | — | — | In play | — |
+| 10-07 19:16 | Counter-Strike 2 Game | Vexar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:14 | Challenger ATP  | Guido Ivan Justo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:12 | ITF Women's Match | Ema Burgic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:11 | Counter-Strike 2 Game | The Last Resort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 18:33 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:27 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
 | 10-07 18:25 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:24 | EuroCup Basketball Game | CB San Pablo Burgos | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 18:23 | Counter-Strike 2 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
