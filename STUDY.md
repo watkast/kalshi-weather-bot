@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 7:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 7:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 519 finished bets | 1% | -$35.85 | -46% | -6.91¢ | -$24.85 / -$11.00 |
+| ESPN-verified leagues only, hold to the end | 521 finished bets | 1% | -$36.15 | -46% | -6.94¢ | -$25.00 / -$11.15 |
 
-*Expect about **57 buys a day**, roughly **$8.60/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.62/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 519 | -$44.10 | -57% |
-| ESPN-verified leagues only, sell at 25¢ | 519 | -$57.99 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 519 | -$59.13 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 521 | -$44.40 | -57% |
+| ESPN-verified leagues only, sell at 25¢ | 521 | -$58.29 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 521 | -$58.91 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4803 | 519 | 3 (1%) | 1.1% | -$35.85 (-46%) | Hold to the end: -$35.85 (-46%) |
+| 4805 | 521 | 3 (1%) | 1.1% | -$36.15 (-46%) | Hold to the end: -$36.15 (-46%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 519 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4275 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 521 | 14% | 9% | 6% | 2% | 1% | 1% |
+| Unverified | 4278 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$35.85 | -46% |
-| Sell at 2¢ | 72 | 14% | -$59.13 | -76% |
-| Sell at 3¢ | 46 | 9% | -$59.91 | -77% |
-| Sell at 5¢ | 28 | 5% | -$59.65 | -77% |
-| Sell at 10¢ | 13 | 3% | -$60.82 | -78% |
-| Sell at 25¢ | 6 | 1% | -$57.99 | -74% |
-| Sell at 50¢ | 5 | 1% | -$44.10 | -57% |
+| Hold to the end | 3 | 1% | -$36.15 | -46% |
+| Sell at 2¢ | 74 | 14% | -$58.91 | -75% |
+| Sell at 3¢ | 48 | 9% | -$59.43 | -76% |
+| Sell at 5¢ | 29 | 6% | -$59.30 | -76% |
+| Sell at 10¢ | 13 | 2% | -$61.12 | -78% |
+| Sell at 25¢ | 6 | 1% | -$58.29 | -75% |
+| Sell at 50¢ | 5 | 1% | -$44.40 | -57% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 347 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 348 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -105,8 +105,8 @@
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
+| International Friendly Game | partly | 55 | 1 | 16% | 7% | +70% | -72% | 18 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
-| International Friendly Game | partly | 53 | 1 | 13% | 6% | +76% | -77% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -115,12 +115,12 @@
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 33 | 0 | 6% | 6% | -100% | -89% | 8 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
+| Brasileiro Serie B Game | ✘ | 30 | 0 | 3% | 0% | -100% | -94% | 11 min |
 | KHL Game | ✘ | 30 | 0 | 3% | 3% | -100% | -94% | 5 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | ATP Tennis Match | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 3 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
-| Brasileiro Serie B Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
@@ -206,7 +206,7 @@
 | 5–15 min | 99 | 14% | 4% | 1% | -75% |
 | 15–30 min | 86 | 28% | 12% | 2% | -52% |
 | 30–60 min | 67 | 13% | 6% | 0% | -77% |
-| Over 60 min | 63 | 17% | 13% | 0% | -70% |
+| Over 60 min | 65 | 20% | 14% | 0% | -65% |
 
 ## Speed & liquidity
 
@@ -224,9 +224,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 01:28 | ITF Women's Match | Ya Yi Yang | ✘ | — | — | In play | — |
-| 10-07 01:24 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 10-07 01:20 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | — | In play | — |
+| 10-07 01:39 | NHL Game | Ottawa | ✔ | 0:57 - 3rd · OTT 3 - DET 4 | — | In play | — |
+| 10-07 01:33 | College Football Game | Southern Miss | ✔ | 0:21 - 2nd · USM 7 - TROY 30 | — | In play | — |
+| 10-07 01:28 | ITF Women's Match | Ya Yi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 01:24 | Brasileiro Serie B Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-07 01:20 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:17 | ITF Women's Match | Amelie Justine Hejtmanek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:07 | Professional Baseball Game | Atlanta | ✔ | Bot 9th · LAD 3 - ATL 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:07 | NBA Game | Charlotte | ✔ | 8:08 - 4th · BKN 102 - CHA 77 | — | In play | — |
@@ -242,8 +244,8 @@
 | 10-07 00:10 | ITF Women's Match | Alina Shcherbinina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:42 | ITF Women's Match | Ekaterina Maklakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:39 | ITF Women's Match | Jo-Yee Chan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 23:33 | International Friendly Game | Benin | ✔ | 2' · BEN 0 - ARG 0 | — | In play | — |
-| 10-06 23:31 | International Friendly Game | Tie | ✔ | 1' · BEN 0 - ARG 0 | — | In play | — |
+| 10-06 23:33 | International Friendly Game | Benin | ✔ | 2' · BEN 0 - ARG 0 | 3¢ | ❌ Lost | -$0.15 |
+| 10-06 23:31 | International Friendly Game | Tie | ✔ | 1' · BEN 0 - ARG 0 | 9¢ | ❌ Lost | -$0.15 |
 | 10-06 23:22 | League of Legends Game | Fuego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:14 | Women's College Volleyball Match | Davidson | ✘ | — | — | In play | — |
 | 10-06 22:23 | Challenger ATP  | Nicolas Villalon Valdes | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-06 21:43 | APF Division de Honor Game | Tie | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-06 21:39 | ITF Women's Match | Krisha Mahendran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-06 21:10 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 21:09 | CONCACAF Nations League Game | Tie | ✔ | 48' · TCA 0 - MSR 2 | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
