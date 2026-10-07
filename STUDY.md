@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.51/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.50/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4993 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5002 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4434 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4444 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 393 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 344 | 1 | 9% | 6% | -73% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 315 | 1 | 3% | 3% | -70% | -94% | 9 min |
+| ITF Women's Match | ✘ | 396 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 348 | 1 | 9% | 5% | -73% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 316 | 1 | 3% | 3% | -70% | -94% | 9 min |
 | Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
 | TT Star Series Match | ✘ | 152 | 1 | 3% | 3% | -39% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -113,7 +113,7 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| KBO Game | ✘ | 37 | 0 | 5% | 5% | -100% | -91% | 6 min |
+| KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | Brasileiro Serie B Game | ✘ | 32 | 0 | 3% | 0% | -100% | -95% | 13 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
@@ -186,8 +186,8 @@
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
+| Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Women's T20 Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 37 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -224,16 +224,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 13:08 | ITF Women's Match | Justina Mikulskyte | ✘ | — | — | In play | — |
-| 10-07 13:07 | ITF Men's Match | Remy Dugardin | ✘ | — | — | In play | — |
-| 10-07 13:06 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | — | In play | — |
+| 10-07 13:18 | ITF Women's Match | Nina Rudiukova | ✘ | — | — | In play | — |
+| 10-07 13:18 | China League 1 Game | Guangxi Hengchen FC | ✘ | — | — | In play | — |
+| 10-07 13:17 | Men's T20 Cricket Match | Garden Route Badgers | ✘ | — | — | In play | — |
+| 10-07 13:16 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | — | In play | — |
+| 10-07 13:12 | ITF Men's Match | Nicholas Campbell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:12 | ITF Women's Match | Gina Feistel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:10 | ITF Men's Match | Aleksa Ciric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:09 | China League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-07 13:08 | ITF Women's Match | Angelica Sara | ✘ | — | — | In play | — |
+| 10-07 13:08 | ITF Women's Match | Justina Mikulskyte | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-07 13:07 | ITF Men's Match | Remy Dugardin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:06 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:04 | ITF Women's Match | Sara Saad | ✘ | — | — | In play | — |
 | 10-07 13:04 | China League 1 Game | Nanjing City | ✘ | — | — | In play | — |
-| 10-07 13:03 | ITF Women's Match | Alja Senica | ✘ | — | — | In play | — |
+| 10-07 13:03 | ITF Women's Match | Alja Senica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:03 | Darts Match | Steve Lennon | ✘ | — | — | In play | — |
-| 10-07 13:02 | ITF Men's Match | Michiel De Krom | ✘ | — | — | In play | — |
+| 10-07 13:02 | ITF Men's Match | Michiel De Krom | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:01 | ITF Men's Match | Roan Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:54 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
+| 10-07 12:54 | Women's T20 Match | Zimbabwe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:48 | ITF Men's Match | Karl Friberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:43 | Challenger ATP  | Zdenek Kolar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:43 | Japan NPB Game | Hiroshima Toyo Carp | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -243,17 +252,8 @@
 | 10-07 12:40 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 12:40 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | — | In play | — |
 | 10-07 12:38 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:37 | KBO Game | Lotte Giants | ✘ | — | — | In play | — |
+| 10-07 12:37 | KBO Game | Lotte Giants | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 12:35 | ITF Women's Match | Kitti Molnar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:33 | KBO Game | NC Dinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:32 | ITF Women's Match | Laura Pigossi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:30 | ITF Men's Match | Benjamin Gusic Wan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:30 | Dota 2 Game | Yellow Submarine | ✘ | — | — | In play | — |
-| 10-07 12:30 | ITF Women's Match | Dunja Maric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:30 | ITF Women's Match | Lia Karatancheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:27 | ITF Men's Match | Yurii Dzhavakian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:26 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:26 | KBO Game | Hanwha Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
