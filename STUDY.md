@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4934 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4938 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4382 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4384 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 377 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 379 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 330 | 1 | 9% | 5% | -72% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 310 | 1 | 4% | 3% | -70% | -94% | 9 min |
 | Challenger ATP  | ✘ | 254 | 1 | 9% | 2% | -63% | -84% | 5 min |
@@ -224,11 +224,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 11:35 | ITF Women's Match | Agnese Gentili | ✘ | — | — | In play | — |
+| 10-07 11:46 | TT Star Series Match | Loso Sebastian | ✘ | — | — | In play | — |
+| 10-07 11:45 | ITF Women's Match | Carlota Martinez Cirez | ✘ | — | — | In play | — |
+| 10-07 11:41 | Darts Match | Conor Heneghan | ✘ | — | — | In play | — |
+| 10-07 11:39 | ITF Women's Match | Enola Chiesa | ✘ | — | — | In play | — |
+| 10-07 11:35 | ITF Women's Match | Agnese Gentili | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:33 | ITF Women's Match | Simona Ogescu | ✘ | — | — | In play | — |
 | 10-07 11:33 | ITF Men's Match | Rodrigo Alujas | ✘ | — | — | In play | — |
 | 10-07 11:33 | Counter-Strike 2 Game | STATE | ✘ | — | — | In play | — |
-| 10-07 11:28 | ITF Women's Match | Victoria Kapcia | ✘ | — | — | In play | — |
+| 10-07 11:28 | ITF Women's Match | Victoria Kapcia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:26 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:23 | Challenger WTA | Noma Noha Akugue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:12 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 10:45 | ITF Women's Match | Giulia Safina Popa | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 10:40 | ITF Women's Match | Angela Fita Boluda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:34 | ITF Men's Match | Vincent Dullinger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:33 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:32 | ITF Men's Match | Stefan Ilie Bogdan Petre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:29 | ITF Women's Match | Denislava Glushkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:28 | ITF Men's Match | Allan Gatoto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
