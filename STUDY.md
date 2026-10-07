@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 9:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 9:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 534 finished bets | 1% | -$38.10 | -48% | -7.13¢ | -$26.05 / -$12.05 |
+| ESPN-verified leagues only, hold to the end | 535 finished bets | 1% | -$38.25 | -48% | -7.15¢ | -$26.05 / -$12.20 |
 
-*Expect about **58 buys a day**, roughly **$8.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 534 | -$46.35 | -58% |
-| ESPN-verified leagues only, sell at 25¢ | 534 | -$60.24 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 534 | -$60.60 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 535 | -$46.50 | -58% |
+| ESPN-verified leagues only, sell at 25¢ | 535 | -$60.39 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 535 | -$60.75 | -76% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4827 | 534 | 3 (1%) | 1.1% | -$38.10 (-48%) | Hold to the end: -$38.10 (-48%) |
+| 4830 | 535 | 3 (1%) | 1.1% | -$38.25 (-48%) | Hold to the end: -$38.25 (-48%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 102 | 2.5% | 0.0% (0) | -205% | ❌ Worse |
+| ESPN win probability | 103 | 2.5% | 0.0% (0) | -202% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 102 | 0 | -100% | -75% | -75% | -79% |
+| **Any 1¢ (no model)** | 103 | 0 | -100% | -75% | -75% | -79% |
 | ESPN win probability ≥ 2% | 21 | 0 | -100% | -67% | -63% | -100% |
 | ESPN win probability ≥ 5% | 7 | 0 | -100% | -75% | -63% | -100% |
 | ESPN win probability ≥ 10% | 4 | 0 | -100% | -57% | -35% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 534 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4285 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 535 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 4287 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$38.10 | -48% |
-| Sell at 2¢ | 75 | 14% | -$60.60 | -76% |
-| Sell at 3¢ | 49 | 9% | -$60.99 | -76% |
-| Sell at 5¢ | 30 | 6% | -$60.60 | -76% |
-| Sell at 10¢ | 14 | 3% | -$61.76 | -77% |
-| Sell at 25¢ | 6 | 1% | -$60.24 | -75% |
-| Sell at 50¢ | 5 | 1% | -$46.35 | -58% |
+| Hold to the end | 3 | 1% | -$38.25 | -48% |
+| Sell at 2¢ | 75 | 14% | -$60.75 | -76% |
+| Sell at 3¢ | 49 | 9% | -$61.14 | -76% |
+| Sell at 5¢ | 30 | 6% | -$60.75 | -76% |
+| Sell at 10¢ | 14 | 3% | -$61.91 | -77% |
+| Sell at 25¢ | 6 | 1% | -$60.39 | -75% |
+| Sell at 50¢ | 5 | 1% | -$46.50 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 351 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 352 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -136,9 +136,9 @@
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| LNBP Basketball Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 14 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| LNBP Basketball Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 12 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -155,6 +155,7 @@
 | Professional Baseball Game | partly | 12 | 0 | 17% | 8% | -100% | -71% | 3 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| NBA Game | ✔ | 11 | 0 | 9% | 0% | -100% | -84% | 12 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Slovakia SBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
@@ -162,7 +163,6 @@
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
-| NBA Game | ✔ | 10 | 0 | 10% | 0% | -100% | -83% | 14 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
@@ -202,7 +202,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 209 | 7% | 1% | 0% | -88% |
+| Under 5 min | 210 | 7% | 1% | 0% | -88% |
 | 5–15 min | 104 | 14% | 5% | 1% | -75% |
 | 15–30 min | 88 | 27% | 11% | 2% | -53% |
 | 30–60 min | 67 | 13% | 6% | 0% | -77% |
@@ -224,11 +224,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 03:44 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
+| 10-07 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · BLZ 0 - GUF 0 | — | In play | — |
+| 10-07 03:35 | ITF Women's Match | Elyse Tse | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 10-07 03:33 | LNBP Basketball Game | Santos Del Potosi | ✘ | — | — | In play | — |
-| 10-07 03:30 | NBA Game | Utah | ✔ | 1:35 - 4th · DEN 111 - UTAH 101 | — | In play | — |
+| 10-07 03:30 | NBA Game | Utah | ✔ | 1:35 - 4th · DEN 111 - UTAH 101 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:28 | ITF Women's Match | Kanon Sawashiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | — | In play | — |
-| 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | — | In play | — |
+| 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 10-07 03:05 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | 15¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 01:28 | ITF Women's Match | Ya Yi Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:24 | Brasileiro Serie B Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 01:20 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:17 | ITF Women's Match | Amelie Justine Hejtmanek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:07 | Professional Baseball Game | Atlanta | ✔ | Bot 9th · LAD 3 - ATL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:07 | NBA Game | Charlotte | ✔ | 8:08 - 4th · BKN 102 - CHA 77 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
