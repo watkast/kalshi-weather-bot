@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 6:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 6:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 516 finished bets | 1% | -$35.40 | -46% | -6.86¢ | -$24.70 / -$10.70 |
 
-*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.56/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 4793 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4270 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4272 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -120,8 +120,8 @@
 | ATP Tennis Match | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 3 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
+| Brasileiro Serie B Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
-| Brasileiro Serie B Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
@@ -224,9 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:27 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
-| 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | — | In play | — |
+| 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:12 | APF Division de Honor Game | Nacional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:12 | APF Division de Honor Game | Olimpia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:10 | ITF Women's Match | Alina Shcherbinina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
