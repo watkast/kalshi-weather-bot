@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 6:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 6:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 516 finished bets | 1% | -$35.40 | -46% | -6.86¢ | -$24.70 / -$10.70 |
+| ESPN-verified leagues only, hold to the end | 518 finished bets | 1% | -$35.70 | -46% | -6.89¢ | -$24.85 / -$10.85 |
 
-*Expect about **57 buys a day**, roughly **$8.57/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.58/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 516 | -$43.65 | -56% |
-| ESPN-verified leagues only, sell at 25¢ | 516 | -$57.54 | -74% |
-| ESPN-verified leagues only, sell at 2¢ | 516 | -$58.94 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 518 | -$43.95 | -57% |
+| ESPN-verified leagues only, sell at 25¢ | 518 | -$57.84 | -74% |
+| ESPN-verified leagues only, sell at 2¢ | 518 | -$58.98 | -76% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4794 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
+| 4796 | 518 | 3 (1%) | 1.1% | -$35.70 (-46%) | Hold to the end: -$35.70 (-46%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
+| Verified | 518 | 14% | 9% | 5% | 3% | 1% | 1% |
 | Unverified | 4272 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$35.40 | -46% |
-| Sell at 2¢ | 71 | 14% | -$58.94 | -76% |
-| Sell at 3¢ | 45 | 9% | -$59.85 | -77% |
-| Sell at 5¢ | 28 | 5% | -$59.20 | -76% |
-| Sell at 10¢ | 13 | 3% | -$60.37 | -78% |
-| Sell at 25¢ | 6 | 1% | -$57.54 | -74% |
-| Sell at 50¢ | 5 | 1% | -$43.65 | -56% |
+| Hold to the end | 3 | 1% | -$35.70 | -46% |
+| Sell at 2¢ | 72 | 14% | -$58.98 | -76% |
+| Sell at 3¢ | 46 | 9% | -$59.76 | -77% |
+| Sell at 5¢ | 28 | 5% | -$59.50 | -77% |
+| Sell at 10¢ | 13 | 3% | -$60.67 | -78% |
+| Sell at 25¢ | 6 | 1% | -$57.84 | -74% |
+| Sell at 50¢ | 5 | 1% | -$43.95 | -57% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -99,7 +99,7 @@
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| CONCACAF Nations League Game | partly | 104 | 2 | 19% | 8% | +79% | -67% | 20 min |
+| CONCACAF Nations League Game | partly | 106 | 2 | 20% | 8% | +76% | -66% | 20 min |
 | League of Legends Game | ✘ | 103 | 0 | 6% | 2% | -100% | -90% | 11 min |
 | College Football Game | partly | 97 | 2 | 13% | 5% | +92% | -77% | 46 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
@@ -202,8 +202,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 201 | 7% | 1% | 0% | -88% |
-| 5–15 min | 98 | 13% | 4% | 1% | -77% |
+| Under 5 min | 202 | 7% | 1% | 0% | -88% |
+| 5–15 min | 99 | 14% | 4% | 1% | -75% |
 | 15–30 min | 86 | 28% | 12% | 2% | -52% |
 | 30–60 min | 67 | 13% | 6% | 0% | -77% |
 | Over 60 min | 63 | 17% | 13% | 0% | -70% |
@@ -224,7 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 00:43 | CONCACAF Nations League Game | Aruba | ✔ | 86' · ARU 2 - ATG 2 | — | In play | — |
+| 10-07 00:58 | ITF Women's Match | Yara Bartashevich | ✘ | — | — | In play | — |
+| 10-07 00:52 | CONCACAF Nations League Game | Tie | ✔ | 90'+5' · ARU 2 - ATG 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 00:43 | CONCACAF Nations League Game | Aruba | ✔ | 86' · ARU 2 - ATG 2 | 3¢ | ❌ Lost | -$0.15 |
 | 10-07 00:27 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 00:27 | Women's College Volleyball Match | North Carolina Greensboro | ✘ | — | — | In play | — |
 | 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-06 20:49 | CONCACAF Nations League Game | Turks and Caicos Islands | ✔ | 45'+4' · TCA 0 - MSR 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:42 | EuroCup Basketball Game | CB 1939 Canarias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 20:38 | CONCACAF Nations League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:38 | ITF Men's Match | Bernardo Casares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:37 | ITF Women's Match | Kylie Collins | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
