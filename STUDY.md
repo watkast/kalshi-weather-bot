@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 8:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 9:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 533 finished bets | 1% | -$37.95 | -47% | -7.12¢ | -$25.90 / -$12.05 |
+| ESPN-verified leagues only, hold to the end | 534 finished bets | 1% | -$38.10 | -48% | -7.13¢ | -$26.05 / -$12.05 |
 
-*Expect about **58 buys a day**, roughly **$8.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 533 | -$46.20 | -58% |
-| ESPN-verified leagues only, sell at 25¢ | 533 | -$60.09 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 533 | -$60.71 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 534 | -$46.35 | -58% |
+| ESPN-verified leagues only, sell at 25¢ | 534 | -$60.24 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 534 | -$60.60 | -76% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4820 | 533 | 3 (1%) | 1.1% | -$37.95 (-47%) | Hold to the end: -$37.95 (-47%) |
+| 4820 | 534 | 3 (1%) | 1.1% | -$38.10 (-48%) | Hold to the end: -$38.10 (-48%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 533 | 14% | 9% | 5% | 2% | 1% | 1% |
-| Unverified | 4280 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 534 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 4282 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$37.95 | -47% |
-| Sell at 2¢ | 74 | 14% | -$60.71 | -76% |
-| Sell at 3¢ | 48 | 9% | -$61.23 | -77% |
-| Sell at 5¢ | 29 | 5% | -$61.10 | -76% |
-| Sell at 10¢ | 13 | 2% | -$62.92 | -79% |
-| Sell at 25¢ | 6 | 1% | -$60.09 | -75% |
-| Sell at 50¢ | 5 | 1% | -$46.20 | -58% |
+| Hold to the end | 3 | 1% | -$38.10 | -48% |
+| Sell at 2¢ | 75 | 14% | -$60.60 | -76% |
+| Sell at 3¢ | 49 | 9% | -$60.99 | -76% |
+| Sell at 5¢ | 30 | 6% | -$60.60 | -76% |
+| Sell at 10¢ | 14 | 3% | -$61.76 | -77% |
+| Sell at 25¢ | 6 | 1% | -$60.24 | -75% |
+| Sell at 50¢ | 5 | 1% | -$46.35 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -108,9 +108,9 @@
 | International Friendly Game | partly | 57 | 1 | 16% | 7% | +64% | -73% | 17 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
+| Challenger WTA | ✘ | 51 | 0 | 18% | 10% | -100% | -69% | 8 min |
+| NHL Game | ✔ | 50 | 0 | 14% | 6% | -100% | -76% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| NHL Game | ✔ | 49 | 0 | 12% | 4% | -100% | -79% | 4 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 33 | 0 | 6% | 6% | -100% | -89% | 8 min |
@@ -138,10 +138,10 @@
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | Liiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LNBP Basketball Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 12 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
-| LNBP Basketball Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 12 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
@@ -203,7 +203,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 209 | 7% | 1% | 0% | -88% |
-| 5–15 min | 103 | 14% | 4% | 1% | -76% |
+| 5–15 min | 104 | 14% | 5% | 1% | -75% |
 | 15–30 min | 88 | 27% | 11% | 2% | -53% |
 | 30–60 min | 67 | 13% | 6% | 0% | -77% |
 | Over 60 min | 65 | 20% | 14% | 0% | -65% |
@@ -224,9 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | — | In play | — |
-| 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | — | In play | — |
-| 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | — | In play | — |
+| 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | 15¢ | ❌ Lost | -$0.15 |
+| 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:33 | NBA Game | Oklahoma City | ✔ | 20.6 - 4th · NO 116 - OKC 110 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:30 | Major League Soccer Game | Tie | ✔ | 88' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:29 | Major League Soccer Game | Vancouver | ✔ | 87' · VAN 1 - CHI 2 | 0¢ | ❌ Lost | -$0.15 |
