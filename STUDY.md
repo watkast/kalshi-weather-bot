@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.30/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5085 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5088 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4536 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4539 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 415 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 372 | 1 | 9% | 5% | -75% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 333 | 1 | 4% | 3% | -72% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 335 | 1 | 4% | 3% | -72% | -94% | 9 min |
 | Challenger ATP  | ✘ | 258 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 158 | 1 | 3% | 3% | -41% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -104,7 +104,7 @@
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 59 | 0 | 15% | 7% | -100% | -74% | 20 min |
+| Men's T20 Cricket Match | ✘ | 60 | 0 | 17% | 7% | -100% | -71% | 21 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Dota 2 Game | ✘ | 58 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -224,14 +224,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 18:33 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | — | In play | — |
+| 10-07 18:39 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:36 | Men's T20 Cricket Match | England Champions | ✘ | — | — | In play | — |
+| 10-07 18:36 | Russia VTB United Game | Parma Permsky Kray | ✘ | — | — | In play | — |
+| 10-07 18:33 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:27 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
 | 10-07 18:25 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:24 | EuroCup Basketball Game | CB San Pablo Burgos | ✘ | — | — | In play | — |
 | 10-07 18:23 | Counter-Strike 2 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:05 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
+| 10-07 18:05 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-07 18:01 | ITF Women's Match | Valentina Steiner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:00 | ITF Men's Match | Gray Voelzke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:00 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 17:33 | Dota 2 Game | Team Synapse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 15:00 | ITF Men's Match | Maxence Rivet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 15:00 | ITF Men's Match | Javier Munoz Fuster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:59 | Counter-Strike 2 Game | Privateer Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:59 | Challenger ATP  | Murkel Dellien | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 14:58 | Counter-Strike 2 Game | bLight blue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
