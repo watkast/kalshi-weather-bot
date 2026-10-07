@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **59 buys a day**, roughly **$8.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4847 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4850 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4299 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4301 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 355 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 356 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 307 | 1 | 10% | 6% | -70% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 252 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -108,8 +108,8 @@
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
+| Challenger WTA | ✘ | 52 | 0 | 17% | 10% | -100% | -70% | 8 min |
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
-| Challenger WTA | ✘ | 51 | 0 | 18% | 10% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -224,7 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 05:07 | Challenger WTA | Linda Fruhvirtova | ✘ | — | — | In play | — |
+| 10-07 05:36 | ITF Women's Match | Amy Stevens | ✘ | — | — | In play | — |
+| 10-07 05:35 | LNBP Basketball Game | Fuerza Regia | ✘ | — | — | In play | — |
+| 10-07 05:29 | ITF Women's Match | Darja Suvirdjonkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 05:07 | Challenger WTA | Linda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:03 | NHL Game | Los Angeles | ✔ | End of 3rd · FLA 2 - LA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:01 | Professional Baseball Game | Milwaukee | ✔ | Top 9th · MIL 3 - SD 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:58 | ITF Women's Match | Honori Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 10-07 03:05 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | 15¢ | ❌ Lost | -$0.15 |
-| 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
