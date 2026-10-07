@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 2:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 2:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5124 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5128 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4575 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4578 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,9 +95,9 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 421 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 345 | 1 | 3% | 3% | -73% | -94% | 9 min |
-| Challenger ATP  | ✘ | 259 | 1 | 9% | 2% | -64% | -85% | 5 min |
-| TT Star Series Match | ✘ | 162 | 1 | 2% | 2% | -42% | -96% | 4 min |
+| Counter-Strike 2 Game | ✘ | 346 | 1 | 3% | 3% | -73% | -94% | 9 min |
+| Challenger ATP  | ✘ | 260 | 1 | 9% | 2% | -64% | -85% | 5 min |
+| TT Star Series Match | ✘ | 163 | 1 | 2% | 2% | -43% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 110 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -224,7 +224,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | — | In play | — |
+| 10-07 20:33 | Counter-Strike 2 Game | Metizport | ✘ | — | — | In play | — |
+| 10-07 20:31 | Dota 2 Game | CyberHero | ✘ | — | — | In play | — |
+| 10-07 20:27 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:20 | EuroCup Basketball Game | Ulm Basketball | ✘ | — | — | In play | — |
 | 10-07 20:11 | Men's T20 Cricket Match | Cochin Hurricanes | ✘ | — | — | In play | — |
 | 10-07 20:11 | EuroCup Basketball Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 19:12 | ITF Women's Match | Ema Burgic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:11 | Counter-Strike 2 Game | The Last Resort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:09 | Counter-Strike 2 Game | Ryvex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:05 | ITF Women's Match | Ninon Carpentier | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 19:03 | Men's T20 Cricket Match | Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:57 | EuroCup Basketball Game | BC Neptunas Klaipeda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 18:54 | Counter-Strike 2 Game | Esport BERG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
