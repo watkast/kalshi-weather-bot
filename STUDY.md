@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **59 buys a day**, roughly **$8.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4852 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4853 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4304 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4305 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 357 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 358 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 307 | 1 | 10% | 6% | -70% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 252 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -224,7 +224,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 05:54 | ITF Women's Match | Nagi Hanatani | ✘ | — | — | In play | — |
+| 10-07 06:05 | Challenger ATP  | Filip Peliwo | ✘ | — | — | In play | — |
+| 10-07 05:54 | ITF Women's Match | Nagi Hanatani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:45 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:36 | ITF Women's Match | Amy Stevens | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-07 05:35 | LNBP Basketball Game | Fuerza Regia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 03:30 | NBA Game | Utah | ✔ | 1:35 - 4th · DEN 111 - UTAH 101 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:28 | ITF Women's Match | Kanon Sawashiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
