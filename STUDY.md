@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 8:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 8:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5036 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5042 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4480 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4487 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 403 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 361 | 1 | 9% | 5% | -74% | -85% | 5 min |
+| ITF Women's Match | ✘ | 405 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 364 | 1 | 9% | 5% | -74% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 321 | 1 | 3% | 3% | -71% | -94% | 9 min |
 | Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
-| TT Star Series Match | ✘ | 154 | 1 | 3% | 3% | -39% | -95% | 4 min |
+| TT Star Series Match | ✘ | 155 | 1 | 3% | 3% | -40% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 107 | 0 | 7% | 3% | -100% | -89% | 11 min |
@@ -105,7 +105,7 @@
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
+| Men's T20 Cricket Match | ✘ | 58 | 0 | 16% | 7% | -100% | -73% | 20 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
 | Dota 2 Game | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -224,17 +224,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 14:29 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 10-07 14:28 | ITF Women's Match | Sofia Martianova | ✘ | — | — | In play | — |
+| 10-07 14:28 | ITF Women's Match | Andrea Roots | ✘ | — | — | In play | — |
+| 10-07 14:28 | Counter-Strike 2 Game | Legion | ✘ | — | — | In play | — |
+| 10-07 14:27 | Challenger ATP  | Andrej Martin | ✘ | — | — | In play | — |
+| 10-07 14:23 | ITF Men's Match | Jip Van Assendelft | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:13 | ITF Men's Match | Jan Sadzik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:11 | TT Star Series Match | Loso Sebastian | ✘ | — | — | In play | — |
-| 10-07 14:11 | ITF Women's Match | Anastasija Cvetkovic | ✘ | — | — | In play | — |
+| 10-07 14:11 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 14:11 | ITF Women's Match | Anastasija Cvetkovic | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 14:10 | ITF Women's Match | Julie Myatovic | ✘ | — | — | In play | — |
-| 10-07 14:10 | ITF Men's Match | Alejandro Turriziani Alvarez | ✘ | — | — | In play | — |
+| 10-07 14:10 | ITF Men's Match | Alejandro Turriziani Alvarez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:08 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
 | 10-07 14:07 | ITF Men's Match | Vito Dell'elba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:06 | ITF Men's Match | Tyler Stice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:03 | ITF Women's Match | Oriana Gniewkowska | ✘ | — | — | In play | — |
-| 10-07 14:03 | ITF Women's Match | Kristina Novak | ✘ | — | — | In play | — |
-| 10-07 14:03 | ITF Men's Match | Leandro Zgraggen | ✘ | — | — | In play | — |
+| 10-07 14:03 | ITF Women's Match | Kristina Novak | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-07 14:03 | ITF Men's Match | Leandro Zgraggen | ✘ | — | 80¢ | ❌ Lost | -$0.15 |
 | 10-07 13:56 | ITF Men's Match | Leonardo Primucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:53 | Challenger WTA | Dalma Galfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:49 | ITF Men's Match | Oscar Weightman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,12 +254,6 @@
 | 10-07 13:34 | ITF Men's Match | Scott Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:33 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:32 | ITF Men's Match | Artur Kukasian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:28 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:27 | ITF Men's Match | Giammarco Gandolfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:25 | Counter-Strike 2 Game | G2 Ares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:25 | ITF Women's Match | Ksenia Efremova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:25 | Valorant game winner | Paper Rex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:23 | ITF Women's Match | Luisa Meyer auf der Heide | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
