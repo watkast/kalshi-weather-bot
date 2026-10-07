@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 7, 2:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 7, 2:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 723 finished bets | 1% | $34.45 | +44% | +4.76¢ | -$11.00 / $45.45 |
 
-*Expect about **80 buys a day** (~$11.94/day at risk); max loss per buy **15¢**.*
+*Expect about **80 buys a day** (~$11.93/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10477 | 10471 | 47 (0%) | 1.07% | -$608.75 (-48%) | Hold to the close: -$608.75 (-48%) |
+| 10479 | 10471 | 47 (0%) | 1.07% | -$608.75 (-48%) | Hold to the close: -$608.75 (-48%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/7 2:56:23 AM | ZEC | UP | 3.6 min | -0.529% | — | In play | — |
+| 10/7 2:56:07 AM | DOGE | UP | 3.9 min | -0.321% | — | In play | — |
 | 10/7 2:44:44 AM | NEAR | DOWN | 16 sec | -0.023% | 0¢ | ❌ Lost | $0.00 |
 | 10/7 2:44:44 AM | COPPER | UP | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/7 2:44:28 AM | DOGE | UP | 32 sec | -0.048% | 0¢ | ❌ Lost | -$0.15 |
@@ -209,8 +211,6 @@
 | 10/7 1:53:38 AM | EURUSD | UP | 6.3 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/7 1:44:56 AM | NEAR | DOWN | 4 sec | +0.008% | 0¢ | ❌ Lost | $0.00 |
 | 10/7 1:44:40 AM | ZEC | DOWN | 19 sec | +0.045% | 0¢ | ❌ Lost | -$0.15 |
-| 10/7 1:44:40 AM | COPPER | DOWN | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/7 1:43:37 AM | XRP | DOWN | 83 sec | +0.102% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
