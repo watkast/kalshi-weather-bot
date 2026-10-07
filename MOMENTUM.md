@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Wed Oct 07 14:06 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Wed Oct 07 17:35 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 4451 | 3853 | 598 (19) | 0 | $-78.49 | -0.3% |
-| **20¢+ jump, ride past +5¢** | 2761 | 1505 | 1256 (554) | 1 | $-791.52 | -4.5% |
+| **20¢+ jump, sell +5¢** | 4454 | 3856 | 598 (19) | 0 | $-77.44 | -0.3% |
+| **20¢+ jump, ride past +5¢** | 2762 | 1505 | 1257 (554) | 1 | $-796.60 | -4.6% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,11 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 14:01 | J20R | NEAR | UP | 20¢ | 0.49 | open |  |
+| 10-07 17:35 | J20 | ETH | UP | 21¢ | 0.56 | 0.63 | 0.35 |
+| 10-07 17:35 | J20 | ETH | UP | 21¢ | 0.57 | 0.63 | 0.25 |
+| 10-07 17:34 | J20R | ETH | UP | 21¢ | 0.55 | open |  |
+| 10-07 17:34 | J20 | ETH | UP | 21¢ | 0.55 | 0.63 | 0.45 |
+| 10-07 14:01 | J20R | NEAR | UP | 20¢ | 0.49 | no | -5.08 |
 | 10-07 14:01 | J20 | NEAR | UP | 20¢ | 0.48 | 0.54 | 0.23 |
 | 10-07 13:51 | J20 | BTC | UP | 31¢ | 0.62 | 0.73 | 0.81 |
 | 10-07 13:51 | J20 | BNB | UP | 28¢ | 0.89 | 0.95 | 0.50 |
@@ -54,7 +58,3 @@
 | 10-07 13:38 | J20 | DOGE | DOWN | 28¢ | 0.86 | 0.92 | 0.46 |
 | 10-07 13:38 | J20R | BNB | DOWN | 21¢ | 0.87 | 0.94 | 0.58 |
 | 10-07 13:38 | J20 | BNB | DOWN | 21¢ | 0.86 | 0.94 | 0.62 |
-| 10-07 13:38 | J20R | NEAR | DOWN | 46¢ | 0.76 | no | 2.27 |
-| 10-07 13:38 | J20 | NEAR | DOWN | 46¢ | 0.76 | 0.94 | 1.63 |
-| 10-07 13:38 | J20R | ZEC | DOWN | 26¢ | 0.89 | 0.95 | 0.48 |
-| 10-07 13:38 | J20 | ZEC | DOWN | 26¢ | 0.89 | 0.94 | 0.40 |
