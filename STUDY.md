@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.31/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5081 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5085 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4533 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4536 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 414 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 415 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 372 | 1 | 9% | 5% | -75% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 332 | 1 | 4% | 3% | -72% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 333 | 1 | 4% | 3% | -72% | -94% | 9 min |
 | Challenger ATP  | ✘ | 258 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 158 | 1 | 3% | 3% | -41% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -177,9 +177,9 @@
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
+| Russia VTB United Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 22 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Men's ODI Cricket Match | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Russia VTB United Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -224,8 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 18:23 | Counter-Strike 2 Game | Rebels Gaming | ✘ | — | — | In play | — |
-| 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | — | In play | — |
+| 10-07 18:33 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | — | In play | — |
+| 10-07 18:27 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
+| 10-07 18:25 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:24 | EuroCup Basketball Game | CB San Pablo Burgos | ✘ | — | — | In play | — |
+| 10-07 18:23 | Counter-Strike 2 Game | Rebels Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:11 | ITF Women's Match | Madison Sieg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 18:11 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:05 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
 | 10-07 18:01 | ITF Women's Match | Valentina Steiner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 14:59 | Counter-Strike 2 Game | Privateer Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 14:59 | Challenger ATP  | Murkel Dellien | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 14:58 | Counter-Strike 2 Game | bLight blue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:58 | ITF Men's Match | Tudor Batin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:57 | KHL Game | Sibir Novosibirsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:50 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 14:48 | ITF Women's Match | Chenting Zhu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
