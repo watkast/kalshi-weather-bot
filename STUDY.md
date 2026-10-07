@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 1:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5097 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5101 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4546 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4548 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 415 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 373 | 1 | 9% | 5% | -75% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 336 | 1 | 4% | 3% | -72% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 337 | 1 | 4% | 3% | -72% | -94% | 9 min |
 | Challenger ATP  | ✘ | 258 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 159 | 1 | 3% | 3% | -41% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -123,9 +123,9 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| EuroCup Basketball Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | LNBP Basketball Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 12 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| EuroCup Basketball Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
@@ -224,9 +224,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 19:12 | ITF Women's Match | Ema Burgic | ✘ | — | — | In play | — |
+| 10-07 19:11 | Counter-Strike 2 Game | The Last Resort | ✘ | — | — | In play | — |
+| 10-07 19:09 | Counter-Strike 2 Game | Ryvex | ✘ | — | — | In play | — |
+| 10-07 19:05 | ITF Women's Match | Ninon Carpentier | ✘ | — | — | In play | — |
 | 10-07 19:03 | Men's T20 Cricket Match | Knights | ✘ | — | — | In play | — |
-| 10-07 18:57 | EuroCup Basketball Game | BC Neptunas Klaipeda | ✘ | — | — | In play | — |
-| 10-07 18:54 | Counter-Strike 2 Game | Esport BERG | ✘ | — | — | In play | — |
+| 10-07 18:57 | EuroCup Basketball Game | BC Neptunas Klaipeda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-07 18:54 | Counter-Strike 2 Game | Esport BERG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:49 | ITF Men's Match | Valentino Grippo | ✘ | — | — | In play | — |
 | 10-07 18:48 | KHL Game | HC Sochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:46 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 17:57 | Slovenia 1. SKL Game | KD Ilirija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:56 | ITF Men's Match | Valentin Lapalu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:54 | ITF Women's Match | Yuki Naito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:53 | EuroCup Basketball Game | Reyer Venezia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:50 | Liiga Game | Tampereen Ilves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:47 | Counter-Strike 2 Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:40 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
