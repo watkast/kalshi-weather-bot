@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 1:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4866 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4870 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -224,6 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 07:47 | ITF Men's Match | Tsung-Hao Huang | ✘ | — | — | In play | — |
+| 10-07 07:43 | TT Star Series Match | Mühlbach Carlos | ✘ | — | — | In play | — |
+| 10-07 07:43 | ITF Women's Match | Liliya Piskun | ✘ | — | — | In play | — |
+| 10-07 07:43 | ITF Women's Match | Jeong Moon | ✘ | — | — | In play | — |
 | 10-07 07:23 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | — | In play | — |
 | 10-07 07:16 | ITF Men's Match | Kuan-Yi Lee | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:15 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 04:54 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:53 | ITF Women's Match | Nana Onozawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:50 | ITF Men's Match | Qian Sun | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-07 04:39 | ITF Women's Match | Rira Kosaka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 04:30 | International Friendly Game | Tie | ✔ | 89' · CHI 2 - MEX 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 04:28 | ITF Men's Match | Yua Taka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 04:18 | International Friendly Game | Mexico | ✔ | 77' · CHI 2 - MEX 0 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
