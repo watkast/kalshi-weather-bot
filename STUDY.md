@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 539 finished bets | 1% | -$38.85 | -48% | -7.21¢ | -$26.35 / -$12.50 |
+| ESPN-verified leagues only, hold to the end | 540 finished bets | 1% | -$39.00 | -48% | -7.22¢ | -$26.50 / -$12.50 |
 
-*Expect about **59 buys a day**, roughly **$8.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 539 | -$47.10 | -58% |
-| ESPN-verified leagues only, sell at 5¢ | 539 | -$60.70 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 539 | -$60.83 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 540 | -$47.25 | -58% |
+| ESPN-verified leagues only, sell at 5¢ | 540 | -$60.85 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 540 | -$60.98 | -75% |
 
 </details>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4839 | 539 | 3 (1%) | 1.1% | -$38.85 (-48%) | Hold to the end: -$38.85 (-48%) |
+| 4840 | 540 | 3 (1%) | 1.1% | -$39.00 (-48%) | Hold to the end: -$39.00 (-48%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 539 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Verified | 540 | 14% | 9% | 6% | 3% | 1% | 1% |
 | Unverified | 4294 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$38.85 | -48% |
-| Sell at 2¢ | 77 | 14% | -$60.83 | -75% |
-| Sell at 3¢ | 51 | 9% | -$60.96 | -75% |
-| Sell at 5¢ | 31 | 6% | -$60.70 | -75% |
-| Sell at 10¢ | 15 | 3% | -$61.20 | -76% |
-| Sell at 25¢ | 6 | 1% | -$60.99 | -75% |
-| Sell at 50¢ | 5 | 1% | -$47.10 | -58% |
+| Hold to the end | 3 | 1% | -$39.00 | -48% |
+| Sell at 2¢ | 77 | 14% | -$60.98 | -75% |
+| Sell at 3¢ | 51 | 9% | -$61.11 | -75% |
+| Sell at 5¢ | 31 | 6% | -$60.85 | -75% |
+| Sell at 10¢ | 15 | 3% | -$61.35 | -76% |
+| Sell at 25¢ | 6 | 1% | -$61.14 | -75% |
+| Sell at 50¢ | 5 | 1% | -$47.25 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -109,7 +109,7 @@
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 51 | 0 | 18% | 10% | -100% | -69% | 8 min |
-| NHL Game | ✔ | 50 | 0 | 14% | 6% | -100% | -76% | 4 min |
+| NHL Game | ✔ | 51 | 0 | 14% | 6% | -100% | -76% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -206,7 +206,7 @@
 | 5–15 min | 105 | 15% | 5% | 1% | -74% |
 | 15–30 min | 88 | 27% | 11% | 2% | -53% |
 | 30–60 min | 68 | 13% | 6% | 0% | -77% |
-| Over 60 min | 66 | 21% | 15% | 0% | -63% |
+| Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
 ## Speed & liquidity
 
@@ -224,6 +224,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 04:39 | ITF Women's Match | Rira Kosaka | ✘ | — | — | In play | — |
 | 10-07 04:30 | International Friendly Game | Tie | ✔ | 89' · CHI 2 - MEX 0 | — | In play | — |
 | 10-07 04:28 | ITF Men's Match | Yua Taka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 04:18 | International Friendly Game | Mexico | ✔ | 77' · CHI 2 - MEX 0 | — | In play | — |
@@ -239,7 +240,7 @@
 | 10-07 03:33 | LNBP Basketball Game | Santos Del Potosi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:30 | NBA Game | Utah | ✔ | 1:35 - 4th · DEN 111 - UTAH 101 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:28 | ITF Women's Match | Kanon Sawashiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | — | In play | — |
+| 10-07 03:21 | NHL Game | Seattle | ✔ | 4:37 - 2nd · VGK 4 - SEA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:17 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:14 | ITF Women's Match | Laquisa Khan | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 10-07 03:05 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 02:18 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 02:14 | NHL Game | New York I | ✔ | 1:38 - 3rd · NYI 2 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:01 | International Friendly Game | Tie | ✔ | 90'+3' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:51 | NHL Game | Montreal | ✔ | 1:29 - 3rd · CAR 5 - MTL 4 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
