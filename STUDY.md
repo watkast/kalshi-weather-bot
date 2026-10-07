@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 6:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 6:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4787 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
+| 4791 | 516 | 3 (1%) | 1.1% | -$35.40 (-46%) | Hold to the end: -$35.40 (-46%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 516 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4267 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4268 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 344 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 345 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -224,6 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 00:18 | Brasileiro Serie B Game | Sao Bernardo | ✘ | — | — | In play | — |
+| 10-07 00:12 | APF Division de Honor Game | Nacional | ✘ | — | — | In play | — |
+| 10-07 00:12 | APF Division de Honor Game | Olimpia | ✘ | — | — | In play | — |
+| 10-07 00:10 | ITF Women's Match | Alina Shcherbinina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:42 | ITF Women's Match | Ekaterina Maklakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:39 | ITF Women's Match | Jo-Yee Chan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:33 | International Friendly Game | Benin | ✔ | 2' · BEN 0 - ARG 0 | — | In play | — |
@@ -250,10 +254,6 @@
 | 10-06 20:37 | UEFA Nations League Game | Tie | ✔ | 90'+3' · SVN 2 - SCO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:37 | EFL Trophy Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 20:36 | UEFA Nations League Game | Tie | ✔ | 90'+4' · ESP 2 - CRO 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:34 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:34 | UEFA Nations League Game | Estonia | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:34 | UEFA Nations League Game | Iceland | ✔ | 90'+2' · ISL 0 - EST 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:34 | UEFA Nations League Game | Tie | ✔ | 90'+1' · FIN 0 - BLR 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
