@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4858 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4859 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4309 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4310 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -107,8 +107,8 @@
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 54 | 0 | 2% | 2% | -100% | -97% | 28 min |
+| Challenger WTA | ✘ | 53 | 0 | 17% | 9% | -100% | -71% | 8 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
-| Challenger WTA | ✘ | 52 | 0 | 17% | 10% | -100% | -70% | 8 min |
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -224,7 +224,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 06:32 | Challenger WTA | Tatiana Prozorova | ✘ | — | — | In play | — |
+| 10-07 06:42 | ITF Women's Match | Remika Ohashi | ✘ | — | — | In play | — |
+| 10-07 06:32 | Challenger WTA | Tatiana Prozorova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 06:27 | ATP Tennis Match | Nikoloz Basilashvili | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 06:21 | ITF Men's Match | Xin Zhou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 06:18 | ITF Men's Match | Kuan-Shou Chen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 03:48 | CONCACAF Nations League Game | Tie | ✔ | 90'+3' · BLZ 0 - GUF 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:46 | Challenger ATP  | Marat Sharipov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:44 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 03:39 | CONCACAF Nations League Game | Belize | ✔ | 84' · BLZ 0 - GUF 0 | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
