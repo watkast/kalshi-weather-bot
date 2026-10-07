@@ -5127,3 +5127,4 @@ detected_at,league,series,event,ticker,pick,verified,situation_at_entry,entry_pr
 2026-10-07T20:27:40+00:00,Counter-Strike 2 Game,KXCS2GAME,KXCS2GAME-26OCT071445FCFRBLS,KXCS2GAME-26OCT071445FCFRBLS-FCF,FC Famalicao Esports,no,,0.01,14,0.01,settled,no,-0.15,,approx (market close),2026-10-07T20:27:12+00:00,27,2.2,0.00,,,,,,,,,0,5,complete,
 2026-10-07T20:31:45+00:00,Dota 2 Game,KXDOTA2GAME,KXDOTA2GAME-26OCT071400CHBBL,KXDOTA2GAME-26OCT071400CHBBL-CH,CyberHero,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
 2026-10-07T20:33:06+00:00,Counter-Strike 2 Game,KXCS2GAME,KXCS2GAME-26OCT071400MZPK27,KXCS2GAME-26OCT071400MZPK27-MZP,Metizport,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-07T20:45:12+00:00,Euroleague Game,KXEUROLEAGUEGAME,KXEUROLEAGUEGAME-26OCT071445ASVPAR,KXEUROLEAGUEGAME-26OCT071445ASVPAR-PAR,Paris Basketball,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
