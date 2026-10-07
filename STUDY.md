@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 4:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 4:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.61/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.60/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4903 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4909 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4354 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4358 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 372 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 321 | 1 | 9% | 6% | -71% | -84% | 5 min |
+| ITF Women's Match | ✘ | 373 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Men's Match | ✘ | 322 | 1 | 9% | 6% | -71% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 307 | 1 | 4% | 3% | -70% | -94% | 9 min |
-| Challenger ATP  | ✘ | 253 | 1 | 9% | 2% | -63% | -85% | 5 min |
+| Challenger ATP  | ✘ | 254 | 1 | 9% | 2% | -63% | -84% | 5 min |
 | TT Star Series Match | ✘ | 147 | 1 | 3% | 3% | -37% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -158,13 +158,13 @@
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
+| Australia NBL Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 14 min |
 | Slovakia SBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
-| Australia NBL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 20 min |
 | Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -224,7 +224,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 10:24 | Australia NBL Game | Adelaide 36ers | ✘ | — | — | In play | — |
+| 10-07 10:34 | ITF Men's Match | Vincent Dullinger | ✘ | — | — | In play | — |
+| 10-07 10:33 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-07 10:32 | ITF Men's Match | Stefan Ilie Bogdan Petre | ✘ | — | — | In play | — |
+| 10-07 10:29 | ITF Women's Match | Denislava Glushkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 10:28 | ITF Men's Match | Allan Gatoto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 10:26 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-07 10:24 | Australia NBL Game | Adelaide 36ers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:20 | ITF Women's Match | Ksenia Meshcheryakova | ✘ | — | — | In play | — |
 | 10-07 10:12 | ITF Women's Match | Tilwith Di Girolami | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:11 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,12 +254,6 @@
 | 10-07 09:29 | ITF Men's Match | Nikolas Baker | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 09:17 | ITF Men's Match | Boris Butulija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:17 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 09:15 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 09:15 | ITF Women's Match | HAJRA SOHAIL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 09:15 | Dota 2 Game | InterActive Philippines | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 08:42 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 08:33 | ITF Men's Match | Maxim Shin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 08:25 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
