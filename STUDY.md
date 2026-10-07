@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 3:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 3:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5139 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5143 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 3. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -225,6 +225,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 21:45 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 10-07 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-07 21:45 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | — | In play | — |
+| 10-07 21:43 | TT Star Series Match | Kim Taehyun | ✘ | — | — | In play | — |
 | 10-07 21:26 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:23 | Challenger ATP  | Nick Hardt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:19 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,10 +255,6 @@
 | 10-07 19:57 | League of Legends Game | The Ruddy Sack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:54 | Counter-Strike 2 Game | Noir Verse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 19:54 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:52 | National League Game | HC Lausanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:42 | ITF Women's Match | Allegra Korpanec Davies | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-07 19:40 | TT Star Series Match | Teodoro Guilherme | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 19:36 | EuroCup Basketball Game | Le Mans Sarthe Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
