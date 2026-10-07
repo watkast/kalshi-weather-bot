@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 11:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 11:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 542 finished bets | 1% | -$39.30 | -48% | -7.25¢ | -$26.65 / -$12.65 |
+| ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
 *Expect about **59 buys a day**, roughly **$8.81/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 542 | -$47.55 | -58% |
-| ESPN-verified leagues only, sell at 5¢ | 542 | -$61.15 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 542 | -$61.28 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 544 | -$47.85 | -59% |
+| ESPN-verified leagues only, sell at 5¢ | 544 | -$61.45 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 544 | -$61.58 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4846 | 542 | 3 (1%) | 1.1% | -$39.30 (-48%) | Hold to the end: -$39.30 (-48%) |
+| 4847 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 105 | 2.5% | 0.0% (0) | -198% | ❌ Worse |
+| ESPN win probability | 106 | 2.7% | 0.0% (0) | -225% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,10 +54,10 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 105 | 0 | -100% | -74% | -73% | -75% |
-| ESPN win probability ≥ 2% | 21 | 0 | -100% | -67% | -63% | -100% |
-| ESPN win probability ≥ 5% | 7 | 0 | -100% | -75% | -63% | -100% |
-| ESPN win probability ≥ 10% | 4 | 0 | -100% | -57% | -35% | -100% |
+| **Any 1¢ (no model)** | 106 | 0 | -100% | -74% | -73% | -75% |
+| ESPN win probability ≥ 2% | 22 | 0 | -100% | -68% | -65% | -100% |
+| ESPN win probability ≥ 5% | 8 | 0 | -100% | -78% | -68% | -100% |
+| ESPN win probability ≥ 10% | 5 | 0 | -100% | -65% | -48% | -100% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 542 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4298 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 4299 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$39.30 | -48% |
-| Sell at 2¢ | 77 | 14% | -$61.28 | -75% |
-| Sell at 3¢ | 51 | 9% | -$61.41 | -76% |
-| Sell at 5¢ | 31 | 6% | -$61.15 | -75% |
-| Sell at 10¢ | 15 | 3% | -$61.65 | -76% |
-| Sell at 25¢ | 6 | 1% | -$61.44 | -76% |
-| Sell at 50¢ | 5 | 1% | -$47.55 | -58% |
+| Hold to the end | 3 | 1% | -$39.60 | -49% |
+| Sell at 2¢ | 77 | 14% | -$61.58 | -75% |
+| Sell at 3¢ | 51 | 9% | -$61.71 | -76% |
+| Sell at 5¢ | 31 | 6% | -$61.45 | -75% |
+| Sell at 10¢ | 15 | 3% | -$61.95 | -76% |
+| Sell at 25¢ | 6 | 1% | -$61.74 | -76% |
+| Sell at 50¢ | 5 | 1% | -$47.85 | -59% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 355 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 306 | 1 | 9% | 6% | -69% | -84% | 5 min |
+| ITF Men's Match | ✘ | 307 | 1 | 10% | 6% | -70% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 252 | 1 | 9% | 2% | -63% | -85% | 5 min |
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
@@ -108,8 +108,8 @@
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
+| NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | Challenger WTA | ✘ | 51 | 0 | 18% | 10% | -100% | -69% | 8 min |
-| NHL Game | ✔ | 51 | 0 | 14% | 6% | -100% | -76% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -151,8 +151,8 @@
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
+| Professional Baseball Game | partly | 13 | 0 | 15% | 8% | -100% | -73% | 3 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
-| Professional Baseball Game | partly | 12 | 0 | 17% | 8% | -100% | -71% | 3 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | NBA Game | ✔ | 12 | 0 | 8% | 0% | -100% | -86% | 14 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -202,7 +202,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 211 | 7% | 1% | 0% | -88% |
+| Under 5 min | 213 | 7% | 1% | 0% | -89% |
 | 5–15 min | 106 | 15% | 5% | 1% | -74% |
 | 15–30 min | 89 | 27% | 11% | 2% | -53% |
 | 30–60 min | 68 | 13% | 6% | 0% | -77% |
@@ -224,12 +224,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 05:03 | NHL Game | Los Angeles | ✔ | End of 3rd · FLA 2 - LA 1 | — | In play | — |
-| 10-07 05:01 | Professional Baseball Game | Milwaukee | ✔ | Top 9th · MIL 3 - SD 4 | — | In play | — |
+| 10-07 05:07 | Challenger WTA | Linda Fruhvirtova | ✘ | — | — | In play | — |
+| 10-07 05:03 | NHL Game | Los Angeles | ✔ | End of 3rd · FLA 2 - LA 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 05:01 | Professional Baseball Game | Milwaukee | ✔ | Top 9th · MIL 3 - SD 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:58 | ITF Women's Match | Honori Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:54 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:53 | ITF Women's Match | Nana Onozawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 04:50 | ITF Men's Match | Qian Sun | ✘ | — | — | In play | — |
+| 10-07 04:50 | ITF Men's Match | Qian Sun | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-07 04:39 | ITF Women's Match | Rira Kosaka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 04:30 | International Friendly Game | Tie | ✔ | 89' · CHI 2 - MEX 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:28 | ITF Men's Match | Yua Taka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 02:49 | NHL Game | St. Louis | ✔ | 1:09 - 3rd · STL 1 - CHI 3 | 15¢ | ❌ Lost | -$0.15 |
 | 10-07 02:42 | Challenger WTA | Darya Astakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 02:38 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 02:33 | NBA Game | Oklahoma City | ✔ | 20.6 - 4th · NO 116 - OKC 110 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
