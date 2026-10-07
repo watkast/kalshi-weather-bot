@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 4:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **54 buys a day**, roughly **$8.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5147 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5148 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4597 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4599 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 425 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 351 | 1 | 3% | 3% | -73% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 353 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -225,13 +225,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
+| 10-07 23:02 | Professional Baseball Game | Chicago WS | ✔ | Bot 8th · CLE 7 - CHW 3 | — | In play | — |
+| 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
 | 10-07 22:31 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:15 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:45 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
 | 10-07 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-07 21:45 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | — | In play | — |
+| 10-07 21:45 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 21:43 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:26 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:23 | Challenger ATP  | Nick Hardt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,7 +255,6 @@
 | 10-07 20:11 | EuroCup Basketball Game | BC Lietkabelis Panevezys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:07 | ITF Men's Match | Alberto Odiseo Alvarado Berrospi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:04 | ITF Women's Match | Chukwumelije Clarke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:00 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
