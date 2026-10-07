@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5012 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5016 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4457 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4464 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,17 +93,17 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 399 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 348 | 1 | 9% | 5% | -73% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 319 | 1 | 3% | 3% | -71% | -94% | 9 min |
+| ITF Women's Match | ✘ | 401 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Men's Match | ✘ | 351 | 1 | 9% | 5% | -73% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 320 | 1 | 3% | 3% | -71% | -94% | 9 min |
 | Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
 | TT Star Series Match | ✘ | 153 | 1 | 3% | 3% | -39% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 107 | 0 | 7% | 3% | -100% | -89% | 11 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
+| Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 89 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 28 min |
@@ -212,7 +212,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 44 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 43 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -224,14 +224,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 13:28 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
-| 10-07 13:27 | ITF Men's Match | Giammarco Gandolfi | ✘ | — | — | In play | — |
-| 10-07 13:25 | Counter-Strike 2 Game | G2 Ares | ✘ | — | — | In play | — |
+| 10-07 13:38 | ITF Men's Match | Jan Hrazdil | ✘ | — | — | In play | — |
+| 10-07 13:34 | ITF Men's Match | Scott Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:33 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
+| 10-07 13:32 | ITF Men's Match | Artur Kukasian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:28 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:27 | ITF Men's Match | Giammarco Gandolfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:25 | Counter-Strike 2 Game | G2 Ares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:25 | ITF Women's Match | Ksenia Efremova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:25 | Valorant game winner | Paper Rex | ✘ | — | — | In play | — |
 | 10-07 13:23 | ITF Women's Match | Luisa Meyer auf der Heide | ✘ | — | — | In play | — |
 | 10-07 13:22 | China League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:21 | ITF Women's Match | Gabriela Agra Amorim | ✘ | — | — | In play | — |
+| 10-07 13:21 | ITF Women's Match | Gabriela Agra Amorim | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:20 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:19 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:18 | ITF Women's Match | Nina Rudiukova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -242,7 +246,7 @@
 | 10-07 13:12 | ITF Women's Match | Gina Feistel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:10 | ITF Men's Match | Aleksa Ciric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:09 | China League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:08 | ITF Women's Match | Angelica Sara | ✘ | — | — | In play | — |
+| 10-07 13:08 | ITF Women's Match | Angelica Sara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:08 | ITF Women's Match | Justina Mikulskyte | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:07 | ITF Men's Match | Remy Dugardin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:06 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 13:04 | China League 1 Game | Nanjing City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:03 | ITF Women's Match | Alja Senica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:03 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:02 | ITF Men's Match | Michiel De Krom | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 13:01 | ITF Men's Match | Roan Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:54 | Women's T20 Match | Zimbabwe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 12:48 | ITF Men's Match | Karl Friberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
