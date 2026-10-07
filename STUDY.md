@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 1:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 2:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4870 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4871 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4322 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4323 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 365 | 0 | 11% | 5% | -100% | -81% | 4 min |
+| ITF Women's Match | ✘ | 366 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 311 | 1 | 10% | 6% | -70% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 253 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -224,6 +224,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 08:02 | ITF Women's Match | Mahin Qureshi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:47 | ITF Men's Match | Tsung-Hao Huang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:43 | TT Star Series Match | Mühlbach Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:43 | ITF Women's Match | Liliya Piskun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-07 04:58 | ITF Women's Match | Honori Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:54 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:53 | ITF Women's Match | Nana Onozawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 04:50 | ITF Men's Match | Qian Sun | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
