@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 7, 1:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 7, 1:11 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 719 finished bets | 1% | $34.75 | +45% | +4.83¢ | -$10.70 / $45.45 |
 
-*Expect about **80 buys a day** (~$11.97/day at risk); max loss per buy **15¢**.*
+*Expect about **80 buys a day** (~$11.96/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10408 | 10402 | 47 (0%) | 1.07% | -$599.90 (-48%) | Hold to the close: -$599.90 (-48%) |
+| 10412 | 10402 | 47 (0%) | 1.07% | -$599.90 (-48%) | Hold to the close: -$599.90 (-48%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -181,6 +181,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/7 1:11:50 AM | COPPER | DOWN | 3.2 min | — | — | In play | — |
+| 10/7 1:11:32 AM | ZEC | DOWN | 3.5 min | +0.424% | — | In play | — |
+| 10/7 1:11:32 AM | SILVER | DOWN | 3.5 min | — | — | In play | — |
+| 10/7 1:11:00 AM | WTI | UP | 4.0 min | — | — | In play | — |
 | 10/7 12:59:45 AM | PLATINUM | UP | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/7 12:59:45 AM | NATGAS | DOWN | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/7 12:59:29 AM | COPPER | UP | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -207,10 +211,6 @@
 | 10/7 12:42:31 AM | BTC | DOWN | 2.5 min | +0.139% | 1¢ | ❌ Lost | -$0.15 |
 | 10/7 12:42:15 AM | NEAR | DOWN | 2.7 min | +1.051% | 0¢ | ❌ Lost | -$0.15 |
 | 10/7 12:42:15 AM | ZEC | DOWN | 2.7 min | +0.477% | 1¢ | ❌ Lost | -$0.15 |
-| 10/7 12:42:15 AM | HYPE | DOWN | 2.7 min | +0.172% | 1¢ | ❌ Lost | -$0.15 |
-| 10/7 12:41:59 AM | XRP | DOWN | 3.0 min | +0.224% | 1¢ | ❌ Lost | -$0.15 |
-| 10/7 12:41:10 AM | DOGE | DOWN | 3.8 min | +0.269% | 1¢ | ❌ Lost | -$0.15 |
-| 10/7 12:40:54 AM | ETH | DOWN | 4.1 min | +0.174% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
