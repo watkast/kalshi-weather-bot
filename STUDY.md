@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 8:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 8:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 527 finished bets | 1% | -$37.05 | -47% | -7.03¢ | -$25.45 / -$11.60 |
+| ESPN-verified leagues only, hold to the end | 529 finished bets | 1% | -$37.35 | -47% | -7.06¢ | -$25.60 / -$11.75 |
 
-*Expect about **58 buys a day**, roughly **$8.69/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.70/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 527 | -$45.30 | -57% |
-| ESPN-verified leagues only, sell at 25¢ | 527 | -$59.19 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 527 | -$59.81 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 529 | -$45.60 | -57% |
+| ESPN-verified leagues only, sell at 25¢ | 529 | -$59.49 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 529 | -$60.11 | -76% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4810 | 527 | 3 (1%) | 1.1% | -$37.05 (-47%) | Hold to the end: -$37.05 (-47%) |
+| 4811 | 529 | 3 (1%) | 1.1% | -$37.35 (-47%) | Hold to the end: -$37.35 (-47%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 527 | 14% | 9% | 6% | 2% | 1% | 1% |
+| Verified | 529 | 14% | 9% | 5% | 2% | 1% | 1% |
 | Unverified | 4278 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$37.05 | -47% |
-| Sell at 2¢ | 74 | 14% | -$59.81 | -76% |
-| Sell at 3¢ | 48 | 9% | -$60.33 | -76% |
-| Sell at 5¢ | 29 | 6% | -$60.20 | -76% |
-| Sell at 10¢ | 13 | 2% | -$62.02 | -78% |
-| Sell at 25¢ | 6 | 1% | -$59.19 | -75% |
-| Sell at 50¢ | 5 | 1% | -$45.30 | -57% |
+| Hold to the end | 3 | 1% | -$37.35 | -47% |
+| Sell at 2¢ | 74 | 14% | -$60.11 | -76% |
+| Sell at 3¢ | 48 | 9% | -$60.63 | -76% |
+| Sell at 5¢ | 29 | 5% | -$60.50 | -76% |
+| Sell at 10¢ | 13 | 2% | -$62.32 | -79% |
+| Sell at 25¢ | 6 | 1% | -$59.49 | -75% |
+| Sell at 50¢ | 5 | 1% | -$45.60 | -57% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -105,7 +105,7 @@
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
-| International Friendly Game | partly | 55 | 1 | 16% | 7% | +70% | -72% | 18 min |
+| International Friendly Game | partly | 57 | 1 | 16% | 7% | +64% | -73% | 17 min |
 | Dota 2 Game | ✘ | 53 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | Challenger WTA | ✘ | 50 | 0 | 18% | 10% | -100% | -69% | 8 min |
@@ -202,9 +202,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 207 | 7% | 1% | 0% | -88% |
+| Under 5 min | 208 | 7% | 1% | 0% | -88% |
 | 5–15 min | 100 | 14% | 4% | 1% | -76% |
-| 15–30 min | 87 | 28% | 11% | 2% | -52% |
+| 15–30 min | 88 | 27% | 11% | 2% | -53% |
 | 30–60 min | 67 | 13% | 6% | 0% | -77% |
 | Over 60 min | 65 | 20% | 14% | 0% | -65% |
 
@@ -224,8 +224,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 02:01 | International Friendly Game | Tie | ✔ | 90'+3' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:51 | NHL Game | Montreal | ✔ | 1:29 - 3rd · CAR 5 - MTL 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:47 | International Friendly Game | Canada | ✔ | 80' · CAN 0 - USA 1 | — | In play | — |
+| 10-07 01:47 | International Friendly Game | Canada | ✔ | 80' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:47 | NHL Game | New Jersey | ✔ | 2:16 - 3rd · UTA 5 - NJ 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:45 | NHL Game | Nashville | ✔ | 0:25 - OT · NSH 4 - TOR 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:42 | NHL Game | Minnesota | ✔ | 0:48 - OT · MIN 2 - BUF 2 | 0¢ | ❌ Lost | -$0.15 |
@@ -253,7 +254,6 @@
 | 10-06 23:31 | International Friendly Game | Tie | ✔ | 1' · BEN 0 - ARG 0 | 9¢ | ❌ Lost | -$0.15 |
 | 10-06 23:22 | League of Legends Game | Fuego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 23:14 | Women's College Volleyball Match | Davidson | ✘ | — | — | In play | — |
-| 10-06 22:23 | Challenger ATP  | Nicolas Villalon Valdes | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
