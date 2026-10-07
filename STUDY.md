@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 8:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5025 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5031 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4472 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4476 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 403 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 356 | 1 | 9% | 5% | -74% | -84% | 5 min |
+| ITF Men's Match | ✘ | 358 | 1 | 9% | 5% | -74% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 320 | 1 | 3% | 3% | -71% | -94% | 9 min |
 | Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
 | TT Star Series Match | ✘ | 154 | 1 | 3% | 3% | -39% | -95% | 4 min |
@@ -106,8 +106,8 @@
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
+| Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
 | Dota 2 Game | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 28 min |
-| Challenger WTA | ✘ | 55 | 0 | 18% | 11% | -100% | -68% | 8 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -139,10 +139,10 @@
 | Liiga Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
+| Valorant game winner | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 16 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
-| Valorant game winner | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
@@ -224,9 +224,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 13:56 | ITF Men's Match | Leonardo Primucci | ✘ | — | — | In play | — |
-| 10-07 13:53 | Challenger WTA | Dalma Galfi | ✘ | — | — | In play | — |
-| 10-07 13:49 | ITF Men's Match | Oscar Weightman | ✘ | — | — | In play | — |
+| 10-07 14:08 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
+| 10-07 14:07 | ITF Men's Match | Vito Dell'elba | ✘ | — | — | In play | — |
+| 10-07 14:06 | ITF Men's Match | Tyler Stice | ✘ | — | — | In play | — |
+| 10-07 14:03 | ITF Women's Match | Oriana Gniewkowska | ✘ | — | — | In play | — |
+| 10-07 14:03 | ITF Women's Match | Kristina Novak | ✘ | — | — | In play | — |
+| 10-07 14:03 | ITF Men's Match | Leandro Zgraggen | ✘ | — | — | In play | — |
+| 10-07 13:56 | ITF Men's Match | Leonardo Primucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:53 | Challenger WTA | Dalma Galfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:49 | ITF Men's Match | Oscar Weightman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:47 | ITF Women's Match | Camilla Gennaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:45 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:43 | ITF Men's Match | Andrei Kunitsyn | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -241,19 +247,13 @@
 | 10-07 13:27 | ITF Men's Match | Giammarco Gandolfi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:25 | Counter-Strike 2 Game | G2 Ares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:25 | ITF Women's Match | Ksenia Efremova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:25 | Valorant game winner | Paper Rex | ✘ | — | — | In play | — |
+| 10-07 13:25 | Valorant game winner | Paper Rex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:23 | ITF Women's Match | Luisa Meyer auf der Heide | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:22 | China League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:21 | ITF Women's Match | Gabriela Agra Amorim | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 13:20 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:19 | TT Star Series Match | Koszyk Boguslaw | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:18 | ITF Women's Match | Nina Rudiukova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:18 | China League 1 Game | Guangxi Hengchen FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:17 | Men's T20 Cricket Match | Garden Route Badgers | ✘ | — | — | In play | — |
-| 10-07 13:16 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:12 | ITF Men's Match | Nicholas Campbell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:12 | ITF Women's Match | Gina Feistel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:10 | ITF Men's Match | Aleksa Ciric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
