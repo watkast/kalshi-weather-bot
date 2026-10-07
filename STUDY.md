@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 3:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 3:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4889 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4893 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4339 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4343 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,8 +94,8 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 368 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 317 | 1 | 9% | 6% | -71% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 304 | 1 | 4% | 3% | -69% | -94% | 9 min |
+| ITF Men's Match | ✘ | 320 | 1 | 9% | 6% | -71% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 305 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 253 | 1 | 9% | 2% | -63% | -85% | 5 min |
 | TT Star Series Match | ✘ | 146 | 1 | 3% | 3% | -36% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -224,14 +224,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 09:44 | ITF Men's Match | James McGloughlin | ✘ | — | — | In play | — |
-| 10-07 09:44 | ITF Men's Match | Martin VAN DER MEERSCHEN | ✘ | — | — | In play | — |
+| 10-07 09:53 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
+| 10-07 09:53 | TT Star Series Match | Limura Yuta | ✘ | — | — | In play | — |
+| 10-07 09:52 | Counter-Strike 2 Game | Falcons Force | ✘ | — | — | In play | — |
+| 10-07 09:46 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 09:44 | ITF Men's Match | James McGloughlin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 09:44 | ITF Men's Match | Martin VAN DER MEERSCHEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:38 | ITF Men's Match | Fausto Tabacco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:34 | ITF Men's Match | Zaharije-Zak Talic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:32 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:29 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:29 | Counter-Strike 2 Game | Passion Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 09:29 | ITF Men's Match | Nikolas Baker | ✘ | — | — | In play | — |
+| 10-07 09:29 | ITF Men's Match | Nikolas Baker | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 09:17 | ITF Men's Match | Boris Butulija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:17 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:15 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,10 +254,6 @@
 | 10-07 07:23 | ITF Women's Match | Chihiro Muramatsu | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-07 07:16 | ITF Men's Match | Kuan-Yi Lee | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 07:15 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 07:14 | ITF Women's Match | Gurmanat Kaur Sandhu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 07:11 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 07:06 | ITF Women's Match | Ava Beck | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 06:54 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
