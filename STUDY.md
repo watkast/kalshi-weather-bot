@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 5:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4927 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4929 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4375 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4381 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,21 +93,21 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 376 | 0 | 12% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 329 | 1 | 9% | 5% | -72% | -84% | 5 min |
+| ITF Women's Match | ✘ | 377 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Men's Match | ✘ | 330 | 1 | 9% | 5% | -72% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 310 | 1 | 4% | 3% | -70% | -94% | 9 min |
 | Challenger ATP  | ✘ | 254 | 1 | 9% | 2% | -63% | -84% | 5 min |
-| TT Star Series Match | ✘ | 148 | 1 | 3% | 3% | -37% | -95% | 4 min |
+| TT Star Series Match | ✘ | 149 | 1 | 3% | 3% | -37% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | League of Legends Game | ✘ | 106 | 0 | 7% | 3% | -100% | -89% | 11 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 83 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 84 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 28 min |
-| Challenger WTA | ✘ | 53 | 0 | 17% | 9% | -100% | -71% | 8 min |
+| Challenger WTA | ✘ | 54 | 0 | 17% | 9% | -100% | -71% | 8 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -142,10 +142,10 @@
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
+| Valorant game winner | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
-| Valorant game winner | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 15 min |
 | Finland Korisliiga Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
@@ -224,15 +224,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 11:12 | TT Star Series Match | Franco Carlos | ✘ | — | — | In play | — |
-| 10-07 11:09 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
-| 10-07 11:08 | ITF Women's Match | Sofia Shapatava | ✘ | — | — | In play | — |
+| 10-07 11:26 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
+| 10-07 11:23 | Challenger WTA | Noma Noha Akugue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 11:12 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 11:09 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 11:08 | ITF Women's Match | Sofia Shapatava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:07 | Liiga Game | Mikkelin Jukurit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:04 | Counter-Strike 2 Game | OG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:04 | ITF Men's Match | Aaron Gabet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 11:01 | Valorant game winner | T1 | ✘ | — | — | In play | — |
+| 10-07 11:01 | Valorant game winner | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 11:01 | ITF Men's Match | Hugo Car | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:58 | ITF Men's Match | Georgios Dimitriou | ✘ | — | — | In play | — |
+| 10-07 10:58 | ITF Men's Match | Georgios Dimitriou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:58 | ITF Men's Match | Rahul Dhokia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 10:58 | Counter-Strike 2 Game | SINQU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:58 | ITF Men's Match | Stefan Storch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,8 +254,6 @@
 | 10-07 10:20 | ITF Women's Match | Ksenia Meshcheryakova | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-07 10:12 | ITF Women's Match | Tilwith Di Girolami | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 10:11 | Darts Match | Conor Heneghan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:09 | ITF Women's Match | Gabriela Ce | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 10:04 | ITF Women's Match | Micol Salvadori | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
