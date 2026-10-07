@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 3:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 3:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.64/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4881 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4886 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4332 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4333 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | League of Legends Game | ✘ | 105 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 89 | 1 | 7% | 2% | +5% | -88% | 55 min |
-| Darts Match | ✘ | 77 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 78 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Men's T20 Cricket Match | ✘ | 57 | 0 | 16% | 7% | -100% | -73% | 19 min |
 | Dota 2 Game | ✘ | 54 | 0 | 2% | 2% | -100% | -97% | 28 min |
@@ -224,9 +224,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 09:34 | ITF Men's Match | Zaharije-Zak Talic | ✘ | — | — | In play | — |
+| 10-07 09:32 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-07 09:29 | TT Star Series Match | Oehme Benno | ✘ | — | — | In play | — |
+| 10-07 09:29 | Counter-Strike 2 Game | Passion Academy | ✘ | — | — | In play | — |
+| 10-07 09:29 | ITF Men's Match | Nikolas Baker | ✘ | — | — | In play | — |
 | 10-07 09:17 | ITF Men's Match | Boris Butulija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:17 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 09:15 | Darts Match | Steve Lennon | ✘ | — | — | In play | — |
+| 10-07 09:15 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:15 | ITF Women's Match | HAJRA SOHAIL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 09:15 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
 | 10-07 08:42 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,11 +254,6 @@
 | 10-07 06:42 | ITF Women's Match | Remika Ohashi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 06:32 | Challenger WTA | Tatiana Prozorova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 06:27 | ATP Tennis Match | Nikoloz Basilashvili | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 06:21 | ITF Men's Match | Xin Zhou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 06:18 | ITF Men's Match | Kuan-Shou Chen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 06:07 | ITF Women's Match | Guyu Xu | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-07 06:05 | Challenger ATP  | Filip Peliwo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 05:54 | ITF Women's Match | Nagi Hanatani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
