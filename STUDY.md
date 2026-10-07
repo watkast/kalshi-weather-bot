@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 2:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 3:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **58 buys a day**, roughly **$8.67/day** at risk; max loss per buy **15¢**.*
+*Expect about **58 buys a day**, roughly **$8.65/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4876 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 4881 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4328 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4332 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 367 | 0 | 11% | 5% | -100% | -80% | 4 min |
-| ITF Men's Match | ✘ | 313 | 1 | 10% | 6% | -70% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
+| ITF Women's Match | ✘ | 368 | 0 | 11% | 5% | -100% | -80% | 4 min |
+| ITF Men's Match | ✘ | 315 | 1 | 10% | 6% | -70% | -83% | 5 min |
+| Counter-Strike 2 Game | ✘ | 303 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 253 | 1 | 9% | 2% | -63% | -85% | 5 min |
 | TT Star Series Match | ✘ | 145 | 1 | 3% | 3% | -36% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -224,7 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 08:42 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | — | In play | — |
+| 10-07 09:17 | ITF Men's Match | Boris Butulija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 09:17 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 09:15 | Darts Match | Steve Lennon | ✘ | — | — | In play | — |
+| 10-07 09:15 | ITF Women's Match | HAJRA SOHAIL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 09:15 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
+| 10-07 08:42 | Counter-Strike 2 Game | Orion Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 08:33 | ITF Men's Match | Maxim Shin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 08:25 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 08:22 | ITF Men's Match | Adrian Arcon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,11 +254,6 @@
 | 10-07 06:07 | ITF Women's Match | Guyu Xu | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 06:05 | Challenger ATP  | Filip Peliwo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 05:54 | ITF Women's Match | Nagi Hanatani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 05:45 | Dota 2 Game | IaChIo123 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 05:36 | ITF Women's Match | Amy Stevens | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-07 05:35 | LNBP Basketball Game | Fuerza Regia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 05:29 | ITF Women's Match | Darja Suvirdjonkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 05:07 | Challenger WTA | Linda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
