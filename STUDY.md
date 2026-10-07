@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 10:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 10:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 538 finished bets | 1% | -$38.70 | -48% | -7.19¢ | -$26.35 / -$12.35 |
 
-*Expect about **59 buys a day**, roughly **$8.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **59 buys a day**, roughly **$8.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4836 | 538 | 3 (1%) | 1.1% | -$38.70 (-48%) | Hold to the end: -$38.70 (-48%) |
+| 4837 | 538 | 3 (1%) | 1.1% | -$38.70 (-48%) | Hold to the end: -$38.70 (-48%) |
 
 *In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 538 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4291 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4292 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 352 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
-| Challenger ATP  | ✘ | 250 | 1 | 9% | 2% | -63% | -85% | 5 min |
+| Challenger ATP  | ✘ | 251 | 1 | 9% | 2% | -63% | -85% | 5 min |
 | TT Star Series Match | ✘ | 141 | 1 | 3% | 3% | -34% | -95% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -224,7 +224,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 04:14 | Challenger ATP  | Hiroki Moriya | ✘ | — | — | In play | — |
+| 10-07 04:18 | International Friendly Game | Mexico | ✔ | 77' · CHI 2 - MEX 0 | — | In play | — |
+| 10-07 04:14 | Challenger ATP  | Hiroki Moriya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 04:12 | Challenger ATP  | Yaroslav Demin | ✘ | — | — | In play | — |
 | 10-07 04:04 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 03:52 | NBA Game | Los Angeles L | ✔ | 3:56 - 3rd · LAL 65 - GS 91 | — | In play | — |
@@ -253,7 +254,6 @@
 | 10-07 01:51 | NHL Game | Montreal | ✔ | 1:29 - 3rd · CAR 5 - MTL 4 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:47 | International Friendly Game | Canada | ✔ | 80' · CAN 0 - USA 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:47 | NHL Game | New Jersey | ✔ | 2:16 - 3rd · UTA 5 - NJ 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 01:45 | NHL Game | Nashville | ✔ | 0:25 - OT · NSH 4 - TOR 4 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
