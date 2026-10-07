@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 12:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 12:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5088 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5094 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4539 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4545 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,16 +95,16 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 415 | 0 | 11% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 372 | 1 | 9% | 5% | -75% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 335 | 1 | 4% | 3% | -72% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 336 | 1 | 4% | 3% | -72% | -94% | 9 min |
 | Challenger ATP  | ✘ | 258 | 1 | 9% | 2% | -64% | -85% | 5 min |
-| TT Star Series Match | ✘ | 158 | 1 | 3% | 3% | -41% | -96% | 4 min |
+| TT Star Series Match | ✘ | 159 | 1 | 3% | 3% | -41% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 108 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 60 | 0 | 17% | 7% | -100% | -71% | 21 min |
+| Men's T20 Cricket Match | ✘ | 61 | 0 | 16% | 7% | -100% | -72% | 20 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Dota 2 Game | ✘ | 58 | 0 | 2% | 2% | -100% | -97% | 28 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -114,8 +114,8 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
+| KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Brasileiro Serie B Game | ✘ | 32 | 0 | 3% | 0% | -100% | -95% | 13 min |
-| KHL Game | ✘ | 31 | 0 | 3% | 3% | -100% | -94% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -174,10 +174,10 @@
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
+| Russia VTB United Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
-| Russia VTB United Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 22 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Men's ODI Cricket Match | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
@@ -224,9 +224,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 18:49 | ITF Men's Match | Valentino Grippo | ✘ | — | — | In play | — |
+| 10-07 18:48 | KHL Game | HC Sochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:46 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:46 | KHL Game | HC Dynamo Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 18:46 | ITF Men's Match | Yannick Baluska | ✘ | — | — | In play | — |
+| 10-07 18:45 | Counter-Strike 2 Game | STATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:39 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 18:36 | Men's T20 Cricket Match | England Champions | ✘ | — | — | In play | — |
-| 10-07 18:36 | Russia VTB United Game | Parma Permsky Kray | ✘ | — | — | In play | — |
+| 10-07 18:36 | Men's T20 Cricket Match | England Champions | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-07 18:36 | Russia VTB United Game | Parma Permsky Kray | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:33 | Counter-Strike 2 Game | Lazer Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 18:27 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
 | 10-07 18:25 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,12 +254,6 @@
 | 10-07 17:33 | EuroCup Basketball Game | Balkan Botevgrad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:33 | Counter-Strike 2 Game | Phantom | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 17:33 | Counter-Strike 2 Game | Huskies eSport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:33 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:33 | Finland Korisliiga Game | Kataja Basket Joensuu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 17:33 | League of Legends Game | Skillcamp Esport | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 17:33 | Dota 2 Game | Team Synapse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 15:00 | ITF Men's Match | Maxence Rivet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 15:00 | ITF Men's Match | Javier Munoz Fuster | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
