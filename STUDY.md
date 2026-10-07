@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 544 finished bets | 1% | -$39.60 | -49% | -7.28¢ | -$26.80 / -$12.80 |
 
-*Expect about **57 buys a day**, roughly **$8.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **57 buys a day**, roughly **$8.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5016 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
+| 5022 | 544 | 3 (1%) | 1.1% | -$39.60 (-49%) | Hold to the end: -$39.60 (-49%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 544 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4464 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4466 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 401 | 0 | 11% | 5% | -100% | -81% | 4 min |
-| ITF Men's Match | ✘ | 351 | 1 | 9% | 5% | -73% | -84% | 5 min |
+| ITF Men's Match | ✘ | 353 | 1 | 9% | 5% | -74% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 320 | 1 | 3% | 3% | -71% | -94% | 9 min |
 | Challenger ATP  | ✘ | 256 | 1 | 9% | 2% | -64% | -84% | 5 min |
 | TT Star Series Match | ✘ | 153 | 1 | 3% | 3% | -39% | -95% | 4 min |
@@ -224,6 +224,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 13:47 | ITF Women's Match | Camilla Gennaro | ✘ | — | — | In play | — |
+| 10-07 13:45 | TT Star Series Match | Oehme Benno | ✘ | — | — | In play | — |
+| 10-07 13:43 | ITF Men's Match | Andrei Kunitsyn | ✘ | — | — | In play | — |
+| 10-07 13:40 | ITF Men's Match | Alexander Chang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 13:40 | ITF Men's Match | Ruben Hartig | ✘ | — | — | In play | — |
+| 10-07 13:40 | ITF Men's Match | Karim Bennani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:38 | ITF Men's Match | Jan Hrazdil | ✘ | — | — | In play | — |
 | 10-07 13:34 | ITF Men's Match | Scott Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:33 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
@@ -248,12 +254,6 @@
 | 10-07 13:09 | China League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:08 | ITF Women's Match | Angelica Sara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 13:08 | ITF Women's Match | Justina Mikulskyte | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 13:07 | ITF Men's Match | Remy Dugardin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:06 | Counter-Strike 2 Game | Bread Eaters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:04 | ITF Women's Match | Sara Saad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:04 | China League 1 Game | Nanjing City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-07 13:03 | ITF Women's Match | Alja Senica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 13:03 | Darts Match | Steve Lennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
