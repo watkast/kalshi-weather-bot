@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 6, 7:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 6, 7:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 4800 | 519 | 3 (1%) | 1.1% | -$35.85 (-46%) | Hold to the end: -$35.85 (-46%) |
+| 4803 | 519 | 3 (1%) | 1.1% | -$35.85 (-46%) | Hold to the end: -$35.85 (-46%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 519 | 14% | 9% | 5% | 3% | 1% | 1% |
-| Unverified | 4274 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4275 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 346 | 0 | 10% | 4% | -100% | -82% | 4 min |
+| ITF Women's Match | ✘ | 347 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | ITF Men's Match | ✘ | 305 | 1 | 10% | 6% | -69% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 302 | 1 | 4% | 3% | -69% | -94% | 9 min |
 | Challenger ATP  | ✘ | 249 | 1 | 9% | 2% | -63% | -85% | 5 min |
@@ -224,7 +224,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-07 01:17 | ITF Women's Match | Amelie Justine Hejtmanek | ✘ | — | — | In play | — |
+| 10-07 01:28 | ITF Women's Match | Ya Yi Yang | ✘ | — | — | In play | — |
+| 10-07 01:24 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-07 01:20 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | — | In play | — |
+| 10-07 01:17 | ITF Women's Match | Amelie Justine Hejtmanek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:07 | Professional Baseball Game | Atlanta | ✔ | Bot 9th · LAD 3 - ATL 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 01:07 | NBA Game | Charlotte | ✔ | 8:08 - 4th · BKN 102 - CHA 77 | — | In play | — |
 | 10-07 01:00 | League of Legends Game | Estral Esports | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
@@ -251,9 +254,6 @@
 | 10-06 21:21 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-06 21:10 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-06 21:09 | CONCACAF Nations League Game | Tie | ✔ | 48' · TCA 0 - MSR 2 | 3¢ | ❌ Lost | -$0.15 |
-| 10-06 21:06 | TT Star Series Match | Gavlas Antonín | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 21:02 | ITF Men's Match | Darwin Andres Macias Elizalde | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-06 20:58 | R6 Game | Twisted Minds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
