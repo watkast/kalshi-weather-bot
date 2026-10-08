@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 545 finished bets | 1% | -$39.75 | -49% | -7.29¢ | -$26.80 / -$12.95 |
 
-*Expect about **54 buys a day**, roughly **$8.14/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.17/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5154 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
+| 5160 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 545 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4604 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4605 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 426 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 427 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 356 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -225,9 +225,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 00:22 | Brasileiro Serie A Game | Tie | ✔ | 62' · CHA 0 - VIT 3 | — | In play | — |
+| 10-08 00:21 | Canadian Premier League | Pacific | ✘ | — | — | In play | — |
+| 10-08 00:21 | Women's College Volleyball Match | Jacksonville | ✘ | — | — | In play | — |
+| 10-08 00:18 | Brasileiro Serie B Game | Londrina | ✘ | — | — | In play | — |
+| 10-08 00:18 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
+| 10-08 00:16 | Brasileiro Serie A Game | Chapecoense | ✔ | 55' · CHA 0 - VIT 2 | — | In play | — |
 | 10-08 00:10 | Brasileiro Serie A Game | Corinthians | ✔ | 76' · COR 0 - INT 1 | — | In play | — |
 | 10-07 23:58 | League of Legends Game | Disguised | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | — | In play | — |
+| 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,12 +255,6 @@
 | 10-07 20:58 | ITF Women's Match | Sahaja Yamalapalli | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-07 20:57 | ITF Women's Match | McKenna Schaefbauer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:56 | ITF Women's Match | Natalie Kha | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-07 20:50 | ITF Women's Match | Emma Ottavia Ghirardato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:45 | Euroleague Game | Paris Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:33 | Counter-Strike 2 Game | Metizport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:31 | Dota 2 Game | CyberHero | ✘ | — | 49¢ | ❌ Lost | -$0.15 |
-| 10-07 20:27 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
