@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 9:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 9:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5206 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
+| 5208 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 566 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4632 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4633 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 430 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 362 | 1 | 3% | 2% | -74% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 363 | 1 | 3% | 2% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -226,9 +226,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
+| 10-08 03:52 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
 | 10-08 03:43 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | — | In play | — |
 | 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | — | In play | — |
-| 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | — | In play | — |
+| 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:16 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,8 +256,6 @@
 | 10-08 01:40 | Women's College Volleyball Match | Pittsburgh | ✘ | — | — | In play | — |
 | 10-08 01:39 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
 | 10-08 01:39 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
-| 10-08 01:32 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 2 - BOT 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
