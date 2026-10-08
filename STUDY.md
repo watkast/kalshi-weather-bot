@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 554 finished bets | 1% | -$41.10 | -49% | -7.42¢ | -$27.55 / -$13.55 |
 
-*Expect about **55 buys a day**, roughly **$8.24/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.25/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5174 | 554 | 3 (1%) | 1.1% | -$41.10 (-49%) | Hold to the end: -$41.10 (-49%) |
+| 5178 | 554 | 3 (1%) | 1.1% | -$41.10 (-49%) | Hold to the end: -$41.10 (-49%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 554 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4611 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4614 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 427 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 428 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 356 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -112,9 +112,9 @@
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
+| Brasileiro Serie B Game | ✘ | 38 | 0 | 3% | 0% | -100% | -95% | 11 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
-| Brasileiro Serie B Game | ✘ | 36 | 0 | 3% | 0% | -100% | -95% | 11 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
@@ -225,9 +225,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 01:32 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 2 - BOT 1 | — | In play | — |
+| 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-08 01:27 | Brasileiro Serie B Game | Cuiaba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 01:27 | Brasileiro Serie B Game | Vila Nova | ✘ | — | — | In play | — |
 | 10-08 01:18 | NBA Game | Minnesota | ✔ | 1:35 - 4th · MIN 109 - IND 121 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:15 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
-| 10-08 01:14 | ITF Women's Match | Katrina Scott | ✘ | — | — | In play | — |
+| 10-08 01:15 | Brasileiro Serie B Game | America FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-08 01:14 | ITF Women's Match | Katrina Scott | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | — | In play | — |
 | 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | — | In play | — |
@@ -251,10 +255,6 @@
 | 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 23:02 | Professional Baseball Game | Chicago WS | ✔ | Bot 8th · CLE 7 - CHW 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 22:47 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 22:31 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
