@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 9:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 566 finished bets | 1% | -$42.90 | -51% | -7.58¢ | -$28.45 / -$14.45 |
 
-*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5204 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
+| 5206 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
 
 *In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 566 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4630 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4632 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -104,7 +104,7 @@
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 64 | 0 | 17% | 6% | -100% | -70% | 21 min |
+| Men's T20 Cricket Match | ✘ | 65 | 0 | 17% | 6% | -100% | -71% | 21 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -123,7 +123,7 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
-| LNBP Basketball Game | ✘ | 24 | 0 | 4% | 0% | -100% | -93% | 12 min |
+| LNBP Basketball Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 12 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
@@ -226,15 +226,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 03:43 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | — | In play | — |
+| 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | — | In play | — |
 | 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | — | In play | — |
-| 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | — | In play | — |
+| 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:16 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:14 | Counter-Strike 2 Game | Club 333 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:13 | Professional Baseball Game | New York Y | ✔ | Bot 9th · TB 4 - NYY 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:07 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
+| 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:44 | ITF Women's Match | Ashleigh Simes | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -254,8 +256,6 @@
 | 10-08 01:39 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
 | 10-08 01:32 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 2 - BOT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:27 | Brasileiro Serie B Game | Cuiaba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:27 | Brasileiro Serie B Game | Vila Nova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
