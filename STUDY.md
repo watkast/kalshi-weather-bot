@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 4:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 4:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5257 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5262 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4682 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4684 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 443 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 445 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 389 | 1 | 9% | 5% | -76% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 364 | 1 | 3% | 2% | -74% | -94% | 10 min |
 | Challenger ATP  | ✘ | 265 | 1 | 9% | 2% | -65% | -85% | 5 min |
@@ -226,6 +226,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 10:52 | Valorant game winner | 100 Thieves | ✘ | — | — | In play | — |
+| 10-08 10:50 | Men's T20 Cricket Match | SOGO Rangers | ✘ | — | — | In play | — |
+| 10-08 10:48 | ITF Women's Match | Elena Ruxandra Bertea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:48 | ITF Women's Match | Giorgia Pedone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:43 | Counter-Strike 2 Game | 33 | ✘ | — | — | In play | — |
 | 10-08 10:42 | Challenger ATP  | Miguel Damas | ✘ | — | — | In play | — |
 | 10-08 10:41 | Men's ODI Cricket Match | Colombo Aces | ✘ | — | — | In play | — |
 | 10-08 10:35 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,11 +256,6 @@
 | 10-08 09:28 | Counter-Strike 2 Game | Fortress | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:28 | ITF Men's Match | Saveliy Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:28 | ITF Women's Match | Maria Mikhailova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:16 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:07 | Men's T20 Cricket Match | Malaysia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:03 | ITF Women's Match | suzuna oigawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:03 | ITF Women's Match | Sofiia Suslova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:02 | ITF Women's Match | Gloria Levinsky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
