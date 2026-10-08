@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 554 finished bets | 1% | -$41.10 | -49% | -7.42¢ | -$27.55 / -$13.55 |
+| ESPN-verified leagues only, hold to the end | 556 finished bets | 1% | -$41.40 | -50% | -7.45¢ | -$27.70 / -$13.70 |
 
-*Expect about **55 buys a day**, roughly **$8.25/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 554 | -$49.35 | -59% |
-| ESPN-verified leagues only, sell at 5¢ | 554 | -$62.30 | -75% |
-| ESPN-verified leagues only, sell at 3¢ | 554 | -$62.43 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 556 | -$49.65 | -60% |
+| ESPN-verified leagues only, sell at 5¢ | 556 | -$61.95 | -74% |
+| ESPN-verified leagues only, sell at 3¢ | 556 | -$62.34 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5178 | 554 | 3 (1%) | 1.1% | -$41.10 (-49%) | Hold to the end: -$41.10 (-49%) |
+| 5181 | 556 | 3 (1%) | 1.1% | -$41.40 (-50%) | Hold to the end: -$41.40 (-50%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 554 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4614 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 556 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 4618 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$41.10 | -49% |
-| Sell at 2¢ | 79 | 14% | -$62.56 | -75% |
-| Sell at 3¢ | 53 | 10% | -$62.43 | -75% |
-| Sell at 5¢ | 32 | 6% | -$62.30 | -75% |
-| Sell at 10¢ | 15 | 3% | -$63.45 | -76% |
-| Sell at 25¢ | 6 | 1% | -$63.24 | -76% |
-| Sell at 50¢ | 5 | 1% | -$49.35 | -59% |
+| Hold to the end | 3 | 1% | -$41.40 | -50% |
+| Sell at 2¢ | 80 | 14% | -$62.60 | -75% |
+| Sell at 3¢ | 54 | 10% | -$62.34 | -75% |
+| Sell at 5¢ | 33 | 6% | -$61.95 | -74% |
+| Sell at 10¢ | 16 | 3% | -$62.44 | -75% |
+| Sell at 25¢ | 6 | 1% | -$63.54 | -76% |
+| Sell at 50¢ | 5 | 1% | -$49.65 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -112,7 +112,7 @@
 | NHL Game | ✔ | 52 | 0 | 13% | 6% | -100% | -77% | 4 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| Brasileiro Serie B Game | ✘ | 38 | 0 | 3% | 0% | -100% | -95% | 11 min |
+| Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
@@ -149,12 +149,12 @@
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Baseball Game | partly | 14 | 0 | 14% | 7% | -100% | -75% | 3 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Brasileiro Serie A Game | partly | 14 | 0 | 21% | 14% | -100% | -63% | 1 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | NBA Game | ✔ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
-| Brasileiro Serie A Game | partly | 12 | 0 | 17% | 8% | -100% | -71% | 1 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
@@ -203,9 +203,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 219 | 7% | 1% | 0% | -88% |
+| Under 5 min | 220 | 7% | 1% | 0% | -88% |
 | 5–15 min | 106 | 15% | 5% | 1% | -74% |
-| 15–30 min | 91 | 27% | 11% | 2% | -52% |
+| 15–30 min | 92 | 28% | 12% | 2% | -51% |
 | 30–60 min | 70 | 13% | 6% | 0% | -78% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
@@ -225,16 +225,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 01:32 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 2 - BOT 1 | — | In play | — |
-| 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-08 01:40 | Women's College Volleyball Match | Pittsburgh | ✘ | — | — | In play | — |
+| 10-08 01:39 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
+| 10-08 01:39 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
+| 10-08 01:32 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 2 - BOT 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:27 | Brasileiro Serie B Game | Cuiaba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:27 | Brasileiro Serie B Game | Vila Nova | ✘ | — | — | In play | — |
+| 10-08 01:27 | Brasileiro Serie B Game | Vila Nova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:18 | NBA Game | Minnesota | ✔ | 1:35 - 4th · MIN 109 - IND 121 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:15 | Brasileiro Serie B Game | America FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 01:14 | ITF Women's Match | Katrina Scott | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | — | In play | — |
-| 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | — | In play | — |
+| 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | 14¢ | ❌ Lost | -$0.15 |
+| 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 00:30 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:30 | Brasileiro Serie A Game | Remo | ✔ | 90'+8' · GRE 1 - REMO 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -252,9 +255,6 @@
 | 10-08 00:10 | Brasileiro Serie A Game | Corinthians | ✔ | 76' · COR 0 - INT 1 | 4¢ | ❌ Lost | -$0.15 |
 | 10-07 23:58 | League of Legends Game | Disguised | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
