@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 9:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 9:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.98/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.97/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5389 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5397 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4804 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4813 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 467 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 468 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 412 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 377 | 1 | 3% | 2% | -75% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 379 | 1 | 3% | 2% | -75% | -95% | 9 min |
 | Challenger ATP  | ✘ | 273 | 1 | 8% | 2% | -66% | -85% | 5 min |
 | TT Star Series Match | ✘ | 176 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -115,13 +115,13 @@
 | Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
+| eSoccer Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
-| eSoccer Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
@@ -227,18 +227,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 15:43 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | — | In play | — |
-| 10-08 15:42 | ITF Women's Match | Kim Chiarello | ✘ | — | — | In play | — |
-| 10-08 15:42 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-08 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 15:42 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | — | In play | — |
-| 10-08 15:42 | eSoccer Game | Freiburg (Minjori) | ✘ | — | — | In play | — |
+| 10-08 15:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 15:52 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-08 15:52 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
+| 10-08 15:52 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 10-08 15:51 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 10-08 15:48 | Counter-Strike 2 Game | Alter Ego | ✘ | — | — | In play | — |
+| 10-08 15:47 | Counter-Strike 2 Game | Rare Atom | ✘ | — | — | In play | — |
+| 10-08 15:46 | Darts Match | Alex Spellman | ✘ | — | — | In play | — |
+| 10-08 15:43 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:42 | ITF Women's Match | Kim Chiarello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:42 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:42 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:42 | eSoccer Game | Freiburg (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | Counter-Strike 2 Game | The Last Resort | ✘ | — | — | In play | — |
 | 10-08 15:40 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:40 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | — | In play | — |
+| 10-08 15:40 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:40 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:37 | eSoccer Game | Everton (Luis) | ✘ | — | — | In play | — |
-| 10-08 15:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 15:37 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:29 | Darts Match | Oliver Mitchell | ✘ | — | — | In play | — |
 | 10-08 15:28 | eSoccer Game | FC Bayern (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,14 +257,6 @@
 | 10-08 15:25 | ITF Women's Match | Julia Stusek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:25 | Counter-Strike 2 Game | Legion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:24 | eSoccer Game | Everton (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:24 | Counter-Strike 2 Game | megoshort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:22 | Challenger ATP  | Lorenzo Giustino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:18 | ITF Women's Match | Marta Lombardini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
