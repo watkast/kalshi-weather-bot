@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 4:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5243 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5246 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4667 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4669 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 439 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 440 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 385 | 1 | 9% | 5% | -76% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 364 | 1 | 3% | 2% | -74% | -94% | 10 min |
 | Challenger ATP  | ✘ | 263 | 1 | 9% | 2% | -65% | -85% | 5 min |
-| TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
+| TT Star Series Match | ✘ | 167 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -226,7 +226,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 09:49 | ITF Women's Match | Maria Pankratova | ✘ | — | — | In play | — |
+| 10-08 09:58 | ITF Women's Match | Sara Cakarevic | ✘ | — | — | In play | — |
+| 10-08 09:54 | ITF Women's Match | Iva Marinkovic | ✘ | — | — | In play | — |
+| 10-08 09:54 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:49 | ITF Women's Match | Maria Pankratova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:48 | ITF Men's Match | Mathieu Scaglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:46 | ITF Men's Match | Wihan Van Der Merwe | ✘ | — | — | In play | — |
 | 10-08 09:42 | ITF Men's Match | Michel Hopp | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -253,9 +256,6 @@
 | 10-08 07:58 | ITF Men's Match | Chen Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 05:08 | Professional Baseball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
