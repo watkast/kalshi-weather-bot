@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5237 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5239 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4658 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4662 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 437 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| ITF Men's Match | ✘ | 379 | 1 | 9% | 5% | -75% | -84% | 5 min |
+| ITF Women's Match | ✘ | 438 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Men's Match | ✘ | 382 | 1 | 9% | 5% | -76% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 363 | 1 | 3% | 2% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 263 | 1 | 9% | 2% | -65% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
@@ -226,11 +226,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 09:30 | ITF Men's Match | Benjamin Pietri | ✘ | — | — | In play | — |
-| 10-08 09:30 | ITF Men's Match | Niklas Waldner | ✘ | — | — | In play | — |
+| 10-08 09:41 | ITF Women's Match | Sarah Van Emst | ✘ | — | — | In play | — |
+| 10-08 09:40 | ITF Men's Match | Marcus Walters | ✘ | — | — | In play | — |
+| 10-08 09:30 | ITF Men's Match | Benjamin Pietri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:30 | ITF Men's Match | Niklas Waldner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:28 | Counter-Strike 2 Game | Fortress | ✘ | — | — | In play | — |
-| 10-08 09:28 | ITF Men's Match | Saveliy Ivanov | ✘ | — | — | In play | — |
-| 10-08 09:28 | ITF Women's Match | Maria Mikhailova | ✘ | — | — | In play | — |
+| 10-08 09:28 | ITF Men's Match | Saveliy Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:28 | ITF Women's Match | Maria Mikhailova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:16 | TT Star Series Match | Vráblík Jiří | ✘ | — | — | In play | — |
 | 10-08 09:07 | Men's T20 Cricket Match | Malaysia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:03 | ITF Women's Match | suzuna oigawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,8 +256,6 @@
 | 10-08 04:19 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:13 | Challenger WTA | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:07 | Challenger WTA | Tamara Korpatsch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:57 | Women's Pro Basketball Game | Las Vegas | ✔ | 0.0 - 4th · LV 81 - GS 83 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
