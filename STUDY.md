@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 9:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5208 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
+| 5209 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 566 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4633 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4635 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -122,8 +122,8 @@
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
+| LNBP Basketball Game | ✘ | 27 | 0 | 7% | 0% | -100% | -87% | 12 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
-| LNBP Basketball Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 12 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
@@ -226,10 +226,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 03:57 | Women's Pro Basketball Game | Las Vegas | ✔ | 0.0 - 4th · LV 81 - GS 83 | — | In play | — |
 | 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
 | 10-08 03:52 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
-| 10-08 03:43 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | — | In play | — |
-| 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | — | In play | — |
+| 10-08 03:43 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 01:40 | Women's College Volleyball Match | Pittsburgh | ✘ | — | — | In play | — |
 | 10-08 01:39 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
-| 10-08 01:39 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
 
 ## Raw data
 
