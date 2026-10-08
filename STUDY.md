@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 6:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 6:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **54 buys a day**, roughly **$8.09/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.08/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5297 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5302 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4719 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4722 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,7 +94,7 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 456 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 400 | 1 | 9% | 6% | -77% | -84% | 5 min |
+| ITF Men's Match | ✘ | 402 | 1 | 9% | 5% | -77% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 368 | 1 | 3% | 2% | -75% | -94% | 9 min |
 | Challenger ATP  | ✘ | 268 | 1 | 9% | 2% | -65% | -85% | 5 min |
 | TT Star Series Match | ✘ | 172 | 1 | 2% | 2% | -46% | -96% | 4 min |
@@ -105,7 +105,7 @@
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
-| Challenger WTA | ✘ | 59 | 0 | 17% | 10% | -100% | -71% | 8 min |
+| Challenger WTA | ✘ | 60 | 0 | 17% | 10% | -100% | -71% | 8 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
@@ -226,11 +226,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 12:03 | ITF Men's Match | Rares Teodor Pieleanu | ✘ | — | — | In play | — |
+| 10-08 12:11 | ITF Women's Match | Nina Radovanovic | ✘ | — | — | In play | — |
+| 10-08 12:10 | ITF Women's Match | Raluca Georgiana Serban | ✘ | — | — | In play | — |
+| 10-08 12:09 | ITF Men's Match | Yshai Oliel | ✘ | — | — | In play | — |
+| 10-08 12:07 | ITF Men's Match | Benjamin Lock | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 12:06 | ITF Women's Match | Anastasia Bertacchi | ✘ | — | — | In play | — |
+| 10-08 12:03 | ITF Men's Match | Rares Teodor Pieleanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 12:00 | ITF Men's Match | Gabriele Pennaforti | ✘ | — | — | In play | — |
 | 10-08 11:59 | ITF Women's Match | Jenny Lim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:59 | ITF Men's Match | Isaac Nortey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:54 | Challenger WTA | Linda Klimovicova | ✘ | — | — | In play | — |
+| 10-08 11:54 | Challenger WTA | Linda Klimovicova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:51 | ITF Men's Match | Alexander Vasilev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:49 | ITF Men's Match | Evangelos Kypriotis | ✘ | — | — | In play | — |
 | 10-08 11:44 | ITF Women's Match | Jana Kovackova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,11 +256,6 @@
 | 10-08 11:20 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:17 | ITF Women's Match | Elizara Yaneva | ✘ | — | — | In play | — |
 | 10-08 11:11 | ITF Men's Match | Filip Drab | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:10 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:06 | ITF Men's Match | Jose Dominguez Alonso | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-08 11:04 | ITF Men's Match | Noah Boutleux | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:03 | Challenger ATP  | Philip Henning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:01 | ITF Women's Match | Katerina Tsygourova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
