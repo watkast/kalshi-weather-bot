@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 4:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 4:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5597 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5602 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5012 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 5022 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -99,7 +99,7 @@
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| eSoccer Game | ✘ | 124 | 0 | 1% | 1% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 132 | 0 | 1% | 1% | -100% | -99% | 2 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Darts Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 8 min |
@@ -182,11 +182,11 @@
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
+| Peru Liga 1 Game | ✘ | 6 | 0 | 33% | 17% | -100% | -42% | 12 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Peru Liga 1 Game | ✘ | 4 | 0 | 50% | 25% | -100% | -13% | 24 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
@@ -227,16 +227,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 22:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 22:28 | eSoccer Game | River Plate (Frenkie) | ✘ | — | — | In play | — |
-| 10-08 22:27 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | — | In play | — |
-| 10-08 22:27 | eSoccer Game | Spurs (Lucy) | ✘ | — | — | In play | — |
-| 10-08 22:27 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 10-08 22:39 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
+| 10-08 22:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 22:32 | eSoccer Game | CA Osasuna (Homie) | ✘ | — | — | In play | — |
+| 10-08 22:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 22:30 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:28 | eSoccer Game | River Plate (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:27 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-08 22:27 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:27 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 22:26 | Darts Match | William Borland | ✘ | — | — | In play | — |
-| 10-08 22:25 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | — | In play | — |
-| 10-08 22:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 22:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 22:25 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
+| 10-08 22:25 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 22:25 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 22:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 22:17 | eSoccer Game | Girona (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 22:16 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,11 +257,6 @@
 | 10-08 22:11 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
 | 10-08 22:03 | eSoccer Game | Sevilla FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 22:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 22:00 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:59 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:59 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
