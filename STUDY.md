@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 553 finished bets | 1% | -$40.95 | -49% | -7.41¢ | -$27.40 / -$13.55 |
 
-*Expect about **55 buys a day**, roughly **$8.22/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5170 | 553 | 3 (1%) | 1.1% | -$40.95 (-49%) | Hold to the end: -$40.95 (-49%) |
+| 5171 | 553 | 3 (1%) | 1.1% | -$40.95 (-49%) | Hold to the end: -$40.95 (-49%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 553 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4609 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4611 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -157,6 +157,7 @@
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | NBA Game | ✔ | 12 | 0 | 8% | 0% | -100% | -86% | 14 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Australia NBL Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 14 min |
@@ -167,7 +168,6 @@
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
-| Canadian Premier League | ✘ | 9 | 1 | 44% | 44% | +937% | -23% | 32 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
@@ -225,9 +225,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | — | In play | — |
 | 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | — | In play | — |
-| 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
+| 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 00:30 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:30 | Brasileiro Serie A Game | Remo | ✔ | 90'+8' · GRE 1 - REMO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:29 | Brasileiro Serie A Game | Gremio | ✔ | 90'+7' · GRE 1 - REMO 1 | 5¢ | ❌ Lost | -$0.15 |
@@ -236,7 +237,7 @@
 | 10-08 00:28 | Brasileiro Serie A Game | Tie | ✔ | 90'+5' · COR 1 - INT 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:22 | Brasileiro Serie A Game | Tie | ✔ | 62' · CHA 0 - VIT 3 | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 00:21 | Canadian Premier League | Pacific | ✘ | — | — | In play | — |
+| 10-08 00:21 | Canadian Premier League | Pacific | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 00:21 | Women's College Volleyball Match | Jacksonville | ✘ | — | — | In play | — |
 | 10-08 00:18 | Brasileiro Serie B Game | Londrina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:18 | Brasileiro Serie B Game | Ferroviario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,7 +255,6 @@
 | 10-07 22:15 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:45 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
 | 10-07 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-07 21:45 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
