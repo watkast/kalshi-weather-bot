@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 11:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 11:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5431 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5437 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4857 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4858 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -131,8 +131,8 @@
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
+| Liiga Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
-| Liiga Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 14 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -227,8 +227,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 17:56 | ITF Men's Match | Mauricio Echazu | ✘ | — | — | In play | — |
+| 10-08 17:55 | Men's T20 Cricket Match | Mbizo Cricket Club | ✘ | — | — | In play | — |
+| 10-08 17:54 | eBasketball Game | New York Knicks (Cade) | ✘ | — | — | In play | — |
+| 10-08 17:53 | Challenger ATP  | Miguel Tobon | ✘ | — | — | In play | — |
+| 10-08 17:50 | Euroleague Game | Olimpia Milano | ✘ | — | — | In play | — |
+| 10-08 17:48 | ELH Game | Ceske Budejovice | ✘ | — | — | In play | — |
 | 10-08 17:43 | Euroleague Game | Dubai Basketball | ✘ | — | — | In play | — |
-| 10-08 17:42 | Liiga Game | SaiPa Lappeenranta | ✘ | — | — | In play | — |
+| 10-08 17:42 | Liiga Game | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:37 | Valorant game winner | Team NVus | ✘ | — | — | In play | — |
 | 10-08 17:37 | ITF Women's Match | Anna Burchak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:33 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,12 +257,6 @@
 | 10-08 16:19 | Dota 2 Game | 1win | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:13 | Challenger ATP  | Zsombor Piros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:11 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:08 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:08 | eBasketball Game | New York Knicks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:03 | Darts Match | Harrison Leigh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:00 | Counter-Strike 2 Game | los kogutos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:58 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:58 | ITF Men's Match | Alexandre Reco | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
