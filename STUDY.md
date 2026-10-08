@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5417 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5419 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4838 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4842 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 469 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 413 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 383 | 1 | 3% | 3% | -76% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 385 | 1 | 3% | 3% | -76% | -94% | 10 min |
 | Challenger ATP  | ✘ | 275 | 1 | 8% | 2% | -66% | -86% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -106,7 +106,7 @@
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
-| Dota 2 Game | ✘ | 60 | 0 | 3% | 3% | -100% | -94% | 29 min |
+| Dota 2 Game | ✘ | 61 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -168,9 +168,9 @@
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
+| eBasketball Game | ✘ | 10 | 1 | 0% | 0% | +833% | +833% | 1 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
-| eBasketball Game | ✘ | 9 | 1 | 0% | 0% | +937% | +937% | 1 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -227,14 +227,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 16:44 | Counter-Strike 2 Game | A Great Chaos | ✘ | — | — | In play | — |
+| 10-08 16:50 | Counter-Strike 2 Game | IMAPROBLEM | ✘ | — | — | In play | — |
+| 10-08 16:49 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | — | In play | — |
+| 10-08 16:44 | Counter-Strike 2 Game | A Great Chaos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:44 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
-| 10-08 16:37 | Counter-Strike 2 Game | WBT | ✘ | — | — | In play | — |
-| 10-08 16:37 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | — | In play | — |
+| 10-08 16:37 | Counter-Strike 2 Game | WBT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 16:37 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:29 | ITF Women's Match | Maria Lourdes Carle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:28 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
 | 10-08 16:23 | Challenger ATP  | Gustavo Heide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:19 | Dota 2 Game | 1win | ✘ | — | — | In play | — |
+| 10-08 16:19 | Dota 2 Game | 1win | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:13 | Challenger ATP  | Zsombor Piros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:11 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:08 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,8 +257,6 @@
 | 10-08 15:48 | Counter-Strike 2 Game | Alter Ego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:47 | Counter-Strike 2 Game | Rare Atom | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 10-08 15:46 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:43 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | ITF Women's Match | Kim Chiarello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
