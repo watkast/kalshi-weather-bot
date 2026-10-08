@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 5:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 5:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5275 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5282 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4699 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4704 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 446 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 394 | 1 | 9% | 5% | -76% | -85% | 5 min |
+| ITF Women's Match | ✘ | 448 | 0 | 12% | 6% | -100% | -78% | 4 min |
+| ITF Men's Match | ✘ | 395 | 1 | 9% | 5% | -76% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 367 | 1 | 3% | 2% | -75% | -94% | 9 min |
-| Challenger ATP  | ✘ | 267 | 1 | 9% | 2% | -65% | -85% | 5 min |
-| TT Star Series Match | ✘ | 170 | 1 | 2% | 2% | -45% | -96% | 4 min |
+| Challenger ATP  | ✘ | 268 | 1 | 9% | 2% | -65% | -85% | 5 min |
+| TT Star Series Match | ✘ | 171 | 1 | 2% | 2% | -45% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -226,7 +226,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 11:20 | TT Star Series Match | Oehme Benno | ✘ | — | — | In play | — |
+| 10-08 11:33 | ITF Women's Match | Aliesia Reva | ✘ | — | — | In play | — |
+| 10-08 11:30 | ITF Women's Match | Alisa Vasileva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 11:29 | ITF Women's Match | Yelizaveta Trush | ✘ | — | — | In play | — |
+| 10-08 11:28 | ITF Women's Match | Lana Virc | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 11:28 | ITF Women's Match | Carla Giambelli | ✘ | — | — | In play | — |
+| 10-08 11:26 | Challenger ATP  | Joel Schwaerzler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 11:25 | ITF Men's Match | Bogdan Seleznev | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
+| 10-08 11:20 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:17 | ITF Women's Match | Elizara Yaneva | ✘ | — | — | In play | — |
 | 10-08 11:11 | ITF Men's Match | Filip Drab | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:10 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,13 +256,6 @@
 | 10-08 10:35 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 10:19 | Challenger ATP  | Moez Echargui | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 10:17 | Australia NBL Game | Brisbane Bullets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:16 | Challenger WTA | Alicia Dudeney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:11 | ITF Men's Match | Odysseas Geladaris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:10 | ITF Women's Match | Beatrise Zeltina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:06 | ITF Men's Match | John Sperle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:05 | ITF Men's Match | Colin Sinclair | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:04 | Challenger ATP  | Patrick Schoen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:58 | ITF Women's Match | Sara Cakarevic | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
