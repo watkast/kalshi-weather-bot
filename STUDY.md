@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 10:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 567 finished bets | 1% | -$43.05 | -51% | -7.59¢ | -$28.45 / -$14.60 |
 
-*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5211 | 567 | 3 (1%) | 1.1% | -$43.05 (-51%) | Hold to the end: -$43.05 (-51%) |
+| 5215 | 567 | 3 (1%) | 1.1% | -$43.05 (-51%) | Hold to the end: -$43.05 (-51%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 567 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4638 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4641 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -107,7 +107,7 @@
 | Men's T20 Cricket Match | ✘ | 66 | 0 | 17% | 6% | -100% | -71% | 21 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
+| Challenger WTA | ✘ | 58 | 0 | 17% | 10% | -100% | -70% | 8 min |
 | NHL Game | ✔ | 54 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -117,9 +117,9 @@
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
+| LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
-| LNBP Basketball Game | ✘ | 29 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
@@ -226,8 +226,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 04:13 | Challenger WTA | Emerson Jones | ✘ | — | — | In play | — |
-| 10-08 04:07 | Challenger WTA | Tamara Korpatsch | ✘ | — | — | In play | — |
+| 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | — | In play | — |
+| 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | — | In play | — |
+| 10-08 04:20 | NBA Game | Golden State | ✔ | 2:31 - 4th · GS 104 - POR 115 | — | In play | — |
+| 10-08 04:19 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 04:13 | Challenger WTA | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 04:07 | Challenger WTA | Tamara Korpatsch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:57 | Women's Pro Basketball Game | Las Vegas | ✔ | 0.0 - 4th · LV 81 - GS 83 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:52 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,10 +256,6 @@
 | 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:28 | Counter-Strike 2 Game | Reign Above | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:20 | NHL Game | Colorado | ✔ | 0:10 - 3rd · COL 2 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:20 | Men's T20 Cricket Match | Thailand | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 02:15 | Brasileiro Serie A Game | Tie | ✔ | 84' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 02:10 | NHL Game | Pittsburgh | ✔ | 1:56 - 3rd · PIT 3 - WSH 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
