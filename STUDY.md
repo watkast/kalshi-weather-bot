@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 9:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 565 finished bets | 1% | -$42.75 | -50% | -7.57¢ | -$28.30 / -$14.45 |
+| ESPN-verified leagues only, hold to the end | 566 finished bets | 1% | -$42.90 | -51% | -7.58¢ | -$28.45 / -$14.45 |
 
 *Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 565 | -$51.00 | -60% |
-| ESPN-verified leagues only, sell at 5¢ | 565 | -$63.30 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 565 | -$63.69 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 566 | -$51.15 | -60% |
+| ESPN-verified leagues only, sell at 5¢ | 566 | -$63.45 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 566 | -$63.84 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5203 | 565 | 3 (1%) | 1.1% | -$42.75 (-50%) | Hold to the end: -$42.75 (-50%) |
+| 5204 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 113 | 2.9% | 0.0% (0) | -244% | ❌ Worse |
+| ESPN win probability | 114 | 2.9% | 0.0% (0) | -244% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,8 +54,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 113 | 0 | -100% | -74% | -75% | -77% |
-| ESPN win probability ≥ 2% | 27 | 0 | -100% | -68% | -71% | -100% |
+| **Any 1¢ (no model)** | 114 | 0 | -100% | -74% | -75% | -77% |
+| ESPN win probability ≥ 2% | 28 | 0 | -100% | -69% | -72% | -100% |
 | ESPN win probability ≥ 5% | 11 | 0 | -100% | -84% | -76% | -100% |
 | ESPN win probability ≥ 10% | 6 | 0 | -100% | -71% | -57% | -100% |
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 565 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4626 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 566 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 4630 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$42.75 | -50% |
-| Sell at 2¢ | 81 | 14% | -$63.69 | -75% |
-| Sell at 3¢ | 54 | 10% | -$63.69 | -75% |
-| Sell at 5¢ | 33 | 6% | -$63.30 | -75% |
-| Sell at 10¢ | 16 | 3% | -$63.79 | -75% |
-| Sell at 25¢ | 6 | 1% | -$64.89 | -77% |
-| Sell at 50¢ | 5 | 1% | -$51.00 | -60% |
+| Hold to the end | 3 | 1% | -$42.90 | -51% |
+| Sell at 2¢ | 81 | 14% | -$63.84 | -75% |
+| Sell at 3¢ | 54 | 10% | -$63.84 | -75% |
+| Sell at 5¢ | 33 | 6% | -$63.45 | -75% |
+| Sell at 10¢ | 16 | 3% | -$63.94 | -75% |
+| Sell at 25¢ | 6 | 1% | -$65.04 | -77% |
+| Sell at 50¢ | 5 | 1% | -$51.15 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -95,13 +95,13 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 430 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 359 | 1 | 3% | 3% | -74% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 362 | 1 | 3% | 2% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| College Football Game | partly | 99 | 2 | 14% | 6% | +89% | -75% | 46 min |
+| College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 64 | 0 | 17% | 6% | -100% | -70% | 21 min |
@@ -123,8 +123,8 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
+| LNBP Basketball Game | ✘ | 24 | 0 | 4% | 0% | -100% | -93% | 12 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| LNBP Basketball Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 12 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
@@ -207,7 +207,7 @@
 | Under 5 min | 227 | 7% | 1% | 0% | -88% |
 | 5–15 min | 107 | 15% | 5% | 1% | -74% |
 | 15–30 min | 92 | 28% | 12% | 2% | -51% |
-| 30–60 min | 71 | 13% | 6% | 0% | -78% |
+| 30–60 min | 72 | 12% | 6% | 0% | -78% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
 ## Speed & liquidity
@@ -226,15 +226,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | — | In play | — |
 | 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | — | In play | — |
-| 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | — | In play | — |
-| 10-08 03:16 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | — | In play | — |
-| 10-08 03:14 | Counter-Strike 2 Game | Club 333 | ✘ | — | — | In play | — |
+| 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 03:16 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 03:14 | Counter-Strike 2 Game | Club 333 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:13 | Professional Baseball Game | New York Y | ✔ | Bot 9th · TB 4 - NYY 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:07 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | — | In play | — |
+| 10-08 03:07 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
-| 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | — | In play | — |
+| 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:44 | ITF Women's Match | Ashleigh Simes | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 02:42 | NBA Game | Phoenix | ✔ | 35.4 - 4th · PHX 112 - CHI 119 | 0¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 01:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:27 | Brasileiro Serie B Game | Cuiaba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:27 | Brasileiro Serie B Game | Vila Nova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:18 | NBA Game | Minnesota | ✔ | 1:35 - 4th · MIN 109 - IND 121 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
