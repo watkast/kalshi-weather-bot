@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 12:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 1:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.88/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.87/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5458 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5462 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4882 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4885 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 473 | 0 | 12% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 474 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 416 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 391 | 1 | 3% | 3% | -76% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 392 | 1 | 3% | 3% | -76% | -94% | 10 min |
 | Challenger ATP  | ✘ | 276 | 1 | 8% | 2% | -66% | -86% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -116,7 +116,7 @@
 | Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | R6 Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
-| KHL Game | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 5 min |
+| KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
@@ -227,11 +227,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 19:06 | SHL Game | Skellefteå | ✘ | — | — | In play | — |
+| 10-08 19:06 | SHL Game | Växjö Lakers | ✘ | — | — | In play | — |
+| 10-08 19:05 | ITF Women's Match | Thea Frodin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:05 | ELH Game | HC Sparta Praha | ✘ | — | — | In play | — |
 | 10-08 18:57 | SHL Game | HV71 | ✘ | — | — | In play | — |
-| 10-08 18:49 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | — | In play | — |
+| 10-08 18:49 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:47 | ITF Men's Match | Timeo Trufelli | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-08 18:46 | KHL Game | Torpedo Nizhny Novgorod | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 18:45 | Counter-Strike 2 Game | ENCE | ✘ | — | — | In play | — |
+| 10-08 18:45 | Counter-Strike 2 Game | ENCE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:43 | ITF Women's Match | Kajsa Rinaldo Persson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:42 | eSoccer Game | Liverpool (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,10 +257,6 @@
 | 10-08 17:54 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:53 | Challenger ATP  | Miguel Tobon | ✘ | — | — | In play | — |
 | 10-08 17:50 | Euroleague Game | Olimpia Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:48 | ELH Game | Ceske Budejovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:43 | Euroleague Game | Dubai Basketball | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-08 17:42 | Liiga Game | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:37 | Valorant game winner | Team NVus | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
