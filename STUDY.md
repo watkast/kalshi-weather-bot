@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 8:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 9:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 564 finished bets | 1% | -$42.60 | -50% | -7.55¢ | -$28.30 / -$14.30 |
 
-*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5195 | 564 | 3 (1%) | 1.1% | -$42.60 (-50%) | Hold to the end: -$42.60 (-50%) |
+| 5197 | 564 | 3 (1%) | 1.1% | -$42.60 (-50%) | Hold to the end: -$42.60 (-50%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 564 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4623 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4624 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 429 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 358 | 1 | 3% | 3% | -74% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 359 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -226,8 +226,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | — | In play | — |
+| 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
 | 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | — | In play | — |
-| 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | — | In play | — |
+| 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:44 | ITF Women's Match | Ashleigh Simes | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 02:42 | NBA Game | Phoenix | ✔ | 35.4 - 4th · PHX 112 - CHI 119 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:40 | NBA Game | Oklahoma City | ✔ | 4.0 - 4th · MIL 128 - OKC 124 | 2¢ | ❌ Lost | -$0.15 |
@@ -254,8 +256,6 @@
 | 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 00:30 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 00:30 | Brasileiro Serie A Game | Remo | ✔ | 90'+8' · GRE 1 - REMO 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
