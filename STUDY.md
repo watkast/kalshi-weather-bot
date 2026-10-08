@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 2:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5219 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5224 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -226,6 +226,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 09:01 | Men's ODI Cricket Match | Fairfirst Insurance | ✘ | — | — | In play | — |
+| 10-08 09:00 | Men's T20 Cricket Match | Singapore | ✘ | — | — | In play | — |
+| 10-08 09:00 | ITF Men's Match | Tai Leonard Sach | ✘ | — | — | In play | — |
+| 10-08 09:00 | ITF Men's Match | Joshua Charlton | ✘ | — | — | In play | — |
+| 10-08 09:00 | ITF Men's Match | Ethan Cook | ✘ | — | — | In play | — |
 | 10-08 07:58 | ITF Men's Match | Chen Dong | ✘ | — | — | In play | — |
 | 10-08 05:08 | Professional Baseball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,11 +256,6 @@
 | 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:44 | ITF Women's Match | Ashleigh Simes | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-08 02:42 | NBA Game | Phoenix | ✔ | 35.4 - 4th · PHX 112 - CHI 119 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:40 | NBA Game | Oklahoma City | ✔ | 4.0 - 4th · MIL 128 - OKC 124 | 2¢ | ❌ Lost | -$0.15 |
-| 10-08 02:36 | College Football Game | Kennesaw St. | ✔ | 0:52 - 4th · JXST 27 - KENN 26 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
