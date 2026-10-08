@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 11:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5423 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5425 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4846 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4849 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 470 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 413 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 388 | 1 | 3% | 3% | -76% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 389 | 1 | 3% | 3% | -76% | -94% | 10 min |
 | Challenger ATP  | ✘ | 275 | 1 | 8% | 2% | -66% | -86% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -157,6 +157,7 @@
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
+| eBasketball Game | ✘ | 12 | 1 | 0% | 0% | +678% | +678% | 1 min |
 | Women's Pro Basketball Game | ✔ | 11 | 0 | 27% | 9% | -100% | -53% | 7 min |
 | Australia NBL Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 8 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -168,7 +169,6 @@
 | LNB Elite 2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
-| eBasketball Game | ✘ | 10 | 1 | 0% | 0% | +833% | +833% | 1 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -227,10 +227,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 17:04 | eBasketball Game | Denver Nuggets (James) | ✘ | — | — | In play | — |
-| 10-08 17:04 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | — | In play | — |
+| 10-08 17:13 | Men's T20 Cricket Match | Northern Cape Heat | ✘ | — | — | In play | — |
+| 10-08 17:09 | R6 Game | DarkZero Esports | ✘ | — | — | In play | — |
+| 10-08 17:04 | eBasketball Game | Denver Nuggets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 17:04 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:00 | ITF Women's Match | Malaika Rapolu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:55 | Counter-Strike 2 Game | Chinggis Warriors | ✘ | — | — | In play | — |
+| 10-08 16:55 | Counter-Strike 2 Game | Chinggis Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:50 | Counter-Strike 2 Game | IMAPROBLEM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:49 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:44 | Counter-Strike 2 Game | A Great Chaos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,8 +257,6 @@
 | 10-08 15:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:52 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:52 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:52 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
