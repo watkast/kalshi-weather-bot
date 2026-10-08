@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Thu Oct 08 20:15 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Thu Oct 08 20:25 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 5427 | 4696 | 731 (28) | 0 | $-182.67 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 3366 | 1851 | 1515 (658) | 0 | $-1066.99 | -5.0% |
+| **20¢+ jump, sell +5¢** | 5430 | 4699 | 731 (28) | 0 | $-181.16 | -0.5% |
+| **20¢+ jump, ride past +5¢** | 3367 | 1852 | 1515 (658) | 1 | $-1066.08 | -5.0% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,11 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 20:25 | J20 | XRP | DOWN | 22¢ | 0.81 | 0.87 | 0.41 |
+| 10-08 20:24 | J20R | NEAR | DOWN | 20¢ | 0.67 | open |  |
+| 10-08 20:24 | J20 | NEAR | DOWN | 20¢ | 0.67 | 0.75 | 0.50 |
+| 10-08 20:20 | J20R | ETH | DOWN | 23¢ | 0.80 | 0.91 | 0.91 |
+| 10-08 20:20 | J20 | ETH | DOWN | 23¢ | 0.80 | 0.88 | 0.60 |
 | 10-08 20:12 | J20R | NEAR | DOWN | 23¢ | 0.28 | yes | -2.95 |
 | 10-08 20:12 | J20 | NEAR | DOWN | 23¢ | 0.28 | 0.33 | 0.19 |
 | 10-08 20:08 | J20 | SOL | UP | 30¢ | 0.83 | 0.91 | 0.65 |
@@ -53,8 +58,3 @@
 | 10-08 18:35 | J20R | HYPE | DOWN | 26¢ | 0.51 | yes | -5.32 |
 | 10-08 18:35 | J20 | HYPE | DOWN | 26¢ | 0.51 | yes | -5.32 |
 | 10-08 18:35 | J20R | ETH | DOWN | 21¢ | 0.50 | yes | -5.18 |
-| 10-08 18:35 | J20 | ETH | DOWN | 21¢ | 0.50 | yes | -5.18 |
-| 10-08 18:35 | J20R | SOL | DOWN | 27¢ | 0.67 | 0.73 | 0.30 |
-| 10-08 18:35 | J20 | SOL | DOWN | 27¢ | 0.67 | 0.72 | 0.19 |
-| 10-08 18:35 | J20R | BNB | DOWN | 27¢ | 0.58 | 0.67 | 0.56 |
-| 10-08 18:35 | J20 | BNB | DOWN | 27¢ | 0.58 | 0.65 | 0.36 |
