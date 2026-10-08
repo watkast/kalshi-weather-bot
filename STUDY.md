@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 2:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 2:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **52 buys a day**, roughly **$7.84/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.83/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5504 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5508 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4930 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4935 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 477 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 416 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 404 | 1 | 3% | 2% | -77% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 405 | 1 | 3% | 2% | -77% | -94% | 10 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -126,11 +126,11 @@
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Euroleague Game | ✘ | 24 | 0 | 17% | 4% | -100% | -71% | 14 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| National League Game | ✘ | 24 | 1 | 4% | 4% | +289% | -93% | 5 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liiga Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Euroleague Game | ✘ | 23 | 0 | 17% | 4% | -100% | -70% | 14 min |
-| National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | ELH Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -139,10 +139,10 @@
 | Valorant game winner | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 15 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
+| eBasketball Game | ✘ | 20 | 1 | 0% | 0% | +367% | +367% | 1 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
-| eBasketball Game | ✘ | 18 | 1 | 0% | 0% | +419% | +419% | 1 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -227,11 +227,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 20:19 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:18 | Euroleague Game | Hapoel Tel-Aviv | ✘ | — | — | In play | — |
+| 10-08 20:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:17 | Euroleague Game | KK Partizan Belgrade | ✘ | — | — | In play | — |
 | 10-08 20:12 | ITF Women's Match | Lexington Reed | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 20:09 | Counter-Strike 2 Game | Sangal | ✘ | — | — | In play | — |
-| 10-08 20:08 | Euroleague Game | Fenerbahce Istanbul | ✘ | — | — | In play | — |
+| 10-08 20:09 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:08 | Euroleague Game | Fenerbahce Istanbul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:08 | Challenger ATP  | Gabriele Piraino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 20:08 | National League Game | HC Ajoie | ✘ | — | — | In play | — |
+| 10-08 20:08 | National League Game | HC Ajoie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:48 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,10 +257,6 @@
 | 10-08 19:27 | Counter-Strike 2 Game | NEXORA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:26 | Counter-Strike 2 Game | PARTIZAN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:24 | eSoccer Game | Leverkusen (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:23 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:23 | ITF Women's Match | Selina Dal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:23 | Counter-Strike 2 Game | Al Ahli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
