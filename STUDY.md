@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 12:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 12:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5444 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5448 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4871 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4873 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -104,7 +104,7 @@
 | Darts Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 94 | 1 | 6% | 2% | -1% | -89% | 63 min |
-| Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
+| Men's T20 Cricket Match | ✘ | 70 | 0 | 16% | 6% | -100% | -73% | 21 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
 | Dota 2 Game | ✘ | 61 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -150,8 +150,8 @@
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Brasileiro Serie A Game | partly | 16 | 0 | 19% | 12% | -100% | -68% | 4 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
+| eBasketball Game | ✘ | 16 | 1 | 0% | 0% | +483% | +483% | 1 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| eBasketball Game | ✘ | 15 | 1 | 0% | 0% | +522% | +522% | 1 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
@@ -227,6 +227,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 18:32 | KHL Game | SKA St. Petersburg | ✘ | — | — | In play | — |
+| 10-08 18:30 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
+| 10-08 18:28 | Counter-Strike 2 Game | mellren | ✘ | — | — | In play | — |
+| 10-08 18:28 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:09 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:05 | Liiga Game | HIFK Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -235,7 +239,7 @@
 | 10-08 17:59 | ITF Women's Match | Hina Inoue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:59 | Challenger ATP  | Carlo Alberto Caniato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:56 | ITF Men's Match | Mauricio Echazu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:55 | Men's T20 Cricket Match | Mbizo Cricket Club | ✘ | — | — | In play | — |
+| 10-08 17:55 | Men's T20 Cricket Match | Mbizo Cricket Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:54 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:53 | Challenger ATP  | Miguel Tobon | ✘ | — | — | In play | — |
 | 10-08 17:50 | Euroleague Game | Olimpia Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,10 +257,6 @@
 | 10-08 17:00 | ITF Women's Match | Malaika Rapolu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:55 | Counter-Strike 2 Game | Chinggis Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:50 | Counter-Strike 2 Game | IMAPROBLEM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:49 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:44 | Counter-Strike 2 Game | A Great Chaos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:44 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:37 | Counter-Strike 2 Game | WBT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
