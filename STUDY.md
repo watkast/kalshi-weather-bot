@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5167 | 551 | 3 (1%) | 1.1% | -$40.65 (-49%) | Hold to the end: -$40.65 (-49%) |
+| 5168 | 551 | 3 (1%) | 1.1% | -$40.65 (-49%) | Hold to the end: -$40.65 (-49%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -225,6 +225,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
 | 10-08 00:30 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:30 | Brasileiro Serie A Game | Remo | ✔ | 90'+8' · GRE 1 - REMO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:29 | Brasileiro Serie A Game | Gremio | ✔ | 90'+7' · GRE 1 - REMO 1 | 5¢ | ❌ Lost | -$0.15 |
@@ -254,7 +255,6 @@
 | 10-07 21:45 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-07 21:43 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:26 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:23 | Challenger ATP  | Nick Hardt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
