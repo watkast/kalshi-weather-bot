@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 9:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 9:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.99/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.98/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5361 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5377 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4783 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4798 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,19 +93,19 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 465 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 411 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 374 | 1 | 3% | 2% | -75% | -94% | 9 min |
-| Challenger ATP  | ✘ | 272 | 1 | 8% | 2% | -66% | -85% | 5 min |
-| TT Star Series Match | ✘ | 175 | 1 | 2% | 2% | -47% | -96% | 4 min |
+| ITF Women's Match | ✘ | 467 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Men's Match | ✘ | 412 | 1 | 9% | 6% | -77% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 376 | 1 | 3% | 2% | -75% | -94% | 9 min |
+| Challenger ATP  | ✘ | 273 | 1 | 8% | 2% | -66% | -85% | 5 min |
+| TT Star Series Match | ✘ | 176 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
-| Darts Match | ✘ | 95 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 96 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
-| Challenger WTA | ✘ | 60 | 0 | 17% | 10% | -100% | -71% | 8 min |
+| Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
@@ -124,6 +124,7 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
+| eSoccer Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
@@ -136,7 +137,6 @@
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
-| eSoccer Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Valorant game winner | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 15 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
@@ -227,36 +227,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 15:22 | Challenger ATP  | Lorenzo Giustino | ✘ | — | — | In play | — |
+| 10-08 15:29 | Darts Match | Oliver Mitchell | ✘ | — | — | In play | — |
+| 10-08 15:28 | eSoccer Game | FC Bayern (Minjori) | ✘ | — | — | In play | — |
+| 10-08 15:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 15:28 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:27 | ITF Men's Match | Julio Cesar Porras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:27 | Dota 2 Game | Team Synapse | ✘ | — | — | In play | — |
+| 10-08 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 15:25 | ITF Women's Match | Julia Stusek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:25 | Counter-Strike 2 Game | Legion | ✘ | — | — | In play | — |
+| 10-08 15:24 | eSoccer Game | Everton (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:24 | Counter-Strike 2 Game | megoshort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:22 | Challenger ATP  | Lorenzo Giustino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:18 | ITF Women's Match | Marta Lombardini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:18 | Challenger WTA | Caroline Werner | ✘ | — | — | In play | — |
-| 10-08 15:17 | ITF Women's Match | Alba Rey Garcia | ✘ | — | — | In play | — |
+| 10-08 15:18 | Challenger WTA | Caroline Werner | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-08 15:17 | ITF Women's Match | Alba Rey Garcia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 15:14 | eSoccer Game | Werder Bremen (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:13 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:13 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:11 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-08 15:11 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:10 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:09 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:07 | Counter-Strike 2 Game | bLight blue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:04 | Counter-Strike 2 Game | THE UNIT | ✘ | — | — | In play | — |
-| 10-08 15:01 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:00 | eSoccer Game | Leverkusen (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:59 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:56 | Counter-Strike 2 Game | Sokerorg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:56 | Darts Match | Harrison Leigh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:51 | Challenger ATP  | Oleksii Krutykh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:51 | ITF Men's Match | Maxence Bertimon | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-08 14:44 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:44 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:40 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:38 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
