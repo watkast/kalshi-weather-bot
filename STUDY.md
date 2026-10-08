@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **55 buys a day**, roughly **$8.19/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.18/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5224 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5231 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4645 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4655 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 431 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
+| ITF Women's Match | ✘ | 437 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Men's Match | ✘ | 379 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 363 | 1 | 3% | 2% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 263 | 1 | 9% | 2% | -65% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
@@ -226,12 +226,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 09:07 | Men's T20 Cricket Match | Malaysia | ✘ | — | — | In play | — |
+| 10-08 09:03 | ITF Women's Match | suzuna oigawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:03 | ITF Women's Match | Sofiia Suslova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:02 | ITF Women's Match | Gloria Levinsky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:02 | ITF Women's Match | Varvara Rubtsova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:02 | ITF Women's Match | Emma Van Poppel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:01 | ITF Women's Match | Elena Jamshidi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:01 | Men's ODI Cricket Match | Fairfirst Insurance | ✘ | — | — | In play | — |
 | 10-08 09:00 | Men's T20 Cricket Match | Singapore | ✘ | — | — | In play | — |
-| 10-08 09:00 | ITF Men's Match | Tai Leonard Sach | ✘ | — | — | In play | — |
-| 10-08 09:00 | ITF Men's Match | Joshua Charlton | ✘ | — | — | In play | — |
-| 10-08 09:00 | ITF Men's Match | Ethan Cook | ✘ | — | — | In play | — |
-| 10-08 07:58 | ITF Men's Match | Chen Dong | ✘ | — | — | In play | — |
+| 10-08 09:00 | ITF Men's Match | Tai Leonard Sach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:00 | ITF Men's Match | Joshua Charlton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:00 | ITF Men's Match | Ethan Cook | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 07:58 | ITF Men's Match | Chen Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 05:08 | Professional Baseball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,13 +256,6 @@
 | 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:16 | LNBP Basketball Game | Correcaminos UAT Victoria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:14 | Counter-Strike 2 Game | Club 333 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:13 | Professional Baseball Game | New York Y | ✔ | Bot 9th · TB 4 - NYY 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:07 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
