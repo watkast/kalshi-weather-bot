@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 10:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 11:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5216 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5217 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4643 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4644 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 431 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 363 | 1 | 3% | 2% | -74% | -94% | 9 min |
-| Challenger ATP  | ✘ | 262 | 1 | 9% | 2% | -64% | -85% | 5 min |
+| Challenger ATP  | ✘ | 263 | 1 | 9% | 2% | -65% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -226,6 +226,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | 1¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 02:36 | College Football Game | Kennesaw St. | ✔ | 0:52 - 4th · JXST 27 - KENN 26 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:30 | NBA Game | Memphis | ✔ | 0.8 - 4th · ORL 120 - MEM 118 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:28 | Counter-Strike 2 Game | Reign Above | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
