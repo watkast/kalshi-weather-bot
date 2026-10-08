@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 2:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 2:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **55 buys a day**, roughly **$8.21/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.20/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
