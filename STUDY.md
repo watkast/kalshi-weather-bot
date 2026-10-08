@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 7:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 7:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 553 finished bets | 1% | -$40.95 | -49% | -7.41¢ | -$27.40 / -$13.55 |
+| ESPN-verified leagues only, hold to the end | 554 finished bets | 1% | -$41.10 | -49% | -7.42¢ | -$27.55 / -$13.55 |
 
-*Expect about **55 buys a day**, roughly **$8.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 553 | -$49.20 | -59% |
-| ESPN-verified leagues only, sell at 5¢ | 553 | -$62.15 | -75% |
-| ESPN-verified leagues only, sell at 3¢ | 553 | -$62.28 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 554 | -$49.35 | -59% |
+| ESPN-verified leagues only, sell at 5¢ | 554 | -$62.30 | -75% |
+| ESPN-verified leagues only, sell at 3¢ | 554 | -$62.43 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5171 | 553 | 3 (1%) | 1.1% | -$40.95 (-49%) | Hold to the end: -$40.95 (-49%) |
+| 5174 | 554 | 3 (1%) | 1.1% | -$41.10 (-49%) | Hold to the end: -$41.10 (-49%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 107 | 2.7% | 0.0% (0) | -223% | ❌ Worse |
+| ESPN win probability | 108 | 2.7% | 0.0% (0) | -221% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 107 | 0 | -100% | -74% | -73% | -76% |
+| **Any 1¢ (no model)** | 108 | 0 | -100% | -74% | -74% | -76% |
 | ESPN win probability ≥ 2% | 22 | 0 | -100% | -68% | -65% | -100% |
 | ESPN win probability ≥ 5% | 8 | 0 | -100% | -78% | -68% | -100% |
 | ESPN win probability ≥ 10% | 5 | 0 | -100% | -65% | -48% | -100% |
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 553 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Verified | 554 | 14% | 10% | 6% | 3% | 1% | 1% |
 | Unverified | 4611 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$40.95 | -49% |
-| Sell at 2¢ | 79 | 14% | -$62.41 | -75% |
-| Sell at 3¢ | 53 | 10% | -$62.28 | -75% |
-| Sell at 5¢ | 32 | 6% | -$62.15 | -75% |
-| Sell at 10¢ | 15 | 3% | -$63.30 | -76% |
-| Sell at 25¢ | 6 | 1% | -$63.09 | -76% |
-| Sell at 50¢ | 5 | 1% | -$49.20 | -59% |
+| Hold to the end | 3 | 1% | -$41.10 | -49% |
+| Sell at 2¢ | 79 | 14% | -$62.56 | -75% |
+| Sell at 3¢ | 53 | 10% | -$62.43 | -75% |
+| Sell at 5¢ | 32 | 6% | -$62.30 | -75% |
+| Sell at 10¢ | 15 | 3% | -$63.45 | -76% |
+| Sell at 25¢ | 6 | 1% | -$63.24 | -76% |
+| Sell at 50¢ | 5 | 1% | -$49.35 | -59% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -152,10 +152,10 @@
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
+| NBA Game | ✔ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Brasileiro Serie A Game | partly | 12 | 0 | 17% | 8% | -100% | -71% | 1 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
-| NBA Game | ✔ | 12 | 0 | 8% | 0% | -100% | -86% | 14 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
@@ -203,7 +203,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 218 | 7% | 1% | 0% | -88% |
+| Under 5 min | 219 | 7% | 1% | 0% | -88% |
 | 5–15 min | 106 | 15% | 5% | 1% | -74% |
 | 15–30 min | 91 | 27% | 11% | 2% | -52% |
 | 30–60 min | 70 | 13% | 6% | 0% | -78% |
@@ -225,6 +225,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 01:18 | NBA Game | Minnesota | ✔ | 1:35 - 4th · MIN 109 - IND 121 | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 01:15 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
+| 10-08 01:14 | ITF Women's Match | Katrina Scott | ✘ | — | — | In play | — |
 | 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | — | In play | — |
 | 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | — | In play | — |
@@ -252,9 +255,6 @@
 | 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:31 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 22:15 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:45 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
-| 10-07 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
