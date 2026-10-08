@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 545 finished bets | 1% | -$39.75 | -49% | -7.29¢ | -$26.80 / -$12.95 |
+| ESPN-verified leagues only, hold to the end | 548 finished bets | 1% | -$40.20 | -49% | -7.34¢ | -$27.10 / -$13.10 |
 
-*Expect about **54 buys a day**, roughly **$8.17/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 545 | -$48.00 | -59% |
-| ESPN-verified leagues only, sell at 5¢ | 545 | -$61.60 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 545 | -$61.73 | -76% |
+| ESPN-verified leagues only, sell at 50¢ | 548 | -$48.45 | -59% |
+| ESPN-verified leagues only, sell at 2¢ | 548 | -$61.92 | -75% |
+| ESPN-verified leagues only, sell at 3¢ | 548 | -$61.92 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5160 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
+| 5167 | 548 | 3 (1%) | 1.1% | -$40.20 (-49%) | Hold to the end: -$40.20 (-49%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 545 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4605 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 548 | 14% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 4608 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$39.75 | -49% |
-| Sell at 2¢ | 77 | 14% | -$61.73 | -76% |
-| Sell at 3¢ | 51 | 9% | -$61.86 | -76% |
-| Sell at 5¢ | 31 | 6% | -$61.60 | -75% |
-| Sell at 10¢ | 15 | 3% | -$62.10 | -76% |
-| Sell at 25¢ | 6 | 1% | -$61.89 | -76% |
-| Sell at 50¢ | 5 | 1% | -$48.00 | -59% |
+| Hold to the end | 3 | 1% | -$40.20 | -49% |
+| Sell at 2¢ | 78 | 14% | -$61.92 | -75% |
+| Sell at 3¢ | 52 | 9% | -$61.92 | -75% |
+| Sell at 5¢ | 31 | 6% | -$62.05 | -75% |
+| Sell at 10¢ | 15 | 3% | -$62.55 | -76% |
+| Sell at 25¢ | 6 | 1% | -$62.34 | -76% |
+| Sell at 50¢ | 5 | 1% | -$48.45 | -59% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -114,8 +114,8 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
+| Brasileiro Serie B Game | ✘ | 35 | 0 | 3% | 0% | -100% | -95% | 12 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
-| Brasileiro Serie B Game | ✘ | 32 | 0 | 3% | 0% | -100% | -95% | 13 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -175,6 +175,7 @@
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
 | Russia VTB United Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
+| Brasileiro Serie A Game | partly | 7 | 0 | 14% | 0% | -100% | -75% | 1 min |
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
@@ -184,7 +185,6 @@
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
-| Brasileiro Serie A Game | partly | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -203,9 +203,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 213 | 7% | 1% | 0% | -89% |
+| Under 5 min | 215 | 7% | 1% | 0% | -89% |
 | 5–15 min | 106 | 15% | 5% | 1% | -74% |
-| 15–30 min | 90 | 27% | 11% | 2% | -54% |
+| 15–30 min | 91 | 27% | 11% | 2% | -52% |
 | 30–60 min | 68 | 13% | 6% | 0% | -77% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
@@ -225,13 +225,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 00:30 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-08 00:30 | Brasileiro Serie A Game | Remo | ✔ | 90'+8' · GRE 1 - REMO 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 00:29 | Brasileiro Serie A Game | Gremio | ✔ | 90'+7' · GRE 1 - REMO 1 | — | In play | — |
+| 10-08 00:28 | Brasileiro Serie A Game | Mirassol | ✔ | 90'+4' · MIR 1 - BRA 1 | — | In play | — |
+| 10-08 00:28 | Brasileiro Serie A Game | Bragantino | ✔ | 90'+4' · MIR 1 - BRA 1 | — | In play | — |
+| 10-08 00:28 | Brasileiro Serie A Game | Tie | ✔ | 90'+5' · COR 1 - INT 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 00:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:22 | Brasileiro Serie A Game | Tie | ✔ | 62' · CHA 0 - VIT 3 | — | In play | — |
 | 10-08 00:21 | Canadian Premier League | Pacific | ✘ | — | — | In play | — |
 | 10-08 00:21 | Women's College Volleyball Match | Jacksonville | ✘ | — | — | In play | — |
-| 10-08 00:18 | Brasileiro Serie B Game | Londrina | ✘ | — | — | In play | — |
-| 10-08 00:18 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
+| 10-08 00:18 | Brasileiro Serie B Game | Londrina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 00:18 | Brasileiro Serie B Game | Ferroviario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:16 | Brasileiro Serie A Game | Chapecoense | ✔ | 55' · CHA 0 - VIT 2 | — | In play | — |
-| 10-08 00:10 | Brasileiro Serie A Game | Corinthians | ✔ | 76' · COR 0 - INT 1 | — | In play | — |
+| 10-08 00:10 | Brasileiro Serie A Game | Corinthians | ✔ | 76' · COR 0 - INT 1 | 4¢ | ❌ Lost | -$0.15 |
 | 10-07 23:58 | League of Legends Game | Disguised | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,13 +255,6 @@
 | 10-07 21:43 | TT Star Series Match | Kim Taehyun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:26 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 21:23 | Challenger ATP  | Nick Hardt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:19 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:16 | Counter-Strike 2 Game | SAW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 21:11 | Men's ODI Cricket Match | Namibia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-07 21:07 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:58 | ITF Women's Match | Sahaja Yamalapalli | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-07 20:57 | ITF Women's Match | McKenna Schaefbauer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:56 | ITF Women's Match | Natalie Kha | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
