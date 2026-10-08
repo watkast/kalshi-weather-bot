@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 8, 9:03 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 8, 9:13 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 782 finished bets | 1% | $27.70 | +33% | +3.54¢ | -$13.40 / $41.10 |
 
-*Expect about **76 buys a day** (~$11.34/day at risk); max loss per buy **15¢**.*
+*Expect about **76 buys a day** (~$11.33/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11750 | 11743 | 49 (0%) | 1.07% | -$740.50 (-52%) | Hold to the close: -$740.50 (-52%) |
+| 11764 | 11743 | 49 (0%) | 1.07% | -$740.50 (-52%) | Hold to the close: -$740.50 (-52%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 20. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,20 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/8 9:13:46 AM | WTI | DOWN | 73 sec | — | — | In play | — |
+| 10/8 9:13:31 AM | SILVER | UP | 88 sec | — | — | In play | — |
+| 10/8 9:12:28 AM | COPPER | UP | 2.5 min | — | — | In play | — |
+| 10/8 9:12:12 AM | GOLD | UP | 2.8 min | — | — | In play | — |
+| 10/8 9:11:07 AM | PLATINUM | UP | 3.9 min | — | — | In play | — |
+| 10/8 9:10:21 AM | BNB | UP | 4.6 min | -0.396% | — | In play | — |
+| 10/8 9:10:05 AM | SOL | UP | 4.9 min | -0.647% | — | In play | — |
+| 10/8 9:10:05 AM | BTC | UP | 4.9 min | -0.389% | — | In play | — |
+| 10/8 9:09:49 AM | XRP | UP | 5.2 min | -0.790% | — | In play | — |
+| 10/8 9:09:18 AM | DOGE | UP | 5.7 min | -0.753% | — | In play | — |
+| 10/8 9:08:46 AM | ETH | UP | 6.2 min | -0.441% | — | In play | — |
+| 10/8 9:08:46 AM | ZEC | UP | 6.2 min | -2.180% | — | In play | — |
+| 10/8 9:08:46 AM | HYPE | UP | 6.2 min | -0.818% | — | In play | — |
+| 10/8 9:07:10 AM | NEAR | UP | 7.8 min | -1.214% | — | In play | — |
 | 10/8 8:59:52 AM | NATGAS | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/8 8:59:52 AM | PALLADIUM | DOWN | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/8 8:59:20 AM | HYPE | DOWN | 40 sec | +0.169% | 0¢ | ❌ Lost | $0.00 |
@@ -199,20 +213,6 @@
 | 10/8 8:58:02 AM | SOL | DOWN | 1.9 min | +0.239% | 0¢ | ❌ Lost | -$0.15 |
 | 10/8 8:58:02 AM | BTC | DOWN | 1.9 min | +0.159% | 0¢ | ❌ Lost | $0.00 |
 | 10/8 8:57:46 AM | USDCAD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:57:46 AM | EURUSD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:57:46 AM | GBPUSD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:55:37 AM | WTI | DOWN | 4.4 min | — | 2¢ | ❌ Lost | -$0.15 |
-| 10/8 8:44:53 AM | GBPUSD | DOWN | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:44:22 AM | USDJPY | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:43:50 AM | AUDUSD | UP | 70 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:43:18 AM | COPPER | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:43:18 AM | SOL | UP | 1.7 min | -0.325% | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:43:02 AM | BTC | UP | 2.0 min | -0.167% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 8:42:46 AM | ETH | UP | 2.2 min | -0.195% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 8:42:46 AM | PALLADIUM | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 8:42:29 AM | XRP | UP | 2.5 min | -0.299% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 8:42:13 AM | NEAR | UP | 2.8 min | -0.760% | 2¢ | ❌ Lost | -$0.15 |
-| 10/8 8:42:13 AM | NATGAS | UP | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
