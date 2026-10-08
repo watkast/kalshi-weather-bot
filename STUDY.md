@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 8:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 9:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5337 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5344 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4761 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4763 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 464 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 410 | 1 | 9% | 6% | -77% | -84% | 5 min |
+| ITF Men's Match | ✘ | 411 | 1 | 9% | 6% | -77% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 372 | 1 | 3% | 2% | -75% | -94% | 9 min |
-| Challenger ATP  | ✘ | 271 | 1 | 8% | 2% | -66% | -85% | 5 min |
+| Challenger ATP  | ✘ | 272 | 1 | 8% | 2% | -66% | -85% | 5 min |
 | TT Star Series Match | ✘ | 174 | 1 | 2% | 2% | -46% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -227,8 +227,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 14:51 | Challenger ATP  | Oleksii Krutykh | ✘ | — | — | In play | — |
-| 10-08 14:51 | ITF Men's Match | Maxence Bertimon | ✘ | — | — | In play | — |
+| 10-08 15:01 | TT Star Series Match | Kim Taehyun | ✘ | — | — | In play | — |
+| 10-08 15:00 | eSoccer Game | Leverkusen (Minjori) | ✘ | — | — | In play | — |
+| 10-08 15:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 14:59 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
+| 10-08 14:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 14:56 | Counter-Strike 2 Game | Sokerorg | ✘ | — | — | In play | — |
+| 10-08 14:56 | Darts Match | Harrison Leigh | ✘ | — | — | In play | — |
+| 10-08 14:51 | Challenger ATP  | Oleksii Krutykh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:51 | ITF Men's Match | Maxence Bertimon | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 14:44 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:44 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:40 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,13 +257,6 @@
 | 10-08 14:15 | Counter-Strike 2 Game | Passion Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:12 | TT Star Series Match | Liu Rundong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:11 | ITF Women's Match | Ekaterina Tupitsyna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:10 | ITF Men's Match | Etienne Donnet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:10 | ITF Women's Match | Maja Pawelska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:07 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:06 | ITF Men's Match | Ian Lucca Cervantes Tomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:05 | Valorant game winner | Nongshim RedForce | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:04 | ITF Women's Match | Lidia Encheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:04 | Vietnam V-League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
