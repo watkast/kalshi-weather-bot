@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 5:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5152 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
+| 5153 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
 
 *In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 545 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4601 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4602 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -99,7 +99,7 @@
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| League of Legends Game | ✘ | 110 | 0 | 6% | 3% | -100% | -89% | 11 min |
+| League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 98 | 2 | 14% | 6% | +90% | -75% | 48 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
@@ -225,6 +225,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-07 23:58 | League of Legends Game | Disguised | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | — | In play | — |
 | 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
 | 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | — | In play | — |
@@ -254,7 +255,6 @@
 | 10-07 20:27 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:20 | EuroCup Basketball Game | Ulm Basketball | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
