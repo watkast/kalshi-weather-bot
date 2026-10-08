@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 8:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 8:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5316 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5319 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4734 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4743 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,17 +93,17 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 461 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 407 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 369 | 1 | 3% | 2% | -75% | -94% | 9 min |
+| ITF Women's Match | ✘ | 463 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Men's Match | ✘ | 408 | 1 | 9% | 6% | -77% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 370 | 1 | 3% | 2% | -75% | -94% | 9 min |
 | Challenger ATP  | ✘ | 269 | 1 | 9% | 2% | -65% | -85% | 5 min |
-| TT Star Series Match | ✘ | 172 | 1 | 2% | 2% | -46% | -96% | 4 min |
+| TT Star Series Match | ✘ | 173 | 1 | 2% | 2% | -46% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
-| Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 91 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
 | Challenger WTA | ✘ | 60 | 0 | 17% | 10% | -100% | -71% | 8 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
@@ -136,9 +136,9 @@
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | ELH Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
+| Valorant game winner | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 15 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
-| Valorant game winner | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 15 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
@@ -196,6 +196,7 @@
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | eSoccer Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 250 min |
+| Vietnam V-League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | eBasketball Game | ✘ | 1 | 1 | 0% | 0% | +9233% | +9233% | 177 min |
@@ -226,16 +227,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 14:12 | TT Star Series Match | Liu Rundong | ✘ | — | — | In play | — |
-| 10-08 14:11 | ITF Women's Match | Ekaterina Tupitsyna | ✘ | — | — | In play | — |
-| 10-08 14:10 | ITF Men's Match | Etienne Donnet | ✘ | — | — | In play | — |
-| 10-08 14:10 | ITF Women's Match | Maja Pawelska | ✘ | — | — | In play | — |
-| 10-08 14:07 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-08 14:21 | Challenger ATP  | Ryan Nijboer | ✘ | — | — | In play | — |
+| 10-08 14:15 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | — | In play | — |
+| 10-08 14:15 | Counter-Strike 2 Game | Passion Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:12 | TT Star Series Match | Liu Rundong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:11 | ITF Women's Match | Ekaterina Tupitsyna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:10 | ITF Men's Match | Etienne Donnet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:10 | ITF Women's Match | Maja Pawelska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:07 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:06 | ITF Men's Match | Ian Lucca Cervantes Tomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:05 | Valorant game winner | Nongshim RedForce | ✘ | — | — | In play | — |
+| 10-08 14:05 | Valorant game winner | Nongshim RedForce | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:04 | ITF Women's Match | Lidia Encheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 14:04 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-08 14:03 | Vietnam V-League 1 Game | The Cong - Viettel | ✘ | — | — | In play | — |
+| 10-08 14:04 | Vietnam V-League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:03 | Vietnam V-League 1 Game | The Cong - Viettel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 12:19 | Challenger ATP  | Olle Wallin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 12:17 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
 | 10-08 12:16 | ITF Men's Match | Anas Mazdrashki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,9 +257,6 @@
 | 10-08 11:51 | ITF Men's Match | Alexander Vasilev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 11:49 | ITF Men's Match | Evangelos Kypriotis | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-08 11:44 | ITF Women's Match | Jana Kovackova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:41 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:41 | ITF Women's Match | Federica Urgesi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:41 | ITF Women's Match | Amelie Worring La Torre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
