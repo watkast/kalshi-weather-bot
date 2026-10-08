@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 10:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 10:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 568 finished bets | 1% | -$43.20 | -51% | -7.61¢ | -$28.60 / -$14.60 |
+| ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 568 | -$51.45 | -60% |
-| ESPN-verified leagues only, sell at 5¢ | 568 | -$63.75 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 568 | -$64.14 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 569 | -$51.60 | -60% |
+| ESPN-verified leagues only, sell at 5¢ | 569 | -$63.90 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 569 | -$64.29 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5216 | 568 | 3 (1%) | 1.1% | -$43.20 (-51%) | Hold to the end: -$43.20 (-51%) |
+| 5216 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 568 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
 | Unverified | 4643 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$43.20 | -51% |
-| Sell at 2¢ | 81 | 14% | -$64.14 | -75% |
-| Sell at 3¢ | 54 | 10% | -$64.14 | -75% |
-| Sell at 5¢ | 33 | 6% | -$63.75 | -75% |
-| Sell at 10¢ | 16 | 3% | -$64.24 | -75% |
-| Sell at 25¢ | 6 | 1% | -$65.34 | -77% |
-| Sell at 50¢ | 5 | 1% | -$51.45 | -60% |
+| Hold to the end | 3 | 1% | -$43.35 | -51% |
+| Sell at 2¢ | 81 | 14% | -$64.29 | -75% |
+| Sell at 3¢ | 54 | 9% | -$64.29 | -75% |
+| Sell at 5¢ | 33 | 6% | -$63.90 | -75% |
+| Sell at 10¢ | 16 | 3% | -$64.39 | -75% |
+| Sell at 25¢ | 6 | 1% | -$65.49 | -77% |
+| Sell at 50¢ | 5 | 1% | -$51.60 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -108,7 +108,7 @@
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Challenger WTA | ✘ | 58 | 0 | 17% | 10% | -100% | -70% | 8 min |
-| NHL Game | ✔ | 54 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
@@ -206,7 +206,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 228 | 7% | 1% | 0% | -88% |
 | 5–15 min | 108 | 15% | 5% | 1% | -74% |
-| 15–30 min | 92 | 28% | 12% | 2% | -51% |
+| 15–30 min | 93 | 28% | 12% | 2% | -52% |
 | 30–60 min | 72 | 12% | 6% | 0% | -78% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
@@ -228,7 +228,7 @@
 |---|---|---|---|---|---|---|---|
 | 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | — | In play | — |
+| 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 04:20 | NBA Game | Golden State | ✔ | 2:31 - 4th · GS 104 - POR 115 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:19 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:13 | Challenger WTA | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
