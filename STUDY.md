@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5562 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5568 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4979 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4991 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -101,9 +101,9 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
+| eSoccer Game | ✘ | 105 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Darts Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
-| eSoccer Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Women's College Volleyball Match | ✘ | 94 | 1 | 6% | 2% | -1% | -89% | 63 min |
 | Men's T20 Cricket Match | ✘ | 72 | 0 | 15% | 6% | -100% | -74% | 21 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
@@ -126,10 +126,10 @@
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Euroleague Game | ✘ | 26 | 0 | 23% | 4% | -100% | -60% | 15 min |
+| eBasketball Game | ✘ | 26 | 1 | 0% | 0% | +259% | +259% | 1 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 24 | 1 | 4% | 4% | +289% | -93% | 5 min |
-| eBasketball Game | ✘ | 24 | 1 | 0% | 0% | +289% | +289% | 1 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Liiga Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
@@ -215,7 +215,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 44 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 43 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -227,15 +227,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 21:48 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
-| 10-08 21:48 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
-| 10-08 21:48 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | — | In play | — |
-| 10-08 21:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-08 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:46 | eSoccer Game | River Plate (Frenkie) | ✘ | — | — | In play | — |
-| 10-08 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-08 21:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 21:57 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
+| 10-08 21:54 | Darts Match | Dan Lauby Jr. | ✘ | — | — | In play | — |
+| 10-08 21:50 | eSoccer Game | Real Sociedad (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:49 | eBasketball Game | Indiana Pacers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:48 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:48 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:48 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:46 | eSoccer Game | River Plate (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:38 | Darts Match | Niek Tuik | ✘ | — | — | In play | — |
 | 10-08 21:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:36 | eSoccer Game | Real Betis (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,12 +257,6 @@
 | 10-08 21:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:24 | eSoccer Game | Sevilla FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:20 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:20 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:19 | Darts Match | Dan Lauby Jr. | ✘ | — | — | In play | — |
-| 10-08 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
