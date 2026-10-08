@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 566 finished bets | 1% | -$42.90 | -51% | -7.58¢ | -$28.45 / -$14.45 |
+| ESPN-verified leagues only, hold to the end | 567 finished bets | 1% | -$43.05 | -51% | -7.59¢ | -$28.45 / -$14.60 |
 
 *Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 566 | -$51.15 | -60% |
-| ESPN-verified leagues only, sell at 5¢ | 566 | -$63.45 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 566 | -$63.84 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 567 | -$51.30 | -60% |
+| ESPN-verified leagues only, sell at 5¢ | 567 | -$63.60 | -75% |
+| ESPN-verified leagues only, sell at 2¢ | 567 | -$63.99 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5209 | 566 | 3 (1%) | 1.1% | -$42.90 (-51%) | Hold to the end: -$42.90 (-51%) |
+| 5211 | 567 | 3 (1%) | 1.1% | -$43.05 (-51%) | Hold to the end: -$43.05 (-51%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 114 | 2.9% | 0.0% (0) | -244% | ❌ Worse |
+| ESPN win probability | 115 | 2.9% | 0.0% (0) | -241% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 114 | 0 | -100% | -74% | -75% | -77% |
+| **Any 1¢ (no model)** | 115 | 0 | -100% | -74% | -75% | -77% |
 | ESPN win probability ≥ 2% | 28 | 0 | -100% | -69% | -72% | -100% |
 | ESPN win probability ≥ 5% | 11 | 0 | -100% | -84% | -76% | -100% |
 | ESPN win probability ≥ 10% | 6 | 0 | -100% | -71% | -57% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 566 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4635 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 567 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 4638 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$42.90 | -51% |
-| Sell at 2¢ | 81 | 14% | -$63.84 | -75% |
-| Sell at 3¢ | 54 | 10% | -$63.84 | -75% |
-| Sell at 5¢ | 33 | 6% | -$63.45 | -75% |
-| Sell at 10¢ | 16 | 3% | -$63.94 | -75% |
-| Sell at 25¢ | 6 | 1% | -$65.04 | -77% |
-| Sell at 50¢ | 5 | 1% | -$51.15 | -60% |
+| Hold to the end | 3 | 1% | -$43.05 | -51% |
+| Sell at 2¢ | 81 | 14% | -$63.99 | -75% |
+| Sell at 3¢ | 54 | 10% | -$63.99 | -75% |
+| Sell at 5¢ | 33 | 6% | -$63.60 | -75% |
+| Sell at 10¢ | 16 | 3% | -$64.09 | -75% |
+| Sell at 25¢ | 6 | 1% | -$65.19 | -77% |
+| Sell at 50¢ | 5 | 1% | -$51.30 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -104,7 +104,7 @@
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 65 | 0 | 17% | 6% | -100% | -71% | 21 min |
+| Men's T20 Cricket Match | ✘ | 66 | 0 | 17% | 6% | -100% | -71% | 21 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -119,10 +119,10 @@
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
+| LNBP Basketball Game | ✘ | 29 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
-| LNBP Basketball Game | ✘ | 27 | 0 | 7% | 0% | -100% | -87% | 12 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -156,10 +156,10 @@
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
+| Women's Pro Basketball Game | ✔ | 11 | 0 | 27% | 9% | -100% | -53% | 7 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
 | Brasileiro Serie C Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
-| Women's Pro Basketball Game | ✔ | 10 | 0 | 30% | 10% | -100% | -48% | 9 min |
 | Australia NBL Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 14 min |
 | Slovakia SBL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Bundesliga Basketball Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
@@ -204,7 +204,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 227 | 7% | 1% | 0% | -88% |
+| Under 5 min | 228 | 7% | 1% | 0% | -88% |
 | 5–15 min | 107 | 15% | 5% | 1% | -74% |
 | 15–30 min | 92 | 28% | 12% | 2% | -51% |
 | 30–60 min | 72 | 12% | 6% | 0% | -78% |
@@ -226,9 +226,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 03:57 | Women's Pro Basketball Game | Las Vegas | ✔ | 0.0 - 4th · LV 81 - GS 83 | — | In play | — |
-| 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
-| 10-08 03:52 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
+| 10-08 04:13 | Challenger WTA | Emerson Jones | ✘ | — | — | In play | — |
+| 10-08 04:07 | Challenger WTA | Tamara Korpatsch | ✘ | — | — | In play | — |
+| 10-08 03:57 | Women's Pro Basketball Game | Las Vegas | ✔ | 0.0 - 4th · LV 81 - GS 83 | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 03:55 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 03:52 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:43 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,8 +256,6 @@
 | 10-08 02:15 | Brasileiro Serie A Game | Tie | ✔ | 84' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:10 | NHL Game | Pittsburgh | ✔ | 1:56 - 3rd · PIT 3 - WSH 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 01:40 | Women's College Volleyball Match | Pittsburgh | ✘ | — | — | In play | — |
-| 10-08 01:39 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
 
 ## Raw data
 
