@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 8:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 8:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 558 finished bets | 1% | -$41.70 | -50% | -7.47¢ | -$27.85 / -$13.85 |
+| ESPN-verified leagues only, hold to the end | 560 finished bets | 1% | -$42.00 | -50% | -7.50¢ | -$28.00 / -$14.00 |
 
-*Expect about **55 buys a day**, roughly **$8.28/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.29/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 558 | -$49.95 | -60% |
-| ESPN-verified leagues only, sell at 5¢ | 558 | -$62.25 | -74% |
-| ESPN-verified leagues only, sell at 3¢ | 558 | -$62.64 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 560 | -$50.25 | -60% |
+| ESPN-verified leagues only, sell at 5¢ | 560 | -$62.55 | -74% |
+| ESPN-verified leagues only, sell at 3¢ | 560 | -$62.94 | -75% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5186 | 558 | 3 (1%) | 1.1% | -$41.70 (-50%) | Hold to the end: -$41.70 (-50%) |
+| 5189 | 560 | 3 (1%) | 1.1% | -$42.00 (-50%) | Hold to the end: -$42.00 (-50%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,7 +69,7 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 558 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Verified | 560 | 14% | 10% | 6% | 3% | 1% | 1% |
 | Unverified | 4620 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$41.70 | -50% |
-| Sell at 2¢ | 80 | 14% | -$62.90 | -75% |
-| Sell at 3¢ | 54 | 10% | -$62.64 | -75% |
-| Sell at 5¢ | 33 | 6% | -$62.25 | -74% |
-| Sell at 10¢ | 16 | 3% | -$62.74 | -75% |
-| Sell at 25¢ | 6 | 1% | -$63.84 | -76% |
-| Sell at 50¢ | 5 | 1% | -$49.95 | -60% |
+| Hold to the end | 3 | 1% | -$42.00 | -50% |
+| Sell at 2¢ | 80 | 14% | -$63.20 | -75% |
+| Sell at 3¢ | 54 | 10% | -$62.94 | -75% |
+| Sell at 5¢ | 33 | 6% | -$62.55 | -74% |
+| Sell at 10¢ | 16 | 3% | -$63.04 | -75% |
+| Sell at 25¢ | 6 | 1% | -$64.14 | -76% |
+| Sell at 50¢ | 5 | 1% | -$50.25 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -145,11 +145,11 @@
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
+| Brasileiro Serie A Game | partly | 16 | 0 | 19% | 12% | -100% | -68% | 4 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Professional Baseball Game | partly | 14 | 0 | 14% | 7% | -100% | -75% | 3 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Brasileiro Serie A Game | partly | 14 | 0 | 21% | 14% | -100% | -63% | 1 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
@@ -205,9 +205,9 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 222 | 7% | 1% | 0% | -88% |
-| 5–15 min | 106 | 15% | 5% | 1% | -74% |
+| 5–15 min | 107 | 15% | 5% | 1% | -74% |
 | 15–30 min | 92 | 28% | 12% | 2% | -51% |
-| 30–60 min | 70 | 13% | 6% | 0% | -78% |
+| 30–60 min | 71 | 13% | 6% | 0% | -78% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
 ## Speed & liquidity
@@ -226,11 +226,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 02:30 | NBA Game | Memphis | ✔ | 0.8 - 4th · ORL 120 - MEM 118 | — | In play | — |
+| 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | — | In play | — |
+| 10-08 02:28 | Counter-Strike 2 Game | Reign Above | ✘ | — | — | In play | — |
 | 10-08 02:20 | NHL Game | Colorado | ✔ | 0:10 - 3rd · COL 2 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:20 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
-| 10-08 02:15 | Brasileiro Serie A Game | Tie | ✔ | 84' · SAO 0 - CRU 2 | — | In play | — |
+| 10-08 02:15 | Brasileiro Serie A Game | Tie | ✔ | 84' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:10 | NHL Game | Pittsburgh | ✔ | 1:56 - 3rd · PIT 3 - WSH 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | — | In play | — |
+| 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 01:40 | Women's College Volleyball Match | Pittsburgh | ✘ | — | — | In play | — |
 | 10-08 01:39 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
 | 10-08 01:39 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
@@ -253,9 +256,6 @@
 | 10-08 00:28 | Brasileiro Serie A Game | Tie | ✔ | 90'+5' · COR 1 - INT 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 00:22 | Brasileiro Serie A Game | Tie | ✔ | 62' · CHA 0 - VIT 3 | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 00:21 | Canadian Premier League | Pacific | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 00:21 | Women's College Volleyball Match | Jacksonville | ✘ | — | — | In play | — |
-| 10-08 00:18 | Brasileiro Serie B Game | Londrina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
