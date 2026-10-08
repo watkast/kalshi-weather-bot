@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5405 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5409 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4824 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4831 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 468 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 413 | 1 | 9% | 6% | -77% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 381 | 1 | 3% | 3% | -76% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 382 | 1 | 3% | 3% | -76% | -94% | 10 min |
 | Challenger ATP  | ✘ | 273 | 1 | 8% | 2% | -66% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -112,8 +112,8 @@
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
+| eSoccer Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
-| eSoccer Game | ✘ | 40 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 5 min |
@@ -170,6 +170,7 @@
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
+| eBasketball Game | ✘ | 9 | 1 | 0% | 0% | +937% | +937% | 1 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's ODI Cricket Match | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -179,7 +180,6 @@
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
 | Russia VTB United Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
-| eBasketball Game | ✘ | 7 | 1 | 0% | 0% | +1233% | +1233% | 1 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -227,14 +227,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 16:13 | Challenger ATP  | Zsombor Piros | ✘ | — | — | In play | — |
+| 10-08 16:11 | KHL Game | Traktor Chelyabinsk | ✘ | — | — | In play | — |
+| 10-08 16:08 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 16:08 | eBasketball Game | New York Knicks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:03 | Darts Match | Harrison Leigh | ✘ | — | — | In play | — |
 | 10-08 16:00 | Counter-Strike 2 Game | los kogutos | ✘ | — | — | In play | — |
 | 10-08 15:58 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:58 | ITF Men's Match | Alexandre Reco | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-08 15:56 | eSoccer Game | Everton (Luis) | ✘ | — | — | In play | — |
-| 10-08 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 15:55 | eSoccer Game | RB Leipzig (Krocs) | ✘ | — | — | In play | — |
-| 10-08 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 15:56 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:55 | eSoccer Game | RB Leipzig (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 15:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:52 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:52 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -249,14 +253,10 @@
 | 10-08 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | eSoccer Game | Freiburg (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | Counter-Strike 2 Game | The Last Resort | ✘ | — | — | In play | — |
+| 10-08 15:42 | Counter-Strike 2 Game | The Last Resort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:40 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:40 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:40 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:37 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:29 | Darts Match | Oliver Mitchell | ✘ | — | — | In play | — |
-| 10-08 15:28 | eSoccer Game | FC Bayern (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
