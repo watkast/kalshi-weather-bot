@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 1:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 2:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **52 buys a day**, roughly **$7.85/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.84/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5498 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5504 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4915 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4930 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,10 +93,10 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 476 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 477 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 416 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 401 | 1 | 3% | 2% | -77% | -94% | 10 min |
-| Challenger ATP  | ✘ | 277 | 1 | 8% | 2% | -66% | -86% | 5 min |
+| Counter-Strike 2 Game | ✘ | 404 | 1 | 3% | 2% | -77% | -94% | 10 min |
+| Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -107,8 +107,8 @@
 | Men's T20 Cricket Match | ✘ | 72 | 0 | 15% | 6% | -100% | -74% | 21 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
 | Dota 2 Game | ✘ | 61 | 0 | 3% | 3% | -100% | -94% | 29 min |
+| eSoccer Game | ✘ | 61 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| eSoccer Game | ✘ | 56 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
@@ -136,8 +136,8 @@
 | ELH Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
+| Valorant game winner | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 15 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
-| Valorant game winner | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
@@ -152,7 +152,7 @@
 | Brasileiro Serie A Game | partly | 16 | 0 | 19% | 12% | -100% | -68% | 4 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| DEL Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
@@ -186,6 +186,7 @@
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Peru Liga 1 Game | ✘ | 4 | 0 | 50% | 25% | -100% | -13% | 24 min |
 | England Super League Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
@@ -193,7 +194,6 @@
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Peru Liga 1 Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -227,20 +227,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 19:48 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-08 19:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 19:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 19:47 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 10-08 20:12 | ITF Women's Match | Lexington Reed | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:09 | Counter-Strike 2 Game | Sangal | ✘ | — | — | In play | — |
+| 10-08 20:08 | Euroleague Game | Fenerbahce Istanbul | ✘ | — | — | In play | — |
+| 10-08 20:08 | Challenger ATP  | Gabriele Piraino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:08 | National League Game | HC Ajoie | ✘ | — | — | In play | — |
+| 10-08 19:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:48 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:47 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:45 | Challenger ATP  | Daniel Rincon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:44 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
-| 10-08 19:40 | DEL Game | Lowen Frankfurt | ✘ | — | — | In play | — |
-| 10-08 19:39 | Valorant game winner | Pcific Esports | ✘ | — | — | In play | — |
-| 10-08 19:38 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-08 19:44 | Counter-Strike 2 Game | XI Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:40 | DEL Game | Lowen Frankfurt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:39 | Valorant game winner | Pcific Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 19:38 | Peru Liga 1 Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-08 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:33 | Counter-Strike 2 Game | MORROW | ✘ | — | — | In play | — |
+| 10-08 19:33 | Counter-Strike 2 Game | MORROW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:33 | R6 Game | Shopify Rebellion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:33 | Counter-Strike 2 Game | Sinners | ✘ | — | — | In play | — |
+| 10-08 19:33 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:28 | Men's T20 Cricket Match | Eastern Storm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:28 | Counter-Strike 2 Game | Glitchtech Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:28 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,12 +257,6 @@
 | 10-08 19:23 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:23 | ITF Women's Match | Selina Dal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:23 | Counter-Strike 2 Game | Al Ahli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:22 | eBasketball Game | New York Knicks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:21 | ITF Women's Match | Alexis Nguyen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:20 | SHL Game | Frolunda HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:20 | Counter-Strike 2 Game | DimoniX Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:20 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
