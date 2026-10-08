@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 4:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 5:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **54 buys a day**, roughly **$8.13/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.12/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5262 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5268 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4684 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4693 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 445 | 0 | 13% | 6% | -100% | -78% | 4 min |
-| ITF Men's Match | ✘ | 389 | 1 | 9% | 5% | -76% | -85% | 5 min |
-| Counter-Strike 2 Game | ✘ | 364 | 1 | 3% | 2% | -74% | -94% | 10 min |
-| Challenger ATP  | ✘ | 265 | 1 | 9% | 2% | -65% | -85% | 5 min |
-| TT Star Series Match | ✘ | 169 | 1 | 2% | 2% | -45% | -96% | 4 min |
+| ITF Women's Match | ✘ | 446 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Men's Match | ✘ | 392 | 1 | 9% | 5% | -76% | -85% | 5 min |
+| Counter-Strike 2 Game | ✘ | 366 | 1 | 3% | 2% | -74% | -94% | 10 min |
+| Challenger ATP  | ✘ | 266 | 1 | 9% | 2% | -65% | -85% | 5 min |
+| TT Star Series Match | ✘ | 170 | 1 | 2% | 2% | -45% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -138,8 +138,8 @@
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| Valorant game winner | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 15 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
-| Valorant game winner | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 16 min |
 | SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
@@ -214,7 +214,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 45 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 44 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -226,12 +226,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 10:52 | Valorant game winner | 100 Thieves | ✘ | — | — | In play | — |
+| 10-08 11:01 | ITF Women's Match | Katerina Tsygourova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 11:00 | ITF Men's Match | Jesse Delaney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:55 | Counter-Strike 2 Game | los kogutos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:54 | ITF Men's Match | Tobia Costanzo Baragiola Mordini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:54 | TT Star Series Match | Vráblík Jiří | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:54 | ITF Men's Match | Derek Pham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:52 | Valorant game winner | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 10:50 | Men's T20 Cricket Match | SOGO Rangers | ✘ | — | — | In play | — |
 | 10-08 10:48 | ITF Women's Match | Elena Ruxandra Bertea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 10:48 | ITF Women's Match | Giorgia Pedone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 10:43 | Counter-Strike 2 Game | 33 | ✘ | — | — | In play | — |
-| 10-08 10:42 | Challenger ATP  | Miguel Damas | ✘ | — | — | In play | — |
+| 10-08 10:43 | Counter-Strike 2 Game | 33 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:42 | Challenger ATP  | Miguel Damas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 10:41 | Men's ODI Cricket Match | Colombo Aces | ✘ | — | — | In play | — |
 | 10-08 10:35 | TT Star Series Match | Limura Yuta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 10:19 | Challenger ATP  | Moez Echargui | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -250,12 +256,6 @@
 | 10-08 09:46 | ITF Men's Match | Wihan Van Der Merwe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:42 | ITF Men's Match | Michel Hopp | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 09:41 | ITF Women's Match | Sarah Van Emst | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:40 | ITF Men's Match | Marcus Walters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:30 | ITF Men's Match | Benjamin Pietri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:30 | ITF Men's Match | Niklas Waldner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:28 | Counter-Strike 2 Game | Fortress | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:28 | ITF Men's Match | Saveliy Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:28 | ITF Women's Match | Maria Mikhailova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
