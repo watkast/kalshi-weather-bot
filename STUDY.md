@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 10:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 10:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 568 finished bets | 1% | -$43.20 | -51% | -7.61¢ | -$28.60 / -$14.60 |
 
-*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5215 | 568 | 3 (1%) | 1.1% | -$43.20 (-51%) | Hold to the end: -$43.20 (-51%) |
+| 5216 | 568 | 3 (1%) | 1.1% | -$43.20 (-51%) | Hold to the end: -$43.20 (-51%) |
 
 *In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 568 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4642 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4643 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 430 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 431 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 363 | 1 | 3% | 2% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 262 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -226,6 +226,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:23 | NHL Game | Anaheim | ✔ | 11:23 - 3rd · EDM 5 - ANA 2 | — | In play | — |
 | 10-08 04:20 | NBA Game | Golden State | ✔ | 2:31 - 4th · GS 104 - POR 115 | 0¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 02:30 | NBA Game | Memphis | ✔ | 0.8 - 4th · ORL 120 - MEM 118 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:28 | Counter-Strike 2 Game | Reign Above | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:20 | NHL Game | Colorado | ✔ | 0:10 - 3rd · COL 2 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
