@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5411 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5413 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4835 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4838 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,16 +93,16 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 468 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 469 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 413 | 1 | 9% | 6% | -77% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 383 | 1 | 3% | 3% | -76% | -94% | 10 min |
-| Challenger ATP  | ✘ | 274 | 1 | 8% | 2% | -66% | -85% | 5 min |
+| Challenger ATP  | ✘ | 275 | 1 | 8% | 2% | -66% | -86% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
-| Darts Match | ✘ | 98 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 99 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
@@ -227,7 +227,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 16:23 | Challenger ATP  | Gustavo Heide | ✘ | — | — | In play | — |
+| 10-08 16:29 | ITF Women's Match | Maria Lourdes Carle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 16:28 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-08 16:23 | Challenger ATP  | Gustavo Heide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:19 | Dota 2 Game | 1win | ✘ | — | — | In play | — |
 | 10-08 16:13 | Challenger ATP  | Zsombor Piros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:11 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,8 +257,6 @@
 | 10-08 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | eSoccer Game | Freiburg (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | Counter-Strike 2 Game | The Last Resort | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:40 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
