@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 2:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 2:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5508 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5510 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4935 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4936 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 477 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 478 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 416 | 1 | 10% | 6% | -78% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 405 | 1 | 3% | 2% | -77% | -94% | 10 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
@@ -227,6 +227,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 20:37 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
+| 10-08 20:30 | ITF Women's Match | Anastasia Abbagnato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:19 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:18 | Euroleague Game | Hapoel Tel-Aviv | ✘ | — | — | In play | — |
 | 10-08 20:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,8 +257,6 @@
 | 10-08 19:28 | Counter-Strike 2 Game | Glitchtech Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:28 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:27 | Counter-Strike 2 Game | NEXORA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:26 | Counter-Strike 2 Game | PARTIZAN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:24 | eSoccer Game | Leverkusen (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
