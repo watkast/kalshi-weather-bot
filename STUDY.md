@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 1:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 1:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5462 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5467 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4885 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4887 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -132,16 +132,16 @@
 | National League Game | ✘ | 23 | 1 | 4% | 4% | +306% | -92% | 5 min |
 | Argentina Primera Division Game | ✘ | 23 | 0 | 22% | 13% | -100% | -62% | 9 min |
 | Uruguay Primera Division Game | ✘ | 22 | 0 | 5% | 5% | -100% | -92% | 12 min |
+| ELH Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
-| ELH Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Valorant game winner | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 15 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
-| SHL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| SHL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -227,10 +227,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 19:17 | Counter-Strike 2 Game | Honvéd | ✘ | — | — | In play | — |
+| 10-08 19:16 | SHL Game | IF Bjorkloven | ✘ | — | — | In play | — |
+| 10-08 19:16 | SHL Game | Lulea Hockey | ✘ | — | — | In play | — |
+| 10-08 19:14 | Counter-Strike 2 Game | Spirit HU | ✘ | — | — | In play | — |
+| 10-08 19:13 | Counter-Strike 2 Game | Fortress | ✘ | — | — | In play | — |
 | 10-08 19:06 | SHL Game | Skellefteå | ✘ | — | — | In play | — |
-| 10-08 19:06 | SHL Game | Växjö Lakers | ✘ | — | — | In play | — |
+| 10-08 19:06 | SHL Game | Växjö Lakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:05 | ITF Women's Match | Thea Frodin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:05 | ELH Game | HC Sparta Praha | ✘ | — | — | In play | — |
+| 10-08 19:05 | ELH Game | HC Sparta Praha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:57 | SHL Game | HV71 | ✘ | — | — | In play | — |
 | 10-08 18:49 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:47 | ITF Men's Match | Timeo Trufelli | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
@@ -252,11 +257,6 @@
 | 10-08 18:00 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:59 | ITF Women's Match | Hina Inoue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:59 | Challenger ATP  | Carlo Alberto Caniato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:56 | ITF Men's Match | Mauricio Echazu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:55 | Men's T20 Cricket Match | Mbizo Cricket Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:54 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:53 | Challenger ATP  | Miguel Tobon | ✘ | — | — | In play | — |
-| 10-08 17:50 | Euroleague Game | Olimpia Milano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
