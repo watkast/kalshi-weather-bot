@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 11:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 12:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **55 buys a day**, roughly **$8.32/day** at risk; max loss per buy **15¢**.*
+*Expect about **55 buys a day**, roughly **$8.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5217 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5218 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
 *In play right now: 4. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4644 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4645 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -144,12 +144,12 @@
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
+| Professional Baseball Game | partly | 16 | 0 | 12% | 6% | -100% | -78% | 2 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Brasileiro Serie A Game | partly | 16 | 0 | 19% | 12% | -100% | -68% | 4 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Professional Baseball Game | partly | 15 | 0 | 13% | 7% | -100% | -77% | 3 min |
 | DEL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
@@ -226,6 +226,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 05:08 | Professional Baseball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:38 | ITF Women's Match | Anna Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 04:25 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 02:40 | NBA Game | Oklahoma City | ✔ | 4.0 - 4th · MIL 128 - OKC 124 | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 02:36 | College Football Game | Kennesaw St. | ✔ | 0:52 - 4th · JXST 27 - KENN 26 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:30 | NBA Game | Memphis | ✔ | 0.8 - 4th · ORL 120 - MEM 118 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
