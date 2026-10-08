@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.93/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.92/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 5425 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4849 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4851 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -101,8 +101,8 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
+| Darts Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
-| Darts Match | ✘ | 99 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Men's T20 Cricket Match | ✘ | 69 | 0 | 16% | 6% | -100% | -72% | 20 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
@@ -114,7 +114,7 @@
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | eSoccer Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
-| R6 Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
@@ -228,7 +228,7 @@
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
 | 10-08 17:13 | Men's T20 Cricket Match | Northern Cape Heat | ✘ | — | — | In play | — |
-| 10-08 17:09 | R6 Game | DarkZero Esports | ✘ | — | — | In play | — |
+| 10-08 17:09 | R6 Game | DarkZero Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:04 | eBasketball Game | Denver Nuggets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:04 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:00 | ITF Women's Match | Malaika Rapolu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -240,7 +240,7 @@
 | 10-08 16:37 | Counter-Strike 2 Game | WBT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:37 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:29 | ITF Women's Match | Maria Lourdes Carle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:28 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
+| 10-08 16:28 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:23 | Challenger ATP  | Gustavo Heide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:19 | Dota 2 Game | 1win | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:13 | Challenger ATP  | Zsombor Piros | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
