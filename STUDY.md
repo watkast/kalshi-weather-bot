@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 12:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 12:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.89/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.88/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5448 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5455 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4873 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4877 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 472 | 0 | 12% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 473 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 415 | 1 | 9% | 6% | -78% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 389 | 1 | 3% | 3% | -76% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 391 | 1 | 3% | 3% | -76% | -94% | 10 min |
 | Challenger ATP  | ✘ | 276 | 1 | 8% | 2% | -66% | -86% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -111,7 +111,7 @@
 | NHL Game | ✔ | 55 | 0 | 13% | 5% | -100% | -78% | 4 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| eSoccer Game | ✘ | 47 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 48 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | Brasileiro Serie B Game | ✘ | 42 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | R6 Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -227,9 +227,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 18:46 | KHL Game | Torpedo Nizhny Novgorod | ✘ | — | — | In play | — |
+| 10-08 18:45 | Counter-Strike 2 Game | ENCE | ✘ | — | — | In play | — |
+| 10-08 18:43 | ITF Women's Match | Kajsa Rinaldo Persson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 18:42 | eSoccer Game | Liverpool (Minjori) | ✘ | — | — | In play | — |
+| 10-08 18:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 18:42 | Peru Liga 1 Game | Ucv Moquegua | ✘ | — | — | In play | — |
+| 10-08 18:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:32 | KHL Game | SKA St. Petersburg | ✘ | — | — | In play | — |
-| 10-08 18:30 | Counter-Strike 2 Game | Lilmix | ✘ | — | — | In play | — |
-| 10-08 18:28 | Counter-Strike 2 Game | mellren | ✘ | — | — | In play | — |
+| 10-08 18:30 | Counter-Strike 2 Game | Lilmix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 18:28 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:28 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:09 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,13 +257,6 @@
 | 10-08 17:37 | ITF Women's Match | Anna Burchak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:33 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 17:29 | ITF Men's Match | Sergio Luis Hernandez Ramirez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:13 | Men's T20 Cricket Match | Northern Cape Heat | ✘ | — | — | In play | — |
-| 10-08 17:09 | R6 Game | DarkZero Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:04 | eBasketball Game | Denver Nuggets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:04 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 17:00 | ITF Women's Match | Malaika Rapolu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:55 | Counter-Strike 2 Game | Chinggis Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 16:50 | Counter-Strike 2 Game | IMAPROBLEM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
