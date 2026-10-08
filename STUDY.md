@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 6:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 6:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5153 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
+| 5154 | 545 | 3 (1%) | 1.1% | -$39.75 (-49%) | Hold to the end: -$39.75 (-49%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 545 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4602 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4604 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 426 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
-| Counter-Strike 2 Game | ✘ | 354 | 1 | 3% | 3% | -74% | -94% | 9 min |
+| Counter-Strike 2 Game | ✘ | 356 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
 | TT Star Series Match | ✘ | 166 | 1 | 2% | 2% | -44% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -225,10 +225,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 00:10 | Brasileiro Serie A Game | Corinthians | ✔ | 76' · COR 0 - INT 1 | — | In play | — |
 | 10-07 23:58 | League of Legends Game | Disguised | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:52 | ITF Women's Match | Ana Grubor | ✘ | — | — | In play | — |
-| 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
-| 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | — | In play | — |
+| 10-07 23:48 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-07 23:48 | Counter-Strike 2 Game | Galorys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:29 | ITF Women's Match | Maria Sholokhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 23:02 | Professional Baseball Game | Chicago WS | ✔ | Bot 8th · CLE 7 - CHW 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 22:47 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,7 +255,6 @@
 | 10-07 20:31 | Dota 2 Game | CyberHero | ✘ | — | 49¢ | ❌ Lost | -$0.15 |
 | 10-07 20:27 | Counter-Strike 2 Game | FC Famalicao Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-07 20:25 | TT Star Series Match | Vos Eusebio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-07 20:21 | Challenger ATP  | Gianluca Cadenasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
