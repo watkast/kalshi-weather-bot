@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 2:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 2:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **52 buys a day**, roughly **$7.83/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.82/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5510 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5516 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 5. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4936 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4939 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -125,8 +125,8 @@
 | Liga DIMAYOR Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
+| Euroleague Game | ✘ | 26 | 0 | 23% | 4% | -100% | -60% | 15 min |
 | Liga Leumit Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Euroleague Game | ✘ | 24 | 0 | 17% | 4% | -100% | -71% | 14 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 24 | 1 | 4% | 4% | +289% | -93% | 5 min |
 | Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -137,9 +137,9 @@
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | Valorant game winner | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 15 min |
+| eBasketball Game | ✘ | 21 | 1 | 0% | 0% | +344% | +344% | 1 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
-| eBasketball Game | ✘ | 20 | 1 | 0% | 0% | +367% | +367% | 1 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
@@ -227,12 +227,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 20:47 | eSoccer Game | Paris Saint-Germain (Minjori) | ✘ | — | — | In play | — |
+| 10-08 20:46 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | — | In play | — |
+| 10-08 20:44 | eBasketball Game | Dallas Mavericks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 20:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 20:42 | Dota 2 Game | Blasterbl | ✘ | — | — | In play | — |
 | 10-08 20:37 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
 | 10-08 20:30 | ITF Women's Match | Anastasia Abbagnato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:19 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 20:18 | Euroleague Game | Hapoel Tel-Aviv | ✘ | — | — | In play | — |
+| 10-08 20:18 | Euroleague Game | Hapoel Tel-Aviv | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-08 20:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 20:17 | Euroleague Game | KK Partizan Belgrade | ✘ | — | — | In play | — |
+| 10-08 20:17 | Euroleague Game | KK Partizan Belgrade | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 20:12 | ITF Women's Match | Lexington Reed | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:09 | Counter-Strike 2 Game | Sangal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 20:08 | Euroleague Game | Fenerbahce Istanbul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,12 +257,6 @@
 | 10-08 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 19:33 | Counter-Strike 2 Game | MORROW | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:33 | R6 Game | Shopify Rebellion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:33 | Counter-Strike 2 Game | Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:28 | Men's T20 Cricket Match | Eastern Storm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:28 | Counter-Strike 2 Game | Glitchtech Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:28 | SHL Game | HC Orebro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 19:27 | Counter-Strike 2 Game | NEXORA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
