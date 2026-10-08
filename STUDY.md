@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **52 buys a day**, roughly **$7.80/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.79/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5553 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5562 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4971 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4979 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -103,8 +103,8 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Darts Match | ✘ | 100 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
+| eSoccer Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Women's College Volleyball Match | ✘ | 94 | 1 | 6% | 2% | -1% | -89% | 63 min |
-| eSoccer Game | ✘ | 87 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Men's T20 Cricket Match | ✘ | 72 | 0 | 15% | 6% | -100% | -74% | 21 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | Challenger WTA | ✘ | 61 | 0 | 16% | 10% | -100% | -72% | 8 min |
@@ -227,15 +227,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 21:48 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
+| 10-08 21:48 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
+| 10-08 21:48 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | — | In play | — |
+| 10-08 21:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 10-08 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 21:46 | eSoccer Game | River Plate (Frenkie) | ✘ | — | — | In play | — |
+| 10-08 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 21:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 21:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
 | 10-08 21:38 | Darts Match | Niek Tuik | ✘ | — | — | In play | — |
-| 10-08 21:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:36 | eSoccer Game | Real Betis (Mordor) | ✘ | — | — | In play | — |
-| 10-08 21:34 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | — | In play | — |
-| 10-08 21:34 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
-| 10-08 21:32 | eSoccer Game | Spurs (Lucy) | ✘ | — | — | In play | — |
-| 10-08 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:31 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
-| 10-08 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 21:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:36 | eSoccer Game | Real Betis (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:34 | eSoccer Game | Boca Juniors (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:34 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:32 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:31 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:31 | ITF Women's Match | Victoria Bosio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:30 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -248,15 +257,6 @@
 | 10-08 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 21:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:17 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:14 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:14 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:11 | eSoccer Game | Real Madrid (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:06 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-08 21:04 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
