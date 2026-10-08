@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 4:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 4:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **54 buys a day**, roughly **$8.16/day** at risk; max loss per buy **15¢**.*
+*Expect about **54 buys a day**, roughly **$8.15/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5246 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5251 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4669 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4673 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,8 +93,8 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 440 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| ITF Men's Match | ✘ | 385 | 1 | 9% | 5% | -76% | -85% | 5 min |
+| ITF Women's Match | ✘ | 441 | 0 | 12% | 6% | -100% | -78% | 4 min |
+| ITF Men's Match | ✘ | 388 | 1 | 9% | 5% | -76% | -85% | 5 min |
 | Counter-Strike 2 Game | ✘ | 364 | 1 | 3% | 2% | -74% | -94% | 10 min |
 | Challenger ATP  | ✘ | 263 | 1 | 9% | 2% | -65% | -85% | 5 min |
 | TT Star Series Match | ✘ | 167 | 1 | 2% | 2% | -44% | -96% | 4 min |
@@ -226,12 +226,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 10:11 | ITF Men's Match | Odysseas Geladaris | ✘ | — | — | In play | — |
+| 10-08 10:10 | ITF Women's Match | Beatrise Zeltina | ✘ | — | — | In play | — |
+| 10-08 10:06 | ITF Men's Match | John Sperle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:05 | ITF Men's Match | Colin Sinclair | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 10:04 | Challenger ATP  | Patrick Schoen | ✘ | — | — | In play | — |
 | 10-08 09:58 | ITF Women's Match | Sara Cakarevic | ✘ | — | — | In play | — |
-| 10-08 09:54 | ITF Women's Match | Iva Marinkovic | ✘ | — | — | In play | — |
+| 10-08 09:54 | ITF Women's Match | Iva Marinkovic | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 10-08 09:54 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:49 | ITF Women's Match | Maria Pankratova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:48 | ITF Men's Match | Mathieu Scaglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:46 | ITF Men's Match | Wihan Van Der Merwe | ✘ | — | — | In play | — |
+| 10-08 09:46 | ITF Men's Match | Wihan Van Der Merwe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:42 | ITF Men's Match | Michel Hopp | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 09:41 | ITF Women's Match | Sarah Van Emst | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:40 | ITF Men's Match | Marcus Walters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,11 +256,6 @@
 | 10-08 09:01 | Men's ODI Cricket Match | Fairfirst Insurance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:00 | Men's T20 Cricket Match | Singapore | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:00 | ITF Men's Match | Tai Leonard Sach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:00 | ITF Men's Match | Joshua Charlton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:00 | ITF Men's Match | Ethan Cook | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 07:58 | ITF Men's Match | Chen Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 05:08 | Professional Baseball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 04:58 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
