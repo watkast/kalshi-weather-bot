@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 8:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 8:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$8.02/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$8.01/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5319 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5330 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4743 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4746 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 463 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 408 | 1 | 9% | 6% | -77% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 370 | 1 | 3% | 2% | -75% | -94% | 9 min |
-| Challenger ATP  | ✘ | 269 | 1 | 9% | 2% | -65% | -85% | 5 min |
+| Challenger ATP  | ✘ | 271 | 1 | 8% | 2% | -66% | -85% | 5 min |
 | TT Star Series Match | ✘ | 173 | 1 | 2% | 2% | -46% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 111 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -195,11 +195,11 @@
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eBasketball Game | ✘ | 2 | 1 | 0% | 0% | +4567% | +4567% | 93 min |
 | eSoccer Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 250 min |
 | Vietnam V-League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| eBasketball Game | ✘ | 1 | 1 | 0% | 0% | +9233% | +9233% | 177 min |
 
 ## By time left when it hit 1¢
 
@@ -227,8 +227,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 14:21 | Challenger ATP  | Ryan Nijboer | ✘ | — | — | In play | — |
-| 10-08 14:15 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | — | In play | — |
+| 10-08 14:32 | Counter-Strike 2 Game | Esport BERG | ✘ | — | — | In play | — |
+| 10-08 14:31 | eSoccer Game | FC Koln (SilentShooter) | ✘ | — | — | In play | — |
+| 10-08 14:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 14:31 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
+| 10-08 14:31 | ITF Women's Match | Isis Louise Van den Broek | ✘ | — | — | In play | — |
+| 10-08 14:31 | ITF Men's Match | Giorgio Tabacco | ✘ | — | — | In play | — |
+| 10-08 14:31 | ITF Men's Match | Cian Maguire | ✘ | — | — | In play | — |
+| 10-08 14:29 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | — | In play | — |
+| 10-08 14:29 | Challenger ATP  | Damir Dzumhur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 14:23 | Darts Match | Oliver Mitchell | ✘ | — | — | In play | — |
+| 10-08 14:21 | Challenger ATP  | Ryan Nijboer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 14:15 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:15 | Counter-Strike 2 Game | Passion Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:12 | TT Star Series Match | Liu Rundong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 14:11 | ITF Women's Match | Ekaterina Tupitsyna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -246,17 +257,6 @@
 | 10-08 12:15 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 12:11 | ITF Women's Match | Nina Radovanovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 12:10 | ITF Women's Match | Raluca Georgiana Serban | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 12:09 | ITF Men's Match | Yshai Oliel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 12:07 | ITF Men's Match | Benjamin Lock | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 12:06 | ITF Women's Match | Anastasia Bertacchi | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-08 12:03 | ITF Men's Match | Rares Teodor Pieleanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 12:00 | ITF Men's Match | Gabriele Pennaforti | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-08 11:59 | ITF Women's Match | Jenny Lim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:59 | ITF Men's Match | Isaac Nortey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:54 | Challenger WTA | Linda Klimovicova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:51 | ITF Men's Match | Alexander Vasilev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 11:49 | ITF Men's Match | Evangelos Kypriotis | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-08 11:44 | ITF Women's Match | Jana Kovackova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
