@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **53 buys a day**, roughly **$7.95/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.94/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5413 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5417 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -227,6 +227,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 16:44 | Counter-Strike 2 Game | A Great Chaos | ✘ | — | — | In play | — |
+| 10-08 16:44 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
+| 10-08 16:37 | Counter-Strike 2 Game | WBT | ✘ | — | — | In play | — |
+| 10-08 16:37 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | — | In play | — |
 | 10-08 16:29 | ITF Women's Match | Maria Lourdes Carle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 16:28 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
 | 10-08 16:23 | Challenger ATP  | Gustavo Heide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,10 +257,6 @@
 | 10-08 15:46 | Darts Match | Alex Spellman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:43 | Counter-Strike 2 Game | Linx Legacy Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 15:42 | ITF Women's Match | Kim Chiarello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 15:42 | eSoccer Game | Freiburg (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
