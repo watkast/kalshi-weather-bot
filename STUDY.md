@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 7, 9:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 7, 9:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 564 finished bets | 1% | -$42.60 | -50% | -7.55¢ | -$28.30 / -$14.30 |
 
-*Expect about **56 buys a day**, roughly **$8.33/day** at risk; max loss per buy **15¢**.*
+*Expect about **56 buys a day**, roughly **$8.34/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5197 | 564 | 3 (1%) | 1.1% | -$42.60 (-50%) | Hold to the end: -$42.60 (-50%) |
+| 5200 | 564 | 3 (1%) | 1.1% | -$42.60 (-50%) | Hold to the end: -$42.60 (-50%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 564 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 4624 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4626 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 429 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| ITF Women's Match | ✘ | 430 | 0 | 13% | 6% | -100% | -78% | 4 min |
 | ITF Men's Match | ✘ | 375 | 1 | 9% | 5% | -75% | -84% | 5 min |
 | Counter-Strike 2 Game | ✘ | 359 | 1 | 3% | 3% | -74% | -94% | 9 min |
 | Challenger ATP  | ✘ | 261 | 1 | 9% | 2% | -64% | -85% | 5 min |
@@ -104,7 +104,7 @@
 | College Football Game | partly | 99 | 2 | 14% | 6% | +89% | -75% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 63 | 0 | 17% | 6% | -100% | -70% | 20 min |
+| Men's T20 Cricket Match | ✘ | 64 | 0 | 17% | 6% | -100% | -70% | 21 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Challenger WTA | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 8 min |
@@ -226,7 +226,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | — | In play | — |
+| 10-08 03:14 | Counter-Strike 2 Game | Club 333 | ✘ | — | — | In play | — |
+| 10-08 03:13 | Professional Baseball Game | New York Y | ✔ | Bot 9th · TB 4 - NYY 3 | — | In play | — |
+| 10-08 03:07 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | — | In play | — |
+| 10-08 03:01 | ITF Women's Match | Mio Mushika | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:59 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
 | 10-08 02:47 | College Football Game | New Mexico St. | ✔ | 11:52 - 4th · NMSU 3 - FIU 16 | — | In play | — |
 | 10-08 02:46 | Counter-Strike 2 Game | EMPIRE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -238,7 +241,7 @@
 | 10-08 02:30 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:28 | Counter-Strike 2 Game | Reign Above | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 02:20 | NHL Game | Colorado | ✔ | 0:10 - 3rd · COL 2 - WPG 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 02:20 | Men's T20 Cricket Match | Thailand | ✘ | — | — | In play | — |
+| 10-08 02:20 | Men's T20 Cricket Match | Thailand | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:15 | Brasileiro Serie A Game | Tie | ✔ | 84' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 02:10 | NHL Game | Pittsburgh | ✔ | 1:56 - 3rd · PIT 3 - WSH 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 01:48 | Brasileiro Serie A Game | Sao Paulo | ✔ | 58' · SAO 0 - CRU 2 | 1¢ | ❌ Lost | -$0.15 |
@@ -253,9 +256,6 @@
 | 10-08 01:15 | Brasileiro Serie B Game | America FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-08 01:14 | ITF Women's Match | Katrina Scott | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 01:07 | Brasileiro Serie A Game | Botafogo | ✔ | 73' · VAS 2 - BOT 1 | 14¢ | ❌ Lost | -$0.15 |
-| 10-08 01:02 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 00:55 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 00:44 | Canadian Premier League | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
