@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 3:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 3:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5231 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5232 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 4655 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 4657 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -104,7 +104,7 @@
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 91 | 1 | 7% | 2% | +3% | -89% | 56 min |
 | Darts Match | ✘ | 90 | 0 | 1% | 1% | -100% | -98% | 8 min |
-| Men's T20 Cricket Match | ✘ | 66 | 0 | 17% | 6% | -100% | -71% | 21 min |
+| Men's T20 Cricket Match | ✘ | 67 | 0 | 16% | 6% | -100% | -72% | 21 min |
 | Dota 2 Game | ✘ | 59 | 0 | 3% | 3% | -100% | -94% | 28 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Challenger WTA | ✘ | 58 | 0 | 17% | 10% | -100% | -70% | 8 min |
@@ -175,11 +175,11 @@
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
+| Men's ODI Cricket Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 14 min |
 | Russia VTB United Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
 | College Hockey Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
-| Men's ODI Cricket Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 15 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Croatia Premijer Liga Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -226,6 +226,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 09:16 | TT Star Series Match | Vráblík Jiří | ✘ | — | — | In play | — |
 | 10-08 09:07 | Men's T20 Cricket Match | Malaysia | ✘ | — | — | In play | — |
 | 10-08 09:03 | ITF Women's Match | suzuna oigawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:03 | ITF Women's Match | Sofiia Suslova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -233,8 +234,8 @@
 | 10-08 09:02 | ITF Women's Match | Varvara Rubtsova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:02 | ITF Women's Match | Emma Van Poppel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:01 | ITF Women's Match | Elena Jamshidi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 09:01 | Men's ODI Cricket Match | Fairfirst Insurance | ✘ | — | — | In play | — |
-| 10-08 09:00 | Men's T20 Cricket Match | Singapore | ✘ | — | — | In play | — |
+| 10-08 09:01 | Men's ODI Cricket Match | Fairfirst Insurance | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 09:00 | Men's T20 Cricket Match | Singapore | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:00 | ITF Men's Match | Tai Leonard Sach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:00 | ITF Men's Match | Joshua Charlton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 09:00 | ITF Men's Match | Ethan Cook | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -255,7 +256,6 @@
 | 10-08 03:41 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-08 03:35 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 03:21 | LNBP Basketball Game | El Calor de Cancun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 03:18 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
