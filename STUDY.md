@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 9:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 9:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 593 finished bets | 1% | -$46.95 | -53% | -7.92¢ | -$30.40 / -$16.55 |
 
-*Expect about **53 buys a day**, roughly **$7.94/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.93/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5880 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
+| 5887 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 593 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5270 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5281 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 480 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 417 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| Counter-Strike 2 Game | ✘ | 416 | 1 | 3% | 2% | -78% | -95% | 10 min |
-| eSoccer Game | ✘ | 324 | 0 | 0% | 0% | -100% | -99% | 3 min |
+| eSoccer Game | ✘ | 332 | 0 | 0% | 0% | -100% | -99% | 3 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -114,7 +114,7 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| eBasketball Game | ✘ | 44 | 1 | 0% | 0% | +112% | +112% | 1 min |
+| eBasketball Game | ✘ | 46 | 1 | 0% | 0% | +103% | +103% | 1 min |
 | R6 Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
@@ -227,17 +227,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 03:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 03:47 | eSoccer Game | Freiburg (Aron) | ✘ | — | — | In play | — |
-| 10-09 03:47 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | — | In play | — |
-| 10-09 03:47 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-09 03:45 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 10-09 03:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-09 03:57 | ITF Women's Match | Yuno Kitahara | ✘ | — | — | In play | — |
+| 10-09 03:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 03:53 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | — | In play | — |
+| 10-09 03:50 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:50 | eSoccer Game | Mönchengladbach (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:49 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:47 | eSoccer Game | Freiburg (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:47 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:47 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:45 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:41 | Women's College Volleyball Match | California Davis | ✘ | — | — | In play | — |
 | 10-09 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:37 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:37 | Challenger WTA | Zhuoxuan Bai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:36 | Counter-Strike 2 Game | Day Traders | ✘ | — | — | In play | — |
+| 10-09 03:36 | Counter-Strike 2 Game | Day Traders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:35 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,13 +257,6 @@
 | 10-09 03:24 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:23 | eBasketball Game | Brooklyn Nets (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:21 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:20 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:19 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:19 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:19 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
