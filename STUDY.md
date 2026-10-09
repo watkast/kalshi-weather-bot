@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 7:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 7:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5730 | 571 | 3 (1%) | 1.1% | -$43.65 (-51%) | Hold to the end: -$43.65 (-51%) |
+| 5736 | 571 | 3 (1%) | 1.1% | -$43.65 (-51%) | Hold to the end: -$43.65 (-51%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 571 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5145 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 5154 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 413 | 1 | 3% | 2% | -77% | -95% | 10 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
-| eSoccer Game | ✘ | 224 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 228 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -114,10 +114,10 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| R6 Game | ✘ | 41 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| R6 Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
+| eBasketball Game | ✘ | 37 | 1 | 0% | 0% | +152% | +152% | 1 min |
 | KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
-| eBasketball Game | ✘ | 35 | 1 | 0% | 0% | +167% | +167% | 1 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
@@ -139,11 +139,11 @@
 | WTA Tennis Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 3 min |
 | Valorant game winner | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 15 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
+| Brasileiro Serie A Game | partly | 20 | 0 | 25% | 15% | -100% | -57% | 4 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
-| Brasileiro Serie A Game | partly | 18 | 0 | 22% | 17% | -100% | -61% | 4 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -227,12 +227,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 01:01 | Brasileiro Serie A Game | Paranaense | ✘ | — | — | In play | — |
-| 10-09 01:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 01:00 | eSoccer Game | São Paulo (Declan) | ✘ | — | — | In play | — |
-| 10-09 00:58 | R6 Game | FURIA Esports | ✘ | — | — | In play | — |
+| 10-09 01:07 | eSoccer Game | Chelsea (Homie) | ✘ | — | — | In play | — |
+| 10-09 01:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 01:05 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:03 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:02 | eSoccer Game | Estudiantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:01 | Brasileiro Serie A Game | Paranaense | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 01:00 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 00:58 | R6 Game | FURIA Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:57 | Women's College Volleyball Match | West Georgia | ✘ | — | — | In play | — |
-| 10-09 00:53 | Brasileiro Serie A Game | Atletico Mineiro | ✘ | — | — | In play | — |
+| 10-09 00:53 | Brasileiro Serie A Game | Atletico Mineiro | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-09 00:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:47 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:46 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -251,12 +257,6 @@
 | 10-09 00:29 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:26 | NHL Game | Utah | ✔ | 11:35 - 2nd · UTA 0 - BOS 5 | — | In play | — |
 | 10-09 00:24 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:24 | eSoccer Game | Sevilla FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:21 | Brasileiro Serie B Game | Criciuma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:20 | eSoccer Game | Botafogo (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
