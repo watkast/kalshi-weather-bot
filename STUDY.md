@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 2:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 2:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,17 +10,17 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 606 finished bets | 1% | -$34.90 | -38% | -5.76¢ | -$31.45 / -$3.45 |
+| ESPN-verified leagues only, hold to the end | 608 finished bets | 1% | -$35.20 | -39% | -5.79¢ | -$31.60 / -$3.60 |
 
-*Expect about **51 buys a day**, roughly **$7.64/day** at risk; max loss per buy **15¢**.*
+*Expect about **51 buys a day**, roughly **$7.68/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 606 | -$50.40 | -55% |
-| ESPN-verified leagues only, sell at 25¢ | 606 | -$64.42 | -71% |
-| ESPN-verified leagues only, sell at 10¢ | 606 | -$64.70 | -71% |
+| ESPN-verified leagues only, sell at 50¢ | 608 | -$50.70 | -56% |
+| ESPN-verified leagues only, sell at 25¢ | 608 | -$64.72 | -71% |
+| ESPN-verified leagues only, sell at 10¢ | 608 | -$65.00 | -71% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6848 | 606 | 4 (1%) | 1.1% | -$34.90 (-38%) | Hold to the end: -$34.90 (-38%) |
+| 6859 | 608 | 4 (1%) | 1.1% | -$35.20 (-39%) | Hold to the end: -$35.20 (-39%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 606 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6213 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 608 | 15% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 6228 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 4 | 1% | -$34.90 | -38% |
-| Sell at 2¢ | 90 | 15% | -$67.50 | -74% |
-| Sell at 3¢ | 60 | 10% | -$67.50 | -74% |
-| Sell at 5¢ | 39 | 6% | -$65.55 | -72% |
-| Sell at 10¢ | 20 | 3% | -$64.70 | -71% |
-| Sell at 25¢ | 8 | 1% | -$64.42 | -71% |
-| Sell at 50¢ | 6 | 1% | -$50.40 | -55% |
+| Hold to the end | 4 | 1% | -$35.20 | -39% |
+| Sell at 2¢ | 91 | 15% | -$67.54 | -74% |
+| Sell at 3¢ | 60 | 10% | -$67.80 | -74% |
+| Sell at 5¢ | 39 | 6% | -$65.85 | -72% |
+| Sell at 10¢ | 20 | 3% | -$65.00 | -71% |
+| Sell at 25¢ | 8 | 1% | -$64.72 | -71% |
+| Sell at 50¢ | 6 | 1% | -$50.70 | -56% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 833 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 839 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 447 | 1 | 4% | 3% | -79% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 448 | 1 | 4% | 3% | -79% | -94% | 10 min |
 | ITF Men's Match | ✘ | 430 | 1 | 9% | 5% | -78% | -84% | 5 min |
-| Challenger ATP  | ✘ | 288 | 2 | 9% | 2% | -35% | -85% | 5 min |
+| Challenger ATP  | ✘ | 290 | 2 | 9% | 2% | -36% | -84% | 5 min |
 | TT Star Series Match | ✘ | 203 | 1 | 2% | 2% | -54% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 128 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -105,7 +105,7 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
 | Women's College Volleyball Match | ✘ | 103 | 1 | 6% | 2% | -9% | -90% | 66 min |
-| eBasketball Game | ✘ | 92 | 1 | 0% | 0% | +1% | +1% | 1 min |
+| eBasketball Game | ✘ | 94 | 1 | 0% | 0% | -1% | -1% | 1 min |
 | Men's T20 Cricket Match | ✘ | 87 | 0 | 16% | 5% | -100% | -72% | 21 min |
 | Challenger WTA | ✘ | 65 | 0 | 15% | 9% | -100% | -73% | 8 min |
 | NHL Game | ✔ | 65 | 0 | 14% | 5% | -100% | -76% | 4 min |
@@ -148,9 +148,9 @@
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
+| LNB Elite 2 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Finland Korisliiga Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | NFL Game | ✔ | 17 | 0 | 24% | 6% | -100% | -59% | 3 min |
-| LNB Elite 2 Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Expansion Game | ✘ | 17 | 0 | 12% | 12% | -100% | -80% | 21 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
@@ -186,11 +186,12 @@
 | TFF 1. Lig Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 16 min |
 | Finnish Ykkosliiga Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Czech National Football League Game | ✘ | 8 | 0 | 25% | 25% | -100% | -57% | 11 min |
+| Slovenia 1. SKL Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 15 min |
 | Russia VTB United Game | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
-| Slovenia 1. SKL Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 18 min |
 | Peru Liga 1 Game | ✘ | 6 | 0 | 33% | 17% | -100% | -42% | 12 min |
 | England Super League Basketball Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
+| United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Korea K League Game | ✘ | 6 | 0 | 50% | 17% | -100% | -13% | 16 min |
 | Korea K-League 2 Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 5 min |
@@ -201,7 +202,6 @@
 | Chinese Super League Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
-| United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | PREM Rugby Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Japan J League Game | ✘ | 4 | 0 | 50% | 25% | -100% | -13% | 35 min |
 | Bundesliga 2 Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 1 min |
@@ -228,6 +228,7 @@
 | Polish Ekstraklasa Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Belgian Pro League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Ligue 1 Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 10 min |
+| La Liga Game | ✔ | 2 | 0 | 50% | 0% | -100% | -13% | 5 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -235,8 +236,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 243 | 7% | 1% | 0% | -88% |
-| 5–15 min | 114 | 16% | 5% | 2% | -73% |
+| Under 5 min | 244 | 7% | 1% | 0% | -88% |
+| 5–15 min | 115 | 17% | 5% | 2% | -71% |
 | 15–30 min | 99 | 29% | 14% | 2% | -49% |
 | 30–60 min | 78 | 14% | 8% | 0% | -76% |
 | Over 60 min | 70 | 21% | 14% | 0% | -63% |
@@ -257,36 +258,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 20:47 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | — | In play | — |
-| 10-09 20:46 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | — | In play | — |
-| 10-09 20:46 | eBasketball Game | Denver Nuggets (Tyler) | ✘ | — | — | In play | — |
-| 10-09 20:46 | eSoccer Game | Chelsea (Antonio) | ✘ | — | — | In play | — |
-| 10-09 20:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 20:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 20:45 | LNB Elite 2 Game | Orleans Loiret Basket | ✘ | — | — | In play | — |
+| 10-09 20:55 | Bolivia Premier Division Game | CD Real Tomayapo | ✘ | — | — | In play | — |
+| 10-09 20:55 | Bolivia Premier Division Game | San Antonio Bulo Bulo | ✘ | — | — | In play | — |
+| 10-09 20:55 | EFL Championship Game | West Ham | ✔ | 90'+4' · QPR 1 - WHU 1 | — | In play | — |
+| 10-09 20:54 | EFL Championship Game | QPR | ✔ | 90'+4' · QPR 1 - WHU 1 | — | In play | — |
+| 10-09 20:54 | Counter-Strike 2 Game | Last Dance | ✘ | — | — | In play | — |
+| 10-09 20:53 | Darts Match | Alexander Fehlmann | ✘ | — | — | In play | — |
+| 10-09 20:52 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 10-09 20:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 20:52 | La Liga Game | Espanyol | ✔ | 90'+4' · ESP 1 - MCF 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:51 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 10-09 20:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 20:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:47 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:46 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:46 | eBasketball Game | Denver Nuggets (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:46 | eSoccer Game | Chelsea (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:45 | LNB Elite 2 Game | Orleans Loiret Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 20:44 | Counter-Strike 2 Game | Malicious Intent | ✘ | — | — | In play | — |
-| 10-09 20:44 | United Rugby Championship Match | Dragons | ✘ | — | — | In play | — |
-| 10-09 20:44 | La Liga Game | Malaga | ✔ | 86' · ESP 1 - MCF 0 | — | In play | — |
-| 10-09 20:43 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-09 20:42 | Slovenia 1. SKL Game | Polzela | ✘ | — | — | In play | — |
-| 10-09 20:41 | United Rugby Championship Match | Connacht Rugby | ✘ | — | — | In play | — |
-| 10-09 20:41 | Challenger ATP  | Enrico Dalla Valle | ✘ | — | — | In play | — |
+| 10-09 20:44 | United Rugby Championship Match | Dragons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:44 | La Liga Game | Malaga | ✔ | 86' · ESP 1 - MCF 0 | 2¢ | ❌ Lost | -$0.15 |
+| 10-09 20:43 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:42 | Slovenia 1. SKL Game | Polzela | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:41 | United Rugby Championship Match | Connacht Rugby | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 20:41 | Challenger ATP  | Enrico Dalla Valle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 20:40 | PREM Rugby Match | Gloucester Rugby | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 20:39 | Ligue 1 Game | Tie | ✔ | 90'+5' · LYON 1 - RCL 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 20:39 | Euroleague Game | Baskonia Vitoria-Gasteiz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 20:38 | TT Star Series Match | Figel Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:36 | Challenger ATP  | Miguel Tobon | ✘ | — | — | In play | — |
-| 10-09 20:34 | eSoccer Game | Manchester City (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:33 | Belgian Pro League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:32 | eSoccer Game | Crystal Palace (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:30 | Counter-Strike 2 Game | G2 Ares | ✘ | — | — | In play | — |
-| 10-09 20:29 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:29 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 20:29 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
