@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 11:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6557 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6572 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5920 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5933 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 732 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 738 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 503 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 444 | 1 | 3% | 2% | -79% | -94% | 10 min |
 | ITF Men's Match | ✘ | 429 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -115,7 +115,7 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| R6 Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| R6 Game | ✘ | 45 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 8 min |
 | KHL Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
@@ -127,8 +127,8 @@
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
 | Liga Leumit Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Liiga Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Euroleague Game | ✘ | 26 | 0 | 23% | 4% | -100% | -60% | 15 min |
-| Liiga Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | National League Game | ✘ | 24 | 1 | 4% | 4% | +289% | -93% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
@@ -200,6 +200,7 @@
 | Japan J League Game | ✘ | 4 | 0 | 50% | 25% | -100% | -13% | 35 min |
 | Saudi Pro League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | TFF 1. Lig Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
+| Czech National Football League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -209,7 +210,7 @@
 | Vietnam V-League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Indonesia Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | Thai League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 32 min |
-| Czech National Football League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 18 min |
+| Finnish Ykkosliiga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 81 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -239,36 +240,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 17:54 | FIFA Women's Game | Turkiye | ✘ | — | — | In play | — |
+| 10-09 17:54 | Czech First League Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:53 | Finnish Ykkosliiga Game | Kapylan Pallo | ✘ | — | — | In play | — |
+| 10-09 17:53 | Finnish Ykkosliiga Game | Mikkelin | ✘ | — | — | In play | — |
+| 10-09 17:52 | League of Legends Game | Kaufland Hangry Knights | ✘ | — | — | In play | — |
+| 10-09 17:51 | Croatia HNL Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:51 | Liiga Game | Tampereen Ilves | ✘ | — | — | In play | — |
+| 10-09 17:51 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:50 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:50 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:50 | Czech National Football League Game | Jihlava | ✘ | — | — | In play | — |
+| 10-09 17:49 | Czech National Football League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:48 | Liiga Game | Lahti Pelicans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:46 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 17:44 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:44 | Liiga Game | Mikkelin Jukurit | ✘ | — | — | In play | — |
+| 10-09 17:44 | Liiga Game | Mikkelin Jukurit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 17:44 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:43 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
-| 10-09 17:43 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 10-09 17:43 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
-| 10-09 17:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:43 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:43 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:43 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 17:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 17:43 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
 | 10-09 17:42 | Finnish Ykkosliiga Game | PK-35 Helsinki | ✘ | — | — | In play | — |
-| 10-09 17:40 | Czech National Football League Game | FC Silon Taborsko | ✘ | — | — | In play | — |
+| 10-09 17:40 | Czech National Football League Game | FC Silon Taborsko | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-09 17:38 | FIFA Women's Game | Kosovo | ✘ | — | — | In play | — |
 | 10-09 17:38 | Darts Match | Andrew Gilding | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:38 | R6 Game | Spacestation Gaming | ✘ | — | — | In play | — |
+| 10-09 17:38 | R6 Game | Spacestation Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 17:37 | FIFA Women's Game | Belarus | ✘ | — | — | In play | — |
 | 10-09 17:37 | FIFA Women's Game | Albania | ✘ | — | — | In play | — |
-| 10-09 17:36 | eSoccer Game | Juventus (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:36 | eSoccer Game | Liverpool (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:36 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:34 | Croatia HNL Game | Gorica | ✘ | — | — | In play | — |
-| 10-09 17:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:29 | TT Star Series Match | Figel Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:29 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:28 | Czech First League Game | Zlin | ✘ | — | — | In play | — |
-| 10-09 17:28 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:28 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:27 | Polish Ekstraklasa Game | Wisla Plock | ✘ | — | — | In play | — |
-| 10-09 17:24 | Slovakia SBL Game | Kosice Wolves | ✘ | — | — | In play | — |
-| 10-09 17:21 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:19 | eSoccer Game | Slavia Praha (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
