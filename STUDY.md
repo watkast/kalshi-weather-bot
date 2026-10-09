@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 593 finished bets | 1% | -$46.95 | -53% | -7.92¢ | -$30.40 / -$16.55 |
 
-*Expect about **53 buys a day**, roughly **$7.92/day** at risk; max loss per buy **15¢**.*
+*Expect about **53 buys a day**, roughly **$7.91/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5916 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
+| 5923 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 593 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5306 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5314 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 481 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 482 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 419 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| eSoccer Game | ✘ | 352 | 0 | 0% | 0% | -100% | -100% | 3 min |
-| Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
+| eSoccer Game | ✘ | 358 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Challenger ATP  | ✘ | 280 | 2 | 9% | 2% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
@@ -227,14 +227,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 04:29 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
-| 10-09 04:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 04:28 | ITF Women's Match | Yanan Hou | ✘ | — | — | In play | — |
-| 10-09 04:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 04:27 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 10-09 04:21 | Challenger ATP  | Timofei Derepasko | ✘ | — | — | In play | — |
-| 10-09 04:19 | eSoccer Game | Spurs (Mordor) | ✘ | — | — | In play | — |
-| 10-09 04:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:34 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | — | In play | — |
+| 10-09 04:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:33 | Men's T20 Cricket Match | Kuwait | ✘ | — | — | In play | — |
+| 10-09 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:30 | eSoccer Game | Valencia CF (Declan) | ✘ | — | — | In play | — |
+| 10-09 04:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:29 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 10-09 04:29 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:28 | ITF Women's Match | Yanan Hou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:27 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:21 | Challenger ATP  | Timofei Derepasko | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-09 04:19 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:18 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:16 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -250,13 +257,6 @@
 | 10-09 04:02 | Counter-Strike 2 Game | regain | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:02 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:02 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:00 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:59 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 03:57 | ITF Women's Match | Yuno Kitahara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
