@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 9, 6:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 9, 6:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 864 finished bets | 1% | $32.25 | +34% | +3.73¢ | -$18.20 / $50.45 |
 
-*Expect about **77 buys a day** (~$11.53/day at risk); max loss per buy **15¢**.*
+*Expect about **77 buys a day** (~$11.52/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12881 | 12874 | 52 (0%) | 1.07% | -$834.40 (-53%) | Hold to the close: -$834.40 (-53%) |
+| 12883 | 12874 | 52 (0%) | 1.07% | -$834.40 (-53%) | Hold to the close: -$834.40 (-53%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/9 6:41:21 AM | WTI | DOWN | 3.6 min | — | — | In play | — |
+| 10/9 6:39:59 AM | HYPE | UP | 5.0 min | -0.319% | — | In play | — |
 | 10/9 6:29:54 AM | NATGAS | UP | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/9 6:29:54 AM | USDCAD | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/9 6:29:54 AM | PALLADIUM | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,8 +213,6 @@
 | 10/9 6:13:31 AM | ZEC | DOWN | 89 sec | +0.231% | 1¢ | ❌ Lost | -$0.15 |
 | 10/9 6:13:14 AM | EURUSD | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/9 6:13:14 AM | HYPE | DOWN | 1.8 min | +0.172% | 1¢ | ❌ Lost | -$0.15 |
-| 10/9 6:12:57 AM | GBPUSD | UP | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/9 6:12:57 AM | COPPER | UP | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
