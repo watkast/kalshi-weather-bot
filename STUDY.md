@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6531 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6539 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 62. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -239,6 +239,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 17:34 | Croatia HNL Game | Gorica | ✘ | — | — | In play | — |
+| 10-09 17:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:29 | TT Star Series Match | Figel Jakub | ✘ | — | — | In play | — |
+| 10-09 17:29 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 10-09 17:28 | Czech First League Game | Zlin | ✘ | — | — | In play | — |
+| 10-09 17:28 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 10-09 17:28 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-09 17:27 | Polish Ekstraklasa Game | Wisla Plock | ✘ | — | — | In play | — |
 | 10-09 17:24 | Slovakia SBL Game | Kosice Wolves | ✘ | — | — | In play | — |
 | 10-09 17:21 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
 | 10-09 17:19 | eSoccer Game | Slavia Praha (Krocs) | ✘ | — | — | In play | — |
@@ -261,14 +269,6 @@
 | 10-09 17:10 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
 | 10-09 17:09 | Men's T20 Cricket Match | India | ✘ | — | — | In play | — |
 | 10-09 17:09 | FIFA Women's Game | Greece | ✘ | — | — | In play | — |
-| 10-09 17:07 | TT Star Series Match | Morávek Radim | ✘ | — | — | In play | — |
-| 10-09 17:07 | Czech National Football League Game | Usti nad Labem | ✘ | — | — | In play | — |
-| 10-09 17:06 | Czech National Football League Game | Prostejov | ✘ | — | — | In play | — |
-| 10-09 17:05 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | — | In play | — |
-| 10-09 17:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:05 | Finnish Ykkosliiga Game | JaPS | ✘ | — | — | In play | — |
-| 10-09 17:05 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
-| 10-09 17:04 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
 
 ## Raw data
 
