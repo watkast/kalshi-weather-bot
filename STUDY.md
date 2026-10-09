@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 11:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6504 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6520 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -239,6 +239,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 17:15 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | — | In play | — |
+| 10-09 17:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:15 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
+| 10-09 17:14 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 10-09 17:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:13 | Liiga Game | JYP Jyvaskyla | ✘ | — | — | In play | — |
+| 10-09 17:12 | FIFA Women's Game | Slovenia | ✘ | — | — | In play | — |
+| 10-09 17:10 | ELH Game | Mountfield HK | ✘ | — | — | In play | — |
+| 10-09 17:10 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
+| 10-09 17:09 | Men's T20 Cricket Match | India | ✘ | — | — | In play | — |
+| 10-09 17:09 | FIFA Women's Game | Greece | ✘ | — | — | In play | — |
+| 10-09 17:07 | TT Star Series Match | Morávek Radim | ✘ | — | — | In play | — |
+| 10-09 17:07 | Czech National Football League Game | Usti nad Labem | ✘ | — | — | In play | — |
+| 10-09 17:06 | Czech National Football League Game | Prostejov | ✘ | — | — | In play | — |
+| 10-09 17:05 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | — | In play | — |
+| 10-09 17:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-09 17:05 | Finnish Ykkosliiga Game | JaPS | ✘ | — | — | In play | — |
 | 10-09 17:05 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
 | 10-09 17:04 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
@@ -253,22 +269,6 @@
 | 10-09 16:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:47 | eSoccer Game | West Ham (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:47 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:46 | Counter-Strike 2 Game | MTX | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:43 | Czech National Football League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-09 16:37 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:37 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:37 | TT Star Series Match | Albornoz Matias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:35 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:34 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:33 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:33 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:32 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:31 | FIFA Women's Game | Lithuania | ✘ | — | — | In play | — |
-| 10-09 16:30 | Czech National Football League Game | Slavia Prague B | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
