@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 10:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 10:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5923 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
+| 5933 | 593 | 3 (1%) | 1.1% | -$46.95 (-53%) | Hold to the end: -$46.95 (-53%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 593 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5314 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5322 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 482 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 419 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| eSoccer Game | ✘ | 358 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| eSoccer Game | ✘ | 364 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Challenger ATP  | ✘ | 280 | 2 | 9% | 2% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -105,14 +105,14 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
 | Women's College Volleyball Match | ✘ | 97 | 1 | 6% | 2% | -4% | -89% | 56 min |
-| Men's T20 Cricket Match | ✘ | 74 | 0 | 16% | 5% | -100% | -72% | 21 min |
+| Men's T20 Cricket Match | ✘ | 75 | 0 | 16% | 5% | -100% | -72% | 21 min |
 | NHL Game | ✔ | 64 | 0 | 14% | 5% | -100% | -76% | 5 min |
 | Challenger WTA | ✘ | 62 | 0 | 16% | 10% | -100% | -72% | 8 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| eBasketball Game | ✘ | 47 | 1 | 0% | 0% | +99% | +99% | 1 min |
+| eBasketball Game | ✘ | 48 | 1 | 0% | 0% | +94% | +94% | 1 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
 | R6 Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -227,13 +227,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 04:34 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | — | In play | — |
-| 10-09 04:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 04:33 | Men's T20 Cricket Match | Kuwait | ✘ | — | — | In play | — |
-| 10-09 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 04:30 | eSoccer Game | Valencia CF (Declan) | ✘ | — | — | In play | — |
-| 10-09 04:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 04:29 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 10-09 04:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-09 04:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:47 | eSoccer Game | Spurs (Strudl) | ✘ | — | — | In play | — |
+| 10-09 04:46 | eSoccer Game | Athletic Club (Pedri) | ✘ | — | — | In play | — |
+| 10-09 04:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:46 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
+| 10-09 04:45 | eBasketball Game | Indiana Pacers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:42 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
+| 10-09 04:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 04:34 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:33 | Men's T20 Cricket Match | Kuwait | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-09 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:30 | eSoccer Game | Valencia CF (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 04:29 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:29 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:28 | ITF Women's Match | Yanan Hou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,16 +257,6 @@
 | 10-09 04:16 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 04:15 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:14 | eSoccer Game | Mönchengladbach (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:12 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:06 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:03 | Counter-Strike 2 Game | Reign Above | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:02 | Counter-Strike 2 Game | regain | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:02 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
