@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 10:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 10:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6458 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6471 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5827 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5841 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,20 +93,20 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 680 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 688 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | ITF Women's Match | ✘ | 503 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 435 | 1 | 3% | 3% | -79% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 438 | 1 | 3% | 3% | -79% | -94% | 10 min |
 | ITF Men's Match | ✘ | 429 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 285 | 2 | 9% | 2% | -35% | -85% | 5 min |
-| TT Star Series Match | ✘ | 193 | 1 | 2% | 2% | -52% | -96% | 4 min |
+| TT Star Series Match | ✘ | 194 | 1 | 3% | 3% | -52% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 120 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
 | Women's College Volleyball Match | ✘ | 103 | 1 | 6% | 2% | -9% | -90% | 66 min |
-| Men's T20 Cricket Match | ✘ | 81 | 0 | 16% | 5% | -100% | -72% | 21 min |
-| eBasketball Game | ✘ | 77 | 1 | 0% | 0% | +21% | +21% | 1 min |
+| Men's T20 Cricket Match | ✘ | 82 | 0 | 16% | 5% | -100% | -73% | 21 min |
+| eBasketball Game | ✘ | 78 | 1 | 0% | 0% | +20% | +20% | 1 min |
 | Challenger WTA | ✘ | 65 | 0 | 15% | 9% | -100% | -73% | 8 min |
 | NHL Game | ✔ | 65 | 0 | 14% | 5% | -100% | -76% | 4 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
@@ -238,36 +238,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 16:24 | Challenger ATP  | Carlos Sanchez Jover | ✘ | — | — | In play | — |
+| 10-09 16:23 | eSoccer Game | Werder Bremen (Minjori) | ✘ | — | — | In play | — |
+| 10-09 16:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:22 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-09 16:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:22 | Mobile Legends Bang Bang Game | Cyber Hero | ✘ | — | — | In play | — |
+| 10-09 16:20 | eSoccer Game | Nantes (Demi) | ✘ | — | — | In play | — |
+| 10-09 16:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:19 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-09 16:19 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 10-09 16:18 | eSoccer Game | Everton (Luis) | ✘ | — | — | In play | — |
+| 10-09 16:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:16 | Saudi Pro League Game | Tie | ✘ | — | — | In play | — |
 | 10-09 16:14 | Counter-Strike 2 Game | Leo Team | ✘ | — | — | In play | — |
 | 10-09 16:14 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
 | 10-09 16:13 | Counter-Strike 2 Game | Rare Atom | ✘ | — | — | In play | — |
 | 10-09 16:12 | Men's T20 Cricket Match | Sri Lanka | ✘ | — | — | In play | — |
-| 10-09 16:11 | TT Star Series Match | Danzer Matthias | ✘ | — | — | In play | — |
-| 10-09 16:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:10 | eSoccer Game | Freiburg (Zaroth) | ✘ | — | — | In play | — |
+| 10-09 16:11 | TT Star Series Match | Danzer Matthias | ✘ | — | 27¢ | ❌ Lost | -$0.15 |
+| 10-09 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:10 | eSoccer Game | Freiburg (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:09 | Darts Match | Harrison Leigh | ✘ | — | — | In play | — |
-| 10-09 16:09 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-09 16:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:08 | eBasketball Game | New York Knicks (Wemby) | ✘ | — | — | In play | — |
+| 10-09 16:09 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:08 | eBasketball Game | New York Knicks (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:07 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:07 | eSoccer Game | Nantes (Demi) | ✘ | — | — | In play | — |
-| 10-09 16:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:07 | eSoccer Game | Nantes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:06 | Saudi Pro League Game | Al-Fateh | ✘ | — | — | In play | — |
-| 10-09 16:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:06 | FIFA Women's Game | Serbia | ✘ | — | — | In play | — |
-| 10-09 16:06 | Counter-Strike 2 Game | FURIA | ✘ | — | — | In play | — |
-| 10-09 16:05 | eSoccer Game | Crystal Palace (PinkElephant) | ✘ | — | — | In play | — |
-| 10-09 16:04 | Counter-Strike 2 Game | G2 Ares | ✘ | — | — | In play | — |
-| 10-09 16:02 | Challenger ATP  | Hynek Barton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:01 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
-| 10-09 16:01 | Counter-Strike 2 Game | The Huns Esports | ✘ | — | — | In play | — |
-| 10-09 15:56 | Men's T20 Cricket Match | West Deutscher CV | ✘ | — | — | In play | — |
-| 10-09 15:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:55 | eSoccer Game | RB Leipzig (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:54 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
