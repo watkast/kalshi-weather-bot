@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 2:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 2:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6108 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6116 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5495 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5501 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 504 | 0 | 0% | 0% | -100% | -99% | 3 min |
+| eSoccer Game | ✘ | 510 | 0 | 0% | 0% | -100% | -99% | 3 min |
 | ITF Women's Match | ✘ | 482 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 420 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
@@ -230,12 +230,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 08:23 | eSoccer Game | Real Madrid (Fede) | ✘ | — | — | In play | — |
-| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 08:23 | eSoccer Game | Olympique de Marseille (Mantis) | ✘ | — | — | In play | — |
-| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 08:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 08:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-09 08:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 08:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-09 08:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 08:35 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | — | In play | — |
+| 10-09 08:34 | eSoccer Game | Leverkusen (Eder) | ✘ | — | — | In play | — |
+| 10-09 08:34 | eSoccer Game | FC Bayern (Fede) | ✘ | — | — | In play | — |
+| 10-09 08:33 | eSoccer Game | Paris Saint-Germain (Nicol) | ✘ | — | — | In play | — |
+| 10-09 08:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 08:23 | eSoccer Game | Real Madrid (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:23 | eSoccer Game | Olympique de Marseille (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:20 | eSoccer Game | Juventus (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:20 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -252,14 +260,6 @@
 | 10-09 08:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:05 | eSoccer Game | Real Madrid (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:05 | eSoccer Game | Paris Saint-Germain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:57 | eSoccer Game | OGC Nice (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:55 | eSoccer Game | Juventus (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:55 | eSoccer Game | Slavia Praha (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:53 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 07:52 | eSoccer Game | Liverpool (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
