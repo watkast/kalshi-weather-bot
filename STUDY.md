@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 9:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 10:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6430 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6438 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5806 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5820 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 670 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 678 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | ITF Women's Match | ✘ | 503 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 434 | 1 | 3% | 3% | -78% | -94% | 10 min |
 | ITF Men's Match | ✘ | 429 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -197,6 +197,7 @@
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Japan J League Game | ✘ | 4 | 0 | 50% | 25% | -100% | -13% | 35 min |
+| TFF 1. Lig Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -207,6 +208,7 @@
 | Indonesia Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | FIFA Women's Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 108 min |
 | Thai League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 32 min |
+| Saudi Pro League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -236,14 +238,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 15:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 15:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 10-09 16:02 | Challenger ATP  | Hynek Barton | ✘ | — | — | In play | — |
+| 10-09 16:01 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
+| 10-09 16:01 | Counter-Strike 2 Game | The Huns Esports | ✘ | — | — | In play | — |
+| 10-09 15:56 | Men's T20 Cricket Match | West Deutscher CV | ✘ | — | — | In play | — |
+| 10-09 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 15:55 | eSoccer Game | RB Leipzig (Minjori) | ✘ | — | — | In play | — |
+| 10-09 15:54 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 15:52 | Darts Match | Oliver Mitchell | ✘ | — | — | In play | — |
-| 10-09 15:52 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-09 15:52 | eSoccer Game | Crystal Palace (PinkElephant) | ✘ | — | — | In play | — |
-| 10-09 15:50 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
-| 10-09 15:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 15:49 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-09 15:52 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:52 | eSoccer Game | Crystal Palace (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:50 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 15:49 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 15:48 | Counter-Strike 2 Game | WBT Academy | ✘ | — | — | In play | — |
 | 10-09 15:43 | TT Star Series Match | Figel Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -258,14 +268,6 @@
 | 10-09 15:37 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 15:36 | Counter-Strike 2 Game | Not A Squad Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 15:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:35 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:35 | ITF Women's Match | Sarah Iliev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:35 | TFF 1. Lig Game | Bodrum | ✘ | — | — | In play | — |
-| 10-09 15:35 | TFF 1. Lig Game | Pendik | ✘ | — | — | In play | — |
-| 10-09 15:35 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
-| 10-09 15:35 | Darts Match | Andreas Harrysson | ✘ | — | — | In play | — |
-| 10-09 15:35 | Counter-Strike 2 Game | PURE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 15:35 | Saudi Pro League Game | Al-Kholood | ✘ | — | — | In play | — |
 
 ## Raw data
 
