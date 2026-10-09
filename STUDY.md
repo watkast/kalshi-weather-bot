@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 1:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 1:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6713 | 599 | 3 (1%) | 1.1% | -$47.85 (-53%) | Hold to the end: -$47.85 (-53%) |
+| 6741 | 599 | 3 (1%) | 1.1% | -$47.85 (-53%) | Hold to the end: -$47.85 (-53%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 599 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6074 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 6088 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,14 +93,14 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 787 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 795 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 445 | 1 | 4% | 3% | -79% | -94% | 10 min |
-| ITF Men's Match | ✘ | 429 | 1 | 9% | 5% | -78% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 446 | 1 | 4% | 3% | -79% | -94% | 10 min |
+| ITF Men's Match | ✘ | 430 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 288 | 2 | 9% | 2% | -35% | -85% | 5 min |
-| TT Star Series Match | ✘ | 200 | 1 | 2% | 2% | -53% | -96% | 5 min |
+| TT Star Series Match | ✘ | 201 | 1 | 2% | 2% | -54% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Darts Match | ✘ | 124 | 0 | 1% | 1% | -100% | -99% | 9 min |
+| Darts Match | ✘ | 126 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | League of Legends Game | ✘ | 113 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
@@ -221,6 +221,7 @@
 | German 3. Liga Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Liga Portugal Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 8 min |
 
 ## By time left when it hit 1¢
 
@@ -248,36 +249,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 19:48 | Eredivisie Game | Tie | ✔ | 87' · HEE 0 - PSV 2 | — | In play | — |
+| 10-09 19:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 19:47 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-09 19:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 19:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-09 19:47 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-09 19:46 | DEL Game | Red Bull Munich | ✘ | — | — | In play | — |
+| 10-09 19:46 | LNB Elite 2 Game | Hyeres Toulon | ✘ | — | — | In play | — |
+| 10-09 19:46 | DEL Game | Fischtown Pinguins | ✘ | — | — | In play | — |
+| 10-09 19:46 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | — | In play | — |
+| 10-09 19:45 | DEL Game | Iserlohn Roosters | ✘ | — | — | In play | — |
+| 10-09 19:45 | Eerste Divisie Game | Helmond | ✘ | — | — | In play | — |
+| 10-09 19:45 | Eerste Divisie Game | Utrecht | ✘ | — | — | In play | — |
+| 10-09 19:45 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-09 19:44 | Sweden SBL Game | Boraas Basket | ✘ | — | — | In play | — |
+| 10-09 19:43 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
+| 10-09 19:43 | LNB Elite 2 Game | Aix Maurienne Savoie Basket | ✘ | — | — | In play | — |
+| 10-09 19:42 | R6 Game | Shopify Rebellion | ✘ | — | — | In play | — |
+| 10-09 19:42 | Counter-Strike 2 Game | NXG Esports | ✘ | — | — | In play | — |
+| 10-09 19:41 | DEL Game | Grizzlys Wolfsburg | ✘ | — | — | In play | — |
+| 10-09 19:41 | DEL Game | Kolner Haie | ✘ | — | — | In play | — |
+| 10-09 19:41 | Ligue 2 Game | Stade Lavallois | ✘ | — | — | In play | — |
+| 10-09 19:40 | Euroleague Game | Anadolu Efes SK | ✘ | — | — | In play | — |
+| 10-09 19:39 | LNB Elite Game | Limoges CSP | ✘ | — | — | In play | — |
+| 10-09 19:39 | ITF Men's Match | Alex Hernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 19:39 | Eerste Divisie Game | Maastricht | ✘ | — | — | In play | — |
+| 10-09 19:38 | eSoccer Game | Manchester City (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 19:37 | Eerste Divisie Game | Vitesse | ✘ | — | — | In play | — |
-| 10-09 19:37 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-09 19:37 | Saudi Pro League Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:37 | TT Star Series Match | Morávek Radim | ✘ | — | — | In play | — |
-| 10-09 19:36 | Liga Portugal Game | Moreirense | ✘ | — | — | In play | — |
-| 10-09 19:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:35 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
-| 10-09 19:35 | eSoccer Game | Everton (Luis) | ✘ | — | — | In play | — |
-| 10-09 19:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:34 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:32 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:30 | Ecuador Liga Pro Game | Leones | ✘ | — | — | In play | — |
-| 10-09 19:30 | Eerste Divisie Game | Waalwijk | ✘ | — | — | In play | — |
-| 10-09 19:30 | Eerste Divisie Game | Dordrecht | ✘ | — | — | In play | — |
-| 10-09 19:29 | Eredivisie Game | Heerenveen | ✔ | 69' · HEE 0 - PSV 1 | — | In play | — |
-| 10-09 19:29 | LNB Elite 2 Game | Hermine Nantes Basket | ✘ | — | — | In play | — |
-| 10-09 19:28 | Darts Match | R. van Barneveld | ✘ | — | — | In play | — |
-| 10-09 19:25 | Eerste Divisie Game | Jong Ajax Amsterdam | ✘ | — | — | In play | — |
-| 10-09 19:24 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:24 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:23 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:22 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-09 19:21 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:20 | eSoccer Game | Chelsea (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:20 | Counter-Strike 2 Game | WBT Academy | ✘ | — | — | In play | — |
-| 10-09 19:20 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 19:20 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 19:37 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
