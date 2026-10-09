@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 5:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 5:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6241 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6245 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5630 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5635 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 589 | 0 | 0% | 0% | -100% | -99% | 2 min |
-| ITF Women's Match | ✘ | 489 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 422 | 1 | 3% | 2% | -78% | -94% | 10 min |
-| ITF Men's Match | ✘ | 420 | 1 | 10% | 5% | -78% | -83% | 5 min |
+| ITF Women's Match | ✘ | 490 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 424 | 1 | 3% | 2% | -78% | -94% | 10 min |
+| ITF Men's Match | ✘ | 422 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
 | TT Star Series Match | ✘ | 184 | 1 | 2% | 2% | -49% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -232,14 +232,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 11:17 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
+| 10-09 11:15 | ITF Men's Match | Peter Makk | ✘ | — | — | In play | — |
+| 10-09 11:14 | ITF Men's Match | Giannicola Misasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 11:14 | TT Star Series Match | Franco Carlos | ✘ | — | — | In play | — |
 | 10-09 11:08 | FIFA Women's Game | Kazakhstan | ✘ | — | — | In play | — |
-| 10-09 11:06 | ITF Women's Match | Stephanie Judith Visscher | ✘ | — | — | In play | — |
-| 10-09 11:06 | ITF Men's Match | Gabriele Crivellaro | ✘ | — | — | In play | — |
+| 10-09 11:06 | ITF Women's Match | Stephanie Judith Visscher | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
+| 10-09 11:06 | ITF Men's Match | Gabriele Crivellaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:58 | ITF Men's Match | Luca Wiedenmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:58 | Counter-Strike 2 Game | mellren | ✘ | — | — | In play | — |
+| 10-09 10:58 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | ITF Women's Match | Lisa Claeys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | ITF Women's Match | Brenda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:56 | Counter-Strike 2 Game | Acend | ✘ | — | — | In play | — |
+| 10-09 10:56 | Counter-Strike 2 Game | Acend | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -258,10 +262,6 @@
 | 10-09 10:42 | eSoccer Game | Manchester City (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:40 | Men's ODI Cricket Match | India A | ✘ | — | — | In play | — |
 | 10-09 10:39 | eSoccer Game | Freiburg (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:39 | eSoccer Game | Argentina (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
