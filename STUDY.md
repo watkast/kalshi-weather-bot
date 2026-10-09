@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 10:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6494 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6504 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5875 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5882 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 706 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 710 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 503 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 442 | 1 | 3% | 2% | -79% | -94% | 10 min |
 | ITF Men's Match | ✘ | 429 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -105,7 +105,7 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
 | Women's College Volleyball Match | ✘ | 103 | 1 | 6% | 2% | -9% | -90% | 66 min |
-| Men's T20 Cricket Match | ✘ | 82 | 0 | 16% | 5% | -100% | -73% | 21 min |
+| Men's T20 Cricket Match | ✘ | 83 | 0 | 17% | 5% | -100% | -71% | 21 min |
 | eBasketball Game | ✘ | 80 | 1 | 0% | 0% | +17% | +17% | 1 min |
 | Challenger WTA | ✘ | 65 | 0 | 15% | 9% | -100% | -73% | 8 min |
 | NHL Game | ✔ | 65 | 0 | 14% | 5% | -100% | -76% | 4 min |
@@ -209,6 +209,7 @@
 | Indonesia Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | FIFA Women's Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 108 min |
 | Thai League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 32 min |
+| Czech National Football League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -238,12 +239,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 16:49 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | — | In play | — |
-| 10-09 16:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:47 | eSoccer Game | West Ham (Danny) | ✘ | — | — | In play | — |
-| 10-09 16:47 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | — | In play | — |
+| 10-09 17:05 | Finnish Ykkosliiga Game | JaPS | ✘ | — | — | In play | — |
+| 10-09 17:05 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
+| 10-09 17:04 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
+| 10-09 17:03 | Men's T20 Cricket Match | Tally Rangers | ✘ | — | — | In play | — |
+| 10-09 17:03 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | — | In play | — |
+| 10-09 17:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:02 | Counter-Strike 2 Game | Misa Esports | ✘ | — | — | In play | — |
+| 10-09 17:01 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | — | In play | — |
+| 10-09 17:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:58 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | — | In play | — |
+| 10-09 16:49 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:47 | eSoccer Game | West Ham (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:47 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:46 | Counter-Strike 2 Game | MTX | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:43 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
+| 10-09 16:43 | Czech National Football League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-09 16:37 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:37 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -257,17 +268,7 @@
 | 10-09 16:33 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 16:32 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
 | 10-09 16:31 | FIFA Women's Game | Lithuania | ✘ | — | — | In play | — |
-| 10-09 16:30 | Czech National Football League Game | Slavia Prague B | ✘ | — | — | In play | — |
-| 10-09 16:30 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:27 | Finnish Ykkosliiga Game | Ekenas | ✘ | — | — | In play | — |
-| 10-09 16:27 | Darts Match | Andreas Harrysson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:24 | Challenger ATP  | Carlos Sanchez Jover | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:23 | eSoccer Game | Werder Bremen (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:22 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:22 | Mobile Legends Bang Bang Game | Cyber Hero | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:20 | eSoccer Game | Nantes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 16:30 | Czech National Football League Game | Slavia Prague B | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
