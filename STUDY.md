@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 2:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 3:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 595 finished bets | 1% | -$47.25 | -53% | -7.94¢ | -$30.55 / -$16.70 |
 
-*Expect about **52 buys a day**, roughly **$7.82/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.81/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6132 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6146 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5516 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5523 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,12 +93,12 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 524 | 0 | 0% | 0% | -100% | -99% | 3 min |
+| eSoccer Game | ✘ | 526 | 0 | 0% | 0% | -100% | -99% | 3 min |
 | ITF Women's Match | ✘ | 482 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 420 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
-| TT Star Series Match | ✘ | 179 | 1 | 2% | 2% | -48% | -96% | 4 min |
+| TT Star Series Match | ✘ | 180 | 1 | 2% | 2% | -48% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Darts Match | ✘ | 110 | 0 | 1% | 1% | -100% | -98% | 9 min |
@@ -191,6 +191,7 @@
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Chinese Basketball Association Game  | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -230,36 +231,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 08:55 | Chinese Basketball Association Game  | Jilin Northeast Tigers | ✘ | — | — | In play | — |
-| 10-09 08:55 | TT Star Series Match | Mousavitaher Mohamad | ✘ | — | — | In play | — |
-| 10-09 08:52 | Chinese Basketball Association Game  | Jiangsu Dragons | ✘ | — | — | In play | — |
-| 10-09 08:51 | eSoccer Game | FC Bayern (Fede) | ✘ | — | — | In play | — |
-| 10-09 08:50 | Chinese Basketball Association Game  | Guangzhou Loong Lions | ✘ | — | — | In play | — |
+| 10-09 09:06 | eSoccer Game | Everton (NINJA) | ✘ | — | — | In play | — |
+| 10-09 09:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 09:05 | Overwatch Game | O2 Blast | ✘ | — | — | In play | — |
+| 10-09 09:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 09:04 | eBasketball Game | Denver Nuggets (Jason) | ✘ | — | — | In play | — |
+| 10-09 09:03 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-09 09:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 09:03 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | — | In play | — |
+| 10-09 09:02 | eSoccer Game | Benfica (Shaq) | ✘ | — | — | In play | — |
+| 10-09 09:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 09:01 | Men's T20 Cricket Match | Malaysia | ✘ | — | — | In play | — |
+| 10-09 09:01 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 10-09 09:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 09:01 | Mobile Legends Bang Bang Game | ONIC | ✘ | — | — | In play | — |
+| 10-09 08:55 | Chinese Basketball Association Game  | Jilin Northeast Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:55 | TT Star Series Match | Mousavitaher Mohamad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:52 | Chinese Basketball Association Game  | Jiangsu Dragons | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-09 08:51 | eSoccer Game | FC Bayern (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 08:50 | Chinese Basketball Association Game  | Guangzhou Loong Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:50 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:49 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | — | In play | — |
+| 10-09 08:49 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:49 | eSoccer Game | Benfica (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:47 | eSoccer Game | Paris Saint-Germain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:47 | Men's T20 Cricket Match | Maldives | ✘ | — | — | In play | — |
 | 10-09 08:40 | Counter-Strike 2 Game | 1337 | ✘ | — | — | In play | — |
-| 10-09 08:38 | Chinese Basketball Association Game  | Nanjing Monkey Kings | ✘ | — | — | In play | — |
+| 10-09 08:38 | Chinese Basketball Association Game  | Nanjing Monkey Kings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 08:37 | eBasketball Game | Denver Nuggets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:35 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:34 | eSoccer Game | Leverkusen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:34 | eSoccer Game | FC Bayern (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:33 | eSoccer Game | Paris Saint-Germain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:23 | eSoccer Game | Real Madrid (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:23 | eSoccer Game | Olympique de Marseille (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 08:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
