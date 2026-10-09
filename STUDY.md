@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 5:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 5:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6253 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6261 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5638 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5643 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,11 +94,11 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 589 | 0 | 0% | 0% | -100% | -99% | 2 min |
-| ITF Women's Match | ✘ | 491 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 424 | 1 | 3% | 2% | -78% | -94% | 10 min |
+| ITF Women's Match | ✘ | 492 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 425 | 1 | 3% | 2% | -78% | -94% | 10 min |
 | ITF Men's Match | ✘ | 423 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
-| TT Star Series Match | ✘ | 185 | 1 | 2% | 2% | -50% | -96% | 4 min |
+| TT Star Series Match | ✘ | 186 | 1 | 2% | 2% | -50% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Darts Match | ✘ | 110 | 0 | 1% | 1% | -100% | -98% | 9 min |
@@ -107,8 +107,8 @@
 | Women's College Volleyball Match | ✘ | 97 | 1 | 6% | 2% | -4% | -89% | 56 min |
 | Men's T20 Cricket Match | ✘ | 79 | 0 | 16% | 5% | -100% | -71% | 21 min |
 | eBasketball Game | ✘ | 67 | 1 | 0% | 0% | +39% | +39% | 1 min |
+| Challenger WTA | ✘ | 65 | 0 | 15% | 9% | -100% | -73% | 8 min |
 | NHL Game | ✔ | 65 | 0 | 14% | 5% | -100% | -76% | 4 min |
-| Challenger WTA | ✘ | 64 | 0 | 16% | 9% | -100% | -73% | 8 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Serie C Game | ✘ | 53 | 1 | 8% | 2% | +76% | -87% | 6 min |
@@ -171,10 +171,10 @@
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Women's ODI Cricket Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 50 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
+| Men's ODI Cricket Match | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 15 min |
 | Austria BSL Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 5 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Sweden SBL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 26 min |
-| Men's ODI Cricket Match | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 15 min |
 | LNB Elite Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
@@ -232,14 +232,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 11:40 | ITF Men's Match | Giovanni Oradini | ✘ | — | — | In play | — |
+| 10-09 11:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 11:35 | Challenger ATP  | Borna Gojo | ✘ | — | — | In play | — |
+| 10-09 11:35 | ITF Women's Match | Weronika Ewald | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 11:35 | ITF Men's Match | Vlad Cristian Breazu | ✘ | — | — | In play | — |
+| 10-09 11:35 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 10-09 11:31 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | — | In play | — |
+| 10-09 11:30 | TT Star Series Match | Kaucký Jakub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:29 | Men's T20 Cricket Match | West Deutscher CV | ✘ | — | — | In play | — |
 | 10-09 11:28 | ITF Men's Match | Laurent Lokoli | ✘ | — | — | In play | — |
 | 10-09 11:28 | Japan J League Game | Gamba | ✘ | — | — | In play | — |
 | 10-09 11:28 | Darts Match | Niels Zonneveld | ✘ | — | — | In play | — |
 | 10-09 11:28 | Japan J League Game | Kobe | ✘ | — | — | In play | — |
-| 10-09 11:27 | Challenger WTA | Fiona Crawley | ✘ | — | — | In play | — |
+| 10-09 11:27 | Challenger WTA | Fiona Crawley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:23 | ITF Women's Match | Viola Turini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 11:20 | Counter-Strike 2 Game | Teletubisie | ✘ | — | — | In play | — |
+| 10-09 11:20 | Counter-Strike 2 Game | Teletubisie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:17 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
 | 10-09 11:15 | ITF Men's Match | Peter Makk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:14 | ITF Men's Match | Giannicola Misasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,14 +262,6 @@
 | 10-09 10:56 | Counter-Strike 2 Game | Acend | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:55 | eSoccer Game | Stuttgart (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:53 | Mobile Legends Bang Bang Game | eArena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:51 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:51 | eSoccer Game | RB Leipzig (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:49 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
