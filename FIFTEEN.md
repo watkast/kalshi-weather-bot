@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 8, 11:34 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 8, 11:44 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 836 finished bets | 1% | $35.25 | +39% | +4.22¢ | -$16.70 / $51.95 |
 
-*Expect about **76 buys a day** (~$11.45/day at risk); max loss per buy **15¢**.*
+*Expect about **76 buys a day** (~$11.47/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12560 | 12553 | 51 (0%) | 1.07% | -$811.80 (-53%) | Hold to the close: -$811.80 (-53%) |
+| 12573 | 12553 | 51 (0%) | 1.07% | -$811.80 (-53%) | Hold to the close: -$811.80 (-53%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 19. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,19 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/8 11:44:40 PM | DOGE | DOWN | 20 sec | +0.004% | — | In play | — |
+| 10/8 11:44:40 PM | ETH | UP | 20 sec | -0.035% | — | In play | — |
+| 10/8 11:44:40 PM | USDJPY | UP | 20 sec | — | — | In play | — |
+| 10/8 11:44:40 PM | SILVER | DOWN | 20 sec | — | — | In play | — |
+| 10/8 11:44:40 PM | BTC | UP | 20 sec | -0.024% | — | In play | — |
+| 10/8 11:44:24 PM | XRP | DOWN | 36 sec | +0.029% | — | In play | — |
+| 10/8 11:44:24 PM | HYPE | DOWN | 36 sec | +0.012% | — | In play | — |
+| 10/8 11:44:08 PM | PALLADIUM | DOWN | 52 sec | — | — | In play | — |
+| 10/8 11:43:37 PM | COPPER | DOWN | 83 sec | — | — | In play | — |
+| 10/8 11:41:14 PM | GBPUSD | DOWN | 3.8 min | — | — | In play | — |
+| 10/8 11:41:14 PM | EURUSD | DOWN | 3.8 min | — | — | In play | — |
+| 10/8 11:40:42 PM | NEAR | UP | 4.3 min | -1.005% | — | In play | — |
+| 10/8 11:37:17 PM | GOLD | DOWN | 7.7 min | — | — | In play | — |
 | 10/8 11:29:33 PM | WTI | UP | 27 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/8 11:29:33 PM | ZEC | DOWN | 27 sec | +0.096% | 0¢ | ❌ Lost | $0.00 |
 | 10/8 11:29:17 PM | PLATINUM | DOWN | 43 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -200,19 +213,6 @@
 | 10/8 11:25:20 PM | NEAR | DOWN | 4.7 min | +1.003% | 1¢ | ❌ Lost | -$0.15 |
 | 10/8 11:14:36 PM | PALLADIUM | DOWN | 23 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/8 11:14:20 PM | COPPER | DOWN | 39 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:14:04 PM | ZEC | DOWN | 56 sec | +0.137% | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:13:48 PM | WTI | DOWN | 72 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:13:48 PM | PLATINUM | DOWN | 72 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:13:15 PM | GOLD | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:12:13 PM | XRP | DOWN | 2.8 min | +0.201% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:41 PM | BTC | DOWN | 3.3 min | +0.136% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:41 PM | ETH | DOWN | 3.3 min | +0.168% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:26 PM | SOL | DOWN | 3.6 min | +0.412% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:26 PM | DOGE | DOWN | 3.6 min | +0.237% | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:10 PM | BNB | DOWN | 3.8 min | +0.104% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 11:11:10 PM | HYPE | DOWN | 3.8 min | +0.335% | 0¢ | ❌ Lost | -$0.15 |
-| 10/8 11:10:05 PM | NEAR | DOWN | 4.9 min | +0.799% | 1¢ | ❌ Lost | -$0.15 |
-| 10/8 10:59:49 PM | NEAR | UP | 10 sec | -0.114% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
