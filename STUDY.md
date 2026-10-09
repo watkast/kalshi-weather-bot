@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 5:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 6:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
 
-*Expect about **52 buys a day**, roughly **$7.73/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5670 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5681 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5086 | 6% | 4% | 3% | 1% | 1% | 0% |
+| Unverified | 5092 | 6% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -97,12 +97,12 @@
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 410 | 1 | 3% | 2% | -77% | -95% | 10 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
-| eSoccer Game | ✘ | 182 | 0 | 1% | 1% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 187 | 0 | 1% | 1% | -100% | -99% | 2 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Darts Match | ✘ | 102 | 0 | 1% | 1% | -100% | -98% | 8 min |
+| Darts Match | ✘ | 103 | 0 | 1% | 1% | -100% | -98% | 8 min |
 | College Football Game | partly | 100 | 2 | 14% | 6% | +87% | -76% | 46 min |
 | Women's College Volleyball Match | ✘ | 94 | 1 | 6% | 2% | -1% | -89% | 63 min |
 | Men's T20 Cricket Match | ✘ | 72 | 0 | 15% | 6% | -100% | -74% | 21 min |
@@ -227,9 +227,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-08 23:56 | eSoccer Game | CA Osasuna (Homie) | ✘ | — | — | In play | — |
+| 10-08 23:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 23:55 | Brasileiro Serie A Game | Santos | ✔ | 63' · FLA 2 - SAN 0 | — | In play | — |
+| 10-08 23:53 | eSoccer Game | Estudiantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 23:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 23:52 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | — | In play | — |
+| 10-08 23:52 | Brasileiro Serie B Game | Nautico | ✘ | — | — | In play | — |
+| 10-08 23:51 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-08 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 23:51 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
+| 10-08 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 23:49 | Counter-Strike 2 Game | METANOIA WOLVES | ✘ | — | — | In play | — |
-| 10-08 23:48 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
-| 10-08 23:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-08 23:48 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-08 23:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 23:47 | Darts Match | Dan Lauby Jr. | ✘ | — | — | In play | — |
 | 10-08 23:46 | Women's College Volleyball Match | California | ✘ | — | — | In play | — |
 | 10-08 23:45 | Women's College Volleyball Match | Indiana | ✘ | — | — | In play | — |
@@ -246,17 +257,6 @@
 | 10-08 23:36 | eSoccer Game | Estudiantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 23:35 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-08 23:35 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:31 | Darts Match | Lee Cocks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:31 | League of Legends Game | Cupid Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:27 | eSoccer Game | Getafe CF (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:25 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:25 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:22 | eSoccer Game | Estudiantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:21 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-08 23:14 | eSoccer Game | CA Osasuna (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
