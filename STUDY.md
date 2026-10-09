@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 5:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 5:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 595 finished bets | 1% | -$47.25 | -53% | -7.94¢ | -$30.55 / -$16.70 |
 
-*Expect about **52 buys a day**, roughly **$7.75/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.74/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6245 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6253 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5635 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5638 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,11 +94,11 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 589 | 0 | 0% | 0% | -100% | -99% | 2 min |
-| ITF Women's Match | ✘ | 490 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 491 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 424 | 1 | 3% | 2% | -78% | -94% | 10 min |
-| ITF Men's Match | ✘ | 422 | 1 | 9% | 5% | -78% | -84% | 5 min |
+| ITF Men's Match | ✘ | 423 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
-| TT Star Series Match | ✘ | 184 | 1 | 2% | 2% | -49% | -96% | 4 min |
+| TT Star Series Match | ✘ | 185 | 1 | 2% | 2% | -50% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Darts Match | ✘ | 110 | 0 | 1% | 1% | -100% | -98% | 9 min |
@@ -232,10 +232,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 11:29 | Men's T20 Cricket Match | West Deutscher CV | ✘ | — | — | In play | — |
+| 10-09 11:28 | ITF Men's Match | Laurent Lokoli | ✘ | — | — | In play | — |
+| 10-09 11:28 | Japan J League Game | Gamba | ✘ | — | — | In play | — |
+| 10-09 11:28 | Darts Match | Niels Zonneveld | ✘ | — | — | In play | — |
+| 10-09 11:28 | Japan J League Game | Kobe | ✘ | — | — | In play | — |
+| 10-09 11:27 | Challenger WTA | Fiona Crawley | ✘ | — | — | In play | — |
+| 10-09 11:23 | ITF Women's Match | Viola Turini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 11:20 | Counter-Strike 2 Game | Teletubisie | ✘ | — | — | In play | — |
 | 10-09 11:17 | FIFA Women's Game | Tie | ✘ | — | — | In play | — |
-| 10-09 11:15 | ITF Men's Match | Peter Makk | ✘ | — | — | In play | — |
+| 10-09 11:15 | ITF Men's Match | Peter Makk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:14 | ITF Men's Match | Giannicola Misasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 11:14 | TT Star Series Match | Franco Carlos | ✘ | — | — | In play | — |
+| 10-09 11:14 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 11:08 | FIFA Women's Game | Kazakhstan | ✘ | — | — | In play | — |
 | 10-09 11:06 | ITF Women's Match | Stephanie Judith Visscher | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-09 11:06 | ITF Men's Match | Gabriele Crivellaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,14 +262,6 @@
 | 10-09 10:51 | eSoccer Game | RB Leipzig (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:49 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:44 | Mobile Legends Bang Bang Game | Invictus Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:43 | ITF Women's Match | Andreea Prisacariu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:42 | eSoccer Game | Stuttgart (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:42 | eSoccer Game | Manchester City (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:40 | Men's ODI Cricket Match | India A | ✘ | — | — | In play | — |
-| 10-09 10:39 | eSoccer Game | Freiburg (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
