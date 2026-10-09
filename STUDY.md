@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 11:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 595 finished bets | 1% | -$47.25 | -53% | -7.94¢ | -$30.55 / -$16.70 |
 
-*Expect about **51 buys a day**, roughly **$7.59/day** at risk; max loss per buy **15¢**.*
+*Expect about **51 buys a day**, roughly **$7.58/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6520 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6531 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -239,6 +239,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-09 17:24 | Slovakia SBL Game | Kosice Wolves | ✘ | — | — | In play | — |
+| 10-09 17:21 | Finnish Ykkosliiga Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:19 | eSoccer Game | Slavia Praha (Krocs) | ✘ | — | — | In play | — |
+| 10-09 17:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:18 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
+| 10-09 17:17 | FIFA Women's Game | Romania | ✘ | — | — | In play | — |
+| 10-09 17:16 | FIFA Women's Game | Slovakia | ✘ | — | — | In play | — |
+| 10-09 17:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 17:16 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | — | In play | — |
+| 10-09 17:16 | eSoccer Game | Nantes (Demi) | ✘ | — | — | In play | — |
 | 10-09 17:15 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | — | In play | — |
 | 10-09 17:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-09 17:15 | Finland Korisliiga Game | Pyrinto Tampere | ✘ | — | — | In play | — |
@@ -258,17 +269,6 @@
 | 10-09 17:05 | Finnish Ykkosliiga Game | JaPS | ✘ | — | — | In play | — |
 | 10-09 17:05 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
 | 10-09 17:04 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
-| 10-09 17:03 | Men's T20 Cricket Match | Tally Rangers | ✘ | — | — | In play | — |
-| 10-09 17:03 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | — | In play | — |
-| 10-09 17:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 17:02 | Counter-Strike 2 Game | Misa Esports | ✘ | — | — | In play | — |
-| 10-09 17:01 | eSoccer Game | Spurs (PinkElephant) | ✘ | — | — | In play | — |
-| 10-09 17:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 16:58 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | — | In play | — |
-| 10-09 16:49 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:47 | eSoccer Game | West Ham (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 16:47 | eSoccer Game | Newcastle Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
