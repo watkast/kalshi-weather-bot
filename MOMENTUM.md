@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Fri Oct 09 22:11 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Fri Oct 09 22:21 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 6542 | 5672 | 870 (31) | 0 | $-210.39 | -0.5% |
-| **20¢+ jump, ride past +5¢** | 4052 | 2254 | 1798 (785) | 1 | $-1186.56 | -4.6% |
+| **20¢+ jump, sell +5¢** | 6543 | 5673 | 870 (31) | 0 | $-209.99 | -0.5% |
+| **20¢+ jump, ride past +5¢** | 4053 | 2254 | 1799 (785) | 1 | $-1190.66 | -4.6% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 22:07 | J20R | HYPE | UP | 20¢ | 0.39 | open |  |
+| 10-09 22:17 | J20R | HYPE | UP | 26¢ | 0.90 | open |  |
+| 10-09 22:17 | J20 | HYPE | UP | 26¢ | 0.90 | 0.95 | 0.40 |
+| 10-09 22:07 | J20R | HYPE | UP | 20¢ | 0.39 | no | -4.10 |
 | 10-09 22:07 | J20 | HYPE | UP | 20¢ | 0.39 | 0.45 | 0.22 |
 | 10-09 22:02 | J20R | BNB | DOWN | 21¢ | 0.86 | 0.92 | 0.37 |
 | 10-09 22:02 | J20 | BNB | DOWN | 21¢ | 0.86 | 0.94 | 0.61 |
@@ -56,5 +58,3 @@
 | 10-09 21:43 | J20 | HYPE | DOWN | 32¢ | 0.30 | 0.46 | 1.27 |
 | 10-09 21:42 | J20R | HYPE | DOWN | 32¢ | 0.26 | yes | -2.74 |
 | 10-09 21:42 | J20 | HYPE | DOWN | 32¢ | 0.26 | 0.46 | 1.68 |
-| 10-09 21:42 | J20R | SOL | DOWN | 26¢ | 0.75 | no | 2.36 |
-| 10-09 21:42 | J20 | SOL | DOWN | 26¢ | 0.75 | 0.81 | 0.35 |
