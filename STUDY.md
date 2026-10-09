@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 4:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 4:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 595 finished bets | 1% | -$47.25 | -53% | -7.94¢ | -$30.55 / -$16.70 |
 
-*Expect about **52 buys a day**, roughly **$7.78/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.77/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6196 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6203 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5581 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5589 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,12 +93,12 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 561 | 0 | 0% | 0% | -100% | -99% | 2 min |
-| ITF Women's Match | ✘ | 483 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| eSoccer Game | ✘ | 563 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| ITF Women's Match | ✘ | 484 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 421 | 1 | 3% | 2% | -78% | -95% | 10 min |
-| ITF Men's Match | ✘ | 418 | 1 | 10% | 6% | -78% | -83% | 5 min |
+| ITF Men's Match | ✘ | 419 | 1 | 10% | 5% | -78% | -83% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
-| TT Star Series Match | ✘ | 182 | 1 | 2% | 2% | -49% | -96% | 4 min |
+| TT Star Series Match | ✘ | 183 | 1 | 2% | 2% | -49% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Darts Match | ✘ | 110 | 0 | 1% | 1% | -100% | -98% | 9 min |
@@ -115,7 +115,7 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
-| R6 Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| R6 Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | KBO Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 8 min |
 | KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
@@ -202,6 +202,7 @@
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Vietnam V-League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Mobile Legends Bang Bang Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Indonesia Super League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 43 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -231,13 +232,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 10:17 | R6 Game | 7VEN | ✘ | — | — | In play | — |
-| 10-09 10:16 | ITF Men's Match | Moerani Bouzige | ✘ | — | — | In play | — |
-| 10-09 10:15 | eSoccer Game | Everton (NINJA) | ✘ | — | — | In play | — |
-| 10-09 10:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 10:14 | TT Star Series Match | Loso Sebastian | ✘ | — | — | In play | — |
+| 10-09 10:27 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | — | In play | — |
+| 10-09 10:27 | eBasketball Game | New York Knicks (Ray) | ✘ | — | — | In play | — |
+| 10-09 10:26 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | — | In play | — |
+| 10-09 10:26 | eSoccer Game | Freiburg (Shaq) | ✘ | — | — | In play | — |
+| 10-09 10:23 | eSoccer Game | Portugal (Rose) | ✘ | — | — | In play | — |
+| 10-09 10:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 10:22 | ITF Women's Match | Alyssa Reguer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:17 | R6 Game | 7VEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:16 | ITF Men's Match | Moerani Bouzige | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-09 10:15 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:14 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:12 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
-| 10-09 10:12 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-09 10:12 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:10 | Counter-Strike 2 Game | 1WIN | ✘ | — | — | In play | — |
 | 10-09 10:09 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -254,13 +262,6 @@
 | 10-09 09:44 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 09:44 | ITF Women's Match | Anna Snigireva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:44 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:43 | eSoccer Game | Portugal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:35 | eBasketball Game | Indiana Pacers (Steve) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:33 | eSoccer Game | Benfica (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
