@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 3:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 3:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6894 | 610 | 4 (1%) | 1.1% | -$35.50 (-39%) | Hold to the end: -$35.50 (-39%) |
+| 6899 | 610 | 4 (1%) | 1.1% | -$35.50 (-39%) | Hold to the end: -$35.50 (-39%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 610 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6265 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 6277 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,18 +93,18 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 861 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 869 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 452 | 1 | 4% | 3% | -79% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 290 | 2 | 9% | 2% | -36% | -84% | 5 min |
-| TT Star Series Match | ✘ | 204 | 1 | 2% | 2% | -54% | -96% | 5 min |
+| TT Star Series Match | ✘ | 205 | 1 | 2% | 2% | -54% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Darts Match | ✘ | 129 | 0 | 1% | 1% | -100% | -99% | 9 min |
+| Darts Match | ✘ | 131 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | League of Legends Game | ✘ | 114 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
+| Women's College Volleyball Match | ✘ | 104 | 1 | 6% | 2% | -10% | -90% | 67 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
-| Women's College Volleyball Match | ✘ | 103 | 1 | 6% | 2% | -9% | -90% | 66 min |
 | eBasketball Game | ✘ | 96 | 1 | 0% | 0% | -3% | -3% | 1 min |
 | Men's T20 Cricket Match | ✘ | 87 | 0 | 16% | 5% | -100% | -72% | 21 min |
 | Challenger WTA | ✘ | 65 | 0 | 15% | 9% | -100% | -73% | 8 min |
@@ -260,17 +260,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 21:33 | eSoccer Game | Boca Juniors (Kevin) | ✘ | — | — | In play | — |
-| 10-09 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 21:32 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
-| 10-09 21:31 | eSoccer Game | Palmeiras (Frost) | ✘ | — | — | In play | — |
-| 10-09 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 21:30 | eSoccer Game | Arsenal (Leyla) | ✘ | — | — | In play | — |
+| 10-09 21:43 | Darts Match | Dan Lauby Jr. | ✘ | — | — | In play | — |
+| 10-09 21:38 | TT Star Series Match | Prokopcov Dmitrij | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:37 | Uruguay Primera Division Game | Danubio | ✘ | — | — | In play | — |
+| 10-09 21:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 21:36 | eSoccer Game | Real Betis (Strudl) | ✘ | — | — | In play | — |
+| 10-09 21:33 | eSoccer Game | Boca Juniors (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:32 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:31 | eSoccer Game | Palmeiras (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:30 | eSoccer Game | Arsenal (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:24 | ITF Men's Match | Daniel Salazar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:24 | Darts Match | Danny Trueman | ✘ | — | — | In play | — |
-| 10-09 21:24 | Darts Match | Nick Kenny | ✘ | — | — | In play | — |
+| 10-09 21:24 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 21:24 | Darts Match | Nick Kenny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:24 | eSoccer Game | Real Sociedad (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:20 | eSoccer Game | River Plate (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -285,11 +290,6 @@
 | 10-09 21:14 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:12 | TT Star Series Match | Onderka František | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 21:10 | Counter-Strike 2 Game | SportsBetExpert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:10 | eSoccer Game | Real Madrid (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:08 | Liga Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 21:06 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
