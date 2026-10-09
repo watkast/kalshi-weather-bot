@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 4:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 5:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN-verified leagues only, hold to the end | 595 finished bets | 1% | -$47.25 | -53% | -7.94¢ | -$30.55 / -$16.70 |
 
-*Expect about **52 buys a day**, roughly **$7.76/day** at risk; max loss per buy **15¢**.*
+*Expect about **52 buys a day**, roughly **$7.75/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 6238 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 6241 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5619 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5630 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,12 +93,12 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 583 | 0 | 0% | 0% | -100% | -99% | 2 min |
-| ITF Women's Match | ✘ | 487 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| eSoccer Game | ✘ | 589 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| ITF Women's Match | ✘ | 489 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 422 | 1 | 3% | 2% | -78% | -94% | 10 min |
-| ITF Men's Match | ✘ | 419 | 1 | 10% | 5% | -78% | -83% | 5 min |
+| ITF Men's Match | ✘ | 420 | 1 | 10% | 5% | -78% | -83% | 5 min |
 | Challenger ATP  | ✘ | 283 | 2 | 8% | 2% | -34% | -85% | 5 min |
-| TT Star Series Match | ✘ | 183 | 1 | 2% | 2% | -49% | -96% | 4 min |
+| TT Star Series Match | ✘ | 184 | 1 | 2% | 2% | -49% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 112 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Darts Match | ✘ | 110 | 0 | 1% | 1% | -100% | -98% | 9 min |
@@ -194,8 +194,8 @@
 | CFL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | United Rugby Championship Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Mobile Legends Bang Bang Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | PREM Rugby Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
-| Mobile Legends Bang Bang Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liga MX Game | ✔ | 2 | 0 | 50% | 50% | -100% | -13% | 9 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -232,19 +232,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 10:58 | ITF Men's Match | Luca Wiedenmann | ✘ | — | — | In play | — |
+| 10-09 11:08 | FIFA Women's Game | Kazakhstan | ✘ | — | — | In play | — |
+| 10-09 11:06 | ITF Women's Match | Stephanie Judith Visscher | ✘ | — | — | In play | — |
+| 10-09 11:06 | ITF Men's Match | Gabriele Crivellaro | ✘ | — | — | In play | — |
+| 10-09 10:58 | ITF Men's Match | Luca Wiedenmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:58 | Counter-Strike 2 Game | mellren | ✘ | — | — | In play | — |
-| 10-09 10:56 | ITF Women's Match | Lisa Claeys | ✘ | — | — | In play | — |
-| 10-09 10:56 | ITF Women's Match | Brenda Fruhvirtova | ✘ | — | — | In play | — |
+| 10-09 10:56 | ITF Women's Match | Lisa Claeys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:56 | ITF Women's Match | Brenda Fruhvirtova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:56 | Counter-Strike 2 Game | Acend | ✘ | — | — | In play | — |
-| 10-09 10:56 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | — | In play | — |
-| 10-09 10:56 | eSoccer Game | Everton (NINJA) | ✘ | — | — | In play | — |
-| 10-09 10:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 10:55 | eSoccer Game | Stuttgart (Niskanen15) | ✘ | — | — | In play | — |
-| 10-09 10:53 | Mobile Legends Bang Bang Game | eArena | ✘ | — | — | In play | — |
-| 10-09 10:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 10:51 | TT Star Series Match | Urbánek Jan | ✘ | — | — | In play | — |
-| 10-09 10:51 | eSoccer Game | RB Leipzig (Sheerpy) | ✘ | — | — | In play | — |
+| 10-09 10:56 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:56 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:55 | eSoccer Game | Stuttgart (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:53 | Mobile Legends Bang Bang Game | eArena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:51 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 10:51 | eSoccer Game | RB Leipzig (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:49 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:44 | Mobile Legends Bang Bang Game | Invictus Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -259,9 +262,6 @@
 | 10-09 10:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:39 | eSoccer Game | Argentina (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 10:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:36 | eSoccer Game | Portugal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:36 | ITF Women's Match | Maria Valentina Pop | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 10:35 | ITF Women's Match | Ksenia Laskutova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
