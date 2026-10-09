@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 11:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 11:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5969 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
+| 5979 | 595 | 3 (1%) | 1.1% | -$47.25 (-53%) | Hold to the end: -$47.25 (-53%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 595 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 5357 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Unverified | 5366 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 482 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 419 | 1 | 3% | 2% | -78% | -95% | 10 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
-| eSoccer Game | ✘ | 393 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| eSoccer Game | ✘ | 402 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Challenger ATP  | ✘ | 281 | 2 | 9% | 2% | -34% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -227,15 +227,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 05:36 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | — | In play | — |
-| 10-09 05:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-09 05:33 | eSoccer Game | Girona (Eder) | ✘ | — | — | In play | — |
-| 10-09 05:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 05:49 | eSoccer Game | Stade Brestois 29 (Nairo) | ✘ | — | — | In play | — |
+| 10-09 05:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 05:49 | eSoccer Game | RC Celta (Niskanen15) | ✘ | — | — | In play | — |
+| 10-09 05:47 | Counter-Strike 2 Game | The Audacity | ✘ | — | — | In play | — |
+| 10-09 05:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 05:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 05:46 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-09 05:45 | ATP Tennis Match | Ugo Humbert | ✘ | — | — | In play | — |
+| 10-09 05:44 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:36 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:33 | eSoccer Game | Girona (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:32 | ATP Tennis Match | Andrey Rublev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:31 | eSoccer Game | Getafe CF (Shaq) | ✘ | — | — | In play | — |
-| 10-09 05:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 05:31 | eSoccer Game | Getafe CF (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:30 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-09 05:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 05:30 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:29 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:28 | Challenger WTA | Katarina Zavatska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -247,16 +257,6 @@
 | 10-09 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 05:18 | eSoccer Game | Spurs (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:18 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:17 | eSoccer Game | Chelsea (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:16 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:06 | Challenger ATP  | Akira Santillan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:06 | eSoccer Game | RC Celta (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:06 | eSoccer Game | Girona (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
