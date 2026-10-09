@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 09 03:20 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 09 03:30 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,18 +10,38 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 8449 | 7309 | 1140 (13) | 1 | $-2756.78 | -5.2% |
-| **+10¢** | 6402 | 5056 | 1346 (25) | 1 | $-2703.92 | -6.7% |
-| **+15¢** | 5404 | 3987 | 1417 (37) | 1 | $-2185.49 | -6.4% |
-| **+20¢** | 4809 | 3338 | 1471 (45) | 1 | $-1808.80 | -6.0% |
-| **+10¢ (15¢ stop)** | 10275 | 10245 | 30 (19) | 1 | $-3774.21 | -5.9% |
+| **+5¢** | 8450 | 7310 | 1140 (13) | 4 | $-2756.07 | -5.2% |
+| **+10¢** | 6403 | 5057 | 1346 (25) | 4 | $-2703.15 | -6.7% |
+| **+15¢** | 5405 | 3988 | 1417 (37) | 4 | $-2184.00 | -6.4% |
+| **+20¢** | 4810 | 3339 | 1471 (45) | 4 | $-1806.79 | -6.0% |
+| **+10¢ (15¢ stop)** | 10276 | 10246 | 30 (19) | 4 | $-3773.44 | -5.9% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 10-09 03:30 | +10 stop | ETH | DOWN | 0.66 | open |  |
+| 10-09 03:30 | +20 | ETH | DOWN | 0.66 | open |  |
+| 10-09 03:30 | +15 | ETH | DOWN | 0.66 | open |  |
+| 10-09 03:30 | +10 | ETH | DOWN | 0.66 | open |  |
+| 10-09 03:30 | +5 | ETH | DOWN | 0.66 | open |  |
+| 10-09 03:30 | +10 stop | DOGE | DOWN | 0.57 | open |  |
+| 10-09 03:30 | +20 | DOGE | DOWN | 0.57 | open |  |
+| 10-09 03:30 | +15 | DOGE | DOWN | 0.57 | open |  |
+| 10-09 03:30 | +10 | DOGE | DOWN | 0.57 | open |  |
+| 10-09 03:30 | +5 | DOGE | DOWN | 0.57 | open |  |
+| 10-09 03:30 | +10 stop | HYPE | DOWN | 0.58 | open |  |
+| 10-09 03:30 | +20 | HYPE | DOWN | 0.58 | open |  |
+| 10-09 03:30 | +15 | HYPE | DOWN | 0.58 | open |  |
+| 10-09 03:30 | +10 | HYPE | DOWN | 0.58 | open |  |
+| 10-09 03:30 | +5 | HYPE | DOWN | 0.58 | open |  |
+| 10-09 03:30 | +10 stop | BTC | DOWN | 0.63 | open |  |
+| 10-09 03:30 | +20 | BTC | DOWN | 0.63 | open |  |
+| 10-09 03:30 | +15 | BTC | DOWN | 0.63 | open |  |
+| 10-09 03:30 | +10 | BTC | DOWN | 0.63 | open |  |
+| 10-09 03:30 | +5 | BTC | DOWN | 0.63 | open |  |
 | 10-09 03:18 | +5 | SOL | UP | 0.71 | 0.76 | 0.22 |
-| 10-09 03:17 | +5 | ZEC | UP | 0.66 | open |  |
+| 10-09 03:17 | +5 | ZEC | UP | 0.66 | 0.76 | 0.71 |
 | 10-09 03:17 | +5 | DOGE | UP | 0.66 | 0.74 | 0.50 |
 | 10-09 03:17 | +10 stop | XRP | UP | 0.62 | 0.76 | 1.10 |
 | 10-09 03:17 | +20 | XRP | UP | 0.62 | 0.84 | 1.93 |
@@ -40,23 +60,3 @@
 | 10-09 03:16 | +5 | SOL | UP | 0.59 | 0.65 | 0.27 |
 | 10-09 03:16 | +10 stop | NEAR | UP | 0.63 | 0.74 | 0.79 |
 | 10-09 03:16 | +20 | NEAR | UP | 0.63 | 0.84 | 1.83 |
-| 10-09 03:16 | +15 | NEAR | UP | 0.63 | 0.80 | 1.41 |
-| 10-09 03:16 | +10 | NEAR | UP | 0.63 | 0.74 | 0.79 |
-| 10-09 03:16 | +5 | NEAR | UP | 0.63 | 0.68 | 0.17 |
-| 10-09 03:16 | +10 stop | DOGE | UP | 0.63 | 0.74 | 0.79 |
-| 10-09 03:16 | +20 | DOGE | UP | 0.63 | 0.87 | 2.15 |
-| 10-09 03:16 | +15 | DOGE | UP | 0.63 | 0.78 | 1.20 |
-| 10-09 03:16 | +10 | DOGE | UP | 0.63 | 0.74 | 0.79 |
-| 10-09 03:16 | +5 | DOGE | UP | 0.63 | 0.68 | 0.17 |
-| 10-09 03:16 | +10 stop | HYPE | UP | 0.63 | 0.77 | 1.10 |
-| 10-09 03:16 | +20 | HYPE | UP | 0.63 | 0.83 | 1.73 |
-| 10-09 03:16 | +15 | HYPE | UP | 0.63 | 0.78 | 1.20 |
-| 10-09 03:16 | +10 | HYPE | UP | 0.63 | 0.77 | 1.10 |
-| 10-09 03:16 | +5 | HYPE | UP | 0.63 | 0.77 | 1.10 |
-| 10-09 03:16 | +10 stop | ZEC | UP | 0.58 | open |  |
-| 10-09 03:16 | +20 | ZEC | UP | 0.58 | open |  |
-| 10-09 03:16 | +15 | ZEC | UP | 0.58 | open |  |
-| 10-09 03:16 | +10 | ZEC | UP | 0.58 | open |  |
-| 10-09 03:16 | +5 | ZEC | UP | 0.57 | 0.64 | 0.35 |
-| 10-09 03:16 | +10 stop | BTC | UP | 0.63 | 0.73 | 0.69 |
-| 10-09 03:16 | +20 | BTC | UP | 0.63 | 0.83 | 1.73 |
