@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 6:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 569 finished bets | 1% | -$43.35 | -51% | -7.62¢ | -$28.60 / -$14.75 |
+| ESPN-verified leagues only, hold to the end | 571 finished bets | 1% | -$43.65 | -51% | -7.64¢ | -$28.75 / -$14.90 |
 
 *Expect about **52 buys a day**, roughly **$7.77/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 569 | -$51.60 | -60% |
-| ESPN-verified leagues only, sell at 5¢ | 569 | -$63.90 | -75% |
-| ESPN-verified leagues only, sell at 2¢ | 569 | -$64.29 | -75% |
+| ESPN-verified leagues only, sell at 50¢ | 571 | -$51.90 | -61% |
+| ESPN-verified leagues only, sell at 10¢ | 571 | -$63.38 | -74% |
+| ESPN-verified leagues only, sell at 5¢ | 571 | -$63.55 | -74% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5720 | 569 | 3 (1%) | 1.1% | -$43.35 (-51%) | Hold to the end: -$43.35 (-51%) |
+| 5724 | 571 | 3 (1%) | 1.1% | -$43.65 (-51%) | Hold to the end: -$43.65 (-51%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 569 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5140 | 5% | 4% | 3% | 1% | 1% | 0% |
+| Verified | 571 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 5141 | 5% | 4% | 3% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$43.35 | -51% |
-| Sell at 2¢ | 81 | 14% | -$64.29 | -75% |
-| Sell at 3¢ | 54 | 9% | -$64.29 | -75% |
-| Sell at 5¢ | 33 | 6% | -$63.90 | -75% |
-| Sell at 10¢ | 16 | 3% | -$64.39 | -75% |
-| Sell at 25¢ | 6 | 1% | -$65.49 | -77% |
-| Sell at 50¢ | 5 | 1% | -$51.60 | -60% |
+| Hold to the end | 3 | 1% | -$43.65 | -51% |
+| Sell at 2¢ | 82 | 14% | -$64.33 | -75% |
+| Sell at 3¢ | 55 | 10% | -$64.20 | -75% |
+| Sell at 5¢ | 34 | 6% | -$63.55 | -74% |
+| Sell at 10¢ | 17 | 3% | -$63.38 | -74% |
+| Sell at 25¢ | 6 | 1% | -$65.79 | -77% |
+| Sell at 50¢ | 5 | 1% | -$51.90 | -61% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -117,7 +117,7 @@
 | R6 Game | ✘ | 41 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
-| eBasketball Game | ✘ | 34 | 1 | 0% | 0% | +175% | +175% | 1 min |
+| eBasketball Game | ✘ | 35 | 1 | 0% | 0% | +167% | +167% | 1 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | ATP Tennis Match | ✘ | 30 | 0 | 10% | 3% | -100% | -83% | 3 min |
@@ -143,13 +143,13 @@
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
+| Brasileiro Serie A Game | partly | 18 | 0 | 22% | 17% | -100% | -61% | 4 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | NBA Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | Professional Baseball Game | partly | 16 | 0 | 12% | 6% | -100% | -78% | 2 min |
 | NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
-| Brasileiro Serie A Game | partly | 16 | 0 | 19% | 12% | -100% | -68% | 4 min |
 | Liga Expansion Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 24 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | DEL Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -205,10 +205,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 228 | 7% | 1% | 0% | -88% |
+| Under 5 min | 229 | 7% | 1% | 0% | -88% |
 | 5–15 min | 108 | 15% | 5% | 1% | -74% |
 | 15–30 min | 93 | 28% | 12% | 2% | -52% |
-| 30–60 min | 72 | 12% | 6% | 0% | -78% |
+| 30–60 min | 73 | 14% | 7% | 0% | -76% |
 | Over 60 min | 67 | 21% | 15% | 0% | -64% |
 
 ## Speed & liquidity
@@ -227,8 +227,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 00:36 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | — | In play | — |
-| 10-09 00:35 | Brasileiro Serie A Game | Flamengo | ✔ | 90'+14' · FLA 2 - SAN 2 | — | In play | — |
+| 10-09 00:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 00:47 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
+| 10-09 00:46 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
+| 10-09 00:46 | eSoccer Game | Estudiantes (Frost) | ✘ | — | — | In play | — |
+| 10-09 00:36 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 00:35 | Brasileiro Serie A Game | Flamengo | ✔ | 90'+14' · FLA 2 - SAN 2 | 1¢ | ❌ Lost | -$0.15 |
 | 10-09 00:35 | NHL Game | Buffalo | ✔ | 4:15 - 2nd · DAL 4 - BUF 0 | — | In play | — |
 | 10-09 00:34 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -253,10 +257,6 @@
 | 10-09 00:17 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:17 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 00:11 | eSoccer Game | RCD Mallorca (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:08 | Darts Match | Danny Trueman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:07 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 00:06 | NHL Game | Vancouver | ✔ | 16:45 - 2nd · VAN 0 - CAR 3 | — | In play | — |
 
 ## Raw data
 
