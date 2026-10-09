@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 8, 9:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 8, 9:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -10,7 +10,7 @@
 
 | Rule | Based on | Hit rate | P&L (14 per buy) | Return | Avg per bet | Earlier half / later half |
 |---|---|---|---|---|---|---|
-| ESPN-verified leagues only, hold to the end | 591 finished bets | 1% | -$46.65 | -53% | -7.89¢ | -$30.25 / -$16.40 |
+| ESPN-verified leagues only, hold to the end | 592 finished bets | 1% | -$46.80 | -53% | -7.91¢ | -$30.40 / -$16.40 |
 
 *Expect about **53 buys a day**, roughly **$7.95/day** at risk; max loss per buy **15¢**.*
 
@@ -18,9 +18,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN-verified leagues only, sell at 50¢ | 591 | -$54.90 | -62% |
-| ESPN-verified leagues only, sell at 10¢ | 591 | -$65.07 | -73% |
-| ESPN-verified leagues only, sell at 25¢ | 591 | -$65.48 | -74% |
+| ESPN-verified leagues only, sell at 50¢ | 592 | -$55.05 | -62% |
+| ESPN-verified leagues only, sell at 10¢ | 592 | -$65.22 | -73% |
+| ESPN-verified leagues only, sell at 25¢ | 592 | -$65.63 | -74% |
 
 </details>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 5850 | 591 | 3 (1%) | 1.1% | -$46.65 (-53%) | Hold to the end: -$46.65 (-53%) |
+| 5862 | 592 | 3 (1%) | 1.1% | -$46.80 (-53%) | Hold to the end: -$46.80 (-53%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 124 | 2.7% | 0.0% (0) | -219% | ❌ Worse |
+| ESPN win probability | 125 | 2.7% | 0.0% (0) | -221% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,8 +54,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 124 | 0 | -100% | -73% | -75% | -76% |
-| ESPN win probability ≥ 2% | 28 | 0 | -100% | -69% | -72% | -100% |
+| **Any 1¢ (no model)** | 125 | 0 | -100% | -74% | -75% | -76% |
+| ESPN win probability ≥ 2% | 29 | 0 | -100% | -70% | -73% | -100% |
 | ESPN win probability ≥ 5% | 11 | 0 | -100% | -84% | -76% | -100% |
 | ESPN win probability ≥ 10% | 6 | 0 | -100% | -71% | -57% | -100% |
 
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 591 | 15% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 5247 | 5% | 4% | 3% | 1% | 0% | 0% |
+| Verified | 592 | 15% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 5254 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 3 | 1% | -$46.65 | -53% |
-| Sell at 2¢ | 86 | 15% | -$66.29 | -75% |
-| Sell at 3¢ | 56 | 9% | -$66.81 | -75% |
-| Sell at 5¢ | 35 | 6% | -$65.90 | -74% |
-| Sell at 10¢ | 18 | 3% | -$65.07 | -73% |
-| Sell at 25¢ | 7 | 1% | -$65.48 | -74% |
-| Sell at 50¢ | 5 | 1% | -$54.90 | -62% |
+| Hold to the end | 3 | 1% | -$46.80 | -53% |
+| Sell at 2¢ | 86 | 15% | -$66.44 | -75% |
+| Sell at 3¢ | 56 | 9% | -$66.96 | -75% |
+| Sell at 5¢ | 35 | 6% | -$66.05 | -74% |
+| Sell at 10¢ | 18 | 3% | -$65.22 | -73% |
+| Sell at 25¢ | 7 | 1% | -$65.63 | -74% |
+| Sell at 50¢ | 5 | 1% | -$55.05 | -62% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 | ITF Women's Match | ✘ | 480 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 417 | 1 | 10% | 6% | -78% | -83% | 5 min |
 | Counter-Strike 2 Game | ✘ | 415 | 1 | 3% | 2% | -78% | -95% | 10 min |
-| eSoccer Game | ✘ | 306 | 0 | 0% | 0% | -100% | -99% | 3 min |
+| eSoccer Game | ✘ | 312 | 0 | 0% | 0% | -100% | -99% | 3 min |
 | Challenger ATP  | ✘ | 279 | 2 | 9% | 3% | -33% | -85% | 5 min |
 | TT Star Series Match | ✘ | 177 | 1 | 2% | 2% | -47% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -114,8 +114,8 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | English National League Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 9 min |
+| eBasketball Game | ✘ | 43 | 1 | 0% | 0% | +117% | +117% | 1 min |
 | R6 Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| eBasketball Game | ✘ | 42 | 1 | 0% | 0% | +122% | +122% | 1 min |
 | KBO Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 7 min |
 | KHL Game | ✘ | 36 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Ettan Game | ✘ | 31 | 0 | 3% | 0% | -100% | -94% | 4 min |
@@ -145,11 +145,11 @@
 | Overwatch Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
+| NFL Game | ✔ | 17 | 0 | 24% | 6% | -100% | -59% | 3 min |
 | Liga Expansion Game | ✘ | 17 | 0 | 12% | 12% | -100% | -80% | 21 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | Professional Baseball Game | partly | 16 | 0 | 12% | 6% | -100% | -78% | 2 min |
-| NFL Game | ✔ | 16 | 0 | 25% | 6% | -100% | -57% | 3 min |
 | Eerste Divisie Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 7 min |
 | Finland Korisliiga Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | DEL Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -205,7 +205,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 236 | 7% | 1% | 0% | -88% |
+| Under 5 min | 237 | 7% | 1% | 0% | -88% |
 | 5–15 min | 111 | 15% | 5% | 1% | -73% |
 | 15–30 min | 95 | 27% | 12% | 2% | -53% |
 | 30–60 min | 77 | 14% | 8% | 0% | -75% |
@@ -227,7 +227,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-09 03:17 | NFL Game | Dallas | ✔ | 1:11 - 4th · TB 24 - DAL 16 | — | In play | — |
+| 10-09 03:24 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
+| 10-09 03:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 03:24 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:23 | eBasketball Game | Brooklyn Nets (Zion) | ✘ | — | — | In play | — |
+| 10-09 03:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-09 03:21 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | — | In play | — |
+| 10-09 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:20 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:19 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:19 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:19 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-09 03:17 | NFL Game | Dallas | ✔ | 1:11 - 4th · TB 24 - DAL 16 | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:08 | NHL Game | Calgary | ✔ | 18:02 - 3rd · COL 4 - CGY 1 | — | In play | — |
 | 10-09 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 03:07 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -245,18 +257,6 @@
 | 10-09 02:53 | eSoccer Game | FC Augsburg (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-09 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:51 | eSoccer Game | Dortmund (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:51 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:50 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:45 | NHL Game | St. Louis | ✔ | 4:00 - OT · SJ 2 - STL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:42 | eSoccer Game | Manchester City (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:42 | eSoccer Game | Wolves (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:42 | Liga Expansion Game | Correcaminos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:40 | Counter-Strike 2 Game | OverKnight | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-09 02:38 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
