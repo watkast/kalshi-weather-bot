@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 5:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 5:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7508 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7512 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6850 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6852 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -112,11 +112,11 @@
 | Dota 2 Game | ✘ | 65 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Serie C Game | ✘ | 55 | 1 | 7% | 2% | +70% | -87% | 8 min |
+| R6 Game | ✘ | 50 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| R6 Game | ✘ | 49 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | English National League Game | ✘ | 48 | 0 | 8% | 6% | -100% | -86% | 11 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
-| KBO Game | ✘ | 42 | 0 | 7% | 5% | -100% | -88% | 7 min |
+| KBO Game | ✘ | 43 | 0 | 7% | 5% | -100% | -88% | 6 min |
 | KHL Game | ✘ | 41 | 0 | 5% | 2% | -100% | -92% | 5 min |
 | AHL Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | Liga DIMAYOR Game | ✘ | 35 | 1 | 11% | 3% | +167% | -80% | 7 min |
@@ -261,7 +261,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
+| 10-10 11:23 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | — | In play | — |
+| 10-10 11:22 | Overwatch Game | Falcons | ✘ | — | — | In play | — |
+| 10-10 11:20 | TT Star Series Match | Franco Carlos | ✘ | — | — | In play | — |
+| 10-10 11:19 | R6 Game | 7VEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:11 | Challenger ATP  | Lukas Neumayer | ✘ | — | — | In play | — |
 | 10-10 11:10 | ITF Women's Match | Alice Tubello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:02 | KBO Game | Hanwha Eagles | ✘ | — | — | In play | — |
@@ -287,10 +291,6 @@
 | 10-10 09:42 | Counter-Strike 2 Game | XI Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:37 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:33 | Counter-Strike 2 Game | Honvéd | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:32 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:30 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:28 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:25 | Korea K-League 2 Game | Chungnam Asan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
