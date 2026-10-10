@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 8:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 8:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7124 | 616 | 4 (1%) | 1.1% | -$36.40 (-39%) | Hold to the end: -$36.40 (-39%) |
+| 7139 | 616 | 4 (1%) | 1.1% | -$36.40 (-39%) | Hold to the end: -$36.40 (-39%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 616 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6485 | 5% | 4% | 2% | 1% | 0% | 0% |
+| Unverified | 6490 | 5% | 4% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1013 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1017 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 462 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -172,12 +172,12 @@
 | Austria BSL Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 5 min |
 | Adriatic ABA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
+| College Hockey Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Ligue 2 Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's ODI Cricket Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 50 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
 | LNB Elite Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 11 min |
-| College Hockey Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Chinese Basketball Association Game  | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Major League Soccer Game | partly | 8 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
@@ -260,9 +260,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 02:16 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
+| 10-10 02:16 | Argentina Primera Division Game | Union Santa Fe | ✘ | — | — | In play | — |
+| 10-10 02:15 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 10-10 02:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:15 | Women's College Volleyball Match | Michigan State | ✘ | — | — | In play | — |
+| 10-10 02:14 | NHL Game | Winnipeg | ✔ | 11:08 - 3rd · ANA 3 - WPG 0 | — | In play | — |
+| 10-10 02:13 | Women's College Volleyball Match | Nebraska Omaha | ✘ | — | — | In play | — |
+| 10-10 02:13 | Women's College Volleyball Match | Memphis | ✘ | — | — | In play | — |
+| 10-10 02:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:11 | eSoccer Game | Dortmund (Frost) | ✘ | — | — | In play | — |
+| 10-10 02:09 | Women's College Volleyball Match | Ohio State | ✘ | — | — | In play | — |
+| 10-10 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 02:09 | eSoccer Game | 1. FC Köln (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 02:09 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 02:07 | Women's College Volleyball Match | Iowa | ✘ | — | — | In play | — |
 | 10-10 02:06 | Women's College Volleyball Match | Binghamton | ✘ | — | — | In play | — |
-| 10-10 02:05 | College Hockey Game | Massachusetts Lowell | ✘ | — | — | In play | — |
+| 10-10 02:05 | College Hockey Game | Massachusetts Lowell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 02:04 | Women's College Volleyball Match | South Carolina | ✘ | — | — | In play | — |
 | 10-10 02:03 | Women's College Volleyball Match | Rutgers | ✘ | — | — | In play | — |
 | 10-10 02:01 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
@@ -275,21 +290,6 @@
 | 10-10 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 01:56 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:55 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:55 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:54 | College Hockey Game | Maine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:54 | CFL Game | Hamilton Tiger-Cats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:51 | Women's College Volleyball Match | Arkansas Pine Bluff | ✘ | — | — | In play | — |
-| 10-10 01:49 | Women's Pro Basketball Game | New York | ✔ | End of 4th · ATL 85 - NY 83 | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:49 | R6 Game | FURIA Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:48 | NHL Game | Pittsburgh | ✔ | In SO · PIT 2 - CBJ 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:47 | eSoccer Game | Manchester City (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:47 | AHL Game | Manitoba Moose | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:46 | College Football Game | Florida St. | ✔ | 12:57 - 4th · FSU 14 - LOU 34 | — | In play | — |
-| 10-10 01:46 | Counter-Strike 2 Game | Midwest Maniacs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
