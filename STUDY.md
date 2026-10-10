@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 6:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 7:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7059 | 610 | 4 (1%) | 1.1% | -$35.50 (-39%) | Hold to the end: -$35.50 (-39%) |
+| 7067 | 610 | 4 (1%) | 1.1% | -$35.50 (-39%) | Hold to the end: -$35.50 (-39%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 610 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6428 | 5% | 4% | 2% | 1% | 0% | 0% |
+| Unverified | 6437 | 5% | 4% | 3% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,7 +102,7 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 140 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | League of Legends Game | ✘ | 114 | 0 | 6% | 3% | -100% | -89% | 11 min |
-| eBasketball Game | ✘ | 109 | 1 | 0% | 0% | -14% | -14% | 1 min |
+| eBasketball Game | ✘ | 111 | 1 | 0% | 0% | -16% | -16% | 1 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 105 | 1 | 6% | 2% | -11% | -90% | 66 min |
 | College Football Game | partly | 104 | 2 | 14% | 7% | +79% | -75% | 45 min |
@@ -119,9 +119,9 @@
 | KBO Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 8 min |
 | KHL Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 5 min |
 | Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
+| Liga DIMAYOR Game | ✘ | 33 | 1 | 12% | 3% | +183% | -79% | 7 min |
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
 | Ettan Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 5 min |
-| Liga DIMAYOR Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 7 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | Liga Leumit Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | USL Championship Game | partly | 30 | 0 | 13% | 3% | -100% | -77% | 8 min |
@@ -134,7 +134,7 @@
 | National League Game | ✘ | 28 | 1 | 4% | 4% | +233% | -94% | 5 min |
 | ELH Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | AHL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 6 min |
-| Uruguay Primera Division Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 12 min |
+| Uruguay Primera Division Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 11 min |
 | Valorant game winner | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 15 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
@@ -147,11 +147,11 @@
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Japan J2 League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 113 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
+| Liga Expansion Game | ✘ | 19 | 0 | 11% | 11% | -100% | -82% | 21 min |
 | Slovakian 2. Liga Game | ✘ | 18 | 0 | 11% | 11% | -100% | -81% | 111 min |
 | LNB Elite 2 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Finland Korisliiga Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | NFL Game | ✔ | 17 | 0 | 24% | 6% | -100% | -59% | 3 min |
-| Liga Expansion Game | ✘ | 17 | 0 | 12% | 12% | -100% | -80% | 21 min |
 | Tweede Divisie Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Argentine Nacional B Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 13 min |
 | Professional Baseball Game | partly | 16 | 0 | 12% | 6% | -100% | -78% | 2 min |
@@ -260,15 +260,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 01:07 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 10-10 01:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 01:04 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 01:03 | eBasketball Game | Denver Nuggets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 01:03 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | — | In play | — |
+| 10-10 01:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 01:02 | Liga DIMAYOR Game | Aguilas Doradas Rionegro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 00:59 | Women's College Volleyball Match | Arizona | ✘ | — | — | In play | — |
 | 10-10 00:53 | Women's College Volleyball Match | Syracuse | ✘ | — | — | In play | — |
-| 10-10 00:52 | Uruguay Primera Division Game | Liverpool M | ✘ | — | — | In play | — |
-| 10-10 00:52 | Uruguay Primera Division Game | Dep Maldonado | ✘ | — | — | In play | — |
-| 10-10 00:49 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
+| 10-10 00:52 | Uruguay Primera Division Game | Liverpool M | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 00:52 | Uruguay Primera Division Game | Dep Maldonado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 00:49 | Liga DIMAYOR Game | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 10-10 00:49 | eSoccer Game | Botafogo (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:49 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:46 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:43 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
+| 10-10 00:43 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:43 | Counter-Strike 2 Game | Celestial | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:37 | eBasketball Game | Dallas Mavericks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:35 | League of Legends Game | Fuego | ✘ | — | — | In play | — |
@@ -280,16 +288,8 @@
 | 10-10 00:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:32 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 00:32 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:30 | Liga DIMAYOR Game | Alianza FC Valledupar | ✘ | — | — | In play | — |
+| 10-10 00:30 | Liga DIMAYOR Game | Alianza FC Valledupar | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-10 00:27 | Argentina Primera Division Game | Boca Juniors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:27 | Argentina Primera Division Game | Instituto Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:24 | eSoccer Game | Real Madrid (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:23 | Liga Expansion Game | Tapatio | ✘ | — | — | In play | — |
-| 10-10 00:23 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:20 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
