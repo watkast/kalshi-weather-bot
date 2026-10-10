@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 8:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 8:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7702 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
+| 7720 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
 
-*In play right now: 64. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 75. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 636 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7002 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7009 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,11 +93,11 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1273 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1277 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 513 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 487 | 1 | 4% | 3% | -81% | -94% | 10 min |
 | ITF Men's Match | ✘ | 437 | 1 | 9% | 5% | -79% | -84% | 5 min |
-| Challenger ATP  | ✘ | 294 | 2 | 9% | 2% | -37% | -85% | 5 min |
+| Challenger ATP  | ✘ | 295 | 2 | 9% | 2% | -37% | -85% | 5 min |
 | TT Star Series Match | ✘ | 217 | 1 | 2% | 2% | -57% | -96% | 4 min |
 | Darts Match | ✘ | 144 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | eBasketball Game | ✘ | 142 | 1 | 0% | 0% | -34% | -34% | 1 min |
@@ -111,7 +111,7 @@
 | NHL Game | ✔ | 69 | 0 | 14% | 6% | -100% | -75% | 4 min |
 | Dota 2 Game | ✘ | 66 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| Serie C Game | ✘ | 55 | 1 | 7% | 2% | +70% | -87% | 8 min |
+| Serie C Game | ✘ | 57 | 1 | 7% | 2% | +64% | -88% | 8 min |
 | R6 Game | ✘ | 50 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 48 | 0 | 8% | 6% | -100% | -86% | 11 min |
@@ -263,36 +263,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 14:36 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:36 | Challenger ATP  | Pedro Martinez | ✘ | — | — | In play | — |
+| 10-10 14:36 | Scottish Premiership Game | St. Mirren | ✘ | — | — | In play | — |
+| 10-10 14:35 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:35 | Turkey BSL Game | Petkim Spor Aliaga | ✘ | — | — | In play | — |
+| 10-10 14:32 | TT Star Series Match | Danzer Matthias | ✘ | — | — | In play | — |
+| 10-10 14:32 | Serie A Game | Fiorentina | ✔ | 71' · FIO 0 - GEN 2 | — | In play | — |
+| 10-10 14:30 | Slovakian 2. Liga Game | FK Humenne | ✘ | — | — | In play | — |
+| 10-10 14:30 | eSoccer Game | Paris Saint-Germain (Antonio) | ✘ | — | — | In play | — |
+| 10-10 14:30 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:29 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 14:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 14:29 | Serie C Game | Crotone | ✘ | — | — | In play | — |
+| 10-10 14:29 | EFL Championship Game | Watford | ✔ | 27' · BUR 3 - WAT 0 | — | In play | — |
+| 10-10 14:28 | Serie C Game | Inter Milano U23 | ✘ | — | — | In play | — |
+| 10-10 14:28 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:28 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 10-10 14:27 | Serie B Game | Empoli | ✘ | — | — | In play | — |
-| 10-10 14:27 | eSoccer Game | Chelsea (Emily) | ✘ | — | — | In play | — |
-| 10-10 14:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 14:27 | Challenger ATP  | Vilius Gaubas | ✘ | — | — | In play | — |
+| 10-10 14:27 | eSoccer Game | Chelsea (Emily) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 14:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 14:27 | Challenger ATP  | Vilius Gaubas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 14:27 | Scottish Premiership Game | Kilmarnock | ✘ | — | — | In play | — |
 | 10-10 14:26 | Serie C Game | Pesaro | ✘ | — | — | In play | — |
 | 10-10 14:26 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 10-10 14:25 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
 | 10-10 14:25 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 10-10 14:24 | Czech First League Game | Mlada Boleslav | ✘ | — | — | In play | — |
-| 10-10 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 14:21 | Allsvenskan Game | AIK | ✘ | — | — | In play | — |
-| 10-10 14:18 | Serie C Game | Monopoli | ✘ | — | — | In play | — |
-| 10-10 14:17 | Serie C Game | Carpi | ✘ | — | — | In play | — |
-| 10-10 14:09 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 14:08 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 14:07 | Finland Korisliiga Game | Kataja Basket Joensuu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 14:05 | Darts Match | William O’Connor | ✘ | — | — | In play | — |
-| 10-10 14:01 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:58 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:56 | Men's T20 Cricket Match | Mpumalanga Rhinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:56 | German 3. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:53 | German 3. Liga Game | Saarbrucken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:53 | German 3. Liga Game | Fortuna Cologne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:52 | German 3. Liga Game | Meppen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:52 | German 3. Liga Game | Stuttgart II | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:50 | Ligue 2 Game | Reims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:49 | Ligue 2 Game | Nantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:47 | Valorant game winner | G2 Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 13:47 | Tweede Divisie Game | Rohda Raalte | ✘ | — | — | In play | — |
 
 ## Raw data
 
