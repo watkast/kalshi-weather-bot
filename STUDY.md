@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 8:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 8:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7139 | 616 | 4 (1%) | 1.1% | -$36.40 (-39%) | Hold to the end: -$36.40 (-39%) |
+| 7157 | 616 | 4 (1%) | 1.1% | -$36.40 (-39%) | Hold to the end: -$36.40 (-39%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 616 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6490 | 5% | 4% | 2% | 1% | 0% | 0% |
+| Unverified | 6495 | 5% | 4% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1017 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1021 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 462 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -123,9 +123,9 @@
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
 | Ettan Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | USL Championship Game | partly | 32 | 0 | 12% | 3% | -100% | -78% | 8 min |
+| AHL Game | ✘ | 31 | 0 | 3% | 3% | -100% | -94% | 6 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | Liga Leumit Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| AHL Game | ✘ | 30 | 0 | 3% | 3% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 30 | 0 | 10% | 7% | -100% | -83% | 43 min |
 | Liiga Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Euroleague Game | ✘ | 29 | 0 | 21% | 3% | -100% | -64% | 14 min |
@@ -260,36 +260,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 02:28 | eSoccer Game | Chelsea (Mordor) | ✘ | — | — | In play | — |
+| 10-10 02:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:28 | eBasketball Game | New York Knicks (Cade) | ✘ | — | — | In play | — |
+| 10-10 02:27 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | — | In play | — |
+| 10-10 02:27 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
+| 10-10 02:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:25 | Women's College Volleyball Match | California Riverside | ✘ | — | — | In play | — |
+| 10-10 02:24 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-10 02:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:23 | Women's College Volleyball Match | Auburn | ✘ | — | — | In play | — |
+| 10-10 02:23 | eSoccer Game | FC Augsburg (Aron) | ✘ | — | — | In play | — |
+| 10-10 02:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:22 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-10 02:22 | Women's College Volleyball Match | Arkansas | ✘ | — | — | In play | — |
+| 10-10 02:21 | Counter-Strike 2 Game | KZG | ✘ | — | — | In play | — |
+| 10-10 02:19 | College Football Game | Marist | ✘ | — | — | In play | — |
+| 10-10 02:19 | Women's College Volleyball Match | Missouri | ✘ | — | — | In play | — |
 | 10-10 02:16 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
 | 10-10 02:16 | Argentina Primera Division Game | Union Santa Fe | ✘ | — | — | In play | — |
-| 10-10 02:15 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
-| 10-10 02:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 02:15 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 02:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 02:15 | Women's College Volleyball Match | Michigan State | ✘ | — | — | In play | — |
 | 10-10 02:14 | NHL Game | Winnipeg | ✔ | 11:08 - 3rd · ANA 3 - WPG 0 | — | In play | — |
 | 10-10 02:13 | Women's College Volleyball Match | Nebraska Omaha | ✘ | — | — | In play | — |
 | 10-10 02:13 | Women's College Volleyball Match | Memphis | ✘ | — | — | In play | — |
-| 10-10 02:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 02:11 | eSoccer Game | Dortmund (Frost) | ✘ | — | — | In play | — |
+| 10-10 02:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 02:11 | eSoccer Game | Dortmund (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 02:09 | Women's College Volleyball Match | Ohio State | ✘ | — | — | In play | — |
 | 10-10 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:09 | eSoccer Game | 1. FC Köln (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:09 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:07 | Women's College Volleyball Match | Iowa | ✘ | — | — | In play | — |
-| 10-10 02:06 | Women's College Volleyball Match | Binghamton | ✘ | — | — | In play | — |
-| 10-10 02:05 | College Hockey Game | Massachusetts Lowell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:04 | Women's College Volleyball Match | South Carolina | ✘ | — | — | In play | — |
-| 10-10 02:03 | Women's College Volleyball Match | Rutgers | ✘ | — | — | In play | — |
-| 10-10 02:01 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
-| 10-10 02:01 | AHL Game | Bridgeport Islanders | ✘ | — | — | In play | — |
-| 10-10 02:00 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:59 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:58 | Women's College Volleyball Match | Georgia | ✘ | — | — | In play | — |
-| 10-10 01:58 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:58 | eSoccer Game | Botafogo (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:56 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
