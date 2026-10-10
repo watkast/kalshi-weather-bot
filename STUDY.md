@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 3:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 3:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7473 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7475 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6813 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6814 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -160,10 +160,10 @@
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Sweden SBL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| Chinese Basketball Association Game  | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Australia NBL Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 13 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
-| Chinese Basketball Association Game  | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Men's ODI Cricket Match | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Czech NBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Slovakia SBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 21 min |
@@ -260,9 +260,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 09:18 | Korea K League Game | Gimcheon Sangmu | ✘ | — | — | In play | — |
+| 10-10 09:14 | Korea K-League 2 Game | Gyeongnam | ✘ | — | — | In play | — |
 | 10-10 09:10 | ITF Men's Match | Zane Stevens | ✘ | — | — | In play | — |
 | 10-10 09:07 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:03 | Chinese Basketball Association Game  | Xinjiang Flying Tigers | ✘ | — | — | In play | — |
+| 10-10 09:03 | Chinese Basketball Association Game  | Xinjiang Flying Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:03 | eSoccer Game | Benfica (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:58 | KBO Game | Lotte Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:58 | Chinese Basketball Association Game  | Nanjing Monkey Kings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -288,8 +290,6 @@
 | 10-10 08:10 | eSoccer Game | Paris Saint-Germain (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:08 | eSoccer Game | Slavia Praha (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 08:07 | Japan NPB Game | Hokkaido Nippon-Ham Fighters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
