@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 6:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 6:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7530 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7536 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6867 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6875 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,11 +95,11 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 1239 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 512 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 478 | 1 | 4% | 3% | -80% | -93% | 10 min |
+| Counter-Strike 2 Game | ✘ | 480 | 1 | 4% | 3% | -81% | -94% | 10 min |
 | ITF Men's Match | ✘ | 435 | 1 | 9% | 6% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 293 | 2 | 9% | 2% | -36% | -85% | 5 min |
 | TT Star Series Match | ✘ | 215 | 1 | 2% | 2% | -57% | -96% | 4 min |
-| Darts Match | ✘ | 141 | 0 | 1% | 1% | -100% | -99% | 9 min |
+| Darts Match | ✘ | 142 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | eBasketball Game | ✘ | 139 | 1 | 0% | 0% | -33% | -33% | 1 min |
 | League of Legends Game | ✘ | 115 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -166,6 +166,7 @@
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Czech NBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
+| Japan J League Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 13 min |
 | Men's ODI Cricket Match | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Slovakia SBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
@@ -177,7 +178,6 @@
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Korea K League Game | ✘ | 10 | 0 | 30% | 10% | -100% | -48% | 14 min |
-| Japan J League Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Ligue 2 Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's ODI Cricket Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 50 min |
 | China League 1 Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 14 min |
@@ -196,16 +196,17 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Liga MX Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 1 min |
 | Croatia Premijer Liga Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 26 min |
+| Turkey BSL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | England Super League Basketball Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | CFL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EFL League One Game | ✔ | 6 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Saudi Pro League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 27 min |
-| Turkey BSL Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | LKL Lithuania Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Chinese Super League Game | ✘ | 5 | 0 | 20% | 0% | -100% | -65% | 38 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | PREM Rugby Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Vietnam V-League 1 Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Bundesliga 2 Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Ecuador Liga Pro Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Portugal Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -214,7 +215,6 @@
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Chile Liga de Primera Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Vietnam V-League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Thai League 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 32 min |
 | Czech First League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Croatia HNL Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 14 min |
@@ -261,16 +261,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 12:02 | Counter-Strike 2 Game | TheChampionGG | ✘ | — | — | In play | — |
-| 10-10 12:01 | Darts Match | Wessel Nijman | ✘ | — | — | In play | — |
+| 10-10 12:13 | Turkish Super Lig Game | Genclerbirligi | ✘ | — | — | In play | — |
+| 10-10 12:12 | Counter-Strike 2 Game | Fortress | ✘ | — | — | In play | — |
+| 10-10 12:12 | Australia NBL Game | New Zealand Breakers | ✘ | — | — | In play | — |
+| 10-10 12:11 | League of Legends Game | PART TIMERS | ✘ | — | — | In play | — |
+| 10-10 12:05 | Counter-Strike 2 Game | VP.Future 3 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 12:05 | TFF 1. Lig Game | Bolu | ✘ | — | — | In play | — |
+| 10-10 12:02 | Counter-Strike 2 Game | TheChampionGG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 12:01 | Darts Match | Wessel Nijman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:58 | Valorant game winner | NRG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:57 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 10-10 11:57 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:54 | ITF Men's Match | Calvin Hemery | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:53 | Turkey BSL Game | Karsiyaka Basket | ✘ | — | — | In play | — |
+| 10-10 11:53 | Turkey BSL Game | Karsiyaka Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:51 | TT Star Series Match | Palušek Samuel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:50 | Japan J League Game | Kyoto Sanga | ✘ | — | — | In play | — |
+| 10-10 11:50 | Japan J League Game | Kyoto Sanga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:50 | Challenger WTA | Himeno Sakatsume | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:47 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-10 11:47 | Vietnam V-League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:41 | ITF Men's Match | Matei Florin Breazu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:41 | ITF Women's Match | Denisa Zoldakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:36 | Latvian Virsliga Game | Tukums 2000 | ✘ | — | — | In play | — |
@@ -278,19 +284,13 @@
 | 10-10 11:32 | Darts Match | Stefan Bellmont | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:30 | Czech NBL Game | BK Pardubice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:28 | ITF Women's Match | Alessandra Mazzola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:25 | Vietnam V-League 1 Game | Da Nang | ✘ | — | — | In play | — |
+| 10-10 11:25 | Vietnam V-League 1 Game | Da Nang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:23 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:22 | Overwatch Game | Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:20 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:19 | R6 Game | 7VEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:11 | Challenger ATP  | Lukas Neumayer | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 11:10 | ITF Women's Match | Alice Tubello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:02 | KBO Game | Hanwha Eagles | ✘ | — | 75¢ | ❌ Lost | -$0.15 |
-| 10-10 10:58 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:57 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:53 | Men's T20 Cricket Match | Old Hararians 1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:47 | Overwatch Game | HUNENG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
