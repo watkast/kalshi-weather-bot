@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 2:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 2:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7461 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7462 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6802 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6804 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,10 +98,10 @@
 | Counter-Strike 2 Game | ✘ | 471 | 1 | 4% | 3% | -80% | -93% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 292 | 2 | 9% | 2% | -36% | -85% | 5 min |
-| TT Star Series Match | ✘ | 208 | 1 | 2% | 2% | -55% | -96% | 4 min |
+| TT Star Series Match | ✘ | 209 | 1 | 2% | 2% | -55% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 140 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| eBasketball Game | ✘ | 136 | 1 | 0% | 0% | -31% | -31% | 1 min |
+| eBasketball Game | ✘ | 137 | 1 | 0% | 0% | -32% | -32% | 1 min |
 | League of Legends Game | ✘ | 115 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -260,8 +260,9 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 08:36 | TT Star Series Match | Olave Alfonso | ✘ | — | — | In play | — |
-| 10-10 08:30 | eBasketball Game | New Orleans Pelicans (Melo) | ✘ | — | — | In play | — |
+| 10-10 08:45 | Chinese Basketball Association Game  | Ningbo Rockets | ✘ | — | — | In play | — |
+| 10-10 08:36 | TT Star Series Match | Olave Alfonso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 08:30 | eBasketball Game | New Orleans Pelicans (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:24 | eSoccer Game | Olympique de Marseille (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -289,7 +290,6 @@
 | 10-10 07:56 | eSoccer Game | Olympique de Marseille (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:54 | eSoccer Game | Slavia Praha (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
