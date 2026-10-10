@@ -7750,3 +7750,6 @@ detected_at,league,series,event,ticker,pick,verified,situation_at_entry,entry_pr
 2026-10-10T14:47:54+00:00,Serie B Game,KXSERIEBGAME,KXSERIEBGAME-26OCT10EMPPAL,KXSERIEBGAME-26OCT10EMPPAL-TIE,Tie,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
 2026-10-10T14:47:54+00:00,Counter-Strike 2 Game,KXCS2GAME,KXCS2GAME-26OCT101000FATUNR,KXCS2GAME-26OCT101000FATUNR-FAT,Team Fathom Gaming,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
 2026-10-10T14:47:54+00:00,English National League Game,KXENGNLGAME,KXENGNLGAME-26OCT10WORSOL,KXENGNLGAME-26OCT10WORSOL-SOL,Solihull,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-10T14:49:30+00:00,Croatia HNL Game,KXHNLGAME,KXHNLGAME-26OCT10HAJDIN,KXHNLGAME-26OCT10HAJDIN-DIN,Dinamo Zagreb,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-10T14:49:53+00:00,Slovakian 2. Liga Game,KXSVK2LGAME,KXSVK2LGAME-26OCT10POVFTP,KXSVK2LGAME-26OCT10POVFTP-POV,Povazska Bystrica,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
+2026-10-10T14:49:53+00:00,Slovakian 2. Liga Game,KXSVK2LGAME,KXSVK2LGAME-26OCT10POVFTP,KXSVK2LGAME-26OCT10POVFTP-FTP,Presov,no,,0.01,14,0.01,open,,,,,,,,,,,,,,,,,,,pending,
