@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 9, 7:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 9, 7:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 908 finished bets | 1% | $41.15 | +42% | +4.53¢ | -$6.00 / $47.15 |
 
-*Expect about **77 buys a day** (~$11.57/day at risk); max loss per buy **15¢**.*
+*Expect about **77 buys a day** (~$11.56/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13399 | 13392 | 53 (0%) | 1.07% | -$882.50 (-54%) | Hold to the close: -$882.50 (-54%) |
+| 13400 | 13392 | 53 (0%) | 1.07% | -$882.50 (-54%) | Hold to the close: -$882.50 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/9 7:25:06 PM | ZEC | UP | 4.9 min | -0.314% | — | In play | — |
 | 10/9 7:14:59 PM | NATGAS | UP | 0 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/9 7:13:53 PM | HYPE | DOWN | 67 sec | +0.083% | 0¢ | ❌ Lost | $0.00 |
 | 10/9 7:13:21 PM | DOGE | DOWN | 1.6 min | +0.116% | 1¢ | ❌ Lost | -$0.15 |
@@ -212,7 +213,6 @@
 | 10/9 6:43:04 PM | NEAR | UP | 1.9 min | -0.539% | 1¢ | ❌ Lost | -$0.15 |
 | 10/9 6:42:47 PM | HYPE | UP | 2.2 min | -0.141% | 1¢ | ❌ Lost | -$0.15 |
 | 10/9 6:29:42 PM | NATGAS | UP | 17 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/9 6:29:26 PM | BTC | UP | 33 sec | -0.037% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
