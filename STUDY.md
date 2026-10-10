@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 5:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 5:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7505 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7508 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6846 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6850 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,8 +94,8 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 1239 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| ITF Women's Match | ✘ | 509 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 476 | 1 | 4% | 3% | -80% | -93% | 10 min |
+| ITF Women's Match | ✘ | 510 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 478 | 1 | 4% | 3% | -80% | -93% | 10 min |
 | ITF Men's Match | ✘ | 432 | 1 | 9% | 6% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 292 | 2 | 9% | 2% | -36% | -85% | 5 min |
 | TT Star Series Match | ✘ | 213 | 1 | 2% | 2% | -56% | -96% | 4 min |
@@ -106,7 +106,7 @@
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 107 | 1 | 6% | 2% | -13% | -90% | 64 min |
-| Men's T20 Cricket Match | ✘ | 88 | 0 | 16% | 5% | -100% | -72% | 21 min |
+| Men's T20 Cricket Match | ✘ | 89 | 0 | 16% | 4% | -100% | -73% | 21 min |
 | NHL Game | ✔ | 69 | 0 | 14% | 6% | -100% | -75% | 4 min |
 | Challenger WTA | ✘ | 67 | 0 | 15% | 9% | -100% | -74% | 8 min |
 | Dota 2 Game | ✘ | 65 | 0 | 3% | 3% | -100% | -95% | 30 min |
@@ -261,14 +261,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | — | In play | — |
+| 10-10 11:11 | Challenger ATP  | Lukas Neumayer | ✘ | — | — | In play | — |
+| 10-10 11:10 | ITF Women's Match | Alice Tubello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:02 | KBO Game | Hanwha Eagles | ✘ | — | — | In play | — |
-| 10-10 10:58 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
+| 10-10 10:58 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:57 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:53 | Men's T20 Cricket Match | Old Hararians 1 | ✘ | — | — | In play | — |
+| 10-10 10:53 | Men's T20 Cricket Match | Old Hararians 1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:47 | Overwatch Game | HUNENG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:46 | Counter-Strike 2 Game | Dynamo Eclot Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:46 | Japan J2 League Game | Sapporo | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-10 10:45 | Counter-Strike 2 Game | Orgless | ✘ | — | — | In play | — |
+| 10-10 10:45 | Counter-Strike 2 Game | Orgless | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:28 | Australia NBL Game | SE Melbourne Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:28 | Indonesia Super League Game | Arema FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:28 | Indonesia Super League Game | Bhayangkara Presisi Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -288,9 +291,6 @@
 | 10-10 09:30 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:28 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:25 | Korea K-League 2 Game | Chungnam Asan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:25 | Korea K-League 2 Game | Gimhae | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:25 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:24 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
