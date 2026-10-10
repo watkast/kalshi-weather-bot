@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 11:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 11:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7916 | 664 | 4 (1%) | 1.1% | -$43.60 (-44%) | Hold to the end: -$43.60 (-44%) |
+| 7930 | 664 | 4 (1%) | 1.1% | -$43.60 (-44%) | Hold to the end: -$43.60 (-44%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 67. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 664 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 7195 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7199 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,14 +92,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1333 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1335 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 513 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 492 | 1 | 4% | 3% | -81% | -93% | 10 min |
 | ITF Men's Match | ✘ | 437 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 297 | 2 | 9% | 2% | -37% | -85% | 5 min |
 | TT Star Series Match | ✘ | 222 | 1 | 2% | 2% | -58% | -96% | 4 min |
-| eBasketball Game | ✘ | 148 | 1 | 0% | 0% | -37% | -37% | 1 min |
+| eBasketball Game | ✘ | 149 | 1 | 0% | 0% | -37% | -37% | 1 min |
 | Darts Match | ✘ | 145 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 116 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -170,12 +170,12 @@
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Czech NBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Bundesliga Basketball Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 13 min |
+| Adriatic ABA Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Japan J League Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 13 min |
 | Men's ODI Cricket Match | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Slovakia SBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
-| Adriatic ABA Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | College Hockey Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | TFF 1. Lig Game | ✘ | 11 | 0 | 18% | 0% | -100% | -68% | 15 min |
 | Czech National Football League Game | ✘ | 11 | 0 | 18% | 18% | -100% | -68% | 12 min |
@@ -268,11 +268,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 17:48 | eSoccer Game | Real Madrid (Minjori) | ✘ | — | — | In play | — |
+| 10-10 17:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 17:44 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 10-10 17:44 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-10 17:43 | Men's T20 Cricket Match | Team Tigers Portugal | ✘ | — | — | In play | — |
+| 10-10 17:43 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-10 17:42 | eSoccer Game | Paris Saint-Germain (Emily) | ✘ | — | — | In play | — |
+| 10-10 17:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 17:42 | Czech National Football League Game | Trinec | ✘ | — | — | In play | — |
+| 10-10 17:41 | Turkish Super Lig Game | Rizespor | ✘ | — | — | In play | — |
+| 10-10 17:40 | TFF 1. Lig Game | Istanbulspor | ✘ | — | — | In play | — |
+| 10-10 17:40 | TFF 1. Lig Game | Manisa | ✘ | — | — | In play | — |
+| 10-10 17:39 | Czech First League Game | Ostrava | ✘ | — | — | In play | — |
+| 10-10 17:39 | Israeli Premier League Game | Kiryat Shmona | ✘ | — | — | In play | — |
 | 10-10 17:36 | Dota 2 Game | old blood | ✘ | — | — | In play | — |
 | 10-10 17:34 | Swiss Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-10 17:33 | eSoccer Game | Liverpool (Krocs) | ✘ | — | — | In play | — |
-| 10-10 17:33 | eSoccer Game | Juventus (Zaroth) | ✘ | — | — | In play | — |
-| 10-10 17:33 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
+| 10-10 17:33 | eSoccer Game | Liverpool (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 17:33 | eSoccer Game | Juventus (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 17:33 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 17:32 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | — | In play | — |
 | 10-10 17:32 | Darts Match | Dave Chisnall | ✘ | — | — | In play | — |
 | 10-10 17:31 | Swiss Super League Game | Tie | ✘ | — | — | In play | — |
@@ -281,23 +295,9 @@
 | 10-10 17:29 | Swiss Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-10 17:29 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 17:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:28 | Adriatic ABA Game | KD Ilirija | ✘ | — | — | In play | — |
+| 10-10 17:28 | Adriatic ABA Game | KD Ilirija | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 17:28 | TT Star Series Match | Prokopcov Dmitrij | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 17:27 | Challenger ATP  | Juan Carlos Prado Angelo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:27 | Swiss Super League Game | Luzern | ✘ | — | — | In play | — |
-| 10-10 17:26 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:26 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:26 | Women's College Volleyball Match | Rhode Island | ✘ | — | — | In play | — |
-| 10-10 17:25 | Liiga Game | KalPa Kuopio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:25 | Swiss Super League Game | Thun | ✘ | — | — | In play | — |
-| 10-10 17:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:25 | Serie C Game | Ostia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:25 | Serie C Game | Pianese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:22 | Allsvenskan Game | Degerfors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:22 | Allsvenskan Game | Mjallby | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:22 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:21 | Slovenian Prva Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 17:21 | Swiss Super League Game | Sion | ✘ | — | — | In play | — |
 
 ## Raw data
 
