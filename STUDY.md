@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 4:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 4:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8334 | 713 | 5 (1%) | 1.1% | -$36.95 (-35%) | Hold to the end: -$36.95 (-35%) |
+| 8340 | 713 | 5 (1%) | 1.1% | -$36.95 (-35%) | Hold to the end: -$36.95 (-35%) |
 
-*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 713 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7566 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7579 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1492 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1498 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 515 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 499 | 1 | 4% | 3% | -81% | -93% | 10 min |
@@ -101,7 +101,7 @@
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | eBasketball Game | ✘ | 167 | 1 | 0% | 0% | -44% | -44% | 1 min |
 | Darts Match | ✘ | 153 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| College Football Game | partly | 142 | 2 | 13% | 6% | +31% | -78% | 36 min |
+| College Football Game | partly | 143 | 2 | 13% | 6% | +31% | -77% | 36 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 118 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -119,8 +119,8 @@
 | KHL Game | ✘ | 45 | 0 | 4% | 2% | -100% | -92% | 5 min |
 | KBO Game | ✘ | 44 | 0 | 9% | 7% | -100% | -84% | 7 min |
 | Ettan Game | ✘ | 41 | 0 | 2% | 0% | -100% | -96% | 7 min |
+| Liga DIMAYOR Game | ✘ | 37 | 1 | 11% | 3% | +152% | -81% | 7 min |
 | AHL Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 6 min |
-| Liga DIMAYOR Game | ✘ | 35 | 1 | 11% | 3% | +167% | -80% | 7 min |
 | ATP Tennis Match | ✘ | 35 | 0 | 9% | 3% | -100% | -85% | 3 min |
 | Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | Argentina Primera Division Game | ✘ | 35 | 0 | 17% | 9% | -100% | -70% | 8 min |
@@ -178,6 +178,7 @@
 | LNB Elite Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Czech National Football League Game | ✘ | 13 | 0 | 15% | 15% | -100% | -73% | 12 min |
 | Slovakia SBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 21 min |
+| Peru Liga 1 Game | ✘ | 12 | 0 | 25% | 17% | -100% | -57% | 6 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Italy Serie A2 Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Japan J League Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 13 min |
@@ -188,7 +189,6 @@
 | Spain Liga ACB Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 21 min |
 | College Hockey Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Women's ODI Cricket Match | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 45 min |
-| Peru Liga 1 Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 6 min |
 | Italy Serie A Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 6 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Korea K League Game | ✘ | 10 | 0 | 30% | 10% | -100% | -48% | 14 min |
@@ -218,6 +218,7 @@
 | Allsvenskan Game | ✘ | 7 | 0 | 43% | 43% | -100% | -26% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Liga MX Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 1 min |
+| Chile Liga de Primera Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
 | CFL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | LKL Lithuania Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -229,7 +230,6 @@
 | Bundesliga Game | ✔ | 5 | 1 | 40% | 40% | +1767% | -31% | 19 min |
 | Serie A Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 40 min |
 | Slovenian Prva Liga Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 14 min |
-| Chile Liga de Primera Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 8 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
 | Bolivia Premier Division Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 4 min |
 | Serbian SuperLiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -272,16 +272,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 22:27 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
-| 10-10 22:27 | eSoccer Game | Boca Juniors (Frenkie) | ✘ | — | — | In play | — |
-| 10-10 22:26 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 10-10 22:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 22:25 | Liga DIMAYOR Game | Cali | ✘ | — | — | In play | — |
-| 10-10 22:25 | Liga DIMAYOR Game | Pereira | ✘ | — | — | In play | — |
-| 10-10 22:23 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
-| 10-10 22:23 | College Football Game | Richmond | ✘ | — | — | In play | — |
+| 10-10 22:33 | eSoccer Game | RC Celta (Strudl) | ✘ | — | — | In play | — |
+| 10-10 22:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 22:30 | Peru Liga 1 Game | Juan Pablo II College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:28 | College Football Game | Gardner-Webb | ✘ | — | — | In play | — |
+| 10-10 22:28 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:27 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:27 | eSoccer Game | Boca Juniors (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:26 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:25 | Liga DIMAYOR Game | Cali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:25 | Liga DIMAYOR Game | Pereira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:23 | Chile Liga de Primera Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 22:23 | College Football Game | Richmond | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-10 22:23 | College Football Game | Utah Tech | ✘ | — | — | In play | — |
-| 10-10 22:20 | Peru Liga 1 Game | Comerciantes U. | ✘ | — | — | In play | — |
+| 10-10 22:20 | Peru Liga 1 Game | Comerciantes U. | ✘ | — | 15¢ | ❌ Lost | -$0.15 |
 | 10-10 22:20 | eSoccer Game | Getafe CF (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 22:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 22:17 | College Football Game | Western Carolina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -296,12 +302,6 @@
 | 10-10 22:11 | NHL Game | San Jose | ✔ | 11:20 - 3rd · EDM 3 - SJ 0 | — | In play | — |
 | 10-10 22:09 | Overwatch Game | Team Liquid | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 22:04 | Canadian Premier League | FC Supra Du Quebec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 22:04 | College Football Game | Kansas St. | ✔ | 2:00 - 3rd · HOU 28 - KSU 9 | — | In play | — |
-| 10-10 22:04 | Chile Liga de Primera Game | O´Higgins | ✘ | — | — | In play | — |
-| 10-10 22:03 | Women's College Volleyball Match | California State Fullerton | ✘ | — | — | In play | — |
-| 10-10 22:02 | eSoccer Game | River Plate (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 22:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 22:01 | eSoccer Game | Boca Juniors (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
