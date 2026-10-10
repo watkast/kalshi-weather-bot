@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 3:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 3:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7482 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7485 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6818 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6824 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,7 +95,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 1239 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 509 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 471 | 1 | 4% | 3% | -80% | -93% | 10 min |
+| Counter-Strike 2 Game | ✘ | 472 | 1 | 4% | 3% | -80% | -93% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 292 | 2 | 9% | 2% | -36% | -85% | 5 min |
 | TT Star Series Match | ✘ | 211 | 1 | 2% | 2% | -56% | -96% | 4 min |
@@ -139,9 +139,9 @@
 | WTA Tennis Match | ✘ | 25 | 0 | 8% | 0% | -100% | -86% | 4 min |
 | Japan NPB Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Valorant game winner | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 15 min |
+| Overwatch Game | ✘ | 24 | 0 | 4% | 0% | -100% | -93% | 6 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
-| Overwatch Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 6 min |
 | NBA Game | ✔ | 23 | 0 | 17% | 4% | -100% | -70% | 4 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | DEL Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -158,6 +158,7 @@
 | Rugby French 14 Match | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 40 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
+| Korea K-League 2 Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Sweden SBL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Chinese Basketball Association Game  | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -176,7 +177,6 @@
 | Italy Serie A2 Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Korea K League Game | ✘ | 10 | 0 | 30% | 10% | -100% | -48% | 14 min |
-| Korea K-League 2 Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 6 min |
 | Japan J League Game | ✘ | 10 | 0 | 20% | 10% | -100% | -65% | 13 min |
 | Ligue 2 Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 4 min |
 | Women's ODI Cricket Match | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 50 min |
@@ -260,15 +260,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 09:32 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | — | In play | — |
+| 10-10 09:42 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
+| 10-10 09:37 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 09:33 | Counter-Strike 2 Game | Honvéd | ✘ | — | — | In play | — |
+| 10-10 09:32 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:30 | TT Star Series Match | Urbánek Jan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:28 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-10 09:25 | Korea K-League 2 Game | Chungnam Asan | ✘ | — | — | In play | — |
-| 10-10 09:25 | Korea K-League 2 Game | Gimhae | ✘ | — | — | In play | — |
+| 10-10 09:28 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 09:25 | Korea K-League 2 Game | Chungnam Asan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 09:25 | Korea K-League 2 Game | Gimhae | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:25 | KHL Game | Lada Togliatti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:24 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:18 | Korea K League Game | Gimcheon Sangmu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:14 | Korea K-League 2 Game | Gyeongnam | ✘ | — | — | In play | — |
+| 10-10 09:14 | Korea K-League 2 Game | Gyeongnam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:10 | ITF Men's Match | Zane Stevens | ✘ | — | — | In play | — |
 | 10-10 09:07 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:03 | Chinese Basketball Association Game  | Xinjiang Flying Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -287,9 +290,6 @@
 | 10-10 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 08:23 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 08:21 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 08:20 | eSoccer Game | Juventus (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
