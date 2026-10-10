@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 10, 7:16 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 10, 7:26 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 959 finished bets | 1% | $35.45 | +34% | +3.70¢ | -$8.70 / $44.15 |
 
-*Expect about **78 buys a day** (~$11.72/day at risk); max loss per buy **15¢**.*
+*Expect about **78 buys a day** (~$11.71/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13727 | 13720 | 56 (0%) | 1.07% | -$878.15 (-53%) | Hold to the close: -$878.15 (-53%) |
+| 13728 | 13720 | 56 (0%) | 1.07% | -$878.15 (-53%) | Hold to the close: -$878.15 (-53%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/10 7:25:32 AM | BNB | DOWN | 4.5 min | +0.115% | — | In play | — |
 | 10/10 7:14:24 AM | HYPE | DOWN | 35 sec | +0.062% | 0¢ | ❌ Lost | $0.00 |
 | 10/10 7:14:08 AM | XRP | DOWN | 52 sec | +0.021% | 3¢ | ❌ Lost | $0.00 |
 | 10/10 7:14:08 AM | DOGE | UP | 52 sec | -0.085% | 0¢ | ❌ Lost | -$0.15 |
@@ -212,7 +213,6 @@
 | 10/10 6:29:58 AM | NEAR | UP | 2 sec | -0.249% | 0¢ | ❌ Lost | $0.00 |
 | 10/10 6:29:42 AM | HYPE | DOWN | 18 sec | +0.048% | 0¢ | ❌ Lost | $0.00 |
 | 10/10 6:29:42 AM | SOL | UP | 18 sec | -0.006% | 0¢ | ❌ Lost | -$0.15 |
-| 10/10 6:29:42 AM | BNB | UP | 18 sec | -0.019% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
