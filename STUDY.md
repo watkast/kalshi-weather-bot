@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 11:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 11:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7309 | 627 | 4 (1%) | 1.1% | -$38.05 (-40%) | Hold to the end: -$38.05 (-40%) |
+| 7311 | 627 | 4 (1%) | 1.1% | -$38.05 (-40%) | Hold to the end: -$38.05 (-40%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 627 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6644 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6652 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1129 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1137 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 508 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 468 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -260,14 +260,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 05:34 | eSoccer Game | Girona (Bradley) | ✘ | — | — | In play | — |
-| 10-10 05:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 05:32 | eSoccer Game | Spurs (Thea) | ✘ | — | — | In play | — |
-| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 05:32 | eSoccer Game | Getafe CF (Hazard) | ✘ | — | — | In play | — |
-| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 05:31 | eSoccer Game | Chelsea (Lotta) | ✘ | — | — | In play | — |
+| 10-10 05:36 | eSoccer Game | AS Monaco (Nairo) | ✘ | — | — | In play | — |
+| 10-10 05:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 05:34 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:32 | eSoccer Game | Spurs (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:32 | eSoccer Game | Getafe CF (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 05:31 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 05:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 05:22 | eSoccer Game | Toulouse FC (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 05:20 | eSoccer Game | RC Celta (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -288,8 +290,6 @@
 | 10-10 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 05:04 | ITF Women's Match | Varvara Panshina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 05:04 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 05:04 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 05:01 | Liga MX Game | Tie | ✔ | 90'+5' · TOL 2 - UANL 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
