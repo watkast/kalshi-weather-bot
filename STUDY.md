@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 9:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 9:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7211 | 621 | 4 (1%) | 1.1% | -$37.15 (-40%) | Hold to the end: -$37.15 (-40%) |
+| 7218 | 621 | 4 (1%) | 1.1% | -$37.15 (-40%) | Hold to the end: -$37.15 (-40%) |
 
 *In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 621 | 15% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 6559 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6566 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,9 +93,9 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1063 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1068 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
-| Counter-Strike 2 Game | ✘ | 466 | 1 | 4% | 3% | -80% | -94% | 10 min |
+| Counter-Strike 2 Game | ✘ | 467 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 290 | 2 | 9% | 2% | -36% | -84% | 5 min |
 | TT Star Series Match | ✘ | 205 | 1 | 2% | 2% | -54% | -96% | 4 min |
@@ -123,8 +123,8 @@
 | Liga Leumit Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
 | Ettan Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 5 min |
+| AHL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | USL Championship Game | partly | 32 | 0 | 12% | 3% | -100% | -78% | 8 min |
-| AHL Game | ✘ | 32 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | Argentina Primera Division Game | ✘ | 31 | 0 | 19% | 10% | -100% | -66% | 8 min |
 | LNBP Basketball Game | ✘ | 30 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | FIFA Women's Game | ✘ | 30 | 0 | 10% | 7% | -100% | -83% | 43 min |
@@ -260,9 +260,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 03:27 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | — | In play | — |
-| 10-10 03:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 03:26 | Counter-Strike 2 Game | FarmVille | ✘ | — | — | In play | — |
+| 10-10 03:41 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | — | In play | — |
+| 10-10 03:41 | eSoccer Game | Spurs (Homie) | ✘ | — | — | In play | — |
+| 10-10 03:41 | Counter-Strike 2 Game | Desi Boyz | ✘ | — | — | In play | — |
+| 10-10 03:33 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:33 | AHL Game | Bakersfield Condors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:33 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:27 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 03:26 | Counter-Strike 2 Game | FarmVille | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 03:23 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 03:23 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 03:22 | eSoccer Game | RB Leipzig (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -283,13 +290,6 @@
 | 10-10 03:05 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 03:05 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 03:03 | Liga Expansion Game | Atletico Morelia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 03:03 | Liga Expansion Game | Tepatitlan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 03:01 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:57 | Counter-Strike 2 Game | Villainous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:57 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:54 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 02:54 | eSoccer Game | FC Augsburg (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
