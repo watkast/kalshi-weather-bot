@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 3:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 3:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 | 7485 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6824 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6826 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -95,8 +95,8 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 1239 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 509 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 472 | 1 | 4% | 3% | -80% | -93% | 10 min |
-| ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
+| Counter-Strike 2 Game | ✘ | 473 | 1 | 4% | 3% | -80% | -93% | 10 min |
+| ITF Men's Match | ✘ | 432 | 1 | 9% | 6% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 292 | 2 | 9% | 2% | -36% | -85% | 5 min |
 | TT Star Series Match | ✘ | 211 | 1 | 2% | 2% | -56% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -260,7 +260,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 09:42 | Counter-Strike 2 Game | XI Esport | ✘ | — | — | In play | — |
+| 10-10 09:42 | Counter-Strike 2 Game | XI Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:37 | Overwatch Game | T1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:33 | Counter-Strike 2 Game | Honvéd | ✘ | — | — | In play | — |
 | 10-10 09:32 | Counter-Strike 2 Game | 3DMAX Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -272,7 +272,7 @@
 | 10-10 09:24 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:18 | Korea K League Game | Gimcheon Sangmu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:14 | Korea K-League 2 Game | Gyeongnam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 09:10 | ITF Men's Match | Zane Stevens | ✘ | — | — | In play | — |
+| 10-10 09:10 | ITF Men's Match | Zane Stevens | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
 | 10-10 09:07 | TT Star Series Match | Loso Sebastian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:03 | Chinese Basketball Association Game  | Xinjiang Flying Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 09:03 | eSoccer Game | Benfica (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
