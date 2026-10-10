@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 5:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 5:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7517 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7520 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
 *In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6857 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6860 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,9 +94,9 @@
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eSoccer Game | ✘ | 1239 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| ITF Women's Match | ✘ | 511 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 512 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 478 | 1 | 4% | 3% | -80% | -93% | 10 min |
-| ITF Men's Match | ✘ | 432 | 1 | 9% | 6% | -78% | -84% | 5 min |
+| ITF Men's Match | ✘ | 433 | 1 | 9% | 6% | -78% | -84% | 5 min |
 | Challenger ATP  | ✘ | 293 | 2 | 9% | 2% | -36% | -85% | 5 min |
 | TT Star Series Match | ✘ | 214 | 1 | 2% | 2% | -56% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -116,7 +116,7 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | English National League Game | ✘ | 48 | 0 | 8% | 6% | -100% | -86% | 11 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
-| KBO Game | ✘ | 43 | 0 | 7% | 5% | -100% | -88% | 6 min |
+| KBO Game | ✘ | 44 | 0 | 9% | 7% | -100% | -84% | 7 min |
 | KHL Game | ✘ | 41 | 0 | 5% | 2% | -100% | -92% | 5 min |
 | AHL Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | Liga DIMAYOR Game | ✘ | 35 | 1 | 11% | 3% | +167% | -80% | 7 min |
@@ -261,7 +261,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 11:32 | ITF Men's Match | Ivan Ivanov | ✘ | — | — | In play | — |
+| 10-10 11:41 | ITF Men's Match | Matei Florin Breazu | ✘ | — | — | In play | — |
+| 10-10 11:41 | ITF Women's Match | Denisa Zoldakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 11:36 | Latvian Virsliga Game | Tukums 2000 | ✘ | — | — | In play | — |
+| 10-10 11:32 | ITF Men's Match | Ivan Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:32 | Darts Match | Stefan Bellmont | ✘ | — | — | In play | — |
 | 10-10 11:30 | Czech NBL Game | BK Pardubice | ✘ | — | — | In play | — |
 | 10-10 11:28 | ITF Women's Match | Alessandra Mazzola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -273,7 +276,7 @@
 | 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:11 | Challenger ATP  | Lukas Neumayer | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-10 11:10 | ITF Women's Match | Alice Tubello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:02 | KBO Game | Hanwha Eagles | ✘ | — | — | In play | — |
+| 10-10 11:02 | KBO Game | Hanwha Eagles | ✘ | — | 75¢ | ❌ Lost | -$0.15 |
 | 10-10 10:58 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:57 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:53 | Men's T20 Cricket Match | Old Hararians 1 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -288,9 +291,6 @@
 | 10-10 10:24 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:23 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 10:19 | Indonesia Super League Game | Garuda Yaksa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:14 | Counter-Strike 2 Game | The Huns Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:09 | Men's T20 Cricket Match | EU Pak Friendship | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 10:08 | Indonesia Super League Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
