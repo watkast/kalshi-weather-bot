@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 1:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 1:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7395 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7403 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6732 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6738 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1188 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1194 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 508 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 469 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -260,13 +260,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 07:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 07:14 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | — | In play | — |
+| 10-10 07:26 | eSoccer Game | Slavia Praha (Fernando) | ✘ | — | — | In play | — |
+| 10-10 07:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:25 | eSoccer Game | Real Madrid (Castle) | ✘ | — | — | In play | — |
+| 10-10 07:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:23 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-10 07:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:23 | TT Star Series Match | Loso Sebastian | ✘ | — | — | In play | — |
+| 10-10 07:18 | Counter-Strike 2 Game | Mindfreak | ✘ | — | — | In play | — |
+| 10-10 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:14 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:12 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:12 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
-| 10-10 07:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 07:11 | eSoccer Game | Montpellier (Thea) | ✘ | — | — | In play | — |
-| 10-10 07:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:12 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:11 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:11 | eBasketball Game | Brooklyn Nets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:10 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -282,14 +290,6 @@
 | 10-10 06:59 | eSoccer Game | Sevilla FC (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 06:58 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:56 | Japan J2 League Game | Fujieda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:56 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:54 | Korea K-League 2 Game | Busan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:52 | Japan J2 League Game | Yokohama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:52 | Japan J2 League Game | Vortis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:48 | Korea K-League 2 Game | Yongin FC | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
