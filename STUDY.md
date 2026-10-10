@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 6:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 6:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7536 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7543 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6875 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6876 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,7 +102,7 @@
 | Darts Match | ✘ | 142 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | eBasketball Game | ✘ | 139 | 1 | 0% | 0% | -33% | -33% | 1 min |
-| League of Legends Game | ✘ | 115 | 0 | 7% | 3% | -100% | -88% | 11 min |
+| League of Legends Game | ✘ | 116 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 107 | 1 | 6% | 2% | -13% | -90% | 64 min |
@@ -261,10 +261,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 12:25 | Latvian Virsliga Game | Tie | ✘ | — | — | In play | — |
+| 10-10 12:24 | Bundesliga 2 Game | Hannover | ✔ | 66' · H96 0 - FCM 2 | — | In play | — |
+| 10-10 12:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 12:21 | eSoccer Game | Spurs (Mantis) | ✘ | — | — | In play | — |
+| 10-10 12:20 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-10 12:19 | Ettan Game | Kristianstad | ✘ | — | — | In play | — |
+| 10-10 12:18 | Tweede Divisie Game | Katwijk | ✘ | — | — | In play | — |
 | 10-10 12:13 | Turkish Super Lig Game | Genclerbirligi | ✘ | — | — | In play | — |
 | 10-10 12:12 | Counter-Strike 2 Game | Fortress | ✘ | — | — | In play | — |
 | 10-10 12:12 | Australia NBL Game | New Zealand Breakers | ✘ | — | — | In play | — |
-| 10-10 12:11 | League of Legends Game | PART TIMERS | ✘ | — | — | In play | — |
+| 10-10 12:11 | League of Legends Game | PART TIMERS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 12:05 | Counter-Strike 2 Game | VP.Future 3 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 12:05 | TFF 1. Lig Game | Bolu | ✘ | — | — | In play | — |
 | 10-10 12:02 | Counter-Strike 2 Game | TheChampionGG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -284,13 +291,6 @@
 | 10-10 11:32 | Darts Match | Stefan Bellmont | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:30 | Czech NBL Game | BK Pardubice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 11:28 | ITF Women's Match | Alessandra Mazzola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:25 | Vietnam V-League 1 Game | Da Nang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:23 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:22 | Overwatch Game | Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:20 | TT Star Series Match | Franco Carlos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:19 | R6 Game | 7VEN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:13 | KBO Game | SSG Landers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 11:11 | Challenger ATP  | Lukas Neumayer | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
