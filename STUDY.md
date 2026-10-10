@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 9, 10:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 9, 10:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, sell at 2¢ | 31 finished bets | 19% | -$3.09 | -66% | -9.97¢ | -$1.21 / -$1.88 |
 
-*Expect about **3 buys a day**, roughly **$0.46/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7260 | 624 | 4 (1%) | 1.1% | -$37.60 (-40%) | Hold to the end: -$37.60 (-40%) |
+| 7268 | 624 | 4 (1%) | 1.1% | -$37.60 (-40%) | Hold to the end: -$37.60 (-40%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 624 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6600 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6609 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1094 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1102 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 507 | 0 | 12% | 6% | -100% | -78% | 4 min |
 | Counter-Strike 2 Game | ✘ | 468 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -120,8 +120,8 @@
 | KHL Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 5 min |
 | Liga DIMAYOR Game | ✘ | 35 | 1 | 11% | 3% | +167% | -80% | 7 min |
 | Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
+| AHL Game | ✘ | 35 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | Liga Leumit Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| AHL Game | ✘ | 34 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | ATP Tennis Match | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 3 min |
 | Ettan Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | USL Championship Game | partly | 32 | 0 | 12% | 3% | -100% | -78% | 8 min |
@@ -260,13 +260,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 04:32 | eSoccer Game | Athletic Club (Kevin) | ✘ | — | — | In play | — |
-| 10-10 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 04:30 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | — | In play | — |
-| 10-10 04:29 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-10 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 04:44 | eSoccer Game | Villarreal CF (Frost) | ✘ | — | — | In play | — |
+| 10-10 04:42 | College Football Game | Washington St. | ✔ | 1:28 - 4th · WSU 16 - USU 17 | — | In play | — |
+| 10-10 04:39 | WTA Tennis Match | Talia Gibson | ✘ | — | — | In play | — |
+| 10-10 04:38 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
+| 10-10 04:36 | AHL Game | San Diego Gulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:34 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:32 | eSoccer Game | Athletic Club (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:30 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:29 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 04:28 | WTA Tennis Match | Moyuka Uchijima | ✘ | — | — | In play | — |
-| 10-10 04:28 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-10 04:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 04:28 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 04:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 04:23 | College Hockey Game | Arizona State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 04:22 | College Football Game | San Jose St. | ✔ | OT · WYO 13 - SJSU 13 | 6¢ | ❌ Lost | -$0.15 |
 | 10-10 04:21 | eSoccer Game | West Ham (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -282,14 +290,6 @@
 | 10-10 04:07 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 04:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 04:04 | eSoccer Game | Freiburg (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 04:03 | AHL Game | Abbotsford Canucks | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-10 04:02 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 04:02 | eSoccer Game | Argentina (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 04:02 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 03:56 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 03:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
