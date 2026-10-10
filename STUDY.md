@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 1:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 1:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7420 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7435 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6756 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6762 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1208 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1212 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 508 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 470 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -101,7 +101,7 @@
 | TT Star Series Match | ✘ | 205 | 1 | 2% | 2% | -54% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 140 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| eBasketball Game | ✘ | 133 | 1 | 0% | 0% | -30% | -30% | 1 min |
+| eBasketball Game | ✘ | 134 | 1 | 0% | 0% | -30% | -30% | 1 min |
 | League of Legends Game | ✘ | 115 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -141,9 +141,9 @@
 | Valorant game winner | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 15 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
+| Overwatch Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 6 min |
 | NBA Game | ✔ | 23 | 0 | 17% | 4% | -100% | -70% | 4 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
-| Overwatch Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 6 min |
 | DEL Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Liga Expansion Game | ✘ | 21 | 0 | 10% | 10% | -100% | -83% | 19 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -260,11 +260,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 07:42 | eSoccer Game | Olympique Lyon (Nairo) | ✘ | — | — | In play | — |
-| 10-10 07:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-10 07:42 | eBasketball Game | Golden State Warriors (Ray) | ✘ | — | — | In play | — |
-| 10-10 07:41 | eSoccer Game | Real Madrid (Castle) | ✘ | — | — | In play | — |
-| 10-10 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:56 | eSoccer Game | Olympique de Marseille (Mantis) | ✘ | — | — | In play | — |
+| 10-10 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:54 | eSoccer Game | Slavia Praha (Fernando) | ✘ | — | — | In play | — |
+| 10-10 07:54 | eSoccer Game | Montpellier (Thea) | ✘ | — | — | In play | — |
+| 10-10 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:53 | Counter-Strike 2 Game | NEXVOID | ✘ | — | — | In play | — |
+| 10-10 07:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:52 | eSoccer Game | Arsenal (Kylian) | ✘ | — | — | In play | — |
+| 10-10 07:51 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-10 07:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:50 | Japan J League Game | Fagiano O | ✘ | — | — | In play | — |
+| 10-10 07:49 | Dota 2 Game | Cloud Rising | ✘ | — | — | In play | — |
+| 10-10 07:47 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:46 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:42 | eSoccer Game | Olympique Lyon (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:42 | eBasketball Game | Golden State Warriors (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:41 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:40 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:39 | eSoccer Game | Juventus (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -275,21 +290,6 @@
 | 10-10 07:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:32 | Challenger WTA | Renata Zarazua | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:32 | Japan J League Game | Urawa | ✘ | — | — | In play | — |
-| 10-10 07:28 | eSoccer Game | OGC Nice (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:28 | eSoccer Game | Strasbourg (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:26 | eSoccer Game | Slavia Praha (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:25 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:23 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:23 | TT Star Series Match | Loso Sebastian | ✘ | — | — | In play | — |
-| 10-10 07:18 | Counter-Strike 2 Game | Mindfreak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:14 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:12 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:12 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
