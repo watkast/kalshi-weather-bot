@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 8:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 8:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7689 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
+| 7702 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 64. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 636 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6999 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7002 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -106,7 +106,7 @@
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 107 | 1 | 6% | 2% | -13% | -90% | 64 min |
-| Men's T20 Cricket Match | ✘ | 92 | 0 | 15% | 4% | -100% | -74% | 21 min |
+| Men's T20 Cricket Match | ✘ | 93 | 0 | 15% | 4% | -100% | -74% | 20 min |
 | Challenger WTA | ✘ | 69 | 0 | 14% | 9% | -100% | -75% | 8 min |
 | NHL Game | ✔ | 69 | 0 | 14% | 6% | -100% | -75% | 4 min |
 | Dota 2 Game | ✘ | 66 | 0 | 3% | 3% | -100% | -95% | 30 min |
@@ -138,8 +138,8 @@
 | Overwatch Game | ✘ | 27 | 0 | 4% | 0% | -100% | -94% | 6 min |
 | Uruguay Primera Division Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 11 min |
 | WTA Tennis Match | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 4 min |
+| Valorant game winner | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 15 min |
 | Japan NPB Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Valorant game winner | ✘ | 25 | 0 | 8% | 4% | -100% | -86% | 15 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
 | NBA Game | ✔ | 23 | 0 | 17% | 4% | -100% | -70% | 4 min |
@@ -195,10 +195,10 @@
 | Spain Liga ACB Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 30 min |
 | Italy Serie A Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 6 min |
 | Vietnam V-League 1 Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Thai League 1 Game | ✘ | 8 | 0 | 25% | 0% | -100% | -57% | 10 min |
 | Finnish Ykkosliiga Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Czech National Football League Game | ✘ | 8 | 0 | 25% | 25% | -100% | -57% | 11 min |
 | Slovenia 1. SKL Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 15 min |
-| Thai League 1 Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Liga MX Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 1 min |
 | Croatia Premijer Liga Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 26 min |
@@ -263,9 +263,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 14:27 | Serie B Game | Empoli | ✘ | — | — | In play | — |
+| 10-10 14:27 | eSoccer Game | Chelsea (Emily) | ✘ | — | — | In play | — |
+| 10-10 14:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:27 | Challenger ATP  | Vilius Gaubas | ✘ | — | — | In play | — |
+| 10-10 14:27 | Scottish Premiership Game | Kilmarnock | ✘ | — | — | In play | — |
+| 10-10 14:26 | Serie C Game | Pesaro | ✘ | — | — | In play | — |
+| 10-10 14:26 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:25 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:25 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:24 | Czech First League Game | Mlada Boleslav | ✘ | — | — | In play | — |
+| 10-10 14:24 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-10 14:21 | Allsvenskan Game | AIK | ✘ | — | — | In play | — |
+| 10-10 14:18 | Serie C Game | Monopoli | ✘ | — | — | In play | — |
 | 10-10 14:17 | Serie C Game | Carpi | ✘ | — | — | In play | — |
-| 10-10 14:09 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-10 14:08 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | — | In play | — |
+| 10-10 14:09 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 14:08 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 14:07 | Finland Korisliiga Game | Kataja Basket Joensuu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 14:05 | Darts Match | William O’Connor | ✘ | — | — | In play | — |
 | 10-10 14:01 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -278,21 +291,8 @@
 | 10-10 13:52 | German 3. Liga Game | Stuttgart II | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:50 | Ligue 2 Game | Reims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:49 | Ligue 2 Game | Nantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:47 | Valorant game winner | G2 Esports | ✘ | — | — | In play | — |
+| 10-10 13:47 | Valorant game winner | G2 Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-10 13:47 | Tweede Divisie Game | Rohda Raalte | ✘ | — | — | In play | — |
-| 10-10 13:47 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-10 13:45 | German 3. Liga Game | Wurzburg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 13:42 | Chinese Basketball Association Game  | Zhejiang Golden Bulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:42 | Ligue 2 Game | Tie | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 10-10 13:41 | Turkish Super Lig Game | Samsunspor | ✘ | — | — | In play | — |
-| 10-10 13:40 | Challenger WTA | Anna Blinkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:39 | Serie C Game | Giugliano | ✘ | — | — | In play | — |
-| 10-10 13:39 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 13:38 | German 3. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:38 | TFF 1. Lig Game | Batman | ✘ | — | — | In play | — |
-| 10-10 13:35 | German 3. Liga Game | Großaspach | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-10 13:35 | Darts Match | Ryan Searle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:31 | Tweede Divisie Game | Rijnsburgse | ✘ | — | — | In play | — |
 
 ## Raw data
 
