@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sat Oct 10 15:37 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sat Oct 10 15:47 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 7167 | 6208 | 959 (33) | 0 | $-281.17 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 4448 | 2482 | 1966 (860) | 1 | $-1315.90 | -4.7% |
+| **20¢+ jump, sell +5¢** | 7178 | 6219 | 959 (33) | 0 | $-276.87 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 4452 | 2486 | 1966 (860) | 3 | $-1313.99 | -4.7% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,9 +18,26 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-10 15:46 | J20 | ETH | DOWN | 22¢ | 0.47 | 0.52 | 0.14 |
+| 10-10 15:46 | J20 | ETH | DOWN | 22¢ | 0.43 | 0.52 | 0.54 |
+| 10-10 15:46 | J20R | ETH | DOWN | 22¢ | 0.43 | open |  |
+| 10-10 15:46 | J20 | ETH | DOWN | 22¢ | 0.43 | 0.52 | 0.54 |
+| 10-10 15:46 | J20R | XRP | DOWN | 22¢ | 0.40 | open |  |
+| 10-10 15:46 | J20 | XRP | DOWN | 22¢ | 0.40 | 0.46 | 0.25 |
+| 10-10 15:46 | J20R | DOGE | DOWN | 21¢ | 0.42 | 0.48 | 0.24 |
+| 10-10 15:46 | J20 | DOGE | DOWN | 21¢ | 0.42 | 0.50 | 0.44 |
+| 10-10 15:46 | J20R | SOL | DOWN | 24¢ | 0.53 | open |  |
+| 10-10 15:46 | J20 | SOL | DOWN | 24¢ | 0.53 | 0.58 | 0.14 |
+| 10-10 15:46 | J20R | ETH | DOWN | 27¢ | 0.43 | 0.52 | 0.54 |
+| 10-10 15:46 | J20 | ETH | DOWN | 27¢ | 0.42 | 0.52 | 0.64 |
+| 10-10 15:40 | J20 | DOGE | DOWN | 20¢ | 0.51 | 0.57 | 0.26 |
+| 10-10 15:40 | J20 | DOGE | DOWN | 22¢ | 0.51 | 0.59 | 0.45 |
+| 10-10 15:40 | J20 | DOGE | DOWN | 22¢ | 0.51 | 0.59 | 0.45 |
+| 10-10 15:40 | J20R | DOGE | DOWN | 22¢ | 0.51 | 0.57 | 0.24 |
+| 10-10 15:40 | J20 | DOGE | DOWN | 22¢ | 0.51 | 0.59 | 0.45 |
 | 10-10 15:35 | J20R | ZEC | UP | 24¢ | 0.84 | 0.89 | 0.33 |
 | 10-10 15:35 | J20 | ZEC | UP | 24¢ | 0.84 | 0.90 | 0.45 |
-| 10-10 15:32 | J20R | NEAR | DOWN | 24¢ | 0.77 | open |  |
+| 10-10 15:32 | J20R | NEAR | DOWN | 24¢ | 0.77 | 0.88 | 0.89 |
 | 10-10 15:32 | J20 | NEAR | DOWN | 24¢ | 0.77 | 0.86 | 0.68 |
 | 10-10 15:28 | J20 | NEAR | UP | 52¢ | 0.88 | no | -8.88 |
 | 10-10 15:27 | J20R | BTC | UP | 26¢ | 0.81 | 0.91 | 0.83 |
@@ -41,20 +58,3 @@
 | 10-10 15:11 | J20 | XRP | DOWN | 23¢ | 0.47 | 0.56 | 0.54 |
 | 10-10 15:10 | J20 | ETH | UP | 25¢ | 0.62 | no | -6.37 |
 | 10-10 15:09 | J20 | XRP | UP | 21¢ | 0.66 | 0.74 | 0.50 |
-| 10-10 15:08 | J20R | BNB | DOWN | 20¢ | 0.91 | no | 0.87 |
-| 10-10 15:08 | J20 | BNB | DOWN | 20¢ | 0.91 | 0.96 | 0.43 |
-| 10-10 15:08 | J20R | ETH | DOWN | 32¢ | 0.69 | 0.74 | 0.21 |
-| 10-10 15:08 | J20 | ETH | DOWN | 32¢ | 0.69 | 0.78 | 0.62 |
-| 10-10 15:08 | J20R | XRP | DOWN | 30¢ | 0.55 | 0.64 | 0.55 |
-| 10-10 15:08 | J20 | XRP | DOWN | 30¢ | 0.55 | 0.62 | 0.35 |
-| 10-10 15:08 | J20R | SOL | DOWN | 26¢ | 0.60 | 0.81 | 1.82 |
-| 10-10 15:08 | J20 | SOL | DOWN | 26¢ | 0.60 | 0.65 | 0.17 |
-| 10-10 15:08 | J20R | BTC | DOWN | 36¢ | 0.52 | no | 4.62 |
-| 10-10 15:08 | J20 | BTC | DOWN | 36¢ | 0.52 | 0.85 | 3.03 |
-| 10-10 15:07 | J20R | DOGE | DOWN | 35¢ | 0.78 | 0.86 | 0.58 |
-| 10-10 15:07 | J20 | DOGE | DOWN | 35¢ | 0.78 | 0.89 | 0.90 |
-| 10-10 14:56 | J20R | DOGE | DOWN | 29¢ | 0.90 | no | 0.93 |
-| 10-10 14:56 | J20 | DOGE | DOWN | 29¢ | 0.90 | 0.96 | 0.54 |
-| 10-10 14:53 | J20R | ETH | UP | 20¢ | 0.46 | no | -4.78 |
-| 10-10 14:53 | J20 | ETH | UP | 20¢ | 0.46 | no | -4.78 |
-| 10-10 14:53 | J20R | BTC | UP | 29¢ | 0.41 | no | -4.27 |
