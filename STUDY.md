@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 7:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 8:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7682 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
+| 7685 | 636 | 4 (1%) | 1.1% | -$39.40 (-41%) | Hold to the end: -$39.40 (-41%) |
 
-*In play right now: 65. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 636 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6981 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6993 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,7 +98,7 @@
 | Counter-Strike 2 Game | ✘ | 487 | 1 | 4% | 3% | -81% | -94% | 10 min |
 | ITF Men's Match | ✘ | 437 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 294 | 2 | 9% | 2% | -37% | -85% | 5 min |
-| TT Star Series Match | ✘ | 216 | 1 | 2% | 2% | -57% | -96% | 4 min |
+| TT Star Series Match | ✘ | 217 | 1 | 2% | 2% | -57% | -96% | 4 min |
 | Darts Match | ✘ | 144 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | eBasketball Game | ✘ | 142 | 1 | 0% | 0% | -34% | -34% | 1 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -106,7 +106,7 @@
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 107 | 1 | 6% | 2% | -13% | -90% | 64 min |
-| Men's T20 Cricket Match | ✘ | 91 | 0 | 15% | 4% | -100% | -73% | 21 min |
+| Men's T20 Cricket Match | ✘ | 92 | 0 | 15% | 4% | -100% | -74% | 21 min |
 | Challenger WTA | ✘ | 69 | 0 | 14% | 9% | -100% | -75% | 8 min |
 | NHL Game | ✔ | 69 | 0 | 14% | 6% | -100% | -75% | 4 min |
 | Dota 2 Game | ✘ | 66 | 0 | 3% | 3% | -100% | -95% | 30 min |
@@ -117,7 +117,7 @@
 | English National League Game | ✘ | 48 | 0 | 8% | 6% | -100% | -86% | 11 min |
 | Brasileiro Serie B Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | KBO Game | ✘ | 44 | 0 | 9% | 7% | -100% | -84% | 7 min |
-| KHL Game | ✘ | 42 | 0 | 5% | 2% | -100% | -92% | 5 min |
+| KHL Game | ✘ | 43 | 0 | 5% | 2% | -100% | -92% | 5 min |
 | Ettan Game | ✘ | 41 | 0 | 2% | 0% | -100% | -96% | 7 min |
 | AHL Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | Liga DIMAYOR Game | ✘ | 35 | 1 | 11% | 3% | +167% | -80% | 7 min |
@@ -162,13 +162,13 @@
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | Korea K-League 2 Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
+| Ligue 2 Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 4 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Sweden SBL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | APF Division de Honor Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 5 min |
 | Czech NBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Japan J League Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 13 min |
-| Ligue 2 Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 4 min |
 | Men's ODI Cricket Match | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Slovakia SBL Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Canadian Premier League | ✘ | 11 | 1 | 36% | 36% | +748% | -37% | 32 min |
@@ -183,6 +183,7 @@
 | Korea K League Game | ✘ | 10 | 0 | 30% | 10% | -100% | -48% | 14 min |
 | TFF 1. Lig Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 13 min |
 | Bundesliga 2 Game | ✔ | 10 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| German 3. Liga Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 6 min |
 | LNB Elite Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Mobile Legends Bang Bang Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Chinese Super League Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 36 min |
@@ -212,7 +213,6 @@
 | Turkish Super Lig Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 10 min |
 | Ecuador Liga Pro Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Liga Portugal Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| German 3. Liga Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 1 min |
 | Bundesliga Game | ✔ | 3 | 1 | 67% | 67% | +3011% | +16% | 14 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -263,12 +263,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 13:56 | Men's T20 Cricket Match | Mpumalanga Rhinos | ✘ | — | — | In play | — |
+| 10-10 14:05 | Darts Match | William O’Connor | ✘ | — | — | In play | — |
+| 10-10 14:01 | KHL Game | HK Avangard Omsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 13:58 | TT Star Series Match | Oehme Benno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 13:56 | Men's T20 Cricket Match | Mpumalanga Rhinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:56 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-10 13:53 | German 3. Liga Game | Saarbrucken | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:53 | German 3. Liga Game | Fortuna Cologne | ✘ | — | — | In play | — |
-| 10-10 13:52 | German 3. Liga Game | Meppen | ✘ | — | — | In play | — |
-| 10-10 13:52 | German 3. Liga Game | Stuttgart II | ✘ | — | — | In play | — |
+| 10-10 13:53 | German 3. Liga Game | Fortuna Cologne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 13:52 | German 3. Liga Game | Meppen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 13:52 | German 3. Liga Game | Stuttgart II | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:50 | Ligue 2 Game | Reims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:49 | Ligue 2 Game | Nantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:47 | Valorant game winner | G2 Esports | ✘ | — | — | In play | — |
@@ -276,23 +279,20 @@
 | 10-10 13:47 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
 | 10-10 13:45 | German 3. Liga Game | Wurzburg | ✘ | — | — | In play | — |
 | 10-10 13:42 | Chinese Basketball Association Game  | Zhejiang Golden Bulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:42 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 10-10 13:42 | Ligue 2 Game | Tie | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 10-10 13:41 | Turkish Super Lig Game | Samsunspor | ✘ | — | — | In play | — |
 | 10-10 13:40 | Challenger WTA | Anna Blinkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:39 | Serie C Game | Giugliano | ✘ | — | — | In play | — |
 | 10-10 13:39 | Russia VTB United Game | BK Uralmash Yekaterinburg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 13:38 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-10 13:38 | German 3. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:38 | TFF 1. Lig Game | Batman | ✘ | — | — | In play | — |
-| 10-10 13:35 | German 3. Liga Game | Großaspach | ✘ | — | — | In play | — |
+| 10-10 13:35 | German 3. Liga Game | Großaspach | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-10 13:35 | Darts Match | Ryan Searle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:31 | Tweede Divisie Game | Rijnsburgse | ✘ | — | — | In play | — |
 | 10-10 13:31 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
 | 10-10 13:30 | Singapore Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:30 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 13:28 | Chinese Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:26 | Chinese Basketball Association Game  | Guangdong Southern Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:26 | ITF Women's Match | Jana Otzipka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 13:26 | Ligue 2 Game | Clermont Foot | ✘ | — | — | In play | — |
 
 ## Raw data
 
