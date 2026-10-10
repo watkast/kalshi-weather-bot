@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 1:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 1:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 7407 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
+| 7420 | 628 | 4 (1%) | 1.1% | -$38.20 (-41%) | Hold to the end: -$38.20 (-41%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 628 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 6747 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 6756 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -93,7 +93,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eSoccer Game | ✘ | 1202 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1208 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ITF Women's Match | ✘ | 508 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 470 | 1 | 4% | 3% | -80% | -94% | 10 min |
 | ITF Men's Match | ✘ | 431 | 1 | 9% | 5% | -78% | -84% | 5 min |
@@ -101,14 +101,14 @@
 | TT Star Series Match | ✘ | 205 | 1 | 2% | 2% | -54% | -96% | 4 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Darts Match | ✘ | 140 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| eBasketball Game | ✘ | 132 | 1 | 0% | 0% | -29% | -29% | 1 min |
+| eBasketball Game | ✘ | 133 | 1 | 0% | 0% | -30% | -30% | 1 min |
 | League of Legends Game | ✘ | 115 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | College Football Game | partly | 110 | 2 | 15% | 8% | +70% | -73% | 44 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Women's College Volleyball Match | ✘ | 107 | 1 | 6% | 2% | -13% | -90% | 64 min |
 | Men's T20 Cricket Match | ✘ | 87 | 0 | 16% | 5% | -100% | -72% | 21 min |
 | NHL Game | ✔ | 69 | 0 | 14% | 6% | -100% | -75% | 4 min |
-| Challenger WTA | ✘ | 66 | 0 | 15% | 9% | -100% | -74% | 8 min |
+| Challenger WTA | ✘ | 67 | 0 | 15% | 9% | -100% | -74% | 8 min |
 | Dota 2 Game | ✘ | 62 | 0 | 3% | 3% | -100% | -94% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Serie C Game | ✘ | 55 | 1 | 7% | 2% | +70% | -87% | 8 min |
@@ -137,10 +137,10 @@
 | ELH Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Uruguay Primera Division Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 11 min |
 | WTA Tennis Match | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 4 min |
+| Japan NPB Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Valorant game winner | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 15 min |
 | SHL Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 24 | 0 | 21% | 12% | -100% | -64% | 8 min |
-| Japan NPB Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | NBA Game | ✔ | 23 | 0 | 17% | 4% | -100% | -70% | 4 min |
 | LaLiga 2 Game | partly | 22 | 0 | 18% | 9% | -100% | -68% | 9 min |
 | Overwatch Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 6 min |
@@ -260,7 +260,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-10 07:32 | Challenger WTA | Renata Zarazua | ✘ | — | — | In play | — |
+| 10-10 07:42 | eSoccer Game | Olympique Lyon (Nairo) | ✘ | — | — | In play | — |
+| 10-10 07:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:42 | eBasketball Game | Golden State Warriors (Ray) | ✘ | — | — | In play | — |
+| 10-10 07:41 | eSoccer Game | Real Madrid (Castle) | ✘ | — | — | In play | — |
+| 10-10 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-10 07:40 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:39 | eSoccer Game | Juventus (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:38 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:38 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:37 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-10 07:32 | Challenger WTA | Renata Zarazua | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:32 | Japan J League Game | Urawa | ✘ | — | — | In play | — |
 | 10-10 07:28 | eSoccer Game | OGC Nice (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:28 | eSoccer Game | Strasbourg (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -277,19 +290,6 @@
 | 10-10 07:12 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:12 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:11 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:11 | eBasketball Game | Brooklyn Nets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:10 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:09 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:08 | ATP Tennis Match | Camilo Ugo Carabelli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-10 07:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:05 | R6 Game | Chiefs Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:00 | Japan J League Game | Cerezo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:00 | Japan J League Game | Marinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 07:00 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 06:59 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
