@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 12:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9750 | 859 | 6 (1%) | 1.1% | -$44.85 (-35%) | Hold to the end: -$44.85 (-35%) |
+| 9759 | 859 | 6 (1%) | 1.1% | -$44.85 (-35%) | Hold to the end: -$44.85 (-35%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 859 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8834 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8842 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2156 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2162 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 534 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 528 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -108,7 +108,7 @@
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 120 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Men's T20 Cricket Match | ✘ | 114 | 1 | 14% | 4% | -18% | -76% | 20 min |
+| Men's T20 Cricket Match | ✘ | 115 | 1 | 14% | 4% | -19% | -76% | 20 min |
 | Women's College Volleyball Match | ✘ | 110 | 2 | 6% | 3% | +70% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Serie C Game | ✘ | 105 | 1 | 4% | 1% | -11% | -93% | 8 min |
@@ -117,7 +117,7 @@
 | Dota 2 Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
-| R6 Game | ✘ | 52 | 0 | 2% | 2% | -100% | -97% | 9 min |
+| R6 Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 9 min |
 | Ettan Game | ✘ | 51 | 0 | 8% | 2% | -100% | -86% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | AHL Game | ✘ | 49 | 0 | 4% | 2% | -100% | -93% | 6 min |
@@ -278,17 +278,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 18:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 18:38 | eSoccer Game | West Ham (Shaq) | ✘ | — | — | In play | — |
+| 10-11 18:49 | Egyptian Premier League Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:46 | LNB Elite Game | Roanne Chorale | ✘ | — | — | In play | — |
+| 10-11 18:43 | Egyptian Premier League Game | Zamalek | ✘ | — | — | In play | — |
+| 10-11 18:42 | eSoccer Game | Liverpool (Minjori) | ✘ | — | — | In play | — |
+| 10-11 18:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:41 | Counter-Strike 2 Game | antidaun | ✘ | — | — | In play | — |
+| 10-11 18:40 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:40 | Men's T20 Cricket Match | Eastern Storm | ✘ | — | — | In play | — |
+| 10-11 18:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:38 | eSoccer Game | West Ham (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:37 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
-| 10-11 18:37 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 10-11 18:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:37 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:34 | Women's College Volleyball Match | Virginia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:34 | Challenger ATP  | Samuel Heredia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:33 | Israeli Premier League Game | Tie | ✘ | — | — | In play | — |
 | 10-11 18:33 | Liga Portugal Game | Guimaraes | ✘ | — | — | In play | — |
 | 10-11 18:33 | Serbian SuperLiga Game | Tie | ✘ | — | — | In play | — |
-| 10-11 18:32 | R6 Game | Fluxo W7M | ✘ | — | — | In play | — |
+| 10-11 18:32 | R6 Game | Fluxo W7M | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-11 18:29 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:28 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:28 | eSoccer Game | Real Madrid (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -299,15 +308,6 @@
 | 10-11 18:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:24 | Israeli Premier League Game | Ramat Gan Givatayim | ✘ | — | — | In play | — |
 | 10-11 18:23 | Faroe Islands Premier League Game | Argir | ✘ | — | — | In play | — |
-| 10-11 18:23 | Faroe Islands Premier League Game | Tie | ✘ | — | — | In play | — |
-| 10-11 18:23 | Faroe Islands Premier League Game | B68 Toftir | ✘ | — | — | In play | — |
-| 10-11 18:23 | Faroe Islands Premier League Game | Tie | ✘ | — | — | In play | — |
-| 10-11 18:23 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:20 | Ecuador Liga Pro Game | Uni Catolica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:18 | Italy Serie A Game | BC Roma Spqr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:15 | LKL Lithuania Game | BC Juventus Utena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:15 | Serbian SuperLiga Game | Zemun | ✘ | — | — | In play | — |
 
 ## Raw data
 
