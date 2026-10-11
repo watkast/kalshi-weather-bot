@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 8:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 9:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, sell at 2¢ | 36 finished bets | 17% | -$3.84 | -71% | -10.67¢ | -$1.66 / -$2.18 |
 
-*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **3 buys a day**, roughly **$0.50/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8622 | 786 | 5 (1%) | 1.1% | -$47.90 (-41%) | Hold to the end: -$47.90 (-41%) |
+| 8633 | 786 | 5 (1%) | 1.1% | -$47.90 (-41%) | Hold to the end: -$47.90 (-41%) |
 
-*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 786 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7787 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7793 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1620 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1624 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 507 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -100,7 +100,7 @@
 | Challenger ATP  | ✘ | 297 | 2 | 9% | 2% | -37% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | eBasketball Game | ✘ | 181 | 1 | 0% | 0% | -48% | -48% | 1 min |
-| College Football Game | partly | 177 | 2 | 12% | 6% | +5% | -78% | 33 min |
+| College Football Game | partly | 178 | 2 | 12% | 6% | +5% | -79% | 33 min |
 | Darts Match | ✘ | 153 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 119 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -144,9 +144,9 @@
 | ELH Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | WTA Tennis Match | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 4 min |
 | Valorant game winner | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 15 min |
+| Liga Expansion Game | ✘ | 26 | 0 | 8% | 8% | -100% | -87% | 12 min |
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Japan NPB Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Liga Expansion Game | ✘ | 25 | 0 | 8% | 8% | -100% | -86% | 13 min |
 | Argentine Nacional B Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 11 min |
 | Slovakian 2. Liga Game | ✘ | 24 | 0 | 8% | 8% | -100% | -86% | 107 min |
 | DEL Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -273,10 +273,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 02:52 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | — | In play | — |
-| 10-11 02:52 | eSoccer Game | FSV Mainz 05 (Eder) | ✘ | — | — | In play | — |
-| 10-11 02:52 | eSoccer Game | England (Ellen) | ✘ | — | — | In play | — |
-| 10-11 02:51 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-11 03:02 | College Football Game | Alabama | ✔ | 2:19 - 4th · UGA 20 - ALA 17 | — | In play | — |
+| 10-11 03:01 | Liga Expansion Game | Alacranes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:01 | Liga Expansion Game | Jaiba Brava | ✘ | — | — | In play | — |
+| 10-11 03:00 | Liga Expansion Game | Cancun FC | ✘ | — | — | In play | — |
+| 10-11 02:59 | Liga Expansion Game | Zacatecas | ✘ | — | — | In play | — |
+| 10-11 02:59 | College Football Game | LSU | ✔ | OT · LSU 34 - UK 33 | — | In play | — |
+| 10-11 02:56 | College Football Game | Central Arkansas | ✘ | — | — | In play | — |
+| 10-11 02:55 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 10-11 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 02:54 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
+| 10-11 02:52 | Liga Expansion Game | Dorados | ✘ | — | — | In play | — |
+| 10-11 02:52 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 02:52 | eSoccer Game | FSV Mainz 05 (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 02:52 | eSoccer Game | England (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 02:51 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:48 | College Football Game | Minnesota | ✔ | 11:44 - 4th · MINN 13 - PUR 34 | — | In play | — |
 | 10-11 02:47 | College Football Game | Penn St. | ✔ | 3:59 - 4th · USC 31 - PSU 23 | — | In play | — |
 | 10-11 02:45 | College Football Game | Louisiana | ✔ | 0:27 - 4th · UL 31 - LT 32 | 0¢ | ❌ Lost | -$0.15 |
@@ -285,24 +296,13 @@
 | 10-11 02:44 | Professional Baseball Game | Chicago WS | ✔ | Top 9th · CHW 0 - CLE 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:42 | Major League Soccer Game | Portland | ✔ | 90'+7' · POR 3 - SKC 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:42 | Major League Soccer Game | Kansas City | ✔ | 90'+7' · POR 3 - SKC 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:41 | College Football Game | Southeastern Louisiana | ✘ | — | — | In play | — |
+| 10-11 02:41 | College Football Game | Southeastern Louisiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:39 | Major League Soccer Game | Minnesota | ✔ | 90'+10' · HOU 2 - MIN 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:36 | NBA Game | Miami | ✔ | 2.3 - 4th · MIN 125 - MIA 124 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:35 | AHL Game | Colorado Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:34 | Counter-Strike 2 Game | Overtake | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:28 | College Football Game | North Dakota St. | ✔ | 1:23 - 4th · NDSU 7 - UNLV 13 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 02:27 | Major League Soccer Game | Tie | ✔ | 88' · NSH 2 - ATX 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:27 | Major League Soccer Game | Houston | ✔ | 88' · HOU 1 - MIN 2 | 17¢ | ❌ Lost | -$0.15 |
-| 10-11 02:26 | eSoccer Game | FSV Mainz 05 (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:24 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:24 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:24 | eSoccer Game | 1. FC Köln (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:23 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:23 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:22 | Counter-Strike 2 Game | Wanted Goons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 02:19 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
