@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 7:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 7:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, sell at 2¢ | 37 finished bets | 16% | -$3.99 | -72% | -10.78¢ | -$1.66 / -$2.33 |
 
-*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
+*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**; typical wait to sell **2 min**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9255 | 813 | 5 (1%) | 1.1% | -$51.95 (-43%) | Hold to the end: -$51.95 (-43%) |
+| 9270 | 813 | 5 (1%) | 1.1% | -$51.95 (-43%) | Hold to the end: -$51.95 (-43%) |
 
-*In play right now: 66. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 72. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 813 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8376 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8385 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1975 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1981 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 527 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 516 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -149,8 +149,8 @@
 | Valorant game winner | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 15 min |
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Argentine Nacional B Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 11 min |
+| Chinese Basketball Association Game  | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | China League 1 Game | ✘ | 23 | 0 | 13% | 9% | -100% | -77% | 6 min |
-| Chinese Basketball Association Game  | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | DEL Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Finland Korisliiga Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -181,10 +181,10 @@
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Liga MX Game | ✔ | 13 | 0 | 15% | 15% | -100% | -73% | 1 min |
 | Sweden SBL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 16 min |
+| Men's ODI Cricket Match | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 20 min |
 | Canadian Premier League | ✘ | 13 | 1 | 31% | 31% | +618% | -47% | 29 min |
 | LNB Elite Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Czech National Football League Game | ✘ | 13 | 0 | 15% | 15% | -100% | -73% | 12 min |
-| Men's ODI Cricket Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 18 min |
 | Slovakia SBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Italy Serie A2 Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 18 min |
@@ -273,36 +273,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 13:20 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 10-11 13:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:29 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-11 13:28 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:28 | Counter-Strike 2 Game | Spirit | ✘ | — | — | In play | — |
+| 10-11 13:26 | Bundesliga 2 Game | Tie | ✔ | 90'+5' · DSC 1 - BOC 0 | — | In play | — |
+| 10-11 13:25 | Chinese Basketball Association Game  | Jiangsu Dragons | ✘ | — | — | In play | — |
+| 10-11 13:25 | Chinese Super League Game | Wuhan Three Towns FC | ✘ | — | — | In play | — |
+| 10-11 13:24 | Challenger ATP  | Guilherme Valdoleiros | ✘ | — | — | In play | — |
+| 10-11 13:24 | Men's T20 Cricket Match | Old Hararians 1 | ✘ | — | — | In play | — |
+| 10-11 13:23 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:23 | China League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:23 | eSoccer Game | Hoffenheim (Zaroth) | ✘ | — | — | In play | — |
+| 10-11 13:22 | WTA Tennis Match | Mirra Andreeva | ✘ | — | — | In play | — |
+| 10-11 13:22 | Thai League 1 Game | Chonburi | ✘ | — | — | In play | — |
+| 10-11 13:20 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:19 | Bundesliga 2 Game | Bochum | ✔ | 88' · DSC 1 - BOC 0 | — | In play | — |
 | 10-11 13:19 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
 | 10-11 13:19 | Singapore Premier League Game | Tie | ✘ | — | — | In play | — |
 | 10-11 13:18 | Bundesliga 2 Game | Tie | ✔ | 87' · KSC 0 - STP 2 | — | In play | — |
-| 10-11 13:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 13:18 | eSoccer Game | Rennes (Sheerpy) | ✘ | — | — | In play | — |
-| 10-11 13:17 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-11 13:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:18 | eSoccer Game | Rennes (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:17 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:17 | German 3. Liga Game | Ingolstadt | ✘ | — | — | In play | — |
-| 10-11 13:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:14 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:14 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
 | 10-11 13:14 | Belgian Pro League Game | Standard | ✘ | — | — | In play | — |
 | 10-11 13:13 | Bundesliga 2 Game | Tie | ✔ | 85' · SGF 0 - BSC 2 | — | In play | — |
-| 10-11 13:13 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 13:12 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
-| 10-11 13:11 | Chinese Basketball Association Game  | Tianjin Pioneers | ✘ | — | — | In play | — |
-| 10-11 13:10 | Singapore Premier League Game | Tanjong Pagar United | ✘ | — | — | In play | — |
-| 10-11 13:10 | Swiss Super League Game | Grasshopper | ✘ | — | — | In play | — |
-| 10-11 13:08 | Bundesliga 2 Game | Greuther Furth | ✔ | 80' · SGF 0 - BSC 1 | — | In play | — |
-| 10-11 13:06 | ITF Women's Match | Kalina Simeonova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 13:05 | Chinese Basketball Association Game  | Zhejiang Lions | ✘ | — | — | In play | — |
-| 10-11 13:05 | Challenger WTA | Isabella Maria Serban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 13:05 | Overwatch Game | HUNENG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 13:05 | Challenger ATP  | Gabi Adrian Boitan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 13:04 | China League 1 Game | Jiangxi Dingnan United | ✘ | — | — | In play | — |
-| 10-11 13:02 | Darts Match | Michael Smith | ✘ | — | — | In play | — |
-| 10-11 13:01 | Dota 2 Game | PARIVISION | ✘ | — | — | In play | — |
-| 10-11 12:57 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
