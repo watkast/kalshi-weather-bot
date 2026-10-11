@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Oct 11 22:43 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Oct 11 22:53 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 8455 | 7324 | 1131 (38) | 1 | $-325.29 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 5257 | 2913 | 2344 (1025) | 2 | $-1579.47 | -4.8% |
+| **20¢+ jump, sell +5¢** | 8456 | 7325 | 1131 (38) | 0 | $-325.14 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 5259 | 2913 | 2346 (1027) | 0 | $-1572.19 | -4.7% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,12 +18,12 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 22:43 | J20 | XRP | UP | 25¢ | 0.58 | open |  |
+| 10-11 22:43 | J20 | XRP | UP | 25¢ | 0.58 | 0.63 | 0.15 |
 | 10-11 22:42 | J20 | ETH | UP | 38¢ | 0.72 | 0.80 | 0.53 |
 | 10-11 22:42 | J20 | ETH | UP | 38¢ | 0.67 | 0.80 | 1.02 |
-| 10-11 22:42 | J20R | XRP | UP | 23¢ | 0.50 | open |  |
+| 10-11 22:42 | J20R | XRP | UP | 23¢ | 0.50 | yes | 4.82 |
 | 10-11 22:42 | J20 | XRP | UP | 23¢ | 0.50 | 0.55 | 0.14 |
-| 10-11 22:42 | J20R | ETH | UP | 28¢ | 0.74 | open |  |
+| 10-11 22:42 | J20R | ETH | UP | 28¢ | 0.74 | yes | 2.46 |
 | 10-11 22:42 | J20 | ETH | UP | 28¢ | 0.74 | 0.80 | 0.34 |
 | 10-11 22:33 | J20R | HYPE | UP | 20¢ | 0.58 | 0.71 | 0.93 |
 | 10-11 22:33 | J20 | HYPE | UP | 20¢ | 0.58 | 0.66 | 0.42 |
