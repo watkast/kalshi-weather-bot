@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 11, 1:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 11, 1:52 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -22,9 +22,9 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| Momentum model ≥ 5%, hold to the close | 1067 | $25.55 | +22% |
+| Momentum model ≥ 5%, hold to the close | 1068 | $25.40 | +22% |
 | 5+ min left, hold to the close | 402 | -$3.40 | -6% |
-| Volatility model ≥ 2%, hold to the close | 1950 | -$10.60 | -5% |
+| Volatility model ≥ 2%, hold to the close | 1952 | -$10.90 | -5% |
 
 </details>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14671 | 14662 | 59 (0%) | 1.07% | -$941.60 (-53%) | Hold to the close: -$941.60 (-53%) |
+| 14677 | 14670 | 59 (0%) | 1.07% | -$942.35 (-53%) | Hold to the close: -$942.35 (-53%) |
 
-*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -52,9 +52,9 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| Volatility model | 9817 | 4.5% | 0.4% (42) | -671% | ❌ Worse |
-| Momentum model | 9817 | 4.5% | 0.4% (42) | -698% | ❌ Worse |
-| Mean-reversion model | 9817 | 7.2% | 0.4% (42) | -775% | ❌ Worse |
+| Volatility model | 9825 | 4.5% | 0.4% (42) | -670% | ❌ Worse |
+| Momentum model | 9825 | 4.5% | 0.4% (42) | -697% | ❌ Worse |
+| Mean-reversion model | 9825 | 7.2% | 0.4% (42) | -774% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -62,15 +62,15 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 9817 | 42 | -46% | -88% | -88% | -86% |
-| Volatility model ≥ 2% | 1950 | 16 | -5% | -76% | -76% | -73% |
+| **Any 1¢ (no model)** | 9825 | 42 | -46% | -88% | -88% | -86% |
+| Volatility model ≥ 2% | 1952 | 16 | -5% | -76% | -76% | -73% |
 | Volatility model ≥ 5% | 1117 | 12 | +38% | -70% | -69% | -67% |
 | Volatility model ≥ 10% | 704 | 8 | +64% | -60% | -59% | -56% |
-| Momentum model ≥ 2% | 1717 | 13 | -8% | -78% | -79% | -77% |
-| Momentum model ≥ 5% | 1067 | 10 | +22% | -74% | -74% | -71% |
+| Momentum model ≥ 2% | 1718 | 13 | -8% | -78% | -79% | -77% |
+| Momentum model ≥ 5% | 1068 | 10 | +22% | -74% | -75% | -71% |
 | Momentum model ≥ 10% | 740 | 7 | +35% | -66% | -67% | -63% |
-| Mean-reversion model ≥ 2% | 3431 | 25 | -20% | -85% | -85% | -81% |
-| Mean-reversion model ≥ 5% | 2343 | 19 | -10% | -82% | -82% | -78% |
+| Mean-reversion model ≥ 2% | 3434 | 25 | -20% | -85% | -85% | -81% |
+| Mean-reversion model ≥ 5% | 2345 | 19 | -10% | -82% | -82% | -78% |
 | Mean-reversion model ≥ 10% | 1573 | 13 | -4% | -81% | -81% | -77% |
 
 *Compare each row with the first one: a model helps if its filtered bets earn more.*
@@ -83,10 +83,10 @@
 
 | Market type | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Crypto | 10015 | 4% | 3% | 2% | 1% | 1% | 0% |
+| Crypto | 10023 | 4% | 3% | 2% | 1% | 1% | 0% |
 | Commodities | 3444 | 2% | 1% | 1% | 1% | 0% | 0% |
 | Financials | 1203 | 2% | 2% | 1% | 1% | 0% | 0% |
-| **All** | 14662 | 3% | 2% | 2% | 1% | 1% | 0% |
+| **All** | 14670 | 3% | 2% | 2% | 1% | 1% | 0% |
 
 ## Exit strategies
 
@@ -94,13 +94,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return | Typical wait |
 |---|---|---|---|---|---|
-| Hold to the close | 59 | 0% | -$941.60 | -53% | — |
-| Sell at 2¢ | 505 | 3% | -$1,594.30 | -90% | 33 sec |
-| Sell at 3¢ | 333 | 2% | -$1,595.73 | -90% | 47 sec |
-| Sell at 5¢ | 244 | 2% | -$1,567.00 | -89% | 50 sec |
-| Sell at 10¢ | 161 | 1% | -$1,486.69 | -84% | 64 sec |
-| Sell at 25¢ | 92 | 1% | -$1,365.08 | -77% | 81 sec |
-| Sell at 50¢ | 60 | 0% | -$1,222.60 | -69% | 1.6 min |
+| Hold to the close | 59 | 0% | -$942.35 | -53% | — |
+| Sell at 2¢ | 505 | 3% | -$1,595.05 | -90% | 33 sec |
+| Sell at 3¢ | 333 | 2% | -$1,596.48 | -90% | 47 sec |
+| Sell at 5¢ | 244 | 2% | -$1,567.75 | -89% | 50 sec |
+| Sell at 10¢ | 161 | 1% | -$1,487.44 | -84% | 64 sec |
+| Sell at 25¢ | 92 | 1% | -$1,365.83 | -77% | 81 sec |
+| Sell at 50¢ | 60 | 0% | -$1,223.35 | -69% | 1.6 min |
 
 ![Exit strategies](fifteen/charts/exits.png)
 
@@ -110,23 +110,23 @@
 |---|---|---|---|---|---|---|---|
 | Over 10 min | 4 | 0 | 75% | 50% | -100% | +30% | +95% |
 | 5–10 min | 398 | 4 | 11% | 3% | -5% | -81% | -86% |
-| 2–5 min | 4746 | 31 | 6% | 3% | -36% | -88% | -89% |
-| 1–2 min | 3848 | 15 | 3% | 2% | -58% | -94% | -94% |
-| Under 1 min | 5666 | 9 | 1% | 0% | -76% | -90% | -90% |
+| 2–5 min | 4748 | 31 | 6% | 3% | -36% | -88% | -89% |
+| 1–2 min | 3849 | 15 | 3% | 2% | -58% | -94% | -94% |
+| Under 1 min | 5671 | 9 | 1% | 0% | -76% | -90% | -90% |
 
 ## By market
 
 | Market | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ | Sell@3¢ |
 |---|---|---|---|---|---|---|---|
-| ZEC | 1123 | 6 | 4% | 3% | -34% | -90% | -90% |
-| HYPE | 1122 | 3 | 4% | 2% | -67% | -90% | -89% |
-| DOGE | 1117 | 2 | 4% | 2% | -77% | -91% | -90% |
+| ZEC | 1124 | 6 | 4% | 3% | -34% | -90% | -90% |
+| HYPE | 1123 | 3 | 4% | 2% | -67% | -90% | -89% |
+| DOGE | 1118 | 2 | 4% | 2% | -78% | -91% | -90% |
 | BNB | 1115 | 5 | 4% | 2% | -46% | -91% | -92% |
-| ETH | 1113 | 8 | 5% | 2% | -12% | -89% | -89% |
-| SOL | 1111 | 2 | 3% | 1% | -77% | -93% | -92% |
-| BTC | 1107 | 5 | 5% | 2% | -40% | -88% | -91% |
-| XRP | 1104 | 7 | 2% | 1% | -21% | -84% | -84% |
-| NEAR | 1103 | 6 | 5% | 2% | -29% | -75% | -76% |
+| ETH | 1114 | 8 | 5% | 2% | -12% | -89% | -89% |
+| SOL | 1112 | 2 | 3% | 1% | -77% | -93% | -92% |
+| BTC | 1108 | 5 | 5% | 2% | -40% | -88% | -91% |
+| XRP | 1105 | 7 | 2% | 1% | -21% | -84% | -84% |
+| NEAR | 1104 | 6 | 5% | 2% | -29% | -75% | -76% |
 | GOLD | 568 | 0 | 4% | 1% | -100% | -92% | -94% |
 | SILVER | 555 | 1 | 3% | 1% | -79% | -94% | -94% |
 | WTI | 529 | 3 | 3% | 1% | -35% | -94% | -96% |
@@ -144,8 +144,8 @@
 
 | Side | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ | Sell@3¢ |
 |---|---|---|---|---|---|---|---|
-| UP (bought YES) | 7368 | 31 | 3% | 2% | -51% | -89% | -89% |
-| DOWN (bought NO) | 7294 | 28 | 3% | 2% | -55% | -91% | -92% |
+| UP (bought YES) | 7370 | 31 | 3% | 2% | -51% | -89% | -89% |
+| DOWN (bought NO) | 7300 | 28 | 3% | 2% | -55% | -91% | -92% |
 
 ## By how far price had to move (crypto)
 
@@ -153,11 +153,11 @@
 
 | Gap to target at buy | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ | Sell@3¢ |
 |---|---|---|---|---|---|---|---|
-| Under 0.05% | 1805 | 9 | 2% | 1% | -17% | -75% | -75% |
-| 0.05–0.1% | 1782 | 6 | 3% | 1% | -52% | -92% | -92% |
-| 0.1–0.2% | 2563 | 8 | 4% | 2% | -61% | -91% | -92% |
-| 0.2–0.5% | 2757 | 16 | 5% | 3% | -36% | -89% | -88% |
-| Over 0.5% | 1105 | 5 | 6% | 2% | -53% | -88% | -90% |
+| Under 0.05% | 1809 | 9 | 2% | 1% | -17% | -75% | -75% |
+| 0.05–0.1% | 1783 | 6 | 3% | 1% | -52% | -92% | -92% |
+| 0.1–0.2% | 2564 | 8 | 4% | 2% | -61% | -91% | -92% |
+| 0.2–0.5% | 2758 | 16 | 5% | 3% | -36% | -89% | -88% |
+| Over 0.5% | 1106 | 5 | 6% | 2% | -53% | -88% | -90% |
 
 ## By time of day
 
@@ -165,7 +165,7 @@
 |---|---|---|---|---|---|---|---|
 | Night (12–6am MT) | 3699 | 20 | 4% | 2% | -37% | -85% | -86% |
 | Morning (6am–12pm) | 3615 | 20 | 4% | 2% | -36% | -91% | -90% |
-| Afternoon (12–6pm) | 3357 | 9 | 3% | 1% | -68% | -90% | -90% |
+| Afternoon (12–6pm) | 3365 | 9 | 3% | 1% | -68% | -90% | -90% |
 | Evening (6pm–12am) | 3991 | 10 | 3% | 1% | -71% | -94% | -94% |
 
 ## Speed & liquidity
@@ -173,7 +173,7 @@
 | Metric | Typical (median) |
 |---|---|
 | Our buy vs Kalshi's first 1¢ trade | 25 sec |
-| Contracts traded at 1¢ after our buy (room to buy more) | 4,491 |
+| Contracts traded at 1¢ after our buy (room to buy more) | 4,492 |
 | Time from buy to best bounce (bounced bets) | 48 sec |
 | Price snapshots per bet | 42 |
 
@@ -183,8 +183,14 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10/11 1:41:58 PM | ETH | DOWN | 3.0 min | +0.115% | — | In play | — |
-| 10/11 1:40:23 PM | ZEC | DOWN | 4.6 min | +0.658% | — | In play | — |
+| 10/11 1:44:40 PM | SOL | DOWN | 19 sec | +0.044% | 0¢ | ❌ Lost | -$0.15 |
+| 10/11 1:44:40 PM | XRP | DOWN | 19 sec | +0.028% | 0¢ | ❌ Lost | -$0.15 |
+| 10/11 1:44:40 PM | HYPE | UP | 19 sec | -0.030% | 0¢ | ❌ Lost | $0.00 |
+| 10/11 1:44:24 PM | BTC | DOWN | 35 sec | +0.045% | 0¢ | ❌ Lost | $0.00 |
+| 10/11 1:44:08 PM | NEAR | UP | 51 sec | -0.425% | 1¢ | ❌ Lost | -$0.15 |
+| 10/11 1:43:37 PM | DOGE | DOWN | 82 sec | +0.099% | 1¢ | ❌ Lost | -$0.15 |
+| 10/11 1:41:58 PM | ETH | DOWN | 3.0 min | +0.115% | 1¢ | ❌ Lost | -$0.15 |
+| 10/11 1:40:23 PM | ZEC | DOWN | 4.6 min | +0.658% | 0¢ | ❌ Lost | $0.00 |
 | 10/11 1:29:36 PM | ETH | UP | 24 sec | -0.022% | 0¢ | ❌ Lost | $0.00 |
 | 10/11 1:29:36 PM | SOL | UP | 24 sec | -0.065% | 0¢ | ❌ Lost | $0.00 |
 | 10/11 1:29:20 PM | BTC | UP | 40 sec | -0.023% | 1¢ | ❌ Lost | -$0.15 |
@@ -207,12 +213,6 @@
 | 10/11 12:57:23 PM | XRP | UP | 2.6 min | -0.312% | 1¢ | ❌ Lost | -$0.15 |
 | 10/11 12:56:51 PM | ZEC | UP | 3.1 min | -0.385% | 0¢ | ❌ Lost | -$0.15 |
 | 10/11 12:56:51 PM | SOL | UP | 3.1 min | -0.262% | 1¢ | ❌ Lost | -$0.15 |
-| 10/11 12:55:01 PM | BNB | UP | 5.0 min | -0.243% | 3¢ | ❌ Lost | -$0.15 |
-| 10/11 12:12:42 PM | ZEC | UP | 2.3 min | -0.385% | 1¢ | ❌ Lost | -$0.15 |
-| 10/11 12:11:37 PM | HYPE | UP | 3.4 min | -0.267% | 0¢ | ❌ Lost | $0.00 |
-| 10/11 11:59:05 AM | NEAR | UP | 54 sec | -0.686% | 0¢ | ❌ Lost | $0.00 |
-| 10/11 11:58:47 AM | SOL | UP | 73 sec | -0.123% | 0¢ | ❌ Lost | -$0.15 |
-| 10/11 11:58:47 AM | ZEC | UP | 73 sec | -0.322% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
