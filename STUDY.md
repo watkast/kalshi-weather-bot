@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 5:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 5:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 40 finished bets | 2% | $8.00 | +133% | +20.00¢ | -$3.00 / $11.00 |
 
-*Expect about **3 buys a day**, roughly **$0.51/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.50/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10093 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
+| 10104 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 884 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9159 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9163 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2325 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2327 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -203,6 +203,7 @@
 | Eliteserien Game | ✘ | 14 | 0 | 21% | 14% | -100% | -63% | 9 min |
 | Turkish Super Lig Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 13 min |
 | Liga Portugal Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
+| Venezuela Liga FUTVE game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 10 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Liga MX Game | ✔ | 13 | 0 | 15% | 15% | -100% | -73% | 1 min |
 | Sweden SBL Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 16 min |
@@ -218,7 +219,6 @@
 | Swiss Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 28 min |
 | Israeli Premier League Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Super League Greece Game | ✘ | 12 | 0 | 25% | 8% | -100% | -57% | 13 min |
-| Venezuela Liga FUTVE game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 12 min |
 | Women's ODI Cricket Match | ✘ | 11 | 0 | 18% | 9% | -100% | -68% | 50 min |
 | Finnish Ykkosliiga Game | ✘ | 11 | 1 | 9% | 9% | +748% | -84% | 15 min |
 | Allsvenskan Game | ✘ | 11 | 0 | 27% | 27% | -100% | -53% | 14 min |
@@ -278,8 +278,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 23:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 23:43 | eSoccer Game | Girona (Kovboj) | ✘ | — | — | In play | — |
+| 10-11 23:56 | eSoccer Game | CA Osasuna (Kovboj) | ✘ | — | — | In play | — |
+| 10-11 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | — | In play | — |
+| 10-11 23:56 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:54 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
+| 10-11 23:52 | eSoccer Game | Flamengo (Eder) | ✘ | — | — | In play | — |
+| 10-11 23:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:51 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:50 | Venezuela Liga FUTVE game | Est. Merida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:43 | eSoccer Game | Girona (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:41 | NFL Game | Seattle | ✔ | 0:47 - 4th · SF 32 - SEA 29 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:39 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:39 | NHL Game | Washington | ✔ | 1:38 - 3rd · SEA 5 - WSH 3 | 0¢ | ❌ Lost | -$0.15 |
@@ -297,17 +308,6 @@
 | 10-11 23:27 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:27 | Ecuador Liga Pro Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-11 23:27 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:25 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:24 | eSoccer Game | Botafogo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:24 | eSoccer Game | Estudiantes (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:23 | Bolivia Premier Division Game | Aurora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:23 | eSoccer Game | Nantes (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:23 | Bolivia Premier Division Game | Nacional Potosi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:23 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:22 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
