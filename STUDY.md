@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 7:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 7:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8519 | 748 | 5 (1%) | 1.1% | -$42.20 (-38%) | Hold to the end: -$42.20 (-38%) |
+| 8537 | 749 | 5 (1%) | 1.1% | -$42.35 (-38%) | Hold to the end: -$42.35 (-38%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 64. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 164 | 2.9% | 0.0% (0) | -248% | ❌ Worse |
+| ESPN win probability | 165 | 2.8% | 0.0% (0) | -246% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 164 | 0 | -100% | -75% | -75% | -74% |
+| **Any 1¢ (no model)** | 165 | 0 | -100% | -75% | -75% | -74% |
 | ESPN win probability ≥ 2% | 35 | 0 | -100% | -70% | -70% | -88% |
 | ESPN win probability ≥ 5% | 13 | 0 | -100% | -87% | -80% | -100% |
 | ESPN win probability ≥ 10% | 8 | 0 | -100% | -78% | -68% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 748 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7718 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 749 | 15% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 7724 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 5 | 1% | -$42.20 | -38% |
-| Sell at 2¢ | 109 | 15% | -$83.86 | -75% |
-| Sell at 3¢ | 76 | 10% | -$82.56 | -74% |
-| Sell at 5¢ | 50 | 7% | -$79.70 | -71% |
-| Sell at 10¢ | 23 | 3% | -$82.07 | -73% |
-| Sell at 25¢ | 9 | 1% | -$82.41 | -73% |
-| Sell at 50¢ | 7 | 1% | -$64.95 | -58% |
+| Hold to the end | 5 | 1% | -$42.35 | -38% |
+| Sell at 2¢ | 109 | 15% | -$84.01 | -75% |
+| Sell at 3¢ | 76 | 10% | -$82.71 | -74% |
+| Sell at 5¢ | 50 | 7% | -$79.85 | -71% |
+| Sell at 10¢ | 23 | 3% | -$82.22 | -73% |
+| Sell at 25¢ | 9 | 1% | -$82.56 | -73% |
+| Sell at 50¢ | 7 | 1% | -$65.10 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1584 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1586 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 515 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 505 | 1 | 4% | 3% | -82% | -93% | 10 min |
@@ -100,7 +100,7 @@
 | Challenger ATP  | ✘ | 297 | 2 | 9% | 2% | -37% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | eBasketball Game | ✘ | 177 | 1 | 0% | 0% | -47% | -47% | 1 min |
-| College Football Game | partly | 167 | 2 | 12% | 5% | +12% | -79% | 33 min |
+| College Football Game | partly | 168 | 2 | 12% | 5% | +11% | -79% | 33 min |
 | Darts Match | ✘ | 153 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 119 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -224,17 +224,17 @@
 | LKL Lithuania Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Eliteserien Game | ✘ | 6 | 0 | 33% | 17% | -100% | -42% | 14 min |
+| Bolivia Premier Division Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 5 min |
 | English Premier League Game | ✔ | 6 | 0 | 17% | 17% | -100% | -71% | 1 min |
 | Swiss Super League Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 30 min |
+| Venezuela Liga FUTVE game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 20 min |
 | Croatia HNL Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 11 min |
 | Bundesliga Game | ✔ | 5 | 1 | 40% | 40% | +1767% | -31% | 19 min |
 | Serie A Game | ✔ | 5 | 0 | 20% | 20% | -100% | -65% | 40 min |
 | Slovenian Prva Liga Game | ✘ | 5 | 0 | 20% | 20% | -100% | -65% | 14 min |
 | Women's T20 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 27 min |
-| Bolivia Premier Division Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 4 min |
 | Serbian SuperLiga Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Super League Greece Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 12 min |
-| Venezuela Liga FUTVE game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Latvian Virsliga Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 33 min |
 | Scottish Premiership Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 87 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
@@ -255,7 +255,7 @@
 | 5–15 min | 144 | 18% | 6% | 2% | -69% |
 | 15–30 min | 111 | 31% | 17% | 2% | -47% |
 | 30–60 min | 93 | 13% | 8% | 0% | -78% |
-| Over 60 min | 86 | 20% | 13% | 0% | -66% |
+| Over 60 min | 87 | 20% | 13% | 0% | -66% |
 
 ## Speed & liquidity
 
@@ -273,9 +273,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 01:18 | Bolivia Premier Division Game | Academia del Balompie Boliviano | ✘ | — | — | In play | — |
-| 10-11 01:16 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
-| 10-11 01:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 01:31 | Major League Soccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 01:30 | AHL Game | Grand Rapids Griffins | ✘ | — | — | In play | — |
+| 10-11 01:30 | Major League Soccer Game | Dallas | ✔ | 90'+1' · DAL 2 - CLT 2 | — | In play | — |
+| 10-11 01:30 | Major League Soccer Game | Columbus | ✔ | 90' · CLB 2 - ORL 2 | — | In play | — |
+| 10-11 01:29 | Peru Liga 1 Game | Universitario | ✘ | — | — | In play | — |
+| 10-11 01:29 | Major League Soccer Game | Atlanta | ✔ | 90'+3' · CIN 2 - ATL 1 | — | In play | — |
+| 10-11 01:29 | AHL Game | Texas Stars | ✘ | — | — | In play | — |
+| 10-11 01:27 | NHL Game | Buffalo | ✔ | 8:36 - 3rd · UTA 4 - BUF 1 | — | In play | — |
+| 10-11 01:27 | eSoccer Game | Nantes (Ellen) | ✘ | — | — | In play | — |
+| 10-11 01:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 01:27 | Major League Soccer Game | Tie | ✔ | 88' · RSL 0 - PHI 2 | — | In play | — |
+| 10-11 01:26 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 10-11 01:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 01:26 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-11 01:25 | College Football Game | Northern Illinois | ✔ | 1:53 - 3rd · AFA 28 - NIU 7 | — | In play | — |
+| 10-11 01:24 | Major League Soccer Game | Salt Lake | ✔ | 86' · RSL 0 - PHI 1 | — | In play | — |
+| 10-11 01:23 | Bolivia Premier Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 01:22 | Major League Soccer Game | Tie | ✔ | 80' · SEA 2 - NE 0 | — | In play | — |
+| 10-11 01:18 | Bolivia Premier Division Game | Academia del Balompie Boliviano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 01:16 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 01:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 01:16 | Women's College Volleyball Match | Rutgers | ✘ | — | — | In play | — |
 | 10-11 01:16 | Major League Soccer Game | New England | ✔ | 74' · SEA 1 - NE 0 | — | In play | — |
 | 10-11 01:14 | eSoccer Game | Nantes (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -285,24 +303,6 @@
 | 10-11 01:13 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 01:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 01:09 | NBA Game | Los Angeles C | ✔ | 2:16 - 4th · LAC 95 - TOR 108 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:09 | College Football Game | West Georgia | ✘ | — | — | In play | — |
-| 10-11 01:09 | College Football Game | Marshall | ✔ | 7:45 - 3rd · CCU 27 - MRSH 0 | — | In play | — |
-| 10-11 01:09 | USL Championship Game | Tie | ✔ | 90'+9' · RHI 0 - DET 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:07 | Women's College Volleyball Match | Michigan | ✘ | — | — | In play | — |
-| 10-11 01:07 | NHL Game | Chicago | ✔ | 16:51 - 3rd · CAR 4 - CHI 1 | — | In play | — |
-| 10-11 01:06 | eSoccer Game | Chelsea (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:05 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:04 | College Football Game | Idaho St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:04 | College Hockey Game | Clarkson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:03 | College Hockey Game | Bentley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:03 | USL Championship Game | Rhode Island FC | ✔ | 90'+4' · RHI 0 - DET 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:03 | USL Championship Game | Hartford Athletic | ✔ | 90'+3' · HFD 1 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:03 | Women's College Volleyball Match | Missouri Kansas City | ✘ | — | — | In play | — |
-| 10-11 01:02 | eSoccer Game | Estudiantes (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:02 | USL Championship Game | Tie | ✔ | 90'+7' · LOU 1 - MIA 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 01:02 | Liga DIMAYOR Game | Internacional de Bogota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
