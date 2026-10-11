@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Oct 11 21:32 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Oct 11 21:42 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 8402 | 7275 | 1127 (38) | 0 | $-338.23 | -0.7% |
-| **20¢+ jump, ride past +5¢** | 5229 | 2894 | 2335 (1022) | 0 | $-1565.53 | -4.7% |
+| **20¢+ jump, sell +5¢** | 8404 | 7277 | 1127 (38) | 1 | $-337.13 | -0.7% |
+| **20¢+ jump, ride past +5¢** | 5230 | 2895 | 2335 (1022) | 0 | $-1565.18 | -4.7% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,10 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 21:36 | J20 | HYPE | DOWN | 27¢ | 0.47 | open |  |
+| 10-11 21:36 | J20 | HYPE | DOWN | 27¢ | 0.36 | 0.46 | 0.65 |
+| 10-11 21:36 | J20R | HYPE | DOWN | 27¢ | 0.38 | 0.45 | 0.35 |
+| 10-11 21:36 | J20 | HYPE | DOWN | 27¢ | 0.38 | 0.46 | 0.45 |
 | 10-11 21:07 | J20R | NEAR | UP | 40¢ | 0.85 | no | -8.56 |
 | 10-11 21:07 | J20 | NEAR | UP | 40¢ | 0.85 | no | -8.62 |
 | 10-11 21:05 | J20 | ETH | DOWN | 27¢ | 0.82 | 0.90 | 0.62 |
@@ -54,7 +58,3 @@
 | 10-11 20:41 | J20R | SOL | DOWN | 32¢ | 0.53 | yes | -5.48 |
 | 10-11 20:41 | J20 | SOL | DOWN | 32¢ | 0.53 | yes | -5.48 |
 | 10-11 20:39 | J20R | DOGE | UP | 29¢ | 0.76 | yes | 2.27 |
-| 10-11 20:39 | J20 | DOGE | UP | 29¢ | 0.76 | 0.83 | 0.47 |
-| 10-11 20:36 | J20R | ZEC | UP | 22¢ | 0.65 | no | -6.66 |
-| 10-11 20:36 | J20 | ZEC | UP | 22¢ | 0.65 | no | -6.66 |
-| 10-11 20:34 | J20R | SOL | UP | 20¢ | 0.76 | 0.82 | 0.36 |
