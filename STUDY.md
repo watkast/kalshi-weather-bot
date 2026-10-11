@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 4:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 4:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9992 | 874 | 6 (1%) | 1.1% | -$47.10 (-36%) | Hold to the end: -$47.10 (-36%) |
+| 9997 | 874 | 6 (1%) | 1.1% | -$47.10 (-36%) | Hold to the end: -$47.10 (-36%) |
 
 *In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 874 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9063 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9068 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2266 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2271 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 538 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 530 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -278,15 +278,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 22:04 | eSoccer Game | Real Betis (Kovboj) | ✘ | — | — | In play | — |
-| 10-11 22:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 22:02 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-11 22:17 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | — | In play | — |
+| 10-11 22:15 | ITF Women's Match | Ashleigh Harvey | ✘ | — | — | In play | — |
+| 10-11 22:12 | Brasileiro Serie A Game | Fluminense | ✔ | 80' · FLU 0 - FLA 1 | — | In play | — |
+| 10-11 22:09 | Chile Liga de Primera Game | Union La Calera | ✘ | — | — | In play | — |
+| 10-11 22:07 | Brasileiro Serie B Game | Nautico | ✘ | — | — | In play | — |
+| 10-11 22:04 | eSoccer Game | Real Betis (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:02 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:01 | Venezuela Liga FUTVE game | Zamora | ✘ | — | — | In play | — |
-| 10-11 22:00 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
+| 10-11 22:00 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:00 | AHL Game | Bridgeport Islanders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:59 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 21:59 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 10-11 21:59 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:57 | ITF Women's Match | Anastasia Malysheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:57 | Argentine Nacional B Game | Maipu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -303,11 +308,6 @@
 | 10-11 21:49 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:48 | AHL Game | Springfield Thunderbirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 21:48 | eBasketball Game | Denver Nuggets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 21:46 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 21:45 | Venezuela Liga FUTVE game | Academia Anzoategui FC | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-11 21:45 | eSoccer Game | Arsenal (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 21:45 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
