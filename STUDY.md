@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 10:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 10:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8715 | 798 | 5 (1%) | 1.1% | -$49.70 (-42%) | Hold to the end: -$49.70 (-42%) |
+| 8725 | 798 | 5 (1%) | 1.1% | -$49.70 (-42%) | Hold to the end: -$49.70 (-42%) |
 
 *In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 798 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7870 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7880 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1683 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1691 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 509 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -106,7 +106,7 @@
 | League of Legends Game | ✘ | 119 | 0 | 7% | 3% | -100% | -88% | 11 min |
 | Women's College Volleyball Match | ✘ | 109 | 2 | 6% | 3% | +71% | -89% | 64 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Men's T20 Cricket Match | ✘ | 99 | 0 | 14% | 4% | -100% | -75% | 19 min |
+| Men's T20 Cricket Match | ✘ | 100 | 0 | 14% | 4% | -100% | -76% | 20 min |
 | NHL Game | ✔ | 81 | 0 | 15% | 7% | -100% | -74% | 5 min |
 | Serie C Game | ✘ | 79 | 1 | 5% | 1% | +18% | -91% | 6 min |
 | Dota 2 Game | ✘ | 71 | 0 | 3% | 3% | -100% | -95% | 30 min |
@@ -142,8 +142,8 @@
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | SHL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 28 | 0 | 18% | 11% | -100% | -69% | 4 min |
+| WTA Tennis Match | ✘ | 27 | 0 | 7% | 0% | -100% | -87% | 4 min |
 | ELH Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| WTA Tennis Match | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 4 min |
 | Valorant game winner | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 15 min |
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Japan NPB Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -273,11 +273,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 04:27 | eSoccer Game | United States (Leyla) | ✘ | — | — | In play | — |
-| 10-11 04:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 04:25 | WTA Tennis Match | Ashlyn Krueger | ✘ | — | — | In play | — |
-| 10-11 04:21 | eSoccer Game | Spurs (Strudl) | ✘ | — | — | In play | — |
-| 10-11 04:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 04:37 | Major League Soccer Game | Los Angeles F | ✔ | 90'+4' · VAN 1 - LAFC 1 | — | In play | — |
+| 10-11 04:37 | Major League Soccer Game | Vancouver | ✔ | 90'+4' · VAN 1 - LAFC 1 | — | In play | — |
+| 10-11 04:33 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | — | In play | — |
+| 10-11 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 04:32 | eSoccer Game | Athletic Club (Eder) | ✘ | — | — | In play | — |
+| 10-11 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 04:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:29 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:29 | eSoccer Game | Real Sociedad (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:27 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:25 | WTA Tennis Match | Ashlyn Krueger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:21 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 04:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 04:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 04:18 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 04:17 | eSoccer Game | Frankfurt (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -293,16 +303,6 @@
 | 10-11 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 04:02 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:02 | eSoccer Game | Frankfurt (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:01 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:59 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:53 | eSoccer Game | West Ham (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:51 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:51 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:49 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
