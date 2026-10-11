@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 2:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 2:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8919 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
+| 8924 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
 
-*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 806 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8062 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8071 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,14 +92,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1824 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1830 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 510 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 439 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 303 | 2 | 9% | 2% | -38% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
-| eBasketball Game | ✘ | 196 | 1 | 0% | 0% | -52% | -52% | 1 min |
+| eBasketball Game | ✘ | 198 | 1 | 0% | 0% | -53% | -53% | 1 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 154 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -143,8 +143,8 @@
 | EuroCup Basketball Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 8 min |
 | SHL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brasileiro Serie A Game | partly | 28 | 0 | 18% | 11% | -100% | -69% | 4 min |
+| Japan NPB Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | ELH Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Japan NPB Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Valorant game winner | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 15 min |
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Argentine Nacional B Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 11 min |
@@ -273,17 +273,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 08:11 | Japan NPB Game | Saitama Seibu Lions | ✘ | — | — | In play | — |
-| 10-11 08:10 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | — | In play | — |
-| 10-11 08:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 08:10 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | — | In play | — |
-| 10-11 08:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 08:09 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | — | In play | — |
+| 10-11 08:20 | eSoccer Game | Juventus (Bradley) | ✘ | — | — | In play | — |
+| 10-11 08:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 08:19 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-11 08:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 08:19 | Challenger ATP  | Beibit Zhukayev | ✘ | — | — | In play | — |
+| 10-11 08:11 | Japan NPB Game | Saitama Seibu Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:10 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:10 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:09 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 08:07 | Overwatch Game | O2 Blast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 08:07 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | — | In play | — |
+| 10-11 08:07 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 08:07 | China League 1 Game | Foshan Nanshi FC | ✘ | — | — | In play | — |
-| 10-11 08:06 | eSoccer Game | Arsenal (Kylian) | ✘ | — | — | In play | — |
-| 10-11 08:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 08:06 | eSoccer Game | Arsenal (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 08:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 08:05 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 08:02 | Japan NPB Game | Yomiuri Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:59 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,11 +303,6 @@
 | 10-11 07:53 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:53 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 07:50 | Australia NBL Game | Illawarra Hawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 07:49 | Mobile Legends Bang Bang Game | Team Flash | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 07:46 | Japan J League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-11 07:45 | KBO Game | Kia Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 07:44 | Japan J2 League Game | Blaublitz A | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
