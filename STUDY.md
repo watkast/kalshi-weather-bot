@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 7:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 7:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9235 | 813 | 5 (1%) | 1.1% | -$51.95 (-43%) | Hold to the end: -$51.95 (-43%) |
+| 9255 | 813 | 5 (1%) | 1.1% | -$51.95 (-43%) | Hold to the end: -$51.95 (-43%) |
 
-*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 66. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 813 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8370 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8376 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -94,12 +94,12 @@
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 1975 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 526 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 515 | 1 | 4% | 3% | -82% | -93% | 11 min |
+| ITF Women's Match | ✘ | 527 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| Counter-Strike 2 Game | ✘ | 516 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 447 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 329 | 2 | 9% | 2% | -43% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
-| eBasketball Game | ✘ | 211 | 1 | 0% | 0% | -56% | -56% | 1 min |
+| eBasketball Game | ✘ | 213 | 1 | 0% | 0% | -56% | -56% | 1 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 161 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -107,7 +107,7 @@
 | Women's College Volleyball Match | ✘ | 109 | 2 | 6% | 3% | +71% | -89% | 64 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Men's T20 Cricket Match | ✘ | 106 | 1 | 14% | 5% | -12% | -75% | 20 min |
-| Challenger WTA | ✘ | 84 | 0 | 13% | 7% | -100% | -77% | 8 min |
+| Challenger WTA | ✘ | 85 | 0 | 13% | 7% | -100% | -78% | 8 min |
 | NHL Game | ✔ | 83 | 0 | 16% | 7% | -100% | -73% | 5 min |
 | Serie C Game | ✘ | 83 | 1 | 5% | 1% | +12% | -92% | 6 min |
 | Dota 2 Game | ✘ | 71 | 0 | 3% | 3% | -100% | -95% | 30 min |
@@ -124,8 +124,8 @@
 | Japan J2 League Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 8 min |
 | Liga DIMAYOR Game | ✘ | 39 | 1 | 10% | 3% | +139% | -82% | 6 min |
 | Argentina Primera Division Game | ✘ | 39 | 0 | 18% | 8% | -100% | -69% | 8 min |
+| Overwatch Game | ✘ | 38 | 0 | 5% | 0% | -100% | -91% | 5 min |
 | Major League Soccer Game | partly | 37 | 1 | 16% | 5% | +152% | -72% | 6 min |
-| Overwatch Game | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 5 min |
 | ATP Tennis Match | ✘ | 36 | 0 | 11% | 6% | -100% | -81% | 3 min |
 | Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | Liga Leumit Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -273,36 +273,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 13:20 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-11 13:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:19 | Bundesliga 2 Game | Bochum | ✔ | 88' · DSC 1 - BOC 0 | — | In play | — |
+| 10-11 13:19 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:19 | Singapore Premier League Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:18 | Bundesliga 2 Game | Tie | ✔ | 87' · KSC 0 - STP 2 | — | In play | — |
+| 10-11 13:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:18 | eSoccer Game | Rennes (Sheerpy) | ✘ | — | — | In play | — |
+| 10-11 13:17 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-11 13:17 | German 3. Liga Game | Ingolstadt | ✘ | — | — | In play | — |
+| 10-11 13:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 13:14 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:14 | Men's T20 Cricket Match | CSA Emerging | ✘ | — | — | In play | — |
+| 10-11 13:14 | Belgian Pro League Game | Standard | ✘ | — | — | In play | — |
+| 10-11 13:13 | Bundesliga 2 Game | Tie | ✔ | 85' · SGF 0 - BSC 2 | — | In play | — |
+| 10-11 13:13 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:12 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
+| 10-11 13:11 | Chinese Basketball Association Game  | Tianjin Pioneers | ✘ | — | — | In play | — |
+| 10-11 13:10 | Singapore Premier League Game | Tanjong Pagar United | ✘ | — | — | In play | — |
+| 10-11 13:10 | Swiss Super League Game | Grasshopper | ✘ | — | — | In play | — |
 | 10-11 13:08 | Bundesliga 2 Game | Greuther Furth | ✔ | 80' · SGF 0 - BSC 1 | — | In play | — |
-| 10-11 13:06 | ITF Women's Match | Kalina Simeonova | ✘ | — | — | In play | — |
+| 10-11 13:06 | ITF Women's Match | Kalina Simeonova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:05 | Chinese Basketball Association Game  | Zhejiang Lions | ✘ | — | — | In play | — |
-| 10-11 13:05 | Challenger WTA | Isabella Maria Serban | ✘ | — | — | In play | — |
-| 10-11 13:05 | Overwatch Game | HUNENG | ✘ | — | — | In play | — |
+| 10-11 13:05 | Challenger WTA | Isabella Maria Serban | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 13:05 | Overwatch Game | HUNENG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:05 | Challenger ATP  | Gabi Adrian Boitan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 13:04 | China League 1 Game | Jiangxi Dingnan United | ✘ | — | — | In play | — |
 | 10-11 13:02 | Darts Match | Michael Smith | ✘ | — | — | In play | — |
 | 10-11 13:01 | Dota 2 Game | PARIVISION | ✘ | — | — | In play | — |
 | 10-11 12:57 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:56 | Men's ODI Cricket Match | Canada | ✘ | — | — | In play | — |
-| 10-11 12:55 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:55 | Singapore Premier League Game | Tie | ✘ | — | — | In play | — |
-| 10-11 12:55 | China League 1 Game | Guangxi Hengchen FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:55 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:54 | EFL Championship Game | Tie | ✔ | 90'+6' · POR 0 - SOU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:53 | Czech First League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:52 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:51 | Challenger WTA | Lucrezia Stefanini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:51 | China League 1 Game | Nanjing City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:51 | China League 1 Game | Ningbo Professional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:49 | Vietnam V-League 1 Game | Nghe An | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:49 | Vietnam V-League 1 Game | Cong an TP Ho Chi Minh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:49 | Challenger ATP  | Joao Domingues | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:48 | Czech First League Game | Slovan Liberec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:48 | Thai League 1 Game | Lamphun Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:47 | Counter-Strike 2 Game | Gothic | ✘ | — | — | In play | — |
-| 10-11 12:47 | League of Legends Game | Saigon Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:47 | Latvian Virsliga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 12:47 | EFL Championship Game | Portsmouth | ✔ | 88' · POR 0 - SOU 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
