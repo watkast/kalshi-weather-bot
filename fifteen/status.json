@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-10-11T02:36:09+00:00",
+ "saved_at": "2026-10-11T02:46:18+00:00",
  "series": 31,
  "markets_watched": 9,
  "batch_lookup": true,
- "bets": 14047,
+ "bets": 14056,
  "open": 0,
  "coinbase_spot": {
   "DOGE": true,
@@ -16,5 +16,7 @@
   "ZEC": true,
   "NEAR": true
  },
- "errors": []
+ "errors": [
+  "2026-10-11T02:39:33+00:00 refresh KXADA15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ]
 }
