@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 4:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 4:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10032 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
+| 10041 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
 
-*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 62. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 880 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9089 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9099 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2281 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2289 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 540 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 530 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 455 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 346 | 2 | 9% | 2% | -46% | -85% | 5 min |
-| eBasketball Game | ✘ | 240 | 1 | 0% | 0% | -61% | -61% | 1 min |
+| eBasketball Game | ✘ | 241 | 1 | 0% | 0% | -61% | -61% | 1 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -117,7 +117,7 @@
 | Dota 2 Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
-| AHL Game | ✘ | 55 | 0 | 4% | 2% | -100% | -94% | 6 min |
+| AHL Game | ✘ | 56 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | R6 Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 9 min |
 | Brasileiro Serie B Game | ✘ | 52 | 0 | 4% | 2% | -100% | -93% | 11 min |
 | Ettan Game | ✘ | 51 | 0 | 8% | 2% | -100% | -86% | 6 min |
@@ -278,20 +278,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 22:47 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | — | In play | — |
-| 10-11 22:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:57 | ITF Women's Match | Mariya Dobreva | ✘ | — | — | In play | — |
+| 10-11 22:57 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-11 22:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:57 | Venezuela Liga FUTVE game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:56 | eSoccer Game | Nantes (July) | ✘ | — | — | In play | — |
+| 10-11 22:55 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
+| 10-11 22:54 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | — | In play | — |
+| 10-11 22:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:47 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:45 | Challenger ATP  | Leonardo Suarez | ✘ | — | — | In play | — |
 | 10-11 22:44 | Liga DIMAYOR Game | Tolima | ✘ | — | — | In play | — |
 | 10-11 22:43 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:43 | eSoccer Game | Boca Juniors (PinkElephant) | ✘ | — | — | In play | — |
-| 10-11 22:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 22:43 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | — | In play | — |
-| 10-11 22:41 | eSoccer Game | Everton (July) | ✘ | — | — | In play | — |
-| 10-11 22:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 22:41 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
-| 10-11 22:41 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-11 22:43 | eSoccer Game | Boca Juniors (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:43 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:41 | eSoccer Game | Everton (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:41 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:41 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:35 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
-| 10-11 22:35 | AHL Game | Chicago Wolves | ✘ | — | — | In play | — |
+| 10-11 22:35 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:33 | eSoccer Game | RC Celta (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:32 | ITF Women's Match | Maria Paula Manrique | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -299,15 +308,6 @@
 | 10-11 22:30 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:30 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:28 | Brasileiro Serie A Game | Internacional | ✔ | 90'+6' · INT 1 - GRE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:28 | Chile Liga de Primera Game | D. Concepcion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:28 | Counter-Strike 2 Game | Yawara Esports | ✘ | — | — | In play | — |
-| 10-11 22:28 | Brasileiro Serie A Game | Gremio | ✔ | 90'+5' · INT 1 - GRE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:28 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:27 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:26 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:26 | Brasileiro Serie B Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-11 22:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
