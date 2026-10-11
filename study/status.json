@@ -1,8 +1,8 @@
 {
- "saved_at": "2026-10-11T23:18:09+00:00",
+ "saved_at": "2026-10-11T23:28:35+00:00",
  "series_watched": 349,
  "markets_in_or_near_play": 207,
- "batch_lookup": true,
+ "batch_lookup": false,
  "espn_games_linked": 14,
  "espn_check": {
   "at": "2026-10-11T23:10:58+00:00",
@@ -12,7 +12,7 @@
    "KXMLSGAME-26OCT11STLLAG"
   ]
  },
- "bets": 10061,
+ "bets": 10077,
  "open": 60,
  "errors": []
 }
