@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-11T23:46:59+00:00",
+ "saved_at": "2026-10-11T23:57:12+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -81,15 +81,15 @@
  "open": 0,
  "results_known": 10866,
  "sigma_pct": {
-  "BNB": 0.0368,
-  "SOL": 0.0418,
-  "ETH": 0.0326,
-  "HYPE": 0.0388,
-  "NEAR": 0.2278,
-  "XRP": 0.0332,
-  "ZEC": 0.1109,
-  "BTC": 0.02,
-  "DOGE": 0.0376
+  "BNB": 0.0388,
+  "SOL": 0.0397,
+  "ETH": 0.0289,
+  "HYPE": 0.0337,
+  "NEAR": 0.1463,
+  "XRP": 0.0321,
+  "ZEC": 0.0898,
+  "BTC": 0.0212,
+  "DOGE": 0.0427
  },
  "errors": [
   "2026-10-11T20:10:54+00:00 refresh KXBTC15M: Response ended prematurely"
