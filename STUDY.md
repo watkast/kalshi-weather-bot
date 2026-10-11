@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 12:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 12:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8814 | 804 | 5 (1%) | 1.1% | -$50.60 (-42%) | Hold to the end: -$50.60 (-42%) |
+| 8822 | 805 | 5 (1%) | 1.1% | -$50.75 (-42%) | Hold to the end: -$50.75 (-42%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -46,7 +46,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 184 | 2.7% | 0.0% (0) | -221% | ❌ Worse |
+| ESPN win probability | 185 | 2.6% | 0.0% (0) | -219% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -54,7 +54,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 184 | 0 | -100% | -76% | -76% | -74% |
+| **Any 1¢ (no model)** | 185 | 0 | -100% | -76% | -76% | -74% |
 | ESPN win probability ≥ 2% | 37 | 0 | -100% | -72% | -72% | -88% |
 | ESPN win probability ≥ 5% | 14 | 0 | -100% | -88% | -81% | -100% |
 | ESPN win probability ≥ 10% | 8 | 0 | -100% | -78% | -68% | -100% |
@@ -69,8 +69,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 804 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7953 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 805 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 7964 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -78,13 +78,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 5 | 1% | -$50.60 | -42% |
-| Sell at 2¢ | 115 | 14% | -$90.70 | -75% |
-| Sell at 3¢ | 79 | 10% | -$89.79 | -74% |
-| Sell at 5¢ | 53 | 7% | -$86.15 | -71% |
-| Sell at 10¢ | 26 | 3% | -$86.54 | -72% |
-| Sell at 25¢ | 10 | 1% | -$87.50 | -73% |
-| Sell at 50¢ | 8 | 1% | -$66.60 | -55% |
+| Hold to the end | 5 | 1% | -$50.75 | -42% |
+| Sell at 2¢ | 116 | 14% | -$90.59 | -75% |
+| Sell at 3¢ | 79 | 10% | -$89.94 | -74% |
+| Sell at 5¢ | 53 | 7% | -$86.30 | -71% |
+| Sell at 10¢ | 26 | 3% | -$86.69 | -72% |
+| Sell at 25¢ | 10 | 1% | -$87.65 | -73% |
+| Sell at 50¢ | 8 | 1% | -$66.75 | -55% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -92,15 +92,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1749 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1759 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 509 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 439 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 300 | 2 | 9% | 2% | -38% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
-| eBasketball Game | ✘ | 191 | 1 | 0% | 0% | -51% | -51% | 1 min |
-| College Football Game | partly | 186 | 2 | 12% | 6% | +0% | -79% | 31 min |
+| eBasketball Game | ✘ | 192 | 1 | 0% | 0% | -51% | -51% | 1 min |
+| College Football Game | partly | 187 | 2 | 12% | 6% | -0% | -79% | 31 min |
 | Darts Match | ✘ | 154 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 119 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -253,7 +253,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 341 | 6% | 1% | 0% | -90% |
 | 5–15 min | 154 | 19% | 6% | 2% | -67% |
-| 15–30 min | 117 | 31% | 17% | 2% | -47% |
+| 15–30 min | 118 | 31% | 17% | 2% | -46% |
 | 30–60 min | 100 | 12% | 7% | 0% | -79% |
 | Over 60 min | 88 | 20% | 14% | 0% | -65% |
 
@@ -273,20 +273,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 06:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:29 | eSoccer Game | RCD Mallorca (Hazard) | ✘ | — | — | In play | — |
+| 10-11 06:29 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-11 06:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:27 | eSoccer Game | Real Betis (Bradley) | ✘ | — | — | In play | — |
+| 10-11 06:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-11 06:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-11 06:19 | Korea K-League 2 Game | Ansan Greeners | ✘ | — | — | In play | — |
 | 10-11 06:19 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:17 | eSoccer Game | Rennes (Nairo) | ✘ | — | — | In play | — |
-| 10-11 06:16 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | — | In play | — |
-| 10-11 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:15 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
-| 10-11 06:14 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
-| 10-11 06:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:17 | eSoccer Game | Rennes (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:16 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:15 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:14 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:14 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
-| 10-11 06:13 | eSoccer Game | RCD Mallorca (Hazard) | ✘ | — | — | In play | — |
-| 10-11 06:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:13 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 10-11 06:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:13 | eSoccer Game | RCD Mallorca (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:13 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:04 | eSoccer Game | Toulouse FC (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:02 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -295,14 +303,6 @@
 | 10-11 06:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:00 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:00 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:59 | College Football Game | Fresno St. | ✔ | 9:14 - 4th · BOIS 35 - FRES 28 | — | In play | — |
-| 10-11 05:59 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:54 | Japan J2 League Game | Montedio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:52 | Challenger ATP  | Jay Friend | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:50 | eSoccer Game | Stade Brestois 29 (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
