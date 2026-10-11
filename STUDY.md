@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 12:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 1:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8837 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
+| 8850 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
 
-*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 59. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 806 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7976 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7985 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1769 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1777 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 509 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -165,6 +165,7 @@
 | China League 1 Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 5 min |
 | Australia NBL Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 8 min |
 | Adriatic ABA Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Korea K-League 2 Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 5 min |
 | TFF 1. Lig Game | ✘ | 15 | 0 | 20% | 7% | -100% | -65% | 15 min |
 | Brasileiro Serie C Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | APF Division de Honor Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 5 min |
@@ -172,7 +173,6 @@
 | Peru Liga 1 Game | ✘ | 14 | 0 | 29% | 21% | -100% | -50% | 6 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Copa Del Rey Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 33 min |
-| Korea K-League 2 Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | German 3. Liga Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 7 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Liga MX Game | ✔ | 13 | 0 | 15% | 15% | -100% | -73% | 1 min |
@@ -273,16 +273,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 06:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:59 | eSoccer Game | Toulouse FC (NINJA) | ✘ | — | — | In play | — |
+| 10-11 06:58 | Challenger ATP  | Qian Sun | ✘ | — | — | In play | — |
+| 10-11 06:57 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
+| 10-11 06:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:55 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | — | In play | — |
+| 10-11 06:55 | Japan J2 League Game | Kataller T | ✘ | — | — | In play | — |
+| 10-11 06:55 | Japan J2 League Game | Tegevajaro | ✘ | — | — | In play | — |
+| 10-11 06:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-11 06:52 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:50 | Japan J League Game | V-Varen | ✘ | — | — | In play | — |
+| 10-11 06:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:44 | eBasketball Game | Dallas Mavericks (Steve) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:43 | eSoccer Game | Real Betis (Bradley) | ✘ | — | — | In play | — |
-| 10-11 06:42 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-11 06:43 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:42 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:42 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:41 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
-| 10-11 06:41 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 10-11 06:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 06:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:41 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:41 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 06:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:39 | Korea K League Game | Ulsan HD | ✘ | — | — | In play | — |
 | 10-11 06:38 | KBO Game | Samsung Lions | ✘ | — | — | In play | — |
 | 10-11 06:35 | Men's T20 Cricket Match | Mongolia | ✘ | — | — | In play | — |
@@ -290,19 +303,6 @@
 | 10-11 06:31 | eSoccer Game | Toulouse FC (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:29 | eSoccer Game | RCD Mallorca (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:29 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:27 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:19 | Korea K-League 2 Game | Ansan Greeners | ✘ | — | — | In play | — |
-| 10-11 06:19 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-11 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:17 | eSoccer Game | Rennes (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:16 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:15 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
