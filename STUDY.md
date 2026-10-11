@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 5:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 5:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9099 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
+| 9108 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
 
-*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 806 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8238 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8246 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,12 +92,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1925 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1931 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 521 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 513 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 443 | 1 | 9% | 5% | -79% | -84% | 5 min |
-| Challenger ATP  | ✘ | 317 | 2 | 9% | 2% | -41% | -85% | 5 min |
+| Challenger ATP  | ✘ | 318 | 2 | 8% | 2% | -41% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | eBasketball Game | ✘ | 206 | 1 | 0% | 0% | -55% | -55% | 1 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -183,6 +183,7 @@
 | Canadian Premier League | ✘ | 13 | 1 | 31% | 31% | +618% | -47% | 29 min |
 | LNB Elite Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Czech National Football League Game | ✘ | 13 | 0 | 15% | 15% | -100% | -73% | 12 min |
+| Men's ODI Cricket Match | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 18 min |
 | Slovakia SBL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Serie A Femminile Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | Italy Serie A2 Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 18 min |
@@ -190,7 +191,6 @@
 | Bundesliga 2 Game | ✔ | 12 | 0 | 8% | 8% | -100% | -86% | 4 min |
 | Ligue 1 Game | ✔ | 12 | 0 | 25% | 17% | -100% | -57% | 19 min |
 | Women's ODI Cricket Match | ✘ | 11 | 0 | 18% | 9% | -100% | -68% | 50 min |
-| Men's ODI Cricket Match | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 20 min |
 | Austria BSL Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 5 min |
 | Spain Liga ACB Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 21 min |
 | Italy Serie A Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 6 min |
@@ -273,14 +273,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 11:18 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 11:17 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-11 11:13 | Challenger ATP  | Daniil Glinka | ✘ | — | — | In play | — |
-| 10-11 11:12 | Men's ODI Cricket Match | Australia A | ✘ | — | — | In play | — |
-| 10-11 11:11 | eSoccer Game | Wolves (Nairo) | ✘ | — | — | In play | — |
-| 10-11 11:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:28 | ITF Men's Match | Svarmanyu Singh | ✘ | — | — | In play | — |
+| 10-11 11:25 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | — | In play | — |
+| 10-11 11:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:23 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | — | In play | — |
+| 10-11 11:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:22 | Spain Liga ACB Game | Basquet Manresa | ✘ | — | — | In play | — |
+| 10-11 11:22 | eBasketball Game | Brooklyn Nets (Clyde) | ✘ | — | — | In play | — |
+| 10-11 11:21 | Darts Match | Jeffrey de Graaf | ✘ | — | — | In play | — |
+| 10-11 11:19 | Challenger ATP  | Radu David Turcanu | ✘ | — | — | In play | — |
+| 10-11 11:18 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:17 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:13 | Challenger ATP  | Daniil Glinka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:12 | Men's ODI Cricket Match | Australia A | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:11 | eSoccer Game | Wolves (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:10 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:07 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -294,15 +303,6 @@
 | 10-11 11:00 | Japan J2 League Game | Albirex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:00 | Japan J2 League Game | Shonan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 10:58 | Mobile Legends Bang Bang Game | Hydra Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:56 | eSoccer Game | Everton (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:56 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:55 | Mobile Legends Bang Bang Game | Invictus Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:55 | ITF Men's Match | Daniel Michalski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:53 | eSoccer Game | Frankfurt (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
