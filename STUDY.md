@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 5:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 5:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9089 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
+| 9099 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 806 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8230 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8238 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1917 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1925 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 521 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 513 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -273,14 +273,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 11:07 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
-| 10-11 11:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 11:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 11:06 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-11 11:18 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:17 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-11 11:13 | Challenger ATP  | Daniil Glinka | ✘ | — | — | In play | — |
+| 10-11 11:12 | Men's ODI Cricket Match | Australia A | ✘ | — | — | In play | — |
+| 10-11 11:11 | eSoccer Game | Wolves (Nairo) | ✘ | — | — | In play | — |
+| 10-11 11:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 11:10 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:07 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 11:06 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:04 | ITF Women's Match | Monika Gospodinova | ✘ | — | — | In play | — |
-| 10-11 11:03 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 10-11 11:03 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:03 | Challenger WTA | Ana Filipa Santos | ✘ | — | — | In play | — |
-| 10-11 11:02 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-11 11:02 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:00 | Japan J2 League Game | Albirex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 11:00 | Japan J2 League Game | Shonan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 10:58 | Mobile Legends Bang Bang Game | Hydra Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -293,16 +303,6 @@
 | 10-11 10:53 | eSoccer Game | Frankfurt (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:52 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:51 | Darts Match | Rob Cross | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:51 | Challenger ATP  | Yuquan Jin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:49 | Men's T20 Cricket Match | Eastern Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:49 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:46 | Mobile Legends Bang Bang Game | Twisted Minds PH | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:44 | Men's T20 Cricket Match | Mbizo Cricket Club | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-11 10:42 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
