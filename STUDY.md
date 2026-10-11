@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 9:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 9:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8660 | 794 | 5 (1%) | 1.1% | -$49.10 (-41%) | Hold to the end: -$49.10 (-41%) |
+| 8665 | 794 | 5 (1%) | 1.1% | -$49.10 (-41%) | Hold to the end: -$49.10 (-41%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 794 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7812 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7824 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1636 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1646 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 507 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -100,7 +100,7 @@
 | Challenger ATP  | ✘ | 297 | 2 | 9% | 2% | -37% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 184 | 2 | 12% | 6% | +1% | -79% | 31 min |
-| eBasketball Game | ✘ | 181 | 1 | 0% | 0% | -48% | -48% | 1 min |
+| eBasketball Game | ✘ | 183 | 1 | 0% | 0% | -49% | -49% | 1 min |
 | Darts Match | ✘ | 153 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 119 | 0 | 7% | 3% | -100% | -88% | 11 min |
@@ -273,16 +273,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 03:23 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | — | In play | — |
-| 10-11 03:22 | eSoccer Game | Stuttgart (Eder) | ✘ | — | — | In play | — |
-| 10-11 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 03:22 | eBasketball Game | New York Knicks (Bryce) | ✘ | — | — | In play | — |
-| 10-11 03:19 | eSoccer Game | England (Ellen) | ✘ | — | — | In play | — |
-| 10-11 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 03:19 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | — | In play | — |
-| 10-11 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 03:18 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 10-11 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 03:32 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 10-11 03:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 03:31 | Counter-Strike 2 Game | EMPIRE | ✘ | — | — | In play | — |
+| 10-11 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:23 | eSoccer Game | Manchester Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:23 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:22 | eSoccer Game | Stuttgart (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:22 | eBasketball Game | New York Knicks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:19 | eSoccer Game | England (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:19 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:18 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 03:17 | College Football Game | Kansas | ✔ | 7:13 - 4th · KU 24 - UTAH 40 | — | In play | — |
 | 10-11 03:15 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
 | 10-11 03:09 | Men's T20 Cricket Match | Maldives | ✘ | — | — | In play | — |
@@ -298,11 +303,6 @@
 | 10-11 03:04 | College Football Game | Syracuse | ✔ | 0:48 - 4th · SYR 25 - UVA 28 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 03:03 | Liga MX Game | Guadalajara | ✔ | 90'+9' · GDL 1 - ATS 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 03:03 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:03 | Liga MX Game | Atlas | ✔ | 90'+9' · GDL 1 - ATS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:02 | College Football Game | Alabama | ✔ | 2:19 - 4th · UGA 20 - ALA 17 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:01 | Liga Expansion Game | Alacranes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 03:01 | Liga Expansion Game | Jaiba Brava | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
