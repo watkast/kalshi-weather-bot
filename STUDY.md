@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 11:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 11:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8764 | 804 | 5 (1%) | 1.1% | -$50.60 (-42%) | Hold to the end: -$50.60 (-42%) |
+| 8776 | 804 | 5 (1%) | 1.1% | -$50.60 (-42%) | Hold to the end: -$50.60 (-42%) |
 
-*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 804 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7913 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7918 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1717 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1721 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 509 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -124,7 +124,7 @@
 | Liga DIMAYOR Game | ✘ | 39 | 1 | 10% | 3% | +139% | -82% | 6 min |
 | Argentina Primera Division Game | ✘ | 39 | 0 | 18% | 8% | -100% | -69% | 8 min |
 | Major League Soccer Game | partly | 37 | 1 | 16% | 5% | +152% | -72% | 6 min |
-| ATP Tennis Match | ✘ | 35 | 0 | 9% | 3% | -100% | -85% | 3 min |
+| ATP Tennis Match | ✘ | 36 | 0 | 11% | 6% | -100% | -81% | 3 min |
 | Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | Liga Leumit Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Liiga Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -273,10 +273,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 05:22 | eSoccer Game | Nantes (Mantis) | ✘ | — | — | In play | — |
-| 10-11 05:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 05:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 05:19 | eSoccer Game | RC Celta (Frost) | ✘ | — | — | In play | — |
+| 10-11 05:37 | Challenger ATP  | Siddhant Banthia | ✘ | — | — | In play | — |
+| 10-11 05:36 | College Football Game | Hawai'i | ✔ | 0:51 - 3rd · HAW 6 - ASU 23 | — | In play | — |
+| 10-11 05:36 | eSoccer Game | Girona (Bradley) | ✘ | — | — | In play | — |
+| 10-11 05:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 05:35 | eSoccer Game | Rennes (Nairo) | ✘ | — | — | In play | — |
+| 10-11 05:35 | eSoccer Game | AS Monaco (NINJA) | ✘ | — | — | In play | — |
+| 10-11 05:32 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | — | In play | — |
+| 10-11 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 05:32 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 10-11 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 05:31 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-11 05:30 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-11 05:22 | eSoccer Game | Nantes (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 05:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 05:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 05:19 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 05:19 | Challenger ATP  | Yutong Du | ✘ | — | — | In play | — |
 | 10-11 05:18 | WTA Tennis Match | Magdalena Frech | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 05:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -289,20 +301,8 @@
 | 10-11 05:09 | Liga MX Game | America | ✔ | 90'+5' · MTY 1 - AME 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 05:08 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 05:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:06 | ATP Tennis Match | Adrian Mannarino | ✘ | — | — | In play | — |
+| 10-11 05:06 | ATP Tennis Match | Adrian Mannarino | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-11 05:05 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:04 | eSoccer Game | CA Osasuna (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:03 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 05:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:56 | NBA Game | San Antonio | ✔ | 2:07 - 4th · SA 88 - PHX 100 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:52 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:52 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:50 | NHL Game | Los Angeles | ✔ | 2:26 - OT · LA 1 - VGK 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:49 | eSoccer Game | Manchester Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 04:47 | Men's T20 Cricket Match | Hong Kong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
