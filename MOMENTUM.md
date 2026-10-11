@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Oct 11 03:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Oct 11 03:15 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
 | **20¢+ jump, sell +5¢** | 7648 | 6632 | 1016 (36) | 0 | $-233.43 | -0.5% |
-| **20¢+ jump, ride past +5¢** | 4758 | 2649 | 2109 (930) | 1 | $-1362.58 | -4.5% |
+| **20¢+ jump, ride past +5¢** | 4759 | 2650 | 2109 (930) | 0 | $-1361.40 | -4.5% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,7 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 03:02 | J20R | XRP | DOWN | 26¢ | 0.77 | open |  |
+| 10-11 03:02 | J20R | XRP | DOWN | 26¢ | 0.77 | 0.91 | 1.18 |
 | 10-11 03:02 | J20 | XRP | DOWN | 26¢ | 0.77 | 0.82 | 0.26 |
 | 10-11 02:56 | J20R | ZEC | UP | 28¢ | 0.90 | yes | 0.92 |
 | 10-11 02:56 | J20 | ZEC | UP | 28¢ | 0.90 | 0.96 | 0.54 |
