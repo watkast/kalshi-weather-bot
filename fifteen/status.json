@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-10-11T05:34:07+00:00",
+ "saved_at": "2026-10-11T05:51:00+00:00",
  "series": 31,
  "markets_watched": 9,
  "batch_lookup": true,
- "bets": 14154,
+ "bets": 14163,
  "open": 0,
  "coinbase_spot": {
-  "DOGE": true,
+  "ZEC": true,
   "ETH": true,
   "HYPE": true,
   "SOL": true,
-  "BTC": true,
   "BNB": true,
+  "NEAR": true,
+  "DOGE": true,
   "XRP": true,
-  "ZEC": true,
-  "NEAR": true
+  "BTC": true
  },
- "errors": [
-  "2026-10-11T02:39:33+00:00 refresh KXADA15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
