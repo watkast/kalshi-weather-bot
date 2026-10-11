@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 12:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 12:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9709 | 855 | 6 (1%) | 1.1% | -$44.25 (-35%) | Hold to the end: -$44.25 (-35%) |
+| 9723 | 855 | 6 (1%) | 1.1% | -$44.25 (-35%) | Hold to the end: -$44.25 (-35%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 59. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 855 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8804 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8809 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2142 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2144 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 533 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 534 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 527 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 455 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 340 | 2 | 9% | 2% | -45% | -85% | 5 min |
-| eBasketball Game | ✘ | 226 | 1 | 0% | 0% | -59% | -59% | 1 min |
+| eBasketball Game | ✘ | 227 | 1 | 0% | 0% | -59% | -59% | 1 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -165,8 +165,8 @@
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
 | NFL Game | ✔ | 19 | 1 | 26% | 11% | +391% | -54% | 3 min |
 | LNB Elite 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Italy Serie A2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | TFF 1. Lig Game | ✘ | 19 | 0 | 16% | 5% | -100% | -73% | 8 min |
-| Italy Serie A2 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Bundesliga 2 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 8 min |
 | German 3. Liga Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 8 min |
 | Eredivisie Game | ✔ | 18 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -278,14 +278,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 18:05 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
+| 10-11 18:18 | Italy Serie A Game | BC Roma Spqr | ✘ | — | — | In play | — |
+| 10-11 18:15 | LKL Lithuania Game | BC Juventus Utena | ✘ | — | — | In play | — |
+| 10-11 18:15 | Serbian SuperLiga Game | Zemun | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Brighton (Antonio) | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Slavia Praha (Minjori) | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-11 18:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:14 | LaLiga 2 Game | Tie | ✔ | 82' · LPA 1 - MLL 2 | — | In play | — |
+| 10-11 18:11 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
+| 10-11 18:10 | Counter-Strike 2 Game | MOUZ | ✘ | — | — | In play | — |
+| 10-11 18:09 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 18:05 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:04 | Italy Serie A2 Game | AS Pistoia Basket 2000 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:04 | Belgian Pro League Game | Royal Antwerp | ✘ | — | — | In play | — |
 | 10-11 18:02 | Men's T20 Cricket Match | Takashinga 1 | ✘ | — | — | In play | — |
 | 10-11 18:01 | Challenger ATP  | Nicolas Ciancaglini | ✘ | — | — | In play | — |
-| 10-11 18:01 | eBasketball Game | Golden State Warriors (Mick) | ✘ | — | — | In play | — |
+| 10-11 18:01 | eBasketball Game | Golden State Warriors (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:00 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 18:00 | ITF Women's Match | Bruna Ferreira | ✘ | — | — | In play | — |
+| 10-11 18:00 | ITF Women's Match | Bruna Ferreira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-11 18:00 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 18:00 | eSoccer Game | Arsenal (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -294,20 +308,6 @@
 | 10-11 17:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 17:59 | Serie A Game | Sassuolo | ✔ | 90'+4' · MIL 1 - SAS 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 17:59 | ELH Game | Bili Tygri Liberec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:58 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:58 | eSoccer Game | West Ham (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:57 | Italy Serie A2 Game | Pallacanestro 2.015 Forli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:56 | TFF 1. Lig Game | Bursa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:56 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:56 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:55 | Danish Superliga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:54 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:54 | Turkish Super Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:52 | Slovenia 1. SKL Game | Šentjur | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 17:52 | Italy Serie A2 Game | Juvi Cremona 1952 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
