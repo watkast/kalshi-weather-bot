@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 11, 5:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 11, 5:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14838 | 14831 | 59 (0%) | 1.07% | -$960.65 (-54%) | Hold to the close: -$960.65 (-54%) |
+| 14841 | 14831 | 59 (0%) | 1.07% | -$960.65 (-54%) | Hold to the close: -$960.65 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/11 5:25:45 PM | GOLD | DOWN | 4.2 min | — | — | In play | — |
+| 10/11 5:25:30 PM | ZEC | DOWN | 4.5 min | +0.665% | — | In play | — |
+| 10/11 5:24:58 PM | WTI | UP | 5.0 min | — | — | In play | — |
 | 10/11 5:14:46 PM | NATGAS | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/11 5:14:14 PM | XRP | DOWN | 45 sec | +0.007% | 0¢ | ❌ Lost | -$0.15 |
 | 10/11 5:13:58 PM | PLATINUM | DOWN | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/11 4:59:15 PM | USDCAD | DOWN | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/11 4:59:15 PM | AUDUSD | UP | 44 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/11 4:58:59 PM | ETH | UP | 60 sec | -0.033% | 0¢ | ❌ Lost | -$0.15 |
-| 10/11 4:58:59 PM | XRP | UP | 60 sec | -0.106% | 0¢ | ❌ Lost | -$0.15 |
-| 10/11 4:58:59 PM | EURUSD | UP | 60 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/11 4:58:28 PM | BTC | UP | 1.5 min | -0.036% | 1¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
