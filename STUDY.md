@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 5:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 5:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10045 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
+| 10061 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 60. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 880 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9109 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9121 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2296 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2304 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 530 | 1 | 4% | 3% | -82% | -93% | 11 min |
+| Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 455 | 1 | 9% | 5% | -79% | -84% | 5 min |
-| Challenger ATP  | ✘ | 346 | 2 | 9% | 2% | -46% | -85% | 5 min |
-| eBasketball Game | ✘ | 241 | 1 | 0% | 0% | -61% | -61% | 1 min |
+| Challenger ATP  | ✘ | 347 | 2 | 9% | 2% | -46% | -85% | 5 min |
+| eBasketball Game | ✘ | 242 | 1 | 0% | 0% | -61% | -61% | 1 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -278,9 +278,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 23:17 | AHL Game | Belleville Senators | ✘ | — | — | In play | — |
+| 10-11 23:17 | NFL Game | Los Angeles C | ✔ | 0:03 - 4th · DEN 23 - LAC 17 | — | In play | — |
+| 10-11 23:15 | eSoccer Game | FC Barcelona (Krocs) | ✘ | — | — | In play | — |
+| 10-11 23:13 | Ecuador Liga Pro Game | Barcelona | ✘ | — | — | In play | — |
+| 10-11 23:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:12 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-11 23:12 | Overwatch Game | Disguised | ✘ | — | — | In play | — |
+| 10-11 23:12 | Uruguay Primera Division Game | Central Espanol | ✘ | — | — | In play | — |
+| 10-11 23:12 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | — | In play | — |
+| 10-11 23:12 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:10 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:09 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:08 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:05 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:01 | eSoccer Game | Girona (Kovboj) | ✘ | — | — | In play | — |
-| 10-11 23:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:01 | eSoccer Game | Girona (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:00 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
 | 10-11 22:57 | ITF Women's Match | Mariya Dobreva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:57 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -292,22 +308,6 @@
 | 10-11 22:54 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:47 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:45 | Challenger ATP  | Leonardo Suarez | ✘ | — | — | In play | — |
-| 10-11 22:44 | Liga DIMAYOR Game | Tolima | ✘ | — | 19¢ | ❌ Lost | -$0.15 |
-| 10-11 22:43 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:43 | eSoccer Game | Boca Juniors (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:43 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:41 | eSoccer Game | Everton (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:41 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:41 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:35 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | — | In play | — |
-| 10-11 22:35 | AHL Game | Chicago Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:33 | eSoccer Game | RC Celta (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:32 | ITF Women's Match | Maria Paula Manrique | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
