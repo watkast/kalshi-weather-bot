@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-11T19:50:32+00:00",
+ "saved_at": "2026-10-11T20:00:44+00:00",
  "series_watched": 349,
- "markets_in_or_near_play": 309,
+ "markets_in_or_near_play": 286,
  "batch_lookup": true,
- "espn_games_linked": 22,
+ "espn_games_linked": 26,
  "espn_check": {
-  "at": "2026-10-11T19:25:18+00:00",
-  "started_games": 12,
-  "matched": 11,
+  "at": "2026-10-11T19:56:25+00:00",
+  "started_games": 14,
+  "matched": 13,
   "unmatched_sample": [
    "KXBRASILEIROGAME-26OCT11ATLSAN"
   ]
  },
- "bets": 9842,
+ "bets": 9855,
  "open": 69,
  "errors": []
 }
