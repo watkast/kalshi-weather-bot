@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 1:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 1:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 9809 | 859 | 6 (1%) | 1.1% | -$44.85 (-35%) | Hold to the end: -$44.85 (-35%) |
+| 9821 | 859 | 6 (1%) | 1.1% | -$44.85 (-35%) | Hold to the end: -$44.85 (-35%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 859 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8897 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8899 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -183,6 +183,7 @@
 | Korea K-League 2 Game | ✘ | 16 | 0 | 12% | 6% | -100% | -78% | 6 min |
 | Indonesia Super League Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 10 min |
 | Thai League 1 Game | ✘ | 16 | 0 | 19% | 0% | -100% | -68% | 7 min |
+| Serie B Game | ✘ | 16 | 0 | 12% | 6% | -100% | -78% | 15 min |
 | Ligue 2 Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 5 min |
 | Ligue 1 Game | ✔ | 16 | 0 | 19% | 12% | -100% | -68% | 12 min |
 | Copa Del Rey Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 34 min |
@@ -195,7 +196,6 @@
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Eliteserien Game | ✘ | 14 | 0 | 21% | 14% | -100% | -63% | 9 min |
 | Turkish Super Lig Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 13 min |
-| Serie B Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 23 min |
 | La Liga Game | ✔ | 14 | 0 | 43% | 29% | -100% | -26% | 19 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
 | Liga MX Game | ✔ | 13 | 0 | 15% | 15% | -100% | -73% | 1 min |
@@ -278,10 +278,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 19:39 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-11 19:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 19:38 | eSoccer Game | Paris Saint-Germain (Minjori) | ✘ | — | — | In play | — |
+| 10-11 19:37 | Women's College Volleyball Match | LSU | ✘ | — | — | In play | — |
+| 10-11 19:36 | eSoccer Game | Chelsea (Fede) | ✘ | — | — | In play | — |
+| 10-11 19:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 19:34 | Women's College Volleyball Match | Virginia Tech | ✘ | — | — | In play | — |
+| 10-11 19:34 | eSoccer Game | Sunderland (Shaq) | ✘ | — | — | In play | — |
+| 10-11 19:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 19:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 19:33 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 10-11 19:33 | Counter-Strike 2 Game | Lavked | ✘ | — | — | In play | — |
 | 10-11 19:28 | Men's T20 Cricket Match | India Champions | ✘ | — | — | In play | — |
 | 10-11 19:28 | Argentina Primera Division Game | Riestra | ✘ | — | — | In play | — |
-| 10-11 19:27 | Serie B Game | Tie | ✘ | — | — | In play | — |
-| 10-11 19:26 | Serie B Game | Hellas Verona | ✘ | — | — | In play | — |
+| 10-11 19:27 | Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 19:26 | Serie B Game | Hellas Verona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 19:26 | ITF Women's Match | Sara Soares Almeida Afonso Ferreira | ✘ | — | — | In play | — |
 | 10-11 19:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 19:24 | eSoccer Game | FC Bayern (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -296,18 +308,6 @@
 | 10-11 19:20 | Rugby French 14 Match | Tie | ✘ | — | — | In play | — |
 | 10-11 19:19 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 19:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:19 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:19 | DEL Game | Straubing Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:18 | eSoccer Game | Everton (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:12 | NFL Game | Tennessee | ✔ | 15:00 - 4th · HOU 19 - TEN 3 | — | In play | — |
-| 10-11 19:11 | Belgian Pro League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:10 | Eliteserien Game | Molde | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:09 | Eliteserien Game | Lillestroem | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-11 19:08 | eSoccer Game | Aston Villa (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:08 | eSoccer Game | West Ham (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 19:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
