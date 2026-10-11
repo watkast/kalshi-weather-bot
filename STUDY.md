@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 4:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 5:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10041 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
+| 10045 | 880 | 6 (1%) | 1.1% | -$48.00 (-36%) | Hold to the end: -$48.00 (-36%) |
 
-*In play right now: 62. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 880 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9099 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9109 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2289 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2296 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 540 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 530 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 455 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 346 | 2 | 9% | 2% | -46% | -85% | 5 min |
@@ -126,10 +126,10 @@
 | KHL Game | ✘ | 46 | 0 | 4% | 2% | -100% | -92% | 5 min |
 | KBO Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 7 min |
 | Argentina Primera Division Game | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 8 min |
+| Liga DIMAYOR Game | ✘ | 41 | 1 | 12% | 5% | +128% | -79% | 6 min |
 | Overwatch Game | ✘ | 41 | 0 | 5% | 0% | -100% | -92% | 5 min |
 | USL Championship Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 6 min |
 | Japan J2 League Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 8 min |
-| Liga DIMAYOR Game | ✘ | 39 | 1 | 10% | 3% | +139% | -82% | 6 min |
 | Major League Soccer Game | partly | 37 | 1 | 16% | 5% | +152% | -72% | 6 min |
 | Brasileiro Serie A Game | partly | 37 | 1 | 19% | 11% | +152% | -67% | 6 min |
 | Uruguay Primera Division Game | ✘ | 36 | 0 | 8% | 6% | -100% | -86% | 10 min |
@@ -278,19 +278,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 22:57 | ITF Women's Match | Mariya Dobreva | ✘ | — | — | In play | — |
-| 10-11 22:57 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
-| 10-11 22:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:05 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:01 | eSoccer Game | Girona (Kovboj) | ✘ | — | — | In play | — |
+| 10-11 23:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:00 | Brasileiro Serie B Game | Ferroviario | ✘ | — | — | In play | — |
+| 10-11 22:57 | ITF Women's Match | Mariya Dobreva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:57 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:57 | Venezuela Liga FUTVE game | Tie | ✘ | — | — | In play | — |
-| 10-11 22:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 22:56 | eSoccer Game | Nantes (July) | ✘ | — | — | In play | — |
-| 10-11 22:55 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
-| 10-11 22:54 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | — | In play | — |
-| 10-11 22:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 22:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:56 | eSoccer Game | Nantes (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:55 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:54 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 22:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:47 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:45 | Challenger ATP  | Leonardo Suarez | ✘ | — | — | In play | — |
-| 10-11 22:44 | Liga DIMAYOR Game | Tolima | ✘ | — | — | In play | — |
+| 10-11 22:44 | Liga DIMAYOR Game | Tolima | ✘ | — | 19¢ | ❌ Lost | -$0.15 |
 | 10-11 22:43 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:43 | eSoccer Game | Boca Juniors (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-11 22:33 | eSoccer Game | RC Celta (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 22:32 | ITF Women's Match | Maria Paula Manrique | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:31 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · FLU 0 - FLA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:30 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:30 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 22:28 | Brasileiro Serie A Game | Internacional | ✔ | 90'+6' · INT 1 - GRE 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
