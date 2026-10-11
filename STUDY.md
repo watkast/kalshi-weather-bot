@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 1:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 1:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,9 +30,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8866 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
+| 8877 | 806 | 5 (1%) | 1.1% | -$50.90 (-42%) | Hold to the end: -$50.90 (-42%) |
 
-*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 806 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 8014 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 8019 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,12 +92,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1795 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1799 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 516 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 509 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 439 | 1 | 9% | 5% | -79% | -84% | 5 min |
-| Challenger ATP  | ✘ | 301 | 2 | 9% | 2% | -38% | -85% | 5 min |
+| Challenger ATP  | ✘ | 302 | 2 | 9% | 2% | -38% | -85% | 5 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | eBasketball Game | ✘ | 196 | 1 | 0% | 0% | -52% | -52% | 1 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -273,6 +273,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-11 07:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 07:27 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | — | In play | — |
+| 10-11 07:26 | eSoccer Game | Arsenal (Kylian) | ✘ | — | — | In play | — |
+| 10-11 07:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 07:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 07:24 | eSoccer Game | Juventus (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 07:24 | eSoccer Game | Real Madrid (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 07:24 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
+| 10-11 07:22 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 07:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 07:21 | Japan J League Game | Tokyo V | ✘ | — | — | In play | — |
 | 10-11 07:17 | Men's T20 Cricket Match | Bhutan | ✘ | — | — | In play | — |
 | 10-11 07:13 | eSoccer Game | Stade Brestois 29 (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:13 | eSoccer Game | AS Monaco (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -286,23 +297,12 @@
 | 10-11 07:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:08 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 07:08 | Challenger ATP  | Semen Pankin | ✘ | — | — | In play | — |
+| 10-11 07:08 | Challenger ATP  | Semen Pankin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-11 07:01 | WTA Tennis Match | Camila Osorio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 07:00 | Japan J League Game | United Chiba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:59 | eSoccer Game | Toulouse FC (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 06:58 | Challenger ATP  | Qian Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:57 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:55 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:55 | Japan J2 League Game | Kataller T | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:55 | Japan J2 League Game | Tegevajaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 06:52 | Korea K League Game | Tie | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-11 06:50 | Japan J League Game | V-Varen | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-11 06:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
