@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sat Oct 10, 11:55 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Sun Oct 11, 1:05 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
