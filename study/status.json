@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-11T09:25:03+00:00",
+ "saved_at": "2026-10-11T09:36:28+00:00",
  "series_watched": 349,
- "markets_in_or_near_play": 271,
+ "markets_in_or_near_play": 293,
  "batch_lookup": true,
- "espn_games_linked": 14,
+ "espn_games_linked": 0,
  "espn_check": {
-  "at": "2026-10-11T09:18:57+00:00",
+  "at": "2026-10-11T09:26:23+00:00",
   "started_games": 1,
   "matched": 0,
   "unmatched_sample": [
    "KXUSLGAME-26OCT10SPOBIR"
   ]
  },
- "bets": 8985,
- "open": 53,
+ "bets": 8994,
+ "open": 49,
  "errors": []
 }
