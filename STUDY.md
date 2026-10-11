@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 10, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 10, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -30,7 +30,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 8447 | 735 | 5 (1%) | 1.1% | -$40.25 (-37%) | Hold to the end: -$40.25 (-37%) |
+| 8453 | 735 | 5 (1%) | 1.1% | -$40.25 (-37%) | Hold to the end: -$40.25 (-37%) |
 
 *In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -70,7 +70,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 735 | 15% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 7668 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 7674 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -92,7 +92,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 1552 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 1558 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 515 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 503 | 1 | 4% | 3% | -81% | -93% | 10 min |
@@ -273,14 +273,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 00:20 | eSoccer Game | Nantes (Ellen) | ✘ | — | — | In play | — |
-| 10-11 00:19 | eSoccer Game | Estudiantes (Frenkie) | ✘ | — | — | In play | — |
-| 10-11 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 00:28 | AHL Game | Hartford Wolf Pack | ✘ | — | — | In play | — |
+| 10-11 00:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 00:24 | eSoccer Game | Real Madrid (Mordor) | ✘ | — | — | In play | — |
+| 10-11 00:23 | Dota 2 Game | Skyreavers | ✘ | — | — | In play | — |
+| 10-11 00:21 | eSoccer Game | Botafogo (Hurricane) | ✘ | — | — | In play | — |
+| 10-11 00:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 00:20 | eSoccer Game | Nantes (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 00:19 | eSoccer Game | Estudiantes (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 00:18 | College Football Game | North Dakota | ✘ | — | — | In play | — |
 | 10-11 00:18 | Women's College Volleyball Match | Wisconsin | ✘ | — | — | In play | — |
-| 10-11 00:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 00:18 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | — | In play | — |
+| 10-11 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 00:18 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 00:10 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 00:08 | eBasketball Game | Los Angeles Lakers (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 00:07 | eBasketball Game | Brooklyn Nets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -297,12 +303,6 @@
 | 10-10 23:57 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 23:54 | eSoccer Game | Estudiantes (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-10 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:52 | Counter-Strike 2 Game | Bounty Hunters Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:52 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:52 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:49 | Liga Expansion Game | Piratas Veracruz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:49 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-10 23:45 | USL Championship Game | Charleston | ✔ | 83' · LOU 1 - CHS 0 | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
