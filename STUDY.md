@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 5:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11180 | 919 | 6 (1%) | 1.1% | -$53.85 (-39%) | Hold to the end: -$53.85 (-39%) |
+| 11187 | 919 | 6 (1%) | 1.1% | -$53.85 (-39%) | Hold to the end: -$53.85 (-39%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 919 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10252 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10256 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3019 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3021 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 564 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 549 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -121,8 +121,8 @@
 | Brasileiro Serie B Game | ✘ | 58 | 0 | 5% | 2% | -100% | -91% | 10 min |
 | R6 Game | ✘ | 55 | 0 | 5% | 2% | -100% | -91% | 9 min |
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
+| Argentina Primera Division Game | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 8 min |
 | KHL Game | ✘ | 52 | 0 | 4% | 2% | -100% | -93% | 5 min |
-| Argentina Primera Division Game | ✘ | 51 | 0 | 16% | 6% | -100% | -73% | 8 min |
 | Argentine Nacional B Game | ✘ | 49 | 0 | 8% | 8% | -100% | -86% | 10 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | KBO Game | ✘ | 49 | 0 | 8% | 6% | -100% | -86% | 5 min |
@@ -279,8 +279,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 23:21 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
-| 10-12 23:17 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | — | In play | — |
+| 10-12 23:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 23:26 | eSoccer Game | RC Celta (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 23:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 23:25 | Brasileiro Serie B Game | Ponte Preta | ✘ | — | — | In play | — |
+| 10-12 23:25 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 23:24 | eSoccer Game | São Paulo (Holis) | ✘ | — | — | In play | — |
+| 10-12 23:24 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 23:21 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 23:17 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 23:15 | Counter-Strike 2 Game | ex-Keyd Stats | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 23:15 | Brasileiro Serie A Game | Chapecoense | ✔ | 45' · CAP 3 - CHA 0 | — | In play | — |
 | 10-12 23:15 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -302,13 +309,6 @@
 | 10-12 21:44 | Argentine Nacional B Game | Los Andes | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-12 21:38 | Challenger ATP  | Santiago De la Fuente | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-12 21:36 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:36 | eSoccer Game | Real Betis (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:34 | eSoccer Game | Boca Juniors (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:33 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:32 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
