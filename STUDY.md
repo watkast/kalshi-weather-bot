@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 5:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 6:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10104 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
+| 10118 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 884 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9163 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9171 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2327 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2335 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -278,36 +278,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-11 23:56 | eSoccer Game | CA Osasuna (Kovboj) | ✘ | — | — | In play | — |
-| 10-11 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | — | In play | — |
+| 10-12 00:08 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:07 | eBasketball Game | New York Knicks (James) | ✘ | — | — | In play | — |
+| 10-12 00:07 | NHL Game | Vancouver | ✔ | 13:24 - 3rd · VAN 2 - NYR 5 | — | In play | — |
+| 10-12 00:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:06 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-12 00:06 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | — | In play | — |
+| 10-12 00:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:04 | eSoccer Game | Nantes (July) | ✘ | — | — | In play | — |
+| 10-12 00:04 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | — | In play | — |
+| 10-12 00:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:03 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 10-12 00:03 | Major League Soccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:02 | Argentina Primera Division Game | Racing Avellaneda | ✘ | — | — | In play | — |
+| 10-11 23:56 | eSoccer Game | CA Osasuna (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:56 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:54 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | — | In play | — |
-| 10-11 23:52 | eSoccer Game | Flamengo (Eder) | ✘ | — | — | In play | — |
-| 10-11 23:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 23:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-11 23:51 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
-| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-11 23:52 | eSoccer Game | Flamengo (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:51 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:50 | Venezuela Liga FUTVE game | Est. Merida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:43 | eSoccer Game | Girona (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:41 | NFL Game | Seattle | ✔ | 0:47 - 4th · SF 32 - SEA 29 | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:39 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:39 | NHL Game | Washington | ✔ | 1:38 - 3rd · SEA 5 - WSH 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:39 | eSoccer Game | Botafogo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:38 | eSoccer Game | Nantes (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:37 | eSoccer Game | Estudiantes (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:36 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:34 | Major League Soccer Game | Los Angeles G | ✘ | — | — | In play | — |
-| 10-11 23:30 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:27 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:27 | Ecuador Liga Pro Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-11 23:27 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
