@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 12, 2:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 12, 2:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15423 | 15416 | 62 (0%) | 1.07% | -$991.10 (-53%) | Hold to the close: -$991.10 (-53%) |
+| 15427 | 15416 | 62 (0%) | 1.07% | -$991.10 (-53%) | Hold to the close: -$991.10 (-53%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/12 2:55:54 AM | PLATINUM | UP | 4.1 min | — | — | In play | — |
+| 10/12 2:55:54 AM | PALLADIUM | UP | 4.1 min | — | — | In play | — |
+| 10/12 2:55:54 AM | WTI | DOWN | 4.1 min | — | — | In play | — |
+| 10/12 2:55:05 AM | SILVER | UP | 4.9 min | — | — | In play | — |
 | 10/12 2:44:55 AM | PLATINUM | UP | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/12 2:44:40 AM | ETH | UP | 20 sec | -0.038% | 0¢ | ❌ Lost | $0.00 |
 | 10/12 2:44:40 AM | SILVER | UP | 20 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -209,10 +213,6 @@
 | 10/12 2:25:08 AM | BNB | UP | 4.9 min | -0.244% | 1¢ | ❌ Lost | -$0.15 |
 | 10/12 2:23:33 AM | ETH | UP | 6.5 min | -0.279% | 1¢ | ❌ Lost | -$0.15 |
 | 10/12 2:23:33 AM | SOL | UP | 6.5 min | -0.466% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 2:13:51 AM | GOLD | UP | 69 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/12 2:13:34 AM | SILVER | UP | 86 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 2:13:18 AM | GBPUSD | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 2:12:47 AM | XRP | UP | 2.2 min | -0.205% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
