@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 2:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 3:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10535 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10547 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 62. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -278,6 +278,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-12 09:04 | eBasketball Game | Indiana Pacers (Jake) | ✘ | — | — | In play | — |
+| 10-12 09:04 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Leverkusen (Kevin) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 09:03 | eSoccer Game | Paris Saint-Germain (Aron) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eBasketball Game | Dallas Mavericks (Shaq) | ✘ | — | — | In play | — |
+| 10-12 09:03 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
+| 10-12 09:01 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 10-12 09:01 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
 | 10-12 08:54 | Darts Match | Scott Mitchell | ✘ | — | — | In play | — |
 | 10-12 08:50 | eSoccer Game | FC Bayern (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 08:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -296,18 +308,6 @@
 | 10-12 08:33 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 08:33 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 08:33 | ITF Men's Match | ARADHYA KSHITIJ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:23 | eSoccer Game | Olympique de Marseille (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:22 | eSoccer Game | Liverpool (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:21 | eSoccer Game | Montpellier (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:20 | eSoccer Game | Juventus (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:20 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:15 | ITF Men's Match | Wishaya Trongcharoenchaikul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 08:10 | eSoccer Game | Paris Saint-Germain (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
