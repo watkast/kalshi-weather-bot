@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 11:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 11:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10852 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
+| 10856 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
 
-*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 903 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9908 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9914 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2833 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2837 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 553 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 542 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -107,7 +107,7 @@
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 170 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Women's College Volleyball Match | ✘ | 130 | 2 | 8% | 3% | +44% | -85% | 81 min |
+| Women's College Volleyball Match | ✘ | 132 | 2 | 8% | 3% | +41% | -86% | 82 min |
 | Men's T20 Cricket Match | ✘ | 124 | 1 | 14% | 4% | -25% | -76% | 21 min |
 | League of Legends Game | ✘ | 121 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -278,12 +278,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-12 17:16 | eSoccer Game | Spurs (Nate) | ✘ | — | — | In play | — |
+| 10-12 17:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:14 | eSoccer Game | Juventus (Drakon) | ✘ | — | — | In play | — |
+| 10-12 17:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-12 17:05 | Valorant game winner | Team NVus | ✘ | — | — | In play | — |
-| 10-12 17:05 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | — | In play | — |
-| 10-12 17:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:05 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:04 | eBasketball Game | Dallas Mavericks (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:02 | eSoccer Game | Everton (Ousmane) | ✘ | — | — | In play | — |
-| 10-12 17:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:02 | eSoccer Game | Everton (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:02 | Serie A Game | Tie | ✔ | 30' · VEN 0 - ATA 2 | — | In play | — |
 | 10-12 17:01 | Serie A Game | Venezia | ✔ | 30' · VEN 0 - ATA 2 | — | In play | — |
 | 10-12 16:59 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-12 16:39 | Challenger ATP  | Mathys Domenc | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-12 16:38 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
 | 10-12 16:38 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:38 | eSoccer Game | Manchester Utd (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:38 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:34 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
