@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 12:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 12:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10407 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10420 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9450 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9460 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2552 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2560 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 534 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 456 | 1 | 9% | 5% | -80% | -84% | 5 min |
 | Challenger ATP  | ✘ | 349 | 2 | 9% | 2% | -47% | -85% | 5 min |
-| eBasketball Game | ✘ | 267 | 1 | 0% | 0% | -65% | -65% | 1 min |
+| eBasketball Game | ✘ | 269 | 1 | 0% | 0% | -65% | -65% | 1 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -278,16 +278,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 06:08 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | — | In play | — |
+| 10-12 06:19 | TT Star Series Match | Slaný Vojtěch | ✘ | — | — | In play | — |
+| 10-12 06:18 | eSoccer Game | Nantes (Baros) | ✘ | — | — | In play | — |
+| 10-12 06:18 | eSoccer Game | Rennes (SilentShooter) | ✘ | — | — | In play | — |
+| 10-12 06:17 | ITF Men's Match | Yue Xia | ✘ | — | — | In play | — |
+| 10-12 06:16 | eSoccer Game | Real Madrid (Aron) | ✘ | — | — | In play | — |
+| 10-12 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:15 | eBasketball Game | Indiana Pacers (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:15 | eSoccer Game | RCD Mallorca (Luis) | ✘ | — | — | In play | — |
+| 10-12 06:15 | eSoccer Game | Real Betis (Kevin) | ✘ | — | — | In play | — |
+| 10-12 06:14 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 10-12 06:13 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-12 06:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:08 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-12 06:07 | Challenger ATP  | James McCabe | ✘ | — | — | In play | — |
-| 10-12 06:03 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | — | In play | — |
-| 10-12 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:02 | eSoccer Game | Girona (Kevin) | ✘ | — | — | In play | — |
-| 10-12 06:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:01 | eSoccer Game | Getafe CF (Kylian) | ✘ | — | — | In play | — |
-| 10-12 06:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:00 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-12 06:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:03 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:02 | eSoccer Game | Girona (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:01 | eSoccer Game | Getafe CF (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:00 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 05:59 | ITF Men's Match | Kabir Hans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 05:59 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 05:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -295,19 +308,6 @@
 | 10-12 05:54 | ATP Tennis Match | Learner Tien | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 05:53 | Challenger ATP  | Kaichi Uchida | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-12 05:50 | eSoccer Game | Stade Brestois 29 (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:50 | eSoccer Game | Nantes (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:48 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:47 | eSoccer Game | Getafe CF (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:47 | eSoccer Game | RC Celta (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:47 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:45 | eSoccer Game | FC Barcelona (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:45 | eSoccer Game | CA Osasuna (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:43 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:36 | eSoccer Game | Rennes (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 05:33 | eSoccer Game | Girona (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
