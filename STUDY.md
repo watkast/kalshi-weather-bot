@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 12:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 12:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10446 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10454 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9486 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9499 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2580 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2590 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 534 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 459 | 1 | 9% | 5% | -80% | -84% | 5 min |
 | Challenger ATP  | ✘ | 350 | 2 | 9% | 2% | -47% | -85% | 5 min |
-| eBasketball Game | ✘ | 269 | 1 | 0% | 0% | -65% | -65% | 1 min |
-| TT Star Series Match | ✘ | 226 | 1 | 2% | 2% | -59% | -96% | 4 min |
+| eBasketball Game | ✘ | 271 | 1 | 0% | 0% | -66% | -65% | 1 min |
+| TT Star Series Match | ✘ | 227 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -278,19 +278,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 06:47 | TT Star Series Match | Slany Martin | ✘ | — | — | In play | — |
-| 10-12 06:46 | eSoccer Game | Nantes (Haze) | ✘ | — | — | In play | — |
-| 10-12 06:45 | eSoccer Game | AS Monaco (Baros) | ✘ | — | — | In play | — |
-| 10-12 06:45 | eSoccer Game | Real Betis (Kevin) | ✘ | — | — | In play | — |
-| 10-12 06:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:44 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | — | In play | — |
-| 10-12 06:43 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
-| 10-12 06:43 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-12 06:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:42 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 10-12 06:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 06:41 | eSoccer Game | Real Madrid (Aron) | ✘ | — | — | In play | — |
+| 10-12 06:59 | eSoccer Game | Rennes (SilentShooter) | ✘ | — | — | In play | — |
+| 10-12 06:57 | eSoccer Game | Real Sociedad (Kylian) | ✘ | — | — | In play | — |
+| 10-12 06:57 | eSoccer Game | Sevilla FC (Pedri) | ✘ | — | — | In play | — |
+| 10-12 06:55 | eSoccer Game | Real Madrid (Aron) | ✘ | — | — | In play | — |
+| 10-12 06:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:55 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 10-12 06:54 | Men's T20 Cricket Match | Myanmar | ✘ | — | — | In play | — |
+| 10-12 06:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 06:47 | TT Star Series Match | Slany Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:46 | eSoccer Game | Nantes (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:45 | eSoccer Game | AS Monaco (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:45 | eSoccer Game | Real Betis (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:44 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:43 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:43 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:42 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 06:41 | eSoccer Game | Real Madrid (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 06:38 | ITF Men's Match | Anthony Susanto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 06:37 | ITF Men's Match | Zhao Zhao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 06:32 | eSoccer Game | Toulouse FC (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -300,14 +308,6 @@
 | 10-12 06:29 | eSoccer Game | RCD Mallorca (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 06:29 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 06:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:27 | eSoccer Game | Real Betis (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:26 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:19 | TT Star Series Match | Slaný Vojtěch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:18 | eSoccer Game | Nantes (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:18 | eSoccer Game | Rennes (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 06:17 | ITF Men's Match | Yue Xia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
