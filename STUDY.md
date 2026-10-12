@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 7:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10741 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10747 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9786 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9787 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -122,9 +122,9 @@
 | R6 Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 9 min |
 | Ettan Game | ✘ | 51 | 0 | 8% | 2% | -100% | -86% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
+| KBO Game | ✘ | 49 | 0 | 8% | 6% | -100% | -86% | 5 min |
 | Argentina Primera Division Game | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 8 min |
 | Argentine Nacional B Game | ✘ | 48 | 0 | 8% | 8% | -100% | -86% | 10 min |
-| KBO Game | ✘ | 48 | 0 | 8% | 6% | -100% | -86% | 5 min |
 | KHL Game | ✘ | 47 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | Liga DIMAYOR Game | ✘ | 45 | 1 | 11% | 4% | +107% | -81% | 6 min |
 | Overwatch Game | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 5 min |
@@ -278,7 +278,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 13:03 | KBO Game | Doosan Bears | ✘ | — | — | In play | — |
+| 10-12 13:13 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | — | In play | — |
+| 10-12 13:09 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | — | In play | — |
+| 10-12 13:06 | eSoccer Game | Spurs (Gigi) | ✘ | — | — | In play | — |
+| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 13:06 | eSoccer Game | Rennes (Rendeto) | ✘ | — | — | In play | — |
+| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 13:03 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:54 | Challenger ATP  | Ryan Nijboer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:53 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | — | In play | — |
 | 10-12 12:52 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -302,12 +308,6 @@
 | 10-12 12:33 | Overwatch Game | Lazuli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:32 | Challenger WTA | Caroline Werner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:32 | eSoccer Game | FC Bayern (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:32 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:28 | TT Star Series Match | Beneš Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:28 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:26 | Challenger ATP  | Sergi Perez Contri | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 12:26 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
