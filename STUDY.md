@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10309 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10318 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9356 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9362 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2476 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2482 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 533 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -278,12 +278,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 04:06 | eSoccer Game | Nottingham Forest (Krocs) | ✘ | — | — | In play | — |
-| 10-12 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 04:02 | eSoccer Game | Stuttgart (Eder) | ✘ | — | — | In play | — |
-| 10-12 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 04:01 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
-| 10-12 04:01 | eSoccer Game | Argentina (Millie) | ✘ | — | — | In play | — |
+| 10-12 04:16 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
+| 10-12 04:16 | eSoccer Game | Freiburg (Rooney) | ✘ | — | — | In play | — |
+| 10-12 04:16 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | — | In play | — |
+| 10-12 04:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 04:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 04:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 04:14 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
+| 10-12 04:13 | eSoccer Game | United States (Leyla) | ✘ | — | — | In play | — |
+| 10-12 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 04:06 | eSoccer Game | Nottingham Forest (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 04:02 | eSoccer Game | Stuttgart (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 04:01 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 04:01 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 04:00 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -299,15 +308,6 @@
 | 10-12 03:47 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:46 | eSoccer Game | Freiburg (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:46 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:46 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:46 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:45 | NFL Game | Atlanta | ✔ | 2:50 - OT · BAL 30 - ATL 23 | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:43 | NBA Game | Chicago | ✔ | 22.1 - 4th · CHI 125 - DEN 130 | 4¢ | ❌ Lost | -$0.15 |
-| 10-12 03:37 | eSoccer Game | Spurs (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:37 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:34 | Counter-Strike 2 Game | regain | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
