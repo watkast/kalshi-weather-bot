@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-12T17:08:23+00:00",
+ "saved_at": "2026-10-12T17:18:33+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,7 +22,7 @@
  "trades_v5": 286,
  "trades_v6": 75,
  "trades_v7": 90,
- "trades_v8": 411,
+ "trades_v8": 412,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
@@ -79,17 +79,17 @@
   ]
  },
  "open": 0,
- "results_known": 11364,
+ "results_known": 11373,
  "sigma_pct": {
-  "BNB": 0.0434,
-  "HYPE": 0.0971,
-  "NEAR": 0.244,
-  "XRP": 0.1411,
-  "SOL": 0.11,
-  "DOGE": 0.1025,
-  "ETH": 0.051,
-  "BTC": 0.0382,
-  "ZEC": 0.1676
+  "BNB": 0.0376,
+  "HYPE": 0.0964,
+  "NEAR": 0.2325,
+  "XRP": 0.127,
+  "SOL": 0.0909,
+  "DOGE": 0.0993,
+  "ETH": 0.0492,
+  "BTC": 0.0366,
+  "ZEC": 0.1706
  },
  "errors": [
   "2026-10-12T16:24:30+00:00 loop: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
