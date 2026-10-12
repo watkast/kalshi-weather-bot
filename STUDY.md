@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 7:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10747 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10750 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9787 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9794 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2779 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2783 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 550 | 0 | 12% | 6% | -100% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 538 | 1 | 4% | 3% | -83% | -93% | 11 min |
+| Counter-Strike 2 Game | ✘ | 539 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 469 | 1 | 9% | 5% | -80% | -84% | 4 min |
-| Challenger ATP  | ✘ | 367 | 2 | 8% | 2% | -49% | -85% | 5 min |
-| eBasketball Game | ✘ | 290 | 1 | 0% | 0% | -68% | -67% | 1 min |
+| Challenger ATP  | ✘ | 368 | 2 | 9% | 2% | -49% | -85% | 5 min |
+| eBasketball Game | ✘ | 291 | 1 | 0% | 0% | -68% | -67% | 1 min |
 | TT Star Series Match | ✘ | 234 | 1 | 2% | 2% | -60% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 170 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -278,15 +278,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 13:13 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | — | In play | — |
-| 10-12 13:09 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | — | In play | — |
-| 10-12 13:06 | eSoccer Game | Spurs (Gigi) | ✘ | — | — | In play | — |
-| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 13:06 | eSoccer Game | Rennes (Rendeto) | ✘ | — | — | In play | — |
-| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 13:22 | ITF Men's Match | Afonso Oliveira | ✘ | — | — | In play | — |
+| 10-12 13:19 | Singapore Premier League Game | Hougang United | ✘ | — | — | In play | — |
+| 10-12 13:16 | Men's T20 Cricket Match | Eastern Titans | ✘ | — | — | In play | — |
+| 10-12 13:13 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:09 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-12 13:06 | eSoccer Game | Spurs (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:06 | eSoccer Game | Rennes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:03 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:54 | Challenger ATP  | Ryan Nijboer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:53 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | — | In play | — |
+| 10-12 12:53 | Counter-Strike 2 Game | Apogee Esports | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-12 12:52 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:48 | ITF Men's Match | Florin Cristian Lucaciu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -305,9 +308,6 @@
 | 10-12 12:35 | eSoccer Game | Newcastle Utd (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:33 | LaLiga 2 Game | Albacete | ✔ | 32' · ALB 0 - VLL 3 | — | In play | — |
 | 10-12 12:33 | Challenger ATP  | Duje Ajdukovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:33 | Overwatch Game | Lazuli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:32 | Challenger WTA | Caroline Werner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:32 | eSoccer Game | FC Bayern (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
