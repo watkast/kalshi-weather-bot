@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 11:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 11:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10856 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
+| 10868 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 903 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9914 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9920 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2837 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2843 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 553 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 542 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -278,8 +278,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 17:16 | eSoccer Game | Spurs (Nate) | ✘ | — | — | In play | — |
-| 10-12 17:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:25 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | — | In play | — |
+| 10-12 17:24 | Danish Superliga Game | Soenderjyske | ✘ | — | — | In play | — |
+| 10-12 17:22 | Challenger WTA | Julia Avdeeva | ✘ | — | — | In play | — |
+| 10-12 17:21 | eSoccer Game | Arsenal (Dzen) | ✘ | — | — | In play | — |
+| 10-12 17:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:21 | Liga Leumit Game | Kfar Saba | ✘ | — | — | In play | — |
+| 10-12 17:19 | Challenger ATP  | Daniel Jade | ✘ | — | — | In play | — |
+| 10-12 17:19 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | — | In play | — |
+| 10-12 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:18 | eSoccer Game | Crystal Palace (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:17 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:16 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:14 | eSoccer Game | Juventus (Drakon) | ✘ | — | — | In play | — |
 | 10-12 17:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-12 17:05 | Valorant game winner | Team NVus | ✘ | — | — | In play | — |
@@ -296,18 +308,6 @@
 | 10-12 16:54 | ITF Women's Match | Isadora Sigrist | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 16:52 | Latvian Virsliga Game | Liepaja | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-12 16:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:50 | KHL Game | HC Barys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:50 | eSoccer Game | Manchester Utd (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:49 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:49 | eSoccer Game | Manchester City (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:47 | Super League Greece Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:47 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-12 16:41 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:41 | Czech National Football League Game | Tie | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 10-12 16:39 | Counter-Strike 2 Game | PRIVATE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 16:39 | Challenger ATP  | Mathys Domenc | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 16:38 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
-| 10-12 16:38 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
