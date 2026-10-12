@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 4:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 4:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10614 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10618 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9659 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9666 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2711 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2715 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 542 | 0 | 12% | 6% | -100% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 534 | 1 | 4% | 3% | -83% | -93% | 11 min |
+| Counter-Strike 2 Game | ✘ | 535 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 463 | 1 | 9% | 5% | -80% | -84% | 5 min |
-| Challenger ATP  | ✘ | 356 | 2 | 9% | 2% | -48% | -85% | 5 min |
+| Challenger ATP  | ✘ | 357 | 2 | 9% | 2% | -48% | -85% | 5 min |
 | eBasketball Game | ✘ | 282 | 1 | 0% | 0% | -67% | -66% | 1 min |
 | TT Star Series Match | ✘ | 229 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -112,7 +112,7 @@
 | Women's College Volleyball Match | ✘ | 110 | 2 | 6% | 3% | +70% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Serie C Game | ✘ | 105 | 1 | 4% | 1% | -11% | -93% | 8 min |
-| Challenger WTA | ✘ | 93 | 0 | 12% | 6% | -100% | -79% | 8 min |
+| Challenger WTA | ✘ | 94 | 0 | 12% | 6% | -100% | -80% | 8 min |
 | NHL Game | ✔ | 86 | 0 | 15% | 7% | -100% | -74% | 5 min |
 | Dota 2 Game | ✘ | 75 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -278,16 +278,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 10:38 | eSoccer Game | Freiburg (Kylian) | ✘ | — | — | In play | — |
-| 10-12 10:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 10:38 | Challenger ATP  | Christian Langmo | ✘ | — | — | In play | — |
-| 10-12 10:37 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 10-12 10:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 10:50 | ITF Women's Match | Krystyna Pochtovyk | ✘ | — | — | In play | — |
+| 10-12 10:50 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-12 10:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 10:45 | Overwatch Game | REVATI | ✘ | — | — | In play | — |
+| 10-12 10:38 | eSoccer Game | Freiburg (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:38 | Challenger ATP  | Christian Langmo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:37 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:33 | Darts Match | Ashley Coleman | ✘ | — | — | In play | — |
-| 10-12 10:32 | Challenger WTA | Maria Garcia Cid | ✘ | — | — | In play | — |
+| 10-12 10:32 | Challenger WTA | Maria Garcia Cid | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:30 | eSoccer Game | Chelsea (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 10:28 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
+| 10-12 10:28 | Counter-Strike 2 Game | ENJOY | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-12 10:28 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:26 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-12 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:09 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 10:09 | ITF Women's Match | Sophie Williams | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 10:09 | Challenger WTA | Anna-Lena Friedsam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 10:06 | League of Legends Game | Team Vitality | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 10:02 | eSoccer Game | Crystal Palace (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 10:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
