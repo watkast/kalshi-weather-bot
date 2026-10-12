@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 6:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10144 | 887 | 6 (1%) | 1.1% | -$49.05 (-37%) | Hold to the end: -$49.05 (-37%) |
+| 10151 | 887 | 6 (1%) | 1.1% | -$49.05 (-37%) | Hold to the end: -$49.05 (-37%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 887 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9203 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9207 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2359 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2361 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
 | ITF Men's Match | ✘ | 455 | 1 | 9% | 5% | -79% | -84% | 5 min |
 | Challenger ATP  | ✘ | 347 | 2 | 9% | 2% | -46% | -85% | 5 min |
-| eBasketball Game | ✘ | 247 | 1 | 0% | 0% | -62% | -62% | 1 min |
+| eBasketball Game | ✘ | 248 | 1 | 0% | 0% | -62% | -62% | 1 min |
 | TT Star Series Match | ✘ | 225 | 1 | 2% | 2% | -59% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 164 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -117,7 +117,7 @@
 | Dota 2 Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
-| AHL Game | ✘ | 58 | 0 | 3% | 2% | -100% | -94% | 6 min |
+| AHL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | Brasileiro Serie B Game | ✘ | 56 | 0 | 5% | 2% | -100% | -91% | 11 min |
 | R6 Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 9 min |
 | Ettan Game | ✘ | 51 | 0 | 8% | 2% | -100% | -86% | 6 min |
@@ -278,11 +278,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-12 00:49 | Overwatch Game | Spacestation Gaming | ✘ | — | — | In play | — |
+| 10-12 00:48 | eSoccer Game | Botafogo (Hurricane) | ✘ | — | — | In play | — |
+| 10-12 00:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:47 | Liga MX Game | San Luis | ✔ | 88' · SAN 2 - ASL 1 | — | In play | — |
+| 10-12 00:44 | eSoccer Game | Estudiantes (PinkElephant) | ✘ | — | — | In play | — |
+| 10-12 00:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:42 | Canadian Premier League | Pacific | ✘ | — | — | In play | — |
 | 10-12 00:36 | LNBP Basketball Game | Freseros de Irapuato | ✘ | — | — | In play | — |
-| 10-12 00:35 | eBasketball Game | Dallas Mavericks (James) | ✘ | — | — | In play | — |
-| 10-12 00:35 | AHL Game | Coachella Valley Firebirds | ✘ | — | — | In play | — |
-| 10-12 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 00:35 | eSoccer Game | Flamengo (Eder) | ✘ | — | — | In play | — |
+| 10-12 00:35 | eBasketball Game | Dallas Mavericks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:35 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:35 | eSoccer Game | Flamengo (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:34 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:34 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -301,13 +308,6 @@
 | 10-12 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:18 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:17 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:15 | Argentine Nacional B Game | San Telmo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:08 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:07 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 00:07 | NHL Game | Vancouver | ✔ | 13:24 - 3rd · VAN 2 - NYR 5 | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
