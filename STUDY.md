@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 7:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10752 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10756 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9797 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9800 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | ITF Women's Match | ✘ | 551 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 539 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 470 | 1 | 9% | 5% | -80% | -85% | 4 min |
-| Challenger ATP  | ✘ | 368 | 2 | 9% | 2% | -49% | -85% | 5 min |
+| Challenger ATP  | ✘ | 369 | 2 | 9% | 2% | -49% | -85% | 5 min |
 | eBasketball Game | ✘ | 291 | 1 | 0% | 0% | -68% | -67% | 1 min |
 | TT Star Series Match | ✘ | 234 | 1 | 2% | 2% | -60% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -237,13 +237,13 @@
 | Slovenian Prva Liga Game | ✘ | 9 | 0 | 22% | 11% | -100% | -61% | 14 min |
 | Slovenia 1. SKL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 11 min |
 | England Super League Basketball Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Singapore Premier League Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | CFL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Latvian Virsliga Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Scottish Premiership Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 39 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Singapore Premier League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Egyptian Premier League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -278,10 +278,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-12 13:44 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | — | In play | — |
+| 10-12 13:38 | Men's T20 Cricket Match | Rimuka Cricket Club | ✘ | — | — | In play | — |
+| 10-12 13:38 | Challenger ATP  | Patrick Brady | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:37 | Challenger ATP  | Cezar Cretu (b. 2001) | ✘ | — | — | In play | — |
 | 10-12 13:34 | ITF Men's Match | Ivan Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 13:32 | Singapore Premier League Game | Tie | ✘ | — | — | In play | — |
+| 10-12 13:32 | Singapore Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:22 | ITF Men's Match | Afonso Oliveira | ✘ | — | — | In play | — |
-| 10-12 13:19 | Singapore Premier League Game | Hougang United | ✘ | — | — | In play | — |
+| 10-12 13:19 | Singapore Premier League Game | Hougang United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:16 | Men's T20 Cricket Match | Eastern Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:13 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:09 | Challenger ATP  | Abdullah Shelbayh | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-12 12:45 | eSoccer Game | Hoffenheim (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:44 | eBasketball Game | New Orleans Pelicans (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:39 | ITF Women's Match | Madelief Hageman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:38 | LaLiga 2 Game | Tie | ✔ | 37' · ALB 0 - VLL 3 | — | In play | — |
-| 10-12 12:36 | KBO Game | Samsung Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:35 | eSoccer Game | Nottingham Forest (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:35 | eSoccer Game | Newcastle Utd (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
