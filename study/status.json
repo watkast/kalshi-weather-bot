@@ -1,16 +1,16 @@
 {
- "saved_at": "2026-10-12T20:41:25+00:00",
+ "saved_at": "2026-10-12T20:51:41+00:00",
  "series_watched": 349,
- "markets_in_or_near_play": 192,
+ "markets_in_or_near_play": 162,
  "batch_lookup": true,
  "espn_games_linked": 10,
  "espn_check": {
-  "at": "2026-10-12T20:15:19+00:00",
-  "started_games": 6,
-  "matched": 6,
+  "at": "2026-10-12T20:46:24+00:00",
+  "started_games": 5,
+  "matched": 5,
   "unmatched_sample": []
  },
- "bets": 11093,
- "open": 24,
+ "bets": 11109,
+ "open": 29,
  "errors": []
 }
