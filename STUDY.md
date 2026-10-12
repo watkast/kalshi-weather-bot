@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 7:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10756 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10760 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9800 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9806 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,14 +100,14 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 551 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 539 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 470 | 1 | 9% | 5% | -80% | -85% | 4 min |
-| Challenger ATP  | ✘ | 369 | 2 | 9% | 2% | -49% | -85% | 5 min |
-| eBasketball Game | ✘ | 291 | 1 | 0% | 0% | -68% | -67% | 1 min |
+| ITF Men's Match | ✘ | 471 | 1 | 9% | 5% | -80% | -85% | 4 min |
+| Challenger ATP  | ✘ | 370 | 2 | 9% | 2% | -50% | -85% | 5 min |
+| eBasketball Game | ✘ | 292 | 1 | 0% | 0% | -68% | -67% | 1 min |
 | TT Star Series Match | ✘ | 234 | 1 | 2% | 2% | -60% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 170 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Men's T20 Cricket Match | ✘ | 123 | 1 | 14% | 4% | -24% | -76% | 21 min |
+| Men's T20 Cricket Match | ✘ | 124 | 1 | 14% | 4% | -25% | -76% | 21 min |
 | League of Legends Game | ✘ | 121 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | Women's College Volleyball Match | ✘ | 110 | 2 | 6% | 3% | +70% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -125,9 +125,9 @@
 | KBO Game | ✘ | 49 | 0 | 8% | 6% | -100% | -86% | 5 min |
 | Argentina Primera Division Game | ✘ | 49 | 0 | 16% | 6% | -100% | -72% | 8 min |
 | Argentine Nacional B Game | ✘ | 48 | 0 | 8% | 8% | -100% | -86% | 10 min |
-| KHL Game | ✘ | 47 | 0 | 4% | 2% | -100% | -93% | 5 min |
+| KHL Game | ✘ | 48 | 0 | 4% | 2% | -100% | -93% | 5 min |
+| Overwatch Game | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 5 min |
 | Liga DIMAYOR Game | ✘ | 45 | 1 | 11% | 4% | +107% | -81% | 6 min |
-| Overwatch Game | ✘ | 45 | 0 | 4% | 0% | -100% | -92% | 5 min |
 | USL Championship Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 6 min |
 | Japan J2 League Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 8 min |
 | Major League Soccer Game | partly | 39 | 1 | 18% | 5% | +139% | -69% | 6 min |
@@ -278,13 +278,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 13:44 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | — | In play | — |
-| 10-12 13:38 | Men's T20 Cricket Match | Rimuka Cricket Club | ✘ | — | — | In play | — |
+| 10-12 13:52 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:50 | Overwatch Game | MURASH GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:49 | Challenger ATP  | Sandro Kopp | ✘ | — | — | In play | — |
+| 10-12 13:47 | Challenger WTA | Sara Cakarevic | ✘ | — | — | In play | — |
+| 10-12 13:44 | KHL Game | Neftekhimik Nizhnekamsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 13:38 | Men's T20 Cricket Match | Rimuka Cricket Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:38 | Challenger ATP  | Patrick Brady | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 13:37 | Challenger ATP  | Cezar Cretu (b. 2001) | ✘ | — | — | In play | — |
+| 10-12 13:37 | Challenger ATP  | Cezar Cretu (b. 2001) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:34 | ITF Men's Match | Ivan Ivanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:32 | Singapore Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 13:22 | ITF Men's Match | Afonso Oliveira | ✘ | — | — | In play | — |
+| 10-12 13:22 | ITF Men's Match | Afonso Oliveira | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-12 13:19 | Singapore Premier League Game | Hougang United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:16 | Men's T20 Cricket Match | Eastern Titans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 13:13 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-12 12:48 | Challenger WTA | Loes Ebeling Koning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 12:47 | ITF Women's Match | Teodora Naidenova | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-12 12:45 | ITF Women's Match | Alexia-Shara Iancu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:45 | eSoccer Game | Hoffenheim (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:44 | eBasketball Game | New Orleans Pelicans (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 12:39 | ITF Women's Match | Madelief Hageman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
