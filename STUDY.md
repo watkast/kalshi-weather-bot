@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 9:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 41 finished bets | 2% | $7.85 | +128% | +19.15¢ | -$3.00 / $10.85 |
 
-*Expect about **3 buys a day**, roughly **$0.51/day** at risk; max loss per buy **15¢**.*
+*Expect about **4 buys a day**, roughly **$0.54/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10282 | 897 | 6 (1%) | 1.1% | -$50.55 (-38%) | Hold to the end: -$50.55 (-38%) |
+| 10286 | 897 | 6 (1%) | 1.1% | -$50.55 (-38%) | Hold to the end: -$50.55 (-38%) |
 
-*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 897 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9330 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9339 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2453 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2462 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -278,14 +278,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 03:45 | NFL Game | Atlanta | ✔ | 2:50 - OT · BAL 30 - ATL 23 | — | In play | — |
+| 10-12 03:43 | NBA Game | Chicago | ✔ | 22.1 - 4th · CHI 125 - DEN 130 | — | In play | — |
+| 10-12 03:37 | eSoccer Game | Spurs (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:37 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:34 | Counter-Strike 2 Game | regain | ✘ | — | — | In play | — |
-| 10-12 03:33 | eSoccer Game | Mönchengladbach (PinkElephant) | ✘ | — | — | In play | — |
-| 10-12 03:33 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
-| 10-12 03:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 03:31 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
-| 10-12 03:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 03:33 | eSoccer Game | Mönchengladbach (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:33 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:31 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 03:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:23 | eSoccer Game | Newcastle Utd (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:21 | eBasketball Game | New York Knicks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -304,10 +308,6 @@
 | 10-12 03:09 | eSoccer Game | Wolves (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:06 | eSoccer Game | Leverkusen (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 03:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:05 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:05 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:04 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
