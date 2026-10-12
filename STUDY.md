@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10126 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
+| 10131 | 884 | 6 (1%) | 1.1% | -$48.60 (-37%) | Hold to the end: -$48.60 (-37%) |
 
-*In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 884 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9184 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9194 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2343 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2351 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -122,8 +122,8 @@
 | R6 Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 9 min |
 | Ettan Game | ✘ | 51 | 0 | 8% | 2% | -100% | -86% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
+| Argentine Nacional B Game | ✘ | 48 | 0 | 8% | 8% | -100% | -86% | 10 min |
 | Argentina Primera Division Game | ✘ | 47 | 0 | 15% | 6% | -100% | -74% | 8 min |
-| Argentine Nacional B Game | ✘ | 46 | 0 | 9% | 9% | -100% | -85% | 10 min |
 | KHL Game | ✘ | 46 | 0 | 4% | 2% | -100% | -92% | 5 min |
 | KBO Game | ✘ | 46 | 0 | 9% | 7% | -100% | -85% | 7 min |
 | Overwatch Game | ✘ | 42 | 0 | 5% | 0% | -100% | -92% | 5 min |
@@ -278,14 +278,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 00:20 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
-| 10-12 00:19 | eSoccer Game | Nantes (July) | ✘ | — | — | In play | — |
-| 10-12 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 00:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 00:18 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | — | In play | — |
-| 10-12 00:17 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | — | In play | — |
-| 10-12 00:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 00:15 | Argentine Nacional B Game | San Telmo | ✘ | — | — | In play | — |
+| 10-12 00:26 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 00:24 | eSoccer Game | Real Madrid (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:20 | Brasileiro Serie A Game | Mirassol | ✔ | 84' · MIR 0 - BAH 1 | — | In play | — |
+| 10-12 00:20 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:19 | eSoccer Game | Nantes (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:18 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:17 | eSoccer Game | OL Lyonnes (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 00:15 | Argentine Nacional B Game | San Telmo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:08 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:07 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 00:07 | NHL Game | Vancouver | ✔ | 13:24 - 3rd · VAN 2 - NYR 5 | — | In play | — |
@@ -303,11 +308,6 @@
 | 10-11 23:56 | eSoccer Game | CA Osasuna (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-11 23:56 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:54 | LNBP Basketball Game | Gambusinos De Fresnillo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:52 | eSoccer Game | Flamengo (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-11 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
