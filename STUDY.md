@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 11:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 11:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10880 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
+| 10891 | 903 | 6 (1%) | 1.1% | -$51.45 (-38%) | Hold to the end: -$51.45 (-38%) |
 
-*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 903 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9932 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9938 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2849 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2851 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 553 | 0 | 12% | 6% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 542 | 1 | 4% | 3% | -83% | -93% | 11 min |
+| Counter-Strike 2 Game | ✘ | 543 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 472 | 1 | 9% | 5% | -80% | -85% | 5 min |
-| Challenger ATP  | ✘ | 373 | 2 | 9% | 2% | -50% | -85% | 5 min |
+| Challenger ATP  | ✘ | 374 | 2 | 9% | 2% | -50% | -85% | 5 min |
 | eBasketball Game | ✘ | 301 | 1 | 0% | 0% | -69% | -68% | 1 min |
 | TT Star Series Match | ✘ | 234 | 1 | 2% | 2% | -60% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -109,10 +109,10 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Women's College Volleyball Match | ✘ | 132 | 2 | 8% | 3% | +41% | -86% | 82 min |
 | Men's T20 Cricket Match | ✘ | 124 | 1 | 14% | 4% | -25% | -76% | 21 min |
-| League of Legends Game | ✘ | 121 | 0 | 7% | 2% | -100% | -89% | 11 min |
+| League of Legends Game | ✘ | 122 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
+| Challenger WTA | ✘ | 105 | 0 | 12% | 7% | -100% | -79% | 8 min |
 | Serie C Game | ✘ | 105 | 1 | 4% | 1% | -11% | -93% | 8 min |
-| Challenger WTA | ✘ | 104 | 0 | 12% | 6% | -100% | -80% | 8 min |
 | NHL Game | ✔ | 86 | 0 | 15% | 7% | -100% | -74% | 5 min |
 | Dota 2 Game | ✘ | 80 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -278,36 +278,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 17:34 | eSoccer Game | Juventus (Drakon) | ✘ | — | — | In play | — |
-| 10-12 17:33 | eSoccer Game | Liverpool (Dzen) | ✘ | — | — | In play | — |
+| 10-12 17:47 | eSoccer Game | Real Madrid (Arkon) | ✘ | — | — | In play | — |
+| 10-12 17:47 | eSoccer Game | Slavia Praha (Drakon) | ✘ | — | — | In play | — |
+| 10-12 17:46 | ITF Men's Match | Elias Julian Werner | ✘ | — | — | In play | — |
+| 10-12 17:46 | Canadian Premier League | Inter Toronto | ✘ | — | — | In play | — |
+| 10-12 17:45 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:44 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 10-12 17:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 17:42 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-12 17:42 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 10-12 17:42 | Allsvenskan Game | Halmstad | ✘ | — | — | In play | — |
+| 10-12 17:38 | Liga Leumit Game | Ra`anana | ✘ | — | — | In play | — |
+| 10-12 17:34 | eSoccer Game | Juventus (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:33 | eSoccer Game | Liverpool (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:32 | eBasketball Game | New Orleans Pelicans (Steve) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:30 | League of Legends Game | Blue Otter Europe | ✘ | — | — | In play | — |
+| 10-12 17:30 | League of Legends Game | Blue Otter Europe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:30 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
 | 10-12 17:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:30 | eSoccer Game | Nantes (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:30 | Counter-Strike 2 Game | SAW Youngsters | ✘ | — | — | In play | — |
+| 10-12 17:30 | Counter-Strike 2 Game | SAW Youngsters | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:30 | eBasketball Game | Dallas Mavericks (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:28 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:28 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
 | 10-12 17:25 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | — | In play | — |
 | 10-12 17:24 | Danish Superliga Game | Soenderjyske | ✘ | — | — | In play | — |
-| 10-12 17:22 | Challenger WTA | Julia Avdeeva | ✘ | — | — | In play | — |
+| 10-12 17:22 | Challenger WTA | Julia Avdeeva | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-12 17:21 | eSoccer Game | Arsenal (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 17:21 | Liga Leumit Game | Kfar Saba | ✘ | — | — | In play | — |
-| 10-12 17:19 | Challenger ATP  | Daniel Jade | ✘ | — | — | In play | — |
-| 10-12 17:19 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | — | In play | — |
-| 10-12 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:18 | eSoccer Game | Crystal Palace (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:17 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:16 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:14 | eSoccer Game | Juventus (Drakon) | ✘ | — | — | In play | — |
-| 10-12 17:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 17:05 | Valorant game winner | Team NVus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 17:05 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 17:19 | Challenger ATP  | Daniel Jade | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
