@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Mon Oct 12 08:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Mon Oct 12 08:15 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 8865 | 7682 | 1183 (39) | 2 | $-336.04 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 5518 | 3061 | 2457 (1082) | 2 | $-1609.57 | -4.6% |
+| **20¢+ jump, sell +5¢** | 8867 | 7683 | 1184 (39) | 0 | $-340.10 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 5520 | 3063 | 2457 (1082) | 0 | $-1608.68 | -4.6% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,11 +18,11 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 08:03 | J20 | NEAR | UP | 21¢ | 0.44 | open |  |
-| 10-12 08:02 | J20R | SOL | DOWN | 20¢ | 0.85 | open |  |
+| 10-12 08:03 | J20 | NEAR | UP | 21¢ | 0.44 | no | -4.58 |
+| 10-12 08:02 | J20R | SOL | DOWN | 20¢ | 0.85 | 0.91 | 0.43 |
 | 10-12 08:02 | J20 | SOL | DOWN | 20¢ | 0.85 | 0.92 | 0.54 |
-| 10-12 08:02 | J20R | ZEC | DOWN | 28¢ | 0.86 | open |  |
-| 10-12 08:02 | J20 | ZEC | DOWN | 28¢ | 0.86 | open |  |
+| 10-12 08:02 | J20R | ZEC | DOWN | 28¢ | 0.86 | 0.92 | 0.46 |
+| 10-12 08:02 | J20 | ZEC | DOWN | 28¢ | 0.86 | 0.93 | 0.52 |
 | 10-12 08:02 | J20R | NEAR | DOWN | 20¢ | 0.67 | 0.73 | 0.30 |
 | 10-12 08:02 | J20 | NEAR | DOWN | 20¢ | 0.67 | 0.77 | 0.71 |
 | 10-12 08:01 | J20 | ETH | DOWN | 22¢ | 0.64 | 0.69 | 0.18 |
