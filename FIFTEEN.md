@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 11, 7:03 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 11, 7:13 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14946 | 14939 | 59 (0%) | 1.07% | -$973.10 (-54%) | Hold to the close: -$973.10 (-54%) |
+| 14949 | 14939 | 59 (0%) | 1.07% | -$973.10 (-54%) | Hold to the close: -$973.10 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/11 7:12:47 PM | COPPER | DOWN | 2.2 min | — | — | In play | — |
+| 10/11 7:10:57 PM | ZEC | UP | 4.0 min | -0.841% | — | In play | — |
+| 10/11 7:10:57 PM | HYPE | UP | 4.0 min | -0.418% | — | In play | — |
 | 10/11 6:59:54 PM | GBPUSD | DOWN | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/11 6:59:37 PM | DOGE | DOWN | 23 sec | +0.025% | 0¢ | ❌ Lost | $0.00 |
 | 10/11 6:59:37 PM | COPPER | DOWN | 23 sec | — | 24¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/11 6:41:44 PM | ETH | DOWN | 3.2 min | +0.253% | 1¢ | ❌ Lost | -$0.15 |
 | 10/11 6:41:28 PM | HYPE | DOWN | 3.5 min | +0.181% | 1¢ | ❌ Lost | -$0.15 |
 | 10/11 6:40:40 PM | COPPER | DOWN | 4.3 min | — | 10¢ | ❌ Lost | -$0.15 |
-| 10/11 6:29:32 PM | DOGE | UP | 28 sec | -0.039% | 0¢ | ❌ Lost | $0.00 |
-| 10/11 6:29:32 PM | COPPER | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/11 6:29:32 PM | PLATINUM | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
