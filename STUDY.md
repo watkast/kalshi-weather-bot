@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 3:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 3:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11134 | 918 | 6 (1%) | 1.1% | -$53.70 (-39%) | Hold to the end: -$53.70 (-39%) |
+| 11147 | 918 | 6 (1%) | 1.1% | -$53.70 (-39%) | Hold to the end: -$53.70 (-39%) |
 
 *In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 918 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10192 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10205 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2979 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2987 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 561 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 562 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 548 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 476 | 1 | 9% | 5% | -80% | -84% | 5 min |
 | Challenger ATP  | ✘ | 378 | 2 | 8% | 2% | -51% | -85% | 5 min |
-| eBasketball Game | ✘ | 313 | 1 | 0% | 0% | -70% | -70% | 1 min |
+| eBasketball Game | ✘ | 315 | 1 | 0% | 0% | -70% | -70% | 1 min |
 | TT Star Series Match | ✘ | 237 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 170 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -195,6 +195,7 @@
 | Turkish Super Lig Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 14 min |
 | Serie B Game | ✘ | 16 | 0 | 12% | 6% | -100% | -78% | 15 min |
 | Ecuador Liga Pro Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 6 min |
+| Liga Portugal Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 10 min |
 | Men's ODI Cricket Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 20 min |
 | Copa Del Rey Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 34 min |
 | Chinese Super League Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 22 min |
@@ -207,7 +208,6 @@
 | Chile Liga de Primera Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 9 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Saudi Pro League Game | ✘ | 14 | 0 | 21% | 21% | -100% | -63% | 15 min |
-| Liga Portugal Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 10 min |
 | Bolivia Premier Division Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 5 min |
 | English Premier League Game | ✔ | 14 | 0 | 7% | 7% | -100% | -88% | 7 min |
 | Israeli Premier League Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -279,36 +279,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 21:11 | ITF Women's Match | Diae El Jardi | ✘ | — | — | In play | — |
-| 10-12 21:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 21:09 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 21:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:22 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 21:20 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:20 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
+| 10-12 21:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:19 | eSoccer Game | Boca Juniors (Eder) | ✘ | — | — | In play | — |
+| 10-12 21:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:18 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-12 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-12 21:16 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:16 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:11 | ITF Women's Match | Diae El Jardi | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-12 21:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:09 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:09 | ITF Women's Match | Sara Shumate | ✘ | — | — | In play | — |
 | 10-12 21:09 | ITF Men's Match | Jefferson Wendler Filho | ✘ | — | — | In play | — |
-| 10-12 21:07 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
-| 10-12 21:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 21:06 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
-| 10-12 21:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:07 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:06 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:05 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:04 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 10-12 21:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:04 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:04 | Brasileiro Serie A Game | Coritiba | ✔ | 90'+6' · BOT 1 - CFC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:03 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:03 | Brasileiro Serie A Game | Botafogo | ✔ | 90'+6' · BOT 1 - CFC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:01 | La Liga Game | Sevilla | ✔ | 90'+13' · SEV 3 - LEV 3 | 14¢ | ❌ Lost | -$0.15 |
-| 10-12 21:01 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
-| 10-12 21:01 | Brasileiro Serie B Game | CR Brasil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:01 | Brasileiro Serie B Game | Fortaleza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:56 | LaLiga 2 Game | Tenerife | ✔ | 90'+6' · GIR 1 - TEN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:56 | AFC Champions League Game | Tie | ✘ | — | — | In play | — |
-| 10-12 20:55 | LaLiga 2 Game | Girona | ✔ | 90'+4' · GIR 1 - TEN 1 | 2¢ | ❌ Lost | -$0.15 |
-| 10-12 20:54 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:54 | Liga Portugal Game | Famalicao | ✘ | — | — | In play | — |
-| 10-12 20:51 | Chile Liga de Primera Game | Nublense | ✘ | — | — | In play | — |
-| 10-12 20:50 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
