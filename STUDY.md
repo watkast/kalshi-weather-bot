@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 1:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 1:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10997 | 907 | 6 (1%) | 1.1% | -$52.05 (-38%) | Hold to the end: -$52.05 (-38%) |
+| 11000 | 907 | 6 (1%) | 1.1% | -$52.05 (-38%) | Hold to the end: -$52.05 (-38%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 907 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10059 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10071 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2907 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2917 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 556 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 546 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -176,6 +176,7 @@
 | Eredivisie Game | ✔ | 18 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
 | Ligue 1 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 10 min |
+| Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
 | Spain Liga ACB Game | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 17 min |
 | College Hockey Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Polish Ekstraklasa Game | ✘ | 17 | 0 | 18% | 6% | -100% | -69% | 11 min |
@@ -195,7 +196,6 @@
 | Ligue 2 Game | ✘ | 16 | 0 | 12% | 12% | -100% | -78% | 5 min |
 | La Liga Game | ✔ | 16 | 0 | 38% | 25% | -100% | -35% | 9 min |
 | Men's ODI Cricket Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 20 min |
-| Canadian Premier League | ✘ | 15 | 1 | 27% | 27% | +522% | -54% | 27 min |
 | Copa Del Rey Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 34 min |
 | Chinese Super League Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 22 min |
 | Czech National Football League Game | ✘ | 15 | 0 | 20% | 20% | -100% | -65% | 12 min |
@@ -279,17 +279,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 19:09 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
-| 10-12 19:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 19:08 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
-| 10-12 19:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 19:07 | eSoccer Game | Argentina (Gigi) | ✘ | — | — | In play | — |
-| 10-12 19:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 19:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 19:06 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
+| 10-12 19:19 | Ligue 2 Game | Metz | ✘ | — | — | In play | — |
+| 10-12 19:16 | CFL Game | Saskatchewan Roughriders | ✘ | — | — | In play | — |
+| 10-12 19:14 | Challenger WTA | Mona Barthel | ✘ | — | — | In play | — |
+| 10-12 19:09 | eSoccer Game | Liverpool (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:08 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:07 | eSoccer Game | Argentina (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:06 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 19:06 | Israeli Premier League Game | Tie | ✘ | — | — | In play | — |
-| 10-12 19:04 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-12 19:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 19:04 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 19:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 18:58 | ITF Men's Match | Andres Urrea | ✘ | — | — | In play | — |
 | 10-12 18:57 | Adriatic ABA Game | KK Cibona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 18:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -306,9 +309,6 @@
 | 10-12 18:53 | Ettan Game | Tvaakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 18:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 18:52 | KHL Game | Kunlun Red Star | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 18:52 | Allsvenskan Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 18:51 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 18:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
