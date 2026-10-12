@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 4:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 4:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10587 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10594 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9635 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9643 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2695 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2699 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 542 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 534 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 463 | 1 | 9% | 5% | -80% | -84% | 5 min |
 | Challenger ATP  | ✘ | 355 | 2 | 9% | 2% | -47% | -85% | 5 min |
@@ -108,13 +108,13 @@
 | Darts Match | ✘ | 168 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 121 | 1 | 13% | 4% | -23% | -77% | 21 min |
-| League of Legends Game | ✘ | 120 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| League of Legends Game | ✘ | 121 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | Women's College Volleyball Match | ✘ | 110 | 2 | 6% | 3% | +70% | -89% | 63 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Serie C Game | ✘ | 105 | 1 | 4% | 1% | -11% | -93% | 8 min |
-| Challenger WTA | ✘ | 91 | 0 | 12% | 7% | -100% | -79% | 8 min |
+| Challenger WTA | ✘ | 92 | 0 | 12% | 7% | -100% | -79% | 8 min |
 | NHL Game | ✔ | 86 | 0 | 15% | 7% | -100% | -74% | 5 min |
-| Dota 2 Game | ✘ | 74 | 0 | 3% | 3% | -100% | -95% | 30 min |
+| Dota 2 Game | ✘ | 75 | 0 | 3% | 3% | -100% | -95% | 30 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | AHL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 6 min |
@@ -278,9 +278,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 10:06 | League of Legends Game | Team Vitality | ✘ | — | — | In play | — |
-| 10-12 10:02 | eSoccer Game | Crystal Palace (Haze) | ✘ | — | — | In play | — |
-| 10-12 10:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 10:17 | Challenger ATP  | Lucas Poullain | ✘ | — | — | In play | — |
+| 10-12 10:14 | eSoccer Game | Everton (SilentShooter) | ✘ | — | — | In play | — |
+| 10-12 10:14 | eSoccer Game | Manchester City (Baros) | ✘ | — | — | In play | — |
+| 10-12 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:09 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:09 | ITF Women's Match | Sophie Williams | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:09 | Challenger WTA | Anna-Lena Friedsam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:06 | League of Legends Game | Team Vitality | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:02 | eSoccer Game | Crystal Palace (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 10:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:59 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:58 | Darts Match | Ashley Coleman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:57 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -297,17 +304,10 @@
 | 10-12 09:44 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:44 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:43 | Challenger ATP  | Daniel de Jonge | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 09:43 | Dota 2 Game | Thailand All Star | ✘ | — | — | In play | — |
+| 10-12 09:43 | Dota 2 Game | Thailand All Star | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:42 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 09:40 | Challenger ATP  | Ivan Marrero Curbelo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 09:38 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:35 | eSoccer Game | Wolves (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:33 | eSoccer Game | Benfica (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:27 | Challenger ATP  | Matyas Cerny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 09:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
