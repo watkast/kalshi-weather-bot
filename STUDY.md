@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 11, 8:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 11, 8:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10229 | 894 | 6 (1%) | 1.1% | -$50.10 (-37%) | Hold to the end: -$50.10 (-37%) |
+| 10239 | 894 | 6 (1%) | 1.1% | -$50.10 (-37%) | Hold to the end: -$50.10 (-37%) |
 
-*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 894 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9286 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9289 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2413 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2416 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 532 | 1 | 4% | 3% | -82% | -93% | 11 min |
@@ -278,8 +278,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 02:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-12 02:29 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 02:40 | eSoccer Game | Wolves (Krocs) | ✘ | — | — | In play | — |
+| 10-12 02:40 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | — | In play | — |
+| 10-12 02:39 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | — | In play | — |
+| 10-12 02:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 02:38 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
+| 10-12 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 02:36 | eSoccer Game | FC Augsburg (Rooney) | ✘ | — | — | In play | — |
+| 10-12 02:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 02:35 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-12 02:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 02:29 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 02:28 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 02:28 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 02:26 | Argentina Primera Division Game | Independiente Avellaneda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,16 +308,6 @@
 | 10-12 02:09 | eSoccer Game | Estudiantes (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 02:09 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 02:09 | eSoccer Game | Leverkusen (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 02:09 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 02:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 02:07 | eSoccer Game | United States (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 01:58 | eBasketball Game | Brooklyn Nets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 01:58 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 01:56 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 01:55 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
