@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 1:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 2:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 10486 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
+| 10496 | 899 | 6 (1%) | 1.1% | -$50.85 (-38%) | Hold to the end: -$50.85 (-38%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 899 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 9537 | 5% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 9545 | 5% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 2620 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 2628 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 541 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 534 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -278,6 +278,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-12 07:56 | eSoccer Game | OGC Nice (Haze) | ✘ | — | — | In play | — |
+| 10-12 07:56 | eSoccer Game | Olympique de Marseille (SilentShooter) | ✘ | — | — | In play | — |
+| 10-12 07:55 | eSoccer Game | Juventus (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:53 | eSoccer Game | Liverpool (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:53 | eSoccer Game | Montpellier (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:53 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 07:51 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 07:43 | eSoccer Game | Paris Saint-Germain (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 07:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 07:40 | eSoccer Game | Juventus (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,16 +308,6 @@
 | 10-12 07:23 | eSoccer Game | Juventus (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 07:23 | eSoccer Game | Real Madrid (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 07:22 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:15 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:12 | eSoccer Game | Real Sociedad (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:12 | eBasketball Game | Golden State Warriors (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:11 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:11 | TT Star Series Match | Koleckar Matyas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:08 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 07:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
