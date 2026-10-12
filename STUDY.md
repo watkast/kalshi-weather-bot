@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 3:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 3:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11159 | 918 | 6 (1%) | 1.1% | -$53.70 (-39%) | Hold to the end: -$53.70 (-39%) |
+| 11173 | 918 | 6 (1%) | 1.1% | -$53.70 (-39%) | Hold to the end: -$53.70 (-39%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 918 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10224 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10231 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3005 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3009 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 563 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 564 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 548 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 476 | 1 | 9% | 5% | -80% | -84% | 5 min |
-| Challenger ATP  | ✘ | 378 | 2 | 8% | 2% | -51% | -85% | 5 min |
-| eBasketball Game | ✘ | 315 | 1 | 0% | 0% | -70% | -70% | 1 min |
+| Challenger ATP  | ✘ | 379 | 2 | 9% | 2% | -51% | -85% | 5 min |
+| eBasketball Game | ✘ | 316 | 1 | 0% | 0% | -70% | -70% | 1 min |
 | TT Star Series Match | ✘ | 237 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 170 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -279,9 +279,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-12 21:38 | Challenger ATP  | Santiago De la Fuente | ✘ | — | — | In play | — |
-| 10-12 21:36 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | — | In play | — |
-| 10-12 21:36 | eSoccer Game | Real Betis (Krocs) | ✘ | — | — | In play | — |
+| 10-12 21:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:50 | eBasketball Game | New Orleans Pelicans (Lenny) | ✘ | — | — | In play | — |
+| 10-12 21:50 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | — | In play | — |
+| 10-12 21:48 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
+| 10-12 21:48 | eBasketball Game | Denver Nuggets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:47 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 10-12 21:45 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | — | In play | — |
+| 10-12 21:45 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
+| 10-12 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:45 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-12 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-12 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:44 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:44 | Argentine Nacional B Game | Los Andes | ✘ | — | — | In play | — |
+| 10-12 21:38 | Challenger ATP  | Santiago De la Fuente | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-12 21:36 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-12 21:36 | eSoccer Game | Real Betis (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:34 | eSoccer Game | Boca Juniors (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:33 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -290,25 +304,11 @@
 | 10-12 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:30 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:25 | ITF Women's Match | Shria Atturu | ✘ | — | — | In play | — |
+| 10-12 21:25 | ITF Women's Match | Shria Atturu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:22 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 21:20 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
 | 10-12 21:20 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:19 | eSoccer Game | Boca Juniors (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:18 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:16 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:16 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:11 | ITF Women's Match | Diae El Jardi | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-12 21:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:09 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 21:09 | ITF Women's Match | Sara Shumate | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-12 21:09 | ITF Men's Match | Jefferson Wendler Filho | ✘ | — | — | In play | — |
 
 ## Raw data
 
