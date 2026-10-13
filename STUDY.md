@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 3:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 4:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12179 | 963 | 6 (1%) | 1.1% | -$60.45 (-42%) | Hold to the end: -$60.45 (-42%) |
+| 12183 | 963 | 6 (1%) | 1.1% | -$60.45 (-42%) | Hold to the end: -$60.45 (-42%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 963 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11201 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11211 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3591 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3599 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 604 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 568 | 1 | 4% | 3% | -84% | -93% | 11 min |
-| ITF Men's Match | ✘ | 532 | 1 | 11% | 6% | -82% | -81% | 5 min |
+| ITF Men's Match | ✘ | 533 | 1 | 11% | 6% | -82% | -81% | 5 min |
 | Challenger ATP  | ✘ | 408 | 2 | 10% | 3% | -54% | -83% | 5 min |
 | eBasketball Game | ✘ | 380 | 1 | 0% | 0% | -75% | -75% | 2 min |
 | TT Star Series Match | ✘ | 250 | 1 | 2% | 2% | -63% | -97% | 4 min |
@@ -108,7 +108,7 @@
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 156 | 2 | 7% | 3% | +20% | -88% | 105 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Men's T20 Cricket Match | ✘ | 132 | 1 | 14% | 4% | -29% | -76% | 21 min |
+| Men's T20 Cricket Match | ✘ | 133 | 1 | 14% | 4% | -30% | -77% | 21 min |
 | Challenger WTA | ✘ | 127 | 0 | 13% | 6% | -100% | -78% | 8 min |
 | League of Legends Game | ✘ | 126 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
@@ -284,16 +284,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 21:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 22:01 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | — | In play | — |
+| 10-13 22:00 | ITF Women's Match | Clemence Mercier | ✘ | — | — | In play | — |
+| 10-13 21:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 21:58 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 10-13 21:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:49 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 21:49 | eSoccer Game | Real Sociedad (Poly) | ✘ | — | — | In play | — |
-| 10-13 21:49 | eSoccer Game | Flamengo (PinkElephant) | ✘ | — | — | In play | — |
-| 10-13 21:48 | eSoccer Game | Universitario (Hurricane) | ✘ | — | — | In play | — |
-| 10-13 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 21:49 | eSoccer Game | Real Sociedad (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:49 | eSoccer Game | Flamengo (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:48 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:46 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 21:45 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 10-13 21:44 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
+| 10-13 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:45 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:44 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:44 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:37 | ITF Men's Match | Kaylan Bigun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -309,11 +313,7 @@
 | 10-13 21:30 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 21:26 | Euroleague Game | Valencia Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 21:25 | Men's T20 Cricket Match | Michigan Cricket Stars | ✘ | — | — | In play | — |
-| 10-13 21:23 | ITF Men's Match | Edward Winter | ✘ | — | — | In play | — |
-| 10-13 21:21 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 21:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 21:20 | Men's T20 Cricket Match | Seattle Thunderbolts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 21:25 | Men's T20 Cricket Match | Michigan Cricket Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
