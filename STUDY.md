@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 7:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11289 | 924 | 6 (1%) | 1.1% | -$54.60 (-39%) | Hold to the end: -$54.60 (-39%) |
+| 11300 | 924 | 6 (1%) | 1.1% | -$54.60 (-39%) | Hold to the end: -$54.60 (-39%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 924 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10352 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10356 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3091 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3095 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 565 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 550 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -279,10 +279,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 01:46 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
-| 10-13 01:46 | eSoccer Game | Manchester City (Krocs) | ✘ | — | — | In play | — |
-| 10-13 01:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 01:42 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 10-13 01:57 | eSoccer Game | Botafogo (Fede) | ✘ | — | — | In play | — |
+| 10-13 01:57 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
+| 10-13 01:56 | NBA Game | New York | ✔ | 5:21 - 4th · MIN 107 - NY 90 | — | In play | — |
+| 10-13 01:55 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-13 01:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 01:54 | eSoccer Game | Estudiantes (Eder) | ✘ | — | — | In play | — |
+| 10-13 01:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 01:54 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-13 01:53 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-13 01:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 01:49 | Brasileiro Serie A Game | Tie | ✔ | 86' · CRU 1 - BRA 3 | — | In play | — |
+| 10-13 01:46 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 01:46 | eSoccer Game | Manchester City (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 01:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 01:42 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:41 | Brasileiro Serie B Game | Ceara | ✘ | — | — | In play | — |
 | 10-13 01:40 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:40 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,17 +309,6 @@
 | 10-13 01:25 | NBA Game | Oklahoma City | ✔ | End of 4th · OKC 110 - ATL 113 | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:25 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:23 | NHL Game | New Jersey | ✔ | 8:41 - 3rd · OTT 3 - NJ 0 | 4¢ | ❌ Lost | -$0.15 |
-| 10-13 01:20 | eSoccer Game | Crystal Palace (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:20 | eSoccer Game | Manchester City (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:15 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:15 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:13 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:12 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:12 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
