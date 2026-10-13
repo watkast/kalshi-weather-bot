@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 11:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 11:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 44 finished bets | 2% | $7.40 | +112% | +16.82¢ | -$3.30 / $10.70 |
 
-*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11810 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11819 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10859 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10871 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3413 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3422 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 592 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 558 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 512 | 1 | 10% | 5% | -82% | -82% | 5 min |
-| Challenger ATP  | ✘ | 400 | 2 | 10% | 2% | -53% | -84% | 5 min |
+| ITF Men's Match | ✘ | 513 | 1 | 10% | 5% | -82% | -82% | 5 min |
+| Challenger ATP  | ✘ | 401 | 2 | 9% | 2% | -53% | -84% | 5 min |
 | eBasketball Game | ✘ | 364 | 1 | 0% | 0% | -74% | -74% | 1 min |
 | TT Star Series Match | ✘ | 243 | 1 | 2% | 2% | -62% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -110,7 +110,7 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 126 | 1 | 13% | 4% | -26% | -77% | 21 min |
 | League of Legends Game | ✘ | 125 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Challenger WTA | ✘ | 124 | 0 | 12% | 6% | -100% | -79% | 8 min |
+| Challenger WTA | ✘ | 125 | 0 | 13% | 6% | -100% | -78% | 8 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 89 | 0 | 16% | 7% | -100% | -73% | 5 min |
@@ -280,11 +280,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 17:15 | ITF Men's Match | Dante Pagani | ✘ | — | — | In play | — |
-| 10-13 17:14 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
-| 10-13 17:13 | Challenger ATP  | Daniel Siniakov | ✘ | — | — | In play | — |
+| 10-13 17:25 | Counter-Strike 2 Game | Hacha Esports | ✘ | — | — | In play | — |
+| 10-13 17:25 | AFC Champions League Game | Al Sadd | ✘ | — | — | In play | — |
+| 10-13 17:22 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-13 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:19 | eSoccer Game | Chelsea (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:18 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:17 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:15 | ITF Men's Match | Dante Pagani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:14 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:13 | Challenger ATP  | Daniel Siniakov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:05 | eSoccer Game | Juventus (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:04 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
@@ -301,15 +310,6 @@
 | 10-13 16:50 | eSoccer Game | Manchester Utd (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 16:49 | Counter-Strike 2 Game | Revise | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 16:48 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:48 | ITF Men's Match | Pierre Yves Bailly | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-13 16:47 | Challenger ATP  | Florian Broska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:47 | FIFA Women's Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:45 | FIFA Women's Game | Reg Time: Turkiye | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 16:39 | Challenger WTA | Elisa Visentin | ✘ | — | — | In play | — |
-| 10-13 16:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:35 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:35 | eSoccer Game | Nottingham Forest (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
