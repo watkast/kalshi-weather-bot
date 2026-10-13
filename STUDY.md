@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 8:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 8:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11312 | 927 | 6 (1%) | 1.1% | -$55.05 (-40%) | Hold to the end: -$55.05 (-40%) |
+| 11322 | 927 | 6 (1%) | 1.1% | -$55.05 (-40%) | Hold to the end: -$55.05 (-40%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 927 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10377 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10379 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3111 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3113 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 565 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 550 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -279,8 +279,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 02:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 02:13 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | — | In play | — |
+| 10-13 02:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 02:27 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
+| 10-13 02:27 | eBasketball Game | Brooklyn Nets (Lenny) | ✘ | — | — | In play | — |
+| 10-13 02:27 | eBasketball Game | New York Knicks (Miles) | ✘ | — | — | In play | — |
+| 10-13 02:24 | eSoccer Game | Leverkusen (Fede) | ✘ | — | — | In play | — |
+| 10-13 02:24 | eSoccer Game | FSV Mainz 05 (Hurricane) | ✘ | — | — | In play | — |
+| 10-13 02:23 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | — | In play | — |
+| 10-13 02:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 02:22 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 10-13 02:22 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-13 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 02:13 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 02:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 02:09 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -299,16 +309,6 @@
 | 10-13 01:54 | eSoccer Game | Estudiantes (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 01:54 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:53 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:49 | Brasileiro Serie A Game | Tie | ✔ | 86' · CRU 1 - BRA 3 | 13¢ | ❌ Lost | -$0.15 |
-| 10-13 01:46 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:46 | eSoccer Game | Manchester City (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:42 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:41 | Brasileiro Serie B Game | Ceara | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 01:40 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 01:40 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
