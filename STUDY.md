@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 11:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 11:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11830 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11842 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10878 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10884 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3426 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3428 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 592 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 558 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 516 | 1 | 10% | 5% | -82% | -83% | 5 min |
+| ITF Men's Match | ✘ | 517 | 1 | 10% | 5% | -82% | -83% | 5 min |
 | Challenger ATP  | ✘ | 401 | 2 | 9% | 2% | -53% | -84% | 5 min |
-| eBasketball Game | ✘ | 364 | 1 | 0% | 0% | -74% | -74% | 1 min |
-| TT Star Series Match | ✘ | 243 | 1 | 2% | 2% | -62% | -96% | 4 min |
+| eBasketball Game | ✘ | 365 | 1 | 0% | 0% | -74% | -74% | 1 min |
+| TT Star Series Match | ✘ | 244 | 1 | 2% | 2% | -62% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 156 | 2 | 7% | 3% | +20% | -88% | 105 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 126 | 1 | 13% | 4% | -26% | -77% | 21 min |
+| Challenger WTA | ✘ | 126 | 0 | 13% | 6% | -100% | -78% | 8 min |
 | League of Legends Game | ✘ | 125 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Challenger WTA | ✘ | 125 | 0 | 13% | 6% | -100% | -78% | 8 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 89 | 0 | 16% | 7% | -100% | -73% | 5 min |
@@ -280,11 +280,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 17:34 | TT Star Series Match | Koblížek Martin | ✘ | — | — | In play | — |
-| 10-13 17:32 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
-| 10-13 17:32 | eSoccer Game | Juventus (Arkon) | ✘ | — | — | In play | — |
+| 10-13 17:47 | ITF Women's Match | Chukwumelije Clarke | ✘ | — | — | In play | — |
+| 10-13 17:45 | eSoccer Game | Slavia Praha (Arkon) | ✘ | — | — | In play | — |
+| 10-13 17:45 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | — | In play | — |
+| 10-13 17:43 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
+| 10-13 17:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 17:43 | FIFA Women's Game | Reg Time: Belgium | ✘ | — | — | In play | — |
+| 10-13 17:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 17:41 | ITF Women's Match | Annabelle Xu | ✘ | — | — | In play | — |
+| 10-13 17:41 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 10-13 17:40 | ITF Men's Match | Jonah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:40 | AFC Champions League Game | Tie | ✘ | — | — | In play | — |
+| 10-13 17:40 | FIBA Europe Cup Game | BC Parnu | ✘ | — | — | In play | — |
+| 10-13 17:34 | TT Star Series Match | Koblížek Martin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:32 | eSoccer Game | Liverpool (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:32 | eSoccer Game | Juventus (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:30 | ITF Men's Match | Mauricio Echazu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:30 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | — | In play | — |
+| 10-13 17:30 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:30 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:28 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,18 +310,6 @@
 | 10-13 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:19 | eSoccer Game | Chelsea (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:18 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:17 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:15 | ITF Men's Match | Dante Pagani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:14 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:13 | Challenger ATP  | Daniel Siniakov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:05 | eSoccer Game | Juventus (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:04 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-13 17:04 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
