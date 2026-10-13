@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 10:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 10:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11785 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11795 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10837 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10841 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3404 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3407 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 592 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 557 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 511 | 1 | 10% | 5% | -82% | -83% | 5 min |
-| Challenger ATP  | ✘ | 399 | 2 | 10% | 3% | -53% | -83% | 5 min |
+| Challenger ATP  | ✘ | 400 | 2 | 10% | 2% | -53% | -84% | 5 min |
 | eBasketball Game | ✘ | 362 | 1 | 0% | 0% | -74% | -74% | 1 min |
 | TT Star Series Match | ✘ | 242 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -280,6 +280,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-13 16:55 | TT Star Series Match | Štalzer Adam | ✘ | — | — | In play | — |
+| 10-13 16:54 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-13 16:51 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-13 16:50 | eSoccer Game | Manchester Utd (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 16:49 | Counter-Strike 2 Game | Revise | ✘ | — | — | In play | — |
+| 10-13 16:48 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 16:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 16:48 | ITF Men's Match | Pierre Yves Bailly | ✘ | — | — | In play | — |
+| 10-13 16:47 | Challenger ATP  | Florian Broska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 16:47 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-13 16:45 | FIFA Women's Game | Reg Time: Turkiye | ✘ | — | — | In play | — |
 | 10-13 16:39 | Challenger WTA | Elisa Visentin | ✘ | — | — | In play | — |
 | 10-13 16:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -300,16 +310,6 @@
 | 10-13 16:27 | FIFA Women's Game | Reg Time: Kosovo | ✘ | — | — | In play | — |
 | 10-13 16:27 | FIFA Women's Game | Reg Time: Belarus | ✘ | — | — | In play | — |
 | 10-13 16:27 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-13 16:27 | Challenger ATP  | Norbert Gombos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:27 | eBasketball Game | Denver Nuggets (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:27 | Dota 2 Game | The Warriors | ✘ | — | — | In play | — |
-| 10-13 16:27 | ITF Women's Match | Victoria Allen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:27 | Challenger WTA | Milana Ivantsiv | ✘ | — | — | In play | — |
-| 10-13 16:27 | Men's T20 Cricket Match | Pakistan | ✘ | — | — | In play | — |
-| 10-13 12:52 | ITF Men's Match | Filip Drab | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:51 | ITF Men's Match | Giovanni Ciocca | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 12:50 | ITF Women's Match | Kei Yau Cheung | ✘ | — | — | In play | — |
-| 10-13 12:48 | Challenger WTA | Darja Semenistaja | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
