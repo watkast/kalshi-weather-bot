@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 1:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 2:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11477 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11483 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10533 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10541 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3242 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3250 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 566 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 552 | 1 | 4% | 3% | -83% | -93% | 11 min |
@@ -267,7 +267,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 48 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 47 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -279,14 +279,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 07:56 | eSoccer Game | OGC Nice (SilentShooter) | ✘ | — | — | In play | — |
-| 10-13 07:54 | eSoccer Game | Slavia Praha (Pedri) | ✘ | — | — | In play | — |
-| 10-13 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 07:53 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 10-13 07:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 07:52 | eSoccer Game | Arsenal (Declan) | ✘ | — | — | In play | — |
-| 10-13 07:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 08:06 | eBasketball Game | New York Knicks (Zion) | ✘ | — | — | In play | — |
+| 10-13 08:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 08:06 | eSoccer Game | Arsenal (Declan) | ✘ | — | — | In play | — |
+| 10-13 08:06 | eSoccer Game | Real Madrid (Luis) | ✘ | — | — | In play | — |
+| 10-13 08:06 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 10-13 08:00 | TT Star Series Match | Slany Martin | ✘ | — | — | In play | — |
+| 10-13 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:56 | eSoccer Game | OGC Nice (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:54 | eSoccer Game | Slavia Praha (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:53 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:52 | eSoccer Game | Arsenal (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 07:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 07:46 | TT Star Series Match | Koleckar Matyas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 07:43 | eSoccer Game | Paris Saint-Germain (Baros) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -303,12 +309,6 @@
 | 10-13 07:28 | eSoccer Game | Arsenal (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 07:27 | eSoccer Game | Slavia Praha (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:24 | eSoccer Game | Real Madrid (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:23 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:23 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:19 | TT Star Series Match | Morávek Jindřich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 07:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
