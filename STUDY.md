@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 3:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 3:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11566 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11575 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10619 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10632 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3299 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3309 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 572 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 573 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 552 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 483 | 1 | 10% | 5% | -81% | -83% | 5 min |
-| Challenger ATP  | ✘ | 385 | 2 | 9% | 2% | -52% | -84% | 5 min |
+| Challenger ATP  | ✘ | 387 | 2 | 9% | 2% | -52% | -84% | 5 min |
 | eBasketball Game | ✘ | 350 | 1 | 0% | 0% | -73% | -73% | 1 min |
 | TT Star Series Match | ✘ | 241 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -279,18 +279,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 09:47 | eSoccer Game | Chelsea (SilentShooter) | ✘ | — | — | In play | — |
-| 10-13 09:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 09:47 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | — | In play | — |
-| 10-13 09:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 09:45 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-13 09:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 09:44 | Challenger ATP  | Michele Ribecai | ✘ | — | — | In play | — |
-| 10-13 09:44 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
-| 10-13 09:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 09:42 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 10-13 09:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 09:41 | Challenger ATP  | Mathys Erhard | ✘ | — | — | In play | — |
+| 10-13 09:59 | Overwatch Game | REVATI | ✘ | — | — | In play | — |
+| 10-13 09:58 | ITF Women's Match | Summer Yardley | ✘ | — | — | In play | — |
+| 10-13 09:58 | ITF Men's Match | Nikolaos Chatziavraam | ✘ | — | — | In play | — |
+| 10-13 09:57 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 10-13 09:57 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-13 09:52 | ITF Women's Match | Giulia Paterno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:52 | Counter-Strike 2 Game | VP.Future 3 | ✘ | — | — | In play | — |
+| 10-13 09:51 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | — | In play | — |
+| 10-13 09:51 | Challenger ATP  | Niels Visker | ✘ | — | — | In play | — |
+| 10-13 09:47 | eSoccer Game | Chelsea (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:47 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:45 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:44 | Challenger ATP  | Michele Ribecai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:44 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:42 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 09:41 | Challenger ATP  | Mathys Erhard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 09:38 | ITF Women's Match | Xinle Geng | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 09:33 | eSoccer Game | Manchester Utd (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -300,15 +309,6 @@
 | 10-13 09:31 | Challenger WTA | Laura Pigossi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 09:30 | ITF Women's Match | Sofiia Suslova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 09:30 | eBasketball Game | Indiana Pacers (Jake) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:28 | AFC Champions League Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 09:28 | AFC Champions League Game | Newcastle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:28 | ITF Women's Match | Viola Bedini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:26 | Darts Match | Scott Mitchell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:23 | Challenger WTA | Eva Bennemann | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 09:22 | ITF Men's Match | Adil Kalyanpur | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-13 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:19 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 09:19 | eSoccer Game | Benfica (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
