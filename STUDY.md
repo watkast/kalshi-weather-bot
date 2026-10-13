@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 11:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 11:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11819 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11830 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10871 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10878 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3422 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3426 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 592 | 0 | 12% | 6% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 558 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 513 | 1 | 10% | 5% | -82% | -82% | 5 min |
+| ITF Men's Match | ✘ | 516 | 1 | 10% | 5% | -82% | -83% | 5 min |
 | Challenger ATP  | ✘ | 401 | 2 | 9% | 2% | -53% | -84% | 5 min |
 | eBasketball Game | ✘ | 364 | 1 | 0% | 0% | -74% | -74% | 1 min |
 | TT Star Series Match | ✘ | 243 | 1 | 2% | 2% | -62% | -96% | 4 min |
@@ -280,6 +280,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-13 17:34 | TT Star Series Match | Koblížek Martin | ✘ | — | — | In play | — |
+| 10-13 17:32 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
+| 10-13 17:32 | eSoccer Game | Juventus (Arkon) | ✘ | — | — | In play | — |
+| 10-13 17:30 | ITF Men's Match | Mauricio Echazu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:30 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | — | In play | — |
+| 10-13 17:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:30 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:28 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:28 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:28 | ITF Men's Match | Charlelie Cosnet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 17:28 | ITF Men's Match | Niko Klyachkin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:25 | Counter-Strike 2 Game | Hacha Esports | ✘ | — | — | In play | — |
 | 10-13 17:25 | AFC Champions League Game | Al Sadd | ✘ | — | — | In play | — |
 | 10-13 17:22 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
@@ -299,17 +310,6 @@
 | 10-13 17:04 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-13 17:04 | eSoccer Game | Newcastle Utd (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:04 | eBasketball Game | Denver Nuggets (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:02 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:02 | eSoccer Game | Chelsea (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 17:02 | FIFA Women's Game | Reg Time: Lithuania | ✘ | — | — | In play | — |
-| 10-13 16:55 | TT Star Series Match | Štalzer Adam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:54 | FIFA Women's Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:51 | FIFA Women's Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:50 | eSoccer Game | Manchester Utd (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:49 | Counter-Strike 2 Game | Revise | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 16:48 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
