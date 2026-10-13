@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 6:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 6:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11734 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11748 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10789 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10796 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3384 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3388 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 589 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 557 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 502 | 1 | 10% | 5% | -81% | -83% | 5 min |
+| ITF Men's Match | ✘ | 504 | 1 | 10% | 5% | -81% | -83% | 5 min |
 | Challenger ATP  | ✘ | 396 | 2 | 9% | 3% | -53% | -84% | 5 min |
-| eBasketball Game | ✘ | 359 | 1 | 0% | 0% | -74% | -74% | 1 min |
+| eBasketball Game | ✘ | 360 | 1 | 0% | 0% | -74% | -74% | 1 min |
 | TT Star Series Match | ✘ | 242 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -279,12 +279,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 12:20 | eSoccer Game | Leverkusen (Aron) | ✘ | — | — | In play | — |
-| 10-13 12:20 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
-| 10-13 12:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | — | In play | — |
+| 10-13 12:32 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
+| 10-13 12:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 12:31 | ITF Women's Match | Anna Ozerova | ✘ | — | — | In play | — |
+| 10-13 12:30 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
+| 10-13 12:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 12:29 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 10-13 12:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 12:29 | ITF Men's Match | Matteo Sciahbasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 12:28 | ITF Women's Match | Amelie Brooks | ✘ | — | — | In play | — |
+| 10-13 12:26 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 10-13 12:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 12:25 | WTA Tennis Match | Shuai Zhang | ✘ | — | — | In play | — |
+| 10-13 12:23 | ITF Men's Match | Henri Haupt | ✘ | — | — | In play | — |
+| 10-13 12:22 | ITF Men's Match | Rares Teodor Pieleanu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 12:20 | eSoccer Game | Leverkusen (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 12:20 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 12:18 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:17 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:17 | eSoccer Game | FC Bayern (Declan) | ✘ | — | — | In play | — |
-| 10-13 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 12:17 | eSoccer Game | FC Bayern (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 12:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:15 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:14 | Challenger ATP  | Kai Wehnelt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -295,20 +309,6 @@
 | 10-13 12:08 | ITF Men's Match | Karim Al-Amin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:07 | eSoccer Game | Manchester Utd (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 12:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:07 | ITF Men's Match | Linus Lagerbohm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:06 | ITF Men's Match | Kirill Kivattsev | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 12:05 | ITF Men's Match | Andrea Paolini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:05 | ITF Women's Match | Simona Ogescu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:05 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:03 | Challenger WTA | Tea Kovacevic | ✘ | — | — | In play | — |
-| 10-13 12:03 | ITF Women's Match | Demi Tran | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:03 | eSoccer Game | FC Bayern (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:01 | Challenger WTA | Anna Siskova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:01 | ITF Men's Match | Alexander Chang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:01 | Challenger ATP  | Tom Paris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 12:01 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
