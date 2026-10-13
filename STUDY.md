@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 4:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 4:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 44 finished bets | 2% | $7.40 | +112% | +16.82¢ | -$3.30 / $10.70 |
 
-*Expect about **3 buys a day**, roughly **$0.50/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11617 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11620 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10671 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10681 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3325 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3331 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 582 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 584 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 554 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 486 | 1 | 9% | 5% | -81% | -84% | 5 min |
-| Challenger ATP  | ✘ | 389 | 2 | 9% | 2% | -52% | -84% | 5 min |
+| ITF Men's Match | ✘ | 487 | 1 | 10% | 5% | -81% | -83% | 5 min |
+| Challenger ATP  | ✘ | 390 | 2 | 9% | 2% | -52% | -84% | 5 min |
 | eBasketball Game | ✘ | 354 | 1 | 0% | 0% | -74% | -73% | 1 min |
 | TT Star Series Match | ✘ | 241 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
@@ -279,13 +279,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 10:40 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | — | In play | — |
-| 10-13 10:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 10:39 | ITF Women's Match | Valeriia Derevyankina | ✘ | — | — | In play | — |
-| 10-13 10:39 | Challenger ATP  | Henry Searle | ✘ | — | — | In play | — |
+| 10-13 10:43 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:43 | Dota 2 Game | Cloud Dawning | ✘ | — | — | In play | — |
+| 10-13 10:40 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:39 | ITF Women's Match | Valeriia Derevyankina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:39 | Challenger ATP  | Henry Searle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 10:38 | Men's ODI Cricket Match | Oman | ✘ | — | — | In play | — |
-| 10-13 10:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 10:36 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-13 10:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 10:36 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 10:35 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
 | 10-13 10:31 | Counter-Strike 2 Game | MARTYRDOM | ✘ | — | — | In play | — |
 | 10-13 10:31 | ITF Women's Match | Sofia Alekseeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -306,9 +309,6 @@
 | 10-13 10:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 10:18 | ITF Women's Match | Warona Mdlulwa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 10:17 | ITF Women's Match | Tamara Sramkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 10:17 | Dota 2 Game | The goal of all life is death | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 10:16 | ITF Women's Match | Mariia Drobysheva | ✘ | — | — | In play | — |
-| 10-13 10:11 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
