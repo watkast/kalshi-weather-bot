@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 12:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 12:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11901 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11917 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10936 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10947 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3454 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3462 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 594 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 560 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 519 | 1 | 10% | 5% | -82% | -83% | 5 min |
+| ITF Men's Match | ✘ | 520 | 1 | 10% | 5% | -82% | -82% | 5 min |
 | Challenger ATP  | ✘ | 403 | 2 | 10% | 3% | -54% | -83% | 5 min |
-| eBasketball Game | ✘ | 367 | 1 | 0% | 0% | -75% | -74% | 1 min |
+| eBasketball Game | ✘ | 369 | 1 | 0% | 0% | -75% | -74% | 1 min |
 | TT Star Series Match | ✘ | 245 | 1 | 2% | 2% | -62% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -280,36 +280,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 18:28 | eSoccer Game | Arsenal (Arkon) | ✘ | — | — | In play | — |
-| 10-13 18:28 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | — | In play | — |
+| 10-13 18:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:39 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-13 18:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:37 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
+| 10-13 18:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:37 | German 3. Liga Game | Fortuna Cologne | ✘ | — | — | In play | — |
+| 10-13 18:37 | ITF Men's Match | Rodrigo Kenichi Abe Hirai | ✘ | — | — | In play | — |
+| 10-13 18:36 | TT Star Series Match | Blinka Michal | ✘ | — | — | In play | — |
+| 10-13 18:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:35 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 87' · SCP 2 - RCL 0 | — | In play | — |
+| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 89' · SLP 0 - SAB 2 | — | In play | — |
+| 10-13 18:33 | Counter-Strike 2 Game | 6666 | ✘ | — | — | In play | — |
+| 10-13 18:32 | UEFA Champions League Game | Slavia Prague | ✔ | 87' · SLP 0 - SAB 1 | — | In play | — |
+| 10-13 18:32 | FIBA Europe Cup Game | Absheron BC | ✘ | — | — | In play | — |
+| 10-13 18:32 | Sweden SBL Game | Nassjo Basket | ✘ | — | — | In play | — |
+| 10-13 18:28 | eSoccer Game | Arsenal (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:28 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 18:27 | Egyptian Premier League Game | El Gouna | ✘ | — | — | In play | — |
-| 10-13 18:26 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | — | In play | — |
-| 10-13 18:25 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | — | In play | — |
-| 10-13 18:25 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | — | In play | — |
-| 10-13 18:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 18:24 | ITF Men's Match | Alejandro Moreno | ✘ | — | — | In play | — |
+| 10-13 18:26 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:25 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:25 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:24 | ITF Men's Match | Alejandro Moreno | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-13 18:24 | Men's T20 Cricket Match | India Champions | ✘ | — | — | In play | — |
-| 10-13 18:24 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
-| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 18:23 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
-| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:24 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:23 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 18:21 | UEFA Champions League Game | Lens | ✔ | 75' · SCP 1 - RCL 0 | — | In play | — |
-| 10-13 18:20 | German 3. Liga Game | Wurzburg | ✘ | — | — | In play | — |
-| 10-13 18:18 | Challenger ATP  | Thiago Monteiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:14 | ITF Men's Match | Tomas Martinez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:13 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:12 | eSoccer Game | Slavia Praha (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:11 | FIFA Women's Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-13 18:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:11 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:10 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:10 | KHL Game | SKA St. Petersburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:09 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:08 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:08 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
