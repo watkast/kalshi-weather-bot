@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 10:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 10:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11402 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11413 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10456 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10463 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3182 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3188 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 565 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 566 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 552 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 479 | 1 | 9% | 5% | -81% | -84% | 5 min |
 | Challenger ATP  | ✘ | 381 | 2 | 9% | 2% | -51% | -85% | 5 min |
@@ -279,13 +279,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 04:08 | ITF Women's Match | Yui Chikaraishi | ✘ | — | — | In play | — |
-| 10-13 04:05 | eSoccer Game | Nottingham Forest (Kovboj) | ✘ | — | — | In play | — |
-| 10-13 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 04:03 | eSoccer Game | Freiburg (Shaq) | ✘ | — | — | In play | — |
-| 10-13 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 04:01 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-13 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 04:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 04:16 | eSoccer Game | Freiburg (Shaq) | ✘ | — | — | In play | — |
+| 10-13 04:16 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | — | In play | — |
+| 10-13 04:15 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 10-13 04:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 04:15 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | — | In play | — |
+| 10-13 04:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 04:14 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-13 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 04:13 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
+| 10-13 04:13 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
+| 10-13 04:08 | ITF Women's Match | Yui Chikaraishi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 04:05 | eSoccer Game | Nottingham Forest (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 04:05 | eSoccer Game | Tie | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 10-13 04:03 | eSoccer Game | Freiburg (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 04:01 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 04:00 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 04:00 | eSoccer Game | RB Leipzig (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -298,17 +309,6 @@
 | 10-13 03:49 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 03:48 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 03:47 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:47 | NFL Game | Los Angeles R | ✔ | 2:00 - OT · BUF 37 - LAR 34 | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:46 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:46 | eSoccer Game | RB Leipzig (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:46 | eSoccer Game | Freiburg (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:45 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:37 | eSoccer Game | Spurs (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:34 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 03:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
