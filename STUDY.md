@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 12:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11917 | 931 | 6 (1%) | 1.1% | -$55.65 (-40%) | Hold to the end: -$55.65 (-40%) |
+| 11932 | 935 | 6 (1%) | 1.1% | -$56.25 (-40%) | Hold to the end: -$56.25 (-40%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 931 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10947 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 935 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 10956 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$55.65 | -40% |
-| Sell at 2¢ | 138 | 15% | -$103.77 | -74% |
-| Sell at 3¢ | 97 | 10% | -$101.82 | -73% |
-| Sell at 5¢ | 66 | 7% | -$96.75 | -69% |
-| Sell at 10¢ | 35 | 4% | -$93.80 | -67% |
-| Sell at 25¢ | 13 | 1% | -$96.62 | -69% |
-| Sell at 50¢ | 9 | 1% | -$78.90 | -56% |
+| Hold to the end | 6 | 1% | -$56.25 | -40% |
+| Sell at 2¢ | 138 | 15% | -$104.37 | -74% |
+| Sell at 3¢ | 97 | 10% | -$102.42 | -73% |
+| Sell at 5¢ | 66 | 7% | -$97.35 | -69% |
+| Sell at 10¢ | 35 | 4% | -$94.40 | -67% |
+| Sell at 25¢ | 13 | 1% | -$97.22 | -69% |
+| Sell at 50¢ | 9 | 1% | -$79.50 | -57% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3462 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3470 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 594 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 560 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 520 | 1 | 10% | 5% | -82% | -82% | 5 min |
 | Challenger ATP  | ✘ | 403 | 2 | 10% | 3% | -54% | -83% | 5 min |
 | eBasketball Game | ✘ | 369 | 1 | 0% | 0% | -75% | -74% | 1 min |
-| TT Star Series Match | ✘ | 245 | 1 | 2% | 2% | -62% | -96% | 4 min |
+| TT Star Series Match | ✘ | 246 | 1 | 2% | 2% | -62% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 156 | 2 | 7% | 3% | +20% | -88% | 105 min |
@@ -246,6 +246,7 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| UEFA Champions League Game | ✔ | 4 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -259,8 +260,8 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 394 | 6% | 2% | 0% | -89% |
-| 5–15 min | 188 | 18% | 7% | 2% | -69% |
-| 15–30 min | 133 | 32% | 17% | 2% | -45% |
+| 5–15 min | 191 | 18% | 7% | 2% | -69% |
+| 15–30 min | 134 | 31% | 17% | 1% | -46% |
 | 30–60 min | 112 | 16% | 10% | 0% | -72% |
 | Over 60 min | 98 | 20% | 13% | 0% | -65% |
 
@@ -280,36 +281,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 18:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 18:39 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-13 18:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 18:37 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
-| 10-13 18:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:48 | FIFA Women's Game | Reg Time: Kazakhstan | ✘ | — | — | In play | — |
+| 10-13 18:47 | German 3. Liga Game | Hoffenheim II | ✘ | — | — | In play | — |
+| 10-13 18:46 | Sweden SBL Game | Sloga Uppsala | ✘ | — | — | In play | — |
+| 10-13 18:46 | TFF 1. Lig Game | Pendik | ✘ | — | — | In play | — |
+| 10-13 18:46 | Men's T20 Cricket Match | North West Dragons | ✘ | — | — | In play | — |
+| 10-13 18:45 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:44 | German 3. Liga Game | Rostock | ✘ | — | — | In play | — |
+| 10-13 18:44 | ITF Men's Match | Henry Lieberman | ✘ | — | — | In play | — |
+| 10-13 18:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:42 | ITF Women's Match | Carmen Andreea Herea | ✘ | — | — | In play | — |
+| 10-13 18:42 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
+| 10-13 18:41 | Challenger WTA | Mia Ristic | ✘ | — | — | In play | — |
+| 10-13 18:39 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:39 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:39 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-13 18:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:39 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:37 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 18:37 | German 3. Liga Game | Fortuna Cologne | ✘ | — | — | In play | — |
 | 10-13 18:37 | ITF Men's Match | Rodrigo Kenichi Abe Hirai | ✘ | — | — | In play | — |
-| 10-13 18:36 | TT Star Series Match | Blinka Michal | ✘ | — | — | In play | — |
-| 10-13 18:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 18:35 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 87' · SCP 2 - RCL 0 | — | In play | — |
-| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 89' · SLP 0 - SAB 2 | — | In play | — |
+| 10-13 18:36 | TT Star Series Match | Blinka Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:35 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 87' · SCP 2 - RCL 0 | 1¢ | ❌ Lost | -$0.15 |
+| 10-13 18:34 | UEFA Champions League Game | Tie | ✔ | 89' · SLP 0 - SAB 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 18:33 | Counter-Strike 2 Game | 6666 | ✘ | — | — | In play | — |
-| 10-13 18:32 | UEFA Champions League Game | Slavia Prague | ✔ | 87' · SLP 0 - SAB 1 | — | In play | — |
+| 10-13 18:32 | UEFA Champions League Game | Slavia Prague | ✔ | 87' · SLP 0 - SAB 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 18:32 | FIBA Europe Cup Game | Absheron BC | ✘ | — | — | In play | — |
-| 10-13 18:32 | Sweden SBL Game | Nassjo Basket | ✘ | — | — | In play | — |
-| 10-13 18:28 | eSoccer Game | Arsenal (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:28 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:27 | Egyptian Premier League Game | El Gouna | ✘ | — | — | In play | — |
-| 10-13 18:26 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:25 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:25 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:24 | ITF Men's Match | Alejandro Moreno | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-13 18:24 | Men's T20 Cricket Match | India Champions | ✘ | — | — | In play | — |
-| 10-13 18:24 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:23 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 18:21 | UEFA Champions League Game | Lens | ✔ | 75' · SCP 1 - RCL 0 | — | In play | — |
 
 ## Raw data
 
