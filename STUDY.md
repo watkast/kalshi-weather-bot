@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 6:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 7:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11250 | 921 | 6 (1%) | 1.1% | -$54.15 (-39%) | Hold to the end: -$54.15 (-39%) |
+| 11258 | 921 | 6 (1%) | 1.1% | -$54.15 (-39%) | Hold to the end: -$54.15 (-39%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 921 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10320 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10325 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -102,14 +102,14 @@
 | Counter-Strike 2 Game | ✘ | 550 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 479 | 1 | 9% | 5% | -81% | -84% | 5 min |
 | Challenger ATP  | ✘ | 380 | 2 | 9% | 2% | -51% | -84% | 5 min |
-| eBasketball Game | ✘ | 324 | 1 | 0% | 0% | -71% | -71% | 1 min |
+| eBasketball Game | ✘ | 326 | 1 | 0% | 0% | -71% | -71% | 1 min |
 | TT Star Series Match | ✘ | 237 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 173 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 156 | 2 | 7% | 3% | +20% | -88% | 105 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 125 | 1 | 14% | 4% | -25% | -76% | 21 min |
-| League of Legends Game | ✘ | 124 | 0 | 6% | 2% | -100% | -89% | 11 min |
+| League of Legends Game | ✘ | 125 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Challenger WTA | ✘ | 106 | 0 | 12% | 7% | -100% | -79% | 8 min |
@@ -123,7 +123,7 @@
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | Argentina Primera Division Game | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 8 min |
 | KHL Game | ✘ | 52 | 0 | 4% | 2% | -100% | -93% | 5 min |
-| Argentine Nacional B Game | ✘ | 49 | 0 | 8% | 8% | -100% | -86% | 10 min |
+| Argentine Nacional B Game | ✘ | 51 | 0 | 10% | 10% | -100% | -83% | 10 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | KBO Game | ✘ | 49 | 0 | 8% | 6% | -100% | -86% | 5 min |
 | Overwatch Game | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 5 min |
@@ -279,8 +279,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 00:54 | League of Legends Game | Maryville University | ✘ | — | — | In play | — |
-| 10-13 00:53 | Argentine Nacional B Game | Godoy Cruz | ✘ | — | — | In play | — |
+| 10-13 01:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 01:05 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
+| 10-13 01:05 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 01:04 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 01:01 | eSoccer Game | Estudiantes (Eder) | ✘ | — | — | In play | — |
+| 10-13 01:01 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 10-13 01:00 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
+| 10-13 00:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:54 | League of Legends Game | Maryville University | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-13 00:53 | Argentine Nacional B Game | Godoy Cruz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:37 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:36 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:35 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -290,7 +298,7 @@
 | 10-13 00:33 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:31 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:31 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:28 | Argentine Nacional B Game | All Boys | ✘ | — | — | In play | — |
+| 10-13 00:28 | Argentine Nacional B Game | All Boys | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-13 00:22 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:21 | ITF Men's Match | Lucas Zancheta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -301,14 +309,6 @@
 | 10-13 00:18 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:17 | ITF Women's Match | Olivia Lincer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:13 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:11 | Brasileiro Serie B Game | America FC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-13 00:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:08 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:08 | League of Legends Game | KaBuM! Ilha das Lendas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:08 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:07 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:07 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
