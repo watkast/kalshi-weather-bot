@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 6:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 6:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11248 | 921 | 6 (1%) | 1.1% | -$54.15 (-39%) | Hold to the end: -$54.15 (-39%) |
+| 11250 | 921 | 6 (1%) | 1.1% | -$54.15 (-39%) | Hold to the end: -$54.15 (-39%) |
 
-*In play right now: 7. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -279,6 +279,8 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-13 00:54 | League of Legends Game | Maryville University | ✘ | — | — | In play | — |
+| 10-13 00:53 | Argentine Nacional B Game | Godoy Cruz | ✘ | — | — | In play | — |
 | 10-13 00:37 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:36 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:35 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -307,8 +309,6 @@
 | 10-13 00:08 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:07 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:07 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
