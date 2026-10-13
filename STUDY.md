@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 6:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 6:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11228 | 919 | 6 (1%) | 1.1% | -$53.85 (-39%) | Hold to the end: -$53.85 (-39%) |
+| 11238 | 919 | 6 (1%) | 1.1% | -$53.85 (-39%) | Hold to the end: -$53.85 (-39%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 919 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10289 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 10305 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3047 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3057 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 564 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 565 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 550 | 1 | 4% | 3% | -83% | -93% | 11 min |
 | ITF Men's Match | ✘ | 478 | 1 | 9% | 5% | -80% | -84% | 5 min |
 | Challenger ATP  | ✘ | 380 | 2 | 9% | 2% | -51% | -84% | 5 min |
-| eBasketball Game | ✘ | 320 | 1 | 0% | 0% | -71% | -70% | 1 min |
+| eBasketball Game | ✘ | 322 | 1 | 0% | 0% | -71% | -70% | 1 min |
 | TT Star Series Match | ✘ | 237 | 1 | 2% | 2% | -61% | -96% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 173 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 156 | 2 | 7% | 3% | +20% | -88% | 105 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 125 | 1 | 14% | 4% | -25% | -76% | 21 min |
-| League of Legends Game | ✘ | 123 | 0 | 7% | 2% | -100% | -89% | 11 min |
+| League of Legends Game | ✘ | 124 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Challenger WTA | ✘ | 106 | 0 | 12% | 7% | -100% | -79% | 8 min |
@@ -180,6 +180,7 @@
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
 | Ligue 1 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 10 min |
 | La Liga Game | ✔ | 18 | 0 | 44% | 33% | -100% | -23% | 9 min |
+| APF Division de Honor Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
 | Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
 | Spain Liga ACB Game | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 17 min |
 | College Hockey Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -197,7 +198,6 @@
 | Serie B Game | ✘ | 16 | 0 | 12% | 6% | -100% | -78% | 15 min |
 | Ecuador Liga Pro Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 6 min |
 | Liga Portugal Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 10 min |
-| APF Division de Honor Game | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 5 min |
 | Men's ODI Cricket Match | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 20 min |
 | Copa Del Rey Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 34 min |
 | Chinese Super League Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 22 min |
@@ -279,36 +279,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 00:13 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:22 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | — | In play | — |
+| 10-13 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:21 | ITF Men's Match | Lucas Zancheta | ✘ | — | — | In play | — |
+| 10-13 00:21 | eSoccer Game | Botafogo (Fede) | ✘ | — | — | In play | — |
+| 10-13 00:21 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
+| 10-13 00:19 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:18 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:17 | ITF Women's Match | Olivia Lincer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:13 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:11 | Brasileiro Serie B Game | America FC | ✘ | — | — | In play | — |
-| 10-13 00:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 00:08 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | — | In play | — |
-| 10-13 00:08 | League of Legends Game | KaBuM! Ilha das Lendas | ✘ | — | — | In play | — |
-| 10-13 00:08 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | — | In play | — |
-| 10-13 00:07 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | — | In play | — |
-| 10-13 00:07 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
-| 10-13 00:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-13 00:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:08 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:08 | League of Legends Game | KaBuM! Ilha das Lendas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:08 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:07 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:07 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:04 | eSoccer Game | São Paulo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:04 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:03 | APF Division de Honor Game | CD Recoleta | ✘ | — | — | In play | — |
+| 10-13 00:03 | APF Division de Honor Game | CD Recoleta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:03 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 23:59 | Brasileiro Serie A Game | Tie | ✔ | 68' · CAP 3 - CHA 0 | — | In play | — |
 | 10-12 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 23:56 | eSoccer Game | CA Osasuna (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-12 23:53 | ITF Men's Match | Glauco Pinheiro da Cruz Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:44 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:41 | eSoccer Game | Girona (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:40 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
