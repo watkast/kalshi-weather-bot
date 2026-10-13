@@ -1,22 +1,19 @@
 {
- "saved_at": "2026-10-13T21:26:24+00:00",
+ "saved_at": "2026-10-13T21:37:49+00:00",
  "series": 31,
  "markets_watched": 16,
- "batch_lookup": false,
- "bets": 16804,
+ "batch_lookup": true,
+ "bets": 16815,
  "open": 0,
  "coinbase_spot": {
-  "NEAR": true,
+  "BNB": true,
   "ETH": true,
-  "SOL": true,
+  "DOGE": true,
   "BTC": true,
   "XRP": true,
+  "NEAR": true,
   "ZEC": true,
-  "HYPE": true,
-  "BNB": true,
-  "DOGE": true
+  "HYPE": true
  },
- "errors": [
-  "2026-10-13T17:33:01+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
