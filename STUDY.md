@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 12, 6:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 12, 6:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 11238 | 919 | 6 (1%) | 1.1% | -$53.85 (-39%) | Hold to the end: -$53.85 (-39%) |
+| 11246 | 921 | 6 (1%) | 1.1% | -$54.15 (-39%) | Hold to the end: -$54.15 (-39%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 919 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 10305 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 921 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 10310 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$53.85 | -39% |
-| Sell at 2¢ | 135 | 15% | -$102.75 | -75% |
-| Sell at 3¢ | 94 | 10% | -$101.19 | -73% |
-| Sell at 5¢ | 64 | 7% | -$96.25 | -70% |
-| Sell at 10¢ | 34 | 4% | -$93.31 | -68% |
-| Sell at 25¢ | 13 | 1% | -$94.82 | -69% |
-| Sell at 50¢ | 9 | 1% | -$77.10 | -56% |
+| Hold to the end | 6 | 1% | -$54.15 | -39% |
+| Sell at 2¢ | 136 | 15% | -$102.79 | -74% |
+| Sell at 3¢ | 95 | 10% | -$101.10 | -73% |
+| Sell at 5¢ | 65 | 7% | -$95.90 | -69% |
+| Sell at 10¢ | 34 | 4% | -$93.61 | -68% |
+| Sell at 25¢ | 13 | 1% | -$95.12 | -69% |
+| Sell at 50¢ | 9 | 1% | -$77.40 | -56% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3057 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3061 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 565 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 550 | 1 | 4% | 3% | -83% | -93% | 11 min |
-| ITF Men's Match | ✘ | 478 | 1 | 9% | 5% | -80% | -84% | 5 min |
+| ITF Men's Match | ✘ | 479 | 1 | 9% | 5% | -81% | -84% | 5 min |
 | Challenger ATP  | ✘ | 380 | 2 | 9% | 2% | -51% | -84% | 5 min |
 | eBasketball Game | ✘ | 322 | 1 | 0% | 0% | -71% | -70% | 1 min |
 | TT Star Series Match | ✘ | 237 | 1 | 2% | 2% | -61% | -96% | 4 min |
@@ -129,8 +129,8 @@
 | Overwatch Game | ✘ | 46 | 0 | 4% | 0% | -100% | -92% | 5 min |
 | Liga DIMAYOR Game | ✘ | 45 | 1 | 11% | 4% | +107% | -81% | 6 min |
 | LaLiga 2 Game | partly | 44 | 0 | 16% | 7% | -100% | -72% | 8 min |
+| Brasileiro Serie A Game | partly | 43 | 1 | 21% | 12% | +117% | -64% | 6 min |
 | USL Championship Game | partly | 41 | 0 | 12% | 2% | -100% | -79% | 6 min |
-| Brasileiro Serie A Game | partly | 41 | 1 | 20% | 10% | +128% | -66% | 2 min |
 | Liga Leumit Game | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 14 min |
 | Japan J2 League Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 8 min |
 | Major League Soccer Game | partly | 39 | 1 | 18% | 5% | +139% | -69% | 6 min |
@@ -259,9 +259,9 @@
 |---|---|---|---|---|---|
 | Under 5 min | 390 | 6% | 2% | 0% | -89% |
 | 5–15 min | 185 | 18% | 6% | 2% | -69% |
-| 15–30 min | 129 | 31% | 17% | 2% | -46% |
+| 15–30 min | 130 | 32% | 18% | 2% | -45% |
 | 30–60 min | 112 | 16% | 10% | 0% | -72% |
-| Over 60 min | 97 | 21% | 13% | 0% | -64% |
+| Over 60 min | 98 | 20% | 13% | 0% | -65% |
 
 ## Speed & liquidity
 
@@ -279,11 +279,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-13 00:22 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | — | In play | — |
-| 10-13 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-13 00:21 | ITF Men's Match | Lucas Zancheta | ✘ | — | — | In play | — |
-| 10-13 00:21 | eSoccer Game | Botafogo (Fede) | ✘ | — | — | In play | — |
-| 10-13 00:21 | eSoccer Game | Universitario (Shaq) | ✘ | — | — | In play | — |
+| 10-13 00:35 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:34 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 10-13 00:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-13 00:33 | eSoccer Game | Estudiantes (Eder) | ✘ | — | — | In play | — |
+| 10-13 00:33 | eSoccer Game | Botafogo (Fede) | ✘ | — | — | In play | — |
+| 10-13 00:31 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 10-13 00:31 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-13 00:28 | Argentine Nacional B Game | All Boys | ✘ | — | — | In play | — |
+| 10-13 00:22 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:21 | ITF Men's Match | Lucas Zancheta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:21 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-13 00:21 | eSoccer Game | Universitario (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:19 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:18 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -301,14 +309,6 @@
 | 10-13 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 00:04 | eSoccer Game | São Paulo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:04 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:03 | APF Division de Honor Game | CD Recoleta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 00:03 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:59 | Brasileiro Serie A Game | Tie | ✔ | 68' · CAP 3 - CHA 0 | — | In play | — |
-| 10-12 23:56 | eSoccer Game | Getafe CF (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:56 | eSoccer Game | CA Osasuna (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-12 23:53 | ITF Men's Match | Glauco Pinheiro da Cruz Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
