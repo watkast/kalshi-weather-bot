@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 12, 7:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 12, 7:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1219 finished bets | 1% | $49.40 | +37% | +4.05¢ | $32.30 / $17.10 |
 
-*Expect about **83 buys a day** (~$12.38/day at risk); max loss per buy **15¢**.*
+*Expect about **83 buys a day** (~$12.41/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16071 | 16064 | 63 (0%) | 1.07% | -$1,057.80 (-55%) | Hold to the close: -$1,057.80 (-55%) |
+| 16086 | 16064 | 63 (0%) | 1.07% | -$1,057.80 (-55%) | Hold to the close: -$1,057.80 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 21. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,21 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/12 7:28:40 PM | HYPE | DOWN | 79 sec | +0.176% | — | In play | — |
+| 10/12 7:28:40 PM | GBPUSD | UP | 79 sec | — | — | In play | — |
+| 10/12 7:28:40 PM | BNB | DOWN | 79 sec | +0.085% | — | In play | — |
+| 10/12 7:28:24 PM | SOL | DOWN | 1.6 min | +0.169% | — | In play | — |
+| 10/12 7:28:08 PM | PALLADIUM | UP | 1.9 min | — | — | In play | — |
+| 10/12 7:28:08 PM | COPPER | UP | 1.9 min | — | — | In play | — |
+| 10/12 7:27:52 PM | NEAR | DOWN | 2.1 min | +0.419% | — | In play | — |
+| 10/12 7:26:17 PM | BTC | DOWN | 3.7 min | +0.251% | — | In play | — |
+| 10/12 7:26:17 PM | ETH | DOWN | 3.7 min | +0.405% | — | In play | — |
+| 10/12 7:25:29 PM | DOGE | DOWN | 4.5 min | +0.707% | — | In play | — |
+| 10/12 7:25:29 PM | PLATINUM | UP | 4.5 min | — | — | In play | — |
+| 10/12 7:25:13 PM | ZEC | DOWN | 4.8 min | +1.410% | — | In play | — |
+| 10/12 7:25:13 PM | GOLD | UP | 4.8 min | — | — | In play | — |
+| 10/12 7:25:13 PM | XRP | DOWN | 4.8 min | +0.659% | — | In play | — |
+| 10/12 7:24:57 PM | SILVER | UP | 5.0 min | — | — | In play | — |
 | 10/12 7:13:21 PM | PALLADIUM | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/12 7:13:21 PM | AUDUSD | DOWN | 1.6 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/12 7:12:34 PM | COPPER | DOWN | 2.4 min | — | 0¢ | ❌ Lost | -$0.15 |
@@ -198,21 +213,6 @@
 | 10/12 7:10:42 PM | USDCAD | UP | 4.3 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/12 7:10:42 PM | PLATINUM | DOWN | 4.3 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/12 7:10:27 PM | DOGE | DOWN | 4.5 min | +0.814% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 7:10:27 PM | USDJPY | UP | 4.5 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 7:10:27 PM | ETH | DOWN | 4.5 min | +0.542% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 7:10:11 PM | BNB | DOWN | 4.8 min | +0.550% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 7:09:39 PM | XRP | DOWN | 5.3 min | +0.879% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 7:09:05 PM | NEAR | DOWN | 5.9 min | +2.565% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 6:59:53 PM | USDCAD | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:59:38 PM | ZEC | DOWN | 22 sec | +0.469% | 0¢ | ❌ Lost | $0.00 |
-| 10/12 6:59:22 PM | NATGAS | UP | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:59:06 PM | GBPUSD | DOWN | 54 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:59:06 PM | BNB | UP | 54 sec | -0.158% | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:58:49 PM | SILVER | UP | 70 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:58:34 PM | EURUSD | DOWN | 85 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:58:02 PM | USDJPY | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/12 6:58:02 PM | ETH | UP | 2.0 min | -0.343% | 1¢ | ❌ Lost | -$0.15 |
-| 10/12 6:58:02 PM | GOLD | UP | 2.0 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
