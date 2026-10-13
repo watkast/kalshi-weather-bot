@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-10-13T17:28:03+00:00",
+ "saved_at": "2026-10-13T17:38:11+00:00",
  "series": 31,
  "markets_watched": 21,
- "batch_lookup": true,
- "bets": 16594,
- "open": 3,
+ "batch_lookup": false,
+ "bets": 16602,
+ "open": 0,
  "coinbase_spot": {
   "NEAR": true,
   "ETH": true,
@@ -16,5 +16,7 @@
   "BNB": true,
   "DOGE": true
  },
- "errors": []
+ "errors": [
+  "2026-10-13T17:33:01+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ]
 }
