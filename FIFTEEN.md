@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 14, 12:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 14, 12:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1342 finished bets | 1% | $35.30 | +24% | +2.63¢ | $26.30 / $9.00 |
 
-*Expect about **84 buys a day** (~$12.58/day at risk); max loss per buy **15¢**.*
+*Expect about **84 buys a day** (~$12.57/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17434 | 17427 | 65 (0%) | 1.07% | -$1,198.10 (-57%) | Hold to the close: -$1,198.10 (-57%) |
+| 17435 | 17427 | 65 (0%) | 1.07% | -$1,198.10 (-57%) | Hold to the close: -$1,198.10 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/14 12:55:41 AM | NEAR | UP | 4.3 min | -0.538% | — | In play | — |
 | 10/14 12:44:15 AM | HYPE | DOWN | 45 sec | +0.022% | 0¢ | ❌ Lost | $0.00 |
 | 10/14 12:43:58 AM | SOL | DOWN | 61 sec | +0.144% | 1¢ | ❌ Lost | -$0.15 |
 | 10/14 12:43:58 AM | DOGE | DOWN | 61 sec | +0.071% | 0¢ | ❌ Lost | $0.00 |
@@ -212,7 +213,6 @@
 | 10/14 12:14:40 AM | NATGAS | UP | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/14 12:14:40 AM | AUDUSD | DOWN | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/14 12:13:49 AM | DOGE | DOWN | 71 sec | +0.079% | 0¢ | ❌ Lost | -$0.15 |
-| 10/14 12:13:49 AM | BTC | DOWN | 71 sec | +0.135% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
