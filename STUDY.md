@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 4:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 4:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13482 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
+| 13492 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1011 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12459 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12465 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4357 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4361 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 669 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 605 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -152,14 +152,14 @@
 | Liga Expansion Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 11 min |
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | NFL Game | ✔ | 31 | 1 | 19% | 6% | +201% | -66% | 4 min |
+| Valorant game winner | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 16 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Japan NPB Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Valorant game winner | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 16 min |
 | SHL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | DEL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Chinese Basketball Association Game  | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | TFF 1. Lig Game | ✘ | 27 | 0 | 15% | 4% | -100% | -74% | 8 min |
-| Russia Liga Pro Match | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | China League 1 Game | ✘ | 25 | 0 | 12% | 8% | -100% | -79% | 6 min |
@@ -291,10 +291,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 22:35 | Valorant game winner | MIBR Female | ✘ | — | — | In play | — |
+| 10-14 22:46 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | — | In play | — |
+| 10-14 22:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:44 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 10-14 22:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:43 | eSoccer Game | Palmeiras (Nate) | ✘ | — | — | In play | — |
+| 10-14 22:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:42 | CONMEBOL Sudamericana Game | Reg Time: Montevideo City | ✘ | — | — | In play | — |
+| 10-14 22:40 | Russia Liga Pro Match | Rakhmanovskii Viktor Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:38 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:35 | Valorant game winner | MIBR Female | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:34 | ITF Men's Match | Bruno Rodrigues | ✘ | — | — | In play | — |
-| 10-14 22:31 | eSoccer Game | CA Osasuna (NINJA) | ✘ | — | — | In play | — |
-| 10-14 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:31 | eSoccer Game | CA Osasuna (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:29 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:28 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -311,16 +321,6 @@
 | 10-14 22:15 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:14 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:14 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:12 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:12 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:12 | Challenger ATP  | Rodrigo Pacheco Mendez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:11 | Men's T20 Cricket Match | ICR Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:10 | ITF Women's Match | Eryn Cayetano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:08 | ITF Men's Match | Emilio Camacho | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-14 22:03 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
