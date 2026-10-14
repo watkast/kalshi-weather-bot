@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Wed Oct 14, 1:20 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Wed Oct 14, 3:47 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 341 | 300 | 39% | -$146.21 | -11.2% | 41 | Losing |
-| **Rain** | 100 | 90 | 39% | $43.54 | +14.2% | 10 | Promising |
+| **Temperature** | 344 | 300 | 39% | -$146.21 | -11.2% | 44 | Losing |
+| **Rain** | 103 | 90 | 39% | $43.54 | +14.2% | 13 | Promising |
 | **Longshot fade** | 953 | 948 | 93% | -$169.26 | -1.9% | 5 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,6 +44,9 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-15 | LAX 89-90 | NO | 59¢ | 81% | Open | — |
+| 2026-10-15 | DEN >54 | YES | 6¢ | 20% | Open | — |
+| 2026-10-15 | CHI 61-62 | YES | 12¢ | 26% | Open | — |
 | 2026-10-15 | PHIL 68-69 | YES | 12¢ | 26% | Open | — |
 | 2026-10-15 | PHIL 70-71 | NO | 67¢ | 77% | Open | — |
 | 2026-10-15 | PHIL 72-73 | NO | 68¢ | 86% | Open | — |
@@ -51,14 +54,14 @@
 | 2026-10-15 | PHIL <68 | YES | 7¢ | 31% | Open | — |
 | 2026-10-15 | LAX 85-86 | YES | 12¢ | 23% | Open | — |
 | 2026-10-15 | LAX >90 | NO | 69¢ | 88% | Open | — |
-| 2026-10-15 | DEN 47-48 | YES | 8¢ | 19% | Open | — |
-| 2026-10-15 | DEN 53-54 | NO | 71¢ | 86% | Open | — |
-| 2026-10-15 | AUS 91-92 | NO | 39¢ | 74% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-15 | DEN | NO | 11¢ | 24% | Open | — |
+| 2026-10-15 | DAL | NO | 50¢ | 63% | Open | — |
+| 2026-10-15 | CMH | NO | 35¢ | 47% | Open | — |
 | 2026-10-15 | PIT | NO | 39¢ | 62% | Open | — |
 | 2026-10-15 | PHIL | NO | 65¢ | 77% | Open | — |
 | 2026-10-14 | SEA | NO | 64¢ | 79% | Open | — |
@@ -66,9 +69,6 @@
 | 2026-10-14 | EWR | YES | 9¢ | 20% | Open | — |
 | 2026-10-14 | CLL | YES | 37¢ | 52% | Open | — |
 | 2026-10-14 | AUS | YES | 44¢ | 66% | Open | — |
-| 2026-10-14 | PVD | YES | 8¢ | 23% | Open | — |
-| 2026-10-14 | HOU | YES | 15¢ | 34% | Open | — |
-| 2026-10-14 | BOS | YES | 25¢ | 37% | Open | — |
 
 ## The bots
 
