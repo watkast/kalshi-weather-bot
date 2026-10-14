@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 11:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 11:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13132 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 13144 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12127 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12131 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4185 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4187 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 658 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 594 | 1 | 5% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 575 | 1 | 11% | 6% | -84% | -81% | 5 min |
 | Challenger ATP  | ✘ | 436 | 2 | 9% | 3% | -57% | -84% | 5 min |
-| eBasketball Game | ✘ | 433 | 1 | 0% | 0% | -78% | -78% | 2 min |
+| eBasketball Game | ✘ | 434 | 1 | 0% | 0% | -78% | -78% | 2 min |
 | TT Star Series Match | ✘ | 267 | 1 | 2% | 2% | -65% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -236,12 +236,12 @@
 | Finnish Ykkosliiga Game | ✘ | 11 | 1 | 9% | 9% | +748% | -84% | 15 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Faroe Islands Premier League Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 86 min |
+| Slovenia 1. SKL Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 15 min |
 | LKL Lithuania Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Croatia HNL Game | ✘ | 9 | 0 | 22% | 11% | -100% | -61% | 16 min |
 | Bundesliga Game | ✔ | 9 | 1 | 22% | 22% | +937% | -61% | 13 min |
 | Latvian Virsliga Game | ✘ | 9 | 0 | 11% | 0% | -100% | -81% | 10 min |
 | Slovenian Prva Liga Game | ✘ | 9 | 0 | 22% | 11% | -100% | -61% | 14 min |
-| Slovenia 1. SKL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 11 min |
 | England Super League Basketball Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | CFL Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Singapore Premier League Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 17 min |
@@ -288,11 +288,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 17:48 | Liiga Game | KalPa Kuopio | ✘ | — | — | In play | — |
+| 10-14 17:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 17:45 | eSoccer Game | Slavia Praha (Nairo) | ✘ | — | — | In play | — |
+| 10-14 17:44 | Champions League Hockey | SaiPa Lappeenranta | ✘ | — | — | In play | — |
+| 10-14 17:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 17:43 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
+| 10-14 17:42 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-14 17:42 | Czech First League Game | Mlada Boleslav | ✘ | — | — | In play | — |
+| 10-14 17:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 17:41 | FIBA Europe Cup Game | Rilski Sportist | ✘ | — | — | In play | — |
+| 10-14 17:41 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 10-14 17:40 | Counter-Strike 2 Game | HOTU | ✘ | — | — | In play | — |
 | 10-14 17:35 | Euroleague Game | Besiktas JK | ✘ | — | — | In play | — |
 | 10-14 17:34 | ITF Men's Match | Patricio Alvarado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 17:33 | eSoccer Game | Juventus (Nairo) | ✘ | — | — | In play | — |
-| 10-14 17:32 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | — | In play | — |
+| 10-14 17:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 17:33 | eSoccer Game | Juventus (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 17:32 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:29 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:29 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:28 | Russia Liga Pro Match | Tsvetkov Vyacheslav Eduardovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -306,18 +318,6 @@
 | 10-14 17:23 | UEFA Champions League Game | Tie | ✔ | 38' · LIV 3 - LAS 0 | — | In play | — |
 | 10-14 17:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:21 | Men's T20 Cricket Match | India | ✘ | — | — | In play | — |
-| 10-14 17:19 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:19 | ITF Men's Match | Raul Garcia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:18 | ITF Women's Match | Mariia Tkacheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:18 | eSoccer Game | Chelsea (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:17 | EuroCup Basketball Game | BC Siauliai | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 17:17 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:17 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:15 | eSoccer Game | Manchester Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
