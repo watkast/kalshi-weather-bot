@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Wed Oct 14 12:04 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Wed Oct 14 12:14 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 15950 | 13815 | 2135 (27) | 0 | $-5051.64 | -5.0% |
 | **+10¢** | 12065 | 9589 | 2476 (39) | 0 | $-4672.42 | -6.2% |
 | **+15¢** | 10145 | 7487 | 2658 (58) | 0 | $-4185.10 | -6.6% |
-| **+20¢** | 9023 | 6234 | 2789 (75) | 1 | $-3726.18 | -6.6% |
+| **+20¢** | 9024 | 6235 | 2789 (75) | 0 | $-3724.25 | -6.6% |
 | **+10¢ (15¢ stop)** | 19623 | 19573 | 50 (29) | 0 | $-7553.64 | -6.1% |
 
 ## Latest trades
@@ -46,7 +46,7 @@
 | 10-14 12:01 | +10 | HYPE | UP | 0.64 | 0.76 | 0.86 |
 | 10-14 12:01 | +5 | HYPE | UP | 0.64 | 0.72 | 0.44 |
 | 10-14 12:01 | +10 stop | NEAR | UP | 0.64 | 0.75 | 0.80 |
-| 10-14 12:01 | +20 | NEAR | UP | 0.62 | open |  |
+| 10-14 12:01 | +20 | NEAR | UP | 0.62 | 0.84 | 1.93 |
 | 10-14 12:01 | +15 | NEAR | UP | 0.62 | 0.78 | 1.30 |
 | 10-14 12:01 | +10 | NEAR | UP | 0.62 | 0.72 | 0.68 |
 | 10-14 12:01 | +5 | NEAR | UP | 0.62 | 0.72 | 0.68 |
