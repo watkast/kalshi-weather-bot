@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 4:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 4:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 47 finished bets | 2% | $6.95 | +99% | +14.79¢ | -$3.45 / $10.40 |
 
-*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13492 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
+| 13500 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
 
 *In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1011 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12465 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12473 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4361 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4367 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 669 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 605 | 1 | 4% | 3% | -85% | -92% | 11 min |
-| ITF Men's Match | ✘ | 595 | 1 | 12% | 6% | -84% | -80% | 5 min |
+| ITF Men's Match | ✘ | 596 | 1 | 12% | 6% | -84% | -80% | 5 min |
 | eBasketball Game | ✘ | 447 | 1 | 0% | 0% | -79% | -79% | 2 min |
 | Challenger ATP  | ✘ | 441 | 2 | 9% | 3% | -58% | -84% | 5 min |
 | TT Star Series Match | ✘ | 277 | 1 | 2% | 2% | -66% | -97% | 4 min |
@@ -180,6 +180,7 @@
 | Polish Ekstraklasa Game | ✘ | 19 | 0 | 16% | 5% | -100% | -73% | 11 min |
 | Serie A Game | ✔ | 19 | 0 | 11% | 11% | -100% | -82% | 11 min |
 | Sweden SBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Spain Liga ACB Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 18 min |
 | Bundesliga 2 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 8 min |
 | Eredivisie Game | ✔ | 18 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Ligue 2 Game | ✘ | 18 | 0 | 17% | 17% | -100% | -71% | 7 min |
@@ -191,7 +192,6 @@
 | Men's ODI Cricket Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 24 min |
 | Czech NBL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
-| Spain Liga ACB Game | ✘ | 17 | 0 | 12% | 6% | -100% | -80% | 17 min |
 | College Hockey Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Czech First League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 10 min |
 | LNB Elite Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -291,18 +291,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 22:46 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | — | In play | — |
-| 10-14 22:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 22:44 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
-| 10-14 22:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 22:43 | eSoccer Game | Palmeiras (Nate) | ✘ | — | — | In play | — |
-| 10-14 22:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:57 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-14 22:57 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 10-14 22:56 | eSoccer Game | River Plate (Elastico) | ✘ | — | — | In play | — |
+| 10-14 22:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:56 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 10-14 22:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:54 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-14 22:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 22:46 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:44 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:43 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 22:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:42 | CONMEBOL Sudamericana Game | Reg Time: Montevideo City | ✘ | — | — | In play | — |
 | 10-14 22:40 | Russia Liga Pro Match | Rakhmanovskii Viktor Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:38 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:35 | Valorant game winner | MIBR Female | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:34 | ITF Men's Match | Bruno Rodrigues | ✘ | — | — | In play | — |
+| 10-14 22:34 | ITF Men's Match | Bruno Rodrigues | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 22:31 | eSoccer Game | CA Osasuna (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:29 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,14 +321,6 @@
 | 10-14 22:28 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:25 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 22:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:24 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:17 | eSoccer Game | Girona (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:17 | eSoccer Game | Getafe CF (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:17 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:15 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:14 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 22:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
