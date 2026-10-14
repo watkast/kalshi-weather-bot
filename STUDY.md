@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 1:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 1:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12609 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12616 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11615 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11619 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3916 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3920 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 615 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -288,10 +288,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 07:14 | eSoccer Game | Stade Brestois 29 (Minjori) | ✘ | — | — | In play | — |
-| 10-14 07:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 07:13 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
-| 10-14 07:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 07:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 07:26 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | — | In play | — |
+| 10-14 07:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 07:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 07:25 | eSoccer Game | Juventus (Bradley) | ✘ | — | — | In play | — |
+| 10-14 07:24 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 10-14 07:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 07:14 | eSoccer Game | Stade Brestois 29 (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 07:13 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 07:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 07:12 | eBasketball Game | New York Knicks (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 07:10 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 07:10 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -311,13 +318,6 @@
 | 10-14 06:51 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 06:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 06:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:46 | eSoccer Game | Nantes (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:44 | eBasketball Game | New Orleans Pelicans (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:43 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:43 | TT Star Series Match | Yefimov Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 06:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
