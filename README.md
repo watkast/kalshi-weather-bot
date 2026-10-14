@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Wed Oct 14, 4:06 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Wed Oct 14, 6:01 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 322 | 290 | 40% | -$122.06 | -9.6% | 32 | Losing |
-| **Rain** | 98 | 84 | 39% | $38.65 | +13.3% | 14 | Promising |
+| **Temperature** | 322 | 294 | 39% | -$135.73 | -10.6% | 28 | Losing |
+| **Rain** | 98 | 88 | 39% | $39.58 | +13.2% | 10 | Promising |
 | **Longshot fade** | 953 | 948 | 93% | -$169.26 | -1.9% | 5 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
