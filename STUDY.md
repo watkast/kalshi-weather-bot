@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 9:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 9:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13001 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 13005 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12004 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12007 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4116 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4118 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 649 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 583 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -107,7 +107,7 @@
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 158 | 2 | 7% | 3% | +18% | -88% | 103 min |
-| Men's T20 Cricket Match | ✘ | 142 | 1 | 13% | 4% | -34% | -77% | 23 min |
+| Men's T20 Cricket Match | ✘ | 143 | 1 | 14% | 4% | -35% | -76% | 25 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Challenger WTA | ✘ | 132 | 0 | 14% | 5% | -100% | -76% | 8 min |
 | League of Legends Game | ✘ | 127 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -288,9 +288,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 15:12 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-14 15:11 | eBasketball Game | New York Knicks (Shaq) | ✘ | — | — | In play | — |
+| 10-14 15:10 | TT Star Series Match | Beneš Michal | ✘ | — | — | In play | — |
+| 10-14 15:06 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 10-14 14:59 | Russia Liga Pro Match | Priakhin Vadim Alekseevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:56 | eSoccer Game | Olympique Lyon (Declan) | ✘ | — | — | In play | — |
-| 10-14 14:56 | eSoccer Game | Strasbourg (Luis) | ✘ | — | — | In play | — |
+| 10-14 14:56 | eSoccer Game | Olympique Lyon (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 14:56 | eSoccer Game | Strasbourg (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:54 | Challenger ATP  | Daniel Rincon | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 14:50 | Challenger ATP  | Tiago Torres | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:45 | eSoccer Game | Olympique Lyon (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -314,10 +318,6 @@
 | 10-14 14:28 | Slovakian Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:28 | Counter-Strike 2 Game | NIP | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-14 14:27 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:27 | Men's T20 Cricket Match | England Champions | ✘ | — | — | In play | — |
-| 10-14 14:25 | ITF Men's Match | Samuele Seghetti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:21 | Slovakian Cup Game | Namestovo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
