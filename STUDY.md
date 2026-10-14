@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 8:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 8:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 44 finished bets | 2% | $7.40 | +112% | +16.82¢ | -$3.30 / $10.70 |
 
-*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12369 | 972 | 6 (1%) | 1.1% | -$61.80 (-42%) | Hold to the end: -$61.80 (-42%) |
+| 12372 | 972 | 6 (1%) | 1.1% | -$61.80 (-42%) | Hold to the end: -$61.80 (-42%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 972 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11381 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11392 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3734 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3744 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -106,7 +106,7 @@
 | TT Star Series Match | ✘ | 251 | 1 | 2% | 2% | -63% | -97% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| Women's College Volleyball Match | ✘ | 157 | 2 | 7% | 3% | +19% | -88% | 104 min |
+| Women's College Volleyball Match | ✘ | 158 | 2 | 7% | 3% | +18% | -88% | 103 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 133 | 1 | 14% | 4% | -30% | -77% | 21 min |
 | Challenger WTA | ✘ | 127 | 0 | 13% | 6% | -100% | -78% | 8 min |
@@ -286,14 +286,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 02:10 | eSoccer Game | Dortmund (Hurricane) | ✘ | — | — | In play | — |
-| 10-14 02:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 02:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 02:08 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | — | In play | — |
-| 10-14 02:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 02:06 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-14 02:21 | College Football Game | Delaware | ✔ | 1:42 - 4th · DEL 30 - MTSU 33 | — | In play | — |
+| 10-14 02:14 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:14 | eSoccer Game | Everton (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:10 | eSoccer Game | Dortmund (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:08 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:06 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:03 | NHL Game | Philadelphia | ✔ | In SO · SEA 2 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:01 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:00 | eSoccer Game | Crystal Palace (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,9 +316,6 @@
 | 10-14 01:46 | Russia Liga Pro Match | Gulnitskii Vladimir Konstantinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 01:44 | NHL Game | Ottawa | ✔ | 10:02 - 3rd · STL 4 - OTT 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 01:42 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:40 | Women's College Volleyball Match | Arkansas University at Little Rocks | ✘ | — | — | In play | — |
-| 10-14 01:39 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
