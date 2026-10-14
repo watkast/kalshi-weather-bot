@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 2:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 2:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13336 | 990 | 6 (1%) | 1.1% | -$64.50 (-43%) | Hold to the end: -$64.50 (-43%) |
+| 13351 | 990 | 6 (1%) | 1.1% | -$64.50 (-43%) | Hold to the end: -$64.50 (-43%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 990 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12316 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12327 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4261 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4271 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 663 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 603 | 1 | 4% | 3% | -85% | -92% | 11 min |
 | ITF Men's Match | ✘ | 589 | 1 | 11% | 6% | -84% | -80% | 5 min |
+| Challenger ATP  | ✘ | 439 | 2 | 9% | 3% | -57% | -84% | 5 min |
 | eBasketball Game | ✘ | 439 | 1 | 0% | 0% | -79% | -78% | 2 min |
-| Challenger ATP  | ✘ | 438 | 2 | 9% | 3% | -57% | -84% | 5 min |
 | TT Star Series Match | ✘ | 273 | 1 | 2% | 2% | -66% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -290,36 +290,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 20:32 | ITF Men's Match | Mario Andre Galarraga | ✘ | — | — | In play | — |
+| 10-14 20:32 | EFL Championship Game | Norwich | ✔ | 87' · SOU 1 - NOR 0 | — | In play | — |
+| 10-14 20:30 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | — | In play | — |
+| 10-14 20:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 20:30 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-14 20:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 20:29 | Challenger ATP  | Alex Barrena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:29 | eSoccer Game | Chelsea (Luis) | ✘ | — | — | In play | — |
+| 10-14 20:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 20:29 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-14 20:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 20:28 | ITF Women's Match | Natalie Kha | ✘ | — | — | In play | — |
+| 10-14 20:26 | Counter-Strike 2 Game | Younglings | ✘ | — | — | In play | — |
+| 10-14 20:25 | FIBA Champions League Game | Spartak Subotica | ✘ | — | — | In play | — |
+| 10-14 20:23 | UEFA Champions League Game | Manchester City | ✔ | 62' · PSG 3 - MNC 1 | — | In play | — |
 | 10-14 20:22 | UEFA Champions League Game | Slovan Bratislava | ✔ | 65' · VFB 1 - SLB 0 | — | In play | — |
 | 10-14 20:20 | UEFA Champions League Game | Tie | ✔ | 62' · FEN 0 - AVL 3 | — | In play | — |
-| 10-14 20:18 | eSoccer Game | Benfica (Kovboj) | ✘ | — | — | In play | — |
-| 10-14 20:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 20:17 | eSoccer Game | Chelsea (Luis) | ✘ | — | — | In play | — |
-| 10-14 20:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 20:16 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | — | In play | — |
-| 10-14 20:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 20:16 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
-| 10-14 20:16 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-14 20:15 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
-| 10-14 20:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 20:18 | eSoccer Game | Benfica (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:17 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:16 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:16 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:16 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:15 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 20:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 20:14 | eBasketball Game | Denver Nuggets (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 20:14 | Dota 2 Game | Rottweilas Latam | ✘ | — | — | In play | — |
 | 10-14 20:07 | EFL Championship Game | Tie | ✔ | 48' · WHU 1 - LCN 0 | — | In play | — |
-| 10-14 20:07 | TT Star Series Match | Barius Johan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:06 | National League Game | HC Ajoie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:05 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:04 | eSoccer Game | Manchester City (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:04 | eSoccer Game | Sunderland (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:04 | AHL Game | San Jose Barracuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:03 | EFL Championship Game | Tie | ✔ | 54' · DER 0 - QPR 3 | — | In play | — |
-| 10-14 20:03 | Champions League Hockey | Kolner Haie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:02 | FIBA Champions League Game | SK Slavia Prague | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:02 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:00 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 20:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
