@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 12:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 12:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13163 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 13171 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12157 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12160 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,9 +98,9 @@
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 4195 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 658 | 0 | 12% | 5% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 660 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 595 | 1 | 5% | 3% | -84% | -92% | 11 min |
-| ITF Men's Match | ✘ | 578 | 1 | 11% | 6% | -84% | -81% | 5 min |
+| ITF Men's Match | ✘ | 579 | 1 | 11% | 6% | -84% | -81% | 5 min |
 | Challenger ATP  | ✘ | 436 | 2 | 9% | 3% | -57% | -84% | 5 min |
 | eBasketball Game | ✘ | 434 | 1 | 0% | 0% | -78% | -78% | 2 min |
 | TT Star Series Match | ✘ | 268 | 1 | 2% | 2% | -65% | -97% | 4 min |
@@ -289,11 +289,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 18:09 | ITF Women's Match | Jessica Hinojosa Gomez | ✘ | — | — | In play | — |
+| 10-14 18:18 | TT Star Series Match | Olave Alfonso | ✘ | — | — | In play | — |
+| 10-14 18:17 | German 3. Liga Game | Aachen | ✘ | — | — | In play | — |
+| 10-14 18:16 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-14 18:12 | Russia Liga Pro Match | Martyukhin Sergey Vyacheslavovich | ✘ | — | — | In play | — |
+| 10-14 18:11 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 10-14 18:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 18:11 | eSoccer Game | Arsenal (Declan) | ✘ | — | — | In play | — |
+| 10-14 18:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 18:09 | ITF Women's Match | Jessica Hinojosa Gomez | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-14 18:09 | Liiga Game | HIFK Helsinki | ✘ | — | — | In play | — |
 | 10-14 18:08 | German 3. Liga Game | Großaspach | ✘ | — | — | In play | — |
-| 10-14 18:08 | ITF Women's Match | Gabriela Kawano Cho | ✘ | — | — | In play | — |
-| 10-14 18:04 | ITF Men's Match | Marko Mesarovic | ✘ | — | — | In play | — |
+| 10-14 18:08 | ITF Women's Match | Gabriela Kawano Cho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 18:04 | ITF Men's Match | Marko Mesarovic | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 18:03 | FIBA Europe Cup Game | Promitheas Patras BC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 18:00 | ITF Men's Match | Francisco Fontes Damorim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 18:00 | Liiga Game | Lukko Rauma | ✘ | — | — | In play | — |
@@ -311,14 +319,6 @@
 | 10-14 17:48 | Liiga Game | KalPa Kuopio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 17:45 | eSoccer Game | Slavia Praha (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:44 | Champions League Hockey | SaiPa Lappeenranta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:43 | Men's T20 Cricket Match | Bangladesh Champions | ✘ | — | — | In play | — |
-| 10-14 17:42 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:42 | Czech First League Game | Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:41 | FIBA Europe Cup Game | Rilski Sportist | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:41 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
