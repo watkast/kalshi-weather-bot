@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 11:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 11:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12540 | 985 | 6 (1%) | 1.1% | -$63.75 (-43%) | Hold to the end: -$63.75 (-43%) |
+| 12543 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 6. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 985 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11543 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 11551 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$63.75 | -43% |
-| Sell at 2¢ | 142 | 14% | -$110.83 | -75% |
-| Sell at 3¢ | 99 | 10% | -$109.14 | -74% |
-| Sell at 5¢ | 68 | 7% | -$103.55 | -70% |
-| Sell at 10¢ | 37 | 4% | -$99.28 | -67% |
-| Sell at 25¢ | 13 | 1% | -$104.72 | -71% |
-| Sell at 50¢ | 9 | 1% | -$87.00 | -59% |
+| Hold to the end | 6 | 1% | -$63.90 | -43% |
+| Sell at 2¢ | 142 | 14% | -$110.98 | -75% |
+| Sell at 3¢ | 99 | 10% | -$109.29 | -74% |
+| Sell at 5¢ | 68 | 7% | -$103.70 | -70% |
+| Sell at 10¢ | 37 | 4% | -$99.43 | -67% |
+| Sell at 25¢ | 13 | 1% | -$104.87 | -71% |
+| Sell at 50¢ | 9 | 1% | -$87.15 | -59% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3865 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3870 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 612 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 534 | 1 | 11% | 6% | -83% | -81% | 5 min |
-| Challenger ATP  | ✘ | 414 | 2 | 10% | 3% | -55% | -83% | 5 min |
-| eBasketball Game | ✘ | 396 | 1 | 0% | 0% | -76% | -76% | 2 min |
+| Challenger ATP  | ✘ | 415 | 2 | 10% | 3% | -55% | -83% | 5 min |
+| eBasketball Game | ✘ | 398 | 1 | 0% | 0% | -77% | -76% | 2 min |
 | TT Star Series Match | ✘ | 251 | 1 | 2% | 2% | -63% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -113,7 +113,7 @@
 | League of Legends Game | ✘ | 126 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| NHL Game | ✔ | 104 | 0 | 13% | 6% | -100% | -77% | 5 min |
+| NHL Game | ✔ | 105 | 0 | 13% | 6% | -100% | -77% | 5 min |
 | Dota 2 Game | ✘ | 95 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
@@ -267,7 +267,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 411 | 6% | 1% | 0% | -89% |
-| 5–15 min | 205 | 17% | 7% | 1% | -70% |
+| 5–15 min | 206 | 17% | 7% | 1% | -71% |
 | 15–30 min | 143 | 31% | 17% | 1% | -47% |
 | 30–60 min | 116 | 16% | 9% | 0% | -73% |
 | Over 60 min | 103 | 19% | 13% | 0% | -66% |
@@ -288,13 +288,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 05:47 | eSoccer Game | RC Celta (Frost) | ✘ | — | — | In play | — |
-| 10-14 05:47 | eBasketball Game | Indiana Pacers (Zion) | ✘ | — | — | In play | — |
-| 10-14 05:47 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | — | In play | — |
-| 10-14 05:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 05:45 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 10-14 05:43 | NHL Game | San Jose | ✔ | 3:39 - 3rd · BOS 4 - SJ 3 | — | In play | — |
-| 10-14 05:42 | Challenger ATP  | Andre Ilagan | ✘ | — | — | In play | — |
+| 10-14 05:51 | Dota 2 Game | The goal of all life is death | ✘ | — | — | In play | — |
+| 10-14 05:50 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:47 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:47 | eBasketball Game | Indiana Pacers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:47 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:45 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:43 | NHL Game | San Jose | ✔ | 3:39 - 3rd · BOS 4 - SJ 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:42 | Challenger ATP  | Andre Ilagan | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-14 05:42 | ITF Women's Match | Meng Yi Chen | ✘ | — | — | In play | — |
 | 10-14 05:37 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -315,9 +318,6 @@
 | 10-14 05:16 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:13 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:12 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:10 | ITF Women's Match | jiale Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:08 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
