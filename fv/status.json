@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-14T09:07:54+00:00",
+ "saved_at": "2026-10-14T09:18:03+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -79,17 +79,17 @@
   ]
  },
  "open": 0,
- "results_known": 12562,
+ "results_known": 12571,
  "sigma_pct": {
-  "XRP": 0.0646,
-  "HYPE": 0.0791,
-  "ZEC": 0.1193,
-  "BNB": 0.0462,
-  "SOL": 0.081,
-  "ETH": 0.0595,
-  "DOGE": 0.0734,
-  "NEAR": 0.1496,
-  "BTC": 0.047
+  "XRP": 0.0668,
+  "HYPE": 0.0746,
+  "ZEC": 0.119,
+  "BNB": 0.0459,
+  "SOL": 0.067,
+  "ETH": 0.0471,
+  "DOGE": 0.0691,
+  "NEAR": 0.1771,
+  "BTC": 0.0419
  },
  "errors": [
   "2026-10-14T09:04:40+00:00 hourly: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
