@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 5:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 5:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12806 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12818 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11804 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11812 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4050 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4054 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 626 | 0 | 12% | 6% | -100% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 573 | 1 | 4% | 3% | -84% | -92% | 11 min |
-| ITF Men's Match | ✘ | 544 | 1 | 11% | 6% | -83% | -81% | 5 min |
+| Counter-Strike 2 Game | ✘ | 575 | 1 | 4% | 3% | -84% | -92% | 11 min |
+| ITF Men's Match | ✘ | 545 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 421 | 2 | 10% | 3% | -56% | -83% | 5 min |
 | eBasketball Game | ✘ | 414 | 1 | 0% | 0% | -77% | -77% | 2 min |
 | TT Star Series Match | ✘ | 260 | 1 | 2% | 2% | -64% | -97% | 4 min |
@@ -121,7 +121,7 @@
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | AHL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | R6 Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 9 min |
-| KHL Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 5 min |
+| KHL Game | ✘ | 54 | 0 | 4% | 2% | -100% | -94% | 5 min |
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | Argentina Primera Division Game | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 8 min |
 | Argentine Nacional B Game | ✘ | 51 | 0 | 10% | 10% | -100% | -83% | 10 min |
@@ -288,10 +288,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 11:15 | Counter-Strike 2 Game | Aurora Gaming | ✘ | — | — | In play | — |
-| 10-14 11:13 | KHL Game | Amur Khabarovsk | ✘ | — | — | In play | — |
+| 10-14 11:26 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 10-14 11:25 | ITF Women's Match | Simona Cucu | ✘ | — | — | In play | — |
+| 10-14 11:25 | AFC Champions League Game | Jeonbuk | ✘ | — | — | In play | — |
+| 10-14 11:24 | Finland Korisliiga Game | Kouvot Kouvola | ✘ | — | — | In play | — |
+| 10-14 11:22 | eSoccer Game | FC Bayern (Kylian) | ✘ | — | — | In play | — |
+| 10-14 11:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 11:22 | eBasketball Game | New York Knicks (Lonzo) | ✘ | — | — | In play | — |
+| 10-14 11:20 | Challenger ATP  | Pedro Martinez | ✘ | — | — | In play | — |
+| 10-14 11:18 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 11:17 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 11:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 11:17 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 11:15 | Counter-Strike 2 Game | Aurora Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 11:13 | KHL Game | Amur Khabarovsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 11:12 | Dota 2 Game | Cloud Rising | ✘ | — | — | In play | — |
-| 10-14 11:11 | ITF Men's Match | Alvaro Peiro Serrano | ✘ | — | — | In play | — |
+| 10-14 11:11 | ITF Men's Match | Alvaro Peiro Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 11:11 | ITF Women's Match | Chelsea Fontenel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 11:08 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 11:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -303,21 +315,9 @@
 | 10-14 11:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 11:05 | Russia VTB United Game | Dinamo Vladivostok | ✘ | — | — | In play | — |
 | 10-14 11:04 | ITF Men's Match | Adam Lynch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 11:02 | Counter-Strike 2 Game | GenOne | ✘ | — | — | In play | — |
+| 10-14 11:02 | Counter-Strike 2 Game | GenOne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:58 | TT Star Series Match | Tregler Tomáš | ✘ | — | — | In play | — |
 | 10-14 10:57 | eSoccer Game | Crystal Palace (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:56 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:56 | ITF Women's Match | Tamina Kochta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:53 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:52 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:49 | Men's T20 Cricket Match | Rimuka Cricket Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:46 | Women's T20 Match | Hobart Hurricanes Women | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 10:46 | Counter-Strike 2 Game | MARKandLARRY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:45 | Overwatch Game | REVATI | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
