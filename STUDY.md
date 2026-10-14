@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 7:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12914 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12926 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11911 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11916 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,9 +98,9 @@
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 4084 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 640 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 642 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 579 | 1 | 4% | 3% | -84% | -93% | 11 min |
-| ITF Men's Match | ✘ | 561 | 1 | 11% | 6% | -83% | -81% | 5 min |
+| ITF Men's Match | ✘ | 562 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 428 | 2 | 10% | 3% | -56% | -83% | 5 min |
 | eBasketball Game | ✘ | 422 | 1 | 0% | 0% | -78% | -77% | 2 min |
 | TT Star Series Match | ✘ | 260 | 1 | 2% | 2% | -64% | -97% | 4 min |
@@ -160,10 +160,10 @@
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | China League 1 Game | ✘ | 25 | 0 | 12% | 8% | -100% | -79% | 6 min |
 | EFL Championship Game | ✔ | 25 | 0 | 4% | 4% | -100% | -93% | 8 min |
+| TFF 1. Lig Game | ✘ | 23 | 0 | 17% | 4% | -100% | -70% | 8 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Mobile Legends Bang Bang Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Finland Korisliiga Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| TFF 1. Lig Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 8 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Peru Liga 1 Game | ✘ | 20 | 0 | 25% | 20% | -100% | -57% | 7 min |
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -288,9 +288,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 13:29 | ITF Women's Match | Bianca Jolie Fernandez | ✘ | — | — | In play | — |
-| 10-14 13:29 | ITF Men's Match | Maxi Carrascosa Diaz | ✘ | — | — | In play | — |
-| 10-14 13:28 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
+| 10-14 13:40 | Slovakian Cup Game | MFK Vranov Nad Topou | ✘ | — | — | In play | — |
+| 10-14 13:37 | ITF Men's Match | Nico Hipfl | ✘ | — | — | In play | — |
+| 10-14 13:36 | ITF Men's Match | Ziga Sesko | ✘ | — | — | In play | — |
+| 10-14 13:36 | Russia Liga Pro Match | Gribkov Aleksandr Olegovich | ✘ | — | — | In play | — |
+| 10-14 13:36 | ITF Men's Match | Jan Werblinski | ✘ | — | — | In play | — |
+| 10-14 13:33 | ITF Women's Match | Daniella Britton | ✘ | — | — | In play | — |
+| 10-14 13:33 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 10-14 13:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 13:32 | ITF Women's Match | Aleksandra Janiszewska | ✘ | — | — | In play | — |
+| 10-14 13:32 | eSoccer Game | Toulouse FC (Declan) | ✘ | — | — | In play | — |
+| 10-14 13:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 13:32 | Overwatch Game | Uwinks | ✘ | — | — | In play | — |
+| 10-14 13:29 | ITF Women's Match | Bianca Jolie Fernandez | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-14 13:29 | ITF Men's Match | Maxi Carrascosa Diaz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 13:28 | ITF Women's Match | Maria Toma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:28 | ITF Women's Match | Midori Castillo Meza | ✘ | — | — | In play | — |
 | 10-14 13:18 | ITF Men's Match | Michael Gloeckler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:15 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -306,18 +318,6 @@
 | 10-14 12:57 | ITF Women's Match | Vanesa Salaiova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:57 | Dota 2 Game | The Warriors | ✘ | — | — | In play | — |
 | 10-14 12:51 | KBO Game | Doosan Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:48 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 12:46 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:43 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:41 | ITF Women's Match | Andre Lukosiute | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:38 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 12:36 | ITF Men's Match | Pieter De Lange | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:33 | ITF Women's Match | Amelia Rajecki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:31 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:31 | Challenger ATP  | Pol Martin Tiffon | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 12:30 | Challenger WTA | Jazmin Ortenzi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:30 | Overwatch Game | ENTER FORCE.36 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:26 | Dota 2 Game | Nemiga Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
