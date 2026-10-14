@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 12:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 12:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13175 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 13185 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12169 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12170 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | ITF Women's Match | ✘ | 660 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 595 | 1 | 5% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 579 | 1 | 11% | 6% | -84% | -81% | 5 min |
-| Challenger ATP  | ✘ | 436 | 2 | 9% | 3% | -57% | -84% | 5 min |
+| Challenger ATP  | ✘ | 437 | 2 | 9% | 3% | -57% | -84% | 5 min |
 | eBasketball Game | ✘ | 434 | 1 | 0% | 0% | -78% | -78% | 2 min |
 | TT Star Series Match | ✘ | 269 | 1 | 2% | 2% | -65% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
@@ -289,6 +289,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 18:39 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
+| 10-14 18:38 | Challenger WTA | Lisa Pigato | ✘ | — | — | In play | — |
+| 10-14 18:38 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-14 18:38 | EuroCup Basketball Game | KK Bosna Royal Sarajevo | ✘ | — | — | In play | — |
+| 10-14 18:34 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-14 18:33 | KHL Game | Dinamo Minsk | ✘ | — | — | In play | — |
+| 10-14 18:33 | UEFA Champions League Game | Tie | ✔ | 85' · COMO 1 - FEY 3 | — | In play | — |
+| 10-14 18:33 | Challenger ATP  | Benjamin Bonzi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 18:32 | Dota 2 Game | Nemiga Gaming | ✘ | — | — | In play | — |
+| 10-14 18:32 | Russia Liga Pro Match | Mashchenko Aleksandr Viktorovich | ✘ | — | — | In play | — |
 | 10-14 18:28 | UEFA Champions League Game | Como | ✔ | 81' · COMO 1 - FEY 2 | — | In play | — |
 | 10-14 18:28 | FIBA Europe Cup Game | Elan Chalon | ✘ | — | — | In play | — |
 | 10-14 18:28 | ITF Women's Match | Carolina Kuhl | ✘ | — | — | In play | — |
@@ -309,16 +319,6 @@
 | 10-14 18:03 | FIBA Europe Cup Game | Promitheas Patras BC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 18:00 | ITF Men's Match | Francisco Fontes Damorim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 18:00 | Liiga Game | Lukko Rauma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:58 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:55 | EuroCup Basketball Game | KK Cedevita Olimpija Ljubljana | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 17:55 | Russia Liga Pro Match | Chernov Artem Viacheslavovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:53 | ITF Men's Match | Michael Bassem Sobhy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:53 | FIBA Europe Cup Game | BC Kalev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:52 | ITF Men's Match | Victor Bini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:52 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:51 | Czech First League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 17:50 | FIBA Europe Cup Game | Nitra Blue Wings | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
