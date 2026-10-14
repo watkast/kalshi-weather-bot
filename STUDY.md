@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 10:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12457 | 981 | 6 (1%) | 1.1% | -$63.15 (-43%) | Hold to the end: -$63.15 (-43%) |
+| 12466 | 981 | 6 (1%) | 1.1% | -$63.15 (-43%) | Hold to the end: -$63.15 (-43%) |
 
-*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 981 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11466 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11473 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3804 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3810 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 608 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 534 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 412 | 2 | 10% | 3% | -55% | -83% | 5 min |
@@ -288,10 +288,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 04:00 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-14 03:59 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 10-14 03:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 04:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 04:15 | eSoccer Game | England (Gigi) | ✘ | — | — | In play | — |
+| 10-14 04:15 | eSoccer Game | Mönchengladbach (Fede) | ✘ | — | — | In play | — |
+| 10-14 04:15 | eSoccer Game | RB Leipzig (Hurricane) | ✘ | — | — | In play | — |
+| 10-14 04:13 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 10-14 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 04:09 | ITF Women's Match | Ziyan Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 04:07 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 04:07 | eSoccer Game | Nottingham Forest (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 04:00 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:59 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:55 | Challenger ATP  | Marat Sharipov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:51 | eSoccer Game | Liverpool (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -309,15 +318,6 @@
 | 10-14 03:40 | NHL Game | Toronto | ✔ | 0:23 - 3rd · TOR 4 - UTA 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:37 | eSoccer Game | Spurs (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:35 | eSoccer Game | Frankfurt (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:34 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:32 | eSoccer Game | Mönchengladbach (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:31 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:27 | College Football Game | Florida International | ✔ | End of 4th · FIU 24 - JXST 27 | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 03:23 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
