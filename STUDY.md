@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 6:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 6:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 44 finished bets | 2% | $7.40 | +112% | +16.82¢ | -$3.30 / $10.70 |
 
-*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12277 | 963 | 6 (1%) | 1.1% | -$60.45 (-42%) | Hold to the end: -$60.45 (-42%) |
+| 12281 | 963 | 6 (1%) | 1.1% | -$60.45 (-42%) | Hold to the end: -$60.45 (-42%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 963 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11296 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11305 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3671 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3679 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -120,7 +120,7 @@
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | AHL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 6 min |
-| R6 Game | ✘ | 57 | 0 | 5% | 2% | -100% | -91% | 9 min |
+| R6 Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 9 min |
 | KHL Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
 | Argentina Primera Division Game | ✘ | 53 | 0 | 15% | 6% | -100% | -74% | 8 min |
@@ -284,14 +284,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:19 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-14 00:09 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:09 | Challenger ATP  | Thiago Cigarran | ✘ | — | — | In play | — |
-| 10-14 00:07 | eSoccer Game | Universitario (Hurricane) | ✘ | — | — | In play | — |
-| 10-14 00:07 | eSoccer Game | Flamengo (Holis) | ✘ | — | — | In play | — |
-| 10-14 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-14 00:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:07 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:07 | eSoccer Game | Flamengo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:04 | NBA Game | New York | ✔ | 3:29 - 2nd · NY 37 - TOR 76 | — | In play | — |
-| 10-14 00:03 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
-| 10-14 00:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:03 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 23:55 | eSoccer Game | Getafe CF (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -310,10 +314,6 @@
 | 10-13 23:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 23:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-13 23:35 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:35 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:29 | eSoccer Game | Getafe CF (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:26 | Russia Liga Pro Match | Ilin Anatoliy Nikolaevich | ✘ | — | — | In play | — |
 
 ## Raw data
 
