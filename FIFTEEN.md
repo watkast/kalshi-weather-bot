@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 13, 11:04 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 13, 11:14 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1333 finished bets | 1% | $36.35 | +25% | +2.73¢ | $26.60 / $9.75 |
 
-*Expect about **84 buys a day** (~$12.55/day at risk); max loss per buy **15¢**.*
+*Expect about **84 buys a day** (~$12.54/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17330 | 17323 | 65 (0%) | 1.07% | -$1,184.60 (-57%) | Hold to the close: -$1,184.60 (-57%) |
+| 17343 | 17323 | 65 (0%) | 1.07% | -$1,184.60 (-57%) | Hold to the close: -$1,184.60 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 19. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,19 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/13 11:14:20 PM | PLATINUM | UP | 40 sec | — | — | In play | — |
+| 10/13 11:13:47 PM | GOLD | UP | 72 sec | — | — | In play | — |
+| 10/13 11:10:32 PM | COPPER | UP | 4.5 min | — | — | In play | — |
+| 10/13 11:10:32 PM | NEAR | UP | 4.5 min | -0.988% | — | In play | — |
+| 10/13 11:10:32 PM | SILVER | UP | 4.5 min | — | — | In play | — |
+| 10/13 11:10:16 PM | XRP | UP | 4.7 min | -0.495% | — | In play | — |
+| 10/13 11:10:16 PM | BTC | UP | 4.7 min | -0.329% | — | In play | — |
+| 10/13 11:09:11 PM | DOGE | UP | 5.8 min | -0.510% | — | In play | — |
+| 10/13 11:08:36 PM | BNB | UP | 6.4 min | -0.333% | — | In play | — |
+| 10/13 11:08:20 PM | SOL | UP | 6.7 min | -0.576% | — | In play | — |
+| 10/13 11:08:20 PM | ZEC | UP | 6.7 min | -1.070% | — | In play | — |
+| 10/13 11:08:04 PM | ETH | UP | 6.9 min | -0.306% | — | In play | — |
+| 10/13 11:07:32 PM | HYPE | UP | 7.5 min | -0.466% | — | In play | — |
 | 10/13 10:59:46 PM | BNB | DOWN | 14 sec | -0.023% | 0¢ | ❌ Lost | -$0.15 |
 | 10/13 10:59:30 PM | ETH | UP | 30 sec | -0.028% | 1¢ | ❌ Lost | -$0.15 |
 | 10/13 10:59:30 PM | DOGE | DOWN | 30 sec | +0.065% | 0¢ | ❌ Lost | $0.00 |
@@ -200,19 +213,6 @@
 | 10/13 10:44:21 PM | COPPER | DOWN | 39 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/13 10:44:06 PM | PLATINUM | DOWN | 54 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/13 10:43:26 PM | PALLADIUM | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/13 10:42:55 PM | SILVER | DOWN | 2.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/13 10:42:55 PM | GOLD | DOWN | 2.1 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:42:23 PM | NEAR | DOWN | 2.6 min | +0.365% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:42:23 PM | BNB | DOWN | 2.6 min | +0.075% | 16¢ | ❌ Lost | -$0.15 |
-| 10/13 10:41:34 PM | ZEC | DOWN | 3.4 min | +0.426% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:41:18 PM | ETH | DOWN | 3.7 min | +0.168% | 14¢ | ❌ Lost | -$0.15 |
-| 10/13 10:40:11 PM | SOL | DOWN | 4.8 min | +0.368% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:39:56 PM | HYPE | DOWN | 5.0 min | +0.274% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:39:39 PM | XRP | DOWN | 5.3 min | +0.270% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:39:39 PM | DOGE | DOWN | 5.3 min | +0.290% | 1¢ | ❌ Lost | -$0.15 |
-| 10/13 10:29:31 PM | PALLADIUM | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/13 10:29:31 PM | USDJPY | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/13 10:29:31 PM | ETH | DOWN | 28 sec | +0.064% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
