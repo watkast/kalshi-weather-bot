@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 7:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12910 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12914 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11910 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11911 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,7 +100,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 640 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 579 | 1 | 4% | 3% | -84% | -93% | 11 min |
-| ITF Men's Match | ✘ | 560 | 1 | 11% | 6% | -83% | -81% | 5 min |
+| ITF Men's Match | ✘ | 561 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 428 | 2 | 10% | 3% | -56% | -83% | 5 min |
 | eBasketball Game | ✘ | 422 | 1 | 0% | 0% | -78% | -77% | 2 min |
 | TT Star Series Match | ✘ | 260 | 1 | 2% | 2% | -64% | -97% | 4 min |
@@ -288,7 +288,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 13:18 | ITF Men's Match | Michael Gloeckler | ✘ | — | — | In play | — |
+| 10-14 13:29 | ITF Women's Match | Bianca Jolie Fernandez | ✘ | — | — | In play | — |
+| 10-14 13:29 | ITF Men's Match | Maxi Carrascosa Diaz | ✘ | — | — | In play | — |
+| 10-14 13:28 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
+| 10-14 13:28 | ITF Women's Match | Midori Castillo Meza | ✘ | — | — | In play | — |
+| 10-14 13:18 | ITF Men's Match | Michael Gloeckler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:15 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:15 | eBasketball Game | New Orleans Pelicans (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:11 | Slovakian Cup Game | Kostolne Kracany | ✘ | — | — | In play | — |
@@ -314,10 +318,6 @@
 | 10-14 12:30 | Challenger WTA | Jazmin Ortenzi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:30 | Overwatch Game | ENTER FORCE.36 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:26 | Dota 2 Game | Nemiga Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:25 | Challenger WTA | Lucia Cortez Llorca | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-14 12:25 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:25 | ITF Women's Match | Adelina Lacinova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-14 12:24 | Challenger ATP  | Andrea Guerrieri | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
