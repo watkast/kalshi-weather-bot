@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 8:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 9:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12402 | 977 | 6 (1%) | 1.1% | -$62.55 (-43%) | Hold to the end: -$62.55 (-43%) |
+| 12405 | 977 | 6 (1%) | 1.1% | -$62.55 (-43%) | Hold to the end: -$62.55 (-43%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 10. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 977 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11414 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11418 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3760 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3764 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -287,11 +287,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 02:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:58 | NHL Game | Nashville | ✔ | 10:57 - 3rd · VGK 5 - NSH 2 | — | In play | — |
+| 10-14 02:56 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | — | In play | — |
+| 10-14 02:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:50 | Russia Liga Pro Match | Ivanov Aleksandr Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:50 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-14 02:49 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
-| 10-14 02:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:50 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:49 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:40 | NHL Game | Minnesota | ✔ | 5:18 - 3rd · MIN 2 - WPG 5 | 0¢ | ❌ Lost | -$0.15 |
@@ -314,9 +317,6 @@
 | 10-14 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:25 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:23 | CONMEBOL Sudamericana Game | Reg Time: Boca Juniors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:22 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:22 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:22 | NHL Game | Vancouver | ✔ | End of 3rd · VAN 2 - NYI 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
