@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 8:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 8:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12972 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12982 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11959 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11973 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4102 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4104 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 647 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 581 | 1 | 4% | 3% | -84% | -93% | 11 min |
@@ -209,6 +209,7 @@
 | Czech First League Game | ✘ | 15 | 0 | 13% | 0% | -100% | -77% | 11 min |
 | Allsvenskan Game | ✘ | 15 | 0 | 20% | 20% | -100% | -65% | 14 min |
 | Brasileiro Serie C Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
+| Slovakian Cup Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Austria BSL Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 5 min |
 | England Women's Super League Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 40 min |
 | Saudi Pro League Game | ✘ | 14 | 0 | 21% | 21% | -100% | -63% | 15 min |
@@ -249,7 +250,6 @@
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | FIBA Europe Cup Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 18 min |
-| Slovakian Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Korea KBL Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 46 min |
@@ -288,36 +288,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 14:31 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:30 | Counter-Strike 2 Game | Bushido Wildcats | ✘ | — | — | In play | — |
+| 10-14 14:28 | eSoccer Game | OGC Nice (Hazard) | ✘ | — | — | In play | — |
+| 10-14 14:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:28 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:28 | Counter-Strike 2 Game | NIP | ✘ | — | — | In play | — |
+| 10-14 14:27 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-14 14:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:27 | Men's T20 Cricket Match | England Champions | ✘ | — | — | In play | — |
+| 10-14 14:25 | ITF Men's Match | Samuele Seghetti | ✘ | — | — | In play | — |
 | 10-14 14:21 | Slovakian Cup Game | Namestovo | ✘ | — | — | In play | — |
-| 10-14 14:20 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
-| 10-14 14:19 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
-| 10-14 14:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:20 | Slovakian Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 14:19 | Slovakian Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 14:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:17 | eBasketball Game | Dallas Mavericks (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:16 | eSoccer Game | Paris Saint-Germain (Pedri) | ✘ | — | — | In play | — |
+| 10-14 14:16 | eSoccer Game | Paris Saint-Germain (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:15 | eBasketball Game | Indiana Pacers (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:14 | ITF Men's Match | Ahmed Darmoul | ✘ | — | — | In play | — |
 | 10-14 14:13 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:10 | Slovakian Cup Game | Lokomotiva Kosice | ✘ | — | — | In play | — |
-| 10-14 14:10 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:10 | Slovakian Cup Game | Lokomotiva Kosice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 14:10 | Slovakian Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:10 | Slovakian Cup Game | Piestany | ✘ | — | — | In play | — |
 | 10-14 14:05 | Serie C Game | Atalanta U23 | ✘ | — | — | In play | — |
 | 10-14 14:05 | Counter-Strike 2 Game | los kogutos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:05 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
+| 10-14 14:05 | Slovakian Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 14:04 | Challenger ATP  | Enrico Dalla Valle | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 14:03 | Slovakian Cup Game | FK Humenne | ✘ | — | — | In play | — |
+| 10-14 14:03 | Slovakian Cup Game | FK Humenne | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 14:02 | ITF Women's Match | Mariia Masiianskaia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 14:02 | eSoccer Game | Stade Brestois 29 (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:02 | Slovakian Cup Game | Tie | ✘ | — | — | In play | — |
-| 10-14 14:02 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 14:01 | Slovakian Cup Game | D. Velke Ludince | ✘ | — | — | In play | — |
-| 10-14 13:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 13:58 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 13:57 | Slovakian Cup Game | Slavoj Boleraz | ✘ | — | — | In play | — |
-| 10-14 13:56 | Slovakian Cup Game | Spartak Myjava | ✘ | — | — | In play | — |
-| 10-14 13:54 | Russia VTB United Game | BC Samara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
