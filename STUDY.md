@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 4:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 4:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12766 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12779 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11767 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11773 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4026 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4028 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 624 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
-| ITF Men's Match | ✘ | 542 | 1 | 11% | 6% | -83% | -81% | 5 min |
-| Challenger ATP  | ✘ | 420 | 2 | 10% | 3% | -56% | -83% | 5 min |
+| ITF Men's Match | ✘ | 543 | 1 | 11% | 6% | -83% | -81% | 5 min |
+| Challenger ATP  | ✘ | 421 | 2 | 10% | 3% | -56% | -83% | 5 min |
 | eBasketball Game | ✘ | 414 | 1 | 0% | 0% | -77% | -77% | 2 min |
-| TT Star Series Match | ✘ | 259 | 1 | 2% | 2% | -64% | -97% | 4 min |
+| TT Star Series Match | ✘ | 260 | 1 | 2% | 2% | -64% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 158 | 2 | 7% | 3% | +18% | -88% | 103 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Men's T20 Cricket Match | ✘ | 139 | 1 | 13% | 4% | -33% | -78% | 21 min |
-| Challenger WTA | ✘ | 128 | 0 | 13% | 5% | -100% | -77% | 8 min |
+| Challenger WTA | ✘ | 129 | 0 | 13% | 5% | -100% | -77% | 8 min |
 | League of Legends Game | ✘ | 126 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -288,9 +288,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 10:33 | ITF Men's Match | Koray Kirci | ✘ | — | — | In play | — |
+| 10-14 10:46 | Women's T20 Match | Hobart Hurricanes Women | ✘ | — | — | In play | — |
+| 10-14 10:46 | Counter-Strike 2 Game | MARKandLARRY | ✘ | — | — | In play | — |
+| 10-14 10:45 | Overwatch Game | REVATI | ✘ | — | — | In play | — |
+| 10-14 10:43 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-14 10:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 10:42 | eSoccer Game | Manchester City (Minjori) | ✘ | — | — | In play | — |
+| 10-14 10:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 10:41 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 10-14 10:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 10:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 10:40 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 10:38 | Challenger ATP  | Valentin Royer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 10:37 | Challenger WTA | Marina Bassols Ribera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 10:33 | ITF Men's Match | Koray Kirci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:30 | Australia NBL Game | Sydney Kings | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:30 | TT Star Series Match | Rezetka Roman | ✘ | — | — | In play | — |
+| 10-14 10:30 | TT Star Series Match | Rezetka Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:29 | eSoccer Game | Chelsea (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:28 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
@@ -305,19 +318,6 @@
 | 10-14 10:25 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:25 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 10:20 | Dota 2 Game | Resp Gaming | ✘ | — | — | In play | — |
-| 10-14 10:18 | ITF Women's Match | Ellie Daniels | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:16 | AFC Champions League Game | Tie | ✘ | — | — | In play | — |
-| 10-14 10:14 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:11 | AFC Champions League Game | Port FC | ✘ | — | — | In play | — |
-| 10-14 10:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:11 | Challenger ATP  | Izan Almazan Valiente | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:11 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:11 | Challenger WTA | Carole Monnet | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-14 10:10 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:09 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:04 | ITF Men's Match | Manish Sureshkumar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 10:03 | TT Star Series Match | Martinko Tomáš | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
