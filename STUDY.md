@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 8:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 8:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 45 finished bets | 2% | $7.25 | +107% | +16.11¢ | -$3.30 / $10.55 |
 
-*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12383 | 974 | 6 (1%) | 1.1% | -$62.10 (-43%) | Hold to the end: -$62.10 (-43%) |
+| 12397 | 974 | 6 (1%) | 1.1% | -$62.10 (-43%) | Hold to the end: -$62.10 (-43%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 974 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11397 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11402 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3746 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3750 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 534 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 411 | 2 | 10% | 3% | -55% | -83% | 5 min |
-| eBasketball Game | ✘ | 387 | 1 | 0% | 0% | -76% | -75% | 2 min |
+| eBasketball Game | ✘ | 388 | 1 | 0% | 0% | -76% | -75% | 2 min |
 | TT Star Series Match | ✘ | 251 | 1 | 2% | 2% | -63% | -97% | 4 min |
 | College Football Game | partly | 189 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -287,13 +287,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 02:28 | eSoccer Game | Crystal Palace (Poly) | ✘ | — | — | In play | — |
-| 10-14 02:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | — | In play | — |
+| 10-14 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:40 | NHL Game | Minnesota | ✔ | 5:18 - 3rd · MIN 2 - WPG 5 | — | In play | — |
+| 10-14 02:40 | NBA Game | Indiana | ✔ | 0.0 - OT · IND 112 - OKC 114 | — | In play | — |
+| 10-14 02:40 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | — | In play | — |
+| 10-14 02:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:38 | NHL Game | Pittsburgh | ✔ | 0:15 - 3rd · PIT 3 - CHI 4 | — | In play | — |
+| 10-14 02:37 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-14 02:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:36 | eSoccer Game | FC Augsburg (Holis) | ✘ | — | — | In play | — |
+| 10-14 02:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 02:36 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
+| 10-14 02:36 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
+| 10-14 02:35 | Counter-Strike 2 Game | Zomblers | ✘ | — | — | In play | — |
+| 10-14 02:28 | eSoccer Game | Crystal Palace (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:28 | eBasketball Game | Golden State Warriors (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:28 | CONMEBOL Sudamericana Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:27 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | — | In play | — |
-| 10-14 02:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 02:25 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | — | In play | — |
+| 10-14 02:27 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 02:25 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:23 | CONMEBOL Sudamericana Game | Reg Time: Boca Juniors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:22 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:22 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -303,20 +317,6 @@
 | 10-14 02:14 | eSoccer Game | Everton (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:10 | eSoccer Game | Dortmund (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:08 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:06 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:03 | NHL Game | Philadelphia | ✔ | In SO · SEA 2 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:01 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:00 | eSoccer Game | Crystal Palace (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:56 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:56 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 01:56 | Liga Nacional de Basquetbol Game | Obera Tenis Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
