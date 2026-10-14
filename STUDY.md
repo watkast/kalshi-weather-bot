@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 6:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 7:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12306 | 964 | 6 (1%) | 1.1% | -$60.60 (-42%) | Hold to the end: -$60.60 (-42%) |
+| 12310 | 964 | 6 (1%) | 1.1% | -$60.60 (-42%) | Hold to the end: -$60.60 (-42%) |
 
 *In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 964 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11324 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11328 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3693 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3697 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -284,10 +284,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 00:48 | eSoccer Game | Botafogo (PinkElephant) | ✘ | — | — | In play | — |
-| 10-14 00:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:44 | eSoccer Game | Estudiantes (Fede) | ✘ | — | — | In play | — |
+| 10-14 01:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:59 | eSoccer Game | São Paulo (Fede) | ✘ | — | — | In play | — |
+| 10-14 00:56 | NBA Game | Cleveland | ✔ | 52.3 - 3rd · CLE 79 - ORL 105 | — | In play | — |
+| 10-14 00:55 | Russia Liga Pro Match | Boiko Aleksei Evgenevich | ✘ | — | — | In play | — |
+| 10-14 00:48 | eSoccer Game | Botafogo (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:44 | eSoccer Game | Estudiantes (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:40 | Dota 2 Game | Rottweilas Latam | ✘ | — | — | In play | — |
 | 10-14 00:38 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-14 00:36 | NHL Game | Detroit | ✔ | 3:41 - OT · NJ 5 - DET 4 | 0¢ | ❌ Lost | -$0.15 |
@@ -310,10 +314,6 @@
 | 10-14 00:21 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:19 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:09 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:09 | Challenger ATP  | Thiago Cigarran | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
