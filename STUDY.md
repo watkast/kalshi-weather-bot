@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 6:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 6:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12301 | 964 | 6 (1%) | 1.1% | -$60.60 (-42%) | Hold to the end: -$60.60 (-42%) |
+| 12306 | 964 | 6 (1%) | 1.1% | -$60.60 (-42%) | Hold to the end: -$60.60 (-42%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 964 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11314 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11324 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3685 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3693 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
 | ITF Men's Match | ✘ | 534 | 1 | 11% | 6% | -83% | -81% | 5 min |
-| Challenger ATP  | ✘ | 410 | 2 | 10% | 3% | -54% | -84% | 5 min |
-| eBasketball Game | ✘ | 382 | 1 | 0% | 0% | -76% | -75% | 2 min |
+| Challenger ATP  | ✘ | 411 | 2 | 10% | 3% | -55% | -83% | 5 min |
+| eBasketball Game | ✘ | 383 | 1 | 0% | 0% | -76% | -75% | 2 min |
 | TT Star Series Match | ✘ | 251 | 1 | 2% | 2% | -63% | -97% | 4 min |
 | College Football Game | partly | 188 | 2 | 13% | 6% | -1% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
@@ -284,17 +284,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 00:38 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | — | In play | — |
+| 10-14 00:48 | eSoccer Game | Botafogo (PinkElephant) | ✘ | — | — | In play | — |
+| 10-14 00:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:44 | eSoccer Game | Estudiantes (Fede) | ✘ | — | — | In play | — |
+| 10-14 00:40 | Dota 2 Game | Rottweilas Latam | ✘ | — | — | In play | — |
+| 10-14 00:38 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 10-14 00:36 | NHL Game | Detroit | ✔ | 3:41 - OT · NJ 5 - DET 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:36 | eBasketball Game | Indiana Pacers (Ray) | ✘ | — | — | In play | — |
-| 10-14 00:35 | eSoccer Game | Flamengo (Holis) | ✘ | — | — | In play | — |
-| 10-14 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:33 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-14 00:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:31 | eSoccer Game | Estudiantes (Hurricane) | ✘ | — | — | In play | — |
-| 10-14 00:31 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
-| 10-14 00:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:36 | eBasketball Game | Indiana Pacers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:35 | eSoccer Game | Flamengo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:33 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:31 | eSoccer Game | Estudiantes (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:31 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:29 | NHL Game | Columbus | ✔ | 18:04 - 3rd · FLA 5 - CBJ 1 | — | In play | — |
 | 10-14 00:28 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
 | 10-14 00:26 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -309,11 +314,6 @@
 | 10-14 00:09 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:09 | Challenger ATP  | Thiago Cigarran | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 00:07 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:07 | eSoccer Game | Flamengo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:04 | NBA Game | New York | ✔ | 3:29 - 2nd · NY 37 - TOR 76 | — | In play | — |
 
 ## Raw data
 
