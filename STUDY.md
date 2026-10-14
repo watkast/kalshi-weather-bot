@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 6:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 6:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12290 | 963 | 6 (1%) | 1.1% | -$60.45 (-42%) | Hold to the end: -$60.45 (-42%) |
+| 12301 | 964 | 6 (1%) | 1.1% | -$60.60 (-42%) | Hold to the end: -$60.60 (-42%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 963 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11308 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 964 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 11314 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$60.45 | -42% |
-| Sell at 2¢ | 141 | 15% | -$107.79 | -75% |
-| Sell at 3¢ | 99 | 10% | -$105.84 | -73% |
-| Sell at 5¢ | 68 | 7% | -$100.25 | -69% |
-| Sell at 10¢ | 37 | 4% | -$95.98 | -66% |
-| Sell at 25¢ | 13 | 1% | -$101.42 | -70% |
-| Sell at 50¢ | 9 | 1% | -$83.70 | -58% |
+| Hold to the end | 6 | 1% | -$60.60 | -42% |
+| Sell at 2¢ | 141 | 15% | -$107.94 | -75% |
+| Sell at 3¢ | 99 | 10% | -$105.99 | -73% |
+| Sell at 5¢ | 68 | 7% | -$100.40 | -69% |
+| Sell at 10¢ | 37 | 4% | -$96.13 | -66% |
+| Sell at 25¢ | 13 | 1% | -$101.57 | -70% |
+| Sell at 50¢ | 9 | 1% | -$83.85 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3681 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3685 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -114,8 +114,8 @@
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Dota 2 Game | ✘ | 93 | 0 | 2% | 2% | -100% | -96% | 29 min |
-| NHL Game | ✔ | 89 | 0 | 16% | 7% | -100% | -73% | 5 min |
-| Brasileiro Serie B Game | ✘ | 64 | 0 | 5% | 2% | -100% | -92% | 11 min |
+| NHL Game | ✔ | 90 | 0 | 16% | 7% | -100% | -73% | 5 min |
+| Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
@@ -262,7 +262,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 401 | 6% | 1% | 0% | -90% |
+| Under 5 min | 402 | 6% | 1% | 0% | -90% |
 | 5–15 min | 200 | 18% | 7% | 2% | -70% |
 | 15–30 min | 141 | 31% | 17% | 1% | -46% |
 | 30–60 min | 113 | 16% | 10% | 0% | -72% |
@@ -284,15 +284,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 00:38 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | — | In play | — |
+| 10-14 00:36 | NHL Game | Detroit | ✔ | 3:41 - OT · NJ 5 - DET 4 | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:36 | eBasketball Game | Indiana Pacers (Ray) | ✘ | — | — | In play | — |
+| 10-14 00:35 | eSoccer Game | Flamengo (Holis) | ✘ | — | — | In play | — |
+| 10-14 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:33 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-14 00:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 00:31 | eSoccer Game | Estudiantes (Hurricane) | ✘ | — | — | In play | — |
+| 10-14 00:31 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 10-14 00:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-14 00:29 | NHL Game | Columbus | ✔ | 18:04 - 3rd · FLA 5 - CBJ 1 | — | In play | — |
 | 10-14 00:28 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:26 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | — | In play | — |
+| 10-14 00:26 | Brasileiro Serie B Game | Athletic Club Sjdr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:26 | Russia Liga Pro Match | Ilin Anatoliy Nikolaevich | ✘ | — | — | In play | — |
-| 10-14 00:26 | Brasileiro Serie B Game | Londrina | ✘ | — | — | In play | — |
-| 10-14 00:24 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | — | In play | — |
-| 10-14 00:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 00:21 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
-| 10-14 00:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-14 00:26 | Brasileiro Serie B Game | Londrina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:24 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:21 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 00:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:19 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:09 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -303,17 +314,6 @@
 | 10-14 00:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:04 | NBA Game | New York | ✔ | 3:29 - 2nd · NY 37 - TOR 76 | — | In play | — |
-| 10-14 00:03 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:55 | eSoccer Game | Getafe CF (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:52 | eSoccer Game | Estudiantes (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:52 | Russia Liga Pro Match | Mareev Nikita Gennadevich | ✘ | — | — | In play | — |
-| 10-13 23:51 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-13 23:50 | eSoccer Game | Universitario (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
