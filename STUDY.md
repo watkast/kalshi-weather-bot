@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 7:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12905 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
+| 12910 | 986 | 6 (1%) | 1.1% | -$63.90 (-43%) | Hold to the end: -$63.90 (-43%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 986 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11903 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11910 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,16 +98,16 @@
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 4084 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 638 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 640 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 579 | 1 | 4% | 3% | -84% | -93% | 11 min |
-| ITF Men's Match | ✘ | 559 | 1 | 11% | 6% | -83% | -81% | 5 min |
+| ITF Men's Match | ✘ | 560 | 1 | 11% | 6% | -83% | -81% | 5 min |
 | Challenger ATP  | ✘ | 428 | 2 | 10% | 3% | -56% | -83% | 5 min |
-| eBasketball Game | ✘ | 420 | 1 | 0% | 0% | -78% | -77% | 2 min |
+| eBasketball Game | ✘ | 422 | 1 | 0% | 0% | -78% | -77% | 2 min |
 | TT Star Series Match | ✘ | 260 | 1 | 2% | 2% | -64% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 158 | 2 | 7% | 3% | +18% | -88% | 103 min |
-| Men's T20 Cricket Match | ✘ | 140 | 1 | 13% | 4% | -33% | -78% | 21 min |
+| Men's T20 Cricket Match | ✘ | 141 | 1 | 13% | 4% | -34% | -78% | 21 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Challenger WTA | ✘ | 132 | 0 | 14% | 5% | -100% | -76% | 8 min |
 | League of Legends Game | ✘ | 127 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -232,9 +232,9 @@
 | Swiss Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 28 min |
 | Croatia Premijer Liga Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 21 min |
 | Finnish Ykkosliiga Game | ✘ | 11 | 1 | 9% | 9% | +748% | -84% | 15 min |
+| Russia Liga Pro Match | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 23 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
 | Faroe Islands Premier League Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 86 min |
-| Russia Liga Pro Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | LKL Lithuania Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Croatia HNL Game | ✘ | 9 | 0 | 22% | 11% | -100% | -61% | 16 min |
 | Bundesliga Game | ✔ | 9 | 1 | 22% | 22% | +937% | -61% | 13 min |
@@ -288,10 +288,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 13:07 | ITF Women's Match | Polina Skliar | ✘ | — | — | In play | — |
+| 10-14 13:18 | ITF Men's Match | Michael Gloeckler | ✘ | — | — | In play | — |
+| 10-14 13:15 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 13:15 | eBasketball Game | New Orleans Pelicans (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 13:11 | Slovakian Cup Game | Kostolne Kracany | ✘ | — | — | In play | — |
+| 10-14 13:10 | Russia Liga Pro Match | Rokhlin Igor Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 13:07 | ITF Women's Match | Polina Skliar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 13:02 | ITF Men's Match | Justas Trainauskas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 13:01 | ITF Women's Match | Ilary Pistola | ✘ | — | — | In play | — |
-| 10-14 12:59 | ITF Men's Match | Thomas Kostka | ✘ | — | — | In play | — |
+| 10-14 13:01 | ITF Women's Match | Ilary Pistola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 12:59 | ITF Men's Match | Thomas Kostka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:58 | Challenger ATP  | Sumit Nagal | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 12:58 | ITF Men's Match | Igor Piasek | ✘ | — | — | In play | — |
 | 10-14 12:57 | ITF Women's Match | Vanesa Salaiova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -301,7 +306,7 @@
 | 10-14 12:46 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:43 | Counter-Strike 2 Game | EAC Extra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:41 | ITF Women's Match | Andre Lukosiute | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:38 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | — | In play | — |
+| 10-14 12:38 | Men's T20 Cricket Match | Queens 1 Sports Club | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-14 12:36 | ITF Men's Match | Pieter De Lange | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:33 | ITF Women's Match | Amelia Rajecki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:31 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,11 +318,6 @@
 | 10-14 12:25 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 12:25 | ITF Women's Match | Adelina Lacinova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-14 12:24 | Challenger ATP  | Andrea Guerrieri | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-14 12:22 | ITF Men's Match | Bercel Sandor Takacs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:22 | ITF Men's Match | Jan Sadzik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:19 | eSoccer Game | Leverkusen (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 12:19 | Challenger ATP  | Elmer Moller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
