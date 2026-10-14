@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 9:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 9:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12416 | 977 | 6 (1%) | 1.1% | -$62.55 (-43%) | Hold to the end: -$62.55 (-43%) |
+| 12427 | 978 | 6 (1%) | 1.1% | -$62.70 (-43%) | Hold to the end: -$62.70 (-43%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 977 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11423 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 978 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 11431 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$62.55 | -43% |
-| Sell at 2¢ | 142 | 15% | -$109.63 | -75% |
-| Sell at 3¢ | 99 | 10% | -$107.94 | -74% |
-| Sell at 5¢ | 68 | 7% | -$102.35 | -70% |
-| Sell at 10¢ | 37 | 4% | -$98.08 | -67% |
-| Sell at 25¢ | 13 | 1% | -$103.52 | -71% |
-| Sell at 50¢ | 9 | 1% | -$85.80 | -59% |
+| Hold to the end | 6 | 1% | -$62.70 | -43% |
+| Sell at 2¢ | 142 | 15% | -$109.78 | -75% |
+| Sell at 3¢ | 99 | 10% | -$108.09 | -74% |
+| Sell at 5¢ | 68 | 7% | -$102.50 | -70% |
+| Sell at 10¢ | 37 | 4% | -$98.23 | -67% |
+| Sell at 25¢ | 13 | 1% | -$103.67 | -71% |
+| Sell at 50¢ | 9 | 1% | -$85.95 | -59% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3768 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3776 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -113,7 +113,7 @@
 | League of Legends Game | ✘ | 126 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| NHL Game | ✔ | 99 | 0 | 14% | 6% | -100% | -75% | 5 min |
+| NHL Game | ✔ | 100 | 0 | 14% | 6% | -100% | -76% | 5 min |
 | Dota 2 Game | ✘ | 94 | 0 | 2% | 2% | -100% | -96% | 29 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
@@ -267,7 +267,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 409 | 6% | 1% | 0% | -89% |
 | 5–15 min | 202 | 17% | 7% | 1% | -70% |
-| 15–30 min | 142 | 31% | 17% | 1% | -46% |
+| 15–30 min | 143 | 31% | 17% | 1% | -47% |
 | 30–60 min | 115 | 16% | 10% | 0% | -73% |
 | Over 60 min | 103 | 19% | 13% | 0% | -66% |
 
@@ -287,18 +287,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 03:22 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | — | In play | — |
+| 10-14 03:22 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | — | In play | — |
+| 10-14 03:21 | NHL Game | Dallas | ✔ | 0:05 - 3rd · COL 3 - DAL 2 | — | In play | — |
+| 10-14 03:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 03:20 | eSoccer Game | RB Leipzig (PinkElephant) | ✘ | — | — | In play | — |
+| 10-14 03:19 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-14 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 03:18 | eSoccer Game | Frankfurt (Fede) | ✘ | — | — | In play | — |
+| 10-14 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 03:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 03:17 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
 | 10-14 03:11 | Colombia LBP Basketball Game | Motilones Del Norte | ✘ | — | — | In play | — |
-| 10-14 03:09 | eSoccer Game | Arsenal (Poly) | ✘ | — | — | In play | — |
-| 10-14 03:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 03:06 | eSoccer Game | Leverkusen (Holis) | ✘ | — | — | In play | — |
-| 10-14 03:06 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | — | In play | — |
-| 10-14 03:05 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-14 03:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 03:04 | eSoccer Game | Dortmund (PinkElephant) | ✘ | — | — | In play | — |
-| 10-14 03:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 03:09 | eSoccer Game | Arsenal (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:06 | eSoccer Game | Leverkusen (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:06 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:05 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:04 | eSoccer Game | Dortmund (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:03 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:58 | NHL Game | Nashville | ✔ | 10:57 - 3rd · VGK 5 - NSH 2 | — | In play | — |
+| 10-14 02:58 | NHL Game | Nashville | ✔ | 10:57 - 3rd · VGK 5 - NSH 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:56 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -306,17 +317,6 @@
 | 10-14 02:50 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:49 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 02:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:40 | NHL Game | Minnesota | ✔ | 5:18 - 3rd · MIN 2 - WPG 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:40 | NBA Game | Indiana | ✔ | 0.0 - OT · IND 112 - OKC 114 | 2¢ | ❌ Lost | -$0.15 |
-| 10-14 02:40 | eSoccer Game | 1. FC Köln (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:38 | NHL Game | Pittsburgh | ✔ | 0:15 - 3rd · PIT 3 - CHI 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:37 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:36 | eSoccer Game | FC Augsburg (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
