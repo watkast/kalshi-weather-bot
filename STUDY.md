@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 11:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 11:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12532 | 985 | 6 (1%) | 1.1% | -$63.75 (-43%) | Hold to the end: -$63.75 (-43%) |
+| 12540 | 985 | 6 (1%) | 1.1% | -$63.75 (-43%) | Hold to the end: -$63.75 (-43%) |
 
 *In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 985 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11535 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 11543 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3857 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3865 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 612 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 571 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -288,14 +288,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-14 05:37 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | — | In play | — |
-| 10-14 05:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 05:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 05:34 | eSoccer Game | Girona (Bradley) | ✘ | — | — | In play | — |
-| 10-14 05:33 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 10-14 05:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 05:32 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | — | In play | — |
-| 10-14 05:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 05:47 | eSoccer Game | RC Celta (Frost) | ✘ | — | — | In play | — |
+| 10-14 05:47 | eBasketball Game | Indiana Pacers (Zion) | ✘ | — | — | In play | — |
+| 10-14 05:47 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | — | In play | — |
+| 10-14 05:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 05:45 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-14 05:43 | NHL Game | San Jose | ✔ | 3:39 - 3rd · BOS 4 - SJ 3 | — | In play | — |
+| 10-14 05:42 | Challenger ATP  | Andre Ilagan | ✘ | — | — | In play | — |
+| 10-14 05:42 | ITF Women's Match | Meng Yi Chen | ✘ | — | — | In play | — |
+| 10-14 05:37 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:34 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:33 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:32 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 05:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:24 | eSoccer Game | Nantes (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -310,14 +318,6 @@
 | 10-14 05:12 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:10 | ITF Women's Match | jiale Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 05:08 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:06 | WTA Tennis Match | Marie Bouzkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:05 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:05 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:03 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 05:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
