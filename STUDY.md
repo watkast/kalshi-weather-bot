@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 13, 7:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 13, 7:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 12329 | 965 | 6 (1%) | 1.1% | -$60.75 (-42%) | Hold to the end: -$60.75 (-42%) |
+| 12336 | 966 | 6 (1%) | 1.1% | -$60.90 (-42%) | Hold to the end: -$60.90 (-42%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 965 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 11344 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 966 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 11349 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 6 | 1% | -$60.75 | -42% |
-| Sell at 2¢ | 141 | 15% | -$108.09 | -75% |
-| Sell at 3¢ | 99 | 10% | -$106.14 | -73% |
-| Sell at 5¢ | 68 | 7% | -$100.55 | -69% |
-| Sell at 10¢ | 37 | 4% | -$96.28 | -67% |
-| Sell at 25¢ | 13 | 1% | -$101.72 | -70% |
-| Sell at 50¢ | 9 | 1% | -$84.00 | -58% |
+| Hold to the end | 6 | 1% | -$60.90 | -42% |
+| Sell at 2¢ | 141 | 15% | -$108.24 | -75% |
+| Sell at 3¢ | 99 | 10% | -$106.29 | -73% |
+| Sell at 5¢ | 68 | 7% | -$100.70 | -69% |
+| Sell at 10¢ | 37 | 4% | -$96.43 | -67% |
+| Sell at 25¢ | 13 | 1% | -$101.87 | -70% |
+| Sell at 50¢ | 9 | 1% | -$84.15 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 3709 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 3713 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 607 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 570 | 1 | 4% | 3% | -84% | -92% | 11 min |
@@ -113,8 +113,8 @@
 | League of Legends Game | ✘ | 126 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 111 | 1 | 5% | 2% | -16% | -92% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Dota 2 Game | ✘ | 93 | 0 | 2% | 2% | -100% | -96% | 29 min |
-| NHL Game | ✔ | 91 | 0 | 15% | 7% | -100% | -73% | 5 min |
+| Dota 2 Game | ✘ | 94 | 0 | 2% | 2% | -100% | -96% | 29 min |
+| NHL Game | ✔ | 92 | 0 | 15% | 7% | -100% | -74% | 5 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -262,7 +262,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 402 | 6% | 1% | 0% | -90% |
+| Under 5 min | 403 | 6% | 1% | 0% | -90% |
 | 5–15 min | 200 | 18% | 7% | 2% | -70% |
 | 15–30 min | 141 | 31% | 17% | 1% | -46% |
 | 30–60 min | 114 | 16% | 10% | 0% | -73% |
@@ -284,11 +284,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-14 01:29 | Liga DIMAYOR Game | Bucaramanga | ✘ | — | — | In play | — |
+| 10-14 01:27 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-14 01:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 01:27 | NHL Game | Washington | ✔ | 1:27 - 3rd · WSH 2 - CAR 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 01:26 | NHL Game | Buffalo | ✔ | In SO · BUF 3 - MTL 3 | — | In play | — |
+| 10-14 01:25 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-14 01:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-14 01:19 | Men's T20 Cricket Match | China | ✘ | — | — | In play | — |
-| 10-14 01:19 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | — | In play | — |
-| 10-14 01:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-14 01:15 | eSoccer Game | Flamengo (Holis) | ✘ | — | — | In play | — |
-| 10-14 01:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-14 01:19 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 01:15 | eSoccer Game | Flamengo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-14 01:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 01:14 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 01:14 | eSoccer Game | São Paulo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 01:14 | Liga DIMAYOR Game | Aguilas Doradas Rionegro | ✘ | — | — | In play | — |
@@ -307,13 +314,6 @@
 | 10-14 00:59 | eSoccer Game | São Paulo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 00:56 | NBA Game | Cleveland | ✔ | 52.3 - 3rd · CLE 79 - ORL 105 | — | In play | — |
 | 10-14 00:55 | Russia Liga Pro Match | Boiko Aleksei Evgenevich | ✘ | — | — | In play | — |
-| 10-14 00:48 | eSoccer Game | Botafogo (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:44 | eSoccer Game | Estudiantes (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 00:40 | Dota 2 Game | Rottweilas Latam | ✘ | — | — | In play | — |
-| 10-14 00:38 | Challenger ATP  | Eduardo Ribeiro | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-14 00:36 | NHL Game | Detroit | ✔ | 3:41 - OT · NJ 5 - DET 4 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
