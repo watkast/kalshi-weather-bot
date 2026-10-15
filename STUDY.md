@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 9:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 9:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13711 | 1041 | 7 (1%) | 1.1% | -$58.15 (-37%) | Hold to the end: -$58.15 (-37%) |
+| 13721 | 1041 | 7 (1%) | 1.1% | -$58.15 (-37%) | Hold to the end: -$58.15 (-37%) |
 
-*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1041 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12659 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12665 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4513 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4519 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 672 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 609 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -292,12 +292,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 03:01 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-15 03:07 | College Football Game | Sam Houston | ✔ | 7:07 - 4th · WKU 16 - SHSU 3 | — | In play | — |
+| 10-15 03:06 | Professional Baseball Game | Los Angeles D | ✔ | Bot 9th · MIL 6 - LAD 2 | — | In play | — |
+| 10-15 03:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 03:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 03:05 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-15 03:05 | Dota 2 Game | Chandogs | ✘ | — | — | In play | — |
+| 10-15 03:04 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | — | In play | — |
+| 10-15 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 03:04 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 03:01 | eSoccer Game | Portugal (Lexi) | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-15 02:55 | College Football Game | Kennesaw St. | ✔ | 0:35 - 4th · KENN 21 - MOST 21 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:53 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:52 | eSoccer Game | Crystal Palace (Poly) | ✘ | — | — | In play | — |
-| 10-15 02:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 02:52 | eSoccer Game | Crystal Palace (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:52 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:51 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -312,16 +322,6 @@
 | 10-15 02:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:38 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:37 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:36 | NBA Game | Dallas | ✔ | 39.1 - 4th · NO 98 - DAL 91 | 23¢ | ❌ Lost | -$0.15 |
-| 10-15 02:36 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:35 | Russia Liga Pro Match | Sitnikov Roman Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:28 | Major League Soccer Game | Seattle | ✔ | 89' · SEA 0 - DAL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:25 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:25 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:23 | eBasketball Game | Golden State Warriors (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 02:23 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
