@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 7:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13624 | 1013 | 7 (1%) | 1.1% | -$53.95 (-36%) | Hold to the end: -$53.95 (-36%) |
+| 13633 | 1013 | 7 (1%) | 1.1% | -$53.95 (-36%) | Hold to the end: -$53.95 (-36%) |
 
 *In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1013 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12587 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12596 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4455 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4463 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 671 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 607 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -151,7 +151,7 @@
 | ELH Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Liga Expansion Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 11 min |
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
-| Russia Liga Pro Match | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Russia Liga Pro Match | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | NFL Game | ✔ | 31 | 1 | 19% | 6% | +201% | -66% | 4 min |
 | Valorant game winner | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 15 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
@@ -291,18 +291,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 01:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 01:19 | eSoccer Game | Manchester City (NINJA) | ✘ | — | — | In play | — |
+| 10-15 01:29 | USL Championship Game | Tie | ✔ | 90'+5' · LOU 0 - RHI 1 | — | In play | — |
+| 10-15 01:29 | Major League Soccer Game | Tie | ✔ | 86' · NYC 0 - MIA 2 | — | In play | — |
+| 10-15 01:28 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-15 01:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:25 | Major League Soccer Game | Tie | ✔ | 86' · CLT 1 - CLB 3 | — | In play | — |
+| 10-15 01:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:25 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-15 01:24 | Women's College Volleyball Match | Virginia Tech | ✘ | — | — | In play | — |
+| 10-15 01:23 | USL Championship Game | Loudoun United FC | ✔ | 89' · LOU 0 - RHI 1 | — | In play | — |
+| 10-15 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:19 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:16 | Counter-Strike 2 Game | Galorys | ✘ | — | — | In play | — |
-| 10-15 01:15 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 10-15 01:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 01:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 01:14 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-15 01:15 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:14 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:13 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:13 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 10-15 01:13 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 10-15 01:13 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:13 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:11 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | — | In play | — |
+| 10-15 01:11 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:10 | Major League Soccer Game | Tie | ✔ | 30' · SKC 0 - NSH 3 | — | In play | — |
 | 10-15 01:07 | Major League Soccer Game | Tie | ✔ | 68' · ATL 3 - MTL 0 | — | In play | — |
 | 10-15 01:05 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -312,15 +321,6 @@
 | 10-15 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:01 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:01 | USL Championship Game | Charleston | ✔ | 90'+6' · CHS 1 - HFD 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:01 | USL Championship Game | Hartford Athletic | ✔ | 90'+6' · CHS 1 - HFD 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:00 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:00 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:59 | Major League Soccer Game | New York City | ✔ | 57' · NYC 0 - MIA 2 | — | In play | — |
-| 10-15 00:58 | Major League Soccer Game | Montreal | ✔ | 59' · ATL 2 - MTL 0 | — | In play | — |
-| 10-15 00:58 | Major League Soccer Game | Kansas City | ✔ | 18' · SKC 0 - NSH 2 | — | In play | — |
-| 10-15 00:58 | AHL Game | Hartford Wolf Pack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:48 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
