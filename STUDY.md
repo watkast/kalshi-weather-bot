@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 12:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 1:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14568 | 1078 | 7 (1%) | 1.1% | -$63.70 (-39%) | Hold to the end: -$63.70 (-39%) |
+| 14584 | 1080 | 7 (1%) | 1.1% | -$64.00 (-40%) | Hold to the end: -$64.00 (-40%) |
 
 *In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1078 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13471 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1080 | 14% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 13485 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$63.70 | -39% |
-| Sell at 2¢ | 156 | 14% | -$121.14 | -75% |
-| Sell at 3¢ | 110 | 10% | -$118.80 | -73% |
-| Sell at 5¢ | 75 | 7% | -$112.95 | -70% |
-| Sell at 10¢ | 40 | 4% | -$109.30 | -68% |
-| Sell at 25¢ | 14 | 1% | -$115.36 | -71% |
-| Sell at 50¢ | 10 | 1% | -$94.20 | -58% |
+| Hold to the end | 7 | 1% | -$64.00 | -40% |
+| Sell at 2¢ | 156 | 14% | -$121.44 | -75% |
+| Sell at 3¢ | 110 | 10% | -$119.10 | -74% |
+| Sell at 5¢ | 75 | 7% | -$113.25 | -70% |
+| Sell at 10¢ | 40 | 4% | -$109.60 | -68% |
+| Sell at 25¢ | 14 | 1% | -$115.66 | -71% |
+| Sell at 50¢ | 10 | 1% | -$94.50 | -58% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5015 | 1 | 0% | 0% | -98% | -99% | 2 min |
+| eSoccer Game | ✘ | 5023 | 1 | 0% | 0% | -98% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 709 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 639 | 1 | 11% | 6% | -85% | -80% | 5 min |
@@ -115,7 +115,7 @@
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
-| Russia Liga Pro Match | ✘ | 71 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 73 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
@@ -151,12 +151,12 @@
 | ELH Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Slovakian 2. Liga Game | ✘ | 34 | 0 | 6% | 6% | -100% | -90% | 111 min |
 | Liga Expansion Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 11 min |
+| TFF 1. Lig Game | ✘ | 33 | 0 | 15% | 6% | -100% | -74% | 10 min |
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | NFL Game | ✔ | 31 | 1 | 19% | 6% | +201% | -66% | 4 min |
 | Japan NPB Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Valorant game winner | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 15 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
-| TFF 1. Lig Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 8 min |
 | SHL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | DEL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Chinese Basketball Association Game  | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -173,6 +173,7 @@
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Japan J League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 12 min |
 | Saudi Pro League Game | ✘ | 20 | 0 | 20% | 15% | -100% | -65% | 14 min |
+| UEFA Conference League Game | partly | 20 | 0 | 20% | 10% | -100% | -65% | 6 min |
 | Liga MX Game | ✔ | 19 | 0 | 16% | 16% | -100% | -73% | 1 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
@@ -190,7 +191,6 @@
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
 | Ligue 1 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 10 min |
 | La Liga Game | ✔ | 18 | 0 | 44% | 33% | -100% | -23% | 9 min |
-| UEFA Conference League Game | partly | 18 | 0 | 22% | 11% | -100% | -61% | 6 min |
 | APF Division de Honor Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
 | Czech NBL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
@@ -272,8 +272,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 442 | 6% | 1% | 0% | -90% |
-| 5–15 min | 230 | 17% | 7% | 1% | -70% |
+| Under 5 min | 443 | 6% | 1% | 0% | -90% |
+| 5–15 min | 231 | 17% | 7% | 1% | -70% |
 | 15–30 min | 155 | 31% | 17% | 2% | -46% |
 | 30–60 min | 130 | 17% | 10% | 0% | -71% |
 | Over 60 min | 114 | 18% | 11% | 0% | -68% |
@@ -294,36 +294,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 18:51 | eSoccer Game | Arsenal (Declan) | ✘ | — | — | In play | — |
-| 10-15 18:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 18:49 | eSoccer Game | Spain (Lexi) | ✘ | — | — | In play | — |
-| 10-15 18:48 | Russia Liga Pro Match | Kanygin Dmitrii Aleksandrovich | ✘ | — | — | In play | — |
-| 10-15 18:48 | TFF 1. Lig Game | Esenler | ✘ | — | — | In play | — |
-| 10-15 18:47 | UEFA Conference League Game | Ajax | ✔ | 90'+13' · AJA 1 - HAJ 2 | — | In play | — |
+| 10-15 18:59 | Russia Liga Pro Match | Chernoskulov Fedor Olegovich | ✘ | — | — | In play | — |
+| 10-15 18:58 | Counter-Strike 2 Game | Inner Circle Prospect | ✘ | — | — | In play | — |
+| 10-15 18:58 | ITF Men's Match | Felipe De Dios | ✘ | — | — | In play | — |
+| 10-15 18:58 | ITF Men's Match | Lorenzo Claverie | ✘ | — | — | In play | — |
+| 10-15 18:56 | eSoccer Game | Arsenal (Haze) | ✘ | — | — | In play | — |
+| 10-15 18:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 18:55 | Counter-Strike 2 Game | Alianza Lima Esports | ✘ | — | — | In play | — |
+| 10-15 18:55 | Russia Liga Pro Match | Polyakov Petr Sergeevich | ✘ | — | — | In play | — |
+| 10-15 18:55 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | — | In play | — |
+| 10-15 18:55 | TFF 1. Lig Game | Manisa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:54 | eSoccer Game | Brighton (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:53 | UEFA Conference League Game | Tie | ✔ | 90'+18' · AJA 1 - HAJ 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:52 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:51 | eSoccer Game | Arsenal (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:49 | eSoccer Game | Spain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:48 | Russia Liga Pro Match | Kanygin Dmitrii Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 18:48 | TFF 1. Lig Game | Esenler | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 10-15 18:47 | UEFA Conference League Game | Ajax | ✔ | 90'+13' · AJA 1 - HAJ 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:47 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | — | In play | — |
-| 10-15 18:47 | Russia Liga Pro Match | Tikhnenko Dmitry Vyacheslavovich | ✘ | — | — | In play | — |
+| 10-15 18:47 | Russia Liga Pro Match | Tikhnenko Dmitry Vyacheslavovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:47 | Challenger ATP  | Moise Kouame | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:43 | TT Star Series Match | Roșca Mihai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:43 | eSoccer Game | Liverpool (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:43 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-15 18:43 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 18:40 | UEFA Europa League Game | Tie | ✔ | 90'+6' · SUN 2 - TOR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:40 | eSoccer Game | Fulham (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:40 | UEFA Europa League Game | Tie | ✔ | 90'+4' · CRY 2 - LYON 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:40 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
-| 10-15 18:39 | UEFA Conference League Game | Tie | ✔ | 90'+5' · MON 2 - CSKA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:39 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:39 | TFF 1. Lig Game | Mugla | ✘ | — | — | In play | — |
-| 10-15 18:39 | UEFA Conference League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:39 | UEFA Europa League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:38 | eSoccer Game | Arsenal (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:37 | UEFA Conference League Game | Tie | ✔ | 90'+3' · AGF 0 - GENT 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:37 | UEFA Europa League Game | Real Sociedad | ✔ | 90'+4' · RSO 1 - USG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:37 | UEFA Conference League Game | Kairat | ✔ | 90'+3' · KAI 1 - RIG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 18:37 | UEFA Conference League Game | Riga FC | ✔ | 90'+3' · KAI 1 - RIG 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
