@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 3:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 3:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14811 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14817 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13678 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13690 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5127 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5137 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 715 | 1 | 12% | 5% | -87% | -79% | 4 min |
-| ITF Men's Match | ✘ | 649 | 1 | 12% | 6% | -86% | -79% | 5 min |
+| ITF Men's Match | ✘ | 650 | 1 | 12% | 6% | -86% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 647 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | eBasketball Game | ✘ | 510 | 1 | 0% | 0% | -82% | -81% | 2 min |
 | Challenger ATP  | ✘ | 462 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 303 | 1 | 2% | 2% | -69% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
-| Darts Match | ✘ | 186 | 0 | 1% | 1% | -100% | -99% | 9 min |
+| Darts Match | ✘ | 187 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
 | Men's T20 Cricket Match | ✘ | 158 | 1 | 14% | 4% | -41% | -76% | 24 min |
 | Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
@@ -283,7 +283,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 46 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 47 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -295,19 +295,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 21:36 | Darts Match | Alex Williams | ✘ | — | — | In play | — |
-| 10-15 21:36 | eSoccer Game | Real Madrid (Poly) | ✘ | — | — | In play | — |
-| 10-15 21:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:34 | ITF Men's Match | Micah Braswell | ✘ | — | — | In play | — |
-| 10-15 21:33 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | — | In play | — |
-| 10-15 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 21:47 | Dota 2 Game | Mena Warriors | ✘ | — | — | In play | — |
+| 10-15 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 21:45 | eSoccer Game | Spurs (Quinnie) | ✘ | — | — | In play | — |
+| 10-15 21:44 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-15 21:44 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 10-15 21:42 | Russia Liga Pro Match | Vlasov Aleksandr IUrevich | ✘ | — | — | In play | — |
+| 10-15 21:36 | Darts Match | Alex Williams | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:36 | eSoccer Game | Real Madrid (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:34 | ITF Men's Match | Micah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:33 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:33 | Russia Liga Pro Match | Kutuzov Oleg Gennadyevich | ✘ | — | — | In play | — |
-| 10-15 21:32 | eSoccer Game | Spurs (Quinnie) | ✘ | — | — | In play | — |
-| 10-15 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:31 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-15 21:32 | eSoccer Game | Spurs (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:31 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:23 | Men's T20 Cricket Match | All Stars Cardinals | ✘ | — | — | In play | — |
 | 10-15 21:23 | Russia Liga Pro Match | SHipitsyn Gennadii IUrevich | ✘ | — | — | In play | — |
 | 10-15 21:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -319,12 +325,6 @@
 | 10-15 21:18 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:17 | eSoccer Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 21:17 | eSoccer Game | Spurs (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:17 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 10-15 21:16 | eSoccer Game | Tie | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 10-15 21:16 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 24¢ | ❌ Lost | -$0.15 |
-| 10-15 21:13 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:11 | ITF Men's Match | Felipe Jose Rivadeneira Gallegos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
