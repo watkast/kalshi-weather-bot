@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 15, 1:31 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 15, 1:41 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1536 finished bets | 1% | $82.05 | +48% | +5.34¢ | $29.20 / $52.85 |
 
-*Expect about **88 buys a day** (~$13.14/day at risk); max loss per buy **15¢**.*
+*Expect about **88 buys a day** (~$13.13/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19664 | 19657 | 78 (0%) | 1.07% | -$1,294.95 (-54%) | Hold to the close: -$1,294.95 (-54%) |
+| 19667 | 19657 | 78 (0%) | 1.07% | -$1,294.95 (-54%) | Hold to the close: -$1,294.95 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/15 1:41:05 PM | SILVER | DOWN | 3.9 min | — | — | In play | — |
+| 10/15 1:41:05 PM | PLATINUM | DOWN | 3.9 min | — | — | In play | — |
+| 10/15 1:40:49 PM | GOLD | DOWN | 4.2 min | — | — | In play | — |
 | 10/15 1:29:53 PM | WTI | UP | 7 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/15 1:29:53 PM | PLATINUM | UP | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 1:29:53 PM | GOLD | UP | 7 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -210,9 +213,6 @@
 | 10/15 1:14:03 PM | NATGAS | DOWN | 56 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 1:14:03 PM | SOL | DOWN | 56 sec | +0.121% | 0¢ | ❌ Lost | $0.00 |
 | 10/15 1:13:47 PM | GBPUSD | UP | 73 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/15 1:13:31 PM | EURUSD | UP | 89 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/15 1:13:15 PM | BTC | DOWN | 1.8 min | +0.092% | 1¢ | ❌ Lost | -$0.15 |
-| 10/15 1:12:59 PM | DOGE | DOWN | 2.0 min | +0.185% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
