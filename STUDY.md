@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 6:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 6:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14145 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14162 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13077 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13084 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4786 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 4792 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 698 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 699 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 621 | 1 | 11% | 6% | -85% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 620 | 1 | 4% | 3% | -85% | -92% | 11 min |
 | eBasketball Game | ✘ | 482 | 1 | 0% | 0% | -81% | -80% | 2 min |
@@ -292,12 +292,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 12:50 | ITF Men's Match | Rafael Kis Balazs | ✘ | — | — | In play | — |
+| 10-15 12:49 | ITF Women's Match | Anna Lena Ebster | ✘ | — | — | In play | — |
+| 10-15 12:49 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-15 12:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 12:49 | Darts Match | Sander van Ockenburg | ✘ | — | — | In play | — |
+| 10-15 12:47 | ITF Men's Match | Fausto Tabacco | ✘ | — | — | In play | — |
+| 10-15 12:47 | eSoccer Game | Spurs (Mantis) | ✘ | — | — | In play | — |
+| 10-15 12:47 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | — | In play | — |
+| 10-15 12:47 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | — | In play | — |
+| 10-15 12:47 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | — | In play | — |
+| 10-15 12:46 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | — | In play | — |
+| 10-15 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 12:45 | ITF Men's Match | Ruslan Serazhetdinov | ✘ | — | — | In play | — |
+| 10-15 12:45 | Dota 2 Game | Power Rangers | ✘ | — | — | In play | — |
+| 10-15 12:43 | eSoccer Game | Hoffenheim (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 12:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 12:41 | ITF Women's Match | Angella Okutoyi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:37 | ITF Men's Match | Lorenzo Berto | ✘ | — | — | In play | — |
-| 10-15 12:34 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | — | In play | — |
+| 10-15 12:34 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:34 | Counter-Strike 2 Game | Ryvex | ✘ | — | — | In play | — |
-| 10-15 12:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 12:31 | eSoccer Game | FC Bayern (Kylian) | ✘ | — | — | In play | — |
-| 10-15 12:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 12:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 12:31 | eSoccer Game | FC Bayern (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 12:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:30 | eSoccer Game | Hoffenheim (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:30 | ITF Men's Match | Daniel Domingos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -305,23 +322,6 @@
 | 10-15 12:28 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:27 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 12:27 | ITF Men's Match | Tommaso Compagnucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:25 | ITF Women's Match | Luisa Meyer auf der Heide | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:25 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:22 | ITF Women's Match | Sophia Biolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:21 | ITF Men's Match | Kaan Isik Kosaner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:20 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:20 | eSoccer Game | Spurs (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:19 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:17 | TT Star Series Match | Picard Vincent | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:17 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:16 | eSoccer Game | Leverkusen (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:15 | eSoccer Game | Hoffenheim (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 12:14 | Men's ODI Cricket Match | Oman | ✘ | — | — | In play | — |
-| 10-15 12:14 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
