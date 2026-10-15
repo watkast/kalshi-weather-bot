@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Thu Oct 15 19:14 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Thu Oct 15 19:24 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 12212 | 10567 | 1645 (49) | 4 | $-605.88 | -0.8% |
-| **20¢+ jump, ride past +5¢** | 7544 | 4177 | 3367 (1461) | 4 | $-2363.04 | -5.0% |
+| **20¢+ jump, sell +5¢** | 12220 | 10572 | 1648 (49) | 1 | $-622.09 | -0.8% |
+| **20¢+ jump, ride past +5¢** | 7550 | 4178 | 3372 (1464) | 1 | $-2371.12 | -5.0% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,15 +18,23 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 19:13 | J20R | XRP | UP | 32¢ | 0.90 | open |  |
-| 10-15 19:11 | J20 | ETH | DOWN | 22¢ | 0.75 | open |  |
-| 10-15 19:11 | J20R | ETH | DOWN | 22¢ | 0.75 | open |  |
-| 10-15 19:10 | J20R | NEAR | DOWN | 69¢ | 0.83 | open |  |
-| 10-15 19:10 | J20 | NEAR | DOWN | 69¢ | 0.83 | open |  |
-| 10-15 19:09 | J20 | XRP | DOWN | 39¢ | 0.71 | open |  |
+| 10-15 19:23 | J20 | HYPE | UP | 22¢ | 0.69 | open |  |
+| 10-15 19:23 | J20 | HYPE | UP | 22¢ | 0.60 | 0.68 | 0.47 |
+| 10-15 19:19 | J20R | HYPE | UP | 25¢ | 0.70 | open |  |
+| 10-15 19:19 | J20 | HYPE | UP | 25¢ | 0.70 | 0.76 | 0.32 |
+| 10-15 19:17 | J20R | ZEC | UP | 20¢ | 0.69 | 0.74 | 0.21 |
+| 10-15 19:17 | J20 | ZEC | UP | 20¢ | 0.69 | 0.75 | 0.31 |
+| 10-15 19:14 | J20R | BNB | DOWN | 43¢ | 0.84 | no | 1.50 |
+| 10-15 19:14 | J20 | BNB | DOWN | 43¢ | 0.80 | 1.00 | 1.83 |
+| 10-15 19:13 | J20R | XRP | UP | 32¢ | 0.90 | yes | 0.93 |
+| 10-15 19:11 | J20 | ETH | DOWN | 22¢ | 0.75 | yes | -7.64 |
+| 10-15 19:11 | J20R | ETH | DOWN | 22¢ | 0.75 | yes | -7.64 |
+| 10-15 19:10 | J20R | NEAR | DOWN | 69¢ | 0.83 | no | 1.60 |
+| 10-15 19:10 | J20 | NEAR | DOWN | 69¢ | 0.83 | 0.89 | 0.43 |
+| 10-15 19:09 | J20 | XRP | DOWN | 39¢ | 0.71 | yes | -7.25 |
 | 10-15 19:09 | J20 | ETH | DOWN | 31¢ | 0.66 | 0.73 | 0.40 |
-| 10-15 19:09 | J20R | SOL | DOWN | 22¢ | 0.45 | open |  |
-| 10-15 19:09 | J20 | SOL | DOWN | 22¢ | 0.45 | open |  |
+| 10-15 19:09 | J20R | SOL | DOWN | 22¢ | 0.45 | yes | -4.68 |
+| 10-15 19:09 | J20 | SOL | DOWN | 22¢ | 0.45 | yes | -4.68 |
 | 10-15 19:09 | J20 | BNB | DOWN | 22¢ | 0.86 | 0.93 | 0.56 |
 | 10-15 19:09 | J20R | XRP | DOWN | 26¢ | 0.55 | 0.65 | 0.66 |
 | 10-15 19:09 | J20 | XRP | DOWN | 26¢ | 0.55 | 0.69 | 1.07 |
@@ -50,11 +58,3 @@
 | 10-15 18:40 | J20 | HYPE | DOWN | 22¢ | 0.46 | yes | -4.82 |
 | 10-15 18:40 | J20R | HYPE | DOWN | 22¢ | 0.41 | yes | -4.27 |
 | 10-15 18:40 | J20 | HYPE | DOWN | 22¢ | 0.41 | 0.49 | 0.45 |
-| 10-15 18:38 | J20 | ZEC | DOWN | 23¢ | 0.79 | 0.91 | 1.04 |
-| 10-15 18:37 | J20 | ZEC | DOWN | 20¢ | 0.53 | 0.63 | 0.65 |
-| 10-15 18:36 | J20R | ZEC | DOWN | 23¢ | 0.46 | 0.75 | 2.58 |
-| 10-15 18:36 | J20 | ZEC | DOWN | 23¢ | 0.46 | 0.51 | 0.14 |
-| 10-15 18:29 | J20 | BNB | UP | 26¢ | 0.91 | no | -9.16 |
-| 10-15 18:29 | J20 | SOL | UP | 52¢ | 0.76 | 0.95 | 1.73 |
-| 10-15 18:29 | J20 | SOL | UP | 52¢ | 0.71 | 0.79 | 0.53 |
-| 10-15 18:28 | J20 | BNB | UP | 49¢ | 0.58 | 0.68 | 0.66 |
