@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Oct 15 15:03 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Oct 15 15:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -14,12 +14,16 @@
 | **+10¢** | 13363 | 10664 | 2699 (40) | 9 | $-4884.19 | -5.8% |
 | **+15¢** | 11214 | 8313 | 2901 (59) | 9 | $-4363.55 | -6.2% |
 | **+20¢** | 9969 | 6933 | 3036 (77) | 9 | $-3792.95 | -6.1% |
-| **+10¢ (15¢ stop)** | 21781 | 21731 | 50 (29) | 0 | $-8452.77 | -6.2% |
+| **+10¢ (15¢ stop)** | 21785 | 21735 | 50 (29) | 0 | $-8449.70 | -6.2% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 10-15 15:07 | +10 stop | BNB | UP | 0.67 | 0.77 | 0.71 |
+| 10-15 15:04 | +10 stop | HYPE | UP | 0.70 | 0.82 | 0.94 |
+| 10-15 15:04 | +10 stop | BNB | UP | 0.67 | 0.77 | 0.71 |
+| 10-15 15:04 | +10 stop | NEAR | UP | 0.67 | 0.77 | 0.71 |
 | 10-15 15:03 | +10 stop | NEAR | DOWN | 0.49 | 0.33 | -1.94 |
 | 10-15 15:03 | +5 | HYPE | DOWN | 0.66 | open |  |
 | 10-15 15:02 | +15 | BTC | DOWN | 0.71 | open |  |
@@ -56,7 +60,3 @@
 | 10-15 15:01 | +15 | BNB | DOWN | 0.70 | open |  |
 | 10-15 15:01 | +10 | BNB | DOWN | 0.70 | open |  |
 | 10-15 15:01 | +5 | BNB | DOWN | 0.70 | open |  |
-| 10-15 15:01 | +10 stop | DOGE | DOWN | 0.69 | 0.25 | -4.69 |
-| 10-15 15:01 | +20 | DOGE | DOWN | 0.69 | open |  |
-| 10-15 15:01 | +15 | DOGE | DOWN | 0.69 | open |  |
-| 10-15 15:01 | +10 | DOGE | DOWN | 0.69 | open |  |
