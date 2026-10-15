@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 12:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 12:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13871 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 13883 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12803 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12809 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4630 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4634 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 675 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 611 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -111,8 +111,8 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Challenger WTA | ✘ | 135 | 0 | 13% | 5% | -100% | -77% | 8 min |
 | League of Legends Game | ✘ | 127 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| Dota 2 Game | ✘ | 113 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
-| Dota 2 Game | ✘ | 111 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
@@ -292,12 +292,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 06:18 | eSoccer Game | Nantes (Mantis) | ✘ | — | — | In play | — |
+| 10-15 06:16 | eBasketball Game | Indiana Pacers (Zach) | ✘ | — | — | In play | — |
+| 10-15 06:16 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
+| 10-15 06:16 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | — | In play | — |
+| 10-15 06:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 06:15 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
+| 10-15 06:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 06:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-15 06:13 | eSoccer Game | Real Betis (Bradley) | ✘ | — | — | In play | — |
+| 10-15 06:13 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
+| 10-15 06:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 06:12 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
 | 10-15 06:09 | Russia Liga Pro Match | Meteleshko Igor Petrovich | ✘ | — | — | In play | — |
 | 10-15 06:09 | ITF Women's Match | Honori Koyama | ✘ | — | — | In play | — |
-| 10-15 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 06:02 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | — | In play | — |
-| 10-15 06:01 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | — | In play | — |
-| 10-15 06:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 06:02 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 06:01 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 06:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 06:00 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 06:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:59 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -305,23 +317,11 @@
 | 10-15 05:58 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:58 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:56 | ITF Men's Match | Yaojie ZENG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:55 | Dota 2 Game | Zenith | ✘ | — | — | In play | — |
+| 10-15 05:55 | Dota 2 Game | Zenith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:49 | ITF Men's Match | Ye Hongyu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:49 | eSoccer Game | Stade Brestois 29 (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 05:49 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:47 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:46 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:45 | eSoccer Game | FC Barcelona (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:44 | ITF Women's Match | Jana Kolodynska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:44 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:42 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
-| 10-15 05:36 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:36 | eSoccer Game | AS Monaco (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 05:34 | ITF Women's Match | Yanan Hou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
