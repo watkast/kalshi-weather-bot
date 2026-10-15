@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 8:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 8:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 49 finished bets | 2% | $6.65 | +90% | +13.57¢ | -$3.60 / $10.25 |
 
-*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14225 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14236 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13157 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13167 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4831 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 4839 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 701 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 631 | 1 | 11% | 6% | -85% | -80% | 5 min |
@@ -105,7 +105,7 @@
 | Challenger ATP  | ✘ | 453 | 2 | 9% | 3% | -59% | -84% | 5 min |
 | TT Star Series Match | ✘ | 290 | 1 | 2% | 2% | -68% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
-| Darts Match | ✘ | 176 | 0 | 1% | 1% | -100% | -99% | 9 min |
+| Darts Match | ✘ | 177 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
 | Men's T20 Cricket Match | ✘ | 153 | 1 | 14% | 5% | -39% | -75% | 22 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -131,7 +131,7 @@
 | KBO Game | ✘ | 50 | 0 | 8% | 6% | -100% | -86% | 4 min |
 | Liga DIMAYOR Game | ✘ | 49 | 1 | 12% | 4% | +90% | -79% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| Russia Liga Pro Match | ✘ | 47 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 48 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 4 min |
 | Brasileiro Serie A Game | partly | 45 | 1 | 22% | 13% | +107% | -61% | 7 min |
 | LaLiga 2 Game | partly | 44 | 0 | 16% | 7% | -100% | -72% | 8 min |
@@ -292,10 +292,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 14:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 13:59 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 10-15 13:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 13:58 | Darts Match | David Davies | ✘ | — | — | In play | — |
+| 10-15 14:12 | Latvian Virsliga Game | Super Nova | ✘ | — | — | In play | — |
+| 10-15 14:12 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-15 14:12 | eSoccer Game | Manchester Utd (Lexi) | ✘ | — | — | In play | — |
+| 10-15 14:10 | Russia Liga Pro Match | Alekseev Aleksandr Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:09 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
+| 10-15 14:08 | Dota 2 Game | Dawn Bulls | ✘ | — | — | In play | — |
+| 10-15 14:04 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:03 | eSoccer Game | Hoffenheim (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:03 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:02 | eSoccer Game | Stade Brestois 29 (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 14:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 13:59 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 13:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 13:58 | Darts Match | David Davies | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 13:54 | Challenger ATP  | Nikolas Sanchez Izquierdo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 13:51 | Counter-Strike 2 Game | Just_Players | ✘ | — | — | In play | — |
 | 10-15 13:50 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -311,17 +322,6 @@
 | 10-15 13:44 | ITF Men's Match | Thiago Agustin Pernas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 13:44 | eBasketball Game | New Orleans Pelicans (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 13:43 | Challenger ATP  | Ugo Blanchet | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 13:39 | TT Star Series Match | Amiri Nia Soroosh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:37 | Counter-Strike 2 Game | ENCE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:36 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:35 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:35 | eSoccer Game | Rennes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:34 | Russia Liga Pro Match | Alekseev Aleksandr Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:33 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 13:33 | eSoccer Game | AS Monaco (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
