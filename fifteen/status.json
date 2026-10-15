@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-10-15T11:37:38+00:00",
+ "saved_at": "2026-10-15T11:47:54+00:00",
  "series": 31,
  "markets_watched": 21,
- "batch_lookup": true,
- "bets": 19062,
+ "batch_lookup": false,
+ "bets": 19076,
  "open": 0,
  "coinbase_spot": {
   "XRP": true,
@@ -16,5 +16,7 @@
   "ZEC": true,
   "ETH": true
  },
- "errors": []
+ "errors": [
+  "2026-10-15T11:41:30+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ]
 }
