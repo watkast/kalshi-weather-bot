@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 6:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 6:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13573 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
+| 13579 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1011 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12547 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12555 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4425 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4431 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 671 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 607 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -112,8 +112,8 @@
 | Challenger WTA | ✘ | 135 | 0 | 13% | 5% | -100% | -77% | 8 min |
 | League of Legends Game | ✘ | 127 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
+| Dota 2 Game | ✘ | 109 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Dota 2 Game | ✘ | 108 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | NHL Game | ✔ | 105 | 0 | 13% | 6% | -100% | -77% | 5 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
@@ -152,7 +152,7 @@
 | Liga Expansion Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 11 min |
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | NFL Game | ✔ | 31 | 1 | 19% | 6% | +201% | -66% | 4 min |
-| Russia Liga Pro Match | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Russia Liga Pro Match | ✘ | 31 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Valorant game winner | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 16 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Japan NPB Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -291,11 +291,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 00:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 10-15 00:17 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
-| 10-15 00:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 00:12 | Russia Liga Pro Match | Shershnev Aleksei Vladimirovich | ✘ | — | — | In play | — |
+| 10-15 00:22 | eSoccer Game | Real Madrid (Poly) | ✘ | — | — | In play | — |
+| 10-15 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:20 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:20 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-15 00:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:17 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:12 | Russia Liga Pro Match | Shershnev Aleksei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:09 | eSoccer Game | RCD Mallorca (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:08 | ITF Women's Match | Diletta Cherubini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -315,12 +321,6 @@
 | 10-14 23:52 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 23:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-14 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:51 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:51 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:48 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-14 23:47 | Challenger ATP  | Felipe Meligeni Alves | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
