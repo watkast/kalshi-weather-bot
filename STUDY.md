@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 3:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 3:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13949 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 13959 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 8. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12889 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12891 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,7 +100,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 682 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 611 | 1 | 4% | 3% | -85% | -92% | 11 min |
-| ITF Men's Match | ✘ | 606 | 1 | 11% | 6% | -85% | -80% | 5 min |
+| ITF Men's Match | ✘ | 608 | 1 | 11% | 6% | -85% | -80% | 5 min |
 | eBasketball Game | ✘ | 471 | 1 | 0% | 0% | -80% | -80% | 2 min |
 | Challenger ATP  | ✘ | 445 | 2 | 10% | 3% | -58% | -83% | 5 min |
 | TT Star Series Match | ✘ | 283 | 1 | 2% | 2% | -67% | -97% | 4 min |
@@ -292,6 +292,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 09:35 | WTA Tennis Match | Leylah Fernandez | ✘ | — | — | In play | — |
+| 10-15 09:33 | eSoccer Game | Everton (Homie) | ✘ | — | — | In play | — |
+| 10-15 09:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 09:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 09:32 | eSoccer Game | Benfica (Kevin) | ✘ | — | — | In play | — |
+| 10-15 09:31 | Russia Liga Pro Match | Lednev Ivan Anatolevich | ✘ | — | — | In play | — |
+| 10-15 09:31 | eBasketball Game | Denver Nuggets (Davis) | ✘ | — | — | In play | — |
+| 10-15 09:29 | ITF Men's Match | Dhakshineswar Suresh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 09:28 | ITF Men's Match | Tudor Batin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 09:26 | Women's T20 Match | Austria Women | ✘ | — | — | In play | — |
 | 10-15 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:18 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -312,16 +322,6 @@
 | 10-15 09:01 | ITF Men's Match | Arjun Rathi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:00 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:00 | Challenger ATP  | Aleksandar Vukic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | ITF Men's Match | Yaroslav Demin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | ITF Men's Match | Matthew Shearer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | TT Star Series Match | Alexandrov Teodor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | TT Star Series Match | Yefimov Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | ITF Men's Match | Madhwin Kamath | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | TT Star Series Match | Rezetka Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | Russia Liga Pro Match | Akkuratov Aleksei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | ITF Women's Match | aoyi li | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:00 | ITF Women's Match | Florentine Dekkers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
