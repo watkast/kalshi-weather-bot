@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 11:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 12:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14454 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14474 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13381 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13390 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4968 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4974 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 707 | 0 | 12% | 5% | -100% | -79% | 4 min |
-| ITF Men's Match | ✘ | 634 | 1 | 11% | 6% | -85% | -81% | 5 min |
+| ITF Men's Match | ✘ | 635 | 1 | 11% | 6% | -85% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 633 | 1 | 5% | 3% | -85% | -92% | 11 min |
 | eBasketball Game | ✘ | 498 | 1 | 0% | 0% | -81% | -81% | 2 min |
 | Challenger ATP  | ✘ | 459 | 2 | 10% | 3% | -59% | -83% | 5 min |
-| TT Star Series Match | ✘ | 295 | 1 | 2% | 2% | -68% | -97% | 4 min |
+| TT Star Series Match | ✘ | 296 | 1 | 2% | 2% | -68% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
 | Darts Match | ✘ | 185 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
@@ -119,8 +119,8 @@
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
+| Russia Liga Pro Match | ✘ | 61 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | KHL Game | ✘ | 60 | 0 | 3% | 2% | -100% | -94% | 5 min |
-| Russia Liga Pro Match | ✘ | 60 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | R6 Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 9 min |
@@ -292,36 +292,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 17:46 | eSoccer Game | Real Madrid (Nairo) | ✘ | — | — | In play | — |
-| 10-15 17:46 | eSoccer Game | Slavia Praha (SilentShooter) | ✘ | — | — | In play | — |
-| 10-15 17:46 | ITF Men's Match | Gabriel Schenekenberg | ✘ | — | — | In play | — |
-| 10-15 17:44 | TT Star Series Match | Beneš Michal | ✘ | — | — | In play | — |
-| 10-15 17:43 | Russia Liga Pro Match | Pandur Ivan Georgievich | ✘ | — | — | In play | — |
-| 10-15 17:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 17:43 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 10-15 17:40 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
-| 10-15 17:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:59 | eBasketball Game | Los Angeles Lakers (Gavi) | ✘ | — | — | In play | — |
+| 10-15 17:59 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | — | In play | — |
+| 10-15 17:59 | eSoccer Game | Manchester City (Aron) | ✘ | — | — | In play | — |
+| 10-15 17:59 | eSoccer Game | Manchester Utd (Luis) | ✘ | — | — | In play | — |
+| 10-15 17:57 | Liiga Game | KooKoo Kouvola | ✘ | — | — | In play | — |
+| 10-15 17:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:57 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 10-15 17:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:56 | eSoccer Game | Spurs (Declan) | ✘ | — | — | In play | — |
+| 10-15 17:56 | ITF Men's Match | Victor Pagotto | ✘ | — | — | In play | — |
+| 10-15 17:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:54 | ELH Game | HC Verva Litvinov | ✘ | — | — | In play | — |
+| 10-15 17:54 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 10-15 17:53 | Liiga Game | HPK Hameenlinna | ✘ | — | — | In play | — |
+| 10-15 17:53 | Russia Liga Pro Match | CHereugin Stanislav Andreevich | ✘ | — | — | In play | — |
+| 10-15 17:53 | Russia Liga Pro Match | Petrov Mikhail Gennadevich | ✘ | — | — | In play | — |
+| 10-15 17:52 | Russia Liga Pro Match | Puchinin Andrei Vladimirovich | ✘ | — | — | In play | — |
+| 10-15 17:51 | UEFA Europa League Game | Salzburg | ✔ | 49' · MIL 2 - SLZ 0 | — | In play | — |
+| 10-15 17:50 | UEFA Conference League Game | Tie | ✔ | 47' · TRAB 2 - KUPS 0 | — | In play | — |
+| 10-15 17:50 | Counter-Strike 2 Game | 99firepower 1utility | ✘ | — | — | In play | — |
+| 10-15 17:46 | eSoccer Game | Real Madrid (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:46 | eSoccer Game | Slavia Praha (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:46 | ITF Men's Match | Gabriel Schenekenberg | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
+| 10-15 17:44 | TT Star Series Match | Beneš Michal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:43 | Russia Liga Pro Match | Pandur Ivan Georgievich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:43 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:40 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:33 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:31 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:29 | UEFA Conference League Game | Kuopion Palloseura | ✔ | 43' · TRAB 1 - KUPS 0 | — | In play | — |
-| 10-15 17:29 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:29 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:27 | Russia Liga Pro Match | Komarov Denis Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:27 | eSoccer Game | RC Lens (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:26 | UEFA Europa League Game | Tie | ✔ | 40' · B04 2 - LECH 0 | — | In play | — |
-| 10-15 17:25 | UEFA Conference League Game | Banja Luka | ✔ | 40' · BBL 0 - PAO 1 | — | In play | — |
-| 10-15 17:25 | Russia Liga Pro Match | Kirichenko Stanislav Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:24 | ITF Women's Match | Maria Jose Sanchez Uribe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:22 | UEFA Europa League Game | Lech Poznan | ✔ | 37' · B04 2 - LECH 0 | — | In play | — |
-| 10-15 17:21 | ITF Women's Match | Sabrina Dias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 17:21 | TT Star Series Match | Barius Johan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:21 | Russia Liga Pro Match | Burov Sergey Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:18 | eSoccer Game | Arsenal (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:17 | eSoccer Game | Chelsea (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
