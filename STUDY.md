@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 3:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 4:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 49 finished bets | 2% | $6.65 | +90% | +13.57¢ | -$3.60 / $10.25 |
 
-*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14826 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14836 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13703 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13709 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5147 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5151 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 715 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 650 | 1 | 12% | 6% | -86% | -79% | 5 min |
@@ -105,9 +105,9 @@
 | Challenger ATP  | ✘ | 462 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 303 | 1 | 2% | 2% | -69% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
-| Darts Match | ✘ | 187 | 0 | 1% | 1% | -100% | -99% | 8 min |
+| Darts Match | ✘ | 188 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
-| Men's T20 Cricket Match | ✘ | 158 | 1 | 14% | 4% | -41% | -76% | 24 min |
+| Men's T20 Cricket Match | ✘ | 159 | 1 | 14% | 4% | -41% | -76% | 25 min |
 | Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Dota 2 Game | ✘ | 131 | 0 | 2% | 2% | -100% | -97% | 29 min |
@@ -295,7 +295,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 21:51 | Darts Match | Brian Raman | ✘ | — | — | In play | — |
+| 10-15 22:06 | ITF Women's Match | Francoise Abanda | ✘ | — | — | In play | — |
+| 10-15 22:04 | Russia Liga Pro Match | Glazun Evgeniy Gennadevich | ✘ | — | — | In play | — |
+| 10-15 22:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 22:03 | eSoccer Game | Real Betis (NINJA) | ✘ | — | — | In play | — |
+| 10-15 22:02 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-15 22:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 21:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:59 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:59 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:58 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:51 | Darts Match | Brian Raman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:50 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:49 | eSoccer Game | RCD Mallorca (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -315,16 +325,6 @@
 | 10-15 21:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:34 | ITF Men's Match | Micah Braswell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:33 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:33 | Russia Liga Pro Match | Kutuzov Oleg Gennadyevich | ✘ | — | — | In play | — |
-| 10-15 21:32 | eSoccer Game | Spurs (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:31 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 21:23 | Men's T20 Cricket Match | All Stars Cardinals | ✘ | — | — | In play | — |
-| 10-15 21:23 | Russia Liga Pro Match | SHipitsyn Gennadii IUrevich | ✘ | — | — | In play | — |
 
 ## Raw data
 
