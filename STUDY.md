@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 3:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 3:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14778 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14784 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13644 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13660 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5106 | 2 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 5116 | 2 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 714 | 1 | 12% | 5% | -87% | -79% | 4 min |
+| ITF Women's Match | ✘ | 715 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 647 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 646 | 1 | 5% | 2% | -86% | -92% | 11 min |
-| eBasketball Game | ✘ | 508 | 1 | 0% | 0% | -82% | -81% | 2 min |
+| eBasketball Game | ✘ | 510 | 1 | 0% | 0% | -82% | -81% | 2 min |
 | Challenger ATP  | ✘ | 462 | 2 | 10% | 3% | -60% | -83% | 5 min |
-| TT Star Series Match | ✘ | 302 | 1 | 2% | 2% | -69% | -97% | 4 min |
+| TT Star Series Match | ✘ | 303 | 1 | 2% | 2% | -69% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
 | Darts Match | ✘ | 185 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
@@ -256,6 +256,7 @@
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Korea KBL Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 13 min |
+| Men's Iceland Basketball Premier League Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 122 min |
@@ -267,7 +268,6 @@
 | Powerslap Match Winner | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 436 min |
 | Liga Nacional de Basquetbol Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | BNXT League Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 15 min |
-| Men's Iceland Basketball Premier League Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 47 min |
 
 ## By time left when it hit 1¢
 
@@ -295,36 +295,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 21:06 | eSoccer Game | Palmeiras (Nate) | ✘ | — | — | In play | — |
-| 10-15 21:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:05 | eSoccer Game | Spurs (Quinnie) | ✘ | — | — | In play | — |
+| 10-15 21:16 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-15 21:13 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:11 | ITF Men's Match | Felipe Jose Rivadeneira Gallegos | ✘ | — | — | In play | — |
+| 10-15 21:11 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:07 | eSoccer Game | RCD Mallorca (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:06 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:05 | eSoccer Game | Spurs (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 21:05 | Counter-Strike 2 Game | Martians | ✘ | — | — | In play | — |
-| 10-15 21:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:04 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | — | In play | — |
-| 10-15 21:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 21:03 | ITF Women's Match | Francesca Pace | ✘ | — | — | In play | — |
-| 10-15 21:03 | TT Star Series Match | Abedinian Milad | ✘ | — | — | In play | — |
-| 10-15 21:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:04 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:03 | ITF Women's Match | Francesca Pace | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:03 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 21:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:58 | Russia Liga Pro Match | Khaperskii Iurii Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:58 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 10-15 20:58 | Men's Iceland Basketball Premier League Game | UMF Sindri | ✘ | — | — | In play | — |
+| 10-15 20:58 | eSoccer Game | Arsenal (Demi) | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 10-15 20:58 | Men's Iceland Basketball Premier League Game | UMF Sindri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:57 | Women's T20 Match | Atlanta Fire Women | ✘ | — | — | In play | — |
 | 10-15 20:57 | Russia Liga Pro Match | Vlasov Aleksandr IUrevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:57 | Russia Liga Pro Match | Chernoskulov Fedor Olegovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:57 | Men's T20 Cricket Match | Atlanta Force | ✘ | — | — | In play | — |
 | 10-15 20:57 | UEFA Europa League Game | Tie | ✔ | 90'+7' · AND 0 - DZG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:57 | Men's Iceland Basketball Premier League Game | UMFN Njardvik | ✘ | — | — | In play | — |
+| 10-15 20:57 | Men's Iceland Basketball Premier League Game | UMFN Njardvik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:53 | EFL League One Game | Oxford United | ✔ | 90'+7' · OXF 1 - MNF 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:53 | UEFA Europa League Game | Anderlecht | ✔ | 90'+3' · AND 0 - DZG 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:53 | UEFA Europa League Game | Levski Sofia | ✔ | 90'+4' · LEV 1 - NEC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:53 | UEFA Europa League Game | Nijmegen | ✔ | 90'+4' · LEV 1 - NEC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:53 | UEFA Conference League Game | Tie | ✔ | 90'+4' · THUN 0 - TWE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:53 | UEFA Conference League Game | Tie | ✔ | 90'+4' · LRI 1 - SKBR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:53 | UEFA Europa League Game | Tie | ✔ | 90'+4' · OLY 1 - OLM 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:53 | UEFA Europa League Game | Tie | ✔ | 90'+5' · JUV 2 - CEL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:51 | UEFA Europa League Game | Tie | ✔ | 90'+4' · OFI 1 - REN 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 20:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:50 | UEFA Europa League Game | Celta Vigo | ✔ | 90'+2' · JUV 1 - CEL 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
