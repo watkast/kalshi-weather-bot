@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 6:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13596 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
+| 13600 | 1011 | 7 (1%) | 1.1% | -$53.65 (-35%) | Hold to the end: -$53.65 (-35%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1011 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12571 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12577 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4443 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4447 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 671 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 607 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -106,7 +106,7 @@
 | TT Star Series Match | ✘ | 277 | 1 | 2% | 2% | -66% | -97% | 4 min |
 | College Football Game | partly | 190 | 2 | 13% | 6% | -2% | -78% | 31 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
-| Women's College Volleyball Match | ✘ | 158 | 2 | 7% | 3% | +18% | -88% | 103 min |
+| Women's College Volleyball Match | ✘ | 159 | 2 | 7% | 3% | +17% | -88% | 103 min |
 | Men's T20 Cricket Match | ✘ | 152 | 1 | 14% | 5% | -39% | -76% | 23 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Challenger WTA | ✘ | 135 | 0 | 13% | 5% | -100% | -77% | 8 min |
@@ -153,7 +153,7 @@
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | Russia Liga Pro Match | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | NFL Game | ✔ | 31 | 1 | 19% | 6% | +201% | -66% | 4 min |
-| Valorant game winner | ✘ | 29 | 0 | 7% | 3% | -100% | -88% | 16 min |
+| Valorant game winner | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 15 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Japan NPB Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | SHL Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -279,7 +279,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 46 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 47 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -291,14 +291,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 00:48 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 10-15 00:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 00:47 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 10-15 00:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 00:59 | Major League Soccer Game | New York City | ✔ | 57' · NYC 0 - MIA 2 | — | In play | — |
+| 10-15 00:58 | Major League Soccer Game | Montreal | ✔ | 59' · ATL 2 - MTL 0 | — | In play | — |
+| 10-15 00:58 | Major League Soccer Game | Kansas City | ✔ | 18' · SKC 0 - NSH 2 | — | In play | — |
+| 10-15 00:58 | AHL Game | Hartford Wolf Pack | ✘ | — | — | In play | — |
+| 10-15 00:48 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:47 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:40 | Russia Liga Pro Match | Rakhmanovskii Viktor Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:37 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:36 | Valorant game winner | Akave Esports Black | ✘ | — | — | In play | — |
-| 10-15 00:36 | Women's College Volleyball Match | Mississippi State | ✘ | — | — | In play | — |
+| 10-15 00:36 | Valorant game winner | Akave Esports Black | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 00:36 | Women's College Volleyball Match | Mississippi State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:35 | eBasketball Game | Denver Nuggets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:34 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -317,10 +321,6 @@
 | 10-15 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:17 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:12 | Russia Liga Pro Match | Shershnev Aleksei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:09 | eSoccer Game | RCD Mallorca (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
