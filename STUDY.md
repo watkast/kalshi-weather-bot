@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 10:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13765 | 1047 | 7 (1%) | 1.1% | -$59.05 (-38%) | Hold to the end: -$59.05 (-38%) |
+| 13772 | 1047 | 7 (1%) | 1.1% | -$59.05 (-38%) | Hold to the end: -$59.05 (-38%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1047 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12702 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12710 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4551 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4559 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 673 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 609 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -292,14 +292,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:05 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | — | In play | — |
-| 10-15 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:02 | eSoccer Game | Stuttgart (Vini) | ✘ | — | — | In play | — |
-| 10-15 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:01 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-15 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:00 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | — | In play | — |
+| 10-15 04:15 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-15 04:15 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-15 04:15 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | — | In play | — |
+| 10-15 04:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 04:13 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 10-15 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 04:08 | Major League Soccer Game | Austin | ✔ | 72' · ATX 1 - LAFC 2 | — | In play | — |
+| 10-15 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:05 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:02 | eSoccer Game | Stuttgart (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:01 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:00 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 03:59 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 03:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 03:58 | ITF Women's Match | Junlu Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -315,13 +322,6 @@
 | 10-15 03:47 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 03:46 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 03:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:39 | eSoccer Game | Spurs (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:38 | Major League Soccer Game | Colorado | ✔ | 90'+7' · MIN 2 - COL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:38 | Major League Soccer Game | Minnesota | ✔ | 90'+7' · MIN 2 - COL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:34 | eSoccer Game | Stuttgart (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 03:33 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
