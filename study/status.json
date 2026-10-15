@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-15T03:12:44+00:00",
+ "saved_at": "2026-10-15T03:23:00+00:00",
  "series_watched": 358,
- "markets_in_or_near_play": 122,
+ "markets_in_or_near_play": 137,
  "batch_lookup": true,
  "espn_games_linked": 27,
  "espn_check": {
-  "at": "2026-10-15T02:46:02+00:00",
-  "started_games": 11,
-  "matched": 10,
+  "at": "2026-10-15T03:17:20+00:00",
+  "started_games": 8,
+  "matched": 7,
   "unmatched_sample": [
    "KXMLSGAME-26OCT14LAGPOR"
   ]
  },
- "bets": 13721,
- "open": 15,
+ "bets": 13729,
+ "open": 18,
  "errors": []
 }
