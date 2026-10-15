@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 11:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 11:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14439 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14445 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13369 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13377 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4962 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4966 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 707 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | ITF Men's Match | ✘ | 634 | 1 | 11% | 6% | -85% | -81% | 5 min |
 | Counter-Strike 2 Game | ✘ | 633 | 1 | 5% | 3% | -85% | -92% | 11 min |
 | eBasketball Game | ✘ | 497 | 1 | 0% | 0% | -81% | -81% | 2 min |
 | Challenger ATP  | ✘ | 459 | 2 | 10% | 3% | -59% | -83% | 5 min |
-| TT Star Series Match | ✘ | 294 | 1 | 2% | 2% | -68% | -97% | 4 min |
+| TT Star Series Match | ✘ | 295 | 1 | 2% | 2% | -68% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
 | Darts Match | ✘ | 185 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
@@ -120,10 +120,10 @@
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | KHL Game | ✘ | 60 | 0 | 3% | 2% | -100% | -94% | 5 min |
+| Russia Liga Pro Match | ✘ | 60 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | R6 Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 9 min |
-| Russia Liga Pro Match | ✘ | 57 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Argentina Primera Division Game | ✘ | 55 | 0 | 16% | 5% | -100% | -72% | 6 min |
 | Overwatch Game | ✘ | 53 | 0 | 4% | 0% | -100% | -93% | 5 min |
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
@@ -292,17 +292,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 17:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 17:27 | Russia Liga Pro Match | Komarov Denis Andreevich | ✘ | — | — | In play | — |
-| 10-15 17:27 | eSoccer Game | RC Lens (Lexi) | ✘ | — | — | In play | — |
+| 10-15 17:33 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | — | In play | — |
+| 10-15 17:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:31 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | — | In play | — |
+| 10-15 17:29 | UEFA Conference League Game | Kuopion Palloseura | ✔ | 43' · TRAB 1 - KUPS 0 | — | In play | — |
+| 10-15 17:29 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:29 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:27 | Russia Liga Pro Match | Komarov Denis Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:27 | eSoccer Game | RC Lens (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:26 | UEFA Europa League Game | Tie | ✔ | 40' · B04 2 - LECH 0 | — | In play | — |
 | 10-15 17:25 | UEFA Conference League Game | Banja Luka | ✔ | 40' · BBL 0 - PAO 1 | — | In play | — |
-| 10-15 17:25 | Russia Liga Pro Match | Kirichenko Stanislav Andreevich | ✘ | — | — | In play | — |
+| 10-15 17:25 | Russia Liga Pro Match | Kirichenko Stanislav Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:24 | ITF Women's Match | Maria Jose Sanchez Uribe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:22 | UEFA Europa League Game | Lech Poznan | ✔ | 37' · B04 2 - LECH 0 | — | In play | — |
 | 10-15 17:21 | ITF Women's Match | Sabrina Dias | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 17:21 | TT Star Series Match | Barius Johan | ✘ | — | — | In play | — |
-| 10-15 17:21 | Russia Liga Pro Match | Burov Sergey Aleksandrovich | ✘ | — | — | In play | — |
+| 10-15 17:21 | TT Star Series Match | Barius Johan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:21 | Russia Liga Pro Match | Burov Sergey Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:18 | eSoccer Game | Arsenal (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:17 | eSoccer Game | Chelsea (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -316,12 +322,6 @@
 | 10-15 17:14 | Men's T20 Cricket Match | St Louis Americans | ✘ | — | — | In play | — |
 | 10-15 17:14 | eSoccer Game | RC Lens (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 17:13 | Russia Liga Pro Match | Matveev Igor Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:10 | Saudi Pro League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:09 | Saudi Pro League Game | Al-Hazm | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 17:07 | Counter-Strike 2 Game | ENJOY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:06 | Challenger ATP  | Svyatoslav Gulin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:06 | eSoccer Game | Real Madrid (Nairo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 17:06 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
