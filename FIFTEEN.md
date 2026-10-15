@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 15, 10:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 15, 10:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19476 | 19469 | 78 (0%) | 1.07% | -$1,271.40 (-54%) | Hold to the close: -$1,271.40 (-54%) |
+| 19477 | 19469 | 78 (0%) | 1.07% | -$1,271.40 (-54%) | Hold to the close: -$1,271.40 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/15 10:42:02 AM | DOGE | DOWN | 3.0 min | +0.329% | — | In play | — |
 | 10/15 10:29:55 AM | WTI | DOWN | 5 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/15 10:28:52 AM | NATGAS | UP | 68 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 10:28:36 AM | SILVER | DOWN | 83 sec | — | 1¢ | ❌ Lost | -$0.15 |
@@ -212,7 +213,6 @@
 | 10/15 10:13:35 AM | PALLADIUM | UP | 85 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 10:13:19 AM | AUDUSD | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 10:13:19 AM | DOGE | UP | 1.7 min | -0.286% | 0¢ | ❌ Lost | $0.00 |
-| 10/15 10:13:19 AM | GBPUSD | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
