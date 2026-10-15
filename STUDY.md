@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 10:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 10:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13798 | 1051 | 7 (1%) | 1.1% | -$59.65 (-38%) | Hold to the end: -$59.65 (-38%) |
+| 13806 | 1051 | 7 (1%) | 1.1% | -$59.65 (-38%) | Hold to the end: -$59.65 (-38%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1051 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12729 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12741 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4576 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4584 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 673 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 609 | 1 | 4% | 3% | -85% | -92% | 11 min |
 | ITF Men's Match | ✘ | 596 | 1 | 12% | 6% | -84% | -80% | 5 min |
-| eBasketball Game | ✘ | 457 | 1 | 0% | 0% | -80% | -79% | 2 min |
+| eBasketball Game | ✘ | 459 | 1 | 0% | 0% | -80% | -79% | 2 min |
 | Challenger ATP  | ✘ | 442 | 2 | 10% | 3% | -58% | -84% | 5 min |
 | TT Star Series Match | ✘ | 277 | 1 | 2% | 2% | -66% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
@@ -117,8 +117,8 @@
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
+| AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
-| AHL Game | ✘ | 61 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | KHL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 5 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
@@ -292,20 +292,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 04:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:46 | eSoccer Game | Spurs (Poly) | ✘ | — | — | In play | — |
-| 10-15 04:46 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | — | In play | — |
-| 10-15 04:45 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | — | In play | — |
-| 10-15 04:45 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | — | In play | — |
-| 10-15 04:44 | AHL Game | San Diego Gulls | ✘ | — | — | In play | — |
-| 10-15 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 04:43 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | — | In play | — |
+| 10-15 04:55 | Counter-Strike 2 Game | Chicken Coop Esports | ✘ | — | — | In play | — |
+| 10-15 04:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 04:51 | NBA Game | Denver | ✔ | 3:15 - 4th · DEN 106 - LAC 117 | — | In play | — |
+| 10-15 04:51 | ITF Men's Match | Anton Shepp | ✘ | — | — | In play | — |
+| 10-15 04:51 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
+| 10-15 04:50 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:48 | Counter-Strike 2 Game | Rooster | ✘ | — | — | In play | — |
+| 10-15 04:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:46 | eSoccer Game | Spurs (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:46 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:45 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:45 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:44 | AHL Game | San Diego Gulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 04:43 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:41 | Major League Soccer Game | San Diego FC | ✔ | 90'+5' · HOU 3 - SD 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:40 | Major League Soccer Game | Houston | ✔ | 90'+4' · HOU 3 - SD 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:35 | eSoccer Game | Nottingham Forest (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:33 | AHL Game | Coachella Valley Firebirds | ✘ | — | — | In play | — |
+| 10-15 04:33 | AHL Game | Coachella Valley Firebirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:30 | eSoccer Game | Valencia CF (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -314,14 +322,6 @@
 | 10-15 04:27 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:27 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 04:26 | Major League Soccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:23 | Major League Soccer Game | Tie | ✔ | 87' · ATX 1 - LAFC 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:17 | Major League Soccer Game | Portland | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:17 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:15 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:15 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:15 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 04:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
