@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 15, 2:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 15, 2:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19698 | 19691 | 78 (0%) | 1.07% | -$1,299.15 (-54%) | Hold to the close: -$1,299.15 (-54%) |
+| 19701 | 19691 | 78 (0%) | 1.07% | -$1,299.15 (-54%) | Hold to the close: -$1,299.15 (-54%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/15 2:12:06 PM | XRP | UP | 2.9 min | -0.238% | — | In play | — |
+| 10/15 2:11:50 PM | USDJPY | UP | 3.1 min | — | — | In play | — |
+| 10/15 2:10:46 PM | NEAR | UP | 4.2 min | -0.869% | — | In play | — |
 | 10/15 1:59:51 PM | NEAR | UP | 9 sec | -0.114% | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 1:59:35 PM | ETH | UP | 25 sec | -0.044% | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 1:59:35 PM | SILVER | DOWN | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/15 1:43:17 PM | EURUSD | DOWN | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 1:43:17 PM | ZEC | DOWN | 1.7 min | +0.289% | 7¢ | ❌ Lost | -$0.15 |
 | 10/15 1:43:01 PM | GBPUSD | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/15 1:43:01 PM | COPPER | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/15 1:42:42 PM | USDJPY | UP | 2.3 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/15 1:42:10 PM | PALLADIUM | DOWN | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
