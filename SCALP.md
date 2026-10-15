@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Oct 15 22:57 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Oct 15 23:07 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,16 +10,18 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 18299 | 15887 | 2412 (28) | 1 | $-5604.25 | -4.9% |
-| **+10¢** | 13809 | 11021 | 2788 (40) | 3 | $-5041.73 | -5.8% |
-| **+15¢** | 11582 | 8583 | 2999 (59) | 3 | $-4555.32 | -6.3% |
-| **+20¢** | 10288 | 7152 | 3136 (78) | 3 | $-3954.78 | -6.1% |
-| **+10¢ (15¢ stop)** | 22520 | 22470 | 50 (29) | 0 | $-8718.21 | -6.2% |
+| **+5¢** | 18301 | 15888 | 2413 (28) | 0 | $-5609.13 | -4.9% |
+| **+10¢** | 13812 | 11021 | 2791 (40) | 0 | $-5058.67 | -5.8% |
+| **+15¢** | 11585 | 8583 | 3002 (59) | 0 | $-4572.06 | -6.3% |
+| **+20¢** | 10291 | 7152 | 3139 (78) | 0 | $-3971.52 | -6.1% |
+| **+10¢ (15¢ stop)** | 22521 | 22471 | 50 (29) | 0 | $-8715.18 | -6.2% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 10-15 22:58 | +10 stop | BTC | DOWN | 0.67 | 0.99 | 3.03 |
+| 10-15 22:58 | +5 | BTC | DOWN | 0.67 | 0.75 | 0.50 |
 | 10-15 22:54 | +5 | SOL | DOWN | 0.63 | 0.71 | 0.48 |
 | 10-15 22:54 | +10 stop | SOL | DOWN | 0.67 | 0.87 | 1.76 |
 | 10-15 22:54 | +10 stop | XRP | DOWN | 0.71 | 0.88 | 1.47 |
@@ -58,5 +60,3 @@
 | 10-15 22:49 | +5 | NEAR | DOWN | 0.66 | 0.74 | 0.50 |
 | 10-15 22:49 | +5 | ETH | DOWN | 0.68 | 0.78 | 0.71 |
 | 10-15 22:48 | +10 stop | BNB | DOWN | 0.62 | 0.78 | 1.30 |
-| 10-15 22:48 | +10 | BNB | DOWN | 0.62 | 0.78 | 1.30 |
-| 10-15 22:48 | +5 | SOL | DOWN | 0.57 | 0.63 | 0.25 |
