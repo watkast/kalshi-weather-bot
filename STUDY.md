@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 8:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 8:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13670 | 1027 | 7 (1%) | 1.1% | -$56.05 (-36%) | Hold to the end: -$56.05 (-36%) |
+| 13678 | 1027 | 7 (1%) | 1.1% | -$56.05 (-36%) | Hold to the end: -$56.05 (-36%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1027 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12622 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12629 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4482 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4489 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 672 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 608 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -291,15 +291,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 02:21 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-15 02:19 | CONMEBOL Libertadores Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-15 02:19 | Major League Soccer Game | Tie | ✔ | 77' · PHI 3 - CHI 1 | — | In play | — |
+| 10-15 02:18 | CONMEBOL Libertadores Game | Reg Time: Fluminense | ✘ | — | — | In play | — |
+| 10-15 02:17 | NBA Game | Minnesota | ✔ | 7:45 - 4th · DET 110 - MIN 90 | — | In play | — |
+| 10-15 02:16 | eSoccer Game | Manchester City (Poly) | ✘ | — | — | In play | — |
+| 10-15 02:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 02:14 | NHL Game | Montreal | ✔ | 2:55 - 3rd · MTL 3 - WSH 5 | — | In play | — |
 | 10-15 02:10 | NBA Game | Phoenix | ✔ | 7:58 - 4th · PHX 85 - SA 104 | — | In play | — |
-| 10-15 02:10 | eSoccer Game | Dortmund (Nate) | ✘ | — | — | In play | — |
-| 10-15 02:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 02:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 02:09 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-15 02:10 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:09 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:08 | Major League Soccer Game | Chicago Fire | ✔ | 66' · PHI 2 - CHI 1 | — | In play | — |
-| 10-15 02:08 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | — | In play | — |
-| 10-15 02:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 02:07 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-15 02:08 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 02:07 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 02:02 | Counter-Strike 2 Game | Mindfreak | ✘ | — | — | In play | — |
 | 10-15 02:00 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,14 +321,6 @@
 | 10-15 01:53 | NBA Game | Brooklyn | ✔ | 4:08 - 4th · BKN 119 - MIA 134 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:46 | NBA Game | Milwaukee | ✔ | 7:49 - 3rd · CHI 76 - MIL 47 | — | In play | — |
 | 10-15 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:44 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:42 | Russia Liga Pro Match | Mameka Maksim Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:41 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:41 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:40 | NBA Game | Charlotte | ✔ | 5:24 - 4th · CHA 88 - BOS 105 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:40 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:39 | Major League Soccer Game | Orlando | ✔ | 90'+8' · ORL 3 - TOR 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:39 | Major League Soccer Game | Toronto | ✔ | 90'+8' · ORL 3 - TOR 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
