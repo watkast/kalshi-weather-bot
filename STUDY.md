@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 14, 7:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 14, 7:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13611 | 1013 | 7 (1%) | 1.1% | -$53.95 (-36%) | Hold to the end: -$53.95 (-36%) |
+| 13624 | 1013 | 7 (1%) | 1.1% | -$53.95 (-36%) | Hold to the end: -$53.95 (-36%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1013 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12579 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12587 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4447 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eSoccer Game | ✘ | 4455 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 671 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 607 | 1 | 4% | 3% | -85% | -92% | 11 min |
@@ -291,36 +291,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 01:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:19 | eSoccer Game | Manchester City (NINJA) | ✘ | — | — | In play | — |
+| 10-15 01:16 | Counter-Strike 2 Game | Galorys | ✘ | — | — | In play | — |
+| 10-15 01:15 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-15 01:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:14 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-15 01:13 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:13 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-15 01:13 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 10-15 01:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:11 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | — | In play | — |
+| 10-15 01:10 | Major League Soccer Game | Tie | ✔ | 30' · SKC 0 - NSH 3 | — | In play | — |
 | 10-15 01:07 | Major League Soccer Game | Tie | ✔ | 68' · ATL 3 - MTL 0 | — | In play | — |
-| 10-15 01:05 | eSoccer Game | Chelsea (NINJA) | ✘ | — | — | In play | — |
-| 10-15 01:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 01:05 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:05 | Major League Soccer Game | Charlotte | ✔ | 65' · CLT 1 - CLB 2 | — | In play | — |
 | 10-15 01:02 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 01:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 01:01 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 10-15 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:01 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:01 | USL Championship Game | Charleston | ✔ | 90'+6' · CHS 1 - HFD 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 01:01 | USL Championship Game | Hartford Athletic | ✔ | 90'+6' · CHS 1 - HFD 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 01:00 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
-| 10-15 01:00 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-15 01:00 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 01:00 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:59 | Major League Soccer Game | New York City | ✔ | 57' · NYC 0 - MIA 2 | — | In play | — |
 | 10-15 00:58 | Major League Soccer Game | Montreal | ✔ | 59' · ATL 2 - MTL 0 | — | In play | — |
 | 10-15 00:58 | Major League Soccer Game | Kansas City | ✔ | 18' · SKC 0 - NSH 2 | — | In play | — |
 | 10-15 00:58 | AHL Game | Hartford Wolf Pack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:48 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:47 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:40 | Russia Liga Pro Match | Rakhmanovskii Viktor Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:37 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:36 | Valorant game winner | Akave Esports Black | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:36 | Women's College Volleyball Match | Mississippi State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:35 | eBasketball Game | Denver Nuggets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:34 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:34 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:34 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 00:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
