@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-10-15T14:03:13+00:00",
+ "saved_at": "2026-10-15T14:13:19+00:00",
  "windows_watched": 9,
- "trades": 73952,
+ "trades": 73959,
  "errors": [
   "2026-10-15T13:59:36+00:00 ('Connection broken: IncompleteRead(0 bytes read, 2026 more expected)', IncompleteRead(0 bytes read, 2026 more expected))"
  ]
