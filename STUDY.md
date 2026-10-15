@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 2:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 2:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14719 | 1080 | 7 (1%) | 1.1% | -$64.00 (-40%) | Hold to the end: -$64.00 (-40%) |
+| 14733 | 1080 | 7 (1%) | 1.1% | -$64.00 (-40%) | Hold to the end: -$64.00 (-40%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1080 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13604 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13619 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5086 | 2 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 5096 | 2 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 713 | 0 | 12% | 5% | -100% | -80% | 4 min |
+| ITF Women's Match | ✘ | 714 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 647 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 646 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | eBasketball Game | ✘ | 506 | 1 | 0% | 0% | -82% | -81% | 2 min |
@@ -122,8 +122,8 @@
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | KHL Game | ✘ | 61 | 0 | 3% | 2% | -100% | -94% | 5 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
+| R6 Game | ✘ | 59 | 0 | 7% | 3% | -100% | -88% | 9 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
-| R6 Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 9 min |
 | Argentina Primera Division Game | ✘ | 55 | 0 | 16% | 5% | -100% | -72% | 6 min |
 | Overwatch Game | ✘ | 53 | 0 | 4% | 0% | -100% | -93% | 5 min |
 | Ettan Game | ✘ | 53 | 0 | 8% | 2% | -100% | -87% | 5 min |
@@ -136,9 +136,9 @@
 | Brasileiro Serie A Game | partly | 45 | 1 | 22% | 13% | +107% | -61% | 7 min |
 | WTA Tennis Match | ✘ | 44 | 0 | 11% | 0% | -100% | -80% | 3 min |
 | LaLiga 2 Game | partly | 44 | 0 | 16% | 7% | -100% | -72% | 8 min |
-| EuroCup Basketball Game | ✘ | 43 | 0 | 5% | 2% | -100% | -92% | 10 min |
+| EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
+| Euroleague Game | ✘ | 42 | 0 | 26% | 7% | -100% | -55% | 15 min |
 | Liga Leumit Game | ✘ | 40 | 0 | 2% | 2% | -100% | -96% | 14 min |
-| Euroleague Game | ✘ | 40 | 0 | 22% | 2% | -100% | -61% | 15 min |
 | Japan J2 League Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 8 min |
 | German 3. Liga Game | ✘ | 40 | 0 | 15% | 8% | -100% | -74% | 7 min |
 | Liiga Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -294,36 +294,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 20:33 | EuroCup Basketball Game | London Lions | ✘ | — | — | In play | — |
-| 10-15 20:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 20:33 | R6 Game | DarkZero Esports | ✘ | — | — | In play | — |
-| 10-15 20:33 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | — | In play | — |
+| 10-15 20:43 | UEFA Europa League Game | Tie | ✔ | 82' · ARA 1 - JAG 3 | — | In play | — |
+| 10-15 20:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 20:43 | UEFA Conference League Game | Tie | ✘ | — | — | In play | — |
+| 10-15 20:43 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
+| 10-15 20:41 | Euroleague Game | ASVEL Lyon-Villeurbanne | ✘ | — | — | In play | — |
+| 10-15 20:41 | UEFA Europa League Game | Tie | ✔ | 85' · PLZ 0 - FER 2 | — | In play | — |
+| 10-15 20:39 | UEFA Conference League Game | Lincoln Red Imps | ✔ | 81' · LRI 1 - SKBR 1 | — | In play | — |
+| 10-15 20:36 | UEFA Conference League Game | Braga | ✘ | — | — | In play | — |
+| 10-15 20:36 | ITF Men's Match | Pedro Albuquerque Dietrich | ✘ | — | — | In play | — |
+| 10-15 20:36 | UEFA Europa League Game | Plzen | ✔ | 80' · PLZ 0 - FER 1 | — | In play | — |
+| 10-15 20:36 | UEFA Europa League Game | Hoffenheim | ✔ | 78' · BES 2 - TSG 1 | — | In play | — |
+| 10-15 20:35 | Challenger ATP  | Carlos Maria Zarate | ✘ | — | — | In play | — |
+| 10-15 20:35 | UEFA Europa League Game | Tie | ✔ | 77' · STG 0 - BOU 1 | — | In play | — |
+| 10-15 20:34 | Men's Iceland Basketball Premier League Game | IR Reykjavik | ✘ | — | — | In play | — |
+| 10-15 20:33 | EuroCup Basketball Game | London Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:33 | R6 Game | DarkZero Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:33 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:31 | UEFA Conference League Game | Tie | ✔ | 73' · JABL 1 - SCF 3 | — | In play | — |
-| 10-15 20:31 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | — | In play | — |
-| 10-15 20:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 20:30 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 10-15 20:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 20:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 20:29 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
+| 10-15 20:31 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:30 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:29 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:28 | ITF Women's Match | Berta Passola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:28 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 10-15 20:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 20:28 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 20:24 | UEFA Conference League Game | Thun | ✔ | 65' · THUN 0 - TWE 0 | — | In play | — |
-| 10-15 20:23 | Euroleague Game | Valencia Basket | ✘ | — | — | In play | — |
-| 10-15 20:21 | Russia Liga Pro Match | Dedov Vasilii Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:21 | UEFA Europa League Game | Sturm Graz | ✔ | 63' · STG 0 - BOU 1 | — | In play | — |
-| 10-15 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:18 | eSoccer Game | Paris Saint-Germain (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:18 | UEFA Conference League Game | Jablonec | ✔ | 60' · JABL 1 - SCF 2 | — | In play | — |
-| 10-15 20:17 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:16 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:15 | TT Star Series Match | Abedinian Milad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:15 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:14 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 20:13 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 20:23 | Euroleague Game | Valencia Basket | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
