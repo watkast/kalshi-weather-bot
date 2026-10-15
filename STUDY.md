@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 4:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 4:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 13984 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 13992 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12919 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12922 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4697 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 4699 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 682 | 0 | 12% | 5% | -100% | -79% | 4 min |
+| ITF Women's Match | ✘ | 683 | 0 | 12% | 5% | -100% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 613 | 1 | 4% | 3% | -85% | -92% | 11 min |
 | ITF Men's Match | ✘ | 609 | 1 | 11% | 6% | -85% | -80% | 5 min |
 | eBasketball Game | ✘ | 474 | 1 | 0% | 0% | -80% | -80% | 2 min |
@@ -292,9 +292,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 10:16 | ITF Women's Match | Kamilla Bartone | ✘ | — | — | In play | — |
-| 10-15 10:15 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
-| 10-15 10:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 10:27 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-15 10:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 10:26 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 10-15 10:26 | eSoccer Game | Freiburg (Kevin) | ✘ | — | — | In play | — |
+| 10-15 10:25 | TT Star Series Match | Tregler Tomáš | ✘ | — | — | In play | — |
+| 10-15 10:23 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-15 10:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 10:23 | ITF Women's Match | Andrea Obradovic | ✘ | — | — | In play | — |
+| 10-15 10:16 | ITF Women's Match | Kamilla Bartone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:15 | eSoccer Game | Manchester City (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:13 | Dota 2 Game | Xipto Esports | ✘ | — | — | In play | — |
 | 10-15 10:09 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -314,14 +322,6 @@
 | 10-15 09:44 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 09:44 | TT Star Series Match | Martinko Tomáš | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:42 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:38 | Counter-Strike 2 Game | Esport Academy Copenhagen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:35 | WTA Tennis Match | Leylah Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:33 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 09:32 | eSoccer Game | Tie | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-15 09:32 | eSoccer Game | Benfica (Kevin) | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
