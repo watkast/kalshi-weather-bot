@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 4:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 5:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14894 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14900 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13760 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13772 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5185 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5195 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 716 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 651 | 1 | 12% | 6% | -86% | -79% | 5 min |
@@ -115,7 +115,7 @@
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
-| Russia Liga Pro Match | ✘ | 96 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 98 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
@@ -295,19 +295,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 22:58 | eSoccer Game | RC Celta (Poly) | ✘ | — | — | In play | — |
-| 10-15 22:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 23:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 23:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 23:08 | ITF Women's Match | Sydney Jara | ✘ | — | — | In play | — |
+| 10-15 23:08 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | — | In play | — |
+| 10-15 23:08 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-15 23:05 | Darts Match | Ashley Coleman | ✘ | — | — | In play | — |
+| 10-15 22:58 | eSoccer Game | RC Celta (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:57 | Dota 2 Game | Korb3n Team | ✘ | — | — | In play | — |
-| 10-15 22:57 | Russia Liga Pro Match | Lanin Sergey Ivanovich | ✘ | — | — | In play | — |
-| 10-15 22:56 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
-| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 22:55 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 10-15 22:55 | eSoccer Game | Palmeiras (Nate) | ✘ | — | — | In play | — |
-| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 22:53 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 10-15 22:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 22:52 | Russia Liga Pro Match | Glazun Evgeniy Gennadevich | ✘ | — | — | In play | — |
+| 10-15 22:57 | Russia Liga Pro Match | Lanin Sergey Ivanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:56 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:55 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:55 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:53 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 22:52 | Russia Liga Pro Match | Glazun Evgeniy Gennadevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:52 | ITF Men's Match | Ian Vertberger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:45 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -319,12 +325,6 @@
 | 10-15 22:41 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 22:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 22:40 | R6 Game | Cloud9 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 22:39 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 22:39 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 22:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 22:37 | Counter-Strike 2 Game | Honvéd | ✘ | — | — | In play | — |
-| 10-15 22:33 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
