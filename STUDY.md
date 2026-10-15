@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 4:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 5:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14028 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14039 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
 *In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 12957 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 12968 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,22 +96,22 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 4717 | 0 | 0% | 0% | -100% | -99% | 2 min |
+| eSoccer Game | ✘ | 4723 | 0 | 0% | 0% | -100% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 689 | 0 | 12% | 5% | -100% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 614 | 1 | 4% | 3% | -85% | -92% | 11 min |
-| ITF Men's Match | ✘ | 611 | 1 | 11% | 6% | -85% | -80% | 5 min |
+| Counter-Strike 2 Game | ✘ | 615 | 1 | 4% | 3% | -85% | -92% | 11 min |
+| ITF Men's Match | ✘ | 612 | 1 | 11% | 6% | -85% | -80% | 5 min |
 | eBasketball Game | ✘ | 476 | 1 | 0% | 0% | -80% | -80% | 2 min |
 | Challenger ATP  | ✘ | 446 | 2 | 10% | 3% | -58% | -83% | 5 min |
-| TT Star Series Match | ✘ | 285 | 1 | 2% | 2% | -67% | -97% | 4 min |
+| TT Star Series Match | ✘ | 286 | 1 | 2% | 2% | -67% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
 | Darts Match | ✘ | 174 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
 | Men's T20 Cricket Match | ✘ | 153 | 1 | 14% | 5% | -39% | -75% | 22 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Challenger WTA | ✘ | 135 | 0 | 13% | 5% | -100% | -77% | 8 min |
+| Challenger WTA | ✘ | 136 | 0 | 13% | 5% | -100% | -77% | 8 min |
 | League of Legends Game | ✘ | 127 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Dota 2 Game | ✘ | 116 | 0 | 2% | 2% | -100% | -97% | 29 min |
+| Dota 2 Game | ✘ | 117 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
@@ -292,15 +292,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-15 10:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 10:56 | eSoccer Game | Everton (Homie) | ✘ | — | — | In play | — |
-| 10-15 10:53 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
-| 10-15 10:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 10:52 | TT Star Series Match | Alexandrov Teodor | ✘ | — | — | In play | — |
-| 10-15 10:52 | Counter-Strike 2 Game | B8 Academy | ✘ | — | — | In play | — |
-| 10-15 10:52 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
-| 10-15 10:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-15 10:51 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
+| 10-15 11:08 | eSoccer Game | Freiburg (Kevin) | ✘ | — | — | In play | — |
+| 10-15 11:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 11:06 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 10-15 11:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 11:05 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-15 11:04 | Challenger ATP  | Milos Karol | ✘ | — | — | In play | — |
+| 10-15 11:03 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-15 11:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 10:59 | Challenger WTA | Nuria Brancaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:59 | Counter-Strike 2 Game | Mindfreak | ✘ | — | — | In play | — |
+| 10-15 10:59 | ITF Men's Match | Tanguy Genier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:56 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:53 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:52 | TT Star Series Match | Alexandrov Teodor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:52 | Counter-Strike 2 Game | B8 Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:52 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 10:51 | Dota 2 Game | Yakult's Brothers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:50 | ITF Women's Match | Gabriella Price | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:48 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -311,17 +322,6 @@
 | 10-15 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 10:41 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:41 | Counter-Strike 2 Game | NIP | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:41 | ITF Women's Match | Defne Cirpanli | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-15 10:40 | ITF Women's Match | Emilia Carlotta Brune | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:37 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:37 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:32 | ITF Men's Match | Tymon Litwic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:32 | ITF Women's Match | Annika Barth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:30 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:28 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 10:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
