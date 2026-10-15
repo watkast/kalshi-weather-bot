@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 10:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 11:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14402 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
+| 14413 | 1052 | 7 (1%) | 1.1% | -$59.80 (-38%) | Hold to the end: -$59.80 (-38%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1052 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13334 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13340 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,10 +100,10 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 703 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | ITF Men's Match | ✘ | 634 | 1 | 11% | 6% | -85% | -81% | 5 min |
-| Counter-Strike 2 Game | ✘ | 631 | 1 | 5% | 3% | -85% | -92% | 11 min |
-| eBasketball Game | ✘ | 495 | 1 | 0% | 0% | -81% | -81% | 2 min |
+| Counter-Strike 2 Game | ✘ | 632 | 1 | 5% | 3% | -85% | -92% | 11 min |
+| eBasketball Game | ✘ | 497 | 1 | 0% | 0% | -81% | -81% | 2 min |
 | Challenger ATP  | ✘ | 457 | 2 | 10% | 3% | -59% | -83% | 5 min |
-| TT Star Series Match | ✘ | 293 | 1 | 2% | 2% | -68% | -97% | 4 min |
+| TT Star Series Match | ✘ | 294 | 1 | 2% | 2% | -68% | -97% | 4 min |
 | College Football Game | partly | 192 | 2 | 13% | 6% | -3% | -77% | 29 min |
 | Darts Match | ✘ | 184 | 0 | 1% | 1% | -100% | -99% | 9 min |
 | Women's College Volleyball Match | ✘ | 160 | 2 | 7% | 2% | +17% | -88% | 103 min |
@@ -111,7 +111,7 @@
 | Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Dota 2 Game | ✘ | 125 | 0 | 2% | 2% | -100% | -97% | 29 min |
+| Dota 2 Game | ✘ | 127 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
@@ -292,15 +292,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-15 17:07 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
+| 10-15 17:06 | Challenger ATP  | Svyatoslav Gulin | ✘ | — | — | In play | — |
+| 10-15 17:06 | eSoccer Game | Real Madrid (Nairo) | ✘ | — | — | In play | — |
+| 10-15 17:06 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | — | In play | — |
+| 10-15 17:04 | Darts Match | David Davies | ✘ | — | — | In play | — |
+| 10-15 17:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-15 17:03 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-15 17:03 | eSoccer Game | Nottingham Forest (Pedri) | ✘ | — | — | In play | — |
+| 10-15 17:02 | eSoccer Game | Everton (Aron) | ✘ | — | — | In play | — |
+| 10-15 17:02 | eSoccer Game | Chelsea (Declan) | ✘ | — | — | In play | — |
+| 10-15 17:02 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:57 | Challenger ATP  | Etienne Donnet | ✘ | — | — | In play | — |
-| 10-15 16:53 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | — | In play | — |
+| 10-15 16:53 | TT Star Series Match | Kargarmazraeh Salar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:48 | eSoccer Game | Manchester Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:48 | eSoccer Game | Sunderland (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:48 | eSoccer Game | Manchester City (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:46 | Russia Liga Pro Match | Puchinin Andrei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:45 | Darts Match | Sander van Ockenburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:44 | Counter-Strike 2 Game | BOJONG | ✘ | — | — | In play | — |
+| 10-15 16:44 | Counter-Strike 2 Game | BOJONG | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-15 16:44 | Russia Liga Pro Match | Yakovlev Andrey Valentinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:42 | Men's T20 Cricket Match | Michigan Cricket Stars | ✘ | — | — | In play | — |
 | 10-15 16:37 | Saudi Pro League Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -311,17 +322,6 @@
 | 10-15 16:35 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 16:34 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:34 | eBasketball Game | Dallas Mavericks (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:33 | eSoccer Game | Newcastle Utd (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:33 | Dota 2 Game | White Sails | ✘ | — | — | In play | — |
-| 10-15 16:32 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:31 | Russia Liga Pro Match | Vorontsov Pavel Alekseevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:31 | Saudi Pro League Game | Al-Fayha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:28 | ITF Women's Match | Maria Fernanda Lopes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:26 | Counter-Strike 2 Game | Butterfly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 16:23 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
