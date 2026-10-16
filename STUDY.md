@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 1:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 1:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16091 | 1131 | 7 (1%) | 1.1% | -$71.65 (-42%) | Hold to the end: -$71.65 (-42%) |
+| 16125 | 1131 | 7 (1%) | 1.1% | -$71.65 (-42%) | Hold to the end: -$71.65 (-42%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1131 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14932 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14940 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -100,16 +100,16 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 730 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 687 | 1 | 5% | 2% | -86% | -92% | 11 min |
-| ITF Men's Match | ✘ | 669 | 1 | 12% | 6% | -86% | -80% | 5 min |
-| eBasketball Game | ✘ | 583 | 1 | 0% | 0% | -84% | -83% | 2 min |
+| ITF Men's Match | ✘ | 670 | 1 | 12% | 6% | -86% | -80% | 5 min |
+| eBasketball Game | ✘ | 585 | 1 | 0% | 0% | -84% | -83% | 2 min |
 | Challenger ATP  | ✘ | 479 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 318 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Russia Liga Pro Match | ✘ | 223 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 224 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 209 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Men's T20 Cricket Match | ✘ | 168 | 1 | 13% | 4% | -44% | -77% | 24 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
-| Challenger WTA | ✘ | 149 | 0 | 12% | 5% | -100% | -79% | 8 min |
+| Challenger WTA | ✘ | 150 | 0 | 12% | 5% | -100% | -79% | 8 min |
 | Dota 2 Game | ✘ | 147 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -149,9 +149,9 @@
 | Slovakian 2. Liga Game | ✘ | 38 | 0 | 5% | 5% | -100% | -91% | 107 min |
 | UEFA Champions League Game | partly | 37 | 1 | 14% | 5% | +152% | -77% | 12 min |
 | National League Game | ✘ | 36 | 1 | 3% | 3% | +159% | -95% | 5 min |
+| Eerste Divisie Game | ✘ | 36 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | UEFA Conference League Game | partly | 36 | 0 | 19% | 8% | -100% | -66% | 10 min |
 | SHL Game | ✘ | 35 | 0 | 3% | 3% | -100% | -95% | 5 min |
-| Eerste Divisie Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | UEFA Europa League Game | partly | 35 | 0 | 20% | 9% | -100% | -65% | 11 min |
 | Liga Expansion Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 11 min |
 | TFF 1. Lig Game | ✘ | 33 | 0 | 15% | 6% | -100% | -74% | 10 min |
@@ -159,7 +159,7 @@
 | Japan NPB Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
 | Valorant game winner | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 15 min |
-| DEL Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| DEL Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Mobile Legends Bang Bang Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Chinese Basketball Association Game  | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -180,6 +180,7 @@
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
 | Peru Liga 1 Game | ✘ | 20 | 0 | 25% | 20% | -100% | -57% | 7 min |
 | Adriatic ABA Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| LNB Elite 2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | College Hockey Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan J League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 12 min |
@@ -187,7 +188,6 @@
 | Australia NBL Game | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
-| LNB Elite 2 Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Serie A Game | ✔ | 19 | 0 | 11% | 11% | -100% | -82% | 11 min |
 | Men's ODI Cricket Match | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 24 min |
 | Czech NBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -304,36 +304,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 19:42 | Eredivisie Game | Tie | ✔ | 82' · EXC 0 - HEE 2 | — | In play | — |
-| 10-16 19:42 | Dota 2 Game | LFO | ✘ | — | — | In play | — |
-| 10-16 19:41 | DEL Game | Lowen Frankfurt | ✘ | — | — | In play | — |
-| 10-16 19:41 | Counter-Strike 2 Game | GamerLegion | ✘ | — | — | In play | — |
-| 10-16 19:41 | Challenger WTA | Lucrezia Stefanini | ✘ | — | — | In play | — |
-| 10-16 19:41 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-16 19:41 | LNB Elite 2 Game | Champagne Basketball | ✘ | — | — | In play | — |
-| 10-16 19:38 | eSoccer Game | Paris Saint-Germain (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:36 | ITF Men's Match | Andrew Fenty | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:35 | TT Star Series Match | Laroche Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:33 | eSoccer Game | Manchester City (Fernando) | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 10-16 19:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:33 | ITF Men's Match | Felix Corwin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:32 | eSoccer Game | Sunderland (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:32 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:30 | Russia Liga Pro Match | SHipitsyn Gennadii IUrevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:29 | Challenger ATP  | Sascha Gueymard Wayenburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:28 | LNB Elite 2 Game | Aix Maurienne Savoie Basket | ✘ | — | — | In play | — |
-| 10-16 19:28 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-16 19:27 | Eerste Divisie Game | Oss | ✘ | — | — | In play | — |
-| 10-16 19:25 | Counter-Strike 2 Game | ex-6666 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:24 | eBasketball Game | Brooklyn Nets (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:23 | ITF Men's Match | Pepijn Bastiaansen | ✘ | — | — | In play | — |
-| 10-16 19:22 | eBasketball Game | Los Angeles Lakers (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:22 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 19:21 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 19:54 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:54 | DEL Game | Kolner Haie | ✘ | — | — | In play | — |
+| 10-16 19:54 | Hungarian NB I Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:53 | Ligue 2 Game | Clermont Foot | ✘ | — | — | In play | — |
+| 10-16 19:53 | Romanian Liga I Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:53 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | — | In play | — |
+| 10-16 19:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:53 | LNB Elite 2 Game | Basket Le Havre | ✘ | — | — | In play | — |
+| 10-16 19:53 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:53 | DEL Game | Eisbären Berlin | ✘ | — | — | In play | — |
+| 10-16 19:52 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:51 | Eerste Divisie Game | Jong AZ Alkmaar | ✘ | — | — | In play | — |
+| 10-16 19:51 | Hungarian NB I Game | Vasas | ✘ | — | — | In play | — |
+| 10-16 19:50 | Peru Liga 1 Game | Cusco | ✘ | — | — | In play | — |
+| 10-16 19:50 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 19:50 | LNB Elite 2 Game | Hyeres Toulon | ✘ | — | — | In play | — |
+| 10-16 19:49 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 19:48 | Ligue 2 Game | Grenoble | ✘ | — | — | In play | — |
+| 10-16 19:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:48 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-16 19:48 | Romanian Liga I Game | Botosani | ✘ | — | — | In play | — |
+| 10-16 19:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:47 | eSoccer Game | Manchester City (Fernando) | ✘ | — | — | In play | — |
+| 10-16 19:47 | Ligue 2 Game | Guingamp | ✘ | — | — | In play | — |
+| 10-16 19:47 | Ligue 2 Game | Annecy | ✘ | — | — | In play | — |
+| 10-16 19:47 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
+| 10-16 19:46 | Russia Liga Pro Match | Atiunin Mikhail Mikhailovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 19:46 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-16 19:46 | ITF Women's Match | Varvara Lepchenko | ✘ | — | — | In play | — |
 
 ## Raw data
 
