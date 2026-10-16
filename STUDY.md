@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 6:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 7:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15617 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15623 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14466 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14473 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5654 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5660 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 726 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 666 | 1 | 5% | 2% | -86% | -92% | 11 min |
@@ -132,7 +132,7 @@
 | KBO Game | ✘ | 50 | 0 | 8% | 6% | -100% | -86% | 4 min |
 | Liga DIMAYOR Game | ✘ | 49 | 1 | 12% | 4% | +90% | -79% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
-| WTA Tennis Match | ✘ | 45 | 0 | 11% | 0% | -100% | -81% | 3 min |
+| WTA Tennis Match | ✘ | 46 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | USL Championship Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 4 min |
 | Brasileiro Serie A Game | partly | 45 | 1 | 22% | 13% | +107% | -61% | 7 min |
 | LaLiga 2 Game | partly | 44 | 0 | 16% | 7% | -100% | -72% | 8 min |
@@ -297,17 +297,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-16 13:00 | Darts Match | Sander van Ockenburg | ✘ | — | — | In play | — |
+| 10-16 12:58 | Counter-Strike 2 Game | fnatic | ✘ | — | — | In play | — |
+| 10-16 12:57 | Counter-Strike 2 Game | QUAZAR | ✘ | — | — | In play | — |
+| 10-16 12:57 | Chinese Basketball Association Game  | Shenzhen Leopards | ✘ | — | — | In play | — |
+| 10-16 12:52 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 12:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:52 | Dota 2 Game | Mena Warriors | ✘ | — | — | In play | — |
-| 10-16 12:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 12:48 | eSoccer Game | Spurs (Homie) | ✘ | — | — | In play | — |
-| 10-16 12:46 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | — | In play | — |
-| 10-16 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 12:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 12:48 | eSoccer Game | Spurs (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 12:46 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 12:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:46 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:45 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:44 | eSoccer Game | Hoffenheim (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:42 | Challenger ATP  | Lorenzo Giustino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:40 | WTA Tennis Match | Ann Li | ✘ | — | — | In play | — |
+| 10-16 12:40 | WTA Tennis Match | Ann Li | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-16 12:40 | Darts Match | Josh McCarthy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:35 | Russia Liga Pro Match | Surikov Viacheslav Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:34 | ITF Men's Match | Leonardo Rossi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -321,12 +327,6 @@
 | 10-16 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 12:28 | eSoccer Game | Argentina (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:27 | Challenger ATP  | Stefano Travaglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:27 | Mobile Legends Bang Bang Game | See You Soon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:26 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 12:25 | Challenger ATP  | Zdenek Kolar | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-16 12:24 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
