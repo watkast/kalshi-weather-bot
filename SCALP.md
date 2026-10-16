@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 16 22:06 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 16 22:16 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,16 +10,37 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 19923 | 17328 | 2595 (29) | 0 | $-5900.74 | -4.7% |
-| **+10¢** | 15009 | 12009 | 3000 (41) | 0 | $-5302.26 | -5.6% |
-| **+15¢** | 12556 | 9330 | 3226 (60) | 0 | $-4786.71 | -6.1% |
-| **+20¢** | 11138 | 7760 | 3378 (79) | 0 | $-4216.50 | -6.0% |
-| **+10¢ (15¢ stop)** | 24482 | 24432 | 50 (29) | 0 | $-9310.44 | -6.1% |
+| **+5¢** | 19925 | 17329 | 2596 (29) | 2 | $-5906.35 | -4.7% |
+| **+10¢** | 15011 | 12010 | 3001 (41) | 2 | $-5307.87 | -5.6% |
+| **+15¢** | 12557 | 9330 | 3227 (60) | 3 | $-4792.98 | -6.1% |
+| **+20¢** | 11139 | 7760 | 3379 (79) | 3 | $-4222.77 | -6.0% |
+| **+10¢ (15¢ stop)** | 24485 | 24435 | 50 (29) | 2 | $-9311.13 | -6.1% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 10-16 22:16 | +10 stop | BNB | UP | 0.61 | open |  |
+| 10-16 22:16 | +20 | BNB | UP | 0.61 | open |  |
+| 10-16 22:16 | +15 | BNB | UP | 0.61 | open |  |
+| 10-16 22:16 | +10 | BNB | UP | 0.61 | open |  |
+| 10-16 22:16 | +5 | BNB | UP | 0.61 | open |  |
+| 10-16 22:16 | +10 stop | BTC | UP | 0.60 | open |  |
+| 10-16 22:16 | +20 | BTC | UP | 0.60 | open |  |
+| 10-16 22:16 | +15 | BTC | UP | 0.60 | open |  |
+| 10-16 22:16 | +10 | BTC | UP | 0.60 | open |  |
+| 10-16 22:16 | +5 | BTC | UP | 0.60 | open |  |
+| 10-16 22:15 | +10 stop | NEAR | UP | 0.56 | 0.66 | 0.66 |
+| 10-16 22:15 | +20 | NEAR | UP | 0.56 | open |  |
+| 10-16 22:15 | +15 | NEAR | UP | 0.56 | open |  |
+| 10-16 22:15 | +10 | NEAR | UP | 0.56 | 0.66 | 0.66 |
+| 10-16 22:15 | +5 | NEAR | UP | 0.56 | 0.66 | 0.66 |
+| 10-16 22:09 | +10 stop | HYPE | DOWN | 0.67 | 0.81 | 1.09 |
+| 10-16 22:08 | +10 stop | HYPE | UP | 0.61 | 0.40 | -2.44 |
+| 10-16 22:08 | +20 | HYPE | UP | 0.61 | no | -6.27 |
+| 10-16 22:08 | +15 | HYPE | UP | 0.61 | no | -6.27 |
+| 10-16 22:08 | +10 | HYPE | UP | 0.61 | no | -6.27 |
+| 10-16 22:08 | +5 | HYPE | UP | 0.61 | no | -6.27 |
 | 10-16 22:01 | +10 stop | NEAR | UP | 0.52 | 0.71 | 1.57 |
 | 10-16 22:01 | +20 | NEAR | UP | 0.52 | 0.72 | 1.67 |
 | 10-16 22:01 | +15 | NEAR | UP | 0.52 | 0.71 | 1.57 |
@@ -39,24 +60,3 @@
 | 10-16 22:01 | +20 | BTC | UP | 0.56 | 0.77 | 1.79 |
 | 10-16 22:01 | +15 | BTC | UP | 0.56 | 0.74 | 1.48 |
 | 10-16 22:01 | +10 | BTC | UP | 0.56 | 0.70 | 1.07 |
-| 10-16 22:01 | +5 | BTC | UP | 0.57 | 0.70 | 0.97 |
-| 10-16 22:01 | +10 stop | HYPE | UP | 0.70 | 0.80 | 0.73 |
-| 10-16 22:01 | +20 | HYPE | UP | 0.70 | 0.90 | 1.81 |
-| 10-16 22:01 | +15 | HYPE | UP | 0.70 | 0.86 | 1.36 |
-| 10-16 22:01 | +10 | HYPE | UP | 0.70 | 0.80 | 0.73 |
-| 10-16 22:01 | +5 | HYPE | UP | 0.70 | 0.79 | 0.63 |
-| 10-16 21:58 | +10 stop | ETH | DOWN | 0.59 | 0.97 | 3.65 |
-| 10-16 21:58 | +20 | ETH | DOWN | 0.59 | 0.97 | 3.65 |
-| 10-16 21:58 | +15 | ETH | DOWN | 0.59 | 0.97 | 3.65 |
-| 10-16 21:58 | +10 | ETH | DOWN | 0.60 | 0.97 | 3.55 |
-| 10-16 21:58 | +5 | ETH | DOWN | 0.59 | 0.97 | 3.65 |
-| 10-16 21:57 | +10 | BTC | DOWN | 0.65 | 0.96 | 2.93 |
-| 10-16 21:57 | +5 | BTC | DOWN | 0.65 | 0.71 | 0.29 |
-| 10-16 21:57 | +10 stop | BTC | DOWN | 0.62 | 0.38 | -2.74 |
-| 10-16 21:53 | +10 stop | SOL | DOWN | 0.62 | 0.72 | 0.68 |
-| 10-16 21:53 | +5 | SOL | DOWN | 0.62 | 0.72 | 0.68 |
-| 10-16 21:52 | +10 stop | XRP | DOWN | 0.54 | 0.65 | 0.76 |
-| 10-16 21:52 | +5 | XRP | DOWN | 0.51 | 0.65 | 1.06 |
-| 10-16 21:52 | +5 | SOL | DOWN | 0.58 | 0.63 | 0.15 |
-| 10-16 21:52 | +10 stop | NEAR | DOWN | 0.69 | 0.96 | 2.56 |
-| 10-16 21:52 | +5 | NEAR | DOWN | 0.69 | 0.74 | 0.22 |
