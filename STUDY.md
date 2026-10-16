@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 1:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 1:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15328 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15338 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14183 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14189 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5497 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5501 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 655 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 652 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | eBasketball Game | ✘ | 545 | 1 | 0% | 0% | -83% | -82% | 2 min |
 | Challenger ATP  | ✘ | 465 | 2 | 10% | 3% | -60% | -83% | 5 min |
-| TT Star Series Match | ✘ | 307 | 1 | 2% | 2% | -70% | -97% | 5 min |
+| TT Star Series Match | ✘ | 308 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 160 | 1 | 14% | 4% | -42% | -76% | 24 min |
 | Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Russia Liga Pro Match | ✘ | 136 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 137 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Dota 2 Game | ✘ | 134 | 0 | 1% | 1% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
@@ -295,13 +295,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 07:29 | eSoccer Game | OGC Nice (Homie) | ✘ | — | — | In play | — |
-| 10-16 07:29 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | — | In play | — |
+| 10-16 07:40 | TT Star Series Match | Tymofieiev Oleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 07:40 | Russia Liga Pro Match | Konstantinov Sergei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 07:39 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-16 07:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 07:38 | eSoccer Game | Juventus (Frenkie) | ✘ | — | — | In play | — |
+| 10-16 07:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 07:38 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | — | In play | — |
+| 10-16 07:38 | eBasketball Game | New York Knicks (James) | ✘ | — | — | In play | — |
+| 10-16 07:37 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-16 07:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 07:29 | eSoccer Game | OGC Nice (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 07:29 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:29 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:27 | Russia Liga Pro Match | Gulnitskii Vladimir Konstantinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:27 | Dota 2 Game | Team Kinetix | ✘ | — | — | In play | — |
-| 10-16 07:26 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | — | In play | — |
-| 10-16 07:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 07:26 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:24 | eSoccer Game | Juventus (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:24 | eSoccer Game | Real Madrid (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:23 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -315,16 +325,6 @@
 | 10-16 07:12 | eSoccer Game | Real Sociedad (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:12 | eSoccer Game | Montpellier (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:11 | eBasketball Game | New York Knicks (James) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 07:11 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:09 | eSoccer Game | Real Betis (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:09 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:08 | Russia Liga Pro Match | Karpovkin Gennadiy Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 06:58 | eSoccer Game | Real Sociedad (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 06:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 06:58 | Russia Liga Pro Match | Meteleshko Igor Petrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
