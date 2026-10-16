@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 16, 1:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 16, 1:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1595 finished bets | 1% | $74.70 | +42% | +4.68¢ | $39.90 / $34.80 |
 
-*Expect about **88 buys a day** (~$13.26/day at risk); max loss per buy **15¢**.*
+*Expect about **88 buys a day** (~$13.25/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20424 | 20417 | 79 (0%) | 1.07% | -$1,378.00 (-55%) | Hold to the close: -$1,378.00 (-55%) |
+| 20425 | 20417 | 79 (0%) | 1.07% | -$1,378.00 (-55%) | Hold to the close: -$1,378.00 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/16 1:56:55 AM | NEAR | UP | 3.1 min | -0.544% | — | In play | — |
 | 10/16 1:44:35 AM | SOL | DOWN | 24 sec | +0.033% | 0¢ | ❌ Lost | $0.00 |
 | 10/16 1:44:35 AM | BTC | UP | 24 sec | -0.027% | 0¢ | ❌ Lost | $0.00 |
 | 10/16 1:44:19 AM | ZEC | UP | 40 sec | -0.182% | 0¢ | ❌ Lost | -$0.15 |
@@ -212,7 +213,6 @@
 | 10/16 1:29:05 AM | SOL | UP | 54 sec | -0.067% | 7¢ | ❌ Lost | $0.00 |
 | 10/16 1:28:49 AM | GOLD | DOWN | 70 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/16 1:28:17 AM | USDJPY | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 1:28:17 AM | HYPE | UP | 1.7 min | -0.152% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
