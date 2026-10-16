@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 6:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 49 finished bets | 2% | $6.65 | +90% | +13.57¢ | -$3.60 / $10.25 |
 
-*Expect about **3 buys a day**, roughly **$0.46/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14969 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14976 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13846 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13850 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -101,7 +101,7 @@
 | ITF Women's Match | ✘ | 717 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 648 | 1 | 5% | 2% | -86% | -92% | 11 min |
-| eBasketball Game | ✘ | 520 | 1 | 0% | 0% | -82% | -81% | 2 min |
+| eBasketball Game | ✘ | 521 | 1 | 0% | 0% | -82% | -81% | 2 min |
 | Challenger ATP  | ✘ | 463 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 304 | 1 | 2% | 2% | -69% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
@@ -113,8 +113,8 @@
 | Dota 2 Game | ✘ | 133 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
+| Russia Liga Pro Match | ✘ | 110 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Russia Liga Pro Match | ✘ | 107 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
@@ -295,8 +295,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 00:40 | Russia Liga Pro Match | Olhovoi Evgenii Valerevich | ✘ | — | — | In play | — |
-| 10-16 00:35 | eBasketball Game | Dallas Mavericks (Clyde) | ✘ | — | — | In play | — |
+| 10-16 00:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 00:48 | Russia Liga Pro Match | Lanin Sergey Ivanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:47 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-16 00:46 | College Football Game | Colorado St. | ✔ | 0:15 - 1st · CSU 0 - TXST 21 | — | In play | — |
+| 10-16 00:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 00:45 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 10-16 00:43 | Russia Liga Pro Match | Ivanov Aleksandr Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:40 | Russia Liga Pro Match | Olhovoi Evgenii Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:35 | eBasketball Game | Dallas Mavericks (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:35 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:33 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -318,13 +325,6 @@
 | 10-16 00:03 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:02 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:58 | Darts Match | Brian Raman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:55 | eSoccer Game | Getafe CF (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:54 | Russia Liga Pro Match | Lanin Sergey Ivanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:52 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:51 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
