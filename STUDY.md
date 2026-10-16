@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 3:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 4:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15440 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15448 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14291 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14298 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5569 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5571 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 719 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 657 | 1 | 5% | 2% | -86% | -92% | 11 min |
-| ITF Men's Match | ✘ | 656 | 1 | 12% | 6% | -86% | -80% | 5 min |
-| eBasketball Game | ✘ | 554 | 1 | 0% | 0% | -83% | -83% | 2 min |
+| ITF Men's Match | ✘ | 657 | 1 | 12% | 6% | -86% | -80% | 5 min |
+| eBasketball Game | ✘ | 555 | 1 | 0% | 0% | -83% | -83% | 2 min |
 | Challenger ATP  | ✘ | 466 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 312 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 160 | 1 | 14% | 4% | -42% | -76% | 24 min |
-| Russia Liga Pro Match | ✘ | 145 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
+| Russia Liga Pro Match | ✘ | 146 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger WTA | ✘ | 141 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Dota 2 Game | ✘ | 136 | 0 | 1% | 1% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
@@ -165,7 +165,7 @@
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | China League 1 Game | ✘ | 25 | 0 | 12% | 8% | -100% | -79% | 6 min |
-| Mobile Legends Bang Bang Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Mobile Legends Bang Bang Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Finland Korisliiga Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -295,11 +295,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 09:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 09:57 | eSoccer Game | England (Gigi) | ✘ | — | — | In play | — |
-| 10-16 09:57 | Russia Liga Pro Match | Klavdenkov Aleksandr Aleksandrovich | ✘ | — | — | In play | — |
-| 10-16 09:57 | Mobile Legends Bang Bang Game | RRQ Hoshi | ✘ | — | — | In play | — |
-| 10-16 09:56 | ITF Men's Match | Anton Arzhankin | ✘ | — | — | In play | — |
+| 10-16 10:07 | Russia Liga Pro Match | Kugurushev Dmitriy Vladimirovich | ✘ | — | — | In play | — |
+| 10-16 10:04 | Counter-Strike 2 Game | RoundsGG | ✘ | — | — | In play | — |
+| 10-16 10:02 | Czech NBL Game | BK Olomoucko | ✘ | — | — | In play | — |
+| 10-16 10:01 | TT Star Series Match | Albornoz Matias | ✘ | — | — | In play | — |
+| 10-16 10:01 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | — | In play | — |
+| 10-16 10:01 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:00 | Indonesia Super League Game | Yogyakarta | ✘ | — | — | In play | — |
+| 10-16 09:59 | Challenger WTA | Julia Grabher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:57 | eSoccer Game | England (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:57 | Russia Liga Pro Match | Klavdenkov Aleksandr Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:57 | Mobile Legends Bang Bang Game | RRQ Hoshi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:56 | ITF Men's Match | Anton Arzhankin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:52 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
 | 10-16 09:52 | ITF Women's Match | Federica Urgesi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:47 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -317,14 +325,6 @@
 | 10-16 09:32 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:32 | eBasketball Game | New Orleans Pelicans (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:32 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:31 | TT Star Series Match | Chandra Jeet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:30 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:30 | eSoccer Game | Paris Saint-Germain (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:28 | Dota 2 Game | Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:28 | Russia Liga Pro Match | Baibakov Vitalii Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:25 | Russia Liga Pro Match | SHevtsov Konstantin Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:18 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
