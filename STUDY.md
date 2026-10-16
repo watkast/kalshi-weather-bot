@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 10:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 10:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 52 finished bets | 2% | $6.20 | +79% | +11.92¢ | -$3.90 / $10.10 |
 
-*Expect about **3 buys a day**, roughly **$0.49/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.48/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15171 | 1126 | 7 (1%) | 1.1% | -$70.90 (-42%) | Hold to the end: -$70.90 (-42%) |
+| 15180 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1126 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14030 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 14034 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$70.90 | -42% |
-| Sell at 2¢ | 165 | 15% | -$126.00 | -75% |
-| Sell at 3¢ | 114 | 10% | -$124.44 | -74% |
-| Sell at 5¢ | 79 | 7% | -$117.55 | -70% |
-| Sell at 10¢ | 43 | 4% | -$112.57 | -67% |
-| Sell at 25¢ | 14 | 1% | -$122.56 | -73% |
-| Sell at 50¢ | 10 | 1% | -$101.40 | -60% |
+| Hold to the end | 7 | 1% | -$71.05 | -42% |
+| Sell at 2¢ | 165 | 15% | -$126.15 | -75% |
+| Sell at 3¢ | 114 | 10% | -$124.59 | -74% |
+| Sell at 5¢ | 79 | 7% | -$117.70 | -70% |
+| Sell at 10¢ | 43 | 4% | -$112.72 | -67% |
+| Sell at 25¢ | 14 | 1% | -$122.71 | -73% |
+| Sell at 50¢ | 10 | 1% | -$101.55 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5385 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5389 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -113,7 +113,7 @@
 | Dota 2 Game | ✘ | 133 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Russia Liga Pro Match | ✘ | 118 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| NHL Game | ✔ | 116 | 0 | 13% | 6% | -100% | -78% | 4 min |
+| NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
@@ -276,7 +276,7 @@
 | Under 5 min | 462 | 5% | 1% | 0% | -91% |
 | 5–15 min | 236 | 17% | 7% | 1% | -70% |
 | 15–30 min | 161 | 32% | 18% | 2% | -45% |
-| 30–60 min | 134 | 18% | 10% | 0% | -69% |
+| 30–60 min | 135 | 18% | 10% | 0% | -69% |
 | Over 60 min | 122 | 20% | 11% | 0% | -66% |
 
 ## Speed & liquidity
@@ -295,10 +295,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 04:33 | eSoccer Game | Nottingham Forest (Mavi) | ✘ | — | — | In play | — |
-| 10-16 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 04:30 | eSoccer Game | Valencia CF (Nate) | ✘ | — | — | In play | — |
-| 10-16 04:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:48 | Russia Liga Pro Match | Meteleshko Igor Petrovich | ✘ | — | — | In play | — |
+| 10-16 04:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:47 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | — | In play | — |
+| 10-16 04:47 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | — | In play | — |
+| 10-16 04:46 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | — | In play | — |
+| 10-16 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:43 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | — | In play | — |
+| 10-16 04:42 | eSoccer Game | Villarreal CF (Ousmane) | ✘ | — | — | In play | — |
+| 10-16 04:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:33 | eSoccer Game | Nottingham Forest (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 04:30 | eSoccer Game | Valencia CF (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 04:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 04:29 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -316,15 +325,6 @@
 | 10-16 04:14 | eBasketball Game | Denver Nuggets (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 04:13 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 04:13 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:07 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:05 | NHL Game | Calgary | ✔ | 16:42 - 3rd · CGY 1 - VGK 4 | — | In play | — |
-| 10-16 04:03 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:03 | eSoccer Game | England (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:02 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:01 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
