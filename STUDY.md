@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 8:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 8:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15690 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15696 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14535 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14546 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5688 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5693 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 727 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 668 | 1 | 5% | 2% | -86% | -92% | 11 min |
-| ITF Men's Match | ✘ | 662 | 1 | 12% | 6% | -86% | -80% | 5 min |
+| ITF Men's Match | ✘ | 663 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 568 | 1 | 0% | 0% | -84% | -83% | 2 min |
 | Challenger ATP  | ✘ | 472 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 315 | 1 | 2% | 2% | -70% | -97% | 5 min |
@@ -110,8 +110,8 @@
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 162 | 1 | 14% | 4% | -42% | -76% | 24 min |
 | Challenger WTA | ✘ | 146 | 0 | 12% | 5% | -100% | -79% | 8 min |
+| Dota 2 Game | ✘ | 140 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Dota 2 Game | ✘ | 139 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
@@ -166,6 +166,7 @@
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | China League 1 Game | ✘ | 25 | 0 | 12% | 8% | -100% | -79% | 6 min |
+| Indonesia Super League Game | ✘ | 24 | 0 | 17% | 8% | -100% | -71% | 8 min |
 | Finland Korisliiga Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -174,7 +175,6 @@
 | Peru Liga 1 Game | ✘ | 20 | 0 | 25% | 20% | -100% | -57% | 7 min |
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | College Hockey Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
-| Indonesia Super League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 8 min |
 | Japan J League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 12 min |
 | Saudi Pro League Game | ✘ | 20 | 0 | 20% | 15% | -100% | -65% | 14 min |
 | Liga MX Game | ✔ | 19 | 0 | 16% | 16% | -100% | -73% | 1 min |
@@ -297,13 +297,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 14:02 | eSoccer Game | Stade Brestois 29 (Castle) | ✘ | — | — | In play | — |
+| 10-16 14:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 14:13 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-16 14:08 | Darts Match | Josh McCarthy | ✘ | — | — | In play | — |
+| 10-16 14:07 | ITF Men's Match | Matthias Ujvary | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 14:02 | eSoccer Game | Stade Brestois 29 (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:00 | Russia Liga Pro Match | Poprotskii Aleksandr Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:00 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:59 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
-| 10-16 13:59 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 10-16 13:58 | Indonesia Super League Game | Madura United | ✘ | — | — | In play | — |
-| 10-16 13:57 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-16 13:59 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 13:59 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 13:58 | Indonesia Super League Game | Madura United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 13:57 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:55 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:53 | ITF Women's Match | Jessika Ponchet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:53 | Indonesia Super League Game | Persijap Jepara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,20 +319,14 @@
 | 10-16 13:49 | Challenger WTA | Polona Hercog | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:49 | Challenger WTA | Guiomar Maristany Zuleta de Reales | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:49 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:49 | Indonesia Super League Game | Bhayangkara Presisi Indonesia | ✘ | — | — | In play | — |
-| 10-16 13:48 | Indonesia Super League Game | Bali United | ✘ | — | — | In play | — |
+| 10-16 13:49 | Indonesia Super League Game | Bhayangkara Presisi Indonesia | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
+| 10-16 13:48 | Indonesia Super League Game | Bali United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:47 | Russia Liga Pro Match | Mashchenko Aleksandr Viktorovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:46 | Thai League 1 Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-16 13:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:46 | eSoccer Game | Toulouse FC (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 13:46 | Malaysia Super League Game | Kelantan Red Warrior FC | ✘ | — | — | In play | — |
 | 10-16 13:45 | Mobile Legends Bang Bang Game | Selangor Red Giants | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:43 | Darts Match | Sander van Ockenburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:40 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | — | In play | — |
-| 10-16 13:39 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
-| 10-16 13:37 | eSoccer Game | FC Koln (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 13:35 | Thai League 1 Game | Ayutthaya Utd | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
