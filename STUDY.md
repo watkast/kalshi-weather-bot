@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 9:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 9:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15768 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15777 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14612 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14619 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5721 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5724 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 727 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 670 | 1 | 5% | 2% | -86% | -92% | 11 min |
@@ -106,7 +106,7 @@
 | TT Star Series Match | ✘ | 315 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 204 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
-| Russia Liga Pro Match | ✘ | 186 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 190 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 164 | 1 | 13% | 4% | -43% | -77% | 23 min |
 | Challenger WTA | ✘ | 148 | 0 | 12% | 5% | -100% | -79% | 8 min |
@@ -299,10 +299,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 15:27 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
-| 10-16 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:38 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 10-16 15:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:35 | Russia Liga Pro Match | Surkin Dmitrii Evgenevich | ✘ | — | — | In play | — |
+| 10-16 15:35 | Counter-Strike 2 Game | X-CITY | ✘ | — | — | In play | — |
+| 10-16 15:32 | Darts Match | Aaron Turner | ✘ | — | — | In play | — |
+| 10-16 15:31 | Counter-Strike 2 Game | Lavked | ✘ | — | — | In play | — |
+| 10-16 15:31 | Russia Liga Pro Match | Ledenev Vladimir Lvovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:30 | Counter-Strike 2 Game | Joga de terno | ✘ | — | — | In play | — |
+| 10-16 15:29 | Russia Liga Pro Match | Martyukhin Sergey Vyacheslavovich | ✘ | — | — | In play | — |
+| 10-16 15:27 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:27 | Dota 2 Game | Execration | ✘ | — | — | In play | — |
-| 10-16 15:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:18 | Darts Match | Sander van Ockenburg | ✘ | — | — | In play | — |
 | 10-16 15:10 | Russia Liga Pro Match | Poprotskii Aleksandr Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:10 | Men's T20 Cricket Match | Imena Centurions | ✘ | — | — | In play | — |
@@ -320,15 +329,6 @@
 | 10-16 14:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:56 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:56 | Liga Leumit Game | Ashdod | ✘ | — | — | In play | — |
-| 10-16 14:56 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | — | In play | — |
-| 10-16 14:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:55 | Challenger ATP  | Max Wiskandt | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 14:55 | Dota 2 Game | by Owl Team | ✘ | — | — | In play | — |
-| 10-16 14:54 | Liga Leumit Game | Hapoel Afula | ✘ | — | — | In play | — |
-| 10-16 14:54 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
-| 10-16 14:53 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 10-16 14:53 | Russia Liga Pro Match | Orlov Oleg Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:50 | Men's T20 Cricket Match | South Africa Champions | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
