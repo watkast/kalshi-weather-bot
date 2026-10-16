@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 7:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14976 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14982 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13850 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13854 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5245 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5249 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 717 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -295,12 +295,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 00:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 00:59 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-16 00:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 00:59 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | — | In play | — |
+| 10-16 00:59 | Argentina Primera Division Game | Huracan | ✘ | — | — | In play | — |
+| 10-16 00:59 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-16 00:58 | Counter-Strike 2 Game | ARK E-sports | ✘ | — | — | In play | — |
+| 10-16 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:48 | Russia Liga Pro Match | Lanin Sergey Ivanovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:47 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-16 00:47 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:46 | College Football Game | Colorado St. | ✔ | 0:15 - 1st · CSU 0 - TXST 21 | — | In play | — |
-| 10-16 00:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 00:45 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 10-16 00:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:45 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:43 | Russia Liga Pro Match | Ivanov Aleksandr Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:40 | Russia Liga Pro Match | Olhovoi Evgenii Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:35 | eBasketball Game | Dallas Mavericks (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -319,12 +325,6 @@
 | 10-16 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:17 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:12 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:03 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:02 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 00:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
