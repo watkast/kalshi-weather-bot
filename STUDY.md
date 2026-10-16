@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 4:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 5:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15500 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15512 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
 *In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14342 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14354 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5587 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5595 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 724 | 1 | 12% | 5% | -87% | -80% | 4 min |
+| ITF Women's Match | ✘ | 725 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 661 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 657 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 557 | 1 | 0% | 0% | -83% | -83% | 2 min |
@@ -121,7 +121,7 @@
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | KHL Game | ✘ | 61 | 0 | 3% | 2% | -100% | -94% | 5 min |
-| R6 Game | ✘ | 60 | 0 | 7% | 3% | -100% | -88% | 9 min |
+| R6 Game | ✘ | 61 | 0 | 7% | 3% | -100% | -89% | 9 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | Argentina Primera Division Game | ✘ | 57 | 0 | 16% | 5% | -100% | -73% | 6 min |
@@ -187,6 +187,7 @@
 | Sweden SBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Men's ODI Cricket Match | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 24 min |
 | Czech NBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Women's T20 Match | ✘ | 18 | 0 | 22% | 11% | -100% | -61% | 27 min |
 | Spain Liga ACB Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 18 min |
 | Indonesia Super League Game | ✘ | 18 | 0 | 17% | 6% | -100% | -71% | 10 min |
 | Bundesliga 2 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 8 min |
@@ -197,7 +198,6 @@
 | La Liga Game | ✔ | 18 | 0 | 44% | 33% | -100% | -23% | 9 min |
 | APF Division de Honor Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
 | Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
-| Women's T20 Match | ✘ | 17 | 0 | 18% | 6% | -100% | -69% | 32 min |
 | EFL League One Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 2 min |
 | Czech First League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 10 min |
 | LNB Elite Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -268,6 +268,7 @@
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Powerslap Match Winner | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 436 min |
 | BNXT League Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 15 min |
+| Australian A League Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 1 min |
 
 ## By time left when it hit 1¢
 
@@ -295,36 +296,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-16 11:08 | Challenger ATP  | Luka Mikrut | ✘ | — | — | In play | — |
+| 10-16 11:08 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | — | In play | — |
+| 10-16 11:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 11:06 | Russia Liga Pro Match | Drykin Sergei Sergeevich | ✘ | — | — | In play | — |
+| 10-16 11:06 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | — | In play | — |
+| 10-16 11:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 11:06 | ITF Women's Match | Angelica Raggi | ✘ | — | — | In play | — |
+| 10-16 11:05 | Russia Liga Pro Match | SHevtsov Konstantin Nikolaevich | ✘ | — | — | In play | — |
+| 10-16 11:04 | Australian A League Game | Western Sydney Wanderers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 11:03 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 10-16 11:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 11:03 | Australian A League Game | Sydney FC | ✘ | — | — | In play | — |
 | 10-16 10:59 | Counter-Strike 2 Game | Liquid | ✘ | — | — | In play | — |
-| 10-16 10:58 | ITF Women's Match | Dunja Maric | ✘ | — | — | In play | — |
-| 10-16 10:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 10:55 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | — | In play | — |
-| 10-16 10:55 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | — | In play | — |
-| 10-16 10:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 10:58 | ITF Women's Match | Dunja Maric | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:55 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:55 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:53 | ITF Women's Match | Sonja Zhenikhova | ✘ | — | — | In play | — |
-| 10-16 10:53 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
-| 10-16 10:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 10:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 10:52 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-16 10:49 | R6 Game | Sharper Esport | ✘ | — | — | In play | — |
+| 10-16 10:53 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:52 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:49 | R6 Game | Sharper Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:49 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:49 | Overwatch Game | Cheeseburger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:47 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
 | 10-16 10:46 | Russia Liga Pro Match | Chechulin Maksim Mikhailovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:46 | Women's T20 Match | Romania Women | ✘ | — | — | In play | — |
+| 10-16 10:46 | Women's T20 Match | Romania Women | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-16 10:43 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:43 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:43 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:43 | Russia Liga Pro Match | Tarasenkov Nikolay Vyacheslavovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:42 | eSoccer Game | Manchester City (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:42 | Russia Liga Pro Match | Zelenskii Roman Iurevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:40 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:38 | eSoccer Game | Argentina (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:36 | Mobile Legends Bang Bang Game | Team Flash KH | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:35 | ITF Women's Match | Sara Victoria Balan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
