@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 8:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 8:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15079 | 1118 | 7 (1%) | 1.1% | -$69.70 (-42%) | Hold to the end: -$69.70 (-42%) |
+| 15091 | 1121 | 7 (1%) | 1.1% | -$70.15 (-42%) | Hold to the end: -$70.15 (-42%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1118 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13936 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1121 | 15% | 10% | 7% | 4% | 1% | 1% |
+| Unverified | 13949 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$69.70 | -42% |
-| Sell at 2¢ | 163 | 15% | -$125.32 | -75% |
-| Sell at 3¢ | 113 | 10% | -$123.63 | -74% |
-| Sell at 5¢ | 78 | 7% | -$117.00 | -70% |
-| Sell at 10¢ | 42 | 4% | -$112.68 | -67% |
-| Sell at 25¢ | 14 | 1% | -$121.36 | -72% |
-| Sell at 50¢ | 10 | 1% | -$100.20 | -60% |
+| Hold to the end | 7 | 1% | -$70.15 | -42% |
+| Sell at 2¢ | 163 | 15% | -$125.77 | -75% |
+| Sell at 3¢ | 113 | 10% | -$124.08 | -74% |
+| Sell at 5¢ | 78 | 7% | -$117.45 | -70% |
+| Sell at 10¢ | 42 | 4% | -$113.13 | -67% |
+| Sell at 25¢ | 14 | 1% | -$121.81 | -72% |
+| Sell at 50¢ | 10 | 1% | -$100.65 | -60% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5303 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5315 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -112,9 +112,9 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Dota 2 Game | ✘ | 133 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Russia Liga Pro Match | ✘ | 117 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 118 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| NHL Game | ✔ | 115 | 0 | 13% | 6% | -100% | -77% | 5 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
-| NHL Game | ✔ | 112 | 0 | 13% | 6% | -100% | -77% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
@@ -273,9 +273,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 458 | 5% | 1% | 0% | -91% |
+| Under 5 min | 459 | 5% | 1% | 0% | -91% |
 | 5–15 min | 236 | 17% | 7% | 1% | -70% |
-| 15–30 min | 160 | 32% | 18% | 2% | -45% |
+| 15–30 min | 161 | 32% | 18% | 2% | -45% |
 | 30–60 min | 133 | 17% | 10% | 0% | -70% |
 | Over 60 min | 121 | 19% | 11% | 0% | -67% |
 
@@ -295,17 +295,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 02:42 | eSoccer Game | Manchester City (NINJA) | ✘ | — | — | In play | — |
-| 10-16 02:41 | NHL Game | Winnipeg | ✔ | 3:38 - OT · WPG 3 - CHI 3 | — | In play | — |
-| 10-16 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 02:39 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | — | In play | — |
-| 10-16 02:38 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | — | In play | — |
-| 10-16 02:37 | eSoccer Game | England (Quinnie) | ✘ | — | — | In play | — |
-| 10-16 02:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 02:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 02:35 | eSoccer Game | Dortmund (Nate) | ✘ | — | — | In play | — |
-| 10-16 02:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-16 02:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:54 | eSoccer Game | Crystal Palace (Poly) | ✘ | — | — | In play | — |
+| 10-16 02:53 | NHL Game | Nashville | ✔ | In SO · SJ 2 - NSH 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:53 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | — | In play | — |
+| 10-16 02:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:51 | eSoccer Game | England (Quinnie) | ✘ | — | — | In play | — |
+| 10-16 02:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:50 | eSoccer Game | Dortmund (Nate) | ✘ | — | — | In play | — |
+| 10-16 02:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:48 | Russia Liga Pro Match | Ilyukhin Evgeniy Viktorovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:47 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:42 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:41 | NHL Game | Winnipeg | ✔ | 3:38 - OT · WPG 3 - CHI 3 | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:39 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:38 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:37 | eSoccer Game | England (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:35 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 02:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 02:33 | Russia Liga Pro Match | SHipitsyn Gennadii IUrevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 02:33 | Counter-Strike 2 Game | Off Chops | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 02:29 | NBA Game | Oklahoma City | ✔ | 4:37 - 4th · OKC 82 - HOU 102 | 0¢ | ❌ Lost | -$0.15 |
@@ -313,18 +325,6 @@
 | 10-16 02:27 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 02:27 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 02:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:26 | College Hockey Game | Omaha | ✘ | — | — | In play | — |
-| 10-16 02:26 | NHL Game | St. Louis | ✔ | 11:13 - 3rd · STL 2 - MIN 5 | — | In play | — |
-| 10-16 02:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:23 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:23 | CONMEBOL Libertadores Game | Reg Time: Estudiantes La Plata | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:21 | CONMEBOL Libertadores Game | Reg Time: Flamengo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 02:21 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:21 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:20 | Women's College Volleyball Match | Iowa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 02:18 | College Football Game | Old Dominion | ✔ | 14:32 - 4th · GASO 23 - ODU 7 | — | In play | — |
 
 ## Raw data
 
