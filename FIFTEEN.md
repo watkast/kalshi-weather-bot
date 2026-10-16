@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 16, 9:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 16, 9:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1627 finished bets | 1% | $85.70 | +48% | +5.27¢ | $37.95 / $47.75 |
 
-*Expect about **89 buys a day** (~$13.29/day at risk); max loss per buy **15¢**.*
+*Expect about **89 buys a day** (~$13.28/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20934 | 20927 | 80 (0%) | 1.07% | -$1,428.80 (-56%) | Hold to the close: -$1,428.80 (-56%) |
+| 20935 | 20927 | 80 (0%) | 1.07% | -$1,428.80 (-56%) | Hold to the close: -$1,428.80 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/16 9:41:25 AM | ZEC | DOWN | 3.6 min | +0.792% | — | In play | — |
 | 10/16 9:29:38 AM | XRP | UP | 21 sec | -0.122% | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 9:29:22 AM | PLATINUM | UP | 37 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 9:29:22 AM | DOGE | UP | 37 sec | -0.245% | 0¢ | ❌ Lost | $0.00 |
@@ -212,7 +213,6 @@
 | 10/16 9:12:33 AM | ETH | UP | 2.4 min | -0.444% | 1¢ | ❌ Lost | -$0.15 |
 | 10/16 9:12:01 AM | WTI | UP | 3.0 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/16 9:12:01 AM | SILVER | UP | 3.0 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/16 9:10:54 AM | COPPER | UP | 4.1 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
