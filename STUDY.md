@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 3:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 3:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 52 finished bets | 2% | $6.20 | +79% | +11.92¢ | -$3.90 / $10.10 |
 
-*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.46/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16248 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
+| 16257 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1145 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15081 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15093 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5906 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 5914 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 731 | 1 | 12% | 5% | -87% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 691 | 1 | 4% | 2% | -86% | -92% | 11 min |
-| ITF Men's Match | ✘ | 672 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 588 | 1 | 0% | 0% | -84% | -84% | 2 min |
+| Counter-Strike 2 Game | ✘ | 692 | 1 | 5% | 2% | -87% | -92% | 11 min |
+| ITF Men's Match | ✘ | 673 | 1 | 12% | 6% | -86% | -79% | 5 min |
+| eBasketball Game | ✘ | 590 | 1 | 0% | 0% | -84% | -84% | 2 min |
 | Challenger ATP  | ✘ | 480 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Russia Liga Pro Match | ✘ | 233 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -305,14 +305,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 21:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:05 | eSoccer Game | Palmeiras (Declan) | ✘ | — | — | In play | — |
-| 10-16 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:05 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-16 21:04 | eSoccer Game | River Plate (Luis) | ✘ | — | — | In play | — |
-| 10-16 21:04 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
-| 10-16 21:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:02 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
+| 10-16 21:18 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 21:17 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 10-16 21:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 21:16 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
+| 10-16 21:15 | Men's Iceland Basketball Premier League Game | UMF Grindavik | ✘ | — | — | In play | — |
+| 10-16 21:13 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:13 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:05 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:05 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:04 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:04 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:02 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 21:00 | LNB Elite 2 Game | ALM Evreux Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 20:59 | Taca de Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 20:59 | Russia Liga Pro Match | Kononenko Aleksandr Anatolievich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -326,15 +335,6 @@
 | 10-16 20:53 | Russia Liga Pro Match | Lediaev Evgenii Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 20:53 | Russia Liga Pro Match | Gulnitskii Vladimir Konstantinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 20:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:52 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:51 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:49 | ITF Men's Match | Ivan Dreycopp | ✘ | — | — | In play | — |
-| 10-16 20:47 | Russia Liga Pro Match | Innazarov Aleksei Fyaritovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:46 | Counter-Strike 2 Game | Damajuana | ✘ | — | — | In play | — |
-| 10-16 20:46 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:46 | EFL Championship Game | Burnley | ✔ | 86' · WOL 2 - BUR 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
