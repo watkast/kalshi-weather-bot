@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 4:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 4:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15448 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15456 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14298 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14307 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,19 +96,19 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5571 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5573 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 719 | 1 | 12% | 5% | -87% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 657 | 1 | 5% | 2% | -86% | -92% | 11 min |
+| ITF Women's Match | ✘ | 720 | 1 | 12% | 5% | -87% | -80% | 4 min |
+| Counter-Strike 2 Game | ✘ | 658 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 657 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 555 | 1 | 0% | 0% | -83% | -83% | 2 min |
 | Challenger ATP  | ✘ | 466 | 2 | 10% | 3% | -60% | -83% | 5 min |
-| TT Star Series Match | ✘ | 312 | 1 | 2% | 2% | -70% | -97% | 5 min |
+| TT Star Series Match | ✘ | 313 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 160 | 1 | 14% | 4% | -42% | -76% | 24 min |
-| Russia Liga Pro Match | ✘ | 146 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 149 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger WTA | ✘ | 141 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Dota 2 Game | ✘ | 136 | 0 | 1% | 1% | -100% | -97% | 29 min |
@@ -186,6 +186,7 @@
 | Sweden SBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Australia NBL Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 6 min |
 | Men's ODI Cricket Match | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 24 min |
+| Czech NBL Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Spain Liga ACB Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 18 min |
 | Bundesliga 2 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 8 min |
 | Eredivisie Game | ✔ | 18 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -194,7 +195,6 @@
 | Ligue 1 Game | ✔ | 18 | 0 | 17% | 11% | -100% | -71% | 10 min |
 | La Liga Game | ✔ | 18 | 0 | 44% | 33% | -100% | -23% | 9 min |
 | APF Division de Honor Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 5 min |
-| Czech NBL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Canadian Premier League | ✘ | 17 | 1 | 24% | 24% | +449% | -59% | 29 min |
 | Women's T20 Match | ✘ | 17 | 0 | 18% | 6% | -100% | -69% | 32 min |
 | EFL League One Game | ✔ | 17 | 0 | 12% | 0% | -100% | -80% | 2 min |
@@ -295,11 +295,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 10:07 | Russia Liga Pro Match | Kugurushev Dmitriy Vladimirovich | ✘ | — | — | In play | — |
-| 10-16 10:04 | Counter-Strike 2 Game | RoundsGG | ✘ | — | — | In play | — |
-| 10-16 10:02 | Czech NBL Game | BK Olomoucko | ✘ | — | — | In play | — |
-| 10-16 10:01 | TT Star Series Match | Albornoz Matias | ✘ | — | — | In play | — |
-| 10-16 10:01 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | — | In play | — |
+| 10-16 10:18 | Challenger ATP  | Tom Gentzsch | ✘ | — | — | In play | — |
+| 10-16 10:17 | Counter-Strike 2 Game | Abyssal | ✘ | — | — | In play | — |
+| 10-16 10:16 | Counter-Strike 2 Game | Revise | ✘ | — | — | In play | — |
+| 10-16 10:13 | Australia NBL Game | Tasmania JackJumpers | ✘ | — | — | In play | — |
+| 10-16 10:10 | Russia Liga Pro Match | Baibakov Vitalii Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:09 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:08 | ITF Women's Match | Iva Marinkovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:07 | Russia Liga Pro Match | Kugurushev Dmitriy Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:04 | Counter-Strike 2 Game | RoundsGG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:02 | Czech NBL Game | BK Olomoucko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:01 | TT Star Series Match | Albornoz Matias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:01 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:01 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:00 | Indonesia Super League Game | Yogyakarta | ✘ | — | — | In play | — |
 | 10-16 09:59 | Challenger WTA | Julia Grabher | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -317,14 +325,6 @@
 | 10-16 09:43 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:41 | Valorant game winner | Team Vitality | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:33 | Russia Liga Pro Match | Chechulin Maksim Mikhailovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:33 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:33 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:32 | Counter-Strike 2 Game | ENCE Prospects | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:32 | eBasketball Game | New Orleans Pelicans (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:32 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
