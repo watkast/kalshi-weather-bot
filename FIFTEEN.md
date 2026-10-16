@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 15, 6:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 15, 6:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1558 finished bets | 1% | $79.20 | +46% | +5.08¢ | $28.15 / $51.05 |
 
-*Expect about **88 buys a day** (~$13.19/day at risk); max loss per buy **15¢**.*
+*Expect about **88 buys a day** (~$13.18/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19915 | 19908 | 78 (0%) | 1.07% | -$1,325.40 (-55%) | Hold to the close: -$1,325.40 (-55%) |
+| 19917 | 19908 | 78 (0%) | 1.07% | -$1,325.40 (-55%) | Hold to the close: -$1,325.40 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/15 6:12:25 PM | BTC | DOWN | 2.6 min | +0.145% | — | In play | — |
+| 10/15 6:09:25 PM | HYPE | DOWN | 5.6 min | +0.325% | — | In play | — |
 | 10/15 5:59:49 PM | GBPUSD | UP | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/15 5:59:33 PM | GOLD | UP | 26 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/15 5:59:33 PM | HYPE | DOWN | 26 sec | -0.003% | 0¢ | ❌ Lost | -$0.15 |
@@ -211,8 +213,6 @@
 | 10/15 5:41:20 PM | BNB | DOWN | 3.7 min | +0.091% | 1¢ | ❌ Lost | -$0.15 |
 | 10/15 5:40:30 PM | GOLD | UP | 4.5 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/15 5:29:45 PM | NEAR | DOWN | 15 sec | +0.055% | 0¢ | ❌ Lost | $0.00 |
-| 10/15 5:29:45 PM | BTC | DOWN | 15 sec | +0.029% | 0¢ | ❌ Lost | $0.00 |
-| 10/15 5:29:45 PM | BNB | UP | 15 sec | -0.001% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
