@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 16, 2:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 16, 2:27 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20456 | 20449 | 79 (0%) | 1.07% | -$1,382.20 (-56%) | Hold to the close: -$1,382.20 (-56%) |
+| 20460 | 20449 | 79 (0%) | 1.07% | -$1,382.20 (-56%) | Hold to the close: -$1,382.20 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/16 2:27:43 AM | PLATINUM | DOWN | 2.3 min | — | — | In play | — |
+| 10/16 2:26:55 AM | SILVER | DOWN | 3.1 min | — | — | In play | — |
+| 10/16 2:26:55 AM | GBPUSD | DOWN | 3.1 min | — | — | In play | — |
+| 10/16 2:26:06 AM | USDJPY | UP | 3.9 min | — | — | In play | — |
 | 10/16 2:14:51 AM | BNB | UP | 9 sec | -0.029% | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 2:14:51 AM | XRP | UP | 9 sec | -0.082% | 0¢ | ❌ Lost | $0.00 |
 | 10/16 2:14:51 AM | USDJPY | DOWN | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,10 +213,6 @@
 | 10/16 1:59:09 AM | SOL | UP | 51 sec | -0.109% | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 1:58:53 AM | GBPUSD | UP | 67 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 1:58:53 AM | BTC | DOWN | 67 sec | +0.055% | 1¢ | ❌ Lost | $0.00 |
-| 10/16 1:58:21 AM | PALLADIUM | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 1:58:21 AM | ZEC | DOWN | 1.6 min | +0.275% | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 1:58:21 AM | COPPER | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 1:57:50 AM | GOLD | DOWN | 2.1 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
