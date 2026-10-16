@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 3:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 3:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16257 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
+| 16268 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1145 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15093 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15102 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5914 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 5922 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 731 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 692 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -253,8 +253,8 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Men's Iceland Basketball Premier League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Men's Iceland Basketball Premier League Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Korea KBL Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Taca de Portugal Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 34 min |
@@ -305,13 +305,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 21:18 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
-| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:17 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
-| 10-16 21:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 21:16 | eSoccer Game | Universitario (Aron) | ✘ | — | — | In play | — |
-| 10-16 21:15 | Men's Iceland Basketball Premier League Game | UMF Grindavik | ✘ | — | — | In play | — |
+| 10-16 21:29 | Russia Liga Pro Match | Sverdlov Mikhail Yakovlevich | ✘ | — | — | In play | — |
+| 10-16 21:28 | R6 Game | Cloud9 | ✘ | — | — | In play | — |
+| 10-16 21:28 | Counter-Strike 2 Game | Honvéd | ✘ | — | — | In play | — |
+| 10-16 21:24 | eSoccer Game | Sevilla FC (Arkon) | ✘ | — | — | In play | — |
+| 10-16 21:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 21:23 | Women's T20 Match | Atlanta Fire Women | ✘ | — | — | In play | — |
+| 10-16 21:21 | Darts Match | Scott Mitchell | ✘ | — | — | In play | — |
+| 10-16 21:21 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | — | In play | — |
+| 10-16 21:21 | ITF Women's Match | Thea Frodin | ✘ | — | — | In play | — |
+| 10-16 21:20 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:20 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:18 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:17 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:16 | eSoccer Game | Universitario (Aron) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 21:15 | Men's Iceland Basketball Premier League Game | UMF Grindavik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 21:13 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 21:13 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -324,17 +335,6 @@
 | 10-16 21:02 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 21:00 | LNB Elite 2 Game | ALM Evreux Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 20:59 | Taca de Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:59 | Russia Liga Pro Match | Kononenko Aleksandr Anatolievich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:58 | La Liga Game | Levante | ✔ | 90'+7' · LEV 1 - DEP 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:58 | La Liga Game | Deportivo De La Coruna | ✔ | 90'+7' · LEV 1 - DEP 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:56 | Bolivia Premier Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:56 | Men's T20 Cricket Match | Space City Cowboys | ✘ | — | — | In play | — |
-| 10-16 20:55 | Russia Liga Pro Match | Obukhov Vasilii Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:55 | Men's Iceland Basketball Premier League Game | Stjarnan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:54 | EFL Championship Game | Tie | ✔ | 90'+4' · WOL 2 - BUR 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 20:53 | Russia Liga Pro Match | Lediaev Evgenii Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:53 | Russia Liga Pro Match | Gulnitskii Vladimir Konstantinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 20:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
