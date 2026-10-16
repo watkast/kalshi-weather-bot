@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 9:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 9:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15125 | 1126 | 7 (1%) | 1.1% | -$70.90 (-42%) | Hold to the end: -$70.90 (-42%) |
+| 15131 | 1126 | 7 (1%) | 1.1% | -$70.90 (-42%) | Hold to the end: -$70.90 (-42%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1126 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13978 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13986 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5341 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5349 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -295,17 +295,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 03:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 03:36 | eSoccer Game | Spurs (Poly) | ✘ | — | — | In play | — |
-| 10-16 03:35 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
+| 10-16 03:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 03:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 03:46 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | — | In play | — |
+| 10-16 03:45 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-16 03:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 03:43 | College Hockey Game | Lindenwood | ✘ | — | — | In play | — |
+| 10-16 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:36 | eSoccer Game | Spurs (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:35 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:35 | Counter-Strike 2 Game | Ground Zero | ✘ | — | — | In play | — |
-| 10-16 03:34 | eSoccer Game | Stuttgart (Vini) | ✘ | — | — | In play | — |
-| 10-16 03:33 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | — | In play | — |
-| 10-16 03:33 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | — | In play | — |
+| 10-16 03:34 | eSoccer Game | Stuttgart (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:33 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:33 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:32 | NHL Game | Edmonton | ✔ | 0:27 - 3rd · UTA 3 - EDM 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:32 | NFL Game | Seattle | ✔ | 4:57 - OT · SEA 14 - DEN 14 | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:32 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-16 03:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 03:32 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:29 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
 | 10-16 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:23 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -319,12 +325,6 @@
 | 10-16 03:18 | College Football Game | East Carolina | ✔ | OT · ECU 17 - UAB 30 | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:16 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:08 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:06 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:06 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:05 | eSoccer Game | England (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
