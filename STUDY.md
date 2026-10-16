@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 11:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 11:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15214 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15223 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14069 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14073 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5417 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5419 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 651 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | eBasketball Game | ✘ | 537 | 1 | 0% | 0% | -83% | -82% | 2 min |
-| Challenger ATP  | ✘ | 463 | 2 | 10% | 3% | -60% | -83% | 5 min |
+| Challenger ATP  | ✘ | 464 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 304 | 1 | 2% | 2% | -69% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
@@ -112,7 +112,7 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Dota 2 Game | ✘ | 133 | 0 | 2% | 2% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| Russia Liga Pro Match | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 121 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -295,10 +295,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 05:29 | Russia Liga Pro Match | Goncharik Vasilii Alekseevich | ✘ | — | — | In play | — |
-| 10-16 05:26 | Challenger ATP  | Aleksandr Shevchenko | ✘ | — | — | In play | — |
-| 10-16 05:24 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | — | In play | — |
-| 10-16 05:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 05:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 05:34 | eSoccer Game | AS Monaco (Homie) | ✘ | — | — | In play | — |
+| 10-16 05:33 | eSoccer Game | Girona (Frenkie) | ✘ | — | — | In play | — |
+| 10-16 05:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 05:32 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-16 05:31 | eSoccer Game | FC Barcelona (Niskanen15) | ✘ | — | — | In play | — |
+| 10-16 05:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 05:29 | Russia Liga Pro Match | Kutuzov Oleg Gennadyevich | ✘ | — | — | In play | — |
+| 10-16 05:29 | Russia Liga Pro Match | Goncharik Vasilii Alekseevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 05:26 | Challenger ATP  | Aleksandr Shevchenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 05:24 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 05:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 05:22 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | — | In play | — |
 | 10-16 05:21 | Russia Liga Pro Match | Kustov Dmitrii Arkadievich | ✘ | — | — | In play | — |
 | 10-16 05:20 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -316,15 +325,6 @@
 | 10-16 05:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 05:07 | eSoccer Game | Spurs (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 05:06 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:06 | eSoccer Game | FC Barcelona (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:06 | Russia Liga Pro Match | Bochev Viktor Panteleevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:04 | eSoccer Game | CA Osasuna (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:03 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 05:01 | Russia Liga Pro Match | Boiko Aleksei Evgenevich | ✘ | — | — | In play | — |
-| 10-16 04:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
