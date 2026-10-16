@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 11:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 11:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15865 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15880 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14700 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14706 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5761 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 5764 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 728 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 678 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 664 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 576 | 1 | 0% | 0% | -84% | -83% | 2 min |
-| Challenger ATP  | ✘ | 476 | 2 | 10% | 3% | -61% | -83% | 5 min |
+| Challenger ATP  | ✘ | 477 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 315 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 208 | 0 | 0% | 0% | -100% | -99% | 8 min |
-| Russia Liga Pro Match | ✘ | 197 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 199 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Men's T20 Cricket Match | ✘ | 165 | 1 | 13% | 4% | -43% | -77% | 23 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
@@ -302,12 +302,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-16 17:20 | eSoccer Game | Chelsea (Fernando) | ✘ | — | — | In play | — |
+| 10-16 17:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 17:19 | eSoccer Game | Slavia Praha (SilentShooter) | ✘ | — | — | In play | — |
+| 10-16 17:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 17:18 | ELH Game | BK Mlada Boleslav | ✘ | — | — | In play | — |
+| 10-16 17:17 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
+| 10-16 17:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 17:16 | eSoccer Game | Spurs (Kylian) | ✘ | — | — | In play | — |
+| 10-16 17:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 17:16 | Finland Korisliiga Game | Kataja Basket Joensuu | ✘ | — | — | In play | — |
+| 10-16 17:15 | Finland Korisliiga Game | Lahti Basketball | ✘ | — | — | In play | — |
+| 10-16 17:14 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 17:13 | Slovenian Prva Liga Game | Aluminij Kidricevo | ✘ | — | — | In play | — |
+| 10-16 17:12 | Russia Liga Pro Match | Kononenko Taras Petrovich | ✘ | — | — | In play | — |
+| 10-16 17:11 | Counter-Strike 2 Game | Astralis | ✘ | — | — | In play | — |
 | 10-16 17:09 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
 | 10-16 17:09 | Counter-Strike 2 Game | EYEBALLERS | ✘ | — | — | In play | — |
-| 10-16 17:07 | Russia Liga Pro Match | Bogdanov Dmitry Yurevich | ✘ | — | — | In play | — |
-| 10-16 17:07 | eSoccer Game | Real Madrid (SilentShooter) | ✘ | — | — | In play | — |
-| 10-16 17:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 17:05 | Russia Liga Pro Match | Korolev Semyon Aleksandrovich | ✘ | — | — | In play | — |
+| 10-16 17:07 | Russia Liga Pro Match | Bogdanov Dmitry Yurevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 17:07 | eSoccer Game | Real Madrid (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 17:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 17:05 | Russia Liga Pro Match | Korolev Semyon Aleksandrovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 17:05 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
 | 10-16 17:05 | eSoccer Game | Nottingham Forest (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 17:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -317,21 +332,6 @@
 | 10-16 17:03 | Women's T20 Match | Southern Strikers Women | ✘ | — | — | In play | — |
 | 10-16 17:03 | eSoccer Game | Chelsea (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 17:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 17:01 | Challenger ATP  | Marco Trungelliti | ✘ | — | — | In play | — |
-| 10-16 16:59 | ITF Women's Match | Astrid Lew Yan Foon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:58 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:57 | Counter-Strike 2 Game | Young27 | ✘ | — | — | In play | — |
-| 10-16 16:56 | Romanian Liga I Game | Otelul Galati | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:55 | Counter-Strike 2 Game | Hermine Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:54 | Russia Liga Pro Match | Soldusov Oleg Yuryevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:52 | Czech National Football League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:52 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
-| 10-16 16:52 | Slovakian 2. Liga Game | FK Pohronie | ✘ | — | — | In play | — |
-| 10-16 16:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:51 | eSoccer Game | Manchester Utd (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 16:50 | Czech National Football League Game | Dukla Prague | ✘ | — | — | In play | — |
-| 10-16 16:49 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-16 16:48 | eSoccer Game | Sunderland (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
