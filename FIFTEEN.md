@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 16, 2:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 16, 2:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1660 finished bets | 1% | $81.50 | +44% | +4.91¢ | $36.00 / $45.50 |
 
-*Expect about **89 buys a day** (~$13.40/day at risk); max loss per buy **15¢**.*
+*Expect about **89 buys a day** (~$13.39/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21250 | 21243 | 80 (0%) | 1.07% | -$1,468.85 (-57%) | Hold to the close: -$1,468.85 (-57%) |
+| 21252 | 21243 | 80 (0%) | 1.07% | -$1,468.85 (-57%) | Hold to the close: -$1,468.85 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/16 2:57:47 PM | ZEC | UP | 2.2 min | -0.544% | — | In play | — |
+| 10/16 2:55:07 PM | SOL | DOWN | 4.9 min | +0.342% | — | In play | — |
 | 10/16 2:44:57 PM | EURUSD | DOWN | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 2:44:41 PM | SILVER | DOWN | 19 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/16 2:44:41 PM | BNB | DOWN | 19 sec | +0.025% | 0¢ | ❌ Lost | $0.00 |
@@ -211,8 +213,6 @@
 | 10/16 2:14:34 PM | DOGE | UP | 25 sec | -0.037% | 0¢ | ❌ Lost | $0.00 |
 | 10/16 2:14:34 PM | BTC | UP | 25 sec | -0.024% | 0¢ | ❌ Lost | $0.00 |
 | 10/16 2:14:34 PM | GOLD | UP | 25 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/16 2:14:18 PM | PLATINUM | DOWN | 41 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 2:14:18 PM | ZEC | UP | 41 sec | -0.170% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
