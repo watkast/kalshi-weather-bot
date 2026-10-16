@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 2:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 2:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15355 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15364 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14212 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14215 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5517 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5519 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 655 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | Counter-Strike 2 Game | ✘ | 653 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | eBasketball Game | ✘ | 547 | 1 | 0% | 0% | -83% | -82% | 2 min |
-| Challenger ATP  | ✘ | 465 | 2 | 10% | 3% | -60% | -83% | 5 min |
+| Challenger ATP  | ✘ | 466 | 2 | 10% | 3% | -60% | -83% | 5 min |
 | TT Star Series Match | ✘ | 308 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 195 | 0 | 1% | 1% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
@@ -295,10 +295,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 08:01 | Challenger ATP  | Tomas Machac | ✘ | — | — | In play | — |
+| 10-16 08:11 | TT Star Series Match | Alexandrov Teodor | ✘ | — | — | In play | — |
+| 10-16 08:09 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | — | In play | — |
+| 10-16 08:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 08:07 | eSoccer Game | Montpellier (Thea) | ✘ | — | — | In play | — |
+| 10-16 08:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 08:06 | eBasketball Game | New York Knicks (Davis) | ✘ | — | — | In play | — |
+| 10-16 08:06 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | — | In play | — |
+| 10-16 08:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 08:06 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | — | In play | — |
+| 10-16 08:01 | Challenger ATP  | Tomas Machac | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:57 | Mobile Legends Bang Bang Game | TNR Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:56 | eSoccer Game | OGC Nice (Mantis) | ✘ | — | — | In play | — |
-| 10-16 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 07:56 | eSoccer Game | OGC Nice (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:54 | eSoccer Game | Juventus (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:54 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -316,15 +325,6 @@
 | 10-16 07:40 | Russia Liga Pro Match | Konstantinov Sergei Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:39 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 07:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:38 | eSoccer Game | Juventus (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:38 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:38 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:37 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:29 | eSoccer Game | OGC Nice (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:29 | eSoccer Game | Strasbourg (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 07:29 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
