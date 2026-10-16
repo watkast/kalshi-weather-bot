@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 4:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 4:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15474 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15486 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14323 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14329 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5576 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5580 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 723 | 1 | 12% | 5% | -87% | -80% | 4 min |
+| ITF Women's Match | ✘ | 724 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 660 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 657 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 557 | 1 | 0% | 0% | -83% | -83% | 2 min |
@@ -165,7 +165,7 @@
 | Tweede Divisie Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | China League 1 Game | ✘ | 25 | 0 | 12% | 8% | -100% | -79% | 6 min |
-| Mobile Legends Bang Bang Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 3 min |
+| Mobile Legends Bang Bang Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Finland Korisliiga Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
@@ -295,12 +295,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 10:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 10:38 | eSoccer Game | Argentina (Thea) | ✘ | — | — | In play | — |
-| 10-16 10:36 | Mobile Legends Bang Bang Game | Team Flash KH | ✘ | — | — | In play | — |
-| 10-16 10:35 | ITF Women's Match | Sara Victoria Balan | ✘ | — | — | In play | — |
-| 10-16 10:33 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | — | In play | — |
-| 10-16 10:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 10:47 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
+| 10-16 10:46 | Russia Liga Pro Match | Chechulin Maksim Mikhailovich | ✘ | — | — | In play | — |
+| 10-16 10:46 | Women's T20 Match | Romania Women | ✘ | — | — | In play | — |
+| 10-16 10:43 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
+| 10-16 10:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 10:43 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | — | In play | — |
+| 10-16 10:43 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
+| 10-16 10:43 | Russia Liga Pro Match | Tarasenkov Nikolay Vyacheslavovich | ✘ | — | — | In play | — |
+| 10-16 10:42 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
+| 10-16 10:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 10:42 | Russia Liga Pro Match | Zelenskii Roman Iurevich | ✘ | — | — | In play | — |
+| 10-16 10:40 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | — | In play | — |
+| 10-16 10:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:38 | eSoccer Game | Argentina (Thea) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:36 | Mobile Legends Bang Bang Game | Team Flash KH | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:35 | ITF Women's Match | Sara Victoria Balan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:33 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 10:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:31 | Men's T20 Cricket Match | Imanzi Guardians | ✘ | — | — | In play | — |
 | 10-16 10:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:29 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,18 +325,6 @@
 | 10-16 10:27 | ITF Women's Match | Anja Stankovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:25 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 10:24 | ITF Women's Match | Federica Sacco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:18 | Challenger ATP  | Tom Gentzsch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:17 | Counter-Strike 2 Game | Abyssal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:16 | Counter-Strike 2 Game | Revise | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:13 | Australia NBL Game | Tasmania JackJumpers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:10 | Russia Liga Pro Match | Baibakov Vitalii Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:09 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:08 | ITF Women's Match | Iva Marinkovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:07 | Russia Liga Pro Match | Kugurushev Dmitriy Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:04 | Counter-Strike 2 Game | RoundsGG | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:02 | Czech NBL Game | BK Olomoucko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 10:01 | TT Star Series Match | Albornoz Matias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
