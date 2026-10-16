@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 16, 5:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 16, 5:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20677 | 20670 | 79 (0%) | 1.07% | -$1,410.25 (-56%) | Hold to the close: -$1,410.25 (-56%) |
+| 20681 | 20670 | 79 (0%) | 1.07% | -$1,410.25 (-56%) | Hold to the close: -$1,410.25 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/16 5:56:44 AM | DOGE | UP | 3.3 min | -0.181% | — | In play | — |
+| 10/16 5:56:12 AM | ZEC | UP | 3.8 min | -0.454% | — | In play | — |
+| 10/16 5:56:12 AM | GOLD | UP | 3.8 min | — | — | In play | — |
+| 10/16 5:54:51 AM | BNB | UP | 5.1 min | -0.195% | — | In play | — |
 | 10/16 5:44:59 AM | PLATINUM | UP | 0 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 5:44:59 AM | GOLD | UP | 0 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/16 5:44:27 AM | AUDUSD | UP | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -209,10 +213,6 @@
 | 10/16 5:27:35 AM | XRP | DOWN | 2.4 min | +0.319% | 0¢ | ❌ Lost | -$0.15 |
 | 10/16 5:27:19 AM | NEAR | DOWN | 2.7 min | +0.484% | 1¢ | ❌ Lost | -$0.15 |
 | 10/16 5:26:26 AM | BNB | DOWN | 3.5 min | +0.181% | 0¢ | ❌ Lost | -$0.15 |
-| 10/16 5:25:54 AM | BTC | DOWN | 4.1 min | +0.345% | 1¢ | ❌ Lost | -$0.15 |
-| 10/16 5:25:38 AM | HYPE | DOWN | 4.3 min | +0.329% | 1¢ | ❌ Lost | -$0.15 |
-| 10/16 5:25:21 AM | GOLD | DOWN | 4.6 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/16 5:14:40 AM | WTI | DOWN | 20 sec | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
