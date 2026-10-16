@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Thu Oct 15, 7:15 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Thu Oct 15, 10:39 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 361 | 322 | 38% | -$165.96 | -11.9% | 39 | Losing |
-| **Rain** | 114 | 98 | 40% | $61.72 | +18.8% | 16 | Promising |
+| **Temperature** | 363 | 322 | 38% | -$165.96 | -11.9% | 41 | Losing |
+| **Rain** | 115 | 98 | 40% | $61.72 | +18.8% | 17 | Promising |
 | **Longshot fade** | 953 | 948 | 93% | -$169.26 | -1.9% | 5 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,6 +44,8 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-16 | AUS 73-74 | NO | 70¢ | 97% | Open | — |
+| 2026-10-16 | AUS <73 | YES | 21¢ | 97% | Open | — |
 | 2026-10-16 | PHIL 80-81 | NO | 54¢ | 74% | Open | — |
 | 2026-10-16 | PHIL <78 | YES | 9¢ | 20% | Open | — |
 | 2026-10-16 | LAX 91-92 | YES | 7¢ | 23% | Open | — |
@@ -52,13 +54,12 @@
 | 2026-10-16 | DEN 55-56 | NO | 63¢ | 74% | Open | — |
 | 2026-10-16 | DEN <55 | YES | 13¢ | 31% | Open | — |
 | 2026-10-16 | AUS 75-76 | NO | 73¢ | 95% | Open | — |
-| 2026-10-16 | AUS 77-78 | NO | 54¢ | 99% | Open | — |
-| 2026-10-16 | AUS 79-80 | NO | 90¢ | 100% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-16 | MIN | NO | 14¢ | 37% | Open | — |
 | 2026-10-16 | MKE | YES | 69¢ | 87% | Open | — |
 | 2026-10-16 | LEX | NO | 26¢ | 40% | Open | — |
 | 2026-10-16 | DC | NO | 7¢ | 27% | Open | — |
@@ -68,7 +69,6 @@
 | 2026-10-16 | AUS | YES | 48¢ | 63% | Open | — |
 | 2026-10-16 | SEA | YES | 11¢ | 39% | Open | — |
 | 2026-10-16 | NOLA | NO | 70¢ | 82% | Open | — |
-| 2026-10-16 | MIA | YES | 52¢ | 65% | Open | — |
 
 ## The bots
 
