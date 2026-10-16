@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 9:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 9:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15761 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15763 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14600 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14610 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -104,13 +104,13 @@
 | eBasketball Game | ✘ | 570 | 1 | 0% | 0% | -84% | -83% | 2 min |
 | Challenger ATP  | ✘ | 474 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 315 | 1 | 2% | 2% | -70% | -97% | 5 min |
-| Darts Match | ✘ | 203 | 0 | 0% | 0% | -100% | -99% | 8 min |
+| Darts Match | ✘ | 204 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
-| Russia Liga Pro Match | ✘ | 183 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 186 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
-| Men's T20 Cricket Match | ✘ | 163 | 1 | 13% | 4% | -43% | -77% | 23 min |
+| Men's T20 Cricket Match | ✘ | 164 | 1 | 13% | 4% | -43% | -77% | 23 min |
 | Challenger WTA | ✘ | 148 | 0 | 12% | 5% | -100% | -79% | 8 min |
-| Dota 2 Game | ✘ | 141 | 0 | 1% | 1% | -100% | -98% | 29 min |
+| Dota 2 Game | ✘ | 142 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
@@ -266,6 +266,8 @@
 | Liga Nacional de Basquetbol Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Taca de Portugal Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 41 min |
 | Australian A League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 1 min |
+| Malaysia Super League Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 59 min |
+| UAE Pro League | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Powerslap Match Winner | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 436 min |
@@ -297,10 +299,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 15:06 | Dota 2 Game | Spirit Academy | ✘ | — | — | In play | — |
-| 10-16 15:06 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | — | In play | — |
-| 10-16 15:02 | Russia Liga Pro Match | Matveev Igor Igorevich | ✘ | — | — | In play | — |
-| 10-16 15:01 | Darts Match | Jim McEwan | ✘ | — | — | In play | — |
+| 10-16 15:10 | Russia Liga Pro Match | Poprotskii Aleksandr Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:10 | Men's T20 Cricket Match | Imena Centurions | ✘ | — | — | In play | — |
+| 10-16 15:06 | Dota 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:06 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:02 | Russia Liga Pro Match | Matveev Igor Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:01 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:00 | eSoccer Game | Olympique de Marseille (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:00 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -319,14 +323,12 @@
 | 10-16 14:54 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
 | 10-16 14:53 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
 | 10-16 14:53 | Russia Liga Pro Match | Orlov Oleg Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:50 | Men's T20 Cricket Match | South Africa Champions | ✘ | — | — | In play | — |
+| 10-16 14:50 | Men's T20 Cricket Match | South Africa Champions | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-16 14:50 | Czech National Football League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:47 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
 | 10-16 14:47 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:47 | Saudi Pro League Game | Tie | ✘ | — | — | In play | — |
 | 10-16 14:46 | Saudi Pro League Game | Abha | ✘ | — | — | In play | — |
-| 10-16 14:45 | Russia Liga Pro Match | Petrushov Sergei Valentinovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:44 | Liga Leumit Game | FC Kafr Qasim | ✘ | — | — | In play | — |
 
 ## Raw data
 
