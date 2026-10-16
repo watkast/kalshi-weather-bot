@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 8:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 8:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15036 | 1115 | 7 (1%) | 1.1% | -$69.25 (-41%) | Hold to the end: -$69.25 (-41%) |
+| 15045 | 1115 | 7 (1%) | 1.1% | -$69.25 (-41%) | Hold to the end: -$69.25 (-41%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1115 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13901 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13909 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5277 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5285 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 717 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -295,18 +295,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-16 02:10 | eSoccer Game | Dortmund (Nate) | ✘ | — | — | In play | — |
+| 10-16 02:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:10 | NHL Game | Philadelphia | ✔ | 0:08 - 3rd · PHI 1 - DET 2 | — | In play | — |
+| 10-16 02:09 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | — | In play | — |
+| 10-16 02:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:09 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | — | In play | — |
+| 10-16 02:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 02:08 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-16 02:07 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
 | 10-16 02:02 | ITF Women's Match | Arina Bulatova | ✘ | — | — | In play | — |
 | 10-16 01:59 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:59 | eSoccer Game | Arsenal (Poly) | ✘ | — | — | In play | — |
-| 10-16 01:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 01:59 | eSoccer Game | Arsenal (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:58 | eBasketball Game | New York Knicks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:56 | Russia Liga Pro Match | Olhovoi Evgenii Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:56 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 10-16 01:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 01:56 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | — | In play | — |
-| 10-16 01:55 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
-| 10-16 01:55 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
-| 10-16 01:55 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 10-16 01:56 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:56 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:55 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:55 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 01:55 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:54 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:52 | NHL Game | Seattle | ✔ | 3:43 - OT · SEA 3 - TB 3 | 0¢ | ❌ Lost | -$0.15 |
@@ -316,15 +325,6 @@
 | 10-16 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:45 | NHL Game | Vancouver | ✔ | 3:00 - OT · VAN 2 - FLA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 01:41 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:39 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:39 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:39 | Russia Liga Pro Match | Ivanov Aleksandr Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:33 | eBasketball Game | New Orleans Pelicans (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:31 | eSoccer Game | Manchester Utd (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:31 | eSoccer Game | Everton (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:27 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 01:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
