@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 9:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 9:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15782 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15791 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14626 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14630 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -99,14 +99,14 @@
 | eSoccer Game | ✘ | 5726 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 727 | 1 | 12% | 5% | -87% | -80% | 4 min |
-| Counter-Strike 2 Game | ✘ | 670 | 1 | 5% | 2% | -86% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 672 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 663 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 572 | 1 | 0% | 0% | -84% | -83% | 2 min |
 | Challenger ATP  | ✘ | 474 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 315 | 1 | 2% | 2% | -70% | -97% | 5 min |
 | Darts Match | ✘ | 205 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
-| Russia Liga Pro Match | ✘ | 191 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 192 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Women's College Volleyball Match | ✘ | 165 | 2 | 7% | 3% | +13% | -87% | 91 min |
 | Men's T20 Cricket Match | ✘ | 164 | 1 | 13% | 4% | -43% | -77% | 23 min |
 | Challenger WTA | ✘ | 148 | 0 | 12% | 5% | -100% | -79% | 8 min |
@@ -118,9 +118,9 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
+| KHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 5 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
-| KHL Game | ✘ | 62 | 0 | 3% | 2% | -100% | -94% | 5 min |
 | R6 Game | ✘ | 62 | 0 | 6% | 3% | -100% | -89% | 9 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
@@ -299,8 +299,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 15:44 | Russia Liga Pro Match | Mashchenko Aleksandr Viktorovich | ✘ | — | — | In play | — |
-| 10-16 15:44 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | — | In play | — |
+| 10-16 15:58 | Challenger ATP  | Felix Balshaw | ✘ | — | — | In play | — |
+| 10-16 15:57 | Counter-Strike 2 Game | ex-Zero Tenacity | ✘ | — | — | In play | — |
+| 10-16 15:57 | eSoccer Game | Mönchengladbach (SilentShooter) | ✘ | — | — | In play | — |
+| 10-16 15:57 | Dota 2 Game | potn9ki | ✘ | — | — | In play | — |
+| 10-16 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:56 | Darts Match | Jim McEwan | ✘ | — | — | In play | — |
+| 10-16 15:56 | Indian Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:53 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
+| 10-16 15:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:44 | Russia Liga Pro Match | Mashchenko Aleksandr Viktorovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 15:44 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:41 | Indian Super League Game | SC Delhi | ✘ | — | — | In play | — |
 | 10-16 15:40 | eBasketball Game | Brooklyn Nets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:39 | eBasketball Game | Los Angeles Lakers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -309,9 +318,9 @@
 | 10-16 15:35 | Russia Liga Pro Match | Surkin Dmitrii Evgenevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:35 | Counter-Strike 2 Game | X-CITY | ✘ | — | — | In play | — |
 | 10-16 15:32 | Darts Match | Aaron Turner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:31 | Counter-Strike 2 Game | Lavked | ✘ | — | — | In play | — |
+| 10-16 15:31 | Counter-Strike 2 Game | Lavked | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:31 | Russia Liga Pro Match | Ledenev Vladimir Lvovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:30 | Counter-Strike 2 Game | Joga de terno | ✘ | — | — | In play | — |
+| 10-16 15:30 | Counter-Strike 2 Game | Joga de terno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:29 | Russia Liga Pro Match | Martyukhin Sergey Vyacheslavovich | ✘ | — | — | In play | — |
 | 10-16 15:27 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -320,15 +329,6 @@
 | 10-16 15:18 | Darts Match | Sander van Ockenburg | ✘ | — | — | In play | — |
 | 10-16 15:10 | Russia Liga Pro Match | Poprotskii Aleksandr Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:10 | Men's T20 Cricket Match | Imena Centurions | ✘ | — | — | In play | — |
-| 10-16 15:06 | Dota 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:06 | Russia Liga Pro Match | Bespalov Nikita Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:02 | Russia Liga Pro Match | Matveev Igor Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:01 | Darts Match | Jim McEwan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:00 | eSoccer Game | Olympique de Marseille (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:00 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:57 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
