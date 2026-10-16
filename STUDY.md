@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 9:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 9:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15763 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15768 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14610 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14612 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -169,6 +169,7 @@
 | Indonesia Super League Game | ✘ | 24 | 0 | 17% | 8% | -100% | -71% | 8 min |
 | Finland Korisliiga Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
+| Saudi Pro League Game | ✘ | 22 | 0 | 23% | 14% | -100% | -61% | 15 min |
 | NWSL Game | ✔ | 20 | 0 | 15% | 0% | -100% | -74% | 10 min |
 | Slovakian Cup Game | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 22 min |
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
@@ -176,7 +177,6 @@
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | College Hockey Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Japan J League Game | ✘ | 20 | 0 | 15% | 5% | -100% | -74% | 12 min |
-| Saudi Pro League Game | ✘ | 20 | 0 | 20% | 15% | -100% | -65% | 14 min |
 | Liga MX Game | ✔ | 19 | 0 | 16% | 16% | -100% | -73% | 1 min |
 | Australia NBL Game | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 5 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
@@ -299,6 +299,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-16 15:27 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
+| 10-16 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:27 | Dota 2 Game | Execration | ✘ | — | — | In play | — |
+| 10-16 15:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 15:18 | Darts Match | Sander van Ockenburg | ✘ | — | — | In play | — |
 | 10-16 15:10 | Russia Liga Pro Match | Poprotskii Aleksandr Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 15:10 | Men's T20 Cricket Match | Imena Centurions | ✘ | — | — | In play | — |
 | 10-16 15:06 | Dota 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -324,11 +329,6 @@
 | 10-16 14:53 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
 | 10-16 14:53 | Russia Liga Pro Match | Orlov Oleg Anatolevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 14:50 | Men's T20 Cricket Match | South Africa Champions | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-16 14:50 | Czech National Football League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:47 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 10-16 14:47 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 14:47 | Saudi Pro League Game | Tie | ✘ | — | — | In play | — |
-| 10-16 14:46 | Saudi Pro League Game | Abha | ✘ | — | — | In play | — |
 
 ## Raw data
 
