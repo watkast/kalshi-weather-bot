@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 14961 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
+| 14963 | 1110 | 7 (1%) | 1.1% | -$68.50 (-41%) | Hold to the end: -$68.50 (-41%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1110 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13831 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 13840 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5234 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5241 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 717 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -115,7 +115,7 @@
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NHL Game | ✔ | 106 | 0 | 14% | 7% | -100% | -75% | 5 min |
-| Russia Liga Pro Match | ✘ | 104 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Russia Liga Pro Match | ✘ | 106 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 66 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
@@ -295,16 +295,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 00:20 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-16 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 00:21 | Russia Liga Pro Match | SHipitsyn Gennadii IUrevich | ✘ | — | — | In play | — |
+| 10-16 00:20 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 00:19 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | — | In play | — |
-| 10-16 00:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 00:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 10-16 00:18 | Russia Liga Pro Match | Kutuzov Oleg Gennadyevich | ✘ | — | — | In play | — |
-| 10-16 00:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 00:17 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
-| 10-16 00:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 00:12 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | — | In play | — |
+| 10-16 00:19 | eSoccer Game | Montpellier (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:18 | Russia Liga Pro Match | Kutuzov Oleg Gennadyevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:17 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 00:12 | Russia Liga Pro Match | Kalashnikov Evgeny Igorevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 00:03 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -323,8 +325,6 @@
 | 10-15 23:45 | Russia Liga Pro Match | Mareev Nikita Gennadevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 23:42 | ITF Men's Match | Guilherme Barbieri Renner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-15 23:41 | eSoccer Game | FC Barcelona (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-15 23:39 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
