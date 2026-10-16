@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 15, 9:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 15, 10:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15138 | 1126 | 7 (1%) | 1.1% | -$70.90 (-42%) | Hold to the end: -$70.90 (-42%) |
+| 15150 | 1126 | 7 (1%) | 1.1% | -$70.90 (-42%) | Hold to the end: -$70.90 (-42%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1126 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 13998 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14002 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5357 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5361 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | ITF Men's Match | ✘ | 653 | 1 | 12% | 6% | -86% | -80% | 5 min |
@@ -295,8 +295,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 03:52 | eSoccer Game | Liverpool (Mavi) | ✘ | — | — | In play | — |
-| 10-16 03:51 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | — | In play | — |
+| 10-16 04:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:07 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | — | In play | — |
+| 10-16 04:05 | NHL Game | Calgary | ✔ | 16:42 - 3rd · CGY 1 - VGK 4 | — | In play | — |
+| 10-16 04:03 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-16 04:03 | eSoccer Game | England (Quinnie) | ✘ | — | — | In play | — |
+| 10-16 04:02 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | — | In play | — |
+| 10-16 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 04:01 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
+| 10-16 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 03:59 | LNBP Basketball Game | Santos Del Potosi | ✘ | — | — | In play | — |
+| 10-16 03:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:58 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:52 | eSoccer Game | Liverpool (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 03:51 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:51 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:50 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,18 +325,6 @@
 | 10-16 03:35 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:35 | Counter-Strike 2 Game | Ground Zero | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 03:34 | eSoccer Game | Stuttgart (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:33 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:33 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:32 | NHL Game | Edmonton | ✔ | 0:27 - 3rd · UTA 3 - EDM 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:32 | NFL Game | Seattle | ✔ | 4:57 - OT · SEA 14 - DEN 14 | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:32 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:29 | LNBP Basketball Game | Diablos Rojos Del Mexico | ✘ | — | — | In play | — |
-| 10-16 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:23 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:23 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 03:23 | Women's College Volleyball Match | Arizona | ✘ | — | — | In play | — |
-| 10-16 03:21 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
