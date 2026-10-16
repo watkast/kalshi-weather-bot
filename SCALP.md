@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 16 10:01 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 16 10:11 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 19085 | 16589 | 2496 (28) | 0 | $-5719.12 | -4.8% |
 | **+10¢** | 14382 | 11495 | 2887 (40) | 0 | $-5162.43 | -5.7% |
 | **+15¢** | 12041 | 8937 | 3104 (59) | 0 | $-4641.11 | -6.1% |
-| **+20¢** | 10681 | 7428 | 3253 (78) | 2 | $-4114.75 | -6.1% |
+| **+20¢** | 10683 | 7430 | 3253 (78) | 0 | $-4110.80 | -6.1% |
 | **+10¢ (15¢ stop)** | 23473 | 23423 | 50 (29) | 0 | $-9052.31 | -6.2% |
 
 ## Latest trades
@@ -21,12 +21,12 @@
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
 | 10-16 10:00 | +10 stop | XRP | DOWN | 0.65 | 0.76 | 0.81 |
-| 10-16 10:00 | +20 | XRP | DOWN | 0.66 | open |  |
+| 10-16 10:00 | +20 | XRP | DOWN | 0.66 | 0.89 | 2.09 |
 | 10-16 10:00 | +15 | XRP | DOWN | 0.66 | 0.83 | 1.46 |
 | 10-16 10:00 | +10 | XRP | DOWN | 0.66 | 0.76 | 0.73 |
 | 10-16 10:00 | +5 | XRP | DOWN | 0.66 | 0.72 | 0.31 |
 | 10-16 10:00 | +10 stop | BTC | DOWN | 0.66 | 0.76 | 0.71 |
-| 10-16 10:00 | +20 | BTC | DOWN | 0.66 | open |  |
+| 10-16 10:00 | +20 | BTC | DOWN | 0.66 | 0.87 | 1.86 |
 | 10-16 10:00 | +15 | BTC | DOWN | 0.66 | 0.84 | 1.54 |
 | 10-16 10:00 | +10 | BTC | DOWN | 0.65 | 0.76 | 0.81 |
 | 10-16 10:00 | +5 | BTC | DOWN | 0.65 | 0.76 | 0.81 |
