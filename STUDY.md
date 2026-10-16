@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 3:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 3:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 15433 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
+| 15440 | 1127 | 7 (1%) | 1.1% | -$71.05 (-42%) | Hold to the end: -$71.05 (-42%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1127 | 15% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 14282 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 14291 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 5563 | 3 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 5569 | 3 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 718 | 1 | 12% | 5% | -87% | -79% | 4 min |
+| ITF Women's Match | ✘ | 719 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 657 | 1 | 5% | 2% | -86% | -92% | 11 min |
 | ITF Men's Match | ✘ | 656 | 1 | 12% | 6% | -86% | -80% | 5 min |
 | eBasketball Game | ✘ | 554 | 1 | 0% | 0% | -83% | -83% | 2 min |
@@ -111,7 +111,7 @@
 | Russia Liga Pro Match | ✘ | 145 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger WTA | ✘ | 140 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Dota 2 Game | ✘ | 135 | 0 | 1% | 1% | -100% | -97% | 29 min |
+| Dota 2 Game | ✘ | 136 | 0 | 1% | 1% | -100% | -97% | 29 min |
 | League of Legends Game | ✘ | 128 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | NHL Game | ✔ | 117 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | Serie C Game | ✘ | 113 | 1 | 4% | 2% | -17% | -92% | 8 min |
@@ -157,8 +157,8 @@
 | TFF 1. Lig Game | ✘ | 33 | 0 | 15% | 6% | -100% | -74% | 10 min |
 | EFL Championship Game | ✔ | 33 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
+| Valorant game winner | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 15 min |
 | Japan NPB Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Valorant game winner | ✘ | 30 | 0 | 7% | 3% | -100% | -88% | 15 min |
 | DEL Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Chinese Basketball Association Game  | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -295,13 +295,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-16 09:47 | eSoccer Game | Manchester City (Mordor) | ✘ | — | — | In play | — |
-| 10-16 09:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 09:46 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
-| 10-16 09:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 09:43 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
-| 10-16 09:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-16 09:41 | Valorant game winner | Team Vitality | ✘ | — | — | In play | — |
+| 10-16 09:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-16 09:57 | eSoccer Game | England (Gigi) | ✘ | — | — | In play | — |
+| 10-16 09:57 | Russia Liga Pro Match | Klavdenkov Aleksandr Aleksandrovich | ✘ | — | — | In play | — |
+| 10-16 09:57 | Mobile Legends Bang Bang Game | RRQ Hoshi | ✘ | — | — | In play | — |
+| 10-16 09:56 | ITF Men's Match | Anton Arzhankin | ✘ | — | — | In play | — |
+| 10-16 09:52 | Dota 2 Game | Direborn | ✘ | — | — | In play | — |
+| 10-16 09:52 | ITF Women's Match | Federica Urgesi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:47 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:46 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:43 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-16 09:41 | Valorant game winner | Team Vitality | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:33 | Russia Liga Pro Match | Chechulin Maksim Mikhailovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:33 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -313,18 +320,11 @@
 | 10-16 09:31 | TT Star Series Match | Chandra Jeet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:30 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:30 | eSoccer Game | Paris Saint-Germain (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:28 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
+| 10-16 09:28 | Dota 2 Game | Zero Tenacity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:28 | Russia Liga Pro Match | Baibakov Vitalii Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:25 | Russia Liga Pro Match | SHevtsov Konstantin Nikolaevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:18 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-16 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:17 | Russia Liga Pro Match | Zelenskii Roman Iurevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:17 | eSoccer Game | Paris Saint-Germain (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:17 | Overwatch Game | SEIJI ESPORTS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:14 | TT Star Series Match | Palušek Samuel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:10 | Counter-Strike 2 Game | JUMBO TEAM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-16 09:08 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
