@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 4:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 4:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17017 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
+| 17023 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1171 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15828 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15835 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6331 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6337 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 742 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -126,8 +126,8 @@
 | Argentina Primera Division Game | ✘ | 61 | 0 | 15% | 5% | -100% | -74% | 6 min |
 | WTA Tennis Match | ✘ | 60 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
+| Overwatch Game | ✘ | 59 | 0 | 3% | 0% | -100% | -94% | 5 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
-| Overwatch Game | ✘ | 58 | 0 | 3% | 0% | -100% | -94% | 5 min |
 | Ettan Game | ✘ | 57 | 0 | 7% | 2% | -100% | -88% | 6 min |
 | Argentine Nacional B Game | ✘ | 55 | 0 | 9% | 9% | -100% | -84% | 9 min |
 | Japan J2 League Game | ✘ | 54 | 0 | 15% | 6% | -100% | -74% | 7 min |
@@ -307,13 +307,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 10:10 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-17 10:18 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-17 10:16 | Russia Liga Pro Match | Ivanov Aleksandr Anatolevich | ✘ | — | — | In play | — |
+| 10-17 10:15 | Russia Liga Pro Match | Martyukhin Sergey Vyacheslavovich | ✘ | — | — | In play | — |
+| 10-17 10:15 | eSoccer Game | Manchester City (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 10:15 | eSoccer Game | Everton (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 10:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 10:10 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 10:10 | Australia NBL Game | Perth Wildcats | ✘ | — | — | In play | — |
-| 10-17 10:09 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 10-17 10:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 10:09 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 10:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 10:08 | Challenger ATP  | Shintaro Mochizuki | ✘ | — | — | In play | — |
 | 10-17 10:06 | Russia Liga Pro Match | KHarlamov Dmitrii Olegovich | ✘ | — | — | In play | — |
-| 10-17 10:05 | Overwatch Game | HUNENG | ✘ | — | — | In play | — |
+| 10-17 10:05 | Overwatch Game | HUNENG | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-17 10:03 | Russia Liga Pro Match | Iudin Anton Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 10:01 | eSoccer Game | Arsenal (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 10:01 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,12 +337,6 @@
 | 10-17 09:46 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 09:45 | eSoccer Game | FC Bayern (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 09:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:45 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:43 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:42 | Russia Liga Pro Match | Ganibaev Anton Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 09:41 | Japan B League Game | Nagasaki Velca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
