@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-10-17T13:42:05+00:00",
+ "saved_at": "2026-10-17T13:52:09+00:00",
  "windows_watched": 9,
- "trades": 24757,
+ "trades": 24764,
  "errors": [
   "2026-10-17T09:26:14+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?tickers=KXBNB15M-26OCT170530-30%2CKXXRP15M-26OCT170530-30%2CKXDOGE15M-26OCT170530-30%2CKXNEAR15M-26OCT170530-30%2CKXBTC15M-26OCT170530-30%2CKXSOL15M-26OCT170530-30%2CKXZEC15M-26OCT170530-30%2CKXETH15M-26OCT170530-30%2CKXHYPE15M-26OCT170530-30&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))"
  ]
