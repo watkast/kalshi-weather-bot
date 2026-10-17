@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 7:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 7:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 2%, hold to the end | 52 finished bets | 2% | $6.20 | +79% | +11.92¢ | -$3.90 / $10.10 |
 
-*Expect about **3 buys a day**, roughly **$0.46/day** at risk; max loss per buy **15¢**.*
+*Expect about **3 buys a day**, roughly **$0.47/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16460 | 1147 | 7 (1%) | 1.1% | -$74.05 (-43%) | Hold to the end: -$74.05 (-43%) |
+| 16473 | 1147 | 7 (1%) | 1.1% | -$74.05 (-43%) | Hold to the end: -$74.05 (-43%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1147 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15290 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15302 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6030 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6038 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 738 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 695 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -104,11 +104,11 @@
 | eBasketball Game | ✘ | 600 | 1 | 0% | 0% | -84% | -84% | 2 min |
 | Challenger ATP  | ✘ | 483 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Russia Liga Pro Match | ✘ | 256 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 257 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 219 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
+| Women's College Volleyball Match | ✘ | 171 | 2 | 7% | 3% | +9% | -88% | 87 min |
 | Men's T20 Cricket Match | ✘ | 169 | 1 | 13% | 4% | -45% | -77% | 24 min |
-| Women's College Volleyball Match | ✘ | 168 | 2 | 7% | 3% | +11% | -88% | 88 min |
 | Challenger WTA | ✘ | 150 | 0 | 12% | 5% | -100% | -79% | 8 min |
 | Dota 2 Game | ✘ | 150 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -306,14 +306,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 01:13 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | — | In play | — |
-| 10-17 01:13 | Women's College Volleyball Match | Oklahoma | ✘ | — | — | In play | — |
-| 10-17 01:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 01:12 | eSoccer Game | Botafogo (Luis) | ✘ | — | — | In play | — |
+| 10-17 01:23 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | — | In play | — |
+| 10-17 01:23 | Russia Liga Pro Match | Poidashev Artem Georgievich | ✘ | — | — | In play | — |
+| 10-17 01:20 | eSoccer Game | Manchester City (Arkon) | ✘ | — | — | In play | — |
+| 10-17 01:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 01:17 | Liga Nacional de Basquetbol Game | Obera Tenis Club | ✘ | — | — | In play | — |
+| 10-17 01:17 | NBA Game | Miami | ✔ | 1:51 - 3rd · MIA 93 - ORL 103 | — | In play | — |
+| 10-17 01:16 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 10-17 01:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 01:15 | Women's College Volleyball Match | Auburn | ✘ | — | — | In play | — |
+| 10-17 01:14 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:14 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:13 | Russia Liga Pro Match | Zubov Aleksei Andreevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:13 | Women's College Volleyball Match | Oklahoma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:12 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 01:12 | ITF Women's Match | Vivian Wolff | ✘ | — | — | In play | — |
 | 10-17 01:11 | Brasileiro Serie B Game | Sport Recife | ✘ | — | — | In play | — |
-| 10-17 01:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 01:08 | eSoccer Game | Everton (Drakon) | ✘ | — | — | In play | — |
+| 10-17 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 01:08 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 01:03 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 01:02 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -323,19 +336,6 @@
 | 10-17 00:58 | Russia Liga Pro Match | Ilyukhin Evgeniy Viktorovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 00:55 | Russia Liga Pro Match | Anisimov Evgeny Evgenevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 00:53 | Brasileiro Serie A Game | Tie | ✔ | 88' · INT 0 - MIR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:48 | Brasileiro Serie A Game | Internacional | ✔ | 82' · INT 0 - MIR 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-17 00:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:46 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:40 | ITF Men's Match | Sebastian Gorzny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:38 | Russia Liga Pro Match | Fedorov Aleksandr Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:37 | ITF Women's Match | Maria Sholokhova | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-17 00:37 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:36 | eBasketball Game | Dallas Mavericks (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:36 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:35 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:34 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
