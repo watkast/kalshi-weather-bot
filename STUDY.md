@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 6:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 6:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17183 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
+| 17214 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1171 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15984 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15992 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6413 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6415 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 745 | 1 | 12% | 5% | -87% | -79% | 4 min |
+| ITF Women's Match | ✘ | 746 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| ITF Men's Match | ✘ | 678 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 641 | 1 | 0% | 0% | -85% | -85% | 2 min |
+| ITF Men's Match | ✘ | 679 | 1 | 12% | 6% | -86% | -79% | 5 min |
+| eBasketball Game | ✘ | 642 | 1 | 0% | 0% | -85% | -85% | 2 min |
 | Challenger ATP  | ✘ | 485 | 2 | 10% | 3% | -62% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Russia Liga Pro Match | ✘ | 315 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 317 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 220 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 198 | 2 | 14% | 7% | -6% | -76% | 28 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
@@ -137,8 +137,8 @@
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Euroleague Game | ✘ | 49 | 0 | 24% | 8% | -100% | -58% | 14 min |
 | Brasileiro Serie A Game | partly | 47 | 1 | 21% | 13% | +99% | -63% | 8 min |
+| ATP Tennis Match | ✘ | 46 | 0 | 11% | 4% | -100% | -81% | 3 min |
 | LaLiga 2 Game | partly | 46 | 0 | 15% | 7% | -100% | -74% | 8 min |
-| ATP Tennis Match | ✘ | 45 | 0 | 11% | 4% | -100% | -81% | 3 min |
 | Liiga Game | ✘ | 45 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 4 min |
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
@@ -308,36 +308,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 12:43 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-17 12:43 | ATP Tennis Match | Petr Bar Biryukov | ✘ | — | — | In play | — |
-| 10-17 12:42 | Men's ODI Cricket Match | Nepal | ✘ | — | — | In play | — |
-| 10-17 12:41 | Russia VTB United Game | Dinamo Vladivostok | ✘ | — | — | In play | — |
-| 10-17 12:41 | Chinese Super League Game | Zhejiang Prof. | ✘ | — | — | In play | — |
-| 10-17 12:41 | Eliteserien Game | HamKam | ✘ | — | — | In play | — |
-| 10-17 12:40 | Latvian Virsliga Game | Tie | ✘ | — | — | In play | — |
-| 10-17 12:40 | Thai League 1 Game | Rasisalai United | ✘ | — | — | In play | — |
-| 10-17 12:37 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-17 12:37 | Bundesliga 2 Game | Bochum | ✔ | 76' · BOC 0 - FCK 2 | — | In play | — |
-| 10-17 12:35 | eSoccer Game | Nottingham Forest (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:34 | ITF Men's Match | Sergio Callejon Hernando | ✘ | — | — | In play | — |
-| 10-17 12:33 | eSoccer Game | Newcastle Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:32 | China League 1 Game | Wuxi Wugou | ✘ | — | — | In play | — |
-| 10-17 12:31 | Vietnam V-League 1 Game | Da Nang | ✘ | — | — | In play | — |
-| 10-17 12:24 | Bundesliga 2 Game | Heidenheim | ✔ | 66' · HDH 1 - WOB 3 | — | In play | — |
-| 10-17 12:21 | Bundesliga 2 Game | Braunschweig | ✔ | 63' · EBS 0 - SGF 2 | — | In play | — |
-| 10-17 12:20 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:20 | ATP Tennis Match | Joel Schwaerzler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:19 | Latvian Virsliga Game | Ogre United | ✘ | — | — | In play | — |
-| 10-17 12:17 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:16 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:16 | Chinese Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-17 12:16 | Mobile Legends Bang Bang Game | Leon Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:15 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:13 | Chinese Super League Game | Shenzhen Peng City | ✘ | — | — | In play | — |
-| 10-17 12:13 | Russia Liga Pro Match | Batalov Anatoly Vadimovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:08 | Mobile Legends Bang Bang Game | EVOS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:08 | Serie A Femminile Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 12:53 | China League 1 Game | Dalian Kun City | ✘ | — | — | In play | — |
+| 10-17 12:53 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | — | In play | — |
+| 10-17 12:53 | China League 1 Game | Ningbo Professional | ✘ | — | — | In play | — |
+| 10-17 12:53 | China League 1 Game | Suzhou Dongwu | ✘ | — | — | In play | — |
+| 10-17 12:53 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-17 12:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:52 | Vietnam V-League 1 Game | Ha Tinh FC | ✘ | — | — | In play | — |
+| 10-17 12:52 | Vietnam V-League 1 Game | Nghe An | ✘ | — | — | In play | — |
+| 10-17 12:52 | ATP Tennis Match | Harry Wendelken | ✘ | — | — | In play | — |
+| 10-17 12:51 | Chinese Super League Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:50 | Chinese Super League Game | Qingdao Hainiu | ✘ | — | — | In play | — |
+| 10-17 12:49 | eSoccer Game | Spurs (Mantis) | ✘ | — | — | In play | — |
+| 10-17 12:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:49 | Russia Liga Pro Match | Chernoskulov Fedor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 12:49 | Ettan Game | Rosengaard | ✘ | — | — | In play | — |
+| 10-17 12:49 | Ettan Game | Tvaakers | ✘ | — | — | In play | — |
+| 10-17 12:48 | Ettan Game | Angelholms | ✘ | — | — | In play | — |
+| 10-17 12:48 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:48 | China League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:47 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | — | In play | — |
+| 10-17 12:46 | eSoccer Game | 1. FC Köln (Danny) | ✘ | — | — | In play | — |
+| 10-17 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 12:46 | eBasketball Game | Denver Nuggets (Durant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 12:46 | Bundesliga 2 Game | Tie | ✔ | 88' · EBS 0 - SGF 2 | — | In play | — |
+| 10-17 12:46 | Bundesliga 2 Game | Tie | ✔ | 85' · BOC 0 - FCK 2 | — | In play | — |
+| 10-17 12:45 | Women's T20 Match | Romania Women | ✘ | — | — | In play | — |
+| 10-17 12:45 | ITF Women's Match | Luisina Giovannini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 12:45 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 12:45 | Bundesliga 2 Game | Tie | ✔ | 86' · HDH 1 - WOB 3 | — | In play | — |
+| 10-17 12:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
