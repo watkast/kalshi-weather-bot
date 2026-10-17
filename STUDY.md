@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 6:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 6:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16427 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
+| 16439 | 1145 | 7 (1%) | 1.1% | -$73.75 (-43%) | Hold to the end: -$73.75 (-43%) |
 
 *In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1145 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15259 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15271 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6015 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6021 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 737 | 1 | 12% | 5% | -87% | -80% | 4 min |
 | Counter-Strike 2 Game | ✘ | 695 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| ITF Men's Match | ✘ | 673 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 596 | 1 | 0% | 0% | -84% | -84% | 2 min |
+| ITF Men's Match | ✘ | 674 | 1 | 12% | 6% | -86% | -79% | 5 min |
+| eBasketball Game | ✘ | 598 | 1 | 0% | 0% | -84% | -84% | 2 min |
 | Challenger ATP  | ✘ | 483 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Russia Liga Pro Match | ✘ | 252 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 254 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 219 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 195 | 2 | 14% | 7% | -4% | -76% | 30 min |
 | Men's T20 Cricket Match | ✘ | 169 | 1 | 13% | 4% | -45% | -77% | 24 min |
@@ -119,7 +119,7 @@
 | Major League Soccer Game | partly | 69 | 1 | 12% | 3% | +35% | -80% | 8 min |
 | Brasileiro Serie B Game | ✘ | 68 | 0 | 6% | 1% | -100% | -90% | 10 min |
 | KHL Game | ✘ | 65 | 0 | 3% | 2% | -100% | -95% | 5 min |
-| R6 Game | ✘ | 63 | 0 | 8% | 3% | -100% | -86% | 9 min |
+| R6 Game | ✘ | 64 | 0 | 8% | 3% | -100% | -86% | 9 min |
 | AHL Game | ✘ | 63 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -306,9 +306,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 00:32 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
-| 10-17 00:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 00:32 | R6 Game | M80 | ✘ | — | — | In play | — |
+| 10-17 00:40 | ITF Men's Match | Sebastian Gorzny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:38 | Russia Liga Pro Match | Fedorov Aleksandr Sergeevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:37 | ITF Women's Match | Maria Sholokhova | ✘ | — | — | In play | — |
+| 10-17 00:37 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:36 | eBasketball Game | Dallas Mavericks (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:36 | Russia Liga Pro Match | Chernov Vyacheslav Valerevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:35 | eSoccer Game | São Paulo (Declan) | ✘ | — | — | In play | — |
+| 10-17 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 00:34 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:34 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:33 | eSoccer Game | Estudiantes (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:32 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 00:32 | R6 Game | M80 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 00:31 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
 | 10-17 00:30 | Canadian Premier League | Inter Toronto | ✘ | — | — | In play | — |
 | 10-17 00:28 | ITF Women's Match | Salma Drugdova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -324,18 +336,6 @@
 | 10-17 00:12 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 00:12 | eSoccer Game | RCD Mallorca (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 00:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:11 | Women's College Volleyball Match | Notre Dame | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:11 | League of Legends Game | Cloud9 | ✘ | — | — | In play | — |
-| 10-17 00:10 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:09 | Darts Match | Scott Mitchell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:08 | Women's College Volleyball Match | Cincinnati | ✘ | — | — | In play | — |
-| 10-17 00:08 | Russia Liga Pro Match | Lediaev Evgenii Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:08 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:06 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
-| 10-17 00:06 | Women's College Volleyball Match | Boston College | ✘ | — | — | In play | — |
-| 10-17 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:06 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 00:06 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
