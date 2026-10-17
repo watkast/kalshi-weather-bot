@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 12:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 1:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17890 | 1255 | 7 (1%) | 1.1% | -$90.25 (-48%) | Hold to the end: -$90.25 (-48%) |
+| 17897 | 1255 | 7 (1%) | 1.1% | -$90.25 (-48%) | Hold to the end: -$90.25 (-48%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1255 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16605 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16613 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,17 +96,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6598 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6600 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 747 | 1 | 12% | 5% | -88% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 708 | 1 | 5% | 2% | -87% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 709 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 682 | 1 | 12% | 6% | -86% | -79% | 5 min |
 | eBasketball Game | ✘ | 666 | 1 | 0% | 0% | -86% | -85% | 2 min |
 | Challenger ATP  | ✘ | 491 | 2 | 10% | 3% | -62% | -83% | 5 min |
-| Russia Liga Pro Match | ✘ | 365 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 367 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 220 | 0 | 0% | 0% | -100% | -99% | 8 min |
-| College Football Game | partly | 198 | 2 | 14% | 7% | -6% | -76% | 28 min |
+| College Football Game | partly | 199 | 2 | 14% | 7% | -6% | -76% | 27 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
 | Men's T20 Cricket Match | ✘ | 171 | 1 | 13% | 4% | -45% | -78% | 24 min |
 | Dota 2 Game | ✘ | 159 | 0 | 1% | 1% | -100% | -98% | 29 min |
@@ -208,6 +208,7 @@
 | LNB Elite Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Italy Serie A2 Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Ecuador Liga Pro Game | ✘ | 20 | 0 | 10% | 0% | -100% | -83% | 7 min |
+| Serbian SuperLiga Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | APF Division de Honor Game | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 5 min |
 | Czech NBL Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
@@ -219,7 +220,6 @@
 | Vietnam V-League 1 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
 | Bolivia Premier Division Game | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 5 min |
-| Serbian SuperLiga Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Turkey BSL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | Austria BSL Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 5 min |
@@ -313,15 +313,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-17 19:04 | College Football Game | Stonehill | ✘ | — | — | In play | — |
+| 10-17 19:02 | Italy Serie A2 Game | Ueb Cividale | ✘ | — | — | In play | — |
+| 10-17 19:02 | College Football Game | New Hampshire | ✘ | — | — | In play | — |
+| 10-17 19:01 | Darts Match | David Davies | ✘ | — | — | In play | — |
+| 10-17 18:59 | Russia Liga Pro Match | Korotkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:56 | Croatia Premijer Liga Game | Kk Samobor | ✘ | — | — | In play | — |
+| 10-17 18:56 | College Football Game | Brown | ✘ | — | — | In play | — |
 | 10-17 18:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 18:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 18:53 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-17 18:51 | Russia Liga Pro Match | Razinkov Timofei | ✘ | — | — | In play | — |
-| 10-17 18:51 | Serbian SuperLiga Game | Macva | ✘ | — | — | In play | — |
-| 10-17 18:51 | Serbian SuperLiga Game | Beograd | ✘ | — | — | In play | — |
+| 10-17 18:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:53 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:51 | Russia Liga Pro Match | Razinkov Timofei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:51 | Serbian SuperLiga Game | Macva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:51 | Serbian SuperLiga Game | Beograd | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:50 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:49 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:48 | Counter-Strike 2 Game | Blitzkrieg | ✘ | — | — | In play | — |
+| 10-17 18:48 | Counter-Strike 2 Game | Blitzkrieg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:48 | Men's T20 Cricket Match | Mpumalanga Rhinos | ✘ | — | — | In play | — |
 | 10-17 18:48 | Czech NBL Game | BK Gapa Hradec Kralove | ✘ | — | — | In play | — |
 | 10-17 18:48 | Israel Super League Game | Hapoel Beer Sheva | ✘ | — | — | In play | — |
@@ -336,13 +343,6 @@
 | 10-17 18:41 | Russia Liga Pro Match | Atiunin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:40 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:39 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:39 | eSoccer Game | Nottingham Forest (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:38 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
-| 10-17 18:33 | Counter-Strike 2 Game | antidaun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:30 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:30 | College Football Game | Hampton | ✘ | — | — | In play | — |
 
 ## Raw data
 
