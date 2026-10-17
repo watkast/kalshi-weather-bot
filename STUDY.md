@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 1:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 1:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16864 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
+| 16870 | 1171 | 7 (1%) | 1.1% | -$77.65 (-44%) | Hold to the end: -$77.65 (-44%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1171 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15670 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15682 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6248 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6254 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 740 | 1 | 12% | 5% | -87% | -79% | 4 min |
+| ITF Women's Match | ✘ | 741 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 674 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 620 | 1 | 0% | 0% | -85% | -84% | 2 min |
+| eBasketball Game | ✘ | 622 | 1 | 0% | 0% | -85% | -84% | 2 min |
 | Challenger ATP  | ✘ | 483 | 2 | 10% | 3% | -61% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Russia Liga Pro Match | ✘ | 281 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 282 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 220 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 198 | 2 | 14% | 7% | -6% | -76% | 28 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
@@ -255,12 +255,12 @@
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Korea KBL Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Japan B League Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Taca de Portugal Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 34 min |
 | CONMEBOL Libertadores Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 6 min |
 | Australian A League Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 7 min |
-| Japan B League Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 8 min |
 | UAE Pro League | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | Qatar Stars League | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 33 min |
 | Romanian Liga I Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 8 min |
@@ -307,17 +307,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 07:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 07:14 | Russia Liga Pro Match | Antonov Roman Vladimirovich | ✘ | — | — | In play | — |
-| 10-17 07:12 | Japan B League Game | Altiri Chiba | ✘ | — | — | In play | — |
-| 10-17 07:12 | Japan B League Game | Utsunomiya Brex | ✘ | — | — | In play | — |
-| 10-17 07:12 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-17 07:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 07:12 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | — | In play | — |
-| 10-17 07:11 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | — | In play | — |
+| 10-17 07:23 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-17 07:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 07:22 | Mobile Legends Bang Bang Game | Galaxy Legends | ✘ | — | — | In play | — |
+| 10-17 07:22 | Russia Liga Pro Match | Denisov Oleg Mihailovich | ✘ | — | — | In play | — |
+| 10-17 07:16 | ITF Men's Match | William Rejchtman Vinciguerra | ✘ | — | — | In play | — |
+| 10-17 07:14 | eSoccer Game | AS Monaco (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:14 | Russia Liga Pro Match | Antonov Roman Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:12 | Japan B League Game | Altiri Chiba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:12 | Japan B League Game | Utsunomiya Brex | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:12 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:12 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:11 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 07:09 | Russia Liga Pro Match | Belugin Oleg Vladimirovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 07:08 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
-| 10-17 07:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-17 07:08 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 07:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 07:03 | Russia Liga Pro Match | Shmakov Andrey Viktorovich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 07:01 | Korea KBL Game | Wonju DB Promy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 07:00 | eSoccer Game | Toulouse FC (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,12 +337,6 @@
 | 10-17 06:58 | Japan J2 League Game | Vortis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 06:58 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 06:58 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:57 | Japan J League Game | Marinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:57 | eSoccer Game | Real Betis (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:56 | Japan J League Game | United Chiba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:56 | Japan J2 League Game | Fujieda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 06:56 | Japan J2 League Game | Montedio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
