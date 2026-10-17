@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 16, 9:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 16, 9:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 16623 | 1161 | 7 (1%) | 1.1% | -$76.15 (-44%) | Hold to the end: -$76.15 (-44%) |
+| 16635 | 1161 | 7 (1%) | 1.1% | -$76.15 (-44%) | Hold to the end: -$76.15 (-44%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1161 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 15443 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 15449 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6118 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6122 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 739 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -107,7 +107,7 @@
 | Russia Liga Pro Match | ✘ | 264 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Darts Match | ✘ | 219 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 197 | 2 | 14% | 7% | -5% | -76% | 28 min |
-| Women's College Volleyball Match | ✘ | 178 | 2 | 7% | 3% | +5% | -88% | 85 min |
+| Women's College Volleyball Match | ✘ | 179 | 2 | 7% | 3% | +4% | -88% | 86 min |
 | Men's T20 Cricket Match | ✘ | 169 | 1 | 13% | 4% | -45% | -77% | 24 min |
 | Challenger WTA | ✘ | 150 | 0 | 12% | 5% | -100% | -79% | 8 min |
 | Dota 2 Game | ✘ | 150 | 0 | 1% | 1% | -100% | -98% | 29 min |
@@ -134,8 +134,8 @@
 | Liga DIMAYOR Game | ✘ | 49 | 1 | 12% | 4% | +90% | -79% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Euroleague Game | ✘ | 49 | 0 | 24% | 8% | -100% | -58% | 14 min |
+| WTA Tennis Match | ✘ | 47 | 0 | 11% | 0% | -100% | -82% | 3 min |
 | Brasileiro Serie A Game | partly | 47 | 1 | 21% | 13% | +99% | -63% | 8 min |
-| WTA Tennis Match | ✘ | 46 | 0 | 11% | 0% | -100% | -81% | 3 min |
 | LaLiga 2 Game | partly | 46 | 0 | 15% | 7% | -100% | -74% | 8 min |
 | Liiga Game | ✘ | 45 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | USL Championship Game | partly | 45 | 0 | 11% | 2% | -100% | -81% | 4 min |
@@ -306,15 +306,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 03:26 | WTA Tennis Match | Elina Avanesyan | ✘ | — | — | In play | — |
+| 10-17 03:38 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
+| 10-17 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 03:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 03:33 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
+| 10-17 03:33 | Women's College Volleyball Match | Indiana | ✘ | — | — | In play | — |
+| 10-17 03:33 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-17 03:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 03:33 | eSoccer Game | Mönchengladbach (Kevin) | ✘ | — | — | In play | — |
+| 10-17 03:32 | eSoccer Game | Freiburg (Rooney) | ✘ | — | — | In play | — |
+| 10-17 03:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 03:30 | NHL Game | Pittsburgh | ✔ | 4:59 - 3rd · PIT 2 - COL 4 | — | In play | — |
+| 10-17 03:30 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-17 03:26 | WTA Tennis Match | Elina Avanesyan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:25 | College Football Game | Purdue | ✔ | 4:19 - 4th · WASH 38 - PUR 26 | — | In play | — |
-| 10-17 03:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 03:22 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
+| 10-17 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 03:22 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:22 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:22 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
 | 10-17 03:21 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:20 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | — | In play | — |
-| 10-17 03:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 03:20 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:20 | College Football Game | Coastal Carolina | ✔ | 1:48 - 4th · APP 35 - CCU 32 | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:18 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -324,18 +336,6 @@
 | 10-17 03:16 | eSoccer Game | Mönchengladbach (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 03:09 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:05 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:04 | eSoccer Game | Leverkusen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:03 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 03:03 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:57 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:57 | College Football Game | Memphis | ✔ | 1:42 - 4th · MEM 17 - TULN 23 | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:56 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:56 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 02:56 | NWSL Game | Tie | ✔ | 90'+4' · LOU 1 - BOS 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
