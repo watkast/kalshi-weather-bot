@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Oct 17 18:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Oct 17 18:15 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -12,8 +12,8 @@
 |---|---|---|---|---|---|---|
 | **+5¢** | 21365 | 18610 | 2755 (29) | 0 | $-6142.52 | -4.6% |
 | **+10¢** | 16066 | 12882 | 3184 (41) | 1 | $-5482.05 | -5.4% |
-| **+15¢** | 13436 | 10005 | 3431 (61) | 2 | $-4964.77 | -5.9% |
-| **+20¢** | 11904 | 8308 | 3596 (80) | 3 | $-4416.96 | -5.9% |
+| **+15¢** | 13437 | 10005 | 3432 (61) | 1 | $-4970.55 | -5.9% |
+| **+20¢** | 11906 | 8309 | 3597 (80) | 1 | $-4420.91 | -5.9% |
 | **+10¢ (15¢ stop)** | 26221 | 26171 | 50 (29) | 0 | $-9989.41 | -6.1% |
 
 ## Latest trades
@@ -35,7 +35,7 @@
 | 10-17 18:01 | +10 | NEAR | UP | 0.65 | 0.82 | 1.43 |
 | 10-17 18:01 | +5 | NEAR | UP | 0.65 | 0.82 | 1.43 |
 | 10-17 18:01 | +10 stop | ETH | UP | 0.71 | 0.85 | 1.16 |
-| 10-17 18:01 | +20 | ETH | UP | 0.71 | open |  |
+| 10-17 18:01 | +20 | ETH | UP | 0.71 | 0.91 | 1.83 |
 | 10-17 18:01 | +15 | ETH | UP | 0.71 | 0.89 | 1.58 |
 | 10-17 18:01 | +10 | ETH | UP | 0.71 | 0.85 | 1.16 |
 | 10-17 18:00 | +10 stop | DOGE | UP | 0.68 | 0.79 | 0.84 |
@@ -49,8 +49,8 @@
 | 10-17 18:00 | +10 | SOL | UP | 0.71 | 0.86 | 1.26 |
 | 10-17 18:00 | +5 | SOL | UP | 0.71 | 0.79 | 0.53 |
 | 10-17 18:00 | +10 stop | ZEC | DOWN | 0.56 | 0.70 | 1.07 |
-| 10-17 18:00 | +20 | ZEC | DOWN | 0.56 | open |  |
-| 10-17 18:00 | +15 | ZEC | DOWN | 0.56 | open |  |
+| 10-17 18:00 | +20 | ZEC | DOWN | 0.56 | yes | -5.78 |
+| 10-17 18:00 | +15 | ZEC | DOWN | 0.56 | yes | -5.78 |
 | 10-17 18:00 | +10 | ZEC | DOWN | 0.55 | 0.70 | 1.17 |
 | 10-17 18:00 | +5 | ZEC | DOWN | 0.55 | 0.70 | 1.17 |
 | 10-17 18:00 | +10 stop | BTC | UP | 0.71 | 0.82 | 0.84 |
