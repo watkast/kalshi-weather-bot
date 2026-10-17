@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 5:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 5:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18276 | 1292 | 7 (1%) | 1.1% | -$95.80 (-49%) | Hold to the end: -$95.80 (-49%) |
+| 18283 | 1292 | 7 (1%) | 1.1% | -$95.80 (-49%) | Hold to the end: -$95.80 (-49%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1292 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16955 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16965 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6733 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6741 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 749 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 683 | 1 | 12% | 6% | -86% | -78% | 5 min |
-| eBasketball Game | ✘ | 680 | 1 | 0% | 0% | -86% | -86% | 2 min |
+| eBasketball Game | ✘ | 682 | 1 | 0% | 0% | -86% | -86% | 2 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
 | Russia Liga Pro Match | ✘ | 395 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -315,22 +315,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-17 23:53 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 10-17 23:53 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | — | In play | — |
+| 10-17 23:52 | eSoccer Game | Flamengo (Kylian) | ✘ | — | — | In play | — |
+| 10-17 23:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 23:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 23:50 | eSoccer Game | São Paulo (Luis) | ✘ | — | — | In play | — |
+| 10-17 23:50 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
 | 10-17 23:44 | College Football Game | Murray St. | ✘ | — | — | In play | — |
-| 10-17 23:43 | eSoccer Game | RC Celta (Drakon) | ✘ | — | — | In play | — |
+| 10-17 23:43 | eSoccer Game | RC Celta (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:41 | Liga DIMAYOR Game | Jaguares | ✘ | — | — | In play | — |
-| 10-17 23:41 | eBasketball Game | Brooklyn Nets (Kyle) | ✘ | — | — | In play | — |
+| 10-17 23:41 | eBasketball Game | Brooklyn Nets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:41 | College Football Game | Wagner | ✘ | — | — | In play | — |
-| 10-17 23:40 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | — | In play | — |
+| 10-17 23:40 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:40 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 23:37 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 10-17 23:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 23:37 | eSoccer Game | Botafogo (Rooney) | ✘ | — | — | In play | — |
+| 10-17 23:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 23:37 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 23:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 23:37 | eSoccer Game | Botafogo (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:36 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:36 | eSoccer Game | Estudiantes (Luis) | ✘ | — | — | In play | — |
+| 10-17 23:36 | eSoccer Game | Estudiantes (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:35 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:34 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 10-17 23:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 23:34 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 23:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:30 | NHL Game | Seattle | ✔ | 6:56 - 2nd · SEA 1 - FLA 5 | — | In play | — |
 | 10-17 23:29 | eSoccer Game | FC Barcelona (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -338,13 +345,6 @@
 | 10-17 23:26 | AHL Game | Rochester Americans | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:26 | Ecuador Liga Pro Game | LDU Quito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 23:26 | Ecuador Liga Pro Game | Aucas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 23:24 | College Football Game | Washington St. | ✔ | 3:59 - 2nd · WSU 3 - ORST 27 | — | In play | — |
 
 ## Raw data
 
