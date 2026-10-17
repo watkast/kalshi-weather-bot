@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sat Oct 17, 1:20 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Sat Oct 17, 2:42 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,7 +20,7 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 399 | 358 | 38% | -$195.37 | -12.6% | 41 | Losing |
+| **Temperature** | 405 | 363 | 38% | -$186.37 | -11.9% | 42 | Losing |
 | **Rain** | 124 | 115 | 41% | $75.68 | +19.2% | 9 | Promising |
 | **Longshot fade** | 953 | 948 | 93% | -$169.26 | -1.9% | 5 | Break-even |
 
@@ -44,16 +44,16 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-18 | LAX 82-83 | YES | 14¢ | 26% | Open | — |
+| 2026-10-18 | DEN 74-75 | NO | 50¢ | 77% | Open | — |
+| 2026-10-18 | AUS 71-72 | YES | 5¢ | 19% | Open | — |
+| 2026-10-18 | MIA 84-85 | NO | 66¢ | 81% | Open | — |
+| 2026-10-18 | MIA <80 | YES | 5¢ | 20% | Open | — |
+| 2026-10-18 | NY 60-61 | YES | 6¢ | 23% | Open | — |
 | 2026-10-18 | PHIL 58-59 | YES | 11¢ | 26% | Open | — |
 | 2026-10-18 | PHIL 60-61 | NO | 56¢ | 81% | Open | — |
 | 2026-10-18 | PHIL 62-63 | NO | 63¢ | 91% | Open | — |
 | 2026-10-18 | LAX 80-81 | YES | 6¢ | 19% | Open | — |
-| 2026-10-18 | LAX 84-85 | NO | 67¢ | 77% | Open | — |
-| 2026-10-18 | LAX >85 | NO | 67¢ | 80% | Open | — |
-| 2026-10-18 | DEN 72-73 | YES | 10¢ | 23% | Open | — |
-| 2026-10-18 | DEN 76-77 | NO | 60¢ | 81% | Open | — |
-| 2026-10-18 | AUS 73-74 | NO | 64¢ | 74% | Open | — |
-| 2026-10-18 | AUS 75-76 | NO | 50¢ | 77% | Open | — |
 
 ## Latest rain bets
 
