@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 7:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 7:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17238 | 1177 | 7 (1%) | 1.1% | -$78.55 (-44%) | Hold to the end: -$78.55 (-44%) |
+| 17260 | 1177 | 7 (1%) | 1.1% | -$78.55 (-44%) | Hold to the end: -$78.55 (-44%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1177 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16030 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16041 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6423 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6431 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 746 | 1 | 12% | 5% | -87% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 679 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 643 | 1 | 0% | 0% | -85% | -85% | 2 min |
+| eBasketball Game | ✘ | 645 | 1 | 0% | 0% | -86% | -85% | 2 min |
 | Challenger ATP  | ✘ | 486 | 2 | 10% | 3% | -62% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Russia Liga Pro Match | ✘ | 320 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -109,8 +109,8 @@
 | College Football Game | partly | 198 | 2 | 14% | 7% | -6% | -76% | 28 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
 | Men's T20 Cricket Match | ✘ | 169 | 1 | 13% | 4% | -45% | -77% | 24 min |
+| Challenger WTA | ✘ | 154 | 0 | 12% | 5% | -100% | -79% | 8 min |
 | Dota 2 Game | ✘ | 154 | 0 | 1% | 1% | -100% | -98% | 29 min |
-| Challenger WTA | ✘ | 153 | 0 | 12% | 5% | -100% | -80% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 131 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | NHL Game | ✔ | 119 | 0 | 13% | 6% | -100% | -78% | 5 min |
@@ -308,36 +308,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 13:14 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 10-17 13:24 | EFL League One Game | Burton | ✔ | 90'+7' · BRT 2 - PET 2 | — | In play | — |
+| 10-17 13:24 | EFL Championship Game | Lincoln | ✔ | 90'+6' · LCN 2 - MIL 2 | — | In play | — |
+| 10-17 13:24 | Chinese Basketball Association Game  | Ningbo Rockets | ✘ | — | — | In play | — |
+| 10-17 13:24 | China League 1 Game | Changchun Yatai | ✘ | — | — | In play | — |
+| 10-17 13:24 | China League 1 Game | Guangxi Hengchen FC | ✘ | — | — | In play | — |
+| 10-17 13:24 | English Premier League Game | Tie | ✔ | 90'+3' · CHE 2 - EVE 0 | — | In play | — |
+| 10-17 13:23 | EFL Championship Game | Millwall | ✔ | 90'+6' · LCN 2 - MIL 2 | — | In play | — |
+| 10-17 13:23 | EFL League One Game | Tie | ✔ | 90'+6' · LTN 1 - MKD 2 | — | In play | — |
+| 10-17 13:23 | EFL Championship Game | Middlesbrough | ✔ | 90'+4' · CAR 2 - MID 2 | — | In play | — |
+| 10-17 13:22 | Men's T20 Cricket Match | BD CC Lisbon | ✘ | — | — | In play | — |
+| 10-17 13:21 | English Premier League Game | Everton | ✔ | 90'+1' · CHE 1 - EVE 0 | — | In play | — |
+| 10-17 13:21 | EFL Championship Game | Cardiff | ✔ | 90'+2' · CAR 2 - MID 2 | — | In play | — |
+| 10-17 13:20 | EFL Championship Game | Tie | ✔ | 90'+3' · CHA 0 - WAT 1 | — | In play | — |
+| 10-17 13:20 | Challenger WTA | Jessica Bouzas Maneiro | ✘ | — | — | In play | — |
+| 10-17 13:20 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-17 13:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 13:20 | EFL League One Game | Peterborough | ✔ | 90'+3' · BRT 2 - PET 1 | — | In play | — |
+| 10-17 13:19 | eSoccer Game | Rennes (Bradley) | ✘ | — | — | In play | — |
+| 10-17 13:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 13:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 13:17 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 10-17 13:16 | EFL League One Game | Luton | ✔ | 90' · LTN 1 - MKD 2 | — | In play | — |
+| 10-17 13:14 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 13:14 | LaLiga 2 Game | Real Sociedad B | ✘ | — | — | In play | — |
-| 10-17 13:13 | Challenger WTA | Martyna Kubka | ✘ | — | — | In play | — |
+| 10-17 13:13 | Challenger WTA | Martyna Kubka | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 10-17 13:13 | EFL Championship Game | Charlton | ✔ | 86' · CHA 0 - WAT 1 | — | In play | — |
-| 10-17 13:12 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | — | In play | — |
-| 10-17 13:11 | eSoccer Game | FC Koln (Kovboj) | ✘ | — | — | In play | — |
-| 10-17 13:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 13:12 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 13:11 | eSoccer Game | FC Koln (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 13:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 13:10 | Indian Super League Game | Inter Kashi | ✘ | — | — | In play | — |
-| 10-17 13:09 | Dota 2 Game | PuckChamp | ✘ | — | — | In play | — |
-| 10-17 13:08 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 13:08 | eSoccer Game | Toulouse FC (Kylian) | ✘ | — | — | In play | — |
-| 10-17 13:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 13:06 | eSoccer Game | Rennes (Bradley) | ✘ | — | — | In play | — |
-| 10-17 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 13:06 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 10-17 13:06 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
-| 10-17 13:04 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 13:04 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 13:04 | Russia Liga Pro Match | Chekanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 13:01 | Women's ODI Cricket Match | Western Province Women | ✘ | — | — | In play | — |
-| 10-17 13:00 | Chinese Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-17 12:59 | Challenger ATP  | Felix Gill | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:58 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:56 | KHL Game | Sibir Novosibirsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | China League 1 Game | Dalian Kun City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | China League 1 Game | Ningbo Professional | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | China League 1 Game | Suzhou Dongwu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 12:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
