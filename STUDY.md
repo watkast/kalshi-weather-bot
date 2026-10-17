@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 4:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 4:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18150 | 1279 | 7 (1%) | 1.1% | -$93.85 (-49%) | Hold to the end: -$93.85 (-49%) |
+| 18163 | 1279 | 7 (1%) | 1.1% | -$93.85 (-49%) | Hold to the end: -$93.85 (-49%) |
 
 *In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1279 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16841 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16854 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6680 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6682 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 748 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| ITF Men's Match | ✘ | 682 | 1 | 12% | 6% | -86% | -79% | 5 min |
+| ITF Men's Match | ✘ | 683 | 1 | 12% | 6% | -86% | -78% | 5 min |
 | eBasketball Game | ✘ | 675 | 1 | 0% | 0% | -86% | -86% | 2 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
-| Russia Liga Pro Match | ✘ | 385 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 387 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| College Football Game | partly | 225 | 2 | 13% | 7% | -17% | -77% | 25 min |
+| College Football Game | partly | 226 | 2 | 13% | 7% | -17% | -77% | 24 min |
 | Darts Match | ✘ | 221 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
 | Men's T20 Cricket Match | ✘ | 172 | 1 | 13% | 4% | -46% | -78% | 24 min |
@@ -179,6 +179,7 @@
 | La Liga Game | ✔ | 28 | 0 | 32% | 21% | -100% | -44% | 1 min |
 | Czech National Football League Game | ✘ | 27 | 0 | 11% | 11% | -100% | -81% | 10 min |
 | Serie A Game | ✔ | 27 | 0 | 7% | 7% | -100% | -87% | 11 min |
+| Peru Liga 1 Game | ✘ | 26 | 0 | 19% | 15% | -100% | -67% | 8 min |
 | Korea K-League 2 Game | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 6 min |
 | Saudi Pro League Game | ✘ | 26 | 0 | 19% | 12% | -100% | -67% | 14 min |
 | Turkish Super Lig Game | ✘ | 26 | 0 | 12% | 0% | -100% | -80% | 13 min |
@@ -191,7 +192,6 @@
 | Chinese Super League Game | ✘ | 25 | 0 | 8% | 4% | -100% | -86% | 27 min |
 | Czech First League Game | ✘ | 25 | 0 | 16% | 0% | -100% | -72% | 9 min |
 | NWSL Game | ✔ | 24 | 0 | 12% | 0% | -100% | -78% | 7 min |
-| Peru Liga 1 Game | ✘ | 24 | 0 | 21% | 17% | -100% | -64% | 7 min |
 | Thai League 1 Game | ✘ | 24 | 0 | 21% | 4% | -100% | -64% | 8 min |
 | English Premier League Game | ✔ | 24 | 0 | 17% | 8% | -100% | -71% | 9 min |
 | Israeli Premier League Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -220,10 +220,12 @@
 | Serie A Femminile Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Vietnam V-League 1 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
+| Venezuela Liga FUTVE game | ✘ | 18 | 0 | 17% | 11% | -100% | -71% | 9 min |
 | Austria BSL Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 5 min |
 | Turkey BSL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | Scottish Premiership Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 10 min |
+| Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
 | Chile Liga de Primera Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 12 min |
 | England Women's Super League Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 39 min |
 | Liga Portugal Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 10 min |
@@ -232,8 +234,6 @@
 | Copa Del Rey Game | ✘ | 15 | 0 | 7% | 7% | -100% | -88% | 34 min |
 | Croatia HNL Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 16 min |
 | Slovenian Prva Liga Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 6 min |
-| Venezuela Liga FUTVE game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 11 min |
-| Brasileiro Serie C Game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 5 min |
 | Women's Pro Basketball Game | ✔ | 14 | 0 | 21% | 7% | -100% | -63% | 6 min |
 | Women's ODI Cricket Match | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 56 min |
 | Slovakia SBL Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 21 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 21:59 | ITF Men's Match | Lui Maxted | ✘ | — | — | In play | — |
-| 10-17 21:58 | Venezuela Liga FUTVE game | Tie | ✘ | — | — | In play | — |
-| 10-17 21:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 21:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 10-17 21:56 | Venezuela Liga FUTVE game | La Guaira | ✘ | — | — | In play | — |
+| 10-17 22:11 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-17 22:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 22:09 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 22:08 | College Football Game | Bucknell | ✘ | — | — | In play | — |
+| 10-17 22:07 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 22:06 | College Football Game | Gardner-Webb | ✘ | — | — | In play | — |
+| 10-17 22:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 22:06 | Bolivia Premier Division Game | San Antonio Bulo Bulo | ✘ | — | — | In play | — |
+| 10-17 22:06 | eSoccer Game | Sevilla FC (Arkon) | ✘ | — | — | In play | — |
+| 10-17 22:03 | College Football Game | Fordham | ✘ | — | — | In play | — |
+| 10-17 22:03 | Women's College Volleyball Match | Utah | ✘ | — | — | In play | — |
+| 10-17 22:02 | Brasileiro Serie C Game | Reg Time: Maringa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 22:01 | College Football Game | Grambling St. | ✘ | — | — | In play | — |
+| 10-17 21:59 | ITF Men's Match | Lui Maxted | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-17 21:58 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 21:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 21:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 21:56 | Venezuela Liga FUTVE game | La Guaira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:55 | CFL Game | Montreal Alouettes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:55 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-17 21:55 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:54 | Men's T20 Cricket Match | Atlanta Lightning | ✘ | — | — | In play | — |
 | 10-17 21:54 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
-| 10-17 21:53 | College Football Game | Eastern Illinois | ✘ | — | — | In play | — |
+| 10-17 21:53 | College Football Game | Eastern Illinois | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:51 | APF Division de Honor Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:51 | Women's Pro Basketball Game | Atlanta | ✔ | 4.1 - 4th · ATL 64 - GS 68 | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:50 | eBasketball Game | Dallas Mavericks (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:49 | Venezuela Liga FUTVE game | Tie | ✘ | — | — | In play | — |
+| 10-17 21:49 | Venezuela Liga FUTVE game | Tie | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 10-17 21:49 | eSoccer Game | Real Sociedad (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 21:49 | eSoccer Game | Universitario (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:49 | Peru Liga 1 Game | Sport Boys | ✘ | — | — | In play | — |
-| 10-17 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:46 | Venezuela Liga FUTVE game | Zamora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:45 | eSoccer Game | Manchester City (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:45 | Liga DIMAYOR Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-17 21:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:45 | Brasileiro Serie C Game | Reg Time: Ferroviaria | ✘ | — | — | In play | — |
-| 10-17 21:44 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:44 | APF Division de Honor Game | Club Guarani | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-17 21:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 21:42 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
