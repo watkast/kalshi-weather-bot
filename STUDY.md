@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 1:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 1:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17897 | 1255 | 7 (1%) | 1.1% | -$90.25 (-48%) | Hold to the end: -$90.25 (-48%) |
+| 17908 | 1255 | 7 (1%) | 1.1% | -$90.25 (-48%) | Hold to the end: -$90.25 (-48%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1255 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16613 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16621 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -192,6 +192,7 @@
 | English Premier League Game | ✔ | 24 | 0 | 17% | 8% | -100% | -71% | 9 min |
 | Israeli Premier League Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Taca de Portugal Game | ✘ | 24 | 0 | 12% | 4% | -100% | -78% | 7 min |
+| Canadian Premier League | ✘ | 23 | 1 | 22% | 22% | +306% | -62% | 29 min |
 | Bundesliga Game | ✔ | 23 | 1 | 13% | 13% | +306% | -77% | 5 min |
 | Sweden SBL Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Adriatic ABA Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -201,7 +202,7 @@
 | Ligue 1 Game | ✔ | 22 | 0 | 18% | 9% | -100% | -68% | 10 min |
 | Australia NBL Game | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 6 min |
 | Men's ODI Cricket Match | ✘ | 21 | 0 | 10% | 0% | -100% | -83% | 24 min |
-| Canadian Premier League | ✘ | 21 | 1 | 24% | 24% | +344% | -59% | 29 min |
+| Czech NBL Game | ✘ | 21 | 0 | 5% | 0% | -100% | -92% | 16 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Slovakian Cup Game | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 22 min |
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
@@ -210,7 +211,6 @@
 | Ecuador Liga Pro Game | ✘ | 20 | 0 | 10% | 0% | -100% | -83% | 7 min |
 | Serbian SuperLiga Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | APF Division de Honor Game | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 5 min |
-| Czech NBL Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
 | Spain Liga ACB Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 17 min |
@@ -220,9 +220,9 @@
 | Vietnam V-League 1 Game | ✘ | 18 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
 | Bolivia Premier Division Game | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 5 min |
+| Austria BSL Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 5 min |
 | Turkey BSL Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Italy Serie A Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 6 min |
-| Austria BSL Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 5 min |
 | Chile Liga de Primera Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 12 min |
 | England Women's Super League Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 39 min |
 | Liga Portugal Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 10 min |
@@ -239,13 +239,13 @@
 | Venezuela Liga FUTVE game | ✘ | 14 | 0 | 14% | 7% | -100% | -75% | 10 min |
 | Egyptian Premier League Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Women's Pro Basketball Game | ✔ | 13 | 0 | 23% | 8% | -100% | -60% | 6 min |
+| Croatia Premijer Liga Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 19 min |
 | Latvian Virsliga Game | ✘ | 13 | 0 | 23% | 8% | -100% | -60% | 18 min |
-| Croatia Premijer Liga Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 20 min |
+| Slovenia 1. SKL Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 17 min |
 | LKL Lithuania Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Singapore Premier League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 12 min |
 | Swiss Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 28 min |
 | FIBA Europe Cup Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 10 min |
-| Slovenia 1. SKL Game | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 15 min |
 | England Super League Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | CFL Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Eredivisie Vrouwen Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 22 min |
@@ -286,6 +286,7 @@
 | Philippines PBA Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | GBL Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Women's Bundesliga Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Israel Super League Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 19 min |
 
 ## By time left when it hit 1¢
 
@@ -313,12 +314,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-17 19:15 | Darts Match | Brian Raman | ✘ | — | — | In play | — |
+| 10-17 19:14 | College Football Game | Yale | ✘ | — | — | In play | — |
+| 10-17 19:14 | Serie B Game | Cremonese | ✘ | — | — | In play | — |
+| 10-17 19:14 | Slovenia 1. SKL Game | Šentjur | ✘ | — | — | In play | — |
+| 10-17 19:14 | NHL Game | New Jersey | ✔ | 9:08 - 3rd · NJ 1 - WSH 4 | — | In play | — |
+| 10-17 19:13 | Austrian Bundesliga Game | Tie | ✘ | — | — | In play | — |
+| 10-17 19:13 | Adriatic ABA Game | Igokea Aleksandrovac | ✘ | — | — | In play | — |
+| 10-17 19:11 | Austrian Bundesliga Game | Austria | ✘ | — | — | In play | — |
+| 10-17 19:11 | Russia Liga Pro Match | Afanasev Ivan | ✘ | — | — | In play | — |
+| 10-17 19:08 | England Super League Basketball Game | Leicester Riders | ✘ | — | — | In play | — |
+| 10-17 19:06 | College Football Game | Robert Morris | ✘ | — | — | In play | — |
 | 10-17 19:04 | College Football Game | Stonehill | ✘ | — | — | In play | — |
 | 10-17 19:02 | Italy Serie A2 Game | Ueb Cividale | ✘ | — | — | In play | — |
 | 10-17 19:02 | College Football Game | New Hampshire | ✘ | — | — | In play | — |
 | 10-17 19:01 | Darts Match | David Davies | ✘ | — | — | In play | — |
 | 10-17 18:59 | Russia Liga Pro Match | Korotkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:56 | Croatia Premijer Liga Game | Kk Samobor | ✘ | — | — | In play | — |
+| 10-17 18:56 | Croatia Premijer Liga Game | Kk Samobor | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-17 18:56 | College Football Game | Brown | ✘ | — | — | In play | — |
 | 10-17 18:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-17 18:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -330,19 +342,8 @@
 | 10-17 18:49 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:48 | Counter-Strike 2 Game | Blitzkrieg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 18:48 | Men's T20 Cricket Match | Mpumalanga Rhinos | ✘ | — | — | In play | — |
-| 10-17 18:48 | Czech NBL Game | BK Gapa Hradec Kralove | ✘ | — | — | In play | — |
-| 10-17 18:48 | Israel Super League Game | Hapoel Beer Sheva | ✘ | — | — | In play | — |
-| 10-17 18:47 | Slovenia 1. SKL Game | Nova Gorica Mladi | ✘ | — | — | In play | — |
-| 10-17 18:45 | Canadian Premier League | Tie | ✘ | — | — | In play | — |
-| 10-17 18:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:44 | eSoccer Game | Liverpool (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:44 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | — | In play | — |
-| 10-17 18:44 | Czech NBL Game | BK Opava | ✘ | — | — | In play | — |
-| 10-17 18:41 | Qatar Stars League | Lusail City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:41 | Qatar Stars League | Al-Shamal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:41 | Russia Liga Pro Match | Atiunin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:40 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 18:39 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:48 | Czech NBL Game | BK Gapa Hradec Kralove | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 18:48 | Israel Super League Game | Hapoel Beer Sheva | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
