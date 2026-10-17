@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Oct 17 10:01 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Oct 17 10:11 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,16 +10,21 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 20788 | 18084 | 2704 (29) | 0 | $-6124.46 | -4.7% |
-| **+10¢** | 15660 | 12545 | 3115 (41) | 0 | $-5420.02 | -5.5% |
-| **+15¢** | 13094 | 9742 | 3352 (61) | 0 | $-4888.69 | -6.0% |
-| **+20¢** | 11604 | 8094 | 3510 (80) | 0 | $-4323.31 | -5.9% |
-| **+10¢ (15¢ stop)** | 25558 | 25508 | 50 (29) | 0 | $-9748.43 | -6.1% |
+| **+5¢** | 20789 | 18085 | 2704 (29) | 0 | $-6124.09 | -4.7% |
+| **+10¢** | 15661 | 12546 | 3115 (41) | 0 | $-5418.82 | -5.5% |
+| **+15¢** | 13095 | 9743 | 3352 (61) | 0 | $-4887.49 | -5.9% |
+| **+20¢** | 11605 | 8095 | 3510 (80) | 0 | $-4321.49 | -5.9% |
+| **+10¢ (15¢ stop)** | 25559 | 25509 | 50 (29) | 0 | $-9747.23 | -6.1% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 10-17 10:05 | +10 stop | NEAR | DOWN | 0.61 | 0.76 | 1.20 |
+| 10-17 10:05 | +20 | NEAR | DOWN | 0.61 | 0.82 | 1.82 |
+| 10-17 10:05 | +15 | NEAR | DOWN | 0.61 | 0.76 | 1.20 |
+| 10-17 10:05 | +10 | NEAR | DOWN | 0.61 | 0.76 | 1.20 |
+| 10-17 10:05 | +5 | NEAR | DOWN | 0.61 | 0.68 | 0.37 |
 | 10-17 09:58 | +10 stop | HYPE | UP | 0.59 | 0.44 | -1.85 |
 | 10-17 09:58 | +20 | HYPE | UP | 0.59 | no | -6.07 |
 | 10-17 09:58 | +15 | HYPE | UP | 0.59 | no | -6.07 |
@@ -55,8 +60,3 @@
 | 10-17 09:47 | +10 stop | XRP | UP | 0.68 | 0.45 | -2.64 |
 | 10-17 09:47 | +10 | XRP | UP | 0.68 | 0.78 | 0.71 |
 | 10-17 09:47 | +5 | XRP | UP | 0.68 | 0.78 | 0.71 |
-| 10-17 09:47 | +10 stop | ETH | UP | 0.70 | 0.54 | -1.93 |
-| 10-17 09:47 | +20 | ETH | UP | 0.69 | 0.94 | 2.28 |
-| 10-17 09:47 | +15 | ETH | UP | 0.70 | 0.86 | 1.36 |
-| 10-17 09:47 | +10 | ETH | UP | 0.70 | 0.86 | 1.36 |
-| 10-17 09:47 | +5 | ETH | UP | 0.70 | 0.76 | 0.32 |
