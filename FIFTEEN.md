@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 17, 4:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 17, 4:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1743 finished bets | 1% | $72.65 | +38% | +4.17¢ | $31.50 / $41.15 |
 
-*Expect about **91 buys a day** (~$13.65/day at risk); max loss per buy **15¢**.*
+*Expect about **91 buys a day** (~$13.64/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21752 | 21745 | 82 (0%) | 1.07% | -$1,495.75 (-57%) | Hold to the close: -$1,495.75 (-57%) |
+| 21753 | 21745 | 82 (0%) | 1.07% | -$1,495.75 (-57%) | Hold to the close: -$1,495.75 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/17 4:41:17 AM | ETH | DOWN | 3.7 min | +0.118% | — | In play | — |
 | 10/17 4:29:29 AM | NEAR | DOWN | 30 sec | -0.045% | 0¢ | ❌ Lost | -$0.15 |
 | 10/17 4:29:13 AM | HYPE | UP | 47 sec | -0.019% | 1¢ | ❌ Lost | -$0.15 |
 | 10/17 4:29:13 AM | BNB | DOWN | 47 sec | +0.001% | 1¢ | ❌ Lost | -$0.15 |
@@ -212,7 +213,6 @@
 | 10/17 3:53:47 AM | NEAR | DOWN | 6.2 min | +0.835% | 1¢ | ❌ Lost | -$0.15 |
 | 10/17 3:53:30 AM | ETH | DOWN | 6.5 min | +0.197% | 1¢ | ❌ Lost | -$0.15 |
 | 10/17 3:44:44 AM | ETH | DOWN | 16 sec | +0.028% | 0¢ | ❌ Lost | -$0.15 |
-| 10/17 3:44:44 AM | DOGE | DOWN | 16 sec | -0.006% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
