@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 9:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 9:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 17509 | 1193 | 7 (1%) | 1.1% | -$80.95 (-45%) | Hold to the end: -$80.95 (-45%) |
+| 17531 | 1193 | 7 (1%) | 1.1% | -$80.95 (-45%) | Hold to the end: -$80.95 (-45%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1193 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 16280 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 16289 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6494 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6498 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 746 | 1 | 12% | 5% | -87% | -79% | 4 min |
-| Counter-Strike 2 Game | ✘ | 697 | 1 | 5% | 2% | -87% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 698 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 680 | 1 | 12% | 6% | -86% | -79% | 5 min |
-| eBasketball Game | ✘ | 651 | 1 | 0% | 0% | -86% | -85% | 2 min |
+| eBasketball Game | ✘ | 653 | 1 | 0% | 0% | -86% | -85% | 2 min |
 | Challenger ATP  | ✘ | 489 | 2 | 10% | 3% | -62% | -83% | 5 min |
-| Russia Liga Pro Match | ✘ | 339 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 340 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 220 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | College Football Game | partly | 198 | 2 | 14% | 7% | -6% | -76% | 28 min |
 | Women's College Volleyball Match | ✘ | 185 | 2 | 7% | 3% | +1% | -88% | 81 min |
 | Men's T20 Cricket Match | ✘ | 170 | 1 | 13% | 4% | -45% | -78% | 24 min |
-| Dota 2 Game | ✘ | 157 | 0 | 1% | 1% | -100% | -98% | 29 min |
+| Dota 2 Game | ✘ | 158 | 0 | 1% | 1% | -100% | -98% | 29 min |
 | Challenger WTA | ✘ | 155 | 0 | 12% | 5% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 131 | 0 | 8% | 2% | -100% | -87% | 11 min |
@@ -310,36 +310,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-17 15:19 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | — | In play | — |
+| 10-17 15:29 | English Premier League Game | Ipswich Town | ✔ | 69' · IPS 1 - MNC 2 | — | In play | — |
+| 10-17 15:28 | South African Premiership Game | Tie | ✘ | — | — | In play | — |
+| 10-17 15:28 | eSoccer Game | Manchester City (Rooney) | ✘ | — | — | In play | — |
+| 10-17 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 15:27 | eSoccer Game | FC Bayern (Zaroth) | ✘ | — | — | In play | — |
+| 10-17 15:27 | South African Premiership Game | Chippa Utd | ✘ | — | — | In play | — |
+| 10-17 15:25 | Bundesliga Game | Dortmund | ✔ | 90'+6' · DOR 0 - FCU 0 | — | In play | — |
+| 10-17 15:25 | Bundesliga Game | Union Berlin | ✔ | 90'+5' · DOR 0 - FCU 0 | — | In play | — |
+| 10-17 15:24 | SHL Game | HV71 | ✘ | — | — | In play | — |
+| 10-17 15:24 | Ettan Game | Karlbergs | ✘ | — | — | In play | — |
+| 10-17 15:24 | South African Premiership Game | Tie | ✘ | — | — | In play | — |
+| 10-17 15:23 | Bundesliga Game | Tie | ✔ | 90'+5' · M05 1 - S04 0 | — | In play | — |
+| 10-17 15:23 | eSoccer Game | Chelsea (Castle) | ✘ | — | — | In play | — |
+| 10-17 15:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 15:23 | EFL League One Game | Doncaster | ✔ | 65' · DON 0 - LEI 2 | — | In play | — |
+| 10-17 15:23 | EFL Championship Game | Tie | ✔ | 64' · PNE 1 - WXM 3 | — | In play | — |
+| 10-17 15:22 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 10-17 15:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-17 15:22 | Bundesliga Game | Paderborn | ✔ | 90'+5' · SCP 2 - SVW 2 | — | In play | — |
+| 10-17 15:22 | Bundesliga Game | Bremen | ✔ | 90'+5' · SCP 2 - SVW 2 | — | In play | — |
+| 10-17 15:22 | Bundesliga Game | Tie | ✔ | 90'+3' · VFB 0 - HSV 1 | — | In play | — |
+| 10-17 15:22 | South African Premiership Game | Arrows | ✘ | — | — | In play | — |
+| 10-17 15:19 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-17 15:18 | EFL Championship Game | Preston | ✔ | 60' · PNE 1 - WXM 3 | — | In play | — |
 | 10-17 15:18 | Bundesliga Game | Stuttgart | ✔ | 89' · VFB 0 - HSV 0 | — | In play | — |
 | 10-17 15:15 | EFL League One Game | Tie | ✔ | 57' · WIM 0 - SHW 4 | — | In play | — |
 | 10-17 15:15 | Bundesliga Game | Schalke | ✔ | 87' · M05 1 - S04 0 | — | In play | — |
-| 10-17 15:13 | eSoccer Game | Werder Bremen (Kovboj) | ✘ | — | — | In play | — |
-| 10-17 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 15:11 | eSoccer Game | Strasbourg (Castle) | ✘ | — | — | In play | — |
-| 10-17 15:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-17 15:11 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | — | In play | — |
-| 10-17 15:10 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:10 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | — | In play | — |
-| 10-17 15:10 | Counter-Strike 2 Game | Revise | ✘ | — | — | In play | — |
-| 10-17 15:10 | Russia Liga Pro Match | Afanasev Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:10 | EFL Championship Game | QPR | ✔ | 52' · QPR 0 - BIR 2 | — | In play | — |
-| 10-17 15:09 | Bundesliga Game | Augsburg | ✔ | 72' · FCA 1 - ELV 3 | — | In play | — |
-| 10-17 15:09 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:05 | Dota 2 Game | by Owl Team | ✘ | — | — | In play | — |
-| 10-17 15:04 | Tweede Divisie Game | Katwijk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:04 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:02 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 15:02 | Russia Liga Pro Match | Surikov Viacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 14:58 | eSoccer Game | Leverkusen (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 14:58 | Challenger WTA | Lucie Havlickova | ✘ | — | — | In play | — |
-| 10-17 14:58 | Tweede Divisie Game | Quick Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 14:58 | Tweede Divisie Game | Spakenburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-17 14:57 | eSoccer Game | Spurs (Millie) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
+| 10-17 15:13 | eSoccer Game | Werder Bremen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-17 15:11 | eSoccer Game | Strasbourg (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
