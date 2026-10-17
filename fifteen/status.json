@@ -1,20 +1,20 @@
 {
- "saved_at": "2026-10-17T08:36:51+00:00",
+ "saved_at": "2026-10-17T08:49:00+00:00",
  "series": 31,
  "markets_watched": 9,
  "batch_lookup": true,
- "bets": 21573,
+ "bets": 21582,
  "open": 0,
  "coinbase_spot": {
   "XRP": true,
-  "BTC": true,
   "DOGE": true,
-  "HYPE": true,
-  "BNB": true,
-  "ETH": true,
   "NEAR": true,
+  "BTC": true,
+  "ETH": true,
   "SOL": true,
-  "ZEC": true
+  "ZEC": true,
+  "BNB": true,
+  "HYPE": true
  },
  "errors": []
 }
