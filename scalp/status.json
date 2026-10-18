@@ -1,11 +1,6 @@
 {
- "saved_at": "2026-10-18T23:44:18+00:00",
+ "saved_at": "2026-10-18T23:56:23+00:00",
  "windows_watched": 9,
- "trades": 96688,
- "errors": [
-  "2026-10-18T20:14:48+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)",
-  "2026-10-18T20:15:20+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)",
-  "2026-10-18T20:15:52+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)",
-  "2026-10-18T20:16:30+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)"
- ]
+ "trades": 96761,
+ "errors": []
 }
