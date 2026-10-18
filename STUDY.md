@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 3:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 3:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20024 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
+| 20035 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1447 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 18539 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18559 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,18 +96,18 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7409 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7419 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 792 | 1 | 13% | 5% | -88% | -78% | 4 min |
-| eBasketball Game | ✘ | 751 | 1 | 0% | 0% | -88% | -87% | 2 min |
+| eBasketball Game | ✘ | 752 | 1 | 0% | 0% | -88% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 737 | 1 | 4% | 2% | -87% | -92% | 12 min |
-| ITF Men's Match | ✘ | 721 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 537 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ITF Men's Match | ✘ | 722 | 1 | 12% | 6% | -87% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 538 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 532 | 2 | 10% | 4% | -65% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
-| Women's College Volleyball Match | ✘ | 201 | 2 | 6% | 3% | -7% | -89% | 77 min |
+| Women's College Volleyball Match | ✘ | 202 | 2 | 6% | 3% | -8% | -89% | 76 min |
 | Men's T20 Cricket Match | ✘ | 179 | 1 | 12% | 4% | -48% | -79% | 25 min |
 | Dota 2 Game | ✘ | 167 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 164 | 2 | 5% | 3% | +14% | -92% | 8 min |
@@ -140,9 +140,9 @@
 | EFL Championship Game | ✔ | 53 | 0 | 8% | 4% | -100% | -87% | 8 min |
 | KBO Game | ✘ | 52 | 0 | 10% | 6% | -100% | -83% | 4 min |
 | Liiga Game | ✘ | 52 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Uruguay Primera Division Game | ✘ | 50 | 0 | 6% | 4% | -100% | -90% | 10 min |
 | Liga Leumit Game | ✘ | 50 | 0 | 2% | 2% | -100% | -97% | 64 min |
-| Taca de Portugal Game | ✘ | 50 | 0 | 14% | 4% | -100% | -76% | 13 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Euroleague Game | ✘ | 49 | 0 | 24% | 8% | -100% | -58% | 14 min |
 | National League Game | ✘ | 49 | 1 | 2% | 2% | +90% | -96% | 5 min |
@@ -210,6 +210,7 @@
 | LNB Elite Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Serie A Femminile Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Italy Serie A Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
+| Venezuela Liga FUTVE game | ✘ | 24 | 0 | 17% | 12% | -100% | -71% | 7 min |
 | APF Division de Honor Game | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 5 min |
 | Australia NBL Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 6 min |
 | Men's ODI Cricket Match | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 27 min |
@@ -223,7 +224,6 @@
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
 | Russia VTB United Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 13 min |
 | Faroe Islands Premier League Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 131 min |
-| Venezuela Liga FUTVE game | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 8 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
 | Croatia HNL Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 16 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 21:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 21:21 | eSoccer Game | Real Sociedad (Arlo) | ✘ | — | — | In play | — |
-| 10-18 21:21 | ITF Men's Match | Carlos Eduardo Lino | ✘ | — | — | In play | — |
-| 10-18 21:19 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
-| 10-18 21:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 21:19 | Venezuela Liga FUTVE game | Rayo Zuliano | ✘ | — | — | In play | — |
+| 10-18 21:31 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | — | In play | — |
+| 10-18 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:30 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-18 21:27 | Venezuela Liga FUTVE game | Academia Puerto Cabello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:27 | Venezuela Liga FUTVE game | Monagas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:27 | Venezuela Liga FUTVE game | Portuguesa | ✘ | — | — | In play | — |
+| 10-18 21:27 | Venezuela Liga FUTVE game | UCV | ✘ | — | — | In play | — |
+| 10-18 21:26 | Venezuela Liga FUTVE game | Est. Merida | ✘ | — | — | In play | — |
+| 10-18 21:24 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:22 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:21 | eSoccer Game | Real Sociedad (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:21 | ITF Men's Match | Carlos Eduardo Lino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:19 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:19 | Venezuela Liga FUTVE game | Rayo Zuliano | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-18 21:19 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:18 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 10-18 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 21:18 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | — | In play | — |
-| 10-18 21:18 | eSoccer Game | Universitario (Kevin) | ✘ | — | — | In play | — |
+| 10-18 21:18 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:18 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:18 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:18 | Men's T20 Cricket Match | Atlanta Fire | ✘ | — | — | In play | — |
-| 10-18 21:16 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | — | In play | — |
-| 10-18 21:16 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 10-18 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:16 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:16 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:15 | Peru Liga 1 Game | Alianza Atletico | ✘ | — | — | In play | — |
 | 10-18 21:15 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:13 | APF Division de Honor Game | Sportivo Ameliano | ✘ | — | — | In play | — |
 | 10-18 21:13 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:12 | Challenger ATP  | Mateo Del Pino | ✘ | — | — | In play | — |
-| 10-18 21:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:09 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:07 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:07 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:06 | AHL Game | Hershey Bears | ✘ | — | — | In play | — |
-| 10-18 21:05 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:05 | Venezuela Liga FUTVE game | Metropolitanos | ✘ | — | — | In play | — |
-| 10-18 21:04 | eSoccer Game | River Plate (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
