@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 3:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 3:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18843 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
+| 18856 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1370 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17448 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17460 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7013 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7022 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 757 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 714 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| eBasketball Game | ✘ | 712 | 1 | 0% | 0% | -87% | -86% | 2 min |
+| eBasketball Game | ✘ | 714 | 1 | 0% | 0% | -87% | -86% | 2 min |
 | ITF Men's Match | ✘ | 687 | 1 | 12% | 6% | -86% | -79% | 5 min |
 | Challenger ATP  | ✘ | 501 | 2 | 10% | 4% | -63% | -82% | 5 min |
-| Russia Liga Pro Match | ✘ | 437 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 438 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 09:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 09:04 | eSoccer Game | Manchester City (PinkElephant) | ✘ | — | — | In play | — |
-| 10-18 09:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 09:04 | eBasketball Game | Indiana Pacers (Durant) | ✘ | — | — | In play | — |
-| 10-18 09:03 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
-| 10-18 09:03 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
-| 10-18 09:03 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
-| 10-18 09:02 | eSoccer Game | Paris Saint-Germain (Fede) | ✘ | — | — | In play | — |
-| 10-18 09:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 09:20 | Russia Liga Pro Match | Burmakin IUrii | ✘ | — | — | In play | — |
+| 10-18 09:20 | eSoccer Game | Crystal Palace (Mordor) | ✘ | — | — | In play | — |
+| 10-18 09:19 | eSoccer Game | Manchester City (Homie) | ✘ | — | — | In play | — |
+| 10-18 09:19 | Korea K League Game | FC Anyang | ✘ | — | — | In play | — |
+| 10-18 09:19 | Korea K League Game | Pohang Steelers | ✘ | — | — | In play | — |
+| 10-18 09:18 | eSoccer Game | Manchester City (PinkElephant) | ✘ | — | — | In play | — |
+| 10-18 09:18 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | — | In play | — |
+| 10-18 09:17 | eSoccer Game | Paris Saint-Germain (Bony) | ✘ | — | — | In play | — |
+| 10-18 09:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 09:14 | Russia Liga Pro Match | Chahur Vladislav | ✘ | — | — | In play | — |
+| 10-18 09:14 | Korea K-League 2 Game | Jeonnam | ✘ | — | — | In play | — |
+| 10-18 09:12 | Russia Liga Pro Match | Alov Roman | ✘ | — | — | In play | — |
+| 10-18 09:11 | Men's T20 Cricket Match | Falcoes | ✘ | — | — | In play | — |
+| 10-18 09:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:04 | eSoccer Game | Manchester City (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:04 | eBasketball Game | Indiana Pacers (Durant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:03 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:03 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:03 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:02 | eSoccer Game | Paris Saint-Germain (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:02 | ITF Men's Match | Taentawan Taddeo Majoli Maggioli | ✘ | — | — | In play | — |
-| 10-18 09:01 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
-| 10-18 09:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 09:01 | Russia Liga Pro Match | Kogotkov Sergei | ✘ | — | — | In play | — |
+| 10-18 09:01 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 09:01 | Russia Liga Pro Match | Kogotkov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 08:59 | Mobile Legends Bang Bang Game | Alter Ego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 08:59 | ITF Men's Match | Aditya Kothari | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 08:58 | Russia Liga Pro Match | Shulkov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 08:53 | Russia Liga Pro Match | KHomiakov Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:50 | Challenger ATP  | Matteo Sciahbasi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:49 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:48 | eSoccer Game | Leverkusen (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:47 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:46 | China League 1 Game | Guandong GZ-Power FC | ✘ | — | — | In play | — |
-| 10-18 08:40 | ITF Women's Match | Guyu Xu | ✘ | — | — | In play | — |
-| 10-18 08:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:37 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:36 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:35 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 08:35 | eSoccer Game | FC Bayern (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
