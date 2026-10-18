@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 5:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 5:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18998 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
+| 19010 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
 
 *In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1370 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17603 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17615 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7090 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7096 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 763 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | eBasketball Game | ✘ | 722 | 1 | 0% | 0% | -87% | -87% | 2 min |
-| Counter-Strike 2 Game | ✘ | 717 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| ITF Men's Match | ✘ | 692 | 1 | 12% | 6% | -87% | -79% | 5 min |
+| Counter-Strike 2 Game | ✘ | 718 | 1 | 5% | 2% | -87% | -92% | 11 min |
+| ITF Men's Match | ✘ | 694 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Challenger ATP  | ✘ | 506 | 2 | 10% | 4% | -63% | -82% | 5 min |
-| Russia Liga Pro Match | ✘ | 461 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 463 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 190 | 2 | 7% | 3% | -2% | -88% | 80 min |
 | Men's T20 Cricket Match | ✘ | 174 | 1 | 13% | 4% | -46% | -78% | 25 min |
 | Dota 2 Game | ✘ | 164 | 0 | 1% | 1% | -100% | -98% | 30 min |
-| Challenger WTA | ✘ | 157 | 0 | 12% | 4% | -100% | -79% | 8 min |
+| Challenger WTA | ✘ | 158 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Serie C Game | ✘ | 135 | 1 | 5% | 3% | -31% | -91% | 8 min |
 | NHL Game | ✔ | 133 | 0 | 13% | 6% | -100% | -78% | 5 min |
@@ -315,13 +315,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 11:44 | Spain Liga ACB Game | Caprabo Lleida | ✘ | — | — | In play | — |
+| 10-18 11:44 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-18 11:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:40 | Russia Liga Pro Match | Vologzhanin Vladimir | ✘ | — | — | In play | — |
+| 10-18 11:37 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:37 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:37 | Eredivisie Vrouwen Game | Ajax | ✘ | — | — | In play | — |
+| 10-18 11:36 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:35 | eSoccer Game | Werder Bremen (Bony) | ✘ | — | — | In play | — |
+| 10-18 11:35 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | — | In play | — |
+| 10-18 11:35 | Challenger WTA | Leyre Romero Gormaz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:33 | ATP Tennis Match | Aleksandr Shevchenko | ✘ | — | — | In play | — |
-| 10-18 11:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 11:33 | eSoccer Game | Leverkusen (PinkElephant) | ✘ | — | — | In play | — |
-| 10-18 11:33 | ITF Men's Match | Alberto Morolli | ✘ | — | — | In play | — |
-| 10-18 11:33 | ITF Men's Match | Romain Andres | ✘ | — | — | In play | — |
-| 10-18 11:31 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-18 11:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:33 | eSoccer Game | Leverkusen (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:33 | ITF Men's Match | Alberto Morolli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:33 | ITF Men's Match | Romain Andres | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-18 11:31 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:24 | Mobile Legends Bang Bang Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:23 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:23 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -333,18 +345,6 @@
 | 10-18 11:17 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:16 | Ettan Game | Utsiktens | ✘ | — | — | In play | — |
 | 10-18 11:16 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:15 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:15 | Russia Liga Pro Match | Amelichkin Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:14 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:13 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
-| 10-18 11:10 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:07 | ATP Tennis Match | Rafael Jodar | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-18 11:07 | eSoccer Game | Freiburg (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:07 | eSoccer Game | Frankfurt (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:05 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:05 | eSoccer Game | RB Leipzig (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
