@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Oct 18 15:52 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Oct 18 16:02 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 15308 | 13249 | 2059 (59) | 2 | $-811.41 | -0.9% |
-| **20¢+ jump, ride past +5¢** | 9453 | 5225 | 4228 (1863) | 2 | $-2943.29 | -4.9% |
+| **20¢+ jump, sell +5¢** | 15310 | 13250 | 2060 (59) | 0 | $-815.69 | -0.9% |
+| **20¢+ jump, ride past +5¢** | 9455 | 5225 | 4230 (1864) | 0 | $-2946.40 | -4.9% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,12 +18,12 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 15:51 | J20 | BNB | UP | 23¢ | 0.81 | open |  |
+| 10-18 15:51 | J20 | BNB | UP | 23¢ | 0.81 | 0.93 | 1.00 |
 | 10-18 15:51 | J20 | BNB | UP | 23¢ | 0.75 | 0.83 | 0.56 |
-| 10-18 15:51 | J20R | BNB | UP | 23¢ | 0.77 | open |  |
+| 10-18 15:51 | J20R | BNB | UP | 23¢ | 0.77 | yes | 2.17 |
 | 10-18 15:51 | J20 | BNB | UP | 23¢ | 0.77 | 0.83 | 0.37 |
-| 10-18 15:48 | J20R | BTC | DOWN | 20¢ | 0.51 | open |  |
-| 10-18 15:48 | J20 | BTC | DOWN | 20¢ | 0.51 | open |  |
+| 10-18 15:48 | J20R | BTC | DOWN | 20¢ | 0.51 | yes | -5.28 |
+| 10-18 15:48 | J20 | BTC | DOWN | 20¢ | 0.51 | yes | -5.28 |
 | 10-18 15:40 | J20R | NEAR | DOWN | 23¢ | 0.28 | 0.39 | 0.78 |
 | 10-18 15:40 | J20 | NEAR | DOWN | 23¢ | 0.28 | 0.46 | 1.47 |
 | 10-18 15:35 | J20R | XRP | DOWN | 34¢ | 0.73 | 0.83 | 0.76 |
