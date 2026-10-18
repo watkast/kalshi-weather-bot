@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 6:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 6:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19097 | 1374 | 7 (1%) | 1.1% | -$108.10 (-52%) | Hold to the end: -$108.10 (-52%) |
+| 19108 | 1374 | 7 (1%) | 1.1% | -$108.10 (-52%) | Hold to the end: -$108.10 (-52%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1374 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17691 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17697 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7130 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7134 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 764 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | eBasketball Game | ✘ | 726 | 1 | 0% | 0% | -87% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 718 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 695 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Challenger ATP  | ✘ | 509 | 2 | 10% | 4% | -63% | -82% | 5 min |
-| Russia Liga Pro Match | ✘ | 467 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 468 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -158,8 +158,8 @@
 | ELH Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | TFF 1. Lig Game | ✘ | 39 | 0 | 13% | 5% | -100% | -78% | 8 min |
 | China League 1 Game | ✘ | 37 | 0 | 8% | 5% | -100% | -86% | 9 min |
+| Women's T20 Match | ✘ | 37 | 0 | 19% | 11% | -100% | -67% | 25 min |
 | UEFA Champions League Game | partly | 37 | 1 | 14% | 5% | +152% | -77% | 12 min |
-| Women's T20 Match | ✘ | 36 | 0 | 17% | 8% | -100% | -71% | 24 min |
 | UEFA Conference League Game | partly | 36 | 0 | 19% | 8% | -100% | -66% | 10 min |
 | Liga MX Game | ✔ | 35 | 0 | 11% | 9% | -100% | -80% | 2 min |
 | DEL Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 12:38 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | — | In play | — |
+| 10-18 12:48 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
+| 10-18 12:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 12:47 | Czech First League Game | Tie | ✘ | — | — | In play | — |
+| 10-18 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 12:46 | eSoccer Game | Werder Bremen (PinkElephant) | ✘ | — | — | In play | — |
+| 10-18 12:46 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | — | In play | — |
+| 10-18 12:43 | eSoccer Game | Hoffenheim (Fede) | ✘ | — | — | In play | — |
+| 10-18 12:43 | eSoccer Game | Leverkusen (Bony) | ✘ | — | — | In play | — |
+| 10-18 12:42 | Russia Liga Pro Match | Amelichkin Igor | ✘ | — | — | In play | — |
+| 10-18 12:40 | Bundesliga 2 Game | Darmstadt | ✔ | 52' · SVD 0 - KSC 3 | — | In play | — |
+| 10-18 12:39 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 10-18 12:38 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:38 | England Women's Super League Game | Crystal Palace | ✘ | — | — | In play | — |
 | 10-18 12:38 | Ettan Game | Tie | ✘ | — | — | In play | — |
 | 10-18 12:38 | Counter-Strike 2 Game | Bushido Wildcats | ✘ | — | — | In play | — |
 | 10-18 12:37 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
 | 10-18 12:37 | Chinese Super League Game | Qingdao West Coast FC | ✘ | — | — | In play | — |
 | 10-18 12:36 | Czech First League Game | Slovacko Uherske H. | ✘ | — | — | In play | — |
-| 10-18 12:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 12:34 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | — | In play | — |
+| 10-18 12:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 12:34 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:34 | Thai League 1 Game | Bangkok Utd | ✘ | — | — | In play | — |
 | 10-18 12:34 | Ettan Game | Vasalunds | ✘ | — | — | In play | — |
 | 10-18 12:33 | Danish Superliga Game | Tie | ✘ | — | — | In play | — |
-| 10-18 12:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 12:31 | eSoccer Game | FC Bayern (PinkElephant) | ✘ | — | — | In play | — |
+| 10-18 12:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 12:31 | eSoccer Game | FC Bayern (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:30 | Russia Liga Pro Match | Pogrebinskii Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:30 | eSoccer Game | Hoffenheim (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:27 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 12:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:26 | Challenger ATP  | Adrian Andreev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:25 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:25 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:25 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:23 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-18 12:23 | Danish Superliga Game | Silkeborg | ✘ | — | — | In play | — |
-| 10-18 12:22 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:20 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:20 | Serie C Game | Pesaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 12:20 | Mobile Legends Bang Bang Game | Galaxy Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
