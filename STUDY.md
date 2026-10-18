@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 9:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 9:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18519 | 1350 | 7 (1%) | 1.1% | -$104.50 (-52%) | Hold to the end: -$104.50 (-52%) |
+| 18531 | 1350 | 7 (1%) | 1.1% | -$104.50 (-52%) | Hold to the end: -$104.50 (-52%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1350 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17150 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17158 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6838 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6844 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -171,12 +171,12 @@
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
 | Women's T20 Match | ✘ | 31 | 0 | 19% | 10% | -100% | -66% | 25 min |
 | NWSL Game | ✔ | 30 | 0 | 10% | 0% | -100% | -83% | 7 min |
+| Peru Liga 1 Game | ✘ | 30 | 0 | 17% | 13% | -100% | -71% | 10 min |
 | Bundesliga 2 Game | ✔ | 30 | 0 | 17% | 7% | -100% | -71% | 7 min |
 | Serie B Game | ✘ | 30 | 0 | 13% | 10% | -100% | -77% | 11 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Polish Ekstraklasa Game | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 9 min |
 | Finland Korisliiga Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Peru Liga 1 Game | ✘ | 28 | 0 | 18% | 14% | -100% | -69% | 10 min |
 | LNB Elite 2 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Indonesia Super League Game | ✘ | 28 | 0 | 14% | 7% | -100% | -75% | 8 min |
 | La Liga Game | ✔ | 28 | 0 | 32% | 21% | -100% | -44% | 1 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 03:30 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-18 03:41 | USL Championship Game | Tie | ✔ | 74' · PHX 3 - OCSC 0 | — | In play | — |
+| 10-18 03:39 | AHL Game | Coachella Valley Firebirds | ✘ | — | — | In play | — |
+| 10-18 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:37 | NHL Game | Utah | ✔ | 5:15 - 2nd · EDM 5 - UTA 0 | — | In play | — |
+| 10-18 03:36 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
+| 10-18 03:36 | Liga MX Game | Juarez | ✔ | 24' · JUA 0 - CAZ 1 | — | In play | — |
+| 10-18 03:35 | eSoccer Game | Stuttgart (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:35 | NHL Game | Pittsburgh | ✔ | 4:57 - 2nd · PIT 1 - VGK 5 | — | In play | — |
+| 10-18 03:32 | eSoccer Game | Mönchengladbach (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:30 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:26 | College Football Game | UTEP | ✔ | 2:07 - 3rd · SJSU 21 - UTEP 3 | — | In play | — |
 | 10-18 03:25 | USL Championship Game | Orange County | ✔ | 58' · PHX 3 - OCSC 0 | — | In play | — |
 | 10-18 03:22 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:21 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:20 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:20 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:20 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:19 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:19 | College Football Game | Notre Dame | ✔ | End of 4th · ND 24 - BYU 28 | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:17 | Peru Liga 1 Game | Atletico Grau | ✘ | — | — | In play | — |
+| 10-18 03:17 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-18 03:10 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:07 | eSoccer Game | FC Augsburg (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:07 | eSoccer Game | Leverkusen (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:06 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:06 | eSoccer Game | France (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:04 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:03 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:01 | WTA Tennis Match | Taylah Preston | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:00 | USL Championship Game | Tie | ✔ | 90'+5' · SAC 1 - ELP 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:59 | Liga Expansion Game | Venados | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:59 | AHL Game | Iowa Wild | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:59 | Liga MX Game | Tie | ✔ | 89' · AME 4 - LEO 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:59 | Liga Expansion Game | Cancun FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:58 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
