@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 8:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 8:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18448 | 1329 | 7 (1%) | 1.1% | -$101.35 (-51%) | Hold to the end: -$101.35 (-51%) |
+| 18460 | 1329 | 7 (1%) | 1.1% | -$101.35 (-51%) | Hold to the end: -$101.35 (-51%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1329 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17090 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17099 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6805 | 4 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6807 | 4 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -105,7 +105,7 @@
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
 | Russia Liga Pro Match | ✘ | 406 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| College Football Game | partly | 247 | 2 | 14% | 7% | -24% | -76% | 24 min |
+| College Football Game | partly | 253 | 2 | 13% | 7% | -26% | -77% | 24 min |
 | Darts Match | ✘ | 222 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 190 | 2 | 7% | 3% | -2% | -88% | 80 min |
 | Men's T20 Cricket Match | ✘ | 173 | 1 | 13% | 4% | -46% | -78% | 25 min |
@@ -168,7 +168,7 @@
 | Chinese Basketball Association Game  | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Valorant game winner | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
-| Women's T20 Match | ✘ | 30 | 0 | 20% | 10% | -100% | -65% | 24 min |
+| Women's T20 Match | ✘ | 31 | 0 | 19% | 10% | -100% | -66% | 25 min |
 | Bundesliga 2 Game | ✔ | 30 | 0 | 17% | 7% | -100% | -71% | 7 min |
 | Serie B Game | ✘ | 30 | 0 | 13% | 10% | -100% | -77% | 11 min |
 | Liga MX Game | ✔ | 29 | 0 | 14% | 10% | -100% | -76% | 1 min |
@@ -315,11 +315,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 02:17 | College Football Game | North Alabama | ✘ | — | — | In play | — |
+| 10-18 02:29 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | — | In play | — |
+| 10-18 02:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:29 | USL Championship Game | New Mexico United | ✔ | 88' · NMU 0 - SAFC 1 | — | In play | — |
+| 10-18 02:28 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:27 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
+| 10-18 02:25 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 10-18 02:25 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | — | In play | — |
+| 10-18 02:25 | Major League Soccer Game | Tie | ✔ | 85' · RSL 3 - SKC 1 | — | In play | — |
+| 10-18 02:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:22 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 10-18 02:22 | Major League Soccer Game | Austin | ✔ | 84' · VAN 2 - ATX 1 | — | In play | — |
+| 10-18 02:22 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 10-18 02:17 | College Football Game | North Alabama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:16 | NHL Game | St. Louis | ✔ | 10:53 - 3rd · STL 2 - NSH 5 | — | In play | — |
 | 10-18 02:12 | College Football Game | Nevada | ✔ | 8:00 - 4th · NEV 17 - NDSU 31 | — | In play | — |
-| 10-18 02:12 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
-| 10-18 02:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:12 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:10 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -332,19 +344,7 @@
 | 10-18 02:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:00 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 0 - SAO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:00 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:59 | College Football Game | Portland St. | ✘ | — | — | In play | — |
-| 10-18 01:58 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:58 | eSoccer Game | Tie | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
-| 10-18 01:58 | NHL Game | New York R | ✔ | End of OT · NYR 0 - CBJ 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:57 | eSoccer Game | Universitario (Kylian) | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
-| 10-18 01:56 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:56 | USL Championship Game | Tie | ✔ | 90'+1' · OAK 4 - TUL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:55 | NHL Game | San Jose | ✔ | In SO · SJ 3 - DET 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:55 | AHL Game | Colorado Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:54 | College Football Game | Central Arkansas | ✘ | — | — | In play | — |
-| 10-18 01:52 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 01:59 | College Football Game | Portland St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
