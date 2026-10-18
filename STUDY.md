@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 8:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 8:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18439 | 1329 | 7 (1%) | 1.1% | -$101.35 (-51%) | Hold to the end: -$101.35 (-51%) |
+| 18448 | 1329 | 7 (1%) | 1.1% | -$101.35 (-51%) | Hold to the end: -$101.35 (-51%) |
 
 *In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1329 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17081 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17090 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6798 | 4 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6805 | 4 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
@@ -107,7 +107,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 247 | 2 | 14% | 7% | -24% | -76% | 24 min |
 | Darts Match | ✘ | 222 | 0 | 0% | 0% | -100% | -99% | 8 min |
-| Women's College Volleyball Match | ✘ | 189 | 2 | 7% | 3% | -1% | -88% | 80 min |
+| Women's College Volleyball Match | ✘ | 190 | 2 | 7% | 3% | -2% | -88% | 80 min |
 | Men's T20 Cricket Match | ✘ | 173 | 1 | 13% | 4% | -46% | -78% | 25 min |
 | Dota 2 Game | ✘ | 164 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Challenger WTA | ✘ | 156 | 0 | 12% | 4% | -100% | -79% | 8 min |
@@ -149,8 +149,8 @@
 | Eerste Divisie Game | ✘ | 45 | 0 | 9% | 7% | -100% | -85% | 11 min |
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
 | Tweede Divisie Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 4 min |
+| College Hockey Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | SHL Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 5 min |
-| College Hockey Game | ✘ | 41 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | LNBP Basketball Game | ✘ | 40 | 0 | 8% | 0% | -100% | -87% | 16 min |
 | ELH Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Liga Expansion Game | ✘ | 39 | 0 | 8% | 5% | -100% | -87% | 10 min |
@@ -315,12 +315,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 02:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:17 | College Football Game | North Alabama | ✘ | — | — | In play | — |
+| 10-18 02:16 | NHL Game | St. Louis | ✔ | 10:53 - 3rd · STL 2 - NSH 5 | — | In play | — |
+| 10-18 02:12 | College Football Game | Nevada | ✔ | 8:00 - 4th · NEV 17 - NDSU 31 | — | In play | — |
+| 10-18 02:12 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
+| 10-18 02:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:10 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:09 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:08 | Major League Soccer Game | Kansas City | ✔ | 68' · RSL 3 - SKC 1 | — | In play | — |
-| 10-18 02:03 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
-| 10-18 02:03 | College Hockey Game | Alaska Anchorage | ✘ | — | — | In play | — |
-| 10-18 02:01 | eSoccer Game | Crystal Palace (Dzen) | ✘ | — | — | In play | — |
-| 10-18 02:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:03 | Women's College Volleyball Match | Northwestern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:03 | College Hockey Game | Alaska Anchorage | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:01 | eSoccer Game | Crystal Palace (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:00 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 0 - SAO 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:00 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 01:59 | College Football Game | Portland St. | ✘ | — | — | In play | — |
@@ -336,15 +345,6 @@
 | 10-18 01:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 01:54 | College Football Game | Central Arkansas | ✘ | — | — | In play | — |
 | 10-18 01:52 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:52 | USL Championship Game | Tulsa | ✔ | 87' · OAK 3 - TUL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:51 | Brasileiro Serie A Game | Vasco da Gama | ✔ | 88' · VAS 0 - SAO 1 | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 01:49 | NHL Game | Ottawa | ✔ | 0:37 - 3rd · OTT 1 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:48 | CFL Game | British Columbia Lions | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:48 | NHL Game | Buffalo | ✔ | 4:06 - OT · BUF 3 - MTL 3 | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 01:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:44 | College Football Game | UT Rio Grande Valley | ✘ | — | — | In play | — |
-| 10-18 01:42 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 01:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
