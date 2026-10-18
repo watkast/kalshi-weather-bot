@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 4:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 4:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18892 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
+| 18905 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1370 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17509 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17514 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7040 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7041 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 759 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | eBasketball Game | ✘ | 718 | 1 | 0% | 0% | -87% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 714 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 689 | 1 | 12% | 6% | -86% | -79% | 5 min |
 | Challenger ATP  | ✘ | 502 | 2 | 10% | 4% | -63% | -82% | 5 min |
-| Russia Liga Pro Match | ✘ | 446 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 449 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -164,9 +164,9 @@
 | DEL Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | EFL League One Game | ✔ | 35 | 0 | 11% | 3% | -100% | -80% | 5 min |
 | UEFA Europa League Game | partly | 35 | 0 | 20% | 9% | -100% | -65% | 11 min |
+| Women's T20 Match | ✘ | 34 | 0 | 18% | 9% | -100% | -69% | 24 min |
 | Ligue 2 Game | ✘ | 34 | 0 | 18% | 12% | -100% | -69% | 7 min |
 | Japan NPB Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Women's T20 Match | ✘ | 33 | 0 | 18% | 9% | -100% | -68% | 25 min |
 | Chinese Basketball Association Game  | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Valorant game winner | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
@@ -315,9 +315,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 10:11 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-18 10:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 10:11 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | — | In play | — |
+| 10-18 10:10 | Challenger ATP  | Martin Landaluce | ✘ | — | — | In play | — |
+| 10-18 10:09 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-18 10:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 10:08 | ITF Women's Match | Zi Ye Zhang | ✘ | — | — | In play | — |
+| 10-18 10:07 | Czech National Football League Game | FC Silon Taborsko | ✘ | — | — | In play | — |
+| 10-18 10:07 | Czech National Football League Game | Zizkov | ✘ | — | — | In play | — |
+| 10-18 10:07 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:05 | Russia Liga Pro Match | Kogotkov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:04 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:03 | Women's T20 Match | Lions Women | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-18 10:01 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:00 | eBasketball Game | Golden State Warriors (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 09:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:54 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:54 | Overwatch Game | ZANSIDE GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:53 | Russia Liga Pro Match | Safonov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -332,19 +345,6 @@
 | 10-18 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:44 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 09:44 | Challenger ATP  | Mattia Nannelli | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 10-18 09:43 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:42 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:36 | ITF Men's Match | Yoan Naydenov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:34 | Women's T20 Match | Warriors Women (SA) | ✘ | — | — | In play | — |
-| 10-18 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:32 | eSoccer Game | Benfica (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:32 | Korea KBL Game | KCC Egis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:31 | eBasketball Game | Denver Nuggets (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:31 | eBasketball Game | Indiana Pacers (Durant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:30 | eSoccer Game | Leverkusen (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 09:29 | Challenger WTA | Laura Samson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
