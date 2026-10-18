@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 9:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 9:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18513 | 1349 | 7 (1%) | 1.1% | -$104.35 (-52%) | Hold to the end: -$104.35 (-52%) |
+| 18519 | 1350 | 7 (1%) | 1.1% | -$104.50 (-52%) | Hold to the end: -$104.50 (-52%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 264 | 3.2% | 0.4% (1) | -53% | ❌ Worse |
+| ESPN win probability | 265 | 3.2% | 0.4% (1) | -53% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,7 +58,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 264 | 1 | -65% | -75% | -76% | -74% |
+| **Any 1¢ (no model)** | 265 | 1 | -65% | -75% | -76% | -74% |
 | ESPN win probability ≥ 2% | 59 | 1 | +58% | -65% | -69% | -78% |
 | ESPN win probability ≥ 5% | 28 | 1 | +233% | -81% | -81% | -85% |
 | ESPN win probability ≥ 10% | 17 | 1 | +449% | -80% | -69% | -75% |
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1349 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17143 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1350 | 14% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 17150 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$104.35 | -52% |
-| Sell at 2¢ | 190 | 14% | -$152.95 | -76% |
-| Sell at 3¢ | 127 | 9% | -$152.82 | -76% |
-| Sell at 5¢ | 89 | 7% | -$144.50 | -71% |
-| Sell at 10¢ | 46 | 3% | -$142.09 | -70% |
-| Sell at 25¢ | 14 | 1% | -$156.01 | -77% |
-| Sell at 50¢ | 10 | 1% | -$134.85 | -67% |
+| Hold to the end | 7 | 1% | -$104.50 | -52% |
+| Sell at 2¢ | 190 | 14% | -$153.10 | -76% |
+| Sell at 3¢ | 127 | 9% | -$152.97 | -76% |
+| Sell at 5¢ | 89 | 7% | -$144.65 | -71% |
+| Sell at 10¢ | 46 | 3% | -$142.24 | -70% |
+| Sell at 25¢ | 14 | 1% | -$156.16 | -77% |
+| Sell at 50¢ | 10 | 1% | -$135.00 | -67% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6833 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6838 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| eBasketball Game | ✘ | 692 | 1 | 0% | 0% | -87% | -86% | 2 min |
+| eBasketball Game | ✘ | 694 | 1 | 0% | 0% | -87% | -86% | 2 min |
 | ITF Men's Match | ✘ | 684 | 1 | 12% | 6% | -86% | -78% | 5 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
 | Russia Liga Pro Match | ✘ | 408 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| College Football Game | partly | 258 | 2 | 13% | 7% | -28% | -77% | 24 min |
+| College Football Game | partly | 259 | 2 | 13% | 7% | -28% | -77% | 24 min |
 | Darts Match | ✘ | 222 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 190 | 2 | 7% | 3% | -2% | -88% | 80 min |
 | Men's T20 Cricket Match | ✘ | 173 | 1 | 13% | 4% | -46% | -78% | 25 min |
@@ -293,7 +293,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 564 | 5% | 1% | 0% | -91% |
+| Under 5 min | 565 | 5% | 1% | 0% | -91% |
 | 5–15 min | 295 | 17% | 7% | 1% | -71% |
 | 15–30 min | 188 | 31% | 18% | 2% | -46% |
 | 30–60 min | 157 | 17% | 10% | 0% | -70% |
@@ -315,12 +315,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 03:20 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 10-18 03:30 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-18 03:26 | College Football Game | UTEP | ✔ | 2:07 - 3rd · SJSU 21 - UTEP 3 | — | In play | — |
+| 10-18 03:25 | USL Championship Game | Orange County | ✔ | 58' · PHX 3 - OCSC 0 | — | In play | — |
+| 10-18 03:22 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:21 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:20 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:20 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-18 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 03:19 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
-| 10-18 03:19 | College Football Game | Notre Dame | ✔ | End of 4th · ND 24 - BYU 28 | — | In play | — |
-| 10-18 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:19 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:19 | College Football Game | Notre Dame | ✔ | End of 4th · ND 24 - BYU 28 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:17 | Peru Liga 1 Game | Atletico Grau | ✘ | — | — | In play | — |
 | 10-18 03:10 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,12 +345,6 @@
 | 10-18 02:59 | Liga Expansion Game | Cancun FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:58 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:56 | College Football Game | Florida St. | ✔ | 2OT · FSU 35 - MIA 43 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:56 | Liga DIMAYOR Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 02:56 | Liga MX Game | Toluca | ✔ | 90'+6' · ASL 1 - TOL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:56 | USL Championship Game | El Paso Locomotive FC | ✔ | 90'+1' · SAC 1 - ELP 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:55 | Liga MX Game | San Luis | ✔ | 90'+5' · ASL 1 - TOL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:55 | Liga Expansion Game | Atletico Morelia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
