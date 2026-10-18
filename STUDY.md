@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 8:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 8:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18472 | 1331 | 7 (1%) | 1.1% | -$101.65 (-51%) | Hold to the end: -$101.65 (-51%) |
+| 18479 | 1341 | 7 (1%) | 1.1% | -$103.15 (-51%) | Hold to the end: -$103.15 (-51%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1331 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17107 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1341 | 14% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 17115 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$101.65 | -51% |
-| Sell at 2¢ | 189 | 14% | -$150.51 | -75% |
-| Sell at 3¢ | 126 | 9% | -$150.51 | -75% |
-| Sell at 5¢ | 88 | 7% | -$142.45 | -71% |
-| Sell at 10¢ | 46 | 3% | -$139.39 | -70% |
-| Sell at 25¢ | 14 | 1% | -$153.31 | -77% |
-| Sell at 50¢ | 10 | 1% | -$132.15 | -66% |
+| Hold to the end | 7 | 1% | -$103.15 | -51% |
+| Sell at 2¢ | 190 | 14% | -$151.75 | -75% |
+| Sell at 3¢ | 127 | 9% | -$151.62 | -75% |
+| Sell at 5¢ | 89 | 7% | -$143.30 | -71% |
+| Sell at 10¢ | 46 | 3% | -$140.89 | -70% |
+| Sell at 25¢ | 14 | 1% | -$154.81 | -77% |
+| Sell at 50¢ | 10 | 1% | -$133.65 | -66% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6813 | 4 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6819 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | eBasketball Game | ✘ | 692 | 1 | 0% | 0% | -87% | -86% | 2 min |
 | ITF Men's Match | ✘ | 684 | 1 | 12% | 6% | -86% | -78% | 5 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
-| Russia Liga Pro Match | ✘ | 406 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 408 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 254 | 2 | 13% | 7% | -27% | -77% | 24 min |
 | Darts Match | ✘ | 222 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -116,7 +116,7 @@
 | League of Legends Game | ✘ | 132 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | NHL Game | ✔ | 130 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Major League Soccer Game | partly | 83 | 1 | 11% | 2% | +12% | -81% | 6 min |
+| Major League Soccer Game | partly | 89 | 1 | 11% | 3% | +5% | -81% | 7 min |
 | AHL Game | ✘ | 81 | 0 | 2% | 1% | -100% | -96% | 5 min |
 | Brasileiro Serie B Game | ✘ | 74 | 0 | 8% | 3% | -100% | -86% | 10 min |
 | Ettan Game | ✘ | 73 | 0 | 5% | 1% | -100% | -91% | 5 min |
@@ -130,8 +130,8 @@
 | WTA Tennis Match | ✘ | 60 | 0 | 12% | 0% | -100% | -80% | 4 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
+| USL Championship Game | partly | 58 | 0 | 12% | 3% | -100% | -79% | 5 min |
 | Japan J2 League Game | ✘ | 58 | 0 | 16% | 7% | -100% | -73% | 7 min |
-| USL Championship Game | partly | 56 | 0 | 12% | 4% | -100% | -78% | 5 min |
 | Brasileiro Serie A Game | partly | 55 | 1 | 18% | 11% | +70% | -68% | 8 min |
 | LaLiga 2 Game | partly | 54 | 0 | 20% | 11% | -100% | -65% | 8 min |
 | German 3. Liga Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 7 min |
@@ -169,12 +169,12 @@
 | Valorant game winner | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
 | Women's T20 Match | ✘ | 31 | 0 | 19% | 10% | -100% | -66% | 25 min |
+| NWSL Game | ✔ | 30 | 0 | 10% | 0% | -100% | -83% | 7 min |
 | Bundesliga 2 Game | ✔ | 30 | 0 | 17% | 7% | -100% | -71% | 7 min |
 | Serie B Game | ✘ | 30 | 0 | 13% | 10% | -100% | -77% | 11 min |
 | Liga MX Game | ✔ | 29 | 0 | 14% | 10% | -100% | -76% | 1 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Polish Ekstraklasa Game | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 9 min |
-| NWSL Game | ✔ | 28 | 0 | 11% | 0% | -100% | -81% | 7 min |
 | Finland Korisliiga Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Peru Liga 1 Game | ✘ | 28 | 0 | 18% | 14% | -100% | -69% | 10 min |
 | LNB Elite 2 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -293,9 +293,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 556 | 5% | 1% | 0% | -91% |
-| 5–15 min | 289 | 17% | 7% | 1% | -71% |
-| 15–30 min | 187 | 32% | 18% | 2% | -45% |
+| Under 5 min | 560 | 5% | 1% | 0% | -91% |
+| 5–15 min | 293 | 17% | 7% | 1% | -71% |
+| 15–30 min | 188 | 31% | 18% | 2% | -46% |
 | 30–60 min | 156 | 17% | 10% | 0% | -70% |
 | Over 60 min | 130 | 19% | 10% | 0% | -67% |
 
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 02:39 | USL Championship Game | Tie | ✔ | 90'+9' · NMU 0 - SAFC 1 | — | In play | — |
-| 10-18 02:39 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
-| 10-18 02:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 02:38 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
-| 10-18 02:37 | NWSL Game | Denver Summit FC | ✔ | 90'+2' · LA 3 - DEN 2 | — | In play | — |
-| 10-18 02:37 | eSoccer Game | FC Augsburg (Rooney) | ✘ | — | — | In play | — |
-| 10-18 02:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 02:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:45 | AHL Game | Rockford Icehogs | ✘ | — | — | In play | — |
+| 10-18 02:43 | Major League Soccer Game | Houston | ✔ | 90'+12' · DAL 2 - HOU 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:43 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
+| 10-18 02:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 02:41 | NWSL Game | Tie | ✔ | 90'+5' · LA 3 - DEN 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:40 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | — | In play | — |
+| 10-18 02:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:39 | USL Championship Game | Tie | ✔ | 90'+9' · NMU 0 - SAFC 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:39 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:39 | eSoccer Game | Tie | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
+| 10-18 02:38 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:37 | NWSL Game | Denver Summit FC | ✔ | 90'+2' · LA 3 - DEN 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:37 | eSoccer Game | FC Augsburg (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:37 | eSoccer Game | Tie | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
 | 10-18 02:36 | Liga MX Game | Leon | ✔ | 66' · AME 3 - LEO 1 | — | In play | — |
-| 10-18 02:35 | Major League Soccer Game | Tie | ✔ | 90'+6' · VAN 2 - ATX 1 | — | In play | — |
-| 10-18 02:34 | Major League Soccer Game | Dallas | ✔ | 90'+3' · DAL 1 - HOU 1 | — | In play | — |
-| 10-18 02:33 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | — | In play | — |
+| 10-18 02:35 | Major League Soccer Game | Tie | ✔ | 90'+6' · VAN 2 - ATX 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:34 | Major League Soccer Game | Dallas | ✔ | 90'+3' · DAL 1 - HOU 1 | 6¢ | ❌ Lost | -$0.15 |
+| 10-18 02:33 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:29 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:29 | USL Championship Game | New Mexico United | ✔ | 88' · NMU 0 - SAFC 1 | — | In play | — |
+| 10-18 02:29 | USL Championship Game | New Mexico United | ✔ | 88' · NMU 0 - SAFC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:28 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
 | 10-18 02:27 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:25 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:25 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:25 | Major League Soccer Game | Tie | ✔ | 85' · RSL 3 - SKC 1 | — | In play | — |
+| 10-18 02:25 | Major League Soccer Game | Tie | ✔ | 85' · RSL 3 - SKC 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 02:22 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:22 | Major League Soccer Game | Austin | ✔ | 84' · VAN 2 - ATX 1 | — | In play | — |
-| 10-18 02:22 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:17 | College Football Game | North Alabama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:16 | NHL Game | St. Louis | ✔ | 10:53 - 3rd · STL 2 - NSH 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:12 | College Football Game | Nevada | ✔ | 8:00 - 4th · NEV 17 - NDSU 31 | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 02:12 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 02:10 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 02:22 | Major League Soccer Game | Austin | ✔ | 84' · VAN 2 - ATX 1 | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
