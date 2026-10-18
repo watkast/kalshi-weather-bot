@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 6:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 6:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18339 | 1297 | 7 (1%) | 1.1% | -$96.55 (-50%) | Hold to the end: -$96.55 (-50%) |
+| 18353 | 1297 | 7 (1%) | 1.1% | -$96.55 (-50%) | Hold to the end: -$96.55 (-50%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1297 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 17013 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17020 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6767 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6770 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 749 | 1 | 12% | 5% | -88% | -79% | 4 min |
+| ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | eBasketball Game | ✘ | 685 | 1 | 0% | 0% | -86% | -86% | 2 min |
 | ITF Men's Match | ✘ | 684 | 1 | 12% | 6% | -86% | -78% | 5 min |
@@ -116,7 +116,7 @@
 | League of Legends Game | ✘ | 132 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | NHL Game | ✔ | 123 | 0 | 12% | 6% | -100% | -79% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| AHL Game | ✘ | 78 | 0 | 3% | 1% | -100% | -96% | 5 min |
+| AHL Game | ✘ | 80 | 0 | 2% | 1% | -100% | -96% | 5 min |
 | Brasileiro Serie B Game | ✘ | 74 | 0 | 8% | 3% | -100% | -86% | 10 min |
 | Major League Soccer Game | partly | 73 | 1 | 12% | 3% | +28% | -79% | 6 min |
 | Ettan Game | ✘ | 73 | 0 | 5% | 1% | -100% | -91% | 5 min |
@@ -153,7 +153,7 @@
 | LNBP Basketball Game | ✘ | 40 | 0 | 8% | 0% | -100% | -87% | 16 min |
 | ELH Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Liga Expansion Game | ✘ | 39 | 0 | 8% | 5% | -100% | -87% | 10 min |
-| College Hockey Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| College Hockey Game | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Mobile Legends Bang Bang Game | ✘ | 37 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | TFF 1. Lig Game | ✘ | 37 | 0 | 14% | 5% | -100% | -77% | 8 min |
 | UEFA Champions League Game | partly | 37 | 1 | 14% | 5% | +152% | -77% | 12 min |
@@ -315,6 +315,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 00:56 | College Hockey Game | Sacred Heart | ✘ | — | — | In play | — |
+| 10-18 00:55 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-18 00:53 | College Football Game | Eastern Washington | ✘ | — | — | In play | — |
+| 10-18 00:53 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-18 00:52 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | — | In play | — |
+| 10-18 00:52 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | — | In play | — |
+| 10-18 00:49 | College Hockey Game | Boston College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:49 | eSoccer Game | Estudiantes (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:47 | ITF Women's Match | Lea Ma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:46 | NWSL Game | North Carolina Courage | ✔ | 78' · SD 2 - NC 0 | — | In play | — |
+| 10-18 00:46 | AHL Game | Springfield Thunderbirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:46 | AHL Game | Hartford Wolf Pack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:45 | Argentina Primera Division Game | Mendoza | ✘ | — | — | In play | — |
 | 10-18 00:42 | USL Championship Game | Miami | ✔ | 78' · CHS 2 - MIA 1 | — | In play | — |
 | 10-18 00:41 | Argentina Primera Division Game | Tucuman | ✘ | — | — | In play | — |
@@ -331,20 +345,6 @@
 | 10-18 00:34 | College Hockey Game | Massachusetts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:34 | College Hockey Game | Minnesota State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:34 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | Peru Liga 1 Game | Deportivo Garcilaso | ✘ | — | — | In play | — |
-| 10-18 00:34 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 10-18 00:33 | Liga MX Game | Tie | ✔ | 68' · QRO 0 - SAN 3 | — | In play | — |
-| 10-18 00:31 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:27 | Liga MX Game | Queretaro | ✔ | 63' · QRO 0 - SAN 2 | — | In play | — |
-| 10-18 00:26 | Brasileiro Serie A Game | Tie | ✔ | 90' · PAL 2 - CAP 0 | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 00:24 | Venezuela Liga FUTVE game | Carabobo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:24 | Venezuela Liga FUTVE game | Tachira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:24 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
