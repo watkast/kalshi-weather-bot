@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 5:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 5:35 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18990 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
+| 18998 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1370 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17593 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17603 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7084 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7090 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 763 | 1 | 12% | 5% | -88% | -79% | 4 min |
-| eBasketball Game | ✘ | 720 | 1 | 0% | 0% | -87% | -87% | 2 min |
-| Counter-Strike 2 Game | ✘ | 716 | 1 | 5% | 2% | -87% | -92% | 11 min |
+| eBasketball Game | ✘ | 722 | 1 | 0% | 0% | -87% | -87% | 2 min |
+| Counter-Strike 2 Game | ✘ | 717 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 692 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Challenger ATP  | ✘ | 506 | 2 | 10% | 4% | -63% | -82% | 5 min |
 | Russia Liga Pro Match | ✘ | 461 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -151,7 +151,7 @@
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
 | Tweede Divisie Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 4 min |
 | College Hockey Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Mobile Legends Bang Bang Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Mobile Legends Bang Bang Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | SHL Game | ✘ | 41 | 0 | 2% | 2% | -100% | -96% | 5 min |
 | LNBP Basketball Game | ✘ | 40 | 0 | 8% | 0% | -100% | -87% | 16 min |
 | Japan J League Game | ✘ | 40 | 0 | 15% | 5% | -100% | -74% | 13 min |
@@ -315,18 +315,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 11:23 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
-| 10-18 11:23 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | — | In play | — |
-| 10-18 11:23 | eBasketball Game | Los Angeles Lakers (Durant) | ✘ | — | — | In play | — |
-| 10-18 11:22 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
+| 10-18 11:33 | ATP Tennis Match | Aleksandr Shevchenko | ✘ | — | — | In play | — |
+| 10-18 11:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:33 | eSoccer Game | Leverkusen (PinkElephant) | ✘ | — | — | In play | — |
+| 10-18 11:33 | ITF Men's Match | Alberto Morolli | ✘ | — | — | In play | — |
+| 10-18 11:33 | ITF Men's Match | Romain Andres | ✘ | — | — | In play | — |
+| 10-18 11:31 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-18 11:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:24 | Mobile Legends Bang Bang Game | Natus Vincere | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:23 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:23 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:23 | eBasketball Game | Los Angeles Lakers (Durant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:22 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:21 | Spain Liga ACB Game | Bilbao Basket | ✘ | — | — | In play | — |
 | 10-18 11:20 | Challenger ATP  | Dominik Recek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 11:17 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-18 11:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:17 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:16 | Ettan Game | Utsiktens | ✘ | — | — | In play | — |
-| 10-18 11:16 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-18 11:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 11:15 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
+| 10-18 11:16 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 11:15 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:15 | Russia Liga Pro Match | Amelichkin Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:14 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:13 | Counter-Strike 2 Game | ENJOY | ✘ | — | — | In play | — |
@@ -337,14 +345,6 @@
 | 10-18 11:07 | eSoccer Game | Frankfurt (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:05 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 11:05 | eSoccer Game | RB Leipzig (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:04 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:03 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:02 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:01 | ITF Men's Match | Rahul Sachdev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 11:01 | Mobile Legends Bang Bang Game | RRQ Tora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
