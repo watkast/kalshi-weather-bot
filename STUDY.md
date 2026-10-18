@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 10:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 10:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19523 | 1399 | 7 (1%) | 1.1% | -$111.85 (-53%) | Hold to the end: -$111.85 (-53%) |
+| 19544 | 1402 | 7 (0%) | 1.1% | -$112.30 (-53%) | Hold to the end: -$112.30 (-53%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 65. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1399 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18068 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1402 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 18077 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 1% | -$111.85 | -53% |
-| Sell at 2¢ | 198 | 14% | -$158.37 | -75% |
-| Sell at 3¢ | 133 | 10% | -$157.98 | -75% |
-| Sell at 5¢ | 91 | 7% | -$150.70 | -72% |
-| Sell at 10¢ | 47 | 3% | -$148.28 | -71% |
-| Sell at 25¢ | 15 | 1% | -$160.20 | -76% |
-| Sell at 50¢ | 10 | 1% | -$142.35 | -68% |
+| Hold to the end | 7 | 0% | -$112.30 | -53% |
+| Sell at 2¢ | 199 | 14% | -$158.56 | -75% |
+| Sell at 3¢ | 134 | 10% | -$158.04 | -75% |
+| Sell at 5¢ | 92 | 7% | -$150.50 | -72% |
+| Sell at 10¢ | 48 | 3% | -$147.42 | -70% |
+| Sell at 25¢ | 15 | 1% | -$160.65 | -76% |
+| Sell at 50¢ | 10 | 1% | -$142.80 | -68% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7233 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7239 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 772 | 1 | 12% | 5% | -88% | -78% | 4 min |
-| eBasketball Game | ✘ | 738 | 1 | 0% | 0% | -87% | -87% | 2 min |
+| ITF Women's Match | ✘ | 773 | 1 | 12% | 5% | -88% | -78% | 4 min |
+| eBasketball Game | ✘ | 739 | 1 | 0% | 0% | -87% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 729 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 710 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Challenger ATP  | ✘ | 520 | 2 | 10% | 4% | -64% | -83% | 5 min |
@@ -132,8 +132,8 @@
 | Japan J2 League Game | ✘ | 60 | 0 | 15% | 7% | -100% | -74% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
+| LaLiga 2 Game | partly | 58 | 0 | 21% | 10% | -100% | -64% | 9 min |
 | ATP Tennis Match | ✘ | 57 | 0 | 12% | 5% | -100% | -79% | 3 min |
-| LaLiga 2 Game | partly | 57 | 0 | 21% | 11% | -100% | -64% | 9 min |
 | German 3. Liga Game | ✘ | 56 | 0 | 12% | 5% | -100% | -78% | 7 min |
 | Liga DIMAYOR Game | ✘ | 55 | 1 | 13% | 4% | +70% | -78% | 7 min |
 | Brasileiro Serie A Game | partly | 55 | 1 | 18% | 11% | +70% | -68% | 8 min |
@@ -177,6 +177,7 @@
 | Indonesia Super League Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 8 min |
 | Thai League 1 Game | ✘ | 32 | 0 | 22% | 9% | -100% | -62% | 8 min |
 | Serie B Game | ✘ | 32 | 0 | 19% | 9% | -100% | -68% | 11 min |
+| La Liga Game | ✔ | 32 | 0 | 31% | 22% | -100% | -46% | 6 min |
 | Chinese Super League Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 18 min |
 | Czech National Football League Game | ✘ | 31 | 0 | 10% | 10% | -100% | -83% | 9 min |
 | Serie A Game | ✔ | 31 | 0 | 6% | 6% | -100% | -89% | 11 min |
@@ -184,7 +185,6 @@
 | Peru Liga 1 Game | ✘ | 30 | 0 | 17% | 13% | -100% | -71% | 10 min |
 | Turkish Super Lig Game | ✘ | 30 | 0 | 17% | 0% | -100% | -71% | 14 min |
 | Eredivisie Game | ✔ | 30 | 0 | 10% | 7% | -100% | -83% | 4 min |
-| La Liga Game | ✔ | 30 | 0 | 30% | 20% | -100% | -48% | 4 min |
 | English Premier League Game | ✔ | 30 | 0 | 13% | 7% | -100% | -77% | 12 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Czech First League Game | ✘ | 29 | 0 | 14% | 0% | -100% | -76% | 9 min |
@@ -274,8 +274,8 @@
 | Liga Nacional de Basquetbol Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | CONMEBOL Libertadores Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 6 min |
+| Brazil NBB Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Colombia LBP Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 17 min |
-| Brazil NBB Basketball Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 122 min |
@@ -294,8 +294,8 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 582 | 5% | 1% | 0% | -91% |
-| 5–15 min | 307 | 16% | 7% | 1% | -72% |
-| 15–30 min | 195 | 31% | 17% | 2% | -46% |
+| 5–15 min | 308 | 17% | 7% | 1% | -71% |
+| 15–30 min | 197 | 31% | 17% | 2% | -46% |
 | 30–60 min | 165 | 18% | 10% | 0% | -68% |
 | Over 60 min | 136 | 19% | 10% | 0% | -67% |
 
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 16:22 | eSoccer Game | Werder Bremen (Zaroth) | ✘ | — | — | In play | — |
+| 10-18 16:21 | German 3. Liga Game | Duisburg | ✘ | — | — | In play | — |
+| 10-18 16:21 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:21 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-18 16:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:21 | eSoccer Game | Chelsea (Antonio) | ✘ | — | — | In play | — |
+| 10-18 16:21 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-18 16:20 | German 3. Liga Game | Viktoria Cologne | ✘ | — | — | In play | — |
+| 10-18 16:20 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:20 | eSoccer Game | Everton (Frenkie) | ✘ | — | — | In play | — |
+| 10-18 16:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:19 | Italy Serie A Game | Pallacanestro Varese | ✘ | — | — | In play | — |
+| 10-18 16:19 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:18 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-18 16:18 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:18 | Allsvenskan Game | Halmstad | ✘ | — | — | In play | — |
+| 10-18 16:15 | Eredivisie Game | Tie | ✔ | 69' · AJA 3 - GRO 1 | — | In play | — |
+| 10-18 16:15 | Serie C Game | Desenzano | ✘ | — | — | In play | — |
+| 10-18 16:15 | ITF Women's Match | Ana Sofia Sanchez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 16:14 | Allsvenskan Game | Malmo | ✘ | — | — | In play | — |
 | 10-18 16:10 | Eredivisie Game | Groningen | ✔ | 65' · AJA 3 - GRO 1 | — | In play | — |
 | 10-18 16:09 | Men's ODI Cricket Match | Sri Lanka | ✘ | — | — | In play | — |
-| 10-18 16:09 | eSoccer Game | Frankfurt (Kovboj) | ✘ | — | — | In play | — |
-| 10-18 16:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 16:09 | eSoccer Game | Frankfurt (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 16:08 | eBasketball Game | Los Angeles Lakers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 16:08 | Spanish Liga F Game | Tie | ✘ | — | — | In play | — |
 | 10-18 16:08 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-18 16:08 | Brazil NBB Basketball Game | Flamengo RJ | ✘ | — | — | In play | — |
+| 10-18 16:08 | Brazil NBB Basketball Game | Flamengo RJ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 16:08 | Super League Greece Game | Tie | ✘ | — | — | In play | — |
-| 10-18 16:07 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-18 16:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 16:07 | ITF Men's Match | Aaron Jinks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 16:06 | eSoccer Game | Nantes (Gigi) | ✘ | — | — | In play | — |
-| 10-18 16:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 16:06 | eBasketball Game | Brooklyn Nets (Bryce) | ✘ | — | — | In play | — |
-| 10-18 16:06 | Spanish Liga F Game | Eibar | ✘ | — | — | In play | — |
-| 10-18 16:06 | Challenger ATP  | Pavel Lagutin | ✘ | — | — | In play | — |
-| 10-18 16:06 | eSoccer Game | Chelsea (Antonio) | ✘ | — | — | In play | — |
-| 10-18 16:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 16:05 | Taca de Portugal Game | Vitoria Setubal | ✘ | — | — | In play | — |
-| 10-18 16:05 | Taca de Portugal Game | Serra | ✘ | — | — | In play | — |
-| 10-18 16:03 | Challenger ATP  | Nicolas Villalon Valdes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 16:03 | Allsvenskan Game | GAIS | ✘ | — | — | In play | — |
-| 10-18 16:00 | Taca de Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 16:00 | Russia Liga Pro Match | Kariukhin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 15:59 | Ettan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 15:58 | Liga Nacional de Basquetbol Game | CA San Lorenzo de Almagro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 15:57 | ITF Men's Match | Rupert George | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 15:57 | La Liga Game | Tie | ✔ | 85' · ALA 0 - CEL 2 | — | In play | — |
-| 10-18 15:57 | Taca de Portugal Game | Salgueiros | ✘ | — | — | In play | — |
 
 ## Raw data
 
