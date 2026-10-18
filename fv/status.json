@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-18T11:54:10+00:00",
+ "saved_at": "2026-10-18T12:06:28+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -27,12 +27,7 @@
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
-  "ETH": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "SOL": [
+  "BTC": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -42,56 +37,59 @@
    "gemini",
    "kraken"
   ],
+  "ETH": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
   "DOGE": [
    "bitstamp",
    "gemini",
    "kraken"
   ],
-  "BTC": [
+  "SOL": [
    "bitstamp",
    "gemini",
    "kraken"
   ],
-  "NEAR": [
+  "ADA": [
    "bitstamp"
   ],
-  "BNB": [
-   "bitstamp",
-   "gemini"
+  "TON": [
+   "bitstamp"
   ],
   "HYPE": [
    "bitstamp",
    "gemini"
   ],
-  "TON": [
+  "NEAR": [
    "bitstamp"
   ],
   "ZEC": [
    "bitstamp",
    "gemini"
   ],
-  "BCH": [
+  "BNB": [
    "bitstamp",
    "gemini"
   ],
-  "ADA": [
-   "bitstamp"
+  "BCH": [
+   "bitstamp",
+   "gemini"
   ]
  },
  "open": 0,
- "results_known": 16083,
+ "results_known": 16092,
  "sigma_pct": {
-  "BTC": 0.02,
-  "HYPE": 0.0638,
-  "BNB": 0.0368,
-  "NEAR": 0.1681,
-  "XRP": 0.0431,
-  "ZEC": 0.0954,
-  "DOGE": 0.0538,
-  "ETH": 0.0298,
-  "SOL": 0.0448
+  "DOGE": 0.0442,
+  "BTC": 0.0218,
+  "HYPE": 0.0504,
+  "XRP": 0.0451,
+  "NEAR": 0.1391,
+  "BNB": 0.0385,
+  "ETH": 0.0333,
+  "SOL": 0.0446,
+  "ZEC": 0.1224
  },
- "errors": [
-  "2026-10-18T07:40:31+00:00 refresh KXDOGE15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
