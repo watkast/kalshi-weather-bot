@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 3:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 3:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20047 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
+| 20061 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1447 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 18578 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18586 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7427 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7431 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 792 | 1 | 13% | 5% | -88% | -78% | 4 min |
-| eBasketball Game | ✘ | 752 | 1 | 0% | 0% | -88% | -87% | 2 min |
+| ITF Women's Match | ✘ | 793 | 1 | 13% | 5% | -88% | -77% | 4 min |
+| eBasketball Game | ✘ | 753 | 1 | 0% | 0% | -88% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 737 | 1 | 4% | 2% | -87% | -92% | 12 min |
 | ITF Men's Match | ✘ | 723 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 540 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 541 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 534 | 2 | 10% | 4% | -65% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -117,7 +117,7 @@
 | NHL Game | ✔ | 133 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 97 | 1 | 11% | 4% | -4% | -80% | 6 min |
-| AHL Game | ✘ | 89 | 0 | 2% | 1% | -100% | -96% | 5 min |
+| AHL Game | ✘ | 90 | 0 | 2% | 1% | -100% | -96% | 5 min |
 | Ettan Game | ✘ | 85 | 0 | 5% | 1% | -100% | -92% | 6 min |
 | Brasileiro Serie B Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 9 min |
 | KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
@@ -315,12 +315,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 21:52 | ITF Women's Match | Nalah Kaler | ✘ | — | — | In play | — |
+| 10-18 21:50 | eSoccer Game | Real Sociedad (Arkon) | ✘ | — | — | In play | — |
+| 10-18 21:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:48 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:48 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:46 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
+| 10-18 21:46 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-18 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 21:45 | eSoccer Game | River Plate (Castle) | ✘ | — | — | In play | — |
+| 10-18 21:44 | AHL Game | Hamilton Hammers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:44 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:39 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:39 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:39 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:36 | ITF Women's Match | Maria Kononova | ✘ | — | — | In play | — |
-| 10-18 21:36 | eSoccer Game | Real Madrid (Arlo) | ✘ | — | — | In play | — |
-| 10-18 21:36 | eSoccer Game | Real Betis (Drakon) | ✘ | — | — | In play | — |
+| 10-18 21:36 | ITF Women's Match | Maria Kononova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-18 21:36 | eSoccer Game | Real Madrid (Arlo) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-18 21:36 | eSoccer Game | Real Betis (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:35 | ITF Men's Match | Bruno Vieira Alves Malacarne Bruno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:32 | Challenger ATP  | Matteo Covato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,20 +345,6 @@
 | 10-18 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 21:30 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:27 | Venezuela Liga FUTVE game | Academia Puerto Cabello | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:27 | Venezuela Liga FUTVE game | Monagas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:27 | Venezuela Liga FUTVE game | Portuguesa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:27 | Venezuela Liga FUTVE game | UCV | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:26 | Venezuela Liga FUTVE game | Est. Merida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:24 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:22 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:21 | eSoccer Game | Real Sociedad (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:21 | ITF Men's Match | Carlos Eduardo Lino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:19 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 21:19 | Venezuela Liga FUTVE game | Rayo Zuliano | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-18 21:19 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
