@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 9:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 9:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18531 | 1350 | 7 (1%) | 1.1% | -$104.50 (-52%) | Hold to the end: -$104.50 (-52%) |
+| 18545 | 1350 | 7 (1%) | 1.1% | -$104.50 (-52%) | Hold to the end: -$104.50 (-52%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1350 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 17158 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17162 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6844 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 6846 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
-| eBasketball Game | ✘ | 694 | 1 | 0% | 0% | -87% | -86% | 2 min |
+| eBasketball Game | ✘ | 695 | 1 | 0% | 0% | -87% | -86% | 2 min |
 | ITF Men's Match | ✘ | 684 | 1 | 12% | 6% | -86% | -78% | 5 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
 | Russia Liga Pro Match | ✘ | 408 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -117,7 +117,7 @@
 | NHL Game | ✔ | 130 | 0 | 12% | 5% | -100% | -80% | 4 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 89 | 1 | 11% | 3% | +5% | -81% | 7 min |
-| AHL Game | ✘ | 83 | 0 | 2% | 1% | -100% | -96% | 5 min |
+| AHL Game | ✘ | 84 | 0 | 2% | 1% | -100% | -96% | 5 min |
 | Brasileiro Serie B Game | ✘ | 74 | 0 | 8% | 3% | -100% | -86% | 10 min |
 | Ettan Game | ✘ | 73 | 0 | 5% | 1% | -100% | -91% | 5 min |
 | Argentina Primera Division Game | ✘ | 71 | 0 | 14% | 6% | -100% | -76% | 7 min |
@@ -315,11 +315,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 03:50 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | — | In play | — |
+| 10-18 03:49 | eSoccer Game | Mönchengladbach (Pedri) | ✘ | — | — | In play | — |
+| 10-18 03:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:48 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 03:48 | eSoccer Game | England (July) | ✘ | — | — | In play | — |
+| 10-18 03:48 | eSoccer Game | France (Lucy) | ✘ | — | — | In play | — |
+| 10-18 03:48 | Australian A League Game | Melbourne Victory | ✘ | — | — | In play | — |
+| 10-18 03:46 | eSoccer Game | Freiburg (Kylian) | ✘ | — | — | In play | — |
+| 10-18 03:46 | eSoccer Game | RB Leipzig (Luis) | ✘ | — | — | In play | — |
+| 10-18 03:46 | USL Championship Game | Monterey Bay FC | ✔ | 82' · COS 1 - MTB 0 | — | In play | — |
+| 10-18 03:46 | NHL Game | Los Angeles | ✔ | 1:57 - 3rd · BOS 2 - LA 1 | — | In play | — |
+| 10-18 03:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-18 03:42 | AHL Game | Ontario Reign | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:41 | USL Championship Game | Tie | ✔ | 74' · PHX 3 - OCSC 0 | — | In play | — |
 | 10-18 03:39 | AHL Game | Coachella Valley Firebirds | ✘ | — | — | In play | — |
-| 10-18 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:37 | NHL Game | Utah | ✔ | 5:15 - 2nd · EDM 5 - UTA 0 | — | In play | — |
-| 10-18 03:36 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
+| 10-18 03:36 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:36 | Liga MX Game | Juarez | ✔ | 24' · JUA 0 - CAZ 1 | — | In play | — |
 | 10-18 03:35 | eSoccer Game | Stuttgart (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,20 +345,6 @@
 | 10-18 03:26 | College Football Game | UTEP | ✔ | 2:07 - 3rd · SJSU 21 - UTEP 3 | — | In play | — |
 | 10-18 03:25 | USL Championship Game | Orange County | ✔ | 58' · PHX 3 - OCSC 0 | — | In play | — |
 | 10-18 03:22 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:21 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:20 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:20 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:19 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:19 | College Football Game | Notre Dame | ✔ | End of 4th · ND 24 - BYU 28 | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:17 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 03:10 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:07 | eSoccer Game | FC Augsburg (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:07 | eSoccer Game | Leverkusen (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 03:06 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
