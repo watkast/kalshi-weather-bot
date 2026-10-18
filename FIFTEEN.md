@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 18, 9:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 18, 9:27 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 22743 | 22736 | 86 (0%) | 1.07% | -$1,556.90 (-56%) | Hold to the close: -$1,556.90 (-56%) |
+| 22746 | 22736 | 86 (0%) | 1.07% | -$1,556.90 (-56%) | Hold to the close: -$1,556.90 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/18 9:27:15 AM | XRP | UP | 2.7 min | -0.282% | — | In play | — |
+| 10/18 9:27:15 AM | DOGE | UP | 2.7 min | -0.314% | — | In play | — |
+| 10/18 9:26:10 AM | ZEC | UP | 3.8 min | -0.821% | — | In play | — |
 | 10/18 9:14:43 AM | NEAR | UP | 17 sec | -0.303% | 0¢ | ❌ Lost | -$0.15 |
 | 10/18 9:13:37 AM | BTC | DOWN | 83 sec | +0.075% | 0¢ | ❌ Lost | $0.00 |
 | 10/18 9:13:37 AM | ETH | DOWN | 83 sec | +0.091% | 1¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/18 8:39:39 AM | BNB | UP | 5.3 min | -0.409% | 1¢ | ❌ Lost | -$0.15 |
 | 10/18 8:39:07 AM | NEAR | UP | 5.9 min | -1.357% | 1¢ | ❌ Lost | -$0.15 |
 | 10/18 8:38:51 AM | ETH | UP | 6.1 min | -0.497% | 1¢ | ❌ Lost | -$0.15 |
-| 10/18 8:26:28 AM | ZEC | DOWN | 3.5 min | +0.456% | 1¢ | ❌ Lost | -$0.15 |
-| 10/18 8:26:12 AM | ETH | DOWN | 3.8 min | +0.207% | 4¢ | ❌ Lost | -$0.15 |
-| 10/18 8:25:57 AM | XRP | DOWN | 4.0 min | +0.337% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
