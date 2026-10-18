@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 17, 6:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 17, 7:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18353 | 1297 | 7 (1%) | 1.1% | -$96.55 (-50%) | Hold to the end: -$96.55 (-50%) |
+| 18364 | 1297 | 7 (1%) | 1.1% | -$96.55 (-50%) | Hold to the end: -$96.55 (-50%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1297 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 17020 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17032 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 6770 | 4 | 0% | 0% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 6772 | 4 | 0% | 0% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 750 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | Counter-Strike 2 Game | ✘ | 713 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | eBasketball Game | ✘ | 685 | 1 | 0% | 0% | -86% | -86% | 2 min |
 | ITF Men's Match | ✘ | 684 | 1 | 12% | 6% | -86% | -78% | 5 min |
 | Challenger ATP  | ✘ | 492 | 2 | 10% | 3% | -62% | -83% | 5 min |
-| Russia Liga Pro Match | ✘ | 399 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 401 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 244 | 2 | 14% | 7% | -23% | -77% | 24 min |
 | Darts Match | ✘ | 222 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -120,8 +120,8 @@
 | Brasileiro Serie B Game | ✘ | 74 | 0 | 8% | 3% | -100% | -86% | 10 min |
 | Major League Soccer Game | partly | 73 | 1 | 12% | 3% | +28% | -79% | 6 min |
 | Ettan Game | ✘ | 73 | 0 | 5% | 1% | -100% | -91% | 5 min |
+| Argentina Primera Division Game | ✘ | 71 | 0 | 14% | 6% | -100% | -76% | 7 min |
 | KHL Game | ✘ | 68 | 0 | 3% | 1% | -100% | -95% | 5 min |
-| Argentina Primera Division Game | ✘ | 67 | 0 | 15% | 6% | -100% | -74% | 7 min |
 | Argentine Nacional B Game | ✘ | 66 | 0 | 9% | 9% | -100% | -84% | 10 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | Overwatch Game | ✘ | 66 | 0 | 3% | 0% | -100% | -95% | 4 min |
@@ -133,10 +133,10 @@
 | Japan J2 League Game | ✘ | 58 | 0 | 16% | 7% | -100% | -73% | 7 min |
 | LaLiga 2 Game | partly | 54 | 0 | 20% | 11% | -100% | -65% | 8 min |
 | German 3. Liga Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 7 min |
+| Liga DIMAYOR Game | ✘ | 53 | 1 | 13% | 4% | +76% | -77% | 7 min |
 | Brasileiro Serie A Game | partly | 53 | 1 | 19% | 11% | +76% | -67% | 8 min |
 | EFL Championship Game | ✔ | 53 | 0 | 8% | 4% | -100% | -87% | 8 min |
 | Liiga Game | ✘ | 52 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Liga DIMAYOR Game | ✘ | 51 | 1 | 12% | 4% | +83% | -80% | 6 min |
 | KBO Game | ✘ | 51 | 0 | 10% | 6% | -100% | -83% | 5 min |
 | ATP Tennis Match | ✘ | 50 | 0 | 10% | 4% | -100% | -83% | 3 min |
 | Liga Leumit Game | ✘ | 50 | 0 | 2% | 2% | -100% | -97% | 64 min |
@@ -174,13 +174,13 @@
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Polish Ekstraklasa Game | ✘ | 29 | 0 | 10% | 3% | -100% | -82% | 9 min |
 | Finland Korisliiga Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Peru Liga 1 Game | ✘ | 28 | 0 | 18% | 14% | -100% | -69% | 10 min |
 | LNB Elite 2 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Indonesia Super League Game | ✘ | 28 | 0 | 14% | 7% | -100% | -75% | 8 min |
 | La Liga Game | ✔ | 28 | 0 | 32% | 21% | -100% | -44% | 1 min |
 | Czech National Football League Game | ✘ | 27 | 0 | 11% | 11% | -100% | -81% | 10 min |
 | Serie A Game | ✔ | 27 | 0 | 7% | 7% | -100% | -87% | 11 min |
 | NWSL Game | ✔ | 26 | 0 | 12% | 0% | -100% | -80% | 7 min |
-| Peru Liga 1 Game | ✘ | 26 | 0 | 19% | 15% | -100% | -67% | 8 min |
 | Korea K-League 2 Game | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 6 min |
 | Saudi Pro League Game | ✘ | 26 | 0 | 19% | 12% | -100% | -67% | 14 min |
 | Turkish Super Lig Game | ✘ | 26 | 0 | 12% | 0% | -100% | -80% | 13 min |
@@ -315,12 +315,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-18 01:03 | USL Championship Game | Tie | ✔ | 90'+8' · BFKC 3 - HFD 2 | — | In play | — |
+| 10-18 01:03 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | — | In play | — |
+| 10-18 01:02 | eSoccer Game | Estudiantes (Pedri) | ✘ | — | — | In play | — |
+| 10-18 01:02 | eSoccer Game | Flamengo (Rooney) | ✘ | — | — | In play | — |
+| 10-18 01:02 | NWSL Game | Tie | ✔ | 90'+4' · SD 2 - NC 1 | — | In play | — |
+| 10-18 01:01 | Major League Soccer Game | Atlanta | ✔ | 59' · MIA 2 - ATL 0 | — | In play | — |
+| 10-18 01:01 | eBasketball Game | Denver Nuggets (Davis) | ✘ | — | — | In play | — |
+| 10-18 01:00 | eSoccer Game | Universitario (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 01:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 01:00 | USL Championship Game | Tie | ✔ | 90'+6' · CHS 2 - MIA 1 | — | In play | — |
+| 10-18 00:58 | USL Championship Game | Hartford Athletic | ✔ | 90'+3' · BFKC 3 - HFD 2 | — | In play | — |
 | 10-18 00:56 | College Hockey Game | Sacred Heart | ✘ | — | — | In play | — |
-| 10-18 00:55 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-18 00:55 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:53 | College Football Game | Eastern Washington | ✘ | — | — | In play | — |
-| 10-18 00:53 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 10-18 00:52 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | — | In play | — |
-| 10-18 00:52 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | — | In play | — |
+| 10-18 00:53 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:52 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 00:52 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:49 | College Hockey Game | Boston College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:49 | eSoccer Game | Estudiantes (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -329,22 +340,11 @@
 | 10-18 00:46 | NWSL Game | North Carolina Courage | ✔ | 78' · SD 2 - NC 0 | — | In play | — |
 | 10-18 00:46 | AHL Game | Springfield Thunderbirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:46 | AHL Game | Hartford Wolf Pack | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:45 | Argentina Primera Division Game | Mendoza | ✘ | — | — | In play | — |
+| 10-18 00:45 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 00:42 | USL Championship Game | Miami | ✔ | 78' · CHS 2 - MIA 1 | — | In play | — |
-| 10-18 00:41 | Argentina Primera Division Game | Tucuman | ✘ | — | — | In play | — |
-| 10-18 00:39 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-18 00:41 | Argentina Primera Division Game | Tucuman | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-18 00:39 | Peru Liga 1 Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-18 00:39 | College Football Game | Northern Iowa | ✘ | — | — | In play | — |
-| 10-18 00:39 | AHL Game | Utica Comets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:37 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
-| 10-18 00:37 | College Football Game | Elon | ✔ | 4:36 - 2nd · ELON 0 - STAN 14 | — | In play | — |
-| 10-18 00:37 | Russia Liga Pro Match | Manushin Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:36 | College Hockey Game | Northern Michigan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:36 | USL Championship Game | Tie | ✔ | 68' · INDY 0 - LOU 4 | — | In play | — |
-| 10-18 00:36 | AHL Game | Providence Bruins | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:36 | eBasketball Game | Indiana Pacers (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | College Hockey Game | Massachusetts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | College Hockey Game | Minnesota State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 00:34 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
