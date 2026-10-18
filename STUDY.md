@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 11:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 11:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 19654 | 1408 | 7 (0%) | 1.1% | -$113.20 (-54%) | Hold to the end: -$113.20 (-54%) |
+| 19678 | 1414 | 7 (0%) | 1.1% | -$114.10 (-54%) | Hold to the end: -$114.10 (-54%) |
 
-*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1408 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18189 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1414 | 14% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 18212 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 0% | -$113.20 | -54% |
-| Sell at 2¢ | 199 | 14% | -$159.46 | -76% |
-| Sell at 3¢ | 134 | 10% | -$158.94 | -75% |
-| Sell at 5¢ | 92 | 7% | -$151.40 | -72% |
-| Sell at 10¢ | 48 | 3% | -$148.32 | -70% |
-| Sell at 25¢ | 15 | 1% | -$161.55 | -76% |
-| Sell at 50¢ | 10 | 1% | -$143.70 | -68% |
+| Hold to the end | 7 | 0% | -$114.10 | -54% |
+| Sell at 2¢ | 200 | 14% | -$160.10 | -75% |
+| Sell at 3¢ | 134 | 9% | -$159.84 | -75% |
+| Sell at 5¢ | 92 | 7% | -$152.30 | -72% |
+| Sell at 10¢ | 48 | 3% | -$149.22 | -70% |
+| Sell at 25¢ | 15 | 1% | -$162.45 | -77% |
+| Sell at 50¢ | 10 | 1% | -$144.60 | -68% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,22 +96,22 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7269 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7275 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 778 | 1 | 12% | 5% | -88% | -78% | 4 min |
+| ITF Women's Match | ✘ | 779 | 1 | 13% | 5% | -88% | -78% | 4 min |
 | eBasketball Game | ✘ | 743 | 1 | 0% | 0% | -87% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 730 | 1 | 5% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 715 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Challenger ATP  | ✘ | 523 | 2 | 10% | 4% | -64% | -82% | 5 min |
-| Russia Liga Pro Match | ✘ | 507 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger ATP  | ✘ | 524 | 2 | 10% | 4% | -64% | -82% | 5 min |
+| Russia Liga Pro Match | ✘ | 508 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 190 | 2 | 7% | 3% | -2% | -88% | 80 min |
 | Men's T20 Cricket Match | ✘ | 177 | 1 | 12% | 4% | -47% | -78% | 25 min |
 | Dota 2 Game | ✘ | 166 | 0 | 1% | 1% | -100% | -98% | 30 min |
+| Serie C Game | ✘ | 161 | 1 | 4% | 2% | -42% | -92% | 8 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
-| Serie C Game | ✘ | 151 | 1 | 5% | 3% | -38% | -92% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | NHL Game | ✔ | 133 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | League of Legends Game | ✘ | 132 | 0 | 8% | 2% | -100% | -87% | 11 min |
@@ -149,10 +149,10 @@
 | Slovakian 2. Liga Game | ✘ | 48 | 0 | 6% | 6% | -100% | -89% | 100 min |
 | Taca de Portugal Game | ✘ | 48 | 0 | 15% | 4% | -100% | -75% | 14 min |
 | Liga Expansion Game | ✘ | 47 | 0 | 6% | 4% | -100% | -89% | 10 min |
+| ELH Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
 | Tweede Divisie Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 4 min |
 | Mobile Legends Bang Bang Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| ELH Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | College Hockey Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | TFF 1. Lig Game | ✘ | 43 | 0 | 14% | 7% | -100% | -76% | 8 min |
 | China League 1 Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 9 min |
@@ -167,19 +167,20 @@
 | UEFA Conference League Game | partly | 36 | 0 | 19% | 8% | -100% | -66% | 10 min |
 | Liga MX Game | ✔ | 35 | 0 | 11% | 9% | -100% | -80% | 2 min |
 | EFL League One Game | ✔ | 35 | 0 | 11% | 3% | -100% | -80% | 5 min |
+| Polish Ekstraklasa Game | ✘ | 35 | 0 | 11% | 3% | -100% | -80% | 9 min |
 | UEFA Europa League Game | partly | 35 | 0 | 20% | 9% | -100% | -65% | 11 min |
 | Serie B Game | ✘ | 34 | 0 | 18% | 9% | -100% | -69% | 11 min |
 | Ligue 2 Game | ✘ | 34 | 0 | 18% | 12% | -100% | -69% | 7 min |
+| Ligue 1 Game | ✔ | 34 | 0 | 15% | 6% | -100% | -75% | 9 min |
 | Japan NPB Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Polish Ekstraklasa Game | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 8 min |
 | Valorant game winner | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 15 min |
 | NFL Game | ✔ | 32 | 1 | 19% | 6% | +192% | -68% | 3 min |
 | Korea K-League 2 Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 8 min |
 | Indonesia Super League Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 8 min |
 | Thai League 1 Game | ✘ | 32 | 0 | 22% | 9% | -100% | -62% | 8 min |
 | Eredivisie Game | ✔ | 32 | 0 | 9% | 6% | -100% | -84% | 5 min |
-| Ligue 1 Game | ✔ | 32 | 0 | 16% | 6% | -100% | -73% | 10 min |
 | La Liga Game | ✔ | 32 | 0 | 31% | 22% | -100% | -46% | 6 min |
+| English Premier League Game | ✔ | 32 | 0 | 12% | 6% | -100% | -78% | 12 min |
 | Chinese Super League Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 18 min |
 | Czech National Football League Game | ✘ | 31 | 0 | 10% | 10% | -100% | -83% | 9 min |
 | Serie A Game | ✔ | 31 | 0 | 6% | 6% | -100% | -89% | 11 min |
@@ -187,7 +188,6 @@
 | Peru Liga 1 Game | ✘ | 30 | 0 | 17% | 13% | -100% | -71% | 10 min |
 | Eliteserien Game | ✘ | 30 | 0 | 13% | 7% | -100% | -77% | 17 min |
 | Turkish Super Lig Game | ✘ | 30 | 0 | 17% | 0% | -100% | -71% | 14 min |
-| English Premier League Game | ✔ | 30 | 0 | 13% | 7% | -100% | -77% | 12 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Czech First League Game | ✘ | 29 | 0 | 14% | 0% | -100% | -76% | 9 min |
 | Allsvenskan Game | ✘ | 29 | 0 | 14% | 14% | -100% | -76% | 12 min |
@@ -195,22 +195,22 @@
 | LNB Elite 2 Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | England Women's Super League Game | ✘ | 28 | 0 | 21% | 7% | -100% | -63% | 39 min |
 | Adriatic ABA Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Bundesliga Game | ✔ | 27 | 1 | 15% | 11% | +246% | -74% | 5 min |
 | Saudi Pro League Game | ✘ | 26 | 0 | 19% | 12% | -100% | -67% | 14 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | Canadian Premier League | ✘ | 25 | 1 | 20% | 20% | +273% | -65% | 29 min |
 | Spain Liga ACB Game | ✘ | 25 | 0 | 8% | 4% | -100% | -86% | 17 min |
 | Italy Serie A2 Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Korea K League Game | ✘ | 25 | 1 | 24% | 12% | +273% | -58% | 8 min |
-| Bundesliga Game | ✔ | 25 | 1 | 12% | 12% | +273% | -79% | 5 min |
 | Ecuador Liga Pro Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 6 min |
 | Bolivia Premier Division Game | ✘ | 24 | 0 | 12% | 0% | -100% | -78% | 5 min |
 | Serbian SuperLiga Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Israeli Premier League Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | APF Division de Honor Game | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 5 min |
 | Australia NBL Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 6 min |
+| Men's ODI Cricket Match | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 27 min |
 | LNB Elite Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Sweden SBL Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Men's ODI Cricket Match | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 26 min |
 | Serie A Femminile Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Vietnam V-League 1 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
@@ -293,8 +293,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 583 | 5% | 1% | 0% | -91% |
-| 5–15 min | 310 | 16% | 7% | 1% | -71% |
+| Under 5 min | 586 | 5% | 1% | 0% | -91% |
+| 5–15 min | 313 | 17% | 7% | 1% | -71% |
 | 15–30 min | 199 | 31% | 17% | 2% | -47% |
 | 30–60 min | 166 | 18% | 10% | 0% | -69% |
 | Over 60 min | 136 | 19% | 10% | 0% | -67% |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 17:23 | English Premier League Game | Tie | ✔ | 90'+3' · ARS 1 - NFO 0 | — | In play | — |
-| 10-18 17:23 | Serie C Game | Casertana | ✘ | — | — | In play | — |
-| 10-18 17:23 | Serie C Game | Sorrento | ✘ | — | — | In play | — |
+| 10-18 17:34 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
+| 10-18 17:32 | Spanish Liga F Game | Tie | ✘ | — | — | In play | — |
+| 10-18 17:31 | Italy Serie A2 Game | Basket Mestre 1958 | ✘ | — | — | In play | — |
+| 10-18 17:31 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
+| 10-18 17:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 17:31 | eSoccer Game | Juventus (Zaroth) | ✘ | — | — | In play | — |
+| 10-18 17:31 | Women's College Volleyball Match | Miami Florida | ✘ | — | — | In play | — |
+| 10-18 17:31 | UAE Pro League | Ajman | ✘ | — | — | In play | — |
+| 10-18 17:31 | Peru Liga 1 Game | Comerciantes U. | ✘ | — | — | In play | — |
+| 10-18 17:30 | eBasketball Game | Denver Nuggets (Davis) | ✘ | — | — | In play | — |
+| 10-18 17:30 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-18 17:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 17:29 | Russia Liga Pro Match | Kochetkov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:28 | ITF Women's Match | Julianne Blackburn | ✘ | — | — | In play | — |
+| 10-18 17:27 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-18 17:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 17:26 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 10-18 17:25 | Serie C Game | Ospitaletto | ✘ | — | — | In play | — |
+| 10-18 17:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:24 | TFF 1. Lig Game | Istanbulspor | ✘ | — | — | In play | — |
+| 10-18 17:24 | Serie C Game | Albinoleffe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:24 | Serie C Game | Novara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:24 | Slovakia SBL Game | BC Komarno | ✘ | — | — | In play | — |
+| 10-18 17:23 | English Premier League Game | Tie | ✔ | 90'+3' · ARS 1 - NFO 0 | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:23 | Serie C Game | Casertana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:23 | Serie C Game | Sorrento | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 17:23 | Serie A Femminile Game | Parma Calcio | ✘ | — | — | In play | — |
 | 10-18 17:23 | Croatia HNL Game | Tie | ✘ | — | — | In play | — |
-| 10-18 17:23 | Bundesliga Game | Tie | ✔ | 90'+3' · TSG 2 - BMG 1 | — | In play | — |
-| 10-18 17:21 | ELH Game | Bili Tygri Liberec | ✘ | — | — | In play | — |
-| 10-18 17:20 | Ligue 1 Game | Tie | ✔ | 90'+9' · REN 3 - PAR 4 | — | In play | — |
-| 10-18 17:20 | Serie A Game | Tie | ✔ | 60' · ATA 0 - MIL 3 | — | In play | — |
-| 10-18 17:18 | Austria BSL Game | Eagles Graz | ✘ | — | — | In play | — |
-| 10-18 17:17 | eSoccer Game | Crystal Palace (Danny) | ✘ | — | — | In play | — |
-| 10-18 17:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 17:17 | eSoccer Game | Montpellier (Taylor) | ✘ | — | — | In play | — |
-| 10-18 17:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 17:17 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 10-18 17:17 | ELH Game | Ceske Budejovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 17:17 | Russia Liga Pro Match | Iudin Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 17:16 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | — | In play | — |
-| 10-18 17:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 17:15 | ELH Game | HC Olomouc | ✘ | — | — | In play | — |
-| 10-18 17:15 | Ligue 1 Game | Stade Rennais | ✔ | 90'+4' · REN 3 - PAR 3 | — | In play | — |
-| 10-18 17:14 | eSoccer Game | Paris Saint-Germain (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 17:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 17:14 | Bundesliga Game | M´gladbach | ✔ | 85' · TSG 2 - BMG 1 | — | In play | — |
-| 10-18 17:14 | Czech First League Game | Jablonec | ✘ | — | — | In play | — |
-| 10-18 17:14 | Serie C Game | Picerno | ✘ | — | — | In play | — |
-| 10-18 17:12 | Challenger ATP  | Keshav Chopra | ✘ | — | — | In play | — |
-| 10-18 17:10 | English Premier League Game | Nottingham Forest | ✔ | 81' · ARS 1 - NFO 0 | — | In play | — |
-| 10-18 17:10 | German Women's Bundesliga Game | Mainz 05 | ✘ | — | — | In play | — |
-| 10-18 17:10 | Serie B Game | Cesena | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 17:23 | Bundesliga Game | Tie | ✔ | 90'+3' · TSG 2 - BMG 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
