@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 4:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 4:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20122 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
+| 20136 | 1447 | 7 (0%) | 1.1% | -$119.05 (-55%) | Hold to the end: -$119.05 (-55%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1447 | 14% | 10% | 7% | 4% | 1% | 1% |
-| Unverified | 18649 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18658 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7467 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7473 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 796 | 1 | 13% | 5% | -88% | -78% | 4 min |
+| ITF Women's Match | ✘ | 797 | 1 | 13% | 5% | -88% | -78% | 4 min |
 | eBasketball Game | ✘ | 755 | 1 | 0% | 0% | -88% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 737 | 1 | 4% | 2% | -87% | -92% | 12 min |
 | ITF Men's Match | ✘ | 725 | 1 | 12% | 6% | -87% | -79% | 5 min |
@@ -117,7 +117,7 @@
 | NHL Game | ✔ | 133 | 0 | 13% | 6% | -100% | -78% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 97 | 1 | 11% | 4% | -4% | -80% | 6 min |
-| AHL Game | ✘ | 91 | 0 | 2% | 1% | -100% | -96% | 5 min |
+| AHL Game | ✘ | 93 | 0 | 2% | 1% | -100% | -96% | 5 min |
 | Ettan Game | ✘ | 85 | 0 | 5% | 1% | -100% | -92% | 6 min |
 | Brasileiro Serie B Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 9 min |
 | KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 22:41 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
-| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 22:41 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
-| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 22:41 | eSoccer Game | Universitario (Kevin) | ✘ | — | — | In play | — |
-| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 22:54 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | — | In play | — |
+| 10-18 22:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 22:54 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-18 22:54 | Argentina Primera Division Game | Estudiantes La Plata | ✘ | — | — | In play | — |
+| 10-18 22:53 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-18 22:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 22:53 | Argentina Primera Division Game | San Lorenzo de Almagro | ✘ | — | — | In play | — |
+| 10-18 22:53 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | — | In play | — |
+| 10-18 22:49 | Brasileiro Serie B Game | Gremio Novorizontino | ✘ | — | — | In play | — |
+| 10-18 22:47 | Argentina Primera Division Game | Aldosivi | ✘ | — | — | In play | — |
+| 10-18 22:46 | eSoccer Game | Getafe CF (Arlo) | ✘ | — | — | In play | — |
+| 10-18 22:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 22:46 | Bolivia Premier Division Game | Always Ready | ✘ | — | — | In play | — |
+| 10-18 22:45 | AHL Game | Iowa Wild | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 22:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:37 | Russia Liga Pro Match | Nurmukhamedov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:33 | ITF Women's Match | Jamilah Snells | ✘ | — | — | In play | — |
+| 10-18 22:33 | ITF Women's Match | Jamilah Snells | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-18 22:32 | ITF Women's Match | Diae El Jardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:31 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:30 | eSoccer Game | RC Celta (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:28 | eSoccer Game | River Plate (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 22:28 | Challenger ATP  | Felipe de Dios | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-18 22:27 | Argentine Nacional B Game | Tie | ✘ | — | — | In play | — |
-| 10-18 22:27 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:27 | AHL Game | Toronto Marlies | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:27 | ITF Women's Match | Kennedy Drenser-Hagmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:26 | AHL Game | Rockford Icehogs | ✘ | — | — | In play | — |
-| 10-18 22:26 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:21 | Argentine Nacional B Game | Estudiantes | ✘ | — | — | In play | — |
-| 10-18 22:19 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 22:17 | eSoccer Game | Girona (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
