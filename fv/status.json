@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-18T07:56:33+00:00",
+ "saved_at": "2026-10-18T08:06:45+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -79,17 +79,17 @@
   ]
  },
  "open": 0,
- "results_known": 15932,
+ "results_known": 15942,
  "sigma_pct": {
   "BTC": 0.02,
-  "HYPE": 0.0597,
-  "BNB": 0.0376,
-  "NEAR": 0.1021,
-  "XRP": 0.0349,
-  "ZEC": 0.0835,
-  "DOGE": 0.0466,
-  "ETH": 0.0279,
-  "SOL": 0.0398
+  "HYPE": 0.0509,
+  "BNB": 0.0332,
+  "NEAR": 0.1246,
+  "XRP": 0.0387,
+  "ZEC": 0.107,
+  "DOGE": 0.0543,
+  "ETH": 0.0322,
+  "SOL": 0.0488
  },
  "errors": [
   "2026-10-18T07:40:31+00:00 refresh KXDOGE15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
