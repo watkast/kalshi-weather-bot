@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 4:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 5:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 18955 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
+| 18965 | 1370 | 7 (1%) | 1.1% | -$107.50 (-52%) | Hold to the end: -$107.50 (-52%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1370 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 17563 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 17571 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7065 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7073 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 762 | 1 | 12% | 5% | -88% | -79% | 4 min |
 | eBasketball Game | ✘ | 720 | 1 | 0% | 0% | -87% | -87% | 2 min |
@@ -315,12 +315,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-18 10:52 | eSoccer Game | RB Leipzig (Hurricane) | ✘ | — | — | In play | — |
-| 10-18 10:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 10:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-18 10:50 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-18 10:48 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-18 10:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:03 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 10-18 11:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 11:02 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | — | In play | — |
+| 10-18 11:01 | ITF Men's Match | Rahul Sachdev | ✘ | — | — | In play | — |
+| 10-18 11:01 | Mobile Legends Bang Bang Game | RRQ Tora | ✘ | — | — | In play | — |
+| 10-18 10:59 | Women's T20 Match | Sydney Sixers Women | ✘ | — | — | In play | — |
+| 10-18 10:55 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 10-18 10:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-18 10:54 | eSoccer Game | Freiburg (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:52 | eSoccer Game | RB Leipzig (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:50 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:48 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-18 10:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:47 | Russia Liga Pro Match | Shulkov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:47 | Counter-Strike 2 Game | VP.Future 3 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:46 | ITF Men's Match | Natthayut Nithithananont | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -335,16 +345,6 @@
 | 10-18 10:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:39 | eSoccer Game | Freiburg (PinkElephant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-18 10:39 | eSoccer Game | RB Leipzig (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:38 | ITF Women's Match | Sitong Chen | ✘ | — | — | In play | — |
-| 10-18 10:37 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:35 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:28 | eBasketball Game | Los Angeles Lakers (Durant) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:28 | ITF Women's Match | jiale Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:27 | eSoccer Game | Chelsea (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:27 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-18 10:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
