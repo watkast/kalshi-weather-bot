@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 6:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 6:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20875 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20885 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19384 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19392 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7964 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 7970 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 812 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | eBasketball Game | ✘ | 799 | 1 | 0% | 0% | -88% | -88% | 2 min |
-| Counter-Strike 2 Game | ✘ | 751 | 1 | 4% | 2% | -88% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 752 | 1 | 4% | 2% | -88% | -92% | 11 min |
 | ITF Men's Match | ✘ | 739 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 611 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 554 | 2 | 10% | 4% | -66% | -82% | 5 min |
@@ -249,10 +249,10 @@
 | Egyptian Premier League Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
 | Slovenia 1. SKL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 15 min |
+| Japan B League Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | CFL Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Swiss Super League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 28 min |
 | FIBA Europe Cup Game | ✘ | 12 | 0 | 17% | 8% | -100% | -71% | 10 min |
-| Japan B League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 10 min |
 | Qatar Stars League | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 4 min |
 | Romanian Liga I Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 6 min |
 | Austrian Bundesliga Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 15 min |
@@ -315,14 +315,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 12:06 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
-| 10-19 12:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 12:05 | Japan B League Game | Akita Northern Happinets | ✘ | — | — | In play | — |
-| 10-19 12:03 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | — | In play | — |
-| 10-19 12:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:17 | eSoccer Game | Leverkusen (Bony) | ✘ | — | — | In play | — |
+| 10-19 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:16 | eSoccer Game | FC Bayern (Holis) | ✘ | — | — | In play | — |
+| 10-19 12:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:14 | Japan B League Game | Gunma Crane Thunders | ✘ | — | — | In play | — |
+| 10-19 12:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:14 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-19 12:13 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 10-19 12:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:08 | Japan B League Game | Kawasaki Brave Thunders | ✘ | — | — | In play | — |
+| 10-19 12:06 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 12:05 | Japan B League Game | Akita Northern Happinets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 12:03 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 12:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 12:03 | Japan B League Game | Nagasaki Velca | ✘ | — | — | In play | — |
-| 10-19 12:01 | eSoccer Game | FC Bayern (Holis) | ✘ | — | — | In play | — |
-| 10-19 12:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 12:01 | eSoccer Game | FC Bayern (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 12:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:59 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:58 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,20 +341,10 @@
 | 10-19 11:54 | Challenger ATP  | Dmitry Popko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:52 | eSoccer Game | Newcastle Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:51 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | — | In play | — |
+| 10-19 11:51 | Counter-Strike 2 Game | Spirit Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:50 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:50 | Challenger ATP  | Jake Delaney | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-19 11:49 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:49 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:48 | eSoccer Game | FC Bayern (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:46 | ITF Women's Match | Helene Pellicano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:46 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:45 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:43 | KHL Game | Salavat Yulaev UFA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:42 | ATP Tennis Match | Vitaliy Sachko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:41 | WTA Tennis Match | Kamilla Rakhimova | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
