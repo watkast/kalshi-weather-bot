@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 7:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 7:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20306 | 1463 | 7 (0%) | 1.1% | -$121.45 (-55%) | Hold to the end: -$121.45 (-55%) |
+| 20311 | 1463 | 7 (0%) | 1.1% | -$121.45 (-55%) | Hold to the end: -$121.45 (-55%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1463 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18820 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18829 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7567 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7572 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 801 | 1 | 13% | 5% | -88% | -77% | 4 min |
-| eBasketball Game | ✘ | 763 | 1 | 0% | 0% | -88% | -87% | 2 min |
+| eBasketball Game | ✘ | 764 | 1 | 0% | 0% | -88% | -87% | 2 min |
 | Counter-Strike 2 Game | ✘ | 739 | 1 | 4% | 2% | -87% | -92% | 12 min |
-| ITF Men's Match | ✘ | 726 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 559 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ITF Men's Match | ✘ | 727 | 1 | 12% | 6% | -87% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 561 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 536 | 2 | 10% | 4% | -65% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -315,16 +315,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-19 01:39 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 10-19 01:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 01:32 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | — | In play | — |
+| 10-19 01:32 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:30 | eSoccer Game | Everton (Arlo) | ✘ | — | — | In play | — |
-| 10-19 01:27 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 10-19 01:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 01:27 | ITF Men's Match | valentino conte | ✘ | — | — | In play | — |
-| 10-19 01:26 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 10-19 01:26 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
-| 10-19 01:25 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
+| 10-19 01:27 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:27 | ITF Men's Match | valentino conte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:26 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:26 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:25 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:23 | Bolivia Premier Division Game | Guabira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:23 | Bolivia Premier Division Game | Oriente | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:23 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 10-19 01:23 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:22 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:22 | Liga Nacional de Basquetbol Game | Regatas Corrientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:18 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -340,11 +345,6 @@
 | 10-19 01:06 | eSoccer Game | Chelsea (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:06 | eBasketball Game | Denver Nuggets (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:06 | eSoccer Game | Everton (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:06 | ITF Women's Match | Evialina Laskevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:06 | Russia Liga Pro Match | Gavrilov Yuriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:05 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:02 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
