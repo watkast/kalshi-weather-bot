@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 10:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 10:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21043 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 21051 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19548 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19561 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8065 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8075 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 819 | 1 | 13% | 5% | -89% | -77% | 4 min |
-| eBasketball Game | ✘ | 808 | 1 | 0% | 0% | -88% | -88% | 2 min |
-| Counter-Strike 2 Game | ✘ | 757 | 1 | 4% | 2% | -88% | -92% | 11 min |
+| eBasketball Game | ✘ | 810 | 1 | 0% | 0% | -88% | -88% | 2 min |
+| Counter-Strike 2 Game | ✘ | 758 | 1 | 4% | 2% | -88% | -92% | 11 min |
 | ITF Men's Match | ✘ | 741 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 628 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 558 | 2 | 10% | 4% | -67% | -83% | 5 min |
@@ -315,19 +315,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 16:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 16:08 | eSoccer Game | Frankfurt (Krocs) | ✘ | — | — | In play | — |
-| 10-19 16:08 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-19 16:08 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-19 16:08 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | — | In play | — |
-| 10-19 16:08 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | — | In play | — |
+| 10-19 16:19 | eSoccer Game | Everton (Frenkie) | ✘ | — | — | In play | — |
+| 10-19 16:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:19 | ITF Women's Match | Angelina Wirges | ✘ | — | — | In play | — |
+| 10-19 16:19 | German Women's Bundesliga Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:18 | German Women's Bundesliga Game | Stuttgart | ✘ | — | — | In play | — |
+| 10-19 16:17 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-19 16:16 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | — | In play | — |
+| 10-19 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:08 | eSoccer Game | Frankfurt (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:08 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:08 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:08 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:08 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:07 | ITF Women's Match | Alice Gillan | ✘ | — | — | In play | — |
-| 10-19 16:05 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-19 16:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 16:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 16:05 | eSoccer Game | Chelsea (Antonio) | ✘ | — | — | In play | — |
-| 10-19 16:04 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
-| 10-19 16:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:05 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:05 | eSoccer Game | Chelsea (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:04 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:03 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
 | 10-19 15:57 | Counter-Strike 2 Game | Bushido Wildcats | ✘ | — | — | In play | — |
 | 10-19 15:56 | Challenger ATP  | Tristan Boyer | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
@@ -337,14 +345,6 @@
 | 10-19 15:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:52 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:52 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:52 | Indian Super League Game | Mumbai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:51 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:50 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:50 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:48 | Egyptian Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
