@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-10-19T05:02:08+00:00",
+ "saved_at": "2026-10-19T05:14:15+00:00",
  "series": 31,
  "markets_watched": 21,
- "batch_lookup": false,
- "bets": 23225,
- "open": 0,
+ "batch_lookup": true,
+ "bets": 23240,
+ "open": 15,
  "coinbase_spot": {
-  "XRP": true,
-  "ZEC": true,
-  "NEAR": true,
-  "HYPE": true,
-  "BTC": true,
   "BNB": true,
+  "HYPE": true,
+  "ZEC": true,
+  "SOL": true,
+  "BTC": true,
+  "NEAR": true,
   "DOGE": true,
   "ETH": true,
-  "SOL": true
+  "XRP": true
  },
- "errors": [
-  "2026-10-18T23:58:37+00:00 batch off: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out."
- ]
+ "errors": []
 }
