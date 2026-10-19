@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 19, 4:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 19, 4:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2052 finished bets | 1% | $91.90 | +40% | +4.48¢ | $27.95 / $63.95 |
 
-*Expect about **95 buys a day** (~$14.22/day at risk); max loss per buy **15¢**.*
+*Expect about **95 buys a day** (~$14.21/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24184 | 24177 | 90 (0%) | 1.07% | -$1,674.60 (-57%) | Hold to the close: -$1,674.60 (-57%) |
+| 24186 | 24177 | 90 (0%) | 1.07% | -$1,674.60 (-57%) | Hold to the close: -$1,674.60 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/19 4:27:59 PM | HYPE | DOWN | 2.0 min | +0.171% | — | In play | — |
+| 10/19 4:24:29 PM | BNB | UP | 5.5 min | -0.235% | — | In play | — |
 | 10/19 4:14:54 PM | EURUSD | UP | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 4:14:07 PM | NATGAS | DOWN | 52 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 4:14:07 PM | USDJPY | DOWN | 52 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,8 +213,6 @@
 | 10/19 3:44:55 PM | GBPUSD | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 3:44:39 PM | BTC | UP | 21 sec | -0.005% | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 3:44:23 PM | SOL | UP | 37 sec | -0.062% | 0¢ | ❌ Lost | $0.00 |
-| 10/19 3:44:07 PM | BNB | DOWN | 53 sec | +0.022% | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 3:44:07 PM | HYPE | DOWN | 53 sec | +0.134% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
