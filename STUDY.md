@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 9:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 9:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20371 | 1464 | 7 (0%) | 1.1% | -$121.60 (-55%) | Hold to the end: -$121.60 (-55%) |
+| 20382 | 1466 | 7 (0%) | 1.1% | -$121.90 (-55%) | Hold to the end: -$121.90 (-55%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1464 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18889 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1466 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 18894 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 0% | -$121.60 | -55% |
-| Sell at 2¢ | 208 | 14% | -$165.52 | -75% |
-| Sell at 3¢ | 141 | 10% | -$164.61 | -75% |
-| Sell at 5¢ | 98 | 7% | -$155.90 | -71% |
-| Sell at 10¢ | 51 | 3% | -$152.79 | -70% |
-| Sell at 25¢ | 15 | 1% | -$169.95 | -77% |
-| Sell at 50¢ | 10 | 1% | -$152.10 | -69% |
+| Hold to the end | 7 | 0% | -$121.90 | -55% |
+| Sell at 2¢ | 209 | 14% | -$165.56 | -75% |
+| Sell at 3¢ | 142 | 10% | -$164.52 | -75% |
+| Sell at 5¢ | 99 | 7% | -$155.55 | -71% |
+| Sell at 10¢ | 51 | 3% | -$153.09 | -70% |
+| Sell at 25¢ | 15 | 1% | -$170.25 | -77% |
+| Sell at 50¢ | 10 | 1% | -$152.40 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7623 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7627 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 801 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 767 | 1 | 0% | 0% | -88% | -87% | 2 min |
@@ -107,7 +107,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 226 | 0 | 0% | 0% | -100% | -99% | 8 min |
-| Women's College Volleyball Match | ✘ | 207 | 2 | 6% | 3% | -10% | -89% | 74 min |
+| Women's College Volleyball Match | ✘ | 208 | 2 | 6% | 3% | -10% | -89% | 74 min |
 | Men's T20 Cricket Match | ✘ | 180 | 1 | 13% | 4% | -48% | -78% | 25 min |
 | Dota 2 Game | ✘ | 167 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 164 | 2 | 5% | 3% | +14% | -92% | 8 min |
@@ -163,6 +163,7 @@
 | Japan J League Game | ✘ | 40 | 0 | 15% | 5% | -100% | -74% | 13 min |
 | Peru Liga 1 Game | ✘ | 38 | 0 | 13% | 11% | -100% | -77% | 10 min |
 | Women's T20 Match | ✘ | 38 | 0 | 18% | 11% | -100% | -68% | 25 min |
+| Liga MX Game | ✔ | 37 | 0 | 14% | 11% | -100% | -77% | 2 min |
 | Chinese Basketball Association Game  | ✘ | 37 | 0 | 3% | 0% | -100% | -95% | 10 min |
 | UEFA Champions League Game | partly | 37 | 1 | 14% | 5% | +152% | -77% | 12 min |
 | NWSL Game | ✔ | 36 | 0 | 8% | 0% | -100% | -86% | 7 min |
@@ -172,7 +173,6 @@
 | Ligue 1 Game | ✔ | 36 | 0 | 17% | 8% | -100% | -71% | 9 min |
 | La Liga Game | ✔ | 36 | 0 | 31% | 22% | -100% | -47% | 9 min |
 | UEFA Conference League Game | partly | 36 | 0 | 19% | 8% | -100% | -66% | 10 min |
-| Liga MX Game | ✔ | 35 | 0 | 11% | 9% | -100% | -80% | 2 min |
 | EFL League One Game | ✔ | 35 | 0 | 11% | 3% | -100% | -80% | 5 min |
 | Polish Ekstraklasa Game | ✘ | 35 | 0 | 11% | 3% | -100% | -80% | 9 min |
 | Serie A Game | ✔ | 35 | 0 | 9% | 9% | -100% | -85% | 12 min |
@@ -293,10 +293,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 608 | 5% | 1% | 0% | -91% |
+| Under 5 min | 609 | 5% | 1% | 0% | -91% |
 | 5–15 min | 326 | 17% | 7% | 1% | -71% |
 | 15–30 min | 206 | 30% | 16% | 1% | -49% |
-| 30–60 min | 172 | 20% | 12% | 0% | -66% |
+| 30–60 min | 173 | 20% | 12% | 0% | -65% |
 | Over 60 min | 138 | 19% | 10% | 0% | -67% |
 
 ## Speed & liquidity
@@ -315,9 +315,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 03:01 | Liga MX Game | Tie | ✔ | 90'+4' · PAC 1 - MTY 2 | — | In play | — |
-| 10-19 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 02:54 | eSoccer Game | Everton (Arlo) | ✘ | — | — | In play | — |
+| 10-19 03:08 | eSoccer Game | Arsenal (Drakon) | ✘ | — | — | In play | — |
+| 10-19 03:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:08 | Women's College Volleyball Match | Texas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:05 | eSoccer Game | Leverkusen (Castle) | ✘ | — | — | In play | — |
+| 10-19 03:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:05 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-19 03:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:04 | eSoccer Game | 1. FC Köln (Bradley) | ✘ | — | — | In play | — |
+| 10-19 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:03 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:01 | Liga MX Game | Tie | ✔ | 90'+4' · PAC 1 - MTY 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 02:54 | eSoccer Game | Everton (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 02:52 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 02:52 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -334,17 +345,6 @@
 | 10-19 02:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 02:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 02:37 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:37 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:36 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:35 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:28 | eBasketball Game | Brooklyn Nets (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:28 | Liga MX Game | Pachuca | ✔ | 61' · PAC 0 - MTY 2 | — | In play | — |
-| 10-19 02:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:27 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:26 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 02:24 | eSoccer Game | Leverkusen (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
