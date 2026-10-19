@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-10-18T23:52:22+00:00",
+ "saved_at": "2026-10-19T00:02:38+00:00",
  "series": 31,
  "markets_watched": 21,
- "batch_lookup": true,
- "bets": 22919,
+ "batch_lookup": false,
+ "bets": 22935,
  "open": 0,
  "coinbase_spot": {
   "XRP": true,
@@ -16,5 +16,7 @@
   "ETH": true,
   "SOL": true
  },
- "errors": []
+ "errors": [
+  "2026-10-18T23:58:37+00:00 batch off: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out."
+ ]
 }
