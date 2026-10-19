@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 7:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 8:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20316 | 1463 | 7 (0%) | 1.1% | -$121.45 (-55%) | Hold to the end: -$121.45 (-55%) |
+| 20327 | 1463 | 7 (0%) | 1.1% | -$121.45 (-55%) | Hold to the end: -$121.45 (-55%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1463 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18835 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18840 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7577 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7581 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 801 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 764 | 1 | 0% | 0% | -88% | -87% | 2 min |
@@ -154,8 +154,8 @@
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
 | Tweede Divisie Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 4 min |
 | Mobile Legends Bang Bang Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| LNBP Basketball Game | ✘ | 43 | 0 | 7% | 0% | -100% | -88% | 16 min |
 | College Hockey Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| LNBP Basketball Game | ✘ | 42 | 0 | 7% | 0% | -100% | -88% | 16 min |
 | DEL Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | NFL Game | ✔ | 42 | 1 | 21% | 10% | +122% | -63% | 4 min |
 | China League 1 Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 9 min |
@@ -315,9 +315,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-19 02:00 | eSoccer Game | Arsenal (Arlo) | ✘ | — | — | In play | — |
+| 10-19 02:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 02:00 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
+| 10-19 01:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 01:56 | eSoccer Game | Botafogo (Castle) | ✘ | — | — | In play | — |
+| 10-19 01:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 01:55 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 10-19 01:55 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | — | In play | — |
+| 10-19 01:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 01:54 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:47 | AHL Game | Coachella Valley Firebirds | ✘ | — | — | In play | — |
-| 10-19 01:45 | eSoccer Game | Manchester City (Drakon) | ✘ | — | — | In play | — |
-| 10-19 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 01:45 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:41 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:39 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -334,17 +345,6 @@
 | 10-19 01:25 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:23 | Bolivia Premier Division Game | Guabira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 01:23 | Bolivia Premier Division Game | Oriente | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:23 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:22 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:22 | Liga Nacional de Basquetbol Game | Regatas Corrientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:18 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:15 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:14 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:14 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:14 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 01:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
