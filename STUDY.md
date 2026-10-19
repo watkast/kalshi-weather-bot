@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 10:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 10:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21071 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 21081 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19578 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19587 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8087 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8093 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 821 | 1 | 13% | 5% | -89% | -77% | 4 min |
-| eBasketball Game | ✘ | 810 | 1 | 0% | 0% | -88% | -88% | 2 min |
+| eBasketball Game | ✘ | 812 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | Counter-Strike 2 Game | ✘ | 760 | 1 | 4% | 2% | -88% | -92% | 11 min |
 | ITF Men's Match | ✘ | 742 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 628 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 629 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 558 | 2 | 10% | 4% | -67% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -315,15 +315,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 16:37 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
-| 10-19 16:36 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
-| 10-19 16:36 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | — | In play | — |
-| 10-19 16:35 | eSoccer Game | Spurs (Niskanen15) | ✘ | — | — | In play | — |
-| 10-19 16:35 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
-| 10-19 16:34 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-19 16:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 16:34 | eSoccer Game | Newcastle Utd (Frenkie) | ✘ | — | — | In play | — |
-| 10-19 16:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:49 | Slovakian 2. Liga Game | Presov | ✘ | — | — | In play | — |
+| 10-19 16:49 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | — | In play | — |
+| 10-19 16:49 | Slovakian 2. Liga Game | Zilina B | ✘ | — | — | In play | — |
+| 10-19 16:48 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-19 16:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 16:47 | Latvian Virsliga Game | Auda | ✘ | — | — | In play | — |
+| 10-19 16:46 | Saudi Pro League Game | Al-Fayha | ✘ | — | — | In play | — |
+| 10-19 16:45 | Russia Liga Pro Match | Vorozheikin Aleksandr | ✘ | — | — | In play | — |
+| 10-19 16:44 | Counter-Strike 2 Game | MASQ | ✘ | — | — | In play | — |
+| 10-19 16:37 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:36 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:36 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:35 | eSoccer Game | Spurs (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:35 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:34 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:34 | eSoccer Game | Newcastle Utd (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 16:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:32 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:29 | Counter-Strike 2 Game | Liquid | ✘ | — | — | In play | — |
@@ -335,16 +345,6 @@
 | 10-19 16:22 | eSoccer Game | Chelsea (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:20 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 16:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:19 | eSoccer Game | Everton (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:19 | ITF Women's Match | Angelina Wirges | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:19 | German Women's Bundesliga Game | Tie | ✘ | — | — | In play | — |
-| 10-19 16:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:18 | German Women's Bundesliga Game | Stuttgart | ✘ | — | — | In play | — |
-| 10-19 16:17 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:16 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | — | In play | — |
-| 10-19 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 16:08 | eSoccer Game | Frankfurt (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
