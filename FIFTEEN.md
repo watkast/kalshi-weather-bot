@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 18, 9:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 18, 9:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 1978 finished bets | 1% | $87.20 | +39% | +4.41¢ | $32.00 / $55.20 |
 
-*Expect about **95 buys a day** (~$14.23/day at risk); max loss per buy **15¢**.*
+*Expect about **95 buys a day** (~$14.22/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23226 | 23219 | 88 (0%) | 1.07% | -$1,583.50 (-56%) | Hold to the close: -$1,583.50 (-56%) |
+| 23228 | 23219 | 88 (0%) | 1.07% | -$1,583.50 (-56%) | Hold to the close: -$1,583.50 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/18 9:26:19 PM | NEAR | UP | 3.7 min | -0.653% | — | In play | — |
+| 10/18 9:26:07 PM | EURUSD | DOWN | 3.9 min | — | — | In play | — |
 | 10/18 9:14:52 PM | GOLD | DOWN | 8 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/18 9:14:48 PM | COPPER | UP | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/18 9:14:30 PM | HYPE | DOWN | 30 sec | +0.076% | 0¢ | ❌ Lost | $0.00 |
@@ -211,8 +213,6 @@
 | 10/18 8:43:39 PM | USDJPY | DOWN | 81 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/18 8:43:25 PM | ZEC | DOWN | 1.6 min | +0.432% | 1¢ | ❌ Lost | -$0.15 |
 | 10/18 8:43:13 PM | NEAR | DOWN | 1.8 min | +0.253% | 1¢ | ❌ Lost | -$0.15 |
-| 10/18 8:43:13 PM | BNB | DOWN | 1.8 min | +0.116% | 0¢ | ❌ Lost | $0.00 |
-| 10/18 8:43:02 PM | HYPE | DOWN | 2.0 min | +0.104% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
