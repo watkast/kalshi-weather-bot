@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 9:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 9:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20992 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 21002 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19496 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19510 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8032 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8046 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 817 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | eBasketball Game | ✘ | 806 | 1 | 0% | 0% | -88% | -88% | 2 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 15:27 | eSoccer Game | FC Koln (Krocs) | ✘ | — | — | In play | — |
-| 10-19 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 15:26 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
-| 10-19 15:26 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-19 15:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 15:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 15:38 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | — | In play | — |
+| 10-19 15:38 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-19 15:37 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | — | In play | — |
+| 10-19 15:37 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-19 15:36 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 10-19 15:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 15:33 | TFF 1. Lig Game | Karagumruk | ✘ | — | — | In play | — |
+| 10-19 15:33 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | — | In play | — |
+| 10-19 15:32 | Russia Liga Pro Match | Alekseev Aleksandr | ✘ | — | — | In play | — |
+| 10-19 15:27 | eSoccer Game | FC Koln (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:26 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:26 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:23 | ITF Women's Match | Mina Hodzic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:22 | eSoccer Game | Everton (Frenkie) | ✘ | — | — | In play | — |
-| 10-19 15:22 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
-| 10-19 15:22 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 10-19 15:22 | eSoccer Game | Everton (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:22 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:22 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:19 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:15 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:14 | eBasketball Game | Los Angeles Lakers (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:13 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | — | In play | — |
-| 10-19 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 15:10 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | — | In play | — |
-| 10-19 15:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 15:13 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:10 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 15:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:09 | eSoccer Game | OGC Nice (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:08 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 15:08 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:08 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 10-19 15:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 15:07 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:06 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:00 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 14:58 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 14:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 14:56 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 14:56 | eSoccer Game | Olympique Lyon (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
