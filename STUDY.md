@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 3:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 3:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21395 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21408 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19903 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19908 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8254 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8258 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 832 | 1 | 13% | 5% | -89% | -77% | 4 min |
+| ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | eBasketball Game | ✘ | 827 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | Counter-Strike 2 Game | ✘ | 787 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
@@ -315,9 +315,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 21:38 | ITF Women's Match | Anastasia Abbagnato | ✘ | — | — | In play | — |
-| 10-19 21:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 21:34 | eSoccer Game | Real Betis (Arkon) | ✘ | — | — | In play | — |
+| 10-19 21:54 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 10-19 21:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:48 | eSoccer Game | Real Sociedad (Arlo) | ✘ | — | — | In play | — |
+| 10-19 21:48 | eBasketball Game | Dallas Mavericks (Bryce) | ✘ | — | — | In play | — |
+| 10-19 21:47 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-19 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:47 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
+| 10-19 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:47 | eBasketball Game | New Orleans Pelicans (James) | ✘ | — | — | In play | — |
+| 10-19 21:45 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:45 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | — | In play | — |
+| 10-19 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:38 | ITF Women's Match | Anastasia Abbagnato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:34 | eSoccer Game | Real Betis (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:33 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:33 | ITF Women's Match | Sonja Zhiyenbayeva | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
@@ -332,19 +345,6 @@
 | 10-19 21:24 | ITF Men's Match | Valentin Garay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:23 | eSoccer Game | Sevilla FC (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:19 | eSoccer Game | River Plate (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:19 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:18 | ITF Men's Match | Pedro Albuquerque Dietrich | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-19 21:17 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:17 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:16 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:14 | Liga Portugal Game | Tie | ✘ | — | 54¢ | ❌ Lost | -$0.15 |
-| 10-19 21:12 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:10 | eSoccer Game | Real Madrid (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
