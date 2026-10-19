@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 9:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 10:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20418 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20427 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18924 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18936 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7651 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7661 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 801 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 771 | 1 | 0% | 0% | -88% | -87% | 2 min |
@@ -124,7 +124,7 @@
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
-| WTA Tennis Match | ✘ | 68 | 0 | 12% | 1% | -100% | -80% | 4 min |
+| WTA Tennis Match | ✘ | 69 | 0 | 12% | 1% | -100% | -80% | 4 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 64 | 0 | 20% | 9% | -100% | -65% | 9 min |
@@ -151,10 +151,10 @@
 | Slovakian 2. Liga Game | ✘ | 48 | 0 | 6% | 6% | -100% | -89% | 100 min |
 | ELH Game | ✘ | 45 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | TFF 1. Lig Game | ✘ | 45 | 0 | 13% | 7% | -100% | -77% | 10 min |
+| LNBP Basketball Game | ✘ | 44 | 0 | 7% | 0% | -100% | -88% | 16 min |
 | EuroCup Basketball Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 9 min |
 | Tweede Divisie Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 4 min |
 | Mobile Legends Bang Bang Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| LNBP Basketball Game | ✘ | 43 | 0 | 7% | 0% | -100% | -88% | 16 min |
 | NFL Game | ✔ | 43 | 1 | 21% | 9% | +117% | -64% | 4 min |
 | College Hockey Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | DEL Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -315,36 +315,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 03:52 | eSoccer Game | Liverpool (Arkon) | ✘ | — | — | In play | — |
-| 10-19 03:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 04:02 | eSoccer Game | Freiburg (Kevin) | ✘ | — | — | In play | — |
+| 10-19 04:02 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
+| 10-19 04:01 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-19 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 04:00 | WTA Tennis Match | Kaitlin Quevedo | ✘ | — | — | In play | — |
+| 10-19 04:00 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
+| 10-19 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 03:59 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-19 03:52 | eSoccer Game | Liverpool (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:50 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:50 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:49 | WTA Tennis Match | Liudmila Samsonova | ✘ | — | — | In play | — |
-| 10-19 03:49 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
-| 10-19 03:48 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
+| 10-19 03:49 | WTA Tennis Match | Liudmila Samsonova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:49 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:48 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-19 03:48 | WTA Tennis Match | Mai Hontama | ✘ | — | — | In play | — |
-| 10-19 03:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:47 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
-| 10-19 03:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:47 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-19 03:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:45 | eSoccer Game | Spain (Mia) | ✘ | — | — | In play | — |
+| 10-19 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:47 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:47 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:45 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:35 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:33 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:32 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:23 | eSoccer Game | Newcastle Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:23 | NFL Game | Dallas | ✔ | 5:53 - 4th · DAL 7 - GB 23 | 1¢ | ❌ Lost | -$0.15 |
-| 10-19 03:22 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:21 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:20 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:19 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
