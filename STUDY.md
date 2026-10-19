@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 3:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 3:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21392 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21395 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19893 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19903 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8246 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8254 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 831 | 1 | 13% | 5% | -89% | -77% | 4 min |
+| ITF Women's Match | ✘ | 832 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | eBasketball Game | ✘ | 827 | 1 | 0% | 0% | -89% | -88% | 2 min |
-| Counter-Strike 2 Game | ✘ | 786 | 2 | 4% | 2% | -76% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 787 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 658 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 563 | 2 | 10% | 4% | -67% | -82% | 5 min |
@@ -315,17 +315,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 21:33 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | — | In play | — |
-| 10-19 21:33 | ITF Women's Match | Sonja Zhiyenbayeva | ✘ | — | — | In play | — |
-| 10-19 21:32 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 10-19 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 21:31 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | — | In play | — |
-| 10-19 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:38 | ITF Women's Match | Anastasia Abbagnato | ✘ | — | — | In play | — |
+| 10-19 21:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 21:34 | eSoccer Game | Real Betis (Arkon) | ✘ | — | — | In play | — |
+| 10-19 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:33 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:33 | ITF Women's Match | Sonja Zhiyenbayeva | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-19 21:32 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:31 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:28 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:27 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | — | In play | — |
-| 10-19 21:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-19 21:27 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 21:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:24 | ITF Men's Match | Valentin Garay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:23 | eSoccer Game | Sevilla FC (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -342,9 +345,6 @@
 | 10-19 21:14 | Liga Portugal Game | Tie | ✘ | — | 54¢ | ❌ Lost | -$0.15 |
 | 10-19 21:12 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 21:10 | eSoccer Game | Real Madrid (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:10 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:08 | Liga Portugal Game | Braga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
