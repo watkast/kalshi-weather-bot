@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 4:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 4:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20753 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20758 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19261 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19272 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7891 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7897 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 809 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 793 | 1 | 0% | 0% | -88% | -88% | 2 min |
-| Counter-Strike 2 Game | ✘ | 742 | 1 | 4% | 2% | -87% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 744 | 1 | 4% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 738 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 597 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger ATP  | ✘ | 545 | 2 | 10% | 4% | -66% | -82% | 5 min |
+| Russia Liga Pro Match | ✘ | 599 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger ATP  | ✘ | 546 | 2 | 10% | 4% | -66% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 231 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -315,17 +315,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 10:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 10:14 | Russia Liga Pro Match | Lednev Ivan | ✘ | — | — | In play | — |
-| 10-19 10:14 | Counter-Strike 2 Game | Insiders Esport | ✘ | — | — | In play | — |
-| 10-19 10:14 | eSoccer Game | Everton (Homie) | ✘ | — | — | In play | — |
-| 10-19 10:13 | Challenger ATP  | Andrej Martin | ✘ | — | — | In play | — |
-| 10-19 10:12 | Russia Liga Pro Match | Arlashov Andrei | ✘ | — | — | In play | — |
-| 10-19 10:11 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-19 10:11 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
-| 10-19 10:10 | Counter-Strike 2 Game | GenOne | ✘ | — | — | In play | — |
-| 10-19 10:08 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-19 10:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 10:25 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
+| 10-19 10:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 10:23 | KHL Game | HC Barys | ✘ | — | — | In play | — |
+| 10-19 10:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 10:22 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-19 10:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:14 | Russia Liga Pro Match | Lednev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:14 | Counter-Strike 2 Game | Insiders Esport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:14 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:13 | Challenger ATP  | Andrej Martin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-19 10:12 | Russia Liga Pro Match | Arlashov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:11 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:11 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:10 | Counter-Strike 2 Game | GenOne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:08 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 10:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 10:05 | Russia Liga Pro Match | Kolunov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 10:02 | Russia Liga Pro Match | Shchavelev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 10:02 | ITF Men's Match | Boris Sarritzu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -340,11 +345,6 @@
 | 10-19 09:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 09:54 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 09:53 | Counter-Strike 2 Game | Drama eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 09:49 | Darts Match | Grant Sampson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 09:48 | Challenger ATP  | Izan Almazan Valiente | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 09:46 | eSoccer Game | Manchester City (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 09:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 09:46 | Russia Liga Pro Match | Gribkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
