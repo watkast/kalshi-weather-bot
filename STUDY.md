@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 5:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 5:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21512 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21525 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20016 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20024 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8338 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8344 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 836 | 1 | 0% | 0% | -89% | -88% | 2 min |
+| eBasketball Game | ✘ | 837 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 789 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 669 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 670 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 567 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -315,12 +315,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-19 23:57 | Argentina Primera Division Game | Junin | ✘ | — | — | In play | — |
+| 10-19 23:56 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | — | In play | — |
+| 10-19 23:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 23:54 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
+| 10-19 23:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 23:53 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
+| 10-19 23:53 | Russia Liga Pro Match | CHernikov Sergei | ✘ | — | — | In play | — |
+| 10-19 23:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 10-19 23:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 23:50 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 23:50 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:47 | Argentina Primera Division Game | Barracas | ✘ | — | — | In play | — |
-| 10-19 23:42 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | — | In play | — |
-| 10-19 23:41 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
+| 10-19 23:42 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 23:41 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:41 | eBasketball Game | Los Angeles Lakers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 23:40 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | — | In play | — |
+| 10-19 23:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 23:40 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:39 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:38 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -332,19 +345,6 @@
 | 10-19 23:34 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:30 | Argentina Primera Division Game | Central Cordoba | ✘ | — | — | In play | — |
 | 10-19 23:27 | eSoccer Game | Getafe CF (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:27 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:26 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:25 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:21 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:20 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:16 | Challenger ATP  | Mitchell Krueger | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-19 23:15 | eSoccer Game | FC Barcelona (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:12 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
