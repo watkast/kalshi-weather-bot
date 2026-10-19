@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 18, 10:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 18, 10:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20427 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20432 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 18936 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 18946 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7661 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7669 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 801 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 771 | 1 | 0% | 0% | -88% | -87% | 2 min |
@@ -124,7 +124,7 @@
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
-| WTA Tennis Match | ✘ | 69 | 0 | 12% | 1% | -100% | -80% | 4 min |
+| WTA Tennis Match | ✘ | 71 | 0 | 11% | 1% | -100% | -80% | 4 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 64 | 0 | 20% | 9% | -100% | -65% | 9 min |
@@ -303,7 +303,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 48 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 47 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -315,15 +315,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 04:02 | eSoccer Game | Freiburg (Kevin) | ✘ | — | — | In play | — |
-| 10-19 04:02 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
-| 10-19 04:01 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-19 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 04:00 | WTA Tennis Match | Kaitlin Quevedo | ✘ | — | — | In play | — |
-| 10-19 04:00 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
-| 10-19 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 03:59 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-19 04:13 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 10-19 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 04:13 | eSoccer Game | Spain (Mia) | ✘ | — | — | In play | — |
+| 10-19 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 04:04 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 10-19 04:02 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:02 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:01 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:00 | WTA Tennis Match | Kaitlin Quevedo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:00 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 03:59 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:52 | eSoccer Game | Liverpool (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:50 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -331,7 +336,7 @@
 | 10-19 03:49 | WTA Tennis Match | Liudmila Samsonova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:49 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:48 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-19 03:48 | WTA Tennis Match | Mai Hontama | ✘ | — | — | In play | — |
+| 10-19 03:48 | WTA Tennis Match | Mai Hontama | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-19 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:47 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -340,11 +345,6 @@
 | 10-19 03:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:45 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:35 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:33 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 03:32 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
