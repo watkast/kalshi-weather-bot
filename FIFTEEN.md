@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 19, 4:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 19, 4:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2053 finished bets | 1% | $91.75 | +40% | +4.47¢ | $27.95 / $63.80 |
 
-*Expect about **95 buys a day** (~$14.21/day at risk); max loss per buy **15¢**.*
+*Expect about **95 buys a day** (~$14.22/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24211 | 24204 | 90 (0%) | 1.07% | -$1,677.90 (-57%) | Hold to the close: -$1,677.90 (-57%) |
+| 24216 | 24204 | 90 (0%) | 1.07% | -$1,677.90 (-57%) | Hold to the close: -$1,677.90 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/19 4:58:31 PM | USDJPY | UP | 88 sec | — | — | In play | — |
+| 10/19 4:58:31 PM | NEAR | UP | 88 sec | -0.399% | — | In play | — |
+| 10/19 4:58:15 PM | ZEC | UP | 1.7 min | -0.273% | — | In play | — |
+| 10/19 4:57:27 PM | NATGAS | UP | 2.5 min | — | — | In play | — |
+| 10/19 4:55:50 PM | BNB | DOWN | 4.2 min | +0.108% | — | In play | — |
 | 10/19 4:44:49 PM | BNB | DOWN | 11 sec | -0.059% | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 4:44:33 PM | PALLADIUM | UP | 27 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 4:44:02 PM | DOGE | UP | 57 sec | -0.078% | 1¢ | ❌ Lost | -$0.15 |
@@ -208,11 +213,6 @@
 | 10/19 4:29:18 PM | ZEC | UP | 42 sec | -0.203% | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 4:29:03 PM | XRP | UP | 56 sec | -0.115% | 0¢ | ❌ Lost | $0.00 |
 | 10/19 4:29:03 PM | GBPUSD | DOWN | 56 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 4:27:59 PM | HYPE | DOWN | 2.0 min | +0.171% | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 4:24:29 PM | BNB | UP | 5.5 min | -0.235% | 1¢ | ❌ Lost | -$0.15 |
-| 10/19 4:14:54 PM | EURUSD | UP | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 4:14:07 PM | NATGAS | DOWN | 52 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 4:14:07 PM | USDJPY | DOWN | 52 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
