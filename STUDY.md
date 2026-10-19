@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 12:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 12:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21174 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 21180 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19676 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19688 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8135 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8145 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 826 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | eBasketball Game | ✘ | 817 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | Counter-Strike 2 Game | ✘ | 770 | 2 | 5% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 743 | 1 | 12% | 6% | -87% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 640 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger ATP  | ✘ | 559 | 2 | 10% | 4% | -67% | -83% | 5 min |
+| Challenger ATP  | ✘ | 560 | 2 | 10% | 4% | -67% | -83% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 231 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -122,8 +122,8 @@
 | Brasileiro Serie B Game | ✘ | 82 | 0 | 7% | 2% | -100% | -87% | 9 min |
 | Argentina Primera Division Game | ✘ | 80 | 1 | 15% | 6% | +17% | -74% | 6 min |
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
+| KHL Game | ✘ | 76 | 0 | 5% | 4% | -100% | -91% | 5 min |
 | WTA Tennis Match | ✘ | 75 | 0 | 12% | 3% | -100% | -79% | 4 min |
-| KHL Game | ✘ | 75 | 0 | 5% | 4% | -100% | -91% | 5 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
@@ -315,15 +315,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 18:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 18:10 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | — | In play | — |
-| 10-19 18:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 18:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-19 18:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 18:09 | Challenger ATP  | Duncan Chan | ✘ | — | — | In play | — |
-| 10-19 18:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 18:08 | eSoccer Game | Fulham (Frenkie) | ✘ | — | — | In play | — |
-| 10-19 18:08 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-19 18:22 | Egyptian Premier League Game | Enppi | ✘ | — | — | In play | — |
+| 10-19 18:21 | Counter-Strike 2 Game | Leo Team | ✘ | — | — | In play | — |
+| 10-19 18:20 | Russia Liga Pro Match | Grishaev Evgeny | ✘ | — | — | In play | — |
+| 10-19 18:14 | KHL Game | Torpedo Nizhny Novgorod | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:13 | eSoccer Game | Slavia Praha (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:10 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:09 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:09 | Challenger ATP  | Duncan Chan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:08 | eSoccer Game | Fulham (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 18:08 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 18:03 | Russia Liga Pro Match | Borisov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 18:02 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 18:02 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,12 +345,6 @@
 | 10-19 17:56 | Serie A Game | Tie | ✔ | 67' · CAG 0 - MON 3 | — | In play | — |
 | 10-19 17:56 | Liga Leumit Game | Bnei Yehuda | ✘ | — | — | In play | — |
 | 10-19 17:56 | eSoccer Game | Chelsea (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 17:55 | Liga Leumit Game | Ra`anana | ✘ | — | — | In play | — |
-| 10-19 17:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 17:54 | Serie A Game | Cagliari | ✔ | 65' · CAG 0 - MON 2 | — | In play | — |
-| 10-19 17:54 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 17:53 | Turkey BSL Game | Anadolu Efes SK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 17:53 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | — | In play | — |
 
 ## Raw data
 
