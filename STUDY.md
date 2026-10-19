@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 5:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20810 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20825 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19325 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19334 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7935 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7939 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 810 | 1 | 13% | 5% | -88% | -77% | 4 min |
-| eBasketball Game | ✘ | 795 | 1 | 0% | 0% | -88% | -88% | 2 min |
+| eBasketball Game | ✘ | 797 | 1 | 0% | 0% | -88% | -88% | 2 min |
 | Counter-Strike 2 Game | ✘ | 746 | 1 | 4% | 2% | -87% | -92% | 11 min |
 | ITF Men's Match | ✘ | 738 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 605 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 607 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 549 | 2 | 10% | 4% | -66% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -123,8 +123,8 @@
 | Argentina Primera Division Game | ✘ | 80 | 1 | 15% | 6% | +17% | -74% | 6 min |
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | WTA Tennis Match | ✘ | 74 | 0 | 11% | 1% | -100% | -81% | 4 min |
+| KHL Game | ✘ | 74 | 0 | 5% | 4% | -100% | -91% | 5 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
-| KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 64 | 0 | 20% | 9% | -100% | -65% | 9 min |
@@ -315,6 +315,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-19 11:25 | Korea KBL Game | Daegu Pegasus | ✘ | — | — | In play | — |
+| 10-19 11:24 | eBasketball Game | Los Angeles Lakers (Jake) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 11:24 | eBasketball Game | Golden State Warriors (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:23 | eSoccer Game | Newcastle Utd (Poly) | ✘ | — | — | In play | — |
+| 10-19 11:23 | eSoccer Game | FC Bayern (Holis) | ✘ | — | — | In play | — |
+| 10-19 11:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 11:20 | eSoccer Game | Werder Bremen (Fede) | ✘ | — | — | In play | — |
+| 10-19 11:20 | eSoccer Game | Hoffenheim (PinkElephant) | ✘ | — | — | In play | — |
+| 10-19 11:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:17 | Russia Liga Pro Match | Lednev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:17 | Russia Liga Pro Match | Shchavelev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:17 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:16 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 11:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:16 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
 | 10-19 11:12 | ATP Tennis Match | Federico Cina | ✘ | — | — | In play | — |
 | 10-19 11:10 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
@@ -330,21 +345,6 @@
 | 10-19 11:05 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:05 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 11:03 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 11:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:59 | ITF Women's Match | Olga Bienzobas Fernandez Sancho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:59 | ATP Tennis Match | Maxim Mrva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:56 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:54 | eSoccer Game | Freiburg (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:54 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:52 | eSoccer Game | Frankfurt (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:50 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:48 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:47 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 10:46 | Challenger ATP  | Pedro Rodenas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
