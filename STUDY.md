@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 1:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 1:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 20582 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
+| 20588 | 1467 | 7 (0%) | 1.1% | -$122.05 (-55%) | Hold to the end: -$122.05 (-55%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1467 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 19088 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 19100 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 7779 | 4 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 7787 | 4 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 805 | 1 | 13% | 5% | -88% | -77% | 4 min |
+| ITF Women's Match | ✘ | 806 | 1 | 13% | 5% | -88% | -77% | 4 min |
 | eBasketball Game | ✘ | 781 | 1 | 0% | 0% | -88% | -88% | 2 min |
 | Counter-Strike 2 Game | ✘ | 739 | 1 | 4% | 2% | -87% | -92% | 12 min |
-| ITF Men's Match | ✘ | 729 | 1 | 12% | 6% | -87% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 578 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ITF Men's Match | ✘ | 730 | 1 | 12% | 6% | -87% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 579 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 539 | 2 | 10% | 4% | -65% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -124,7 +124,7 @@
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | KHL Game | ✘ | 73 | 0 | 4% | 3% | -100% | -93% | 5 min |
-| WTA Tennis Match | ✘ | 71 | 0 | 11% | 1% | -100% | -80% | 4 min |
+| WTA Tennis Match | ✘ | 72 | 0 | 11% | 1% | -100% | -81% | 4 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 64 | 0 | 20% | 9% | -100% | -65% | 9 min |
@@ -315,19 +315,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-19 07:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 06:59 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
-| 10-19 06:59 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | — | In play | — |
+| 10-19 07:10 | Challenger ATP  | Kasidit Samrej | ✘ | — | — | In play | — |
+| 10-19 07:09 | eSoccer Game | Real Betis (PinkElephant) | ✘ | — | — | In play | — |
+| 10-19 07:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 07:08 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | — | In play | — |
+| 10-19 07:08 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-19 07:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-19 07:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:59 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:59 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 06:58 | ITF Women's Match | Saina Jayesh Vaidya | ✘ | — | — | In play | — |
-| 10-19 06:58 | ITF Men's Match | Mayank Sharma | ✘ | — | — | In play | — |
-| 10-19 06:58 | WTA Tennis Match | Elise Mertens | ✘ | — | — | In play | — |
-| 10-19 06:57 | eSoccer Game | Real Sociedad (Bony) | ✘ | — | — | In play | — |
-| 10-19 06:57 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | — | In play | — |
-| 10-19 06:55 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | — | In play | — |
-| 10-19 06:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 06:54 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 10-19 06:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-19 06:49 | ITF Women's Match | Xiaowei Li | ✘ | — | — | In play | — |
+| 10-19 06:58 | ITF Men's Match | Mayank Sharma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:58 | WTA Tennis Match | Elise Mertens | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:57 | eSoccer Game | Real Sociedad (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:57 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:55 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:54 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-19 06:49 | ITF Women's Match | Xiaowei Li | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-19 06:45 | eSoccer Game | AS Monaco (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 06:45 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,12 +345,6 @@
 | 10-19 06:42 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 06:41 | eSoccer Game | Real Madrid (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 06:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:41 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:32 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:30 | ITF Men's Match | Udit Kamboj | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 06:30 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
