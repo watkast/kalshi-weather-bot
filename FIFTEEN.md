@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 20, 7:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 20, 7:28 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 25124 | 25117 | 92 (0%) | 1.07% | -$1,766.00 (-58%) | Hold to the close: -$1,766.00 (-58%) |
+| 25127 | 25117 | 92 (0%) | 1.07% | -$1,766.00 (-58%) | Hold to the close: -$1,766.00 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/20 7:25:48 AM | HYPE | DOWN | 4.2 min | +0.213% | — | In play | — |
+| 10/20 7:25:17 AM | BNB | DOWN | 4.7 min | +0.173% | — | In play | — |
+| 10/20 7:24:45 AM | GOLD | DOWN | 5.2 min | — | — | In play | — |
 | 10/20 7:14:57 AM | SILVER | DOWN | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/20 7:14:57 AM | WTI | DOWN | 3 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/20 7:14:57 AM | COPPER | UP | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/20 6:58:50 AM | SOL | UP | 70 sec | -0.131% | 0¢ | ❌ Lost | -$0.15 |
 | 10/20 6:58:34 AM | ETH | UP | 86 sec | -0.092% | 1¢ | ❌ Lost | -$0.15 |
 | 10/20 6:58:18 AM | ZEC | UP | 1.7 min | -0.277% | 2¢ | ❌ Lost | -$0.15 |
-| 10/20 6:58:18 AM | USDCAD | DOWN | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/20 6:58:02 AM | DOGE | UP | 2.0 min | -0.202% | 0¢ | ❌ Lost | $0.00 |
-| 10/20 6:57:30 AM | USDJPY | DOWN | 2.5 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
