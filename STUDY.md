@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 3:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 3:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 22945 | 1522 | 7 (0%) | 1.1% | -$130.30 (-57%) | Hold to the end: -$130.30 (-57%) |
+| 22959 | 1522 | 7 (0%) | 1.1% | -$130.30 (-57%) | Hold to the end: -$130.30 (-57%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21404 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21410 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9142 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9144 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 918 | 1 | 0% | 0% | -90% | -89% | 2 min |
 | ITF Women's Match | ✘ | 899 | 2 | 13% | 5% | -79% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 846 | 2 | 4% | 2% | -78% | -92% | 11 min |
 | ITF Men's Match | ✘ | 822 | 1 | 12% | 6% | -89% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 798 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger ATP  | ✘ | 602 | 2 | 11% | 4% | -69% | -81% | 5 min |
+| Russia Liga Pro Match | ✘ | 801 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger ATP  | ✘ | 603 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 240 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -317,11 +317,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 21:24 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | — | In play | — |
-| 10-20 21:23 | Russia Liga Pro Match | Ilin Anatoliy | ✘ | — | — | In play | — |
-| 10-20 21:22 | Challenger ATP  | Sebastian Gorzny | ✘ | — | — | In play | — |
-| 10-20 21:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 21:22 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | — | In play | — |
+| 10-20 21:37 | ITF Women's Match | Kelly Keller | ✘ | — | — | In play | — |
+| 10-20 21:35 | eSoccer Game | Real Betis (Arlo) | ✘ | — | — | In play | — |
+| 10-20 21:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 21:33 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
+| 10-20 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 21:31 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
+| 10-20 21:31 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-20 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 21:30 | Dota 2 Game | TheBot$ | ✘ | — | — | In play | — |
+| 10-20 21:30 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-20 21:30 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 10-20 21:30 | NBA Game | Boston | ✔ | 18.2 - 4th · BOS 110 - DET 116 | — | In play | — |
+| 10-20 21:30 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 21:24 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 21:23 | Russia Liga Pro Match | Ilin Anatoliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 21:22 | Challenger ATP  | Sebastian Gorzny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 21:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 21:22 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 21:18 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 21:18 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -333,20 +347,6 @@
 | 10-20 21:14 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 21:13 | Russia Liga Pro Match | Krygin Nikolai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 21:10 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:09 | eSoccer Game | Real Madrid (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:06 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:04 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:04 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:04 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:04 | ITF Men's Match | Liam Krall | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-20 21:03 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 21:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 20:59 | Counter-Strike 2 Game | ASTRAL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 20:59 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 20:57 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
