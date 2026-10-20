@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 5:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 5:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23059 | 1523 | 7 (0%) | 1.1% | -$130.45 (-57%) | Hold to the end: -$130.45 (-57%) |
+| 23067 | 1523 | 7 (0%) | 1.1% | -$130.45 (-57%) | Hold to the end: -$130.45 (-57%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1523 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21512 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21522 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9218 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9222 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 924 | 1 | 0% | 0% | -90% | -90% | 2 min |
+| eBasketball Game | ✘ | 926 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 906 | 2 | 13% | 5% | -79% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 847 | 2 | 4% | 2% | -78% | -92% | 11 min |
 | ITF Men's Match | ✘ | 822 | 1 | 12% | 6% | -89% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 810 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 812 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 603 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -126,9 +126,9 @@
 | WTA Tennis Match | ✘ | 76 | 0 | 12% | 3% | -100% | -79% | 5 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
+| Liga DIMAYOR Game | ✘ | 67 | 1 | 10% | 3% | +39% | -82% | 6 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 66 | 0 | 21% | 9% | -100% | -63% | 8 min |
-| Liga DIMAYOR Game | ✘ | 65 | 1 | 11% | 3% | +44% | -81% | 6 min |
 | ATP Tennis Match | ✘ | 65 | 0 | 12% | 5% | -100% | -79% | 3 min |
 | Brasileiro Serie A Game | partly | 65 | 1 | 15% | 9% | +44% | -73% | 8 min |
 | NBA Game | ✔ | 65 | 0 | 12% | 3% | -100% | -79% | 6 min |
@@ -317,17 +317,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 23:17 | eSoccer Game | FC Barcelona (Minjori) | ✘ | — | — | In play | — |
-| 10-20 23:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 23:15 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | — | In play | — |
-| 10-20 23:14 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 10-20 23:14 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | — | In play | — |
-| 10-20 23:11 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | — | In play | — |
-| 10-20 23:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 23:11 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | — | In play | — |
-| 10-20 23:10 | eSoccer Game | River Plate (Antonio) | ✘ | — | — | In play | — |
+| 10-20 23:27 | eSoccer Game | RC Celta (Arlo) | ✘ | — | — | In play | — |
+| 10-20 23:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 23:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 23:24 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | — | In play | — |
+| 10-20 23:22 | eSoccer Game | Botafogo (Antonio) | ✘ | — | — | In play | — |
+| 10-20 23:22 | eSoccer Game | Estudiantes (Rooney) | ✘ | — | — | In play | — |
+| 10-20 23:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 23:21 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 10-20 23:17 | eSoccer Game | FC Barcelona (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:15 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:14 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:14 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:11 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:11 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 23:10 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:09 | Liga DIMAYOR Game | Boyaca Chico | ✘ | — | — | In play | — |
+| 10-20 23:09 | Liga DIMAYOR Game | Boyaca Chico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:09 | Russia Liga Pro Match | Barannik Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:09 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:08 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,14 +347,6 @@
 | 10-20 23:03 | eSoccer Game | Girona (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 22:56 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 22:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:54 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:54 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:53 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:51 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 22:48 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
