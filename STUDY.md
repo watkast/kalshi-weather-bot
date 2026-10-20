@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 8:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 9:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21655 | 1483 | 7 (0%) | 1.1% | -$124.45 (-56%) | Hold to the end: -$124.45 (-56%) |
+| 21664 | 1483 | 7 (0%) | 1.1% | -$124.45 (-56%) | Hold to the end: -$124.45 (-56%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1483 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20157 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20161 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8432 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8434 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 849 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
@@ -128,9 +128,9 @@
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 66 | 0 | 21% | 9% | -100% | -63% | 8 min |
+| Liga DIMAYOR Game | ✘ | 65 | 1 | 11% | 3% | +44% | -81% | 6 min |
 | Brasileiro Serie A Game | partly | 65 | 1 | 15% | 9% | +44% | -73% | 8 min |
 | NBA Game | ✔ | 64 | 0 | 12% | 3% | -100% | -78% | 7 min |
-| Liga DIMAYOR Game | ✘ | 63 | 1 | 11% | 3% | +48% | -81% | 6 min |
 | ATP Tennis Match | ✘ | 63 | 0 | 13% | 5% | -100% | -78% | 3 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Japan J2 League Game | ✘ | 60 | 0 | 15% | 7% | -100% | -74% | 8 min |
@@ -316,9 +316,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 02:54 | Liga DIMAYOR Game | Pasto | ✘ | — | — | In play | — |
-| 10-20 02:51 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-20 02:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:03 | eSoccer Game | Dortmund (Kevin) | ✘ | — | — | In play | — |
+| 10-20 03:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:02 | eSoccer Game | Spain (Mia) | ✘ | — | — | In play | — |
+| 10-20 03:00 | ITF Women's Match | Eva Lopez | ✘ | — | — | In play | — |
+| 10-20 02:59 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:55 | Colombia LBP Basketball Game | Sabios de Manizales | ✘ | — | — | In play | — |
+| 10-20 02:54 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | — | In play | — |
+| 10-20 02:54 | Liga DIMAYOR Game | Pasto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-20 02:51 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:46 | ITF Men's Match | Cody Atkinson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:41 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -337,15 +346,6 @@
 | 10-20 02:28 | eSoccer Game | Crystal Palace (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:26 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:24 | eSoccer Game | Leverkusen (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:22 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:19 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:15 | NHL Game | San Jose | ✔ | 0:39 - 3rd · SJ 1 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:13 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:13 | eSoccer Game | Everton (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
