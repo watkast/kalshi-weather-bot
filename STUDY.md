@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 10:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 10:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21739 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
+| 21748 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20234 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20240 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8494 | 5 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 8498 | 5 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 855 | 1 | 0% | 0% | -89% | -89% | 2 min |
-| ITF Women's Match | ✘ | 835 | 1 | 13% | 5% | -89% | -77% | 4 min |
+| ITF Women's Match | ✘ | 836 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 790 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 751 | 1 | 12% | 6% | -88% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 685 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -283,12 +283,12 @@
 | Mexican Pacific League | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 216 min |
 | Philippines PBA Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Women's Bundesliga Basketball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eFootball Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Powerslap Match Winner | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 436 min |
 | Portugal LPB Game | ✘ | 1 | 0 | 100% | 100% | -100% | +73% | 49 min |
 | GBL Basketball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| eFootball Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 25 min |
 
 ## By time left when it hit 1¢
 
@@ -316,10 +316,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 04:33 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | — | In play | — |
-| 10-20 04:31 | eSoccer Game | Athletic Club (Bradley) | ✘ | — | — | In play | — |
-| 10-20 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:46 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | — | In play | — |
+| 10-20 04:45 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | — | In play | — |
+| 10-20 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:44 | eSoccer Game | Athletic Club (Frost) | ✘ | — | — | In play | — |
+| 10-20 04:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:42 | LNBP Basketball Game | Lobos de Puebla | ✘ | — | — | In play | — |
+| 10-20 04:42 | eSoccer Game | Sevilla FC (Castle) | ✘ | — | — | In play | — |
+| 10-20 04:42 | LNBP Basketball Game | Dorados de Chihuahua | ✘ | — | — | In play | — |
+| 10-20 04:41 | ITF Women's Match | Renee Alame | ✘ | — | — | In play | — |
+| 10-20 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 04:33 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 04:31 | eSoccer Game | Athletic Club (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:30 | ITF Women's Match | Ekaterina Ovcharenko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:29 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -334,18 +343,9 @@
 | 10-20 04:18 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:16 | eBasketball Game | New Orleans Pelicans (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:16 | eFootball Game | Detroit (Fred) | ✘ | — | — | In play | — |
+| 10-20 04:16 | eFootball Game | Detroit (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:16 | eSoccer Game | Frankfurt (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 04:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:14 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:13 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:13 | ITF Women's Match | Mutsumi Uemura | ✘ | — | — | In play | — |
-| 10-20 04:13 | eSoccer Game | Portugal (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 04:10 | ITF Women's Match | Jeong Moon | ✘ | — | — | In play | — |
-| 10-20 04:06 | Challenger ATP  | Koki Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-20 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
