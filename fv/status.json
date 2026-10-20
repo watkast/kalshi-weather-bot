@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-20T19:09:44+00:00",
+ "saved_at": "2026-10-20T19:21:53+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -27,12 +27,7 @@
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
-  "ETH": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "SOL": [
+  "DOGE": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -42,56 +37,59 @@
    "gemini",
    "kraken"
   ],
+  "SOL": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "ETH": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
   "BTC": [
    "bitstamp",
    "gemini",
    "kraken"
   ],
-  "DOGE": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "ADA": [
-   "bitstamp"
-  ],
   "ZEC": [
-   "bitstamp",
-   "gemini"
-  ],
-  "BCH": [
-   "bitstamp",
-   "gemini"
-  ],
-  "NEAR": [
-   "bitstamp"
-  ],
-  "BNB": [
    "bitstamp",
    "gemini"
   ],
   "TON": [
    "bitstamp"
   ],
+  "BNB": [
+   "bitstamp",
+   "gemini"
+  ],
+  "NEAR": [
+   "bitstamp"
+  ],
+  "ADA": [
+   "bitstamp"
+  ],
   "HYPE": [
+   "bitstamp",
+   "gemini"
+  ],
+  "BCH": [
    "bitstamp",
    "gemini"
   ]
  },
  "open": 0,
- "results_known": 17951,
+ "results_known": 17961,
  "sigma_pct": {
-  "BTC": 0.0312,
-  "DOGE": 0.078,
-  "BNB": 0.0368,
-  "ZEC": 0.1312,
-  "ETH": 0.0467,
-  "SOL": 0.0772,
-  "NEAR": 0.1767,
-  "HYPE": 0.0849,
-  "XRP": 0.0561
+  "BNB": 0.0325,
+  "SOL": 0.0621,
+  "BTC": 0.0291,
+  "DOGE": 0.0542,
+  "ZEC": 0.1202,
+  "ETH": 0.0462,
+  "HYPE": 0.0751,
+  "NEAR": 0.1437,
+  "XRP": 0.0589
  },
- "errors": [
-  "2026-10-20T17:42:06+00:00 candles BNB: HTTPSConnectionPool(host='api.exchange.coinbase.com', port=443): Read timed out. (read timeout=5)"
- ]
+ "errors": []
 }
