@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 6:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 6:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21564 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21565 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20063 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20073 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8370 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8376 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 839 | 1 | 0% | 0% | -89% | -88% | 2 min |
+| eBasketball Game | ✘ | 841 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 789 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 674 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 675 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 567 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -270,9 +270,9 @@
 | United Rugby Championship Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | PREM Rugby Match | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Brazil NBB Basketball Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Liga Nacional de Basquetbol Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Brazil NBB Basketball Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Colombia LBP Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | CONMEBOL Libertadores Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 6 min |
@@ -315,17 +315,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-20 00:40 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
 | 10-20 00:38 | NHL Game | Anaheim | ✔ | 3:10 - 2nd · ANA 0 - NYR 4 | — | In play | — |
 | 10-20 00:37 | Uruguay Primera Division Game | Dep Maldonado | ✘ | — | — | In play | — |
-| 10-20 00:35 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | — | In play | — |
-| 10-20 00:34 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | — | In play | — |
-| 10-20 00:34 | eSoccer Game | Botafogo (Castle) | ✘ | — | — | In play | — |
-| 10-20 00:34 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
-| 10-20 00:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 00:33 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | — | In play | — |
-| 10-20 00:31 | eBasketball Game | Dallas Mavericks (Davis) | ✘ | — | — | In play | — |
-| 10-20 00:31 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
-| 10-20 00:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 00:35 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:34 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:34 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:34 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:33 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:31 | eBasketball Game | Dallas Mavericks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:31 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:28 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:25 | Brasileiro Serie B Game | Goias | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:25 | Brasileiro Serie B Game | Nautico | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -344,7 +345,6 @@
 | 10-20 00:09 | eSoccer Game | RCD Mallorca (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:07 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
