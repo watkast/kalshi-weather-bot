@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 10:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 10:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 32 finished bets | 3% | $9.20 | +192% | +28.75¢ | $11.60 / -$2.40 |
 
-*Expect about **2 buys a day**, roughly **$0.29/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.28/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 22508 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
+| 22517 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
 *In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20997 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21006 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8945 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 8951 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 896 | 1 | 0% | 0% | -90% | -89% | 2 min |
+| eBasketball Game | ✘ | 897 | 1 | 0% | 0% | -90% | -89% | 2 min |
 | ITF Women's Match | ✘ | 882 | 2 | 13% | 5% | -79% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 813 | 2 | 4% | 2% | -77% | -92% | 11 min |
 | ITF Men's Match | ✘ | 810 | 1 | 12% | 6% | -88% | -80% | 5 min |
@@ -213,13 +213,13 @@
 | Serie A Femminile Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Italy Serie A Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Danish Superliga Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 9 min |
+| Egyptian Premier League Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 8 min |
 | Sweden SBL Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Australia NBL Game | ✘ | 23 | 0 | 4% | 0% | -100% | -92% | 6 min |
 | Men's ODI Cricket Match | ✘ | 23 | 0 | 9% | 0% | -100% | -85% | 27 min |
 | Czech NBL Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 17 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Vietnam V-League 1 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| Egyptian Premier League Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Latvian Virsliga Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 17 min |
 | Slovakian Cup Game | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 22 min |
@@ -316,9 +316,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 16:06 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | — | In play | — |
-| 10-20 16:05 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | — | In play | — |
-| 10-20 16:03 | Egyptian Premier League Game | Tie | ✘ | — | — | In play | — |
+| 10-20 16:16 | Counter-Strike 2 Game | Team Nemesis | ✘ | — | — | In play | — |
+| 10-20 16:11 | Polish Hockey Game | Podhale Nowy Targ | ✘ | — | — | In play | — |
+| 10-20 16:11 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | — | In play | — |
+| 10-20 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:09 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:08 | Counter-Strike 2 Game | TheMongolz | ✘ | — | — | In play | — |
+| 10-20 16:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:07 | eSoccer Game | Nantes (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:06 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:05 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:03 | Egyptian Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 15:58 | Challenger ATP  | Daniel Salazar Martinez | ✘ | — | — | In play | — |
 | 10-20 15:58 | Counter-Strike 2 Game | WISP | ✘ | — | — | In play | — |
 | 10-20 15:57 | ITF Women's Match | Aliesia Reva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -335,17 +344,8 @@
 | 10-20 15:51 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 15:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 15:50 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:49 | Egyptian Premier League Game | Modern | ✘ | — | — | In play | — |
+| 10-20 15:49 | Egyptian Premier League Game | Modern | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 10-20 15:49 | ITF Women's Match | Ekaterina Yashina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:48 | ITF Women's Match | Lucia Natal | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-20 15:48 | Russia Liga Pro Match | Nosov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:45 | ITF Women's Match | Meritxell Teixido Garcia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:44 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:42 | Egyptian Premier League Game | Asyut Petroleum | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:41 | eSoccer Game | Stuttgart (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:39 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:39 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
