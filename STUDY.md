@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 9:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21683 | 1484 | 7 (0%) | 1.1% | -$124.60 (-56%) | Hold to the end: -$124.60 (-56%) |
+| 21687 | 1484 | 7 (0%) | 1.1% | -$124.60 (-56%) | Hold to the end: -$124.60 (-56%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1484 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20175 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20186 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8446 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8454 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 849 | 1 | 0% | 0% | -89% | -89% | 2 min |
+| eBasketball Game | ✘ | 851 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 834 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 790 | 2 | 4% | 2% | -76% | -92% | 11 min |
-| ITF Men's Match | ✘ | 749 | 1 | 12% | 6% | -88% | -79% | 5 min |
+| ITF Men's Match | ✘ | 750 | 1 | 12% | 6% | -88% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 685 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 568 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -316,19 +316,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 03:24 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | — | In play | — |
-| 10-20 03:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:23 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
-| 10-20 03:21 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | — | In play | — |
+| 10-20 03:32 | eSoccer Game | Freiburg (Frost) | ✘ | — | — | In play | — |
+| 10-20 03:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:29 | ITF Men's Match | Xiao-Feng Zhou | ✘ | — | — | In play | — |
+| 10-20 03:29 | ITF Men's Match | Zhenxiong Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:24 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:23 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:21 | eBasketball Game | Brooklyn Nets (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:21 | NFL Game | Washington | ✔ | 0:06 - 4th · WSH 17 - SF 23 | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:21 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
-| 10-20 03:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:19 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-20 03:21 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:19 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:18 | eSoccer Game | Frankfurt (Castle) | ✘ | — | — | In play | — |
 | 10-20 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:17 | eSoccer Game | Spain (Mia) | ✘ | — | — | In play | — |
-| 10-20 03:17 | eSoccer Game | Portugal (Florie) | ✘ | — | — | In play | — |
+| 10-20 03:17 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:17 | eSoccer Game | Portugal (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:10 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:07 | eSoccer Game | FC Augsburg (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -342,10 +346,6 @@
 | 10-20 03:00 | ITF Women's Match | Eva Lopez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:59 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:55 | Colombia LBP Basketball Game | Sabios de Manizales | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:54 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:54 | Liga DIMAYOR Game | Pasto | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-20 02:51 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
