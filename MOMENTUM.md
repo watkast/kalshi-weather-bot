@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Tue Oct 20 15:03 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Tue Oct 20 15:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 17261 | 14919 | 2342 (66) | 0 | $-1018.04 | -1.0% |
-| **20¢+ jump, ride past +5¢** | 10601 | 5824 | 4777 (2086) | 2 | $-3598.46 | -5.4% |
+| **20¢+ jump, sell +5¢** | 17261 | 14919 | 2342 (66) | 1 | $-1018.04 | -1.0% |
+| **20¢+ jump, ride past +5¢** | 10602 | 5825 | 4777 (2086) | 2 | $-3596.15 | -5.4% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 15:01 | J20R | SOL | DOWN | 20¢ | 0.69 | open |  |
+| 10-20 15:07 | J20R | NEAR | UP | 21¢ | 0.34 | open |  |
+| 10-20 15:07 | J20 | NEAR | UP | 21¢ | 0.34 | open |  |
+| 10-20 15:01 | J20R | SOL | DOWN | 20¢ | 0.69 | 0.94 | 2.31 |
 | 10-20 15:01 | J20 | SOL | DOWN | 20¢ | 0.69 | 0.74 | 0.21 |
 | 10-20 15:01 | J20R | XRP | DOWN | 21¢ | 0.76 | open |  |
 | 10-20 15:01 | J20 | XRP | DOWN | 21¢ | 0.76 | 0.82 | 0.36 |
@@ -56,5 +58,3 @@
 | 10-20 14:33 | J20 | HYPE | DOWN | 22¢ | 0.57 | yes | -5.88 |
 | 10-20 14:33 | J20R | ETH | DOWN | 23¢ | 0.67 | yes | -6.86 |
 | 10-20 14:33 | J20 | ETH | DOWN | 23¢ | 0.67 | yes | -6.86 |
-| 10-20 14:33 | J20R | BNB | DOWN | 25¢ | 0.66 | yes | -6.76 |
-| 10-20 14:33 | J20 | BNB | DOWN | 25¢ | 0.66 | yes | -6.76 |
