@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 10:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 10:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21710 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
+| 21720 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20207 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20213 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8472 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8478 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 853 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 834 | 1 | 13% | 5% | -89% | -77% | 4 min |
@@ -316,12 +316,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 04:02 | eSoccer Game | Nottingham Forest (Arlo) | ✘ | — | — | In play | — |
-| 10-20 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:59 | eSoccer Game | Portugal (Florie) | ✘ | — | — | In play | — |
-| 10-20 03:57 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-20 04:16 | eSoccer Game | Frankfurt (Frost) | ✘ | — | — | In play | — |
+| 10-20 04:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:14 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-20 04:13 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | — | In play | — |
+| 10-20 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 04:13 | ITF Women's Match | Mutsumi Uemura | ✘ | — | — | In play | — |
+| 10-20 04:13 | eSoccer Game | Portugal (Florie) | ✘ | — | — | In play | — |
+| 10-20 04:10 | ITF Women's Match | Jeong Moon | ✘ | — | — | In play | — |
+| 10-20 04:06 | Challenger ATP  | Koki Matsuda | ✘ | — | — | In play | — |
+| 10-20 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 04:02 | eSoccer Game | Nottingham Forest (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 04:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:59 | eSoccer Game | Portugal (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:57 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:51 | eSoccer Game | Liverpool (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:49 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -336,16 +346,6 @@
 | 10-20 03:45 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:44 | NHL Game | Pittsburgh | ✔ | 0:23 - 3rd · PIT 4 - UTA 5 | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:38 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:35 | eSoccer Game | Frankfurt (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:32 | eSoccer Game | Freiburg (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:29 | ITF Men's Match | Xiao-Feng Zhou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:29 | ITF Men's Match | Zhenxiong Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:24 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:23 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
