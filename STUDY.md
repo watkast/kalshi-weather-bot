@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 6:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 6:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21544 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21553 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20046 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20056 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8358 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8366 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 839 | 1 | 0% | 0% | -89% | -88% | 2 min |
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 789 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 672 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 673 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 567 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -272,11 +272,11 @@
 | Men's Iceland Basketball Premier League Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liga Nacional de Basquetbol Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Brazil NBB Basketball Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | CONMEBOL Sudamericana Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Colombia LBP Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | CONMEBOL Libertadores Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 6 min |
 | Israel Super League Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 16 min |
-| Brazil NBB Basketball Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 122 min |
@@ -315,14 +315,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 00:18 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | — | In play | — |
-| 10-20 00:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 00:18 | eSoccer Game | São Paulo (Kylian) | ✘ | — | — | In play | — |
-| 10-20 00:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 00:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 10-20 00:14 | Brazil NBB Basketball Game | Cruzeiro Basquete | ✘ | — | — | In play | — |
-| 10-20 00:09 | eSoccer Game | RCD Mallorca (Arlo) | ✘ | — | — | In play | — |
-| 10-20 00:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 00:28 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | — | In play | — |
+| 10-20 00:25 | Brasileiro Serie B Game | Goias | ✘ | — | — | In play | — |
+| 10-20 00:25 | Brasileiro Serie B Game | Nautico | ✘ | — | — | In play | — |
+| 10-20 00:22 | eSoccer Game | Sevilla FC (Arkon) | ✘ | — | — | In play | — |
+| 10-20 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 00:20 | eSoccer Game | Botafogo (Castle) | ✘ | — | — | In play | — |
+| 10-20 00:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 00:20 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:18 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:18 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:14 | Brazil NBB Basketball Game | Cruzeiro Basquete | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:09 | eSoccer Game | RCD Mallorca (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:07 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:06 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -336,15 +345,6 @@
 | 10-20 00:03 | eBasketball Game | New York Knicks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-19 23:57 | Argentina Primera Division Game | Junin | ✘ | — | 22¢ | ❌ Lost | -$0.15 |
 | 10-19 23:56 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:54 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:53 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:53 | Russia Liga Pro Match | CHernikov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:50 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-19 23:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
