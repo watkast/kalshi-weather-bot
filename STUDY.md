@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 9:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21687 | 1484 | 7 (0%) | 1.1% | -$124.60 (-56%) | Hold to the end: -$124.60 (-56%) |
+| 21692 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1484 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20186 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 20191 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 0% | -$124.60 | -56% |
-| Sell at 2¢ | 210 | 14% | -$168.00 | -75% |
-| Sell at 3¢ | 143 | 10% | -$166.83 | -75% |
-| Sell at 5¢ | 99 | 7% | -$158.25 | -71% |
-| Sell at 10¢ | 51 | 3% | -$155.79 | -70% |
-| Sell at 25¢ | 15 | 1% | -$172.95 | -78% |
-| Sell at 50¢ | 10 | 1% | -$155.10 | -70% |
+| Hold to the end | 7 | 0% | -$124.75 | -56% |
+| Sell at 2¢ | 210 | 14% | -$168.15 | -75% |
+| Sell at 3¢ | 143 | 10% | -$166.98 | -75% |
+| Sell at 5¢ | 99 | 7% | -$158.40 | -71% |
+| Sell at 10¢ | 51 | 3% | -$155.94 | -70% |
+| Sell at 25¢ | 15 | 1% | -$173.10 | -78% |
+| Sell at 50¢ | 10 | 1% | -$155.25 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8454 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8458 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 851 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 834 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 790 | 2 | 4% | 2% | -76% | -92% | 11 min |
-| ITF Men's Match | ✘ | 750 | 1 | 12% | 6% | -88% | -79% | 5 min |
+| ITF Men's Match | ✘ | 751 | 1 | 12% | 6% | -88% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 685 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 568 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -113,7 +113,7 @@
 | Dota 2 Game | ✘ | 171 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| NHL Game | ✔ | 138 | 0 | 12% | 6% | -100% | -79% | 4 min |
+| NHL Game | ✔ | 139 | 0 | 12% | 6% | -100% | -79% | 4 min |
 | League of Legends Game | ✘ | 133 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 99 | 1 | 11% | 4% | -6% | -81% | 6 min |
@@ -316,9 +316,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 03:32 | eSoccer Game | Freiburg (Frost) | ✘ | — | — | In play | — |
-| 10-20 03:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 03:29 | ITF Men's Match | Xiao-Feng Zhou | ✘ | — | — | In play | — |
+| 10-20 03:44 | NHL Game | Pittsburgh | ✔ | 0:23 - 3rd · PIT 4 - UTA 5 | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:38 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | — | In play | — |
+| 10-20 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:35 | eSoccer Game | Frankfurt (Bradley) | ✘ | — | — | In play | — |
+| 10-20 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:32 | eSoccer Game | Freiburg (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:29 | ITF Men's Match | Xiao-Feng Zhou | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:29 | ITF Men's Match | Zhenxiong Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:24 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -329,8 +334,8 @@
 | 10-20 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:19 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:18 | eSoccer Game | Frankfurt (Castle) | ✘ | — | — | In play | — |
-| 10-20 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 03:18 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:17 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:17 | eSoccer Game | Portugal (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:10 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -341,11 +346,6 @@
 | 10-20 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 03:03 | eSoccer Game | Dortmund (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:02 | eSoccer Game | Spain (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 03:00 | ITF Women's Match | Eva Lopez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:59 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
