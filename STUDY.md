@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 6:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 7:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21565 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21568 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20073 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20075 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -138,9 +138,9 @@
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | Liga Leumit Game | ✘ | 56 | 0 | 2% | 2% | -100% | -97% | 138 min |
+| Uruguay Primera Division Game | ✘ | 54 | 0 | 7% | 4% | -100% | -87% | 10 min |
 | TFF 1. Lig Game | ✘ | 53 | 0 | 19% | 11% | -100% | -67% | 10 min |
 | EFL Championship Game | ✔ | 53 | 0 | 8% | 4% | -100% | -87% | 8 min |
-| Uruguay Primera Division Game | ✘ | 52 | 0 | 6% | 4% | -100% | -90% | 10 min |
 | KBO Game | ✘ | 52 | 0 | 10% | 6% | -100% | -83% | 4 min |
 | Liiga Game | ✘ | 52 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
@@ -315,9 +315,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 00:40 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-20 00:59 | eBasketball Game | Denver Nuggets (James) | ✘ | — | — | In play | — |
+| 10-20 00:56 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
+| 10-20 00:52 | Counter-Strike 2 Game | A NATA | ✘ | — | — | In play | — |
+| 10-20 00:40 | Uruguay Primera Division Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-20 00:38 | NHL Game | Anaheim | ✔ | 3:10 - 2nd · ANA 0 - NYR 4 | — | In play | — |
-| 10-20 00:37 | Uruguay Primera Division Game | Dep Maldonado | ✘ | — | — | In play | — |
+| 10-20 00:37 | Uruguay Primera Division Game | Dep Maldonado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:35 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:34 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:34 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -342,9 +345,6 @@
 | 10-20 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:14 | Brazil NBB Basketball Game | Cruzeiro Basquete | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:09 | eSoccer Game | RCD Mallorca (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
