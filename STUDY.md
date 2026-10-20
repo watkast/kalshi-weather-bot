@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 3:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 3:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 22034 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
+| 22043 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20521 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20536 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8692 | 5 | 1% | 1% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 8702 | 5 | 1% | 1% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 873 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 839 | 1 | 13% | 5% | -89% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 794 | 2 | 4% | 2% | -76% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 795 | 2 | 4% | 2% | -77% | -92% | 11 min |
 | ITF Men's Match | ✘ | 766 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 716 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger ATP  | ✘ | 575 | 2 | 10% | 4% | -68% | -82% | 5 min |
+| Russia Liga Pro Match | ✘ | 718 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger ATP  | ✘ | 577 | 2 | 10% | 4% | -68% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
 | Darts Match | ✘ | 233 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -316,16 +316,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 09:46 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | — | In play | — |
-| 10-20 09:44 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-20 09:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 09:44 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
-| 10-20 09:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 09:42 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 10-20 09:42 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-20 09:55 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-20 09:55 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-20 09:50 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:49 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:48 | Challenger ATP  | Felix Gill | ✘ | — | — | In play | — |
+| 10-20 09:48 | Darts Match | Stuart Dutton | ✘ | — | — | In play | — |
+| 10-20 09:47 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:46 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:44 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:44 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:42 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:42 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:40 | Russia Liga Pro Match | Korotkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:39 | Challenger ATP  | Pol Martin Tiffon | ✘ | — | — | In play | — |
-| 10-20 09:36 | Challenger ATP  | Radu Mihai Papoe | ✘ | — | — | In play | — |
+| 10-20 09:39 | Challenger ATP  | Pol Martin Tiffon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:36 | Challenger ATP  | Radu Mihai Papoe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:34 | Counter-Strike 2 Game | Azuolas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:33 | Darts Match | Grant Sampson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -336,16 +345,7 @@
 | 10-20 09:30 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 09:28 | Russia Liga Pro Match | Gulnitskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:26 | Counter-Strike 2 Game | Wept Xyloid Melancholy | ✘ | — | — | In play | — |
-| 10-20 09:19 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:18 | eSoccer Game | Benfica (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:16 | eSoccer Game | FC Bayern (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:16 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 09:13 | Darts Match | Stuart Dutton | ✘ | — | — | In play | — |
-| 10-20 09:12 | Russia Liga Pro Match | Nozdrunov IUrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 09:26 | Counter-Strike 2 Game | Wept Xyloid Melancholy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
