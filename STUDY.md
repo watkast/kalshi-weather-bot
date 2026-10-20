@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 10:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 10:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 22528 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
+| 22540 | 1485 | 7 (0%) | 1.1% | -$124.75 (-56%) | Hold to the end: -$124.75 (-56%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1485 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21013 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21023 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8953 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 8959 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 898 | 1 | 0% | 0% | -90% | -89% | 2 min |
 | ITF Women's Match | ✘ | 882 | 2 | 13% | 5% | -79% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 813 | 2 | 4% | 2% | -77% | -92% | 11 min |
-| ITF Men's Match | ✘ | 811 | 1 | 12% | 6% | -88% | -79% | 5 min |
+| Counter-Strike 2 Game | ✘ | 816 | 2 | 4% | 2% | -77% | -92% | 11 min |
+| ITF Men's Match | ✘ | 812 | 1 | 12% | 6% | -89% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 758 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 592 | 2 | 11% | 4% | -68% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -316,36 +316,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-20 16:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 16:36 | eFootball Game | Cincinnati (Pablo) | ✘ | — | — | In play | — |
+| 10-20 16:35 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
+| 10-20 16:35 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
+| 10-20 16:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 16:34 | Counter-Strike 2 Game | Black Phoenix | ✘ | — | — | In play | — |
+| 10-20 16:34 | eSoccer Game | Newcastle Utd (Eder) | ✘ | — | — | In play | — |
+| 10-20 16:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 16:33 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | — | In play | — |
+| 10-20 16:32 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | — | In play | — |
+| 10-20 16:31 | ITF Men's Match | Bader Idrees | ✘ | — | — | In play | — |
+| 10-20 16:30 | ITF Women's Match | Anna Boron | ✘ | — | — | In play | — |
 | 10-20 16:27 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
 | 10-20 16:26 | Slovenia 1. SKL Game | Kk Rogaska | ✘ | — | — | In play | — |
-| 10-20 16:23 | eSoccer Game | Werder Bremen (Mantis) | ✘ | — | — | In play | — |
-| 10-20 16:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 16:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-20 16:22 | eSoccer Game | Sunderland (Bony) | ✘ | — | — | In play | — |
-| 10-20 16:20 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
-| 10-20 16:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 16:23 | eSoccer Game | Werder Bremen (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:22 | eSoccer Game | Sunderland (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:20 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:19 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:18 | Russia Liga Pro Match | Surikov Viacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:16 | Counter-Strike 2 Game | Team Nemesis | ✘ | — | — | In play | — |
+| 10-20 16:16 | Counter-Strike 2 Game | Team Nemesis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:11 | Polish Hockey Game | Podhale Nowy Targ | ✘ | — | — | In play | — |
 | 10-20 16:11 | eBasketball Game | Brooklyn Nets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:09 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 16:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:08 | Counter-Strike 2 Game | TheMongolz | ✘ | — | — | In play | — |
-| 10-20 16:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:07 | eSoccer Game | Nantes (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:06 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:05 | eSoccer Game | Paris Saint-Germain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 16:03 | Egyptian Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:58 | Challenger ATP  | Daniel Salazar Martinez | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-20 15:58 | Counter-Strike 2 Game | WISP | ✘ | — | — | In play | — |
-| 10-20 15:57 | ITF Women's Match | Aliesia Reva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:56 | eSoccer Game | Mönchengladbach (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:55 | ITF Women's Match | Nellie Taraba Wallberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 15:53 | Counter-Strike 2 Game | HyperSpirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 16:08 | Counter-Strike 2 Game | TheMongolz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
