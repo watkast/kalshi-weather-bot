@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-20T20:04:47+00:00",
+ "saved_at": "2026-10-20T20:15:02+00:00",
  "series_watched": 364,
- "markets_in_or_near_play": 257,
+ "markets_in_or_near_play": 230,
  "batch_lookup": true,
  "espn_games_linked": 18,
  "espn_check": {
-  "at": "2026-10-20T19:34:15+00:00",
+  "at": "2026-10-20T20:05:35+00:00",
   "started_games": 19,
   "matched": 18,
   "unmatched_sample": [
    "KXUCLGAME-26OCT20NAPBOG"
   ]
  },
- "bets": 22830,
- "open": 40,
+ "bets": 22847,
+ "open": 36,
  "errors": []
 }
