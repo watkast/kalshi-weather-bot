@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 8:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 8:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 32 finished bets | 3% | $9.20 | +192% | +28.75¢ | $11.60 / -$2.40 |
 
-*Expect about **2 buys a day**, roughly **$0.30/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.29/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21640 | 1483 | 7 (0%) | 1.1% | -$124.45 (-56%) | Hold to the end: -$124.45 (-56%) |
+| 21651 | 1483 | 7 (0%) | 1.1% | -$124.45 (-56%) | Hold to the end: -$124.45 (-56%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1483 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20138 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 20146 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 8418 | 5 | 1% | 1% | -94% | -99% | 2 min |
+| eSoccer Game | ✘ | 8422 | 5 | 1% | 1% | -94% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 847 | 1 | 0% | 0% | -89% | -89% | 2 min |
+| eBasketball Game | ✘ | 849 | 1 | 0% | 0% | -89% | -89% | 2 min |
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 790 | 2 | 4% | 2% | -76% | -92% | 11 min |
-| ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 684 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ITF Men's Match | ✘ | 748 | 1 | 12% | 6% | -88% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 685 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 568 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -316,13 +316,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-20 02:31 | ITF Men's Match | Stefan Storch | ✘ | — | — | In play | — |
-| 10-20 02:30 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
-| 10-20 02:28 | eSoccer Game | Chelsea (Drakon) | ✘ | — | — | In play | — |
-| 10-20 02:28 | eSoccer Game | Crystal Palace (Arlo) | ✘ | — | — | In play | — |
-| 10-20 02:26 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | — | In play | — |
-| 10-20 02:24 | eSoccer Game | Leverkusen (Frost) | ✘ | — | — | In play | — |
-| 10-20 02:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:41 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | — | In play | — |
+| 10-20 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:38 | eSoccer Game | FSV Mainz 05 (Kevin) | ✘ | — | — | In play | — |
+| 10-20 02:38 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:37 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-20 02:37 | eSoccer Game | Dortmund (Castle) | ✘ | — | — | In play | — |
+| 10-20 02:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:36 | eSoccer Game | Spain (Mia) | ✘ | — | — | In play | — |
+| 10-20 02:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 02:31 | ITF Men's Match | Stefan Storch | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 10-20 02:30 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:28 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:28 | eSoccer Game | Crystal Palace (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:26 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:24 | eSoccer Game | Leverkusen (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 02:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:22 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:19 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -335,17 +346,6 @@
 | 10-20 02:09 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:09 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 02:09 | Challenger ATP  | Marcelo Tomas Barrios Vera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:08 | eSoccer Game | Leverkusen (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:07 | Argentina Primera Division Game | Union Santa Fe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:06 | Argentina Primera Division Game | Riestra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:04 | eFootball Game | Green Bay (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:04 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 02:04 | Women's Pro Basketball Game | Golden State | ✔ | 5:08 - 4th · ATL 69 - GS 52 | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 01:58 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 01:58 | eSoccer Game | Crystal Palace (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 01:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 01:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
