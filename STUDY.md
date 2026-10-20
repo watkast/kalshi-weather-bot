@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 19, 7:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 19, 7:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 21568 | 1477 | 7 (0%) | 1.1% | -$123.55 (-56%) | Hold to the end: -$123.55 (-56%) |
+| 21576 | 1479 | 7 (0%) | 1.1% | -$123.85 (-56%) | Hold to the end: -$123.85 (-56%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1477 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 20075 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1479 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 20076 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 0% | -$123.55 | -56% |
-| Sell at 2¢ | 210 | 14% | -$166.95 | -75% |
-| Sell at 3¢ | 143 | 10% | -$165.78 | -75% |
-| Sell at 5¢ | 99 | 7% | -$157.20 | -71% |
-| Sell at 10¢ | 51 | 3% | -$154.74 | -70% |
-| Sell at 25¢ | 15 | 1% | -$171.90 | -78% |
-| Sell at 50¢ | 10 | 1% | -$154.05 | -70% |
+| Hold to the end | 7 | 0% | -$123.85 | -56% |
+| Sell at 2¢ | 210 | 14% | -$167.25 | -75% |
+| Sell at 3¢ | 143 | 10% | -$166.08 | -75% |
+| Sell at 5¢ | 99 | 7% | -$157.50 | -71% |
+| Sell at 10¢ | 51 | 3% | -$155.04 | -70% |
+| Sell at 25¢ | 15 | 1% | -$172.20 | -78% |
+| Sell at 50¢ | 10 | 1% | -$154.35 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -102,7 +102,7 @@
 | ITF Women's Match | ✘ | 833 | 1 | 13% | 5% | -89% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 789 | 2 | 4% | 2% | -76% | -92% | 11 min |
 | ITF Men's Match | ✘ | 747 | 1 | 12% | 6% | -88% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 675 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 676 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 567 | 2 | 10% | 4% | -67% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 262 | 2 | 13% | 7% | -29% | -77% | 24 min |
@@ -128,10 +128,10 @@
 | USL Championship Game | partly | 68 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 66 | 0 | 21% | 9% | -100% | -63% | 8 min |
+| Brasileiro Serie A Game | partly | 65 | 1 | 15% | 9% | +44% | -73% | 8 min |
 | NBA Game | ✔ | 64 | 0 | 12% | 3% | -100% | -78% | 7 min |
 | Liga DIMAYOR Game | ✘ | 63 | 1 | 11% | 3% | +48% | -81% | 6 min |
 | ATP Tennis Match | ✘ | 63 | 0 | 13% | 5% | -100% | -78% | 3 min |
-| Brasileiro Serie A Game | partly | 63 | 1 | 16% | 10% | +48% | -72% | 9 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Japan J2 League Game | ✘ | 60 | 0 | 15% | 7% | -100% | -74% | 8 min |
 | German 3. Liga Game | ✘ | 60 | 0 | 12% | 5% | -100% | -80% | 7 min |
@@ -293,7 +293,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 613 | 5% | 1% | 0% | -91% |
+| Under 5 min | 614 | 5% | 1% | 0% | -91% |
 | 5–15 min | 328 | 17% | 7% | 1% | -70% |
 | 15–30 min | 211 | 29% | 16% | 1% | -50% |
 | 30–60 min | 173 | 20% | 12% | 0% | -65% |
@@ -315,8 +315,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-20 01:06 | eSoccer Game | Everton (Arlo) | ✘ | — | — | In play | — |
+| 10-20 01:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 01:05 | Brasileiro Serie A Game | Corinthians | ✔ | 90'+11' · VIT 1 - COR 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-20 01:05 | eBasketball Game | Indiana Pacers (Lonzo) | ✘ | — | — | In play | — |
+| 10-20 01:03 | Brasileiro Serie A Game | Vitoria | ✔ | 90'+10' · VIT 1 - COR 1 | 1¢ | ❌ Lost | -$0.15 |
+| 10-20 01:02 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | — | In play | — |
+| 10-20 01:02 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | — | In play | — |
+| 10-20 01:02 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
 | 10-20 00:59 | eBasketball Game | Denver Nuggets (James) | ✘ | — | — | In play | — |
-| 10-20 00:56 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
+| 10-20 00:56 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:52 | Counter-Strike 2 Game | A NATA | ✘ | — | — | In play | — |
 | 10-20 00:40 | Uruguay Primera Division Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-20 00:38 | NHL Game | Anaheim | ✔ | 3:10 - 2nd · ANA 0 - NYR 4 | — | In play | — |
@@ -337,14 +345,6 @@
 | 10-20 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:20 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:20 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:18 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:18 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 00:14 | Brazil NBB Basketball Game | Cruzeiro Basquete | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
