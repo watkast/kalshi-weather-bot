@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-20T17:56:52+00:00",
+ "saved_at": "2026-10-20T18:07:01+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -79,17 +79,17 @@
   ]
  },
  "open": 0,
- "results_known": 17905,
+ "results_known": 17915,
  "sigma_pct": {
-  "BTC": 0.0345,
-  "DOGE": 0.0622,
-  "BNB": 0.0456,
-  "ZEC": 0.1217,
-  "ETH": 0.053,
-  "SOL": 0.0586,
-  "NEAR": 0.1523,
-  "HYPE": 0.0652,
-  "XRP": 0.0548
+  "BTC": 0.0352,
+  "DOGE": 0.0701,
+  "BNB": 0.047,
+  "ZEC": 0.1401,
+  "ETH": 0.05,
+  "SOL": 0.0667,
+  "NEAR": 0.1397,
+  "HYPE": 0.0705,
+  "XRP": 0.0631
  },
  "errors": [
   "2026-10-20T17:42:06+00:00 candles BNB: HTTPSConnectionPool(host='api.exchange.coinbase.com', port=443): Read timed out. (read timeout=5)"
