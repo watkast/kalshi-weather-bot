@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 19, 8:33 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 19, 8:43 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24437 | 24430 | 90 (0%) | 1.07% | -$1,706.25 (-58%) | Hold to the close: -$1,706.25 (-58%) |
+| 24440 | 24430 | 90 (0%) | 1.07% | -$1,706.25 (-58%) | Hold to the close: -$1,706.25 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/19 8:42:04 PM | PLATINUM | UP | 2.9 min | — | — | In play | — |
+| 10/19 8:41:33 PM | GOLD | UP | 3.4 min | — | — | In play | — |
+| 10/19 8:41:17 PM | SILVER | UP | 3.7 min | — | — | In play | — |
 | 10/19 8:29:43 PM | SILVER | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 8:29:43 PM | GBPUSD | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 8:29:43 PM | WTI | UP | 16 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -210,9 +213,6 @@
 | 10/19 8:13:47 PM | USDJPY | UP | 73 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 8:13:32 PM | PALLADIUM | DOWN | 88 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/19 8:12:28 PM | PLATINUM | DOWN | 2.5 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/19 8:12:28 PM | HYPE | UP | 2.5 min | -0.355% | 1¢ | ❌ Lost | -$0.15 |
-| 10/19 8:12:12 PM | SOL | UP | 2.8 min | -0.273% | 4¢ | ❌ Lost | -$0.15 |
-| 10/19 8:12:12 PM | XRP | UP | 2.8 min | -0.277% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
