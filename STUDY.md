@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 2:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 2:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23555 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23563 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21983 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21995 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9534 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9541 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 957 | 1 | 0% | 0% | -90% | -90% | 2 min |
+| eBasketball Game | ✘ | 959 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 919 | 2 | 14% | 5% | -80% | -76% | 4 min |
 | Counter-Strike 2 Game | ✘ | 850 | 2 | 4% | 3% | -78% | -92% | 11 min |
-| ITF Men's Match | ✘ | 849 | 1 | 12% | 6% | -89% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 843 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Challenger ATP  | ✘ | 604 | 2 | 11% | 4% | -69% | -81% | 5 min |
+| ITF Men's Match | ✘ | 850 | 1 | 12% | 6% | -89% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 844 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Challenger ATP  | ✘ | 605 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
 | Darts Match | ✘ | 241 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -317,17 +317,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 08:10 | eSoccer Game | Paris Saint-Germain (Mordor) | ✘ | — | — | In play | — |
-| 10-21 08:08 | eBasketball Game | Golden State Warriors (Tyler) | ✘ | — | — | In play | — |
-| 10-21 08:08 | eSoccer Game | Liverpool (Ousmane) | ✘ | — | — | In play | — |
-| 10-21 08:08 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | — | In play | — |
-| 10-21 08:07 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 10-21 08:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 08:07 | eBasketball Game | Los Angeles Lakers (Clyde) | ✘ | — | — | In play | — |
-| 10-21 08:06 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
-| 10-21 08:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | — | In play | — |
+| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:21 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:18 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 10-21 08:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:13 | Challenger ATP  | Khumoyun Sultanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:12 | Russia Liga Pro Match | Davlitshin Ildar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:10 | eSoccer Game | Paris Saint-Germain (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:08 | eBasketball Game | Golden State Warriors (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:08 | eSoccer Game | Liverpool (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:08 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:07 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:07 | eBasketball Game | Los Angeles Lakers (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:06 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:05 | ITF Men's Match | Kristjan Tamm | ✘ | — | — | In play | — |
+| 10-21 08:05 | ITF Men's Match | Kristjan Tamm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:12 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:12 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,14 +347,6 @@
 | 10-21 07:09 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:01 | ITF Men's Match | Dev Javia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:01 | Russia Liga Pro Match | Kuznetsov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:59 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:58 | ITF Men's Match | William Rejchtman Vinciguerra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:57 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:57 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 06:57 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
