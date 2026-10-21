@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 21, 9:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 21, 9:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2256 finished bets | 1% | $81.00 | +32% | +3.59¢ | $45.60 / $35.40 |
 
-*Expect about **97 buys a day** (~$14.48/day at risk); max loss per buy **15¢**.*
+*Expect about **96 buys a day** (~$14.47/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26803 | 26796 | 98 (0%) | 1.07% | -$1,894.55 (-58%) | Hold to the close: -$1,894.55 (-58%) |
+| 26804 | 26796 | 98 (0%) | 1.07% | -$1,894.55 (-58%) | Hold to the close: -$1,894.55 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -185,6 +185,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/21 9:55:17 AM | NEAR | DOWN | 4.7 min | +1.140% | — | In play | — |
 | 10/21 9:44:31 AM | DOGE | UP | 28 sec | -0.064% | 1¢ | ❌ Lost | -$0.15 |
 | 10/21 9:44:15 AM | PLATINUM | UP | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/21 9:44:15 AM | NEAR | UP | 44 sec | -0.429% | 0¢ | ❌ Lost | $0.00 |
@@ -214,7 +215,6 @@
 | 10/21 9:27:55 AM | WTI | UP | 2.1 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/21 9:27:55 AM | HYPE | UP | 2.1 min | -0.467% | 0¢ | ❌ Lost | $0.00 |
 | 10/21 9:27:39 AM | USDJPY | UP | 2.3 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/21 9:27:39 AM | PLATINUM | DOWN | 2.3 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
