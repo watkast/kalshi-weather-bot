@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 12:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 12:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23469 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23483 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21904 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21913 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9486 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9492 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 952 | 1 | 0% | 0% | -90% | -90% | 2 min |
+| eBasketball Game | ✘ | 954 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 917 | 2 | 14% | 5% | -80% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 848 | 2 | 4% | 2% | -78% | -92% | 11 min |
 | ITF Men's Match | ✘ | 843 | 1 | 12% | 6% | -89% | -79% | 5 min |
@@ -118,7 +118,7 @@
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 99 | 1 | 11% | 4% | -6% | -81% | 6 min |
 | AHL Game | ✘ | 95 | 0 | 3% | 2% | -100% | -95% | 5 min |
-| WTA Tennis Match | ✘ | 87 | 0 | 10% | 2% | -100% | -82% | 5 min |
+| WTA Tennis Match | ✘ | 88 | 0 | 10% | 2% | -100% | -82% | 5 min |
 | Brasileiro Serie B Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 9 min |
 | Argentina Primera Division Game | ✘ | 86 | 1 | 17% | 9% | +9% | -70% | 6 min |
 | Ettan Game | ✘ | 85 | 0 | 5% | 1% | -100% | -92% | 6 min |
@@ -317,7 +317,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 06:07 | WTA Tennis Match | Tandin Tsheyang Wangmo | ✘ | — | — | In play | — |
+| 10-21 06:18 | eSoccer Game | Nantes (Strudl) | ✘ | — | — | In play | — |
+| 10-21 06:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 06:17 | eFootball Game | Buffalo (Joshua) | ✘ | — | — | In play | — |
+| 10-21 06:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 06:15 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | — | In play | — |
+| 10-21 06:15 | ITF Men's Match | Julien De Cuyper | ✘ | — | — | In play | — |
+| 10-21 06:15 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:14 | eBasketball Game | Dallas Mavericks (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:14 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:13 | eSoccer Game | Real Betis (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:12 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:12 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 06:07 | WTA Tennis Match | Tandin Tsheyang Wangmo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 06:04 | Counter-Strike 2 Game | Wept Xyloid Melancholy | ✘ | — | — | In play | — |
 | 10-21 06:04 | WTA Tennis Match | anisa yakhyaeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 06:03 | eSoccer Game | AS Monaco (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -333,20 +347,6 @@
 | 10-21 05:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 05:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 05:58 | ITF Men's Match | Sasikumar Mukund | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:57 | WTA Tennis Match | Huda Aldabbous | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:57 | Valorant game winner | A Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:52 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:50 | ITF Men's Match | Hiromasa Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:50 | ITF Women's Match | Georgia Campbell | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-21 05:50 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:49 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:49 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:46 | Russia Liga Pro Match | Kutin Valery | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:46 | eSoccer Game | Getafe CF (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:46 | ITF Men's Match | Mustafa Ege Sik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 05:46 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
