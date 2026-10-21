@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 8:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 8:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24053 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 24063 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22479 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22491 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9776 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9786 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 984 | 1 | 0% | 0% | -91% | -90% | 2 min |
-| ITF Women's Match | ✘ | 964 | 2 | 14% | 5% | -81% | -76% | 4 min |
+| ITF Women's Match | ✘ | 965 | 2 | 14% | 5% | -81% | -76% | 4 min |
+| Russia Liga Pro Match | ✘ | 888 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 887 | 1 | 13% | 6% | -89% | -78% | 5 min |
-| Russia Liga Pro Match | ✘ | 887 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Counter-Strike 2 Game | ✘ | 871 | 2 | 5% | 3% | -79% | -92% | 11 min |
 | Challenger ATP  | ✘ | 609 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -317,18 +317,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 14:48 | ITF Women's Match | Alina Charaeva | ✘ | — | — | In play | — |
-| 10-21 14:48 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | — | In play | — |
-| 10-21 14:46 | eSoccer Game | FC Bayern (Mantis) | ✘ | — | — | In play | — |
-| 10-21 14:46 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | — | In play | — |
-| 10-21 14:43 | eSoccer Game | OGC Nice (Eder) | ✘ | — | — | In play | — |
-| 10-21 14:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 14:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 14:42 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 10-21 14:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 14:41 | eSoccer Game | Olympique Lyon (Holis) | ✘ | — | — | In play | — |
-| 10-21 14:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 14:40 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 10-21 14:57 | eFootball Game | Seattle (Pablo) | ✘ | — | — | In play | — |
+| 10-21 14:56 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
+| 10-21 14:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 14:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 14:55 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-21 14:55 | Counter-Strike 2 Game | Noir Verse | ✘ | — | — | In play | — |
+| 10-21 14:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 14:54 | eSoccer Game | Olympique Lyon (Holis) | ✘ | — | — | In play | — |
+| 10-21 14:54 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-21 14:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 14:48 | ITF Women's Match | Alina Charaeva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:48 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:46 | eSoccer Game | FC Bayern (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:46 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:43 | eSoccer Game | OGC Nice (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:42 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:41 | eSoccer Game | Olympique Lyon (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 14:40 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 14:37 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 14:36 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 14:35 | Challenger ATP  | Thiago Monteiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -337,16 +347,6 @@
 | 10-21 14:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 14:31 | ITF Men's Match | Melih Anavatan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 14:31 | eFootball Game | Seattle (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:31 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:29 | ITF Men's Match | Miles Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:29 | eSoccer Game | Strasbourg (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:28 | Russia Liga Pro Match | Surikov Viacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:27 | Counter-Strike 2 Game | Spirit Academy Green | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:27 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 14:27 | eSoccer Game | OGC Nice (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
