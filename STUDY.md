@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 3:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 3:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24533 | 1569 | 7 (0%) | 1.1% | -$137.35 (-58%) | Hold to the end: -$137.35 (-58%) |
+| 24542 | 1569 | 7 (0%) | 1.1% | -$137.35 (-58%) | Hold to the end: -$137.35 (-58%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1569 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 22938 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22950 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 10020 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 10028 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 1005 | 1 | 0% | 0% | -91% | -90% | 2 min |
-| ITF Women's Match | ✘ | 984 | 2 | 14% | 5% | -81% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 926 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eBasketball Game | ✘ | 1006 | 1 | 0% | 0% | -91% | -90% | 2 min |
+| ITF Women's Match | ✘ | 985 | 2 | 14% | 5% | -81% | -76% | 4 min |
+| Russia Liga Pro Match | ✘ | 928 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Counter-Strike 2 Game | ✘ | 902 | 2 | 5% | 3% | -79% | -92% | 11 min |
 | ITF Men's Match | ✘ | 901 | 1 | 13% | 6% | -90% | -78% | 5 min |
 | Challenger ATP  | ✘ | 613 | 2 | 11% | 4% | -70% | -82% | 5 min |
@@ -318,19 +318,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 21:10 | eSoccer Game | RCD Mallorca (Minjori) | ✘ | — | — | In play | — |
-| 10-21 21:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 21:07 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | — | In play | — |
-| 10-21 21:05 | eSoccer Game | Spurs (Gigi) | ✘ | — | — | In play | — |
-| 10-21 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 21:05 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
-| 10-21 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 21:05 | eSoccer Game | River Plate (Antonio) | ✘ | — | — | In play | — |
-| 10-21 21:04 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
+| 10-21 21:20 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 10-21 21:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 21:17 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
+| 10-21 21:17 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-21 21:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 21:17 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
+| 10-21 21:16 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 10-21 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 21:13 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:10 | eSoccer Game | RCD Mallorca (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:07 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:05 | eSoccer Game | Spurs (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:05 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:05 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 21:04 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 21:04 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | — | In play | — |
+| 10-21 21:04 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 21:03 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 21:03 | ITF Women's Match | Mell Elizabeth Reasco Gonzalez | ✘ | — | — | In play | — |
+| 10-21 21:03 | ITF Women's Match | Mell Elizabeth Reasco Gonzalez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-21 20:58 | UEFA Champions League Game | Tie | ✔ | 90'+8' · LAS 3 - SCP 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 20:58 | Italy Serie A2 Game | Pallacanestro 2.015 Forli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 20:57 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,15 +348,6 @@
 | 10-21 20:53 | Russia Liga Pro Match | Kruglov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 20:53 | ITF Men's Match | Tomas Martinez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-21 20:52 | UEFA Champions League Game | Arsenal | ✔ | 90'+2' · ARS 2 - MUN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:52 | UEFA Champions League Game | Tie | ✔ | 90'+4' · FEY 0 - BET 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:51 | UEFA Champions League Game | Bayern Munich | ✔ | 90'+2' · ARS 2 - MUN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:49 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:48 | UEFA Champions League Game | Shakhtar | ✔ | 88' · SHK 0 - INT 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 20:47 | EuroCup Basketball Game | Tofas SK Bursa | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-21 20:47 | eSoccer Game | Paris Saint-Germain (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
