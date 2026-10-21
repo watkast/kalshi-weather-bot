@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 7:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 7:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23969 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23985 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22384 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22401 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9738 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9748 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 979 | 1 | 0% | 0% | -90% | -90% | 2 min |
-| ITF Women's Match | ✘ | 951 | 2 | 14% | 5% | -80% | -76% | 4 min |
-| ITF Men's Match | ✘ | 878 | 1 | 12% | 6% | -89% | -79% | 5 min |
-| Russia Liga Pro Match | ✘ | 878 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Counter-Strike 2 Game | ✘ | 859 | 2 | 5% | 3% | -78% | -92% | 11 min |
+| ITF Women's Match | ✘ | 953 | 2 | 14% | 5% | -80% | -76% | 4 min |
+| ITF Men's Match | ✘ | 880 | 1 | 12% | 6% | -89% | -79% | 5 min |
+| Russia Liga Pro Match | ✘ | 879 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Counter-Strike 2 Game | ✘ | 861 | 2 | 5% | 3% | -78% | -92% | 11 min |
 | Challenger ATP  | ✘ | 608 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
@@ -317,36 +317,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 13:38 | ITF Women's Match | Anna Kubareva | ✘ | — | — | In play | — |
-| 10-21 13:36 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
-| 10-21 13:35 | eSoccer Game | Werder Bremen (Kovboj) | ✘ | — | — | In play | — |
-| 10-21 13:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 13:35 | Counter-Strike 2 Game | EVO Elite | ✘ | — | — | In play | — |
+| 10-21 13:48 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | — | In play | — |
+| 10-21 13:48 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | — | In play | — |
+| 10-21 13:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 13:48 | Men's T20 Cricket Match | Northern Cape Heat | ✘ | — | — | In play | — |
+| 10-21 13:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 13:47 | Philippines PBA Game | Rain or Shine Elasto Painters | ✘ | — | — | In play | — |
+| 10-21 13:47 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
+| 10-21 13:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 13:47 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-21 13:47 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | — | In play | — |
+| 10-21 13:45 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | — | In play | — |
+| 10-21 13:44 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 10-21 13:44 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | — | In play | — |
+| 10-21 13:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 13:43 | ITF Men's Match | John Bothma | ✘ | — | — | In play | — |
+| 10-21 13:42 | ITF Women's Match | Daria Barsukov | ✘ | — | — | In play | — |
+| 10-21 13:38 | ITF Women's Match | Anna Kubareva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:36 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:35 | eSoccer Game | Werder Bremen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:35 | Counter-Strike 2 Game | EVO Elite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 13:34 | WTA Tennis Match | Marta Kostyuk | ✘ | — | — | In play | — |
-| 10-21 13:34 | eSoccer Game | Rennes (Eder) | ✘ | — | — | In play | — |
-| 10-21 13:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 13:34 | eSoccer Game | Rennes (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 13:33 | Chinese Basketball Association Game  | Qingdao Eagles | ✘ | — | — | In play | — |
-| 10-21 13:33 | ITF Men's Match | Manuel Mazza | ✘ | — | — | In play | — |
+| 10-21 13:33 | ITF Men's Match | Manuel Mazza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 13:33 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-21 13:33 | Counter-Strike 2 Game | BASEMENT BOYS | ✘ | — | — | In play | — |
-| 10-21 13:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 13:32 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 10-21 13:31 | eSoccer Game | AS Monaco (Bony) | ✘ | — | — | In play | — |
-| 10-21 13:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 13:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 10-21 13:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 13:29 | ITF Women's Match | Ginevra Parentini Vallega Montebruno | ✘ | — | — | In play | — |
-| 10-21 13:28 | ITF Women's Match | Min Liu | ✘ | — | — | In play | — |
-| 10-21 13:28 | ITF Men's Match | Jake Evans | ✘ | — | — | In play | — |
-| 10-21 13:26 | ITF Men's Match | Kylian Collignon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:23 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:23 | eSoccer Game | Leverkusen (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:19 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:18 | ATP Tennis Match | Mariano Navone | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-21 13:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:18 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 13:17 | eSoccer Game | Rennes (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 13:32 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
