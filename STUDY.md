@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 10:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 10:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23330 | 1541 | 7 (0%) | 1.1% | -$133.15 (-58%) | Hold to the end: -$133.15 (-58%) |
+| 23343 | 1541 | 7 (0%) | 1.1% | -$133.15 (-58%) | Hold to the end: -$133.15 (-58%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1541 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21764 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21773 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9398 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9406 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 944 | 1 | 0% | 0% | -90% | -90% | 2 min |
-| ITF Women's Match | ✘ | 910 | 2 | 13% | 5% | -79% | -77% | 4 min |
+| ITF Women's Match | ✘ | 911 | 2 | 13% | 5% | -80% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 848 | 2 | 4% | 2% | -78% | -92% | 11 min |
 | ITF Men's Match | ✘ | 829 | 1 | 12% | 6% | -89% | -79% | 5 min |
 | Russia Liga Pro Match | ✘ | 827 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -317,15 +317,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-21 04:17 | eBasketball Game | New Orleans Pelicans (Zion) | ✘ | — | — | In play | — |
+| 10-21 04:17 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | — | In play | — |
+| 10-21 04:16 | NBA Game | San Antonio | ✔ | 2:08 - 4th · OKC 109 - SA 97 | — | In play | — |
+| 10-21 04:16 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | — | In play | — |
+| 10-21 04:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 04:14 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-21 04:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 04:13 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
+| 10-21 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 04:13 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 10-21 04:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 04:11 | ITF Men's Match | Jeremy Beale | ✘ | — | — | In play | — |
+| 10-21 04:10 | ITF Women's Match | Ikumi Yamazaki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 04:08 | WTA Tennis Match | Sumaya Tukhtaeva | ✘ | — | — | In play | — |
-| 10-21 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 04:05 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
-| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:05 | eSoccer Game | Manchester Utd (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 04:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 04:00 | ITF Men's Match | Archie Stewart | ✘ | — | — | In play | — |
 | 10-21 03:59 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -334,19 +347,6 @@
 | 10-21 03:55 | NHL Game | Minnesota | ✔ | 1:28 - OT · MIN 3 - EDM 3 | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:53 | ITF Women's Match | Laquisa Khan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:52 | eSoccer Game | Liverpool (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:50 | eBasketball Game | Indiana Pacers (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:49 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:48 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:48 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:47 | WTA Tennis Match | Sinja Kraus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:47 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:47 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:45 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:44 | WTA Tennis Match | Lanlana Tararudee | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
