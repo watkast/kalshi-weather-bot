@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 20, 11:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 20, 11:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26144 | 26137 | 95 (0%) | 1.07% | -$1,855.85 (-58%) | Hold to the close: -$1,855.85 (-58%) |
+| 26148 | 26137 | 95 (0%) | 1.07% | -$1,855.85 (-58%) | Hold to the close: -$1,855.85 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/20 11:57:49 PM | COPPER | UP | 2.2 min | — | — | In play | — |
+| 10/20 11:57:33 PM | DOGE | UP | 2.5 min | -0.189% | — | In play | — |
+| 10/20 11:57:02 PM | EURUSD | UP | 3.0 min | — | — | In play | — |
+| 10/20 11:57:02 PM | NEAR | UP | 3.0 min | -0.526% | — | In play | — |
 | 10/20 11:44:29 PM | NEAR | UP | 31 sec | -0.152% | 1¢ | ❌ Lost | -$0.15 |
 | 10/20 11:44:12 PM | WTI | DOWN | 47 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/20 11:42:33 PM | XRP | UP | 2.5 min | -0.255% | 1¢ | ❌ Lost | -$0.15 |
@@ -209,10 +213,6 @@
 | 10/20 11:28:22 PM | NATGAS | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/20 11:28:06 PM | NEAR | UP | 1.9 min | -0.388% | 1¢ | ❌ Lost | -$0.15 |
 | 10/20 11:28:06 PM | ZEC | UP | 1.9 min | -0.248% | 1¢ | ❌ Lost | -$0.15 |
-| 10/20 11:27:50 PM | EURUSD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/20 11:27:28 PM | WTI | DOWN | 2.5 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/20 11:27:11 PM | PLATINUM | DOWN | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/20 11:26:39 PM | GOLD | DOWN | 3.3 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
