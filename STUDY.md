@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 2:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 2:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23563 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23570 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21995 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22005 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9541 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9551 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 959 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 919 | 2 | 14% | 5% | -80% | -76% | 4 min |
@@ -317,12 +317,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | — | In play | — |
-| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 08:21 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 08:18 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 10-21 08:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:31 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | — | In play | — |
+| 10-21 08:25 | ITF Men's Match | Haolong He | ✘ | — | — | In play | — |
+| 10-21 08:23 | eSoccer Game | Olympique Lyon (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:22 | ITF Women's Match | Yiming Dang | ✘ | — | — | In play | — |
+| 10-21 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:22 | eSoccer Game | Real Madrid (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:21 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:18 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:13 | Challenger ATP  | Khumoyun Sultanov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:12 | Russia Liga Pro Match | Davlitshin Ildar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:10 | eSoccer Game | Paris Saint-Germain (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -340,13 +347,6 @@
 | 10-21 07:12 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 07:11 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:11 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:10 | ITF Women's Match | Daria Zelinskaya | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 10-21 07:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:10 | eSoccer Game | Real Madrid (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:09 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 07:01 | ITF Men's Match | Dev Javia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
