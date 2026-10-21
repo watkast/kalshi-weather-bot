@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 3:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 3:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23617 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23628 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22045 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22054 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9572 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9578 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 963 | 1 | 0% | 0% | -90% | -90% | 2 min |
-| ITF Women's Match | ✘ | 922 | 2 | 14% | 5% | -80% | -77% | 4 min |
+| ITF Women's Match | ✘ | 924 | 2 | 14% | 5% | -80% | -76% | 4 min |
 | ITF Men's Match | ✘ | 855 | 1 | 12% | 5% | -89% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 850 | 2 | 4% | 3% | -78% | -92% | 11 min |
-| Russia Liga Pro Match | ✘ | 849 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 850 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 605 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
@@ -317,15 +317,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-21 09:32 | eSoccer Game | Benfica (Ousmane) | ✘ | — | — | In play | — |
+| 10-21 09:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 09:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 09:32 | eSoccer Game | Everton (Mordor) | ✘ | — | — | In play | — |
+| 10-21 09:32 | eBasketball Game | New Orleans Pelicans (Barry) | ✘ | — | — | In play | — |
+| 10-21 09:31 | Counter-Strike 2 Game | Team ACES | ✘ | — | — | In play | — |
+| 10-21 09:30 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:30 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | — | In play | — |
+| 10-21 09:30 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | — | In play | — |
+| 10-21 09:29 | eBasketball Game | Denver Nuggets (Shaq) | ✘ | — | — | In play | — |
+| 10-21 09:26 | ITF Women's Match | Tiana Tian Deng | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:22 | Challenger ATP  | Kasidit Samrej | ✘ | — | — | In play | — |
 | 10-21 09:19 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 09:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 09:18 | ITF Women's Match | Alisa Vasileva | ✘ | — | — | In play | — |
-| 10-21 09:18 | eSoccer Game | Manchester City (Poly) | ✘ | — | — | In play | — |
-| 10-21 09:18 | eSoccer Game | Benfica (Ousmane) | ✘ | — | — | In play | — |
-| 10-21 09:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 09:16 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | — | In play | — |
-| 10-21 09:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:18 | ITF Women's Match | Alisa Vasileva | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 10-21 09:18 | eSoccer Game | Manchester City (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:18 | eSoccer Game | Benfica (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:16 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 09:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:13 | WTA Tennis Match | Mubaraka Al-Naimi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:07 | eSoccer Game | Chelsea (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:06 | ITF Women's Match | Darja Suvirdjonkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -336,17 +347,6 @@
 | 10-21 09:03 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:03 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 09:03 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 09:03 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 09:02 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 09:00 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:58 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:58 | ITF Women's Match | Yuhan Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:58 | ITF Men's Match | Martin Soukal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:50 | ITF Men's Match | Sam Kydd Baumgartner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:49 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:49 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:48 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
