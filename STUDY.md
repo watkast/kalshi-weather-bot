@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 5:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 5:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23790 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23819 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22206 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22223 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9666 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9674 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 971 | 1 | 0% | 0% | -90% | -90% | 2 min |
-| ITF Women's Match | ✘ | 935 | 2 | 14% | 5% | -80% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 868 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eBasketball Game | ✘ | 973 | 1 | 0% | 0% | -90% | -90% | 2 min |
+| ITF Women's Match | ✘ | 936 | 2 | 14% | 5% | -80% | -76% | 4 min |
+| Russia Liga Pro Match | ✘ | 869 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 862 | 1 | 12% | 5% | -89% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 858 | 2 | 5% | 3% | -78% | -92% | 11 min |
 | Challenger ATP  | ✘ | 608 | 2 | 11% | 4% | -69% | -81% | 5 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
 | Darts Match | ✘ | 241 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 208 | 2 | 6% | 3% | -10% | -89% | 74 min |
-| Men's T20 Cricket Match | ✘ | 188 | 1 | 14% | 4% | -50% | -76% | 26 min |
+| Men's T20 Cricket Match | ✘ | 189 | 1 | 14% | 4% | -51% | -76% | 26 min |
 | Dota 2 Game | ✘ | 179 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 174 | 2 | 5% | 3% | +7% | -91% | 8 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
@@ -132,8 +132,8 @@
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | LaLiga 2 Game | partly | 66 | 0 | 21% | 9% | -100% | -63% | 8 min |
 | Brasileiro Serie A Game | partly | 65 | 1 | 15% | 9% | +44% | -73% | 8 min |
+| Japan J2 League Game | ✘ | 64 | 0 | 16% | 6% | -100% | -73% | 8 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
-| Japan J2 League Game | ✘ | 62 | 0 | 16% | 6% | -100% | -72% | 8 min |
 | German 3. Liga Game | ✘ | 60 | 0 | 12% | 5% | -100% | -80% | 7 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
@@ -165,8 +165,8 @@
 | College Hockey Game | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Chinese Basketball Association Game  | ✘ | 43 | 0 | 2% | 0% | -100% | -96% | 10 min |
 | China League 1 Game | ✘ | 41 | 0 | 7% | 5% | -100% | -87% | 9 min |
+| Japan J League Game | ✘ | 41 | 0 | 15% | 5% | -100% | -75% | 13 min |
 | Indonesia Super League Game | ✘ | 40 | 0 | 12% | 5% | -100% | -78% | 8 min |
-| Japan J League Game | ✘ | 40 | 0 | 15% | 5% | -100% | -74% | 13 min |
 | Saudi Pro League Game | ✘ | 39 | 1 | 18% | 13% | +139% | -69% | 11 min |
 | Serie A Game | ✔ | 39 | 0 | 8% | 8% | -100% | -87% | 12 min |
 | Peru Liga 1 Game | ✘ | 38 | 0 | 13% | 11% | -100% | -77% | 10 min |
@@ -217,11 +217,11 @@
 | Italy Serie A Game | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | Danish Superliga Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 9 min |
 | Sweden SBL Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 14 min |
+| eFootball Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Slovakian Cup Game | ✘ | 22 | 0 | 9% | 5% | -100% | -84% | 20 min |
 | Czech NBL Game | ✘ | 22 | 0 | 5% | 0% | -100% | -92% | 17 min |
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Vietnam V-League 1 Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| eFootball Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Latvian Virsliga Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 17 min |
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
@@ -317,36 +317,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-21 11:56 | Japan B League Game | Saga Ballooners | ✘ | — | — | In play | — |
+| 10-21 11:56 | Japan J2 League Game | Jubilo I | ✘ | — | — | In play | — |
+| 10-21 11:56 | Japan J2 League Game | Oita | ✘ | — | — | In play | — |
+| 10-21 11:56 | KHL Game | HC Barys | ✘ | — | — | In play | — |
+| 10-21 11:55 | Japan J2 League Game | Iwaki FC | ✘ | — | — | In play | — |
+| 10-21 11:55 | Japan J2 League Game | Shonan | ✘ | — | — | In play | — |
+| 10-21 11:54 | Japan B League Game | Akita Northern Happinets | ✘ | — | — | In play | — |
+| 10-21 11:54 | Japan J League Game | Kashiwa | ✘ | — | — | In play | — |
+| 10-21 11:54 | Japan J League Game | Tokyo | ✘ | — | — | In play | — |
+| 10-21 11:54 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-21 11:54 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:53 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-21 11:52 | eSoccer Game | Newcastle Utd (Strudl) | ✘ | — | — | In play | — |
+| 10-21 11:52 | ITF Men's Match | Henri Haupt | ✘ | — | — | In play | — |
+| 10-21 11:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 11:52 | Japan B League Game | Utsunomiya Brex | ✘ | — | — | In play | — |
+| 10-21 11:50 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:49 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:49 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-21 11:49 | Japan J2 League Game | Vortis | ✘ | — | — | In play | — |
+| 10-21 11:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:49 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:48 | eSoccer Game | Hoffenheim (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:47 | Japan J League Game | Avispa | ✘ | — | — | In play | — |
+| 10-21 11:47 | eFootball Game | Los Angeles (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:47 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:47 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 11:46 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 11:46 | Korea KBL Game | KCC Egis | ✘ | — | — | In play | — |
-| 10-21 11:46 | ITF Women's Match | Samaira Pahwa | ✘ | — | — | In play | — |
-| 10-21 11:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 11:44 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-21 11:43 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 10-21 11:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 11:43 | Japan J2 League Game | Blaublitz A | ✘ | — | — | In play | — |
-| 10-21 11:41 | Japan J2 League Game | Omiya ArdijaA | ✘ | — | — | In play | — |
-| 10-21 11:41 | Japan J2 League Game | Tosu | ✘ | — | — | In play | — |
-| 10-21 11:41 | ITF Women's Match | Ksenia Meshcheryakova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:37 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:36 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:36 | Japan J League Game | Tie | ✘ | — | — | In play | — |
-| 10-21 11:35 | Japan J2 League Game | Imabari | ✘ | — | — | In play | — |
-| 10-21 11:34 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:33 | Japan J League Game | Kobe | ✘ | — | — | In play | — |
-| 10-21 11:33 | ITF Men's Match | Hugo Pierre | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-21 11:33 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:32 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:29 | Japan J League Game | Hiroshima | ✘ | — | — | In play | — |
-| 10-21 11:29 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:28 | Challenger ATP  | Max Alcala Gurri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:27 | Men's T20 Cricket Match | Gambia | ✘ | — | — | In play | — |
-| 10-21 11:26 | Philippines PBA Game | Road Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 11:24 | Japan J League Game | Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
