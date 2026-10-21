@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 5:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 6:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23085 | 1523 | 7 (0%) | 1.1% | -$130.45 (-57%) | Hold to the end: -$130.45 (-57%) |
+| 23094 | 1523 | 7 (0%) | 1.1% | -$130.45 (-57%) | Hold to the end: -$130.45 (-57%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1523 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21543 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21544 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9239 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9240 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 928 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 906 | 2 | 13% | 5% | -79% | -77% | 4 min |
@@ -317,11 +317,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-20 23:58 | Russia Liga Pro Match | Barannik Aleksandr | ✘ | — | — | In play | — |
+| 10-20 23:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 23:54 | eSoccer Game | Getafe CF (Arlo) | ✘ | — | — | In play | — |
+| 10-20 23:54 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | — | In play | — |
+| 10-20 23:52 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 10-20 23:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-20 23:52 | Counter-Strike 2 Game | Joga de terno | ✘ | — | — | In play | — |
+| 10-20 23:50 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
+| 10-20 23:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-20 23:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-20 23:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-20 23:49 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
 | 10-20 23:49 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-20 23:41 | eSoccer Game | FC Barcelona (Arkon) | ✘ | — | — | In play | — |
+| 10-20 23:41 | eSoccer Game | FC Barcelona (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:40 | eBasketball Game | Brooklyn Nets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:38 | eBasketball Game | Los Angeles Lakers (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -338,15 +347,6 @@
 | 10-20 23:27 | eSoccer Game | RC Celta (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-20 23:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:24 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:22 | eSoccer Game | Botafogo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:22 | eSoccer Game | Estudiantes (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:21 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:17 | eSoccer Game | FC Barcelona (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:15 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-20 23:14 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
