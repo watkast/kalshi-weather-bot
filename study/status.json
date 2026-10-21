@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-21T23:34:29+00:00",
+ "saved_at": "2026-10-21T23:44:47+00:00",
  "series_watched": 364,
- "markets_in_or_near_play": 194,
+ "markets_in_or_near_play": 193,
  "batch_lookup": true,
- "espn_games_linked": 18,
+ "espn_games_linked": 21,
  "espn_check": {
-  "at": "2026-10-21T23:04:32+00:00",
-  "started_games": 10,
-  "matched": 9,
+  "at": "2026-10-21T23:35:30+00:00",
+  "started_games": 13,
+  "matched": 12,
   "unmatched_sample": [
    "KXMLSGAME-26OCT21CINDCU"
   ]
  },
- "bets": 24673,
- "open": 18,
+ "bets": 24686,
+ "open": 28,
  "errors": []
 }
