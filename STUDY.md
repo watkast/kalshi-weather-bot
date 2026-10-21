@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 2:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 3:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23591 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 23597 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22021 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22028 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9559 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9563 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 961 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 920 | 2 | 14% | 5% | -80% | -76% | 4 min |
-| ITF Men's Match | ✘ | 852 | 1 | 12% | 6% | -89% | -79% | 5 min |
+| ITF Men's Match | ✘ | 854 | 1 | 12% | 6% | -89% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 850 | 2 | 4% | 3% | -78% | -92% | 11 min |
-| Russia Liga Pro Match | ✘ | 846 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 847 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Challenger ATP  | ✘ | 605 | 2 | 11% | 4% | -69% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
@@ -317,17 +317,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-21 09:02 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | — | In play | — |
+| 10-21 09:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 09:00 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 10-21 08:58 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:58 | ITF Women's Match | Yuhan Wang | ✘ | — | — | In play | — |
+| 10-21 08:58 | ITF Men's Match | Martin Soukal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:50 | ITF Men's Match | Sam Kydd Baumgartner | ✘ | — | — | In play | — |
-| 10-21 08:49 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 10-21 08:49 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
-| 10-21 08:48 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | — | In play | — |
-| 10-21 08:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 08:49 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:49 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:48 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 08:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:48 | Russia Liga Pro Match | Vasiutin Ilia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:47 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
 | 10-21 08:47 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
 | 10-21 08:37 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:37 | ITF Men's Match | Arjun Mehrotra | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:36 | ITF Men's Match | Luke Jie Xi Ho | ✘ | — | — | In play | — |
+| 10-21 08:36 | ITF Men's Match | Luke Jie Xi Ho | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-21 08:36 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:35 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -341,12 +347,6 @@
 | 10-21 08:31 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 08:25 | ITF Men's Match | Haolong He | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-21 08:23 | eSoccer Game | Olympique Lyon (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:22 | ITF Women's Match | Yiming Dang | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-21 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:22 | eSoccer Game | Real Madrid (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 08:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
