@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 12:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 12:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24336 | 1551 | 7 (0%) | 1.1% | -$134.65 (-58%) | Hold to the end: -$134.65 (-58%) |
+| 24352 | 1551 | 7 (0%) | 1.1% | -$134.65 (-58%) | Hold to the end: -$134.65 (-58%) |
 
 *In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1551 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22751 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22767 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9922 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9932 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 998 | 1 | 0% | 0% | -91% | -90% | 2 min |
-| ITF Women's Match | ✘ | 980 | 2 | 14% | 5% | -81% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 912 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| ITF Women's Match | ✘ | 982 | 2 | 14% | 5% | -81% | -76% | 4 min |
+| Russia Liga Pro Match | ✘ | 913 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 894 | 1 | 13% | 6% | -90% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 890 | 2 | 5% | 3% | -79% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 892 | 2 | 5% | 3% | -79% | -92% | 11 min |
 | Challenger ATP  | ✘ | 611 | 2 | 11% | 4% | -69% | -82% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
@@ -234,10 +234,10 @@
 | Croatia HNL Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 16 min |
 | Scottish Premiership Game | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 11 min |
 | Slovenian Prva Liga Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 6 min |
+| FIBA Europe Cup Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 9 min |
 | Austria BSL Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 6 min |
 | Liga Portugal Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 10 min |
 | Belgian Pro League Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 10 min |
-| FIBA Europe Cup Game | ✘ | 18 | 0 | 11% | 6% | -100% | -81% | 9 min |
 | Croatia Premijer Liga Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
 | Chile Liga de Primera Game | ✘ | 16 | 0 | 12% | 0% | -100% | -78% | 12 min |
@@ -318,36 +318,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 18:44 | ITF Women's Match | Jennifer Rosa Dourado | ✘ | — | — | In play | — |
-| 10-21 18:43 | Counter-Strike 2 Game | The Last Resort | ✘ | — | — | In play | — |
-| 10-21 18:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 18:41 | ITF Women's Match | Hina Inoue | ✘ | — | — | In play | — |
+| 10-21 18:55 | ITF Men's Match | Pedro Henrique Chabalgoity | ✘ | — | — | In play | — |
+| 10-21 18:54 | Russia Liga Pro Match | Zhelubenkov Aleksei | ✘ | — | — | In play | — |
+| 10-21 18:53 | eSoccer Game | Nottingham Forest (Bony) | ✘ | — | — | In play | — |
+| 10-21 18:53 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | — | In play | — |
+| 10-21 18:53 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 10-21 18:53 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-21 18:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 18:53 | EuroCup Basketball Game | CB San Pablo Burgos | ✘ | — | — | In play | — |
+| 10-21 18:51 | eSoccer Game | Aston Villa (Fede) | ✘ | — | — | In play | — |
+| 10-21 18:51 | eSoccer Game | Arsenal (Holis) | ✘ | — | — | In play | — |
+| 10-21 18:51 | EuroCup Basketball Game | Slask Wroclaw | ✘ | — | — | In play | — |
+| 10-21 18:50 | Challenger ATP  | Kenta Miyoshi (b. 2004) | ✘ | — | — | In play | — |
+| 10-21 18:50 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-21 18:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 18:47 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:45 | Egyptian Premier League Game | Petrojet | ✘ | — | — | In play | — |
+| 10-21 18:44 | ITF Women's Match | Jennifer Rosa Dourado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:43 | Counter-Strike 2 Game | The Last Resort | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
+| 10-21 18:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:41 | ITF Women's Match | Hina Inoue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 18:41 | ITF Men's Match | Enzo Crevelaro | ✘ | — | — | In play | — |
-| 10-21 18:41 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | — | In play | — |
+| 10-21 18:41 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 18:40 | ITF Men's Match | FELIPE PINZON MORENO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:40 | FIBA Europe Cup Game | Absheron BC | ✘ | — | — | In play | — |
-| 10-21 18:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 18:40 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | — | In play | — |
-| 10-21 18:39 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
-| 10-21 18:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 18:40 | FIBA Europe Cup Game | Absheron BC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:40 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:39 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 18:38 | KHL Game | CSKA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:37 | eSoccer Game | Arsenal (Holis) | ✘ | — | — | In play | — |
-| 10-21 18:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 18:36 | Counter-Strike 2 Game | Vexar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:36 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-21 18:36 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 10-21 18:35 | Men's T20 Cricket Match | Manhattan Yorkers | ✘ | — | — | In play | — |
-| 10-21 18:35 | ITF Women's Match | Xinyu Gao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:34 | ITF Women's Match | Natalie Kha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:30 | UEFA Champions League Game | Tie | ✔ | 88' · GAL 4 - LILL 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:29 | Russia Liga Pro Match | Girevenkov Alik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:27 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:27 | FIBA Europe Cup Game | KB Bashkimi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:27 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:25 | eSoccer Game | Aston Villa (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 18:25 | Russia Liga Pro Match | Skomskov Valerii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 18:37 | eSoccer Game | Arsenal (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
