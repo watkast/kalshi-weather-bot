@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 20, 9:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 20, 9:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26021 | 26014 | 95 (0%) | 1.07% | -$1,841.15 (-58%) | Hold to the close: -$1,841.15 (-58%) |
+| 26024 | 26014 | 95 (0%) | 1.07% | -$1,841.15 (-58%) | Hold to the close: -$1,841.15 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/20 9:57:03 PM | SILVER | UP | 3.0 min | — | — | In play | — |
+| 10/20 9:56:14 PM | NEAR | DOWN | 3.8 min | +0.531% | — | In play | — |
+| 10/20 9:55:28 PM | HYPE | UP | 4.5 min | -0.492% | — | In play | — |
 | 10/20 9:44:21 PM | XRP | UP | 38 sec | -0.060% | 0¢ | ❌ Lost | -$0.15 |
 | 10/20 9:44:21 PM | BTC | UP | 38 sec | -0.037% | 1¢ | ❌ Lost | -$0.15 |
 | 10/20 9:44:05 PM | ETH | UP | 54 sec | -0.056% | 0¢ | ❌ Lost | -$0.15 |
@@ -210,9 +213,6 @@
 | 10/20 9:27:34 PM | HYPE | UP | 2.4 min | -0.217% | 9¢ | ❌ Lost | $0.00 |
 | 10/20 9:27:34 PM | ETH | UP | 2.4 min | -0.129% | 3¢ | ❌ Lost | -$0.15 |
 | 10/20 9:27:18 PM | BNB | DOWN | 2.7 min | +0.050% | 1¢ | ❌ Lost | -$0.15 |
-| 10/20 9:26:14 PM | SOL | UP | 3.8 min | -0.199% | 2¢ | ❌ Lost | -$0.15 |
-| 10/20 9:14:14 PM | GOLD | UP | 46 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/20 9:13:28 PM | ETH | UP | 1.5 min | -0.073% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
