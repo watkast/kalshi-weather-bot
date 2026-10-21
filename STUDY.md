@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 20, 9:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 20, 9:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 23298 | 1540 | 7 (0%) | 1.1% | -$133.00 (-58%) | Hold to the end: -$133.00 (-58%) |
+| 23308 | 1540 | 7 (0%) | 1.1% | -$133.00 (-58%) | Hold to the end: -$133.00 (-58%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1540 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 21736 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 21744 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9378 | 5 | 1% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9386 | 5 | 1% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 942 | 1 | 0% | 0% | -90% | -90% | 2 min |
 | ITF Women's Match | ✘ | 908 | 2 | 13% | 5% | -79% | -77% | 4 min |
@@ -317,13 +317,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-21 03:47 | WTA Tennis Match | Sinja Kraus | ✘ | — | — | In play | — |
+| 10-21 03:47 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-21 03:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 03:47 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
+| 10-21 03:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 03:45 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
+| 10-21 03:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 03:44 | WTA Tennis Match | Lanlana Tararudee | ✘ | — | — | In play | — |
+| 10-21 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:38 | eSoccer Game | Nottingham Forest (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:36 | ITF Men's Match | Kokoro Isomura | ✘ | — | — | In play | — |
-| 10-21 03:35 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | — | In play | — |
-| 10-21 03:35 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | — | In play | — |
-| 10-21 03:32 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | — | In play | — |
-| 10-21 03:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 03:32 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
-| 10-21 03:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 03:35 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:35 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:32 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:32 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 03:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:26 | Liga DIMAYOR Game | Millonarios | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:26 | Liga DIMAYOR Game | Once Caldas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:24 | eBasketball Game | Golden State Warriors (Zion) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -337,16 +347,6 @@
 | 10-21 03:18 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:18 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 03:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:17 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:10 | eSoccer Game | Arsenal (Arlo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:07 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:05 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:04 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 03:04 | eSoccer Game | 1. FC Köln (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
