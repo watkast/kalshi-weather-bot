@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 21, 3:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 21, 3:43 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2220 finished bets | 1% | $85.20 | +34% | +3.84¢ | $47.55 / $37.65 |
 
-*Expect about **96 buys a day** (~$14.40/day at risk); max loss per buy **15¢**.*
+*Expect about **96 buys a day** (~$14.41/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26386 | 26379 | 97 (0%) | 1.07% | -$1,856.35 (-58%) | Hold to the close: -$1,856.35 (-58%) |
+| 26388 | 26379 | 97 (0%) | 1.07% | -$1,856.35 (-58%) | Hold to the close: -$1,856.35 (-58%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -183,6 +183,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/21 3:42:49 AM | ZEC | DOWN | 2.2 min | +0.241% | — | In play | — |
+| 10/21 3:41:28 AM | WTI | DOWN | 3.5 min | — | — | In play | — |
 | 10/21 3:29:53 AM | SOL | DOWN | 6 sec | +0.088% | 0¢ | ❌ Lost | $0.00 |
 | 10/21 3:29:37 AM | BTC | DOWN | 22 sec | +0.036% | 1¢ | ❌ Lost | -$0.15 |
 | 10/21 3:29:37 AM | NATGAS | UP | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,8 +213,6 @@
 | 10/21 3:12:31 AM | WTI | UP | 2.5 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/21 3:12:31 AM | BNB | DOWN | 2.5 min | +0.151% | 1¢ | ❌ Lost | -$0.15 |
 | 10/21 3:12:07 AM | XRP | DOWN | 2.9 min | +0.312% | 0¢ | ❌ Lost | -$0.15 |
-| 10/21 3:11:34 AM | EURUSD | UP | 3.4 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/21 3:10:30 AM | ZEC | DOWN | 4.5 min | +0.421% | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
