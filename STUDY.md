@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 10:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 10:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 24145 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
+| 24151 | 1547 | 7 (0%) | 1.1% | -$134.05 (-58%) | Hold to the end: -$134.05 (-58%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1547 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 22573 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 22583 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 9836 | 5 | 0% | 0% | -95% | -99% | 2 min |
+| eSoccer Game | ✘ | 9844 | 5 | 0% | 0% | -95% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 989 | 1 | 0% | 0% | -91% | -90% | 2 min |
 | ITF Women's Match | ✘ | 971 | 2 | 14% | 5% | -81% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 893 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 894 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 890 | 1 | 13% | 6% | -90% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 877 | 2 | 5% | 3% | -79% | -92% | 11 min |
 | Challenger ATP  | ✘ | 609 | 2 | 11% | 4% | -69% | -81% | 5 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 265 | 2 | 13% | 7% | -30% | -77% | 24 min |
 | Darts Match | ✘ | 241 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 208 | 2 | 6% | 3% | -10% | -89% | 74 min |
-| Men's T20 Cricket Match | ✘ | 191 | 1 | 15% | 4% | -51% | -75% | 26 min |
+| Men's T20 Cricket Match | ✘ | 192 | 1 | 15% | 4% | -51% | -75% | 26 min |
 | Dota 2 Game | ✘ | 181 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 174 | 2 | 5% | 3% | +7% | -91% | 8 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
@@ -317,20 +317,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-21 16:10 | eSoccer Game | Freiburg (Mantis) | ✘ | — | — | In play | — |
-| 10-21 16:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 16:07 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-21 16:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 16:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 16:20 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-21 16:20 | eSoccer Game | Everton (Eder) | ✘ | — | — | In play | — |
+| 10-21 16:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 16:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 16:16 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-21 16:10 | eSoccer Game | Freiburg (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:07 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 16:07 | eBasketball Game | Golden State Warriors (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 16:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-21 16:06 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
-| 10-21 16:06 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | — | In play | — |
-| 10-21 16:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-21 16:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:06 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:06 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-21 16:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 16:04 | eFootball Game | Dallas (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 16:04 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 16:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 16:01 | Egyptian Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 16:01 | Russia Liga Pro Match | Slesarev Vladimir | ✘ | — | — | In play | — |
+| 10-21 16:01 | Russia Liga Pro Match | Slesarev Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 15:57 | Russia VTB United Game | BC Samara | ✘ | — | — | In play | — |
 | 10-21 15:55 | Counter-Strike 2 Game | mellren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 15:55 | eSoccer Game | RB Leipzig (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -341,12 +347,6 @@
 | 10-21 15:54 | Counter-Strike 2 Game | KUUSAMO.gg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 15:53 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-21 15:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:51 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:51 | eSoccer Game | Sunderland (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:51 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:51 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-21 15:49 | Egyptian Premier League Game | Al Ittihad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
