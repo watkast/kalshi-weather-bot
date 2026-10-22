@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-10-22T05:16:47+00:00",
+ "saved_at": "2026-10-22T05:26:55+00:00",
  "windows_watched": 9,
- "trades": 118242,
+ "trades": 118274,
  "errors": [
   "2026-10-22T02:57:06+00:00 ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "2026-10-22T05:04:43+00:00 ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
