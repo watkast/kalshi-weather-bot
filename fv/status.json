@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T07:11:12+00:00",
+ "saved_at": "2026-10-22T07:13:14+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -14,7 +14,7 @@
   "XRP",
   "ZEC"
  ],
- "markets": 9,
+ "markets": 0,
  "trades": 2003,
  "trades_v2": 1652,
  "trades_v3": 422,
@@ -92,14 +92,20 @@
   "ZEC": 0.1106
  },
  "errors": [
-  "2026-10-22T07:11:11+00:00 settle KXBNB15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXBNB15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXXRP15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXXRP15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXSOL15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXSOL15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXETH15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXETH15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXBTC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXBTC15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXZEC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXZEC15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXNEAR15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXNEAR15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXDOGE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXDOGE15M-26OCT220300-00",
-  "2026-10-22T07:11:11+00:00 settle KXHYPE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXHYPE15M-26OCT220300-00"
+  "2026-10-22T07:12:43+00:00 settle KXETH15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXETH15M-26OCT220300-00",
+  "2026-10-22T07:12:43+00:00 settle KXBTC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXBTC15M-26OCT220300-00",
+  "2026-10-22T07:12:43+00:00 settle KXZEC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXZEC15M-26OCT220300-00",
+  "2026-10-22T07:12:43+00:00 settle KXNEAR15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXNEAR15M-26OCT220300-00",
+  "2026-10-22T07:12:43+00:00 settle KXDOGE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXDOGE15M-26OCT220300-00",
+  "2026-10-22T07:12:43+00:00 settle KXHYPE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXHYPE15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXBNB15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXBNB15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXXRP15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXXRP15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXSOL15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXSOL15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXETH15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXETH15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXBTC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXBTC15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXZEC15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXZEC15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXNEAR15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXNEAR15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXDOGE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXDOGE15M-26OCT220300-00",
+  "2026-10-22T07:13:05+00:00 settle KXHYPE15M-26OCT220300-00: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets/KXHYPE15M-26OCT220300-00"
  ]
 }
