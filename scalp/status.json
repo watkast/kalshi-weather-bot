@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-10-22T11:40:02+00:00",
+ "saved_at": "2026-10-22T11:50:09+00:00",
  "windows_watched": 9,
- "trades": 119533,
+ "trades": 119599,
  "errors": [
   "2026-10-22T07:57:44+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
   "2026-10-22T07:57:45+00:00 refresh KXADA15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXADA15M&status=open&limit=1000",
