@@ -1,6 +1,27 @@
 {
- "saved_at": "2026-10-22T07:07:15+00:00",
- "windows_watched": 9,
+ "saved_at": "2026-10-22T07:17:22+00:00",
+ "windows_watched": 3,
  "trades": 118713,
- "errors": []
+ "errors": [
+  "2026-10-22T07:14:03+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
+  "2026-10-22T07:14:03+00:00 refresh KXBTC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000",
+  "2026-10-22T07:15:04+00:00 refresh KXETH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETH15M&status=open&limit=1000",
+  "2026-10-22T07:15:04+00:00 refresh KXDOGE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDOGE15M&status=open&limit=1000",
+  "2026-10-22T07:15:05+00:00 refresh KXSOL15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOL15M&status=open&limit=1000",
+  "2026-10-22T07:15:05+00:00 refresh KXXRP15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRP15M&status=open&limit=1000",
+  "2026-10-22T07:15:05+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
+  "2026-10-22T07:15:05+00:00 refresh KXBTC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000",
+  "2026-10-22T07:16:07+00:00 refresh KXETH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETH15M&status=open&limit=1000",
+  "2026-10-22T07:16:07+00:00 refresh KXDOGE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDOGE15M&status=open&limit=1000",
+  "2026-10-22T07:16:07+00:00 refresh KXSOL15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOL15M&status=open&limit=1000",
+  "2026-10-22T07:16:07+00:00 refresh KXXRP15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRP15M&status=open&limit=1000",
+  "2026-10-22T07:16:08+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
+  "2026-10-22T07:16:08+00:00 refresh KXBTC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000",
+  "2026-10-22T07:17:09+00:00 refresh KXETH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETH15M&status=open&limit=1000",
+  "2026-10-22T07:17:10+00:00 refresh KXDOGE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDOGE15M&status=open&limit=1000",
+  "2026-10-22T07:17:10+00:00 refresh KXSOL15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOL15M&status=open&limit=1000",
+  "2026-10-22T07:17:10+00:00 refresh KXXRP15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRP15M&status=open&limit=1000",
+  "2026-10-22T07:17:10+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
+  "2026-10-22T07:17:10+00:00 refresh KXBTC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000"
+ ]
 }
