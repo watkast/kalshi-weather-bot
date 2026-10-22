@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 22, 12:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 22, 12:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 25819 | 1599 | 7 (0%) | 1.1% | -$141.85 (-59%) | Hold to the end: -$141.85 (-59%) |
+| 25835 | 1599 | 7 (0%) | 1.1% | -$141.85 (-59%) | Hold to the end: -$141.85 (-59%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1599 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 24193 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 24201 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 10807 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 10813 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 1085 | 1 | 0% | 0% | -91% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1037 | 2 | 14% | 5% | -82% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 1025 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1026 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 950 | 1 | 12% | 5% | -90% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 946 | 2 | 5% | 3% | -80% | -92% | 11 min |
 | Challenger ATP  | ✘ | 623 | 2 | 11% | 4% | -70% | -82% | 5 min |
@@ -226,9 +226,9 @@
 | Rugby French 14 Match | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Latvian Virsliga Game | ✘ | 21 | 0 | 14% | 5% | -100% | -75% | 17 min |
+| FIBA Europe Cup Game | ✘ | 21 | 0 | 10% | 5% | -100% | -83% | 9 min |
 | Professional Baseball Game | partly | 20 | 0 | 10% | 5% | -100% | -83% | 2 min |
 | Faroe Islands Premier League Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 131 min |
-| FIBA Europe Cup Game | ✘ | 20 | 0 | 10% | 5% | -100% | -83% | 9 min |
 | Champions League Women's Game | partly | 19 | 1 | 21% | 11% | +391% | -64% | 20 min |
 | Bundesliga Basketball Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 12 min |
 | Turkey BSL Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -319,10 +319,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-22 18:15 | Valorant game winner | Blezz | ✘ | — | — | In play | — |
+| 10-22 18:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:13 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | — | In play | — |
+| 10-22 18:12 | ATP Tennis Match | Stan Wawrinka | ✘ | — | — | In play | — |
+| 10-22 18:12 | UEFA Europa League Game | Tie | ✔ | 69' · B04 2 - OFI 0 | — | In play | — |
+| 10-22 18:12 | UEFA Conference League Game | Tie | ✔ | 68' · LUG 4 - GET 1 | — | In play | — |
+| 10-22 18:11 | Men's T20 Cricket Match | Los Angeles Lashings | ✘ | — | — | In play | — |
+| 10-22 18:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:10 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
+| 10-22 18:10 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:10 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
+| 10-22 18:09 | UEFA Europa League Game | Be`er Sheva | ✘ | — | — | In play | — |
+| 10-22 18:08 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 18:05 | UEFA Conference League Game | Heart of Midlothian | ✔ | 59' · HOM 0 - TRAB 2 | — | In play | — |
-| 10-22 18:04 | Russia Liga Pro Match | Evlampiev Vadim | ✘ | — | — | In play | — |
-| 10-22 18:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-22 18:01 | eSoccer Game | Manchester City (Ousmane) | ✘ | — | — | In play | — |
+| 10-22 18:04 | Russia Liga Pro Match | Evlampiev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:01 | eSoccer Game | Manchester City (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 18:00 | Counter-Strike 2 Game | Rcave | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 17:59 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 17:58 | Russia Liga Pro Match | Antonov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -333,22 +349,6 @@
 | 10-22 17:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 17:55 | Russia Liga Pro Match | Komarov Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 17:55 | eSoccer Game | Chelsea (Rendeto) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-22 17:55 | ITF Women's Match | Madison Sieg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:54 | Liiga Game | HPK Hameenlinna | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:54 | UEFA Conference League Game | Getafe | ✔ | 50' · LUG 3 - GET 1 | — | In play | — |
-| 10-22 17:54 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:54 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:46 | eSoccer Game | Real Madrid (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:45 | FIBA Europe Cup Game | BC Vienna | ✘ | — | — | In play | — |
-| 10-22 17:44 | eSoccer Game | Montpellier (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:43 | Darts Match | Dirk van Duijvenbode | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:43 | Valorant game winner | Team George | ✘ | — | — | In play | — |
-| 10-22 17:41 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:41 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:39 | Counter-Strike 2 Game | PARIVISION | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
