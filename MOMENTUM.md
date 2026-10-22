@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Thu Oct 22 23:47 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Thu Oct 22 23:57 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 19932 | 17246 | 2686 (73) | 0 | $-1113.22 | -0.9% |
-| **20¢+ jump, ride past +5¢** | 12237 | 6723 | 5514 (2423) | 0 | $-4088.15 | -5.3% |
+| **20¢+ jump, sell +5¢** | 19933 | 17247 | 2686 (73) | 1 | $-1112.72 | -0.9% |
+| **20¢+ jump, ride past +5¢** | 12237 | 6723 | 5514 (2423) | 1 | $-4088.15 | -5.3% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-22 23:54 | J20 | BNB | DOWN | 24¢ | 0.32 | open |  |
+| 10-22 23:54 | J20R | BNB | DOWN | 24¢ | 0.27 | open |  |
+| 10-22 23:54 | J20 | BNB | DOWN | 24¢ | 0.27 | 0.35 | 0.50 |
 | 10-22 23:43 | J20R | ETH | UP | 20¢ | 0.82 | yes | 1.69 |
 | 10-22 23:43 | J20 | ETH | UP | 20¢ | 0.83 | 0.93 | 0.80 |
 | 10-22 23:43 | J20 | ETH | UP | 27¢ | 0.76 | 0.86 | 0.78 |
@@ -55,6 +58,3 @@
 | 10-22 23:25 | J20 | ZEC | UP | 21¢ | 0.57 | 0.63 | 0.25 |
 | 10-22 23:21 | J20 | NEAR | DOWN | 22¢ | 0.77 | 0.97 | 1.90 |
 | 10-22 23:21 | J20R | ZEC | DOWN | 25¢ | 0.69 | no | 2.95 |
-| 10-22 23:21 | J20 | ZEC | DOWN | 25¢ | 0.69 | 0.75 | 0.31 |
-| 10-22 23:19 | J20R | ZEC | UP | 24¢ | 0.51 | 0.56 | 0.14 |
-| 10-22 23:19 | J20 | ZEC | UP | 24¢ | 0.51 | 0.61 | 0.65 |
