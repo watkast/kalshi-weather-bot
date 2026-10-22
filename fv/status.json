@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T10:09:50+00:00",
+ "saved_at": "2026-10-22T10:20:08+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -79,17 +79,17 @@
   ]
  },
  "open": 0,
- "results_known": 19248,
+ "results_known": 19257,
  "sigma_pct": {
-  "BTC": 0.0396,
-  "ETH": 0.0602,
-  "SOL": 0.0623,
-  "XRP": 0.0549,
-  "DOGE": 0.0669,
-  "BNB": 0.0506,
-  "HYPE": 0.0778,
-  "ZEC": 0.1562,
-  "NEAR": 0.1632
+  "BTC": 0.0315,
+  "ETH": 0.0457,
+  "SOL": 0.0536,
+  "XRP": 0.0387,
+  "DOGE": 0.047,
+  "BNB": 0.0498,
+  "HYPE": 0.0759,
+  "ZEC": 0.144,
+  "NEAR": 0.1223
  },
  "errors": [
   "hourly KXHYPED: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPED&status=open&limit=1000",
