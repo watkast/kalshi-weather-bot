@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T07:26:06+00:00",
+ "saved_at": "2026-10-22T07:36:19+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -82,20 +82,20 @@
  "results_known": 19210,
  "sigma_pct": {},
  "errors": [
-  "2026-10-22T07:25:18+00:00 refresh KXSOL15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOL15M&status=open&limit=1000",
-  "2026-10-22T07:25:18+00:00 refresh KXTON15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXTON15M&status=open&limit=1000",
-  "2026-10-22T07:25:18+00:00 refresh KXADA15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXADA15M&status=open&limit=1000",
-  "2026-10-22T07:25:18+00:00 refresh KXBCH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBCH15M&status=open&limit=1000",
-  "2026-10-22T07:25:19+00:00 refresh KXETH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETH15M&status=open&limit=1000",
-  "2026-10-22T07:25:19+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
-  "2026-10-22T07:25:19+00:00 refresh KXNEAR15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXNEAR15M&status=open&limit=1000",
-  "2026-10-22T07:25:19+00:00 refresh KXHYPE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPE15M&status=open&limit=1000",
-  "hourly KXBTCD: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTCD&status=open&limit=1000",
-  "hourly KXETHD: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETHD&status=open&limit=1000",
-  "hourly KXSOLD: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOLD&status=open&limit=1000",
-  "hourly KXXRPD: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRPD&status=open&limit=1000",
   "hourly KXDOGED: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDOGED&status=open&limit=1000",
   "hourly KXBNBD: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNBD&status=open&limit=1000",
-  "hourly KXHYPED: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPED&status=open&limit=1000"
+  "hourly KXHYPED: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPED&status=open&limit=1000",
+  "2026-10-22T07:36:12+00:00 refresh KXZEC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXZEC15M&status=open&limit=1000",
+  "2026-10-22T07:36:12+00:00 refresh KXBTC15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXDOGE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDOGE15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXXRP15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRP15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXSOL15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSOL15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXTON15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXTON15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXADA15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXADA15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXBCH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBCH15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXETH15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXETH15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXBNB15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXBNB15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXNEAR15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXNEAR15M&status=open&limit=1000",
+  "2026-10-22T07:36:13+00:00 refresh KXHYPE15M: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPE15M&status=open&limit=1000"
  ]
 }
