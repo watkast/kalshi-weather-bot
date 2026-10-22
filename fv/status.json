@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T10:20:08+00:00",
+ "saved_at": "2026-10-22T10:30:21+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,7 +22,7 @@
  "trades_v5": 286,
  "trades_v6": 126,
  "trades_v7": 90,
- "trades_v8": 713,
+ "trades_v8": 714,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
@@ -81,15 +81,15 @@
  "open": 0,
  "results_known": 19257,
  "sigma_pct": {
-  "BTC": 0.0315,
-  "ETH": 0.0457,
-  "SOL": 0.0536,
-  "XRP": 0.0387,
-  "DOGE": 0.047,
-  "BNB": 0.0498,
-  "HYPE": 0.0759,
-  "ZEC": 0.144,
-  "NEAR": 0.1223
+  "BTC": 0.0261,
+  "ETH": 0.0413,
+  "SOL": 0.0452,
+  "XRP": 0.0451,
+  "DOGE": 0.0422,
+  "BNB": 0.0485,
+  "HYPE": 0.0674,
+  "ZEC": 0.1448,
+  "NEAR": 0.1056
  },
  "errors": [
   "hourly KXHYPED: 503 Server Error: Service Unavailable for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXHYPED&status=open&limit=1000",
