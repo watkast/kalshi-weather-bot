@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 22, 5:19 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 22, 5:29 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28788 | 28780 | 109 (0%) | 1.07% | -$1,984.30 (-57%) | Hold to the close: -$1,984.30 (-57%) |
+| 28804 | 28780 | 109 (0%) | 1.07% | -$1,984.30 (-57%) | Hold to the close: -$1,984.30 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 23. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,22 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/22 5:29:36 PM | NEAR | UP | 23 sec | -0.164% | — | In play | — |
+| 10/22 5:29:36 PM | NATGAS | DOWN | 23 sec | — | — | In play | — |
+| 10/22 5:29:36 PM | USDCAD | DOWN | 23 sec | — | — | In play | — |
+| 10/22 5:29:36 PM | GBPUSD | UP | 23 sec | — | — | In play | — |
+| 10/22 5:29:20 PM | EURUSD | UP | 39 sec | — | — | In play | — |
+| 10/22 5:29:20 PM | ZEC | UP | 39 sec | -0.145% | — | In play | — |
+| 10/22 5:29:20 PM | BTC | UP | 39 sec | -0.078% | — | In play | — |
+| 10/22 5:29:20 PM | GOLD | DOWN | 39 sec | — | — | In play | — |
+| 10/22 5:29:20 PM | ETH | UP | 39 sec | -0.067% | — | In play | — |
+| 10/22 5:29:04 PM | SOL | UP | 55 sec | -0.088% | — | In play | — |
+| 10/22 5:28:49 PM | XRP | UP | 71 sec | -0.130% | — | In play | — |
+| 10/22 5:28:49 PM | BRENT | DOWN | 71 sec | — | — | In play | — |
+| 10/22 5:28:33 PM | PLATINUM | UP | 87 sec | — | — | In play | — |
+| 10/22 5:28:16 PM | USDJPY | DOWN | 1.7 min | — | — | In play | — |
+| 10/22 5:28:16 PM | DOGE | DOWN | 1.7 min | +0.057% | — | In play | — |
+| 10/22 5:26:26 PM | WTI | DOWN | 3.6 min | — | — | In play | — |
 | 10/22 5:14:48 PM | GOLD | UP | 11 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/22 5:14:48 PM | ETH | DOWN | 11 sec | +0.025% | 0¢ | ❌ Lost | -$0.15 |
 | 10/22 5:14:32 PM | BTC | DOWN | 27 sec | +0.029% | 0¢ | ❌ Lost | $0.00 |
@@ -202,22 +218,6 @@
 | 10/22 5:12:41 PM | USDCAD | UP | 2.3 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/22 5:12:25 PM | XRP | DOWN | 2.6 min | +0.115% | 1¢ | ❌ Lost | -$0.15 |
 | 10/22 5:12:09 PM | USDJPY | UP | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 5:11:37 PM | HYPE | DOWN | 3.4 min | +0.186% | 1¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:59 PM | ETH | DOWN | 1 sec | +0.019% | 0¢ | ❌ Lost | $0.00 |
-| 10/22 4:59:43 PM | SILVER | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:43 PM | PLATINUM | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:43 PM | XRP | DOWN | 16 sec | +0.015% | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:43 PM | BNB | DOWN | 16 sec | -0.042% | 0¢ | ❌ Lost | $0.00 |
-| 10/22 4:59:43 PM | WTI | DOWN | 16 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/22 4:59:27 PM | SOL | UP | 32 sec | -0.021% | 1¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:27 PM | GBPUSD | UP | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:27 PM | NEAR | DOWN | 32 sec | +0.080% | 1¢ | ❌ Lost | -$0.15 |
-| 10/22 4:59:27 PM | BTC | DOWN | 32 sec | +0.032% | 0¢ | ❌ Lost | $0.00 |
-| 10/22 4:58:13 PM | EURUSD | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:57:57 PM | DOGE | UP | 2.0 min | -0.144% | 0¢ | ❌ Lost | -$0.15 |
-| 10/22 4:57:57 PM | HYPE | UP | 2.0 min | -0.173% | 1¢ | ❌ Lost | -$0.15 |
-| 10/22 4:57:42 PM | USDCAD | DOWN | 2.3 min | — | 2¢ | ❌ Lost | -$0.15 |
-| 10/22 4:57:42 PM | ZEC | UP | 2.3 min | -0.387% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
