@@ -1,23 +1,10 @@
 {
- "saved_at": "2026-10-22T14:30:08+00:00",
+ "saved_at": "2026-10-22T14:42:14+00:00",
  "series": 33,
  "markets_watched": 26,
- "batch_lookup": false,
- "bets": 28059,
- "open": 5,
- "coinbase_spot": {
-  "ZEC": true,
-  "BNB": true,
-  "NEAR": true,
-  "ETH": true,
-  "BTC": true,
-  "DOGE": true,
-  "SOL": true,
-  "HYPE": true,
-  "XRP": true
- },
- "errors": [
-  "2026-10-22T13:26:31+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-  "2026-10-22T13:34:26+00:00 quotes KXNATGAS15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "batch_lookup": true,
+ "bets": 28060,
+ "open": 2,
+ "coinbase_spot": {},
+ "errors": []
 }
