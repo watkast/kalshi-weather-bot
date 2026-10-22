@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-22T02:09:17+00:00",
+ "saved_at": "2026-10-22T02:19:31+00:00",
  "series_watched": 364,
  "markets_in_or_near_play": 145,
  "batch_lookup": true,
@@ -10,7 +10,7 @@
   "matched": 15,
   "unmatched_sample": []
  },
- "bets": 24830,
- "open": 28,
+ "bets": 24841,
+ "open": 31,
  "errors": []
 }
