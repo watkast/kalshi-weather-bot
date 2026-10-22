@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 22, 12:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 22, 12:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 25835 | 1599 | 7 (0%) | 1.1% | -$141.85 (-59%) | Hold to the end: -$141.85 (-59%) |
+| 25856 | 1599 | 7 (0%) | 1.1% | -$141.85 (-59%) | Hold to the end: -$141.85 (-59%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1599 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 24201 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 24211 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 10813 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 10819 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 1085 | 1 | 0% | 0% | -91% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1037 | 2 | 14% | 5% | -82% | -76% | 4 min |
-| Russia Liga Pro Match | ✘ | 1026 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1027 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | ITF Men's Match | ✘ | 950 | 1 | 12% | 5% | -90% | -79% | 5 min |
 | Counter-Strike 2 Game | ✘ | 946 | 2 | 5% | 3% | -80% | -92% | 11 min |
 | Challenger ATP  | ✘ | 623 | 2 | 11% | 4% | -70% | -82% | 5 min |
@@ -127,9 +127,9 @@
 | NBA Game | ✔ | 78 | 0 | 13% | 4% | -100% | -78% | 8 min |
 | Liga DIMAYOR Game | ✘ | 77 | 1 | 10% | 4% | +21% | -82% | 6 min |
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
+| ATP Tennis Match | ✘ | 74 | 0 | 14% | 7% | -100% | -77% | 4 min |
 | Overwatch Game | ✘ | 74 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | eFootball Game | ✘ | 74 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| ATP Tennis Match | ✘ | 73 | 0 | 14% | 7% | -100% | -76% | 3 min |
 | UEFA Champions League Game | partly | 73 | 1 | 10% | 3% | +28% | -83% | 11 min |
 | USL Championship Game | partly | 72 | 0 | 12% | 3% | -100% | -78% | 5 min |
 | R6 Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 9 min |
@@ -155,11 +155,11 @@
 | Euroleague Game | ✘ | 50 | 0 | 26% | 10% | -100% | -55% | 14 min |
 | Eerste Divisie Game | ✘ | 50 | 0 | 8% | 6% | -100% | -86% | 11 min |
 | Chinese Basketball Association Game  | ✘ | 50 | 0 | 6% | 2% | -100% | -90% | 10 min |
+| ELH Game | ✘ | 49 | 0 | 2% | 2% | -100% | -96% | 5 min |
+| Valorant game winner | ✘ | 49 | 0 | 4% | 2% | -100% | -93% | 14 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Liga Expansion Game | ✘ | 49 | 0 | 6% | 4% | -100% | -89% | 10 min |
 | LNBP Basketball Game | ✘ | 48 | 0 | 6% | 0% | -100% | -89% | 14 min |
-| ELH Game | ✘ | 48 | 0 | 2% | 2% | -100% | -96% | 5 min |
-| Valorant game winner | ✘ | 48 | 0 | 4% | 2% | -100% | -93% | 14 min |
 | Indonesia Super League Game | ✘ | 48 | 0 | 12% | 6% | -100% | -78% | 9 min |
 | Mobile Legends Bang Bang Game | ✘ | 47 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | DEL Game | ✘ | 44 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -307,7 +307,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 46 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 47 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -319,36 +319,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-22 18:26 | Darts Match | Danny Noppert | ✘ | — | — | In play | — |
+| 10-22 18:25 | UEFA Europa League Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:25 | eFootball Game | Atlanta (Speed) | ✘ | — | — | In play | — |
+| 10-22 18:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:25 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | — | In play | — |
+| 10-22 18:25 | UEFA Europa League Game | Dinamo Zagreb | ✔ | 80' · NEC 3 - DZG 2 | — | In play | — |
+| 10-22 18:25 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-22 18:24 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
+| 10-22 18:24 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
+| 10-22 18:24 | eSoccer Game | Argentina (Megan) | ✘ | — | — | In play | — |
+| 10-22 18:24 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | — | In play | — |
+| 10-22 18:24 | UEFA Conference League Game | Tie | ✔ | 80' · SKBR 3 - ZAL 1 | — | In play | — |
+| 10-22 18:23 | UEFA Europa League Game | Tie | ✔ | 82' · TOR 1 - FER 3 | — | In play | — |
+| 10-22 18:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 18:21 | Men's T20 Cricket Match | Morrisville Raptors | ✘ | — | — | In play | — |
+| 10-22 18:21 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-22 18:21 | UEFA Europa League Game | Torreense | ✔ | 80' · TOR 1 - FER 2 | — | In play | — |
+| 10-22 18:20 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:19 | Russia Liga Pro Match | Zhelubenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:19 | UEFA Europa League Game | Tie | ✔ | 76' · AZ 2 - ARA 0 | — | In play | — |
+| 10-22 18:18 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
 | 10-22 18:15 | Valorant game winner | Blezz | ✘ | — | — | In play | — |
-| 10-22 18:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-22 18:13 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | — | In play | — |
-| 10-22 18:12 | ATP Tennis Match | Stan Wawrinka | ✘ | — | — | In play | — |
+| 10-22 18:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:13 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:12 | ATP Tennis Match | Stan Wawrinka | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-22 18:12 | UEFA Europa League Game | Tie | ✔ | 69' · B04 2 - OFI 0 | — | In play | — |
 | 10-22 18:12 | UEFA Conference League Game | Tie | ✔ | 68' · LUG 4 - GET 1 | — | In play | — |
 | 10-22 18:11 | Men's T20 Cricket Match | Los Angeles Lashings | ✘ | — | — | In play | — |
-| 10-22 18:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-22 18:10 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
-| 10-22 18:10 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-22 18:10 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
-| 10-22 18:09 | UEFA Europa League Game | Be`er Sheva | ✘ | — | — | In play | — |
-| 10-22 18:08 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:05 | UEFA Conference League Game | Heart of Midlothian | ✔ | 59' · HOM 0 - TRAB 2 | — | In play | — |
-| 10-22 18:04 | Russia Liga Pro Match | Evlampiev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:01 | eSoccer Game | Manchester City (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 18:00 | Counter-Strike 2 Game | Rcave | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:59 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:58 | Russia Liga Pro Match | Antonov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:58 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:57 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:57 | eSoccer Game | Spurs (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:56 | Counter-Strike 2 Game | Privateer Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:55 | Russia Liga Pro Match | Komarov Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 17:55 | eSoccer Game | Chelsea (Rendeto) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-22 18:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-22 18:10 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
