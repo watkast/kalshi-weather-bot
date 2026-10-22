@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 21, 11:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 21, 11:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 25028 | 1597 | 7 (0%) | 1.1% | -$141.55 (-59%) | Hold to the end: -$141.55 (-59%) |
+| 25033 | 1597 | 7 (0%) | 1.1% | -$141.55 (-59%) | Hold to the end: -$141.55 (-59%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1597 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 23402 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 23403 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -103,7 +103,7 @@
 | Russia Liga Pro Match | ✘ | 962 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Counter-Strike 2 Game | ✘ | 913 | 2 | 5% | 3% | -80% | -91% | 11 min |
 | ITF Men's Match | ✘ | 909 | 1 | 13% | 6% | -90% | -78% | 5 min |
-| Challenger ATP  | ✘ | 614 | 2 | 11% | 4% | -70% | -81% | 5 min |
+| Challenger ATP  | ✘ | 615 | 2 | 11% | 4% | -70% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 266 | 2 | 13% | 7% | -30% | -77% | 24 min |
 | Darts Match | ✘ | 241 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -319,9 +319,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-22 05:29 | WTA Tennis Match | Eunice Ying Ci Lo | ✘ | — | — | In play | — |
+| 10-22 05:24 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 10-22 05:23 | eSoccer Game | Toulouse FC (Strudl) | ✘ | — | — | In play | — |
+| 10-22 05:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-22 05:23 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | — | In play | — |
 | 10-22 05:21 | Russia Liga Pro Match | Blinov Igor | ✘ | — | — | In play | — |
 | 10-22 05:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-22 05:20 | Challenger ATP  | Liam Broady | ✘ | — | — | In play | — |
+| 10-22 05:20 | Challenger ATP  | Liam Broady | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 05:19 | eSoccer Game | CA Osasuna (Luis) | ✘ | — | — | In play | — |
 | 10-22 05:18 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
 | 10-22 05:17 | eSoccer Game | Girona (Hazard) | ✘ | — | — | In play | — |
@@ -344,11 +349,6 @@
 | 10-22 05:04 | eSoccer Game | Girona (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 05:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-22 05:02 | Liga MX Game | Pachuca | ✔ | 89' · CAZ 2 - PAC 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 05:02 | Counter-Strike 2 Game | Morningstar | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
-| 10-22 05:01 | eSoccer Game | Chelsea (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 04:58 | Liga MX Game | Tie | ✔ | 80' · UNAM 0 - SAN 2 | 1¢ | ❌ Lost | -$0.15 |
-| 10-22 04:58 | Russia Liga Pro Match | Krikunov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-22 04:56 | WTA Tennis Match | saiyora rajabalieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
