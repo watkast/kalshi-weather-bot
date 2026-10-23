@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 23, 12:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 23, 12:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 29288 | 29280 | 112 (0%) | 1.07% | -$2,002.75 (-56%) | Hold to the close: -$2,002.75 (-56%) |
+| 29292 | 29280 | 112 (0%) | 1.07% | -$2,002.75 (-56%) | Hold to the close: -$2,002.75 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/23 12:42:51 AM | NEAR | DOWN | 2.1 min | +0.330% | — | In play | — |
+| 10/23 12:42:51 AM | XRP | DOWN | 2.1 min | +0.128% | — | In play | — |
+| 10/23 12:42:19 AM | ETH | DOWN | 2.7 min | +0.085% | — | In play | — |
+| 10/23 12:42:04 AM | USDJPY | DOWN | 2.9 min | — | — | In play | — |
 | 10/23 12:29:47 AM | DOGE | UP | 13 sec | -0.028% | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 12:29:47 AM | USDJPY | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 12:29:31 AM | ZEC | UP | 29 sec | -0.158% | 0¢ | ❌ Lost | $0.00 |
@@ -214,10 +218,6 @@
 | 10/23 12:14:13 AM | BNB | DOWN | 47 sec | -0.008% | 1¢ | ❌ Lost | -$0.15 |
 | 10/23 12:13:56 AM | ETH | DOWN | 64 sec | +0.062% | 1¢ | ❌ Lost | -$0.15 |
 | 10/23 12:13:56 AM | HYPE | DOWN | 64 sec | +0.034% | 1¢ | ❌ Lost | -$0.15 |
-| 10/23 12:13:56 AM | PLATINUM | UP | 64 sec | — | 5¢ | ❌ Lost | -$0.15 |
-| 10/23 12:13:40 AM | SILVER | UP | 80 sec | — | 26¢ | ❌ Lost | -$0.15 |
-| 10/23 12:13:40 AM | USDJPY | DOWN | 80 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 12:13:24 AM | ZEC | DOWN | 1.6 min | +0.224% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
