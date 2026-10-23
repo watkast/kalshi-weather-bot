@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 22, 9:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 22, 10:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26491 | 1669 | 7 (0%) | 1.1% | -$152.35 (-61%) | Hold to the end: -$152.35 (-61%) |
+| 26503 | 1670 | 7 (0%) | 1.1% | -$152.50 (-61%) | Hold to the end: -$152.50 (-61%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 1669 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 24802 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 1670 | 14% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 24813 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 7 | 0% | -$152.35 | -61% |
-| Sell at 2¢ | 230 | 14% | -$190.55 | -76% |
-| Sell at 3¢ | 157 | 9% | -$189.12 | -76% |
-| Sell at 5¢ | 109 | 7% | -$179.50 | -72% |
-| Sell at 10¢ | 52 | 3% | -$182.23 | -73% |
-| Sell at 25¢ | 15 | 1% | -$200.70 | -80% |
-| Sell at 50¢ | 10 | 1% | -$182.85 | -73% |
+| Hold to the end | 7 | 0% | -$152.50 | -61% |
+| Sell at 2¢ | 230 | 14% | -$190.70 | -76% |
+| Sell at 3¢ | 157 | 9% | -$189.27 | -76% |
+| Sell at 5¢ | 109 | 7% | -$179.65 | -72% |
+| Sell at 10¢ | 52 | 3% | -$182.38 | -73% |
+| Sell at 25¢ | 15 | 1% | -$200.85 | -80% |
+| Sell at 50¢ | 10 | 1% | -$183.00 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11183 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11193 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 1123 | 1 | 0% | 0% | -92% | -91% | 2 min |
 | Russia Liga Pro Match | ✘ | 1083 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -111,12 +111,12 @@
 | Men's T20 Cricket Match | ✘ | 209 | 1 | 15% | 5% | -55% | -74% | 26 min |
 | Dota 2 Game | ✘ | 192 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 174 | 2 | 5% | 3% | +7% | -91% | 8 min |
-| NHL Game | ✔ | 161 | 0 | 11% | 5% | -100% | -82% | 4 min |
+| NHL Game | ✔ | 162 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 134 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| WTA Tennis Match | ✘ | 103 | 0 | 10% | 2% | -100% | -83% | 5 min |
+| WTA Tennis Match | ✘ | 104 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
 | AHL Game | ✘ | 101 | 0 | 3% | 2% | -100% | -95% | 5 min |
 | eFootball Game | ✘ | 99 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -297,7 +297,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 675 | 5% | 1% | 0% | -91% |
+| Under 5 min | 676 | 5% | 1% | 0% | -91% |
 | 5–15 min | 377 | 17% | 7% | 1% | -71% |
 | 15–30 min | 251 | 27% | 15% | 1% | -52% |
 | 30–60 min | 191 | 19% | 11% | 0% | -67% |
@@ -319,36 +319,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-23 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 04:01 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | — | In play | — |
+| 10-23 04:01 | WTA Tennis Match | Aylara Kakabayeva | ✘ | — | — | In play | — |
+| 10-23 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 04:00 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-23 04:00 | eSoccer Game | Frankfurt (Fede) | ✘ | — | — | In play | — |
+| 10-23 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 04:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 03:59 | NHL Game | Vancouver | ✔ | 16:07 - 3rd · DET 4 - VAN 1 | — | In play | — |
+| 10-23 03:58 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-23 03:56 | NHL Game | Carolina | ✔ | In SO · CAR 5 - EDM 5 | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:55 | WTA Tennis Match | Hana Avdal Hasan | ✘ | — | — | In play | — |
 | 10-23 03:53 | LNBP Basketball Game | Mineros de Zacatecas | ✘ | — | — | In play | — |
-| 10-23 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 03:50 | WTA Tennis Match | Eunice Ying Ci Lo | ✘ | — | — | In play | — |
+| 10-23 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:50 | WTA Tennis Match | Eunice Ying Ci Lo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 03:50 | eFootball Game | Houston (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:49 | eSoccer Game | Newcastle Utd (Minjori) | ✘ | — | — | In play | — |
-| 10-23 03:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 03:49 | eSoccer Game | Newcastle Utd (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 03:49 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:48 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | — | In play | — |
-| 10-23 03:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 03:48 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-23 03:48 | eSoccer Game | Freiburg (Bony) | ✘ | — | — | In play | — |
-| 10-23 03:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 03:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 03:45 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-23 03:48 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:48 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:48 | eSoccer Game | Freiburg (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:45 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 03:42 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-23 03:38 | College Football Game | East Carolina | ✔ | OT · ECU 34 - MEM 41 | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 03:37 | eSoccer Game | Spurs (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:36 | NHL Game | Minnesota | ✔ | End of 3rd · MIN 1 - CGY 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:34 | eSoccer Game | Frankfurt (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:34 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:32 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:31 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:31 | eFootball Game | Los Angeles (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:23 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:22 | eBasketball Game | New York Knicks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
