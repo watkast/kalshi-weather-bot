@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 6:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 6:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26947 | 1673 | 7 (0%) | 1.1% | -$152.95 (-61%) | Hold to the end: -$152.95 (-61%) |
+| 26952 | 1673 | 7 (0%) | 1.1% | -$152.95 (-61%) | Hold to the end: -$152.95 (-61%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1673 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 25252 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 25264 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11480 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11490 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 1148 | 1 | 0% | 0% | -92% | -91% | 2 min |
 | Russia Liga Pro Match | ✘ | 1123 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -192,12 +192,12 @@
 | Thai League 1 Game | ✘ | 32 | 0 | 22% | 9% | -100% | -62% | 8 min |
 | Eliteserien Game | ✘ | 32 | 0 | 12% | 6% | -100% | -78% | 16 min |
 | Ecuador Liga Pro Game | ✘ | 32 | 0 | 9% | 3% | -100% | -84% | 6 min |
+| Japan B League Game | ✘ | 32 | 0 | 9% | 0% | -100% | -84% | 15 min |
 | Chinese Super League Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 18 min |
 | Czech National Football League Game | ✘ | 31 | 0 | 10% | 10% | -100% | -83% | 9 min |
 | Czech First League Game | ✘ | 31 | 0 | 16% | 0% | -100% | -72% | 9 min |
 | Allsvenskan Game | ✘ | 31 | 0 | 13% | 13% | -100% | -78% | 12 min |
 | Egyptian Premier League Game | ✘ | 31 | 0 | 6% | 6% | -100% | -89% | 11 min |
-| Japan B League Game | ✘ | 31 | 0 | 6% | 0% | -100% | -89% | 17 min |
 | Men's ODI Cricket Match | ✘ | 30 | 1 | 17% | 3% | +211% | -71% | 44 min |
 | Adriatic ABA Game | ✘ | 30 | 0 | 3% | 3% | -100% | -94% | 9 min |
 | Bolivia Premier Division Game | ✘ | 30 | 0 | 17% | 3% | -100% | -71% | 3 min |
@@ -208,10 +208,10 @@
 | Venezuela Liga FUTVE game | ✘ | 28 | 0 | 18% | 14% | -100% | -69% | 6 min |
 | Spain Liga ACB Game | ✘ | 27 | 0 | 7% | 4% | -100% | -87% | 17 min |
 | Bundesliga Game | ✔ | 27 | 1 | 15% | 11% | +246% | -74% | 5 min |
+| Australia NBL Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 7 min |
 | Vietnam V-League 1 Game | ✘ | 26 | 0 | 4% | 4% | -100% | -93% | 10 min |
 | Serbian SuperLiga Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
-| Australia NBL Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 6 min |
 | Canadian Premier League | ✘ | 25 | 1 | 20% | 20% | +273% | -65% | 29 min |
 | Korea K League Game | ✘ | 25 | 1 | 24% | 12% | +273% | -58% | 8 min |
 | Super League Greece Game | ✘ | 25 | 0 | 24% | 8% | -100% | -58% | 13 min |
@@ -320,18 +320,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-23 12:31 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
-| 10-23 12:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 12:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 12:29 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | — | In play | — |
+| 10-23 12:42 | Mobile Legends Bang Bang Game | Evil Eye Esports | ✘ | — | — | In play | — |
+| 10-23 12:40 | ITF Men's Match | Fnu Nidunjianzan | ✘ | — | — | In play | — |
+| 10-23 12:40 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
+| 10-23 12:33 | eSoccer Game | Nottingham Forest (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:31 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:29 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 12:28 | Israel Super League Game | Hapoel Beer Sheva | ✘ | — | — | In play | — |
 | 10-23 12:28 | ITF Men's Match | Florent Bax | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 12:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 12:27 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-23 12:26 | eSoccer Game | Portugal (Nicol) | ✘ | — | — | In play | — |
-| 10-23 12:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 12:25 | Australia NBL Game | Melbourne United | ✘ | — | — | In play | — |
-| 10-23 12:24 | Japan B League Game | Nagasaki Velca | ✘ | — | — | In play | — |
+| 10-23 12:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:27 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:26 | eSoccer Game | Portugal (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:25 | Australia NBL Game | Melbourne United | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 12:24 | Japan B League Game | Nagasaki Velca | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-23 12:19 | eSoccer Game | Spurs (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 12:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 12:17 | Russia Liga Pro Match | Kugurushev Dmitriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,11 +350,6 @@
 | 10-23 12:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 12:13 | eBasketball Game | Indiana Pacers (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 12:11 | eSoccer Game | Spain (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 12:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 12:08 | Indian Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-23 12:08 | R6 Game | Elevate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 12:08 | Korea KBL Game | KT Sonicboom | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 12:05 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
