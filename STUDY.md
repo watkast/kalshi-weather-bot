@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 4:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 4:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 27789 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
+| 27801 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
 
 *In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1693 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26073 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26085 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11864 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11874 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1189 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1191 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1185 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1071 | 2 | 14% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 989 | 2 | 5% | 3% | -81% | -92% | 11 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-23 22:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:42 | eSoccer Game | Boca Juniors (Hurricane) | ✘ | — | — | In play | — |
+| 10-23 22:41 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 10-23 22:41 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-23 22:40 | eSoccer Game | Universitario (Eder) | ✘ | — | — | In play | — |
+| 10-23 22:40 | eSoccer Game | Palmeiras (Fede) | ✘ | — | — | In play | — |
+| 10-23 22:39 | NBA Game | Milwaukee | ✔ | 20.1 - 4th · CHI 128 - MIL 123 | — | In play | — |
+| 10-23 22:39 | eBasketball Game | Denver Nuggets (Ray) | ✘ | — | — | In play | — |
+| 10-23 22:39 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-23 22:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:39 | eBasketball Game | New Orleans Pelicans (Mick) | ✘ | — | — | In play | — |
+| 10-23 22:35 | Argentina Primera Division Game | Junin | ✘ | — | — | In play | — |
 | 10-23 22:34 | Men's T20 Cricket Match | New Jersey Somerset Cavaliers | ✘ | — | — | In play | — |
-| 10-23 22:33 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | — | In play | — |
-| 10-23 22:32 | eSoccer Game | CA Osasuna (Minjori) | ✘ | — | — | In play | — |
-| 10-23 22:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 22:31 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | — | In play | — |
-| 10-23 22:28 | eSoccer Game | River Plate (Eder) | ✘ | — | — | In play | — |
-| 10-23 22:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 22:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 22:27 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 10-23 22:33 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:32 | eSoccer Game | CA Osasuna (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:31 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:28 | eSoccer Game | River Plate (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:27 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 22:26 | Counter-Strike 2 Game | Sinners | ✘ | — | — | In play | — |
-| 10-23 22:26 | eSoccer Game | Boca Juniors (Fede) | ✘ | — | — | In play | — |
-| 10-23 22:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:26 | eSoccer Game | Boca Juniors (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 22:26 | Russia Liga Pro Match | Bespalov Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 22:26 | eFootball Game | Seattle (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 22:25 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-23 22:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:25 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 22:25 | Peru Liga 1 Game | Asociacion Deportiva Tarma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 22:23 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-23 22:21 | Men's T20 Cricket Match | Morrisville Raptors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:20 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
-| 10-23 22:18 | eSoccer Game | Girona (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:18 | eSoccer Game | Getafe CF (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:15 | eSoccer Game | Flamengo (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:14 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:13 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:11 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 22:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
