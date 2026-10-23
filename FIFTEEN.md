@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 23, 1:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 23, 1:56 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2479 finished bets | 1% | $83.50 | +30% | +3.37¢ | $46.55 / $36.95 |
 
-*Expect about **97 buys a day** (~$14.56/day at risk); max loss per buy **15¢**.*
+*Expect about **97 buys a day** (~$14.55/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30218 | 30210 | 114 (0%) | 1.07% | -$2,092.80 (-57%) | Hold to the close: -$2,092.80 (-57%) |
+| 30220 | 30210 | 114 (0%) | 1.07% | -$2,092.80 (-57%) | Hold to the close: -$2,092.80 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/23 1:56:08 PM | HYPE | UP | 3.9 min | -0.340% | — | In play | — |
+| 10/23 1:56:08 PM | ZEC | UP | 3.9 min | -0.537% | — | In play | — |
 | 10/23 1:44:51 PM | AUDUSD | UP | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 1:44:51 PM | USDCAD | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 1:44:51 PM | EURUSD | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/23 1:29:56 PM | HYPE | DOWN | 4 sec | +0.016% | 0¢ | ❌ Lost | $0.00 |
 | 10/23 1:29:40 PM | XRP | UP | 20 sec | -0.046% | 0¢ | ❌ Lost | $0.00 |
 | 10/23 1:29:40 PM | BNB | DOWN | 20 sec | +0.004% | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 1:29:24 PM | NATGAS | DOWN | 36 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 1:29:24 PM | SOL | DOWN | 36 sec | +0.065% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
