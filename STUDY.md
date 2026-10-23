@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 4:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 4:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 27754 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
+| 27764 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1693 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26049 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26053 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11850 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11854 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Russia Liga Pro Match | ✘ | 1188 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1183 | 1 | 1% | 0% | -92% | -91% | 2 min |
@@ -324,10 +324,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-23 22:03 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | — | In play | — |
-| 10-23 22:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 21:59 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 10-23 21:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:14 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 10-23 22:13 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
+| 10-23 22:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:11 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | — | In play | — |
+| 10-23 22:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 22:10 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | — | In play | — |
+| 10-23 22:09 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-23 22:07 | Dota 2 Game | Inner Circle | ✘ | — | — | In play | — |
+| 10-23 22:05 | eFootball Game | Philadelphia (Fred) | ✘ | — | — | In play | — |
+| 10-23 22:04 | Men's Iceland Basketball Premier League Game | Keflavik | ✘ | — | — | In play | — |
+| 10-23 22:03 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:59 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:50 | eSoccer Game | Real Sociedad (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:49 | League of Legends Game | G2 Esports | ✘ | — | — | In play | — |
@@ -344,16 +354,6 @@
 | 10-23 21:44 | eFootball Game | Buffalo (Justin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:44 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:43 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:42 | APF Division de Honor Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-23 21:40 | Russia Liga Pro Match | Kugurushev Dmitriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:35 | eSoccer Game | Real Madrid (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:33 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:31 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:31 | eSoccer Game | Palmeiras (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
