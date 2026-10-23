@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 23 05:35 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 23 05:45 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 29818 | 25957 | 3861 (39) | 0 | $-8787.68 | -4.7% |
 | **+10¢** | 22354 | 17884 | 4470 (55) | 0 | $-7911.72 | -5.6% |
 | **+15¢** | 18723 | 13923 | 4800 (78) | 0 | $-7078.60 | -6.0% |
-| **+20¢** | 16571 | 11542 | 5029 (101) | 1 | $-6386.34 | -6.1% |
+| **+20¢** | 16572 | 11543 | 5029 (101) | 0 | $-6384.35 | -6.1% |
 | **+10¢ (15¢ stop)** | 36598 | 36539 | 59 (32) | 0 | $-13793.14 | -6.0% |
 
 ## Latest trades
@@ -26,7 +26,7 @@
 | 10-23 05:31 | +10 | DOGE | UP | 0.69 | 0.86 | 1.46 |
 | 10-23 05:31 | +5 | DOGE | UP | 0.69 | 0.75 | 0.31 |
 | 10-23 05:31 | +10 stop | BTC | UP | 0.70 | 0.83 | 1.05 |
-| 10-23 05:31 | +20 | BTC | UP | 0.70 | open |  |
+| 10-23 05:31 | +20 | BTC | UP | 0.70 | 0.92 | 1.99 |
 | 10-23 05:31 | +15 | BTC | UP | 0.70 | 0.86 | 1.36 |
 | 10-23 05:31 | +10 | BTC | UP | 0.70 | 0.83 | 1.05 |
 | 10-23 05:31 | +5 | BTC | UP | 0.70 | 0.76 | 0.32 |
