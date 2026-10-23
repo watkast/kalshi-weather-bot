@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 23, 11:49 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 23, 11:59 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2474 finished bets | 1% | $84.10 | +30% | +3.40¢ | $46.85 / $37.25 |
 
-*Expect about **97 buys a day** (~$14.57/day at risk); max loss per buy **15¢**.*
+*Expect about **97 buys a day** (~$14.58/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30059 | 30051 | 114 (0%) | 1.07% | -$2,073.30 (-57%) | Hold to the close: -$2,073.30 (-57%) |
+| 30077 | 30051 | 114 (0%) | 1.07% | -$2,073.30 (-57%) | Hold to the close: -$2,073.30 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 25. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,24 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/23 11:59:12 AM | WTI | UP | 47 sec | — | — | In play | — |
+| 10/23 11:59:12 AM | BNB | DOWN | 47 sec | +0.001% | — | In play | — |
+| 10/23 11:58:40 AM | EURUSD | DOWN | 79 sec | — | — | In play | — |
+| 10/23 11:58:40 AM | BTC | DOWN | 79 sec | +0.101% | — | In play | — |
+| 10/23 11:58:24 AM | ETH | DOWN | 1.6 min | +0.178% | — | In play | — |
+| 10/23 11:58:24 AM | HYPE | DOWN | 1.6 min | +0.113% | — | In play | — |
+| 10/23 11:58:24 AM | GBPUSD | DOWN | 1.6 min | — | — | In play | — |
+| 10/23 11:58:24 AM | USDCAD | UP | 1.6 min | — | — | In play | — |
+| 10/23 11:58:24 AM | XRP | DOWN | 1.6 min | +0.183% | — | In play | — |
+| 10/23 11:58:24 AM | DOGE | DOWN | 1.6 min | +0.200% | — | In play | — |
+| 10/23 11:58:07 AM | NEAR | DOWN | 1.9 min | +0.542% | — | In play | — |
+| 10/23 11:58:07 AM | SOL | DOWN | 1.9 min | +0.172% | — | In play | — |
+| 10/23 11:58:07 AM | AUDUSD | DOWN | 1.9 min | — | — | In play | — |
+| 10/23 11:58:07 AM | COPPER | DOWN | 1.9 min | — | — | In play | — |
+| 10/23 11:57:19 AM | PALLADIUM | DOWN | 2.7 min | — | — | In play | — |
+| 10/23 11:57:03 AM | SILVER | DOWN | 3.0 min | — | — | In play | — |
+| 10/23 11:57:03 AM | PLATINUM | DOWN | 3.0 min | — | — | In play | — |
+| 10/23 11:56:47 AM | GOLD | DOWN | 3.2 min | — | — | In play | — |
 | 10/23 11:44:34 AM | GBPUSD | UP | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 11:44:34 AM | 30YRRATE | UP | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 11:44:34 AM | WTI | DOWN | 25 sec | — | 1¢ | ❌ Lost | -$0.15 |
@@ -200,24 +218,6 @@
 | 10/23 11:44:04 AM | XRP | UP | 56 sec | -0.107% | 0¢ | ❌ Lost | $0.00 |
 | 10/23 11:43:46 AM | NATGAS | DOWN | 74 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 11:43:30 AM | ETH | UP | 1.5 min | -0.094% | 1¢ | ❌ Lost | -$0.15 |
-| 10/23 11:43:30 AM | BNB | UP | 1.5 min | -0.156% | 0¢ | ❌ Lost | $0.00 |
-| 10/23 11:43:14 AM | DOGE | UP | 1.8 min | -0.185% | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:42:59 AM | SOL | UP | 2.0 min | -0.182% | 1¢ | ❌ Lost | -$0.15 |
-| 10/23 11:42:27 AM | USDCAD | DOWN | 2.5 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:42:11 AM | EURUSD | UP | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:42:11 AM | USDJPY | DOWN | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:29:44 AM | SILVER | UP | 16 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/23 11:29:44 AM | GOLD | UP | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:29:44 AM | PALLADIUM | UP | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:29:44 AM | COPPER | UP | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:29:28 AM | PLATINUM | UP | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:28:57 AM | GBPUSD | DOWN | 63 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:28:33 AM | NEAR | UP | 86 sec | -0.426% | 0¢ | ❌ Lost | $0.00 |
-| 10/23 11:28:17 AM | USDJPY | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:28:17 AM | WTI | DOWN | 1.7 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/23 11:28:01 AM | ZEC | UP | 2.0 min | -0.459% | 0¢ | ❌ Lost | -$0.15 |
-| 10/23 11:27:11 AM | ETH | UP | 2.8 min | -0.208% | 0¢ | ❌ Lost | $0.00 |
-| 10/23 11:26:56 AM | SOL | UP | 3.0 min | -0.227% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
