@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 23, 4:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 23, 4:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2457 finished bets | 1% | $86.20 | +31% | +3.51¢ | $48.05 / $38.15 |
 
-*Expect about **98 buys a day** (~$14.65/day at risk); max loss per buy **15¢**.*
+*Expect about **98 buys a day** (~$14.64/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 29554 | 29546 | 113 (0%) | 1.07% | -$2,023.25 (-56%) | Hold to the close: -$2,023.25 (-56%) |
+| 29555 | 29546 | 113 (0%) | 1.07% | -$2,023.25 (-56%) | Hold to the close: -$2,023.25 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/23 4:40:30 AM | USDJPY | DOWN | 4.5 min | — | — | In play | — |
 | 10/23 4:28:59 AM | BNB | UP | 60 sec | -0.086% | 1¢ | ❌ Lost | -$0.15 |
 | 10/23 4:28:59 AM | ETH | UP | 60 sec | -0.087% | 1¢ | ❌ Lost | -$0.15 |
 | 10/23 4:28:59 AM | USDJPY | UP | 60 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 10/23 4:12:17 AM | DOGE | DOWN | 2.7 min | +0.265% | 1¢ | ❌ Lost | -$0.15 |
 | 10/23 4:12:17 AM | USDCAD | DOWN | 2.7 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/23 4:12:17 AM | BTC | DOWN | 2.7 min | +0.143% | 1¢ | ❌ Lost | -$0.15 |
-| 10/23 4:11:31 AM | XRP | DOWN | 3.5 min | +0.235% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
