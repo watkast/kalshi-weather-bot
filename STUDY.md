@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 22, 9:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 22, 9:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 26440 | 1665 | 7 (0%) | 1.1% | -$151.75 (-61%) | Hold to the end: -$151.75 (-61%) |
+| 26450 | 1665 | 7 (0%) | 1.1% | -$151.75 (-61%) | Hold to the end: -$151.75 (-61%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1665 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 24763 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 24770 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11153 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11159 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | eBasketball Game | ✘ | 1119 | 1 | 0% | 0% | -92% | -91% | 2 min |
 | Russia Liga Pro Match | ✘ | 1083 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -119,7 +119,7 @@
 | WTA Tennis Match | ✘ | 103 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
 | AHL Game | ✘ | 101 | 0 | 3% | 2% | -100% | -95% | 5 min |
-| eFootball Game | ✘ | 96 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eFootball Game | ✘ | 97 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | KHL Game | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 5 min |
 | Brasileiro Serie B Game | ✘ | 86 | 0 | 7% | 2% | -100% | -88% | 9 min |
 | Argentina Primera Division Game | ✘ | 86 | 1 | 17% | 9% | +9% | -70% | 6 min |
@@ -319,12 +319,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-23 03:01 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 10-23 03:10 | eSoccer Game | Chelsea (Minjori) | ✘ | — | — | In play | — |
+| 10-23 03:10 | eSoccer Game | Arsenal (Zaroth) | ✘ | — | — | In play | — |
+| 10-23 03:10 | eFootball Game | Los Angeles (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:06 | eSoccer Game | Leverkusen (Fede) | ✘ | — | — | In play | — |
+| 10-23 03:06 | eSoccer Game | FC Augsburg (Bony) | ✘ | — | — | In play | — |
+| 10-23 03:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 03:06 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-23 03:05 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 03:01 | eSoccer Game | United States (Demi) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-23 03:01 | College Football Game | James Madison | ✔ | OT · JMU 31 - APP 31 | — | In play | — |
 | 10-23 03:00 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:59 | Liga Expansion Game | Cruz Azul Hidalgo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 02:53 | eSoccer Game | Everton (Drakon) | ✘ | — | — | In play | — |
+| 10-23 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 02:53 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:53 | eSoccer Game | FSV Mainz 05 (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -339,16 +349,6 @@
 | 10-23 02:42 | eSoccer Game | Manchester City (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:42 | eFootball Game | Atlanta (Justin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 02:41 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:38 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:37 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:35 | eSoccer Game | Dortmund (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:32 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 02:31 | ITF Women's Match | Linea Bajraliu | ✘ | — | 20¢ | ❌ Lost | -$0.15 |
-| 10-23 02:31 | College Hockey Game | North Dakota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
