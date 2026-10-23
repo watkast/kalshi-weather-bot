@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 3:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 3:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 27718 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
+| 27727 | 1693 | 7 (0%) | 1.1% | -$155.95 (-61%) | Hold to the end: -$155.95 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1693 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26006 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26017 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 11820 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 11830 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Russia Liga Pro Match | ✘ | 1185 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1181 | 1 | 1% | 0% | -92% | -91% | 2 min |
@@ -114,8 +114,8 @@
 | NHL Game | ✔ | 164 | 0 | 10% | 5% | -100% | -82% | 4 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
+| eFootball Game | ✘ | 137 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | League of Legends Game | ✘ | 136 | 0 | 7% | 2% | -100% | -87% | 11 min |
-| eFootball Game | ✘ | 136 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | WTA Tennis Match | ✘ | 119 | 0 | 11% | 3% | -100% | -81% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
@@ -324,15 +324,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-23 21:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 21:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 21:18 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 10-23 21:18 | eSoccer Game | River Plate (Eder) | ✘ | — | — | In play | — |
+| 10-23 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 21:31 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 10-23 21:31 | eSoccer Game | Palmeiras (Fede) | ✘ | — | — | In play | — |
+| 10-23 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 21:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 10-23 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-23 21:28 | eFootball Game | Baltimore (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:23 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:18 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:18 | eSoccer Game | River Plate (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:18 | Men's T20 Cricket Match | Marafie Bengal Tigers | ✘ | — | — | In play | — |
-| 10-23 21:17 | eSoccer Game | Boca Juniors (Fede) | ✘ | — | — | In play | — |
-| 10-23 21:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-23 21:16 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-23 21:17 | eSoccer Game | Boca Juniors (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-23 21:16 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:15 | APF Division de Honor Game | Rubio Nu | ✘ | — | — | In play | — |
 | 10-23 21:10 | Russia Liga Pro Match | Korneev Dmitriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:10 | eSoccer Game | RCD Mallorca (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,15 +354,6 @@
 | 10-23 21:05 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:05 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-23 21:04 | Russia Liga Pro Match | Kolmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:04 | French Women's Première Ligue Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:04 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 21:03 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 20:59 | Liga Portugal Game | Madeira | ✘ | — | — | In play | — |
-| 10-23 20:58 | English Premier League Game | Ipswich Town | ✔ | 90'+9' · NFO 1 - IPS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 20:58 | English Premier League Game | Nottingham Forest | ✔ | 90'+9' · NFO 1 - IPS 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-23 20:55 | Russia Liga Pro Match | Nosov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
