@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Fri Oct 23, 6:39 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Fri Oct 23, 10:45 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 514 | 473 | 36% | -$286.01 | -14.3% | 41 | Losing |
-| **Rain** | 141 | 136 | 37% | $32.17 | +6.9% | 5 | Promising |
+| **Temperature** | 516 | 473 | 36% | -$286.01 | -14.3% | 43 | Losing |
+| **Rain** | 142 | 136 | 37% | $32.17 | +6.9% | 6 | Promising |
 | **Longshot fade** | 953 | 948 | 93% | -$169.26 | -1.9% | 5 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,6 +44,8 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-24 | AUS 85-86 | YES | 9¢ | 19% | Open | — |
+| 2026-10-24 | CHI 74-75 | YES | 5¢ | 19% | Open | — |
 | 2026-10-24 | LAX 75-76 | NO | 67¢ | 77% | Open | — |
 | 2026-10-24 | NY 59-60 | NO | 70¢ | 81% | Open | — |
 | 2026-10-24 | PHIL 61-62 | YES | 8¢ | 23% | Open | — |
@@ -52,13 +54,12 @@
 | 2026-10-24 | LAX 73-74 | YES | 8¢ | 26% | Open | — |
 | 2026-10-24 | LAX 77-78 | NO | 57¢ | 86% | Open | — |
 | 2026-10-24 | DEN 53-54 | YES | 13¢ | 23% | Open | — |
-| 2026-10-24 | DEN 55-56 | NO | 63¢ | 74% | Open | — |
-| 2026-10-24 | DEN 57-58 | NO | 63¢ | 81% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-24 | DEN | NO | 36¢ | 48% | Open | — |
 | 2026-10-24 | SEA | YES | 17¢ | 43% | Open | — |
 | 2026-10-24 | SATX | YES | 6¢ | 19% | Open | — |
 | 2026-10-24 | MIN | NO | 32¢ | 46% | Open | — |
@@ -68,7 +69,6 @@
 | 2026-10-22 | LAX | YES | 83¢ | 95% | NO | -$8.40 |
 | 2026-10-22 | SEA | YES | 13¢ | 26% | NO | -$1.38 |
 | 2026-10-22 | DEN | NO | 67¢ | 84% | NO | $3.14 |
-| 2026-10-22 | SFO | NO | 21¢ | 37% | YES | -$2.22 |
 
 ## The bots
 
