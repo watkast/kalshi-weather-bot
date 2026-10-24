@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 4:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 5:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28615 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
+| 28626 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1725 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26874 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26884 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12333 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12341 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1252 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1254 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1228 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1076 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 999 | 2 | 5% | 3% | -81% | -91% | 11 min |
@@ -324,16 +324,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 10:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 10:54 | eSoccer Game | Everton (NINJA) | ✘ | — | — | In play | — |
-| 10-24 10:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 10:53 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
+| 10-24 11:06 | ATP Tennis Match | Marcos Giron | ✘ | — | — | In play | — |
+| 10-24 11:06 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 10-24 11:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 11:04 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 10-24 11:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 11:02 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 10-24 11:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 11:01 | eFootball Game | Atlanta (Pablo) | ✘ | — | — | In play | — |
+| 10-24 11:01 | Dota 2 Game | Team Lynx | ✘ | — | — | In play | — |
+| 10-24 10:59 | Russia Liga Pro Match | Chechulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:58 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:54 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:53 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-24 10:50 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:49 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 10-24 10:49 | eSoccer Game | RB Leipzig (Fernando) | ✘ | — | — | In play | — |
-| 10-24 10:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 10:49 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:49 | eSoccer Game | RB Leipzig (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 10:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:48 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 10:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:48 | ITF Men's Match | Ioannis Xilas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:47 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -343,17 +354,6 @@
 | 10-24 10:42 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 10:41 | Men's T20 Cricket Match | New Zealand | ✘ | — | — | In play | — |
-| 10-24 10:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:40 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:39 | eSoccer Game | Argentina (Taylor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:39 | eSoccer Game | RB Leipzig (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:35 | eSoccer Game | Spain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:35 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:34 | Australian A League Game | Melbourne City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 10:34 | Australian A League Game | Melbourne Victory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
