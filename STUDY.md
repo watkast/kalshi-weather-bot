@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 12:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 12:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28326 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
+| 28349 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1725 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26574 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26588 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12172 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12182 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1224 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1226 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1217 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1076 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 992 | 2 | 5% | 3% | -81% | -91% | 11 min |
-| ITF Men's Match | ✘ | 977 | 1 | 12% | 5% | -90% | -79% | 5 min |
+| ITF Men's Match | ✘ | 978 | 1 | 12% | 6% | -90% | -79% | 5 min |
 | Challenger ATP  | ✘ | 642 | 2 | 11% | 4% | -71% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 275 | 2 | 13% | 7% | -32% | -77% | 23 min |
@@ -116,7 +116,7 @@
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 139 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| WTA Tennis Match | ✘ | 129 | 0 | 11% | 2% | -100% | -81% | 5 min |
+| WTA Tennis Match | ✘ | 130 | 0 | 11% | 2% | -100% | -81% | 5 min |
 | AHL Game | ✘ | 111 | 0 | 3% | 2% | -100% | -95% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 06:46 | Russia Liga Pro Match | Troshkin Artem | ✘ | — | — | In play | — |
+| 10-24 06:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:57 | Japan J2 League Game | Omiya ArdijaA | ✘ | — | — | In play | — |
+| 10-24 06:57 | Japan J2 League Game | Yokohama | ✘ | — | — | In play | — |
+| 10-24 06:57 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:57 | Korea K League Game | Gangwon | ✘ | — | — | In play | — |
+| 10-24 06:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:57 | eSoccer Game | Nantes (Gigi) | ✘ | — | — | In play | — |
+| 10-24 06:56 | Korea K League Game | Seoul | ✘ | — | — | In play | — |
+| 10-24 06:56 | Korea K League Game | FC Anyang | ✘ | — | — | In play | — |
+| 10-24 06:56 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:56 | Korea KBL Game | LG Sakers | ✘ | — | — | In play | — |
+| 10-24 06:56 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-24 06:55 | eSoccer Game | Real Madrid (Fernando) | ✘ | — | — | In play | — |
+| 10-24 06:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:55 | eSoccer Game | RC Lens (Kate) | ✘ | — | — | In play | — |
+| 10-24 06:54 | Korea K League Game | Ulsan HD | ✘ | — | — | In play | — |
+| 10-24 06:54 | Korea K League Game | Pohang Steelers | ✘ | — | — | In play | — |
+| 10-24 06:52 | Korea K League Game | Gimcheon Sangmu | ✘ | — | — | In play | — |
+| 10-24 06:52 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:52 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:49 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 10-24 06:49 | WTA Tennis Match | Maria Isabel Gvan Heras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:49 | Korea K League Game | Jeonbuk | ✘ | — | — | In play | — |
+| 10-24 06:46 | Russia Liga Pro Match | Troshkin Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 06:46 | Japan J2 League Game | Fujieda | ✘ | — | — | In play | — |
-| 10-24 06:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 06:44 | eSoccer Game | Real Betis (Bradley) | ✘ | — | — | In play | — |
-| 10-24 06:44 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | — | In play | — |
-| 10-24 06:44 | Russia Liga Pro Match | Kharchenko Evgeny | ✘ | — | — | In play | — |
-| 10-24 06:43 | ITF Men's Match | Kosuke Ogura | ✘ | — | — | In play | — |
-| 10-24 06:43 | eSoccer Game | Spurs (Taylor) | ✘ | — | — | In play | — |
-| 10-24 06:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 06:41 | Korea K League Game | Jeju SK | ✘ | — | — | In play | — |
-| 10-24 06:41 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
-| 10-24 06:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 06:41 | eSoccer Game | Manchester Utd (Kate) | ✘ | — | — | In play | — |
-| 10-24 06:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 06:40 | eSoccer Game | Nantes (Homie) | ✘ | — | — | In play | — |
-| 10-24 06:38 | Russia Liga Pro Match | Aksentev Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:36 | eFootball Game | Detroit (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:35 | ITF Women's Match | Varvara Panshina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:34 | Japan J League Game | Tie | ✘ | — | — | In play | — |
-| 10-24 06:32 | eSoccer Game | Toulouse FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:30 | Korea K-League 2 Game | Jeonnam | ✘ | — | — | In play | — |
-| 10-24 06:30 | Korea K League Game | Bucheon | ✘ | — | — | In play | — |
-| 10-24 06:30 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:29 | eSoccer Game | Spurs (Taylor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:29 | ITF Men's Match | Stefan Vujic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:26 | eSoccer Game | Chelsea (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 06:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:44 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:44 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:44 | Russia Liga Pro Match | Kharchenko Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 06:43 | ITF Men's Match | Kosuke Ogura | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
