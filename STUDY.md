@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 9:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 9:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 29082 | 1750 | 7 (0%) | 1.1% | -$164.50 (-63%) | Hold to the end: -$164.50 (-63%) |
+| 29100 | 1750 | 7 (0%) | 1.1% | -$164.50 (-63%) | Hold to the end: -$164.50 (-63%) |
 
 *In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1750 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 27296 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 27314 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12507 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12517 | 5 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1284 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| eBasketball Game | ✘ | 1242 | 1 | 1% | 0% | -92% | -91% | 2 min |
+| Russia Liga Pro Match | ✘ | 1285 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eBasketball Game | ✘ | 1244 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1078 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1009 | 2 | 5% | 3% | -81% | -92% | 11 min |
 | ITF Men's Match | ✘ | 983 | 1 | 12% | 5% | -91% | -79% | 5 min |
-| Challenger ATP  | ✘ | 644 | 2 | 11% | 4% | -71% | -81% | 5 min |
+| Challenger ATP  | ✘ | 645 | 2 | 11% | 4% | -71% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 275 | 2 | 13% | 7% | -32% | -77% | 23 min |
 | Darts Match | ✘ | 250 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -150,6 +150,7 @@
 | Valorant game winner | ✘ | 60 | 0 | 3% | 2% | -100% | -94% | 14 min |
 | Slovakian 2. Liga Game | ✘ | 60 | 0 | 5% | 5% | -100% | -91% | 86 min |
 | EuroCup Basketball Game | ✘ | 60 | 0 | 5% | 3% | -100% | -91% | 10 min |
+| Tweede Divisie Game | ✘ | 60 | 0 | 2% | 0% | -100% | -97% | 5 min |
 | EFL League One Game | ✔ | 60 | 0 | 13% | 5% | -100% | -77% | 11 min |
 | College Hockey Game | ✘ | 60 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liga MX Game | ✔ | 59 | 0 | 15% | 8% | -100% | -74% | 5 min |
@@ -157,7 +158,6 @@
 | Euroleague Game | ✘ | 59 | 0 | 25% | 8% | -100% | -56% | 14 min |
 | Chinese Basketball Association Game  | ✘ | 58 | 0 | 7% | 2% | -100% | -88% | 10 min |
 | Uruguay Primera Division Game | ✘ | 56 | 0 | 7% | 4% | -100% | -88% | 10 min |
-| Tweede Divisie Game | ✘ | 56 | 0 | 2% | 0% | -100% | -97% | 4 min |
 | ELH Game | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 5 min |
 | LNBP Basketball Game | ✘ | 54 | 0 | 6% | 0% | -100% | -90% | 12 min |
 | KBO Game | ✘ | 53 | 0 | 11% | 6% | -100% | -80% | 5 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-24 15:25 | Russia Liga Pro Match | Lavrov Andrei | ✘ | — | — | In play | — |
+| 10-24 15:24 | Bundesliga Game | Augsburg | ✔ | 90'+5' · FCU 1 - FCA 1 | — | In play | — |
+| 10-24 15:24 | Bundesliga Game | Union Berlin | ✔ | 90'+5' · FCU 1 - FCA 1 | — | In play | — |
+| 10-24 15:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:23 | Counter-Strike 2 Game | Phantom Academy | ✘ | — | — | In play | — |
+| 10-24 15:23 | EFL Championship Game | Burnley | ✔ | 63' · BUR 1 - LCN 3 | — | In play | — |
+| 10-24 15:22 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 10-24 15:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:22 | Scottish Premiership Game | St. Johnstone | ✘ | — | — | In play | — |
+| 10-24 15:21 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
+| 10-24 15:21 | Bundesliga Game | Mainz | ✔ | 90' · SVW 3 - M05 2 | — | In play | — |
+| 10-24 15:21 | Men's T20 Cricket Match | Gambia | ✘ | — | — | In play | — |
+| 10-24 15:20 | eFootball Game | Seattle (Cooper) | ✘ | — | — | In play | — |
+| 10-24 15:19 | Scottish Premiership Game | Dundee FC | ✘ | — | — | In play | — |
+| 10-24 15:19 | Bundesliga Game | Hamburg | ✔ | 88' · HSV 0 - SCP 0 | — | In play | — |
+| 10-24 15:16 | Saudi Pro League Game | Abha | ✘ | — | — | In play | — |
+| 10-24 15:15 | English National League Game | Scunthorpe | ✘ | — | — | In play | — |
+| 10-24 15:15 | English National League Game | Tie | ✘ | — | — | In play | — |
 | 10-24 15:14 | Scottish Premiership Game | Kilmarnock | ✘ | — | — | In play | — |
-| 10-24 15:14 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | — | In play | — |
-| 10-24 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:13 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | — | In play | — |
-| 10-24 15:12 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:14 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:13 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:12 | Tweede Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 15:12 | Bundesliga Game | Tie | ✔ | 84' · ELV 0 - RBL 2 | — | In play | — |
-| 10-24 15:12 | eSoccer Game | Olympique de Marseille (Frenkie) | ✘ | — | — | In play | — |
-| 10-24 15:11 | eSoccer Game | Strasbourg (Luis) | ✘ | — | — | In play | — |
+| 10-24 15:12 | eSoccer Game | Olympique de Marseille (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:11 | eSoccer Game | Strasbourg (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 15:11 | Belgian Pro League Game | Royal Charleroi | ✘ | — | — | In play | — |
-| 10-24 15:11 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | — | In play | — |
-| 10-24 15:11 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | — | In play | — |
-| 10-24 15:10 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | — | In play | — |
-| 10-24 15:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:10 | eSoccer Game | Olympique Lyon (Declan) | ✘ | — | — | In play | — |
-| 10-24 15:10 | eSoccer Game | OGC Nice (Hazard) | ✘ | — | — | In play | — |
-| 10-24 15:09 | Challenger ATP  | Oriol Roca Batalla | ✘ | — | — | In play | — |
-| 10-24 15:08 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 10-24 15:08 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 10-24 15:08 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 10-24 15:06 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 15:03 | R6 Game | CAG by VARREL | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 15:03 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 15:02 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:00 | Tweede Divisie Game | Spakenburg | ✘ | — | — | In play | — |
-| 10-24 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 14:59 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 14:58 | eSoccer Game | Olympique de Marseille (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 14:57 | Finland Korisliiga Game | Honka Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 14:57 | eFootball Game | Detroit (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:11 | Tweede Divisie Game | Amsterdamsche FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:11 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 15:10 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
