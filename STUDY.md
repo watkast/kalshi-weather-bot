@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 9:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 9:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 29155 | 1760 | 7 (0%) | 1.1% | -$166.00 (-63%) | Hold to the end: -$166.00 (-63%) |
+| 29212 | 1760 | 7 (0%) | 1.1% | -$166.00 (-63%) | Hold to the end: -$166.00 (-63%) |
 
-*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 102. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1760 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 27334 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 27350 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,19 +96,19 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12525 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12535 | 5 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1290 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| eBasketball Game | ✘ | 1245 | 1 | 1% | 0% | -93% | -91% | 2 min |
+| Russia Liga Pro Match | ✘ | 1291 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eBasketball Game | ✘ | 1246 | 1 | 1% | 0% | -93% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1078 | 2 | 13% | 5% | -83% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1010 | 2 | 5% | 3% | -82% | -92% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1011 | 2 | 5% | 3% | -82% | -91% | 11 min |
 | ITF Men's Match | ✘ | 983 | 1 | 12% | 5% | -91% | -79% | 5 min |
 | Challenger ATP  | ✘ | 645 | 2 | 11% | 4% | -71% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | College Football Game | partly | 275 | 2 | 13% | 7% | -32% | -77% | 23 min |
 | Darts Match | ✘ | 250 | 0 | 0% | 0% | -100% | -99% | 8 min |
+| Men's T20 Cricket Match | ✘ | 230 | 1 | 14% | 4% | -59% | -76% | 25 min |
 | Women's College Volleyball Match | ✘ | 230 | 2 | 6% | 3% | -19% | -89% | 73 min |
-| Men's T20 Cricket Match | ✘ | 229 | 1 | 14% | 4% | -59% | -76% | 25 min |
 | Dota 2 Game | ✘ | 205 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | Serie C Game | ✘ | 196 | 2 | 5% | 3% | -5% | -92% | 6 min |
 | eFootball Game | ✘ | 180 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -120,7 +120,7 @@
 | AHL Game | ✘ | 111 | 0 | 3% | 2% | -100% | -95% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
-| Ettan Game | ✘ | 97 | 0 | 5% | 1% | -100% | -91% | 6 min |
+| Ettan Game | ✘ | 99 | 0 | 5% | 1% | -100% | -91% | 6 min |
 | KHL Game | ✘ | 95 | 0 | 6% | 3% | -100% | -89% | 5 min |
 | Argentina Primera Division Game | ✘ | 92 | 1 | 16% | 9% | +1% | -72% | 6 min |
 | NBA Game | ✔ | 92 | 0 | 15% | 5% | -100% | -74% | 7 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 15:45 | English National League Game | Solihull | ✘ | — | — | In play | — |
-| 10-24 15:45 | EFL League One Game | Peterborough | ✔ | 88' · PET 0 - BRO 1 | — | In play | — |
-| 10-24 15:45 | English Premier League Game | Coventry | ✔ | 87' · FUL 1 - COV 0 | — | In play | — |
-| 10-24 15:45 | EFL Championship Game | Birmingham | ✔ | 85' · BIR 0 - CAR 1 | — | In play | — |
-| 10-24 15:45 | Scottish Premiership Game | Aberdeen | ✘ | — | — | In play | — |
-| 10-24 15:45 | EFL League One Game | Stevenage | ✔ | 87' · MKD 1 - STE 0 | — | In play | — |
-| 10-24 15:45 | Spanish Liga F Game | Tenerife | ✘ | — | — | In play | — |
-| 10-24 15:44 | Saudi Pro League Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:44 | English National League Game | Aldershot | ✘ | — | — | In play | — |
-| 10-24 15:43 | EFL League One Game | Leyton Orient | ✔ | 88' · LEY 1 - BRT 2 | — | In play | — |
-| 10-24 15:43 | EFL Championship Game | Tie | ✔ | 86' · WXM 0 - BLK 2 | — | In play | — |
-| 10-24 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:41 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | — | In play | — |
-| 10-24 15:40 | eSoccer Game | Stuttgart (Haze) | ✘ | — | — | In play | — |
-| 10-24 15:39 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
-| 10-24 15:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:39 | EFL League One Game | Tie | ✔ | 80' · MNF 4 - BLP 1 | — | In play | — |
-| 10-24 15:39 | Men's T20 Cricket Match | Dubai | ✘ | — | — | In play | — |
-| 10-24 15:38 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 10-24 15:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:36 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 10-24 15:36 | SHL Game | Malmo Redhawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 15:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:36 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 10-24 15:36 | EFL Championship Game | Wrexham | ✔ | 79' · WXM 0 - BLK 1 | — | In play | — |
-| 10-24 15:36 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 10-24 15:36 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
-| 10-24 15:36 | EFL Championship Game | West Ham | ✔ | 77' · SOU 3 - WHU 1 | — | In play | — |
-| 10-24 15:35 | Eerste Divisie Game | Dordrecht | ✘ | — | — | In play | — |
-| 10-24 15:34 | EFL League One Game | Blackpool | ✔ | 74' · MNF 3 - BLP 1 | — | In play | — |
+| 10-24 15:55 | Counter-Strike 2 Game | Legacy | ✘ | — | — | In play | — |
+| 10-24 15:55 | EFL Championship Game | Tie | ✔ | 90'+5' · BIR 0 - CAR 1 | — | In play | — |
+| 10-24 15:55 | eSoccer Game | RB Leipzig (Haze) | ✘ | — | — | In play | — |
+| 10-24 15:55 | EFL Championship Game | Tie | ✔ | 90'+5' · WAT 0 - WOL 1 | — | In play | — |
+| 10-24 15:55 | EFL League One Game | Tie | ✔ | 90'+4' · BAR 1 - REA 2 | — | In play | — |
+| 10-24 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:54 | EFL League One Game | Tie | ✔ | 90'+7' · MKD 1 - STE 0 | — | In play | — |
+| 10-24 15:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:54 | English Premier League Game | Tie | ✔ | 90'+5' · FUL 1 - COV 0 | — | In play | — |
+| 10-24 15:54 | Eliteserien Game | Bodoe/Glimt | ✘ | — | — | In play | — |
+| 10-24 15:54 | English National League Game | Southend | ✘ | — | — | In play | — |
+| 10-24 15:54 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:54 | EFL League One Game | Stockport | ✔ | 90'+6' · STO 1 - NCO 1 | — | In play | — |
+| 10-24 15:53 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 10-24 15:53 | EFL Championship Game | Bristol City | ✔ | 90'+5' · BRC 0 - STK 0 | — | In play | — |
+| 10-24 15:53 | EFL Championship Game | Stoke | ✔ | 90'+5' · BRC 0 - STK 0 | — | In play | — |
+| 10-24 15:53 | EFL League One Game | Notts | ✔ | 90'+6' · STO 1 - NCO 1 | — | In play | — |
+| 10-24 15:53 | EFL League One Game | Tie | ✔ | 90'+5' · PLY 3 - CAM 2 | — | In play | — |
+| 10-24 15:53 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:53 | Scottish Premiership Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:52 | Ettan Game | Hassleholms IF | ✘ | — | — | In play | — |
+| 10-24 15:52 | Ettan Game | Skovde | ✘ | — | — | In play | — |
+| 10-24 15:52 | EFL League One Game | Wimbledon | ✔ | 90'+4' · WYC 1 - WIM 1 | — | In play | — |
+| 10-24 15:52 | EFL League One Game | Wycombe | ✔ | 90'+4' · WYC 1 - WIM 1 | — | In play | — |
+| 10-24 15:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:51 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | — | In play | — |
+| 10-24 15:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 15:51 | EFL League One Game | Bradford | ✔ | 90'+4' · BRD 0 - OXF 0 | — | In play | — |
+| 10-24 15:51 | EFL League One Game | Oxford United | ✔ | 90'+4' · BRD 0 - OXF 0 | — | In play | — |
+| 10-24 15:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
 
 ## Raw data
 
