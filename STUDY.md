@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 2:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 2:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28453 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
+| 28461 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1725 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26715 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26720 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12252 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12256 | 5 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Russia Liga Pro Match | ✘ | 1235 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1221 | 1 | 1% | 0% | -92% | -91% | 2 min |
@@ -211,8 +211,8 @@
 | England Women's Super League Game | ✘ | 28 | 0 | 21% | 7% | -100% | -63% | 39 min |
 | Israeli Premier League Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Venezuela Liga FUTVE game | ✘ | 28 | 0 | 18% | 14% | -100% | -69% | 6 min |
+| Australia NBL Game | ✘ | 27 | 0 | 4% | 0% | -100% | -94% | 7 min |
 | Spain Liga ACB Game | ✘ | 27 | 0 | 7% | 4% | -100% | -87% | 17 min |
-| Australia NBL Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 7 min |
 | Danish Superliga Game | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 11 min |
 | AFC Champions League Game | ✘ | 26 | 0 | 8% | 0% | -100% | -87% | 10 min |
 | Canadian Premier League | ✘ | 25 | 1 | 20% | 20% | +273% | -65% | 29 min |
@@ -324,8 +324,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 08:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 08:30 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | — | In play | — |
+| 10-24 08:37 | eBasketball Game | Denver Nuggets (Tim) | ✘ | — | — | In play | — |
+| 10-24 08:36 | eBasketball Game | Indiana Pacers (Gavi) | ✘ | — | — | In play | — |
+| 10-24 08:36 | eSoccer Game | Paris Saint-Germain (Fernando) | ✘ | — | — | In play | — |
+| 10-24 08:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 08:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 08:34 | eSoccer Game | Montpellier (Taylor) | ✘ | — | — | In play | — |
+| 10-24 08:33 | eSoccer Game | Leverkusen (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 08:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 08:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 08:30 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:29 | Russia Liga Pro Match | Aksentev Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:22 | eSoccer Game | Olympique Lyon (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -342,18 +350,10 @@
 | 10-24 08:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:14 | Japan B League Game | Shinshu Brave Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:14 | eFootball Game | New England (Joshua) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:14 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
+| 10-24 08:14 | Australia NBL Game | Illawarra Hawks | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-24 08:14 | Chinese Super League Game | Beijing Guoan | ✘ | — | — | In play | — |
 | 10-24 08:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 08:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:09 | eSoccer Game | Strasbourg (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:08 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:06 | eSoccer Game | Nantes (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:05 | eSoccer Game | Arsenal (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 08:04 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
