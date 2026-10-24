@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 9:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 9:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 34 finished bets | 3% | $8.90 | +175% | +26.18¢ | $11.45 / -$2.55 |
 
-*Expect about **2 buys a day**, roughly **$0.25/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.26/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28093 | 1709 | 7 (0%) | 1.1% | -$158.35 (-62%) | Hold to the end: -$158.35 (-62%) |
+| 28106 | 1709 | 7 (0%) | 1.1% | -$158.35 (-62%) | Hold to the end: -$158.35 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1709 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 26364 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26374 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12032 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12038 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Russia Liga Pro Match | ✘ | 1210 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1203 | 1 | 1% | 0% | -92% | -91% | 2 min |
@@ -116,7 +116,7 @@
 | eFootball Game | ✘ | 153 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | League of Legends Game | ✘ | 139 | 0 | 7% | 2% | -100% | -88% | 11 min |
-| WTA Tennis Match | ✘ | 119 | 0 | 11% | 3% | -100% | -81% | 5 min |
+| WTA Tennis Match | ✘ | 120 | 0 | 12% | 2% | -100% | -80% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | AHL Game | ✘ | 108 | 0 | 3% | 2% | -100% | -95% | 5 min |
 | Major League Soccer Game | partly | 101 | 1 | 11% | 4% | -8% | -81% | 6 min |
@@ -125,15 +125,15 @@
 | Brasileiro Serie B Game | ✘ | 90 | 0 | 8% | 3% | -100% | -87% | 9 min |
 | Ettan Game | ✘ | 89 | 0 | 4% | 1% | -100% | -92% | 6 min |
 | NBA Game | ✔ | 87 | 0 | 14% | 5% | -100% | -76% | 8 min |
-| Liga DIMAYOR Game | ✘ | 81 | 1 | 10% | 4% | +15% | -83% | 6 min |
+| Liga DIMAYOR Game | ✘ | 83 | 1 | 10% | 4% | +12% | -83% | 6 min |
 | ATP Tennis Match | ✘ | 81 | 0 | 15% | 7% | -100% | -74% | 4 min |
 | Japan J2 League Game | ✘ | 80 | 0 | 15% | 6% | -100% | -74% | 7 min |
 | Overwatch Game | ✘ | 77 | 0 | 3% | 0% | -100% | -95% | 5 min |
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | UEFA Champions League Game | partly | 73 | 1 | 10% | 3% | +28% | -83% | 11 min |
+| R6 Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 9 min |
 | Liga Leumit Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 39 min |
 | USL Championship Game | partly | 72 | 0 | 12% | 3% | -100% | -78% | 5 min |
-| R6 Game | ✘ | 71 | 0 | 8% | 3% | -100% | -85% | 9 min |
 | UEFA Conference League Game | partly | 70 | 0 | 16% | 10% | -100% | -73% | 10 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | LaLiga 2 Game | partly | 68 | 0 | 21% | 9% | -100% | -64% | 8 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 03:11 | R6 Game | Imperial Esports | ✘ | — | — | In play | — |
-| 10-24 03:08 | eSoccer Game | Chelsea (Minjori) | ✘ | — | — | In play | — |
-| 10-24 03:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:21 | eBasketball Game | Golden State Warriors (Zach) | ✘ | — | — | In play | — |
+| 10-24 03:20 | eBasketball Game | New York Knicks (Ray) | ✘ | — | — | In play | — |
+| 10-24 03:20 | Professional Baseball Game | Tampa Bay | ✔ | Top 9th · TB 1 - MIL 3 | — | In play | — |
+| 10-24 03:20 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 10-24 03:20 | eSoccer Game | RB Leipzig (Holis) | ✘ | — | — | In play | — |
+| 10-24 03:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:19 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-24 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:18 | eSoccer Game | Mönchengladbach (Eder) | ✘ | — | — | In play | — |
+| 10-24 03:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:17 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-24 03:17 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-24 03:11 | R6 Game | Imperial Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:08 | eSoccer Game | Chelsea (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:08 | Colombia LBP Basketball Game | Sabios de Manizales | ✘ | — | — | In play | — |
-| 10-24 03:05 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 10-24 03:05 | eSoccer Game | Leverkusen (Eder) | ✘ | — | — | In play | — |
-| 10-24 03:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:05 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:05 | eSoccer Game | Leverkusen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:04 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:03 | eFootball Game | Los Angeles (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 03:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 03:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:02 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:01 | Liga MX Game | Necaxa | ✔ | 90'+4' · JUA 1 - NCX 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 03:01 | Liga MX Game | Juarez | ✔ | 90'+4' · JUA 1 - NCX 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 03:00 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-24 03:00 | WTA Tennis Match | Shiho Tsujioka | ✘ | — | — | In play | — |
-| 10-24 02:59 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:59 | Liga DIMAYOR Game | Aguilas Doradas Rionegro | ✘ | — | — | In play | — |
-| 10-24 02:56 | eSoccer Game | Everton (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:56 | eSoccer Game | Crystal Palace (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:55 | Liga Nacional de Basquetbol Game | Racing de Chivilcoy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:51 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:51 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:48 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:45 | College Hockey Game | Bemidji State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:45 | AHL Game | Iowa Wild | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:44 | eFootball Game | Los Angeles (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:42 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:00 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 03:00 | WTA Tennis Match | Shiho Tsujioka | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
