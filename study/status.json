@@ -1,20 +1,20 @@
 {
- "saved_at": "2026-10-24T01:18:50+00:00",
+ "saved_at": "2026-10-24T01:28:22+00:00",
  "series_watched": 364,
- "markets_in_or_near_play": 321,
+ "markets_in_or_near_play": 316,
  "batch_lookup": true,
- "espn_games_linked": 54,
+ "espn_games_linked": 57,
  "espn_check": {
-  "at": "2026-10-24T00:53:33+00:00",
-  "started_games": 48,
-  "matched": 45,
+  "at": "2026-10-24T01:24:50+00:00",
+  "started_games": 49,
+  "matched": 46,
   "unmatched_sample": [
-   "KXCFLGAME-26OCT23MTLTOR",
    "KXNCAAFGAME-26OCT23YALEPENN",
-   "KXNCAAFGAME-26OCT23NCCUDSU"
+   "KXNCAAFGAME-26OCT23NCCUDSU",
+   "KXCFLGAME-26OCT23MTLTOR"
   ]
  },
- "bets": 27953,
- "open": 24,
+ "bets": 27971,
+ "open": 28,
  "errors": []
 }
