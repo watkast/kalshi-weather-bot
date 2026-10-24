@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 23, 8:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 23, 8:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28050 | 1705 | 7 (0%) | 1.1% | -$157.75 (-62%) | Hold to the end: -$157.75 (-62%) |
+| 28061 | 1705 | 7 (0%) | 1.1% | -$157.75 (-62%) | Hold to the end: -$157.75 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1705 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26325 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26331 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12010 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12012 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1208 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| eBasketball Game | ✘ | 1201 | 1 | 1% | 0% | -92% | -91% | 2 min |
+| Russia Liga Pro Match | ✘ | 1209 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eBasketball Game | ✘ | 1203 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1074 | 2 | 14% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 991 | 2 | 5% | 3% | -81% | -91% | 11 min |
 | ITF Men's Match | ✘ | 974 | 1 | 12% | 5% | -90% | -79% | 5 min |
@@ -149,9 +149,9 @@
 | Euroleague Game | ✘ | 59 | 0 | 25% | 8% | -100% | -56% | 14 min |
 | English National League Game | ✘ | 59 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | Valorant game winner | ✘ | 57 | 0 | 4% | 2% | -100% | -94% | 14 min |
+| College Hockey Game | ✘ | 57 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | EFL Championship Game | ✔ | 57 | 0 | 11% | 5% | -100% | -82% | 9 min |
 | EFL League One Game | ✔ | 56 | 0 | 11% | 4% | -100% | -81% | 11 min |
-| College Hockey Game | ✘ | 56 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Liga MX Game | ✔ | 55 | 0 | 16% | 9% | -100% | -72% | 5 min |
 | ELH Game | ✘ | 55 | 0 | 2% | 2% | -100% | -97% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 55 | 0 | 5% | 2% | -100% | -91% | 10 min |
@@ -324,18 +324,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 02:28 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | — | In play | — |
-| 10-24 02:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 02:41 | College Hockey Game | St. Thomas | ✘ | — | — | In play | — |
+| 10-24 02:38 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | — | In play | — |
+| 10-24 02:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 02:38 | NHL Game | Chicago | ✔ | 3:12 - 3rd · MTL 3 - CHI 1 | — | In play | — |
+| 10-24 02:37 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 10-24 02:37 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 10-24 02:37 | eSoccer Game | Dortmund (Fede) | ✘ | — | — | In play | — |
+| 10-24 02:37 | eSoccer Game | FC Augsburg (Hurricane) | ✘ | — | — | In play | — |
+| 10-24 02:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-24 02:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 02:32 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 02:28 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 02:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:27 | eFootball Game | Pittsburgh (Justin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:26 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:25 | eSoccer Game | FSV Mainz 05 (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:24 | College Hockey Game | Lindenwood | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:24 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | — | In play | — |
+| 10-24 02:24 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:23 | eSoccer Game | FC Augsburg (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:23 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:23 | Women's College Volleyball Match | Ole Miss | ✘ | — | — | In play | — |
-| 10-24 02:23 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | — | In play | — |
+| 10-24 02:23 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:22 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
 | 10-24 02:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:21 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -343,17 +354,6 @@
 | 10-24 02:16 | NBA Game | Miami | ✔ | 5:53 - 4th · DET 117 - MIA 98 | — | In play | — |
 | 10-24 02:15 | ITF Women's Match | Jana Hossam Salah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 02:14 | College Football Game | Virginia | ✔ | 0:45 - 4th · DUKE 19 - UVA 16 | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:14 | Liga Nacional de Basquetbol Game | CA Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:13 | eSoccer Game | Manchester City (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:10 | eSoccer Game | FSV Mainz 05 (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:10 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:09 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:08 | eSoccer Game | Leverkusen (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 02:08 | Liga Expansion Game | Tepatitlan | ✘ | — | — | In play | — |
 
 ## Raw data
 
