@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-10-24T10:01:03+00:00",
+ "saved_at": "2026-10-24T10:11:20+00:00",
  "series": 33,
  "markets_watched": 9,
- "batch_lookup": true,
+ "batch_lookup": false,
  "bets": 30681,
- "open": 7,
+ "open": 1,
  "coinbase_spot": {
   "ZEC": true,
   "ETH": true,
@@ -16,5 +16,8 @@
   "BNB": true,
   "DOGE": true
  },
- "errors": []
+ "errors": [
+  "2026-10-24T10:10:46+00:00 batch off: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?tickers=KXHYPE15M-26OCT240615-15%2CKXZEC15M-26OCT240615-15%2CKXBTC15M-26OCT240615-15%2CKXXRP15M-26OCT240615-15%2CKXSOL15M-26OCT240615-15%2CKXBNB15M-26OCT240615-15%2CKXDOGE15M-26OCT240615-15%2CKXETH15M-26OCT240615-15%2CKXNEAR15M-26OCT240615-15&limit=1000",
+  "2026-10-24T10:11:02+00:00 quotes KXZEC15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXZEC15M&status=open&limit=1000"
+ ]
 }
