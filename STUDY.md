@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 3:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 4:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28546 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
+| 28554 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1725 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 26806 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 26815 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12296 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12302 | 5 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Russia Liga Pro Match | ✘ | 1244 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Russia Liga Pro Match | ✘ | 1245 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1224 | 1 | 1% | 0% | -92% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1076 | 2 | 13% | 5% | -83% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 993 | 2 | 5% | 3% | -81% | -91% | 11 min |
+| Counter-Strike 2 Game | ✘ | 994 | 2 | 5% | 3% | -81% | -91% | 11 min |
 | ITF Men's Match | ✘ | 980 | 1 | 12% | 6% | -90% | -79% | 5 min |
 | Challenger ATP  | ✘ | 643 | 2 | 11% | 4% | -71% | -81% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -128,7 +128,7 @@
 | Japan J2 League Game | ✘ | 84 | 0 | 14% | 6% | -100% | -75% | 7 min |
 | Liga DIMAYOR Game | ✘ | 83 | 1 | 10% | 4% | +12% | -83% | 6 min |
 | ATP Tennis Match | ✘ | 81 | 0 | 15% | 7% | -100% | -74% | 4 min |
-| Overwatch Game | ✘ | 78 | 0 | 3% | 0% | -100% | -96% | 5 min |
+| Overwatch Game | ✘ | 79 | 0 | 3% | 0% | -100% | -96% | 5 min |
 | Argentine Nacional B Game | ✘ | 76 | 0 | 9% | 8% | -100% | -84% | 8 min |
 | UEFA Champions League Game | partly | 73 | 1 | 10% | 3% | +28% | -83% | 11 min |
 | R6 Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 9 min |
@@ -324,15 +324,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-24 09:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 09:54 | eSoccer Game | Spain (Kate) | ✘ | — | — | In play | — |
-| 10-24 09:51 | Russia Liga Pro Match | Batalov Anatoly | ✘ | — | — | In play | — |
+| 10-24 10:03 | Counter-Strike 2 Game | ex-6666 | ✘ | — | — | In play | — |
+| 10-24 10:03 | eBasketball Game | Brooklyn Nets (Tim) | ✘ | — | — | In play | — |
+| 10-24 10:01 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | — | In play | — |
+| 10-24 10:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 10:00 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
+| 10-24 09:58 | eSoccer Game | Argentina (Taylor) | ✘ | — | — | In play | — |
+| 10-24 09:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 09:56 | Counter-Strike 2 Game | Chinggis Warriors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:54 | eSoccer Game | Spain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:51 | Russia Liga Pro Match | Batalov Anatoly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:49 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:48 | Overwatch Game | Falcons | ✘ | — | — | In play | — |
-| 10-24 09:46 | eSoccer Game | Manchester City (Strudl) | ✘ | — | — | In play | — |
-| 10-24 09:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 09:46 | eSoccer Game | RB Leipzig (Fernando) | ✘ | — | — | In play | — |
-| 10-24 09:46 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
+| 10-24 09:48 | Overwatch Game | Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:46 | eSoccer Game | Manchester City (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:46 | eSoccer Game | RB Leipzig (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 09:46 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:45 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:44 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -346,14 +354,6 @@
 | 10-24 09:33 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 09:33 | eSoccer Game | Benfica (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:33 | Chinese Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:32 | Men's T20 Cricket Match | Tiger Strikers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:29 | Russia Liga Pro Match | Chechulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:29 | eSoccer Game | Paris Saint-Germain (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:29 | ITF Men's Match | Ivan Biletic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 09:28 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
