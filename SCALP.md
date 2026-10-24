@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Oct 24 12:18 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Oct 24 12:28 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 32000 | 27894 | 4106 (40) | 1 | $-9187.66 | -4.6% |
 | **+10¢** | 23941 | 19195 | 4746 (58) | 1 | $-8192.82 | -5.4% |
 | **+15¢** | 20041 | 14938 | 5103 (81) | 1 | $-7330.02 | -5.8% |
-| **+20¢** | 17751 | 12409 | 5342 (103) | 2 | $-6516.61 | -5.8% |
+| **+20¢** | 17752 | 12410 | 5342 (103) | 1 | $-6514.85 | -5.8% |
 | **+10¢ (15¢ stop)** | 39304 | 39245 | 59 (32) | 0 | $-15021.15 | -6.1% |
 
 ## Latest trades
@@ -21,7 +21,7 @@
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
 | 10-24 12:16 | +10 stop | ETH | UP | 0.67 | 0.78 | 0.81 |
-| 10-24 12:16 | +20 | ETH | UP | 0.67 | open |  |
+| 10-24 12:16 | +20 | ETH | UP | 0.67 | 0.87 | 1.76 |
 | 10-24 12:16 | +15 | ETH | UP | 0.67 | 0.84 | 1.44 |
 | 10-24 12:16 | +10 | ETH | UP | 0.67 | 0.78 | 0.81 |
 | 10-24 12:16 | +5 | ETH | UP | 0.67 | 0.76 | 0.61 |
