@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 6:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 6:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 28755 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
+| 28769 | 1725 | 7 (0%) | 1.1% | -$160.75 (-62%) | Hold to the end: -$160.75 (-62%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1725 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 27002 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 27006 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12407 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 12411 | 5 | 0% | 0% | -96% | -99% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Russia Liga Pro Match | ✘ | 1264 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1232 | 1 | 1% | 0% | -92% | -91% | 2 min |
@@ -324,36 +324,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-24 12:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 12:49 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-24 12:48 | China League 1 Game | Foshan Nanshi FC | ✘ | — | — | In play | — |
+| 10-24 12:47 | Men's ODI Cricket Match | Kuwait | ✘ | — | — | In play | — |
+| 10-24 12:46 | eSoccer Game | Spurs (NINJA) | ✘ | — | — | In play | — |
+| 10-24 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 12:46 | eSoccer Game | Werder Bremen (Castle) | ✘ | — | — | In play | — |
+| 10-24 12:45 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | — | In play | — |
+| 10-24 12:44 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
+| 10-24 12:43 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
+| 10-24 12:43 | eSoccer Game | Hoffenheim (Bradley) | ✘ | — | — | In play | — |
+| 10-24 12:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 12:43 | eBasketball Game | New Orleans Pelicans (Jordan) | ✘ | — | — | In play | — |
+| 10-24 12:41 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | — | In play | — |
 | 10-24 12:39 | Mobile Legends Bang Bang Game | Evil Eye Esports | ✘ | — | — | In play | — |
 | 10-24 12:37 | Ettan Game | Ariana FC | ✘ | — | — | In play | — |
 | 10-24 12:35 | German 3. Liga Game | Großaspach | ✘ | — | — | In play | — |
-| 10-24 12:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 12:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 12:33 | Counter-Strike 2 Game | MOUZ | ✘ | — | — | In play | — |
 | 10-24 12:32 | eFootball Game | Detroit (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:32 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | — | In play | — |
-| 10-24 12:31 | eSoccer Game | FC Bayern (Fernando) | ✘ | — | — | In play | — |
+| 10-24 12:32 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-24 12:31 | eSoccer Game | FC Bayern (Fernando) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 12:30 | Ettan Game | Tie | ✘ | — | — | In play | — |
 | 10-24 12:30 | eSoccer Game | Hoffenheim (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-24 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 12:29 | Ettan Game | Tie | ✘ | — | — | In play | — |
 | 10-24 12:28 | Ettan Game | Olympic | ✘ | — | — | In play | — |
 | 10-24 12:28 | ITF Men's Match | Daniel Domingos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 12:27 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:25 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:25 | ATP Tennis Match | Stefanos Tsitsipas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:24 | Ettan Game | Eskilsminne | ✘ | — | — | In play | — |
-| 10-24 12:24 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:24 | Turkish Super Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:24 | ITF Men's Match | Paul Jubb | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:23 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-24 12:21 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-24 12:20 | Bundesliga 2 Game | Tie | ✔ | 59' · KSC 0 - FCM 3 | — | In play | — |
-| 10-24 12:20 | TFF 1. Lig Game | Bandirma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:19 | eSoccer Game | Spurs (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 12:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
