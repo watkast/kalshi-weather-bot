@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 4:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 4:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30768 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
+| 30780 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1936 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 28813 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 28826 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13253 | 5 | 1% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1392 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| eSoccer Game | ✘ | 13259 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1393 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1321 | 2 | 1% | 0% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1084 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1033 | 2 | 5% | 3% | -82% | -91% | 12 min |
-| ITF Men's Match | ✘ | 993 | 1 | 12% | 6% | -91% | -79% | 5 min |
-| Challenger ATP  | ✘ | 657 | 2 | 11% | 4% | -72% | -82% | 5 min |
+| ITF Men's Match | ✘ | 997 | 1 | 12% | 6% | -91% | -79% | 5 min |
+| Challenger ATP  | ✘ | 659 | 2 | 11% | 4% | -72% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 257 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -325,15 +325,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 10:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 10:17 | eSoccer Game | Benfica (Kevin) | ✘ | — | — | In play | — |
-| 10-25 10:16 | Challenger ATP  | Taisei Ichikawa | ✘ | — | — | In play | — |
-| 10-25 10:16 | Challenger ATP  | Pierre Delage | ✘ | — | — | In play | — |
+| 10-25 10:27 | Overwatch Game | Solus Victorem | ✘ | — | — | In play | — |
+| 10-25 10:26 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | — | In play | — |
+| 10-25 10:26 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | — | In play | — |
+| 10-25 10:25 | ITF Men's Match | Yoan Naydenov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:24 | Indonesia Super League Game | Bali United | ✘ | — | — | In play | — |
+| 10-25 10:24 | Russia Liga Pro Match | Suntsov Artem | ✘ | — | — | In play | — |
+| 10-25 10:23 | ITF Men's Match | Felix Mischker | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:21 | ITF Men's Match | Lleyton Richards | ✘ | — | — | In play | — |
+| 10-25 10:20 | Russia Liga Pro Match | Selkin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:18 | ITF Men's Match | Marko Retelj | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:18 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:17 | eSoccer Game | Benfica (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:16 | Challenger ATP  | Taisei Ichikawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:16 | Challenger ATP  | Pierre Delage | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:15 | Indonesia Super League Game | Persita | ✘ | — | — | In play | — |
-| 10-25 10:15 | eSoccer Game | FC Bayern (Castle) | ✘ | — | — | In play | — |
-| 10-25 10:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 10:15 | eSoccer Game | FC Bayern (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:14 | eFootball Game | Kansas City (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:10 | ITF Men's Match | Philip Niederle | ✘ | — | — | In play | — |
+| 10-25 10:10 | ITF Men's Match | Philip Niederle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:10 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
 | 10-25 10:07 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -343,18 +355,6 @@
 | 10-25 10:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:02 | Russia Liga Pro Match | Ignatov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:02 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:01 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:01 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:01 | eSoccer Game | Benfica (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:00 | eBasketball Game | Indiana Pacers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:00 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:58 | ITF Women's Match | Monika Gospodinova | ✘ | — | — | In play | — |
-| 10-25 09:58 | Russia Liga Pro Match | Suslov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:55 | ITF Men's Match | Cezar Cretu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:54 | Challenger ATP  | Leo Raquillet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
