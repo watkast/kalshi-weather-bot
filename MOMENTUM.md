@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Oct 25 15:21 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Oct 25 15:32 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 22392 | 19353 | 3039 (85) | 0 | $-1518.83 | -1.1% |
-| **20¢+ jump, ride past +5¢** | 13773 | 7524 | 6249 (2751) | 1 | $-4897.42 | -5.6% |
+| **20¢+ jump, sell +5¢** | 22393 | 19354 | 3039 (85) | 0 | $-1518.47 | -1.1% |
+| **20¢+ jump, ride past +5¢** | 13775 | 7525 | 6250 (2752) | 0 | $-4894.41 | -5.6% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 15:19 | J20R | NEAR | DOWN | 25¢ | 0.79 | open |  |
+| 10-25 15:22 | J20R | ZEC | DOWN | 32¢ | 0.85 | 0.96 | 1.03 |
+| 10-25 15:22 | J20 | ZEC | DOWN | 32¢ | 0.85 | 0.90 | 0.36 |
+| 10-25 15:19 | J20R | NEAR | DOWN | 25¢ | 0.79 | no | 1.98 |
 | 10-25 15:19 | J20 | NEAR | DOWN | 25¢ | 0.79 | 0.85 | 0.39 |
 | 10-25 15:13 | J20 | ETH | DOWN | 30¢ | 0.43 | yes | -4.48 |
 | 10-25 15:12 | J20R | ETH | UP | 26¢ | 0.81 | 0.87 | 0.46 |
@@ -56,5 +58,3 @@
 | 10-25 14:48 | J20 | ETH | UP | 28¢ | 0.48 | 0.54 | 0.24 |
 | 10-25 14:48 | J20 | DOGE | UP | 20¢ | 0.48 | 0.54 | 0.24 |
 | 10-25 14:48 | J20 | ETH | UP | 28¢ | 0.46 | 0.54 | 0.44 |
-| 10-25 14:48 | J20R | DOGE | UP | 20¢ | 0.45 | 0.52 | 0.34 |
-| 10-25 14:48 | J20 | DOGE | UP | 20¢ | 0.45 | 0.54 | 0.54 |
