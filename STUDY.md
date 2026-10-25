@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 3:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 3:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31982 | 2005 | 8 (0%) | 1.1% | -$188.75 (-63%) | Hold to the end: -$188.75 (-63%) |
+| 31999 | 2005 | 8 (0%) | 1.1% | -$188.75 (-63%) | Hold to the end: -$188.75 (-63%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2005 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 29949 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 29962 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,19 +96,19 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13693 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| eSoccer Game | ✘ | 13699 | 5 | 1% | 0% | -97% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1478 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1360 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1121 | 3 | 13% | 5% | -75% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1057 | 2 | 5% | 3% | -82% | -91% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1059 | 2 | 5% | 3% | -82% | -91% | 12 min |
 | ITF Men's Match | ✘ | 1026 | 1 | 13% | 6% | -91% | -78% | 5 min |
 | Challenger ATP  | ✘ | 681 | 2 | 11% | 4% | -73% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 262 | 0 | 0% | 0% | -100% | -99% | 8 min |
+| Women's College Volleyball Match | ✘ | 249 | 2 | 6% | 3% | -25% | -90% | 71 min |
 | Men's T20 Cricket Match | ✘ | 247 | 1 | 15% | 6% | -62% | -75% | 22 min |
-| Women's College Volleyball Match | ✘ | 245 | 2 | 6% | 3% | -24% | -90% | 69 min |
 | eFootball Game | ✘ | 241 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Serie C Game | ✘ | 230 | 2 | 4% | 2% | -19% | -92% | 6 min |
 | Dota 2 Game | ✘ | 214 | 0 | 1% | 1% | -100% | -98% | 30 min |
@@ -181,8 +181,8 @@
 | Ligue 2 Game | ✘ | 50 | 0 | 12% | 8% | -100% | -79% | 7 min |
 | Ligue 1 Game | ✔ | 50 | 0 | 18% | 8% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
+| Italy Serie A2 Game | ✘ | 49 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | NWSL Game | ✔ | 48 | 0 | 8% | 2% | -100% | -86% | 7 min |
-| Italy Serie A2 Game | ✘ | 48 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Korea K-League 2 Game | ✘ | 48 | 0 | 12% | 6% | -100% | -78% | 9 min |
 | Thai League 1 Game | ✘ | 48 | 0 | 19% | 6% | -100% | -68% | 10 min |
 | Eliteserien Game | ✘ | 48 | 0 | 10% | 4% | -100% | -82% | 12 min |
@@ -325,12 +325,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 21:26 | Counter-Strike 2 Game | eSuba | ✘ | — | — | In play | — |
+| 10-25 21:36 | Argentine Nacional B Game | Santiago del Estero | ✘ | — | — | In play | — |
+| 10-25 21:36 | Overwatch Game | NTMR | ✘ | — | — | In play | — |
+| 10-25 21:36 | Argentine Nacional B Game | Tie | ✘ | — | — | In play | — |
+| 10-25 21:34 | Counter-Strike 2 Game | Winx | ✘ | — | — | In play | — |
+| 10-25 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 21:32 | Challenger ATP  | Daniel de Jonge | ✘ | — | — | In play | — |
+| 10-25 21:32 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | — | In play | — |
+| 10-25 21:31 | eSoccer Game | Argentina (Millie) | ✘ | — | — | In play | — |
+| 10-25 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 21:31 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 10-25 21:31 | AHL Game | Belleville Senators | ✘ | — | — | In play | — |
+| 10-25 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:29 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 21:28 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:28 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-25 21:26 | Counter-Strike 2 Game | eSuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:26 | Serie A Game | Tie | ✔ | 83' · MIL 2 - UDI 0 | — | In play | — |
-| 10-25 21:22 | Women's College Volleyball Match | Miami Florida | ✘ | — | — | In play | — |
-| 10-25 21:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 21:20 | eSoccer Game | Benfica (Haze) | ✘ | — | — | In play | — |
-| 10-25 21:19 | Italy Serie A2 Game | S.S. Avellino Basket | ✘ | — | — | In play | — |
+| 10-25 21:22 | Women's College Volleyball Match | Miami Florida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:20 | eSoccer Game | Benfica (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 21:19 | Italy Serie A2 Game | S.S. Avellino Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:19 | eBasketball Game | New Orleans Pelicans (Jordan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:18 | ITF Women's Match | Andrea Taylor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:18 | Argentine Nacional B Game | Salta | ✘ | — | — | In play | — |
@@ -338,23 +355,6 @@
 | 10-25 21:17 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:17 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 21:17 | eSoccer Game | England (Emily) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:16 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:16 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:16 | eFootball Game | Philadelphia (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:14 | Women's College Volleyball Match | Arkansas | ✘ | — | — | In play | — |
-| 10-25 21:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:13 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:10 | Argentine Nacional B Game | Guemes | ✘ | — | — | In play | — |
-| 10-25 21:08 | Serie A Game | Udinese | ✔ | 67' · MIL 2 - UDI 0 | — | In play | — |
-| 10-25 21:06 | Women's College Volleyball Match | Utah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:05 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:05 | Russia Liga Pro Match | Nurmukhamedov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:04 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:04 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
-| 10-25 21:04 | Italy Serie A2 Game | Pallacanestro 2.015 Forli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 21:03 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
