@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 3:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 3:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30727 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
+| 30732 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1936 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 28769 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 28782 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13227 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 13235 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1387 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| eBasketball Game | ✘ | 1317 | 2 | 1% | 0% | -86% | -91% | 2 min |
+| eBasketball Game | ✘ | 1319 | 2 | 1% | 0% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1084 | 2 | 13% | 5% | -83% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1031 | 2 | 5% | 3% | -82% | -91% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1032 | 2 | 5% | 3% | -82% | -91% | 12 min |
 | ITF Men's Match | ✘ | 992 | 1 | 12% | 6% | -91% | -79% | 5 min |
 | Challenger ATP  | ✘ | 656 | 2 | 11% | 4% | -72% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
@@ -115,8 +115,8 @@
 | NHL Game | ✔ | 178 | 0 | 10% | 4% | -100% | -82% | 4 min |
 | Challenger WTA | ✘ | 159 | 0 | 12% | 4% | -100% | -79% | 8 min |
 | League of Legends Game | ✘ | 144 | 0 | 7% | 2% | -100% | -88% | 11 min |
+| WTA Tennis Match | ✘ | 140 | 0 | 11% | 2% | -100% | -81% | 5 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| WTA Tennis Match | ✘ | 139 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Major League Soccer Game | partly | 127 | 1 | 13% | 6% | -27% | -77% | 7 min |
 | AHL Game | ✘ | 126 | 0 | 2% | 2% | -100% | -96% | 5 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -128,8 +128,8 @@
 | KHL Game | ✘ | 97 | 0 | 6% | 3% | -100% | -89% | 6 min |
 | USL Championship Game | partly | 96 | 0 | 11% | 4% | -100% | -80% | 4 min |
 | ATP Tennis Match | ✘ | 94 | 0 | 14% | 6% | -100% | -76% | 4 min |
+| Overwatch Game | ✘ | 89 | 0 | 2% | 0% | -100% | -96% | 5 min |
 | Argentine Nacional B Game | ✘ | 88 | 0 | 10% | 7% | -100% | -82% | 9 min |
-| Overwatch Game | ✘ | 88 | 0 | 2% | 0% | -100% | -96% | 5 min |
 | Liga DIMAYOR Game | ✘ | 87 | 1 | 10% | 3% | +7% | -82% | 6 min |
 | Brasileiro Serie A Game | partly | 81 | 1 | 15% | 9% | +15% | -74% | 7 min |
 | Japan J League Game | ✘ | 81 | 1 | 19% | 7% | +15% | -68% | 12 min |
@@ -325,17 +325,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 09:35 | eBasketball Game | Denver Nuggets (James) | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | FC Bayern (Castle) | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 09:34 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | — | In play | — |
-| 10-25 09:33 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
-| 10-25 09:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 09:32 | Overwatch Game | O2 Blast | ✘ | — | — | In play | — |
+| 10-25 09:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 09:45 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-25 09:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 09:44 | eSoccer Game | Montpellier (Taylor) | ✘ | — | — | In play | — |
+| 10-25 09:41 | Korea KBL Game | Daegu Pegasus | ✘ | — | — | In play | — |
+| 10-25 09:35 | eBasketball Game | Denver Nuggets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | FC Bayern (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:34 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:33 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 09:32 | Overwatch Game | O2 Blast | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 09:28 | eFootball Game | New England (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 09:28 | ITF Men's Match | Oskari Paldanius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 09:27 | Russia Liga Pro Match | Selkin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,11 +355,6 @@
 | 10-25 09:23 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 09:22 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 09:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:20 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:20 | eSoccer Game | Arsenal (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:19 | Korea K-League 2 Game | Cheongju | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
