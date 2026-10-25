@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 25, 11:33 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 25, 11:43 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2668 finished bets | 1% | $88.85 | +29% | +3.33¢ | $36.20 / $52.65 |
 
-*Expect about **97 buys a day** (~$14.58/day at risk); max loss per buy **15¢**.*
+*Expect about **97 buys a day** (~$14.59/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31583 | 31575 | 120 (0%) | 1.07% | -$2,157.75 (-56%) | Hold to the close: -$2,157.75 (-56%) |
+| 31585 | 31575 | 120 (0%) | 1.07% | -$2,157.75 (-56%) | Hold to the close: -$2,157.75 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/25 11:43:12 AM | SOL | DOWN | 1.8 min | +0.140% | — | In play | — |
+| 10/25 11:42:09 AM | ZEC | DOWN | 2.9 min | +0.509% | — | In play | — |
 | 10/25 11:29:38 AM | BNB | DOWN | 22 sec | -0.015% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 11:29:22 AM | DOGE | DOWN | 38 sec | +0.040% | 0¢ | ❌ Lost | -$0.15 |
 | 10/25 11:29:22 AM | XRP | DOWN | 38 sec | +0.008% | 1¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/25 10:54:45 AM | HYPE | DOWN | 5.2 min | +0.295% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:54:29 AM | ETH | DOWN | 5.5 min | +0.214% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:44:51 AM | SOL | DOWN | 9 sec | +0.024% | 0¢ | ❌ Lost | $0.00 |
-| 10/25 10:44:35 AM | XRP | UP | 25 sec | -0.062% | 0¢ | ❌ Lost | $0.00 |
-| 10/25 10:44:21 AM | DOGE | DOWN | 39 sec | +0.038% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
