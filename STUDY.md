@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 24, 6:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 24, 6:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30031 | 1856 | 8 (0%) | 1.1% | -$166.40 (-60%) | Hold to the end: -$166.40 (-60%) |
+| 30044 | 1856 | 8 (0%) | 1.1% | -$166.40 (-60%) | Hold to the end: -$166.40 (-60%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1856 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 28146 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 28164 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 12858 | 5 | 0% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1340 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 12870 | 5 | 0% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1341 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 1278 | 1 | 1% | 0% | -93% | -91% | 2 min |
+| eBasketball Game | ✘ | 1280 | 1 | 1% | 0% | -93% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1081 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1028 | 2 | 5% | 3% | -82% | -91% | 12 min |
 | ITF Men's Match | ✘ | 984 | 1 | 12% | 5% | -91% | -79% | 5 min |
@@ -122,8 +122,8 @@
 | Major League Soccer Game | partly | 107 | 1 | 11% | 5% | -13% | -81% | 7 min |
 | Ettan Game | ✘ | 107 | 0 | 5% | 1% | -100% | -92% | 6 min |
 | Brasileiro Serie B Game | ✘ | 101 | 1 | 8% | 4% | -8% | -86% | 8 min |
+| Argentina Primera Division Game | ✘ | 98 | 1 | 15% | 8% | -5% | -73% | 6 min |
 | KHL Game | ✘ | 96 | 0 | 6% | 3% | -100% | -89% | 5 min |
-| Argentina Primera Division Game | ✘ | 96 | 1 | 16% | 8% | -3% | -73% | 7 min |
 | ATP Tennis Match | ✘ | 94 | 0 | 14% | 6% | -100% | -76% | 4 min |
 | NBA Game | ✔ | 92 | 0 | 15% | 5% | -100% | -74% | 7 min |
 | Overwatch Game | ✘ | 86 | 0 | 2% | 0% | -100% | -96% | 6 min |
@@ -147,9 +147,9 @@
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | National League Game | ✘ | 67 | 1 | 1% | 1% | +39% | -97% | 5 min |
 | Valorant game winner | ✘ | 63 | 0 | 5% | 3% | -100% | -92% | 14 min |
+| College Hockey Game | ✘ | 63 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Tweede Divisie Game | ✘ | 62 | 0 | 2% | 0% | -100% | -97% | 5 min |
-| College Hockey Game | ✘ | 62 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | TFF 1. Lig Game | ✘ | 62 | 0 | 16% | 10% | -100% | -72% | 11 min |
 | Slovakian 2. Liga Game | ✘ | 60 | 0 | 5% | 5% | -100% | -91% | 86 min |
 | EuroCup Basketball Game | ✘ | 60 | 0 | 5% | 3% | -100% | -91% | 10 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-25 00:19 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 10-25 00:19 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 10-25 00:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 00:18 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | — | In play | — |
+| 10-25 00:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 00:16 | APF Division de Honor Game | CS 2 de Mayo | ✘ | — | — | In play | — |
+| 10-25 00:15 | College Hockey Game | Massachusetts Lowell | ✘ | — | — | In play | — |
+| 10-25 00:15 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
+| 10-25 00:15 | eSoccer Game | RC Lens (Demi) | ✘ | — | — | In play | — |
+| 10-25 00:09 | eSoccer Game | Real Betis (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:09 | Argentina Primera Division Game | Newell's Old Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:09 | Argentina Primera Division Game | San Lorenzo de Almagro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 00:08 | Challenger ATP  | Gabriel Debru | ✘ | — | — | In play | — |
-| 10-25 00:08 | eBasketball Game | Brooklyn Nets (Ray) | ✘ | — | — | In play | — |
-| 10-25 00:07 | eBasketball Game | New York Knicks (Mick) | ✘ | — | — | In play | — |
-| 10-25 00:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 10-25 00:06 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 10-25 00:08 | eBasketball Game | Brooklyn Nets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:07 | eBasketball Game | New York Knicks (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:06 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 00:06 | College Football Game | Cal Poly | ✘ | — | — | In play | — |
-| 10-25 00:06 | eSoccer Game | Montpellier (Megan) | ✘ | — | — | In play | — |
-| 10-25 00:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 00:04 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 10-25 00:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 00:06 | eSoccer Game | Montpellier (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:04 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 00:04 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
-| 10-25 00:04 | College Hockey Game | Canisius | ✘ | — | — | In play | — |
-| 10-25 00:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 00:03 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | — | In play | — |
-| 10-25 00:00 | eSoccer Game | RC Lens (Demi) | ✘ | — | — | In play | — |
+| 10-25 00:04 | College Hockey Game | Canisius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:03 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 00:00 | eSoccer Game | RC Lens (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 23:59 | USL Championship Game | Tie | ✔ | 90'+3' · INDY 0 - CHS 1 | 0¢ | ❌ Lost | -$0.15 |
 | 10-24 23:57 | eFootball Game | Denver (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:56 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:56 | eSoccer Game | CA Osasuna (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:55 | NWSL Game | Tie | ✔ | 64' · LOU 0 - DEN 3 | — | In play | — |
-| 10-24 23:53 | Brazil NBB Basketball Game | Botafogo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:53 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:53 | Venezuela Liga FUTVE game | Caracas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-24 23:53 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 10-24 23:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-24 23:52 | Uruguay Primera Division Game | Danubio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:51 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-24 23:51 | USL Championship Game | Indy Eleven | ✔ | 86' · INDY 0 - CHS 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
