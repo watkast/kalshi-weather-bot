@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 5:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 5:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30831 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
+| 30836 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1936 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 28878 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 28884 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13281 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 13283 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1401 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | eBasketball Game | ✘ | 1325 | 2 | 1% | 0% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1086 | 2 | 13% | 5% | -83% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1034 | 2 | 5% | 3% | -82% | -91% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1035 | 2 | 5% | 3% | -82% | -91% | 12 min |
 | ITF Men's Match | ✘ | 999 | 1 | 12% | 6% | -91% | -79% | 5 min |
-| Challenger ATP  | ✘ | 659 | 2 | 11% | 4% | -72% | -82% | 5 min |
+| Challenger ATP  | ✘ | 660 | 2 | 11% | 4% | -72% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 257 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -179,11 +179,11 @@
 | Bundesliga 2 Game | ✔ | 48 | 0 | 12% | 6% | -100% | -78% | 7 min |
 | Serie A Game | ✔ | 48 | 0 | 8% | 6% | -100% | -86% | 14 min |
 | Chinese Super League Game | ✘ | 47 | 1 | 11% | 6% | +99% | -82% | 17 min |
+| Czech National Football League Game | ✘ | 47 | 0 | 13% | 6% | -100% | -78% | 8 min |
 | NWSL Game | ✔ | 46 | 0 | 7% | 0% | -100% | -89% | 7 min |
 | LNB Elite 2 Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 7 min |
 | NFL Game | ✔ | 45 | 1 | 22% | 9% | +107% | -61% | 4 min |
 | Women's T20 Match | ✘ | 45 | 0 | 18% | 9% | -100% | -69% | 26 min |
-| Czech National Football League Game | ✘ | 45 | 0 | 13% | 7% | -100% | -77% | 7 min |
 | Eredivisie Game | ✔ | 44 | 0 | 11% | 9% | -100% | -80% | 5 min |
 | English Premier League Game | ✔ | 44 | 0 | 9% | 5% | -100% | -84% | 10 min |
 | Allsvenskan Game | ✘ | 43 | 1 | 14% | 14% | +117% | -76% | 11 min |
@@ -325,8 +325,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 11:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 11:07 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
+| 10-25 11:15 | Counter-Strike 2 Game | TheMongolz | ✘ | — | — | In play | — |
+| 10-25 11:14 | eSoccer Game | Everton (Homie) | ✘ | — | — | In play | — |
+| 10-25 11:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 11:11 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-25 11:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 11:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 11:07 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 11:06 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
 | 10-25 11:02 | ITF Men's Match | Philip Henning | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 11:00 | Russia Liga Pro Match | Shulkov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -338,10 +343,10 @@
 | 10-25 10:57 | eSoccer Game | Argentina (Taylor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:56 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:55 | Counter-Strike 2 Game | Acend | ✘ | — | — | In play | — |
+| 10-25 10:55 | Counter-Strike 2 Game | Acend | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:54 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:54 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:54 | Challenger ATP  | Samir Hamza Reguig | ✘ | — | — | In play | — |
+| 10-25 10:54 | Challenger ATP  | Samir Hamza Reguig | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-25 10:53 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-25 10:47 | ITF Women's Match | Ane Mintegi Del Olmo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:46 | Russia Liga Pro Match | Makarkin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,11 +355,6 @@
 | 10-25 10:45 | eSoccer Game | Manchester City (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 10:45 | Slovakian 2. Liga Game | Zlate Moravce | ✘ | — | — | In play | — |
-| 10-25 10:45 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
-| 10-25 10:45 | Counter-Strike 2 Game | Vexar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:44 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 10:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
