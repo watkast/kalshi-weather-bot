@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 24, 11:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 24, 11:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31217 | 31209 | 119 (0%) | 1.07% | -$2,130.20 (-56%) | Hold to the close: -$2,130.20 (-56%) |
+| 31219 | 31209 | 119 (0%) | 1.07% | -$2,130.20 (-56%) | Hold to the close: -$2,130.20 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/24 11:56:25 PM | XRP | UP | 3.6 min | -0.292% | — | In play | — |
+| 10/24 11:54:33 PM | BNB | UP | 5.4 min | -0.310% | — | In play | — |
 | 10/24 11:42:35 PM | BNB | UP | 2.4 min | -0.204% | 1¢ | ❌ Lost | -$0.15 |
 | 10/24 11:40:13 PM | XRP | UP | 4.8 min | -0.405% | 1¢ | ❌ Lost | -$0.15 |
 | 10/24 11:40:13 PM | HYPE | UP | 4.8 min | -0.404% | 1¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/24 11:13:47 PM | ZEC | UP | 73 sec | -0.169% | 1¢ | ❌ Lost | -$0.15 |
 | 10/24 11:10:17 PM | DOGE | UP | 4.7 min | -0.307% | 1¢ | ❌ Lost | -$0.15 |
 | 10/24 10:59:56 PM | BNB | UP | 4 sec | -0.039% | 0¢ | ❌ Lost | -$0.15 |
-| 10/24 10:59:40 PM | BTC | UP | 20 sec | -0.009% | 1¢ | ❌ Lost | -$0.15 |
-| 10/24 10:59:24 PM | SOL | UP | 36 sec | -0.055% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
