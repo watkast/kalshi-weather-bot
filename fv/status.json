@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-25T18:37:26+00:00",
+ "saved_at": "2026-10-25T18:47:43+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -20,7 +20,7 @@
  "trades_v3": 422,
  "trades_v4": 579,
  "trades_v5": 286,
- "trades_v6": 138,
+ "trades_v6": 140,
  "trades_v7": 90,
  "trades_v8": 836,
  "trades_v9": 375,
@@ -80,17 +80,17 @@
   ]
  },
  "open": 0,
- "results_known": 21972,
+ "results_known": 21981,
  "sigma_pct": {
-  "NEAR": 0.1189,
-  "HYPE": 0.0532,
-  "BNB": 0.0334,
-  "XRP": 0.0356,
-  "BTC": 0.0201,
-  "DOGE": 0.0375,
-  "ZEC": 0.0909,
-  "SOL": 0.0359,
-  "ETH": 0.0299
+  "NEAR": 0.0923,
+  "HYPE": 0.0474,
+  "BNB": 0.0278,
+  "XRP": 0.0319,
+  "BTC": 0.0215,
+  "DOGE": 0.0382,
+  "ZEC": 0.0889,
+  "SOL": 0.0291,
+  "ETH": 0.0233
  },
  "errors": []
 }
