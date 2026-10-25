@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 2:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 2:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31914 | 2001 | 8 (0%) | 1.1% | -$188.15 (-63%) | Hold to the end: -$188.15 (-63%) |
+| 31933 | 2001 | 8 (0%) | 1.1% | -$188.15 (-63%) | Hold to the end: -$188.15 (-63%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2001 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 29884 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 29899 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13661 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1471 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1357 | 2 | 1% | 1% | -86% | -91% | 2 min |
+| eSoccer Game | ✘ | 13673 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1473 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1358 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1120 | 3 | 13% | 5% | -75% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1057 | 2 | 5% | 3% | -82% | -91% | 12 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-25 20:55 | Ecuador Liga Pro Game | Emelec | ✘ | — | — | In play | — |
+| 10-25 20:54 | Liga DIMAYOR Game | Fortaleza | ✘ | — | — | In play | — |
+| 10-25 20:54 | Liga DIMAYOR Game | Cali | ✘ | — | — | In play | — |
+| 10-25 20:53 | Argentine Nacional B Game | Tie | ✘ | — | — | In play | — |
+| 10-25 20:52 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
+| 10-25 20:51 | eSoccer Game | Leverkusen (Haze) | ✘ | — | — | In play | — |
+| 10-25 20:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 20:51 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:50 | Eredivisie Game | Tie | ✔ | 90'+3' · TWE 1 - AZ 0 | — | In play | — |
+| 10-25 20:50 | eFootball Game | Tampa Bay (Speed) | ✘ | — | — | In play | — |
+| 10-25 20:49 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | — | In play | — |
+| 10-25 20:49 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:49 | eSoccer Game | Argentina (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:47 | Eredivisie Game | Alkmaar | ✔ | 89' · TWE 1 - AZ 0 | — | In play | — |
+| 10-25 20:47 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:46 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 20:45 | Argentine Nacional B Game | Cordoba | ✘ | — | — | In play | — |
-| 10-25 20:44 | Russia Liga Pro Match | Atiunin Mikhail | ✘ | — | — | In play | — |
-| 10-25 20:44 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 10-25 20:44 | Russia Liga Pro Match | Atiunin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:44 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 20:42 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 10-25 20:41 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | — | In play | — |
+| 10-25 20:41 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 20:41 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
 | 10-25 20:38 | Uruguay Primera Division Game | Boston River | ✘ | — | — | In play | — |
-| 10-25 20:37 | eSoccer Game | Paris Saint-Germain (Mantis) | ✘ | — | — | In play | — |
+| 10-25 20:37 | eSoccer Game | Paris Saint-Germain (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 20:37 | Argentine Nacional B Game | Parana | ✘ | — | — | In play | — |
-| 10-25 20:36 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | — | In play | — |
-| 10-25 20:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 20:34 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 20:36 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:34 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
-| 10-25 20:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:33 | Challenger ATP  | Erik Arutiunian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:33 | eSoccer Game | Everton (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:32 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:31 | eFootball Game | Houston (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:31 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:31 | Argentine Nacional B Game | Los Andes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:31 | Argentine Nacional B Game | Estudiantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:30 | Women's College Volleyball Match | Alabama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:30 | NWSL Game | Orlando | ✔ | 62' · GFC 1 - ORL 0 | — | In play | — |
-| 10-25 20:28 | Counter-Strike 2 Game | SINQU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:28 | DEL Game | ERC Ingolstadt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:28 | Ligue Magnus Game | Spartiates de Marseille | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:28 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 20:27 | eBasketball Game | Golden State Warriors (Jordan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
