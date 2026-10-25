@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 5:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 5:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32116 | 2010 | 8 (0%) | 1.1% | -$189.50 (-63%) | Hold to the end: -$189.50 (-63%) |
+| 32133 | 2012 | 8 (0%) | 1.1% | -$189.80 (-63%) | Hold to the end: -$189.80 (-63%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2010 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30084 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2012 | 13% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 30092 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 8 | 0% | -$189.50 | -63% |
-| Sell at 2¢ | 270 | 13% | -$231.30 | -77% |
-| Sell at 3¢ | 189 | 9% | -$227.79 | -76% |
-| Sell at 5¢ | 131 | 7% | -$216.35 | -72% |
-| Sell at 10¢ | 60 | 3% | -$222.90 | -74% |
-| Sell at 25¢ | 19 | 1% | -$238.61 | -79% |
-| Sell at 50¢ | 12 | 1% | -$220.50 | -73% |
+| Hold to the end | 8 | 0% | -$189.80 | -63% |
+| Sell at 2¢ | 271 | 13% | -$231.34 | -77% |
+| Sell at 3¢ | 189 | 9% | -$228.09 | -76% |
+| Sell at 5¢ | 131 | 7% | -$216.65 | -72% |
+| Sell at 10¢ | 60 | 3% | -$223.20 | -74% |
+| Sell at 25¢ | 19 | 1% | -$238.91 | -79% |
+| Sell at 50¢ | 12 | 1% | -$220.80 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13760 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1486 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 13764 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1488 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1366 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1123 | 3 | 13% | 5% | -75% | -77% | 4 min |
@@ -178,11 +178,11 @@
 | NFL Game | ✔ | 53 | 1 | 19% | 8% | +76% | -67% | 4 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Eredivisie Game | ✔ | 51 | 0 | 10% | 8% | -100% | -83% | 4 min |
+| NWSL Game | ✔ | 50 | 0 | 10% | 2% | -100% | -83% | 7 min |
 | Ligue 2 Game | ✘ | 50 | 0 | 12% | 8% | -100% | -79% | 7 min |
 | Ligue 1 Game | ✔ | 50 | 0 | 18% | 8% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Italy Serie A2 Game | ✘ | 49 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| NWSL Game | ✔ | 48 | 0 | 8% | 2% | -100% | -86% | 7 min |
 | Korea K-League 2 Game | ✘ | 48 | 0 | 12% | 6% | -100% | -78% | 9 min |
 | Thai League 1 Game | ✘ | 48 | 0 | 19% | 6% | -100% | -68% | 10 min |
 | Eliteserien Game | ✘ | 48 | 0 | 10% | 4% | -100% | -82% | 12 min |
@@ -204,11 +204,11 @@
 | APF Division de Honor Game | ✘ | 39 | 0 | 18% | 5% | -100% | -69% | 6 min |
 | Super League Greece Game | ✘ | 39 | 0 | 18% | 5% | -100% | -69% | 14 min |
 | Adriatic ABA Game | ✘ | 38 | 0 | 5% | 3% | -100% | -91% | 11 min |
+| Bolivia Premier Division Game | ✘ | 38 | 0 | 13% | 3% | -100% | -77% | 7 min |
 | Vietnam V-League 1 Game | ✘ | 37 | 1 | 8% | 5% | +152% | -86% | 10 min |
 | Korea K League Game | ✘ | 37 | 1 | 19% | 11% | +152% | -67% | 8 min |
 | Serie A Femminile Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Spain Liga ACB Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 14 min |
-| Bolivia Premier Division Game | ✘ | 36 | 0 | 14% | 3% | -100% | -76% | 7 min |
 | Japan NPB Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Danish Superliga Game | ✘ | 34 | 0 | 12% | 6% | -100% | -80% | 12 min |
 | Liga Portugal Game | ✘ | 34 | 0 | 6% | 3% | -100% | -90% | 10 min |
@@ -303,9 +303,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 825 | 5% | 1% | 0% | -92% |
+| Under 5 min | 826 | 5% | 1% | 0% | -92% |
 | 5–15 min | 467 | 18% | 8% | 1% | -70% |
-| 15–30 min | 305 | 26% | 14% | 1% | -55% |
+| 15–30 min | 306 | 26% | 14% | 1% | -55% |
 | 30–60 min | 223 | 19% | 11% | 0% | -67% |
 | Over 60 min | 170 | 17% | 9% | 0% | -70% |
 
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 23:08 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
-| 10-25 23:06 | NWSL Game | Tie | ✔ | 90'+7' · WAS 1 - KC 2 | — | In play | — |
-| 10-25 23:05 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | — | In play | — |
+| 10-25 23:18 | eSoccer Game | Girona (Zaroth) | ✘ | — | — | In play | — |
+| 10-25 23:16 | Ecuador Liga Pro Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:15 | League of Legends Game | LYON | ✘ | — | — | In play | — |
+| 10-25 23:15 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | — | In play | — |
+| 10-25 23:15 | eSoccer Game | Palmeiras (Nate) | ✘ | — | — | In play | — |
+| 10-25 23:15 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 10-25 23:14 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | — | In play | — |
+| 10-25 23:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:14 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 10-25 23:14 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 10-25 23:14 | eSoccer Game | River Plate (Elastico) | ✘ | — | — | In play | — |
+| 10-25 23:13 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | — | In play | — |
+| 10-25 23:13 | Ecuador Liga Pro Game | Aucas | ✘ | — | — | In play | — |
+| 10-25 23:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:11 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-25 23:10 | APF Division de Honor Game | San Lorenzo | ✘ | — | — | In play | — |
+| 10-25 23:10 | Russia Liga Pro Match | Vashkov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:08 | Bolivia Premier Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:06 | NWSL Game | Tie | ✔ | 90'+7' · WAS 1 - KC 2 | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:05 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:05 | Argentina Primera Division Game | Racing Avellaneda | ✘ | — | — | In play | — |
 | 10-25 23:03 | eFootball Game | Buffalo (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:00 | eSoccer Game | River Plate (Elastico) | ✘ | — | — | In play | — |
-| 10-25 23:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 23:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:00 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 22:59 | eSoccer Game | Palmeiras (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 22:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:58 | eSoccer Game | Real Betis (Drakon) | ✘ | — | — | In play | — |
+| 10-25 22:58 | eSoccer Game | Real Betis (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 22:58 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:58 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:55 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:54 | Venezuela Liga FUTVE game | Portuguesa | ✘ | — | — | In play | — |
-| 10-25 22:53 | Bolivia Premier Division Game | CD Real Tomayapo | ✘ | — | — | In play | — |
-| 10-25 22:50 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:49 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:48 | NWSL Game | Washington | ✔ | 80' · WAS 1 - KC 2 | — | In play | — |
-| 10-25 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:47 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:47 | NFL Game | Arizona | ✔ | 10:19 - 4th · DEN 27 - ARI 13 | — | In play | — |
-| 10-25 22:47 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:45 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:45 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 22:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
