@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sun Oct 25 11:48 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sun Oct 25 11:59 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,21 +10,26 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 33091 | 28874 | 4217 (42) | 2 | $-9270.53 | -4.4% |
-| **+10¢** | 24768 | 19887 | 4881 (60) | 2 | $-8240.15 | -5.3% |
-| **+15¢** | 20728 | 15473 | 5255 (83) | 4 | $-7411.37 | -5.7% |
-| **+20¢** | 18364 | 12862 | 5502 (105) | 4 | $-6527.40 | -5.7% |
-| **+10¢ (15¢ stop)** | 40598 | 40538 | 60 (32) | 1 | $-15475.41 | -6.1% |
+| **+5¢** | 33093 | 28876 | 4217 (42) | 1 | $-9269.23 | -4.4% |
+| **+10¢** | 24770 | 19889 | 4881 (60) | 1 | $-8237.81 | -5.3% |
+| **+15¢** | 20732 | 15477 | 5255 (83) | 1 | $-7405.07 | -5.7% |
+| **+20¢** | 18368 | 12866 | 5502 (105) | 1 | $-6519.70 | -5.7% |
+| **+10¢ (15¢ stop)** | 40600 | 40540 | 60 (32) | 0 | $-15473.07 | -6.1% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
-| 10-25 11:48 | +10 stop | XRP | UP | 0.66 | open |  |
-| 10-25 11:48 | +20 | XRP | UP | 0.66 | open |  |
-| 10-25 11:48 | +15 | XRP | UP | 0.66 | open |  |
-| 10-25 11:48 | +10 | XRP | UP | 0.66 | open |  |
-| 10-25 11:48 | +5 | XRP | UP | 0.66 | open |  |
+| 10-25 11:51 | +10 stop | BNB | UP | 0.70 | 0.82 | 0.90 |
+| 10-25 11:51 | +20 | BNB | UP | 0.70 | 0.90 | 1.78 |
+| 10-25 11:51 | +15 | BNB | UP | 0.70 | 0.87 | 1.43 |
+| 10-25 11:51 | +10 | BNB | UP | 0.70 | 0.82 | 0.90 |
+| 10-25 11:51 | +5 | BNB | UP | 0.70 | 0.82 | 0.90 |
+| 10-25 11:48 | +10 stop | XRP | UP | 0.66 | 0.83 | 1.44 |
+| 10-25 11:48 | +20 | XRP | UP | 0.66 | 0.88 | 1.96 |
+| 10-25 11:48 | +15 | XRP | UP | 0.66 | 0.83 | 1.44 |
+| 10-25 11:48 | +10 | XRP | UP | 0.66 | 0.83 | 1.44 |
+| 10-25 11:48 | +5 | XRP | UP | 0.66 | 0.73 | 0.40 |
 | 10-25 11:47 | +10 stop | ETH | UP | 0.59 | 0.74 | 1.19 |
 | 10-25 11:47 | +20 | ETH | UP | 0.59 | 0.82 | 2.02 |
 | 10-25 11:47 | +15 | ETH | UP | 0.59 | 0.74 | 1.19 |
@@ -47,16 +52,11 @@
 | 10-25 11:46 | +10 | XRP | UP | 0.48 | 0.65 | 1.36 |
 | 10-25 11:46 | +5 | XRP | UP | 0.48 | 0.56 | 0.44 |
 | 10-25 11:46 | +10 stop | DOGE | UP | 0.66 | 0.36 | -3.33 |
-| 10-25 11:46 | +20 | DOGE | UP | 0.66 | open |  |
-| 10-25 11:46 | +15 | DOGE | UP | 0.66 | open |  |
+| 10-25 11:46 | +20 | DOGE | UP | 0.66 | 0.88 | 1.96 |
+| 10-25 11:46 | +15 | DOGE | UP | 0.66 | 0.88 | 1.96 |
 | 10-25 11:46 | +10 | DOGE | UP | 0.66 | 0.76 | 0.71 |
 | 10-25 11:46 | +5 | DOGE | UP | 0.66 | 0.76 | 0.71 |
 | 10-25 11:46 | +10 stop | BTC | UP | 0.70 | 0.80 | 0.73 |
-| 10-25 11:46 | +20 | BTC | UP | 0.70 | open |  |
-| 10-25 11:46 | +15 | BTC | UP | 0.70 | open |  |
+| 10-25 11:46 | +20 | BTC | UP | 0.70 | 0.92 | 2.00 |
+| 10-25 11:46 | +15 | BTC | UP | 0.70 | 0.87 | 1.47 |
 | 10-25 11:46 | +10 | BTC | UP | 0.70 | 0.80 | 0.73 |
-| 10-25 11:46 | +5 | BTC | UP | 0.70 | 0.77 | 0.42 |
-| 10-25 11:42 | +10 stop | DOGE | DOWN | 0.65 | 0.29 | -3.91 |
-| 10-25 11:42 | +20 | DOGE | DOWN | 0.65 | yes | -6.66 |
-| 10-25 11:42 | +15 | DOGE | DOWN | 0.65 | yes | -6.66 |
-| 10-25 11:42 | +10 | DOGE | DOWN | 0.65 | yes | -6.66 |
