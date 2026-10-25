@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 12:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 12:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 30488 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
+| 30496 | 1936 | 8 (0%) | 1.1% | -$178.40 (-61%) | Hold to the end: -$178.40 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 1936 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 28533 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 28544 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13088 | 5 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 13097 | 5 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1365 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1305 | 2 | 1% | 0% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| eBasketball Game | ✘ | 1304 | 2 | 1% | 0% | -86% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1084 | 2 | 13% | 5% | -83% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1031 | 2 | 5% | 3% | -82% | -91% | 12 min |
 | ITF Men's Match | ✘ | 986 | 1 | 12% | 6% | -91% | -79% | 5 min |
-| Challenger ATP  | ✘ | 654 | 2 | 11% | 4% | -71% | -82% | 5 min |
+| Challenger ATP  | ✘ | 655 | 2 | 11% | 4% | -72% | -81% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 257 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -325,17 +325,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-25 06:19 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | — | In play | — |
-| 10-25 06:19 | eSoccer Game | RC Celta (Frost) | ✘ | — | — | In play | — |
-| 10-25 06:19 | eSoccer Game | Spurs (Taylor) | ✘ | — | — | In play | — |
-| 10-25 06:18 | eSoccer Game | Everton (Gigi) | ✘ | — | — | In play | — |
-| 10-25 06:17 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | — | In play | — |
-| 10-25 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 06:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-25 06:30 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 10-25 06:30 | eSoccer Game | FC Barcelona (Kylian) | ✘ | — | — | In play | — |
+| 10-25 06:29 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-25 06:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 06:26 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | — | In play | — |
+| 10-25 06:25 | Japan J2 League Game | Montedio | ✘ | — | — | In play | — |
+| 10-25 06:22 | eSoccer Game | Nantes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:22 | eSoccer Game | Toulouse FC (Poly) | ✘ | — | — | In play | — |
+| 10-25 06:19 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:19 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:19 | eSoccer Game | Spurs (Taylor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:18 | eSoccer Game | Everton (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:17 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 06:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:16 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
-| 10-25 06:15 | Challenger ATP  | Min Ho Ko | ✘ | — | — | In play | — |
-| 10-25 06:11 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | — | In play | — |
+| 10-25 06:15 | Challenger ATP  | Min Ho Ko | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 10-25 06:11 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:09 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:08 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -347,14 +355,6 @@
 | 10-25 06:05 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:04 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 06:04 | eSoccer Game | FC Barcelona (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 06:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 06:00 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:57 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:53 | Australian A League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:50 | Australia NBL Game | New Zealand Breakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 05:47 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
