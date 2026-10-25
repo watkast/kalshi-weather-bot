@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 25, 11:02 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 25, 11:12 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31565 | 31557 | 120 (0%) | 1.07% | -$2,155.95 (-56%) | Hold to the close: -$2,155.95 (-56%) |
+| 31567 | 31557 | 120 (0%) | 1.07% | -$2,155.95 (-56%) | Hold to the close: -$2,155.95 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/25 11:12:21 AM | SOL | UP | 2.6 min | -0.178% | — | In play | — |
+| 10/25 11:12:04 AM | BNB | UP | 2.9 min | -0.135% | — | In play | — |
 | 10/25 10:55:31 AM | NEAR | DOWN | 4.5 min | +1.326% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:55:16 AM | XRP | DOWN | 4.7 min | +0.609% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:55:16 AM | ZEC | DOWN | 4.7 min | +0.753% | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/25 10:14:41 AM | NEAR | UP | 18 sec | -0.341% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 10:14:25 AM | BTC | UP | 34 sec | -0.046% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 10:14:09 AM | DOGE | UP | 50 sec | -0.089% | 0¢ | ❌ Lost | $0.00 |
-| 10/25 10:14:09 AM | SOL | UP | 50 sec | -0.077% | 0¢ | ❌ Lost | $0.00 |
-| 10/25 10:13:53 AM | ETH | DOWN | 66 sec | +0.075% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
