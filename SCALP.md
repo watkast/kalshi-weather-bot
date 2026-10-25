@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sun Oct 25 15:29 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sun Oct 25 15:39 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,10 +10,10 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 33332 | 29077 | 4255 (42) | 1 | $-9399.64 | -4.5% |
-| **+10¢** | 24953 | 20030 | 4923 (60) | 1 | $-8353.56 | -5.3% |
-| **+15¢** | 20878 | 15577 | 5301 (83) | 1 | $-7541.08 | -5.8% |
-| **+20¢** | 18500 | 12950 | 5550 (105) | 1 | $-6649.34 | -5.7% |
+| **+5¢** | 33333 | 29077 | 4256 (42) | 0 | $-9405.81 | -4.5% |
+| **+10¢** | 24954 | 20030 | 4924 (60) | 0 | $-8359.73 | -5.3% |
+| **+15¢** | 20879 | 15577 | 5302 (83) | 0 | $-7547.25 | -5.8% |
+| **+20¢** | 18501 | 12950 | 5551 (105) | 0 | $-6655.51 | -5.7% |
 | **+10¢ (15¢ stop)** | 40875 | 40815 | 60 (32) | 0 | $-15606.75 | -6.1% |
 
 ## Latest trades
