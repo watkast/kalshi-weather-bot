@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-25T14:48:57+00:00",
+ "saved_at": "2026-10-25T14:59:13+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -82,15 +82,15 @@
  "open": 0,
  "results_known": 21839,
  "sigma_pct": {
-  "XRP": 0.0529,
-  "HYPE": 0.0612,
-  "SOL": 0.0471,
-  "BNB": 0.0327,
-  "NEAR": 0.105,
-  "BTC": 0.0222,
-  "ETH": 0.041,
-  "DOGE": 0.0543,
-  "ZEC": 0.1069
+  "XRP": 0.0587,
+  "HYPE": 0.0687,
+  "SOL": 0.055,
+  "BNB": 0.0422,
+  "NEAR": 0.12,
+  "BTC": 0.034,
+  "ETH": 0.0471,
+  "DOGE": 0.0669,
+  "ZEC": 0.1278
  },
  "errors": [
   "2026-10-25T13:28:24+00:00 hourly: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?tickers=KXHYPED-26OCT2510-T76.7499%2CKXHYPED-26OCT2510-T75.9999%2CKXHYPED-26OCT2510-T76.9999%2CKXHYPED-26OCT2510-T75.7499%2CKXHYPED-26OCT2510-T77.2499%2CKXHYPED-26OCT2510-T75.4999&limit=1000"
