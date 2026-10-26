@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 9:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 9:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33090 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
+| 33106 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2037 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31039 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31047 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14381 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1576 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 14385 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1578 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1425 | 2 | 1% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 1149 | 3 | 13% | 5% | -76% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1151 | 3 | 13% | 5% | -76% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1080 | 2 | 5% | 3% | -83% | -91% | 12 min |
 | ITF Men's Match | ✘ | 1038 | 1 | 13% | 6% | -91% | -78% | 5 min |
 | Challenger ATP  | ✘ | 697 | 2 | 11% | 4% | -73% | -82% | 5 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 15:03 | eSoccer Game | FC Koln (Mantis) | ✘ | — | — | In play | — |
-| 10-26 15:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:18 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 10-26 15:17 | eSoccer Game | Werder Bremen (NINJA) | ✘ | — | — | In play | — |
+| 10-26 15:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:16 | eSoccer Game | Paris Saint-Germain (Frost) | ✘ | — | — | In play | — |
+| 10-26 15:16 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | — | In play | — |
+| 10-26 15:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:14 | Russia Liga Pro Match | Stroev Aleksei | ✘ | — | — | In play | — |
+| 10-26 15:14 | Challenger WTA | Eduarda Gomes | ✘ | — | — | In play | — |
+| 10-26 15:14 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-26 15:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:13 | eSoccer Game | Strasbourg (Castle) | ✘ | — | — | In play | — |
+| 10-26 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:13 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 10-26 15:12 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-26 15:11 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | — | In play | — |
+| 10-26 15:11 | Challenger WTA | Laura Samson | ✘ | — | — | In play | — |
+| 10-26 15:03 | eSoccer Game | FC Koln (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 15:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 15:03 | eFootball Game | Philadelphia (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 15:02 | Russia Liga Pro Match | Sukharnikov Nikita | ✘ | — | — | In play | — |
-| 10-26 15:01 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | — | In play | — |
-| 10-26 15:01 | eSoccer Game | AS Monaco (Kevin) | ✘ | — | — | In play | — |
-| 10-26 15:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 15:02 | Russia Liga Pro Match | Sukharnikov Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 15:01 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 15:01 | eSoccer Game | AS Monaco (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 15:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 15:00 | Russia Liga Pro Match | KHurudzhi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 15:00 | eSoccer Game | Toulouse FC (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:58 | ITF Women's Match | Elina Kamyabsharifi | ✘ | — | — | In play | — |
-| 10-26 14:58 | ITF Women's Match | Alexandra Bigiu | ✘ | — | — | In play | — |
+| 10-26 14:58 | ITF Women's Match | Elina Kamyabsharifi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 14:58 | ITF Women's Match | Alexandra Bigiu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 14:58 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:54 | ITF Women's Match | Martyna Zaremba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:48 | eSoccer Game | Leverkusen (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:47 | eSoccer Game | Nantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:46 | eSoccer Game | Spurs (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:46 | ITF Women's Match | Eleejah Inisan | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-26 14:46 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:45 | eSoccer Game | Stade Brestois 29 (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:44 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:44 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:43 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 14:42 | ITF Women's Match | Gina Marie Dittmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
