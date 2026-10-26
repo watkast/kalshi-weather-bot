@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-26T23:32:02+00:00",
+ "saved_at": "2026-10-26T23:44:23+00:00",
  "series_watched": 364,
- "markets_in_or_near_play": 215,
- "batch_lookup": false,
- "espn_games_linked": 8,
+ "markets_in_or_near_play": 198,
+ "batch_lookup": true,
+ "espn_games_linked": 9,
  "espn_check": {
-  "at": "2026-10-26T23:26:44+00:00",
-  "started_games": 7,
-  "matched": 6,
+  "at": "2026-10-26T23:34:21+00:00",
+  "started_games": 10,
+  "matched": 9,
   "unmatched_sample": [
    "KXBRASILEIROGAME-26OCT26FLAATL"
   ]
  },
- "bets": 33670,
- "open": 19,
+ "bets": 33684,
+ "open": 21,
  "errors": []
 }
