@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 8:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 8:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32342 | 2028 | 8 (0%) | 1.1% | -$192.20 (-63%) | Hold to the end: -$192.20 (-63%) |
+| 32353 | 2028 | 8 (0%) | 1.1% | -$192.20 (-63%) | Hold to the end: -$192.20 (-63%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2028 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30301 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 30307 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13900 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1502 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 13904 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1504 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1382 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1125 | 3 | 13% | 5% | -75% | -77% | 4 min |
@@ -325,12 +325,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 02:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 02:44 | eSoccer Game | Chelsea (Drakon) | ✘ | — | — | In play | — |
-| 10-26 02:44 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | — | In play | — |
-| 10-26 02:41 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | — | In play | — |
-| 10-26 02:40 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 10-26 02:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:56 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | — | In play | — |
+| 10-26 02:56 | NFL Game | Kansas City | ✔ | 4:48 - 4th · KC 3 - SEA 13 | — | In play | — |
+| 10-26 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:54 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 10-26 02:54 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 10-26 02:52 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 10-26 02:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:51 | Liga MX Game | Tie | ✔ | 86' · CAZ 3 - QRO 1 | — | In play | — |
+| 10-26 02:51 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 10-26 02:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 02:44 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 02:44 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 02:41 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 02:40 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 02:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 02:40 | eFootball Game | Cincinnati (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 02:36 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
@@ -344,17 +355,6 @@
 | 10-26 02:25 | Liga MX Game | Queretaro | ✔ | 60' · CAZ 3 - QRO 1 | — | In play | — |
 | 10-26 02:23 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 02:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:18 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:15 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:14 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:13 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:12 | eSoccer Game | São Paulo (Nate) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-26 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 02:12 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
