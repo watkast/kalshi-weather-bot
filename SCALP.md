@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Mon Oct 26 23:02 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Mon Oct 26 23:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 35567 | 31033 | 4534 (43) | 0 | $-10004.46 | -4.5% |
 | **+10¢** | 26597 | 21354 | 5243 (65) | 0 | $-8842.31 | -5.3% |
 | **+15¢** | 22261 | 16622 | 5639 (89) | 0 | $-7917.44 | -5.7% |
-| **+20¢** | 19737 | 13827 | 5910 (112) | 2 | $-6984.91 | -5.6% |
+| **+20¢** | 19739 | 13829 | 5910 (112) | 0 | $-6980.53 | -5.6% |
 | **+10¢ (15¢ stop)** | 43616 | 43554 | 62 (33) | 0 | $-16629.52 | -6.1% |
 
 ## Latest trades
@@ -36,7 +36,7 @@
 | 10-26 23:00 | +10 | BNB | DOWN | 0.61 | 0.79 | 1.51 |
 | 10-26 23:00 | +5 | BNB | DOWN | 0.61 | 0.79 | 1.51 |
 | 10-26 23:00 | +10 stop | BTC | DOWN | 0.65 | 0.78 | 1.01 |
-| 10-26 23:00 | +20 | BTC | DOWN | 0.65 | open |  |
+| 10-26 23:00 | +20 | BTC | DOWN | 0.65 | 0.88 | 2.06 |
 | 10-26 23:00 | +15 | BTC | DOWN | 0.65 | 0.82 | 1.43 |
 | 10-26 23:00 | +10 | BTC | DOWN | 0.65 | 0.78 | 1.01 |
 | 10-26 23:00 | +5 | BTC | DOWN | 0.65 | 0.72 | 0.39 |
@@ -51,7 +51,7 @@
 | 10-26 23:00 | +10 | HYPE | DOWN | 0.68 | 0.79 | 0.78 |
 | 10-26 23:00 | +5 | HYPE | DOWN | 0.68 | 0.74 | 0.26 |
 | 10-26 23:00 | +10 stop | ZEC | DOWN | 0.68 | 0.79 | 0.82 |
-| 10-26 23:00 | +20 | ZEC | DOWN | 0.68 | open |  |
+| 10-26 23:00 | +20 | ZEC | DOWN | 0.68 | 0.93 | 2.32 |
 | 10-26 23:00 | +15 | ZEC | DOWN | 0.68 | 0.86 | 1.55 |
 | 10-26 23:00 | +10 | ZEC | DOWN | 0.68 | 0.79 | 0.82 |
 | 10-26 23:00 | +5 | ZEC | DOWN | 0.68 | 0.76 | 0.51 |
