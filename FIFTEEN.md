@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 25, 7:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 25, 7:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 31958 | 31950 | 120 (0%) | 1.07% | -$2,201.55 (-57%) | Hold to the close: -$2,201.55 (-57%) |
+| 31961 | 31950 | 120 (0%) | 1.07% | -$2,201.55 (-57%) | Hold to the close: -$2,201.55 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/25 7:27:16 PM | PLATINUM | UP | 2.7 min | — | — | In play | — |
+| 10/25 7:27:00 PM | BNB | DOWN | 3.0 min | +0.150% | — | In play | — |
+| 10/25 7:25:23 PM | ETH | DOWN | 4.6 min | +0.451% | — | In play | — |
 | 10/25 7:14:53 PM | PLATINUM | DOWN | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/25 7:14:38 PM | BNB | DOWN | 22 sec | +0.030% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 7:14:38 PM | SILVER | DOWN | 22 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -215,9 +218,6 @@
 | 10/25 6:59:44 PM | DOGE | UP | 15 sec | -0.091% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 6:59:28 PM | HYPE | UP | 31 sec | -0.057% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 6:59:28 PM | PALLADIUM | UP | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/25 6:59:28 PM | GOLD | UP | 31 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/25 6:59:28 PM | AUDUSD | DOWN | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/25 6:59:12 PM | BTC | UP | 47 sec | -0.084% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
