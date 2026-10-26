@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 3:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 3:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32727 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
+| 32738 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2037 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30674 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 30682 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14171 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1535 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 14177 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1537 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1406 | 2 | 1% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1128 | 3 | 13% | 5% | -75% | -77% | 4 min |
@@ -325,18 +325,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 09:28 | Russia Liga Pro Match | Gusev Mikhail | ✘ | — | — | In play | — |
-| 10-26 09:26 | Russia Liga Pro Match | Borisov Andrei | ✘ | — | — | In play | — |
-| 10-26 09:23 | eSoccer Game | Olympique de Marseille (Mavi) | ✘ | — | — | In play | — |
-| 10-26 09:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 09:21 | eSoccer Game | Liverpool (Danny) | ✘ | — | — | In play | — |
+| 10-26 09:37 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | — | In play | — |
+| 10-26 09:36 | eBasketball Game | Dallas Mavericks (Davis) | ✘ | — | — | In play | — |
+| 10-26 09:36 | eSoccer Game | Paris Saint-Germain (Niskanen15) | ✘ | — | — | In play | — |
+| 10-26 09:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 09:34 | eBasketball Game | New Orleans Pelicans (Cade) | ✘ | — | — | In play | — |
+| 10-26 09:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 09:33 | eSoccer Game | FC Bayern (Antonio) | ✘ | — | — | In play | — |
+| 10-26 09:32 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 10-26 09:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 09:32 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | — | In play | — |
+| 10-26 09:31 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-26 09:28 | Russia Liga Pro Match | Gusev Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:26 | Russia Liga Pro Match | Borisov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:23 | eSoccer Game | Olympique de Marseille (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:21 | eSoccer Game | Liverpool (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:20 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 09:19 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:19 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
 | 10-26 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 09:19 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:19 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:08 | eSoccer Game | Paris Saint-Germain (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -344,17 +355,6 @@
 | 10-26 09:04 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 09:04 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:03 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:01 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 09:00 | Russia Liga Pro Match | Narzukov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:58 | eBasketball Game | Brooklyn Nets (Bryce) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-26 08:56 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:55 | eSoccer Game | Olympique de Marseille (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:54 | eSoccer Game | Juventus (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:54 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 08:52 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
