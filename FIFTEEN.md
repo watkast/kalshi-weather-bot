@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 25, 10:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 25, 10:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32188 | 32180 | 120 (0%) | 1.07% | -$2,228.85 (-57%) | Hold to the close: -$2,228.85 (-57%) |
+| 32189 | 32180 | 120 (0%) | 1.07% | -$2,228.85 (-57%) | Hold to the close: -$2,228.85 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/25 10:53:25 PM | SOL | DOWN | 6.6 min | +0.316% | — | In play | — |
 | 10/25 10:44:30 PM | NATGAS | DOWN | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/25 10:44:15 PM | USDCAD | UP | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/25 10:44:15 PM | ZEC | DOWN | 44 sec | +0.136% | 0¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 10/25 10:29:15 PM | BTC | UP | 44 sec | -0.071% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 10:28:59 PM | ZEC | UP | 61 sec | -0.234% | 0¢ | ❌ Lost | $0.00 |
 | 10/25 10:28:59 PM | USDJPY | DOWN | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/25 10:28:59 PM | SOL | UP | 61 sec | -0.111% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
