@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 9:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 9:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32400 | 2034 | 8 (0%) | 1.1% | -$193.10 (-63%) | Hold to the end: -$193.10 (-63%) |
+| 32410 | 2034 | 8 (0%) | 1.1% | -$193.10 (-63%) | Hold to the end: -$193.10 (-63%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2034 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30357 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 30360 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13942 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| eSoccer Game | ✘ | 13944 | 5 | 1% | 0% | -97% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1504 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1386 | 2 | 1% | 1% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1125 | 3 | 13% | 5% | -75% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1067 | 2 | 5% | 3% | -83% | -92% | 12 min |
 | ITF Men's Match | ✘ | 1026 | 1 | 13% | 6% | -91% | -78% | 5 min |
-| Challenger ATP  | ✘ | 684 | 2 | 11% | 4% | -73% | -82% | 5 min |
+| Challenger ATP  | ✘ | 685 | 2 | 11% | 4% | -73% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 263 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -325,9 +325,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 03:46 | Challenger ATP  | Uisung Park | ✘ | — | — | In play | — |
-| 10-26 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 03:39 | eSoccer Game | Manchester City (Drakon) | ✘ | — | — | In play | — |
+| 10-26 03:56 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | — | In play | — |
+| 10-26 03:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | — | In play | — |
+| 10-26 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 03:49 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 10-26 03:46 | Challenger ATP  | Uisung Park | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 03:39 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 03:39 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 03:39 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,16 +355,6 @@
 | 10-26 03:24 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 03:23 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:23 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:21 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:13 | eSoccer Game | Everton (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:13 | Major League Soccer Game | Los Angeles F | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:11 | Major League Soccer Game | Los Angeles G | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 03:11 | WTA Tennis Match | Xinyu Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
