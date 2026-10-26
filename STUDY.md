@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 7:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 8:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32299 | 2025 | 8 (0%) | 1.1% | -$191.75 (-63%) | Hold to the end: -$191.75 (-63%) |
+| 32307 | 2026 | 8 (0%) | 1.1% | -$191.90 (-63%) | Hold to the end: -$191.90 (-63%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2025 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30262 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2026 | 13% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 30266 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 8 | 0% | -$191.75 | -63% |
-| Sell at 2¢ | 273 | 13% | -$232.77 | -77% |
-| Sell at 3¢ | 191 | 9% | -$229.26 | -75% |
-| Sell at 5¢ | 133 | 7% | -$217.30 | -72% |
-| Sell at 10¢ | 61 | 3% | -$223.84 | -74% |
-| Sell at 25¢ | 19 | 1% | -$240.86 | -79% |
-| Sell at 50¢ | 12 | 1% | -$222.75 | -73% |
+| Hold to the end | 8 | 0% | -$191.90 | -63% |
+| Sell at 2¢ | 273 | 13% | -$232.92 | -77% |
+| Sell at 3¢ | 191 | 9% | -$229.41 | -75% |
+| Sell at 5¢ | 133 | 7% | -$217.45 | -72% |
+| Sell at 10¢ | 61 | 3% | -$223.99 | -74% |
+| Sell at 25¢ | 19 | 1% | -$241.01 | -79% |
+| Sell at 50¢ | 12 | 1% | -$222.90 | -73% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13872 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| eSoccer Game | ✘ | 13876 | 5 | 1% | 0% | -97% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1501 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1378 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -112,7 +112,7 @@
 | Men's T20 Cricket Match | ✘ | 247 | 1 | 15% | 6% | -62% | -75% | 22 min |
 | Serie C Game | ✘ | 230 | 2 | 4% | 2% | -19% | -92% | 6 min |
 | Dota 2 Game | ✘ | 214 | 0 | 1% | 1% | -100% | -98% | 30 min |
-| NHL Game | ✔ | 180 | 0 | 10% | 4% | -100% | -83% | 4 min |
+| NHL Game | ✔ | 181 | 0 | 10% | 4% | -100% | -83% | 4 min |
 | Challenger WTA | ✘ | 165 | 0 | 12% | 4% | -100% | -80% | 8 min |
 | League of Legends Game | ✘ | 147 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | WTA Tennis Match | ✘ | 141 | 0 | 11% | 2% | -100% | -82% | 5 min |
@@ -303,7 +303,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 829 | 5% | 1% | 0% | -92% |
+| Under 5 min | 830 | 5% | 1% | 0% | -92% |
 | 5–15 min | 471 | 17% | 8% | 1% | -70% |
 | 15–30 min | 308 | 26% | 15% | 1% | -54% |
 | 30–60 min | 226 | 19% | 11% | 0% | -68% |
@@ -325,11 +325,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-26 02:05 | eSoccer Game | Chelsea (Drakon) | ✘ | — | — | In play | — |
+| 10-26 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 02:03 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
+| 10-26 02:01 | NHL Game | Colorado | ✔ | End of 2nd · COL 1 - NSH 5 | — | In play | — |
+| 10-26 01:59 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
+| 10-26 01:59 | NHL Game | Winnipeg | ✔ | End of 3rd · MTL 2 - WPG 1 | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 01:59 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 10-26 01:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-26 01:47 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 10-26 01:46 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 10-26 01:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 01:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 01:45 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 10-26 01:46 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 01:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 01:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 01:45 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 01:45 | Argentina Primera Division Game | Central Cordoba | ✘ | — | — | In play | — |
 | 10-26 01:43 | Russia Liga Pro Match | Nurmukhamedov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 01:41 | eFootball Game | New England (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -347,14 +355,6 @@
 | 10-26 01:30 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 01:30 | NBA Game | New York | ✔ | 1:21 - 4th · ORL 104 - NY 94 | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 01:27 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:25 | Bolivia Premier Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:24 | Liga Nacional de Basquetbol Game | Racing de Chivilcoy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:23 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:22 | NBA Game | Los Angeles C | ✔ | 1:08 - 4th · LAC 99 - OKC 106 | 1¢ | ❌ Lost | -$0.15 |
-| 10-26 01:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:21 | Venezuela Liga FUTVE game | Metropolitanos | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 10-26 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 01:20 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
