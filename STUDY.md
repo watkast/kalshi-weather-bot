@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 3:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 3:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33558 | 2039 | 8 (0%) | 1.1% | -$193.85 (-63%) | Hold to the end: -$193.85 (-63%) |
+| 33573 | 2039 | 8 (0%) | 1.1% | -$193.85 (-63%) | Hold to the end: -$193.85 (-63%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2039 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31504 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31514 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14638 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 14640 | 6 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1610 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1443 | 2 | 2% | 0% | -87% | -91% | 2 min |
+| eBasketball Game | ✘ | 1445 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 1177 | 4 | 13% | 5% | -68% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1096 | 2 | 5% | 3% | -83% | -91% | 12 min |
-| ITF Men's Match | ✘ | 1051 | 1 | 13% | 6% | -91% | -78% | 5 min |
-| Challenger ATP  | ✘ | 705 | 2 | 11% | 4% | -74% | -82% | 5 min |
+| ITF Women's Match | ✘ | 1178 | 4 | 13% | 5% | -68% | -77% | 4 min |
+| Counter-Strike 2 Game | ✘ | 1097 | 2 | 5% | 3% | -83% | -91% | 12 min |
+| ITF Men's Match | ✘ | 1052 | 1 | 13% | 6% | -91% | -78% | 5 min |
+| Challenger ATP  | ✘ | 706 | 2 | 11% | 4% | -74% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | eFootball Game | ✘ | 287 | 1 | 0% | 0% | -67% | -99% | 2 min |
@@ -174,11 +174,11 @@
 | Polish Ekstraklasa Game | ✘ | 55 | 0 | 13% | 7% | -100% | -78% | 8 min |
 | LNBP Basketball Game | ✘ | 54 | 0 | 6% | 0% | -100% | -90% | 12 min |
 | Bundesliga 2 Game | ✔ | 54 | 0 | 11% | 6% | -100% | -81% | 8 min |
+| Ligue 2 Game | ✘ | 54 | 0 | 11% | 7% | -100% | -81% | 7 min |
 | English Premier League Game | ✔ | 54 | 0 | 7% | 4% | -100% | -87% | 10 min |
 | KBO Game | ✘ | 53 | 0 | 11% | 6% | -100% | -80% | 5 min |
 | NWSL Game | ✔ | 52 | 0 | 10% | 2% | -100% | -83% | 7 min |
 | Turkish Super Lig Game | ✘ | 52 | 0 | 13% | 2% | -100% | -77% | 13 min |
-| Ligue 2 Game | ✘ | 52 | 0 | 12% | 8% | -100% | -80% | 7 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Eredivisie Game | ✔ | 51 | 0 | 10% | 8% | -100% | -83% | 4 min |
 | Japan B League Game | ✘ | 51 | 0 | 8% | 0% | -100% | -86% | 13 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 21:39 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-26 21:39 | Challenger ATP  | Benjamin Willwerth | ✘ | — | — | In play | — |
+| 10-26 21:50 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 10-26 21:49 | Valorant game winner | G2 Gozen | ✘ | — | — | In play | — |
+| 10-26 21:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 21:48 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-26 21:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 21:46 | ITF Women's Match | Zaire Clarke | ✘ | — | — | In play | — |
+| 10-26 21:45 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
+| 10-26 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 21:45 | Ecuador Liga Pro Game | Mushuc Runa | ✘ | — | — | In play | — |
+| 10-26 21:45 | eSoccer Game | FC Bayern (Haze) | ✘ | — | — | In play | — |
+| 10-26 21:44 | La Liga Game | Tie | ✔ | 83' · OSA 0 - SEV 1 | — | In play | — |
+| 10-26 21:44 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 21:43 | eSoccer Game | Sunderland (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 21:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 21:41 | La Liga Game | Osasuna | ✔ | 80' · OSA 0 - SEV 1 | — | In play | — |
+| 10-26 21:39 | Ligue 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 21:39 | Challenger ATP  | Benjamin Willwerth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:37 | Ligue 2 Game | Boulogne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:37 | Ligue 2 Game | Reims | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:35 | Challenger ATP  | Nishesh Basavareddy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:33 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:32 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
+| 10-26 21:32 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:32 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:31 | Counter-Strike 2 Game | Regnum4Games | ✘ | — | — | In play | — |
-| 10-26 21:30 | Ligue 2 Game | Red Star | ✘ | — | — | In play | — |
+| 10-26 21:31 | Counter-Strike 2 Game | Regnum4Games | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 21:30 | Ligue 2 Game | Red Star | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:29 | eFootball Game | Baltimore (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 21:28 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:28 | ITF Women's Match | Jennifer Sabrina Moreno Rodriguez | ✘ | — | — | In play | — |
-| 10-26 21:28 | LaLiga 2 Game | Tie | ✔ | 90'+6' · BUR 3 - AND 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:25 | eSoccer Game | Everton (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:24 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:23 | ITF Men's Match | Roberto Herman | ✘ | — | — | In play | — |
-| 10-26 21:23 | Counter-Strike 2 Game | Hermine Esports Club | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:23 | LaLiga 2 Game | Andorra | ✔ | 90'+1' · BUR 3 - AND 2 | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:22 | Serie C Game | Crotone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:22 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:19 | eSoccer Game | Benfica (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:17 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
