@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 5:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 6:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32166 | 2016 | 8 (0%) | 1.1% | -$190.40 (-63%) | Hold to the end: -$190.40 (-63%) |
+| 32177 | 2016 | 8 (0%) | 1.1% | -$190.40 (-63%) | Hold to the end: -$190.40 (-63%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2016 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30133 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 30143 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13792 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1491 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1369 | 2 | 1% | 1% | -86% | -91% | 2 min |
+| eSoccer Game | ✘ | 13798 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1492 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1370 | 2 | 1% | 1% | -86% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1124 | 3 | 13% | 5% | -75% | -77% | 4 min |
-| Counter-Strike 2 Game | ✘ | 1063 | 2 | 5% | 3% | -82% | -92% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1064 | 2 | 5% | 3% | -82% | -92% | 12 min |
 | ITF Men's Match | ✘ | 1026 | 1 | 13% | 6% | -91% | -78% | 5 min |
 | Challenger ATP  | ✘ | 684 | 2 | 11% | 4% | -73% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
@@ -109,7 +109,7 @@
 | Darts Match | ✘ | 263 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 253 | 2 | 6% | 3% | -26% | -90% | 72 min |
 | Men's T20 Cricket Match | ✘ | 247 | 1 | 15% | 6% | -62% | -75% | 22 min |
-| eFootball Game | ✘ | 244 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| eFootball Game | ✘ | 245 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Serie C Game | ✘ | 230 | 2 | 4% | 2% | -19% | -92% | 6 min |
 | Dota 2 Game | ✘ | 214 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | NHL Game | ✔ | 179 | 0 | 10% | 4% | -100% | -83% | 4 min |
@@ -325,13 +325,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-25 23:59 | eSoccer Game | RC Celta (Arkon) | ✘ | — | — | In play | — |
+| 10-25 23:59 | Russia Liga Pro Match | Nurmukhamedov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:57 | eSoccer Game | Girona (Zaroth) | ✘ | — | — | In play | — |
+| 10-25 23:55 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 10-25 23:54 | eFootball Game | Detroit (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:54 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:54 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-25 23:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:53 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:52 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
 | 10-25 23:51 | NBA Game | Brooklyn | ✔ | 3:19 - 3rd · IND 100 - BKN 74 | — | In play | — |
-| 10-25 23:51 | eBasketball Game | Dallas Mavericks (Steve) | ✘ | — | — | In play | — |
-| 10-25 23:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-25 23:49 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 10-25 23:51 | eBasketball Game | Dallas Mavericks (Steve) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:50 | eSoccer Game | Tie | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
+| 10-25 23:49 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:48 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:45 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | — | In play | — |
-| 10-25 23:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-25 23:45 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-25 23:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:42 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -344,17 +355,6 @@
 | 10-25 23:36 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:36 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-25 23:36 | NBA Game | Utah | ✔ | 12.5 - 4th · LAL 131 - UTAH 123 | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:31 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:31 | eSoccer Game | CA Osasuna (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:30 | NFL Game | Green Bay | ✔ | 0:01 - 4th · GB 17 - DET 17 | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:27 | eSoccer Game | River Plate (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:25 | eSoccer Game | Boca Juniors (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-25 23:24 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
