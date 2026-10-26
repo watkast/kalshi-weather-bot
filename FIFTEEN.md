@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Oct 25, 11:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Oct 25, 11:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32222 | 32214 | 120 (0%) | 1.07% | -$2,233.05 (-57%) | Hold to the close: -$2,233.05 (-57%) |
+| 32224 | 32214 | 120 (0%) | 1.07% | -$2,233.05 (-57%) | Hold to the close: -$2,233.05 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/25 11:28:09 PM | ZEC | DOWN | 1.9 min | +0.356% | — | In play | — |
+| 10/25 11:28:09 PM | USDJPY | DOWN | 1.9 min | — | — | In play | — |
 | 10/25 11:14:44 PM | GBPUSD | UP | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/25 11:14:29 PM | SILVER | DOWN | 30 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 11:14:29 PM | BTC | DOWN | 30 sec | +0.025% | 1¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/25 10:58:09 PM | GOLD | DOWN | 1.8 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:57:53 PM | HYPE | DOWN | 2.1 min | +0.255% | 1¢ | ❌ Lost | -$0.15 |
 | 10/25 10:57:53 PM | NEAR | DOWN | 2.1 min | +0.428% | 1¢ | ❌ Lost | -$0.15 |
-| 10/25 10:57:53 PM | XRP | DOWN | 2.1 min | +0.257% | 1¢ | ❌ Lost | -$0.15 |
-| 10/25 10:57:53 PM | DOGE | DOWN | 2.1 min | +0.226% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
