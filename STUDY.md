@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 11:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 11:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33231 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
+| 33244 | 2037 | 8 (0%) | 1.1% | -$193.55 (-63%) | Hold to the end: -$193.55 (-63%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2037 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31175 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31186 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14465 | 5 | 1% | 0% | -97% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1587 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 14473 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1589 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1431 | 2 | 1% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1156 | 3 | 13% | 5% | -76% | -77% | 4 min |
@@ -126,7 +126,7 @@
 | NBA Game | ✔ | 107 | 0 | 17% | 6% | -100% | -71% | 7 min |
 | KHL Game | ✘ | 104 | 0 | 6% | 3% | -100% | -90% | 6 min |
 | Brasileiro Serie B Game | ✘ | 101 | 1 | 8% | 4% | -8% | -86% | 8 min |
-| ATP Tennis Match | ✘ | 100 | 0 | 16% | 7% | -100% | -72% | 4 min |
+| ATP Tennis Match | ✘ | 101 | 0 | 16% | 7% | -100% | -73% | 4 min |
 | Japan J2 League Game | ✘ | 100 | 0 | 12% | 5% | -100% | -79% | 6 min |
 | USL Championship Game | partly | 96 | 0 | 11% | 4% | -100% | -80% | 4 min |
 | Liga DIMAYOR Game | ✘ | 95 | 1 | 9% | 3% | -2% | -84% | 6 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 17:08 | eSoccer Game | Frankfurt (Haze) | ✘ | — | — | In play | — |
-| 10-26 17:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:22 | eSoccer Game | Werder Bremen (NINJA) | ✘ | — | — | In play | — |
+| 10-26 17:21 | eSoccer Game | Sunderland (Kevin) | ✘ | — | — | In play | — |
+| 10-26 17:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:19 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:19 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-26 17:19 | Russia Liga Pro Match | KHaibullin Danil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:19 | Men's T20 Cricket Match | Montreal Warriors | ✘ | — | — | In play | — |
+| 10-26 17:18 | eSoccer Game | Everton (Bradley) | ✘ | — | — | In play | — |
+| 10-26 17:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:16 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-26 17:08 | eSoccer Game | Frankfurt (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 17:08 | Challenger WTA | Fernanda Labrana | ✘ | — | — | In play | — |
-| 10-26 17:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 17:06 | eSoccer Game | Sunderland (Kevin) | ✘ | — | — | In play | — |
-| 10-26 17:05 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-26 17:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 17:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:06 | eSoccer Game | Sunderland (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:05 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 17:04 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
-| 10-26 17:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 17:04 | ATP Tennis Match | Jacob Fearnley | ✘ | — | — | In play | — |
+| 10-26 17:04 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 17:04 | ATP Tennis Match | Jacob Fearnley | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 17:02 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 17:01 | eFootball Game | San Francisco (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 16:56 | eSoccer Game | Mönchengladbach (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 16:56 | eSoccer Game | RB Leipzig (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 16:53 | eSoccer Game | Everton (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 16:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:52 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:51 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:50 | ITF Men's Match | Enzo Crevelaro | ✘ | — | — | In play | — |
-| 10-26 16:50 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:46 | ATP Tennis Match | Juan Manuel Cerundolo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:45 | Counter-Strike 2 Game | HAVU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:44 | Counter-Strike 2 Game | FURIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:43 | Russia Liga Pro Match | Demchenko Vitaly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:43 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 16:42 | eSoccer Game | Stuttgart (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
