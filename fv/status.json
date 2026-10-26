@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-26T21:10:01+00:00",
+ "saved_at": "2026-10-26T21:22:46+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,27 +22,12 @@
  "trades_v5": 286,
  "trades_v6": 147,
  "trades_v7": 90,
- "trades_v8": 876,
+ "trades_v8": 877,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
-  "BTC": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
   "DOGE": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "XRP": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "ETH": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -52,18 +37,37 @@
    "gemini",
    "kraken"
   ],
-  "NEAR": [
+  "ETH": [
    "bitstamp",
-   "gemini"
+   "gemini",
+   "kraken"
   ],
-  "HYPE": [
+  "BTC": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "XRP": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "BCH": [
    "bitstamp",
    "gemini"
   ],
   "ADA": [
    "bitstamp"
   ],
-  "BCH": [
+  "HYPE": [
+   "bitstamp",
+   "gemini"
+  ],
+  "ZEC": [
+   "bitstamp",
+   "gemini"
+  ],
+  "NEAR": [
    "bitstamp",
    "gemini"
   ],
@@ -73,26 +77,20 @@
   "BNB": [
    "bitstamp",
    "gemini"
-  ],
-  "ZEC": [
-   "bitstamp",
-   "gemini"
   ]
  },
  "open": 0,
- "results_known": 22939,
+ "results_known": 22949,
  "sigma_pct": {
-  "ETH": 0.0501,
-  "HYPE": 0.0798,
-  "BNB": 0.0559,
-  "DOGE": 0.051,
-  "SOL": 0.0442,
-  "ZEC": 0.0968,
-  "NEAR": 0.1037,
-  "XRP": 0.0424,
-  "BTC": 0.0238
+  "SOL": 0.0642,
+  "ZEC": 0.1253,
+  "ETH": 0.0616,
+  "DOGE": 0.0591,
+  "BTC": 0.0303,
+  "NEAR": 0.1177,
+  "XRP": 0.0544,
+  "HYPE": 0.1007,
+  "BNB": 0.0448
  },
- "errors": [
-  "2026-10-26T18:12:19+00:00 refresh KXZEC15M: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)"
- ]
+ "errors": []
 }
