@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-26T20:19:59+00:00",
+ "saved_at": "2026-10-26T20:30:18+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,7 +22,7 @@
  "trades_v5": 286,
  "trades_v6": 147,
  "trades_v7": 90,
- "trades_v8": 874,
+ "trades_v8": 876,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
@@ -82,15 +82,15 @@
  "open": 0,
  "results_known": 22911,
  "sigma_pct": {
-  "ETH": 0.0391,
-  "HYPE": 0.1223,
-  "BNB": 0.0403,
-  "DOGE": 0.0499,
-  "SOL": 0.0517,
-  "ZEC": 0.1244,
-  "NEAR": 0.1128,
-  "XRP": 0.0489,
-  "BTC": 0.025
+  "ETH": 0.048,
+  "HYPE": 0.1237,
+  "BNB": 0.0442,
+  "DOGE": 0.0466,
+  "SOL": 0.0606,
+  "ZEC": 0.1304,
+  "NEAR": 0.1341,
+  "XRP": 0.0497,
+  "BTC": 0.0301
  },
  "errors": [
   "2026-10-26T18:12:19+00:00 refresh KXZEC15M: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out. (read timeout=30)"
