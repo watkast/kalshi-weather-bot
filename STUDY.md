@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Oct 25, 10:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Oct 25, 10:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 32451 | 2035 | 8 (0%) | 1.1% | -$193.25 (-63%) | Hold to the end: -$193.25 (-63%) |
+| 32461 | 2035 | 8 (0%) | 1.1% | -$193.25 (-63%) | Hold to the end: -$193.25 (-63%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2035 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 30396 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 30406 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 13974 | 5 | 1% | 0% | -97% | -99% | 2 min |
+| eSoccer Game | ✘ | 13984 | 5 | 1% | 0% | -97% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1504 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1388 | 2 | 1% | 1% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -325,19 +325,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-26 04:50 | eFootball Game | Green Bay (Walter) | ✘ | — | — | In play | — |
+| 10-26 04:49 | eSoccer Game | Stuttgart (Vini) | ✘ | — | — | In play | — |
+| 10-26 04:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 04:47 | eSoccer Game | Argentina (Megan) | ✘ | — | — | In play | — |
+| 10-26 04:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 04:46 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | — | In play | — |
+| 10-26 04:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 04:45 | Liga MX Game | Santos Laguna | ✔ | 66' · SAN 0 - TIJ 2 | — | In play | — |
+| 10-26 04:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-26 04:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-26 04:40 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | — | In play | — |
-| 10-26 04:38 | eSoccer Game | Spurs (Arkon) | ✘ | — | — | In play | — |
-| 10-26 04:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 04:38 | eSoccer Game | Spurs (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:38 | WTA Tennis Match | Teodora Kostovic | ✘ | — | — | In play | — |
-| 10-26 04:33 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
-| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 04:33 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-26 04:32 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | — | In play | — |
+| 10-26 04:33 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:33 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:32 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:32 | Challenger ATP  | Min Hyuk Cho | ✘ | — | — | In play | — |
-| 10-26 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 04:31 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 10-26 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 04:31 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:26 | Challenger ATP  | Egor Pleshivtsev | ✘ | — | — | In play | — |
 | 10-26 04:25 | eSoccer Game | Newcastle Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:25 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,16 +355,6 @@
 | 10-26 04:22 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:20 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 04:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:20 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:20 | eSoccer Game | Argentina (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:19 | eFootball Game | Green Bay (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:19 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:17 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:14 | Challenger ATP  | Woobin Shin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:10 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 04:10 | eSoccer Game | Arsenal (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
