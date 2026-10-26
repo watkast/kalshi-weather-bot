@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 26, 3:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 26, 3:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33438 | 33430 | 124 (0%) | 1.07% | -$2,328.10 (-57%) | Hold to the close: -$2,328.10 (-57%) |
+| 33442 | 33430 | 124 (0%) | 1.07% | -$2,328.10 (-57%) | Hold to the close: -$2,328.10 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/26 3:58:13 PM | HYPE | DOWN | 1.8 min | +0.103% | — | In play | — |
+| 10/26 3:58:13 PM | SOL | UP | 1.8 min | -0.196% | — | In play | — |
+| 10/26 3:57:23 PM | NEAR | UP | 2.6 min | -0.427% | — | In play | — |
+| 10/26 3:56:36 PM | ZEC | UP | 3.4 min | -0.421% | — | In play | — |
 | 10/26 3:44:56 PM | WTI | UP | 4 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/26 3:44:56 PM | GBPUSD | DOWN | 4 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/26 3:44:40 PM | USDJPY | UP | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,10 +218,6 @@
 | 10/26 3:26:52 PM | BTC | DOWN | 3.1 min | +0.120% | 1¢ | ❌ Lost | -$0.15 |
 | 10/26 3:14:48 PM | BNB | DOWN | 12 sec | +0.041% | 0¢ | ❌ Lost | $0.00 |
 | 10/26 3:14:48 PM | EURUSD | DOWN | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/26 3:14:48 PM | BRENT | DOWN | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/26 3:14:48 PM | WTI | DOWN | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/26 3:14:32 PM | SOL | UP | 28 sec | -0.080% | 0¢ | ❌ Lost | $0.00 |
-| 10/26 3:14:32 PM | DOGE | UP | 28 sec | -0.123% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
