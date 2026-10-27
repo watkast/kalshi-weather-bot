@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 5:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 6:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33694 | 2041 | 8 (0%) | 1.1% | -$194.15 (-63%) | Hold to the end: -$194.15 (-63%) |
+| 33701 | 2041 | 8 (0%) | 1.1% | -$194.15 (-63%) | Hold to the end: -$194.15 (-63%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2041 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31634 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31644 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14724 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 14728 | 6 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1623 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1453 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -106,14 +106,14 @@
 | Challenger ATP  | ✘ | 706 | 2 | 11% | 4% | -74% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| eFootball Game | ✘ | 290 | 1 | 0% | 0% | -68% | -99% | 2 min |
+| eFootball Game | ✘ | 291 | 1 | 0% | 0% | -68% | -99% | 2 min |
 | Darts Match | ✘ | 278 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 256 | 2 | 5% | 3% | -27% | -91% | 72 min |
 | Men's T20 Cricket Match | ✘ | 253 | 1 | 14% | 6% | -63% | -75% | 22 min |
 | Serie C Game | ✘ | 234 | 2 | 4% | 2% | -20% | -93% | 6 min |
 | Dota 2 Game | ✘ | 218 | 0 | 1% | 1% | -100% | -98% | 30 min |
 | NHL Game | ✔ | 183 | 0 | 10% | 5% | -100% | -82% | 5 min |
-| Challenger WTA | ✘ | 178 | 0 | 12% | 4% | -100% | -80% | 8 min |
+| Challenger WTA | ✘ | 179 | 0 | 12% | 4% | -100% | -80% | 8 min |
 | League of Legends Game | ✘ | 151 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | WTA Tennis Match | ✘ | 148 | 0 | 11% | 2% | -100% | -81% | 5 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
@@ -121,7 +121,7 @@
 | AHL Game | ✘ | 129 | 0 | 2% | 2% | -100% | -96% | 5 min |
 | Ettan Game | ✘ | 117 | 0 | 4% | 1% | -100% | -93% | 7 min |
 | Argentine Nacional B Game | ✘ | 112 | 0 | 9% | 6% | -100% | -85% | 8 min |
-| Argentina Primera Division Game | ✘ | 110 | 1 | 15% | 8% | -15% | -75% | 7 min |
+| Argentina Primera Division Game | ✘ | 112 | 1 | 14% | 8% | -17% | -75% | 7 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | NBA Game | ✔ | 107 | 0 | 17% | 6% | -100% | -71% | 7 min |
 | KHL Game | ✘ | 105 | 0 | 6% | 3% | -100% | -90% | 6 min |
@@ -198,10 +198,10 @@
 | Bundesliga Game | ✔ | 45 | 1 | 13% | 9% | +107% | -77% | 6 min |
 | Men's ODI Cricket Match | ✘ | 43 | 3 | 19% | 9% | +551% | -68% | 36 min |
 | England Women's Super League Game | ✘ | 42 | 0 | 21% | 10% | -100% | -63% | 26 min |
+| Bolivia Premier Division Game | ✘ | 42 | 0 | 12% | 2% | -100% | -79% | 8 min |
 | Israeli Premier League Game | ✘ | 42 | 0 | 5% | 0% | -100% | -92% | 9 min |
 | APF Division de Honor Game | ✘ | 41 | 0 | 20% | 7% | -100% | -66% | 6 min |
 | Finland Korisliiga Game | ✘ | 40 | 1 | 8% | 5% | +133% | -87% | 9 min |
-| Bolivia Premier Division Game | ✘ | 40 | 0 | 12% | 2% | -100% | -78% | 7 min |
 | Serbian SuperLiga Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 12 min |
 | Super League Greece Game | ✘ | 39 | 0 | 18% | 5% | -100% | -69% | 14 min |
 | Adriatic ABA Game | ✘ | 38 | 0 | 5% | 3% | -100% | -91% | 11 min |
@@ -325,19 +325,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-26 23:54 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:59 | eSoccer Game | RC Celta (Dzen) | ✘ | — | — | In play | — |
+| 10-26 23:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:58 | Counter-Strike 2 Game | paiN Academy | ✘ | — | — | In play | — |
+| 10-26 23:56 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
+| 10-26 23:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:55 | eSoccer Game | River Plate (Luis) | ✘ | — | — | In play | — |
+| 10-26 23:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:54 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:54 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
 | 10-26 23:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 23:54 | eFootball Game | Seattle (Walter) | ✘ | — | — | In play | — |
-| 10-26 23:53 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 10-26 23:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:54 | eFootball Game | Seattle (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 23:53 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:48 | Russia Liga Pro Match | Andreev Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:45 | eSoccer Game | Getafe CF (Dzen) | ✘ | — | — | In play | — |
-| 10-26 23:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-26 23:45 | Argentina Primera Division Game | Estudiantes La Plata | ✘ | — | — | In play | — |
+| 10-26 23:45 | eSoccer Game | Getafe CF (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 23:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-26 23:45 | Argentina Primera Division Game | Estudiantes La Plata | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:42 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:42 | Challenger WTA | Jessica Hinojosa Gomez | ✘ | — | — | In play | — |
+| 10-26 23:42 | Challenger WTA | Jessica Hinojosa Gomez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:42 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:41 | eBasketball Game | Dallas Mavericks (Magic) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -346,15 +353,8 @@
 | 10-26 23:41 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:40 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:39 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:39 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
+| 10-26 23:39 | Bolivia Premier Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-26 23:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:28 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:28 | eSoccer Game | RC Celta (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-26 23:28 | Bolivia Premier Division Game | Guabira | ✘ | — | — | In play | — |
-| 10-26 23:27 | eFootball Game | Buffalo (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
