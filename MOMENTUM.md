@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Tue Oct 27 02:45 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Tue Oct 27 02:55 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 24148 | 20890 | 3258 (86) | 1 | $-1569.76 | -1.1% |
-| **20¢+ jump, ride past +5¢** | 14856 | 8126 | 6730 (2974) | 3 | $-5132.62 | -5.4% |
+| **20¢+ jump, sell +5¢** | 24152 | 20893 | 3259 (86) | 3 | $-1574.35 | -1.1% |
+| **20¢+ jump, ride past +5¢** | 14860 | 8127 | 6733 (2975) | 4 | $-5134.56 | -5.4% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,19 +18,30 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 10-27 02:55 | J20R | XRP | DOWN | 20¢ | 0.81 | open |  |
+| 10-27 02:55 | J20 | XRP | DOWN | 20¢ | 0.81 | open |  |
+| 10-27 02:52 | J20 | SOL | DOWN | 21¢ | 0.64 | 0.75 | 0.79 |
+| 10-27 02:52 | J20R | SOL | DOWN | 21¢ | 0.58 | open |  |
+| 10-27 02:52 | J20 | SOL | DOWN | 21¢ | 0.58 | 0.63 | 0.15 |
+| 10-27 02:52 | J20R | ZEC | DOWN | 20¢ | 0.65 | open |  |
+| 10-27 02:52 | J20 | ZEC | DOWN | 20¢ | 0.66 | open |  |
+| 10-27 02:51 | J20R | HYPE | DOWN | 21¢ | 0.57 | 0.62 | 0.15 |
+| 10-27 02:51 | J20 | HYPE | DOWN | 21¢ | 0.57 | 0.64 | 0.35 |
+| 10-27 02:51 | J20R | DOGE | UP | 22¢ | 0.65 | open |  |
+| 10-27 02:51 | J20 | DOGE | UP | 22¢ | 0.65 | open |  |
 | 10-27 02:44 | J20 | XRP | DOWN | 36¢ | 0.58 | 0.66 | 0.46 |
 | 10-27 02:43 | J20 | XRP | DOWN | 33¢ | 0.19 | 0.38 | 1.62 |
 | 10-27 02:43 | J20 | XRP | DOWN | 33¢ | 0.23 | 0.38 | 1.20 |
-| 10-27 02:43 | J20R | NEAR | DOWN | 30¢ | 0.36 | open |  |
+| 10-27 02:43 | J20R | NEAR | DOWN | 30¢ | 0.36 | yes | -3.77 |
 | 10-27 02:43 | J20 | NEAR | DOWN | 30¢ | 0.36 | 0.51 | 1.15 |
-| 10-27 02:43 | J20R | XRP | DOWN | 33¢ | 0.27 | open |  |
+| 10-27 02:43 | J20R | XRP | DOWN | 33¢ | 0.27 | no | 7.16 |
 | 10-27 02:43 | J20 | XRP | DOWN | 33¢ | 0.27 | 0.38 | 0.79 |
-| 10-27 02:42 | J20 | SOL | UP | 44¢ | 0.57 | open |  |
+| 10-27 02:42 | J20 | SOL | UP | 44¢ | 0.57 | no | -5.88 |
 | 10-27 02:42 | J20 | SOL | UP | 44¢ | 0.49 | 0.72 | 1.97 |
 | 10-27 02:42 | J20 | BTC | UP | 37¢ | 0.64 | no | -6.57 |
 | 10-27 02:42 | J20 | SOL | UP | 44¢ | 0.55 | 0.72 | 1.40 |
 | 10-27 02:42 | J20 | BTC | UP | 20¢ | 0.46 | 0.64 | 1.45 |
-| 10-27 02:42 | J20R | SOL | UP | 26¢ | 0.53 | open |  |
+| 10-27 02:42 | J20R | SOL | UP | 26¢ | 0.53 | no | -5.48 |
 | 10-27 02:42 | J20 | SOL | UP | 26¢ | 0.53 | 0.72 | 1.57 |
 | 10-27 02:42 | J20 | NEAR | UP | 40¢ | 0.89 | 0.95 | 0.45 |
 | 10-27 02:41 | J20 | ETH | UP | 34¢ | 0.81 | 0.91 | 0.81 |
@@ -47,14 +58,3 @@
 | 10-27 02:40 | J20 | ZEC | UP | 22¢ | 0.84 | 0.89 | 0.33 |
 | 10-27 02:37 | J20 | NEAR | DOWN | 22¢ | 0.71 | 0.80 | 0.63 |
 | 10-27 02:35 | J20 | XRP | UP | 28¢ | 0.58 | 0.65 | 0.36 |
-| 10-27 02:33 | J20 | NEAR | DOWN | 20¢ | 0.50 | 0.57 | 0.34 |
-| 10-27 02:32 | J20 | BTC | UP | 21¢ | 0.57 | 0.68 | 0.76 |
-| 10-27 02:32 | J20 | ETH | UP | 22¢ | 0.71 | 0.80 | 0.63 |
-| 10-27 02:32 | J20 | NEAR | UP | 24¢ | 0.49 | 0.69 | 1.67 |
-| 10-27 02:32 | J20 | XRP | UP | 28¢ | 0.70 | 0.78 | 0.52 |
-| 10-27 02:32 | J20 | BTC | UP | 21¢ | 0.61 | 0.68 | 0.37 |
-| 10-27 02:32 | J20 | ETH | UP | 22¢ | 0.73 | 0.80 | 0.44 |
-| 10-27 02:32 | J20 | NEAR | UP | 24¢ | 0.52 | 0.69 | 1.37 |
-| 10-27 02:32 | J20 | XRP | UP | 28¢ | 0.69 | 0.78 | 0.62 |
-| 10-27 02:32 | J20R | BTC | UP | 21¢ | 0.62 | no | -6.37 |
-| 10-27 02:32 | J20 | BTC | UP | 21¢ | 0.62 | 0.68 | 0.27 |
