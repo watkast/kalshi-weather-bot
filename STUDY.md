@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 9:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 9:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -22,7 +22,7 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN win probability ≥ 2%, hold to the end | 84 | $1.40 | +11% |
+| ESPN win probability ≥ 2%, hold to the end | 85 | $1.25 | +10% |
 | ESPN win probability ≥ 5%, sell at 50¢ | 40 | $0.75 | +12% |
 | ESPN win probability ≥ 5%, sell at 25¢ | 40 | $0.62 | +10% |
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33908 | 2055 | 8 (0%) | 1.1% | -$196.25 (-64%) | Hold to the end: -$196.25 (-64%) |
+| 33917 | 2056 | 8 (0%) | 1.1% | -$196.40 (-64%) | Hold to the end: -$196.40 (-64%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 375 | 3.1% | 0.3% (1) | -76% | ❌ Worse |
+| ESPN win probability | 376 | 3.1% | 0.3% (1) | -77% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,8 +58,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 375 | 1 | -75% | -74% | -74% | -71% |
-| ESPN win probability ≥ 2% | 84 | 1 | +11% | -67% | -72% | -74% |
+| **Any 1¢ (no model)** | 376 | 1 | -75% | -74% | -74% | -71% |
+| ESPN win probability ≥ 2% | 85 | 1 | +10% | -67% | -72% | -75% |
 | ESPN win probability ≥ 5% | 40 | 1 | +133% | -78% | -80% | -78% |
 | ESPN win probability ≥ 10% | 26 | 1 | +259% | -73% | -70% | -67% |
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2055 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31840 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2056 | 13% | 9% | 7% | 3% | 1% | 1% |
+| Unverified | 31844 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 8 | 0% | -$196.25 | -64% |
-| Sell at 2¢ | 276 | 13% | -$236.49 | -77% |
-| Sell at 3¢ | 194 | 9% | -$232.59 | -75% |
-| Sell at 5¢ | 136 | 7% | -$219.85 | -71% |
-| Sell at 10¢ | 61 | 3% | -$228.34 | -74% |
-| Sell at 25¢ | 19 | 1% | -$245.36 | -80% |
-| Sell at 50¢ | 12 | 1% | -$227.25 | -74% |
+| Hold to the end | 8 | 0% | -$196.40 | -64% |
+| Sell at 2¢ | 276 | 13% | -$236.64 | -77% |
+| Sell at 3¢ | 194 | 9% | -$232.74 | -75% |
+| Sell at 5¢ | 136 | 7% | -$220.00 | -71% |
+| Sell at 10¢ | 61 | 3% | -$228.49 | -74% |
+| Sell at 25¢ | 19 | 1% | -$245.51 | -80% |
+| Sell at 50¢ | 12 | 1% | -$227.40 | -74% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14860 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 14862 | 6 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1635 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1467 | 2 | 2% | 0% | -87% | -91% | 2 min |
+| eBasketball Game | ✘ | 1469 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1181 | 4 | 13% | 5% | -68% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1100 | 2 | 5% | 3% | -83% | -91% | 11 min |
@@ -120,8 +120,8 @@
 | Major League Soccer Game | partly | 129 | 1 | 13% | 6% | -28% | -77% | 6 min |
 | AHL Game | ✘ | 129 | 0 | 2% | 2% | -100% | -96% | 5 min |
 | Ettan Game | ✘ | 117 | 0 | 4% | 1% | -100% | -93% | 7 min |
+| NBA Game | ✔ | 115 | 0 | 16% | 5% | -100% | -73% | 7 min |
 | Argentina Primera Division Game | ✘ | 114 | 1 | 14% | 8% | -18% | -76% | 7 min |
-| NBA Game | ✔ | 114 | 0 | 16% | 5% | -100% | -73% | 8 min |
 | Argentine Nacional B Game | ✘ | 112 | 0 | 9% | 6% | -100% | -85% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Brasileiro Serie B Game | ✘ | 105 | 1 | 8% | 4% | -11% | -87% | 8 min |
@@ -303,7 +303,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 838 | 5% | 1% | 0% | -92% |
+| Under 5 min | 839 | 5% | 1% | 0% | -92% |
 | 5–15 min | 480 | 17% | 8% | 1% | -70% |
 | 15–30 min | 314 | 26% | 14% | 1% | -55% |
 | 30–60 min | 230 | 19% | 12% | 0% | -67% |
@@ -325,11 +325,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 03:30 | eBasketball Game | Los Angeles Lakers (Magic) | ✘ | — | — | In play | — |
-| 10-27 03:29 | NBA Game | Utah | ✔ | 11.6 - 4th · MEM 110 - UTAH 105 | — | In play | — |
-| 10-27 03:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 03:28 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | — | In play | — |
-| 10-27 03:27 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | — | In play | — |
+| 10-27 03:41 | eSoccer Game | Manchester City (Arkon) | ✘ | — | — | In play | — |
+| 10-27 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 03:38 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | — | In play | — |
+| 10-27 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 03:36 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 10-27 03:35 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 10-27 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 03:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 03:33 | eSoccer Game | Dortmund (Declan) | ✘ | — | — | In play | — |
+| 10-27 03:30 | eBasketball Game | Los Angeles Lakers (Magic) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 03:29 | NBA Game | Utah | ✔ | 11.6 - 4th · MEM 110 - UTAH 105 | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 03:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 03:28 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 03:27 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 03:27 | Counter-Strike 2 Game | Staqued | ✘ | — | — | In play | — |
 | 10-27 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 03:23 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -346,15 +355,6 @@
 | 10-27 03:11 | eSoccer Game | Dortmund (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 03:11 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 03:10 | WTA Tennis Match | Sorana Cirstea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:10 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:09 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:08 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:06 | ITF Women's Match | Natsuho Arakawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:04 | eBasketball Game | New York Knicks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:04 | NFL Game | Philadelphia | ✔ | 5:21 - 4th · DAL 31 - PHI 21 | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 03:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
