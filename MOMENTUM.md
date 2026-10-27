@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Tue Oct 27 13:49 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Tue Oct 27 14:00 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 24622 | 21301 | 3321 (86) | 2 | $-1585.86 | -1.0% |
-| **20¢+ jump, ride past +5¢** | 15156 | 8281 | 6875 (3043) | 3 | $-5204.51 | -5.4% |
+| **20¢+ jump, sell +5¢** | 24624 | 21303 | 3321 (86) | 0 | $-1585.05 | -1.0% |
+| **20¢+ jump, ride past +5¢** | 15157 | 8282 | 6875 (3043) | 2 | $-5204.12 | -5.4% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -19,11 +19,11 @@
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
 | 10-27 13:49 | J20R | ETH | DOWN | 20¢ | 0.79 | open |  |
-| 10-27 13:49 | J20 | ETH | DOWN | 20¢ | 0.80 | open |  |
-| 10-27 13:49 | J20R | BTC | DOWN | 20¢ | 0.79 | open |  |
+| 10-27 13:49 | J20 | ETH | DOWN | 20¢ | 0.80 | 0.86 | 0.39 |
+| 10-27 13:49 | J20R | BTC | DOWN | 20¢ | 0.79 | 0.85 | 0.39 |
 | 10-27 13:49 | J20 | BTC | DOWN | 20¢ | 0.79 | 0.84 | 0.28 |
 | 10-27 13:49 | J20R | ZEC | DOWN | 22¢ | 0.91 | open |  |
-| 10-27 13:49 | J20 | ZEC | DOWN | 22¢ | 0.91 | open |  |
+| 10-27 13:49 | J20 | ZEC | DOWN | 22¢ | 0.91 | 0.96 | 0.42 |
 | 10-27 13:38 | J20R | XRP | UP | 22¢ | 0.84 | yes | 1.50 |
 | 10-27 13:38 | J20 | XRP | UP | 22¢ | 0.83 | 0.89 | 0.43 |
 | 10-27 13:38 | J20 | SOL | UP | 23¢ | 0.75 | 0.81 | 0.35 |
