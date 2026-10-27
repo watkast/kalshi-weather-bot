@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 1:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 2:08 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34169 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34175 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 32094 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 32103 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15037 | 7 | 1% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1656 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 15045 | 7 | 1% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1657 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1485 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1190 | 5 | 13% | 5% | -61% | -77% | 4 min |
@@ -325,13 +325,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 07:57 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | — | In play | — |
-| 10-27 07:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 07:55 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | — | In play | — |
-| 10-27 07:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 10-27 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 07:52 | eSoccer Game | Real Madrid (Niskanen15) | ✘ | — | — | In play | — |
+| 10-27 08:08 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 10-27 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 08:08 | eBasketball Game | Los Angeles Lakers (Wemby) | ✘ | — | — | In play | — |
+| 10-27 08:05 | Challenger ATP  | Rio Noguchi | ✘ | — | — | In play | — |
+| 10-27 07:59 | eSoccer Game | Rennes (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:57 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:55 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:52 | eSoccer Game | Real Madrid (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:52 | Challenger ATP  | Timofey Skatov | ✘ | — | — | In play | — |
 | 10-27 07:47 | eFootball Game | Detroit (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -349,12 +355,6 @@
 | 10-27 07:37 | ITF Women's Match | Yujin Kim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:35 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:33 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:32 | eSoccer Game | Toulouse FC (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:31 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-27 07:31 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:28 | ITF Men's Match | Ahmad Nael Qureshi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
