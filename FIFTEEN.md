@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 27, 8:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 27, 8:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 2846 finished bets | 1% | $69.95 | +22% | +2.46¢ | $80.95 / -$11.00 |
 
-*Expect about **97 buys a day** (~$14.56/day at risk); max loss per buy **15¢**.*
+*Expect about **97 buys a day** (~$14.55/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34675 | 34667 | 129 (0%) | 1.07% | -$2,416.20 (-57%) | Hold to the close: -$2,416.20 (-57%) |
+| 34676 | 34667 | 129 (0%) | 1.07% | -$2,416.20 (-57%) | Hold to the close: -$2,416.20 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/27 8:41:32 AM | NATGAS | DOWN | 3.5 min | — | — | In play | — |
 | 10/27 8:29:56 AM | 5YRRATE | UP | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/27 8:29:40 AM | AUDUSD | DOWN | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/27 8:29:24 AM | USDCAD | DOWN | 35 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 10/27 8:14:13 AM | USDJPY | UP | 46 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/27 8:13:26 AM | HYPE | DOWN | 1.6 min | +0.242% | 0¢ | ❌ Lost | -$0.15 |
 | 10/27 8:13:26 AM | ETH | DOWN | 1.6 min | +0.270% | 0¢ | ❌ Lost | $0.00 |
-| 10/27 8:13:26 AM | XRP | DOWN | 1.6 min | +0.206% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
