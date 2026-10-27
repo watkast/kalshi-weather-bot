@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 1:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 1:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34117 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34131 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 32030 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 32048 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14988 | 6 | 1% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1650 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 15004 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1652 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1481 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1188 | 4 | 13% | 5% | -69% | -77% | 4 min |
@@ -325,36 +325,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 07:07 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
-| 10-27 07:04 | eSoccer Game | AS Monaco (Mavi) | ✘ | — | — | In play | — |
-| 10-27 07:04 | eSoccer Game | Toulouse FC (Poly) | ✘ | — | — | In play | — |
+| 10-27 07:17 | eSoccer Game | Rennes (Mordor) | ✘ | — | — | In play | — |
+| 10-27 07:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 07:16 | eBasketball Game | Dallas Mavericks (Jake) | ✘ | — | — | In play | — |
+| 10-27 07:15 | eSoccer Game | Real Madrid (Niskanen15) | ✘ | — | — | In play | — |
+| 10-27 07:15 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 10-27 07:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 07:15 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | — | In play | — |
+| 10-27 07:14 | Russia Liga Pro Match | Galuzinskii Stefan | ✘ | — | — | In play | — |
+| 10-27 07:13 | eSoccer Game | Real Betis (Rooney) | ✘ | — | — | In play | — |
+| 10-27 07:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 07:11 | eBasketball Game | Indiana Pacers (Donovan) | ✘ | — | — | In play | — |
+| 10-27 07:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 07:09 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-27 07:07 | Russia Liga Pro Match | Karpovkin Gennadiy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:07 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:04 | eSoccer Game | AS Monaco (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:04 | eSoccer Game | Toulouse FC (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:03 | eFootball Game | Philadelphia (Justin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:01 | eFootball Game | Baltimore (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 07:01 | eSoccer Game | Getafe CF (Danny) | ✘ | — | — | In play | — |
-| 10-27 07:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 07:01 | eSoccer Game | Getafe CF (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 07:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:00 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 07:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 06:59 | eSoccer Game | FC Barcelona (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:59 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 10-27 06:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 06:59 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 06:50 | Counter-Strike 2 Game | Abyssal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 06:49 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:49 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:48 | eBasketball Game | New Orleans Pelicans (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:47 | eSoccer Game | Getafe CF (Danny) | ✘ | — | — | In play | — |
-| 10-27 06:47 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | — | In play | — |
-| 10-27 06:47 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:45 | eSoccer Game | CA Osasuna (Antonio) | ✘ | — | — | In play | — |
-| 10-27 06:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 06:45 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 10-27 06:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 06:42 | Russia Liga Pro Match | Zhigalov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:40 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:39 | eBasketball Game | Denver Nuggets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:38 | Challenger ATP  | Koki Matsuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 06:36 | ITF Men's Match | Alexey Aleshchev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
