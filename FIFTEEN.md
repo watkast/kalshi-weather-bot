@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Oct 27, 3:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Oct 27, 3:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35192 | 35184 | 134 (0%) | 1.07% | -$2,410.40 (-56%) | Hold to the close: -$2,410.40 (-56%) |
+| 35199 | 35184 | 134 (0%) | 1.07% | -$2,410.40 (-56%) | Hold to the close: -$2,410.40 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 14. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,13 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/27 3:26:25 PM | DOGE | UP | 3.6 min | -0.235% | — | In play | — |
+| 10/27 3:26:25 PM | BTC | UP | 3.6 min | -0.073% | — | In play | — |
+| 10/27 3:25:53 PM | SOL | UP | 4.1 min | -0.183% | — | In play | — |
+| 10/27 3:25:22 PM | ETH | UP | 4.6 min | -0.179% | — | In play | — |
+| 10/27 3:25:22 PM | ZEC | UP | 4.6 min | -0.537% | — | In play | — |
+| 10/27 3:23:15 PM | HYPE | UP | 6.7 min | -0.485% | — | In play | — |
+| 10/27 3:23:15 PM | BNB | UP | 6.7 min | -0.186% | — | In play | — |
 | 10/27 3:14:54 PM | ETH | UP | 5 sec | -0.022% | 0¢ | ❌ Lost | $0.00 |
 | 10/27 3:14:38 PM | ZEC | DOWN | 21 sec | -0.035% | 1¢ | ❌ Lost | -$0.15 |
 | 10/27 3:14:38 PM | NEAR | UP | 21 sec | -0.132% | 0¢ | ❌ Lost | $0.00 |
@@ -211,13 +218,6 @@
 | 10/27 2:58:15 PM | COPPER | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/27 2:57:12 PM | SOL | DOWN | 2.8 min | +0.099% | 1¢ | ❌ Lost | -$0.15 |
 | 10/27 2:57:12 PM | ETH | DOWN | 2.8 min | +0.111% | 0¢ | ❌ Lost | -$0.15 |
-| 10/27 2:56:56 PM | WTI | UP | 3.1 min | — | 2¢ | ❌ Lost | -$0.15 |
-| 10/27 2:56:56 PM | DOGE | DOWN | 3.1 min | +0.113% | 1¢ | ❌ Lost | -$0.15 |
-| 10/27 2:56:38 PM | XRP | DOWN | 3.4 min | +0.159% | 1¢ | ❌ Lost | -$0.15 |
-| 10/27 2:56:06 PM | BTC | DOWN | 3.9 min | +0.129% | 1¢ | ❌ Lost | -$0.15 |
-| 10/27 2:44:46 PM | GOLD | DOWN | 14 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/27 2:44:46 PM | WTI | DOWN | 14 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/27 2:44:46 PM | GBPUSD | UP | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
