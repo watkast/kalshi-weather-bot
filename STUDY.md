@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 3:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 4:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34278 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34284 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 32200 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 32209 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15111 | 7 | 1% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1669 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 15119 | 7 | 1% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1670 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1491 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1191 | 5 | 13% | 5% | -61% | -77% | 4 min |
@@ -325,16 +325,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-27 10:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 10:01 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-27 10:01 | eSoccer Game | Benfica (Danny) | ✘ | — | — | In play | — |
+| 10-27 10:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 09:58 | ITF Women's Match | Anastasia Ganja | ✘ | — | — | In play | — |
+| 10-27 09:55 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:52 | Darts Match | Darren Beveridge | ✘ | — | — | In play | — |
-| 10-27 09:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 09:51 | eSoccer Game | FC Bayern (Antonio) | ✘ | — | — | In play | — |
-| 10-27 09:49 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 10-27 09:49 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 10-27 09:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:51 | eSoccer Game | FC Bayern (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:49 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:49 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:48 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 09:48 | eSoccer Game | Benfica (Danny) | ✘ | — | — | In play | — |
-| 10-27 09:48 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | — | In play | — |
-| 10-27 09:47 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
-| 10-27 09:47 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 10-27 09:48 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:48 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:47 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 09:47 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:35 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:35 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:35 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -349,12 +355,6 @@
 | 10-27 09:28 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:27 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 09:25 | Men's T20 Cricket Match | New Zealand | ✘ | — | — | In play | — |
-| 10-27 09:23 | eSoccer Game | Olympique de Marseille (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 09:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 09:21 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 09:19 | eSoccer Game | Tie | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
-| 10-27 09:19 | ITF Women's Match | Anastasia Zhilina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
