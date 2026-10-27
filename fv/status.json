@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-27T19:06:16+00:00",
+ "saved_at": "2026-10-27T19:16:36+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -80,17 +80,17 @@
   ]
  },
  "open": 0,
- "results_known": 23746,
+ "results_known": 23756,
  "sigma_pct": {
-  "XRP": 0.0451,
-  "SOL": 0.0403,
-  "BNB": 0.0347,
-  "BTC": 0.0316,
-  "NEAR": 0.1117,
-  "DOGE": 0.0467,
-  "ETH": 0.0421,
-  "ZEC": 0.0984,
-  "HYPE": 0.0702
+  "XRP": 0.0471,
+  "SOL": 0.0585,
+  "BNB": 0.0358,
+  "BTC": 0.0335,
+  "NEAR": 0.1132,
+  "DOGE": 0.0404,
+  "ETH": 0.0465,
+  "ZEC": 0.1413,
+  "HYPE": 0.0863
  },
  "errors": [
   "2026-10-27T16:07:33+00:00 loop: Response ended prematurely"
