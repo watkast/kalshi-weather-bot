@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 11:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 11:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33997 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34002 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31923 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31933 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14920 | 6 | 1% | 0% | -96% | -99% | 2 min |
-| Russia Liga Pro Match | ✘ | 1635 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 14928 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| Russia Liga Pro Match | ✘ | 1636 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1473 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1187 | 4 | 13% | 5% | -69% | -77% | 4 min |
@@ -115,7 +115,7 @@
 | NHL Game | ✔ | 186 | 0 | 11% | 5% | -100% | -81% | 4 min |
 | Challenger WTA | ✘ | 181 | 0 | 12% | 4% | -100% | -80% | 8 min |
 | League of Legends Game | ✘ | 151 | 0 | 7% | 2% | -100% | -89% | 11 min |
-| WTA Tennis Match | ✘ | 149 | 0 | 11% | 2% | -100% | -81% | 5 min |
+| WTA Tennis Match | ✘ | 150 | 0 | 11% | 2% | -100% | -82% | 5 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Major League Soccer Game | partly | 129 | 1 | 13% | 6% | -28% | -77% | 6 min |
 | AHL Game | ✘ | 129 | 0 | 2% | 2% | -100% | -96% | 5 min |
@@ -325,15 +325,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 05:03 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | — | In play | — |
-| 10-27 05:03 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | — | In play | — |
-| 10-27 05:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:00 | WTA Tennis Match | Anastasia Zakharova | ✘ | — | — | In play | — |
-| 10-27 04:59 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 10-27 04:59 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | — | In play | — |
-| 10-27 04:59 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
-| 10-27 04:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:13 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 10-27 05:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:05 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
+| 10-27 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:05 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:03 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:03 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:00 | WTA Tennis Match | Anastasia Zakharova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 04:59 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 04:59 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 04:59 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 04:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 04:56 | ITF Women's Match | Miho Kuramochi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 04:52 | ITF Women's Match | Kurea Hayasaka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 04:52 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,11 +355,6 @@
 | 10-27 04:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 04:44 | ITF Women's Match | Mutsumi Uemura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 04:43 | eSoccer Game | United States (Mia) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-27 04:38 | ITF Women's Match | Melany Solange Krywoj | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 04:37 | eSoccer Game | Spurs (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 04:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 04:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 04:34 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
