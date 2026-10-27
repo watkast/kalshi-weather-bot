@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Oct 26, 11:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Oct 26, 11:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34028 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34038 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 31953 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 31964 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 14940 | 6 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 14950 | 6 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1639 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1475 | 2 | 2% | 0% | -87% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1187 | 4 | 13% | 5% | -69% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1101 | 2 | 5% | 3% | -83% | -91% | 11 min |
 | ITF Men's Match | ✘ | 1057 | 1 | 13% | 6% | -91% | -78% | 5 min |
-| Challenger ATP  | ✘ | 717 | 2 | 11% | 4% | -74% | -82% | 5 min |
+| Challenger ATP  | ✘ | 718 | 2 | 11% | 4% | -74% | -82% | 5 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | eFootball Game | ✘ | 303 | 1 | 1% | 1% | -69% | -99% | 2 min |
@@ -325,17 +325,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 05:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:34 | eSoccer Game | Newcastle Utd (Arkon) | ✘ | — | — | In play | — |
-| 10-27 05:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:43 | eSoccer Game | Real Sociedad (Luis) | ✘ | — | — | In play | — |
+| 10-27 05:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:43 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
+| 10-27 05:43 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | — | In play | — |
+| 10-27 05:43 | eBasketball Game | Denver Nuggets (Magic) | ✘ | — | — | In play | — |
+| 10-27 05:43 | Russia Liga Pro Match | Karpovkin Gennadiy | ✘ | — | — | In play | — |
+| 10-27 05:42 | eSoccer Game | Sevilla FC (Hazard) | ✘ | — | — | In play | — |
+| 10-27 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 05:42 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | — | In play | — |
+| 10-27 05:35 | Challenger ATP  | Keegan Smith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:34 | eSoccer Game | Newcastle Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:30 | Russia Liga Pro Match | Frolov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:30 | eSoccer Game | Athletic Club (Pedri) | ✘ | — | — | In play | — |
-| 10-27 05:29 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-27 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:27 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 10-27 05:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 05:25 | eSoccer Game | Real Sociedad (Luis) | ✘ | — | — | In play | — |
+| 10-27 05:30 | eSoccer Game | Athletic Club (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:29 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:27 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 05:25 | eSoccer Game | Real Sociedad (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:20 | eFootball Game | Los Angeles (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:20 | eSoccer Game | Chelsea (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:20 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,16 +355,6 @@
 | 10-27 05:17 | Challenger ATP  | Semen Pankin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:16 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 05:16 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:16 | eBasketball Game | Dallas Mavericks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:15 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:15 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:15 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:15 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:13 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:05 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
