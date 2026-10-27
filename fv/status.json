@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-27T20:08:10+00:00",
+ "saved_at": "2026-10-27T20:18:31+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -20,9 +20,9 @@
  "trades_v3": 422,
  "trades_v4": 579,
  "trades_v5": 286,
- "trades_v6": 155,
+ "trades_v6": 156,
  "trades_v7": 90,
- "trades_v8": 910,
+ "trades_v8": 911,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
@@ -80,17 +80,17 @@
   ]
  },
  "open": 0,
- "results_known": 23784,
+ "results_known": 23793,
  "sigma_pct": {
-  "XRP": 0.0629,
-  "SOL": 0.0417,
-  "BNB": 0.034,
-  "BTC": 0.0239,
-  "NEAR": 0.1085,
-  "DOGE": 0.0408,
-  "ETH": 0.0358,
-  "ZEC": 0.0943,
-  "HYPE": 0.0813
+  "XRP": 0.0489,
+  "SOL": 0.039,
+  "BNB": 0.0333,
+  "BTC": 0.0284,
+  "NEAR": 0.1017,
+  "DOGE": 0.0421,
+  "ETH": 0.0418,
+  "ZEC": 0.1053,
+  "HYPE": 0.0841
  },
  "errors": [
   "2026-10-27T16:07:33+00:00 loop: Response ended prematurely"
