@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 6:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 6:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 34434 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
+| 34440 | 2058 | 8 (0%) | 1.1% | -$196.70 (-64%) | Hold to the end: -$196.70 (-64%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2058 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 32351 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 32366 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15187 | 7 | 1% | 0% | -96% | -99% | 2 min |
+| eSoccer Game | ✘ | 15199 | 7 | 1% | 0% | -96% | -99% | 2 min |
 | Russia Liga Pro Match | ✘ | 1685 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1499 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -107,7 +107,7 @@
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | eFootball Game | ✘ | 314 | 1 | 1% | 1% | -70% | -99% | 2 min |
-| Darts Match | ✘ | 286 | 0 | 0% | 0% | -100% | -99% | 8 min |
+| Darts Match | ✘ | 287 | 0 | 0% | 0% | -100% | -99% | 8 min |
 | Women's College Volleyball Match | ✘ | 256 | 2 | 5% | 3% | -27% | -91% | 72 min |
 | Men's T20 Cricket Match | ✘ | 255 | 1 | 14% | 5% | -63% | -76% | 22 min |
 | Serie C Game | ✘ | 234 | 2 | 4% | 2% | -20% | -93% | 6 min |
@@ -198,9 +198,9 @@
 | Bundesliga Game | ✔ | 45 | 1 | 13% | 9% | +107% | -77% | 6 min |
 | Men's ODI Cricket Match | ✘ | 44 | 3 | 18% | 9% | +536% | -68% | 36 min |
 | Bolivia Premier Division Game | ✘ | 44 | 0 | 11% | 2% | -100% | -80% | 8 min |
+| AFC Champions League Game | ✘ | 44 | 0 | 7% | 0% | -100% | -88% | 8 min |
 | England Women's Super League Game | ✘ | 42 | 0 | 21% | 10% | -100% | -63% | 26 min |
 | Israeli Premier League Game | ✘ | 42 | 0 | 5% | 0% | -100% | -92% | 9 min |
-| AFC Champions League Game | ✘ | 42 | 0 | 7% | 0% | -100% | -88% | 8 min |
 | APF Division de Honor Game | ✘ | 41 | 0 | 20% | 7% | -100% | -66% | 6 min |
 | Finland Korisliiga Game | ✘ | 40 | 1 | 8% | 5% | +133% | -87% | 9 min |
 | Serbian SuperLiga Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 12 min |
@@ -325,22 +325,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-27 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 12:05 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
-| 10-27 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-27 12:04 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 10-27 12:03 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
-| 10-27 12:03 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
-| 10-27 12:03 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-27 12:02 | Darts Match | Darren Beveridge | ✘ | — | — | In play | — |
-| 10-27 12:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 12:16 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 10-27 12:15 | Men's ODI Cricket Match | Jersey | ✘ | — | — | In play | — |
+| 10-27 12:11 | ITF Men's Match | Alessandro Maina | ✘ | — | — | In play | — |
+| 10-27 12:09 | ITF Men's Match | Gabriele Maria Piano | ✘ | — | — | In play | — |
+| 10-27 12:09 | eSoccer Game | Arsenal (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:05 | eSoccer Game | Tie | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
+| 10-27 12:05 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:04 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:03 | eSoccer Game | Freiburg (Danny) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-27 12:03 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:03 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:02 | Darts Match | Darren Beveridge | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-27 12:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:58 | Men's ODI Cricket Match | Oman | ✘ | — | — | In play | — |
 | 10-27 11:58 | Dota 2 Game | oveA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:57 | AFC Champions League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-27 11:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:55 | Challenger ATP  | Moez Echargui | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:55 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:55 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | — | In play | — |
+| 10-27 11:55 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:52 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:51 | AFC Champions League Game | Shanghai Port | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:51 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -349,12 +355,6 @@
 | 10-27 11:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-27 11:49 | Darts Match | Andy Baetens | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:49 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:48 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:47 | Korea KBL Game | KCC Egis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-27 11:45 | Challenger WTA | Isabella Maria Serban | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-27 11:44 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
