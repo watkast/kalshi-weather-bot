@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Oct 26, 10:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Oct 26, 10:11 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 33867 | 33859 | 126 (0%) | 1.07% | -$2,353.80 (-57%) | Hold to the close: -$2,353.80 (-57%) |
+| 33869 | 33859 | 126 (0%) | 1.07% | -$2,353.80 (-57%) | Hold to the close: -$2,353.80 (-57%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/26 10:11:27 PM | PALLADIUM | DOWN | 3.5 min | — | — | In play | — |
+| 10/26 10:10:55 PM | GOLD | DOWN | 4.1 min | — | — | In play | — |
 | 10/26 9:59:50 PM | GBPUSD | UP | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/26 9:58:44 PM | BRENT | UP | 75 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/26 9:58:44 PM | AUDUSD | UP | 75 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/26 9:42:23 PM | USDJPY | UP | 2.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/26 9:42:07 PM | EURUSD | DOWN | 2.9 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/26 9:42:07 PM | AUDUSD | DOWN | 2.9 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/26 9:41:36 PM | ZEC | DOWN | 3.4 min | +0.471% | 1¢ | ❌ Lost | -$0.15 |
-| 10/26 9:41:20 PM | BTC | DOWN | 3.6 min | +0.168% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
