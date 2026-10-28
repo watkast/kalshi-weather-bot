@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 28, 2:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 28, 2:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35940 | 2091 | 9 (0%) | 1.1% | -$187.65 (-60%) | Hold to the end: -$187.65 (-60%) |
+| 35950 | 2091 | 9 (0%) | 1.1% | -$187.65 (-60%) | Hold to the end: -$187.65 (-60%) |
 
-*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2091 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 33840 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 33842 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15967 | 7 | 1% | 0% | -96% | -99% | 3 min |
+| eSoccer Game | ✘ | 15969 | 7 | 1% | 0% | -96% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1801 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1569 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -330,9 +330,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-28 08:42 | eSoccer Game | Olympique Lyon (Poly) | ✘ | — | — | In play | — |
+| 10-28 08:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 08:39 | eSoccer Game | Slavia Praha (Hurricane) | ✘ | — | — | In play | — |
+| 10-28 08:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 08:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 08:37 | eSoccer Game | Juventus (Eder) | ✘ | — | — | In play | — |
+| 10-28 08:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 08:36 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 10-28 08:36 | eSoccer Game | RC Lens (Leyla) | ✘ | — | — | In play | — |
+| 10-28 08:35 | eBasketball Game | Los Angeles Lakers (Donovan) | ✘ | — | — | In play | — |
 | 10-28 08:32 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 10-28 08:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 08:27 | eSoccer Game | OGC Nice (Mordor) | ✘ | — | — | In play | — |
+| 10-28 08:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 08:27 | eSoccer Game | OGC Nice (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 08:24 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 08:24 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 08:24 | Russia Liga Pro Match | SHkolnikov IUrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,16 +360,6 @@
 | 10-28 08:11 | ITF Men's Match | Kazuma Kawachi | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-28 08:11 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 08:10 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:10 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:10 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:09 | eSoccer Game | Real Betis (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:08 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:07 | ITF Women's Match | Georgia Campbell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:05 | ITF Men's Match | Chen Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 08:04 | Women's T20 Match | Incredibles Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
