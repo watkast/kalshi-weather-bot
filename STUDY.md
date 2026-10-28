@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 11:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 11:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35722 | 2089 | 9 (0%) | 1.1% | -$187.35 (-60%) | Hold to the end: -$187.35 (-60%) |
+| 35733 | 2089 | 9 (0%) | 1.1% | -$187.35 (-60%) | Hold to the end: -$187.35 (-60%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2089 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 33613 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 33626 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15823 | 7 | 1% | 0% | -96% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1777 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 15833 | 7 | 1% | 0% | -96% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1779 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1557 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 1259 | 6 | 13% | 5% | -56% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1260 | 6 | 13% | 5% | -56% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1145 | 2 | 5% | 3% | -84% | -91% | 11 min |
 | ITF Men's Match | ✘ | 1138 | 1 | 13% | 6% | -92% | -78% | 5 min |
 | Challenger ATP  | ✘ | 744 | 2 | 10% | 4% | -75% | -82% | 5 min |
@@ -330,36 +330,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-28 05:06 | Russia Liga Pro Match | Simonov Sergei | ✘ | — | — | In play | — |
-| 10-28 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 05:05 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | — | In play | — |
-| 10-28 05:04 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | — | In play | — |
-| 10-28 05:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:16 | ITF Men's Match | Stefan Vujic | ✘ | — | — | In play | — |
+| 10-28 05:15 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-28 05:15 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | — | In play | — |
+| 10-28 05:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:15 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | — | In play | — |
+| 10-28 05:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:13 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 10-28 05:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:11 | Challenger ATP  | Aleksandar Vukic | ✘ | — | — | In play | — |
+| 10-28 05:07 | ITF Women's Match | Ava Beck | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 10-28 05:06 | Russia Liga Pro Match | Simonov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 05:05 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 05:04 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 05:00 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 05:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 04:59 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
-| 10-28 04:59 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-28 04:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:59 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:59 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:59 | eFootball Game | Pittsburgh (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:59 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | — | In play | — |
-| 10-28 04:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 04:57 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
+| 10-28 04:59 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:57 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:53 | Challenger ATP  | Yunchaokete Bu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:51 | eSoccer Game | Liverpool (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:50 | Men's ODI Cricket Match | Central Stags | ✘ | — | — | In play | — |
 | 10-28 04:50 | NHL Game | Anaheim | ✔ | 0:26 - OT · VAN 5 - ANA 5 | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:49 | Challenger ATP  | Kaichi Uchida | ✘ | — | — | In play | — |
-| 10-28 04:49 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:48 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:48 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:48 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:47 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:47 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:47 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 04:42 | ITF Men's Match | Toshiki Karigyo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
