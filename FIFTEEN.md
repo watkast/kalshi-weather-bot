@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Oct 28, 1:18 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Oct 28, 1:28 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35859 | 35851 | 137 (0%) | 1.07% | -$2,452.25 (-56%) | Hold to the close: -$2,452.25 (-56%) |
+| 35866 | 35851 | 137 (0%) | 1.07% | -$2,452.25 (-56%) | Hold to the close: -$2,452.25 (-56%) |
 
-*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 14. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,13 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/28 1:28:21 AM | DOGE | UP | 1.6 min | -0.106% | — | In play | — |
+| 10/28 1:28:21 AM | USDJPY | UP | 1.6 min | — | — | In play | — |
+| 10/28 1:28:21 AM | ZEC | DOWN | 1.6 min | +0.116% | — | In play | — |
+| 10/28 1:28:06 AM | XRP | UP | 1.9 min | -0.128% | — | In play | — |
+| 10/28 1:27:48 AM | HYPE | UP | 2.2 min | -0.199% | — | In play | — |
+| 10/28 1:27:16 AM | EURUSD | DOWN | 2.7 min | — | — | In play | — |
+| 10/28 1:27:16 AM | GBPUSD | DOWN | 2.7 min | — | — | In play | — |
 | 10/28 1:14:46 AM | AUDUSD | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/28 1:14:46 AM | NEAR | UP | 13 sec | -0.173% | 0¢ | ❌ Lost | -$0.15 |
 | 10/28 1:14:46 AM | USDCAD | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -211,13 +218,6 @@
 | 10/28 12:59:48 AM | PLATINUM | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/28 12:59:48 AM | BRENT | DOWN | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/28 12:59:48 AM | COPPER | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/28 12:59:32 AM | GBPUSD | UP | 27 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/28 12:59:16 AM | EURUSD | UP | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/28 12:58:59 AM | AUDUSD | UP | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/28 12:58:59 AM | DOGE | UP | 61 sec | -0.075% | 1¢ | ❌ Lost | -$0.15 |
-| 10/28 12:58:43 AM | WTI | DOWN | 77 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/28 12:58:26 AM | XRP | UP | 1.6 min | -0.106% | 1¢ | ❌ Lost | -$0.15 |
-| 10/28 12:58:26 AM | BTC | UP | 1.6 min | -0.051% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
