@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 9:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 9:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35648 | 2085 | 8 (0%) | 1.1% | -$200.75 (-64%) | Hold to the end: -$200.75 (-64%) |
+| 35656 | 2085 | 8 (0%) | 1.1% | -$200.75 (-64%) | Hold to the end: -$200.75 (-64%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2085 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 33544 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 33556 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15769 | 7 | 1% | 0% | -96% | -99% | 3 min |
+| eSoccer Game | ✘ | 15779 | 7 | 1% | 0% | -96% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1776 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1553 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Women's Match | ✘ | 1258 | 6 | 13% | 5% | -55% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1259 | 6 | 13% | 5% | -56% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1145 | 2 | 5% | 3% | -84% | -91% | 11 min |
-| ITF Men's Match | ✘ | 1133 | 1 | 13% | 6% | -92% | -78% | 5 min |
+| ITF Men's Match | ✘ | 1134 | 1 | 13% | 6% | -92% | -78% | 5 min |
 | Challenger ATP  | ✘ | 743 | 2 | 10% | 4% | -75% | -82% | 5 min |
 | eFootball Game | ✘ | 342 | 2 | 1% | 1% | -45% | -98% | 2 min |
 | College Football Game | partly | 335 | 2 | 11% | 6% | -44% | -80% | 23 min |
@@ -330,19 +330,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-28 03:42 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
-| 10-28 03:42 | eSoccer Game | Manchester City (Minjori) | ✘ | — | — | In play | — |
-| 10-28 03:40 | ITF Men's Match | Reece Falck | ✘ | — | — | In play | — |
-| 10-28 03:38 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | — | In play | — |
-| 10-28 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 03:37 | ITF Women's Match | Mio Mushika | ✘ | — | — | In play | — |
+| 10-28 03:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 03:51 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
+| 10-28 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 03:50 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-28 03:50 | eSoccer Game | Dortmund (Declan) | ✘ | — | — | In play | — |
+| 10-28 03:50 | eSoccer Game | Leverkusen (Luis) | ✘ | — | — | In play | — |
+| 10-28 03:49 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 10-28 03:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 03:42 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:42 | eSoccer Game | Manchester City (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:40 | ITF Men's Match | Reece Falck | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:38 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:37 | ITF Women's Match | Mio Mushika | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:36 | NHL Game | Utah | ✔ | 8:16 - 3rd · MIN 3 - UTA 0 | — | In play | — |
-| 10-28 03:36 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | — | In play | — |
-| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 03:35 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
-| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 03:34 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 10-28 03:36 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:35 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:34 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:27 | eBasketball Game | Brooklyn Nets (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:27 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,14 +360,6 @@
 | 10-28 03:22 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:20 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:18 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:14 | eFootball Game | Kansas City (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:13 | ITF Women's Match | Chia Yi Tsao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:12 | ITF Women's Match | Jessica Marmorstein | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:11 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:11 | eSoccer Game | Everton (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
