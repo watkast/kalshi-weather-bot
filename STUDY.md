@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 10:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 10:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35665 | 2086 | 8 (0%) | 1.1% | -$200.90 (-64%) | Hold to the end: -$200.90 (-64%) |
+| 35669 | 2086 | 8 (0%) | 1.1% | -$200.90 (-64%) | Hold to the end: -$200.90 (-64%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2086 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 33565 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 33571 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15787 | 7 | 1% | 0% | -96% | -99% | 3 min |
+| eSoccer Game | ✘ | 15793 | 7 | 1% | 0% | -96% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1776 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1553 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -330,15 +330,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-28 04:04 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 10-28 04:08 | ITF Men's Match | Casey Hoole | ✘ | — | — | In play | — |
+| 10-28 04:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 04:06 | eSoccer Game | Leverkusen (Luis) | ✘ | — | — | In play | — |
+| 10-28 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 04:04 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:03 | NHL Game | Vancouver | ✔ | 15:37 - 3rd · VAN 1 - ANA 4 | — | In play | — |
-| 10-28 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 04:03 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 10-28 04:03 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | — | In play | — |
+| 10-28 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:03 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 04:03 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 04:02 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
 | 10-28 03:59 | eFootball Game | Atlanta (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 03:55 | eSoccer Game | Everton (Minjori) | ✘ | — | — | In play | — |
+| 10-28 03:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 03:55 | eSoccer Game | Everton (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:51 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -356,10 +360,6 @@
 | 10-28 03:36 | NHL Game | Utah | ✔ | 8:16 - 3rd · MIN 3 - UTA 0 | 2¢ | ❌ Lost | -$0.15 |
 | 10-28 03:36 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:35 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 03:34 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
