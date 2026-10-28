@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Oct 27, 8:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Oct 27, 8:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 35553 | 2074 | 8 (0%) | 1.1% | -$199.10 (-64%) | Hold to the end: -$199.10 (-64%) |
+| 35561 | 2074 | 8 (0%) | 1.1% | -$199.10 (-64%) | Hold to the end: -$199.10 (-64%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2074 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 33466 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 33473 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 15715 | 7 | 1% | 0% | -96% | -99% | 3 min |
+| eSoccer Game | ✘ | 15719 | 7 | 1% | 0% | -96% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1774 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1547 | 2 | 2% | 0% | -88% | -91% | 2 min |
+| eBasketball Game | ✘ | 1549 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1253 | 6 | 13% | 5% | -55% | -77% | 4 min |
 | Counter-Strike 2 Game | ✘ | 1145 | 2 | 5% | 3% | -84% | -91% | 11 min |
 | ITF Men's Match | ✘ | 1131 | 1 | 13% | 6% | -92% | -78% | 5 min |
 | Challenger ATP  | ✘ | 742 | 2 | 11% | 4% | -75% | -82% | 5 min |
-| eFootball Game | ✘ | 338 | 2 | 1% | 1% | -45% | -98% | 2 min |
+| eFootball Game | ✘ | 339 | 2 | 1% | 1% | -45% | -98% | 2 min |
 | College Football Game | partly | 333 | 2 | 11% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 289 | 0 | 0% | 0% | -100% | -99% | 8 min |
@@ -330,9 +330,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-28 02:00 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | — | In play | — |
-| 10-28 01:59 | eSoccer Game | São Paulo (Declan) | ✘ | — | — | In play | — |
-| 10-28 01:59 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
+| 10-28 02:07 | Challenger WTA | Alice Rame | ✘ | — | — | In play | — |
+| 10-28 02:07 | ITF Women's Match | Yuhan Liu | ✘ | — | — | In play | — |
+| 10-28 02:06 | eSoccer Game | Everton (Arkon) | ✘ | — | — | In play | — |
+| 10-28 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 02:02 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 02:02 | eFootball Game | New England (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 02:02 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 02:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 02:00 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 01:59 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 01:59 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 01:56 | NBA Game | Brooklyn | ✔ | 13.3 - 4th · BKN 111 - BOS 115 | — | In play | — |
 | 10-28 01:53 | College Football Game | Western Kentucky | ✔ | 3:58 - 4th · DEL 35 - WKU 21 | — | In play | — |
 | 10-28 01:50 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,14 +360,6 @@
 | 10-28 01:31 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:30 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:30 | ITF Men's Match | Sebastian Arevalo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:27 | Liga Nacional de Basquetbol Game | San Martin Corrientes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:20 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:19 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 01:19 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
