@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 28, 9:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 28, 9:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 36420 | 2091 | 9 (0%) | 1.1% | -$187.65 (-60%) | Hold to the end: -$187.65 (-60%) |
+| 36429 | 2091 | 9 (0%) | 1.1% | -$187.65 (-60%) | Hold to the end: -$187.65 (-60%) |
 
 *In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2091 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 34313 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 34322 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 16224 | 8 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1842 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1595 | 2 | 2% | 1% | -88% | -91% | 2 min |
+| eSoccer Game | ✘ | 16228 | 8 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1844 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1597 | 2 | 2% | 1% | -88% | -91% | 2 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Women's Match | ✘ | 1293 | 6 | 13% | 5% | -57% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1210 | 1 | 13% | 5% | -92% | -78% | 5 min |
@@ -111,7 +111,7 @@
 | Men's T20 Cricket Match | ✘ | 259 | 1 | 14% | 5% | -64% | -76% | 22 min |
 | Women's College Volleyball Match | ✘ | 256 | 2 | 5% | 3% | -27% | -91% | 72 min |
 | Serie C Game | ✘ | 236 | 2 | 4% | 2% | -21% | -93% | 6 min |
-| Dota 2 Game | ✘ | 231 | 0 | 1% | 1% | -100% | -98% | 30 min |
+| Dota 2 Game | ✘ | 232 | 0 | 1% | 1% | -100% | -99% | 30 min |
 | Challenger WTA | ✘ | 207 | 0 | 13% | 4% | -100% | -78% | 8 min |
 | NHL Game | ✔ | 198 | 1 | 12% | 6% | -53% | -80% | 4 min |
 | League of Legends Game | ✘ | 152 | 0 | 7% | 2% | -100% | -89% | 11 min |
@@ -330,13 +330,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-28 15:14 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | — | In play | — |
-| 10-28 15:13 | eSoccer Game | Strasbourg (Antonio) | ✘ | — | — | In play | — |
-| 10-28 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 15:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 15:12 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-28 15:21 | Counter-Strike 2 Game | Fortress | ✘ | — | — | In play | — |
+| 10-28 15:19 | Russia Liga Pro Match | Ippolitov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 15:17 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | — | In play | — |
+| 10-28 15:16 | eSoccer Game | Olympique Lyon (Niskanen15) | ✘ | — | — | In play | — |
+| 10-28 15:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 15:16 | Russia Liga Pro Match | Chekanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:14 | eSoccer Game | Manchester City (Thea) | ✘ | — | — | In play | — |
+| 10-28 15:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 15:14 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:13 | eSoccer Game | Strasbourg (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 15:12 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:10 | Challenger WTA | Lourdes Ayala | ✘ | — | — | In play | — |
-| 10-28 15:08 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | — | In play | — |
+| 10-28 15:08 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:07 | Challenger ATP  | Filippo Romano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:03 | eSoccer Game | Hoffenheim (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:03 | eSoccer Game | FC Koln (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -346,20 +355,11 @@
 | 10-28 15:00 | ITF Men's Match | Alexis Canter | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:00 | eSoccer Game | Spurs (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 15:00 | eSoccer Game | Everton (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 15:00 | Dota 2 Game | Level Up Academy | ✘ | — | — | In play | — |
+| 10-28 15:00 | Dota 2 Game | Level Up Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 14:59 | Russia Liga Pro Match | Tolmachev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 14:59 | eSoccer Game | Toulouse FC (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:58 | ITF Men's Match | Maximilian Marterer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:57 | ITF Women's Match | Sophia Biolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:53 | ITF Men's Match | Andrea Bacaloni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:53 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-28 14:52 | eFootball Game | Buffalo (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:51 | ITF Women's Match | Arina Kostina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:48 | ITF Women's Match | Francesca Parcelli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 14:48 | Greek Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
