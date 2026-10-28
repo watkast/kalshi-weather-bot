@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-10-28T02:57:55+00:00",
+ "saved_at": "2026-10-28T03:08:09+00:00",
  "series": 33,
  "markets_watched": 22,
  "batch_lookup": true,
- "bets": 35444,
- "open": 7,
+ "bets": 35451,
+ "open": 1,
  "coinbase_spot": {
   "NEAR": true,
   "HYPE": true,
