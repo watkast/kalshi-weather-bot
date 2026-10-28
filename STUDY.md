@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 28, 4:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 28, 4:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37059 | 2111 | 9 (0%) | 1.1% | -$190.65 (-60%) | Hold to the end: -$190.65 (-60%) |
+| 37076 | 2111 | 9 (0%) | 1.1% | -$190.65 (-60%) | Hold to the end: -$190.65 (-60%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2111 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 34923 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 34934 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 16476 | 8 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1887 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1621 | 2 | 2% | 0% | -88% | -91% | 2 min |
+| eSoccer Game | ✘ | 16482 | 8 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1888 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1622 | 2 | 2% | 0% | -88% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1341 | 6 | 13% | 6% | -58% | -77% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1238 | 1 | 13% | 5% | -92% | -78% | 5 min |
@@ -141,9 +141,9 @@
 | EFL Championship Game | ✔ | 78 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | National League Game | ✘ | 77 | 1 | 1% | 1% | +21% | -98% | 5 min |
 | Valorant game winner | ✘ | 76 | 0 | 5% | 3% | -100% | -91% | 14 min |
+| EuroCup Basketball Game | ✘ | 76 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Serie B Game | ✘ | 76 | 0 | 14% | 7% | -100% | -75% | 9 min |
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
-| EuroCup Basketball Game | ✘ | 75 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | College Hockey Game | ✘ | 75 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Chinese Basketball Association Game  | ✘ | 75 | 0 | 8% | 1% | -100% | -86% | 10 min |
 | Serie A Game | ✔ | 74 | 0 | 8% | 5% | -100% | -86% | 12 min |
@@ -270,12 +270,12 @@
 | Liga Nacional de Basquetbol Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | French Women's Première Ligue Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 6 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
+| EFL Cup Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 14 min |
 | Coppa Italia Lega Pro Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Polish Hockey Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 6 min |
 | EuroLeague (W) Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Greek Cup Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 10 min |
-| EFL Cup Game | ✘ | 12 | 0 | 17% | 0% | -100% | -71% | 12 min |
 | Malaysia Super League Game | ✘ | 11 | 0 | 18% | 0% | -100% | -68% | 9 min |
 | Colombia LBP Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Philippines PBA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -331,36 +331,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-28 22:21 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | — | In play | — |
+| 10-28 22:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 22:20 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:19 | ITF Men's Match | Kriish Tyagi | ✘ | — | — | In play | — |
+| 10-28 22:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 22:19 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
+| 10-28 22:18 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | — | In play | — |
+| 10-28 22:18 | Counter-Strike 2 Game | Hermine Esports Club | ✘ | — | — | In play | — |
+| 10-28 22:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 22:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 10-28 22:16 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 10-28 22:16 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | — | In play | — |
+| 10-28 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 22:15 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:15 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:13 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:13 | ITF Men's Match | Alex Rybakov | ✘ | — | — | In play | — |
 | 10-28 22:12 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
 | 10-28 22:11 | ITF Men's Match | Neo Niedner | ✘ | — | — | In play | — |
-| 10-28 22:09 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | — | In play | — |
-| 10-28 22:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-28 22:06 | EuroCup Basketball Game | Reyer Venezia | ✘ | — | — | In play | — |
-| 10-28 22:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-28 22:09 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:06 | EuroCup Basketball Game | Reyer Venezia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 22:04 | eSoccer Game | River Plate (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 22:01 | eSoccer Game | Chelsea (Kate) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-28 22:01 | eSoccer Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 10-28 22:00 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 10-28 22:00 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-28 21:57 | ITF Women's Match | Ariana Arseneault | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:53 | EFL Cup Game | Liverpool | ✘ | — | — | In play | — |
-| 10-28 21:53 | Scottish Premiership Game | Heart of Midlothian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:53 | Scottish Premiership Game | Rangers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:53 | EFL Cup Game | Chelsea | ✘ | — | — | In play | — |
-| 10-28 21:52 | KNVB Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:51 | eBasketball Game | New Orleans Pelicans (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:51 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:51 | ITF Women's Match | Mia Kupres | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:50 | ITF Women's Match | Sophie Williams | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-28 21:50 | ITF Women's Match | Martina Okalova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:49 | Counter-Strike 2 Game | Envy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:46 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:46 | eSoccer Game | Paris Saint-Germain (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:46 | Russia Liga Pro Match | Kuznetsov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-28 21:44 | eFootball Game | New England (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-28 21:53 | EFL Cup Game | Liverpool | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
