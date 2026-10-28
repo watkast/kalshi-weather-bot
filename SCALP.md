@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Wed Oct 28 03:55 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Wed Oct 28 04:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,53 +10,53 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 37529 | 32758 | 4771 (45) | 8 | $-10486.27 | -4.4% |
-| **+10¢** | 28020 | 22496 | 5524 (67) | 8 | $-9353.17 | -5.3% |
-| **+15¢** | 23440 | 17509 | 5931 (91) | 8 | $-8309.20 | -5.6% |
-| **+20¢** | 20778 | 14569 | 6209 (116) | 8 | $-7287.98 | -5.6% |
-| **+10¢ (15¢ stop)** | 45973 | 45908 | 65 (34) | 1 | $-17497.15 | -6.1% |
+| **+5¢** | 37541 | 32762 | 4779 (45) | 6 | $-10533.25 | -4.5% |
+| **+10¢** | 28032 | 22500 | 5532 (67) | 6 | $-9398.74 | -5.3% |
+| **+15¢** | 23450 | 17511 | 5939 (91) | 8 | $-8356.41 | -5.7% |
+| **+20¢** | 20787 | 14570 | 6217 (116) | 9 | $-7335.30 | -5.6% |
+| **+10¢ (15¢ stop)** | 45983 | 45918 | 65 (34) | 6 | $-17498.68 | -6.1% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
-| 10-28 03:53 | +10 stop | ZEC | DOWN | 0.58 | open |  |
-| 10-28 03:52 | +10 stop | NEAR | UP | 0.59 | 0.41 | -2.14 |
-| 10-28 03:52 | +10 | NEAR | UP | 0.59 | open |  |
-| 10-28 03:52 | +5 | NEAR | UP | 0.59 | open |  |
-| 10-28 03:52 | +5 | ZEC | UP | 0.60 | open |  |
-| 10-28 03:51 | +10 stop | DOGE | DOWN | 0.58 | 0.70 | 0.89 |
-| 10-28 03:50 | +5 | ZEC | UP | 0.63 | 0.70 | 0.38 |
-| 10-28 03:50 | +10 stop | BNB | DOWN | 0.60 | 0.76 | 1.30 |
-| 10-28 03:49 | +10 stop | ZEC | UP | 0.61 | 0.44 | -2.06 |
-| 10-28 03:49 | +15 | ZEC | UP | 0.61 | open |  |
-| 10-28 03:49 | +10 | ZEC | UP | 0.61 | open |  |
-| 10-28 03:49 | +5 | ZEC | UP | 0.61 | 0.67 | 0.27 |
-| 10-28 03:49 | +10 stop | ETH | DOWN | 0.65 | 0.80 | 1.22 |
-| 10-28 03:48 | +10 stop | DOGE | DOWN | 0.60 | 0.70 | 0.68 |
-| 10-28 03:48 | +10 stop | NEAR | DOWN | 0.54 | 0.24 | -3.31 |
-| 10-28 03:48 | +10 stop | XRP | DOWN | 0.68 | 0.78 | 0.71 |
-| 10-28 03:48 | +10 stop | SOL | DOWN | 0.71 | 0.82 | 0.84 |
-| 10-28 03:47 | +10 stop | BTC | DOWN | 0.66 | 0.50 | -1.94 |
-| 10-28 03:47 | +10 stop | ZEC | UP | 0.54 | 0.69 | 1.17 |
-| 10-28 03:47 | +20 | ZEC | UP | 0.54 | open |  |
-| 10-28 03:47 | +15 | ZEC | UP | 0.54 | 0.69 | 1.17 |
-| 10-28 03:47 | +10 | ZEC | UP | 0.54 | 0.69 | 1.17 |
-| 10-28 03:47 | +5 | ZEC | UP | 0.53 | 0.69 | 1.27 |
-| 10-28 03:47 | +5 | BNB | UP | 0.67 | open |  |
-| 10-28 03:46 | +10 stop | BTC | UP | 0.61 | 0.43 | -2.15 |
-| 10-28 03:46 | +20 | BTC | UP | 0.61 | open |  |
-| 10-28 03:46 | +15 | BTC | UP | 0.61 | open |  |
-| 10-28 03:46 | +10 | BTC | UP | 0.61 | open |  |
-| 10-28 03:46 | +5 | BTC | UP | 0.61 | open |  |
-| 10-28 03:46 | +10 stop | ETH | UP | 0.62 | 0.44 | -2.15 |
-| 10-28 03:46 | +20 | ETH | UP | 0.62 | open |  |
-| 10-28 03:46 | +15 | ETH | UP | 0.62 | open |  |
-| 10-28 03:46 | +10 | ETH | UP | 0.62 | open |  |
-| 10-28 03:46 | +5 | ETH | UP | 0.62 | open |  |
-| 10-28 03:46 | +10 stop | NEAR | UP | 0.61 | 0.46 | -1.85 |
-| 10-28 03:46 | +20 | NEAR | UP | 0.61 | open |  |
-| 10-28 03:46 | +15 | NEAR | UP | 0.61 | open |  |
-| 10-28 03:46 | +10 | NEAR | UP | 0.61 | 0.73 | 0.89 |
-| 10-28 03:46 | +5 | NEAR | UP | 0.61 | 0.73 | 0.89 |
-| 10-28 03:46 | +10 stop | DOGE | UP | 0.60 | 0.45 | -1.85 |
+| 10-28 04:05 | +10 stop | SOL | UP | 0.60 | open |  |
+| 10-28 04:05 | +10 stop | ZEC | DOWN | 0.55 | open |  |
+| 10-28 04:05 | +10 stop | BNB | DOWN | 0.64 | open |  |
+| 10-28 04:03 | +10 stop | BTC | DOWN | 0.65 | open |  |
+| 10-28 04:03 | +10 stop | NEAR | DOWN | 0.63 | 0.73 | 0.69 |
+| 10-28 04:03 | +20 | NEAR | DOWN | 0.63 | open |  |
+| 10-28 04:03 | +15 | NEAR | DOWN | 0.63 | open |  |
+| 10-28 04:03 | +10 | NEAR | DOWN | 0.63 | 0.73 | 0.69 |
+| 10-28 04:03 | +5 | NEAR | DOWN | 0.63 | 0.70 | 0.38 |
+| 10-28 04:03 | +10 stop | DOGE | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +20 | DOGE | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +15 | DOGE | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +10 | DOGE | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +5 | DOGE | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +10 stop | ETH | DOWN | 0.62 | 0.72 | 0.68 |
+| 10-28 04:03 | +20 | ETH | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +15 | ETH | DOWN | 0.62 | open |  |
+| 10-28 04:03 | +10 | ETH | DOWN | 0.62 | 0.72 | 0.68 |
+| 10-28 04:03 | +5 | ETH | DOWN | 0.62 | 0.72 | 0.68 |
+| 10-28 04:02 | +10 stop | ZEC | UP | 0.57 | 0.39 | -2.14 |
+| 10-28 04:02 | +20 | ZEC | UP | 0.55 | open |  |
+| 10-28 04:02 | +15 | ZEC | UP | 0.55 | open |  |
+| 10-28 04:02 | +10 | ZEC | UP | 0.55 | open |  |
+| 10-28 04:02 | +5 | ZEC | UP | 0.55 | open |  |
+| 10-28 04:02 | +10 stop | HYPE | DOWN | 0.66 | 0.82 | 1.33 |
+| 10-28 04:02 | +20 | HYPE | DOWN | 0.66 | open |  |
+| 10-28 04:02 | +15 | HYPE | DOWN | 0.66 | 0.82 | 1.33 |
+| 10-28 04:02 | +10 | HYPE | DOWN | 0.66 | 0.82 | 1.33 |
+| 10-28 04:02 | +5 | HYPE | DOWN | 0.66 | 0.74 | 0.50 |
+| 10-28 04:02 | +10 stop | BNB | UP | 0.57 | 0.37 | -2.35 |
+| 10-28 04:02 | +20 | BNB | UP | 0.57 | open |  |
+| 10-28 04:02 | +15 | BNB | UP | 0.57 | open |  |
+| 10-28 04:02 | +10 | BNB | UP | 0.57 | open |  |
+| 10-28 04:02 | +5 | BNB | UP | 0.57 | open |  |
+| 10-28 04:01 | +10 stop | XRP | UP | 0.63 | open |  |
+| 10-28 04:01 | +20 | XRP | UP | 0.63 | open |  |
+| 10-28 04:01 | +15 | XRP | UP | 0.63 | open |  |
+| 10-28 04:01 | +10 | XRP | UP | 0.63 | open |  |
+| 10-28 04:01 | +5 | XRP | UP | 0.63 | open |  |
+| 10-28 04:01 | +10 stop | SOL | UP | 0.70 | 0.53 | -2.03 |
