@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 11:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 12:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38097 | 2161 | 9 (0%) | 1.1% | -$198.15 (-61%) | Hold to the end: -$198.15 (-61%) |
+| 38104 | 2161 | 9 (0%) | 1.1% | -$198.15 (-61%) | Hold to the end: -$198.15 (-61%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2161 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 35915 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 35923 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17114 | 9 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1971 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 17118 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1972 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1683 | 3 | 2% | 1% | -83% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1363 | 6 | 14% | 6% | -59% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1279 | 1 | 13% | 5% | -93% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1201 | 2 | 5% | 3% | -84% | -91% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1202 | 2 | 5% | 3% | -84% | -91% | 11 min |
 | Challenger ATP  | ✘ | 764 | 2 | 11% | 4% | -76% | -82% | 5 min |
 | eFootball Game | ✘ | 389 | 2 | 1% | 1% | -52% | -99% | 2 min |
 | College Football Game | partly | 337 | 2 | 12% | 6% | -45% | -80% | 23 min |
@@ -270,11 +270,11 @@
 | Ligue Magnus Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Coppa Italia Lega Pro Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | French Women's Première Ligue Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 6 min |
+| Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
 | EFL Cup Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 14 min |
 | Polish Hockey Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 6 min |
 | EuroLeague (W) Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Greek Cup Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 10 min |
 | Malaysia Super League Game | ✘ | 11 | 0 | 18% | 0% | -100% | -68% | 9 min |
 | Colombia LBP Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 20 min |
@@ -331,13 +331,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 17:50 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | — | In play | — |
-| 10-29 17:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 18:02 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | — | In play | — |
+| 10-29 18:02 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | — | In play | — |
+| 10-29 18:02 | ITF Women's Match | Kayla Cross | ✘ | — | — | In play | — |
+| 10-29 18:01 | eSoccer Game | Everton (Danny) | ✘ | — | — | In play | — |
+| 10-29 18:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 18:00 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | — | In play | — |
+| 10-29 17:58 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 17:50 | eSoccer Game | Manchester Utd (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 17:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 17:49 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:49 | Counter-Strike 2 Game | Arena Pro | ✘ | — | — | In play | — |
-| 10-29 17:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-29 17:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 17:43 | Greek Cup Game | Tie | ✘ | — | — | In play | — |
+| 10-29 17:49 | Counter-Strike 2 Game | Arena Pro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 17:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 17:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 17:43 | Greek Cup Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-29 17:42 | eFootball Game | Chicago (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 17:42 | Counter-Strike 2 Game | Winx | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 17:42 | Challenger ATP  | Rodrigo Pacheco Mendez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -354,13 +361,6 @@
 | 10-29 17:33 | eSoccer Game | Newcastle Utd (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 17:32 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 17:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:31 | ITF Women's Match | Melissa Boyden | ✘ | — | — | In play | — |
-| 10-29 17:28 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:28 | ITF Men's Match | Aidan Mchugh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:28 | ITF Men's Match | Tito Chavez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:28 | ITF Women's Match | Clervie Ngounoue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:25 | Darts Match | Daniel Ayres | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 17:22 | Russia Liga Pro Match | Matveev Igor | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
