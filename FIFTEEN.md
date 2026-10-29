@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 29, 5:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 29, 5:11 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37699 | 37689 | 140 (0%) | 1.07% | -$2,640.20 (-57%) | Hold to the close: -$2,640.20 (-57%) |
+| 37703 | 37689 | 140 (0%) | 1.07% | -$2,640.20 (-57%) | Hold to the close: -$2,640.20 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/29 5:10:07 AM | SILVER | DOWN | 4.9 min | — | — | In play | — |
+| 10/29 5:09:35 AM | GOLD | DOWN | 5.4 min | — | — | In play | — |
+| 10/29 5:09:03 AM | AUDUSD | DOWN | 5.9 min | — | — | In play | — |
+| 10/29 5:08:47 AM | USDCAD | UP | 6.2 min | — | — | In play | — |
 | 10/29 4:59:32 AM | BNB | DOWN | 28 sec | -0.015% | 0¢ | ❌ Lost | -$0.15 |
 | 10/29 4:59:32 AM | ZEC | UP | 28 sec | -0.075% | 0¢ | ❌ Lost | $0.00 |
 | 10/29 4:59:32 AM | COPPER | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,10 +218,6 @@
 | 10/29 4:44:28 AM | PLATINUM | DOWN | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/29 4:44:28 AM | SILVER | DOWN | 32 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/29 4:44:28 AM | 30YRRATE | DOWN | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/29 4:44:28 AM | USDJPY | DOWN | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/29 4:43:23 AM | BNB | DOWN | 1.6 min | +0.097% | 1¢ | ❌ Lost | -$0.15 |
-| 10/29 4:43:08 AM | PALLADIUM | DOWN | 1.9 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/29 4:43:08 AM | XRP | DOWN | 1.9 min | +0.155% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
