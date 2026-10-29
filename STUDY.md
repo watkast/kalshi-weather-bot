@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 2:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 2:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38326 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
+| 38356 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2163 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 36124 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36135 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17206 | 9 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1987 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1692 | 3 | 2% | 1% | -83% | -92% | 2 min |
+| eSoccer Game | ✘ | 17212 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1988 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1693 | 3 | 2% | 1% | -83% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1375 | 6 | 14% | 6% | -59% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1287 | 1 | 13% | 5% | -93% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1215 | 2 | 5% | 3% | -85% | -91% | 11 min |
-| Challenger ATP  | ✘ | 767 | 2 | 11% | 4% | -76% | -82% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1216 | 2 | 5% | 3% | -85% | -91% | 11 min |
+| Challenger ATP  | ✘ | 768 | 2 | 11% | 4% | -76% | -82% | 5 min |
 | eFootball Game | ✘ | 393 | 2 | 1% | 1% | -53% | -99% | 2 min |
 | College Football Game | partly | 337 | 2 | 12% | 6% | -45% | -80% | 23 min |
 | Darts Match | ✘ | 333 | 0 | 0% | 0% | -100% | -99% | 7 min |
@@ -160,7 +160,7 @@
 | Uruguay Primera Division Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 66 | 0 | 5% | 5% | -100% | -92% | 85 min |
 | Indonesia Super League Game | ✘ | 66 | 0 | 15% | 9% | -100% | -74% | 9 min |
-| SHL Game | ✘ | 64 | 0 | 3% | 3% | -100% | -95% | 6 min |
+| SHL Game | ✘ | 65 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | Liga Expansion Game | ✘ | 63 | 0 | 5% | 3% | -100% | -92% | 11 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Saudi Pro League Game | ✘ | 63 | 1 | 16% | 10% | +48% | -72% | 14 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 20:43 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-29 20:42 | Copa Del Rey Game | Reg Time: Laredo | ✘ | — | — | In play | — |
-| 10-29 20:39 | Challenger ATP  | Laslo Djere | ✘ | — | — | In play | — |
-| 10-29 20:37 | KNVB Cup Game | Reg Time: Nijkerk | ✘ | — | — | In play | — |
-| 10-29 20:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 20:36 | eSoccer Game | Paris Saint-Germain (Kovboj) | ✘ | — | — | In play | — |
-| 10-29 20:35 | Champions League Women's Game | Tie | ✘ | — | — | In play | — |
-| 10-29 20:35 | KNVB Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-29 20:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 20:34 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-29 20:34 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-29 20:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 20:34 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 10-29 20:33 | Challenger ATP  | Alex Hernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:32 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:32 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:31 | Counter-Strike 2 Game | Tactical Chaos | ✘ | — | — | In play | — |
-| 10-29 20:31 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:30 | ITF Women's Match | Nahia Berecoechea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:30 | ITF Men's Match | Sean Daryabeigi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:29 | Copa Del Rey Game | Reg Time: Aguilas | ✘ | — | — | In play | — |
-| 10-29 20:28 | SHL Game | Linkoping HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:27 | Counter-Strike 2 Game | Revise | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:25 | ITF Men's Match | Noah Johnston | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-29 20:25 | Counter-Strike 2 Game | The Chosen Few | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:25 | Copa Del Rey Game | Reg Time: Guijuelo | ✘ | — | — | In play | — |
-| 10-29 20:24 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:24 | SHL Game | Frolunda HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 20:23 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 10-29 20:22 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:53 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:52 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | — | In play | — |
+| 10-29 20:52 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:52 | KNVB Cup Game | Reg Time: Gemert | ✘ | — | — | In play | — |
+| 10-29 20:52 | KNVB Cup Game | Reg Time: Vpv Purmersteijn | ✘ | — | — | In play | — |
+| 10-29 20:51 | Copa Del Rey Game | Reg Time: CD Covadonga | ✘ | — | — | In play | — |
+| 10-29 20:51 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:50 | Challenger ATP  | Valentin Royer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:50 | Copa Del Rey Game | Reg Time: Avila | ✘ | — | — | In play | — |
+| 10-29 20:50 | Copa Del Rey Game | Reg Time: Salamanca | ✘ | — | — | In play | — |
+| 10-29 20:50 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | — | In play | — |
+| 10-29 20:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:50 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:49 | KNVB Cup Game | Reg Time: Heracles Almelo | ✘ | — | — | In play | — |
+| 10-29 20:49 | Counter-Strike 2 Game | TYLOO | ✘ | — | — | In play | — |
+| 10-29 20:49 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 10-29 20:48 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:47 | KNVB Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:47 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
+| 10-29 20:47 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:47 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
+| 10-29 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:46 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 10-29 20:46 | SHL Game | HV71 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:45 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-29 20:45 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 10-29 20:45 | KNVB Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
