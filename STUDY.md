@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 2:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 2:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38255 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
+| 38274 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2163 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 36069 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36078 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17182 | 9 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1984 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 17186 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1985 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1690 | 3 | 2% | 1% | -83% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1373 | 6 | 14% | 6% | -59% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1284 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1210 | 2 | 5% | 3% | -85% | -91% | 11 min |
 | Challenger ATP  | ✘ | 766 | 2 | 11% | 4% | -76% | -82% | 5 min |
-| eFootball Game | ✘ | 392 | 2 | 1% | 1% | -52% | -99% | 2 min |
+| eFootball Game | ✘ | 393 | 2 | 1% | 1% | -53% | -99% | 2 min |
 | College Football Game | partly | 337 | 2 | 12% | 6% | -45% | -80% | 23 min |
 | Darts Match | ✘ | 333 | 0 | 0% | 0% | -100% | -99% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -156,14 +156,14 @@
 | Euroleague Game | ✘ | 69 | 0 | 23% | 7% | -100% | -60% | 14 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | ELH Game | ✘ | 68 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| Peru Liga 1 Game | ✘ | 68 | 0 | 15% | 6% | -100% | -75% | 13 min |
 | Uruguay Primera Division Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 66 | 0 | 5% | 5% | -100% | -92% | 85 min |
-| Peru Liga 1 Game | ✘ | 66 | 0 | 15% | 6% | -100% | -74% | 14 min |
 | Indonesia Super League Game | ✘ | 66 | 0 | 15% | 9% | -100% | -74% | 9 min |
 | Liga Expansion Game | ✘ | 63 | 0 | 5% | 3% | -100% | -92% | 11 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
+| Saudi Pro League Game | ✘ | 63 | 1 | 16% | 10% | +48% | -72% | 14 min |
 | Tweede Divisie Game | ✘ | 62 | 0 | 2% | 0% | -100% | -97% | 5 min |
-| Saudi Pro League Game | ✘ | 62 | 1 | 16% | 10% | +51% | -72% | 14 min |
 | Allsvenskan Game | ✘ | 61 | 1 | 16% | 11% | +53% | -72% | 10 min |
 | La Liga Game | ✔ | 60 | 0 | 22% | 15% | -100% | -62% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -331,36 +331,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 20:02 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
-| 10-29 20:01 | eFootball Game | Los Angeles (Joey) | ✘ | — | — | In play | — |
+| 10-29 20:13 | Counter-Strike 2 Game | Spirit HU | ✘ | — | — | In play | — |
+| 10-29 20:12 | SHL Game | Växjö Lakers | ✘ | — | — | In play | — |
+| 10-29 20:12 | SHL Game | Rogle BK | ✘ | — | — | In play | — |
+| 10-29 20:10 | ITF Men's Match | Andrew Johnson | ✘ | — | — | In play | — |
+| 10-29 20:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:09 | Copa Del Rey Game | Reg Time: Prat | ✘ | — | — | In play | — |
+| 10-29 20:07 | SHL Game | IF Bjorkloven | ✘ | — | — | In play | — |
+| 10-29 20:06 | eSoccer Game | Nottingham Forest (Danny) | ✘ | — | — | In play | — |
+| 10-29 20:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:06 | Russia Liga Pro Match | Blinov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:06 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | — | In play | — |
+| 10-29 20:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 20:06 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | — | In play | — |
+| 10-29 20:06 | EuroLeague (W) Game | Vilniaus Kibirkštis-MRU | ✘ | — | — | In play | — |
+| 10-29 20:04 | Champions League Women's Game | Koege | ✘ | — | — | In play | — |
+| 10-29 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:04 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 10-29 20:04 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:02 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 20:01 | eFootball Game | Los Angeles (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 20:00 | EuroLeague (W) Game | Kangoeroes Basket Mechelen | ✘ | — | — | In play | — |
-| 10-29 19:59 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | — | In play | — |
+| 10-29 19:59 | Peru Liga 1 Game | Los Chankas CYC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 19:57 | Counter-Strike 2 Game | Inner Circle Prospect | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 19:56 | Russia Liga Pro Match | Razinkov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 19:55 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:55 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | — | In play | — |
-| 10-29 19:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 19:55 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 19:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 19:54 | Allsvenskan Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 19:54 | Russia Liga Pro Match | Pinkovskii Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Brighton (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | Saudi Pro League Game | Al-Kholood | ✘ | — | — | In play | — |
-| 10-29 19:53 | Saudi Pro League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | Copa Del Rey Game | Reg Time: Varea | ✘ | — | — | In play | — |
-| 10-29 19:53 | Copa Del Rey Game | Reg Time: Atletico Baleares | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | Copa Del Rey Game | Reg Time: Coria | ✘ | — | — | In play | — |
-| 10-29 19:53 | Copa Del Rey Game | Reg Time: San Sebastian Reyes | ✘ | — | — | In play | — |
-| 10-29 19:53 | Allsvenskan Game | Orgryte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 19:53 | KNVB Cup Game | Reg Time: Rohda Raalte | ✘ | — | — | In play | — |
-| 10-29 19:31 | Copa Del Rey Game | Reg Time: UB Lebrijana | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-29 19:31 | Copa Del Rey Game | Reg Time: Auriense Cented Academy | ✘ | — | — | In play | — |
 
 ## Raw data
 
