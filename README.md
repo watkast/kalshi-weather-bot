@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Thu Oct 29, 1:00 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Thu Oct 29, 4:07 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -21,7 +21,7 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 608 | 572 | 36% | -$322.57 | -13.6% | 36 | Losing |
-| **Rain** | 159 | 151 | 36% | $33.30 | +6.4% | 8 | Promising |
+| **Rain** | 163 | 151 | 36% | $33.30 | +6.4% | 12 | Promising |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -59,16 +59,16 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-10-30 | SEA | NO | 22¢ | 50% | Open | — |
+| 2026-10-30 | LAX | NO | 58¢ | 76% | Open | — |
+| 2026-10-30 | DAL | NO | 19¢ | 48% | Open | — |
+| 2026-10-30 | AUS | NO | 14¢ | 34% | Open | — |
 | 2026-10-29 | DAL | YES | 38¢ | 64% | Open | — |
 | 2026-10-29 | CHI | YES | 34¢ | 49% | Open | — |
 | 2026-10-29 | SATX | NO | 23¢ | 44% | Open | — |
 | 2026-10-29 | PHX | YES | 8¢ | 38% | Open | — |
 | 2026-10-29 | CLL | YES | 5¢ | 18% | Open | — |
 | 2026-10-29 | AUS | NO | 48¢ | 76% | Open | — |
-| 2026-10-28 | MIA | NO | 23¢ | 36% | Open | — |
-| 2026-10-28 | HOU | YES | 18¢ | 30% | Open | — |
-| 2026-10-27 | OKC | NO | 37¢ | 56% | NO | $6.13 |
-| 2026-10-27 | SEA | YES | 83¢ | 96% | YES | $1.60 |
 
 ## The bots
 
