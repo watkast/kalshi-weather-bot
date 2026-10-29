@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 28, 9:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 28, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37362 | 2149 | 9 (0%) | 1.1% | -$196.35 (-61%) | Hold to the end: -$196.35 (-61%) |
+| 37368 | 2149 | 9 (0%) | 1.1% | -$196.35 (-61%) | Hold to the end: -$196.35 (-61%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2149 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 35190 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 35200 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 16652 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 16659 | 9 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1907 | 0 | 0% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1639 | 2 | 2% | 0% | -89% | -91% | 2 min |
+| eBasketball Game | ✘ | 1641 | 2 | 2% | 0% | -89% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1344 | 6 | 14% | 6% | -58% | -77% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1243 | 1 | 13% | 5% | -92% | -78% | 5 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 336 | 2 | 12% | 6% | -44% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Darts Match | ✘ | 315 | 0 | 0% | 0% | -100% | -99% | 7 min |
-| Men's T20 Cricket Match | ✘ | 264 | 1 | 14% | 5% | -65% | -75% | 23 min |
+| Men's T20 Cricket Match | ✘ | 265 | 1 | 14% | 5% | -65% | -75% | 23 min |
 | Women's College Volleyball Match | ✘ | 257 | 2 | 5% | 3% | -27% | -91% | 72 min |
 | Serie C Game | ✘ | 238 | 2 | 4% | 2% | -22% | -93% | 6 min |
 | Dota 2 Game | ✘ | 236 | 0 | 1% | 1% | -100% | -99% | 30 min |
@@ -331,20 +331,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 02:57 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | — | In play | — |
-| 10-29 02:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 02:57 | eBasketball Game | Brooklyn Nets (Larry) | ✘ | — | — | In play | — |
-| 10-29 02:56 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
-| 10-29 02:56 | eSoccer Game | Universitario (Kevin) | ✘ | — | — | In play | — |
-| 10-29 02:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 02:55 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 10-29 03:10 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-29 03:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 03:09 | eSoccer Game | 1. FC Köln (Bradley) | ✘ | — | — | In play | — |
+| 10-29 03:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 03:08 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 10-29 03:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 02:57 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:57 | eBasketball Game | Brooklyn Nets (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:56 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:56 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 02:55 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:53 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 02:52 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | — | In play | — |
+| 10-29 02:52 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:52 | Liga DIMAYOR Game | Ind. Medellin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 10-29 02:51 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 02:51 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-29 02:51 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 10-29 02:47 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:45 | eSoccer Game | Chelsea (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,12 +361,6 @@
 | 10-29 02:39 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 02:38 | College Football Game | New Mexico St. | ✔ | 12:47 - 4th · JXST 17 - NMSU 0 | — | In play | — |
 | 10-29 02:38 | NHL Game | Calgary | ✔ | 18:44 - 3rd · CGY 0 - EDM 3 | — | In play | — |
-| 10-29 02:37 | NBA Game | Minnesota | ✔ | 1:04 - 4th · GS 116 - MIN 109 | 4¢ | ❌ Lost | -$0.15 |
-| 10-29 02:36 | Major League Soccer Game | Tie | ✔ | 90'+9' · RSL 2 - ATX 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 02:35 | NBA Game | Chicago | ✔ | 6.2 - 4th · NY 131 - CHI 127 | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 02:35 | Men's T20 Cricket Match | Toronto Nationals | ✘ | — | — | In play | — |
-| 10-29 02:35 | ITF Women's Match | Monique Barry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 02:34 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
