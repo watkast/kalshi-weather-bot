@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 3:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 3:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38410 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
+| 38422 | 2163 | 9 (0%) | 1.1% | -$198.45 (-61%) | Hold to the end: -$198.45 (-61%) |
 
 *In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2163 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 36215 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36227 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17243 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 17253 | 10 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 1992 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1695 | 3 | 2% | 1% | -83% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1377 | 6 | 14% | 6% | -59% | -76% | 4 min |
@@ -271,11 +271,11 @@
 | Polish Hockey Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 6 min |
 | EuroLeague (W) Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 18 min |
 | Ligue Magnus Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| EFL Cup Game | ✘ | 16 | 0 | 19% | 0% | -100% | -68% | 15 min |
 | Coppa Italia Lega Pro Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | French Women's Première Ligue Game | ✘ | 15 | 0 | 13% | 7% | -100% | -77% | 6 min |
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
-| EFL Cup Game | ✘ | 14 | 0 | 14% | 0% | -100% | -75% | 14 min |
 | Malaysia Super League Game | ✘ | 11 | 0 | 18% | 0% | -100% | -68% | 9 min |
 | Colombia LBP Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Philippines PBA Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -332,17 +332,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 21:33 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | — | In play | — |
-| 10-29 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 21:31 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
-| 10-29 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 21:31 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 10-29 21:29 | eSoccer Game | Everton (Rooney) | ✘ | — | — | In play | — |
-| 10-29 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 21:45 | Champions League Women's Game | PSG | ✔ | 85' · PSG 0 - MNC 0 | — | In play | — |
+| 10-29 21:44 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 10-29 21:44 | Russia Liga Pro Match | Olhovoi Evgenii | ✘ | — | — | In play | — |
+| 10-29 21:44 | eSoccer Game | Everton (Rooney) | ✘ | — | — | In play | — |
+| 10-29 21:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 21:42 | Counter-Strike 2 Game | Ducks | ✘ | — | — | In play | — |
+| 10-29 21:42 | KNVB Cup Game | Reg Time: Groningen | ✘ | — | — | In play | — |
+| 10-29 21:41 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | — | In play | — |
+| 10-29 21:41 | eFootball Game | New England (Pablo) | ✘ | — | — | In play | — |
+| 10-29 21:41 | Counter-Strike 2 Game | Low Cortisol | ✘ | — | — | In play | — |
+| 10-29 21:41 | Counter-Strike 2 Game | Team ACES | ✘ | — | — | In play | — |
+| 10-29 21:37 | Euroleague Game | Fenerbahce Istanbul | ✘ | — | — | In play | — |
+| 10-29 21:33 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:31 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:31 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:29 | eSoccer Game | Everton (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 21:28 | ITF Women's Match | Jenna DeFalco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:28 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 10-29 21:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 21:28 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 21:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 21:23 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 21:22 | Copa Del Rey Game | Reg Time: Tie | ✘ | — | — | In play | — |
 | 10-29 21:22 | eFootball Game | Seattle (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,18 +362,6 @@
 | 10-29 21:19 | eSoccer Game | Paris Saint-Germain (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 21:19 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 21:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:16 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:16 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:16 | EFL Cup Game | Tie | ✘ | — | — | In play | — |
-| 10-29 21:16 | Men's Iceland Basketball Premier League Game | UMF Tindastoll | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-29 21:15 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:14 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:12 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 21:12 | EFL Cup Game | Newcastle | ✘ | — | — | In play | — |
-| 10-29 21:12 | ITF Men's Match | Enzo Kohlmann de Freitas | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 10-29 21:12 | eSoccer Game | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 
 ## Raw data
 
