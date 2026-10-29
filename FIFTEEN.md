@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 29, 8:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 29, 8:27 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37830 | 37820 | 140 (0%) | 1.07% | -$2,655.80 (-58%) | Hold to the close: -$2,655.80 (-58%) |
+| 37834 | 37820 | 140 (0%) | 1.07% | -$2,655.80 (-58%) | Hold to the close: -$2,655.80 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/29 8:25:55 AM | AUDUSD | DOWN | 4.1 min | — | — | In play | — |
+| 10/29 8:25:37 AM | GBPUSD | DOWN | 4.4 min | — | — | In play | — |
+| 10/29 8:25:05 AM | USDCAD | UP | 4.9 min | — | — | In play | — |
+| 10/29 8:23:27 AM | EURUSD | DOWN | 6.5 min | — | — | In play | — |
 | 10/29 8:14:55 AM | SOL | DOWN | 5 sec | -0.005% | 0¢ | ❌ Lost | $0.00 |
 | 10/29 8:14:55 AM | 30YRRATE | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/29 8:14:55 AM | XRP | UP | 5 sec | -0.077% | 0¢ | ❌ Lost | $0.00 |
@@ -214,10 +218,6 @@
 | 10/29 7:59:10 AM | SILVER | DOWN | 49 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/29 7:58:54 AM | GBPUSD | DOWN | 65 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/29 7:58:54 AM | 30YRRATE | DOWN | 65 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/29 7:58:22 AM | ZEC | DOWN | 1.6 min | +0.434% | 0¢ | ❌ Lost | -$0.15 |
-| 10/29 7:58:22 AM | NEAR | DOWN | 1.6 min | +0.356% | 1¢ | ❌ Lost | -$0.15 |
-| 10/29 7:58:06 AM | XRP | DOWN | 1.9 min | +0.288% | 0¢ | ❌ Lost | $0.00 |
-| 10/29 7:57:47 AM | SOL | DOWN | 2.2 min | +0.243% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
