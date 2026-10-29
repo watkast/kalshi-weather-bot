@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Oct 28, 6:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Oct 28, 6:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37200 | 2116 | 9 (0%) | 1.1% | -$191.40 (-60%) | Hold to the end: -$191.40 (-60%) |
+| 37211 | 2116 | 9 (0%) | 1.1% | -$191.40 (-60%) | Hold to the end: -$191.40 (-60%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2116 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 35070 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 35075 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 16577 | 9 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1899 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 16581 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1900 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1631 | 2 | 2% | 0% | -89% | -91% | 2 min |
 | ITF Women's Match | ✘ | 1341 | 6 | 13% | 6% | -58% | -77% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -331,9 +331,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 00:42 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | — | In play | — |
-| 10-29 00:41 | eSoccer Game | Girona (Dzen) | ✘ | — | — | In play | — |
-| 10-29 00:41 | eSoccer Game | FC Barcelona (Minjori) | ✘ | — | — | In play | — |
+| 10-29 00:55 | eSoccer Game | CA Osasuna (Drakon) | ✘ | — | — | In play | — |
+| 10-29 00:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 00:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 00:52 | Dota 2 Game | rebeldes | ✘ | — | — | In play | — |
+| 10-29 00:52 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 10-29 00:51 | eSoccer Game | Universitario (Kevin) | ✘ | — | — | In play | — |
+| 10-29 00:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 00:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 00:50 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 00:50 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 00:49 | eSoccer Game | Flamengo (Frost) | ✘ | — | — | In play | — |
+| 10-29 00:42 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 00:41 | eSoccer Game | Girona (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 00:41 | eSoccer Game | FC Barcelona (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 00:40 | Liga DIMAYOR Game | Alianza FC Valledupar | ✘ | — | — | In play | — |
 | 10-29 00:38 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 00:38 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,17 +361,6 @@
 | 10-29 00:31 | Brasileiro Serie A Game | Tie | ✔ | 90'+9' · INT 1 - FLU 2 | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 00:28 | eSoccer Game | RC Celta (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 00:28 | Brasileiro Serie A Game | Internacional | ✔ | 90'+7' · INT 1 - FLU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:25 | Brasileiro Serie A Game | Palmeiras | ✔ | 90'+4' · PAL 0 - SAN 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:23 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:21 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:21 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:21 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:21 | eSoccer Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-29 00:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:19 | Brazil NBB Basketball Game | Franca BC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 00:14 | League of Legends Game | LYON | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
