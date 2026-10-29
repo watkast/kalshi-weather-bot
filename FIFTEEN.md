@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Oct 29, 7:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Oct 29, 7:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37792 | 37782 | 140 (0%) | 1.07% | -$2,650.85 (-57%) | Hold to the close: -$2,650.85 (-57%) |
+| 37795 | 37782 | 140 (0%) | 1.07% | -$2,650.85 (-57%) | Hold to the close: -$2,650.85 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/29 7:57:00 AM | BNB | DOWN | 3.0 min | +0.205% | — | In play | — |
+| 10/29 7:57:00 AM | ETH | DOWN | 3.0 min | +0.290% | — | In play | — |
+| 10/29 7:56:12 AM | BTC | DOWN | 3.8 min | +0.315% | — | In play | — |
 | 10/29 7:44:54 AM | EURUSD | UP | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/29 7:44:38 AM | SILVER | UP | 22 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/29 7:44:23 AM | USDCAD | DOWN | 36 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,9 +218,6 @@
 | 10/29 7:29:06 AM | SOL | DOWN | 54 sec | +0.107% | 1¢ | ❌ Lost | -$0.15 |
 | 10/29 7:29:06 AM | ETH | DOWN | 54 sec | +0.102% | 0¢ | ❌ Lost | $0.00 |
 | 10/29 7:29:06 AM | DOGE | DOWN | 54 sec | +0.082% | 0¢ | ❌ Lost | $0.00 |
-| 10/29 7:29:06 AM | ZEC | DOWN | 54 sec | +0.325% | 0¢ | ❌ Lost | $0.00 |
-| 10/29 7:28:50 AM | SILVER | UP | 70 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/29 7:28:50 AM | EURUSD | UP | 70 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
