@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 3:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 3:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 37622 | 2161 | 9 (0%) | 1.1% | -$198.15 (-61%) | Hold to the end: -$198.15 (-61%) |
+| 37631 | 2161 | 9 (0%) | 1.1% | -$198.15 (-61%) | Hold to the end: -$198.15 (-61%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2161 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 35443 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 35453 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 16845 | 9 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 1921 | 0 | 0% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 16852 | 9 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 1922 | 0 | 0% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1656 | 2 | 2% | 0% | -89% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1345 | 6 | 14% | 6% | -58% | -77% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| ITF Men's Match | ✘ | 1254 | 1 | 12% | 5% | -93% | -78% | 5 min |
+| ITF Men's Match | ✘ | 1256 | 1 | 12% | 5% | -93% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1177 | 2 | 5% | 3% | -84% | -91% | 11 min |
 | Challenger ATP  | ✘ | 761 | 2 | 11% | 4% | -75% | -82% | 5 min |
 | eFootball Game | ✘ | 378 | 2 | 1% | 1% | -51% | -99% | 2 min |
@@ -319,7 +319,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 40 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 39 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -331,14 +331,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-29 09:22 | eSoccer Game | Real Madrid (Fede) | ✘ | — | — | In play | — |
-| 10-29 09:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 09:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 09:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 09:19 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 10-29 09:33 | ITF Men's Match | Valentin Lapalu | ✘ | — | — | In play | — |
+| 10-29 09:32 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 10-29 09:32 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 10-29 09:30 | Russia Liga Pro Match | Nikulin Sergey | ✘ | — | — | In play | — |
+| 10-29 09:30 | eSoccer Game | Manchester City (Hurricane) | ✘ | — | — | In play | — |
+| 10-29 09:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-29 09:28 | ITF Men's Match | Daniel Verbeek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:28 | ITF Men's Match | Alexander Vasilev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:27 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:22 | eSoccer Game | Real Madrid (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:19 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:19 | Russia Liga Pro Match | Afanasev Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-29 09:12 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 10-29 09:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-29 09:12 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:09 | eSoccer Game | Paris Saint-Germain (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:07 | eSoccer Game | Slavia Praha (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,15 +361,6 @@
 | 10-29 09:04 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:04 | Mobile Legends Bang Bang Game | Team Vamos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-29 09:01 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Olympique de Marseille (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-29 09:01 | eBasketball Game | Golden State Warriors (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
