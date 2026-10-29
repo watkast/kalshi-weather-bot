@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Oct 29 10:34 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Oct 29 10:44 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -11,10 +11,10 @@
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
 | **+5¢** | 39143 | 34156 | 4987 (49) | 3 | $-11000.67 | -4.5% |
-| **+10¢** | 29190 | 23435 | 5755 (71) | 6 | $-9726.81 | -5.3% |
-| **+15¢** | 24409 | 18226 | 6183 (98) | 6 | $-8691.16 | -5.7% |
-| **+20¢** | 21655 | 15177 | 6478 (127) | 6 | $-7592.28 | -5.6% |
-| **+10¢ (15¢ stop)** | 47848 | 47781 | 67 (35) | 1 | $-18158.46 | -6.1% |
+| **+10¢** | 29191 | 23436 | 5755 (71) | 5 | $-9725.79 | -5.3% |
+| **+15¢** | 24410 | 18227 | 6183 (98) | 5 | $-8689.20 | -5.7% |
+| **+20¢** | 21656 | 15178 | 6478 (127) | 5 | $-7590.32 | -5.6% |
+| **+10¢ (15¢ stop)** | 47849 | 47782 | 67 (35) | 0 | $-18157.45 | -6.1% |
 
 ## Latest trades
 
@@ -23,10 +23,10 @@
 | 10-29 10:32 | +10 stop | ZEC | UP | 0.70 | 0.85 | 1.26 |
 | 10-29 10:32 | +5 | ZEC | UP | 0.70 | 0.85 | 1.26 |
 | 10-29 10:32 | +5 | ZEC | DOWN | 0.51 | 0.58 | 0.34 |
-| 10-29 10:32 | +10 stop | BNB | UP | 0.66 | open |  |
-| 10-29 10:32 | +20 | BNB | UP | 0.66 | open |  |
-| 10-29 10:32 | +15 | BNB | UP | 0.66 | open |  |
-| 10-29 10:32 | +10 | BNB | UP | 0.66 | open |  |
+| 10-29 10:32 | +10 stop | BNB | UP | 0.66 | 0.79 | 1.01 |
+| 10-29 10:32 | +20 | BNB | UP | 0.66 | 0.88 | 1.96 |
+| 10-29 10:32 | +15 | BNB | UP | 0.66 | 0.88 | 1.96 |
+| 10-29 10:32 | +10 | BNB | UP | 0.66 | 0.79 | 1.02 |
 | 10-29 10:32 | +5 | BNB | UP | 0.66 | 0.72 | 0.29 |
 | 10-29 10:31 | +10 stop | SOL | DOWN | 0.44 | 0.27 | -2.02 |
 | 10-29 10:31 | +20 | SOL | DOWN | 0.44 | open |  |
