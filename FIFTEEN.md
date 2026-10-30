@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 30, 2:02 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 30, 2:13 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39047 | 39037 | 144 (0%) | 1.07% | -$2,752.35 (-58%) | Hold to the close: -$2,752.35 (-58%) |
+| 39053 | 39037 | 144 (0%) | 1.07% | -$2,752.35 (-58%) | Hold to the close: -$2,752.35 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 15. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,12 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/30 2:13:03 AM | USDJPY | UP | 1.9 min | — | — | In play | — |
+| 10/30 2:12:44 AM | NEAR | DOWN | 2.2 min | +0.785% | — | In play | — |
+| 10/30 2:12:44 AM | USDCAD | UP | 2.2 min | — | — | In play | — |
+| 10/30 2:11:58 AM | PLATINUM | UP | 3.0 min | — | — | In play | — |
+| 10/30 2:11:39 AM | EURUSD | DOWN | 3.3 min | — | — | In play | — |
+| 10/30 2:11:09 AM | ETH | UP | 3.8 min | -0.346% | — | In play | — |
 | 10/30 1:59:58 AM | BNB | DOWN | 1 sec | -0.014% | 0¢ | ❌ Lost | $0.00 |
 | 10/30 1:59:58 AM | WTI | DOWN | 1 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 10/30 1:59:58 AM | NATGAS | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -212,12 +218,6 @@
 | 10/30 1:44:45 AM | PLATINUM | UP | 15 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 1:44:45 AM | 30YRRATE | DOWN | 15 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 1:44:29 AM | USDCAD | DOWN | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 1:44:29 AM | 2YRRATE | DOWN | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 1:44:14 AM | GOLD | UP | 45 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 10/30 1:44:14 AM | EURUSD | UP | 45 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 1:43:58 AM | BRENT | DOWN | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 1:43:26 AM | AUDUSD | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 1:43:26 AM | WTI | DOWN | 1.6 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
