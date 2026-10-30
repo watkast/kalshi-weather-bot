@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 4:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 4:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40094 | 2200 | 9 (0%) | 1.1% | -$204.00 (-62%) | Hold to the end: -$204.00 (-62%) |
+| 40105 | 2200 | 9 (0%) | 1.1% | -$204.00 (-62%) | Hold to the end: -$204.00 (-62%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2200 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37875 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37883 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18186 | 11 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2136 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 18192 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2137 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1788 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1404 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1318 | 1 | 13% | 5% | -93% | -78% | 5 min |
@@ -131,7 +131,7 @@
 | English National League Game | ✘ | 106 | 1 | 9% | 7% | -12% | -84% | 11 min |
 | Brasileiro Serie A Game | partly | 100 | 1 | 12% | 7% | -7% | -79% | 6 min |
 | Japan J2 League Game | ✘ | 100 | 0 | 12% | 5% | -100% | -79% | 6 min |
-| Overwatch Game | ✘ | 98 | 0 | 2% | 0% | -100% | -96% | 6 min |
+| Overwatch Game | ✘ | 99 | 0 | 2% | 0% | -100% | -96% | 6 min |
 | USL Championship Game | partly | 96 | 0 | 11% | 4% | -100% | -80% | 4 min |
 | LaLiga 2 Game | partly | 89 | 1 | 18% | 9% | +5% | -69% | 9 min |
 | Liiga Game | ✘ | 88 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -332,18 +332,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-30 22:28 | Russia Liga Pro Match | Sitnikov Roman | ✘ | — | — | In play | — |
+| 10-30 22:28 | eFootball Game | Baltimore (Fred) | ✘ | — | — | In play | — |
+| 10-30 22:27 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | — | In play | — |
+| 10-30 22:27 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
+| 10-30 22:23 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | — | In play | — |
+| 10-30 22:22 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
+| 10-30 22:22 | Darts Match | Scott Campbell | ✘ | — | — | In play | — |
+| 10-30 22:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 22:20 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 10-30 22:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 22:20 | eSoccer Game | Real Sociedad (Drakon) | ✘ | — | — | In play | — |
 | 10-30 22:18 | Chile Liga de Primera Game | U de Concepcion | ✘ | — | — | In play | — |
-| 10-30 22:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 22:17 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | — | In play | — |
-| 10-30 22:17 | eSoccer Game | Spurs (Maddy) | ✘ | — | — | In play | — |
-| 10-30 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 22:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 22:14 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
+| 10-30 22:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 22:17 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 22:17 | eSoccer Game | Spurs (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 22:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 22:14 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:12 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:11 | Overwatch Game | Spacestation Gaming | ✘ | — | — | In play | — |
+| 10-30 22:11 | Overwatch Game | Spacestation Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:11 | Liga Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:11 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:10 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-30 22:10 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:07 | eSoccer Game | RCD Mallorca (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:06 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,17 +362,6 @@
 | 10-30 22:05 | Russia Liga Pro Match | Mameka Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 22:05 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:04 | eSoccer Game | Spurs (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:03 | Ligue Magnus Game | Bruleurs de Loups Grenoble | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 22:03 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:58 | EFL Championship Game | Tie | ✔ | 90'+6' · WXM 0 - SHU 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:57 | French Women's Première Ligue Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:56 | Dota 2 Game | Chandogs | ✘ | — | — | In play | — |
-| 10-30 21:55 | Ligue 1 Game | Tie | ✔ | 90'+4' · RCL 0 - LILL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:55 | Challenger WTA | Valeriya Strakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:55 | Liga Portugal Game | Casa Pia | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
