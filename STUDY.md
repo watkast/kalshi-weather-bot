@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 5:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 5:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39231 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 39248 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37027 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37038 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17776 | 10 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2065 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1750 | 3 | 2% | 1% | -84% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1389 | 6 | 14% | 6% | -60% | -76% | 4 min |
+| eSoccer Game | ✘ | 17780 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2068 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1752 | 3 | 2% | 1% | -84% | -92% | 2 min |
+| ITF Women's Match | ✘ | 1390 | 6 | 14% | 6% | -60% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1302 | 1 | 13% | 5% | -93% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1231 | 2 | 5% | 3% | -85% | -91% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1232 | 2 | 5% | 3% | -85% | -91% | 11 min |
 | Challenger ATP  | ✘ | 778 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 423 | 2 | 1% | 1% | -56% | -98% | 2 min |
 | Darts Match | ✘ | 343 | 0 | 0% | 0% | -100% | -99% | 7 min |
@@ -332,7 +332,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 11:20 | Counter-Strike 2 Game | Gatorian | ✘ | — | — | In play | — |
+| 10-30 11:30 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:30 | ITF Women's Match | Katarina Kuzmova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:30 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:28 | ITF Men's Match | Jan Sadzik | ✘ | — | — | In play | — |
+| 10-30 11:28 | eSoccer Game | Chelsea (Mordor) | ✘ | — | — | In play | — |
+| 10-30 11:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 11:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 11:26 | Russia Liga Pro Match | Arlashov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:26 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:25 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:25 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | — | In play | — |
+| 10-30 11:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 11:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:22 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:22 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:22 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
+| 10-30 11:22 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 11:20 | Counter-Strike 2 Game | Gatorian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 11:17 | Russia VTB United Game | Dinamo Vladivostok | ✘ | — | — | In play | — |
 | 10-30 11:15 | ITF Men's Match | Nicolas Jadoun | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-30 11:15 | eFootball Game | Green Bay (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,23 +362,6 @@
 | 10-30 11:10 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 11:10 | Women's T20 Match | Brisbane Heat Women | ✘ | — | — | In play | — |
 | 10-30 11:09 | ITF Men's Match | Thando Longwe-Smit | ✘ | — | — | In play | — |
-| 10-30 11:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 11:07 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 11:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:58 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:58 | eBasketball Game | Los Angeles Lakers (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:58 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:56 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:56 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:55 | Australian A League Game | Auckland | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:55 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:54 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:52 | Russia Liga Pro Match | Frolov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:52 | ITF Women's Match | Zuzanna Bednarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:49 | Russia Liga Pro Match | Gusev Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:45 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
