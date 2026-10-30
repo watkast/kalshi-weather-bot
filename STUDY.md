@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 3:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 3:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40039 | 2194 | 9 (0%) | 1.1% | -$203.10 (-62%) | Hold to the end: -$203.10 (-62%) |
+| 40059 | 2194 | 9 (0%) | 1.1% | -$203.10 (-62%) | Hold to the end: -$203.10 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2194 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37821 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37836 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18160 | 11 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2133 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 18166 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2134 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1784 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1404 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1318 | 1 | 13% | 5% | -93% | -78% | 5 min |
@@ -128,7 +128,7 @@
 | ATP Tennis Match | ✘ | 109 | 0 | 15% | 6% | -100% | -75% | 4 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Brasileiro Serie B Game | ✘ | 107 | 1 | 7% | 4% | -13% | -87% | 8 min |
-| English National League Game | ✘ | 104 | 1 | 10% | 7% | -10% | -83% | 11 min |
+| English National League Game | ✘ | 106 | 1 | 9% | 7% | -12% | -84% | 11 min |
 | Brasileiro Serie A Game | partly | 100 | 1 | 12% | 7% | -7% | -79% | 6 min |
 | Japan J2 League Game | ✘ | 100 | 0 | 12% | 5% | -100% | -79% | 6 min |
 | Overwatch Game | ✘ | 98 | 0 | 2% | 0% | -100% | -96% | 6 min |
@@ -144,10 +144,10 @@
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
 | EFL Championship Game | ✔ | 78 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | Serie A Game | ✔ | 78 | 0 | 9% | 5% | -100% | -84% | 12 min |
+| Euroleague Game | ✘ | 77 | 0 | 21% | 6% | -100% | -64% | 14 min |
 | Eerste Divisie Game | ✘ | 77 | 0 | 10% | 6% | -100% | -82% | 8 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
 | College Hockey Game | ✘ | 77 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Euroleague Game | ✘ | 76 | 0 | 21% | 7% | -100% | -64% | 14 min |
 | EuroCup Basketball Game | ✘ | 76 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Serie B Game | ✘ | 76 | 0 | 14% | 7% | -100% | -75% | 9 min |
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
@@ -181,11 +181,11 @@
 | LNBP Basketball Game | ✘ | 56 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| LNB Elite 2 Game | ✘ | 54 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Turkish Super Lig Game | ✘ | 54 | 0 | 13% | 2% | -100% | -78% | 14 min |
 | English Premier League Game | ✔ | 54 | 0 | 7% | 4% | -100% | -87% | 10 min |
 | Japan B League Game | ✘ | 54 | 0 | 7% | 0% | -100% | -87% | 13 min |
 | NWSL Game | ✔ | 52 | 0 | 10% | 2% | -100% | -83% | 7 min |
-| LNB Elite 2 Game | ✘ | 52 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Ligue 1 Game | ✔ | 52 | 0 | 17% | 8% | -100% | -70% | 9 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Czech National Football League Game | ✘ | 51 | 0 | 14% | 8% | -100% | -76% | 8 min |
@@ -264,9 +264,9 @@
 | Slovenia 1. SKL Game | ✘ | 19 | 0 | 5% | 5% | -100% | -91% | 15 min |
 | Liga Nacional de Basquetbol Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | BNXT League Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 15 min |
+| Ligue Magnus Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Men's Iceland Basketball Premier League Game | ✘ | 18 | 0 | 22% | 11% | -100% | -61% | 11 min |
 | Women's Pro Basketball Game | ✔ | 17 | 0 | 18% | 6% | -100% | -69% | 6 min |
-| Men's Iceland Basketball Premier League Game | ✘ | 17 | 0 | 24% | 12% | -100% | -59% | 13 min |
-| Ligue Magnus Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
 | CFL Game | ✘ | 16 | 0 | 6% | 0% | -100% | -89% | 10 min |
 | Polish Hockey Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 6 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 21:34 | Euroleague Game | Valencia Basket | ✘ | — | — | In play | — |
-| 10-30 21:34 | LNB Elite 2 Game | Saint-Chamond | ✘ | — | — | In play | — |
-| 10-30 21:33 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
-| 10-30 21:33 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | — | In play | — |
-| 10-30 21:32 | LNB Elite 2 Game | Aix Maurienne Savoie Basket | ✘ | — | — | In play | — |
-| 10-30 21:31 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
-| 10-30 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 21:29 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 10-30 21:29 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 10-30 21:29 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | — | In play | — |
-| 10-30 21:29 | Polish Ekstraklasa Game | Legia Warszawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:29 | Ligue Magnus Game | Spartiates de Marseille | ✘ | — | — | In play | — |
-| 10-30 21:29 | eSoccer Game | Chelsea (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:29 | Polish Ekstraklasa Game | Gornik Zabrze | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:26 | Russia Liga Pro Match | Shershnev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:25 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:24 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:23 | Counter-Strike 2 Game | Spirit Academy Black | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:23 | National League Game | HC Ambri-Piotta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:21 | National League Game | SC Rapperswil-Jona Lakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:21 | Adriatic ABA Game | BC Vienna | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-30 21:20 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:19 | LNB Elite 2 Game | Caen Basket Calvados | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:18 | English National League Game | Hornchurch | ✘ | — | — | In play | — |
-| 10-30 21:18 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 21:18 | eSoccer Game | Benfica (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:46 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | — | In play | — |
+| 10-30 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 21:46 | La Liga Game | Villarreal | ✔ | 90' · ESP 1 - VIL 0 | — | In play | — |
+| 10-30 21:46 | French Women's Première Ligue Game | Nantes | ✘ | — | — | In play | — |
+| 10-30 21:46 | Ligue Magnus Game | Angers Ducs | ✘ | — | — | In play | — |
+| 10-30 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 21:45 | eSoccer Game | Chelsea (Fede) | ✘ | — | — | In play | — |
+| 10-30 21:45 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | — | In play | — |
+| 10-30 21:45 | LNB Elite 2 Game | Stade Rochelais Basket | ✘ | — | — | In play | — |
+| 10-30 21:44 | Ligue Magnus Game | HC Briancon | ✘ | — | — | In play | — |
+| 10-30 21:44 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | — | In play | — |
+| 10-30 21:44 | eSoccer Game | Sunderland (Bony) | ✘ | — | — | In play | — |
+| 10-30 21:44 | eSoccer Game | Everton (Shaq) | ✘ | — | — | In play | — |
+| 10-30 21:43 | EFL Championship Game | Wrexham | ✔ | 81' · WXM 0 - SHU 1 | — | In play | — |
+| 10-30 21:43 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 10-30 21:41 | Euroleague Game | Virtus Bologna | ✘ | — | — | In play | — |
+| 10-30 21:40 | Men's Iceland Basketball Premier League Game | UMFN Njardvik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:39 | Ligue Magnus Game | Anglet Hormadi Elite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:38 | Italy Serie A2 Game | Benedetto Xiv Cento | ✘ | — | — | In play | — |
+| 10-30 21:34 | Euroleague Game | Valencia Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:34 | LNB Elite 2 Game | Saint-Chamond | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:33 | eSoccer Game | Manchester City (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:33 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:32 | LNB Elite 2 Game | Aix Maurienne Savoie Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:31 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:29 | English National League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 21:29 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
