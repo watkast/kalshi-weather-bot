@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 9:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 9:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38787 | 2183 | 9 (0%) | 1.1% | -$201.45 (-62%) | Hold to the end: -$201.45 (-62%) |
+| 38794 | 2183 | 9 (0%) | 1.1% | -$201.45 (-62%) | Hold to the end: -$201.45 (-62%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2183 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 36588 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36598 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17477 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 17485 | 10 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2019 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1721 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1384 | 6 | 14% | 6% | -60% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1290 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1227 | 2 | 5% | 3% | -85% | -91% | 11 min |
-| Challenger ATP  | ✘ | 771 | 2 | 11% | 4% | -76% | -82% | 5 min |
+| Challenger ATP  | ✘ | 772 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 408 | 2 | 1% | 1% | -54% | -99% | 2 min |
 | Darts Match | ✘ | 343 | 0 | 0% | 0% | -100% | -99% | 7 min |
 | College Football Game | partly | 340 | 2 | 11% | 6% | -45% | -80% | 23 min |
@@ -118,7 +118,7 @@
 | League of Legends Game | ✘ | 153 | 0 | 7% | 2% | -100% | -89% | 11 min |
 | WTA Tennis Match | ✘ | 150 | 0 | 11% | 2% | -100% | -82% | 5 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| AHL Game | ✘ | 137 | 0 | 3% | 1% | -100% | -95% | 5 min |
+| AHL Game | ✘ | 138 | 0 | 3% | 1% | -100% | -95% | 5 min |
 | NBA Game | ✔ | 132 | 0 | 18% | 5% | -100% | -68% | 8 min |
 | KHL Game | ✘ | 118 | 0 | 5% | 3% | -100% | -91% | 5 min |
 | Ettan Game | ✘ | 117 | 0 | 4% | 1% | -100% | -93% | 7 min |
@@ -332,13 +332,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 03:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 03:35 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 10-30 03:35 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
-| 10-30 03:33 | AHL Game | Laval Rocket | ✘ | — | — | In play | — |
-| 10-30 03:33 | Challenger ATP  | Sho Shimabukuro | ✘ | — | — | In play | — |
+| 10-30 03:46 | Challenger ATP  | Rei Sakamoto | ✘ | — | — | In play | — |
+| 10-30 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 03:41 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 10-30 03:38 | eSoccer Game | 1. FC Köln (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:37 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:35 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:35 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:33 | AHL Game | Laval Rocket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:33 | Challenger ATP  | Sho Shimabukuro | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 10-30 03:31 | eFootball Game | Chicago (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:31 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | — | In play | — |
+| 10-30 03:31 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-30 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:27 | College Football Game | Florida Atlantic | ✔ | 1:45 - 4th · FAU 41 - UNT 48 | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:27 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,13 +362,6 @@
 | 10-30 03:17 | NFL Game | Carolina | ✔ | 2:28 - 4th · CAR 19 - GB 27 | 2¢ | ❌ Lost | -$0.15 |
 | 10-30 03:17 | Women's College Volleyball Match | Cincinnati | ✘ | — | — | In play | — |
 | 10-30 03:13 | eSoccer Game | Manchester City (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:12 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:10 | eSoccer Game | Dortmund (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 03:07 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
