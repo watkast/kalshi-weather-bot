@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 12:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 12:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39719 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 39736 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37512 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37515 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18042 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 18044 | 11 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2109 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1776 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1401 | 6 | 14% | 6% | -60% | -76% | 4 min |
@@ -150,8 +150,8 @@
 | Serie B Game | ✘ | 76 | 0 | 14% | 7% | -100% | -75% | 9 min |
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
 | Liga MX Game | ✔ | 73 | 0 | 15% | 10% | -100% | -74% | 5 min |
+| Euroleague Game | ✘ | 73 | 0 | 22% | 7% | -100% | -62% | 14 min |
 | UEFA Champions League Game | partly | 73 | 1 | 10% | 3% | +28% | -83% | 11 min |
-| Euroleague Game | ✘ | 72 | 0 | 22% | 7% | -100% | -61% | 14 min |
 | Peru Liga 1 Game | ✘ | 72 | 0 | 14% | 6% | -100% | -76% | 11 min |
 | TFF 1. Lig Game | ✘ | 72 | 0 | 17% | 10% | -100% | -71% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 70 | 0 | 7% | 6% | -100% | -88% | 83 min |
@@ -332,11 +332,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-30 18:22 | Bundesliga 2 Game | Braunschweig | ✔ | HT · EBS 0 - DSC 2 | — | In play | — |
+| 10-30 18:21 | Russia Liga Pro Match | Markelov Egor | ✘ | — | — | In play | — |
+| 10-30 18:21 | Qatar Stars League | Tie | ✘ | — | — | In play | — |
+| 10-30 18:20 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | — | In play | — |
+| 10-30 18:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:18 | eSoccer Game | Crystal Palace (Bony) | ✘ | — | — | In play | — |
+| 10-30 18:18 | eSoccer Game | Arsenal (Haze) | ✘ | — | — | In play | — |
+| 10-30 18:18 | KHL Game | Amur Khabarovsk | ✘ | — | — | In play | — |
+| 10-30 18:18 | Qatar Stars League | Qatar | ✘ | — | — | In play | — |
+| 10-30 18:16 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 10-30 18:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:15 | eSoccer Game | Spurs (Holis) | ✘ | — | — | In play | — |
+| 10-30 18:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:15 | Finland Korisliiga Game | Lahti Basketball | ✘ | — | — | In play | — |
+| 10-30 18:13 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:13 | Challenger WTA | Leyre Romero Gormaz | ✘ | — | — | In play | — |
 | 10-30 18:12 | Turkish Super Lig Game | Konyaspor | ✘ | — | — | In play | — |
 | 10-30 18:11 | Qatar Stars League | Tie | ✘ | — | — | In play | — |
 | 10-30 18:07 | Russia Liga Pro Match | Pinkovskii Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 18:05 | eSoccer Game | Real Madrid (SilentShooter) | ✘ | — | — | In play | — |
-| 10-30 18:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 18:05 | eSoccer Game | Real Madrid (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 18:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 18:04 | eBasketball Game | New Orleans Pelicans (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 18:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 18:03 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -345,23 +362,6 @@
 | 10-30 18:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 18:01 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 18:01 | Finland Korisliiga Game | KTP Basket Kotka | ✘ | — | — | In play | — |
-| 10-30 18:01 | eSoccer Game | Everton (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:59 | Slovakia SBL Game | Inter Basket | ✘ | — | — | In play | — |
-| 10-30 17:57 | Russia Liga Pro Match | Molodtsov Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:57 | Russia Liga Pro Match | Kruglov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:54 | Overwatch Game | Team Risk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:53 | Counter-Strike 2 Game | SNITKO Esports | ✘ | — | — | In play | — |
-| 10-30 17:52 | Counter-Strike 2 Game | ALKA | ✘ | — | — | In play | — |
-| 10-30 17:52 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
-| 10-30 17:51 | Counter-Strike 2 Game | Regnum4Games | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:51 | Counter-Strike 2 Game | MOUZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:50 | Euroleague Game | Hapoel Tel-Aviv | ✘ | — | — | In play | — |
-| 10-30 17:49 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:49 | eFootball Game | Chicago (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:48 | Slovakian 2. Liga Game | FK Pohronie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:48 | Slovakian 2. Liga Game | S. Bratislava B | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 17:47 | Counter-Strike 2 Game | Spirit HU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
