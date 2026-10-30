@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 9:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 9:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 41 finished bets | 2% | $7.85 | +128% | +19.15¢ | $11.00 / -$3.15 |
 
-*Expect about **2 buys a day**, roughly **$0.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38765 | 2180 | 9 (0%) | 1.1% | -$201.00 (-61%) | Hold to the end: -$201.00 (-61%) |
+| 38777 | 2180 | 9 (0%) | 1.1% | -$201.00 (-61%) | Hold to the end: -$201.00 (-61%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2180 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 36570 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36574 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17465 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 17469 | 10 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2019 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1719 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1384 | 6 | 14% | 6% | -60% | -76% | 4 min |
@@ -332,11 +332,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 03:13 | eSoccer Game | Manchester City (Arkon) | ✘ | — | — | In play | — |
-| 10-30 03:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 03:26 | College Football Game | James Madison | ✔ | OT · TROY 24 - JMU 21 | — | In play | — |
+| 10-30 03:25 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | — | In play | — |
+| 10-30 03:25 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 10-30 03:24 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | — | In play | — |
+| 10-30 03:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 03:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 03:23 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | — | In play | — |
+| 10-30 03:22 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
+| 10-30 03:22 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 10-30 03:22 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 10-30 03:17 | NFL Game | Carolina | ✔ | 2:28 - 4th · CAR 19 - GB 27 | — | In play | — |
+| 10-30 03:17 | Women's College Volleyball Match | Cincinnati | ✘ | — | — | In play | — |
+| 10-30 03:13 | eSoccer Game | Manchester City (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:12 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 10-30 03:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 03:10 | eSoccer Game | Dortmund (Kylian) | ✘ | — | — | In play | — |
+| 10-30 03:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 03:10 | eSoccer Game | Dortmund (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 03:07 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,18 +362,6 @@
 | 10-30 02:56 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 02:55 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:55 | eBasketball Game | New York Knicks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:54 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:54 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:54 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:53 | Liga Expansion Game | Zacatecas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:53 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:53 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:52 | NHL Game | Nashville | ✔ | End of 3rd · WSH 4 - NSH 3 | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:46 | eSoccer Game | Manchester City (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:46 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 02:45 | Liga DIMAYOR Game | Independ. Santa Fe | ✘ | — | — | In play | — |
 
 ## Raw data
 
