@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 8:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 8:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39473 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 39490 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37262 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37272 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17906 | 11 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2087 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1762 | 3 | 2% | 1% | -84% | -92% | 2 min |
+| eSoccer Game | ✘ | 17909 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2088 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1764 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1396 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1309 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1238 | 2 | 5% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 780 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 428 | 2 | 1% | 1% | -56% | -98% | 2 min |
+| eFootball Game | ✘ | 429 | 2 | 1% | 1% | -56% | -98% | 2 min |
 | Darts Match | ✘ | 348 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 340 | 2 | 11% | 6% | -45% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -175,8 +175,8 @@
 | NFL Game | ✔ | 59 | 1 | 20% | 8% | +58% | -65% | 5 min |
 | China League 1 Game | ✘ | 57 | 0 | 12% | 7% | -100% | -79% | 10 min |
 | LNBP Basketball Game | ✘ | 56 | 0 | 7% | 0% | -100% | -88% | 12 min |
+| Men's ODI Cricket Match | ✘ | 56 | 3 | 20% | 9% | +400% | -66% | 43 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
-| Men's ODI Cricket Match | ✘ | 55 | 3 | 20% | 9% | +409% | -65% | 45 min |
 | Polish Ekstraklasa Game | ✘ | 55 | 0 | 13% | 7% | -100% | -78% | 8 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Bundesliga 2 Game | ✔ | 54 | 0 | 11% | 6% | -100% | -81% | 8 min |
@@ -187,11 +187,11 @@
 | Turkish Super Lig Game | ✘ | 52 | 0 | 13% | 2% | -100% | -77% | 13 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Eredivisie Game | ✔ | 51 | 0 | 10% | 8% | -100% | -83% | 4 min |
+| Thai League 1 Game | ✘ | 50 | 0 | 18% | 6% | -100% | -69% | 11 min |
 | Ligue 1 Game | ✔ | 50 | 0 | 18% | 8% | -100% | -69% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Italy Serie A2 Game | ✘ | 49 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Korea K-League 2 Game | ✘ | 48 | 0 | 12% | 6% | -100% | -78% | 9 min |
-| Thai League 1 Game | ✘ | 48 | 0 | 19% | 6% | -100% | -68% | 10 min |
 | Eliteserien Game | ✘ | 48 | 0 | 10% | 4% | -100% | -82% | 12 min |
 | Ecuador Liga Pro Game | ✘ | 48 | 0 | 8% | 2% | -100% | -86% | 8 min |
 | LNB Elite 2 Game | ✘ | 47 | 0 | 2% | 0% | -100% | -96% | 7 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-30 14:53 | Russia Liga Pro Match | Tolmachev Nikita | ✘ | — | — | In play | — |
+| 10-30 14:52 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:52 | Valorant game winner | FunPlus Phoenix | ✘ | — | — | In play | — |
+| 10-30 14:52 | Liga Leumit Game | Maccabi Bney Reine | ✘ | — | — | In play | — |
+| 10-30 14:52 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
+| 10-30 14:52 | Challenger WTA | Marina Bassols Ribera | ✘ | — | — | In play | — |
+| 10-30 14:52 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | — | In play | — |
+| 10-30 14:50 | Darts Match | Neil Duff | ✘ | — | — | In play | — |
+| 10-30 14:49 | eSoccer Game | Leverkusen (Mantis) | ✘ | — | — | In play | — |
+| 10-30 14:49 | Counter-Strike 2 Game | Copenhagen Wolves | ✘ | — | — | In play | — |
+| 10-30 14:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:48 | eFootball Game | Buffalo (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:47 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:47 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:46 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:45 | eSoccer Game | Toulouse FC (Holis) | ✘ | — | — | In play | — |
 | 10-30 14:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-30 14:45 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | — | In play | — |
 | 10-30 14:44 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
 | 10-30 14:44 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-30 14:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 10-30 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:38 | Counter-Strike 2 Game | MIBR | ✘ | — | — | In play | — |
-| 10-30 14:37 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:37 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:36 | Liga Leumit Game | Hapoel Acre | ✘ | — | — | In play | — |
 | 10-30 14:36 | Men's ODI Cricket Match | Mid West Rhinos | ✘ | — | — | In play | — |
 | 10-30 14:35 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:35 | Mobile Legends Bang Bang Game | Team Rey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:34 | ITF Men's Match | Manuel Plunger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:33 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:33 | eSoccer Game | Rennes (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:32 | Darts Match | Darren Beveridge | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:31 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:30 | eSoccer Game | AS Monaco (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:30 | eSoccer Game | Toulouse FC (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:30 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:29 | eFootball Game | Philadelphia (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:27 | Challenger ATP  | Federico Cina | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-30 14:25 | ITF Women's Match | Vittoria Paganetti | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:24 | Saudi Pro League Game | Al-Ittihad | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:23 | Thai League 1 Game | Sisaket United FC | ✘ | — | — | In play | — |
 
 ## Raw data
 
