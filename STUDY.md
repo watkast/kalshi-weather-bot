@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 6:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 7:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38623 | 2167 | 9 (0%) | 1.1% | -$199.05 (-61%) | Hold to the end: -$199.05 (-61%) |
+| 38631 | 2167 | 9 (0%) | 1.1% | -$199.05 (-61%) | Hold to the end: -$199.05 (-61%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2167 | 13% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 36432 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36443 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17377 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 17387 | 10 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2011 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1709 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1382 | 6 | 14% | 6% | -59% | -76% | 4 min |
@@ -109,7 +109,7 @@
 | College Football Game | partly | 337 | 2 | 12% | 6% | -45% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 273 | 1 | 14% | 5% | -66% | -75% | 23 min |
-| Women's College Volleyball Match | ✘ | 258 | 2 | 5% | 3% | -28% | -91% | 71 min |
+| Women's College Volleyball Match | ✘ | 259 | 2 | 5% | 3% | -28% | -91% | 71 min |
 | Dota 2 Game | ✘ | 244 | 0 | 1% | 1% | -100% | -99% | 30 min |
 | Serie C Game | ✘ | 238 | 2 | 4% | 2% | -22% | -93% | 6 min |
 | Challenger WTA | ✘ | 222 | 0 | 13% | 5% | -100% | -77% | 9 min |
@@ -332,14 +332,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 00:50 | eSoccer Game | São Paulo (Kylian) | ✘ | — | — | In play | — |
-| 10-30 00:50 | Women's College Volleyball Match | Rutgers | ✘ | — | — | In play | — |
-| 10-30 00:50 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 10-30 00:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 00:57 | eFootball Game | Denver (Mace) | ✘ | — | — | In play | — |
+| 10-30 00:55 | Challenger WTA | Diletta Cherubini | ✘ | — | — | In play | — |
+| 10-30 00:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 00:54 | eSoccer Game | CA Osasuna (Zaroth) | ✘ | — | — | In play | — |
+| 10-30 00:52 | eSoccer Game | Flamengo (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:51 | Brazil NBB Basketball Game | Basquete Osasco | ✘ | — | — | In play | — |
+| 10-30 00:51 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:50 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:50 | Women's College Volleyball Match | Rutgers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:50 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:49 | Women's College Volleyball Match | Ohio State | ✘ | — | — | In play | — |
-| 10-30 00:49 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
-| 10-30 00:49 | eSoccer Game | Botafogo (Castle) | ✘ | — | — | In play | — |
-| 10-30 00:49 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 10-30 00:49 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:49 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 00:49 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:48 | Brasileiro Serie A Game | Tie | ✔ | 84' · FLA 3 - VAS 1 | — | In play | — |
 | 10-30 00:47 | NHL Game | Winnipeg | ✔ | 0:56 - 2nd · WPG 1 - TB 4 | — | In play | — |
 | 10-30 00:46 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -349,19 +357,11 @@
 | 10-30 00:41 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:39 | Counter-Strike 2 Game | ALKA | ✘ | — | — | In play | — |
 | 10-30 00:39 | eBasketball Game | New York Knicks (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 00:38 | eSoccer Game | Tie | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 10-30 00:37 | Darts Match | Derek Coulson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:37 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 00:37 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:36 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:35 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:35 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:33 | Brazil NBB Basketball Game | Brasilia Basquete | ✘ | — | — | In play | — |
-| 10-30 00:33 | Brasileiro Serie A Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:27 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 00:26 | eSoccer Game | Getafe CF (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
