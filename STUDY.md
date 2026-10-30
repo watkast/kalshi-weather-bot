@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 8:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 9:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39490 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 39506 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37272 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37295 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17909 | 11 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2088 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 17921 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2089 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1764 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1396 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1309 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1238 | 2 | 5% | 3% | -85% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1239 | 2 | 5% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 780 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 429 | 2 | 1% | 1% | -56% | -98% | 2 min |
-| Darts Match | ✘ | 348 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Darts Match | ✘ | 349 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 340 | 2 | 11% | 6% | -45% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 278 | 1 | 15% | 5% | -66% | -74% | 23 min |
@@ -138,8 +138,9 @@
 | Liiga Game | ✘ | 81 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 81 | 0 | 7% | 1% | -100% | -87% | 10 min |
 | Japan J League Game | ✘ | 81 | 1 | 19% | 7% | +15% | -68% | 12 min |
+| Valorant game winner | ✘ | 80 | 0 | 5% | 2% | -100% | -91% | 12 min |
 | German 3. Liga Game | ✘ | 80 | 0 | 11% | 5% | -100% | -80% | 8 min |
-| Valorant game winner | ✘ | 79 | 0 | 5% | 3% | -100% | -91% | 13 min |
+| Liga Leumit Game | ✘ | 78 | 0 | 4% | 4% | -100% | -93% | 20 min |
 | National League Game | ✘ | 78 | 1 | 1% | 1% | +20% | -98% | 5 min |
 | EFL Championship Game | ✔ | 78 | 0 | 9% | 5% | -100% | -84% | 9 min |
 | Serie A Game | ✔ | 78 | 0 | 9% | 5% | -100% | -84% | 12 min |
@@ -150,7 +151,6 @@
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
 | Liga MX Game | ✔ | 73 | 0 | 15% | 10% | -100% | -74% | 5 min |
 | UEFA Champions League Game | partly | 73 | 1 | 10% | 3% | +28% | -83% | 11 min |
-| Liga Leumit Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 39 min |
 | Euroleague Game | ✘ | 72 | 0 | 22% | 7% | -100% | -61% | 14 min |
 | Peru Liga 1 Game | ✘ | 72 | 0 | 14% | 6% | -100% | -76% | 11 min |
 | TFF 1. Lig Game | ✘ | 72 | 0 | 17% | 10% | -100% | -71% | 10 min |
@@ -174,8 +174,8 @@
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | NFL Game | ✔ | 59 | 1 | 20% | 8% | +58% | -65% | 5 min |
 | China League 1 Game | ✘ | 57 | 0 | 12% | 7% | -100% | -79% | 10 min |
+| Men's ODI Cricket Match | ✘ | 57 | 3 | 19% | 9% | +391% | -67% | 41 min |
 | LNBP Basketball Game | ✘ | 56 | 0 | 7% | 0% | -100% | -88% | 12 min |
-| Men's ODI Cricket Match | ✘ | 56 | 3 | 20% | 9% | +400% | -66% | 43 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | Polish Ekstraklasa Game | ✘ | 55 | 0 | 13% | 7% | -100% | -78% | 8 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 14:53 | Russia Liga Pro Match | Tolmachev Nikita | ✘ | — | — | In play | — |
-| 10-30 14:52 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:52 | Valorant game winner | FunPlus Phoenix | ✘ | — | — | In play | — |
+| 10-30 15:05 | Darts Match | Darren Beveridge | ✘ | — | — | In play | — |
+| 10-30 15:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 15:03 | eSoccer Game | Hoffenheim (SilentShooter) | ✘ | — | — | In play | — |
+| 10-30 15:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 15:01 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | — | In play | — |
+| 10-30 15:01 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 10-30 15:00 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | — | In play | — |
+| 10-30 15:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 15:00 | Counter-Strike 2 Game | Isurus | ✘ | — | — | In play | — |
+| 10-30 14:59 | eSoccer Game | Rennes (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:58 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:58 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | — | In play | — |
+| 10-30 14:57 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:56 | Liga Leumit Game | FC Kafr Qasim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:53 | Russia Liga Pro Match | Tolmachev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:52 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:52 | Valorant game winner | FunPlus Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:52 | Liga Leumit Game | Maccabi Bney Reine | ✘ | — | — | In play | — |
 | 10-30 14:52 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
 | 10-30 14:52 | Challenger WTA | Marina Bassols Ribera | ✘ | — | — | In play | — |
-| 10-30 14:52 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | — | In play | — |
-| 10-30 14:50 | Darts Match | Neil Duff | ✘ | — | — | In play | — |
-| 10-30 14:49 | eSoccer Game | Leverkusen (Mantis) | ✘ | — | — | In play | — |
-| 10-30 14:49 | Counter-Strike 2 Game | Copenhagen Wolves | ✘ | — | — | In play | — |
-| 10-30 14:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 14:52 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:50 | Darts Match | Neil Duff | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:49 | eSoccer Game | Leverkusen (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:49 | Counter-Strike 2 Game | Copenhagen Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 14:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:48 | eFootball Game | Buffalo (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:47 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 14:47 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:46 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:45 | eSoccer Game | Toulouse FC (Holis) | ✘ | — | — | In play | — |
-| 10-30 14:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 14:45 | Liga Leumit Game | Maccabi Ironi Kiryat Gat | ✘ | — | — | In play | — |
-| 10-30 14:44 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
-| 10-30 14:44 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 10-30 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:38 | Counter-Strike 2 Game | MIBR | ✘ | — | — | In play | — |
-| 10-30 14:37 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:36 | Liga Leumit Game | Hapoel Acre | ✘ | — | — | In play | — |
-| 10-30 14:36 | Men's ODI Cricket Match | Mid West Rhinos | ✘ | — | — | In play | — |
-| 10-30 14:35 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 14:35 | Mobile Legends Bang Bang Game | Team Rey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
