@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-10-30T12:54:20+00:00",
+ "saved_at": "2026-10-30T13:25:44+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,11 +22,26 @@
  "trades_v5": 286,
  "trades_v6": 182,
  "trades_v7": 90,
- "trades_v8": 988,
+ "trades_v8": 989,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
+  "SOL": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "ETH": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "BTC": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
   "DOGE": [
    "bitstamp",
    "gemini",
@@ -37,62 +52,45 @@
    "gemini",
    "kraken"
   ],
-  "BTC": [
+  "BCH": [
    "bitstamp",
-   "gemini",
-   "kraken"
+   "gemini"
   ],
-  "ETH": [
+  "HYPE": [
    "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "SOL": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "ADA": [
-   "bitstamp"
+   "gemini"
   ],
   "ZEC": [
    "bitstamp",
    "gemini"
   ],
-  "NEAR": [
+  "ADA": [
+   "bitstamp"
+  ],
+  "BNB": [
    "bitstamp",
    "gemini"
   ],
   "TON": [
    "bitstamp"
   ],
-  "HYPE": [
-   "bitstamp",
-   "gemini"
-  ],
-  "BNB": [
-   "bitstamp",
-   "gemini"
-  ],
-  "BCH": [
+  "NEAR": [
    "bitstamp",
    "gemini"
   ]
  },
  "open": 0,
- "results_known": 25805,
+ "results_known": 25806,
  "sigma_pct": {
-  "DOGE": 0.0671,
-  "ETH": 0.0636,
-  "BTC": 0.0517,
-  "BNB": 0.0628,
-  "HYPE": 0.1424,
-  "XRP": 0.0797,
-  "SOL": 0.0643,
-  "NEAR": 0.1438,
-  "ZEC": 0.147
+  "NEAR": 0.1568,
+  "SOL": 0.0686,
+  "HYPE": 0.1519,
+  "DOGE": 0.0718,
+  "BNB": 0.0496,
+  "BTC": 0.0502,
+  "XRP": 0.0779,
+  "ZEC": 0.1202,
+  "ETH": 0.0642
  },
- "errors": [
-  "2026-10-30T11:49:26+00:00 refresh KXZEC15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
