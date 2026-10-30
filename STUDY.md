@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 2:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 2:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39917 | 2192 | 9 (0%) | 1.1% | -$202.80 (-62%) | Hold to the end: -$202.80 (-62%) |
+| 39929 | 2192 | 9 (0%) | 1.1% | -$202.80 (-62%) | Hold to the end: -$202.80 (-62%) |
 
 *In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2192 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 37691 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 37703 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18116 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 18125 | 11 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2124 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1781 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1403 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1317 | 1 | 13% | 5% | -93% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1260 | 2 | 5% | 3% | -85% | -91% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1262 | 2 | 5% | 3% | -85% | -91% | 11 min |
 | Challenger ATP  | ✘ | 784 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 438 | 2 | 1% | 1% | -57% | -98% | 2 min |
+| eFootball Game | ✘ | 439 | 2 | 1% | 1% | -57% | -98% | 2 min |
 | Darts Match | ✘ | 358 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 340 | 2 | 11% | 6% | -45% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-30 20:45 | Challenger ATP  | Carlos Maria Zarate | ✘ | — | — | In play | — |
+| 10-30 20:45 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | — | In play | — |
+| 10-30 20:43 | Ligue 2 Game | Dunkerque | ✘ | — | — | In play | — |
+| 10-30 20:43 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 10-30 20:40 | DEL Game | Krefeld Pinguine | ✘ | — | — | In play | — |
+| 10-30 20:40 | Euroleague Game | Baskonia Vitoria-Gasteiz | ✘ | — | — | In play | — |
+| 10-30 20:39 | Counter-Strike 2 Game | paiN | ✘ | — | — | In play | — |
+| 10-30 20:38 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
+| 10-30 20:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:38 | Bundesliga Game | Mainz | ✔ | 49' · M05 0 - ELV 3 | — | In play | — |
+| 10-30 20:38 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | — | In play | — |
+| 10-30 20:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:35 | LNB Elite 2 Game | Hermine Nantes Basket | ✘ | — | — | In play | — |
-| 10-30 20:35 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
+| 10-30 20:35 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:35 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
-| 10-30 20:34 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 10-30 20:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 20:33 | eSoccer Game | Everton (Shaq) | ✘ | — | — | In play | — |
-| 10-30 20:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 20:34 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:33 | eSoccer Game | Everton (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:33 | LNB Elite 2 Game | Rouen Metropole Basket | ✘ | — | — | In play | — |
-| 10-30 20:32 | eFootball Game | Philadelphia (Joey) | ✘ | — | — | In play | — |
+| 10-30 20:32 | eFootball Game | Philadelphia (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:32 | Eerste Divisie Game | Waalwijk | ✘ | — | — | In play | — |
-| 10-30 20:32 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 10-30 20:32 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
-| 10-30 20:31 | Counter-Strike 2 Game | DFX Peek | ✘ | — | — | In play | — |
+| 10-30 20:32 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:32 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 20:31 | Counter-Strike 2 Game | DFX Peek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:31 | Ligue 2 Game | Boulogne | ✘ | — | — | In play | — |
 | 10-30 20:29 | Ligue 2 Game | Metz | ✘ | — | — | In play | — |
 | 10-30 20:26 | Eerste Divisie Game | Jong AZ Alkmaar | ✘ | — | — | In play | — |
 | 10-30 20:25 | Romanian Liga I Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 20:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:24 | BNXT League Game | Kangoeroes Basket Mechelen | ✘ | — | — | In play | — |
-| 10-30 20:23 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:23 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:23 | Challenger ATP  | Jeffrey John Wolf | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:23 | Belgian Pro League Game | Zulte Waregem | ✘ | — | — | In play | — |
-| 10-30 20:22 | Russia Liga Pro Match | Vologzhanin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:21 | Italy Serie A2 Game | Urania Milano | ✘ | — | — | In play | — |
-| 10-30 20:21 | Counter-Strike 2 Game | Falcons Force | ✘ | — | — | In play | — |
-| 10-30 20:21 | Counter-Strike 2 Game | MTX | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 20:20 | Ligue 2 Game | Grenoble | ✘ | — | — | In play | — |
 
 ## Raw data
 
