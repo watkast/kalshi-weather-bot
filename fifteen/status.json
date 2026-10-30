@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-10-30T20:42:15+00:00",
+ "saved_at": "2026-10-30T20:52:28+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 39819,
- "open": 6,
+ "bets": 39841,
+ "open": 3,
  "coinbase_spot": {
   "ZEC": true,
   "NEAR": true,
