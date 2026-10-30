@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 30, 2:31 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 30, 2:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39924 | 39914 | 148 (0%) | 1.07% | -$2,803.60 (-58%) | Hold to the close: -$2,803.60 (-58%) |
+| 39927 | 39914 | 148 (0%) | 1.07% | -$2,803.60 (-58%) | Hold to the close: -$2,803.60 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/30 2:41:51 PM | SILVER | UP | 3.1 min | — | — | In play | — |
+| 10/30 2:39:57 PM | GOLD | UP | 5.0 min | — | — | In play | — |
+| 10/30 2:39:57 PM | USDCAD | DOWN | 5.0 min | — | — | In play | — |
 | 10/30 2:29:50 PM | NATGAS | UP | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 2:29:50 PM | WTI | DOWN | 9 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/30 2:29:50 PM | USDJPY | DOWN | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,9 +218,6 @@
 | 10/30 2:14:16 PM | BTC | DOWN | 44 sec | +0.068% | 0¢ | ❌ Lost | $0.00 |
 | 10/30 2:14:16 PM | NATGAS | UP | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 2:13:57 PM | DOGE | DOWN | 63 sec | +0.118% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 2:13:57 PM | ETH | DOWN | 63 sec | +0.085% | 0¢ | ❌ Lost | $0.00 |
-| 10/30 2:13:41 PM | USDCAD | UP | 79 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 2:13:25 PM | WTI | UP | 1.6 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
