@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Fri Oct 30 12:58 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Fri Oct 30 13:08 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 27458 | 23782 | 3676 (96) | 3 | $-1536.88 | -0.9% |
-| **20¢+ jump, ride past +5¢** | 16936 | 9238 | 7698 (3440) | 3 | $-5699.94 | -5.3% |
+| **20¢+ jump, sell +5¢** | 27461 | 23784 | 3677 (96) | 0 | $-1540.01 | -0.9% |
+| **20¢+ jump, ride past +5¢** | 16939 | 9238 | 7701 (3442) | 0 | $-5701.78 | -5.3% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,12 +18,12 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 12:58 | J20R | XRP | UP | 49¢ | 0.65 | open |  |
-| 10-30 12:58 | J20 | XRP | UP | 49¢ | 0.68 | open |  |
-| 10-30 12:57 | J20R | NEAR | UP | 38¢ | 0.75 | open |  |
-| 10-30 12:57 | J20 | NEAR | UP | 38¢ | 0.76 | open |  |
-| 10-30 12:55 | J20R | ZEC | DOWN | 26¢ | 0.74 | open |  |
-| 10-30 12:55 | J20 | ZEC | DOWN | 26¢ | 0.75 | open |  |
+| 10-30 12:58 | J20R | XRP | UP | 49¢ | 0.65 | yes | 3.34 |
+| 10-30 12:58 | J20 | XRP | UP | 49¢ | 0.68 | 0.99 | 2.90 |
+| 10-30 12:57 | J20R | NEAR | UP | 38¢ | 0.75 | yes | 2.36 |
+| 10-30 12:57 | J20 | NEAR | UP | 38¢ | 0.76 | 0.94 | 1.61 |
+| 10-30 12:55 | J20R | ZEC | DOWN | 26¢ | 0.74 | yes | -7.54 |
+| 10-30 12:55 | J20 | ZEC | DOWN | 26¢ | 0.75 | yes | -7.64 |
 | 10-30 12:53 | J20R | HYPE | DOWN | 21¢ | 0.44 | 0.93 | 4.70 |
 | 10-30 12:53 | J20 | HYPE | DOWN | 21¢ | 0.44 | 0.73 | 2.58 |
 | 10-30 12:12 | J20R | XRP | UP | 28¢ | 0.50 | no | -5.18 |
