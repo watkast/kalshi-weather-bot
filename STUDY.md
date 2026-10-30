@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 4:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 4:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39174 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 39185 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 36964 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36976 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17742 | 10 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2057 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 17748 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2060 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1746 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1388 | 6 | 14% | 6% | -60% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | ITF Men's Match | ✘ | 1298 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1231 | 2 | 5% | 3% | -85% | -91% | 11 min |
 | Challenger ATP  | ✘ | 778 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 421 | 2 | 1% | 1% | -56% | -98% | 2 min |
+| eFootball Game | ✘ | 422 | 2 | 1% | 1% | -56% | -98% | 2 min |
 | Darts Match | ✘ | 343 | 0 | 0% | 0% | -100% | -99% | 7 min |
 | College Football Game | partly | 340 | 2 | 11% | 6% | -45% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -158,9 +158,9 @@
 | UEFA Conference League Game | partly | 70 | 0 | 16% | 10% | -100% | -73% | 10 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | ELH Game | ✘ | 68 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| Indonesia Super League Game | ✘ | 68 | 0 | 15% | 9% | -100% | -75% | 9 min |
 | Uruguay Primera Division Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 66 | 0 | 5% | 5% | -100% | -92% | 85 min |
-| Indonesia Super League Game | ✘ | 66 | 0 | 15% | 9% | -100% | -74% | 9 min |
 | SHL Game | ✘ | 65 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | Liga Expansion Game | ✘ | 65 | 0 | 5% | 3% | -100% | -92% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
@@ -332,17 +332,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 10:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 10:19 | Russia Liga Pro Match | Nosov Andrei | ✘ | — | — | In play | — |
-| 10-30 10:18 | eSoccer Game | Benfica (Ousmane) | ✘ | — | — | In play | — |
-| 10-30 10:18 | eSoccer Game | Manchester City (Vini) | ✘ | — | — | In play | — |
-| 10-30 10:18 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
-| 10-30 10:17 | Russia Liga Pro Match | Sevalnev Nikolai | ✘ | — | — | In play | — |
-| 10-30 10:17 | eSoccer Game | Manchester City (Strudl) | ✘ | — | — | In play | — |
-| 10-30 10:16 | eSoccer Game | FC Bayern (Elastico) | ✘ | — | — | In play | — |
-| 10-30 10:16 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | — | In play | — |
-| 10-30 10:14 | Indonesia Super League Game | Bhayangkara Presisi Indonesia | ✘ | — | — | In play | — |
-| 10-30 10:13 | Russia Liga Pro Match | Gavrilov Yuriy | ✘ | — | — | In play | — |
+| 10-30 10:30 | Men's T20 Cricket Match | Gujrat CC | ✘ | — | — | In play | — |
+| 10-30 10:29 | eSoccer Game | Leverkusen (Rendeto) | ✘ | — | — | In play | — |
+| 10-30 10:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 10:28 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | — | In play | — |
+| 10-30 10:28 | Mobile Legends Bang Bang Game | Galaxy Legends | ✘ | — | — | In play | — |
+| 10-30 10:27 | eBasketball Game | Indiana Pacers (Dirk) | ✘ | — | — | In play | — |
+| 10-30 10:27 | eBasketball Game | Denver Nuggets (Mick) | ✘ | — | — | In play | — |
+| 10-30 10:26 | Men's ODI Cricket Match | Papua New Guinea | ✘ | — | — | In play | — |
+| 10-30 10:24 | eFootball Game | Kansas City (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:23 | Australia NBL Game | Tasmania JackJumpers | ✘ | — | — | In play | — |
+| 10-30 10:22 | Dota 2 Game | Resp Gaming | ✘ | — | — | In play | — |
+| 10-30 10:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:19 | Russia Liga Pro Match | Nosov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:18 | eSoccer Game | Benfica (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:18 | eSoccer Game | Manchester City (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:18 | Indonesia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:17 | Russia Liga Pro Match | Sevalnev Nikolai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:17 | eSoccer Game | Manchester City (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:16 | eSoccer Game | FC Bayern (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:16 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:14 | Indonesia Super League Game | Bhayangkara Presisi Indonesia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 10:13 | Russia Liga Pro Match | Gavrilov Yuriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 10:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 10:06 | eFootball Game | Cincinnati (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 10:05 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,17 +362,6 @@
 | 10-30 10:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 10:03 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 10:03 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:02 | eSoccer Game | Paris Saint-Germain (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:02 | eSoccer Game | Benfica (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:00 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 10:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 09:57 | Men's T20 Cricket Match | India | ✘ | — | — | In play | — |
-| 10-30 09:55 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 09:55 | Malaysia Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 09:51 | Malaysia Super League Game | Negeri Sembilan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 09:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 09:49 | eSoccer Game | FC Bayern (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
