@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Oct 29, 10:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Oct 29, 11:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 38861 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
+| 38869 | 2187 | 9 (0%) | 1.1% | -$202.05 (-62%) | Hold to the end: -$202.05 (-62%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2187 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 36655 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 36662 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 17533 | 10 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2019 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 17539 | 10 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2020 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1724 | 3 | 2% | 1% | -84% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1386 | 6 | 14% | 6% | -60% | -76% | 4 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -332,13 +332,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-30 04:58 | Russia Liga Pro Match | Pustoselov Vladimir | ✘ | — | — | In play | — |
-| 10-30 04:57 | eSoccer Game | Frankfurt (Castle) | ✘ | — | — | In play | — |
-| 10-30 04:56 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
+| 10-30 05:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 05:05 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
+| 10-30 05:05 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | — | In play | — |
+| 10-30 05:02 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
+| 10-30 05:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 05:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-30 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 04:58 | Russia Liga Pro Match | Pustoselov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 04:57 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 04:56 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:55 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
 | 10-30 04:51 | eFootball Game | Green Bay (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-30 04:49 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
+| 10-30 04:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-30 04:49 | eSoccer Game | Liverpool (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:47 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:46 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -354,14 +362,6 @@
 | 10-30 04:34 | ITF Women's Match | Yingqun Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-30 04:33 | Counter-Strike 2 Game | NEXVOID | ✘ | — | — | In play | — |
-| 10-30 04:33 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:31 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:29 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:29 | ITF Women's Match | JiaYi Wang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:27 | eFootball Game | Atlanta (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-30 04:26 | NHL Game | Vancouver | ✔ | 0:10 - 3rd · VAN 2 - SJ 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
