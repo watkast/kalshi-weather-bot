@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Oct 30 01:19 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Oct 30 01:24 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,11 +10,11 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 39999 | 34939 | 5060 (51) | 1 | $-10957.75 | -4.3% |
-| **+10¢** | 29811 | 23958 | 5853 (74) | 1 | $-9690.70 | -5.2% |
-| **+15¢** | 24929 | 18633 | 6296 (101) | 2 | $-8673.46 | -5.5% |
-| **+20¢** | 22121 | 15518 | 6603 (130) | 2 | $-7602.23 | -5.5% |
-| **+10¢ (15¢ stop)** | 48812 | 48742 | 70 (37) | 1 | $-18442.51 | -6.0% |
+| **+5¢** | 40000 | 34940 | 5060 (51) | 0 | $-10957.02 | -4.3% |
+| **+10¢** | 29812 | 23959 | 5853 (74) | 0 | $-9689.97 | -5.2% |
+| **+15¢** | 24931 | 18635 | 6296 (101) | 0 | $-8670.23 | -5.5% |
+| **+20¢** | 22123 | 15520 | 6603 (130) | 0 | $-7598.67 | -5.5% |
+| **+10¢ (15¢ stop)** | 48813 | 48743 | 70 (37) | 0 | $-18441.78 | -6.0% |
 
 ## Latest trades
 
@@ -26,15 +26,15 @@
 | 10-30 01:16 | +10 | ZEC | DOWN | 0.67 | 0.78 | 0.81 |
 | 10-30 01:16 | +5 | ZEC | DOWN | 0.67 | 0.72 | 0.19 |
 | 10-30 01:16 | +10 stop | BTC | DOWN | 0.69 | 0.80 | 0.83 |
-| 10-30 01:16 | +20 | BTC | DOWN | 0.69 | open |  |
-| 10-30 01:16 | +15 | BTC | DOWN | 0.68 | open |  |
+| 10-30 01:16 | +20 | BTC | DOWN | 0.69 | 0.89 | 1.78 |
+| 10-30 01:16 | +15 | BTC | DOWN | 0.68 | 0.88 | 1.76 |
 | 10-30 01:16 | +10 | BTC | DOWN | 0.68 | 0.78 | 0.71 |
 | 10-30 01:16 | +5 | BTC | DOWN | 0.68 | 0.73 | 0.20 |
-| 10-30 01:16 | +10 stop | NEAR | DOWN | 0.70 | open |  |
-| 10-30 01:16 | +20 | NEAR | DOWN | 0.70 | open |  |
-| 10-30 01:16 | +15 | NEAR | DOWN | 0.70 | open |  |
-| 10-30 01:16 | +10 | NEAR | DOWN | 0.70 | open |  |
-| 10-30 01:16 | +5 | NEAR | DOWN | 0.70 | open |  |
+| 10-30 01:16 | +10 stop | NEAR | DOWN | 0.70 | 0.80 | 0.73 |
+| 10-30 01:16 | +20 | NEAR | DOWN | 0.70 | 0.90 | 1.78 |
+| 10-30 01:16 | +15 | NEAR | DOWN | 0.70 | 0.87 | 1.47 |
+| 10-30 01:16 | +10 | NEAR | DOWN | 0.70 | 0.80 | 0.73 |
+| 10-30 01:16 | +5 | NEAR | DOWN | 0.70 | 0.80 | 0.73 |
 | 10-30 01:10 | +10 stop | ZEC | DOWN | 0.68 | 0.52 | -1.94 |
 | 10-30 01:09 | +10 stop | DOGE | DOWN | 0.65 | 0.43 | -2.58 |
 | 10-30 01:09 | +10 stop | NEAR | UP | 0.54 | 0.65 | 0.76 |
