@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Oct 30, 5:48 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Oct 30, 5:59 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 39327 | 39317 | 144 (0%) | 1.07% | -$2,786.55 (-58%) | Hold to the close: -$2,786.55 (-58%) |
+| 39344 | 39317 | 144 (0%) | 1.07% | -$2,786.55 (-58%) | Hold to the close: -$2,786.55 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 26. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,23 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/30 5:58:52 AM | 5YRRATE | UP | 67 sec | — | — | In play | — |
+| 10/30 5:58:52 AM | 2YRRATE | UP | 67 sec | — | — | In play | — |
+| 10/30 5:58:52 AM | EURUSD | UP | 67 sec | — | — | In play | — |
+| 10/30 5:58:52 AM | 10YRRATE | UP | 67 sec | — | — | In play | — |
+| 10/30 5:58:06 AM | DOGE | DOWN | 1.9 min | +0.167% | — | In play | — |
+| 10/30 5:58:06 AM | NATGAS | UP | 1.9 min | — | — | In play | — |
+| 10/30 5:57:49 AM | GOLD | UP | 2.2 min | — | — | In play | — |
+| 10/30 5:56:44 AM | BTC | UP | 3.2 min | -0.327% | — | In play | — |
+| 10/30 5:56:28 AM | WTI | UP | 3.5 min | — | — | In play | — |
+| 10/30 5:56:12 AM | SOL | UP | 3.8 min | -0.247% | — | In play | — |
+| 10/30 5:56:12 AM | SILVER | UP | 3.8 min | — | — | In play | — |
+| 10/30 5:56:12 AM | AUDUSD | UP | 3.8 min | — | — | In play | — |
+| 10/30 5:56:12 AM | COPPER | UP | 3.8 min | — | — | In play | — |
+| 10/30 5:56:12 AM | ETH | UP | 3.8 min | -0.230% | — | In play | — |
+| 10/30 5:55:37 AM | ZEC | UP | 4.4 min | -0.756% | — | In play | — |
+| 10/30 5:55:21 AM | USDCAD | DOWN | 4.6 min | — | — | In play | — |
+| 10/30 5:55:21 AM | HYPE | UP | 4.6 min | -0.707% | — | In play | — |
 | 10/30 5:44:42 AM | USDJPY | UP | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 5:44:42 AM | GBPUSD | DOWN | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 5:44:26 AM | GOLD | UP | 34 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -201,23 +218,6 @@
 | 10/30 5:43:07 AM | AUDUSD | UP | 1.9 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 10/30 5:42:50 AM | SILVER | UP | 2.1 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 10/30 5:42:50 AM | BRENT | DOWN | 2.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:34 AM | HYPE | UP | 2.4 min | -0.383% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:01 AM | XRP | UP | 3.0 min | -0.280% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:01 AM | COPPER | UP | 3.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:01 AM | SOL | UP | 3.0 min | -0.276% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:01 AM | WTI | DOWN | 3.0 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:42:01 AM | ZEC | UP | 3.0 min | -0.437% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:41:13 AM | ETH | UP | 3.8 min | -0.253% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:40:06 AM | BTC | UP | 4.9 min | -0.325% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:40:06 AM | BNB | UP | 4.9 min | -0.451% | 1¢ | ❌ Lost | -$0.15 |
-| 10/30 5:29:48 AM | PALLADIUM | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:29:48 AM | NEAR | UP | 11 sec | -0.274% | 0¢ | ❌ Lost | $0.00 |
-| 10/30 5:29:48 AM | 10YRRATE | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:29:32 AM | DOGE | DOWN | 27 sec | +0.021% | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:29:16 AM | SOL | DOWN | 43 sec | +0.133% | 0¢ | ❌ Lost | $0.00 |
-| 10/30 5:28:59 AM | PLATINUM | DOWN | 60 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 10/30 5:28:43 AM | WTI | UP | 76 sec | — | 1¢ | ❌ Lost | $0.00 |
-| 10/30 5:28:43 AM | BRENT | UP | 76 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
