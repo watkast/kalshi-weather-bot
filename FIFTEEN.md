@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 31, 1:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 31, 1:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40718 | 40708 | 150 (0%) | 1.07% | -$2,861.10 (-58%) | Hold to the close: -$2,861.10 (-58%) |
+| 40720 | 40708 | 150 (0%) | 1.07% | -$2,861.10 (-58%) | Hold to the close: -$2,861.10 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/31 1:12:27 PM | XRP | DOWN | 2.5 min | +0.096% | — | In play | — |
+| 10/31 1:11:56 PM | ETH | DOWN | 3.0 min | +0.064% | — | In play | — |
 | 10/31 12:59:52 PM | XRP | DOWN | 8 sec | +0.016% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 12:59:52 PM | NEAR | DOWN | 8 sec | -0.064% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 12:58:17 PM | BNB | DOWN | 1.7 min | +0.000% | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 10/31 11:29:29 AM | DOGE | UP | 31 sec | -0.073% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 11:29:29 AM | SOL | DOWN | 31 sec | +0.016% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 11:29:13 AM | BTC | UP | 47 sec | -0.038% | 0¢ | ❌ Lost | $0.00 |
-| 10/31 11:29:13 AM | XRP | UP | 47 sec | -0.056% | 0¢ | ❌ Lost | $0.00 |
-| 10/31 11:28:58 AM | NEAR | UP | 62 sec | -0.313% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
