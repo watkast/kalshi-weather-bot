@@ -1,11 +1,11 @@
 {
- "saved_at": "2026-10-31T19:04:39+00:00",
+ "saved_at": "2026-10-31T19:17:15+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 543,
- "batch_lookup": false,
- "espn_games_linked": 99,
+ "markets_in_or_near_play": 545,
+ "batch_lookup": true,
+ "espn_games_linked": 25,
  "espn_check": {
-  "at": "2026-10-31T19:02:40+00:00",
+  "at": "2026-10-31T19:07:13+00:00",
   "started_games": 71,
   "matched": 25,
   "unmatched_sample": [
@@ -21,7 +21,7 @@
    "KXNCAAFGAME-26OCT31COOKARPB"
   ]
  },
- "bets": 41837,
- "open": 46,
+ "bets": 41870,
+ "open": 48,
  "errors": []
 }
