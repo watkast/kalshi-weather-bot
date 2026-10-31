@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Oct 30, 9:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Oct 30, 9:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40459 | 2226 | 9 (0%) | 1.1% | -$207.90 (-62%) | Hold to the end: -$207.90 (-62%) |
+| 40472 | 2226 | 9 (0%) | 1.1% | -$207.90 (-62%) | Hold to the end: -$207.90 (-62%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2226 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 38217 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 38223 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18370 | 11 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 18374 | 11 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2161 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1808 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1404 | 6 | 14% | 6% | -60% | -77% | 4 min |
@@ -104,12 +104,12 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1271 | 2 | 6% | 3% | -85% | -90% | 12 min |
 | Challenger ATP  | ✘ | 788 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 452 | 2 | 1% | 1% | -59% | -98% | 2 min |
+| eFootball Game | ✘ | 453 | 2 | 1% | 1% | -59% | -98% | 2 min |
 | Darts Match | ✘ | 368 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 343 | 2 | 11% | 6% | -46% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 284 | 1 | 15% | 6% | -67% | -74% | 23 min |
-| Women's College Volleyball Match | ✘ | 278 | 2 | 5% | 3% | -33% | -91% | 71 min |
+| Women's College Volleyball Match | ✘ | 279 | 2 | 5% | 3% | -33% | -91% | 71 min |
 | Dota 2 Game | ✘ | 254 | 1 | 1% | 1% | -63% | -98% | 30 min |
 | Serie C Game | ✘ | 242 | 2 | 4% | 2% | -23% | -93% | 6 min |
 | Challenger WTA | ✘ | 229 | 0 | 13% | 4% | -100% | -77% | 9 min |
@@ -332,10 +332,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-31 03:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 03:12 | eSoccer Game | Manchester City (Drakon) | ✘ | — | — | In play | — |
-| 10-31 03:11 | eSoccer Game | FSV Mainz 05 (Hurricane) | ✘ | — | — | In play | — |
-| 10-31 03:11 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | — | In play | — |
+| 10-31 03:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 03:26 | College Hockey Game | Colorado College | ✘ | — | — | In play | — |
+| 10-31 03:25 | eFootball Game | Pittsburgh (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 03:25 | eSoccer Game | Leverkusen (Antonio) | ✘ | — | — | In play | — |
+| 10-31 03:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 03:23 | Liga Expansion Game | Dorados | ✘ | — | — | In play | — |
+| 10-31 03:23 | eBasketball Game | Golden State Warriors (Conor) | ✘ | — | — | In play | — |
+| 10-31 03:22 | eSoccer Game | 1. FC Köln (Rooney) | ✘ | — | — | In play | — |
+| 10-31 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 03:22 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 10-31 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 03:22 | WTA Tennis Match | Hong Yi Cody Wong | ✘ | — | — | In play | — |
+| 10-31 03:19 | Challenger WTA | Elizabeth Mandlik | ✘ | — | — | In play | — |
+| 10-31 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 03:12 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 03:11 | eSoccer Game | FSV Mainz 05 (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 03:11 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 03:09 | eSoccer Game | 1. FC Köln (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 03:09 | Women's College Volleyball Match | Southern California | ✘ | — | — | In play | — |
@@ -349,19 +362,6 @@
 | 10-31 03:01 | Liga MX Game | Tie | ✔ | 90'+6' · ATS 1 - ASL 0 | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 03:01 | eBasketball Game | Brooklyn Nets (James) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 03:00 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 03:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:58 | Women's College Volleyball Match | Central Florida | ✘ | — | — | In play | — |
-| 10-31 02:56 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:55 | College Football Game | Charlotte | ✔ | OT · TULN 38 - CLT 31 | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:55 | eSoccer Game | Montpellier (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:55 | Liga Expansion Game | Correcaminos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:55 | Liga Expansion Game | Venados | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:54 | eSoccer Game | São Paulo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:54 | Liga MX Game | San Luis | ✔ | 88' · ATS 1 - ASL 0 | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 02:53 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
