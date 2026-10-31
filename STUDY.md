@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 11:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 11:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41671 | 2301 | 9 (0%) | 1.1% | -$219.15 (-63%) | Hold to the end: -$219.15 (-63%) |
+| 41691 | 2301 | 9 (0%) | 1.1% | -$219.15 (-63%) | Hold to the end: -$219.15 (-63%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2301 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39351 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 39356 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18942 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2257 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 18943 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2258 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1863 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1407 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1326 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1290 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 792 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 476 | 2 | 1% | 1% | -61% | -98% | 2 min |
+| eFootball Game | ✘ | 477 | 2 | 1% | 1% | -61% | -98% | 2 min |
 | Darts Match | ✘ | 368 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 344 | 2 | 11% | 6% | -46% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -211,13 +211,13 @@
 | Serbian SuperLiga Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 11 min |
 | Korea K League Game | ✘ | 41 | 1 | 17% | 10% | +128% | -70% | 7 min |
 | Adriatic ABA Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 11 min |
+| Serie A Femminile Game | ✘ | 40 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga Portugal Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 10 min |
 | Faroe Islands Premier League Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 31 min |
 | Venezuela Liga FUTVE game | ✘ | 40 | 0 | 18% | 12% | -100% | -70% | 6 min |
 | Rugby French 14 Match | ✘ | 39 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Super League Greece Game | ✘ | 39 | 0 | 18% | 5% | -100% | -69% | 14 min |
 | FIBA Europe Cup Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 8 min |
-| Serie A Femminile Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Belgian Pro League Game | ✘ | 38 | 0 | 11% | 0% | -100% | -82% | 18 min |
 | Spanish Liga F Game | ✘ | 38 | 0 | 8% | 5% | -100% | -86% | 7 min |
 | Chile Liga de Primera Game | ✘ | 37 | 0 | 11% | 0% | -100% | -81% | 7 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-31 17:53 | Turkish Super Lig Game | Fenerbahce | ✘ | — | — | In play | — |
+| 10-31 17:52 | Austrian Bundesliga Game | Ried | ✘ | — | — | In play | — |
+| 10-31 17:51 | Polish Ekstraklasa Game | Wisla Krakow | ✘ | — | — | In play | — |
+| 10-31 17:50 | South African Premiership Game | Tie | ✘ | — | — | In play | — |
+| 10-31 17:50 | Israeli Premier League Game | Ironi Tiberias | ✘ | — | — | In play | — |
+| 10-31 17:50 | Israeli Premier League Game | Bnei Sakhnin | ✘ | — | — | In play | — |
+| 10-31 17:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 17:49 | eFootball Game | Chicago (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 17:49 | eSoccer Game | Manchester Utd (Fede) | ✘ | — | — | In play | — |
+| 10-31 17:48 | Uruguay Primera Division Game | Cerro | ✘ | — | — | In play | — |
+| 10-31 17:48 | Austria BSL Game | BK Dukes Klosterneuburg | ✘ | — | — | In play | — |
+| 10-31 17:47 | South African Premiership Game | Arrows | ✘ | — | — | In play | — |
+| 10-31 17:47 | TFF 1. Lig Game | Batman | ✘ | — | — | In play | — |
+| 10-31 17:47 | eSoccer Game | Manchester City (Eder) | ✘ | — | — | In play | — |
+| 10-31 17:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 17:46 | Russia Liga Pro Match | Razinkov Timofei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 17:45 | Austrian Bundesliga Game | SCR Altach | ✘ | — | — | In play | — |
+| 10-31 17:45 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
+| 10-31 17:44 | South African Premiership Game | Stellenbosch | ✘ | — | — | In play | — |
+| 10-31 17:44 | Serbian SuperLiga Game | Tie | ✘ | — | — | In play | — |
 | 10-31 17:39 | Czech NBL Game | BK Lokomotiva Plzen | ✘ | — | — | In play | — |
 | 10-31 17:38 | Liiga Game | Jokerit Helsinki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:38 | Serie A Femminile Game | Parma Calcio | ✘ | — | — | In play | — |
-| 10-31 17:38 | Serie A Femminile Game | Sassuolo | ✘ | — | — | In play | — |
+| 10-31 17:38 | Serie A Femminile Game | Parma Calcio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 17:38 | Serie A Femminile Game | Sassuolo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 17:37 | Serie A Game | Tie | ✔ | 38' · ROMA 3 - UDI 0 | — | In play | — |
 | 10-31 17:37 | eBasketball Game | Denver Nuggets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 17:36 | eBasketball Game | New Orleans Pelicans (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 17:35 | eSoccer Game | Spurs (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 10-31 17:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:35 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:33 | eSoccer Game | Newcastle Utd (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:33 | Russia Liga Pro Match | Ekzhanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:33 | Serie A Game | Udinese | ✔ | 34' · ROMA 3 - UDI 0 | — | In play | — |
-| 10-31 17:32 | Liga Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:32 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:32 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:30 | ITF Women's Match | Kajsa Rinaldo Persson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:30 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:28 | Liga Portugal Game | Estrela Amadora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:28 | Eerste Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:27 | Liiga Game | Vaasan Sport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:26 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:26 | Rugby French 14 Match | Stade Rochelais | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:26 | German 3. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:25 | Russia Liga Pro Match | Slesarev Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:25 | Czech National Football League Game | FC Silon Taborsko | ✘ | — | — | In play | — |
-| 10-31 17:22 | Liiga Game | KooKoo Kouvola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 17:22 | Rugby French 14 Match | RC Vannes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 17:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
