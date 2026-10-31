@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 4:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 4:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 44 finished bets | 2% | $7.40 | +112% | +16.82¢ | $10.70 / -$3.30 |
 
-*Expect about **2 buys a day**, roughly **$0.24/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42197 | 2344 | 9 (0%) | 1.1% | -$225.60 (-64%) | Hold to the end: -$225.60 (-64%) |
+| 42211 | 2345 | 9 (0%) | 1.1% | -$225.75 (-64%) | Hold to the end: -$225.75 (-64%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2344 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39821 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2345 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 39827 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 9 | 0% | -$225.60 | -64% |
-| Sell at 2¢ | 313 | 13% | -$270.22 | -77% |
-| Sell at 3¢ | 216 | 9% | -$267.36 | -76% |
-| Sell at 5¢ | 150 | 6% | -$254.10 | -72% |
-| Sell at 10¢ | 67 | 3% | -$263.83 | -75% |
-| Sell at 25¢ | 22 | 1% | -$278.78 | -79% |
-| Sell at 50¢ | 15 | 1% | -$250.35 | -71% |
+| Hold to the end | 9 | 0% | -$225.75 | -64% |
+| Sell at 2¢ | 314 | 13% | -$270.11 | -77% |
+| Sell at 3¢ | 217 | 9% | -$267.12 | -76% |
+| Sell at 5¢ | 150 | 6% | -$254.25 | -72% |
+| Sell at 10¢ | 67 | 3% | -$263.98 | -75% |
+| Sell at 25¢ | 22 | 1% | -$278.93 | -79% |
+| Sell at 50¢ | 15 | 1% | -$250.50 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19101 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19105 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2289 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1875 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
@@ -105,8 +105,8 @@
 | Counter-Strike 2 Game | ✘ | 1298 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 794 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 483 | 2 | 1% | 1% | -61% | -98% | 2 min |
-| College Football Game | partly | 379 | 3 | 12% | 6% | -26% | -80% | 24 min |
-| Darts Match | ✘ | 373 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| College Football Game | partly | 380 | 3 | 12% | 6% | -26% | -80% | 24 min |
+| Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 289 | 1 | 15% | 6% | -68% | -74% | 23 min |
 | Women's College Volleyball Match | ✘ | 285 | 2 | 5% | 3% | -35% | -91% | 71 min |
@@ -136,8 +136,8 @@
 | Brasileiro Serie A Game | partly | 102 | 1 | 12% | 7% | -8% | -80% | 7 min |
 | EFL Championship Game | ✔ | 100 | 0 | 7% | 4% | -100% | -88% | 10 min |
 | College Hockey Game | ✘ | 99 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| LaLiga 2 Game | partly | 94 | 1 | 18% | 9% | -1% | -69% | 8 min |
 | Liiga Game | ✘ | 94 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| LaLiga 2 Game | partly | 93 | 1 | 17% | 9% | +0% | -70% | 8 min |
 | Japan J League Game | ✘ | 93 | 1 | 16% | 6% | +0% | -72% | 14 min |
 | German 3. Liga Game | ✘ | 91 | 0 | 11% | 5% | -100% | -81% | 7 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
@@ -313,7 +313,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 921 | 4% | 1% | 0% | -92% |
 | 5–15 min | 552 | 16% | 7% | 1% | -71% |
-| 15–30 min | 370 | 24% | 13% | 1% | -59% |
+| 15–30 min | 371 | 24% | 13% | 1% | -59% |
 | 30–60 min | 281 | 20% | 11% | 0% | -66% |
 | Over 60 min | 195 | 20% | 11% | 0% | -65% |
 
@@ -333,9 +333,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-31 22:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 22:12 | NHL Game | San Jose | ✔ | 12:06 - 3rd · OTT 4 - SJ 1 | — | In play | — |
+| 10-31 22:08 | Counter-Strike 2 Game | TTG Esports | ✘ | — | — | In play | — |
+| 10-31 22:08 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
+| 10-31 22:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 22:07 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | — | In play | — |
+| 10-31 22:05 | eSoccer Game | Flamengo (Danny) | ✘ | — | — | In play | — |
+| 10-31 22:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 22:05 | Spain Liga ACB Game | CB 1939 Canarias | ✘ | — | — | In play | — |
+| 10-31 22:05 | eSoccer Game | Manchester City (Lucy) | ✘ | — | — | In play | — |
+| 10-31 22:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 22:04 | eSoccer Game | River Plate (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 22:03 | Valorant game winner | Shopify Rebellion GC | ✘ | — | — | In play | — |
+| 10-31 22:03 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 22:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 22:00 | College Football Game | Nicholls St. | ✘ | — | — | In play | — |
-| 10-31 21:58 | Darts Match | Darren Beveridge | ✘ | — | — | In play | — |
+| 10-31 21:58 | Darts Match | Darren Beveridge | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 21:57 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
 | 10-31 21:57 | College Football Game | UC Davis | ✘ | — | — | In play | — |
 | 10-31 21:57 | English Premier League Game | Aston Villa | ✔ | 90'+6' · FUL 1 - AVL 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -349,20 +363,6 @@
 | 10-31 21:48 | Dota 2 Game | Level Up Academy | ✘ | — | — | In play | — |
 | 10-31 21:48 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 21:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:48 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:48 | Rugby French 14 Match | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:48 | Rugby French 14 Match | USA Perpignan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:47 | College Football Game | Tennessee-Martin | ✘ | — | — | In play | — |
-| 10-31 21:47 | College Football Game | Florida A&M | ✘ | — | — | In play | — |
-| 10-31 21:46 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:46 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:46 | College Football Game | Colorado St. | ✔ | 3:17 - 3rd · CSU 0 - USU 24 | — | In play | — |
-| 10-31 21:45 | eBasketball Game | Dallas Mavericks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:45 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 21:44 | College Football Game | Florida | ✔ | 10:35 - 3rd · FLA 0 - UGA 24 | — | In play | — |
-| 10-31 21:44 | Argentine Nacional B Game | Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
