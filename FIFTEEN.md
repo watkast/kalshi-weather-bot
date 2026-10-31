@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 31, 1:48 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 31, 1:59 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40375 | 40365 | 150 (0%) | 1.07% | -$2,825.70 (-57%) | Hold to the close: -$2,825.70 (-57%) |
+| 40378 | 40365 | 150 (0%) | 1.07% | -$2,825.70 (-57%) | Hold to the close: -$2,825.70 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/31 1:57:30 AM | XRP | DOWN | 2.5 min | +0.064% | — | In play | — |
+| 10/31 1:56:58 AM | NEAR | DOWN | 3.0 min | +0.405% | — | In play | — |
+| 10/31 1:56:41 AM | ZEC | DOWN | 3.3 min | +0.341% | — | In play | — |
 | 10/31 1:42:16 AM | BTC | UP | 2.7 min | -0.120% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 1:42:16 AM | ZEC | UP | 2.7 min | -0.417% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 1:42:16 AM | ETH | UP | 2.7 min | -0.140% | 0¢ | ❌ Lost | $0.00 |
@@ -215,9 +218,6 @@
 | 10/31 1:12:06 AM | SOL | UP | 2.9 min | -0.239% | 2¢ | ❌ Lost | -$0.15 |
 | 10/31 1:11:49 AM | XRP | UP | 3.2 min | -0.152% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 1:09:42 AM | HYPE | UP | 5.3 min | -0.545% | 1¢ | ❌ Lost | -$0.15 |
-| 10/31 12:59:15 AM | ETH | DOWN | 44 sec | +0.009% | 1¢ | ❌ Lost | -$0.15 |
-| 10/31 12:58:59 AM | XRP | DOWN | 61 sec | +0.032% | 0¢ | ❌ Lost | $0.00 |
-| 10/31 12:58:59 AM | SOL | UP | 61 sec | -0.111% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
