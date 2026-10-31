@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 31, 3:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 31, 3:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 3265 finished bets | 1% | $97.05 | +27% | +2.97¢ | $85.10 / $11.95 |
 
-*Expect about **99 buys a day** (~$14.79/day at risk); max loss per buy **15¢**.*
+*Expect about **99 buys a day** (~$14.78/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40434 | 40424 | 150 (0%) | 1.07% | -$2,832.00 (-57%) | Hold to the close: -$2,832.00 (-57%) |
+| 40435 | 40424 | 150 (0%) | 1.07% | -$2,832.00 (-57%) | Hold to the close: -$2,832.00 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/31 3:41:44 AM | HYPE | UP | 3.2 min | -0.418% | — | In play | — |
 | 10/31 3:29:13 AM | ZEC | DOWN | 46 sec | +0.153% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 3:29:13 AM | BNB | DOWN | 46 sec | +0.004% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 3:29:13 AM | SOL | DOWN | 46 sec | +0.006% | 0¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 10/31 2:44:41 AM | DOGE | UP | 19 sec | -0.053% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 2:44:41 AM | NEAR | DOWN | 19 sec | -0.032% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 2:44:09 AM | XRP | UP | 51 sec | -0.088% | 0¢ | ❌ Lost | $0.00 |
-| 10/31 2:43:21 AM | SOL | UP | 1.6 min | -0.164% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
