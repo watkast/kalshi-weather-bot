@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 6:34 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 6:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41089 | 2231 | 9 (0%) | 1.1% | -$208.65 (-62%) | Hold to the end: -$208.65 (-62%) |
+| 41097 | 2231 | 9 (0%) | 1.1% | -$208.65 (-62%) | Hold to the end: -$208.65 (-62%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2231 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 38838 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 38846 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18731 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2216 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 18737 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2217 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1843 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1406 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1323 | 2 | 13% | 5% | -86% | -77% | 5 min |
@@ -218,12 +218,12 @@
 | Chile Liga de Primera Game | ✘ | 37 | 0 | 11% | 0% | -100% | -81% | 7 min |
 | Danish Superliga Game | ✘ | 37 | 0 | 11% | 5% | -100% | -81% | 10 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
+| Australia NBL Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 9 min |
 | Champions League Women's Game | partly | 36 | 1 | 19% | 8% | +159% | -66% | 26 min |
 | Serie A Femminile Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Spain Liga ACB Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 14 min |
 | Belgian Pro League Game | ✘ | 36 | 0 | 11% | 0% | -100% | -81% | 19 min |
 | Sweden SBL Game | ✘ | 35 | 0 | 6% | 6% | -100% | -90% | 14 min |
-| Australia NBL Game | ✘ | 35 | 0 | 3% | 0% | -100% | -95% | 8 min |
 | LNB Elite Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Rugby French 14 Match | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Czech NBL Game | ✘ | 32 | 0 | 3% | 0% | -100% | -95% | 17 min |
@@ -332,16 +332,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-31 12:34 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | — | In play | — |
-| 10-31 12:34 | eSoccer Game | Hoffenheim (Rendeto) | ✘ | — | — | In play | — |
-| 10-31 12:32 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 10-31 12:32 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 10-31 12:32 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | — | In play | — |
+| 10-31 12:44 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 10-31 12:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 12:43 | Russia Liga Pro Match | Evlampiev Vadim | ✘ | — | — | In play | — |
+| 10-31 12:39 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | — | In play | — |
+| 10-31 12:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 12:36 | Vietnam V-League 1 Game | The Cong - Viettel | ✘ | — | — | In play | — |
+| 10-31 12:36 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | — | In play | — |
+| 10-31 12:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 12:34 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 12:34 | eSoccer Game | Hoffenheim (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 12:32 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 12:32 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 12:32 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:30 | Spanish Liga F Game | Granada | ✘ | — | — | In play | — |
-| 10-31 12:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 12:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:30 | Slovakian 2. Liga Game | MFk Bytca | ✘ | — | — | In play | — |
 | 10-31 12:30 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-31 12:30 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 10-31 12:30 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:26 | eFootball Game | Houston (Justin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:25 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -349,19 +357,11 @@
 | 10-31 12:22 | eSoccer Game | FC Bayern (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:22 | eSoccer Game | 1. FC Köln (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:22 | Russia Liga Pro Match | Kharlakin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:22 | Australia NBL Game | Perth Wildcats | ✘ | — | — | In play | — |
+| 10-31 12:22 | Australia NBL Game | Perth Wildcats | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 10-31 12:21 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:20 | TFF 1. Lig Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 12:19 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:18 | WTA Tennis Match | Rinko Matsuda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-31 12:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:17 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:17 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:16 | Turkish Super Lig Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 10-31 12:15 | TFF 1. Lig Game | Sariyer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 12:14 | Overwatch Game | JD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
