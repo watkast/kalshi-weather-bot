@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 1:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 1:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40772 | 2231 | 9 (0%) | 1.1% | -$208.65 (-62%) | Hold to the end: -$208.65 (-62%) |
+| 40781 | 2231 | 9 (0%) | 1.1% | -$208.65 (-62%) | Hold to the end: -$208.65 (-62%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2231 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 38512 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 38527 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18549 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2182 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1824 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eSoccer Game | ✘ | 18559 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2183 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1825 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1404 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1320 | 1 | 13% | 5% | -93% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1272 | 2 | 6% | 3% | -85% | -90% | 12 min |
 | Challenger ATP  | ✘ | 790 | 2 | 11% | 4% | -76% | -81% | 5 min |
-| eFootball Game | ✘ | 460 | 2 | 1% | 1% | -59% | -98% | 2 min |
+| eFootball Game | ✘ | 461 | 2 | 1% | 1% | -60% | -98% | 2 min |
 | Darts Match | ✘ | 368 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | College Football Game | partly | 344 | 2 | 11% | 6% | -46% | -80% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -165,8 +165,8 @@
 | Uruguay Primera Division Game | ✘ | 66 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | DEL Game | ✘ | 66 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | SHL Game | ✘ | 65 | 0 | 3% | 3% | -100% | -95% | 6 min |
+| Mobile Legends Bang Bang Game | ✘ | 64 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Ligue 2 Game | ✘ | 64 | 0 | 9% | 6% | -100% | -84% | 7 min |
-| Mobile Legends Bang Bang Game | ✘ | 63 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Women's T20 Match | ✘ | 62 | 0 | 13% | 6% | -100% | -78% | 23 min |
 | Tweede Divisie Game | ✘ | 62 | 0 | 2% | 0% | -100% | -97% | 5 min |
@@ -177,9 +177,9 @@
 | NFL Game | ✔ | 59 | 1 | 20% | 8% | +58% | -65% | 5 min |
 | Polish Ekstraklasa Game | ✘ | 59 | 0 | 12% | 7% | -100% | -79% | 8 min |
 | LNBP Basketball Game | ✘ | 58 | 0 | 7% | 0% | -100% | -88% | 12 min |
+| Japan B League Game | ✘ | 58 | 0 | 7% | 0% | -100% | -88% | 13 min |
 | China League 1 Game | ✘ | 57 | 0 | 12% | 7% | -100% | -79% | 10 min |
 | Bundesliga 2 Game | ✔ | 57 | 0 | 12% | 7% | -100% | -79% | 8 min |
-| Japan B League Game | ✘ | 57 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | LNB Elite 2 Game | ✘ | 55 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-31 07:45 | eSoccer Game | AS Monaco (Poly) | ✘ | — | — | In play | — |
-| 10-31 07:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 07:55 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 10-31 07:55 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
+| 10-31 07:55 | eSoccer Game | RCD Mallorca (Elastico) | ✘ | — | — | In play | — |
+| 10-31 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 07:54 | Japan J League Game | Nagoya | ✘ | — | — | In play | — |
+| 10-31 07:54 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 10-31 07:54 | eSoccer Game | Manchester Utd (Rose) | ✘ | — | — | In play | — |
+| 10-31 07:52 | China League 1 Game | Meizhou Hakka | ✘ | — | — | In play | — |
+| 10-31 07:51 | Australian A League Game | Tie | ✘ | — | — | In play | — |
+| 10-31 07:45 | eSoccer Game | AS Monaco (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:45 | eBasketball Game | Dallas Mavericks (Jordan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:45 | Mobile Legends Bang Bang Game | Evil Eye Esports | ✘ | — | — | In play | — |
-| 10-31 07:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 07:44 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | — | In play | — |
+| 10-31 07:45 | Mobile Legends Bang Bang Game | Evil Eye Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:44 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:44 | Australian A League Game | Sydney FC | ✘ | — | — | In play | — |
-| 10-31 07:43 | Russia Liga Pro Match | Kovalev Igor | ✘ | — | — | In play | — |
-| 10-31 07:42 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
-| 10-31 07:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 07:41 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
-| 10-31 07:41 | eFootball Game | Seattle (Charlie) | ✘ | — | — | In play | — |
-| 10-31 07:40 | eSoccer Game | Manchester Utd (Rose) | ✘ | — | — | In play | — |
-| 10-31 07:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 07:40 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | — | In play | — |
+| 10-31 07:43 | Russia Liga Pro Match | Kovalev Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:42 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:41 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:41 | eFootball Game | Seattle (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:40 | eSoccer Game | Manchester Utd (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 07:40 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:36 | Russia Liga Pro Match | Voronkov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:36 | Russia Liga Pro Match | Smyshnikov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:34 | Japan J2 League Game | Blaublitz A | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:34 | Japan J2 League Game | Fujieda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 07:33 | Japan J League Game | Tie | ✘ | — | — | In play | — |
-| 10-31 07:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:32 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:29 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:28 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:28 | eSoccer Game | RCD Mallorca (Elastico) | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 10-31 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:27 | eSoccer Game | Real Betis (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 07:26 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
