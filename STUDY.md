@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 9:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 9:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41338 | 2253 | 9 (0%) | 1.1% | -$211.95 (-63%) | Hold to the end: -$211.95 (-63%) |
+| 41357 | 2253 | 9 (0%) | 1.1% | -$211.95 (-63%) | Hold to the end: -$211.95 (-63%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2253 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39065 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 39077 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18835 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2240 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1853 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eSoccer Game | ✘ | 18841 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2242 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1855 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1406 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1325 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1279 | 2 | 6% | 3% | -85% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1281 | 2 | 6% | 3% | -85% | -90% | 12 min |
 | Challenger ATP  | ✘ | 791 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 472 | 2 | 1% | 1% | -60% | -98% | 2 min |
 | Darts Match | ✘ | 368 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -332,10 +332,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 10-31 15:12 | eSoccer Game | OGC Nice (Eder) | ✘ | — | — | In play | — |
-| 10-31 15:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 15:11 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
-| 10-31 15:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 15:23 | Serie C Game | Casertana | ✘ | — | — | In play | — |
+| 10-31 15:23 | Dota 2 Game | GamerLegion | ✘ | — | — | In play | — |
+| 10-31 15:23 | Serie C Game | SS Scafatese Calcio | ✘ | — | — | In play | — |
+| 10-31 15:23 | Serie C Game | Bari | ✘ | — | — | In play | — |
+| 10-31 15:20 | Saudi Pro League Game | Al-Ittifaq | ✘ | — | — | In play | — |
+| 10-31 15:20 | Counter-Strike 2 Game | Nuclear TigeRES | ✘ | — | — | In play | — |
+| 10-31 15:19 | EFL Championship Game | Derby | ✔ | 19' · DER 0 - MIL 3 | — | In play | — |
+| 10-31 15:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 15:17 | eSoccer Game | FC Bayern (Mantis) | ✘ | — | — | In play | — |
+| 10-31 15:17 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:17 | eBasketball Game | Denver Nuggets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:16 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:16 | Counter-Strike 2 Game | Bounty Hunters Esports | ✘ | — | — | In play | — |
+| 10-31 15:15 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:15 | Czech First League Game | Jablonec | ✘ | — | — | In play | — |
+| 10-31 15:14 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
+| 10-31 15:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 15:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:14 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:12 | eSoccer Game | OGC Nice (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:11 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 15:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 15:11 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 15:08 | Men's T20 Cricket Match | Abu Dhabi | ✘ | — | — | In play | — |
 | 10-31 15:02 | eSoccer Game | Hoffenheim (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -343,25 +362,6 @@
 | 10-31 15:01 | eSoccer Game | Everton (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 15:01 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 15:00 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 15:00 | Challenger WTA | Anna Blinkova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:59 | eFootball Game | Philadelphia (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:59 | eSoccer Game | Toulouse FC (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:57 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:57 | Israeli Premier League Game | Beitar Jerusalem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:56 | LaLiga 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:56 | German 3. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:56 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:54 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:53 | Turkish Super Lig Game | Rizespor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:53 | Turkish Super Lig Game | Kocaeli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:52 | German 3. Liga Game | Verl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:51 | Men's ODI Cricket Match | Qatar | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:51 | Counter-Strike 2 Game | paiN | ✘ | — | — | In play | — |
-| 10-31 14:51 | German 3. Liga Game | Havelse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 14:51 | German 3. Liga Game | Ingolstadt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
