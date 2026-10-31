@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 12:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 12:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41780 | 2301 | 9 (0%) | 1.1% | -$219.15 (-63%) | Hold to the end: -$219.15 (-63%) |
+| 41796 | 2301 | 9 (0%) | 1.1% | -$219.15 (-63%) | Hold to the end: -$219.15 (-63%) |
 
-*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2301 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39434 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 39447 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 18967 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2264 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 18969 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2266 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1866 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1407 | 6 | 14% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1326 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1292 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1293 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 792 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 478 | 2 | 1% | 1% | -61% | -98% | 2 min |
 | Darts Match | ✘ | 368 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -110,7 +110,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 287 | 1 | 15% | 6% | -67% | -73% | 23 min |
 | Women's College Volleyball Match | ✘ | 284 | 2 | 5% | 3% | -34% | -91% | 70 min |
-| Serie C Game | ✘ | 260 | 2 | 4% | 2% | -28% | -93% | 6 min |
+| Serie C Game | ✘ | 262 | 2 | 4% | 2% | -29% | -93% | 6 min |
 | Dota 2 Game | ✘ | 259 | 1 | 1% | 1% | -64% | -98% | 30 min |
 | Challenger WTA | ✘ | 235 | 0 | 13% | 4% | -100% | -78% | 9 min |
 | NHL Game | ✔ | 216 | 1 | 13% | 6% | -57% | -77% | 5 min |
@@ -196,9 +196,9 @@
 | Eredivisie Game | ✔ | 52 | 0 | 12% | 10% | -100% | -80% | 4 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Italy Serie A2 Game | ✘ | 51 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| Ecuador Liga Pro Game | ✘ | 50 | 0 | 8% | 2% | -100% | -86% | 8 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Vietnam V-League 1 Game | ✘ | 48 | 1 | 6% | 4% | +94% | -89% | 10 min |
-| Ecuador Liga Pro Game | ✘ | 48 | 0 | 8% | 2% | -100% | -86% | 8 min |
 | Bolivia Premier Division Game | ✘ | 48 | 0 | 10% | 2% | -100% | -82% | 6 min |
 | Israeli Premier League Game | ✘ | 48 | 0 | 4% | 0% | -100% | -93% | 9 min |
 | Finland Korisliiga Game | ✘ | 47 | 1 | 9% | 4% | +99% | -85% | 9 min |
@@ -228,8 +228,8 @@
 | Champions League Women's Game | partly | 36 | 1 | 19% | 8% | +159% | -66% | 26 min |
 | Spain Liga ACB Game | ✘ | 36 | 0 | 6% | 3% | -100% | -90% | 14 min |
 | Qatar Stars League | ✘ | 36 | 0 | 8% | 3% | -100% | -86% | 7 min |
+| Czech NBL Game | ✘ | 34 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | LNB Elite Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Czech NBL Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 18 min |
 | Croatia HNL Game | ✘ | 33 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | Romanian Liga I Game | ✘ | 33 | 0 | 9% | 3% | -100% | -84% | 13 min |
 | Italy Serie A Game | ✘ | 32 | 0 | 3% | 3% | -100% | -95% | 6 min |
@@ -249,8 +249,8 @@
 | Australian A League Game | ✘ | 28 | 0 | 7% | 0% | -100% | -88% | 6 min |
 | German Women's Bundesliga Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 18 min |
 | Austrian Bundesliga Game | ✘ | 28 | 0 | 11% | 7% | -100% | -81% | 12 min |
-| Hungarian NB I Game | ✘ | 26 | 0 | 8% | 8% | -100% | -87% | 6 min |
-| Croatia Premijer Liga Game | ✘ | 25 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Hungarian NB I Game | ✘ | 28 | 0 | 7% | 7% | -100% | -88% | 7 min |
+| Croatia Premijer Liga Game | ✘ | 26 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Slovakian Cup Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 19 min |
 | England Super League Basketball Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Swiss Super League Game | ✘ | 24 | 0 | 4% | 0% | -100% | -93% | 18 min |
@@ -332,36 +332,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-31 18:45 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
+| 10-31 18:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 18:45 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | — | In play | — |
+| 10-31 18:44 | Russia Liga Pro Match | Slesarev Vladimir | ✘ | — | — | In play | — |
+| 10-31 18:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 18:44 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 10-31 18:42 | ATP Tennis Match | Alexander Zverev | ✘ | — | — | In play | — |
+| 10-31 18:42 | Croatia Premijer Liga Game | Kk Cedevita Zagreb Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 18:42 | English Premier League Game | Crystal Palace | ✔ | 55' · CRY 0 - TOT 1 | — | In play | — |
+| 10-31 18:41 | Czech National Football League Game | Trinec | ✘ | — | — | In play | — |
+| 10-31 18:40 | Slovenian Prva Liga Game | Tie | ✘ | — | — | In play | — |
+| 10-31 18:40 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 10-31 18:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 18:38 | Slovakia SBL Game | BK Iskra Svit | ✘ | — | — | In play | — |
+| 10-31 18:37 | College Football Game | New Haven | ✘ | — | — | In play | — |
+| 10-31 18:37 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | — | In play | — |
 | 10-31 18:34 | Czech First League Game | Tie | ✘ | — | — | In play | — |
 | 10-31 18:34 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 10-31 18:33 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | — | In play | — |
+| 10-31 18:33 | Russia Liga Pro Match | Lukyanov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 18:33 | Spain Liga ACB Game | Basquet Girona | ✘ | — | — | In play | — |
 | 10-31 18:33 | Eredivisie Game | Tie | ✔ | HT · WIL 0 - PSV 2 | — | In play | — |
-| 10-31 18:31 | eSoccer Game | Juventus (Haze) | ✘ | — | — | In play | — |
-| 10-31 18:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 18:31 | Serie C Game | Monopoli | ✘ | — | — | In play | — |
-| 10-31 18:31 | Serie C Game | Barletta | ✘ | — | — | In play | — |
-| 10-31 18:31 | Czech NBL Game | USK Prague | ✘ | — | — | In play | — |
+| 10-31 18:31 | eSoccer Game | Juventus (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 18:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 18:31 | Serie C Game | Monopoli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 18:31 | Serie C Game | Barletta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 18:31 | Czech NBL Game | USK Prague | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 18:31 | College Football Game | Sacred Heart | ✘ | — | — | In play | — |
-| 10-31 18:31 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 10-31 18:31 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 18:31 | Super League Greece Game | Kifisia | ✘ | — | — | In play | — |
 | 10-31 18:31 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:30 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:30 | eSoccer Game | Nantes (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | Ecuador Liga Pro Game | Tie | ✘ | — | — | In play | — |
-| 10-31 18:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | Hungarian NB I Game | Tie | ✘ | — | — | In play | — |
-| 10-31 18:27 | Qatar Stars League | Al Arabi Doha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | Qatar Stars League | Al Rayyan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | Slovenian Prva Liga Game | Radomlje | ✘ | — | — | In play | — |
-| 10-31 18:27 | Serie C Game | Perugia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:27 | Serie C Game | Guidonia Montecelio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:25 | College Football Game | Mercyhurst | ✘ | — | — | In play | — |
-| 10-31 18:25 | Swiss Super League Game | Servette Geneva | ✘ | — | — | In play | — |
-| 10-31 18:24 | Serie C Game | Grosseto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:24 | Serie C Game | Vado | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 18:24 | Slovakian 2. Liga Game | Slovan Galanta | ✘ | — | — | In play | — |
 
 ## Raw data
 
