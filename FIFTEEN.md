@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 31, 8:03 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 31, 8:13 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 40574 | 40564 | 150 (0%) | 1.07% | -$2,847.30 (-58%) | Hold to the close: -$2,847.30 (-58%) |
+| 40578 | 40564 | 150 (0%) | 1.07% | -$2,847.30 (-58%) | Hold to the close: -$2,847.30 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/31 8:13:18 AM | BNB | UP | 1.7 min | -0.130% | — | In play | — |
+| 10/31 8:12:46 AM | NEAR | DOWN | 2.2 min | +0.354% | — | In play | — |
+| 10/31 8:11:08 AM | ZEC | UP | 3.9 min | -0.388% | — | In play | — |
+| 10/31 8:10:53 AM | HYPE | UP | 4.1 min | -0.562% | — | In play | — |
 | 10/31 7:59:22 AM | BTC | UP | 38 sec | -0.049% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 7:59:22 AM | ZEC | DOWN | 38 sec | +0.104% | 0¢ | ❌ Lost | -$0.15 |
 | 10/31 7:59:22 AM | ETH | DOWN | 38 sec | -0.004% | 0¢ | ❌ Lost | -$0.15 |
@@ -214,10 +218,6 @@
 | 10/31 7:28:35 AM | HYPE | DOWN | 84 sec | +0.179% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 7:28:19 AM | ZEC | UP | 1.7 min | -0.269% | 0¢ | ❌ Lost | $0.00 |
 | 10/31 7:26:59 AM | XRP | DOWN | 3.0 min | +0.064% | 4¢ | ❌ Lost | -$0.15 |
-| 10/31 7:25:55 AM | NEAR | UP | 4.1 min | -0.599% | 1¢ | ❌ Lost | -$0.15 |
-| 10/31 7:14:13 AM | ZEC | DOWN | 46 sec | +0.186% | 0¢ | ❌ Lost | -$0.15 |
-| 10/31 7:14:13 AM | BNB | UP | 46 sec | -0.091% | 0¢ | ❌ Lost | -$0.15 |
-| 10/31 7:13:43 AM | NEAR | UP | 76 sec | -0.354% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
