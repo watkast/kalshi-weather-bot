@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-31T14:19:21+00:00",
+ "saved_at": "2026-10-31T14:30:03+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 363,
+ "markets_in_or_near_play": 504,
  "batch_lookup": false,
- "espn_games_linked": 44,
+ "espn_games_linked": 49,
  "espn_check": {
-  "at": "2026-10-31T13:47:34+00:00",
-  "started_games": 13,
-  "matched": 12,
+  "at": "2026-10-31T14:19:41+00:00",
+  "started_games": 15,
+  "matched": 14,
   "unmatched_sample": [
    "KXLALIGA2GAME-26OCT31RSOGIR"
   ]
  },
- "bets": 41247,
- "open": 37,
+ "bets": 41265,
+ "open": 39,
  "errors": []
 }
