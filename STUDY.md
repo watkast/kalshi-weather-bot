@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 2:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 3:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42071 | 2326 | 9 (0%) | 1.1% | -$222.90 (-64%) | Hold to the end: -$222.90 (-64%) |
+| 42091 | 2326 | 9 (0%) | 1.1% | -$222.90 (-64%) | Hold to the end: -$222.90 (-64%) |
 
-*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 59. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2326 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39690 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 39706 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19051 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2279 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1871 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eSoccer Game | ✘ | 19059 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2282 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1872 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1327 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1296 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1297 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 793 | 2 | 11% | 4% | -76% | -81% | 5 min |
 | eFootball Game | ✘ | 482 | 2 | 1% | 1% | -61% | -98% | 2 min |
 | Darts Match | ✘ | 370 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -130,7 +130,7 @@
 | Liga DIMAYOR Game | ✘ | 115 | 1 | 9% | 3% | -19% | -85% | 6 min |
 | Brasileiro Serie B Game | ✘ | 109 | 1 | 7% | 4% | -14% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Overwatch Game | ✘ | 105 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| Overwatch Game | ✘ | 106 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | USL Championship Game | partly | 104 | 0 | 12% | 5% | -100% | -78% | 5 min |
 | EFL League One Game | ✔ | 104 | 0 | 10% | 3% | -100% | -83% | 11 min |
 | Brasileiro Serie A Game | partly | 102 | 1 | 12% | 7% | -8% | -80% | 7 min |
@@ -233,11 +233,11 @@
 | Romanian Liga I Game | ✘ | 35 | 0 | 9% | 3% | -100% | -85% | 11 min |
 | Czech NBL Game | ✘ | 34 | 0 | 3% | 0% | -100% | -95% | 17 min |
 | Slovenian Prva Liga Game | ✘ | 33 | 0 | 6% | 3% | -100% | -89% | 6 min |
+| Bundesliga Basketball Game | ✘ | 32 | 0 | 12% | 6% | -100% | -78% | 13 min |
 | Italy Serie A Game | ✘ | 32 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | Brazil NBB Basketball Game | ✘ | 32 | 0 | 6% | 3% | -100% | -89% | 17 min |
 | DFB Pokal Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 18 min |
 | Canadian Premier League | ✘ | 31 | 1 | 16% | 16% | +201% | -72% | 23 min |
-| Bundesliga Basketball Game | ✘ | 31 | 0 | 13% | 6% | -100% | -78% | 13 min |
 | Latvian Virsliga Game | ✘ | 31 | 0 | 13% | 3% | -100% | -78% | 18 min |
 | Turkey BSL Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Indian Super League Game | ✘ | 30 | 0 | 13% | 7% | -100% | -77% | 7 min |
@@ -263,9 +263,9 @@
 | FIBA Champions League Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Ligue Magnus Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
+| Polish Hockey Game | ✘ | 21 | 0 | 5% | 5% | -100% | -92% | 5 min |
 | Eredivisie Vrouwen Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 8 min |
 | Liga Nacional de Basquetbol Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Polish Hockey Game | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 5 min |
 | Women's ODI Cricket Match | ✘ | 19 | 0 | 21% | 11% | -100% | -64% | 61 min |
 | BNXT League Game | ✘ | 19 | 0 | 11% | 5% | -100% | -82% | 15 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 18 | 0 | 22% | 11% | -100% | -61% | 11 min |
@@ -333,36 +333,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10-31 21:00 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 10-31 21:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 21:00 | Bolivia Premier Division Game | Cdt Real Oruro | ✘ | — | — | In play | — |
+| 10-31 21:00 | Bolivia Premier Division Game | Nacional Potosi | ✘ | — | — | In play | — |
+| 10-31 20:59 | National League Game | HC Davos | ✘ | — | — | In play | — |
+| 10-31 20:58 | Major League Soccer Game | Saint Louis | ✔ | 89' · SD 1 - STL 0 | — | In play | — |
+| 10-31 20:58 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
+| 10-31 20:58 | Brasileiro Serie B Game | Botafogo | ✘ | — | — | In play | — |
+| 10-31 20:58 | Brasileiro Serie B Game | Sport Recife | ✘ | — | — | In play | — |
+| 10-31 20:57 | BNXT League Game | Limburg United | ✘ | — | — | In play | — |
+| 10-31 20:57 | College Football Game | West Georgia | ✘ | — | — | In play | — |
+| 10-31 20:56 | BNXT League Game | Zorg En Zekerheid Leiden | ✘ | — | — | In play | — |
+| 10-31 20:54 | Challenger ATP  | Valerio Aboian | ✘ | — | — | In play | — |
+| 10-31 20:54 | National League Game | EHC Biel | ✘ | — | — | In play | — |
+| 10-31 20:53 | Darts Match | David Davies | ✘ | — | — | In play | — |
+| 10-31 20:53 | National League Game | SC Bern | ✘ | — | — | In play | — |
+| 10-31 20:52 | eSoccer Game | Benfica (Haze) | ✘ | — | — | In play | — |
+| 10-31 20:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 20:52 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
+| 10-31 20:50 | Argentine Nacional B Game | Tie | ✘ | — | — | In play | — |
 | 10-31 20:49 | Italy Serie A Game | Basket Scafati 1969 | ✘ | — | — | In play | — |
-| 10-31 20:49 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 10-31 20:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 20:49 | eBasketball Game | New Orleans Pelicans (Mick) | ✘ | — | — | In play | — |
-| 10-31 20:48 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 10-31 20:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 10-31 20:49 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 20:49 | eBasketball Game | New Orleans Pelicans (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 20:48 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 10-31 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 20:48 | Ecuador Liga Pro Game | Tie | ✘ | — | — | In play | — |
 | 10-31 20:48 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
-| 10-31 20:48 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | — | In play | — |
+| 10-31 20:48 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 20:48 | College Football Game | Howard | ✘ | — | — | In play | — |
-| 10-31 20:48 | NBA Game | Utah | ✔ | 4:09 - 3rd · POR 74 - UTAH 50 | — | In play | — |
-| 10-31 20:47 | eSoccer Game | Sunderland (Bony) | ✘ | — | — | In play | — |
-| 10-31 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 10-31 20:47 | NHL Game | Tampa Bay | ✔ | In SO · TB 4 - NSH 4 | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 20:47 | BNXT League Game | Union Mons-Hainaut | ✘ | — | — | In play | — |
-| 10-31 20:46 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 10-31 20:46 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 10-31 20:46 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | — | In play | — |
-| 10-31 20:45 | Ecuador Liga Pro Game | Emelec | ✘ | — | — | In play | — |
-| 10-31 20:45 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 10-31 20:44 | College Football Game | Southeast Missouri St. | ✘ | — | — | In play | — |
-| 10-31 20:43 | College Football Game | Florida International | ✔ | 2:58 - 2nd · FIU 0 - LIB 21 | — | In play | — |
-| 10-31 20:43 | Overwatch Game | Twisted Minds | ✘ | — | — | In play | — |
-| 10-31 20:42 | LNB Elite 2 Game | JA Vichy-Clermont | ✘ | — | — | In play | — |
-| 10-31 20:42 | Eredivisie Game | GA Eagles | ✔ | 42' · GAE 0 - CAM 3 | — | In play | — |
-| 10-31 20:42 | Polish Hockey Game | JKH GKS Jastrzebie | ✘ | — | — | In play | — |
-| 10-31 20:42 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | — | In play | — |
-| 10-31 20:42 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 10-31 20:41 | Liga Portugal Game | Estoril | ✘ | — | — | In play | — |
-| 10-31 20:41 | College Football Game | Georgia St. | ✔ | 0:54 - 3rd · CCU 31 - GAST 6 | — | In play | — |
 
 ## Raw data
 
