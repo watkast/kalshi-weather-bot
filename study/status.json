@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-10-31T02:05:09+00:00",
+ "saved_at": "2026-10-31T02:15:22+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 349,
+ "markets_in_or_near_play": 288,
  "batch_lookup": true,
- "espn_games_linked": 50,
+ "espn_games_linked": 51,
  "espn_check": {
-  "at": "2026-10-31T01:34:39+00:00",
-  "started_games": 51,
-  "matched": 50,
+  "at": "2026-10-31T02:05:52+00:00",
+  "started_games": 48,
+  "matched": 47,
   "unmatched_sample": [
    "KXNCAAFGAME-26OCT30HARVDART"
   ]
  },
- "bets": 40379,
- "open": 32,
+ "bets": 40393,
+ "open": 34,
  "errors": []
 }
