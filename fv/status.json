@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-01T00:11:17+00:00",
+ "saved_at": "2026-11-01T00:23:53+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -22,12 +22,12 @@
  "trades_v5": 286,
  "trades_v6": 193,
  "trades_v7": 90,
- "trades_v8": 1029,
+ "trades_v8": 1030,
  "trades_v9": 375,
  "account_equity": 389.72,
  "account_halted": true,
  "extra_exchanges": {
-  "DOGE": [
+  "XRP": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -37,7 +37,7 @@
    "gemini",
    "kraken"
   ],
-  "XRP": [
+  "DOGE": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -52,17 +52,18 @@
    "gemini",
    "kraken"
   ],
-  "BCH": [
+  "ZEC": [
+   "bitstamp",
+   "gemini"
+  ],
+  "HYPE": [
    "bitstamp",
    "gemini"
   ],
   "ADA": [
    "bitstamp"
   ],
-  "TON": [
-   "bitstamp"
-  ],
-  "ZEC": [
+  "BCH": [
    "bitstamp",
    "gemini"
   ],
@@ -70,27 +71,26 @@
    "bitstamp",
    "gemini"
   ],
-  "BNB": [
-   "bitstamp",
-   "gemini"
+  "TON": [
+   "bitstamp"
   ],
-  "HYPE": [
+  "BNB": [
    "bitstamp",
    "gemini"
   ]
  },
  "open": 0,
- "results_known": 27053,
+ "results_known": 27062,
  "sigma_pct": {
-  "XRP": 0.0248,
-  "DOGE": 0.0399,
-  "BNB": 0.0343,
-  "NEAR": 0.0774,
-  "ZEC": 0.0863,
-  "ETH": 0.0248,
-  "SOL": 0.0294,
-  "HYPE": 0.0362,
-  "BTC": 0.02
+  "HYPE": 0.0425,
+  "BTC": 0.02,
+  "BNB": 0.0329,
+  "NEAR": 0.0931,
+  "DOGE": 0.0374,
+  "SOL": 0.0319,
+  "XRP": 0.02,
+  "ZEC": 0.0808,
+  "ETH": 0.0204
  },
  "errors": []
 }
