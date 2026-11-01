@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 12:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 12:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42716 | 2383 | 9 (0%) | 1.1% | -$231.45 (-65%) | Hold to the end: -$231.45 (-65%) |
+| 42722 | 2383 | 9 (0%) | 1.1% | -$231.45 (-65%) | Hold to the end: -$231.45 (-65%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2383 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 40318 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40325 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19401 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2322 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19406 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2324 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1904 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1330 | 2 | 13% | 5% | -86% | -77% | 5 min |
@@ -333,13 +333,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 06:18 | eSoccer Game | Girona (Hazard) | ✘ | — | — | In play | — |
-| 11-01 06:17 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
-| 11-01 06:17 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 11-01 06:23 | eSoccer Game | Nantes (Poly) | ✘ | — | — | In play | — |
+| 11-01 06:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 06:22 | Challenger ATP  | Khumoyun Sultanov | ✘ | — | — | In play | — |
+| 11-01 06:22 | Counter-Strike 2 Game | Alter Ego | ✘ | — | — | In play | — |
+| 11-01 06:18 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 06:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 06:18 | eSoccer Game | Girona (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 06:17 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 06:17 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 06:13 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 06:13 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | — | In play | — |
+| 11-01 06:13 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 06:12 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 06:12 | Russia Liga Pro Match | Ivanov Aleksei | ✘ | — | — | In play | — |
+| 11-01 06:12 | Russia Liga Pro Match | Ivanov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 06:07 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 06:06 | eSoccer Game | RC Celta (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 06:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -357,12 +363,6 @@
 | 11-01 05:51 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:50 | College Football Game | Oregon St. | ✔ | 11:55 - 4th · ORST 16 - FRES 38 | — | In play | — |
-| 11-01 05:49 | College Football Game | Northern Illinois | ✔ | 1:43 - 4th · NIU 24 - UNLV 31 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:49 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:47 | WTA Tennis Match | Elena Pridankina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:46 | Challenger ATP  | Dominik Palan | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
