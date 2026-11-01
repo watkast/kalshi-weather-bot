@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 9:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 9:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42550 | 2376 | 9 (0%) | 1.1% | -$230.40 (-65%) | Hold to the end: -$230.40 (-65%) |
+| 42558 | 2376 | 9 (0%) | 1.1% | -$230.40 (-65%) | Hold to the end: -$230.40 (-65%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2376 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 40153 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40167 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19285 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19295 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2312 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1894 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1329 | 2 | 13% | 5% | -86% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1330 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1302 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 795 | 2 | 11% | 4% | -77% | -81% | 5 min |
-| eFootball Game | ✘ | 491 | 2 | 1% | 1% | -62% | -98% | 2 min |
-| College Football Game | partly | 406 | 3 | 12% | 6% | -31% | -80% | 24 min |
+| eFootball Game | ✘ | 492 | 2 | 1% | 1% | -62% | -98% | 2 min |
+| College Football Game | partly | 407 | 3 | 12% | 6% | -31% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 291 | 1 | 15% | 7% | -68% | -73% | 23 min |
@@ -128,8 +128,8 @@
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | Liga DIMAYOR Game | ✘ | 117 | 1 | 9% | 3% | -20% | -85% | 6 min |
 | ATP Tennis Match | ✘ | 117 | 0 | 15% | 6% | -100% | -75% | 4 min |
+| College Hockey Game | ✘ | 116 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Brasileiro Serie B Game | ✘ | 115 | 1 | 8% | 4% | -19% | -86% | 8 min |
-| College Hockey Game | ✘ | 115 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Overwatch Game | ✘ | 108 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | USL Championship Game | partly | 104 | 0 | 12% | 5% | -100% | -78% | 5 min |
@@ -333,16 +333,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-01 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 03:21 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 11-01 03:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 03:21 | NHL Game | Calgary | ✔ | 10:53 - 2nd · CGY 0 - COL 3 | — | In play | — |
+| 11-01 03:15 | eFootball Game | Green Bay (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:13 | WTA Tennis Match | Carol Young Suh Lee | ✘ | — | — | In play | — |
+| 11-01 03:12 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 03:10 | Liga MX Game | Monterrey | ✔ | 90'+7' · TIJ 3 - MTY 3 | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 03:10 | Liga MX Game | Tijuana | ✔ | 90'+7' · TIJ 3 - MTY 3 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 03:10 | eSoccer Game | FSV Mainz 05 (Niskanen15) | ✘ | — | — | In play | — |
-| 11-01 03:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 03:09 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | — | In play | — |
-| 11-01 03:09 | eSoccer Game | Leverkusen (Antonio) | ✘ | — | — | In play | — |
-| 11-01 03:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 03:08 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 11-01 03:07 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
-| 11-01 03:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 03:10 | eSoccer Game | FSV Mainz 05 (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:09 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:09 | eSoccer Game | Leverkusen (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:08 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:07 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 03:04 | College Hockey Game | Omaha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 03:04 | College Hockey Game | North Dakota | ✘ | — | — | In play | — |
 | 11-01 03:00 | eSoccer Game | Arsenal (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,14 +363,6 @@
 | 11-01 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 02:54 | Liga Expansion Game | Piratas Veracruz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 02:54 | eSoccer Game | Estudiantes (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:53 | Liga Expansion Game | Tapatio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:53 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:51 | Liga Expansion Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 02:50 | Liga Expansion Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-01 02:46 | College Football Game | Ohio St. | ✔ | 2:12 - 4th · OSU 18 - USC 27 | 1¢ | ❌ Lost | -$0.15 |
-| 11-01 02:46 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
