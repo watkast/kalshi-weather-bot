@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 1:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 1:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42838 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
+| 42849 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2384 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 40429 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40446 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19467 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2336 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1909 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eSoccer Game | ✘ | 19477 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2337 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1911 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1331 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1303 | 2 | 6% | 3% | -86% | -90% | 12 min |
-| Challenger ATP  | ✘ | 802 | 2 | 11% | 3% | -77% | -81% | 5 min |
+| Challenger ATP  | ✘ | 804 | 2 | 11% | 3% | -77% | -81% | 5 min |
 | eFootball Game | ✘ | 499 | 2 | 1% | 1% | -63% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -163,9 +163,9 @@
 | Uruguay Primera Division Game | ✘ | 72 | 0 | 8% | 3% | -100% | -86% | 10 min |
 | ELH Game | ✘ | 72 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | SHL Game | ✘ | 72 | 0 | 3% | 3% | -100% | -95% | 5 min |
+| Japan B League Game | ✘ | 71 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | La Liga Game | ✔ | 70 | 0 | 20% | 13% | -100% | -65% | 10 min |
 | UEFA Conference League Game | partly | 70 | 0 | 16% | 10% | -100% | -73% | 10 min |
-| Japan B League Game | ✘ | 70 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | English Premier League Game | ✔ | 69 | 0 | 7% | 3% | -100% | -87% | 10 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | Mobile Legends Bang Bang Game | ✘ | 68 | 0 | 0% | 0% | -100% | -100% | 4 min |
@@ -223,7 +223,7 @@
 | Chile Liga de Primera Game | ✘ | 39 | 0 | 10% | 0% | -100% | -82% | 7 min |
 | Spain Liga ACB Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 14 min |
 | FIBA Europe Cup Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 8 min |
-| Australia NBL Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 9 min |
+| Australia NBL Game | ✘ | 38 | 0 | 5% | 3% | -100% | -91% | 8 min |
 | Danish Superliga Game | ✘ | 37 | 0 | 11% | 5% | -100% | -81% | 10 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Sweden SBL Game | ✘ | 36 | 0 | 6% | 6% | -100% | -90% | 15 min |
@@ -333,36 +333,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 08:13 | Challenger ATP  | Alibek Kachmazov | ✘ | — | — | In play | — |
+| 11-01 08:24 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-01 08:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 08:23 | eSoccer Game | Juventus (Hazard) | ✘ | — | — | In play | — |
+| 11-01 08:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 08:22 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
+| 11-01 08:22 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
+| 11-01 08:20 | Women's T20 Match | Incredibles Women | ✘ | — | — | In play | — |
+| 11-01 08:18 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:15 | eSoccer Game | AS Monaco (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:15 | eSoccer Game | Stade Brestois 29 (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:15 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:13 | Challenger ATP  | Alibek Kachmazov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:13 | Japan B League Game | Ibaraki Robots | ✘ | — | — | In play | — |
-| 11-01 08:12 | eBasketball Game | Golden State Warriors (Barry) | ✘ | — | — | In play | — |
-| 11-01 08:11 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | — | In play | — |
-| 11-01 08:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 08:10 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 11-01 08:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 08:10 | eSoccer Game | Real Betis (Hazard) | ✘ | — | — | In play | — |
-| 11-01 08:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 08:09 | Challenger ATP  | Tin Chen | ✘ | — | — | In play | — |
-| 11-01 08:08 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | — | In play | — |
-| 11-01 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 08:08 | Australia NBL Game | Adelaide 36ers | ✘ | — | — | In play | — |
+| 11-01 08:12 | eBasketball Game | Golden State Warriors (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:11 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:10 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:10 | eSoccer Game | Real Betis (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:09 | Challenger ATP  | Tin Chen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:08 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 08:08 | Australia NBL Game | Adelaide 36ers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:02 | Overwatch Game | SEIJI ESPORTS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:02 | Japan B League Game | Shiga Lakestars | ✘ | — | — | In play | — |
 | 11-01 08:01 | eSoccer Game | Rennes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 07:57 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 07:57 | eSoccer Game | Sevilla FC (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:57 | Japan B League Game | Osaka Evessa | ✘ | — | — | In play | — |
-| 11-01 07:55 | eSoccer Game | Real Madrid (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:55 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:50 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:46 | eSoccer Game | Nantes (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:44 | eSoccer Game | Sevilla FC (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 07:44 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
