@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 1:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 1:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43663 | 2414 | 9 (0%) | 1.1% | -$236.10 (-65%) | Hold to the end: -$236.10 (-65%) |
+| 43675 | 2414 | 9 (0%) | 1.1% | -$236.10 (-65%) | Hold to the end: -$236.10 (-65%) |
 
-*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2414 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41208 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41230 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,19 +96,19 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19770 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2407 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19778 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2409 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1938 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1426 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1321 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1322 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 829 | 2 | 11% | 3% | -77% | -82% | 5 min |
 | eFootball Game | ✘ | 506 | 2 | 1% | 1% | -63% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Men's T20 Cricket Match | ✘ | 298 | 1 | 15% | 6% | -69% | -73% | 23 min |
+| Men's T20 Cricket Match | ✘ | 299 | 1 | 15% | 6% | -69% | -73% | 23 min |
 | Women's College Volleyball Match | ✘ | 291 | 2 | 5% | 3% | -36% | -91% | 69 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 264 | 1 | 1% | 1% | -65% | -98% | 31 min |
@@ -122,7 +122,7 @@
 | Ettan Game | ✘ | 145 | 0 | 3% | 1% | -100% | -94% | 7 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | Argentine Nacional B Game | ✘ | 138 | 0 | 9% | 6% | -100% | -85% | 8 min |
-| Argentina Primera Division Game | ✘ | 131 | 2 | 16% | 10% | +42% | -72% | 7 min |
+| Argentina Primera Division Game | ✘ | 133 | 2 | 16% | 10% | +40% | -73% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | KHL Game | ✘ | 127 | 0 | 5% | 2% | -100% | -92% | 6 min |
 | ATP Tennis Match | ✘ | 120 | 0 | 14% | 6% | -100% | -75% | 4 min |
@@ -152,11 +152,11 @@
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Eerste Divisie Game | ✘ | 79 | 0 | 10% | 6% | -100% | -82% | 8 min |
+| Liga Expansion Game | ✘ | 79 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Euroleague Game | ✘ | 78 | 0 | 21% | 6% | -100% | -64% | 13 min |
-| Liga Expansion Game | ✘ | 77 | 0 | 6% | 3% | -100% | -89% | 10 min |
+| Peru Liga 1 Game | ✘ | 78 | 0 | 14% | 6% | -100% | -76% | 10 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
 | EuroCup Basketball Game | ✘ | 76 | 0 | 5% | 4% | -100% | -91% | 11 min |
-| Peru Liga 1 Game | ✘ | 76 | 0 | 14% | 7% | -100% | -75% | 11 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
 | Japan B League Game | ✘ | 75 | 0 | 7% | 0% | -100% | -88% | 12 min |
@@ -177,11 +177,11 @@
 | Men's ODI Cricket Match | ✘ | 65 | 3 | 23% | 8% | +331% | -60% | 45 min |
 | Bundesliga 2 Game | ✔ | 65 | 0 | 11% | 6% | -100% | -81% | 8 min |
 | Korea K-League 2 Game | ✘ | 64 | 0 | 11% | 6% | -100% | -81% | 7 min |
+| Eliteserien Game | ✘ | 64 | 0 | 9% | 5% | -100% | -84% | 10 min |
 | Turkish Super Lig Game | ✘ | 64 | 0 | 14% | 3% | -100% | -76% | 13 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Bundesliga Game | ✔ | 63 | 1 | 16% | 10% | +48% | -72% | 7 min |
 | Tweede Divisie Game | ✘ | 62 | 0 | 2% | 0% | -100% | -97% | 5 min |
-| Eliteserien Game | ✘ | 62 | 0 | 10% | 5% | -100% | -83% | 10 min |
 | Eredivisie Game | ✔ | 62 | 0 | 10% | 8% | -100% | -83% | 5 min |
 | Ligue 1 Game | ✔ | 60 | 0 | 15% | 7% | -100% | -74% | 9 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
@@ -202,13 +202,13 @@
 | Israeli Premier League Game | ✘ | 52 | 0 | 6% | 0% | -100% | -90% | 9 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | APF Division de Honor Game | ✘ | 51 | 0 | 20% | 6% | -100% | -66% | 8 min |
+| Belgian Pro League Game | ✘ | 50 | 0 | 8% | 0% | -100% | -86% | 12 min |
 | Egyptian Premier League Game | ✘ | 50 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Super League Greece Game | ✘ | 49 | 0 | 20% | 4% | -100% | -65% | 12 min |
 | Vietnam V-League 1 Game | ✘ | 48 | 1 | 6% | 4% | +94% | -89% | 10 min |
 | Korea K League Game | ✘ | 48 | 1 | 15% | 8% | +94% | -75% | 7 min |
 | Liga Portugal Game | ✘ | 48 | 0 | 4% | 2% | -100% | -93% | 10 min |
-| Belgian Pro League Game | ✘ | 48 | 0 | 8% | 0% | -100% | -86% | 11 min |
 | Finland Korisliiga Game | ✘ | 47 | 1 | 9% | 4% | +99% | -85% | 9 min |
 | Chinese Super League Game | ✘ | 47 | 1 | 11% | 6% | +99% | -82% | 17 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
@@ -335,36 +335,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 20:07 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
-| 11-01 20:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 20:06 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 11-01 20:06 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 11-01 20:05 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
-| 11-01 20:05 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
-| 11-01 20:04 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 11-01 20:04 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 11-01 20:04 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 11-01 20:03 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | — | In play | — |
+| 11-01 20:17 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
+| 11-01 20:17 | Serie B Game | Tie | ✘ | — | — | In play | — |
+| 11-01 20:15 | LNB Elite Game | Elan Chalon | ✘ | — | — | In play | — |
+| 11-01 20:15 | Romanian Liga I Game | Tie | ✘ | — | — | In play | — |
+| 11-01 20:15 | Challenger ATP  | Marcel Latak | ✘ | — | — | In play | — |
+| 11-01 20:14 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:13 | Serie B Game | L.R. Vicenza | ✘ | — | — | In play | — |
+| 11-01 20:12 | eFootball Game | Tampa Bay (Knox) | ✘ | — | — | In play | — |
+| 11-01 20:11 | Counter-Strike 2 Game | FOKUS | ✘ | — | — | In play | — |
+| 11-01 20:11 | Challenger ATP  | Jangjun Kim | ✘ | — | — | In play | — |
+| 11-01 20:10 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-01 20:10 | Peru Liga 1 Game | Cusco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:07 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:06 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:06 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:05 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:05 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:04 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:04 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:04 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 20:03 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 20:03 | Ecuador Liga Pro Game | LDU Quito | ✘ | — | — | In play | — |
-| 11-01 20:02 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | — | In play | — |
+| 11-01 20:02 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:59 | Romanian Liga I Game | Uta Arad | ✘ | — | — | In play | — |
 | 11-01 19:58 | Liga Portugal Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:56 | Chile Liga de Primera Game | Cobresal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:54 | Adriatic ABA Game | KK Krka Novo Mesto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:53 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:53 | Liga Expansion Game | Tie | ✘ | — | — | In play | — |
-| 11-01 19:53 | eSoccer Game | Brighton (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:53 | German 3. Liga Game | Munster | ✘ | — | — | In play | — |
-| 11-01 19:52 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:52 | Spain Liga ACB Game | CB Malaga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:51 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:51 | Israeli Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:50 | ITF Women's Match | Zoe Hitt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
