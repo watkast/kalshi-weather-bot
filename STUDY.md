@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 2:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 2:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42876 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
+| 42885 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2384 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 40477 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40481 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 19491 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2342 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| Russia Liga Pro Match | ✘ | 2345 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1915 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1332 | 2 | 13% | 5% | -86% | -77% | 5 min |
@@ -124,7 +124,7 @@
 | Ettan Game | ✘ | 131 | 0 | 4% | 1% | -100% | -93% | 7 min |
 | Argentina Primera Division Game | ✘ | 131 | 2 | 16% | 10% | +42% | -72% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
-| KHL Game | ✘ | 123 | 0 | 5% | 2% | -100% | -92% | 6 min |
+| KHL Game | ✘ | 124 | 0 | 5% | 2% | -100% | -92% | 6 min |
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | College Hockey Game | ✘ | 118 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Liga DIMAYOR Game | ✘ | 117 | 1 | 9% | 3% | -20% | -85% | 6 min |
@@ -333,9 +333,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 09:13 | Russia Liga Pro Match | Chahur Vladislav | ✘ | — | — | In play | — |
-| 11-01 09:12 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | — | In play | — |
-| 11-01 09:11 | KHL Game | Admiral Vladivostok | ✘ | — | — | In play | — |
+| 11-01 09:26 | Korea K League Game | Seoul | ✘ | — | — | In play | — |
+| 11-01 09:23 | Challenger ATP  | Alafia Ayeni | ✘ | — | — | In play | — |
+| 11-01 09:23 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 11-01 09:21 | Korea K-League 2 Game | Cheongju | ✘ | — | — | In play | — |
+| 11-01 09:21 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-01 09:20 | eSoccer Game | Montpellier (Gigi) | ✘ | — | — | In play | — |
+| 11-01 09:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 09:18 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 09:17 | Korea K League Game | Bucheon | ✘ | — | — | In play | — |
+| 11-01 09:13 | Russia Liga Pro Match | Chahur Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 09:12 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 09:11 | KHL Game | Admiral Vladivostok | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 09:07 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 09:07 | Korea KBL Game | Samsung Thunders | ✘ | — | — | In play | — |
 | 11-01 09:06 | Indonesia Super League Game | Adhyaksa | ✘ | — | — | In play | — |
@@ -354,15 +363,6 @@
 | 11-01 08:39 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:38 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 08:38 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:38 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:34 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:32 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:27 | ITF Men's Match | Digvijay Pratap Singh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:26 | eSoccer Game | Arsenal (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:24 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 08:23 | eSoccer Game | Juventus (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
