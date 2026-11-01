@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 4:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 4:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42991 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
+| 43011 | 2384 | 9 (0%) | 1.1% | -$231.60 (-65%) | Hold to the end: -$231.60 (-65%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2384 | 14% | 9% | 7% | 3% | 1% | 1% |
-| Unverified | 40583 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40594 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19537 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2360 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1922 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eSoccer Game | ✘ | 19541 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2361 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1924 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1412 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1332 | 2 | 13% | 5% | -86% | -77% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1305 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1304 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 811 | 2 | 11% | 3% | -77% | -82% | 5 min |
 | eFootball Game | ✘ | 501 | 2 | 1% | 1% | -63% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
@@ -142,7 +142,7 @@
 | German 3. Liga Game | ✘ | 91 | 0 | 11% | 5% | -100% | -81% | 7 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Liga MX Game | ✔ | 87 | 0 | 15% | 9% | -100% | -74% | 6 min |
-| Valorant game winner | ✘ | 86 | 0 | 6% | 3% | -100% | -90% | 13 min |
+| Valorant game winner | ✘ | 87 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | Serie B Game | ✘ | 85 | 0 | 14% | 7% | -100% | -76% | 9 min |
 | Chinese Basketball Association Game  | ✘ | 84 | 0 | 7% | 1% | -100% | -88% | 10 min |
 | Serie A Game | ✔ | 84 | 0 | 10% | 5% | -100% | -83% | 12 min |
@@ -186,9 +186,9 @@
 | Bundesliga Game | ✔ | 59 | 1 | 15% | 8% | +58% | -74% | 7 min |
 | LNBP Basketball Game | ✘ | 58 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | LNB Elite 2 Game | ✘ | 57 | 0 | 2% | 0% | -100% | -97% | 7 min |
+| Czech National Football League Game | ✘ | 57 | 0 | 12% | 7% | -100% | -79% | 8 min |
 | Ligue 1 Game | ✔ | 56 | 0 | 16% | 7% | -100% | -72% | 9 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
-| Czech National Football League Game | ✘ | 55 | 0 | 13% | 7% | -100% | -78% | 8 min |
 | Czech First League Game | ✘ | 55 | 0 | 9% | 0% | -100% | -84% | 9 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
 | Thai League 1 Game | ✘ | 54 | 0 | 19% | 7% | -100% | -68% | 11 min |
@@ -333,36 +333,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 11:19 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | — | In play | — |
+| 11-01 11:29 | Latvian Virsliga Game | Grobinas | ✘ | — | — | In play | — |
+| 11-01 11:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 11:28 | eSoccer Game | Chelsea (Homie) | ✘ | — | — | In play | — |
+| 11-01 11:27 | Challenger ATP  | Dominik Macej | ✘ | — | — | In play | — |
+| 11-01 11:27 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
+| 11-01 11:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 11:27 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:27 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:27 | Overwatch Game | JD Gaming | ✘ | — | — | In play | — |
+| 11-01 11:26 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | — | In play | — |
+| 11-01 11:26 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | — | In play | — |
+| 11-01 11:25 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | — | In play | — |
+| 11-01 11:25 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:25 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 11-01 11:24 | Men's T20 Cricket Match | Dolphins | ✘ | — | — | In play | — |
+| 11-01 11:22 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-01 11:22 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:22 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:21 | Dota 2 Game | HellNight- | ✘ | — | — | In play | — |
+| 11-01 11:19 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 11:19 | Men's ODI Cricket Match | Ireland | ✘ | — | — | In play | — |
-| 11-01 11:18 | Czech National Football League Game | Tie | ✘ | — | — | In play | — |
+| 11-01 11:18 | Czech National Football League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 11:18 | Slovakian 2. Liga Game | Petrzalka | ✘ | — | — | In play | — |
-| 11-01 11:15 | Counter-Strike 2 Game | eternal premium | ✘ | — | — | In play | — |
+| 11-01 11:15 | Counter-Strike 2 Game | eternal premium | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 11:14 | eSoccer Game | Manchester City (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 11:13 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 11:13 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
 | 11-01 11:13 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | — | In play | — |
-| 11-01 11:12 | Valorant game winner | Unsettled Resentment | ✘ | — | — | In play | — |
-| 11-01 11:10 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:09 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:09 | Japan B League Game | Ryukyu Golden Kings Okinawa | ✘ | — | — | In play | — |
-| 11-01 11:08 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:08 | Czech National Football League Game | Zizkov | ✘ | — | — | In play | — |
-| 11-01 11:06 | ITF Women's Match | Aya El Sayed | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 11:05 | Turkish Super Lig Game | Eyupspor | ✘ | — | — | In play | — |
-| 11-01 10:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:57 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:56 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:55 | WTA Tennis Match | Momoko Kobori | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:55 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:54 | WTA Tennis Match | Lilli Tagger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:52 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:50 | Challenger ATP  | Rafael Izquierdo Luque | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:48 | Russia Liga Pro Match | Suntsov Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 10:46 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 11:12 | Valorant game winner | Unsettled Resentment | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
