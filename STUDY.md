@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 6:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 6:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42363 | 2357 | 9 (0%) | 1.1% | -$227.55 (-64%) | Hold to the end: -$227.55 (-64%) |
+| 42375 | 2357 | 9 (0%) | 1.1% | -$227.55 (-64%) | Hold to the end: -$227.55 (-64%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2357 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 39986 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 39992 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19189 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19191 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2302 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1883 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eBasketball Game | ✘ | 1884 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1328 | 2 | 13% | 5% | -86% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1329 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1299 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 795 | 2 | 11% | 4% | -77% | -81% | 5 min |
@@ -123,7 +123,7 @@
 | Argentine Nacional B Game | ✘ | 138 | 0 | 9% | 6% | -100% | -85% | 8 min |
 | Ettan Game | ✘ | 131 | 0 | 4% | 1% | -100% | -93% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
-| Argentina Primera Division Game | ✘ | 126 | 1 | 13% | 8% | -26% | -77% | 7 min |
+| Argentina Primera Division Game | ✘ | 128 | 1 | 15% | 9% | -27% | -74% | 7 min |
 | KHL Game | ✘ | 123 | 0 | 5% | 2% | -100% | -92% | 6 min |
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | ATP Tennis Match | ✘ | 117 | 0 | 15% | 6% | -100% | -75% | 4 min |
@@ -333,11 +333,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 00:14 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | — | In play | — |
-| 11-01 00:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 00:27 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | — | In play | — |
+| 11-01 00:24 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
+| 11-01 00:23 | Brasileiro Serie B Game | Avai | ✘ | — | — | In play | — |
+| 11-01 00:23 | eSoccer Game | São Paulo (Danny) | ✘ | — | — | In play | — |
+| 11-01 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 00:23 | APF Division de Honor Game | Libertad | ✘ | — | — | In play | — |
+| 11-01 00:22 | College Hockey Game | Maine | ✘ | — | — | In play | — |
+| 11-01 00:22 | eSoccer Game | Botafogo (Antonio) | ✘ | — | — | In play | — |
+| 11-01 00:22 | eSoccer Game | Estudiantes (Fede) | ✘ | — | — | In play | — |
+| 11-01 00:20 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 11-01 00:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 00:18 | ITF Men's Match | Nikita Filin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 00:14 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 00:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 00:12 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:11 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | — | In play | — |
-| 11-01 00:11 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | — | In play | — |
+| 11-01 00:11 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 00:11 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 11-01 00:09 | College Hockey Game | Holy Cross | ✘ | — | — | In play | — |
 | 11-01 00:09 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,18 +363,6 @@
 | 10-31 23:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 23:58 | eFootball Game | Denver (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 10-31 23:56 | eSoccer Game | Universitario (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:56 | eSoccer Game | Flamengo (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:55 | eSoccer Game | Manchester City (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:54 | eSoccer Game | Palmeiras (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:53 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:45 | College Hockey Game | Notre Dame | ✘ | — | — | In play | — |
-| 10-31 23:45 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:42 | eSoccer Game | Boca Juniors (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 10-31 23:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
