@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 10:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 10:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42626 | 2379 | 9 (0%) | 1.1% | -$230.85 (-65%) | Hold to the end: -$230.85 (-65%) |
+| 42639 | 2379 | 9 (0%) | 1.1% | -$230.85 (-65%) | Hold to the end: -$230.85 (-65%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2379 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 40233 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40240 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19345 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19347 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2312 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1898 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eBasketball Game | ✘ | 1900 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1330 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1302 | 2 | 6% | 3% | -86% | -90% | 12 min |
-| Challenger ATP  | ✘ | 798 | 2 | 11% | 4% | -77% | -81% | 5 min |
-| eFootball Game | ✘ | 495 | 2 | 1% | 1% | -62% | -98% | 2 min |
+| Challenger ATP  | ✘ | 799 | 2 | 11% | 4% | -77% | -81% | 5 min |
+| eFootball Game | ✘ | 496 | 2 | 1% | 1% | -62% | -98% | 2 min |
 | College Football Game | partly | 407 | 3 | 12% | 6% | -31% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -115,7 +115,7 @@
 | Challenger WTA | ✘ | 237 | 0 | 13% | 5% | -100% | -77% | 9 min |
 | NHL Game | ✔ | 225 | 1 | 14% | 7% | -59% | -76% | 5 min |
 | Major League Soccer Game | partly | 175 | 1 | 11% | 6% | -47% | -80% | 6 min |
-| WTA Tennis Match | ✘ | 168 | 0 | 12% | 2% | -100% | -79% | 5 min |
+| WTA Tennis Match | ✘ | 169 | 0 | 12% | 2% | -100% | -79% | 5 min |
 | League of Legends Game | ✘ | 156 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | AHL Game | ✘ | 155 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | NBA Game | ✔ | 149 | 0 | 17% | 5% | -100% | -70% | 9 min |
@@ -333,10 +333,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 04:44 | eFootball Game | Los Angeles (Cooper) | ✘ | — | — | In play | — |
-| 11-01 04:39 | Challenger ATP  | Dimitris Sakellaridis | ✘ | — | — | In play | — |
-| 11-01 04:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
-| 11-01 04:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:54 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:52 | eSoccer Game | Liverpool (Drakon) | ✘ | — | — | In play | — |
+| 11-01 04:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:50 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:49 | WTA Tennis Match | Emerson Jones | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:48 | eSoccer Game | Stuttgart (Danny) | ✘ | — | — | In play | — |
+| 11-01 04:47 | eSoccer Game | France (Lucy) | ✘ | — | — | In play | — |
+| 11-01 04:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:46 | eSoccer Game | Freiburg (Fede) | ✘ | — | — | In play | — |
+| 11-01 04:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:45 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-01 04:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 04:44 | eFootball Game | Los Angeles (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:39 | Challenger ATP  | Dimitris Sakellaridis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 04:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 04:34 | eSoccer Game | Stuttgart (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 04:34 | eSoccer Game | Frankfurt (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 04:32 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -350,19 +363,6 @@
 | 11-01 04:21 | eFootball Game | Tampa Bay (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 04:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 04:20 | eSoccer Game | RB Leipzig (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:19 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:19 | eSoccer Game | France (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:18 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:18 | eSoccer Game | Mönchengladbach (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:17 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:08 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:08 | Challenger WTA | Carole Monnet | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
-| 11-01 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:06 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 04:05 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
