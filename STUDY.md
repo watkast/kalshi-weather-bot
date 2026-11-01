@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 11:45 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 11:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43517 | 2407 | 9 (0%) | 1.1% | -$235.05 (-65%) | Hold to the end: -$235.05 (-65%) |
+| 43534 | 2407 | 9 (0%) | 1.1% | -$235.05 (-65%) | Hold to the end: -$235.05 (-65%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2407 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41080 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41092 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19716 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2395 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19720 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2397 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1934 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1423 | 6 | 13% | 6% | -61% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1348 | 2 | 13% | 5% | -86% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1319 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1320 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 826 | 2 | 11% | 4% | -77% | -82% | 5 min |
+| Challenger ATP  | ✘ | 828 | 2 | 11% | 4% | -77% | -82% | 5 min |
 | eFootball Game | ✘ | 505 | 2 | 1% | 1% | -63% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -193,10 +193,10 @@
 | Ecuador Liga Pro Game | ✘ | 56 | 0 | 7% | 2% | -100% | -88% | 8 min |
 | AFC Champions League Game | ✘ | 56 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | KBO Game | ✘ | 54 | 0 | 11% | 6% | -100% | -81% | 4 min |
+| Italy Serie A2 Game | ✘ | 54 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Thai League 1 Game | ✘ | 54 | 0 | 19% | 7% | -100% | -68% | 11 min |
 | NWSL Game | ✔ | 52 | 0 | 10% | 2% | -100% | -83% | 7 min |
 | England Women's Super League Game | ✘ | 52 | 0 | 17% | 8% | -100% | -70% | 23 min |
-| Italy Serie A2 Game | ✘ | 52 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Bolivia Premier Division Game | ✘ | 52 | 0 | 10% | 2% | -100% | -83% | 5 min |
 | Serbian SuperLiga Game | ✘ | 52 | 0 | 4% | 2% | -100% | -93% | 12 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
@@ -334,36 +334,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 18:45 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | — | In play | — |
+| 11-01 18:55 | Croatia HNL Game | Tie | ✘ | — | — | In play | — |
+| 11-01 18:55 | Russia Liga Pro Match | Monakov Aleksandr | ✘ | — | — | In play | — |
+| 11-01 18:54 | Counter-Strike 2 Game | MTX | ✘ | — | — | In play | — |
+| 11-01 18:54 | Italy Serie A2 Game | US Victoria Libertas | ✘ | — | — | In play | — |
+| 11-01 18:54 | ELH Game | HC Vitkovice | ✘ | — | — | In play | — |
+| 11-01 18:54 | eFootball Game | Atlanta (Knox) | ✘ | — | — | In play | — |
+| 11-01 18:54 | Italy Serie A2 Game | AS Pistoia Basket 2000 | ✘ | — | — | In play | — |
+| 11-01 18:53 | Italy Serie A2 Game | Juvi Cremona 1952 | ✘ | — | — | In play | — |
+| 11-01 18:50 | Czech First League Game | Sparta Prague | ✘ | — | — | In play | — |
+| 11-01 18:50 | Serie A Game | Lecce | ✔ | 87' · GEN 2 - LEC 1 | — | In play | — |
+| 11-01 18:50 | Super League Greece Game | AEK Athens | ✘ | — | — | In play | — |
+| 11-01 18:50 | Super League Greece Game | Tie | ✘ | — | — | In play | — |
+| 11-01 18:49 | Czech First League Game | Bohemians Prague | ✘ | — | — | In play | — |
+| 11-01 18:48 | Liga Expansion Game | Tepatitlan | ✘ | — | — | In play | — |
+| 11-01 18:48 | Croatia HNL Game | Lokomotiva | ✘ | — | — | In play | — |
+| 11-01 18:47 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
+| 11-01 18:47 | Russia Liga Pro Match | Andreev Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:45 | Italy Serie A2 Game | Juvecaserta 2021 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 18:44 | Super League Greece Game | Asteras Tripolis | ✘ | — | — | In play | — |
 | 11-01 18:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-01 18:43 | eSoccer Game | Slavia Praha (Krocs) | ✘ | — | — | In play | — |
-| 11-01 18:43 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
-| 11-01 18:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 18:42 | Russia Liga Pro Match | Zemit Igor | ✘ | — | — | In play | — |
-| 11-01 18:42 | Challenger ATP  | Felipe de Dios | ✘ | — | — | In play | — |
+| 11-01 18:43 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:42 | Russia Liga Pro Match | Zemit Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:42 | Challenger ATP  | Felipe de Dios | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 18:41 | Danish Superliga Game | Tie | ✘ | — | — | In play | — |
-| 11-01 18:41 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 11-01 18:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 18:41 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 18:41 | Danish Superliga Game | Aarhus | ✘ | — | — | In play | — |
-| 11-01 18:39 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | — | In play | — |
-| 11-01 18:37 | Women's College Basketball Game | Villanova | ✔ | 4:46 - 3rd · ND 57 - VILL 40 | — | In play | — |
-| 11-01 18:37 | Eliteserien Game | Tromsoe | ✘ | — | — | In play | — |
-| 11-01 18:37 | Israel Super League Game | Hapoel Eilat | ✘ | — | — | In play | — |
-| 11-01 18:35 | Russia Liga Pro Match | Ignatov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:34 | Spain Liga ACB Game | BC Andorra | ✘ | — | — | In play | — |
-| 11-01 18:32 | Challenger ATP  | Geoffrey Blancaneaux | ✘ | — | — | In play | — |
-| 11-01 18:31 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:29 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:29 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:27 | Russia Liga Pro Match | Mikhailov Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:27 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:26 | Counter-Strike 2 Game | JiJieHao | ✘ | — | — | In play | — |
-| 11-01 18:26 | English Premier League Game | Tie | ✔ | 90'+7' · ARS 1 - LIV 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 18:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 18:39 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
