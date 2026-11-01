@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 11:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 11:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42688 | 2381 | 9 (0%) | 1.1% | -$231.15 (-65%) | Hold to the end: -$231.15 (-65%) |
+| 42699 | 2381 | 9 (0%) | 1.1% | -$231.15 (-65%) | Hold to the end: -$231.15 (-65%) |
 
 *In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2381 | 14% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 40287 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40298 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19383 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19391 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2319 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1901 | 3 | 2% | 1% | -85% | -92% | 2 min |
+| eBasketball Game | ✘ | 1902 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1330 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -115,7 +115,7 @@
 | Challenger WTA | ✘ | 237 | 0 | 13% | 5% | -100% | -77% | 9 min |
 | NHL Game | ✔ | 225 | 1 | 14% | 7% | -59% | -76% | 5 min |
 | Major League Soccer Game | partly | 175 | 1 | 11% | 6% | -47% | -80% | 6 min |
-| WTA Tennis Match | ✘ | 170 | 0 | 12% | 2% | -100% | -80% | 5 min |
+| WTA Tennis Match | ✘ | 171 | 0 | 12% | 2% | -100% | -80% | 5 min |
 | League of Legends Game | ✘ | 156 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | AHL Game | ✘ | 155 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | NBA Game | ✔ | 149 | 0 | 17% | 5% | -100% | -70% | 9 min |
@@ -248,9 +248,9 @@
 | Austria BSL Game | ✘ | 29 | 0 | 10% | 7% | -100% | -82% | 8 min |
 | EFL Trophy Game | ✘ | 29 | 0 | 7% | 7% | -100% | -88% | 47 min |
 | Korea KBL Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Australian A League Game | ✘ | 29 | 0 | 7% | 0% | -100% | -88% | 6 min |
 | Croatia Premijer Liga Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Singapore Premier League Game | ✘ | 28 | 0 | 14% | 4% | -100% | -75% | 18 min |
-| Australian A League Game | ✘ | 28 | 0 | 7% | 0% | -100% | -88% | 6 min |
 | German Women's Bundesliga Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 18 min |
 | Slovakia SBL Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 18 min |
 | Slovakian Cup Game | ✘ | 24 | 0 | 8% | 4% | -100% | -86% | 19 min |
@@ -333,15 +333,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 05:47 | WTA Tennis Match | Elena Pridankina | ✘ | — | — | In play | — |
+| 11-01 05:57 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | — | In play | — |
+| 11-01 05:52 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | — | In play | — |
+| 11-01 05:51 | Australian A League Game | Central Coast | ✘ | — | — | In play | — |
+| 11-01 05:51 | Australian A League Game | Melbourne Victory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:51 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-01 05:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 05:50 | College Football Game | Oregon St. | ✔ | 11:55 - 4th · ORST 16 - FRES 38 | — | In play | — |
+| 11-01 05:49 | College Football Game | Northern Illinois | ✔ | 1:43 - 4th · NIU 24 - UNLV 31 | — | In play | — |
+| 11-01 05:49 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:49 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:47 | WTA Tennis Match | Elena Pridankina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:46 | Challenger ATP  | Dominik Palan | ✘ | — | — | In play | — |
-| 11-01 05:46 | eSoccer Game | Spurs (Arkon) | ✘ | — | — | In play | — |
-| 11-01 05:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 05:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 05:44 | eSoccer Game | Real Sociedad (Niskanen15) | ✘ | — | — | In play | — |
+| 11-01 05:46 | eSoccer Game | Spurs (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:44 | eSoccer Game | Real Sociedad (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:42 | eFootball Game | Denver (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 05:42 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | — | In play | — |
+| 11-01 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 05:42 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:38 | Japan J League Game | Tie | ✘ | — | — | In play | — |
 | 11-01 05:38 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,17 +363,6 @@
 | 11-01 05:29 | eSoccer Game | England (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:29 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:28 | WTA Tennis Match | Leylah Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:28 | eSoccer Game | Sevilla FC (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:27 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:26 | eFootball Game | Detroit (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:21 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:19 | eSoccer Game | Spurs (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:19 | Russia Liga Pro Match | Ivanov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 05:19 | Japan J League Game | Frontale | ✘ | — | — | In play | — |
-| 11-01 05:19 | Liga MX Game | Toluca | ✔ | 90'+10' · TOL 2 - AME 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
