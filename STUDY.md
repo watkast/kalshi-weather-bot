@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 7:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 7:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42430 | 2360 | 9 (0%) | 1.1% | -$228.00 (-64%) | Hold to the end: -$228.00 (-64%) |
+| 42438 | 2360 | 9 (0%) | 1.1% | -$228.00 (-64%) | Hold to the end: -$228.00 (-64%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2360 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 40053 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40059 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19229 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2306 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19233 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2308 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1887 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1329 | 2 | 13% | 5% | -86% | -77% | 5 min |
@@ -333,9 +333,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 01:17 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
-| 11-01 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 01:16 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | — | In play | — |
+| 11-01 01:28 | College Hockey Game | Northern Michigan | ✘ | — | — | In play | — |
+| 11-01 01:22 | eSoccer Game | Real Madrid (Arkon) | ✘ | — | — | In play | — |
+| 11-01 01:22 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | — | In play | — |
+| 11-01 01:22 | Venezuela Liga FUTVE game | Caracas | ✘ | — | — | In play | — |
+| 11-01 01:21 | Counter-Strike 2 Game | NRG | ✘ | — | — | In play | — |
+| 11-01 01:19 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:18 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:17 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:16 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:11 | College Hockey Game | Penn State | ✘ | — | — | In play | — |
 | 11-01 01:11 | College Hockey Game | Stonehill | ✘ | — | — | In play | — |
 | 11-01 01:11 | NBA Game | Atlanta | ✔ | 7:55 - 4th · ATL 83 - NO 103 | — | In play | — |
@@ -355,14 +363,6 @@
 | 11-01 00:59 | eFootball Game | San Francisco (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 00:54 | eSoccer Game | Getafe CF (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 00:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:54 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:52 | eSoccer Game | Estudiantes (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:51 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:51 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:50 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 00:49 | Liga DIMAYOR Game | Junior | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
