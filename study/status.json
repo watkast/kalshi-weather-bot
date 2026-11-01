@@ -1,11 +1,11 @@
 {
- "saved_at": "2026-11-01T00:55:22+00:00",
+ "saved_at": "2026-11-01T01:07:59+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 199,
+ "markets_in_or_near_play": 202,
  "batch_lookup": true,
- "espn_games_linked": 53,
+ "espn_games_linked": 16,
  "espn_check": {
-  "at": "2026-11-01T00:48:34+00:00",
+  "at": "2026-11-01T00:57:55+00:00",
   "started_games": 21,
   "matched": 16,
   "unmatched_sample": [
@@ -16,7 +16,7 @@
    "KXLIGUE1GAME-26OCT31FCLSTB"
   ]
  },
- "bets": 42410,
- "open": 25,
+ "bets": 42422,
+ "open": 22,
  "errors": []
 }
