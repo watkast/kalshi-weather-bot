@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-01T05:43:49+00:00",
+ "saved_at": "2026-11-01T06:04:10+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -80,7 +80,7 @@
   ]
  },
  "open": 0,
- "results_known": 27258,
+ "results_known": 27267,
  "sigma_pct": {
   "HYPE": 0.0462,
   "BTC": 0.02,
