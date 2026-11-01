@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Oct 31, 10:32 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Oct 31, 10:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41051 | 41041 | 152 (0%) | 1.07% | -$2,869.85 (-57%) | Hold to the close: -$2,869.85 (-57%) |
+| 41052 | 41041 | 152 (0%) | 1.07% | -$2,869.85 (-57%) | Hold to the close: -$2,869.85 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 10/31 10:42:18 PM | DOGE | UP | 2.7 min | -0.131% | — | In play | — |
 | 10/31 10:26:48 PM | BNB | DOWN | 3.2 min | +0.199% | 0¢ | ❌ Lost | -$0.15 |
 | 10/31 10:26:48 PM | BTC | DOWN | 3.2 min | +0.046% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 10:26:48 PM | NEAR | DOWN | 3.2 min | +0.308% | 1¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 10/31 9:56:01 PM | SOL | UP | 4.0 min | -0.163% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 9:54:36 PM | HYPE | UP | 5.4 min | -0.382% | 1¢ | ❌ Lost | -$0.15 |
 | 10/31 9:43:41 PM | NEAR | UP | 79 sec | -0.352% | 0¢ | ❌ Lost | -$0.15 |
-| 10/31 9:42:54 PM | HYPE | UP | 2.1 min | -0.191% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
