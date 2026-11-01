@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Oct 31, 7:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Oct 31, 8:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42470 | 2363 | 9 (0%) | 1.1% | -$228.45 (-64%) | Hold to the end: -$228.45 (-64%) |
+| 42480 | 2363 | 9 (0%) | 1.1% | -$228.45 (-64%) | Hold to the end: -$228.45 (-64%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2363 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 40083 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 40088 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19247 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 19249 | 12 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 2311 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1889 | 3 | 2% | 1% | -85% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1408 | 6 | 13% | 6% | -60% | -77% | 4 min |
@@ -105,7 +105,7 @@
 | Counter-Strike 2 Game | ✘ | 1300 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | Challenger ATP  | ✘ | 795 | 2 | 11% | 4% | -77% | -81% | 5 min |
 | eFootball Game | ✘ | 489 | 2 | 1% | 1% | -62% | -98% | 2 min |
-| College Football Game | partly | 401 | 3 | 11% | 6% | -30% | -80% | 24 min |
+| College Football Game | partly | 402 | 3 | 11% | 6% | -30% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 290 | 1 | 15% | 6% | -68% | -74% | 23 min |
@@ -129,7 +129,7 @@
 | Liga DIMAYOR Game | ✘ | 117 | 1 | 9% | 3% | -20% | -85% | 6 min |
 | ATP Tennis Match | ✘ | 117 | 0 | 15% | 6% | -100% | -75% | 4 min |
 | Brasileiro Serie B Game | ✘ | 115 | 1 | 8% | 4% | -19% | -86% | 8 min |
-| College Hockey Game | ✘ | 109 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| College Hockey Game | ✘ | 111 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | Overwatch Game | ✘ | 108 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | USL Championship Game | partly | 104 | 0 | 12% | 5% | -100% | -78% | 5 min |
@@ -333,12 +333,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 01:59 | eSoccer Game | São Paulo (Antonio) | ✘ | — | — | In play | — |
-| 11-01 01:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 01:59 | College Hockey Game | Boston College | ✘ | — | — | In play | — |
+| 11-01 02:07 | Challenger WTA | Fiona Ferro | ✘ | — | — | In play | — |
+| 11-01 02:06 | eFootball Game | Cincinnati (Cooper) | ✘ | — | — | In play | — |
+| 11-01 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 02:05 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
+| 11-01 02:05 | College Football Game | Washington St. | ✔ | 0:38 - 4th · WSU 20 - SDSU 26 | — | In play | — |
+| 11-01 02:04 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
+| 11-01 02:03 | eBasketball Game | Indiana Pacers (Lonzo) | ✘ | — | — | In play | — |
+| 11-01 02:01 | College Football Game | Florida St. | ✔ | 11:28 - 4th · CLEM 26 - FSU 10 | — | In play | — |
+| 11-01 02:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 02:01 | eSoccer Game | Estudiantes (Niskanen15) | ✘ | — | — | In play | — |
+| 11-01 01:59 | eSoccer Game | São Paulo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 01:59 | College Hockey Game | Boston College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:58 | Counter-Strike 2 Game | Low Cortisol | ✘ | — | — | In play | — |
 | 11-01 01:56 | NBA Game | Sacramento | ✔ | 2:51 - 3rd · SAC 72 - MEM 97 | — | In play | — |
-| 11-01 01:52 | College Football Game | Wofford | ✘ | — | — | In play | — |
+| 11-01 01:52 | College Football Game | Wofford | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:51 | College Hockey Game | Massachusetts Lowell | ✘ | — | — | In play | — |
 | 11-01 01:51 | NHL Game | Pittsburgh | ✔ | 0:03 - 3rd · PIT 4 - MTL 5 | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:50 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -353,16 +363,6 @@
 | 11-01 01:36 | eBasketball Game | Indiana Pacers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:35 | eBasketball Game | Dallas Mavericks (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 01:35 | NHL Game | Vancouver | ✔ | 2:08 - 3rd · TOR 3 - VAN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:34 | eSoccer Game | São Paulo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:34 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:34 | eSoccer Game | Olympique de Marseille (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:33 | College Hockey Game | Cornell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:33 | eSoccer Game | Estudiantes (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:31 | Venezuela Liga FUTVE game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 01:31 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
