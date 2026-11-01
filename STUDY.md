@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 12:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 12:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43608 | 2414 | 9 (0%) | 1.1% | -$236.10 (-65%) | Hold to the end: -$236.10 (-65%) |
+| 43628 | 2414 | 9 (0%) | 1.1% | -$236.10 (-65%) | Hold to the end: -$236.10 (-65%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2414 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41164 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41181 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19748 | 12 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 2403 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19758 | 12 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 2407 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1938 | 3 | 2% | 1% | -86% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1423 | 6 | 13% | 6% | -61% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1424 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1321 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Men's T20 Cricket Match | ✘ | 297 | 1 | 15% | 6% | -69% | -73% | 23 min |
+| Men's T20 Cricket Match | ✘ | 298 | 1 | 15% | 6% | -69% | -73% | 23 min |
 | Women's College Volleyball Match | ✘ | 290 | 2 | 5% | 3% | -36% | -91% | 69 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 264 | 1 | 1% | 1% | -65% | -98% | 31 min |
@@ -283,10 +283,10 @@
 | Colombia LBP Basketball Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Israel Super League Game | ✘ | 9 | 0 | 11% | 11% | -100% | -81% | 13 min |
 | CONMEBOL Sudamericana Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Women's Bundesliga Basketball Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | PREM Rugby Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Powerslap Match Winner | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 12 min |
 | CONMEBOL Libertadores Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
-| Women's Bundesliga Basketball Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | GBL Basketball Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Ukraine SuperLeague Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
@@ -335,36 +335,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 19:36 | ITF Women's Match | Julieta Pareja | ✘ | — | — | In play | — |
-| 11-01 19:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 19:36 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 11-01 19:46 | Argentina Primera Division Game | River Plate | ✘ | — | — | In play | — |
+| 11-01 19:45 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
+| 11-01 19:45 | ITF Women's Match | Carolin Raschdorf | ✘ | — | — | In play | — |
+| 11-01 19:44 | Spanish Liga F Game | Sevilla | ✘ | — | — | In play | — |
+| 11-01 19:42 | Women's College Volleyball Match | Texas A&M | ✘ | — | — | In play | — |
+| 11-01 19:42 | eSoccer Game | Liverpool (Kovboj) | ✘ | — | — | In play | — |
+| 11-01 19:42 | eSoccer Game | Slavia Praha (Mantis) | ✘ | — | — | In play | — |
+| 11-01 19:41 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
+| 11-01 19:41 | Women's College Volleyball Match | Ohio State | ✘ | — | — | In play | — |
+| 11-01 19:41 | Israeli Premier League Game | Maccabi Petah Tikva | ✘ | — | — | In play | — |
+| 11-01 19:39 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:39 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:39 | Women's College Volleyball Match | West Virginia | ✘ | — | — | In play | — |
+| 11-01 19:38 | Russia Liga Pro Match | Zemit Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:38 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:37 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:37 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:36 | ITF Women's Match | Julieta Pareja | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:36 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:35 | Chile Liga de Primera Game | Everton | ✘ | — | — | In play | — |
-| 11-01 19:34 | Russia Liga Pro Match | Mikhailov Danila | ✘ | — | — | In play | — |
+| 11-01 19:34 | Russia Liga Pro Match | Mikhailov Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:34 | Counter-Strike 2 Game | Ducks | ✘ | — | — | In play | — |
 | 11-01 19:34 | Women's College Volleyball Match | Arkansas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 19:31 | Liga Portugal Game | Madeira | ✘ | — | — | In play | — |
-| 11-01 19:31 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
-| 11-01 19:31 | eSoccer Game | Fulham (Rendeto) | ✘ | — | — | In play | — |
-| 11-01 19:31 | Men's T20 Cricket Match | Artech - B | ✘ | — | — | In play | — |
-| 11-01 19:31 | Women's Bundesliga Basketball Game | Saarlouis Royals | ✘ | — | — | In play | — |
-| 11-01 19:29 | Women's College Volleyball Match | Syracuse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:27 | eBasketball Game | Golden State Warriors (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:26 | eSoccer Game | Arsenal (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:26 | Challenger ATP  | Oliver Okonkwo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:26 | NFL Game | Indianapolis | ✔ | 1:16 - 2nd · IND 0 - JAX 21 | — | In play | — |
-| 11-01 19:26 | Challenger ATP  | Enrique Bogo | ✘ | — | — | In play | — |
-| 11-01 19:25 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:25 | eSoccer Game | Brighton (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:24 | eBasketball Game | Los Angeles Lakers (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:24 | LaLiga 2 Game | Castellon | ✔ | 90'+5' · CAS 1 - BUR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:24 | Eliteserien Game | Tie | ✘ | — | — | In play | — |
-| 11-01 19:24 | La Liga Game | Tie | ✔ | 90'+4' · VAL 1 - ELC 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:24 | LaLiga 2 Game | Burgos | ✔ | 90'+5' · CAS 1 - BUR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:24 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
-| 11-01 19:23 | Belgian Pro League Game | La Louviere | ✘ | — | — | In play | — |
-| 11-01 19:22 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 19:22 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:31 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 19:31 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
