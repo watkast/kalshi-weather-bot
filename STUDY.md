@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 2:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 2:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43768 | 2421 | 9 (0%) | 1.1% | -$237.15 (-65%) | Hold to the end: -$237.15 (-65%) |
+| 43782 | 2421 | 9 (0%) | 1.1% | -$237.15 (-65%) | Hold to the end: -$237.15 (-65%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2421 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41327 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41333 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19822 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 19826 | 12 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2417 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1942 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
@@ -109,10 +109,10 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 300 | 1 | 15% | 6% | -69% | -73% | 23 min |
-| Women's College Volleyball Match | ✘ | 298 | 2 | 5% | 3% | -37% | -91% | 69 min |
+| Women's College Volleyball Match | ✘ | 299 | 2 | 5% | 3% | -38% | -91% | 69 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 264 | 1 | 1% | 1% | -65% | -98% | 31 min |
-| Challenger WTA | ✘ | 241 | 1 | 13% | 5% | -61% | -77% | 9 min |
+| Challenger WTA | ✘ | 242 | 1 | 13% | 5% | -61% | -77% | 9 min |
 | NHL Game | ✔ | 226 | 1 | 14% | 7% | -59% | -76% | 5 min |
 | Major League Soccer Game | partly | 175 | 1 | 11% | 6% | -47% | -80% | 6 min |
 | WTA Tennis Match | ✘ | 175 | 0 | 11% | 2% | -100% | -80% | 5 min |
@@ -336,13 +336,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-01 21:29 | eSoccer Game | Chelsea (Elastico) | ✘ | — | — | In play | — |
-| 11-01 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 21:28 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 11-01 21:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-01 21:26 | Women's College Volleyball Match | Houston | ✘ | — | — | In play | — |
+| 11-01 21:40 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | — | In play | — |
+| 11-01 21:38 | NFL Game | Dallas | ✔ | 2:58 - OT · ARI 30 - DAL 30 | — | In play | — |
+| 11-01 21:37 | APF Division de Honor Game | Cerro Porteno | ✘ | — | — | In play | — |
+| 11-01 21:35 | Challenger WTA | Katrina Scott | ✘ | — | — | In play | — |
+| 11-01 21:32 | eSoccer Game | Manchester City (Krocs) | ✘ | — | — | In play | — |
+| 11-01 21:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 21:32 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
+| 11-01 21:32 | Ligue 1 Game | Tie | ✔ | 88' · TOU 0 - OLM 2 | — | In play | — |
+| 11-01 21:31 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
+| 11-01 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-01 21:31 | Serie A Game | Tie | ✔ | 87' · NAP 0 - JUV 1 | — | In play | — |
+| 11-01 21:31 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-01 21:31 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-01 21:31 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | — | In play | — |
+| 11-01 21:29 | eSoccer Game | Chelsea (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 21:28 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 21:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-01 21:26 | Women's College Volleyball Match | Houston | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 21:23 | Major League Soccer Game | Seattle | ✔ | 43' · SEA 0 - VAN 2 | — | In play | — |
-| 11-01 21:22 | Challenger WTA | Elizabeth Mandlik | ✘ | — | — | In play | — |
+| 11-01 21:22 | Challenger WTA | Elizabeth Mandlik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 21:21 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 21:21 | Serie A Game | Napoli | ✔ | 77' · NAP 0 - JUV 1 | — | In play | — |
 | 11-01 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,20 +366,6 @@
 | 11-01 21:15 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 21:15 | eFootball Game | Buffalo (Knox) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-01 21:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:14 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:14 | Uruguay Primera Division Game | Danubio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:10 | Ligue 1 Game | Toulouse | ✔ | 66' · TOU 0 - OLM 2 | — | In play | — |
-| 11-01 21:06 | eSoccer Game | FC Bayern (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:05 | Canadian Premier League | Hamilton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:05 | Canadian Premier League | Ottawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:05 | NFL Game | Minnesota | ✔ | 1:48 - 4th · MIN 15 - DET 19 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:04 | USL Championship Game | Colorado Springs Sw. | ✔ | 90'+5' · COS 1 - LEX 1 | — | In play | — |
-| 11-01 21:04 | USL Championship Game | Lexington SC | ✔ | 90'+5' · COS 1 - LEX 1 | — | In play | — |
-| 11-01 21:04 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:04 | NFL Game | New York J | ✔ | 0:07 - 4th · LV 38 - NYJ 33 | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:03 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-01 21:03 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
