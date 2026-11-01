@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 1, 11:16 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 1, 11:26 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 3420 finished bets | 1% | $108.25 | +28% | +3.17¢ | $75.80 / $32.45 |
 
-*Expect about **99 buys a day** (~$14.88/day at risk); max loss per buy **15¢**.*
+*Expect about **99 buys a day** (~$14.87/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41460 | 41450 | 155 (0%) | 1.07% | -$2,873.90 (-57%) | Hold to the close: -$2,873.90 (-57%) |
+| 41461 | 41450 | 155 (0%) | 1.07% | -$2,873.90 (-57%) | Hold to the close: -$2,873.90 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/1 11:25:07 AM | HYPE | UP | 4.9 min | -0.327% | — | In play | — |
 | 11/1 11:14:28 AM | SOL | DOWN | 31 sec | +0.017% | 0¢ | ❌ Lost | $0.00 |
 | 11/1 11:14:28 AM | ETH | UP | 31 sec | -0.042% | 0¢ | ❌ Lost | $0.00 |
 | 11/1 11:14:11 AM | BTC | UP | 48 sec | -0.035% | 0¢ | ❌ Lost | $0.00 |
@@ -217,7 +218,6 @@
 | 11/1 10:29:37 AM | SOL | DOWN | 23 sec | -0.015% | 0¢ | ❌ Lost | $0.00 |
 | 11/1 10:29:22 AM | BNB | DOWN | 38 sec | +0.039% | 0¢ | ❌ Lost | -$0.15 |
 | 11/1 10:29:22 AM | XRP | DOWN | 38 sec | +0.040% | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 10:29:05 AM | BTC | UP | 54 sec | -0.011% | 2¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
