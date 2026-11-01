@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-11-01T11:58:33+00:00",
+ "saved_at": "2026-11-01T12:08:41+00:00",
  "windows_watched": 9,
- "trades": 180872,
+ "trades": 180921,
  "errors": [
   "2026-11-01T09:43:19+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out."
  ]
