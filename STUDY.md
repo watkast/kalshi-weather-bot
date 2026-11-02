@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 12:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 12:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44382 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44390 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41882 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41897 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20186 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2463 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1972 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| eSoccer Game | ✘ | 20196 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2465 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1974 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1433 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1333 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 844 | 2 | 11% | 3% | -78% | -82% | 5 min |
-| eFootball Game | ✘ | 526 | 2 | 1% | 1% | -65% | -98% | 2 min |
+| eFootball Game | ✘ | 527 | 2 | 1% | 1% | -65% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -336,19 +336,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 07:18 | eSoccer Game | Nantes (NINJA) | ✘ | — | — | In play | — |
-| 11-02 07:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 07:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 07:15 | eSoccer Game | Sevilla FC (Pedri) | ✘ | — | — | In play | — |
-| 11-02 07:14 | eSoccer Game | Spurs (Gigi) | ✘ | — | — | In play | — |
-| 11-02 07:14 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-02 07:14 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | — | In play | — |
-| 11-02 07:13 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | — | In play | — |
-| 11-02 07:12 | eSoccer Game | Real Betis (Hazard) | ✘ | — | — | In play | — |
-| 11-02 07:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 07:12 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-02 07:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 07:12 | Russia Liga Pro Match | Smirnov Mikhail | ✘ | — | — | In play | — |
+| 11-02 07:28 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-02 07:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 07:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 07:28 | eSoccer Game | Real Sociedad (Frenkie) | ✘ | — | — | In play | — |
+| 11-02 07:26 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 11-02 07:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-02 07:25 | eFootball Game | Seattle (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:19 | Russia Liga Pro Match | Burmakin IUrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:18 | eSoccer Game | Nantes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:15 | eSoccer Game | Sevilla FC (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:14 | eSoccer Game | Spurs (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:14 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:14 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 11-02 07:13 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:12 | eSoccer Game | Real Betis (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:12 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 07:12 | Russia Liga Pro Match | Smirnov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 07:05 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 07:03 | eSoccer Game | AS Monaco (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 07:03 | eSoccer Game | Toulouse FC (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -358,14 +366,6 @@
 | 11-02 07:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 06:59 | eSoccer Game | FC Barcelona (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:59 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:58 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:58 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:54 | Challenger ATP  | Kasidit Samrej | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:52 | Challenger ATP  | Kaichi Uchida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:49 | eSoccer Game | Nantes (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 06:47 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
