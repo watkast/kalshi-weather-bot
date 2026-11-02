@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 6:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 6:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44651 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44658 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42149 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42158 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20372 | 12 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2489 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 20380 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2490 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1992 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1436 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
@@ -336,15 +336,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 13:04 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
-| 11-02 13:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 13:03 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | — | In play | — |
-| 11-02 13:01 | eSoccer Game | FC Bayern (Declan) | ✘ | — | — | In play | — |
-| 11-02 13:01 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
-| 11-02 13:00 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-02 13:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 12:57 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 11-02 12:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:13 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-02 13:11 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
+| 11-02 13:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:07 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
+| 11-02 13:06 | eSoccer Game | Manchester Utd (Poly) | ✘ | — | — | In play | — |
+| 11-02 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:04 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:03 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:01 | eSoccer Game | FC Bayern (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:01 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:00 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:57 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:57 | eFootball Game | Seattle (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:54 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:52 | Mobile Legends Bang Bang Game | Aura Farmers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -359,13 +366,6 @@
 | 11-02 12:46 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:43 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:40 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:38 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:36 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:36 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:33 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:33 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
