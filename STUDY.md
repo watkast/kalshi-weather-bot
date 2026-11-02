@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 5:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 5:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44601 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44612 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42098 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42106 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20338 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 20344 | 12 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2484 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1988 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1435 | 6 | 13% | 6% | -61% | -77% | 4 min |
@@ -112,7 +112,7 @@
 | Men's T20 Cricket Match | ✘ | 302 | 1 | 15% | 6% | -69% | -74% | 23 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 267 | 1 | 1% | 1% | -65% | -98% | 31 min |
-| Challenger WTA | ✘ | 246 | 1 | 13% | 5% | -62% | -77% | 9 min |
+| Challenger WTA | ✘ | 247 | 1 | 13% | 5% | -62% | -78% | 9 min |
 | NHL Game | ✔ | 230 | 1 | 14% | 7% | -59% | -76% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | WTA Tennis Match | ✘ | 175 | 0 | 11% | 2% | -100% | -80% | 5 min |
@@ -239,10 +239,10 @@
 | Canadian Premier League | ✘ | 35 | 1 | 14% | 14% | +167% | -75% | 22 min |
 | Swiss Super League Game | ✘ | 35 | 1 | 6% | 3% | +167% | -90% | 12 min |
 | Hungarian NB I Game | ✘ | 34 | 0 | 9% | 9% | -100% | -85% | 6 min |
+| Korea KBL Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Brazil NBB Basketball Game | ✘ | 33 | 0 | 6% | 3% | -100% | -89% | 18 min |
 | Austria BSL Game | ✘ | 32 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | Turkey BSL Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 9 min |
-| Korea KBL Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Australian A League Game | ✘ | 32 | 0 | 6% | 0% | -100% | -89% | 6 min |
 | Indian Super League Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 7 min |
 | Austrian Bundesliga Game | ✘ | 32 | 0 | 9% | 6% | -100% | -84% | 12 min |
@@ -336,15 +336,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-02 12:22 | Men's College Basketball Game | Merrimack | ✘ | — | — | In play | — |
+| 11-02 12:22 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 11-02 12:22 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
+| 11-02 12:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 12:21 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | — | In play | — |
+| 11-02 12:19 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
+| 11-02 12:19 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | — | In play | — |
+| 11-02 12:17 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-02 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 12:17 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
+| 11-02 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-02 12:11 | Dota 2 Game | LEGION | ✘ | — | — | In play | — |
-| 11-02 12:09 | eSoccer Game | Arsenal (Poly) | ✘ | — | — | In play | — |
-| 11-02 12:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 12:07 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
-| 11-02 12:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 12:09 | eSoccer Game | Arsenal (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:07 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:07 | Challenger WTA | Prathyusha Rachapudi | ✘ | — | — | In play | — |
-| 11-02 12:07 | Korea KBL Game | Daegu Pegasus | ✘ | — | — | In play | — |
-| 11-02 12:05 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | — | In play | — |
-| 11-02 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 12:07 | Korea KBL Game | Daegu Pegasus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:05 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:05 | eSoccer Game | England (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:02 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,17 +366,6 @@
 | 11-02 11:56 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 11:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 11:53 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:52 | Counter-Strike 2 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:52 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:51 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:50 | Challenger WTA | Dune Vaissaud | ✘ | — | — | In play | — |
-| 11-02 11:48 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:42 | eSoccer Game | Manchester City (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 11:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
