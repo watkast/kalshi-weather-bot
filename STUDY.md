@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 2:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 2:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44939 | 2482 | 9 (0%) | 1.1% | -$246.30 (-66%) | Hold to the end: -$246.30 (-66%) |
+| 44958 | 2482 | 9 (0%) | 1.1% | -$246.30 (-66%) | Hold to the end: -$246.30 (-66%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2482 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42424 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42437 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20533 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20535 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2509 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2008 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| eBasketball Game | ✘ | 2010 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1443 | 6 | 14% | 6% | -61% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1351 | 2 | 13% | 5% | -86% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1342 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| ITF Men's Match | ✘ | 1352 | 2 | 13% | 5% | -86% | -77% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1343 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 855 | 2 | 11% | 3% | -78% | -82% | 5 min |
+| Challenger ATP  | ✘ | 857 | 2 | 11% | 4% | -78% | -82% | 5 min |
 | eFootball Game | ✘ | 539 | 2 | 1% | 1% | -65% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 308 | 2 | 5% | 3% | -39% | -92% | 67 min |
 | Men's T20 Cricket Match | ✘ | 304 | 1 | 15% | 6% | -69% | -74% | 23 min |
-| Serie C Game | ✘ | 284 | 2 | 5% | 2% | -34% | -92% | 6 min |
+| Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Dota 2 Game | ✘ | 271 | 1 | 1% | 1% | -66% | -98% | 31 min |
 | Challenger WTA | ✘ | 251 | 1 | 14% | 5% | -63% | -77% | 9 min |
 | NHL Game | ✔ | 230 | 1 | 14% | 7% | -59% | -76% | 5 min |
@@ -170,11 +170,11 @@
 | NFL Game | ✔ | 71 | 1 | 18% | 7% | +31% | -68% | 8 min |
 | Mobile Legends Bang Bang Game | ✘ | 71 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | English Premier League Game | ✔ | 71 | 0 | 7% | 3% | -100% | -88% | 9 min |
+| Ligue 2 Game | ✘ | 70 | 0 | 9% | 6% | -100% | -85% | 8 min |
 | UEFA Conference League Game | partly | 70 | 0 | 16% | 10% | -100% | -73% | 10 min |
+| Polish Ekstraklasa Game | ✘ | 69 | 0 | 13% | 7% | -100% | -77% | 9 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | NWSL Game | ✔ | 68 | 0 | 7% | 1% | -100% | -87% | 7 min |
-| Ligue 2 Game | ✘ | 68 | 0 | 9% | 6% | -100% | -85% | 8 min |
-| Polish Ekstraklasa Game | ✘ | 67 | 0 | 13% | 7% | -100% | -77% | 8 min |
 | Allsvenskan Game | ✘ | 67 | 1 | 16% | 10% | +39% | -72% | 9 min |
 | Men's ODI Cricket Match | ✘ | 66 | 3 | 23% | 8% | +324% | -61% | 48 min |
 | Bundesliga 2 Game | ✔ | 65 | 0 | 11% | 6% | -100% | -81% | 8 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 21:42 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | — | In play | — |
-| 11-02 21:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 21:42 | Counter-Strike 2 Game | Pandaric eSports | ✘ | — | — | In play | — |
-| 11-02 21:42 | Challenger ATP  | Henrique Rocha | ✘ | — | — | In play | — |
-| 11-02 21:41 | ITF Men's Match | Tomas Quesada Perez | ✘ | — | — | In play | — |
+| 11-02 21:54 | La Liga Game | Tie | ✔ | 90'+3' · OSA 1 - DEP 2 | — | In play | — |
+| 11-02 21:53 | Dota 2 Game | rostikfacekid TEAM | ✘ | — | — | In play | — |
+| 11-02 21:52 | Spanish Liga F Game | Tie | ✘ | — | — | In play | — |
+| 11-02 21:51 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 11-02 21:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 21:50 | LaLiga 2 Game | Cadiz | ✔ | 90' · CAD 1 - MLL 1 | — | In play | — |
+| 11-02 21:50 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 11-02 21:49 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-02 21:49 | Brazil NBB Basketball Game | Fortaleza Basquete Cearense | ✘ | — | — | In play | — |
+| 11-02 21:49 | Spanish Liga F Game | Athletic | ✘ | — | — | In play | — |
+| 11-02 21:48 | La Liga Game | Osasuna | ✔ | 87' · OSA 1 - DEP 1 | — | In play | — |
+| 11-02 21:47 | Challenger ATP  | Mateus Alves | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
+| 11-02 21:46 | English Premier League Game | Newcastle | ✔ | 88' · EVE 1 - NEW 0 | — | In play | — |
+| 11-02 21:46 | eSoccer Game | Paris Saint-Germain (Krocs) | ✘ | — | — | In play | — |
+| 11-02 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 21:46 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:45 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 21:45 | eSoccer Game | Chelsea (Elastico) | ✘ | — | — | In play | — |
+| 11-02 21:42 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:42 | Counter-Strike 2 Game | Pandaric eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:42 | Challenger ATP  | Henrique Rocha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:41 | ITF Men's Match | Tomas Quesada Perez | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-02 21:38 | Liga Portugal Game | Alverca | ✘ | — | — | In play | — |
 | 11-02 21:35 | ITF Women's Match | Kennedy Gibbs | ✘ | — | — | In play | — |
 | 11-02 21:35 | Men's College Basketball Game | UTEP | ✘ | — | — | In play | — |
 | 11-02 21:34 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 21:33 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
 | 11-02 21:33 | eSoccer Game | Leverkusen (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:31 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:30 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:29 | eSoccer Game | Chelsea (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:29 | Women's College Basketball Game | North Carolina | ✔ | 7:54 - 4th · OU 75 - UNC 60 | — | In play | — |
-| 11-02 21:29 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 11-02 21:28 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:28 | Women's College Basketball Game | Wofford | ✘ | — | — | In play | — |
-| 11-02 21:28 | Women's College Basketball Game | District of Columbia | ✘ | — | — | In play | — |
-| 11-02 21:26 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-02 21:26 | Women's College Basketball Game | Saint Anselm | ✘ | — | — | In play | — |
-| 11-02 21:26 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:25 | Men's College Basketball Game | UTSA | ✘ | — | — | In play | — |
-| 11-02 21:23 | Serie C Game | Casarano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:22 | Italy Serie A Game | Pallacanestro Cantu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 21:21 | Serie A Game | Tie | ✔ | 78' · PAR 3 - ATA 0 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
