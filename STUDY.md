@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 3:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 3:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44489 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44498 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41986 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42000 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20262 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2472 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1980 | 3 | 2% | 1% | -86% | -92% | 2 min |
+| eSoccer Game | ✘ | 20272 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2473 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1982 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1433 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1335 | 2 | 6% | 3% | -86% | -90% | 12 min |
@@ -112,7 +112,7 @@
 | Men's T20 Cricket Match | ✘ | 301 | 1 | 15% | 6% | -69% | -74% | 23 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 267 | 1 | 1% | 1% | -65% | -98% | 31 min |
-| Challenger WTA | ✘ | 244 | 1 | 13% | 5% | -62% | -77% | 9 min |
+| Challenger WTA | ✘ | 245 | 1 | 13% | 5% | -62% | -77% | 9 min |
 | NHL Game | ✔ | 230 | 1 | 14% | 7% | -59% | -76% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | WTA Tennis Match | ✘ | 175 | 0 | 11% | 2% | -100% | -80% | 5 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 10:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 10:05 | eSoccer Game | Chelsea (NINJA) | ✘ | — | — | In play | — |
-| 11-02 10:04 | eSoccer Game | Leverkusen (Hazard) | ✘ | — | — | In play | — |
-| 11-02 10:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 10:03 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 11-02 10:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 10:03 | Russia Liga Pro Match | Kharlakin Oleg | ✘ | — | — | In play | — |
-| 11-02 10:02 | eSoccer Game | Paris Saint-Germain (Declan) | ✘ | — | — | In play | — |
-| 11-02 10:02 | eBasketball Game | Indiana Pacers (Dirk) | ✘ | — | — | In play | — |
-| 11-02 10:02 | eSoccer Game | Benfica (Frenkie) | ✘ | — | — | In play | — |
-| 11-02 10:01 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | — | In play | — |
-| 11-02 10:00 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
-| 11-02 10:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 10:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 10:18 | eSoccer Game | Manchester City (Poly) | ✘ | — | — | In play | — |
+| 11-02 10:17 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 11-02 10:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 10:16 | eSoccer Game | Paris Saint-Germain (Declan) | ✘ | — | — | In play | — |
+| 11-02 10:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 10:12 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
+| 11-02 10:12 | Russia Liga Pro Match | Stroev Aleksei | ✘ | — | — | In play | — |
+| 11-02 10:09 | Australia NBL Game | New Zealand Breakers | ✘ | — | — | In play | — |
+| 11-02 10:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:05 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:04 | eSoccer Game | Leverkusen (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:03 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:03 | Russia Liga Pro Match | Kharlakin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:02 | eSoccer Game | Paris Saint-Germain (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:02 | eBasketball Game | Indiana Pacers (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:02 | eSoccer Game | Benfica (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:01 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:00 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 10:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 10:00 | Counter-Strike 2 Game | 9z | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 10:00 | Challenger WTA | Madhurima Sawant | ✘ | — | — | In play | — |
-| 11-02 10:00 | Challenger WTA | Abigayel Vosloo | ✘ | — | — | In play | — |
+| 11-02 10:00 | Challenger WTA | Abigayel Vosloo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 10:00 | Russia Liga Pro Match | Ampleev Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 08:57 | Dota 2 Game | Zenith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 08:56 | eSoccer Game | Olympique de Marseille (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 08:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 08:54 | eSoccer Game | Juventus (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:54 | eSoccer Game | Slavia Praha (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:53 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:52 | eSoccer Game | Liverpool (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:51 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:50 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 08:44 | eFootball Game | New England (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
