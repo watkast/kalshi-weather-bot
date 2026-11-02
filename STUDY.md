@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 6:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 7:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44708 | 2478 | 9 (0%) | 1.1% | -$245.70 (-66%) | Hold to the end: -$245.70 (-66%) |
+| 44716 | 2478 | 9 (0%) | 1.1% | -$245.70 (-66%) | Hold to the end: -$245.70 (-66%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2478 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42201 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42214 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20404 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20412 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2496 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1996 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1438 | 6 | 13% | 5% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1337 | 2 | 6% | 3% | -86% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1339 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 848 | 2 | 10% | 3% | -78% | -82% | 5 min |
 | eFootball Game | ✘ | 536 | 2 | 1% | 1% | -65% | -98% | 2 min |
@@ -145,8 +145,8 @@
 | Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
+| Chinese Basketball Association Game  | ✘ | 86 | 0 | 7% | 1% | -100% | -88% | 10 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
-| Chinese Basketball Association Game  | ✘ | 85 | 0 | 7% | 1% | -100% | -88% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
 | Indonesia Super League Game | ✘ | 82 | 0 | 15% | 9% | -100% | -75% | 9 min |
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
@@ -156,9 +156,9 @@
 | Liga Expansion Game | ✘ | 79 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Uruguay Primera Division Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | Euroleague Game | ✘ | 78 | 0 | 21% | 6% | -100% | -64% | 13 min |
+| Women's T20 Match | ✘ | 77 | 0 | 14% | 5% | -100% | -75% | 25 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
 | EuroCup Basketball Game | ✘ | 76 | 0 | 5% | 4% | -100% | -91% | 11 min |
-| Women's T20 Match | ✘ | 76 | 0 | 14% | 5% | -100% | -75% | 24 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | La Liga Game | ✔ | 76 | 0 | 18% | 12% | -100% | -68% | 9 min |
 | R6 Game | ✘ | 75 | 1 | 9% | 4% | +24% | -84% | 9 min |
@@ -212,8 +212,8 @@
 | Finland Korisliiga Game | ✘ | 47 | 1 | 9% | 4% | +99% | -85% | 9 min |
 | Chinese Super League Game | ✘ | 47 | 1 | 11% | 6% | +99% | -82% | 17 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
+| Adriatic ABA Game | ✘ | 46 | 1 | 7% | 4% | +103% | -89% | 11 min |
 | Venezuela Liga FUTVE game | ✘ | 46 | 0 | 20% | 11% | -100% | -66% | 5 min |
-| Adriatic ABA Game | ✘ | 45 | 1 | 7% | 4% | +107% | -88% | 10 min |
 | Serie A Femminile Game | ✘ | 45 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Scottish Premiership Game | ✘ | 44 | 0 | 11% | 2% | -100% | -80% | 10 min |
 | Chile Liga de Primera Game | ✘ | 43 | 0 | 12% | 2% | -100% | -80% | 6 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 13:51 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
-| 11-02 13:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 13:50 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 11-02 13:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 14:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 14:04 | eSoccer Game | Stade Brestois 29 (Elastico) | ✘ | — | — | In play | — |
+| 11-02 14:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 14:03 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-02 14:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 14:02 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | — | In play | — |
+| 11-02 13:55 | Challenger ATP  | Sebastian Sorger | ✘ | — | — | In play | — |
+| 11-02 13:55 | Chinese Basketball Association Game  | Shandong Kirin | ✘ | — | — | In play | — |
+| 11-02 13:51 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:50 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:48 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:48 | Russia Liga Pro Match | Vorozheikin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:48 | Chinese Basketball Association Game  | Guangdong Southern Tigers | ✘ | — | — | In play | — |
-| 11-02 13:46 | eSoccer Game | Spurs (Strudl) | ✘ | — | — | In play | — |
+| 11-02 13:48 | Chinese Basketball Association Game  | Guangdong Southern Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:46 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:46 | eBasketball Game | Dallas Mavericks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 13:46 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
-| 11-02 13:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:46 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:44 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:43 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:42 | Adriatic ABA Game | U-BT Cluj-Napoca | ✘ | — | — | In play | — |
+| 11-02 13:42 | Adriatic ABA Game | U-BT Cluj-Napoca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:39 | Challenger WTA | Jahnie van Zyl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:39 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:36 | Counter-Strike 2 Game | Falcons Force | ✘ | — | — | In play | — |
+| 11-02 13:36 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:35 | Women's T20 Match | Assam Women | ✘ | — | — | In play | — |
 | 11-02 13:35 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:35 | Challenger ATP  | Ian Luca Vertberger | ✘ | — | — | In play | — |
-| 11-02 13:34 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | — | In play | — |
-| 11-02 13:34 | eFootball Game | New England (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:34 | eSoccer Game | Nottingham Forest (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:32 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:32 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:30 | ITF Women's Match | Mirjana Jovanovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
