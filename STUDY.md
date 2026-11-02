@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 6:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 6:24 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44658 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44671 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42158 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42168 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20380 | 12 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2490 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1992 | 3 | 2% | 1% | -86% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1436 | 6 | 13% | 6% | -61% | -77% | 4 min |
+| eSoccer Game | ✘ | 20386 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2491 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1993 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| ITF Women's Match | ✘ | 1437 | 6 | 13% | 5% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1336 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 847 | 2 | 11% | 3% | -78% | -82% | 5 min |
+| Challenger ATP  | ✘ | 848 | 2 | 10% | 3% | -78% | -82% | 5 min |
 | eFootball Game | ✘ | 535 | 2 | 1% | 1% | -65% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -336,13 +336,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 13:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 13:13 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-02 13:11 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
-| 11-02 13:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:24 | Russia Liga Pro Match | Safonov Vladimir | ✘ | — | — | In play | — |
+| 11-02 13:21 | Women's T20 Match | Hyderabad Women | ✘ | — | — | In play | — |
+| 11-02 13:19 | eSoccer Game | Chelsea (NINJA) | ✘ | — | — | In play | — |
+| 11-02 13:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:18 | ITF Women's Match | Urszula Radwanska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:18 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
+| 11-02 13:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:17 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | — | In play | — |
+| 11-02 13:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:16 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:16 | Challenger ATP  | Max Houkes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:15 | Russia Liga Pro Match | Demchenko Vitaly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:15 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | — | In play | — |
+| 11-02 13:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:13 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:11 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:07 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
-| 11-02 13:06 | eSoccer Game | Manchester Utd (Poly) | ✘ | — | — | In play | — |
-| 11-02 13:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 13:06 | eSoccer Game | Manchester Utd (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:04 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:03 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -353,19 +366,6 @@
 | 11-02 12:57 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 12:57 | eFootball Game | Seattle (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:54 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:52 | Mobile Legends Bang Bang Game | Aura Farmers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:51 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:49 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:49 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:48 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:47 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:46 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:43 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 12:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
