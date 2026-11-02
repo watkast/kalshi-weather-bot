@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 6:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 6:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44063 | 2460 | 9 (0%) | 1.1% | -$243.00 (-66%) | Hold to the end: -$243.00 (-66%) |
+| 44070 | 2460 | 9 (0%) | 1.1% | -$243.00 (-66%) | Hold to the end: -$243.00 (-66%) |
 
 *In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2460 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41589 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41596 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19974 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2437 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19978 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2439 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1954 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
@@ -265,8 +265,8 @@
 | FIBA Champions League Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Ligue Magnus Game | ✘ | 22 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
+| Liga Nacional de Basquetbol Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Polish Hockey Game | ✘ | 21 | 0 | 5% | 5% | -100% | -92% | 5 min |
-| Liga Nacional de Basquetbol Game | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's ODI Cricket Match | ✘ | 19 | 0 | 21% | 11% | -100% | -64% | 61 min |
 | Women's Pro Basketball Game | ✔ | 18 | 0 | 22% | 6% | -100% | -61% | 6 min |
 | CFL Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 9 min |
@@ -336,10 +336,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 01:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 11-02 01:13 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
-| 11-02 01:13 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 11-02 01:27 | NHL Game | New York R | ✔ | 2:50 - 3rd · EDM 3 - NYR 1 | — | In play | — |
+| 11-02 01:21 | eSoccer Game | Real Madrid (Minjori) | ✘ | — | — | In play | — |
+| 11-02 01:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 01:19 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:18 | Liga Nacional de Basquetbol Game | IA Central Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:17 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
+| 11-02 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:13 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:13 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:10 | eFootball Game | Dallas (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:09 | eSoccer Game | Real Betis (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -359,13 +366,6 @@
 | 11-02 00:55 | Russia Liga Pro Match | Kustov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 00:55 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 00:54 | Liga MX Game | Tie | ✔ | 90'+4' · NCX 0 - SAN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:52 | eSoccer Game | Estudiantes (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:51 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:51 | eFootball Game | New England (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 00:50 | eSoccer Game | São Paulo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
