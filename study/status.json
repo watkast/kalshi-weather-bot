@@ -1,18 +1,16 @@
 {
- "saved_at": "2026-11-01T23:54:49+00:00",
+ "saved_at": "2026-11-02T00:05:05+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 250,
+ "markets_in_or_near_play": 179,
  "batch_lookup": true,
- "espn_games_linked": 27,
+ "espn_games_linked": 28,
  "espn_check": {
-  "at": "2026-11-01T23:25:02+00:00",
-  "started_games": 19,
-  "matched": 18,
-  "unmatched_sample": [
-   "KXMLSGAME-26NOV01NSHNYRB"
-  ]
+  "at": "2026-11-01T23:56:16+00:00",
+  "started_games": 17,
+  "matched": 17,
+  "unmatched_sample": []
  },
- "bets": 43967,
- "open": 29,
+ "bets": 43985,
+ "open": 32,
  "errors": []
 }
