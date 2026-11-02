@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 4:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 4:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45043 | 2489 | 9 (0%) | 1.1% | -$247.35 (-66%) | Hold to the end: -$247.35 (-66%) |
+| 45055 | 2489 | 9 (0%) | 1.1% | -$247.35 (-66%) | Hold to the end: -$247.35 (-66%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2489 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42515 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42523 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20585 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20589 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2014 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1444 | 6 | 14% | 6% | -61% | -76% | 4 min |
@@ -125,9 +125,9 @@
 | Argentina Primera Division Game | ✘ | 139 | 2 | 15% | 9% | +34% | -74% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | KHL Game | ✘ | 127 | 0 | 5% | 2% | -100% | -92% | 6 min |
-| Brasileiro Serie B Game | ✘ | 123 | 1 | 7% | 4% | -24% | -87% | 8 min |
+| Brasileiro Serie B Game | ✘ | 125 | 1 | 7% | 4% | -25% | -88% | 8 min |
+| Liga DIMAYOR Game | ✘ | 123 | 1 | 9% | 2% | -24% | -84% | 6 min |
 | ATP Tennis Match | ✘ | 123 | 0 | 15% | 6% | -100% | -75% | 4 min |
-| Liga DIMAYOR Game | ✘ | 121 | 1 | 9% | 2% | -23% | -84% | 6 min |
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-02 23:15 | eBasketball Game | Denver Nuggets (Melo) | ✘ | — | — | In play | — |
+| 11-02 23:15 | eFootball Game | Buffalo (Cooper) | ✘ | — | — | In play | — |
+| 11-02 23:14 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | — | In play | — |
+| 11-02 23:14 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
+| 11-02 23:14 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-02 23:13 | eSoccer Game | Palmeiras (Hurricane) | ✘ | — | — | In play | — |
+| 11-02 23:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 23:13 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | — | In play | — |
+| 11-02 23:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 23:12 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-02 23:12 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 11-02 23:12 | Women's College Basketball Game | Oglethorpe | ✘ | — | — | In play | — |
 | 11-02 23:06 | ITF Men's Match | Roberto Herman | ✘ | — | — | In play | — |
 | 11-02 23:05 | Men's College Basketball Game | Oakland | ✔ | 17:20 - 1st · OAK 5 - MICH 6 | — | In play | — |
-| 11-02 23:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 23:03 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | — | In play | — |
+| 11-02 23:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 23:03 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 23:02 | Women's College Basketball Game | Southern University | ✔ | 9:52 - 1st · SOU 0 - OKST 0 | — | In play | — |
 | 11-02 23:01 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
-| 11-02 23:01 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
-| 11-02 23:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 23:01 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 23:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:58 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:58 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 11-02 22:58 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 11-02 22:58 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 22:58 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:58 | Women's College Basketball Game | Duquesne | ✘ | — | — | In play | — |
 | 11-02 22:54 | eFootball Game | Buffalo (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:52 | Chile Liga de Primera Game | Audax | ✘ | — | — | In play | — |
 | 11-02 22:49 | eSoccer Game | Real Sociedad (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 22:49 | eBasketball Game | Indiana Pacers (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:49 | Brasileiro Serie B Game | Ceara | ✘ | — | — | In play | — |
-| 11-02 22:47 | eBasketball Game | Denver Nuggets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:46 | eSoccer Game | Flamengo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:46 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:45 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:44 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 22:43 | Liga DIMAYOR Game | Fortaleza | ✘ | — | — | In play | — |
-| 11-02 22:43 | Women's College Basketball Game | Furman | ✘ | — | — | In play | — |
 
 ## Raw data
 
