@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 6:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 6:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -36,7 +36,7 @@
 |---|---|---|---|---|---|
 | 44092 | 2461 | 9 (0%) | 1.1% | -$243.15 (-66%) | Hold to the end: -$243.15 (-66%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 9. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2461 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41615 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41622 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 19988 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2440 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 19992 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2441 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1956 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
@@ -122,7 +122,7 @@
 | Ettan Game | ✘ | 145 | 0 | 3% | 1% | -100% | -94% | 7 min |
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| Argentina Primera Division Game | ✘ | 137 | 2 | 15% | 9% | +36% | -73% | 7 min |
+| Argentina Primera Division Game | ✘ | 139 | 2 | 15% | 9% | +34% | -74% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | KHL Game | ✘ | 127 | 0 | 5% | 2% | -100% | -92% | 6 min |
 | Liga DIMAYOR Game | ✘ | 121 | 1 | 9% | 2% | -23% | -84% | 6 min |
@@ -336,13 +336,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 01:46 | eSoccer Game | Botafogo (Bony) | ✘ | — | — | In play | — |
-| 11-02 01:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 01:46 | Russia Liga Pro Match | Tunitsyn Dmitrii | ✘ | — | — | In play | — |
-| 11-02 01:45 | eSoccer Game | Estudiantes (Fede) | ✘ | — | — | In play | — |
-| 11-02 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 01:42 | Argentina Primera Division Game | Mendoza | ✘ | — | — | In play | — |
-| 11-02 01:42 | Argentina Primera Division Game | Lanus | ✘ | — | — | In play | — |
+| 11-02 01:46 | eSoccer Game | Botafogo (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:46 | Russia Liga Pro Match | Tunitsyn Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:45 | eSoccer Game | Estudiantes (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:42 | Argentina Primera Division Game | Mendoza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 01:42 | Argentina Primera Division Game | Lanus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:39 | Russia Liga Pro Match | Nurmukhamedov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:35 | AHL Game | Bakersfield Condors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 01:34 | eSoccer Game | São Paulo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
