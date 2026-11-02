@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 7:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 7:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44124 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
+| 44130 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
 
-*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2463 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41648 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41652 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20012 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 20016 | 12 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2442 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1958 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
@@ -336,10 +336,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 02:39 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
-| 11-02 02:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:31 | eSoccer Game | Manchester Utd (Minjori) | ✘ | — | — | In play | — |
+| 11-02 02:46 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
+| 11-02 02:45 | Liga MX Game | Leon | ✔ | 72' · LEO 0 - CAZ 1 | — | In play | — |
+| 11-02 02:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:43 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
+| 11-02 02:41 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-02 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:39 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:31 | eSoccer Game | Manchester Utd (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:27 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:27 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:25 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -360,12 +366,6 @@
 | 11-02 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:08 | Major League Soccer Game | New England | ✔ | 85' · MIA 2 - NE 1 | 8¢ | ❌ Lost | -$0.15 |
 | 11-02 02:07 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:05 | eSoccer Game | Everton (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:03 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:02 | eSoccer Game | Estudiantes (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 01:59 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
