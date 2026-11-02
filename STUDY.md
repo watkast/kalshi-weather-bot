@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 10:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 10:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44254 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
+| 44263 | 2477 | 9 (0%) | 1.1% | -$245.55 (-66%) | Hold to the end: -$245.55 (-66%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2477 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41763 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41768 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20102 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2445 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 20106 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2446 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1966 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1430 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
@@ -336,11 +336,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 05:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 05:01 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-02 05:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 05:14 | eSoccer Game | Mönchengladbach (Fede) | ✘ | — | — | In play | — |
+| 11-02 05:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 05:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 05:14 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-02 05:12 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | — | In play | — |
+| 11-02 05:06 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 05:05 | eSoccer Game | Nottingham Forest (Minjori) | ✘ | — | — | In play | — |
+| 11-02 05:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 05:01 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 04:59 | eFootball Game | Houston (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 04:58 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-02 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 04:58 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 04:57 | Counter-Strike 2 Game | Legacy | ✘ | — | — | In play | — |
 | 11-02 04:51 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 04:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -357,15 +366,6 @@
 | 11-02 04:45 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 04:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 04:39 | Major League Soccer Game | Tie | ✔ | 82' · HOU 1 - POR 3 | 1¢ | ❌ Lost | -$0.15 |
-| 11-02 04:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:37 | eSoccer Game | Spurs (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:34 | eSoccer Game | Frankfurt (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:34 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:32 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:32 | eSoccer Game | Mönchengladbach (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 04:31 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
