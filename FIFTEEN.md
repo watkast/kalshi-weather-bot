@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 1, 6:03 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 1, 6:13 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 41755 | 41745 | 158 (0%) | 1.07% | -$2,868.50 (-56%) | Hold to the close: -$2,868.50 (-56%) |
+| 41771 | 41745 | 158 (0%) | 1.07% | -$2,868.50 (-56%) | Hold to the close: -$2,868.50 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 25. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,22 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/1 6:13:27 PM | WTI | UP | 1.5 min | — | — | In play | — |
+| 11/1 6:13:27 PM | SILVER | DOWN | 1.5 min | — | — | In play | — |
+| 11/1 6:13:11 PM | BRENT | UP | 1.8 min | — | — | In play | — |
+| 11/1 6:13:11 PM | GOLD | DOWN | 1.8 min | — | — | In play | — |
+| 11/1 6:12:54 PM | COPPER | DOWN | 2.1 min | — | — | In play | — |
+| 11/1 6:12:54 PM | HYPE | DOWN | 2.1 min | +0.249% | — | In play | — |
+| 11/1 6:12:54 PM | EURUSD | DOWN | 2.1 min | — | — | In play | — |
+| 11/1 6:11:00 PM | BTC | DOWN | 4.0 min | +0.317% | — | In play | — |
+| 11/1 6:09:54 PM | USDCAD | DOWN | 5.1 min | — | — | In play | — |
+| 11/1 6:09:04 PM | ETH | DOWN | 5.9 min | +0.715% | — | In play | — |
+| 11/1 6:09:04 PM | XRP | DOWN | 5.9 min | +0.658% | — | In play | — |
+| 11/1 6:09:04 PM | NEAR | DOWN | 5.9 min | +1.462% | — | In play | — |
+| 11/1 6:09:04 PM | DOGE | DOWN | 5.9 min | +0.793% | — | In play | — |
+| 11/1 6:08:49 PM | BNB | DOWN | 6.2 min | +0.315% | — | In play | — |
+| 11/1 6:08:18 PM | ZEC | DOWN | 6.7 min | +0.863% | — | In play | — |
+| 11/1 6:08:18 PM | SOL | DOWN | 6.7 min | +0.626% | — | In play | — |
 | 11/1 5:59:44 PM | ZEC | DOWN | 15 sec | +0.093% | 0¢ | ❌ Lost | -$0.15 |
 | 11/1 5:59:44 PM | SOL | UP | 15 sec | -0.023% | 0¢ | ❌ Lost | -$0.15 |
 | 11/1 5:59:44 PM | ETH | DOWN | 15 sec | +0.055% | 0¢ | ❌ Lost | $0.00 |
@@ -202,22 +218,6 @@
 | 11/1 5:57:47 PM | GOLD | DOWN | 2.2 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/1 5:57:31 PM | EURUSD | DOWN | 2.5 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/1 5:57:15 PM | BRENT | UP | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:55:20 PM | WTI | UP | 4.7 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:44:50 PM | BNB | DOWN | 10 sec | -0.035% | 0¢ | ❌ Lost | $0.00 |
-| 11/1 5:44:50 PM | PALLADIUM | UP | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:44:34 PM | XRP | DOWN | 26 sec | +0.040% | 0¢ | ❌ Lost | $0.00 |
-| 11/1 5:44:18 PM | HYPE | DOWN | 42 sec | +0.110% | 0¢ | ❌ Lost | $0.00 |
-| 11/1 5:43:47 PM | SILVER | UP | 73 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:43:31 PM | BTC | UP | 89 sec | -0.099% | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:43:15 PM | GBPUSD | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:43:15 PM | AUDUSD | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:43:15 PM | USDCAD | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:43:15 PM | PLATINUM | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:42:50 PM | GOLD | UP | 2.1 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:41:46 PM | COPPER | UP | 3.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/1 5:40:40 PM | SOL | UP | 4.3 min | -0.350% | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:40:40 PM | ETH | UP | 4.3 min | -0.249% | 1¢ | ❌ Lost | -$0.15 |
-| 11/1 5:40:40 PM | NEAR | UP | 4.3 min | -0.664% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
