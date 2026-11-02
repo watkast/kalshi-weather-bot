@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 2:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 2:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44880 | 2479 | 9 (0%) | 1.1% | -$245.85 (-66%) | Hold to the end: -$245.85 (-66%) |
+| 44887 | 2479 | 9 (0%) | 1.1% | -$245.85 (-66%) | Hold to the end: -$245.85 (-66%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2479 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42370 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42389 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20503 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20511 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2509 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2006 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1443 | 6 | 14% | 6% | -61% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1350 | 2 | 13% | 5% | -86% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1351 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1342 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 855 | 2 | 11% | 3% | -78% | -82% | 5 min |
@@ -145,6 +145,7 @@
 | Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
+| Eerste Divisie Game | ✘ | 87 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | Chinese Basketball Association Game  | ✘ | 87 | 0 | 7% | 1% | -100% | -88% | 10 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
@@ -152,7 +153,6 @@
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
 | Peru Liga 1 Game | ✘ | 80 | 0 | 14% | 6% | -100% | -76% | 11 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Eerste Divisie Game | ✘ | 79 | 0 | 10% | 6% | -100% | -82% | 8 min |
 | Liga Expansion Game | ✘ | 79 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Uruguay Primera Division Game | ✘ | 78 | 0 | 8% | 3% | -100% | -87% | 10 min |
 | Euroleague Game | ✘ | 78 | 0 | 21% | 6% | -100% | -64% | 13 min |
@@ -228,7 +228,7 @@
 | Croatia HNL Game | ✘ | 39 | 0 | 10% | 5% | -100% | -82% | 8 min |
 | FIBA Europe Cup Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 8 min |
 | Czech NBL Game | ✘ | 38 | 0 | 3% | 0% | -100% | -95% | 17 min |
-| Italy Serie A Game | ✘ | 37 | 0 | 3% | 3% | -100% | -95% | 6 min |
+| Italy Serie A Game | ✘ | 38 | 0 | 5% | 3% | -100% | -91% | 6 min |
 | Latvian Virsliga Game | ✘ | 37 | 0 | 16% | 8% | -100% | -72% | 21 min |
 | Slovenian Prva Liga Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 6 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -290,8 +290,8 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | GBL Basketball Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 11 min |
 | Ukraine SuperLeague Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 9 min |
+| Women's College Basketball Game | partly | 6 | 0 | 17% | 0% | -100% | -71% | 36 min |
 | Champions League Hockey | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Women's College Basketball Game | partly | 5 | 0 | 20% | 0% | -100% | -65% | 40 min |
 | Portugal LPB Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 35 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -336,20 +336,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 21:02 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 11-02 21:02 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 11-02 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 21:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 21:00 | eSoccer Game | Chelsea (Elastico) | ✘ | — | — | In play | — |
-| 11-02 21:00 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 11-02 21:11 | Serie A Game | Atalanta | ✔ | 68' · PAR 3 - ATA 0 | — | In play | — |
+| 11-02 21:07 | Ligue 2 Game | Sochaux-Montbeliard | ✘ | — | — | In play | — |
+| 11-02 21:06 | ITF Men's Match | Miles Clark | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 21:04 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:04 | eSoccer Game | Manchester City (Krocs) | ✘ | — | — | In play | — |
+| 11-02 21:02 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:02 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:00 | eSoccer Game | Chelsea (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 21:00 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:59 | Brasileiro Serie B Game | Fortaleza | ✘ | — | — | In play | — |
 | 11-02 20:59 | Brasileiro Serie B Game | AC Goianiense | ✘ | — | — | In play | — |
-| 11-02 20:57 | Italy Serie A Game | Virtus Bologna | ✘ | — | — | In play | — |
-| 11-02 20:56 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 11-02 20:57 | Italy Serie A Game | Virtus Bologna | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 11-02 20:56 | Eerste Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:53 | Serie A Femminile Game | Fiorentina | ✘ | — | — | In play | — |
-| 11-02 20:53 | Eerste Divisie Game | Vitesse | ✘ | — | — | In play | — |
-| 11-02 20:53 | Eerste Divisie Game | Jong Ajax Amsterdam | ✘ | — | — | In play | — |
-| 11-02 20:52 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 11-02 20:53 | Eerste Divisie Game | Vitesse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 20:53 | Eerste Divisie Game | Jong Ajax Amsterdam | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 20:52 | Eerste Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:51 | eSoccer Game | Benfica (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:50 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -359,13 +366,6 @@
 | 11-02 20:49 | eSoccer Game | Everton (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:48 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:48 | Eerste Divisie Game | Dordrecht | ✘ | — | — | In play | — |
-| 11-02 20:47 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:47 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:47 | Challenger WTA | Yuliana Lizarazo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 20:44 | Counter-Strike 2 Game | Huskies eSport | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
