@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 7:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 7:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44716 | 2478 | 9 (0%) | 1.1% | -$245.70 (-66%) | Hold to the end: -$245.70 (-66%) |
+| 44724 | 2478 | 9 (0%) | 1.1% | -$245.70 (-66%) | Hold to the end: -$245.70 (-66%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2478 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42214 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42226 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20412 | 12 | 1% | 1% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2496 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1996 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| eSoccer Game | ✘ | 20419 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2497 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 1997 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1438 | 6 | 13% | 5% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1339 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 848 | 2 | 10% | 3% | -78% | -82% | 5 min |
+| Challenger ATP  | ✘ | 850 | 2 | 10% | 3% | -78% | -82% | 5 min |
 | eFootball Game | ✘ | 536 | 2 | 1% | 1% | -65% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -145,7 +145,7 @@
 | Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
-| Chinese Basketball Association Game  | ✘ | 86 | 0 | 7% | 1% | -100% | -88% | 10 min |
+| Chinese Basketball Association Game  | ✘ | 87 | 0 | 7% | 1% | -100% | -88% | 10 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
 | Indonesia Super League Game | ✘ | 82 | 0 | 15% | 9% | -100% | -75% | 9 min |
@@ -336,14 +336,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 14:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 14:04 | eSoccer Game | Stade Brestois 29 (Elastico) | ✘ | — | — | In play | — |
-| 11-02 14:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 14:03 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 11-02 14:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 14:02 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | — | In play | — |
-| 11-02 13:55 | Challenger ATP  | Sebastian Sorger | ✘ | — | — | In play | — |
-| 11-02 13:55 | Chinese Basketball Association Game  | Shandong Kirin | ✘ | — | — | In play | — |
+| 11-02 14:14 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | — | In play | — |
+| 11-02 14:11 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:10 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | — | In play | — |
+| 11-02 14:10 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | — | In play | — |
+| 11-02 14:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 14:07 | eSoccer Game | Toulouse FC (Nate) | ✘ | — | — | In play | — |
+| 11-02 14:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:05 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:04 | eSoccer Game | Stade Brestois 29 (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:03 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 14:02 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:55 | Challenger ATP  | Sebastian Sorger | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 13:55 | Chinese Basketball Association Game  | Shandong Kirin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:51 | eSoccer Game | Spurs (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:50 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -358,14 +366,6 @@
 | 11-02 13:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:44 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 13:43 | eSoccer Game | Hoffenheim (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:42 | Adriatic ABA Game | U-BT Cluj-Napoca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:39 | Challenger WTA | Jahnie van Zyl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:39 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:36 | Counter-Strike 2 Game | Falcons Force | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:35 | Women's T20 Match | Assam Women | ✘ | — | — | In play | — |
-| 11-02 13:35 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 13:35 | Challenger ATP  | Ian Luca Vertberger | ✘ | — | — | In play | — |
 
 ## Raw data
 
