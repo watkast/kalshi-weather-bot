@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 8:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 8:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44155 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
+| 44172 | 2465 | 9 (0%) | 1.1% | -$243.75 (-66%) | Hold to the end: -$243.75 (-66%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2463 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41680 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2465 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 41688 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 9 | 0% | -$243.45 | -66% |
-| Sell at 2¢ | 328 | 13% | -$284.17 | -77% |
-| Sell at 3¢ | 229 | 9% | -$280.14 | -76% |
-| Sell at 5¢ | 157 | 6% | -$267.40 | -72% |
-| Sell at 10¢ | 71 | 3% | -$276.44 | -75% |
-| Sell at 25¢ | 24 | 1% | -$290.01 | -78% |
-| Sell at 50¢ | 16 | 1% | -$261.45 | -71% |
+| Hold to the end | 9 | 0% | -$243.75 | -66% |
+| Sell at 2¢ | 329 | 13% | -$284.21 | -77% |
+| Sell at 3¢ | 230 | 9% | -$280.05 | -76% |
+| Sell at 5¢ | 157 | 6% | -$267.70 | -72% |
+| Sell at 10¢ | 71 | 3% | -$276.74 | -75% |
+| Sell at 25¢ | 24 | 1% | -$290.31 | -79% |
+| Sell at 50¢ | 16 | 1% | -$261.75 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20036 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 20044 | 12 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2444 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1960 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
@@ -142,8 +142,8 @@
 | German 3. Liga Game | ✘ | 95 | 0 | 12% | 5% | -100% | -80% | 7 min |
 | Serie B Game | ✘ | 95 | 0 | 13% | 6% | -100% | -78% | 10 min |
 | Serie A Game | ✔ | 92 | 0 | 9% | 4% | -100% | -85% | 12 min |
+| Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
-| Liga MX Game | ✔ | 89 | 0 | 15% | 9% | -100% | -75% | 6 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Chinese Basketball Association Game  | ✘ | 85 | 0 | 7% | 1% | -100% | -88% | 10 min |
@@ -316,8 +316,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 957 | 4% | 1% | 0% | -93% |
 | 5–15 min | 586 | 16% | 7% | 1% | -72% |
-| 15–30 min | 392 | 23% | 12% | 1% | -60% |
-| 30–60 min | 297 | 20% | 11% | 0% | -66% |
+| 15–30 min | 393 | 23% | 12% | 1% | -59% |
+| 30–60 min | 298 | 20% | 11% | 0% | -66% |
 | Over 60 min | 204 | 20% | 11% | 0% | -65% |
 
 ## Speed & liquidity
@@ -336,6 +336,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-02 03:29 | eFootball Game | Pittsburgh (Fred) | ✘ | — | — | In play | — |
+| 11-02 03:28 | ITF Women's Match | Tsuki Shibutani | ✘ | — | — | In play | — |
+| 11-02 03:27 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | — | In play | — |
+| 11-02 03:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 03:27 | Major League Soccer Game | Tie | ✔ | 81' · MIN 2 - LAFC 0 | — | In play | — |
+| 11-02 03:26 | eBasketball Game | Brooklyn Nets (Lenny) | ✘ | — | — | In play | — |
+| 11-02 03:25 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
+| 11-02 03:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:24 | eSoccer Game | Leverkusen (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:22 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:22 | Major League Soccer Game | Los Angeles F | ✔ | 76' · MIN 2 - LAFC 0 | — | In play | — |
+| 11-02 03:22 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:21 | USL Championship Game | Tie | ✔ | 90' · PHX 0 - NMU 2 | — | In play | — |
+| 11-02 03:21 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 03:14 | eSoccer Game | Manchester City (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 03:12 | eSoccer Game | Dortmund (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -344,28 +361,11 @@
 | 11-02 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 03:06 | eFootball Game | Green Bay (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:59 | Challenger ATP  | Evan Zhu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-02 02:59 | Liga MX Game | Tie | ✔ | 84' · LEO 0 - CAZ 2 | — | In play | — |
+| 11-02 02:59 | Liga MX Game | Tie | ✔ | 84' · LEO 0 - CAZ 2 | 4¢ | ❌ Lost | -$0.15 |
 | 11-02 02:59 | eSoccer Game | Arsenal (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:58 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:58 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:56 | Men's T20 Cricket Match | Brampton Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:56 | College Hockey Game | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:56 | eSoccer Game | Botafogo (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:55 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:54 | eSoccer Game | São Paulo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:51 | USL Championship Game | Phoenix Rising | ✔ | 61' · PHX 0 - NMU 2 | — | In play | — |
-| 11-02 02:50 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:46 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:45 | Liga MX Game | Leon | ✔ | 72' · LEO 0 - CAZ 1 | — | In play | — |
-| 11-02 02:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:43 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:41 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
