@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 7:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 8:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44130 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
+| 44148 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2463 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41652 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41658 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20016 | 12 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2442 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 20020 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2444 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 1958 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 02:46 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
+| 11-02 02:59 | Challenger ATP  | Evan Zhu | ✘ | — | — | In play | — |
+| 11-02 02:59 | Liga MX Game | Tie | ✔ | 84' · LEO 0 - CAZ 2 | — | In play | — |
+| 11-02 02:59 | eSoccer Game | Arsenal (Minjori) | ✘ | — | — | In play | — |
+| 11-02 02:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:58 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
+| 11-02 02:58 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
+| 11-02 02:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:56 | Men's T20 Cricket Match | Brampton Wolves | ✘ | — | — | In play | — |
+| 11-02 02:56 | College Hockey Game | Ohio State | ✘ | — | — | In play | — |
+| 11-02 02:56 | eSoccer Game | Botafogo (Bony) | ✘ | — | — | In play | — |
+| 11-02 02:55 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 11-02 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:54 | eSoccer Game | São Paulo (Antonio) | ✘ | — | — | In play | — |
+| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:51 | USL Championship Game | Phoenix Rising | ✔ | 61' · PHX 0 - NMU 2 | — | In play | — |
+| 11-02 02:50 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:46 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:45 | Liga MX Game | Leon | ✔ | 72' · LEO 0 - CAZ 1 | — | In play | — |
-| 11-02 02:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:43 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
-| 11-02 02:41 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
-| 11-02 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:43 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:41 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:39 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:31 | eSoccer Game | Manchester Utd (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:27 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:27 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:25 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:22 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:21 | Major League Soccer Game | Tie | ✔ | 90'+7' · MIA 2 - NE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:18 | eSoccer Game | Crystal Palace (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:18 | Liga Nacional de Basquetbol Game | Racing de Chivilcoy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:15 | eFootball Game | Chicago (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:15 | eSoccer Game | Flamengo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:15 | eSoccer Game | Universitario (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:14 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:13 | eSoccer Game | São Paulo (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:12 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:08 | Major League Soccer Game | New England | ✔ | 85' · MIA 2 - NE 1 | 8¢ | ❌ Lost | -$0.15 |
-| 11-02 02:07 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
