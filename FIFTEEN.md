@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 2, 10:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 2, 10:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 42703 | 42693 | 159 (0%) | 1.07% | -$2,970.60 (-57%) | Hold to the close: -$2,970.60 (-57%) |
+| 42705 | 42693 | 159 (0%) | 1.07% | -$2,970.60 (-57%) | Hold to the close: -$2,970.60 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/2 10:56:11 AM | WTI | UP | 3.8 min | — | — | In play | — |
+| 11/2 10:54:17 AM | SOL | UP | 5.7 min | -0.862% | — | In play | — |
 | 11/2 10:44:47 AM | WTI | DOWN | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 10:44:47 AM | EURUSD | UP | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 10:44:14 AM | ETH | UP | 45 sec | -0.106% | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 11/2 10:29:57 AM | 10YRRATE | DOWN | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 10:29:57 AM | WTI | DOWN | 3 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/2 10:29:41 AM | EURUSD | DOWN | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 10:29:41 AM | 2YRRATE | DOWN | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 10:29:26 AM | BRENT | DOWN | 33 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
