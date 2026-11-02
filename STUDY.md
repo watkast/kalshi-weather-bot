@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 1, 8:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 1, 8:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 44148 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
+| 44155 | 2463 | 9 (0%) | 1.1% | -$243.45 (-66%) | Hold to the end: -$243.45 (-66%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2463 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 41658 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 41680 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20020 | 12 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 20036 | 12 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2444 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 1958 | 3 | 2% | 1% | -86% | -92% | 2 min |
+| eBasketball Game | ✘ | 1960 | 3 | 2% | 1% | -86% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1427 | 6 | 13% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1349 | 2 | 13% | 5% | -86% | -78% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1330 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 839 | 2 | 11% | 3% | -78% | -82% | 5 min |
-| eFootball Game | ✘ | 520 | 2 | 1% | 1% | -64% | -98% | 2 min |
+| Challenger ATP  | ✘ | 840 | 2 | 11% | 3% | -78% | -82% | 5 min |
+| eFootball Game | ✘ | 521 | 2 | 1% | 1% | -64% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 308 | 2 | 5% | 3% | -39% | -92% | 67 min |
-| Men's T20 Cricket Match | ✘ | 300 | 1 | 15% | 6% | -69% | -73% | 23 min |
+| Men's T20 Cricket Match | ✘ | 301 | 1 | 15% | 6% | -69% | -74% | 23 min |
 | Serie C Game | ✘ | 279 | 2 | 4% | 2% | -33% | -93% | 6 min |
 | Dota 2 Game | ✘ | 265 | 1 | 1% | 1% | -65% | -98% | 31 min |
 | Challenger WTA | ✘ | 244 | 1 | 13% | 5% | -62% | -77% | 9 min |
@@ -129,7 +129,7 @@
 | Brasileiro Serie B Game | ✘ | 121 | 1 | 7% | 4% | -23% | -87% | 7 min |
 | ATP Tennis Match | ✘ | 120 | 0 | 14% | 6% | -100% | -75% | 4 min |
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
-| College Hockey Game | ✘ | 119 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
 | USL Championship Game | partly | 106 | 0 | 12% | 5% | -100% | -79% | 4 min |
@@ -336,22 +336,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-02 02:59 | Challenger ATP  | Evan Zhu | ✘ | — | — | In play | — |
+| 11-02 03:14 | eSoccer Game | Manchester City (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:12 | eSoccer Game | Dortmund (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:12 | eSoccer Game | FSV Mainz 05 (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:07 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 03:06 | eFootball Game | Green Bay (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:59 | Challenger ATP  | Evan Zhu | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-02 02:59 | Liga MX Game | Tie | ✔ | 84' · LEO 0 - CAZ 2 | — | In play | — |
-| 11-02 02:59 | eSoccer Game | Arsenal (Minjori) | ✘ | — | — | In play | — |
-| 11-02 02:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:58 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | — | In play | — |
-| 11-02 02:58 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
-| 11-02 02:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:56 | Men's T20 Cricket Match | Brampton Wolves | ✘ | — | — | In play | — |
-| 11-02 02:56 | College Hockey Game | Ohio State | ✘ | — | — | In play | — |
-| 11-02 02:56 | eSoccer Game | Botafogo (Bony) | ✘ | — | — | In play | — |
-| 11-02 02:55 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
-| 11-02 02:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:54 | eSoccer Game | São Paulo (Antonio) | ✘ | — | — | In play | — |
-| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-02 02:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-02 02:59 | eSoccer Game | Arsenal (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:58 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:58 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:56 | Men's T20 Cricket Match | Brampton Wolves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:56 | College Hockey Game | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:56 | eSoccer Game | Botafogo (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:55 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:54 | eSoccer Game | São Paulo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-02 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:51 | USL Championship Game | Phoenix Rising | ✔ | 61' · PHX 0 - NMU 2 | — | In play | — |
 | 11-02 02:50 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:46 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -359,13 +366,6 @@
 | 11-02 02:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:43 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-02 02:41 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:39 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:31 | eSoccer Game | Manchester Utd (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:27 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-02 02:27 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
