@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 2, 5:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 2, 5:11 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43003 | 42993 | 159 (0%) | 1.07% | -$3,007.95 (-57%) | Hold to the close: -$3,007.95 (-57%) |
+| 43006 | 42993 | 159 (0%) | 1.07% | -$3,007.95 (-57%) | Hold to the close: -$3,007.95 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/2 5:11:00 PM | HYPE | DOWN | 4.0 min | +0.330% | — | In play | — |
+| 11/2 5:11:00 PM | PLATINUM | DOWN | 4.0 min | — | — | In play | — |
+| 11/2 5:10:26 PM | GBPUSD | DOWN | 4.6 min | — | — | In play | — |
 | 11/2 4:59:44 PM | GOLD | DOWN | 15 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/2 4:59:44 PM | ZEC | UP | 15 sec | -0.048% | 0¢ | ❌ Lost | $0.00 |
 | 11/2 4:59:44 PM | NEAR | UP | 15 sec | -0.119% | 0¢ | ❌ Lost | -$0.15 |
@@ -215,9 +218,6 @@
 | 11/2 4:40:24 PM | ETH | DOWN | 4.6 min | +0.163% | 1¢ | ❌ Lost | -$0.15 |
 | 11/2 2:12:11 PM | SILVER | DOWN | 2.8 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/2 2:11:53 PM | 2YRRATE | DOWN | 3.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 2:11:53 PM | 5YRRATE | DOWN | 3.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 2:11:06 PM | 10YRRATE | DOWN | 3.9 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 2:10:49 PM | ZEC | DOWN | 4.2 min | +0.760% | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
