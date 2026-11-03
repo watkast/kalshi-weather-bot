@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-11-03T21:45:14+00:00",
+ "saved_at": "2026-11-03T21:59:19+00:00",
  "series": 35,
  "markets_watched": 27,
  "batch_lookup": true,
- "bets": 44138,
- "open": 6,
+ "bets": 44149,
+ "open": 14,
  "coinbase_spot": {
-  "HYPE": true,
-  "ETH": true,
-  "DOGE": true,
-  "SOL": true,
-  "BNB": true,
-  "NEAR": true,
-  "BTC": true,
   "XRP": true,
-  "ZEC": true
+  "ETH": true,
+  "ZEC": true,
+  "SOL": true,
+  "BTC": true,
+  "HYPE": true,
+  "DOGE": true,
+  "BNB": true,
+  "NEAR": true
  },
- "errors": [
-  "2026-11-03T21:29:23+00:00 refresh KXSILVER15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSILVER15M&status=open&limit=1000"
- ]
+ "errors": []
 }
