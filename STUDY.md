@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 5:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 5:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45158 | 2492 | 9 (0%) | 1.1% | -$247.80 (-66%) | Hold to the end: -$247.80 (-66%) |
+| 45171 | 2492 | 9 (0%) | 1.1% | -$247.80 (-66%) | Hold to the end: -$247.80 (-66%) |
 
-*In play right now: 74. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 76. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2492 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42592 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42603 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20633 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20643 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2018 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1444 | 6 | 14% | 6% | -61% | -76% | 4 min |
@@ -104,7 +104,7 @@
 | Counter-Strike 2 Game | ✘ | 1344 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 859 | 2 | 11% | 3% | -78% | -82% | 5 min |
-| eFootball Game | ✘ | 544 | 2 | 1% | 1% | -66% | -98% | 2 min |
+| eFootball Game | ✘ | 545 | 2 | 1% | 1% | -66% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-03 00:38 | eSoccer Game | Botafogo (Antonio) | ✘ | — | — | In play | — |
+| 11-03 00:38 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 11-03 00:37 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 11-03 00:37 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-03 00:36 | eSoccer Game | Estudiantes (Fede) | ✘ | — | — | In play | — |
+| 11-03 00:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 00:35 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-03 00:35 | Women's College Basketball Game | Arkansas-Pine Bluff | ✘ | — | — | In play | — |
+| 11-03 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 00:31 | eFootball Game | Denver (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:29 | eSoccer Game | Getafe CF (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:29 | Men's College Basketball Game | Stetson | ✘ | — | — | In play | — |
 | 11-03 00:28 | Men's College Basketball Game | Maryland-Eastern Shore | ✘ | — | — | In play | — |
 | 11-03 00:28 | Men's College Basketball Game | Lindenwood | ✘ | — | — | In play | — |
 | 11-03 00:28 | Men's College Basketball Game | East Texas A&M | ✘ | — | — | In play | — |
 | 11-03 00:28 | Men's College Basketball Game | Willamette | ✘ | — | — | In play | — |
 | 11-03 00:27 | Women's College Basketball Game | Marist | ✘ | — | — | In play | — |
 | 11-03 00:26 | Women's College Basketball Game | Campbell | ✘ | — | — | In play | — |
-| 11-03 00:24 | eSoccer Game | São Paulo (Antonio) | ✘ | — | — | In play | — |
-| 11-03 00:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 00:24 | eSoccer Game | São Paulo (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 00:23 | Men's College Basketball Game | Western Carolina | ✘ | — | — | In play | — |
-| 11-03 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 00:23 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 11-03 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 00:22 | eSoccer Game | Estudiantes (Hurricane) | ✘ | — | — | In play | — |
-| 11-03 00:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 00:19 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-03 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:23 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:22 | eSoccer Game | Estudiantes (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 00:19 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 00:18 | Men's College Basketball Game | UAB | ✘ | — | — | In play | — |
 | 11-03 00:15 | Men's College Basketball Game | Mount St. Mary's | ✘ | — | — | In play | — |
-| 11-03 00:13 | eSoccer Game | CA Osasuna (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:12 | Women's College Basketball Game | Chicago St. | ✘ | — | — | In play | — |
-| 11-03 00:11 | eBasketball Game | Brooklyn Nets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:10 | Counter-Strike 2 Game | GODS PLAN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:10 | eFootball Game | Denver (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:09 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:09 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:08 | Challenger ATP  | Gonzalo Villanueva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:07 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 00:06 | Women's College Basketball Game | USC Upstate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
