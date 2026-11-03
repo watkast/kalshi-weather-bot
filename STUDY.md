@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 10:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 11:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -24,7 +24,7 @@
 |---|---|---|---|
 | ESPN win probability ≥ 5%, sell at 50¢ | 47 | -$0.30 | -4% |
 | ESPN win probability ≥ 5%, sell at 25¢ | 47 | -$0.43 | -6% |
-| ESPN win probability ≥ 2%, hold to the end | 105 | -$1.75 | -11% |
+| ESPN win probability ≥ 2%, hold to the end | 106 | -$1.90 | -12% |
 
 </details>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45560 | 2533 | 9 (0%) | 1.1% | -$253.95 (-67%) | Hold to the end: -$253.95 (-67%) |
+| 45570 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 497 | 2.9% | 0.2% (1) | -87% | ❌ Worse |
+| ESPN win probability | 498 | 2.9% | 0.2% (1) | -87% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,8 +58,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 497 | 1 | -81% | -73% | -72% | -72% |
-| ESPN win probability ≥ 2% | 105 | 1 | -11% | -62% | -65% | -71% |
+| **Any 1¢ (no model)** | 498 | 1 | -81% | -73% | -71% | -71% |
+| ESPN win probability ≥ 2% | 106 | 1 | -12% | -61% | -63% | -67% |
 | ESPN win probability ≥ 5% | 47 | 1 | +99% | -78% | -78% | -82% |
 | ESPN win probability ≥ 10% | 31 | 1 | +201% | -72% | -66% | -72% |
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2533 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43012 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2534 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 43014 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 9 | 0% | -$253.95 | -67% |
-| Sell at 2¢ | 335 | 13% | -$292.85 | -77% |
-| Sell at 3¢ | 233 | 9% | -$289.08 | -76% |
-| Sell at 5¢ | 159 | 6% | -$276.60 | -73% |
-| Sell at 10¢ | 71 | 3% | -$286.94 | -76% |
-| Sell at 25¢ | 24 | 1% | -$300.51 | -79% |
-| Sell at 50¢ | 16 | 1% | -$271.95 | -72% |
+| Hold to the end | 9 | 0% | -$254.10 | -67% |
+| Sell at 2¢ | 336 | 13% | -$292.74 | -77% |
+| Sell at 3¢ | 234 | 9% | -$288.84 | -76% |
+| Sell at 5¢ | 160 | 6% | -$276.10 | -73% |
+| Sell at 10¢ | 72 | 3% | -$285.78 | -75% |
+| Sell at 25¢ | 24 | 1% | -$300.66 | -79% |
+| Sell at 50¢ | 16 | 1% | -$272.10 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20831 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20833 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2034 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1449 | 6 | 14% | 6% | -61% | -77% | 4 min |
@@ -116,7 +116,7 @@
 | NHL Game | ✔ | 233 | 1 | 14% | 6% | -60% | -76% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | WTA Tennis Match | ✘ | 175 | 0 | 11% | 2% | -100% | -80% | 5 min |
-| NBA Game | ✔ | 166 | 0 | 17% | 5% | -100% | -70% | 9 min |
+| NBA Game | ✔ | 167 | 0 | 18% | 5% | -100% | -69% | 9 min |
 | AHL Game | ✘ | 165 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | League of Legends Game | ✘ | 156 | 0 | 6% | 2% | -100% | -89% | 11 min |
 | Argentina Primera Division Game | ✘ | 147 | 2 | 15% | 9% | +27% | -74% | 7 min |
@@ -315,7 +315,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 969 | 4% | 1% | 0% | -93% |
-| 5–15 min | 603 | 16% | 7% | 1% | -72% |
+| 5–15 min | 604 | 16% | 7% | 1% | -72% |
 | 15–30 min | 406 | 23% | 12% | 1% | -59% |
 | 30–60 min | 303 | 20% | 11% | 0% | -66% |
 | Over 60 min | 225 | 19% | 11% | 0% | -67% |
@@ -336,16 +336,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-03 06:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:05 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
+| 11-03 06:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:05 | eSoccer Game | Girona (Bradley) | ✘ | — | — | In play | — |
+| 11-03 06:05 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | — | In play | — |
+| 11-03 06:04 | ITF Women's Match | Erika Sema | ✘ | — | — | In play | — |
+| 11-03 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:03 | eSoccer Game | Chelsea (Lotta) | ✘ | — | — | In play | — |
+| 11-03 06:03 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:01 | Challenger ATP  | Yu Hsiou Hsu | ✘ | — | — | In play | — |
 | 11-03 05:52 | NBA Game | Phoenix | ✔ | 5.1 - 4th · PHX 113 - GS 115 | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:51 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
-| 11-03 05:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 05:51 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:49 | ITF Women's Match | Jiangxue Han | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:49 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:47 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:46 | eSoccer Game | Spurs (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:46 | NBA Game | Los Angeles C | ✔ | 42.8 - 4th · TOR 117 - LAC 112 | — | In play | — |
+| 11-03 05:46 | NBA Game | Los Angeles C | ✔ | 42.8 - 4th · TOR 117 - LAC 112 | 13¢ | ❌ Lost | -$0.15 |
 | 11-03 05:46 | eSoccer Game | Athletic Club (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:44 | eBasketball Game | Dallas Mavericks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -356,16 +366,6 @@
 | 11-03 05:34 | eFootball Game | Philadelphia (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:34 | eSoccer Game | Nottingham Forest (Minjori) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:33 | Challenger ATP  | Stefanos Sakellaridis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:30 | eSoccer Game | Valencia CF (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:29 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:28 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:28 | ITF Men's Match | Siu Chi Nicholas Cheng | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:28 | ITF Men's Match | Haolong He | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:28 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
