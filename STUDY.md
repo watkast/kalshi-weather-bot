@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 11:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 11:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45585 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
+| 45594 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2534 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43034 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 43041 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,22 +96,22 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20847 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20851 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2036 | 3 | 2% | 1% | -86% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1450 | 6 | 14% | 6% | -61% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1451 | 6 | 14% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1358 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1344 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 863 | 2 | 11% | 3% | -78% | -82% | 5 min |
-| eFootball Game | ✘ | 554 | 2 | 1% | 1% | -66% | -98% | 2 min |
+| eFootball Game | ✘ | 555 | 2 | 1% | 1% | -66% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 308 | 2 | 5% | 3% | -39% | -92% | 67 min |
 | Men's T20 Cricket Match | ✘ | 304 | 1 | 15% | 6% | -69% | -74% | 23 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
-| Dota 2 Game | ✘ | 273 | 1 | 1% | 1% | -66% | -98% | 31 min |
+| Dota 2 Game | ✘ | 274 | 1 | 1% | 1% | -66% | -98% | 31 min |
 | Challenger WTA | ✘ | 251 | 1 | 14% | 5% | -63% | -77% | 9 min |
 | NHL Game | ✔ | 233 | 1 | 14% | 6% | -60% | -76% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
@@ -336,9 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-03 06:36 | eSoccer Game | Girona (Bradley) | ✘ | — | — | In play | — |
+| 11-03 06:36 | eSoccer Game | RC Celta (Kylian) | ✘ | — | — | In play | — |
+| 11-03 06:35 | eSoccer Game | AS Monaco (Strudl) | ✘ | — | — | In play | — |
+| 11-03 06:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:33 | eFootball Game | Philadelphia (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:31 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 11-03 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:30 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:25 | Counter-Strike 2 Game | 9z | ✘ | — | — | In play | — |
-| 11-03 06:23 | eSoccer Game | Nantes (Mordor) | ✘ | — | — | In play | — |
-| 11-03 06:23 | eSoccer Game | Toulouse FC (Strudl) | ✘ | — | — | In play | — |
+| 11-03 06:23 | eSoccer Game | Nantes (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:23 | eSoccer Game | Toulouse FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:20 | ITF Men's Match | Mikal Statham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:18 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -346,7 +355,7 @@
 | 11-03 06:17 | eSoccer Game | Getafe CF (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:16 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:15 | ITF Women's Match | Seo Yun Choi | ✘ | — | — | In play | — |
+| 11-03 06:15 | ITF Women's Match | Seo Yun Choi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:14 | eBasketball Game | Dallas Mavericks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:12 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:10 | ITF Men's Match | Zhenxiong Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -357,15 +366,6 @@
 | 11-03 06:05 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:05 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:04 | ITF Women's Match | Erika Sema | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:03 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:03 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 11-03 06:01 | Challenger ATP  | Yu Hsiou Hsu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:52 | NBA Game | Phoenix | ✔ | 5.1 - 4th · PHX 113 - GS 115 | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:51 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 05:49 | ITF Women's Match | Jiangxue Han | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
