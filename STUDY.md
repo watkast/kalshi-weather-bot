@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 12:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 12:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45655 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
+| 45661 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2534 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43103 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 43112 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20881 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20889 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2040 | 3 | 2% | 1% | -86% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1456 | 6 | 14% | 6% | -62% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1457 | 6 | 14% | 6% | -62% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1358 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1345 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -336,12 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-03 07:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 07:29 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 11-03 07:27 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
-| 11-03 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 07:27 | eSoccer Game | Chelsea (Lotta) | ✘ | — | — | In play | — |
-| 11-03 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 07:36 | ITF Women's Match | Ena Koike | ✘ | — | — | In play | — |
+| 11-03 07:33 | ITF Women's Match | Xi Luo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:32 | eSoccer Game | Stade Brestois 29 (Poly) | ✘ | — | — | In play | — |
+| 11-03 07:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 07:30 | eSoccer Game | RCD Mallorca (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:29 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:27 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:27 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 07:22 | eFootball Game | Buffalo (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 07:20 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 | 11-03 07:19 | Men's College Basketball Game | Seattle | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -360,12 +366,6 @@
 | 11-03 07:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 07:11 | ITF Women's Match | Ena Shibahara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 07:05 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 07:03 | Japan J2 League Game | Imabari | ✘ | — | — | In play | — |
-| 11-03 07:03 | ITF Women's Match | Yuyao Li | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-03 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 07:02 | eSoccer Game | AS Monaco (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 07:02 | ITF Women's Match | Liuyan An | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
