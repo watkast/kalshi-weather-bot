@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-11-03T20:36:45+00:00",
+ "saved_at": "2026-11-03T20:47:12+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 322,
+ "markets_in_or_near_play": 274,
  "batch_lookup": true,
  "espn_games_linked": 19,
  "espn_check": {
-  "at": "2026-11-03T20:10:53+00:00",
+  "at": "2026-11-03T20:41:48+00:00",
   "started_games": 18,
   "matched": 17,
   "unmatched_sample": [
    "KXUCLGAME-26NOV03BOGLIL"
   ]
  },
- "bets": 46253,
- "open": 31,
+ "bets": 46265,
+ "open": 30,
  "errors": []
 }
