@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 2, 8:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 2, 8:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43247 | 43237 | 161 (0%) | 1.07% | -$3,010.40 (-57%) | Hold to the close: -$3,010.40 (-57%) |
+| 43248 | 43237 | 161 (0%) | 1.07% | -$3,010.40 (-57%) | Hold to the close: -$3,010.40 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/2 8:27:17 PM | GOLD | UP | 2.7 min | — | — | In play | — |
 | 11/2 8:14:47 PM | USDJPY | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 8:14:31 PM | BRENT | DOWN | 29 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 8:14:15 PM | ETH | DOWN | 44 sec | +0.049% | 0¢ | ❌ Lost | -$0.15 |
@@ -217,7 +218,6 @@
 | 11/2 7:57:50 PM | AUDUSD | DOWN | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 7:57:50 PM | USDCAD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 7:57:50 PM | SILVER | DOWN | 2.2 min | — | 3¢ | ❌ Lost | $0.00 |
-| 11/2 7:57:34 PM | BTC | UP | 2.4 min | -0.248% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
