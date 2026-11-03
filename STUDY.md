@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 2:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 2:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46353 | 2540 | 9 (0%) | 1.1% | -$255.00 (-67%) | Hold to the end: -$255.00 (-67%) |
+| 46372 | 2556 | 9 (0%) | 1.1% | -$257.40 (-67%) | Hold to the end: -$257.40 (-67%) |
 
-*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2540 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43767 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2556 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 43776 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 9 | 0% | -$255.00 | -67% |
-| Sell at 2¢ | 338 | 13% | -$293.12 | -77% |
-| Sell at 3¢ | 235 | 9% | -$289.35 | -76% |
-| Sell at 5¢ | 160 | 6% | -$277.00 | -73% |
-| Sell at 10¢ | 72 | 3% | -$286.68 | -75% |
-| Sell at 25¢ | 24 | 1% | -$301.56 | -79% |
-| Sell at 50¢ | 16 | 1% | -$273.00 | -72% |
+| Hold to the end | 9 | 0% | -$257.40 | -67% |
+| Sell at 2¢ | 339 | 13% | -$295.26 | -77% |
+| Sell at 3¢ | 236 | 9% | -$291.36 | -76% |
+| Sell at 5¢ | 161 | 6% | -$278.75 | -73% |
+| Sell at 10¢ | 72 | 3% | -$289.08 | -75% |
+| Sell at 25¢ | 24 | 1% | -$303.96 | -79% |
+| Sell at 50¢ | 16 | 1% | -$275.40 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21250 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21258 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2078 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1489 | 6 | 14% | 6% | -62% | -76% | 4 min |
@@ -111,7 +111,7 @@
 | Men's T20 Cricket Match | ✘ | 311 | 2 | 15% | 6% | -40% | -73% | 23 min |
 | Women's College Volleyball Match | ✘ | 308 | 2 | 5% | 3% | -39% | -92% | 67 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
-| Dota 2 Game | ✘ | 278 | 1 | 1% | 1% | -66% | -98% | 31 min |
+| Dota 2 Game | ✘ | 279 | 1 | 1% | 1% | -67% | -98% | 31 min |
 | Challenger WTA | ✘ | 261 | 1 | 13% | 5% | -64% | -77% | 9 min |
 | NHL Game | ✔ | 233 | 1 | 14% | 6% | -60% | -76% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
@@ -132,11 +132,11 @@
 | Liga DIMAYOR Game | ✘ | 125 | 1 | 9% | 2% | -25% | -85% | 6 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| EFL Championship Game | ✔ | 114 | 0 | 8% | 4% | -100% | -86% | 10 min |
 | USL Championship Game | partly | 110 | 0 | 12% | 5% | -100% | -80% | 5 min |
+| EFL League One Game | ✔ | 110 | 0 | 9% | 3% | -100% | -84% | 10 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| EFL League One Game | ✔ | 106 | 0 | 9% | 3% | -100% | -84% | 10 min |
 | Brasileiro Serie A Game | partly | 104 | 1 | 12% | 7% | -10% | -80% | 7 min |
-| EFL Championship Game | ✔ | 102 | 0 | 8% | 4% | -100% | -86% | 10 min |
 | Japan J League Game | ✘ | 101 | 1 | 15% | 6% | -8% | -74% | 13 min |
 | LaLiga 2 Game | partly | 100 | 1 | 17% | 8% | -7% | -71% | 8 min |
 | Liiga Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -314,11 +314,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 970 | 4% | 1% | 0% | -93% |
-| 5–15 min | 606 | 16% | 7% | 1% | -72% |
-| 15–30 min | 406 | 23% | 12% | 1% | -59% |
-| 30–60 min | 305 | 20% | 11% | 0% | -65% |
-| Over 60 min | 225 | 19% | 11% | 0% | -67% |
+| Under 5 min | 980 | 4% | 1% | 0% | -93% |
+| 5–15 min | 609 | 16% | 7% | 1% | -72% |
+| 15–30 min | 407 | 24% | 12% | 1% | -59% |
+| 30–60 min | 306 | 20% | 11% | 0% | -65% |
+| Over 60 min | 226 | 19% | 11% | 0% | -67% |
 
 ## Speed & liquidity
 
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-03 21:39 | EFL League One Game | Mansfield | ✔ | 90'+3' · MNF 0 - WGA 0 | — | In play | — |
-| 11-03 21:39 | EFL League One Game | Wigan | ✔ | 90'+3' · MNF 0 - WGA 0 | — | In play | — |
+| 11-03 21:49 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-03 21:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 21:48 | UEFA Champions League Game | Lille | ✘ | — | — | In play | — |
+| 11-03 21:48 | UEFA Champions League Game | Bodoe/Glimt | ✘ | — | — | In play | — |
+| 11-03 21:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 21:46 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | — | In play | — |
+| 11-03 21:45 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | — | In play | — |
+| 11-03 21:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 21:45 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | — | In play | — |
+| 11-03 21:45 | UEFA Champions League Game | Roma | ✔ | 86' · ROMA 2 - MAN 3 | — | In play | — |
+| 11-03 21:45 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 11-03 21:44 | UEFA Champions League Game | Tie | ✔ | 85' · MUN 2 - ATM 0 | — | In play | — |
+| 11-03 21:44 | Peru Liga 1 Game | Comerciantes U. | ✘ | — | — | In play | — |
+| 11-03 21:44 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | — | In play | — |
+| 11-03 21:44 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
+| 11-03 21:44 | Challenger ATP  | Luis Guto Miguel | ✘ | — | — | In play | — |
+| 11-03 21:42 | EFL Championship Game | Tie | ✔ | 90'+7' · SWA 1 - POR 2 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:41 | EFL Championship Game | Tie | ✔ | 90'+6' · BOL 1 - CHA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:40 | EFL Championship Game | Tie | ✔ | 90'+5' · STK 2 - BLK 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:39 | EFL League One Game | Mansfield | ✔ | 90'+3' · MNF 0 - WGA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:39 | EFL League One Game | Wigan | ✔ | 90'+3' · MNF 0 - WGA 0 | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 21:39 | EFL Championship Game | Tie | ✔ | 90'+3' · SHU 3 - PNE 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:37 | EFL League One Game | Huddersfield | ✔ | 90'+3' · LTN 1 - HUD 1 | — | In play | — |
-| 11-03 21:37 | EFL League One Game | Luton | ✔ | 90'+3' · LTN 1 - HUD 1 | — | In play | — |
-| 11-03 21:36 | EFL Championship Game | Swansea | ✔ | 90'+2' · SWA 1 - POR 1 | — | In play | — |
-| 11-03 21:36 | EFL Championship Game | Tie | ✔ | 90'+5' · LCN 0 - WAT 1 | — | In play | — |
-| 11-03 21:36 | EFL Championship Game | Burnley | ✔ | 90'+3' · BUR 1 - QPR 1 | — | In play | — |
-| 11-03 21:36 | EFL Championship Game | QPR | ✔ | 90'+3' · BUR 1 - QPR 1 | — | In play | — |
-| 11-03 21:33 | EFL Championship Game | Charlton | ✔ | 89' · BOL 1 - CHA 0 | — | In play | — |
-| 11-03 21:33 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | — | In play | — |
-| 11-03 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 21:33 | UEFA Champions League Game | Atletico | ✔ | 73' · MUN 1 - ATM 0 | — | In play | — |
-| 11-03 21:32 | eFootball Game | New England (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 21:31 | eSoccer Game | Crystal Palace (Declan) | ✘ | — | — | In play | — |
-| 11-03 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 21:30 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-03 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 21:29 | eSoccer Game | Everton (Hazard) | ✘ | — | — | In play | — |
-| 11-03 21:28 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:28 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:27 | EFL Championship Game | Lincoln | ✔ | 86' · LCN 0 - WAT 1 | — | In play | — |
-| 11-03 21:25 | Counter-Strike 2 Game | 9INE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:25 | UEFA Champions League Game | Tie | ✔ | 64' · AVL 0 - BAR 2 | — | In play | — |
-| 11-03 21:23 | Dota 2 Game | iLTW TEAM | ✘ | — | — | In play | — |
-| 11-03 21:21 | ITF Men's Match | Hernando Jose Escurra Isnardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:20 | ATP Tennis Match | Rafael Jodar | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-03 21:19 | eSoccer Game | Benfica (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 21:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:37 | EFL League One Game | Huddersfield | ✔ | 90'+3' · LTN 1 - HUD 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:37 | EFL League One Game | Luton | ✔ | 90'+3' · LTN 1 - HUD 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:36 | EFL Championship Game | Swansea | ✔ | 90'+2' · SWA 1 - POR 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:36 | EFL Championship Game | Tie | ✔ | 90'+5' · LCN 0 - WAT 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:36 | EFL Championship Game | Burnley | ✔ | 90'+3' · BUR 1 - QPR 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:36 | EFL Championship Game | QPR | ✔ | 90'+3' · BUR 1 - QPR 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:33 | EFL Championship Game | Charlton | ✔ | 89' · BOL 1 - CHA 0 | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 21:33 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
