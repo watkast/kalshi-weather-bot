@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 5:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 5:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45826 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
+| 45837 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2534 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43272 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 43285 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20988 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20994 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2050 | 3 | 2% | 1% | -86% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1464 | 6 | 13% | 6% | -62% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1377 | 3 | 13% | 6% | -80% | -77% | 5 min |
+| eBasketball Game | ✘ | 2052 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| ITF Women's Match | ✘ | 1466 | 6 | 13% | 6% | -62% | -77% | 4 min |
+| ITF Men's Match | ✘ | 1378 | 3 | 13% | 6% | -80% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1349 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 864 | 2 | 11% | 3% | -78% | -82% | 5 min |
+| Challenger ATP  | ✘ | 866 | 2 | 11% | 3% | -78% | -82% | 5 min |
 | eFootball Game | ✘ | 562 | 2 | 1% | 1% | -67% | -98% | 2 min |
 | College Football Game | partly | 410 | 3 | 12% | 6% | -32% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -336,18 +336,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-03 12:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 12:18 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 11-03 12:17 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | — | In play | — |
-| 11-03 12:17 | eSoccer Game | Portugal (Lotta) | ✘ | — | — | In play | — |
-| 11-03 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 12:15 | Challenger ATP  | Mili Poljicak | ✘ | — | — | In play | — |
+| 11-03 12:30 | ITF Women's Match | Katerina Tsygourova | ✘ | — | — | In play | — |
+| 11-03 12:30 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-03 12:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 12:29 | ITF Men's Match | Thando Longwe-Smit | ✘ | — | — | In play | — |
+| 11-03 12:27 | ITF Men's Match | Gokberk Saritas | ✘ | — | — | In play | — |
+| 11-03 12:25 | eSoccer Game | Newcastle Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:23 | eBasketball Game | New York Knicks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:22 | ITF Women's Match | Anamaria Federica Oana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:22 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:21 | ITF Women's Match | Pippa Bosman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:18 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:17 | ITF Men's Match | Mohamed Ali Abibsi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:17 | eSoccer Game | Portugal (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 12:15 | Challenger ATP  | Mili Poljicak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:15 | eFootball Game | Pittsburgh (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:10 | ITF Women's Match | Valentina Suvirdjonkova | ✘ | — | — | In play | — |
 | 11-03 12:08 | Korea KBL Game | Goyang Skygunners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:08 | eSoccer Game | Frankfurt (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 12:07 | Challenger ATP  | Michael Vrbensky | ✘ | — | — | In play | — |
+| 11-03 12:07 | Challenger ATP  | Michael Vrbensky | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-03 12:06 | ITF Men's Match | Timo Rosenkranz Koenig | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:06 | eSoccer Game | RB Leipzig (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,17 +366,6 @@
 | 11-03 12:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 12:02 | ITF Men's Match | Aleksandar Lavrnja | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 11-03 11:58 | ITF Women's Match | Radka Zelnickova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:58 | ITF Men's Match | Lenny Couturier | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:58 | ITF Men's Match | Mario Mansilla Diez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:56 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:54 | eSoccer Game | Freiburg (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:54 | AFC Champions League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:53 | eFootball Game | Green Bay (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:52 | eSoccer Game | RB Leipzig (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 11:51 | ITF Men's Match | Gilberto Ravasio | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
