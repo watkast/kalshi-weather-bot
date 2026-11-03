@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 11:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 11:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45604 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
+| 45622 | 2534 | 9 (0%) | 1.1% | -$254.10 (-67%) | Hold to the end: -$254.10 (-67%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2534 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43050 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 43064 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20859 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20865 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2036 | 3 | 2% | 1% | -86% | -93% | 2 min |
+| eBasketball Game | ✘ | 2037 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1451 | 6 | 14% | 6% | -61% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1358 | 2 | 13% | 5% | -86% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1345 | 2 | 6% | 3% | -86% | -90% | 12 min |
@@ -126,10 +126,10 @@
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Brasileiro Serie B Game | ✘ | 127 | 1 | 8% | 4% | -27% | -86% | 8 min |
 | KHL Game | ✘ | 127 | 0 | 5% | 2% | -100% | -92% | 6 min |
+| Japan J2 League Game | ✘ | 127 | 0 | 10% | 4% | -100% | -82% | 6 min |
 | Liga DIMAYOR Game | ✘ | 125 | 1 | 9% | 2% | -25% | -85% | 6 min |
 | Men's College Basketball Game | partly | 125 | 1 | 13% | 6% | -25% | -78% | 46 min |
 | ATP Tennis Match | ✘ | 123 | 0 | 15% | 6% | -100% | -75% | 4 min |
-| Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | USL Championship Game | partly | 110 | 0 | 12% | 5% | -100% | -80% | 5 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-03 06:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-03 06:47 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | — | In play | — |
-| 11-03 06:47 | Japan J2 League Game | Iwaki FC | ✘ | — | — | In play | — |
-| 11-03 06:47 | Japan J2 League Game | Shonan | ✘ | — | — | In play | — |
-| 11-03 06:47 | eBasketball Game | New Orleans Pelicans (Conor) | ✘ | — | — | In play | — |
-| 11-03 06:46 | Japan J2 League Game | Blaublitz A | ✘ | — | — | In play | — |
+| 11-03 06:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:58 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-03 06:58 | ITF Women's Match | Xiaowei Li | ✘ | — | — | In play | — |
+| 11-03 06:57 | Japan J2 League Game | Fujieda | ✘ | — | — | In play | — |
+| 11-03 06:56 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:56 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:54 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-03 06:54 | eFootball Game | Buffalo (Speed) | ✘ | — | — | In play | — |
+| 11-03 06:53 | Japan J2 League Game | Jubilo I | ✘ | — | — | In play | — |
+| 11-03 06:52 | eBasketball Game | Dallas Mavericks (Bryce) | ✘ | — | — | In play | — |
+| 11-03 06:49 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:48 | eSoccer Game | Stade Brestois 29 (Poly) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:48 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:48 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | — | In play | — |
+| 11-03 06:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:47 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:47 | Japan J2 League Game | Iwaki FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:47 | Japan J2 League Game | Shonan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:47 | eBasketball Game | New Orleans Pelicans (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 06:46 | Japan J2 League Game | Blaublitz A | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:46 | Japan J2 League Game | Vortis | ✘ | — | — | In play | — |
-| 11-03 06:44 | Japan J2 League Game | Vegalta | ✘ | — | — | In play | — |
+| 11-03 06:44 | Japan J2 League Game | Vegalta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:38 | eSoccer Game | FC Barcelona (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:38 | eSoccer Game | Getafe CF (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:36 | eSoccer Game | Girona (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 06:36 | eSoccer Game | RC Celta (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:35 | eSoccer Game | AS Monaco (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:33 | eFootball Game | Philadelphia (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:31 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:30 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:25 | Counter-Strike 2 Game | 9z | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:23 | eSoccer Game | Nantes (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:23 | eSoccer Game | Toulouse FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:20 | ITF Men's Match | Mikal Statham | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:18 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:17 | eSoccer Game | Girona (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:17 | eSoccer Game | Getafe CF (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:16 | eSoccer Game | Chelsea (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 06:15 | ITF Women's Match | Seo Yun Choi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 

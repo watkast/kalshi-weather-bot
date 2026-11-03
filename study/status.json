@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-11-03T06:48:13+00:00",
+ "saved_at": "2026-11-03T06:58:27+00:00",
  "series_watched": 365,
- "markets_in_or_near_play": 126,
+ "markets_in_or_near_play": 132,
  "batch_lookup": true,
  "espn_games_linked": 29,
  "espn_check": {
-  "at": "2026-11-03T06:19:20+00:00",
+  "at": "2026-11-03T06:50:30+00:00",
   "started_games": 1,
   "matched": 0,
   "unmatched_sample": [
    "KXNCAAMBGAME-26NOV03SEAHAW"
   ]
  },
- "bets": 45604,
- "open": 20,
+ "bets": 45622,
+ "open": 24,
  "errors": []
 }
