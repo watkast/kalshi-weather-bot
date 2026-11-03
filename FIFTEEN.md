@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 3, 2:18 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 3, 2:28 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43579 | 43569 | 161 (0%) | 1.07% | -$3,052.70 (-58%) | Hold to the close: -$3,052.70 (-58%) |
+| 43583 | 43569 | 161 (0%) | 1.07% | -$3,052.70 (-58%) | Hold to the close: -$3,052.70 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/3 2:28:16 AM | 30YRRATE | UP | 1.7 min | — | — | In play | — |
+| 11/3 2:28:16 AM | 10YRRATE | UP | 1.7 min | — | — | In play | — |
+| 11/3 2:28:01 AM | USDJPY | DOWN | 2.0 min | — | — | In play | — |
+| 11/3 2:26:57 AM | ZEC | DOWN | 3.0 min | +0.411% | — | In play | — |
 | 11/3 2:14:40 AM | COPPER | DOWN | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/3 2:14:40 AM | 10YRRATE | UP | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/3 2:14:24 AM | XRP | DOWN | 36 sec | +0.008% | 0¢ | ❌ Lost | -$0.15 |
@@ -214,10 +218,6 @@
 | 11/3 1:58:26 AM | ZEC | DOWN | 1.6 min | +0.276% | 1¢ | ❌ Lost | -$0.15 |
 | 11/3 1:58:26 AM | USDJPY | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/3 1:58:10 AM | 30YRRATE | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/3 1:57:20 AM | NATGAS | DOWN | 2.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/3 1:57:04 AM | SILVER | UP | 2.9 min | — | 2¢ | ❌ Lost | -$0.15 |
-| 11/3 1:57:04 AM | BTC | DOWN | 2.9 min | +0.101% | 2¢ | ❌ Lost | -$0.15 |
-| 11/3 1:56:48 AM | GOLD | UP | 3.2 min | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
