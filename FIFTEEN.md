@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 2, 9:19 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 2, 9:29 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 43316 | 43306 | 161 (0%) | 1.07% | -$3,018.65 (-57%) | Hold to the close: -$3,018.65 (-57%) |
+| 43332 | 43306 | 161 (0%) | 1.07% | -$3,018.65 (-57%) | Hold to the close: -$3,018.65 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 25. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,22 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/2 9:29:00 PM | WTI | DOWN | 60 sec | — | — | In play | — |
+| 11/2 9:29:00 PM | BRENT | DOWN | 60 sec | — | — | In play | — |
+| 11/2 9:29:00 PM | USDCAD | DOWN | 60 sec | — | — | In play | — |
+| 11/2 9:29:00 PM | PLATINUM | UP | 60 sec | — | — | In play | — |
+| 11/2 9:28:44 PM | BNB | DOWN | 76 sec | +0.119% | — | In play | — |
+| 11/2 9:28:44 PM | AUDUSD | DOWN | 76 sec | — | — | In play | — |
+| 11/2 9:28:28 PM | EURUSD | UP | 1.5 min | — | — | In play | — |
+| 11/2 9:28:13 PM | BTC | DOWN | 1.8 min | +0.146% | — | In play | — |
+| 11/2 9:27:56 PM | GBPUSD | UP | 2.0 min | — | — | In play | — |
+| 11/2 9:27:56 PM | ZEC | DOWN | 2.0 min | +0.360% | — | In play | — |
+| 11/2 9:27:40 PM | ETH | DOWN | 2.3 min | +0.152% | — | In play | — |
+| 11/2 9:27:40 PM | SOL | DOWN | 2.3 min | +0.211% | — | In play | — |
+| 11/2 9:27:24 PM | HYPE | DOWN | 2.6 min | +0.219% | — | In play | — |
+| 11/2 9:27:08 PM | DOGE | DOWN | 2.9 min | +0.222% | — | In play | — |
+| 11/2 9:26:49 PM | NEAR | DOWN | 3.2 min | +0.627% | — | In play | — |
+| 11/2 9:25:28 PM | XRP | DOWN | 4.5 min | +0.232% | — | In play | — |
 | 11/2 9:14:47 PM | PALLADIUM | UP | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 9:14:47 PM | COPPER | UP | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 9:14:47 PM | NEAR | DOWN | 12 sec | -0.034% | 0¢ | ❌ Lost | $0.00 |
@@ -202,22 +218,6 @@
 | 11/2 9:13:57 PM | ZEC | DOWN | 62 sec | +0.173% | 0¢ | ❌ Lost | $0.00 |
 | 11/2 9:13:57 PM | AUDUSD | UP | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/2 9:13:27 PM | GOLD | DOWN | 1.6 min | — | 4¢ | ❌ Lost | -$0.15 |
-| 11/2 9:13:27 PM | PLATINUM | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:59:46 PM | NATGAS | UP | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:59:30 PM | GOLD | UP | 30 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:59:30 PM | PLATINUM | UP | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:59:15 PM | EURUSD | DOWN | 45 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:58:19 PM | GBPUSD | DOWN | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:58:00 PM | HYPE | DOWN | 2.0 min | +0.250% | 0¢ | ❌ Lost | $0.00 |
-| 11/2 8:58:00 PM | ZEC | DOWN | 2.0 min | +0.338% | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:57:14 PM | PALLADIUM | UP | 2.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:56:56 PM | AUDUSD | DOWN | 3.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:56:24 PM | USDCAD | UP | 3.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/2 8:56:09 PM | BTC | DOWN | 3.8 min | +0.238% | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:55:04 PM | XRP | DOWN | 4.9 min | +0.305% | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:54:47 PM | BNB | DOWN | 5.2 min | +0.256% | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:54:15 PM | SOL | DOWN | 5.7 min | +0.423% | 1¢ | ❌ Lost | -$0.15 |
-| 11/2 8:54:15 PM | NEAR | DOWN | 5.7 min | +0.550% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
