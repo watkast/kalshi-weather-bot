@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 2, 8:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 2, 8:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 45396 | 2515 | 9 (0%) | 1.1% | -$251.25 (-67%) | Hold to the end: -$251.25 (-67%) |
+| 45414 | 2515 | 9 (0%) | 1.1% | -$251.25 (-67%) | Hold to the end: -$251.25 (-67%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2515 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 42845 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 42857 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 20731 | 12 | 1% | 1% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 20737 | 12 | 1% | 1% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2026 | 3 | 2% | 1% | -86% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1444 | 6 | 14% | 6% | -61% | -76% | 4 min |
@@ -126,7 +126,7 @@
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Brasileiro Serie B Game | ✘ | 127 | 1 | 8% | 4% | -27% | -86% | 8 min |
 | KHL Game | ✘ | 127 | 0 | 5% | 2% | -100% | -92% | 6 min |
-| Liga DIMAYOR Game | ✘ | 123 | 1 | 9% | 2% | -24% | -84% | 6 min |
+| Liga DIMAYOR Game | ✘ | 125 | 1 | 9% | 2% | -25% | -85% | 6 min |
 | ATP Tennis Match | ✘ | 123 | 0 | 15% | 6% | -100% | -75% | 4 min |
 | Japan J2 League Game | ✘ | 120 | 0 | 11% | 4% | -100% | -81% | 6 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -144,12 +144,12 @@
 | Serie A Game | ✔ | 94 | 0 | 9% | 4% | -100% | -85% | 12 min |
 | Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
+| Women's College Basketball Game | partly | 89 | 0 | 8% | 3% | -100% | -86% | 50 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
-| Women's College Basketball Game | partly | 88 | 0 | 8% | 3% | -100% | -86% | 50 min |
 | Eerste Divisie Game | ✘ | 87 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | Chinese Basketball Association Game  | ✘ | 87 | 0 | 7% | 1% | -100% | -88% | 10 min |
+| Men's College Basketball Game | partly | 87 | 0 | 10% | 7% | -100% | -82% | 47 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
-| Men's College Basketball Game | partly | 84 | 0 | 11% | 7% | -100% | -81% | 47 min |
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
 | Peru Liga 1 Game | ✘ | 82 | 0 | 13% | 6% | -100% | -77% | 11 min |
 | Indonesia Super League Game | ✘ | 82 | 0 | 15% | 9% | -100% | -75% | 9 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-03 03:18 | Men's College Basketball Game | Bethune-Cookman | ✘ | — | — | In play | — |
+| 11-03 03:31 | Men's College Basketball Game | Oklahoma | ✘ | — | — | In play | — |
+| 11-03 03:29 | Challenger ATP  | Kuan-Shou Chen | ✘ | — | — | In play | — |
+| 11-03 03:28 | eSoccer Game | Chelsea (Dzen) | ✘ | — | — | In play | — |
+| 11-03 03:28 | eBasketball Game | Los Angeles Lakers (Gavi) | ✘ | — | — | In play | — |
+| 11-03 03:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 03:27 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | — | In play | — |
+| 11-03 03:24 | Men's College Basketball Game | Abilene Christian | ✘ | — | — | In play | — |
+| 11-03 03:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-03 03:24 | Women's College Basketball Game | Cal State Fullerton | ✘ | — | — | In play | — |
+| 11-03 03:24 | eSoccer Game | FSV Mainz 05 (Hurricane) | ✘ | — | — | In play | — |
+| 11-03 03:23 | NBA Game | Dallas | ✔ | 3:28 - 4th · SAC 106 - DAL 91 | — | In play | — |
+| 11-03 03:23 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:22 | Men's College Basketball Game | Utah Tech | ✘ | — | — | In play | — |
+| 11-03 03:22 | eSoccer Game | 1. FC Köln (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:22 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:18 | Men's College Basketball Game | Bethune-Cookman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 03:17 | NBA Game | Utah | ✔ | 3:24 - 3rd · UTAH 65 - SA 82 | — | In play | — |
-| 11-03 03:16 | Women's College Basketball Game | Denver | ✘ | — | — | In play | — |
-| 11-03 03:15 | Men's College Basketball Game | Toledo | ✘ | — | — | In play | — |
+| 11-03 03:16 | Women's College Basketball Game | Denver | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-03 03:15 | Men's College Basketball Game | Toledo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 03:13 | eSoccer Game | Manchester City (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 03:13 | Women's College Basketball Game | New Mexico St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-03 03:11 | NBA Game | Milwaukee | ✔ | 4:57 - 4th · MIL 81 - MIN 96 | — | In play | — |
-| 11-03 03:11 | Liga DIMAYOR Game | Bucaramanga | ✘ | — | — | In play | — |
-| 11-03 03:11 | Liga DIMAYOR Game | Atletico Nacional | ✘ | — | — | In play | — |
+| 11-03 03:11 | Liga DIMAYOR Game | Bucaramanga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-03 03:11 | Liga DIMAYOR Game | Atletico Nacional | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-03 03:11 | Men's College Basketball Game | Siena | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-03 03:10 | eSoccer Game | Dortmund (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:10 | eSoccer Game | FSV Mainz 05 (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:10 | Men's College Basketball Game | Weber St. | ✘ | — | — | In play | — |
-| 11-03 03:09 | Men's College Basketball Game | North Dakota | ✘ | — | — | In play | — |
-| 11-03 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:09 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:08 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:08 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:07 | Men's College Basketball Game | Louisiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:02 | Women's College Basketball Game | Saint Louis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 03:01 | Men's College Basketball Game | Colorado College | ✘ | — | — | In play | — |
-| 11-03 02:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 02:59 | eSoccer Game | Arsenal (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 02:59 | Men's College Basketball Game | Texas A&M-Corpus Christi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 02:59 | Men's College Basketball Game | Idaho St. | ✘ | — | — | In play | — |
-| 11-03 02:58 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-03 02:58 | NBA Game | Indiana | ✔ | 1.5 - 4th · ATL 108 - IND 104 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
