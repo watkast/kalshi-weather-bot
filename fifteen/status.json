@@ -1,22 +1,13 @@
 {
- "saved_at": "2026-11-04T17:26:31+00:00",
+ "saved_at": "2026-11-04T19:54:56+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 45402,
- "open": 4,
+ "bets": 45404,
+ "open": 5,
  "coinbase_spot": {
-  "HYPE": true,
-  "BTC": true,
-  "SOL": true,
-  "DOGE": true,
-  "NEAR": true,
   "BNB": true,
-  "XRP": true,
-  "ETH": true,
-  "ZEC": true
+  "SOL": true
  },
- "errors": [
-  "2026-11-04T14:02:12+00:00 refresh KXUSDCAD15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
