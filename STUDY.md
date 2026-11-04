@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 6:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46585 | 2575 | 9 (0%) | 1.1% | -$260.25 (-67%) | Hold to the end: -$260.25 (-67%) |
+| 46599 | 2575 | 9 (0%) | 1.1% | -$260.25 (-67%) | Hold to the end: -$260.25 (-67%) |
 
-*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2575 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 43969 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 43977 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21393 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21401 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2090 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1494 | 6 | 14% | 6% | -63% | -76% | 4 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-04 01:20 | Women's College Basketball Game | Florida Gulf Coast | ✘ | — | — | In play | — |
+| 11-04 01:19 | Women's College Basketball Game | Eastern Illinois | ✘ | — | — | In play | — |
+| 11-04 01:18 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 11-04 01:18 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
+| 11-04 01:18 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
+| 11-04 01:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 01:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-04 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 01:16 | Women's College Basketball Game | Saint Peter's | ✘ | — | — | In play | — |
+| 11-04 01:12 | Men's College Basketball Game | New Orleans | ✘ | — | — | In play | — |
+| 11-04 01:11 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
+| 11-04 01:11 | Women's College Basketball Game | Evansville | ✘ | — | — | In play | — |
+| 11-04 01:10 | eSoccer Game | RCD Mallorca (Drakon) | ✘ | — | — | In play | — |
+| 11-04 01:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-04 01:07 | Men's College Basketball Game | Sam Houston | ✔ | 5:48 - 1st · SHSU 16 - ALA 30 | — | In play | — |
 | 11-04 01:06 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
-| 11-04 01:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
-| 11-04 01:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 01:06 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 01:05 | Men's College Basketball Game | Cleveland St. | ✘ | — | — | In play | — |
-| 11-04 01:05 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-04 01:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 01:04 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 11-04 01:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 01:03 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
-| 11-04 01:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 01:05 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:04 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:03 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 01:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 01:02 | ITF Men's Match | Ritesh Patil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 01:01 | Men's College Basketball Game | Arkansas-Pine Bluff | ✔ | 19:57 - 1st · UAPB 0 - ARK 0 | — | In play | — |
 | 11-04 00:57 | Liga DIMAYOR Game | Jaguares | ✘ | — | — | In play | — |
 | 11-04 00:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 00:55 | eSoccer Game | Getafe CF (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:52 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:51 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:51 | eFootball Game | San Francisco (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:50 | Women's College Basketball Game | Le Moyne | ✘ | — | — | In play | — |
-| 11-04 00:49 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:49 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:44 | ITF Men's Match | Rafael Ferreira | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:42 | eSoccer Game | FC Barcelona (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:42 | ITF Men's Match | Daniel Uta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 00:41 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
