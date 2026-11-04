@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 10:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 10:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46832 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46837 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44216 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44222 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21559 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21565 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2102 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1497 | 6 | 14% | 6% | -63% | -76% | 4 min |
@@ -336,13 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 05:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 05:28 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
-| 11-04 05:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 05:34 | ITF Men's Match | Lorenzo Lorusso | ✘ | — | — | In play | — |
+| 11-04 05:33 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-04 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 05:29 | eSoccer Game | Athletic Club (Frost) | ✘ | — | — | In play | — |
+| 11-04 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:28 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:28 | ITF Men's Match | Jordan Chiu | ✘ | — | — | In play | — |
-| 11-04 05:27 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | — | In play | — |
-| 11-04 05:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 05:27 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 11-04 05:27 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:27 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:19 | eSoccer Game | Spurs (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:16 | Men's ODI Cricket Match | Central Stags | ✘ | — | — | In play | — |
@@ -361,11 +366,6 @@
 | 11-04 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:03 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:00 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:00 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:00 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:58 | Men's College Basketball Game | Northern Arizona | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
