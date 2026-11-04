@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 1:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 1:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46916 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46925 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44302 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44308 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21624 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21628 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2108 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1503 | 6 | 14% | 6% | -63% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1445 | 3 | 13% | 6% | -81% | -77% | 5 min |
+| ITF Women's Match | ✘ | 1504 | 6 | 14% | 6% | -63% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1446 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 889 | 3 | 11% | 4% | -69% | -81% | 5 min |
@@ -336,9 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 08:22 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
-| 11-04 08:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 08:19 | ITF Men's Match | Xiaoyin Yang | ✘ | — | — | In play | — |
+| 11-04 08:31 | Challenger ATP  | Billy Harris | ✘ | — | — | In play | — |
+| 11-04 08:29 | WTA Tennis Match | Sofia Kenin | ✘ | — | — | In play | — |
+| 11-04 08:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:27 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | — | In play | — |
+| 11-04 08:26 | ITF Women's Match | Shiyu Ye | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:25 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | — | In play | — |
+| 11-04 08:24 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:22 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:19 | ITF Men's Match | Xiaoyin Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:18 | Women's T20 Match | Jharkhand Women | ✘ | — | — | In play | — |
 | 11-04 08:17 | eFootball Game | Denver (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:17 | Counter-Strike 2 Game | Liquid | ✘ | — | — | In play | — |
@@ -357,15 +366,6 @@
 | 11-04 08:08 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:04 | ITF Women's Match | Sohyun Park | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:04 | ITF Women's Match | Aoi Ito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:02 | ITF Men's Match | Alan Zinatulin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:01 | Women's T20 Match | Chandigarh Women | ✘ | — | — | In play | — |
-| 11-04 07:59 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:58 | ITF Men's Match | Yuta Kikuchi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:57 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:56 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:56 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
