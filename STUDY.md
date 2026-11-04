@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 9:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 9:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46752 | 2595 | 10 (0%) | 1.1% | -$249.25 (-64%) | Hold to the end: -$249.25 (-64%) |
+| 46757 | 2595 | 10 (0%) | 1.1% | -$249.25 (-64%) | Hold to the end: -$249.25 (-64%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2595 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44135 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44146 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21501 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21509 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2098 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1495 | 6 | 14% | 6% | -63% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1496 | 6 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1439 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 887 | 3 | 11% | 3% | -68% | -82% | 5 min |
-| eFootball Game | ✘ | 585 | 2 | 1% | 1% | -68% | -98% | 2 min |
+| eFootball Game | ✘ | 586 | 2 | 1% | 1% | -68% | -98% | 2 min |
 | College Football Game | partly | 411 | 3 | 12% | 6% | -32% | -79% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -130,7 +130,7 @@
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Brasileiro Serie B Game | ✘ | 127 | 1 | 8% | 4% | -27% | -86% | 8 min |
 | ATP Tennis Match | ✘ | 127 | 0 | 16% | 6% | -100% | -73% | 4 min |
-| Women's College Basketball Game | partly | 122 | 0 | 11% | 5% | -100% | -82% | 45 min |
+| Women's College Basketball Game | partly | 123 | 0 | 11% | 5% | -100% | -82% | 43 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | EFL Championship Game | ✔ | 118 | 0 | 8% | 4% | -100% | -87% | 10 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
@@ -336,13 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 04:05 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 11-04 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 04:04 | eSoccer Game | Dortmund (Nate) | ✘ | — | — | In play | — |
-| 11-04 04:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 04:03 | ITF Women's Match | Yuka Hosoki | ✘ | — | — | In play | — |
-| 11-04 04:03 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 11-04 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 04:10 | eFootball Game | Atlanta (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:08 | eSoccer Game | Chelsea (Drakon) | ✘ | — | — | In play | — |
+| 11-04 04:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 04:07 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:07 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:05 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:04 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:03 | ITF Women's Match | Yuka Hosoki | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:03 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 03:55 | eSoccer Game | Everton (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 03:54 | Men's ODI Cricket Match | Northern Districts Men | ✘ | — | — | In play | — |
@@ -361,11 +366,6 @@
 | 11-04 03:38 | NHL Game | Carolina | ✔ | 0:39 - 3rd · CAR 1 - NSH 3 | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 03:38 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 03:37 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 03:37 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 03:37 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 03:35 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
