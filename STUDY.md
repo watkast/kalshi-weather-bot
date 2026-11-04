@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 12:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 12:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46872 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46876 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44255 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44265 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21589 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21599 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2104 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1499 | 6 | 14% | 6% | -63% | -76% | 4 min |
@@ -336,16 +336,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 07:31 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | — | In play | — |
-| 11-04 07:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 07:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 07:29 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | — | In play | — |
-| 11-04 07:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 07:28 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 11-04 07:28 | eSoccer Game | Real Betis (Bradley) | ✘ | — | — | In play | — |
-| 11-04 07:28 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
-| 11-04 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 07:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-04 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 07:41 | eBasketball Game | Denver Nuggets (Jalen) | ✘ | — | — | In play | — |
+| 11-04 07:41 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
+| 11-04 07:33 | ITF Women's Match | Nagisa Suzuki | ✘ | — | — | In play | — |
+| 11-04 07:31 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:29 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:28 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:28 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:28 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:22 | eFootball Game | Philadelphia (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:16 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -362,10 +366,6 @@
 | 11-04 07:06 | ITF Women's Match | Yajing Cao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:03 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:02 | ITF Women's Match | Yufei Ren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:02 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
