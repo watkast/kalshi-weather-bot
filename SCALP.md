@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Wed Nov 04 12:28 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Wed Nov 04 12:30 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,10 +10,10 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 47237 | 41136 | 6101 (72) | 4 | $-13586.24 | -4.6% |
-| **+10¢** | 35285 | 28206 | 7079 (97) | 5 | $-12428.52 | -5.6% |
-| **+15¢** | 29547 | 21925 | 7622 (125) | 5 | $-11397.48 | -6.1% |
-| **+20¢** | 26250 | 18267 | 7983 (165) | 5 | $-10056.48 | -6.1% |
+| **+5¢** | 47241 | 41136 | 6105 (72) | 0 | $-13613.29 | -4.6% |
+| **+10¢** | 35290 | 28206 | 7084 (97) | 0 | $-12461.64 | -5.6% |
+| **+15¢** | 29552 | 21925 | 7627 (125) | 0 | $-11430.69 | -6.2% |
+| **+20¢** | 26255 | 18267 | 7988 (165) | 0 | $-10089.69 | -6.1% |
 | **+10¢ (15¢ stop)** | 57584 | 57491 | 93 (56) | 0 | $-21477.44 | -6.0% |
 
 ## Latest trades
@@ -53,10 +53,10 @@
 | 11-04 12:15 | +10 | HYPE | DOWN | 0.67 | 0.77 | 0.71 |
 | 11-04 12:15 | +5 | HYPE | DOWN | 0.67 | 0.77 | 0.71 |
 | 11-04 12:15 | +10 stop | NEAR | DOWN | 0.59 | 0.31 | -3.12 |
-| 11-04 12:15 | +20 | NEAR | DOWN | 0.59 | open |  |
-| 11-04 12:15 | +15 | NEAR | DOWN | 0.59 | open |  |
-| 11-04 12:15 | +10 | NEAR | DOWN | 0.59 | open |  |
+| 11-04 12:15 | +20 | NEAR | DOWN | 0.59 | yes | -6.07 |
+| 11-04 12:15 | +15 | NEAR | DOWN | 0.59 | yes | -6.07 |
+| 11-04 12:15 | +10 | NEAR | DOWN | 0.59 | yes | -6.07 |
 | 11-04 12:15 | +5 | NEAR | DOWN | 0.59 | 0.67 | 0.47 |
 | 11-04 12:15 | +10 stop | BNB | DOWN | 0.62 | 0.31 | -3.42 |
-| 11-04 12:15 | +20 | BNB | DOWN | 0.62 | open |  |
-| 11-04 12:15 | +15 | BNB | DOWN | 0.62 | open |  |
+| 11-04 12:15 | +20 | BNB | DOWN | 0.62 | yes | -6.37 |
+| 11-04 12:15 | +15 | BNB | DOWN | 0.62 | yes | -6.37 |
