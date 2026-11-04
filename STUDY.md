@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 12:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 1:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46884 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46895 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 12. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44275 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44279 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21605 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21609 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2106 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1500 | 6 | 14% | 6% | -63% | -76% | 4 min |
@@ -336,9 +336,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-04 08:02 | ITF Men's Match | Alan Zinatulin | ✘ | — | — | In play | — |
+| 11-04 08:01 | Women's T20 Match | Chandigarh Women | ✘ | — | — | In play | — |
+| 11-04 07:59 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | — | In play | — |
+| 11-04 07:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 07:58 | ITF Men's Match | Yuta Kikuchi | ✘ | — | — | In play | — |
+| 11-04 07:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 07:57 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | — | In play | — |
+| 11-04 07:56 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
+| 11-04 07:56 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | — | In play | — |
+| 11-04 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:48 | eFootball Game | Detroit (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:46 | eSoccer Game | AS Monaco (Homie) | ✘ | — | — | In play | — |
-| 11-04 07:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 07:46 | eSoccer Game | AS Monaco (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:44 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:43 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,17 +366,6 @@
 | 11-04 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:28 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 07:28 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:28 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:22 | eFootball Game | Philadelphia (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:16 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:16 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:15 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 07:14 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
