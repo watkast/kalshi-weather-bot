@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 9:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 10:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46799 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46811 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44186 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44192 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21537 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21541 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2101 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eBasketball Game | ✘ | 2102 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1497 | 6 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1441 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
@@ -187,10 +187,10 @@
 | Ecuador Liga Pro Game | ✘ | 64 | 0 | 6% | 2% | -100% | -89% | 10 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Bundesliga Game | ✔ | 63 | 1 | 16% | 10% | +48% | -72% | 7 min |
+| LNBP Basketball Game | ✘ | 62 | 0 | 10% | 2% | -100% | -83% | 12 min |
 | Tweede Divisie Game | ✘ | 62 | 0 | 2% | 0% | -100% | -97% | 5 min |
 | Eredivisie Game | ✔ | 62 | 0 | 10% | 8% | -100% | -83% | 5 min |
 | Ligue 1 Game | ✔ | 62 | 0 | 16% | 6% | -100% | -72% | 9 min |
-| LNBP Basketball Game | ✘ | 61 | 0 | 8% | 2% | -100% | -86% | 12 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Czech National Football League Game | ✘ | 59 | 0 | 12% | 7% | -100% | -79% | 8 min |
 | Czech First League Game | ✘ | 59 | 0 | 10% | 0% | -100% | -82% | 9 min |
@@ -336,12 +336,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 04:56 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | — | In play | — |
+| 11-04 05:05 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-04 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 05:03 | eSoccer Game | Stuttgart (Frost) | ✘ | — | — | In play | — |
+| 11-04 05:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 05:00 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
+| 11-04 05:00 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | — | In play | — |
+| 11-04 05:00 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-04 05:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 04:58 | Men's College Basketball Game | Northern Arizona | ✘ | — | — | In play | — |
+| 11-04 04:58 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:58 | Men's College Basketball Game | California Baptist | ✘ | — | — | In play | — |
+| 11-04 04:56 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:54 | eFootball Game | Houston (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:52 | Challenger ATP  | Yaroslav Demin | ✘ | — | — | In play | — |
 | 11-04 04:52 | College Football Game | Miami (OH) | ✔ | OT · BUFF 34 - M-OH 31 | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 04:51 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-04 04:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 04:51 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:48 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:47 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,21 +363,9 @@
 | 11-04 04:46 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:45 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:44 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
+| 11-04 04:44 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-04 04:43 | NHL Game | Vancouver | ✔ | 0:09 - 3rd · ANA 5 - VAN 4 | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 04:38 | ITF Women's Match | Hiromi Abe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:37 | eSoccer Game | Spurs (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:37 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:35 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:32 | eFootball Game | Tampa Bay (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:32 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:31 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:31 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:31 | ITF Men's Match | Stefan Storch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 04:29 | Men's College Basketball Game | Cal State Fullerton | ✘ | — | — | In play | — |
-| 11-04 04:29 | ITF Men's Match | Weiyi Kong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
