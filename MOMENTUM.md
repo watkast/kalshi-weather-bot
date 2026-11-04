@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Wed Nov 04 14:36 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Wed Nov 04 14:46 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 32055 | 27788 | 4267 (116) | 0 | $-1607.38 | -0.8% |
-| **20¢+ jump, ride past +5¢** | 19802 | 10797 | 9005 (4026) | 0 | $-6741.74 | -5.3% |
+| **20¢+ jump, sell +5¢** | 32056 | 27789 | 4267 (116) | 1 | $-1607.18 | -0.8% |
+| **20¢+ jump, ride past +5¢** | 19802 | 10797 | 9005 (4026) | 1 | $-6741.74 | -5.3% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 11-04 14:46 | J20 | SOL | DOWN | 24¢ | 0.70 | open |  |
+| 11-04 14:46 | J20R | SOL | DOWN | 24¢ | 0.69 | open |  |
+| 11-04 14:46 | J20 | SOL | DOWN | 24¢ | 0.68 | 0.73 | 0.20 |
 | 11-04 14:29 | J20 | NEAR | DOWN | 27¢ | 0.82 | 0.92 | 0.83 |
 | 11-04 14:29 | J20 | NEAR | DOWN | 27¢ | 0.77 | 0.86 | 0.68 |
 | 11-04 14:28 | J20 | NEAR | DOWN | 44¢ | 0.61 | 0.80 | 1.61 |
@@ -55,6 +58,3 @@
 | 11-04 14:02 | J20 | BNB | DOWN | 24¢ | 0.86 | 0.93 | 0.57 |
 | 11-04 14:02 | J20R | ZEC | DOWN | 24¢ | 0.90 | no | 0.89 |
 | 11-04 14:02 | J20 | ZEC | DOWN | 24¢ | 0.90 | 0.96 | 0.46 |
-| 11-04 14:01 | J20 | NEAR | DOWN | 24¢ | 0.63 | 0.73 | 0.69 |
-| 11-04 14:01 | J20 | NEAR | DOWN | 24¢ | 0.63 | 0.82 | 1.62 |
-| 11-04 14:01 | J20 | NEAR | DOWN | 24¢ | 0.60 | 0.82 | 1.92 |
