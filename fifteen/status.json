@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-11-04T13:58:48+00:00",
+ "saved_at": "2026-11-04T14:09:07+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 45100,
- "open": 12,
+ "bets": 45113,
+ "open": 3,
  "coinbase_spot": {
   "HYPE": true,
   "BTC": true,
@@ -16,5 +16,7 @@
   "ETH": true,
   "ZEC": true
  },
- "errors": []
+ "errors": [
+  "2026-11-04T14:02:12+00:00 refresh KXUSDCAD15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ]
 }
