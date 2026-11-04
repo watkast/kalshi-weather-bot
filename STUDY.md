@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 10:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 12:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46837 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46849 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44222 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44241 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21565 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21579 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2102 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1497 | 6 | 14% | 6% | -63% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1441 | 3 | 13% | 6% | -81% | -77% | 5 min |
+| ITF Women's Match | ✘ | 1498 | 6 | 14% | 6% | -63% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1443 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 889 | 3 | 11% | 4% | -69% | -81% | 5 min |
@@ -175,11 +175,11 @@
 | Mobile Legends Bang Bang Game | ✘ | 71 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | AFC Champions League Game | ✘ | 70 | 0 | 6% | 1% | -100% | -90% | 12 min |
 | UEFA Conference League Game | partly | 70 | 0 | 16% | 10% | -100% | -73% | 10 min |
+| Men's ODI Cricket Match | ✘ | 69 | 3 | 22% | 7% | +306% | -62% | 51 min |
 | Polish Ekstraklasa Game | ✘ | 69 | 0 | 13% | 7% | -100% | -77% | 9 min |
 | Allsvenskan Game | ✘ | 69 | 1 | 16% | 10% | +35% | -72% | 10 min |
 | UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | NWSL Game | ✔ | 68 | 0 | 7% | 1% | -100% | -87% | 7 min |
-| Men's ODI Cricket Match | ✘ | 67 | 3 | 22% | 7% | +318% | -61% | 51 min |
 | Bundesliga 2 Game | ✔ | 65 | 0 | 11% | 6% | -100% | -81% | 8 min |
 | Korea K-League 2 Game | ✘ | 64 | 0 | 11% | 6% | -100% | -81% | 7 min |
 | Eliteserien Game | ✘ | 64 | 0 | 9% | 5% | -100% | -84% | 10 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 05:34 | ITF Men's Match | Lorenzo Lorusso | ✘ | — | — | In play | — |
-| 11-04 05:33 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | — | In play | — |
-| 11-04 05:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 05:29 | eSoccer Game | Athletic Club (Frost) | ✘ | — | — | In play | — |
+| 11-04 07:06 | ITF Women's Match | Yajing Cao | ✘ | — | — | In play | — |
+| 11-04 07:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:03 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:02 | ITF Women's Match | Yufei Ren | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:02 | eSoccer Game | CA Osasuna (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 07:02 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:44 | eSoccer Game | Athletic Club (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:43 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:34 | ITF Men's Match | Lorenzo Lorusso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:33 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 05:29 | eSoccer Game | Athletic Club (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:28 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:28 | ITF Men's Match | Jordan Chiu | ✘ | — | — | In play | — |
+| 11-04 05:28 | ITF Men's Match | Jordan Chiu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:27 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:27 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:19 | eSoccer Game | Spurs (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:16 | Men's ODI Cricket Match | Central Stags | ✘ | — | — | In play | — |
+| 11-04 05:16 | Men's ODI Cricket Match | Central Stags | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:16 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 05:15 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:14 | eSoccer Game | RB Leipzig (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:13 | eFootball Game | Houston (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:12 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:12 | Challenger ATP  | Chun Hsin Tseng | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:11 | Men's ODI Cricket Match | Canterbury | ✘ | — | — | In play | — |
-| 11-04 05:05 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:03 | eSoccer Game | Stuttgart (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 05:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
