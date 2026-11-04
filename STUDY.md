@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 1:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 1:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46925 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46935 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44308 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44317 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21628 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21632 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2108 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eBasketball Game | ✘ | 2109 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1504 | 6 | 14% | 6% | -63% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1446 | 3 | 13% | 6% | -81% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1447 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 889 | 3 | 11% | 4% | -69% | -81% | 5 min |
+| Challenger ATP  | ✘ | 890 | 3 | 11% | 4% | -69% | -81% | 5 min |
 | eFootball Game | ✘ | 592 | 2 | 1% | 1% | -68% | -98% | 2 min |
 | College Football Game | partly | 412 | 3 | 12% | 6% | -32% | -79% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -115,7 +115,7 @@
 | Challenger WTA | ✘ | 262 | 1 | 14% | 5% | -64% | -76% | 9 min |
 | NHL Game | ✔ | 245 | 2 | 14% | 7% | -24% | -75% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
-| WTA Tennis Match | ✘ | 176 | 0 | 11% | 2% | -100% | -80% | 5 min |
+| WTA Tennis Match | ✘ | 177 | 0 | 11% | 2% | -100% | -80% | 5 min |
 | NBA Game | ✔ | 167 | 0 | 18% | 5% | -100% | -69% | 9 min |
 | AHL Game | ✘ | 165 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | League of Legends Game | ✘ | 156 | 0 | 6% | 2% | -100% | -89% | 11 min |
@@ -157,9 +157,9 @@
 | EuroCup Basketball Game | ✘ | 81 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Uruguay Primera Division Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 10 min |
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
+| Women's T20 Match | ✘ | 80 | 0 | 16% | 5% | -100% | -72% | 25 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Liga Expansion Game | ✘ | 79 | 0 | 6% | 3% | -100% | -89% | 11 min |
-| Women's T20 Match | ✘ | 79 | 0 | 16% | 5% | -100% | -71% | 25 min |
 | Euroleague Game | ✘ | 78 | 0 | 21% | 6% | -100% | -64% | 13 min |
 | La Liga Game | ✔ | 78 | 0 | 18% | 12% | -100% | -69% | 9 min |
 | R6 Game | ✘ | 77 | 1 | 10% | 5% | +21% | -82% | 9 min |
@@ -336,13 +336,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 08:31 | Challenger ATP  | Billy Harris | ✘ | — | — | In play | — |
-| 11-04 08:29 | WTA Tennis Match | Sofia Kenin | ✘ | — | — | In play | — |
-| 11-04 08:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 08:27 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | — | In play | — |
+| 11-04 08:42 | eSoccer Game | Paris Saint-Germain (Homie) | ✘ | — | — | In play | — |
+| 11-04 08:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:40 | eSoccer Game | Real Madrid (Castle) | ✘ | — | — | In play | — |
+| 11-04 08:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:40 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
+| 11-04 08:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:38 | eSoccer Game | Liverpool (Kevin) | ✘ | — | — | In play | — |
+| 11-04 08:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:38 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:37 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 11-04 08:31 | Challenger ATP  | Billy Harris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:29 | WTA Tennis Match | Sofia Kenin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:27 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:26 | ITF Women's Match | Shiyu Ye | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 08:25 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | — | In play | — |
+| 11-04 08:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:25 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:24 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:22 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -356,16 +366,6 @@
 | 11-04 08:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:12 | ITF Women's Match | Yuzuha Negishi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:11 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:11 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:11 | ITF Men's Match | Zijiang Yang | ✘ | — | — | In play | — |
-| 11-04 08:10 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:10 | eSoccer Game | Real Betis (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:09 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:08 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:04 | ITF Women's Match | Sohyun Park | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:04 | ITF Women's Match | Aoi Ito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
