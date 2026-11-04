@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 3, 7:32 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 3, 7:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46663 | 2580 | 9 (0%) | 1.1% | -$261.00 (-67%) | Hold to the end: -$261.00 (-67%) |
+| 46673 | 2586 | 9 (0%) | 1.1% | -$261.90 (-68%) | Hold to the end: -$261.90 (-68%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2580 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44048 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2586 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 44057 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 9 | 0% | -$261.00 | -67% |
-| Sell at 2¢ | 343 | 13% | -$297.82 | -77% |
-| Sell at 3¢ | 238 | 9% | -$294.18 | -76% |
-| Sell at 5¢ | 162 | 6% | -$281.70 | -73% |
-| Sell at 10¢ | 72 | 3% | -$292.68 | -76% |
-| Sell at 25¢ | 24 | 1% | -$307.56 | -79% |
-| Sell at 50¢ | 16 | 1% | -$279.00 | -72% |
+| Hold to the end | 9 | 0% | -$261.90 | -68% |
+| Sell at 2¢ | 345 | 13% | -$298.20 | -77% |
+| Sell at 3¢ | 240 | 9% | -$294.30 | -76% |
+| Sell at 5¢ | 163 | 6% | -$281.95 | -73% |
+| Sell at 10¢ | 72 | 3% | -$293.58 | -76% |
+| Sell at 25¢ | 24 | 1% | -$308.46 | -80% |
+| Sell at 50¢ | 16 | 1% | -$279.90 | -72% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21441 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21447 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2094 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1495 | 6 | 14% | 6% | -63% | -76% | 4 min |
@@ -113,7 +113,7 @@
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Dota 2 Game | ✘ | 280 | 1 | 1% | 1% | -67% | -98% | 31 min |
 | Challenger WTA | ✘ | 262 | 1 | 14% | 5% | -64% | -76% | 9 min |
-| NHL Game | ✔ | 233 | 1 | 14% | 6% | -60% | -76% | 5 min |
+| NHL Game | ✔ | 239 | 1 | 14% | 7% | -61% | -75% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | WTA Tennis Match | ✘ | 176 | 0 | 11% | 2% | -100% | -80% | 5 min |
 | NBA Game | ✔ | 167 | 0 | 18% | 5% | -100% | -69% | 9 min |
@@ -132,8 +132,8 @@
 | ATP Tennis Match | ✘ | 127 | 0 | 16% | 6% | -100% | -73% | 4 min |
 | College Hockey Game | ✘ | 120 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | EFL Championship Game | ✔ | 118 | 0 | 8% | 4% | -100% | -87% | 10 min |
+| Women's College Basketball Game | partly | 116 | 0 | 9% | 5% | -100% | -84% | 49 min |
 | Overwatch Game | ✘ | 114 | 0 | 2% | 0% | -100% | -97% | 6 min |
-| Women's College Basketball Game | partly | 113 | 0 | 10% | 5% | -100% | -83% | 47 min |
 | USL Championship Game | partly | 110 | 0 | 12% | 5% | -100% | -80% | 5 min |
 | EFL League One Game | ✔ | 110 | 0 | 9% | 3% | -100% | -84% | 10 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
@@ -314,11 +314,11 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 984 | 4% | 1% | 0% | -93% |
+| Under 5 min | 988 | 4% | 1% | 0% | -93% |
 | 5–15 min | 612 | 16% | 7% | 1% | -72% |
-| 15–30 min | 409 | 23% | 12% | 1% | -59% |
+| 15–30 min | 410 | 24% | 12% | 1% | -59% |
 | 30–60 min | 312 | 20% | 11% | 0% | -66% |
-| Over 60 min | 235 | 20% | 11% | 0% | -66% |
+| Over 60 min | 236 | 20% | 11% | 0% | -65% |
 
 ## Speed & liquidity
 
@@ -336,15 +336,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 02:32 | eSoccer Game | Everton (Zaroth) | ✘ | — | — | In play | — |
-| 11-04 02:32 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | — | In play | — |
-| 11-04 02:32 | NHL Game | Philadelphia | ✔ | 1:30 - 3rd · MIN 3 - PHI 2 | — | In play | — |
+| 11-04 02:42 | eFootball Game | Kansas City (Mace) | ✘ | — | — | In play | — |
+| 11-04 02:42 | Peru Liga 1 Game | Cienciano | ✘ | — | — | In play | — |
+| 11-04 02:41 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
+| 11-04 02:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 02:40 | NHL Game | Toronto | ✔ | 0:34 - 3rd · UTA 3 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:40 | NHL Game | Pittsburgh | ✔ | End of 3rd · VGK 3 - PIT 2 | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:39 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-04 02:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 02:38 | NHL Game | Detroit | ✔ | 0:02 - 3rd · DET 2 - TB 3 | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:33 | Women's College Basketball Game | Tulsa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:32 | eSoccer Game | Everton (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:32 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:32 | NHL Game | Philadelphia | ✔ | 1:30 - 3rd · MIN 3 - PHI 2 | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 02:28 | Men's College Basketball Game | Bethesda | ✘ | — | — | In play | — |
 | 11-04 02:27 | Brasileiro Serie A Game | Coritiba | ✔ | 90'+3' · CFC 0 - INT 0 | — | In play | — |
-| 11-04 02:27 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-04 02:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 02:25 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-04 02:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 02:27 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:25 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 02:24 | Men's College Basketball Game | Lipscomb | ✘ | — | — | In play | — |
 | 11-04 02:23 | Liga Nacional de Basquetbol Game | AD Atenas Cordoba | ✘ | — | — | In play | — |
 | 11-04 02:23 | Liga Nacional de Basquetbol Game | Argentino Junin | ✘ | — | — | In play | — |
@@ -356,16 +366,6 @@
 | 11-04 02:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 02:15 | eSoccer Game | Universitario (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 02:15 | Women's College Basketball Game | Eastern Washington | ✘ | — | — | In play | — |
-| 11-04 02:15 | NHL Game | Washington | ✔ | 10:30 - 3rd · DAL 6 - WSH 3 | — | In play | — |
-| 11-04 02:14 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:13 | ITF Women's Match | Petja Drame | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:13 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:12 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 02:09 | NHL Game | Winnipeg | ✔ | 19:14 - 3rd · WPG 0 - MTL 4 | — | In play | — |
-| 11-04 02:07 | Women's College Basketball Game | Florida International | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
