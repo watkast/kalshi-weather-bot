@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 11:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 11:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47327 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 47346 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44706 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44712 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21850 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2529 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 21852 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2530 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2136 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1540 | 6 | 14% | 6% | -64% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1541 | 6 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1474 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1397 | 2 | 6% | 3% | -87% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -154,8 +154,8 @@
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Women's T20 Match | ✘ | 83 | 0 | 16% | 5% | -100% | -73% | 27 min |
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
+| EuroCup Basketball Game | ✘ | 82 | 0 | 5% | 4% | -100% | -92% | 11 min |
 | Indonesia Super League Game | ✘ | 82 | 0 | 15% | 9% | -100% | -75% | 9 min |
-| EuroCup Basketball Game | ✘ | 81 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Uruguay Primera Division Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 10 min |
 | Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -254,9 +254,9 @@
 | Singapore Premier League Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 18 min |
 | Croatia Premijer Liga Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Eredivisie Vrouwen Game | ✘ | 28 | 0 | 4% | 4% | -100% | -94% | 8 min |
+| FIBA Champions League Game | ✘ | 28 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | German Women's Bundesliga Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 18 min |
 | England Super League Basketball Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| FIBA Champions League Game | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Slovakian Cup Game | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 18 min |
 | Slovakia SBL Game | ✘ | 26 | 0 | 4% | 0% | -100% | -93% | 18 min |
 | Liga Nacional de Basquetbol Game | ✘ | 25 | 0 | 4% | 0% | -100% | -93% | 7 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-04 18:48 | Challenger WTA | Laura Samson | ✘ | — | — | In play | — |
+| 11-04 18:48 | Counter-Strike 2 Game | Gremio Esports | ✘ | — | — | In play | — |
+| 11-04 18:47 | Challenger ATP  | Hernan Casanova | ✘ | — | — | In play | — |
+| 11-04 18:47 | eFootball Game | Pittsburgh (Marlon) | ✘ | — | — | In play | — |
+| 11-04 18:47 | ITF Women's Match | Kristina Penickova | ✘ | — | — | In play | — |
+| 11-04 18:46 | EuroCup Basketball Game | BC Lietkabelis Panevezys | ✘ | — | — | In play | — |
+| 11-04 18:46 | Challenger ATP  | Lukas Pokorny | ✘ | — | — | In play | — |
+| 11-04 18:45 | ITF Women's Match | Amaliia Elizarova | ✘ | — | — | In play | — |
+| 11-04 18:45 | eSoccer Game | Slavia Praha (Haze) | ✘ | — | — | In play | — |
+| 11-04 18:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 18:45 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | — | In play | — |
+| 11-04 18:45 | FIBA Europe Cup Game | BK Opava | ✘ | — | — | In play | — |
+| 11-04 18:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 18:42 | Slovenia 1. SKL Game | KD Ilirija | ✘ | — | — | In play | — |
+| 11-04 18:42 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-04 18:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 18:41 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | — | In play | — |
+| 11-04 18:41 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 11-04 18:41 | Finland Korisliiga Game | Bisons Loimaa | ✘ | — | — | In play | — |
 | 11-04 18:40 | Czech First League Game | Artis | ✘ | — | — | In play | — |
 | 11-04 18:39 | Dota 2 Game | CyberHero | ✘ | — | — | In play | — |
-| 11-04 18:37 | FIBA Champions League Game | Falco KC Szombathely | ✘ | — | — | In play | — |
-| 11-04 18:35 | ITF Women's Match | Midori Castillo Meza | ✘ | — | — | In play | — |
+| 11-04 18:37 | FIBA Champions League Game | Falco KC Szombathely | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 18:35 | ITF Women's Match | Midori Castillo Meza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 18:35 | FIBA Europe Cup Game | BC Parnu | ✘ | — | — | In play | — |
 | 11-04 18:34 | Czech NBL Game | BK Decin | ✘ | — | — | In play | — |
-| 11-04 18:33 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | — | In play | — |
+| 11-04 18:33 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 18:31 | eBasketball Game | New Orleans Pelicans (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:31 | eSoccer Game | Juventus (Haze) | ✘ | — | — | In play | — |
-| 11-04 18:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 18:31 | eSoccer Game | Juventus (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 18:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 18:31 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:28 | ITF Women's Match | Isabel Arabarco | ✘ | — | — | In play | — |
-| 11-04 18:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:27 | Russia Liga Pro Match | Kochetkov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:27 | eFootball Game | Green Bay (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:27 | EuroCup Basketball Game | Fraport Skyliners | ✘ | — | — | In play | — |
-| 11-04 18:27 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:26 | Finland Korisliiga Game | KTP Basket Kotka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:24 | Women's College Basketball Game | Arkansas-Pine Bluff | ✘ | — | — | In play | — |
-| 11-04 18:20 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:20 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:19 | eSoccer Game | Chelsea (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:19 | eSoccer Game | Crystal Palace (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:18 | eSoccer Game | Arsenal (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:16 | eSoccer Game | Spurs (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:16 | eSoccer Game | Manchester Utd (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:15 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 18:14 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
