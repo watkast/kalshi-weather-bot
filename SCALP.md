@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Wed Nov 04 22:55 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Wed Nov 04 23:05 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,16 +10,27 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 47640 | 41480 | 6160 (73) | 1 | $-13754.38 | -4.6% |
-| **+10¢** | 35601 | 28457 | 7144 (98) | 1 | $-12554.43 | -5.6% |
-| **+15¢** | 29829 | 22135 | 7694 (126) | 1 | $-11499.28 | -6.1% |
-| **+20¢** | 26508 | 18449 | 8059 (166) | 1 | $-10142.17 | -6.1% |
-| **+10¢ (15¢ stop)** | 58080 | 57987 | 93 (56) | 0 | $-21607.90 | -5.9% |
+| **+5¢** | 47644 | 41483 | 6161 (73) | 0 | $-13759.09 | -4.6% |
+| **+10¢** | 35604 | 28458 | 7146 (98) | 0 | $-12565.22 | -5.6% |
+| **+15¢** | 29832 | 22136 | 7696 (126) | 0 | $-11510.07 | -6.1% |
+| **+20¢** | 26511 | 18450 | 8061 (166) | 0 | $-10151.63 | -6.1% |
+| **+10¢ (15¢ stop)** | 58082 | 57989 | 93 (56) | 0 | $-21608.89 | -5.9% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
+| 11-04 22:58 | +5 | DOGE | UP | 0.45 | 0.54 | 0.54 |
+| 11-04 22:56 | +10 stop | DOGE | UP | 0.64 | 0.43 | -2.45 |
+| 11-04 22:56 | +20 | DOGE | UP | 0.64 | no | -6.57 |
+| 11-04 22:56 | +15 | DOGE | UP | 0.64 | no | -6.57 |
+| 11-04 22:56 | +10 | DOGE | UP | 0.64 | no | -6.57 |
+| 11-04 22:56 | +5 | DOGE | UP | 0.64 | 0.72 | 0.48 |
+| 11-04 22:55 | +10 stop | ZEC | DOWN | 0.41 | 0.59 | 1.46 |
+| 11-04 22:55 | +20 | ZEC | DOWN | 0.41 | 0.74 | 2.99 |
+| 11-04 22:55 | +15 | ZEC | DOWN | 0.39 | 0.59 | 1.66 |
+| 11-04 22:55 | +10 | ZEC | DOWN | 0.39 | 0.59 | 1.66 |
+| 11-04 22:55 | +5 | ZEC | DOWN | 0.39 | 0.44 | 0.15 |
 | 11-04 22:53 | +10 stop | HYPE | UP | 0.59 | 0.71 | 0.88 |
 | 11-04 22:53 | +10 stop | SOL | UP | 0.71 | 0.81 | 0.74 |
 | 11-04 22:53 | +10 stop | HYPE | DOWN | 0.65 | 0.42 | -2.65 |
@@ -47,16 +58,5 @@
 | 11-04 22:47 | +10 stop | DOGE | DOWN | 0.62 | 0.43 | -2.25 |
 | 11-04 22:47 | +5 | XRP | DOWN | 0.63 | 0.68 | 0.17 |
 | 11-04 22:47 | +10 stop | SOL | DOWN | 0.57 | 0.42 | -1.86 |
-| 11-04 22:47 | +20 | SOL | DOWN | 0.57 | open |  |
-| 11-04 22:47 | +15 | SOL | DOWN | 0.57 | open |  |
-| 11-04 22:47 | +10 | SOL | DOWN | 0.57 | open |  |
-| 11-04 22:47 | +5 | SOL | DOWN | 0.57 | open |  |
-| 11-04 22:47 | +10 stop | BNB | DOWN | 0.56 | 0.41 | -1.85 |
-| 11-04 22:47 | +20 | BNB | DOWN | 0.56 | 0.81 | 2.21 |
-| 11-04 22:47 | +15 | BNB | DOWN | 0.56 | 0.81 | 2.21 |
-| 11-04 22:47 | +10 | BNB | DOWN | 0.56 | 0.81 | 2.21 |
-| 11-04 22:47 | +5 | BNB | DOWN | 0.56 | 0.64 | 0.45 |
-| 11-04 22:46 | +10 stop | HYPE | UP | 0.64 | 0.49 | -1.85 |
-| 11-04 22:46 | +20 | HYPE | UP | 0.64 | 0.86 | 1.94 |
-| 11-04 22:46 | +15 | HYPE | UP | 0.64 | 0.82 | 1.52 |
-| 11-04 22:46 | +10 | HYPE | UP | 0.64 | 0.82 | 1.52 |
+| 11-04 22:47 | +20 | SOL | DOWN | 0.57 | yes | -5.88 |
+| 11-04 22:47 | +15 | SOL | DOWN | 0.57 | yes | -5.88 |
