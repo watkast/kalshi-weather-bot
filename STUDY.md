@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 10:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 10:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47235 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 47244 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44622 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44628 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21814 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2515 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 21816 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2517 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2130 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1532 | 6 | 14% | 6% | -63% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1534 | 6 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1472 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1393 | 2 | 6% | 3% | -87% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -336,9 +336,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 17:14 | ITF Women's Match | Alisa Ziatdinova | ✘ | — | — | In play | — |
-| 11-04 17:13 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | — | In play | — |
-| 11-04 17:12 | Russia Liga Pro Match | Chernov Artem | ✘ | — | — | In play | — |
+| 11-04 17:27 | Challenger ATP  | Murphy Cassone | ✘ | — | — | In play | — |
+| 11-04 17:24 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | — | In play | — |
+| 11-04 17:23 | Russia Liga Pro Match | Korolev Semyon | ✘ | — | — | In play | — |
+| 11-04 17:23 | eSoccer Game | Hoffenheim (SilentShooter) | ✘ | — | — | In play | — |
+| 11-04 17:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 17:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 17:19 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-04 17:19 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 17:19 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 17:14 | ITF Women's Match | Alisa Ziatdinova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 17:13 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 17:12 | Russia Liga Pro Match | Chernov Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:10 | ITF Women's Match | Olive Maunupau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:09 | Mobile Legends Bang Bang Game | Omnix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -353,19 +362,10 @@
 | 11-04 17:06 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:05 | eSoccer Game | Crystal Palace (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 17:05 | ITF Women's Match | Maria Sofia Madrid Rocca | ✘ | — | — | In play | — |
+| 11-04 17:05 | ITF Women's Match | Maria Sofia Madrid Rocca | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:04 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 17:01 | Russia Liga Pro Match | Chahur Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:58 | Counter-Strike 2 Game | Xcity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:57 | Counter-Strike 2 Game | Saint Sinners | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:57 | ITF Men's Match | Novak Novakovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:55 | Counter-Strike 2 Game | Fire Flux Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:55 | eSoccer Game | Mönchengladbach (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:54 | ITF Women's Match | Maria Shmeleva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:54 | ITF Men's Match | Joaquim Almeida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 16:54 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
