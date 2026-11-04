@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 1:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 2:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46943 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
+| 46949 | 2597 | 10 (0%) | 1.1% | -$249.55 (-64%) | Hold to the end: -$249.55 (-64%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2597 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 44329 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 44336 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 21641 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 21647 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2510 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2109 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eBasketball Game | ✘ | 2110 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1506 | 6 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1447 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1382 | 2 | 6% | 3% | -86% | -90% | 12 min |
@@ -336,11 +336,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-04 08:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 08:53 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
-| 11-04 08:52 | eSoccer Game | Arsenal (Kylian) | ✘ | — | — | In play | — |
-| 11-04 08:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-04 08:51 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | — | In play | — |
+| 11-04 09:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 09:01 | Men's ODI Cricket Match | New Zealand | ✘ | — | — | In play | — |
+| 11-04 08:56 | eSoccer Game | Olympique de Marseille (Mordor) | ✘ | — | — | In play | — |
+| 11-04 08:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-04 08:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:54 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:53 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:52 | eSoccer Game | Arsenal (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-04 08:51 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:50 | ITF Women's Match | Naho Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:49 | ITF Women's Match | Himari Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:44 | eFootball Game | Denver (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -360,12 +366,6 @@
 | 11-04 08:27 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:26 | ITF Women's Match | Shiyu Ye | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-04 08:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:25 | eSoccer Game | Slavia Praha (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:24 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:22 | eSoccer Game | RC Lens (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-04 08:19 | ITF Men's Match | Xiaoyin Yang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
