@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 3:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 3:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48719 | 2665 | 10 (0%) | 1.1% | -$259.75 (-65%) | Hold to the end: -$259.75 (-65%) |
+| 48734 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
 
-*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2665 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 46005 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2688 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 46024 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 10 | 0% | -$259.75 | -65% |
-| Sell at 2¢ | 357 | 13% | -$306.93 | -77% |
-| Sell at 3¢ | 250 | 9% | -$302.25 | -76% |
-| Sell at 5¢ | 170 | 6% | -$289.25 | -72% |
-| Sell at 10¢ | 75 | 3% | -$301.50 | -75% |
-| Sell at 25¢ | 26 | 1% | -$313.69 | -78% |
-| Sell at 50¢ | 17 | 1% | -$285.00 | -71% |
+| Hold to the end | 11 | 0% | -$249.20 | -62% |
+| Sell at 2¢ | 361 | 13% | -$309.34 | -77% |
+| Sell at 3¢ | 254 | 9% | -$304.14 | -75% |
+| Sell at 5¢ | 173 | 6% | -$290.75 | -72% |
+| Sell at 10¢ | 77 | 3% | -$302.33 | -75% |
+| Sell at 25¢ | 28 | 1% | -$310.52 | -77% |
+| Sell at 50¢ | 19 | 1% | -$274.95 | -68% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22615 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2649 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2221 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eSoccer Game | ✘ | 22625 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2650 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2223 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1605 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1521 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1436 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -151,6 +151,8 @@
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Valorant game winner | ✘ | 88 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | Peru Liga 1 Game | ✘ | 88 | 0 | 14% | 7% | -100% | -76% | 12 min |
+| UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
+| UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | Eerste Divisie Game | ✘ | 87 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | TFF 1. Lig Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Women's T20 Match | ✘ | 85 | 0 | 16% | 5% | -100% | -71% | 28 min |
@@ -163,7 +165,6 @@
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | R6 Game | ✘ | 79 | 1 | 10% | 5% | +18% | -82% | 9 min |
 | La Liga Game | ✔ | 78 | 0 | 18% | 12% | -100% | -69% | 9 min |
-| UEFA Conference League Game | partly | 78 | 0 | 14% | 9% | -100% | -76% | 11 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | Japan B League Game | ✘ | 75 | 0 | 7% | 0% | -100% | -88% | 12 min |
@@ -178,7 +179,6 @@
 | Men's ODI Cricket Match | ✘ | 71 | 3 | 21% | 7% | +294% | -63% | 51 min |
 | Polish Ekstraklasa Game | ✘ | 69 | 0 | 13% | 7% | -100% | -77% | 9 min |
 | Allsvenskan Game | ✘ | 69 | 1 | 16% | 10% | +35% | -72% | 10 min |
-| UEFA Europa League Game | partly | 69 | 0 | 16% | 7% | -100% | -72% | 13 min |
 | NWSL Game | ✔ | 68 | 0 | 7% | 1% | -100% | -87% | 7 min |
 | Bundesliga 2 Game | ✔ | 65 | 0 | 11% | 6% | -100% | -81% | 8 min |
 | Korea K-League 2 Game | ✘ | 64 | 0 | 11% | 6% | -100% | -81% | 7 min |
@@ -314,10 +314,10 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1016 | 4% | 1% | 0% | -93% |
-| 5–15 min | 629 | 16% | 7% | 1% | -72% |
-| 15–30 min | 422 | 24% | 13% | 1% | -59% |
-| 30–60 min | 318 | 20% | 11% | 1% | -65% |
+| Under 5 min | 1026 | 4% | 1% | 0% | -93% |
+| 5–15 min | 636 | 16% | 8% | 1% | -72% |
+| 15–30 min | 427 | 24% | 13% | 1% | -59% |
+| 30–60 min | 319 | 20% | 11% | 1% | -65% |
 | Over 60 min | 252 | 19% | 10% | 0% | -66% |
 
 ## Speed & liquidity
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 22:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 22:06 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
-| 11-05 22:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 22:04 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | — | In play | — |
-| 11-05 22:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 22:03 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | — | In play | — |
-| 11-05 22:02 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-05 22:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:18 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | — | In play | — |
+| 11-05 22:18 | Russia Liga Pro Match | Olhovoi Evgenii | ✘ | — | — | In play | — |
+| 11-05 22:17 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-05 22:17 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
+| 11-05 22:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:17 | Dota 2 Game | Inner Circle | ✘ | — | — | In play | — |
+| 11-05 22:16 | Women's College Basketball Game | Hawai'i | ✘ | — | — | In play | — |
+| 11-05 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:16 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 11-05 22:15 | Women's College Basketball Game | UCF | ✘ | — | — | In play | — |
+| 11-05 22:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:11 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:10 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:09 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:06 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:04 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:03 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:02 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:00 | ITF Women's Match | Aishi Das | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:58 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-05 21:57 | UEFA Europa League Game | Tie | ✔ | 90'+7' · ARA 2 - TOR 3 | — | In play | — |
-| 11-05 21:55 | UEFA Europa League Game | Tie | ✔ | 90'+4' · OLM 1 - B04 0 | — | In play | — |
-| 11-05 21:55 | UEFA Europa League Game | Ararat-Armenia | ✔ | 90'+4' · ARA 2 - TOR 2 | — | In play | — |
-| 11-05 21:54 | UEFA Europa League Game | Tie | ✔ | 90'+5' · USG 2 - CEL 1 | — | In play | — |
-| 11-05 21:54 | UEFA Conference League Game | Tie | ✘ | — | — | In play | — |
-| 11-05 21:54 | Challenger ATP  | Elmer Moller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:53 | UEFA Europa League Game | Tie | ✔ | 90'+6' · BES 2 - CEL 3 | — | In play | — |
-| 11-05 21:53 | UEFA Conference League Game | Tie | ✔ | 90'+3' · CSKA 1 - PAO 2 | — | In play | — |
-| 11-05 21:52 | UEFA Europa League Game | Tie | ✔ | 90' · DZG 2 - SUN 0 | — | In play | — |
-| 11-05 21:51 | UEFA Conference League Game | St. Truidense | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:51 | UEFA Conference League Game | Tie | ✔ | 90'+3' · BHA 1 - GET 0 | — | In play | — |
-| 11-05 21:51 | UEFA Europa League Game | Leverkusen | ✔ | 90' · OLM 1 - B04 0 | — | In play | — |
-| 11-05 21:50 | UEFA Conference League Game | Jablonec | ✔ | 90'+4' · JABL 1 - RIG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:50 | UEFA Conference League Game | Riga FC | ✔ | 90'+4' · JABL 1 - RIG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:50 | UEFA Conference League Game | Brann | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-05 21:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:50 | UEFA Europa League Game | Torreense | ✔ | 89' · ARA 2 - TOR 1 | — | In play | — |
-| 11-05 21:49 | UEFA Europa League Game | Tie | ✘ | — | — | In play | — |
-| 11-05 21:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:58 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:57 | UEFA Europa League Game | Tie | ✔ | 90'+7' · ARA 2 - TOR 3 | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:55 | UEFA Europa League Game | Tie | ✔ | 90'+4' · OLM 1 - B04 0 | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:55 | UEFA Europa League Game | Ararat-Armenia | ✔ | 90'+4' · ARA 2 - TOR 2 | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:54 | UEFA Europa League Game | Tie | ✔ | 90'+5' · USG 2 - CEL 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 21:54 | UEFA Conference League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
