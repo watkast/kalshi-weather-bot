@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 10:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 11:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48086 | 2659 | 10 (0%) | 1.1% | -$258.85 (-65%) | Hold to the end: -$258.85 (-65%) |
+| 48089 | 2660 | 10 (0%) | 1.1% | -$259.00 (-65%) | Hold to the end: -$259.00 (-65%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2659 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45410 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2660 | 13% | 9% | 6% | 3% | 1% | 1% |
+| Unverified | 45418 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 10 | 0% | -$258.85 | -65% |
-| Sell at 2¢ | 357 | 13% | -$306.03 | -77% |
-| Sell at 3¢ | 250 | 9% | -$301.35 | -76% |
-| Sell at 5¢ | 170 | 6% | -$288.35 | -72% |
-| Sell at 10¢ | 75 | 3% | -$300.60 | -75% |
-| Sell at 25¢ | 26 | 1% | -$312.79 | -78% |
-| Sell at 50¢ | 17 | 1% | -$284.10 | -71% |
+| Hold to the end | 10 | 0% | -$259.00 | -65% |
+| Sell at 2¢ | 357 | 13% | -$306.18 | -77% |
+| Sell at 3¢ | 250 | 9% | -$301.50 | -76% |
+| Sell at 5¢ | 170 | 6% | -$288.50 | -72% |
+| Sell at 10¢ | 75 | 3% | -$300.75 | -75% |
+| Sell at 25¢ | 26 | 1% | -$312.94 | -78% |
+| Sell at 50¢ | 17 | 1% | -$284.25 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22268 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2583 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 22274 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2584 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2180 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1569 | 6 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1492 | 3 | 13% | 6% | -81% | -77% | 5 min |
@@ -113,11 +113,11 @@
 | Dota 2 Game | ✘ | 287 | 1 | 1% | 1% | -67% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 273 | 1 | 13% | 4% | -66% | -77% | 9 min |
-| NHL Game | ✔ | 248 | 2 | 15% | 7% | -25% | -75% | 5 min |
+| NHL Game | ✔ | 249 | 2 | 14% | 7% | -25% | -75% | 5 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | NBA Game | ✔ | 180 | 0 | 18% | 6% | -100% | -69% | 9 min |
 | WTA Tennis Match | ✘ | 179 | 0 | 12% | 2% | -100% | -80% | 5 min |
-| AHL Game | ✘ | 171 | 0 | 4% | 2% | -100% | -93% | 5 min |
+| AHL Game | ✘ | 172 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | League of Legends Game | ✘ | 157 | 0 | 7% | 2% | -100% | -88% | 11 min |
 | Men's College Basketball Game | partly | 156 | 1 | 15% | 6% | -40% | -73% | 48 min |
 | Argentina Primera Division Game | ✘ | 147 | 2 | 15% | 9% | +27% | -74% | 7 min |
@@ -317,7 +317,7 @@
 | Under 5 min | 1013 | 4% | 1% | 0% | -93% |
 | 5–15 min | 629 | 16% | 7% | 1% | -72% |
 | 15–30 min | 422 | 24% | 13% | 1% | -59% |
-| 30–60 min | 315 | 20% | 11% | 1% | -65% |
+| 30–60 min | 316 | 20% | 11% | 1% | -65% |
 | Over 60 min | 252 | 19% | 10% | 0% | -66% |
 
 ## Speed & liquidity
@@ -336,13 +336,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 05:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 06:01 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-05 05:58 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:52 | AHL Game | Ontario Reign | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:50 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 05:50 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-05 05:49 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
-| 11-05 05:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 05:46 | eSoccer Game | Spurs (Drakon) | ✘ | — | — | In play | — |
-| 11-05 05:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 05:50 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:49 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:46 | eSoccer Game | Spurs (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:45 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:44 | eBasketball Game | New Orleans Pelicans (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -363,9 +366,6 @@
 | 11-05 05:29 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:29 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 05:29 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 05:28 | ITF Women's Match | Kisa Yoshioka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 05:27 | NBA Game | Dallas | ✔ | 24.2 - 4th · DAL 111 - SA 112 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
