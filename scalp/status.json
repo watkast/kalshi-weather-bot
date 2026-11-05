@@ -1,6 +1,8 @@
 {
- "saved_at": "2026-11-05T16:51:43+00:00",
+ "saved_at": "2026-11-05T17:01:54+00:00",
  "windows_watched": 9,
- "trades": 201677,
- "errors": []
+ "trades": 201733,
+ "errors": [
+  "2026-11-05T16:54:08+00:00 Response ended prematurely"
+ ]
 }
