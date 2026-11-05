@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 4, 8:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 4, 8:11 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46021 | 46010 | 169 (0%) | 1.07% | -$3,244.45 (-58%) | Hold to the close: -$3,244.45 (-58%) |
+| 46022 | 46010 | 169 (0%) | 1.07% | -$3,244.45 (-58%) | Hold to the close: -$3,244.45 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/4 8:10:37 PM | GBPUSD | DOWN | 4.4 min | — | — | In play | — |
 | 11/4 7:59:58 PM | USDJPY | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/4 7:59:58 PM | PALLADIUM | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/4 7:59:42 PM | XRP | UP | 17 sec | -0.076% | 0¢ | ❌ Lost | $0.00 |
@@ -217,7 +218,6 @@
 | 11/4 7:44:03 PM | GOLD | DOWN | 57 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/4 7:44:03 PM | SILVER | DOWN | 57 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/4 7:43:47 PM | SOL | DOWN | 73 sec | +0.145% | 1¢ | ❌ Lost | -$0.15 |
-| 11/4 7:43:31 PM | HYPE | DOWN | 89 sec | +0.170% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
