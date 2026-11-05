@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 2:18 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 2:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48214 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
+| 48215 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -336,6 +336,7 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-05 09:28 | ITF Women's Match | Daniela Darta Feldmane | ✘ | — | — | In play | — |
 | 11-05 08:00 | eSoccer Game | Toulouse FC (NINJA) | ✘ | — | — | In play | — |
 | 11-05 08:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-05 07:58 | ITF Men's Match | Xin Zhou | ✘ | — | — | In play | — |
@@ -365,7 +366,6 @@
 | 11-05 07:33 | eFootball Game | Buffalo (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 07:32 | eSoccer Game | Stade Brestois 29 (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 07:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 07:31 | Women's T20 Match | Adelaide Strikers Women | ✘ | — | — | In play | — |
 
 ## Raw data
 
