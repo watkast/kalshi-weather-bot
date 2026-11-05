@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 6:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 6:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47850 | 2627 | 10 (0%) | 1.1% | -$254.05 (-64%) | Hold to the end: -$254.05 (-64%) |
+| 47854 | 2627 | 10 (0%) | 1.1% | -$254.05 (-64%) | Hold to the end: -$254.05 (-64%) |
 
 *In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2627 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45196 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 45200 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -98,7 +98,7 @@
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 22122 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2572 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2162 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eBasketball Game | ✘ | 2164 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1565 | 6 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1492 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1416 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -109,7 +109,7 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 314 | 2 | 16% | 7% | -41% | -73% | 23 min |
-| Women's College Volleyball Match | ✘ | 309 | 2 | 5% | 3% | -40% | -92% | 68 min |
+| Women's College Volleyball Match | ✘ | 310 | 2 | 5% | 3% | -40% | -92% | 67 min |
 | Dota 2 Game | ✘ | 287 | 1 | 1% | 1% | -67% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 273 | 1 | 13% | 4% | -66% | -77% | 9 min |
@@ -126,9 +126,9 @@
 | Japan J2 League Game | ✘ | 141 | 1 | 11% | 4% | -34% | -82% | 6 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | KHL Game | ✘ | 131 | 0 | 5% | 2% | -100% | -92% | 6 min |
+| Women's College Basketball Game | partly | 130 | 0 | 12% | 5% | -100% | -80% | 50 min |
 | Liga DIMAYOR Game | ✘ | 129 | 1 | 9% | 3% | -28% | -84% | 7 min |
 | ATP Tennis Match | ✘ | 129 | 0 | 16% | 6% | -100% | -73% | 4 min |
-| Women's College Basketball Game | partly | 129 | 0 | 12% | 5% | -100% | -80% | 50 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Brasileiro Serie B Game | ✘ | 127 | 1 | 8% | 4% | -27% | -86% | 8 min |
 | EFL Championship Game | ✔ | 124 | 0 | 8% | 5% | -100% | -86% | 10 min |
@@ -336,10 +336,14 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-05 01:48 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 11-05 01:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 01:47 | Women's College Volleyball Match | Ohio State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-05 01:42 | Women's College Basketball Game | Jackson St. | ✘ | — | — | In play | — |
 | 11-05 01:41 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 11-05 01:36 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
-| 11-05 01:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | — | In play | — |
+| 11-05 01:36 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 01:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 01:34 | Russia Liga Pro Match | Sitnikov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 01:33 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 01:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -362,10 +366,6 @@
 | 11-05 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 01:17 | eSoccer Game | Paris Saint-Germain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 01:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 01:11 | Russia Liga Pro Match | Mameka Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 01:10 | Men's College Basketball Game | Southeastern Louisiana | ✔ | 15:26 - 1st · SELA 7 - AUB 11 | — | In play | — |
-| 11-05 01:09 | eSoccer Game | RCD Mallorca (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
