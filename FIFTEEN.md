@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 4, 8:32 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 4, 8:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46063 | 46052 | 170 (0%) | 1.07% | -$3,235.10 (-58%) | Hold to the close: -$3,235.10 (-58%) |
+| 46068 | 46052 | 170 (0%) | 1.07% | -$3,235.10 (-58%) | Hold to the close: -$3,235.10 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 14. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/4 8:42:20 PM | SOL | DOWN | 2.7 min | +0.261% | — | In play | — |
+| 11/4 8:41:47 PM | PLATINUM | DOWN | 3.2 min | — | — | In play | — |
+| 11/4 8:41:00 PM | SILVER | DOWN | 4.0 min | — | — | In play | — |
+| 11/4 8:41:00 PM | GOLD | DOWN | 4.0 min | — | — | In play | — |
+| 11/4 8:40:43 PM | XRP | DOWN | 4.3 min | +0.336% | — | In play | — |
 | 11/4 8:29:47 PM | USDCAD | UP | 12 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/4 8:29:31 PM | DOGE | DOWN | 28 sec | -0.001% | 0¢ | ❌ Lost | $0.00 |
 | 11/4 8:29:31 PM | NEAR | DOWN | 28 sec | -0.131% | 98¢ | ✅ Won | $13.85 |
@@ -213,11 +218,6 @@
 | 11/4 8:14:29 PM | COPPER | DOWN | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/4 8:14:29 PM | NEAR | DOWN | 30 sec | +0.146% | 0¢ | ❌ Lost | $0.00 |
 | 11/4 8:14:29 PM | BTC | DOWN | 30 sec | +0.043% | 1¢ | ❌ Lost | -$0.15 |
-| 11/4 8:14:29 PM | AUDUSD | DOWN | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/4 8:14:29 PM | DOGE | DOWN | 30 sec | +0.053% | 0¢ | ❌ Lost | $0.00 |
-| 11/4 8:14:29 PM | SILVER | DOWN | 30 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/4 8:14:14 PM | EURUSD | DOWN | 45 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/4 8:14:14 PM | ETH | DOWN | 45 sec | +0.070% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
