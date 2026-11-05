@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 5, 11:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 5, 11:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46728 | 46717 | 171 (0%) | 1.07% | -$3,304.20 (-58%) | Hold to the close: -$3,304.20 (-58%) |
+| 46732 | 46717 | 171 (0%) | 1.07% | -$3,304.20 (-58%) | Hold to the close: -$3,304.20 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/5 11:41:50 AM | ZEC | UP | 3.2 min | -0.997% | — | In play | — |
+| 11/5 11:41:19 AM | AUDUSD | UP | 3.7 min | — | — | In play | — |
+| 11/5 11:41:03 AM | GBPUSD | UP | 4.0 min | — | — | In play | — |
+| 11/5 11:41:03 AM | USDCAD | DOWN | 4.0 min | — | — | In play | — |
 | 11/5 11:29:48 AM | PALLADIUM | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 11:29:33 AM | ZEC | DOWN | 27 sec | +0.249% | 0¢ | ❌ Lost | $0.00 |
 | 11/5 11:29:33 AM | HYPE | DOWN | 27 sec | +0.140% | 1¢ | ❌ Lost | -$0.15 |
@@ -214,10 +218,6 @@
 | 11/5 11:14:26 AM | 5YRRATE | DOWN | 34 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 11:14:26 AM | USDCAD | UP | 34 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 11:14:10 AM | ETH | DOWN | 50 sec | +0.145% | 1¢ | ❌ Lost | -$0.15 |
-| 11/5 11:13:55 AM | DOGE | DOWN | 64 sec | +0.200% | 0¢ | ❌ Lost | -$0.15 |
-| 11/5 11:13:55 AM | 10YRRATE | DOWN | 64 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/5 11:13:40 AM | HYPE | DOWN | 80 sec | +0.229% | 1¢ | ❌ Lost | -$0.15 |
-| 11/5 11:13:24 AM | GBPUSD | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
