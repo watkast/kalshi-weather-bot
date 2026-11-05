@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 5, 6:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 5, 6:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 46585 | 46574 | 170 (0%) | 1.07% | -$3,299.75 (-58%) | Hold to the close: -$3,299.75 (-58%) |
+| 46587 | 46574 | 170 (0%) | 1.07% | -$3,299.75 (-58%) | Hold to the close: -$3,299.75 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -188,6 +188,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/5 6:55:15 AM | GOLD | DOWN | 4.8 min | — | — | In play | — |
+| 11/5 6:54:59 AM | SILVER | DOWN | 5.0 min | — | — | In play | — |
 | 11/5 6:44:49 AM | WTI | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 6:44:49 AM | GBPUSD | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 6:44:49 AM | USDJPY | DOWN | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,8 +218,6 @@
 | 11/5 6:29:21 AM | PLATINUM | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 6:29:21 AM | WTI | UP | 38 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/5 6:29:21 AM | GBPUSD | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/5 6:29:21 AM | NEAR | UP | 38 sec | -0.231% | 1¢ | ❌ Lost | -$0.15 |
-| 11/5 6:29:21 AM | BTC | DOWN | 38 sec | +0.026% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
