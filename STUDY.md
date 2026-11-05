@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 4, 8:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 4, 8:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47966 | 2648 | 10 (0%) | 1.1% | -$257.20 (-65%) | Hold to the end: -$257.20 (-65%) |
+| 47980 | 2648 | 10 (0%) | 1.1% | -$257.20 (-65%) | Hold to the end: -$257.20 (-65%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2648 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45303 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 45307 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22188 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22192 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2575 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2172 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1565 | 6 | 14% | 6% | -64% | -76% | 4 min |
@@ -336,9 +336,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 03:59 | NBA Game | Utah | ✔ | 23.6 - OT · UTAH 110 - NO 116 | — | In play | — |
+| 11-05 03:58 | Women's College Basketball Game | Oregon St. | ✘ | — | — | In play | — |
+| 11-05 03:57 | NBA Game | Toronto | ✔ | 11:04 - 4th · TOR 82 - DEN 109 | — | In play | — |
+| 11-05 03:54 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | — | In play | — |
+| 11-05 03:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 03:51 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-05 03:51 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-05 03:51 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | — | In play | — |
+| 11-05 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 03:50 | Women's College Basketball Game | Saint Mary's | ✘ | — | — | In play | — |
+| 11-05 03:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 03:49 | eSoccer Game | Portugal (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 03:49 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | — | In play | — |
+| 11-05 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:41 | Men's College Basketball Game | North Dakota St. | ✔ | 1:50 - 1st · NDSU 21 - SMC 40 | — | In play | — |
-| 11-05 03:38 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-05 03:38 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:37 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:37 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -352,20 +366,6 @@
 | 11-05 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:30 | Peru Liga 1 Game | Sport Boys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:27 | eSoccer Game | Crystal Palace (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:27 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:26 | eBasketball Game | New York Knicks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:26 | Liga DIMAYOR Game | Millonarios | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-05 03:25 | Liga DIMAYOR Game | America Cali | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-05 03:24 | eSoccer Game | Leverkusen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:24 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:22 | NBA Game | Memphis | ✔ | 0.4 - 4th · IND 107 - MEM 103 | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:18 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:13 | eSoccer Game | Everton (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 03:13 | Peru Liga 1 Game | Universitario | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
-| 11-05 03:11 | NHL Game | Buffalo | ✔ | 0:03 - 3rd · OTT 2 - BUF 1 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
