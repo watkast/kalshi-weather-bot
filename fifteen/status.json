@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-05T14:07:07+00:00",
+ "saved_at": "2026-11-05T14:17:29+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 46492,
+ "bets": 46517,
  "open": 3,
  "coinbase_spot": {
   "HYPE": true,
