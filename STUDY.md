@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 9:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 9:13 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48459 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
+| 48469 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
 
 *In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2661 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45773 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 45783 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22487 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22495 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2626 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2205 | 3 | 2% | 1% | -87% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1593 | 6 | 14% | 6% | -65% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1594 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1509 | 3 | 13% | 6% | -81% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1421 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 912 | 3 | 11% | 4% | -69% | -82% | 5 min |
+| Challenger ATP  | ✘ | 913 | 3 | 11% | 4% | -69% | -82% | 5 min |
 | eFootball Game | ✘ | 623 | 2 | 1% | 1% | -70% | -97% | 2 min |
 | College Football Game | partly | 412 | 3 | 12% | 6% | -32% | -79% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 16:01 | Challenger ATP  | Toby Samuel | ✘ | — | — | In play | — |
+| 11-05 16:11 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | — | In play | — |
+| 11-05 16:11 | eSoccer Game | Olympique de Marseille (Kevin) | ✘ | — | — | In play | — |
+| 11-05 16:11 | eSoccer Game | Strasbourg (Castle) | ✘ | — | — | In play | — |
+| 11-05 16:10 | eBasketball Game | New York Knicks (Conor) | ✘ | — | — | In play | — |
+| 11-05 16:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 16:09 | eSoccer Game | OGC Nice (Bradley) | ✘ | — | — | In play | — |
+| 11-05 16:09 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 11-05 16:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 16:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 16:08 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-05 16:01 | Challenger ATP  | Toby Samuel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 16:00 | ITF Men's Match | Antonio Caruso | ✘ | — | — | In play | — |
-| 11-05 15:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 15:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:58 | Indian Super League Game | Tie | ✘ | — | — | In play | — |
-| 11-05 15:57 | eSoccer Game | Werder Bremen (Haze) | ✘ | — | — | In play | — |
-| 11-05 15:56 | eSoccer Game | Olympique de Marseille (Kevin) | ✘ | — | — | In play | — |
-| 11-05 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 15:55 | eSoccer Game | Olympique Lyon (Kylian) | ✘ | — | — | In play | — |
-| 11-05 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 15:55 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 11-05 15:57 | eSoccer Game | Werder Bremen (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:56 | eSoccer Game | Olympique de Marseille (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:55 | eSoccer Game | Olympique Lyon (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 15:55 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:53 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:53 | ITF Women's Match | Manon Leonard | ✘ | — | — | In play | — |
+| 11-05 15:53 | ITF Women's Match | Manon Leonard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:52 | eFootball Game | Denver (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:47 | Counter-Strike 2 Game | los kogutos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:45 | KHL Game | CSKA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:44 | Russia Liga Pro Match | Volodin Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 15:43 | eSoccer Game | FC Bayern (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | eSoccer Game | OGC Nice (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | Russia Liga Pro Match | Soldusov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:41 | eSoccer Game | Olympique Lyon (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:40 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 15:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
