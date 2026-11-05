@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 3:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 3:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48738 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
+| 48749 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2688 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 46035 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46039 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22633 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22637 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2652 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2223 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1605 | 6 | 14% | 6% | -65% | -77% | 4 min |
@@ -336,8 +336,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 22:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 22:22 | eSoccer Game | Real Sociedad (Arkon) | ✘ | — | — | In play | — |
+| 11-05 22:37 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | — | In play | — |
+| 11-05 22:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:34 | eSoccer Game | Real Betis (Drakon) | ✘ | — | — | In play | — |
+| 11-05 22:33 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | — | In play | — |
+| 11-05 22:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:32 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-05 22:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:31 | eSoccer Game | Palmeiras (Declan) | ✘ | — | — | In play | — |
+| 11-05 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 22:30 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:30 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 22:22 | eSoccer Game | Real Sociedad (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:19 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:18 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,17 +366,6 @@
 | 11-05 22:10 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 22:09 | eSoccer Game | Real Madrid (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:06 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:04 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:03 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:02 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 22:00 | ITF Women's Match | Aishi Das | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:58 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 21:57 | UEFA Europa League Game | Tie | ✔ | 90'+7' · ARA 2 - TOR 3 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
