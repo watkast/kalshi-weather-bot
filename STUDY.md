@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 5:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 6:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48259 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
+| 48274 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2661 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45584 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 45591 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22367 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2609 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 22373 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2610 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2193 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1581 | 6 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1503 | 3 | 13% | 6% | -81% | -77% | 5 min |
@@ -336,9 +336,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-05 13:05 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | — | In play | — |
+| 11-05 13:05 | ITF Women's Match | Eliska Tichackova | ✘ | — | — | In play | — |
+| 11-05 13:05 | ITF Women's Match | Matilde Paoletti | ✘ | — | — | In play | — |
+| 11-05 13:05 | eSoccer Game | Leverkusen (Danny) | ✘ | — | — | In play | — |
+| 11-05 13:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 13:03 | ITF Women's Match | Francesca Gandolfi | ✘ | — | — | In play | — |
+| 11-05 13:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 13:02 | eSoccer Game | Werder Bremen (Eder) | ✘ | — | — | In play | — |
+| 11-05 13:01 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | — | In play | — |
+| 11-05 13:00 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 13:00 | ITF Men's Match | Robert Guna | ✘ | — | — | In play | — |
+| 11-05 12:59 | Russia Liga Pro Match | Makarkin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 12:57 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 12:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 12:53 | eFootball Game | Green Bay (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 12:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-05 12:52 | eSoccer Game | Liverpool (Homie) | ✘ | — | — | In play | — |
+| 11-05 12:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 12:52 | eSoccer Game | Liverpool (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 12:51 | ITF Women's Match | Amarni Banks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 12:50 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 12:49 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,21 +366,6 @@
 | 11-05 12:47 | ITF Men's Match | Matias Reyniak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 10:06 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 10:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:05 | eBasketball Game | New Orleans Pelicans (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:01 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:01 | Men's T20 Cricket Match | Janakpur Bolts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | eBasketball Game | Golden State Warriors (Jalen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Makar Krivoshchekov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Lingxi Zhao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Qian Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Zhao Zhao | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | William Kjellberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Alexander Wagner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Antoni Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | ITF Men's Match | Alessio Basile | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 10:00 | Russia Liga Pro Match | Lednev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
