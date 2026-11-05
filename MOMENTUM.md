@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Thu Nov 05 20:22 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Thu Nov 05 20:32 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 33189 | 28797 | 4392 (119) | 0 | $-1441.22 | -0.7% |
-| **20¢+ jump, ride past +5¢** | 20458 | 11170 | 9288 (4155) | 0 | $-6829.69 | -5.2% |
+| **20¢+ jump, sell +5¢** | 33199 | 28807 | 4392 (119) | 1 | $-1434.82 | -0.7% |
+| **20¢+ jump, ride past +5¢** | 20465 | 11172 | 9293 (4159) | 1 | $-6826.42 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,25 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 11-05 20:30 | J20R | ZEC | UP | 36¢ | 0.35 | open |  |
+| 11-05 20:30 | J20 | ZEC | UP | 36¢ | 0.35 | open |  |
+| 11-05 20:28 | J20 | XRP | DOWN | 42¢ | 0.80 | 0.92 | 1.00 |
+| 11-05 20:28 | J20R | BTC | DOWN | 32¢ | 0.73 | no | 2.56 |
+| 11-05 20:28 | J20 | BTC | DOWN | 32¢ | 0.77 | 0.83 | 0.37 |
+| 11-05 20:27 | J20 | SOL | UP | 20¢ | 0.84 | 0.92 | 0.61 |
+| 11-05 20:27 | J20R | BNB | UP | 28¢ | 0.84 | 0.92 | 0.60 |
+| 11-05 20:27 | J20 | BNB | UP | 28¢ | 0.85 | 0.91 | 0.45 |
+| 11-05 20:26 | J20 | ZEC | UP | 26¢ | 0.73 | 0.82 | 0.65 |
+| 11-05 20:25 | J20R | SOL | DOWN | 22¢ | 0.65 | yes | -6.66 |
+| 11-05 20:25 | J20 | SOL | DOWN | 22¢ | 0.65 | 0.72 | 0.39 |
+| 11-05 20:25 | J20R | XRP | DOWN | 20¢ | 0.74 | 0.79 | 0.24 |
+| 11-05 20:25 | J20 | XRP | DOWN | 20¢ | 0.74 | 0.83 | 0.66 |
+| 11-05 20:24 | J20R | NEAR | UP | 20¢ | 0.82 | yes | 1.69 |
+| 11-05 20:24 | J20 | NEAR | UP | 20¢ | 0.82 | 0.94 | 0.99 |
+| 11-05 20:24 | J20R | ZEC | UP | 29¢ | 0.63 | yes | 3.53 |
+| 11-05 20:24 | J20 | ZEC | UP | 29¢ | 0.63 | 0.72 | 0.58 |
+| 11-05 20:24 | J20R | DOGE | UP | 21¢ | 0.86 | yes | 1.31 |
+| 11-05 20:24 | J20 | DOGE | UP | 21¢ | 0.86 | 0.94 | 0.70 |
 | 11-05 20:02 | J20R | ZEC | UP | 20¢ | 0.47 | 0.56 | 0.54 |
 | 11-05 20:02 | J20 | ZEC | UP | 20¢ | 0.47 | 0.57 | 0.64 |
 | 11-05 20:02 | J20R | HYPE | UP | 20¢ | 0.40 | no | -4.17 |
@@ -39,22 +58,3 @@
 | 11-05 19:54 | J20R | BTC | DOWN | 21¢ | 0.51 | 0.70 | 1.57 |
 | 11-05 19:54 | J20 | BTC | DOWN | 21¢ | 0.51 | 0.63 | 0.85 |
 | 11-05 19:54 | J20 | ETH | DOWN | 30¢ | 0.48 | 0.62 | 1.05 |
-| 11-05 19:54 | J20R | XRP | DOWN | 23¢ | 0.48 | yes | -4.98 |
-| 11-05 19:54 | J20 | XRP | DOWN | 23¢ | 0.49 | yes | -5.08 |
-| 11-05 19:54 | J20R | ETH | DOWN | 30¢ | 0.52 | 0.65 | 0.96 |
-| 11-05 19:54 | J20R | BNB | DOWN | 25¢ | 0.35 | yes | -3.66 |
-| 11-05 19:54 | J20 | BNB | DOWN | 25¢ | 0.35 | yes | -3.72 |
-| 11-05 19:49 | J20R | DOGE | DOWN | 23¢ | 0.48 | 0.67 | 1.56 |
-| 11-05 19:49 | J20 | DOGE | DOWN | 23¢ | 0.48 | 0.56 | 0.44 |
-| 11-05 19:49 | J20R | HYPE | DOWN | 21¢ | 0.52 | 0.66 | 1.06 |
-| 11-05 19:49 | J20 | HYPE | DOWN | 21¢ | 0.52 | 0.61 | 0.55 |
-| 11-05 19:41 | J20 | BNB | UP | 22¢ | 0.76 | 0.87 | 0.89 |
-| 11-05 19:41 | J20 | BNB | UP | 22¢ | 0.72 | 0.87 | 1.27 |
-| 11-05 19:40 | J20 | BNB | UP | 22¢ | 0.74 | 0.87 | 1.08 |
-| 11-05 19:39 | J20R | HYPE | DOWN | 24¢ | 0.88 | yes | -8.88 |
-| 11-05 19:39 | J20 | HYPE | DOWN | 24¢ | 0.88 | yes | -8.88 |
-| 11-05 19:38 | J20R | SOL | UP | 22¢ | 0.68 | 0.88 | 1.76 |
-| 11-05 19:38 | J20 | SOL | UP | 22¢ | 0.68 | 0.79 | 0.82 |
-| 11-05 19:36 | J20 | HYPE | DOWN | 20¢ | 0.63 | 0.77 | 1.10 |
-| 11-05 19:35 | J20R | HYPE | DOWN | 21¢ | 0.55 | 0.62 | 0.35 |
-| 11-05 19:35 | J20 | HYPE | DOWN | 21¢ | 0.55 | 0.63 | 0.45 |
