@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 10:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 10:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48567 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
+| 48576 | 2661 | 10 (0%) | 1.1% | -$259.15 (-65%) | Hold to the end: -$259.15 (-65%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2661 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 45889 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 45899 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22561 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2637 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 22565 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2639 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2213 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1599 | 6 | 14% | 6% | -65% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1514 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1425 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| ITF Men's Match | ✘ | 1515 | 3 | 13% | 6% | -82% | -77% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1428 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 915 | 3 | 11% | 4% | -69% | -82% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -336,8 +336,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-05 17:54 | Counter-Strike 2 Game | IMAPROBLEM | ✘ | — | — | In play | — |
+| 11-05 17:50 | Russia Liga Pro Match | Blinov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 17:50 | ITF Men's Match | Santiago Giamichelle | ✘ | — | — | In play | — |
+| 11-05 17:49 | eSoccer Game | Nottingham Forest (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 17:49 | Counter-Strike 2 Game | Growth Lab Esports | ✘ | — | — | In play | — |
+| 11-05 17:49 | eSoccer Game | Manchester Utd (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 17:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 17:46 | eSoccer Game | Manchester City (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 17:46 | Counter-Strike 2 Game | GamersLab Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:45 | Dota 2 Game | Cooman Team | ✘ | — | — | In play | — |
-| 11-05 17:42 | Russia Liga Pro Match | Kubar Oleg | ✘ | — | — | In play | — |
+| 11-05 17:42 | Russia Liga Pro Match | Kubar Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:39 | eFootball Game | Chicago (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:39 | Counter-Strike 2 Game | ENRAGE | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:37 | ITF Women's Match | Anita Sahdiieva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -354,18 +363,9 @@
 | 11-05 17:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:32 | Russia Liga Pro Match | Korotkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:32 | eSoccer Game | Spurs (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:31 | ITF Men's Match | Carel Aubriel Ngounoue | ✘ | — | — | In play | — |
+| 11-05 17:31 | ITF Men's Match | Carel Aubriel Ngounoue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 17:30 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-05 17:29 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
-| 11-05 17:28 | ITF Men's Match | Jeffrey Fradkin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-05 17:28 | ITF Men's Match | Ryan Cozad | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 11-05 17:26 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:25 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:22 | eSoccer Game | Sunderland (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:22 | Counter-Strike 2 Game | wnT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 17:21 | Counter-Strike 2 Game | G2 Ares | ✘ | — | — | In play | — |
+| 11-05 17:29 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
