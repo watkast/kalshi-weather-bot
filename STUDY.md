@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 6:36 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 6:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48976 | 2694 | 11 (0%) | 1.1% | -$250.10 (-62%) | Hold to the end: -$250.10 (-62%) |
+| 48989 | 2694 | 11 (0%) | 1.1% | -$250.10 (-62%) | Hold to the end: -$250.10 (-62%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 55. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2694 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 46228 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46240 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22761 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22769 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2667 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2235 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eBasketball Game | ✘ | 2237 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1521 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1439 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -118,7 +118,7 @@
 | NBA Game | ✔ | 181 | 0 | 18% | 6% | -100% | -69% | 9 min |
 | WTA Tennis Match | ✘ | 179 | 0 | 12% | 2% | -100% | -80% | 5 min |
 | AHL Game | ✘ | 172 | 0 | 4% | 2% | -100% | -93% | 5 min |
-| Women's College Basketball Game | partly | 162 | 0 | 11% | 5% | -100% | -81% | 49 min |
+| Women's College Basketball Game | partly | 164 | 0 | 11% | 5% | -100% | -81% | 47 min |
 | Men's College Basketball Game | partly | 161 | 1 | 16% | 7% | -42% | -72% | 48 min |
 | League of Legends Game | ✘ | 158 | 0 | 8% | 2% | -100% | -87% | 11 min |
 | Argentina Primera Division Game | ✘ | 149 | 2 | 15% | 9% | +25% | -74% | 7 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 01:35 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | — | In play | — |
+| 11-06 01:46 | Women's College Basketball Game | Quinnipiac | ✘ | — | — | In play | — |
+| 11-06 01:45 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | — | In play | — |
+| 11-06 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 01:45 | eSoccer Game | Botafogo (Luis) | ✘ | — | — | In play | — |
+| 11-06 01:44 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | — | In play | — |
+| 11-06 01:44 | Women's College Basketball Game | Nicholls St. | ✘ | — | — | In play | — |
+| 11-06 01:44 | Men's College Basketball Game | Bryant | ✘ | — | — | In play | — |
+| 11-06 01:44 | Liga Nacional de Basquetbol Game | Argentino Junin | ✘ | — | — | In play | — |
+| 11-06 01:42 | Women's College Basketball Game | Davidson | ✘ | — | — | In play | — |
+| 11-06 01:41 | Women's College Basketball Game | SIU Edwardsville | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:39 | Men's College Basketball Game | VMI | ✘ | — | — | In play | — |
+| 11-06 01:37 | Men's College Basketball Game | Penn | ✔ | 19:23 - 1st · PENN 0 - ILL 3 | — | In play | — |
+| 11-06 01:36 | Men's College Basketball Game | Northern Illinois | ✘ | — | — | In play | — |
+| 11-06 01:35 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 01:35 | Men's College Basketball Game | Green Bay | ✘ | — | — | In play | — |
-| 11-06 01:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 01:34 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 11-06 01:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 01:33 | Women's College Basketball Game | Manhattan | ✘ | — | — | In play | — |
-| 11-06 01:32 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
+| 11-06 01:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:34 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:33 | Women's College Basketball Game | Manhattan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:32 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 01:32 | Women's College Basketball Game | Brown | ✘ | — | — | In play | — |
 | 11-06 01:32 | Women's College Basketball Game | Tennessee St. | ✘ | — | — | In play | — |
-| 11-06 01:32 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
+| 11-06 01:32 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 01:31 | Women's College Basketball Game | Samford | ✘ | — | — | In play | — |
-| 11-06 01:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 01:31 | Women's College Basketball Game | East Tennessee St. | ✘ | — | — | In play | — |
 | 11-06 01:31 | NHL Game | Vancouver | ✔ | 7:45 - 2nd · VAN 1 - WPG 5 | — | In play | — |
-| 11-06 01:31 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
-| 11-06 01:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 01:31 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 01:30 | Men's College Basketball Game | LIU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:30 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | — | In play | — |
-| 11-06 01:29 | Women's College Basketball Game | Boston College | ✘ | — | — | In play | — |
-| 11-06 01:28 | Women's College Basketball Game | Long Beach St. | ✘ | — | — | In play | — |
-| 11-06 01:22 | Women's College Basketball Game | UConn | ✔ | 1:54 - 4th · CONN 64 - MICH 72 | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:20 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:20 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:19 | Russia Liga Pro Match | Olhovoi Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:19 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 01:19 | Women's College Basketball Game | George Washington | ✔ | 5:45 - 3rd · GW 37 - WVU 46 | — | In play | — |
-| 11-06 01:17 | Women's College Basketball Game | Mississippi Valley St. | ✘ | — | — | In play | — |
 
 ## Raw data
 
