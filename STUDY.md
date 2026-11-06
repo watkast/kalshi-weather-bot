@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 9:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 9:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49161 | 2716 | 11 (0%) | 1.1% | -$253.40 (-62%) | Hold to the end: -$253.40 (-62%) |
+| 49169 | 2716 | 11 (0%) | 1.1% | -$253.40 (-62%) | Hold to the end: -$253.40 (-62%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2716 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46410 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46422 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22849 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22859 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2671 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2245 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
@@ -115,7 +115,7 @@
 | Challenger WTA | ✘ | 275 | 1 | 13% | 4% | -66% | -77% | 9 min |
 | NHL Game | ✔ | 259 | 2 | 15% | 8% | -28% | -75% | 5 min |
 | Women's College Basketball Game | partly | 203 | 0 | 10% | 4% | -100% | -82% | 42 min |
-| Men's College Basketball Game | partly | 198 | 3 | 18% | 8% | +41% | -68% | 46 min |
+| Men's College Basketball Game | partly | 199 | 3 | 19% | 8% | +41% | -68% | 46 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | NBA Game | ✔ | 181 | 0 | 18% | 6% | -100% | -69% | 9 min |
 | WTA Tennis Match | ✘ | 179 | 0 | 12% | 2% | -100% | -80% | 5 min |
@@ -280,8 +280,8 @@
 | Coppa Italia Lega Pro Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | Philippines PBA Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
+| Colombia LBP Basketball Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
-| Colombia LBP Basketball Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | United Rugby Championship Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Israel Super League Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 14 min |
 | CONMEBOL Sudamericana Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -336,17 +336,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 04:08 | eSoccer Game | Arsenal (Drakon) | ✘ | — | — | In play | — |
-| 11-06 04:07 | Men's College Basketball Game | Towson | ✘ | — | — | In play | — |
-| 11-06 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:05 | eSoccer Game | Leverkusen (Luis) | ✘ | — | — | In play | — |
-| 11-06 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:05 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | — | In play | — |
-| 11-06 04:03 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
-| 11-06 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:18 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
+| 11-06 04:17 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-06 04:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:15 | eSoccer Game | Spain (Adri) | ✘ | — | — | In play | — |
+| 11-06 04:09 | Colombia LBP Basketball Game | Piratas de Bogota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:08 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:07 | Men's College Basketball Game | Towson | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 11-06 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:05 | eSoccer Game | Leverkusen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:05 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:03 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:01 | eSoccer Game | Tie | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-06 04:00 | R6 Game | Kingzone | ✘ | — | — | In play | — |
-| 11-06 04:00 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-06 04:00 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:54 | College Football Game | UTSA | ✔ | 13:20 - 4th · UTSA 29 - FAU 50 | — | In play | — |
 | 11-06 03:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:51 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -358,14 +366,6 @@
 | 11-06 03:49 | eSoccer Game | Everton (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:48 | College Football Game | Southern Miss | ✔ | 1:39 - 3rd · JMU 30 - USM 14 | — | In play | — |
 | 11-06 03:48 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:46 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:45 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
-| 11-06 03:44 | Women's College Basketball Game | Pacific | ✔ | 0:49 - 2nd · PAC 22 - WASH 32 | — | In play | — |
-| 11-06 03:42 | Men's College Basketball Game | Cal Poly | ✔ | 19:59 - 1st · CP 0 - ARIZ 0 | — | In play | — |
-| 11-06 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:40 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
