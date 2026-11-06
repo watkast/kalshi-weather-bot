@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 9:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 9:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49183 | 2720 | 11 (0%) | 1.1% | -$254.00 (-62%) | Hold to the end: -$254.00 (-62%) |
+| 49192 | 2720 | 11 (0%) | 1.1% | -$254.00 (-62%) | Hold to the end: -$254.00 (-62%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2720 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46436 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46444 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22869 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22877 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2671 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2247 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
@@ -336,14 +336,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 04:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | — | In play | — |
-| 11-06 04:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:34 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
-| 11-06 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 04:30 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | — | In play | — |
-| 11-06 04:30 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 11-06 04:48 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | — | In play | — |
+| 11-06 04:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:47 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | — | In play | — |
+| 11-06 04:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:47 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-06 04:46 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | — | In play | — |
+| 11-06 04:46 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | — | In play | — |
+| 11-06 04:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 04:44 | eSoccer Game | United States (Rose) | ✘ | — | — | In play | — |
+| 11-06 04:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:37 | eSoccer Game | Nottingham Forest (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:34 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:30 | eSoccer Game | Mönchengladbach (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 04:30 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 04:27 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 04:23 | eSoccer Game | Newcastle Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 04:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -357,15 +366,6 @@
 | 11-06 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 04:15 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 04:09 | Colombia LBP Basketball Game | Piratas de Bogota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:08 | eSoccer Game | Arsenal (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:07 | Men's College Basketball Game | Towson | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 11-06 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:05 | eSoccer Game | Leverkusen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:05 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:03 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
