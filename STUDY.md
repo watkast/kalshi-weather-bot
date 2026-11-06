@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 9:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 9:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49665 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49676 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46920 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46928 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23198 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2722 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23202 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2723 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2277 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1614 | 6 | 13% | 6% | -65% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1529 | 3 | 13% | 6% | -82% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1530 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1443 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 924 | 3 | 11% | 4% | -70% | -81% | 5 min |
@@ -110,7 +110,7 @@
 | Men's T20 Cricket Match | ✘ | 321 | 2 | 16% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 316 | 2 | 5% | 3% | -41% | -92% | 67 min |
-| Dota 2 Game | ✘ | 297 | 1 | 1% | 1% | -69% | -98% | 31 min |
+| Dota 2 Game | ✘ | 298 | 1 | 1% | 1% | -69% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 277 | 1 | 13% | 4% | -66% | -77% | 9 min |
 | NHL Game | ✔ | 260 | 2 | 15% | 8% | -28% | -75% | 5 min |
@@ -126,7 +126,7 @@
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
 | Japan J2 League Game | ✘ | 141 | 1 | 11% | 4% | -34% | -82% | 6 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
-| KHL Game | ✘ | 134 | 0 | 4% | 2% | -100% | -92% | 6 min |
+| KHL Game | ✘ | 135 | 0 | 4% | 2% | -100% | -92% | 6 min |
 | Liga DIMAYOR Game | ✘ | 133 | 1 | 11% | 3% | -30% | -82% | 7 min |
 | Brasileiro Serie B Game | ✘ | 129 | 1 | 8% | 4% | -28% | -87% | 9 min |
 | ATP Tennis Match | ✘ | 129 | 0 | 16% | 6% | -100% | -73% | 4 min |
@@ -336,13 +336,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-06 16:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:24 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | — | In play | — |
+| 11-06 16:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:22 | eSoccer Game | Everton (Vini) | ✘ | — | — | In play | — |
+| 11-06 16:22 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 11-06 16:21 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | — | In play | — |
+| 11-06 16:20 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
+| 11-06 16:19 | KHL Game | Ak Bars Kazan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:18 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:18 | ITF Men's Match | Samuele Pieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:15 | Qatar Stars League | Al Arabi Doha | ✘ | — | — | In play | — |
-| 11-06 16:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 16:13 | eSoccer Game | Hoffenheim (Krocs) | ✘ | — | — | In play | — |
+| 11-06 16:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:13 | eSoccer Game | Hoffenheim (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:13 | Qatar Stars League | Al Ahli Doha | ✘ | — | — | In play | — |
-| 11-06 16:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:10 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:08 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 11-06 16:08 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:08 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:04 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,17 +366,6 @@
 | 11-06 15:56 | eSoccer Game | Strasbourg (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 15:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 15:56 | Russia Liga Pro Match | Suntsov Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:56 | Indian Super League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:54 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:52 | Dota 2 Game | PuckChamp | ✘ | — | — | In play | — |
-| 11-06 15:51 | Indian Super League Game | Goa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:46 | eSoccer Game | Hoffenheim (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:44 | eSoccer Game | OGC Nice (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:43 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
