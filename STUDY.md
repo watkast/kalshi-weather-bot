@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 10:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 10:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49756 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49764 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 47003 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47012 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23249 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 23253 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2732 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2282 | 3 | 2% | 1% | -88% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1616 | 6 | 13% | 6% | -65% | -77% | 4 min |
+| eBasketball Game | ✘ | 2283 | 3 | 2% | 1% | -88% | -93% | 2 min |
+| ITF Women's Match | ✘ | 1617 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1530 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1445 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -110,7 +110,7 @@
 | Men's T20 Cricket Match | ✘ | 321 | 2 | 16% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 316 | 2 | 5% | 3% | -41% | -92% | 67 min |
-| Dota 2 Game | ✘ | 298 | 1 | 1% | 1% | -69% | -98% | 31 min |
+| Dota 2 Game | ✘ | 299 | 1 | 1% | 1% | -69% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 278 | 1 | 13% | 4% | -66% | -78% | 9 min |
 | NHL Game | ✔ | 260 | 2 | 15% | 8% | -28% | -75% | 5 min |
@@ -223,10 +223,10 @@
 | Scottish Premiership Game | ✘ | 44 | 0 | 11% | 2% | -100% | -80% | 10 min |
 | Rugby French 14 Match | ✘ | 43 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Spain Liga ACB Game | ✘ | 43 | 0 | 7% | 2% | -100% | -88% | 17 min |
+| Romanian Liga I Game | ✘ | 43 | 0 | 9% | 2% | -100% | -84% | 11 min |
 | Brazil NBB Basketball Game | ✘ | 43 | 0 | 7% | 5% | -100% | -88% | 18 min |
 | LNB Elite Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Danish Superliga Game | ✘ | 41 | 0 | 10% | 5% | -100% | -83% | 10 min |
-| Romanian Liga I Game | ✘ | 41 | 0 | 10% | 2% | -100% | -83% | 9 min |
 | Australia NBL Game | ✘ | 40 | 0 | 5% | 2% | -100% | -91% | 8 min |
 | Czech NBL Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 17 min |
 | Faroe Islands Premier League Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 31 min |
@@ -336,15 +336,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 17:37 | ITF Women's Match | Lani Chang | ✘ | — | — | In play | — |
-| 11-06 17:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 17:36 | eSoccer Game | Spurs (Vini) | ✘ | — | — | In play | — |
-| 11-06 17:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 17:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 17:49 | eSoccer Game | Nottingham Forest (Vini) | ✘ | — | — | In play | — |
+| 11-06 17:49 | Russia Liga Pro Match | Orlov Oleg | ✘ | — | — | In play | — |
+| 11-06 17:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 17:46 | Russia Liga Pro Match | Kabanov Eduard | ✘ | — | — | In play | — |
+| 11-06 17:46 | eSoccer Game | Sunderland (Bradley) | ✘ | — | — | In play | — |
+| 11-06 17:43 | Russia Liga Pro Match | Ignatov Mikhail | ✘ | — | — | In play | — |
+| 11-06 17:42 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-06 17:37 | ITF Women's Match | Lani Chang | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-06 17:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 17:36 | eSoccer Game | Spurs (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 17:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:34 | Powerslap Match Winner | Joseph Martinez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:33 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
+| 11-06 17:33 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:33 | eSoccer Game | Manchester Utd (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:33 | eBasketball Game | Dallas Mavericks (Tyler) | ✘ | — | — | In play | — |
+| 11-06 17:33 | eBasketball Game | Dallas Mavericks (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:33 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:33 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:32 | Challenger ATP  | Max Hans Rehberg | ✘ | — | — | In play | — |
@@ -355,17 +363,9 @@
 | 11-06 17:27 | eBasketball Game | New Orleans Pelicans (Jimmy) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-06 17:25 | Russia Liga Pro Match | Ryzhov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:25 | Slovakian 2. Liga Game | Banik Lehota | ✘ | — | — | In play | — |
-| 11-06 17:23 | Romanian Liga I Game | Tie | ✘ | — | — | In play | — |
+| 11-06 17:23 | Romanian Liga I Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 17:22 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:21 | Women's College Basketball Game | Indiana St. | ✘ | — | — | In play | — |
-| 11-06 17:21 | Russia Liga Pro Match | Vologzhanin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:21 | Powerslap Match Winner | Karl Glennon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:20 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:19 | Dota 2 Game | Stray Team | ✘ | — | — | In play | — |
-| 11-06 17:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 17:18 | KHL Game | Lokomotiv Yaroslavl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
