@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 6, 12:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 6, 12:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47539 | 47522 | 173 (0%) | 1.07% | -$3,372.95 (-58%) | Hold to the close: -$3,372.95 (-58%) |
+| 47542 | 47522 | 173 (0%) | 1.07% | -$3,372.95 (-58%) | Hold to the close: -$3,372.95 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/6 12:55:37 AM | GOLD | DOWN | 4.4 min | — | — | In play | — |
+| 11/6 12:55:21 AM | PLATINUM | DOWN | 4.7 min | — | — | In play | — |
+| 11/6 12:55:05 AM | SILVER | DOWN | 4.9 min | — | — | In play | — |
 | 11/6 12:44:34 AM | GOLD | DOWN | 26 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/6 12:44:18 AM | GBPUSD | UP | 42 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 12:44:18 AM | HYPE | DOWN | 42 sec | +0.135% | 1¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/6 12:28:57 AM | COPPER | UP | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 12:28:57 AM | SILVER | UP | 62 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/6 12:28:57 AM | GBPUSD | UP | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/6 12:28:57 AM | BNB | UP | 62 sec | -0.118% | 0¢ | ❌ Lost | -$0.15 |
-| 11/6 12:28:41 AM | AUDUSD | UP | 78 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/6 12:28:41 AM | NEAR | UP | 78 sec | -0.325% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
