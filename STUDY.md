@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 7:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 8:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49591 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49600 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46822 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46842 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23142 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 23150 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2715 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2271 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1614 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1529 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1441 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1442 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 923 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -110,7 +110,7 @@
 | Men's T20 Cricket Match | ✘ | 320 | 2 | 16% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Women's College Volleyball Match | ✘ | 316 | 2 | 5% | 3% | -41% | -92% | 67 min |
-| Dota 2 Game | ✘ | 296 | 1 | 1% | 1% | -68% | -98% | 31 min |
+| Dota 2 Game | ✘ | 297 | 1 | 1% | 1% | -69% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 276 | 1 | 13% | 4% | -66% | -77% | 9 min |
 | NHL Game | ✔ | 260 | 2 | 15% | 8% | -28% | -75% | 5 min |
@@ -149,6 +149,7 @@
 | EuroCup Basketball Game | ✘ | 92 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Liga MX Game | ✔ | 91 | 0 | 15% | 9% | -100% | -73% | 6 min |
 | Women's T20 Match | ✘ | 91 | 0 | 16% | 4% | -100% | -71% | 26 min |
+| Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Valorant game winner | ✘ | 89 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | Peru Liga 1 Game | ✘ | 88 | 0 | 14% | 7% | -100% | -76% | 12 min |
@@ -161,7 +162,6 @@
 | Slovakian 2. Liga Game | ✘ | 82 | 0 | 6% | 5% | -100% | -89% | 78 min |
 | Uruguay Primera Division Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 10 min |
 | R6 Game | ✘ | 80 | 1 | 10% | 5% | +17% | -83% | 9 min |
-| Liga Leumit Game | ✘ | 80 | 0 | 4% | 4% | -100% | -94% | 19 min |
 | Euroleague Game | ✘ | 80 | 0 | 21% | 6% | -100% | -63% | 13 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | La Liga Game | ✔ | 78 | 0 | 18% | 12% | -100% | -69% | 9 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 14:52 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:51 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:51 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:50 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 11-06 15:03 | Overwatch Game | CantHear | ✘ | — | — | In play | — |
+| 11-06 15:03 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | — | In play | — |
+| 11-06 15:03 | eSoccer Game | FC Koln (Kovboj) | ✘ | — | — | In play | — |
+| 11-06 15:01 | Thai League 1 Game | Lamphun Warriors | ✘ | — | — | In play | — |
+| 11-06 15:01 | Thai League 1 Game | Sukhothai | ✘ | — | — | In play | — |
+| 11-06 15:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 14:57 | Challenger WTA | Justina Mikulskyte | ✘ | — | — | In play | — |
+| 11-06 14:56 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 11-06 14:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 14:52 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:51 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:50 | Liga Leumit Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:50 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:50 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | — | In play | — |
+| 11-06 14:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:50 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:49 | Russia Liga Pro Match | Surkin Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:48 | eSoccer Game | AS Monaco (Vini) | ✘ | — | — | In play | — |
+| 11-06 14:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:48 | eSoccer Game | AS Monaco (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:47 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:47 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 11-06 14:46 | eSoccer Game | Toulouse FC (Kylian) | ✘ | — | — | In play | — |
-| 11-06 14:45 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | — | In play | — |
+| 11-06 14:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:47 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:46 | eSoccer Game | Toulouse FC (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:45 | Liga Leumit Game | H. Rishon Lezion | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-06 14:44 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 14:44 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | — | In play | — |
+| 11-06 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 14:44 | Liga Leumit Game | Kabilio Jaffa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 14:43 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:43 | Liga Leumit Game | M. Herzliya | ✘ | — | — | In play | — |
-| 11-06 14:43 | Russia Liga Pro Match | Poprotskii Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:41 | Men's T20 Cricket Match | Pokhara Avengers | ✘ | — | — | In play | — |
-| 11-06 14:41 | eBasketball Game | Denver Nuggets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 14:38 | Liga Leumit Game | Nazareth | ✘ | — | — | In play | — |
-| 11-06 14:38 | Men's ODI Cricket Match | Mountaineers | ✘ | — | — | In play | — |
-| 11-06 14:37 | Counter-Strike 2 Game | Zetta Games | ✘ | — | — | In play | — |
-| 11-06 14:36 | Men's ODI Cricket Match | Mid West Rhinos | ✘ | — | — | In play | — |
-| 11-06 14:36 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
