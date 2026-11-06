@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 8:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 8:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49138 | 2715 | 11 (0%) | 1.1% | -$253.25 (-62%) | Hold to the end: -$253.25 (-62%) |
+| 49150 | 2715 | 11 (0%) | 1.1% | -$253.25 (-62%) | Hold to the end: -$253.25 (-62%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46395 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46401 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22837 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 22841 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2671 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2245 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
@@ -109,13 +109,13 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Men's T20 Cricket Match | ✘ | 319 | 2 | 16% | 7% | -41% | -73% | 23 min |
-| Women's College Volleyball Match | ✘ | 314 | 2 | 5% | 3% | -41% | -92% | 66 min |
+| Women's College Volleyball Match | ✘ | 315 | 2 | 5% | 3% | -41% | -92% | 67 min |
 | Dota 2 Game | ✘ | 294 | 1 | 1% | 1% | -68% | -98% | 31 min |
 | Serie C Game | ✘ | 285 | 2 | 5% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 275 | 1 | 13% | 4% | -66% | -77% | 9 min |
 | NHL Game | ✔ | 259 | 2 | 15% | 8% | -28% | -75% | 5 min |
 | Women's College Basketball Game | partly | 202 | 0 | 10% | 4% | -100% | -82% | 43 min |
-| Men's College Basketball Game | partly | 197 | 3 | 18% | 8% | +42% | -69% | 46 min |
+| Men's College Basketball Game | partly | 198 | 3 | 18% | 8% | +41% | -68% | 46 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | NBA Game | ✔ | 181 | 0 | 18% | 6% | -100% | -69% | 9 min |
 | WTA Tennis Match | ✘ | 179 | 0 | 12% | 2% | -100% | -80% | 5 min |
@@ -336,13 +336,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-06 03:54 | College Football Game | UTSA | ✔ | 13:20 - 4th · UTSA 29 - FAU 50 | — | In play | — |
+| 11-06 03:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 03:51 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
+| 11-06 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 03:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 03:50 | Men's College Basketball Game | South Florida | ✘ | — | 15¢ | ❌ Lost | -$0.15 |
+| 11-06 03:50 | eSoccer Game | Dortmund (Declan) | ✘ | — | — | In play | — |
+| 11-06 03:49 | NBA Game | Orlando | ✔ | 37.1 - 3rd · ORL 67 - PHX 93 | — | In play | — |
+| 11-06 03:49 | eSoccer Game | Everton (Drakon) | ✘ | — | — | In play | — |
+| 11-06 03:48 | College Football Game | Southern Miss | ✔ | 1:39 - 3rd · JMU 30 - USM 14 | — | In play | — |
+| 11-06 03:48 | eSoccer Game | United States (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 03:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-06 03:46 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
 | 11-06 03:45 | LNBP Basketball Game | Panteras de Aguascalientes | ✘ | — | — | In play | — |
 | 11-06 03:44 | Women's College Basketball Game | Pacific | ✔ | 0:49 - 2nd · PAC 22 - WASH 32 | — | In play | — |
 | 11-06 03:42 | Men's College Basketball Game | Cal Poly | ✔ | 19:59 - 1st · CP 0 - ARIZ 0 | — | In play | — |
-| 11-06 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 03:40 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | — | In play | — |
+| 11-06 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 03:40 | eSoccer Game | Manchester Utd (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:38 | eSoccer Game | 1. FC Köln (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:37 | Women's College Basketball Game | Portland | ✘ | — | — | In play | — |
@@ -354,18 +366,6 @@
 | 11-06 03:35 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 03:34 | Women's College Basketball Game | Louisiana | ✘ | — | — | In play | — |
 | 11-06 03:29 | Women's College Volleyball Match | Michigan State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:27 | NHL Game | Edmonton | ✔ | 8:09 - 3rd · ANA 5 - EDM 2 | 9¢ | ❌ Lost | -$0.15 |
-| 11-06 03:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:25 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:24 | Men's College Basketball Game | Jacksonville St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:24 | eSoccer Game | Leverkusen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:22 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:22 | eBasketball Game | Golden State Warriors (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:22 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:21 | eSoccer Game | Paris Saint-Germain (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 03:21 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
