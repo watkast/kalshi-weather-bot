@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 5:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 5:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48857 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
+| 48870 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
 
 *In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2688 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 46130 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46143 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22703 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2660 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2229 | 3 | 2% | 1% | -87% | -93% | 2 min |
+| eSoccer Game | ✘ | 22713 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2661 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2231 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1521 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1438 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-06 00:23 | eSoccer Game | Botafogo (Luis) | ✘ | — | — | In play | — |
+| 11-06 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 00:23 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | — | In play | — |
+| 11-06 00:21 | Brazil NBB Basketball Game | Basquete Osasco | ✘ | — | — | In play | — |
+| 11-06 00:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 00:21 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 11-06 00:20 | Brazil NBB Basketball Game | Bauru Basket SP | ✘ | — | — | In play | — |
+| 11-06 00:19 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:18 | Brazil NBB Basketball Game | Cruzeiro Basquete | ✘ | — | — | In play | — |
+| 11-06 00:17 | Men's College Basketball Game | McNeese | ✘ | — | — | In play | — |
+| 11-06 00:14 | Women's College Basketball Game | Mount St. Mary's | ✘ | — | — | In play | — |
+| 11-06 00:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:13 | Women's College Basketball Game | Jacksonville | ✘ | — | — | In play | — |
 | 11-06 00:12 | Argentina Primera Division Game | Tie | ✘ | — | — | In play | — |
-| 11-06 00:12 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | — | In play | — |
+| 11-06 00:12 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 00:12 | Women's College Basketball Game | Coppin St. | ✘ | — | — | In play | — |
-| 11-06 00:11 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
-| 11-06 00:11 | eSoccer Game | River Plate (Luis) | ✘ | — | — | In play | — |
-| 11-06 00:10 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-06 00:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 00:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 00:09 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | — | In play | — |
-| 11-06 00:08 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | — | In play | — |
-| 11-06 00:08 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | — | In play | — |
-| 11-06 00:07 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-06 00:11 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:11 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:10 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:09 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:08 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:08 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 00:07 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 00:07 | Women's College Basketball Game | Winthrop | ✘ | — | — | In play | — |
-| 11-06 00:07 | eSoccer Game | Chelsea (Kate) | ✘ | — | — | In play | — |
+| 11-06 00:07 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 00:07 | Women's College Basketball Game | Alabama A&M | ✘ | — | — | In play | — |
 | 11-06 00:06 | Men's College Basketball Game | Mercyhurst | ✘ | — | — | In play | — |
 | 11-06 00:05 | Argentina Primera Division Game | Belgrano de Cordoba | ✘ | — | — | In play | — |
-| 11-06 00:02 | Women's College Basketball Game | North Alabama | ✔ | 9:27 - 1st · UNA 0 - MISS 3 | — | In play | — |
-| 11-06 00:00 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:59 | eSoccer Game | Girona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:57 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:55 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:54 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:54 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:53 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
