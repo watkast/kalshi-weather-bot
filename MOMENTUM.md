@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Fri Nov 06 16:07 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Fri Nov 06 16:17 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 34037 | 29547 | 4490 (123) | 0 | $-1440.08 | -0.7% |
-| **20¢+ jump, ride past +5¢** | 20934 | 11449 | 9485 (4246) | 1 | $-6926.90 | -5.2% |
+| **20¢+ jump, sell +5¢** | 34038 | 29547 | 4491 (123) | 0 | $-1448.23 | -0.7% |
+| **20¢+ jump, ride past +5¢** | 20936 | 11450 | 9486 (4247) | 0 | $-6922.83 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 16:01 | J20R | XRP | UP | 23¢ | 0.69 | open |  |
+| 11-06 16:11 | J20R | XRP | DOWN | 31¢ | 0.66 | no | 3.24 |
+| 11-06 16:09 | J20 | XRP | UP | 23¢ | 0.80 | no | -8.15 |
+| 11-06 16:01 | J20R | XRP | UP | 23¢ | 0.69 | 0.80 | 0.83 |
 | 11-06 16:01 | J20 | XRP | UP | 23¢ | 0.68 | 0.74 | 0.30 |
 | 11-06 15:59 | J20 | XRP | DOWN | 21¢ | 0.01 | yes | -0.06 |
 | 11-06 15:58 | J20 | XRP | DOWN | 21¢ | 0.01 | 0.28 | 2.59 |
@@ -56,5 +58,3 @@
 | 11-06 11:54 | J20 | SOL | DOWN | 24¢ | 0.81 | 0.93 | 1.01 |
 | 11-06 11:53 | J20R | BTC | DOWN | 21¢ | 0.51 | 0.75 | 2.08 |
 | 11-06 11:53 | J20 | BTC | DOWN | 21¢ | 0.51 | 0.69 | 1.47 |
-| 11-06 11:52 | J20 | BTC | UP | 21¢ | 0.63 | 0.70 | 0.38 |
-| 11-06 11:52 | J20 | BTC | UP | 21¢ | 0.63 | 0.78 | 1.20 |
