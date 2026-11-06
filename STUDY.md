@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 6:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 6:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49468 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49483 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
 *In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46715 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46730 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23082 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2699 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23088 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2701 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2265 | 3 | 2% | 1% | -88% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1610 | 6 | 13% | 6% | -65% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1526 | 3 | 13% | 6% | -82% | -77% | 5 min |
+| ITF Women's Match | ✘ | 1612 | 6 | 13% | 6% | -65% | -77% | 4 min |
+| ITF Men's Match | ✘ | 1527 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1439 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 922 | 3 | 11% | 4% | -70% | -82% | 5 min |
@@ -205,13 +205,13 @@
 | Israeli Premier League Game | ✘ | 54 | 0 | 6% | 0% | -100% | -90% | 8 min |
 | Finland Korisliiga Game | ✘ | 52 | 1 | 8% | 4% | +79% | -87% | 8 min |
 | England Women's Super League Game | ✘ | 52 | 0 | 17% | 8% | -100% | -70% | 23 min |
+| Vietnam V-League 1 Game | ✘ | 52 | 1 | 6% | 4% | +79% | -90% | 10 min |
 | Belgian Pro League Game | ✘ | 52 | 0 | 8% | 0% | -100% | -87% | 15 min |
 | Serbian SuperLiga Game | ✘ | 52 | 0 | 4% | 2% | -100% | -93% | 12 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Egyptian Premier League Game | ✘ | 50 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | AFCON Game Winner | ✘ | 49 | 1 | 16% | 4% | +90% | -72% | 14 min |
 | Super League Greece Game | ✘ | 49 | 0 | 20% | 4% | -100% | -65% | 12 min |
-| Vietnam V-League 1 Game | ✘ | 48 | 1 | 6% | 4% | +94% | -89% | 10 min |
 | Korea K League Game | ✘ | 48 | 1 | 15% | 8% | +94% | -75% | 7 min |
 | Chile Liga de Primera Game | ✘ | 47 | 0 | 11% | 2% | -100% | -82% | 11 min |
 | Serie A Femminile Game | ✘ | 47 | 0 | 2% | 2% | -100% | -96% | 8 min |
@@ -336,13 +336,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 13:07 | ITF Women's Match | Ada Kumru | ✘ | — | — | In play | — |
-| 11-06 13:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 13:05 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
+| 11-06 13:21 | eSoccer Game | Chelsea (Mordor) | ✘ | — | — | In play | — |
+| 11-06 13:20 | eSoccer Game | Spurs (Poly) | ✘ | — | — | In play | — |
+| 11-06 13:20 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:19 | Counter-Strike 2 Game | Passion Academy | ✘ | — | — | In play | — |
+| 11-06 13:17 | eSoccer Game | Leverkusen (Danny) | ✘ | — | — | In play | — |
+| 11-06 13:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 13:16 | Challenger ATP  | Laslo Djere | ✘ | — | — | In play | — |
+| 11-06 13:15 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | — | In play | — |
+| 11-06 13:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 13:14 | Men's T20 Cricket Match | Avengers XI | ✘ | — | — | In play | — |
+| 11-06 13:14 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:13 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:13 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:12 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:07 | ITF Women's Match | Ada Kumru | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 13:05 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 13:04 | eSoccer Game | Leverkusen (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 13:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 13:03 | ITF Men's Match | Maxence Bertimon | ✘ | — | — | In play | — |
-| 11-06 13:00 | ITF Women's Match | Caijsa Wilda Hennemann | ✘ | — | — | In play | — |
+| 11-06 13:03 | ITF Men's Match | Maxence Bertimon | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-06 13:00 | ITF Women's Match | Caijsa Wilda Hennemann | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-06 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 12:59 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 12:59 | eSoccer Game | FC Bayern (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -351,21 +366,6 @@
 | 11-06 12:57 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 12:57 | Women's T20 Match | Pondicherry Women | ✘ | — | — | In play | — |
 | 11-06 12:55 | Russia Liga Pro Match | Bespalov Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:55 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:54 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:53 | Vietnam V-League 1 Game | Da Nang | ✘ | — | — | In play | — |
-| 11-06 12:51 | Vietnam V-League 1 Game | Ha Tinh FC | ✘ | — | — | In play | — |
-| 11-06 12:50 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:49 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:49 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:49 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:49 | Israel Super League Game | Hapoel Holon BC | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-06 12:48 | Challenger WTA | Ksenia Zaytseva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:47 | ITF Men's Match | Nazim Makhlouf | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-06 12:47 | eSoccer Game | Leverkusen (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 12:47 | Russia Liga Pro Match | SHevtsov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
