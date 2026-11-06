@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 5:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 5:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49431 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49449 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46679 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46689 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23056 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2695 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23064 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2696 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2263 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1610 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1525 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -134,7 +134,7 @@
 | EFL Championship Game | ✔ | 124 | 0 | 8% | 5% | -100% | -86% | 10 min |
 | College Hockey Game | ✘ | 122 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Brasileiro Serie A Game | partly | 118 | 1 | 11% | 7% | -21% | -81% | 9 min |
-| Overwatch Game | ✘ | 116 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| Overwatch Game | ✘ | 117 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | EFL League One Game | ✔ | 112 | 0 | 9% | 3% | -100% | -85% | 10 min |
 | USL Championship Game | partly | 110 | 0 | 12% | 5% | -100% | -80% | 5 min |
 | UEFA Champions League Game | partly | 109 | 1 | 11% | 5% | -14% | -81% | 10 min |
@@ -336,36 +336,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 12:39 | Overwatch Game | junjilopzfx0764 | ✘ | — | — | In play | — |
-| 11-06 12:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:37 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | — | In play | — |
-| 11-06 12:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:34 | Russia Liga Pro Match | Iankovskii Andrei | ✘ | — | — | In play | — |
-| 11-06 12:33 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | — | In play | — |
-| 11-06 12:32 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 11-06 12:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 12:32 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | — | In play | — |
+| 11-06 12:50 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | — | In play | — |
+| 11-06 12:49 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | — | In play | — |
+| 11-06 12:49 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | — | In play | — |
+| 11-06 12:49 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | — | In play | — |
+| 11-06 12:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 12:49 | Israel Super League Game | Hapoel Holon BC | ✘ | — | — | In play | — |
+| 11-06 12:48 | Challenger WTA | Ksenia Zaytseva | ✘ | — | — | In play | — |
+| 11-06 12:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 12:47 | ITF Men's Match | Nazim Makhlouf | ✘ | — | — | In play | — |
+| 11-06 12:47 | eSoccer Game | Leverkusen (Danny) | ✘ | — | — | In play | — |
+| 11-06 12:47 | Russia Liga Pro Match | SHevtsov Konstantin | ✘ | — | — | In play | — |
+| 11-06 12:46 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | — | In play | — |
+| 11-06 12:46 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-06 12:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 12:44 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
+| 11-06 12:43 | Valorant game winner | LPD | ✘ | — | — | In play | — |
+| 11-06 12:43 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-06 12:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 12:39 | Overwatch Game | junjilopzfx0764 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:37 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:34 | Russia Liga Pro Match | Iankovskii Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:33 | eSoccer Game | 1. FC Köln (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:32 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 12:32 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 12:30 | ITF Men's Match | Iliyan Radulov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 08:55 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:55 | eSoccer Game | Olympique de Marseille (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:54 | R6 Game | Weibo Gaming | ✘ | — | — | In play | — |
-| 11-06 08:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:53 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:52 | eSoccer Game | Liverpool (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:52 | eSoccer Game | Arsenal (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:50 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:50 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-06 08:42 | eSoccer Game | Olympique Lyon (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:41 | eBasketball Game | Brooklyn Nets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:41 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:40 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:38 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 08:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
