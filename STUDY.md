@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 1:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 1:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49889 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49922 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 47127 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47145 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23304 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2743 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23316 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2745 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2287 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1618 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1530 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1449 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 927 | 3 | 11% | 4% | -70% | -81% | 5 min |
+| Challenger ATP  | ✘ | 928 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 414 | 3 | 12% | 6% | -32% | -79% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -177,8 +177,8 @@
 | Mobile Legends Bang Bang Game | ✘ | 72 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Ligue 2 Game | ✘ | 72 | 0 | 8% | 6% | -100% | -86% | 8 min |
 | AFC Champions League Game | ✘ | 72 | 0 | 6% | 1% | -100% | -90% | 12 min |
+| Allsvenskan Game | ✘ | 71 | 1 | 15% | 10% | +31% | -73% | 11 min |
 | Polish Ekstraklasa Game | ✘ | 69 | 0 | 13% | 7% | -100% | -77% | 9 min |
-| Allsvenskan Game | ✘ | 69 | 1 | 16% | 10% | +35% | -72% | 10 min |
 | NWSL Game | ✔ | 68 | 0 | 7% | 1% | -100% | -87% | 7 min |
 | APF Division de Honor Game | ✘ | 65 | 0 | 17% | 5% | -100% | -71% | 11 min |
 | Bundesliga 2 Game | ✔ | 65 | 0 | 11% | 6% | -100% | -81% | 8 min |
@@ -234,8 +234,8 @@
 | Italy Serie A Game | ✘ | 39 | 0 | 5% | 3% | -100% | -91% | 6 min |
 | Croatia HNL Game | ✘ | 39 | 0 | 10% | 5% | -100% | -82% | 8 min |
 | Qatar Stars League | ✘ | 39 | 0 | 10% | 5% | -100% | -82% | 7 min |
+| Bundesliga Basketball Game | ✘ | 38 | 0 | 11% | 5% | -100% | -82% | 13 min |
 | Indian Super League Game | ✘ | 38 | 0 | 16% | 8% | -100% | -73% | 8 min |
-| Bundesliga Basketball Game | ✘ | 37 | 0 | 11% | 5% | -100% | -81% | 13 min |
 | Latvian Virsliga Game | ✘ | 37 | 0 | 16% | 8% | -100% | -72% | 21 min |
 | Slovenian Prva Liga Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 6 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
@@ -337,36 +337,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 20:44 | Counter-Strike 2 Game | Rush | ✘ | — | — | In play | — |
-| 11-06 20:44 | Ligue 2 Game | Red Star | ✘ | — | — | In play | — |
-| 11-06 20:43 | Eerste Divisie Game | Jong AZ Alkmaar | ✘ | — | — | In play | — |
-| 11-06 20:42 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:42 | Liga Portugal 2 Game | Vizela | ✘ | — | — | In play | — |
-| 11-06 20:41 | Challenger ATP  | Kimmer Coppejans | ✘ | — | — | In play | — |
-| 11-06 20:38 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:35 | eSoccer Game | Manchester City (Krocs) | ✘ | — | — | In play | — |
-| 11-06 20:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:35 | Women's College Volleyball Match | Arizona | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:34 | eSoccer Game | Chelsea (Kylian) | ✘ | — | — | In play | — |
-| 11-06 20:33 | French Women's Première Ligue Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:33 | eSoccer Game | Sunderland (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:33 | eSoccer Game | Everton (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:33 | Eerste Divisie Game | FC Eindhoven | ✘ | — | — | In play | — |
-| 11-06 20:32 | LNB Elite 2 Game | Hyeres Toulon | ✘ | — | — | In play | — |
-| 11-06 20:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:31 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-06 20:31 | Call of Duty Games | Vancouver Surge | ✘ | — | — | In play | — |
-| 11-06 20:31 | Ligue 2 Game | Montpellier | ✘ | — | — | In play | — |
-| 11-06 20:31 | Ligue 2 Game | Annecy | ✘ | — | — | In play | — |
-| 11-06 20:31 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:27 | Romanian Liga I Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:26 | Russia Liga Pro Match | Ignatov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:26 | Ligue 2 Game | Guingamp | ✘ | — | — | In play | — |
-| 11-06 20:25 | French Women's Première Ligue Game | Le Havre | ✘ | — | — | In play | — |
-| 11-06 20:24 | Russia Liga Pro Match | Kruglov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 20:22 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:55 | Euroleague Game | Virtus Bologna | ✘ | — | — | In play | — |
+| 11-06 20:55 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | — | In play | — |
+| 11-06 20:55 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-06 20:55 | Eredivisie Game | Willem II | ✔ | 90'+4' · PEC 1 - WIL 1 | — | In play | — |
+| 11-06 20:55 | Eredivisie Game | Zwolle | ✔ | 90'+4' · PEC 1 - WIL 1 | — | In play | — |
+| 11-06 20:53 | LNB Elite Game | BCM Gravelines Dunkerque | ✘ | — | — | In play | — |
+| 11-06 20:52 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-06 20:52 | Eerste Divisie Game | Waalwijk | ✘ | — | — | In play | — |
+| 11-06 20:51 | Eerste Divisie Game | Jong Eindhoven | ✘ | — | — | In play | — |
+| 11-06 20:51 | Eerste Divisie Game | Venlo | ✘ | — | — | In play | — |
+| 11-06 20:51 | Eerste Divisie Game | Oss | ✘ | — | — | In play | — |
+| 11-06 20:51 | eBasketball Game | Dallas Mavericks (Jimmy) | ✘ | — | — | In play | — |
+| 11-06 20:50 | Eerste Divisie Game | Helmond | ✘ | — | — | In play | — |
+| 11-06 20:50 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:50 | eSoccer Game | Benfica (Krocs) | ✘ | — | — | In play | — |
+| 11-06 20:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:49 | eSoccer Game | Everton (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:48 | Men's Iceland Basketball Premier League Game | UMF Sindri | ✘ | — | — | In play | — |
+| 11-06 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:48 | Men's T20 Cricket Match | AP XI | ✘ | — | — | In play | — |
+| 11-06 20:47 | Eerste Divisie Game | Tie | ✘ | — | — | In play | — |
+| 11-06 20:47 | Dota 2 Game | iLTW TEAM | ✘ | — | — | In play | — |
+| 11-06 20:47 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | — | In play | — |
+| 11-06 20:47 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:47 | Ligue 2 Game | Sochaux-Montbeliard | ✘ | — | — | In play | — |
+| 11-06 20:47 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-06 20:47 | Ligue 2 Game | Reims | ✘ | — | — | In play | — |
+| 11-06 20:47 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 20:47 | eSoccer Game | Crystal Palace (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
