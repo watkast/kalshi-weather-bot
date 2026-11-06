@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 12:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 1:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49363 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49371 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46616 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46620 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23005 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 23009 | 12 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2692 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2259 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1610 | 6 | 13% | 6% | -65% | -77% | 4 min |
@@ -336,13 +336,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 08:02 | ITF Men's Match | Aristarkh Safonov | ✘ | — | — | In play | — |
+| 11-06 07:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 07:56 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | — | In play | — |
+| 11-06 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 07:56 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 11-06 07:55 | eSoccer Game | Real Madrid (Niskanen15) | ✘ | — | — | In play | — |
+| 11-06 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:54 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
-| 11-06 07:54 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-06 07:54 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:50 | Russia Liga Pro Match | Aleksandrovskiy Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:46 | Russia Liga Pro Match | Shkurko Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 07:44 | eSoccer Game | Nantes (Mavi) | ✘ | — | — | In play | — |
+| 11-06 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 07:44 | eSoccer Game | Nantes (Mavi) | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 11-06 07:43 | eSoccer Game | Real Betis (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:43 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:43 | Women's T20 Match | Uttarakhand Women | ✘ | — | — | In play | — |
@@ -358,14 +366,6 @@
 | 11-06 07:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 07:28 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:27 | eSoccer Game | Real Sociedad (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:26 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:26 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:18 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 07:17 | Russia Liga Pro Match | Vasiutin Ilia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
