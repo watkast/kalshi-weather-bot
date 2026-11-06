@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 5, 4:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 5, 5:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48827 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
+| 48840 | 2688 | 11 (0%) | 1.1% | -$249.20 (-62%) | Hold to the end: -$249.20 (-62%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2688 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 46114 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46122 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 22691 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2658 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 22697 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2660 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2229 | 3 | 2% | 1% | -87% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1606 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1521 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -336,9 +336,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-05 23:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 00:02 | Women's College Basketball Game | North Alabama | ✔ | 9:27 - 1st · UNA 0 - MISS 3 | — | In play | — |
+| 11-06 00:00 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 23:59 | eSoccer Game | Girona (Drakon) | ✘ | — | — | In play | — |
+| 11-05 23:57 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:55 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
+| 11-05 23:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 23:54 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-05 23:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-05 23:54 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:53 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-05 23:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 23:45 | Women's College Basketball Game | Charlotte | ✘ | — | — | In play | — |
-| 11-05 23:45 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | — | In play | — |
+| 11-05 23:45 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 23:43 | Men's College Basketball Game | Chattanooga | ✘ | — | — | In play | — |
 | 11-05 23:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 23:42 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -353,19 +366,6 @@
 | 11-05 23:38 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-05 23:38 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
 | 11-05 23:38 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:37 | Brasileiro Serie B Game | Londrina | ✘ | — | — | In play | — |
-| 11-05 23:35 | APF Division de Honor Game | Tie | ✘ | — | — | In play | — |
-| 11-05 23:34 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:32 | Women's College Basketball Game | Northern Kentucky | ✔ | 9:38 - 1st · NKU 0 - UK 0 | — | In play | — |
-| 11-05 23:31 | eSoccer Game | RC Celta (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:31 | eSoccer Game | CA Osasuna (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:31 | Women's College Basketball Game | Central Michigan | ✔ | 9:59 - 1st · CMU 0 - OSU 0 | — | In play | — |
-| 11-05 23:27 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:25 | APF Division de Honor Game | Rubio Nu | ✘ | — | — | In play | — |
-| 11-05 23:25 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-05 23:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
