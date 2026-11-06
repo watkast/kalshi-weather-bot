@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 9:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 9:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49682 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
+| 49694 | 2726 | 11 (0%) | 1.1% | -$254.90 (-62%) | Hold to the end: -$254.90 (-62%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2726 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 46938 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 46948 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23208 | 12 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2723 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2277 | 3 | 2% | 1% | -88% | -93% | 2 min |
+| eSoccer Game | ✘ | 23214 | 12 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2724 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2279 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1614 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1530 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1443 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -276,9 +276,9 @@
 | CFL Game | ✘ | 18 | 0 | 6% | 0% | -100% | -90% | 9 min |
 | Malaysia Super League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 9 min |
 | Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
+| Philippines PBA Game | ✘ | 16 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | EFL Cup Game | ✘ | 16 | 0 | 19% | 0% | -100% | -68% | 15 min |
 | Coppa Italia Lega Pro Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 9 min |
-| Philippines PBA Game | ✘ | 15 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | Colombia LBP Basketball Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | UAE Pro League | ✘ | 14 | 0 | 7% | 7% | -100% | -88% | 13 min |
@@ -336,12 +336,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 16:38 | eSoccer Game | Everton (Castle) | ✘ | — | — | In play | — |
-| 11-06 16:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 16:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 16:36 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 11-06 16:44 | Counter-Strike 2 Game | Johnny Speeds | ✘ | — | — | In play | — |
+| 11-06 16:42 | eSoccer Game | Crystal Palace (Bradley) | ✘ | — | — | In play | — |
+| 11-06 16:42 | eSoccer Game | Manchester City (Kylian) | ✘ | — | — | In play | — |
+| 11-06 16:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:42 | Russia Liga Pro Match | Konashkov Ilia | ✘ | — | — | In play | — |
+| 11-06 16:41 | eSoccer Game | Freiburg (Kovboj) | ✘ | — | — | In play | — |
+| 11-06 16:40 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:40 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:39 | ITF Women's Match | Berta Bonardi | ✘ | — | — | In play | — |
+| 11-06 16:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 16:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:39 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:38 | eSoccer Game | Everton (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 16:36 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:36 | eSoccer Game | Manchester City (Vini) | ✘ | — | — | In play | — |
-| 11-06 16:33 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | — | In play | — |
+| 11-06 16:33 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:24 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -354,18 +366,6 @@
 | 11-06 16:18 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:18 | ITF Men's Match | Samuele Pieri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 16:15 | Qatar Stars League | Al Arabi Doha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:13 | eSoccer Game | Hoffenheim (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:13 | Qatar Stars League | Al Ahli Doha | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 11-06 16:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:10 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:08 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:08 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 16:04 | eBasketball Game | Brooklyn Nets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:59 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 15:58 | eSoccer Game | Olympique de Marseille (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
