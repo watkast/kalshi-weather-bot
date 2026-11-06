@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 4:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 4:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50127 | 2740 | 11 (0%) | 1.1% | -$257.00 (-63%) | Hold to the end: -$257.00 (-63%) |
+| 50135 | 2740 | 11 (0%) | 1.1% | -$257.00 (-63%) | Hold to the end: -$257.00 (-63%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2740 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 47358 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47371 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23423 | 13 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2762 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2299 | 3 | 2% | 1% | -88% | -93% | 2 min |
+| eSoccer Game | ✘ | 23431 | 13 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2765 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2301 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1618 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1531 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1453 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -326,7 +326,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -338,16 +338,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-06 23:42 | Russia Liga Pro Match | Kugurushev Dmitriy | ✘ | — | — | In play | — |
-| 11-06 23:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 23:40 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | — | In play | — |
-| 11-06 23:40 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | — | In play | — |
-| 11-06 23:40 | eSoccer Game | Palmeiras (Declan) | ✘ | — | — | In play | — |
-| 11-06 23:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 23:40 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-06 23:39 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | — | In play | — |
-| 11-06 23:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-06 23:37 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 11-06 23:52 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-06 23:51 | Counter-Strike 2 Game | MEIA NOITE | ✘ | — | — | In play | — |
+| 11-06 23:49 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:45 | Argentina Primera Division Game | San Lorenzo de Almagro | ✘ | — | — | In play | — |
+| 11-06 23:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-06 23:44 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:43 | eSoccer Game | FC Barcelona (Zaroth) | ✘ | — | — | In play | — |
+| 11-06 23:42 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:42 | Russia Liga Pro Match | Kugurushev Dmitriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 19¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | eSoccer Game | Palmeiras (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:40 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:39 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-06 23:37 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 23:35 | Counter-Strike 2 Game | BORRACHEIROS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 23:34 | Challenger ATP  | Joao Lucas Reis Da Silva | ✘ | — | — | In play | — |
 | 11-06 23:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -360,14 +368,6 @@
 | 11-06 23:26 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-06 23:26 | eSoccer Game | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
 | 11-06 23:26 | eSoccer Game | Boca Juniors (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:24 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:20 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:19 | Call of Duty Games | M80 Boston | ✘ | — | — | In play | — |
-| 11-06 23:18 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:17 | eSoccer Game | Girona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-06 23:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
