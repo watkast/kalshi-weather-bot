@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 5, 7:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 5, 7:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47231 | 47214 | 173 (0%) | 1.07% | -$3,334.25 (-58%) | Hold to the close: -$3,334.25 (-58%) |
+| 47235 | 47214 | 173 (0%) | 1.07% | -$3,334.25 (-58%) | Hold to the close: -$3,334.25 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/5 7:12:47 PM | ZEC | DOWN | 2.2 min | +0.576% | — | In play | — |
+| 11/5 7:11:44 PM | GOLD | DOWN | 3.2 min | — | — | In play | — |
+| 11/5 7:11:28 PM | SILVER | DOWN | 3.5 min | — | — | In play | — |
+| 11/5 7:09:51 PM | NATGAS | DOWN | 5.2 min | — | — | In play | — |
 | 11/5 6:59:29 PM | WTI | DOWN | 30 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/5 6:59:29 PM | ETH | DOWN | 30 sec | -0.006% | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 6:59:29 PM | DOGE | DOWN | 30 sec | -0.010% | 0¢ | ❌ Lost | $0.00 |
@@ -215,10 +219,6 @@
 | 11/5 6:43:57 PM | XRP | DOWN | 63 sec | +0.198% | 0¢ | ❌ Lost | $0.00 |
 | 11/5 6:43:41 PM | BTC | DOWN | 79 sec | +0.167% | 0¢ | ❌ Lost | $0.00 |
 | 11/5 6:43:41 PM | NEAR | DOWN | 79 sec | +0.245% | 0¢ | ❌ Lost | $0.00 |
-| 11/5 6:43:25 PM | ETH | DOWN | 1.6 min | +0.284% | 0¢ | ❌ Lost | $0.00 |
-| 11/5 6:43:25 PM | DOGE | DOWN | 1.6 min | +0.194% | 1¢ | ❌ Lost | -$0.15 |
-| 11/5 6:43:25 PM | SOL | DOWN | 1.6 min | +0.350% | 0¢ | ❌ Lost | $0.00 |
-| 11/5 6:40:54 PM | PLATINUM | DOWN | 4.1 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
