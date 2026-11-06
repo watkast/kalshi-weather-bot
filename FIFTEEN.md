@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 6, 3:32 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 6, 3:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48277 | 48260 | 175 (0%) | 1.07% | -$3,436.30 (-58%) | Hold to the close: -$3,436.30 (-58%) |
+| 48280 | 48260 | 175 (0%) | 1.07% | -$3,436.30 (-58%) | Hold to the close: -$3,436.30 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/6 3:42:26 PM | HYPE | UP | 2.6 min | -0.253% | — | In play | — |
+| 11/6 3:41:54 PM | ZEC | UP | 3.1 min | -0.518% | — | In play | — |
+| 11/6 3:41:54 PM | XRP | UP | 3.1 min | -0.305% | — | In play | — |
 | 11/6 3:29:43 PM | BNB | DOWN | 16 sec | +0.019% | 0¢ | ❌ Lost | $0.00 |
 | 11/6 3:29:43 PM | NEAR | UP | 16 sec | -0.013% | 0¢ | ❌ Lost | $0.00 |
 | 11/6 3:29:43 PM | SOL | UP | 16 sec | -0.025% | 0¢ | ❌ Lost | $0.00 |
@@ -216,9 +219,6 @@
 | 11/6 2:59:16 PM | AUDUSD | DOWN | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 2:59:16 PM | 30YRRATE | DOWN | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 2:59:16 PM | PALLADIUM | UP | 44 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/6 2:59:00 PM | BRENT | UP | 60 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/6 2:59:00 PM | WTI | UP | 60 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/6 2:58:28 PM | 2YRRATE | DOWN | 1.5 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
