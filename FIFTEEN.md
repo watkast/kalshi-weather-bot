@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 5, 9:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 5, 9:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 47396 | 47379 | 173 (0%) | 1.07% | -$3,354.65 (-58%) | Hold to the close: -$3,354.65 (-58%) |
+| 47399 | 47379 | 173 (0%) | 1.07% | -$3,354.65 (-58%) | Hold to the close: -$3,354.65 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/5 9:26:27 PM | DOGE | UP | 3.5 min | -0.414% | — | In play | — |
+| 11/5 9:25:20 PM | XRP | UP | 4.7 min | -0.490% | — | In play | — |
+| 11/5 9:25:20 PM | ZEC | UP | 4.7 min | -0.868% | — | In play | — |
 | 11/5 9:14:57 PM | PLATINUM | UP | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/5 9:14:41 PM | BNB | UP | 19 sec | -0.097% | 0¢ | ❌ Lost | $0.00 |
 | 11/5 9:14:41 PM | WTI | DOWN | 19 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -216,9 +219,6 @@
 | 11/5 8:59:16 PM | NEAR | DOWN | 44 sec | +0.098% | 1¢ | ❌ Lost | -$0.15 |
 | 11/5 8:58:57 PM | BNB | UP | 62 sec | -0.110% | 3¢ | ❌ Lost | -$0.15 |
 | 11/5 8:58:57 PM | USDCAD | DOWN | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/5 8:58:57 PM | PLATINUM | DOWN | 62 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/5 8:58:11 PM | BTC | UP | 1.8 min | -0.169% | 1¢ | ❌ Lost | $0.00 |
-| 11/5 8:57:54 PM | XRP | UP | 2.1 min | -0.307% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
