@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-06T12:25:52+00:00",
+ "saved_at": "2026-11-06T12:54:11+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -80,17 +80,17 @@
   ]
  },
  "open": 0,
- "results_known": 30754,
+ "results_known": 30772,
  "sigma_pct": {
-  "HYPE": 0.0751,
-  "ETH": 0.0541,
-  "NEAR": 0.1207,
-  "SOL": 0.0559,
-  "BNB": 0.056,
-  "XRP": 0.0596,
-  "BTC": 0.0378,
-  "DOGE": 0.0516,
-  "ZEC": 0.1852
+  "HYPE": 0.0978,
+  "ETH": 0.058,
+  "NEAR": 0.1654,
+  "SOL": 0.0578,
+  "BNB": 0.0526,
+  "XRP": 0.0669,
+  "BTC": 0.0443,
+  "DOGE": 0.0504,
+  "ZEC": 0.1824
  },
  "errors": [
   "2026-11-06T10:51:24+00:00 loop: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?tickers=KXBTC15M-26NOV060600-00%2CKXBNB15M-26NOV060600-00%2CKXHYPE15M-26NOV060600-00%2CKXSOL15M-26NOV060600-00%2CKXETH15M-26NOV060600-00%2CKXDOGE15M-26NOV060600-00%2CKXNEAR15M-26NOV060600-00%2CKXZEC15M-26NOV060600-00%2CKXXRP15M-26NOV060600-00&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -5] No address associated with hostname)\"))"
