@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 4:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 4:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52235 | 2894 | 12 (0%) | 1.1% | -$266.10 (-61%) | Hold to the end: -$266.10 (-61%) |
+| 52252 | 2894 | 12 (0%) | 1.1% | -$266.10 (-61%) | Hold to the end: -$266.10 (-61%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2894 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49303 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49319 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24294 | 15 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 24304 | 15 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2908 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2388 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1630 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1542 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1488 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1489 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 944 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| College Football Game | partly | 471 | 3 | 11% | 6% | -41% | -81% | 23 min |
+| College Football Game | partly | 474 | 3 | 11% | 5% | -41% | -81% | 23 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 333 | 2 | 5% | 2% | -44% | -92% | 68 min |
 | Men's T20 Cricket Match | ✘ | 327 | 2 | 16% | 7% | -43% | -73% | 23 min |
@@ -113,7 +113,7 @@
 | Dota 2 Game | ✘ | 316 | 1 | 1% | 1% | -70% | -98% | 31 min |
 | Serie C Game | ✘ | 311 | 2 | 4% | 2% | -40% | -93% | 8 min |
 | Challenger WTA | ✘ | 280 | 1 | 13% | 4% | -67% | -78% | 9 min |
-| Men's College Basketball Game | partly | 279 | 5 | 19% | 8% | +67% | -68% | 43 min |
+| Men's College Basketball Game | partly | 280 | 5 | 19% | 8% | +67% | -67% | 43 min |
 | Women's College Basketball Game | partly | 268 | 0 | 10% | 4% | -100% | -83% | 39 min |
 | NHL Game | ✔ | 265 | 2 | 15% | 8% | -30% | -74% | 5 min |
 | Major League Soccer Game | partly | 203 | 1 | 12% | 6% | -54% | -80% | 8 min |
@@ -272,8 +272,8 @@
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 21 | 0 | 19% | 10% | -100% | -67% | 9 min |
 | Polish Hockey Game | ✘ | 21 | 0 | 5% | 5% | -100% | -92% | 5 min |
+| Call of Duty Games | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | UAE Pro League | ✘ | 20 | 0 | 5% | 5% | -100% | -91% | 18 min |
-| Call of Duty Games | ✘ | 20 | 0 | 0% | 0% | -100% | -100% | 38 min |
 | CFL Game | ✘ | 19 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | Women's Pro Basketball Game | ✔ | 18 | 0 | 22% | 6% | -100% | -61% | 6 min |
 | Malaysia Super League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 9 min |
@@ -341,36 +341,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 23:32 | Counter-Strike 2 Game | Dynamo Eclot Phoenix | ✘ | — | — | In play | — |
-| 11-07 23:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 23:42 | eSoccer Game | Boca Juniors (Bradley) | ✘ | — | — | In play | — |
+| 11-07 23:42 | College Football Game | Troy | ✔ | 14:40 - 4th · LT 34 - TROY 17 | — | In play | — |
+| 11-07 23:42 | eSoccer Game | Flamengo (Vini) | ✘ | — | — | In play | — |
+| 11-07 23:41 | College Football Game | LSU | ✔ | 6:23 - 4th · ALA 30 - LSU 13 | — | In play | — |
+| 11-07 23:41 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | — | In play | — |
+| 11-07 23:41 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | — | In play | — |
+| 11-07 23:41 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-07 23:41 | eSoccer Game | Palmeiras (Castle) | ✘ | — | — | In play | — |
+| 11-07 23:41 | eSoccer Game | Universitario (Kylian) | ✘ | — | — | In play | — |
+| 11-07 23:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 23:40 | College Football Game | Tennessee St. | ✘ | — | — | In play | — |
+| 11-07 23:40 | College Hockey Game | Boston University | ✘ | — | — | In play | — |
+| 11-07 23:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 23:38 | Men's College Basketball Game | Bucknell | ✘ | — | — | In play | — |
+| 11-07 23:38 | College Football Game | Ohio St. | ✔ | 12:09 - 4th · ORE 31 - OSU 14 | — | In play | — |
+| 11-07 23:38 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 11-07 23:37 | NHL Game | Seattle | ✔ | 1:57 - 2nd · NYR 4 - SEA 0 | — | In play | — |
+| 11-07 23:32 | Counter-Strike 2 Game | Dynamo Eclot Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 23:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 23:31 | College Football Game | Charlotte | ✔ | 3:23 - 4th · CLT 6 - UAB 16 | — | In play | — |
-| 11-07 23:31 | eSoccer Game | RC Celta (Arkon) | ✘ | — | — | In play | — |
+| 11-07 23:31 | eSoccer Game | RC Celta (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 23:31 | Brazil NBB Basketball Game | Pato Basquete | ✘ | — | — | In play | — |
-| 11-07 23:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 23:28 | eSoccer Game | Flamengo (Bradley) | ✘ | — | — | In play | — |
+| 11-07 23:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 23:28 | eSoccer Game | Flamengo (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 23:27 | Ecuador Liga Pro Game | Leones | ✘ | — | — | In play | — |
-| 11-07 23:27 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-07 23:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 23:27 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 23:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 23:27 | Ecuador Liga Pro Game | Guayaquil City | ✘ | — | — | In play | — |
-| 11-07 23:27 | eSoccer Game | Boca Juniors (Castle) | ✘ | — | — | In play | — |
-| 11-07 23:26 | eSoccer Game | Universitario (Vini) | ✘ | — | — | In play | — |
-| 11-07 23:25 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
-| 11-07 23:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 23:24 | College Football Game | Texas A&M | ✔ | 0:03 - 4th · TA&M 9 - SC 17 | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:17 | eSoccer Game | Girona (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:16 | Canadian Premier League | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:15 | eSoccer Game | Flamengo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:15 | eBasketball Game | Indiana Pacers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:12 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:12 | College Football Game | Florida A&M | ✘ | — | — | In play | — |
-| 11-07 23:11 | eBasketball Game | Dallas Mavericks (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:11 | Copa do Brasil Game | Reg Time: Atletico Mineiro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 23:11 | Copa do Brasil Game | Reg Time: Gremio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 23:27 | eSoccer Game | Boca Juniors (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 23:26 | eSoccer Game | Universitario (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
