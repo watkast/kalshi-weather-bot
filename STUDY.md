@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 4:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 4:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50943 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 50958 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48152 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48158 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23854 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| eSoccer Game | ✘ | 23858 | 14 | 1% | 0% | -95% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2830 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2342 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1623 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1534 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1457 | 2 | 5% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1458 | 2 | 5% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 934 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -130,7 +130,7 @@
 | Liga DIMAYOR Game | ✘ | 137 | 1 | 10% | 3% | -32% | -82% | 8 min |
 | KHL Game | ✘ | 137 | 0 | 4% | 2% | -100% | -92% | 6 min |
 | Brasileiro Serie B Game | ✘ | 131 | 1 | 8% | 4% | -29% | -87% | 9 min |
-| ATP Tennis Match | ✘ | 129 | 0 | 16% | 6% | -100% | -73% | 4 min |
+| ATP Tennis Match | ✘ | 130 | 0 | 15% | 6% | -100% | -73% | 4 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | EFL Championship Game | ✔ | 126 | 0 | 8% | 5% | -100% | -86% | 10 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
@@ -338,7 +338,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 11:22 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 11-07 11:31 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | — | In play | — |
+| 11-07 11:28 | eSoccer Game | Frankfurt (Antonio) | ✘ | — | — | In play | — |
+| 11-07 11:28 | eSoccer Game | Chelsea (Homie) | ✘ | — | — | In play | — |
+| 11-07 11:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 11:28 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | — | In play | — |
+| 11-07 11:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 11:27 | Counter-Strike 2 Game | BetBoom Team | ✘ | — | — | In play | — |
+| 11-07 11:27 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
+| 11-07 11:26 | eSoccer Game | Mönchengladbach (Holis) | ✘ | — | — | In play | — |
+| 11-07 11:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 11:26 | ATP Tennis Match | Francesco Passaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 11:25 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 11:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 11:23 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 11:23 | Counter-Strike 2 Game | 9INE Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 11:22 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 11:16 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 11:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 11:14 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -353,21 +368,6 @@
 | 11-07 11:00 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 11:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 10:59 | ITF Men's Match | Ioannis Xilas | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-07 10:58 | Russia Liga Pro Match | Kariukhin Aleksandr | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 11-07 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:56 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:55 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:55 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:54 | eBasketball Game | Los Angeles Lakers (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:54 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:53 | eBasketball Game | Brooklyn Nets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:53 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:46 | eSoccer Game | Chelsea (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:46 | eSoccer Game | RB Leipzig (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:46 | eSoccer Game | Stuttgart (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 10:43 | eSoccer Game | Mönchengladbach (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
