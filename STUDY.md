@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 2:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 3:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50865 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 50870 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48066 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48078 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23804 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2813 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23812 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2816 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2338 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1622 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1533 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -149,8 +149,8 @@
 | Liiga Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
 | Valorant game winner | ✘ | 94 | 0 | 5% | 3% | -100% | -91% | 13 min |
+| Women's T20 Match | ✘ | 93 | 0 | 17% | 4% | -100% | -70% | 26 min |
 | EuroCup Basketball Game | ✘ | 92 | 0 | 5% | 4% | -100% | -91% | 11 min |
-| Women's T20 Match | ✘ | 92 | 0 | 17% | 4% | -100% | -70% | 27 min |
 | Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Peru Liga 1 Game | ✘ | 90 | 0 | 13% | 7% | -100% | -77% | 13 min |
@@ -326,7 +326,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -338,17 +338,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 09:49 | eSoccer Game | FC Bayern (Bony) | ✘ | — | — | In play | — |
-| 11-07 09:49 | eSoccer Game | Manchester City (Shaq) | ✘ | — | — | In play | — |
-| 11-07 09:49 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-07 09:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 09:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 09:48 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | — | In play | — |
-| 11-07 09:47 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
-| 11-07 09:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 09:44 | eSoccer Game | Benfica (Antonio) | ✘ | — | — | In play | — |
+| 11-07 09:59 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
+| 11-07 09:58 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | — | In play | — |
+| 11-07 09:57 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | — | In play | — |
+| 11-07 09:55 | Men's ODI Cricket Match | New Zealand | ✘ | — | — | In play | — |
+| 11-07 09:50 | Russia Liga Pro Match | KHaibullin Danil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:49 | eSoccer Game | FC Bayern (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:49 | eSoccer Game | Manchester City (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:49 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:48 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:47 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:44 | eSoccer Game | Benfica (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:43 | Valorant game winner | MC3D Esports | ✘ | — | — | In play | — |
-| 11-07 09:42 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | — | In play | — |
+| 11-07 09:42 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:39 | Japan B League Game | Ryukyu Golden Kings Okinawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:36 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:35 | eSoccer Game | Paris Saint-Germain (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -362,12 +367,7 @@
 | 11-07 09:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:32 | Korea KBL Game | Daegu Pegasus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:32 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:31 | Women's T20 Match | USA Women | ✘ | — | — | In play | — |
-| 11-07 09:27 | Korea K-League 2 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:26 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:25 | Korea K-League 2 Game | Gimpo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:25 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:24 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:31 | Women's T20 Match | USA Women | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
