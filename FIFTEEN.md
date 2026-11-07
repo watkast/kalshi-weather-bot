@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 6, 5:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 6, 5:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48366 | 48349 | 175 (0%) | 1.07% | -$3,445.90 (-58%) | Hold to the close: -$3,445.90 (-58%) |
+| 48369 | 48349 | 175 (0%) | 1.07% | -$3,445.90 (-58%) | Hold to the close: -$3,445.90 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/6 5:57:04 PM | NEAR | DOWN | 2.9 min | +0.285% | — | In play | — |
+| 11/6 5:55:45 PM | ZEC | DOWN | 4.2 min | +0.564% | — | In play | — |
+| 11/6 5:54:57 PM | HYPE | DOWN | 5.0 min | +0.279% | — | In play | — |
 | 11/6 5:44:49 PM | NATGAS | DOWN | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 5:44:49 PM | BRENT | UP | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/6 5:44:33 PM | DOGE | UP | 26 sec | -0.064% | 0¢ | ❌ Lost | $0.00 |
@@ -216,9 +219,6 @@
 | 11/6 5:13:25 PM | SOL | DOWN | 1.6 min | +0.067% | 1¢ | ❌ Lost | -$0.15 |
 | 11/6 5:11:33 PM | BTC | DOWN | 3.4 min | +0.111% | 2¢ | ❌ Lost | -$0.15 |
 | 11/6 5:11:17 PM | BNB | DOWN | 3.7 min | +0.071% | 1¢ | ❌ Lost | -$0.15 |
-| 11/6 5:10:29 PM | ETH | DOWN | 4.5 min | +0.123% | 1¢ | ❌ Lost | -$0.15 |
-| 11/6 5:10:13 PM | XRP | DOWN | 4.8 min | +0.238% | 1¢ | ❌ Lost | -$0.15 |
-| 11/6 4:59:29 PM | BRENT | DOWN | 30 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
