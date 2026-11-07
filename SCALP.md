@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Nov 07 19:01 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Nov 07 19:06 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -14,18 +14,20 @@
 | **+10¢** | 38347 | 30671 | 7676 (105) | 2 | $-13302.44 | -5.5% |
 | **+15¢** | 32105 | 23831 | 8274 (134) | 2 | $-12224.51 | -6.1% |
 | **+20¢** | 28555 | 19882 | 8673 (177) | 2 | $-10793.47 | -6.0% |
-| **+10¢ (15¢ stop)** | 62572 | 62469 | 103 (61) | 2 | $-23144.27 | -5.9% |
+| **+10¢ (15¢ stop)** | 62575 | 62472 | 103 (61) | 1 | $-23150.99 | -5.9% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
-| 11-07 19:01 | +10 stop | BNB | DOWN | 0.57 | open |  |
+| 11-07 19:04 | +10 stop | BTC | DOWN | 0.69 | open |  |
+| 11-07 19:03 | +10 stop | BNB | UP | 0.54 | 0.38 | -1.95 |
+| 11-07 19:01 | +10 stop | BNB | DOWN | 0.57 | 0.35 | -2.54 |
 | 11-07 19:01 | +20 | BNB | DOWN | 0.57 | open |  |
 | 11-07 19:01 | +15 | BNB | DOWN | 0.57 | open |  |
 | 11-07 19:01 | +10 | BNB | DOWN | 0.57 | open |  |
 | 11-07 19:01 | +5 | BNB | DOWN | 0.57 | open |  |
-| 11-07 19:01 | +10 stop | BTC | DOWN | 0.71 | open |  |
+| 11-07 19:01 | +10 stop | BTC | DOWN | 0.71 | 0.52 | -2.23 |
 | 11-07 19:01 | +20 | BTC | DOWN | 0.71 | open |  |
 | 11-07 19:01 | +15 | BTC | DOWN | 0.71 | open |  |
 | 11-07 19:01 | +10 | BTC | DOWN | 0.71 | open |  |
@@ -58,5 +60,3 @@
 | 11-07 18:50 | +20 | XRP | UP | 0.68 | 0.92 | 2.13 |
 | 11-07 18:50 | +15 | XRP | UP | 0.68 | 0.92 | 2.13 |
 | 11-07 18:50 | +10 | XRP | UP | 0.68 | 0.78 | 0.71 |
-| 11-07 18:50 | +5 | XRP | UP | 0.68 | 0.73 | 0.20 |
-| 11-07 18:50 | +10 stop | ETH | UP | 0.49 | 0.63 | 1.05 |
