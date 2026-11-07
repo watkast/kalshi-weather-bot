@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 3:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 3:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50870 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 50883 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48078 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48084 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23812 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2816 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2338 | 4 | 2% | 1% | -84% | -93% | 2 min |
+| eSoccer Game | ✘ | 23815 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2818 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2339 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1622 | 6 | 14% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1533 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1455 | 2 | 5% | 3% | -87% | -90% | 11 min |
@@ -326,7 +326,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -338,9 +338,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 09:59 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | — | In play | — |
-| 11-07 09:58 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | — | In play | — |
-| 11-07 09:57 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | — | In play | — |
+| 11-07 10:08 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
+| 11-07 10:07 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | — | In play | — |
+| 11-07 10:07 | eSoccer Game | Chelsea (Homie) | ✘ | — | — | In play | — |
+| 11-07 10:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 10:06 | Japan B League Game | Kyoto Hannaryz | ✘ | — | — | In play | — |
+| 11-07 10:03 | eSoccer Game | Manchester City (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 10:03 | eSoccer Game | Leverkusen (Bony) | ✘ | — | — | In play | — |
+| 11-07 10:03 | eSoccer Game | Paris Saint-Germain (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 10:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 10:03 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 11-07 10:03 | eSoccer Game | Montpellier (Millie) | ✘ | — | — | In play | — |
+| 11-07 10:01 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 10:00 | Russia Liga Pro Match | Hramov Andrei | ✘ | — | — | In play | — |
+| 11-07 09:59 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:58 | Russia Liga Pro Match | Egorov Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 09:57 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:55 | Men's ODI Cricket Match | New Zealand | ✘ | — | — | In play | — |
 | 11-07 09:50 | Russia Liga Pro Match | KHaibullin Danil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:49 | eSoccer Game | FC Bayern (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,19 +368,6 @@
 | 11-07 09:43 | Valorant game winner | MC3D Esports | ✘ | — | — | In play | — |
 | 11-07 09:42 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 09:39 | Japan B League Game | Ryukyu Golden Kings Okinawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:36 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:35 | eSoccer Game | Paris Saint-Germain (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:34 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:34 | eBasketball Game | New Orleans Pelicans (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:34 | eSoccer Game | FC Bayern (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:32 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:32 | Korea KBL Game | Daegu Pegasus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:32 | eBasketball Game | Denver Nuggets (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 09:31 | Women's T20 Match | USA Women | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
