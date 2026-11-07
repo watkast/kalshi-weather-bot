@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 11:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 12:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 51 finished bets | 2% | $6.35 | +83% | +12.45¢ | $10.25 / -$3.90 |
 
-*Expect about **1 buys a day**, roughly **$0.22/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50679 | 2776 | 11 (0%) | 1.1% | -$262.40 (-63%) | Hold to the end: -$262.40 (-63%) |
+| 50692 | 2776 | 11 (0%) | 1.1% | -$262.40 (-63%) | Hold to the end: -$262.40 (-63%) |
 
 *In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2776 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 47870 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47883 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23706 | 14 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 23707 | 14 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2795 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2330 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1621 | 6 | 13% | 6% | -65% | -77% | 4 min |
@@ -122,9 +122,9 @@
 | WTA Tennis Match | ✘ | 180 | 0 | 12% | 2% | -100% | -80% | 5 min |
 | Argentina Primera Division Game | ✘ | 161 | 2 | 16% | 9% | +16% | -73% | 8 min |
 | League of Legends Game | ✘ | 159 | 0 | 8% | 2% | -100% | -87% | 11 min |
+| Japan J2 League Game | ✘ | 153 | 1 | 10% | 4% | -39% | -83% | 7 min |
 | Ettan Game | ✘ | 145 | 0 | 3% | 1% | -100% | -94% | 7 min |
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
-| Japan J2 League Game | ✘ | 141 | 1 | 11% | 4% | -34% | -82% | 6 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | College Hockey Game | ✘ | 140 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Liga DIMAYOR Game | ✘ | 137 | 1 | 10% | 3% | -32% | -82% | 8 min |
@@ -338,36 +338,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 06:55 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 06:53 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-07 07:06 | College Football Game | TCU | ✔ | 0:29 - 4th · TCU 28 - ARIZ 29 | — | In play | — |
+| 11-07 07:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 07:03 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | — | In play | — |
+| 11-07 07:01 | China League 1 Game | Tie | ✘ | — | — | In play | — |
+| 11-07 07:01 | Japan J League Game | Fagiano O | ✘ | — | — | In play | — |
+| 11-07 07:01 | Russia Liga Pro Match | Gritsenko Aleksandr | ✘ | — | — | In play | — |
+| 11-07 07:00 | Japan J League Game | Marinos | ✘ | — | — | In play | — |
+| 11-07 07:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 06:59 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 11-07 06:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 06:58 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-07 06:57 | Korea KBL Game | Samsung Thunders | ✘ | — | — | In play | — |
+| 11-07 06:57 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 06:55 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 06:53 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:53 | Korea K League Game | Gwangju | ✘ | — | — | In play | — |
-| 11-07 06:53 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-07 06:53 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:52 | Korea K League Game | Jeju SK | ✘ | — | — | In play | — |
-| 11-07 06:52 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-07 06:52 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:51 | Australian A League Game | Auckland | ✘ | — | — | In play | — |
 | 11-07 06:51 | Australian A League Game | Wellington | ✘ | — | — | In play | — |
 | 11-07 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:49 | Japan J League Game | Tie | ✘ | — | — | In play | — |
 | 11-07 06:49 | China League 1 Game | Meizhou Hakka | ✘ | — | — | In play | — |
 | 11-07 06:49 | eSoccer Game | Stade Brestois 29 (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:49 | Japan J2 League Game | Tosu | ✘ | — | — | In play | — |
+| 11-07 06:49 | Japan J2 League Game | Tosu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:48 | eBasketball Game | Dallas Mavericks (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 06:47 | Korea K-League 2 Game | Seongnam | ✘ | — | — | In play | — |
 | 11-07 06:47 | China League 1 Game | Foshan Nanshi FC | ✘ | — | — | In play | — |
 | 11-07 06:47 | eBasketball Game | New Orleans Pelicans (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:46 | eSoccer Game | RC Celta (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:45 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:45 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:45 | Japan J2 League Game | Imabari | ✘ | — | — | In play | — |
-| 11-07 06:45 | eSoccer Game | CA Osasuna (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:45 | R6 Game | Kingzone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:44 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 06:44 | Japan J2 League Game | Oita | ✘ | — | — | In play | — |
-| 11-07 06:43 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:42 | Russia Liga Pro Match | Voronkov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 06:41 | Japan J2 League Game | Vortis | ✘ | — | — | In play | — |
 
 ## Raw data
 
