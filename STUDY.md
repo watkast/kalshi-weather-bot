@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 6:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 6:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50267 | 2744 | 11 (0%) | 1.1% | -$257.60 (-63%) | Hold to the end: -$257.60 (-63%) |
+| 50292 | 2744 | 11 (0%) | 1.1% | -$257.60 (-63%) | Hold to the end: -$257.60 (-63%) |
 
-*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2744 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 47480 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47497 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23498 | 14 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2773 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2307 | 3 | 2% | 1% | -88% | -93% | 2 min |
+| eSoccer Game | ✘ | 23508 | 14 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2776 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2308 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1619 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1531 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1454 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -109,13 +109,13 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Men's T20 Cricket Match | ✘ | 323 | 2 | 15% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Women's College Volleyball Match | ✘ | 318 | 2 | 5% | 3% | -41% | -92% | 66 min |
+| Women's College Volleyball Match | ✘ | 319 | 2 | 5% | 3% | -41% | -92% | 66 min |
 | Dota 2 Game | ✘ | 302 | 1 | 1% | 1% | -69% | -98% | 31 min |
 | Serie C Game | ✘ | 289 | 2 | 4% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 279 | 1 | 13% | 4% | -67% | -78% | 9 min |
 | NHL Game | ✔ | 260 | 2 | 15% | 8% | -28% | -75% | 5 min |
-| Women's College Basketball Game | partly | 221 | 0 | 11% | 5% | -100% | -81% | 42 min |
-| Men's College Basketball Game | partly | 206 | 3 | 19% | 8% | +36% | -66% | 47 min |
+| Women's College Basketball Game | partly | 222 | 0 | 11% | 5% | -100% | -81% | 42 min |
+| Men's College Basketball Game | partly | 207 | 3 | 19% | 8% | +35% | -67% | 46 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | NBA Game | ✔ | 183 | 0 | 18% | 5% | -100% | -69% | 9 min |
 | WTA Tennis Match | ✘ | 180 | 0 | 12% | 2% | -100% | -80% | 5 min |
@@ -338,36 +338,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-07 01:44 | Men's College Basketball Game | USC Upstate | ✘ | — | — | In play | — |
+| 11-07 01:43 | Women's College Basketball Game | Wichita St. | ✘ | — | — | In play | — |
+| 11-07 01:43 | Men's College Basketball Game | American | ✘ | — | — | In play | — |
+| 11-07 01:41 | League of Legends Game | Karmine Corp | ✘ | — | — | In play | — |
+| 11-07 01:40 | Russia Liga Pro Match | CHerniavskii Boris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:39 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:38 | eBasketball Game | Denver Nuggets (Conor) | ✘ | — | — | In play | — |
+| 11-07 01:38 | Men's College Basketball Game | Southern University | ✘ | — | — | In play | — |
+| 11-07 01:36 | Men's College Basketball Game | Florida Atlantic | ✘ | — | — | In play | — |
+| 11-07 01:35 | eSoccer Game | São Paulo (Declan) | ✘ | — | — | In play | — |
+| 11-07 01:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 01:35 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:35 | Liga Nacional de Basquetbol Game | CA Lanus | ✘ | — | — | In play | — |
+| 11-07 01:35 | Women's College Basketball Game | Northern Iowa | ✘ | — | — | In play | — |
+| 11-07 01:35 | Men's College Basketball Game | Eastern Michigan | ✘ | — | — | In play | — |
+| 11-07 01:35 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
+| 11-07 01:35 | Women's College Volleyball Match | Iowa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:30 | Russia Liga Pro Match | Lediaev Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:30 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:29 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:27 | Men's College Basketball Game | Arkansas St. | ✔ | Halftime · ARST 34 - ALA 51 | — | In play | — |
 | 11-07 01:24 | Women's College Volleyball Match | Cincinnati | ✘ | — | — | In play | — |
-| 11-07 01:21 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | — | In play | — |
-| 11-07 01:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 01:20 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
-| 11-07 01:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:18 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:18 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:17 | eSoccer Game | RC Lens (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:15 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
-| 11-07 01:15 | Women's College Basketball Game | Georgia St. | ✘ | — | — | In play | — |
-| 11-07 01:14 | Call of Duty Games | Stallions | ✘ | — | — | In play | — |
-| 11-07 01:12 | Russia Liga Pro Match | Iankovskii Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:09 | Men's College Basketball Game | Youngstown St. | ✘ | — | — | In play | — |
-| 11-07 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:09 | eSoccer Game | RCD Mallorca (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:07 | eBasketball Game | New York Knicks (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:06 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:05 | Men's College Basketball Game | Northern Kentucky | ✘ | — | — | In play | — |
-| 11-07 01:05 | Women's College Volleyball Match | Mississippi State | ✘ | — | — | In play | — |
-| 11-07 01:04 | eBasketball Game | Golden State Warriors (Dirk) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-07 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:04 | NBA Game | Charlotte | ✔ | 2:37 - 2nd · BOS 62 - CHA 31 | — | In play | — |
-| 11-07 01:04 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 01:02 | Men's College Basketball Game | Southern Miss | ✔ | 19:58 - 1st · USM 0 - ISU 0 | — | In play | — |
+| 11-07 01:21 | eSoccer Game | Sevilla FC (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:20 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
