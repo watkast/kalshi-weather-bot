@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 6:55 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 7:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51121 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 51136 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48302 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48313 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23930 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2845 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23936 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2847 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2349 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1625 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1535 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1461 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1462 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 935 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -157,10 +157,10 @@
 | TFF 1. Lig Game | ✘ | 90 | 0 | 13% | 8% | -100% | -77% | 10 min |
 | R6 Game | ✘ | 89 | 1 | 11% | 6% | +5% | -81% | 10 min |
 | China League 1 Game | ✘ | 89 | 0 | 9% | 4% | -100% | -84% | 12 min |
+| Slovakian 2. Liga Game | ✘ | 88 | 0 | 6% | 5% | -100% | -90% | 66 min |
 | UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | Liga Expansion Game | ✘ | 87 | 0 | 6% | 2% | -100% | -90% | 12 min |
-| Slovakian 2. Liga Game | ✘ | 86 | 0 | 6% | 5% | -100% | -90% | 72 min |
 | Indonesia Super League Game | ✘ | 86 | 0 | 14% | 8% | -100% | -76% | 10 min |
 | Ligue 2 Game | ✘ | 84 | 0 | 8% | 6% | -100% | -86% | 12 min |
 | Euroleague Game | ✘ | 83 | 0 | 22% | 6% | -100% | -62% | 13 min |
@@ -338,36 +338,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 13:53 | Russia Liga Pro Match | Burov Sergey | ✘ | — | — | In play | — |
+| 11-07 14:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 14:04 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
+| 11-07 14:04 | German 3. Liga Game | Havelse | ✘ | — | — | In play | — |
+| 11-07 14:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 14:03 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-07 14:02 | Men's T20 Cricket Match | Lumbini Lions | ✘ | — | — | In play | — |
+| 11-07 14:01 | Challenger ATP  | Matej Dodig | ✘ | — | — | In play | — |
+| 11-07 14:00 | Vietnam V-League 1 Game | Cong an TP Ho Chi Minh | ✘ | — | — | In play | — |
+| 11-07 13:59 | eSoccer Game | Stade Brestois 29 (Eder) | ✘ | — | — | In play | — |
+| 11-07 13:58 | England Women's Super League Game | West Ham | ✘ | — | — | In play | — |
+| 11-07 13:56 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
+| 11-07 13:56 | EFL Championship Game | Tie | ✔ | 68' · NOR 3 - BRC 0 | — | In play | — |
+| 11-07 13:55 | Dota 2 Game | Zenith | ✘ | — | — | In play | — |
+| 11-07 13:55 | Thai League 1 Game | Chonburi | ✘ | — | — | In play | — |
+| 11-07 13:55 | Thai League 1 Game | Port FC | ✘ | — | — | In play | — |
+| 11-07 13:53 | Russia Liga Pro Match | Burov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 13:53 | Bundesliga 2 Game | Tie | ✔ | 90'+5' · DSC 2 - KSV 1 | — | In play | — |
 | 11-07 13:52 | Serbian SuperLiga Game | IMT Novi Beograd | ✘ | — | — | In play | — |
 | 11-07 13:52 | Dota 2 Game | Mena Warriors | ✘ | — | — | In play | — |
 | 11-07 13:52 | Indonesia Super League Game | Persebaya | ✘ | — | — | In play | — |
 | 11-07 13:52 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 13:52 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | — | In play | — |
-| 11-07 13:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 13:52 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 13:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 13:51 | Serbian SuperLiga Game | Zemun | ✘ | — | — | In play | — |
 | 11-07 13:51 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
 | 11-07 13:51 | Indonesia Super League Game | Tie | ✘ | — | — | In play | — |
 | 11-07 13:50 | Bundesliga 2 Game | Tie | ✔ | 90'+2' · FCK 1 - OSN 0 | — | In play | — |
 | 11-07 13:49 | Indonesia Super League Game | Persijap Jepara | ✘ | — | — | In play | — |
-| 11-07 13:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 13:49 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 11-07 13:48 | Slovakian 2. Liga Game | Tie | ✘ | — | — | In play | — |
-| 11-07 13:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 13:48 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 13:47 | Indonesia Super League Game | Persita | ✘ | — | — | In play | — |
-| 11-07 13:47 | Bundesliga 2 Game | Tie | ✔ | 89' · SVD 0 - FCN 2 | — | In play | — |
-| 11-07 13:46 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
-| 11-07 13:46 | Thai League 1 Game | Pattani FC | ✘ | — | — | In play | — |
-| 11-07 13:45 | eSoccer Game | Werder Bremen (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 13:45 | eSoccer Game | Spurs (Mordor) | ✘ | — | — | In play | — |
-| 11-07 13:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 13:44 | Bundesliga 2 Game | Kiel | ✔ | 86' · DSC 2 - KSV 1 | — | In play | — |
-| 11-07 13:43 | Slovakian 2. Liga Game | Povazska Bystrica | ✘ | — | — | In play | — |
-| 11-07 13:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 13:43 | EFL Championship Game | Bristol City | ✔ | 57' · NOR 3 - BRC 0 | — | In play | — |
-| 11-07 13:43 | Bundesliga 2 Game | Osnabruck | ✔ | 85' · FCK 1 - OSN 0 | — | In play | — |
+| 11-07 13:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 13:49 | eSoccer Game | Spurs (Trinity) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
