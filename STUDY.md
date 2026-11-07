@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 2:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 2:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51995 | 2864 | 12 (0%) | 1.1% | -$261.60 (-61%) | Hold to the end: -$261.60 (-61%) |
+| 52027 | 2864 | 12 (0%) | 1.1% | -$261.60 (-61%) | Hold to the end: -$261.60 (-61%) |
 
-*In play right now: 64. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 68. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2864 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49067 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49095 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24201 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2898 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 24211 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2899 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2378 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1629 | 6 | 14% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1542 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1483 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1485 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 942 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| College Football Game | partly | 443 | 3 | 11% | 6% | -37% | -80% | 23 min |
+| College Football Game | partly | 448 | 3 | 11% | 6% | -38% | -81% | 23 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 333 | 2 | 5% | 2% | -44% | -92% | 68 min |
 | Men's T20 Cricket Match | ✘ | 327 | 2 | 16% | 7% | -43% | -73% | 23 min |
@@ -113,9 +113,9 @@
 | Dota 2 Game | ✘ | 314 | 1 | 1% | 1% | -70% | -98% | 31 min |
 | Serie C Game | ✘ | 311 | 2 | 4% | 2% | -40% | -93% | 8 min |
 | Challenger WTA | ✘ | 280 | 1 | 13% | 4% | -67% | -78% | 9 min |
-| Men's College Basketball Game | partly | 266 | 5 | 19% | 8% | +75% | -67% | 46 min |
+| Men's College Basketball Game | partly | 268 | 5 | 19% | 8% | +74% | -67% | 45 min |
 | NHL Game | ✔ | 265 | 2 | 15% | 8% | -30% | -74% | 5 min |
-| Women's College Basketball Game | partly | 255 | 0 | 10% | 4% | -100% | -83% | 40 min |
+| Women's College Basketball Game | partly | 258 | 0 | 10% | 4% | -100% | -83% | 40 min |
 | NBA Game | ✔ | 192 | 0 | 18% | 6% | -100% | -68% | 10 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
 | AHL Game | ✘ | 187 | 0 | 4% | 3% | -100% | -93% | 5 min |
@@ -131,7 +131,7 @@
 | KHL Game | ✘ | 139 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | Liga DIMAYOR Game | ✘ | 137 | 1 | 10% | 3% | -32% | -82% | 8 min |
 | ATP Tennis Match | ✘ | 136 | 0 | 15% | 7% | -100% | -73% | 4 min |
-| Brasileiro Serie B Game | ✘ | 131 | 1 | 8% | 4% | -29% | -87% | 9 min |
+| Brasileiro Serie B Game | ✘ | 133 | 1 | 8% | 4% | -30% | -87% | 10 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Overwatch Game | ✘ | 122 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
@@ -197,9 +197,9 @@
 | LNBP Basketball Game | ✘ | 63 | 0 | 10% | 2% | -100% | -83% | 12 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Czech National Football League Game | ✘ | 62 | 0 | 11% | 6% | -100% | -80% | 9 min |
+| Bolivia Premier Division Game | ✘ | 62 | 0 | 8% | 2% | -100% | -86% | 7 min |
 | Italy Serie A2 Game | ✘ | 61 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | Vietnam V-League 1 Game | ✘ | 60 | 1 | 5% | 3% | +56% | -91% | 11 min |
-| Bolivia Premier Division Game | ✘ | 60 | 0 | 8% | 2% | -100% | -86% | 6 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Liga Portugal Game | ✘ | 58 | 0 | 5% | 2% | -100% | -91% | 12 min |
 | Belgian Pro League Game | ✘ | 58 | 0 | 7% | 0% | -100% | -88% | 19 min |
@@ -224,8 +224,8 @@
 | Chinese Super League Game | ✘ | 47 | 1 | 11% | 6% | +99% | -82% | 17 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
 | Venezuela Liga FUTVE game | ✘ | 46 | 0 | 20% | 11% | -100% | -66% | 5 min |
+| Brazil NBB Basketball Game | ✘ | 46 | 0 | 7% | 4% | -100% | -89% | 17 min |
 | Spain Liga ACB Game | ✘ | 45 | 0 | 7% | 2% | -100% | -88% | 14 min |
-| Brazil NBB Basketball Game | ✘ | 45 | 0 | 7% | 4% | -100% | -88% | 16 min |
 | Czech NBL Game | ✘ | 44 | 0 | 2% | 0% | -100% | -96% | 16 min |
 | Danish Superliga Game | ✘ | 44 | 0 | 11% | 7% | -100% | -80% | 12 min |
 | Croatia HNL Game | ✘ | 43 | 0 | 9% | 5% | -100% | -84% | 9 min |
@@ -341,36 +341,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 21:08 | Brazil NBB Basketball Game | Caxias Do Sul | ✘ | — | — | In play | — |
-| 11-07 21:08 | College Football Game | Northern Iowa | ✘ | — | — | In play | — |
-| 11-07 21:05 | Italy Serie A2 Game | Urania Milano | ✘ | — | — | In play | — |
-| 11-07 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 21:05 | eSoccer Game | Manchester City (Krocs) | ✘ | — | — | In play | — |
-| 11-07 21:04 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 11-07 21:03 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
-| 11-07 21:03 | College Football Game | Portland St. | ✘ | — | — | In play | — |
-| 11-07 21:03 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 11-07 21:02 | Argentina Primera Division Game | Argentinos Juniors | ✘ | — | — | In play | — |
-| 11-07 21:01 | Women's College Basketball Game | South Alabama | ✘ | — | — | In play | — |
-| 11-07 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 21:01 | Serie A Game | Tie | ✔ | 58' · SAS 0 - ROMA 2 | — | In play | — |
-| 11-07 21:01 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
-| 11-07 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 21:01 | Ecuador Liga Pro Game | Tie | ✘ | — | — | In play | — |
-| 11-07 21:01 | LNB Elite 2 Game | Ada Blois Basket 41 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 21:01 | Italy Serie A Game | Pallacanestro Reggiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 21:01 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 11-07 21:01 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 11-07 20:59 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 11-07 20:59 | Men's Iceland Basketball Premier League Game | UMFN Njardvik | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 20:58 | College Football Game | Illinois St. | ✘ | — | — | In play | — |
-| 11-07 20:56 | Counter-Strike 2 Game | Drama eSports | ✘ | — | — | In play | — |
-| 11-07 20:56 | Counter-Strike 2 Game | DNK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 20:56 | College Football Game | Chattanooga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 20:56 | Bare Knuckle Fight Match | Doalty Torrance | ✘ | — | — | In play | — |
-| 11-07 20:56 | Counter-Strike 2 Game | PRIVATE | ✘ | — | — | In play | — |
-| 11-07 20:55 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:19 | eSoccer Game | Benfica (Krocs) | ✘ | — | — | In play | — |
+| 11-07 21:18 | BNXT League Game | Union Mons-Hainaut | ✘ | — | — | In play | — |
+| 11-07 21:17 | eSoccer Game | Chelsea (Eder) | ✘ | — | — | In play | — |
+| 11-07 21:17 | eBasketball Game | Dallas Mavericks (Jimmy) | ✘ | — | — | In play | — |
+| 11-07 21:17 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 11-07 21:17 | College Football Game | Morgan St. | ✘ | — | — | In play | — |
+| 11-07 21:17 | ITF Women's Match | Cadence Brace | ✘ | — | — | In play | — |
+| 11-07 21:17 | Men's College Basketball Game | Lamar | ✘ | — | — | In play | — |
+| 11-07 21:16 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | — | In play | — |
+| 11-07 21:16 | College Football Game | Stony Brook | ✘ | — | — | In play | — |
+| 11-07 21:16 | Argentina Primera Division Game | Rio Cuarto | ✘ | — | — | In play | — |
+| 11-07 21:16 | Men's College Basketball Game | Omaha | ✘ | — | — | In play | — |
+| 11-07 21:16 | Italy Serie A2 Game | US Victoria Libertas | ✘ | — | — | In play | — |
+| 11-07 21:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:15 | Italy Serie A2 Game | Pallacanestro 2.015 Forli | ✘ | — | — | In play | — |
+| 11-07 21:15 | Dota 2 Game | Hokori | ✘ | — | — | In play | — |
+| 11-07 21:15 | Women's College Basketball Game | Valparaiso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 21:14 | Women's College Basketball Game | Marquette | ✔ | 2:24 - 3rd · MINN 60 - MARQ 48 | — | In play | — |
+| 11-07 21:14 | College Football Game | Coastal Carolina | ✔ | 4:43 - 4th · ODU 21 - CCU 8 | — | In play | — |
+| 11-07 21:14 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:14 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | — | In play | — |
+| 11-07 21:14 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 11-07 21:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 21:12 | College Football Game | Rhode Island | ✘ | — | — | In play | — |
+| 11-07 21:12 | Bare Knuckle Fight Match | Kaseem Saleem | ✘ | — | — | In play | — |
+| 11-07 21:11 | Men's College Basketball Game | Marshall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 21:11 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-07 21:10 | College Football Game | William & Mary | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
