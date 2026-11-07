@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 9:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 9:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51454 | 2807 | 11 (0%) | 1.1% | -$267.05 (-63%) | Hold to the end: -$267.05 (-63%) |
+| 51473 | 2807 | 11 (0%) | 1.1% | -$267.05 (-63%) | Hold to the end: -$267.05 (-63%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2807 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48611 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48628 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24037 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2868 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2360 | 4 | 2% | 1% | -84% | -93% | 2 min |
+| eSoccer Game | ✘ | 24049 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2869 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2362 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1626 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1538 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1468 | 2 | 6% | 3% | -87% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1469 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 938 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -129,7 +129,7 @@
 | College Hockey Game | ✘ | 140 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | KHL Game | ✘ | 139 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | Liga DIMAYOR Game | ✘ | 137 | 1 | 10% | 3% | -32% | -82% | 8 min |
-| ATP Tennis Match | ✘ | 134 | 0 | 16% | 7% | -100% | -73% | 4 min |
+| ATP Tennis Match | ✘ | 135 | 0 | 16% | 7% | -100% | -73% | 4 min |
 | EFL Championship Game | ✔ | 132 | 0 | 8% | 5% | -100% | -87% | 10 min |
 | Brasileiro Serie B Game | ✘ | 131 | 1 | 8% | 4% | -29% | -87% | 9 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
@@ -339,36 +339,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 16:40 | eSoccer Game | Chelsea (Eder) | ✘ | — | — | In play | — |
-| 11-07 16:40 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
+| 11-07 16:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 16:49 | Russia Liga Pro Match | Sevalnev Nikolai | ✘ | — | — | In play | — |
+| 11-07 16:48 | LKL Lithuania Game | BC Rytas Vilnius | ✘ | — | — | In play | — |
+| 11-07 16:48 | GBL Basketball Game | Promitheas Patras BC | ✘ | — | — | In play | — |
+| 11-07 16:48 | EFL Championship Game | Sheffield United | ✔ | 89' · SHU 1 - CHA 2 | — | In play | — |
+| 11-07 16:48 | Russia Liga Pro Match | Plotnikov Evgenii | ✘ | — | — | In play | — |
+| 11-07 16:47 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-07 16:46 | Spanish Liga F Game | Athletic | ✘ | — | — | In play | — |
+| 11-07 16:45 | Finland Korisliiga Game | Korihait Uusikaupunki | ✘ | — | — | In play | — |
+| 11-07 16:44 | Scottish Premiership Game | Dundee FC | ✘ | — | — | In play | — |
+| 11-07 16:44 | Super League Greece Game | Volos | ✘ | — | — | In play | — |
+| 11-07 16:42 | Turkey BSL Game | Trabzonspor Basketbol | ✘ | — | — | In play | — |
+| 11-07 16:41 | eSoccer Game | Stuttgart (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:41 | Russia Liga Pro Match | Mukhamedzhanov Mikhail | ✘ | — | — | In play | — |
+| 11-07 16:41 | LaLiga 2 Game | Cadiz | ✔ | 59' · OVI 2 - CAD 0 | — | In play | — |
+| 11-07 16:41 | eSoccer Game | Freiburg (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:41 | Czech NBL Game | BK Opava | ✘ | — | — | In play | — |
+| 11-07 16:40 | eBasketball Game | Golden State Warriors (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:40 | EFL Championship Game | Lincoln | ✔ | 81' · LCN 1 - QPR 2 | — | In play | — |
+| 11-07 16:40 | eSoccer Game | Chelsea (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:40 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 16:38 | EFL Championship Game | Tie | ✔ | 81' · MIL 0 - WBA 2 | — | In play | — |
-| 11-07 16:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 16:38 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
-| 11-07 16:38 | ATP Tennis Match | Arthur Nagel | ✘ | — | — | In play | — |
-| 11-07 16:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 16:37 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | — | In play | — |
-| 11-07 16:36 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 11-07 16:36 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
-| 11-07 16:36 | eSoccer Game | RC Lens (Leyla) | ✘ | — | — | In play | — |
-| 11-07 16:36 | EFL Championship Game | West Ham | ✔ | 79' · WHU 0 - BLK 2 | — | In play | — |
-| 11-07 16:36 | EFL Championship Game | Millwall | ✔ | 78' · MIL 0 - WBA 2 | — | In play | — |
-| 11-07 16:35 | Dota 2 Game | potn9ki | ✘ | — | — | In play | — |
-| 11-07 16:34 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | — | In play | — |
-| 11-07 16:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 16:33 | English Premier League Game | Hull City | ✔ | 73' · HUL 0 - ARS 0 | — | In play | — |
-| 11-07 16:31 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 16:30 | Russia Liga Pro Match | Narzukov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:30 | Belgian Pro League Game | Westerlo | ✘ | — | — | In play | — |
-| 11-07 16:29 | Counter-Strike 2 Game | SAW Youngsters | ✘ | — | — | In play | — |
-| 11-07 16:28 | Women's College Basketball Game | New Orleans | ✘ | — | — | In play | — |
-| 11-07 16:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:27 | eSoccer Game | FC Koln (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:24 | eSoccer Game | Crystal Palace (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:24 | EFL Championship Game | Cardiff | ✔ | 64' · BUR 4 - CAR 1 | — | In play | — |
-| 11-07 16:24 | Bundesliga Game | Tie | ✔ | 90'+4' · ELV 1 - DOR 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 16:23 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:38 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:38 | ATP Tennis Match | Arthur Nagel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:37 | eBasketball Game | Los Angeles Lakers (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:36 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:36 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 16:36 | eSoccer Game | RC Lens (Leyla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
