@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 5:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 6:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51056 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 51075 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 48254 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 48266 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23912 | 14 | 1% | 0% | -95% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2840 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23918 | 14 | 1% | 0% | -95% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2841 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2348 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1625 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1535 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -110,7 +110,7 @@
 | Women's College Volleyball Match | ✘ | 333 | 2 | 5% | 2% | -44% | -92% | 68 min |
 | Men's T20 Cricket Match | ✘ | 323 | 2 | 15% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Dota 2 Game | ✘ | 304 | 1 | 1% | 1% | -69% | -98% | 31 min |
+| Dota 2 Game | ✘ | 306 | 1 | 1% | 1% | -69% | -98% | 31 min |
 | Serie C Game | ✘ | 289 | 2 | 4% | 2% | -35% | -92% | 6 min |
 | Challenger WTA | ✘ | 279 | 1 | 13% | 4% | -67% | -78% | 9 min |
 | NHL Game | ✔ | 263 | 2 | 15% | 8% | -29% | -74% | 5 min |
@@ -236,17 +236,17 @@
 | Qatar Stars League | ✘ | 39 | 0 | 10% | 5% | -100% | -82% | 7 min |
 | Bundesliga Basketball Game | ✘ | 38 | 0 | 11% | 5% | -100% | -82% | 13 min |
 | Korea KBL Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| Australian A League Game | ✘ | 38 | 0 | 8% | 0% | -100% | -86% | 10 min |
 | Indian Super League Game | ✘ | 38 | 0 | 16% | 8% | -100% | -73% | 8 min |
 | Latvian Virsliga Game | ✘ | 37 | 0 | 16% | 8% | -100% | -72% | 21 min |
 | Slovenian Prva Liga Game | ✘ | 37 | 0 | 5% | 3% | -100% | -91% | 6 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Champions League Women's Game | partly | 36 | 1 | 19% | 8% | +159% | -66% | 26 min |
-| Australian A League Game | ✘ | 36 | 0 | 6% | 0% | -100% | -90% | 9 min |
 | Canadian Premier League | ✘ | 35 | 1 | 14% | 14% | +167% | -75% | 22 min |
 | Swiss Super League Game | ✘ | 35 | 1 | 6% | 3% | +167% | -90% | 12 min |
+| Russia VTB United Game | ✘ | 34 | 0 | 6% | 0% | -100% | -90% | 14 min |
 | Austrian Bundesliga Game | ✘ | 34 | 0 | 9% | 6% | -100% | -85% | 13 min |
 | Hungarian NB I Game | ✘ | 34 | 0 | 9% | 9% | -100% | -85% | 6 min |
-| Russia VTB United Game | ✘ | 33 | 0 | 6% | 0% | -100% | -89% | 15 min |
 | Turkey BSL Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Austria BSL Game | ✘ | 32 | 0 | 9% | 6% | -100% | -84% | 10 min |
 | DFB Pokal Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 18 min |
@@ -338,36 +338,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-07 13:05 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | — | In play | — |
+| 11-07 13:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 13:04 | Indian Super League Game | Inter Kashi | ✘ | — | — | In play | — |
+| 11-07 13:03 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 11-07 13:03 | eSoccer Game | 1. FC Köln (Antonio) | ✘ | — | — | In play | — |
+| 11-07 13:03 | Liga Portugal 2 Game | Leixoes | ✘ | — | — | In play | — |
+| 11-07 13:02 | Women's ODI Cricket Match | Dolphins Women | ✘ | — | — | In play | — |
+| 11-07 13:01 | eSoccer Game | FC Bayern (Bony) | ✘ | — | — | In play | — |
+| 11-07 13:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 13:00 | Russia Liga Pro Match | Amelichkin Igor | ✘ | — | — | In play | — |
+| 11-07 13:00 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 12:59 | Polish Ekstraklasa Game | Korona Kielce | ✘ | — | — | In play | — |
+| 11-07 12:58 | Spanish Liga F Game | Tie | ✘ | — | — | In play | — |
+| 11-07 12:58 | Russia Liga Pro Match | Khaperskii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 12:57 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 12:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 12:57 | Vietnam V-League 1 Game | Haiphong | ✘ | — | — | In play | — |
+| 11-07 12:57 | Vietnam V-League 1 Game | Nghe An | ✘ | — | — | In play | — |
 | 11-07 12:54 | Liga Portugal 2 Game | Felgueiras | ✘ | — | — | In play | — |
 | 11-07 12:52 | Vietnam V-League 1 Game | Tie | ✘ | — | — | In play | — |
-| 11-07 12:52 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | — | In play | — |
+| 11-07 12:52 | eSoccer Game | Newcastle Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 12:51 | Serie A Femminile Game | Como 1907 | ✘ | — | — | In play | — |
-| 11-07 12:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 12:51 | Russia VTB United Game | MBA Moscow | ✘ | — | — | In play | — |
+| 11-07 12:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 12:51 | Russia VTB United Game | MBA Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 12:50 | eSoccer Game | 1. FC Köln (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 12:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 12:49 | Spanish Liga F Game | Granada | ✘ | — | — | In play | — |
 | 11-07 12:48 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 12:48 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:47 | eSoccer Game | Leverkusen (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:47 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:47 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:47 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-07 12:42 | ATP Tennis Match | Mika Brunold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:37 | Vietnam V-League 1 Game | Bac Ninh | ✘ | — | — | In play | — |
-| 11-07 12:37 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:35 | eSoccer Game | Werder Bremen (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:35 | ITF Women's Match | Luca Kalman | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-07 12:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:34 | Overwatch Game | Stronghold | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:33 | eSoccer Game | Hoffenheim (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:31 | Australian A League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 12:31 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 12:31 | German Women's Bundesliga Game | Tie | ✘ | — | — | In play | — |
-| 11-07 12:30 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
