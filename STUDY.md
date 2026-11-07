@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 5:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50198 | 2741 | 11 (0%) | 1.1% | -$257.15 (-63%) | Hold to the end: -$257.15 (-63%) |
+| 50212 | 2741 | 11 (0%) | 1.1% | -$257.15 (-63%) | Hold to the end: -$257.15 (-63%) |
 
-*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2741 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 47415 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47425 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23458 | 14 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2767 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2303 | 3 | 2% | 1% | -88% | -93% | 2 min |
+| eSoccer Game | ✘ | 23462 | 14 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2770 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2304 | 3 | 2% | 1% | -88% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1619 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1531 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1454 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -128,7 +128,7 @@
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | KHL Game | ✘ | 137 | 0 | 4% | 2% | -100% | -92% | 6 min |
 | Liga DIMAYOR Game | ✘ | 133 | 1 | 11% | 3% | -30% | -82% | 7 min |
-| Brasileiro Serie B Game | ✘ | 129 | 1 | 8% | 4% | -28% | -87% | 9 min |
+| Brasileiro Serie B Game | ✘ | 131 | 1 | 8% | 4% | -29% | -87% | 9 min |
 | ATP Tennis Match | ✘ | 129 | 0 | 16% | 6% | -100% | -73% | 4 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | EFL Championship Game | ✔ | 126 | 0 | 8% | 5% | -100% | -86% | 10 min |
@@ -338,36 +338,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-07 00:43 | Call of Duty Games | Vancouver Surge | ✘ | — | — | In play | — |
+| 11-07 00:40 | eSoccer Game | Girona (Drakon) | ✘ | — | — | In play | — |
+| 11-07 00:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 00:40 | eBasketball Game | New York Knicks (Conor) | ✘ | — | — | In play | — |
+| 11-07 00:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 00:37 | eSoccer Game | Botafogo (Luis) | ✘ | — | — | In play | — |
+| 11-07 00:37 | eBasketball Game | Brooklyn Nets (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:37 | Women's College Basketball Game | Boston University | ✘ | — | — | In play | — |
+| 11-07 00:35 | Russia Liga Pro Match | CHerniavskii Boris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-07 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 00:34 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | — | In play | — |
+| 11-07 00:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-07 00:32 | eSoccer Game | RC Lens (Adri) | ✘ | — | — | In play | — |
-| 11-07 00:32 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | — | In play | — |
-| 11-07 00:31 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | — | In play | — |
+| 11-07 00:32 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:31 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 00:28 | ITF Women's Match | Yara Bartashevich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 00:28 | Men's College Basketball Game | Mississippi Valley St. | ✘ | — | — | In play | — |
 | 11-07 00:28 | Men's College Basketball Game | Detroit Mercy | ✘ | — | — | In play | — |
 | 11-07 00:28 | Men's College Basketball Game | Texas Southern | ✘ | — | — | In play | — |
-| 11-07 00:28 | eSoccer Game | RC Celta (Zaroth) | ✘ | — | — | In play | — |
-| 11-07 00:28 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 11-07 00:27 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | — | In play | — |
+| 11-07 00:28 | eSoccer Game | RC Celta (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:28 | Brasileiro Serie B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:27 | eSoccer Game | Getafe CF (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 00:26 | Call of Duty Games | OMiT Brooklyn | ✘ | — | — | In play | — |
 | 11-07 00:26 | Men's College Basketball Game | Wofford | ✘ | — | — | In play | — |
-| 11-07 00:23 | eSoccer Game | São Paulo (Declan) | ✘ | — | — | In play | — |
-| 11-07 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 00:23 | eSoccer Game | São Paulo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 00:23 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 00:22 | eSoccer Game | Estudiantes (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 00:22 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 00:21 | Women's College Basketball Game | Houston Christian | ✘ | — | — | In play | — |
-| 11-07 00:21 | Brasileiro Serie B Game | Sport Recife | ✘ | — | — | In play | — |
-| 11-07 00:21 | Men's College Basketball Game | Troy | ✘ | — | — | In play | — |
-| 11-07 00:21 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
-| 11-07 00:20 | Women's College Volleyball Match | Virginia | ✘ | — | — | In play | — |
-| 11-07 00:19 | Men's College Basketball Game | Stetson | ✘ | — | — | In play | — |
-| 11-07 00:19 | Men's College Basketball Game | New Haven | ✘ | — | — | In play | — |
-| 11-07 00:16 | Brasileiro Serie A Game | Vitoria | ✔ | 56' · FLU 2 - VIT 0 | — | In play | — |
-| 11-07 00:14 | Men's College Basketball Game | Eastern Washington | ✘ | — | — | In play | — |
-| 11-07 00:14 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 00:13 | eSoccer Game | Chelsea (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 00:13 | eSoccer Game | Tie | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 11-07 00:12 | eSoccer Game | FC Barcelona (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
