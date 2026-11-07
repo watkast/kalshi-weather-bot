@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 6, 10:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 6, 10:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50583 | 2773 | 11 (0%) | 1.1% | -$261.95 (-63%) | Hold to the end: -$261.95 (-63%) |
+| 50588 | 2773 | 11 (0%) | 1.1% | -$261.95 (-63%) | Hold to the end: -$261.95 (-63%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2773 | 13% | 9% | 6% | 3% | 1% | 1% |
-| Unverified | 47788 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47801 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23648 | 14 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2784 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 23658 | 14 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2785 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2324 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1621 | 6 | 13% | 6% | -65% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1531 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -107,7 +107,7 @@
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 418 | 3 | 12% | 6% | -33% | -80% | 24 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 332 | 2 | 5% | 2% | -44% | -92% | 67 min |
+| Women's College Volleyball Match | ✘ | 333 | 2 | 5% | 2% | -44% | -92% | 68 min |
 | Men's T20 Cricket Match | ✘ | 323 | 2 | 15% | 7% | -42% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Dota 2 Game | ✘ | 302 | 1 | 1% | 1% | -69% | -98% | 31 min |
@@ -118,7 +118,7 @@
 | Women's College Basketball Game | partly | 241 | 0 | 10% | 5% | -100% | -82% | 40 min |
 | NBA Game | ✔ | 190 | 0 | 17% | 5% | -100% | -70% | 9 min |
 | Major League Soccer Game | partly | 187 | 1 | 12% | 6% | -50% | -80% | 8 min |
-| AHL Game | ✘ | 186 | 0 | 4% | 3% | -100% | -93% | 5 min |
+| AHL Game | ✘ | 187 | 0 | 4% | 3% | -100% | -93% | 5 min |
 | WTA Tennis Match | ✘ | 180 | 0 | 12% | 2% | -100% | -80% | 5 min |
 | Argentina Primera Division Game | ✘ | 161 | 2 | 16% | 9% | +16% | -73% | 8 min |
 | League of Legends Game | ✘ | 159 | 0 | 8% | 2% | -100% | -87% | 11 min |
@@ -326,7 +326,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -338,16 +338,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 05:32 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
-| 11-07 05:28 | eSoccer Game | Valencia CF (Declan) | ✘ | — | — | In play | — |
-| 11-07 05:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 05:28 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-07 05:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 05:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 05:27 | eSoccer Game | Sevilla FC (Hazard) | ✘ | — | — | In play | — |
+| 11-07 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 05:41 | eSoccer Game | Villarreal CF (Frenkie) | ✘ | — | — | In play | — |
+| 11-07 05:37 | Russia Liga Pro Match | Gritsenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:34 | eSoccer Game | Newcastle Utd (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:32 | AHL Game | San Jose Barracuda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:28 | eSoccer Game | Valencia CF (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:28 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:27 | eSoccer Game | Sevilla FC (Hazard) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:26 | AHL Game | San Diego Gulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 05:25 | eSoccer Game | Portugal (Kate) | ✘ | — | — | In play | — |
+| 11-07 05:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 05:25 | eSoccer Game | Portugal (Kate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:24 | Russia Liga Pro Match | Barchukov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:20 | Russia Liga Pro Match | Malinovskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:19 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -363,11 +368,6 @@
 | 11-07 05:14 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:13 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 05:13 | eSoccer Game | Spain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:12 | Men's College Basketball Game | Tarleton St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:09 | R6 Game | TYLOO | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:05 | NWSL Game | Tie | ✔ | 90'+7' · UTA 1 - SD 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
