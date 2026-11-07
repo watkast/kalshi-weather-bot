@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 12:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 1:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50746 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
+| 50752 | 2777 | 11 (0%) | 1.1% | -$262.55 (-63%) | Hold to the end: -$262.55 (-63%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2777 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 47941 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 47955 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 23738 | 14 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 23748 | 14 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2802 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2332 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1622 | 6 | 14% | 6% | -65% | -77% | 4 min |
@@ -137,9 +137,9 @@
 | Overwatch Game | ✘ | 118 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | EFL League One Game | ✔ | 112 | 0 | 9% | 3% | -100% | -85% | 10 min |
 | USL Championship Game | partly | 110 | 0 | 12% | 5% | -100% | -80% | 5 min |
+| Japan J League Game | ✘ | 109 | 1 | 14% | 6% | -14% | -76% | 12 min |
 | UEFA Champions League Game | partly | 109 | 1 | 11% | 5% | -14% | -81% | 10 min |
 | CONCACAF Nations League Game | partly | 108 | 2 | 20% | 7% | +73% | -65% | 19 min |
-| Japan J League Game | ✘ | 107 | 1 | 14% | 6% | -13% | -76% | 13 min |
 | Eerste Divisie Game | ✘ | 101 | 0 | 8% | 5% | -100% | -86% | 12 min |
 | LaLiga 2 Game | partly | 100 | 1 | 17% | 8% | -7% | -71% | 8 min |
 | German 3. Liga Game | ✘ | 97 | 0 | 11% | 5% | -100% | -80% | 8 min |
@@ -148,7 +148,7 @@
 | Serie A Game | ✔ | 96 | 0 | 9% | 4% | -100% | -84% | 12 min |
 | Liiga Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
-| Valorant game winner | ✘ | 92 | 0 | 5% | 3% | -100% | -91% | 12 min |
+| Valorant game winner | ✘ | 94 | 0 | 5% | 3% | -100% | -91% | 13 min |
 | EuroCup Basketball Game | ✘ | 92 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Women's T20 Match | ✘ | 91 | 0 | 16% | 4% | -100% | -71% | 26 min |
 | Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
@@ -338,15 +338,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-07 08:04 | China League 1 Game | Tie | ✘ | — | — | In play | — |
+| 11-07 07:59 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:58 | eSoccer Game | Real Sociedad (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:55 | China League 1 Game | Shenzhen Juniors FC | ✘ | — | — | In play | — |
-| 11-07 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-07 07:55 | eSoccer Game | RCD Mallorca (Holis) | ✘ | — | — | In play | — |
-| 11-07 07:54 | Japan J League Game | Tie | ✘ | — | — | In play | — |
-| 11-07 07:54 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 11-07 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:55 | eSoccer Game | RCD Mallorca (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:54 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-07 07:54 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:53 | China League 1 Game | Tie | ✘ | — | — | In play | — |
 | 11-07 07:51 | Australia NBL Game | Illawarra Hawks | ✘ | — | — | In play | — |
-| 11-07 07:46 | Japan J League Game | Kashima | ✘ | — | — | In play | — |
-| 11-07 07:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-07 07:46 | Japan J League Game | Kashima | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-07 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:43 | China League 1 Game | Guandong GZ-Power FC | ✘ | — | — | In play | — |
 | 11-07 07:43 | eSoccer Game | Sevilla FC (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,19 +361,13 @@
 | 11-07 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:41 | eSoccer Game | Real Sociedad (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:40 | eSoccer Game | Nantes (Homie) | ✘ | — | — | In play | — |
+| 11-07 07:40 | eSoccer Game | Nantes (Homie) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 11-07 07:40 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:40 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:40 | Russia Liga Pro Match | Smyshnikov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:39 | China League 1 Game | Guangxi Hengchen FC | ✘ | — | — | In play | — |
 | 11-07 07:36 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-07 07:36 | Valorant game winner | TERAHORNS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:32 | Valorant game winner | Re:AUTH | ✘ | — | — | In play | — |
-| 11-07 07:31 | Valorant game winner | ECS e-Sports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:31 | eSoccer Game | Stade Brestois 29 (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:30 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-07 07:30 | Valorant game winner | 4112ap | ✘ | — | — | In play | — |
 
 ## Raw data
 
