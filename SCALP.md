@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Nov 07 03:50 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Nov 07 04:00 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,21 +10,21 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 50409 | 43936 | 6473 (76) | 1 | $-14203.33 | -4.5% |
-| **+10¢** | 37622 | 30086 | 7536 (102) | 1 | $-13134.35 | -5.6% |
-| **+15¢** | 31506 | 23383 | 8123 (131) | 1 | $-12073.40 | -6.1% |
-| **+20¢** | 28011 | 19496 | 8515 (173) | 1 | $-10673.47 | -6.1% |
-| **+10¢ (15¢ stop)** | 61375 | 61276 | 99 (58) | 1 | $-22723.16 | -5.9% |
+| **+5¢** | 50410 | 43937 | 6473 (76) | 0 | $-14202.90 | -4.5% |
+| **+10¢** | 37623 | 30087 | 7536 (102) | 0 | $-13133.45 | -5.6% |
+| **+15¢** | 31507 | 23384 | 8123 (131) | 0 | $-12071.56 | -6.1% |
+| **+20¢** | 28012 | 19497 | 8515 (173) | 0 | $-10671.63 | -6.1% |
+| **+10¢ (15¢ stop)** | 61376 | 61277 | 99 (58) | 0 | $-22722.26 | -5.9% |
 
 ## Latest trades
 
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
-| 11-07 03:48 | +5 | ZEC | UP | 0.69 | open |  |
-| 11-07 03:46 | +10 stop | ZEC | UP | 0.64 | open |  |
-| 11-07 03:46 | +20 | ZEC | UP | 0.64 | open |  |
-| 11-07 03:46 | +15 | ZEC | UP | 0.64 | open |  |
-| 11-07 03:46 | +10 | ZEC | UP | 0.64 | open |  |
+| 11-07 03:48 | +5 | ZEC | UP | 0.69 | 0.76 | 0.43 |
+| 11-07 03:46 | +10 stop | ZEC | UP | 0.64 | 0.76 | 0.90 |
+| 11-07 03:46 | +20 | ZEC | UP | 0.64 | 0.85 | 1.84 |
+| 11-07 03:46 | +15 | ZEC | UP | 0.64 | 0.85 | 1.84 |
+| 11-07 03:46 | +10 | ZEC | UP | 0.64 | 0.76 | 0.90 |
 | 11-07 03:46 | +5 | ZEC | UP | 0.63 | 0.68 | 0.17 |
 | 11-07 03:32 | +10 stop | BNB | UP | 0.45 | 0.26 | -2.22 |
 | 11-07 03:32 | +10 stop | ETH | DOWN | 0.68 | 0.85 | 1.45 |
