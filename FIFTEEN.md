@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Nov 7, 10:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Nov 7, 10:58 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 48894 | 48877 | 177 (0%) | 1.07% | -$3,475.05 (-58%) | Hold to the close: -$3,475.05 (-58%) |
+| 48896 | 48877 | 177 (0%) | 1.07% | -$3,475.05 (-58%) | Hold to the close: -$3,475.05 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/7 10:58:04 AM | BNB | DOWN | 1.9 min | +0.029% | — | In play | — |
+| 11/7 10:58:04 AM | XRP | DOWN | 1.9 min | +0.086% | — | In play | — |
 | 11/7 10:44:20 AM | XRP | DOWN | 39 sec | +0.017% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 10:44:06 AM | NEAR | DOWN | 54 sec | +0.055% | 0¢ | ❌ Lost | $0.00 |
 | 11/7 10:43:48 AM | HYPE | DOWN | 72 sec | +0.089% | 0¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,6 @@
 | 11/7 10:12:47 AM | DOGE | DOWN | 2.2 min | +0.124% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 10:12:47 AM | ETH | DOWN | 2.2 min | +0.080% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 9:59:57 AM | XRP | UP | 3 sec | -0.026% | 0¢ | ❌ Lost | -$0.15 |
-| 11/7 9:59:26 AM | BNB | UP | 33 sec | -0.037% | 1¢ | ❌ Lost | $0.00 |
-| 11/7 9:59:08 AM | DOGE | UP | 52 sec | -0.061% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
