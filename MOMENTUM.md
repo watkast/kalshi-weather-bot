@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sat Nov 07 05:04 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sat Nov 07 05:14 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 34598 | 30032 | 4566 (128) | 4 | $-1494.84 | -0.7% |
-| **20¢+ jump, ride past +5¢** | 21304 | 11641 | 9663 (4338) | 5 | $-6970.94 | -5.1% |
+| **20¢+ jump, sell +5¢** | 34608 | 30042 | 4566 (128) | 4 | $-1488.81 | -0.7% |
+| **20¢+ jump, ride past +5¢** | 21309 | 11646 | 9663 (4338) | 4 | $-6968.19 | -5.1% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,12 +18,26 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 11-07 05:03 | J20R | HYPE | UP | 21¢ | 0.60 | open |  |
-| 11-07 05:03 | J20 | HYPE | UP | 21¢ | 0.60 | open |  |
-| 11-07 05:03 | J20R | ETH | UP | 20¢ | 0.65 | open |  |
+| 11-07 05:12 | J20 | HYPE | DOWN | 24¢ | 0.59 | 0.64 | 0.16 |
+| 11-07 05:11 | J20R | HYPE | DOWN | 35¢ | 0.49 | 0.58 | 0.50 |
+| 11-07 05:11 | J20 | HYPE | DOWN | 35¢ | 0.50 | 0.57 | 0.34 |
+| 11-07 05:10 | J20R | SOL | UP | 26¢ | 0.69 | open |  |
+| 11-07 05:10 | J20 | SOL | UP | 26¢ | 0.70 | open |  |
+| 11-07 05:09 | J20 | BTC | DOWN | 28¢ | 0.33 | open |  |
+| 11-07 05:09 | J20 | BTC | DOWN | 28¢ | 0.37 | 0.54 | 1.35 |
+| 11-07 05:09 | J20 | BTC | DOWN | 28¢ | 0.37 | 0.54 | 1.35 |
+| 11-07 05:09 | J20R | BTC | DOWN | 28¢ | 0.44 | open |  |
+| 11-07 05:09 | J20 | BTC | DOWN | 28¢ | 0.44 | 0.54 | 0.64 |
+| 11-07 05:07 | J20 | SOL | DOWN | 26¢ | 0.53 | 0.58 | 0.14 |
+| 11-07 05:05 | J20 | SOL | UP | 20¢ | 0.68 | 0.74 | 0.30 |
+| 11-07 05:04 | J20R | SOL | UP | 20¢ | 0.65 | 0.71 | 0.29 |
+| 11-07 05:04 | J20 | SOL | UP | 20¢ | 0.65 | 0.70 | 0.19 |
+| 11-07 05:03 | J20R | HYPE | UP | 21¢ | 0.60 | 0.68 | 0.47 |
+| 11-07 05:03 | J20 | HYPE | UP | 21¢ | 0.60 | 0.73 | 0.99 |
+| 11-07 05:03 | J20R | ETH | UP | 20¢ | 0.65 | 0.81 | 1.33 |
 | 11-07 05:03 | J20 | ETH | UP | 20¢ | 0.65 | 0.70 | 0.19 |
-| 11-07 05:03 | J20R | BTC | UP | 22¢ | 0.59 | open |  |
-| 11-07 05:03 | J20 | BTC | UP | 22¢ | 0.59 | open |  |
+| 11-07 05:03 | J20R | BTC | UP | 22¢ | 0.59 | 0.64 | 0.16 |
+| 11-07 05:03 | J20 | BTC | UP | 22¢ | 0.59 | 0.68 | 0.57 |
 | 11-07 05:02 | J20R | DOGE | DOWN | 20¢ | 0.65 | open |  |
 | 11-07 05:02 | J20 | DOGE | DOWN | 20¢ | 0.65 | open |  |
 | 11-07 05:02 | J20R | XRP | DOWN | 22¢ | 0.64 | open |  |
@@ -44,17 +58,3 @@
 | 11-07 04:52 | J20R | ETH | UP | 21¢ | 0.58 | 0.74 | 1.28 |
 | 11-07 04:52 | J20 | ETH | UP | 21¢ | 0.58 | 0.67 | 0.56 |
 | 11-07 04:48 | J20R | BNB | DOWN | 29¢ | 0.80 | 0.86 | 0.39 |
-| 11-07 04:48 | J20 | BNB | DOWN | 29¢ | 0.80 | 0.86 | 0.39 |
-| 11-07 04:48 | J20R | BTC | UP | 22¢ | 0.52 | 0.77 | 2.19 |
-| 11-07 04:48 | J20 | BTC | UP | 22¢ | 0.52 | 0.62 | 0.65 |
-| 11-07 04:46 | J20R | HYPE | DOWN | 30¢ | 0.75 | 0.87 | 0.98 |
-| 11-07 04:46 | J20 | HYPE | DOWN | 30¢ | 0.75 | 0.80 | 0.24 |
-| 11-07 04:43 | J20 | BNB | DOWN | 46¢ | 0.78 | 0.97 | 1.71 |
-| 11-07 04:42 | J20 | SOL | DOWN | 36¢ | 0.80 | 0.89 | 0.71 |
-| 11-07 04:42 | J20 | ETH | UP | 20¢ | 0.34 | no | -3.56 |
-| 11-07 04:42 | J20 | ETH | UP | 20¢ | 0.29 | 0.35 | 0.29 |
-| 11-07 04:42 | J20R | ETH | UP | 20¢ | 0.32 | no | -3.36 |
-| 11-07 04:42 | J20 | ETH | UP | 20¢ | 0.29 | 0.35 | 0.29 |
-| 11-07 04:41 | J20R | SOL | UP | 20¢ | 0.56 | no | -5.78 |
-| 11-07 04:41 | J20 | BTC | DOWN | 33¢ | 0.24 | 0.31 | 0.42 |
-| 11-07 04:41 | J20 | BTC | DOWN | 33¢ | 0.22 | 0.49 | 2.39 |
