@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 1:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 1:52 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52909 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
+| 52919 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2976 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49909 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49922 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24618 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2947 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2423 | 4 | 2% | 1% | -85% | -93% | 2 min |
+| eSoccer Game | ✘ | 24628 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2948 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2425 | 4 | 2% | 1% | -85% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1636 | 6 | 14% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1546 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1493 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -341,18 +341,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-08 08:39 | eSoccer Game | Paris Saint-Germain (Mordor) | ✘ | — | — | In play | — |
-| 11-08 08:39 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | — | In play | — |
-| 11-08 08:39 | eSoccer Game | Real Madrid (Antonio) | ✘ | — | — | In play | — |
-| 11-08 08:39 | eSoccer Game | Slavia Praha (Hurricane) | ✘ | — | — | In play | — |
-| 11-08 08:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 08:39 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 11-08 08:51 | Chinese Super League Game | Tie | ✘ | — | — | In play | — |
+| 11-08 08:51 | eSoccer Game | Liverpool (Antonio) | ✘ | — | — | In play | — |
+| 11-08 08:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 08:50 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-08 08:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 08:46 | Korea K League Game | Bucheon | ✘ | — | — | In play | — |
+| 11-08 08:45 | Chinese Super League Game | Qingdao West Coast FC | ✘ | — | — | In play | — |
+| 11-08 08:45 | Chinese Super League Game | Henan | ✘ | — | — | In play | — |
+| 11-08 08:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:43 | Russia Liga Pro Match | Ivanov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eSoccer Game | Paris Saint-Germain (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eBasketball Game | New York Knicks (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eSoccer Game | Real Madrid (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eSoccer Game | Slavia Praha (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:39 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:38 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 08:37 | eBasketball Game | Brooklyn Nets (Melo) | ✘ | — | — | In play | — |
-| 11-08 08:37 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-08 08:37 | eSoccer Game | Liverpool (Bony) | ✘ | — | — | In play | — |
-| 11-08 08:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 08:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:37 | eBasketball Game | Brooklyn Nets (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:37 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:37 | eSoccer Game | Liverpool (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 08:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:29 | Russia Liga Pro Match | Bikkulov Emil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:28 | eSoccer Game | OGC Nice (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -361,16 +371,6 @@
 | 11-08 08:24 | eSoccer Game | Arsenal (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:24 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:24 | eSoccer Game | Real Madrid (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:24 | eSoccer Game | Juventus (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:22 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:22 | R6 Game | ENTERPRISE Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:21 | Japan B League Game | Shiga Lakestars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 08:18 | Women's T20 Match | Melbourne Stars Women | ✘ | — | — | In play | — |
-| 11-08 08:16 | Chinese Super League Game | Tie | ✘ | — | — | In play | — |
-| 11-08 08:16 | Challenger ATP  | Jan Kumstat | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-08 08:15 | Chinese Super League Game | Liaoning Tieren | ✘ | — | — | In play | — |
 
 ## Raw data
 
