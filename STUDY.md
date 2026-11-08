@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 8:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 8:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53242 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
+| 53278 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
 
-*In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 77. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2976 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 50208 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 50225 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24772 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2978 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 24782 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2979 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2439 | 4 | 2% | 1% | -85% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1640 | 6 | 14% | 6% | -66% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1642 | 6 | 14% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1554 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1499 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -111,7 +111,7 @@
 | Men's T20 Cricket Match | ✘ | 328 | 2 | 16% | 7% | -43% | -73% | 23 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Dota 2 Game | ✘ | 319 | 1 | 1% | 1% | -71% | -98% | 31 min |
-| Serie C Game | ✘ | 315 | 2 | 4% | 2% | -41% | -93% | 8 min |
+| Serie C Game | ✘ | 319 | 2 | 4% | 2% | -41% | -93% | 8 min |
 | Men's College Basketball Game | partly | 310 | 5 | 19% | 7% | +51% | -68% | 36 min |
 | Challenger WTA | ✘ | 280 | 1 | 13% | 4% | -67% | -78% | 9 min |
 | Women's College Basketball Game | partly | 279 | 1 | 10% | 4% | -67% | -83% | 37 min |
@@ -342,36 +342,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-08 15:46 | Spanish Liga F Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:46 | Dota 2 Game | Team Synapse | ✘ | — | — | In play | — |
-| 11-08 15:45 | Serie A Game | Monza | ✔ | 86' · ATA 1 - MON 0 | — | In play | — |
-| 11-08 15:45 | Slovenian Prva Liga Game | Aluminij Kidricevo | ✘ | — | — | In play | — |
-| 11-08 15:45 | Dota 2 Game | Nemiga Gaming | ✘ | — | — | In play | — |
-| 11-08 15:45 | English Premier League Game | Tie | ✔ | 85' · LIV 2 - CRY 0 | — | In play | — |
-| 11-08 15:45 | eSoccer Game | Hoffenheim (Krocs) | ✘ | — | — | In play | — |
-| 11-08 15:45 | Ettan Game | Jarfalla | ✘ | — | — | In play | — |
-| 11-08 15:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:44 | Serie B Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:43 | ITF Women's Match | Kim Chiarello | ✘ | — | — | In play | — |
-| 11-08 15:43 | eSoccer Game | Paris Saint-Germain (Rooney) | ✘ | — | — | In play | — |
-| 11-08 15:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:43 | Serie A Game | Tie | ✔ | 83' · MIL 2 - GEN 0 | — | In play | — |
-| 11-08 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:42 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 15:42 | Ettan Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:42 | eSoccer Game | Olympique de Marseille (Niskanen15) | ✘ | — | — | In play | — |
-| 11-08 15:41 | Russia Liga Pro Match | Ivanov Denis | ✘ | — | — | In play | — |
-| 11-08 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:41 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:41 | Spanish Liga F Game | Madrid CFF | ✘ | — | — | In play | — |
-| 11-08 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:39 | Romanian Liga I Game | Voluntari | ✘ | — | — | In play | — |
-| 11-08 15:38 | English Premier League Game | Ipswich Town | ✔ | 82' · BOU 2 - IPS 1 | — | In play | — |
-| 11-08 15:37 | Serie A Game | Genoa | ✔ | 78' · MIL 2 - GEN 0 | — | In play | — |
-| 11-08 15:37 | Slovakia Niké liga Game | Ruzomberok | ✘ | — | — | In play | — |
-| 11-08 15:37 | Serie A Femminile Game | Ternana | ✘ | — | — | In play | — |
-| 11-08 15:37 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
-| 11-08 15:37 | Polish Ekstraklasa Game | Katowice | ✘ | — | — | In play | — |
+| 11-08 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:56 | Romanian Liga I Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:56 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:56 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
+| 11-08 15:56 | English Premier League Game | Tie | ✔ | 90'+9' · BOU 2 - IPS 1 | — | In play | — |
+| 11-08 15:55 | eSoccer Game | Strasbourg (Eder) | ✘ | — | — | In play | — |
+| 11-08 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:55 | Slovenian Prva Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:54 | Serie A Game | Tie | ✔ | 90'+5' · ATA 1 - MON 0 | — | In play | — |
+| 11-08 15:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:54 | BNXT League Game | BC Oostende | ✘ | — | — | In play | — |
+| 11-08 15:54 | Czech First League Game | Jablonec | ✘ | — | — | In play | — |
+| 11-08 15:54 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-08 15:53 | SAFF Championship Game | Bhutan | ✘ | — | — | In play | — |
+| 11-08 15:53 | SAFF Championship Game | Sri Lanka | ✘ | — | — | In play | — |
+| 11-08 15:53 | Ettan Game | FBK Karlstad | ✘ | — | — | In play | — |
+| 11-08 15:53 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:53 | Ettan Game | Karlstad Fotbol | ✘ | — | — | In play | — |
+| 11-08 15:52 | English Premier League Game | Chelsea | ✔ | 88' · CHE 0 - SUN 1 | — | In play | — |
+| 11-08 15:52 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:52 | Czech First League Game | Mlada Boleslav | ✘ | — | — | In play | — |
+| 11-08 15:52 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:52 | Ettan Game | Tie | ✘ | — | — | In play | — |
+| 11-08 15:51 | Croatia HNL Game | Osijek | ✘ | — | — | In play | — |
+| 11-08 15:51 | Ligue 1 Game | Tie | ✔ | 90'+4' · LILL 2 - REN 1 | — | In play | — |
+| 11-08 15:51 | England Women's Super League Game | Charlton | ✘ | — | — | In play | — |
+| 11-08 15:51 | Scottish Premiership Game | Heart of Midlothian | ✘ | — | — | In play | — |
+| 11-08 15:50 | England Women's Super League Game | Birmingham City WFC | ✘ | — | — | In play | — |
+| 11-08 15:50 | Counter-Strike 2 Game | G2 Ares | ✘ | — | — | In play | — |
+| 11-08 15:50 | Slovakia Niké liga Game | Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
