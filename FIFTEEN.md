@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Nov 7, 10:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Nov 7, 10:56 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49295 | 49278 | 179 (0%) | 1.07% | -$3,489.50 (-58%) | Hold to the close: -$3,489.50 (-58%) |
+| 49296 | 49278 | 179 (0%) | 1.07% | -$3,489.50 (-58%) | Hold to the close: -$3,489.50 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/7 10:56:22 PM | XRP | DOWN | 3.6 min | +0.138% | — | In play | — |
 | 11/7 10:44:24 PM | NEAR | UP | 35 sec | -0.105% | 0¢ | ❌ Lost | -$0.15 |
 | 11/7 10:43:34 PM | ZEC | UP | 86 sec | -0.239% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 10:43:34 PM | BNB | UP | 86 sec | -0.039% | 1¢ | ❌ Lost | -$0.15 |
@@ -218,7 +219,6 @@
 | 11/7 9:59:06 PM | BNB | UP | 53 sec | -0.062% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 9:58:32 PM | BTC | UP | 87 sec | -0.067% | 1¢ | ❌ Lost | -$0.15 |
 | 11/7 9:58:01 PM | NEAR | UP | 2.0 min | -0.294% | 0¢ | ❌ Lost | -$0.15 |
-| 11/7 9:57:29 PM | HYPE | UP | 2.5 min | -0.162% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
