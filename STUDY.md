@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 12:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 12:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52835 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
+| 52845 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2976 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49839 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49851 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24574 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2940 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 24582 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2941 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2420 | 4 | 2% | 1% | -85% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1635 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1546 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -146,9 +146,9 @@
 | Liga MX Game | ✔ | 104 | 0 | 13% | 8% | -100% | -77% | 7 min |
 | Serie A Game | ✔ | 104 | 0 | 10% | 5% | -100% | -83% | 12 min |
 | Eerste Divisie Game | ✘ | 103 | 0 | 9% | 5% | -100% | -85% | 12 min |
-| Valorant game winner | ✘ | 101 | 0 | 5% | 3% | -100% | -91% | 13 min |
+| Valorant game winner | ✘ | 102 | 0 | 6% | 4% | -100% | -90% | 14 min |
+| R6 Game | ✘ | 98 | 1 | 10% | 5% | -5% | -82% | 9 min |
 | Peru Liga 1 Game | ✘ | 98 | 0 | 15% | 6% | -100% | -73% | 14 min |
-| R6 Game | ✘ | 97 | 1 | 10% | 5% | -4% | -82% | 9 min |
 | Women's T20 Match | ✘ | 96 | 0 | 18% | 5% | -100% | -69% | 27 min |
 | Liiga Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
@@ -166,9 +166,9 @@
 | La Liga Game | ✔ | 87 | 0 | 18% | 11% | -100% | -68% | 9 min |
 | Euroleague Game | ✘ | 83 | 0 | 22% | 6% | -100% | -62% | 13 min |
 | English Premier League Game | ✔ | 83 | 0 | 6% | 2% | -100% | -90% | 9 min |
+| Japan B League Game | ✘ | 81 | 0 | 7% | 0% | -100% | -87% | 12 min |
 | Uruguay Primera Division Game | ✘ | 80 | 0 | 8% | 2% | -100% | -87% | 10 min |
 | Tweede Divisie Game | ✘ | 80 | 0 | 1% | 0% | -100% | -98% | 8 min |
-| Japan B League Game | ✘ | 80 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Polish Ekstraklasa Game | ✘ | 79 | 0 | 11% | 6% | -100% | -80% | 11 min |
 | Korea K-League 2 Game | ✘ | 78 | 0 | 12% | 6% | -100% | -80% | 9 min |
@@ -341,12 +341,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-08 07:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 07:28 | Japan B League Game | Akita Northern Happinets | ✘ | — | — | In play | — |
-| 11-08 07:27 | R6 Game | Fluxo W7M | ✘ | — | — | In play | — |
-| 11-08 07:27 | eSoccer Game | Real Sociedad (Hurricane) | ✘ | — | — | In play | — |
-| 11-08 07:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 07:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-08 07:38 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 11-08 07:35 | Japan J League Game | Gamba | ✘ | — | — | In play | — |
+| 11-08 07:31 | eSoccer Game | Stade Brestois 29 (NINJA) | ✘ | — | — | In play | — |
+| 11-08 07:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 07:30 | Russia Liga Pro Match | Antonov Roman | ✘ | — | — | In play | — |
+| 11-08 07:30 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:29 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:29 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:28 | Japan B League Game | Akita Northern Happinets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:27 | R6 Game | Fluxo W7M | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:27 | eSoccer Game | Real Sociedad (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:19 | eBasketball Game | Dallas Mavericks (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:18 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -361,16 +371,6 @@
 | 11-08 07:13 | eSoccer Game | Real Madrid (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:12 | Russia Liga Pro Match | Gribkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:12 | eSoccer Game | Arsenal (Mia) | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
-| 11-08 07:11 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:09 | ITF Men's Match | Baran Soyler | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:04 | College Football Game | UNLV | ✔ | 1:02 - 4th · WYO 41 - UNLV 35 | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:02 | eSoccer Game | AS Monaco (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:01 | ITF Women's Match | Yeonwoo Ku | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:01 | Japan J League Game | Machida Z | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:01 | Japan J League Game | Hiroshima | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:00 | Korea KBL Game | Mobis Phoebus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:00 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
