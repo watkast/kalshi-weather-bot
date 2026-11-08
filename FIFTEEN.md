@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 8, 12:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 8, 12:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49691 | 49674 | 180 (0%) | 1.07% | -$3,519.60 (-58%) | Hold to the close: -$3,519.60 (-58%) |
+| 49693 | 49674 | 180 (0%) | 1.07% | -$3,519.60 (-58%) | Hold to the close: -$3,519.60 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/8 12:26:30 PM | XRP | DOWN | 3.5 min | +0.174% | — | In play | — |
+| 11/8 12:24:52 PM | SOL | DOWN | 5.1 min | +0.260% | — | In play | — |
 | 11/8 12:14:30 PM | BNB | UP | 29 sec | -0.065% | 0¢ | ❌ Lost | $0.00 |
 | 11/8 12:13:25 PM | ZEC | UP | 1.6 min | -0.289% | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 12:11:50 PM | BTC | UP | 3.2 min | -0.101% | 1¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,6 @@
 | 11/8 11:40:52 AM | BNB | DOWN | 4.1 min | +0.063% | 1¢ | ❌ Lost | -$0.15 |
 | 11/8 11:29:56 AM | DOGE | DOWN | 4 sec | +0.004% | 0¢ | ❌ Lost | $0.00 |
 | 11/8 11:29:24 AM | ETH | UP | 36 sec | -0.032% | 0¢ | ❌ Lost | $0.00 |
-| 11/8 11:29:11 AM | XRP | UP | 48 sec | -0.138% | 1¢ | ❌ Lost | -$0.15 |
-| 11/8 11:28:09 AM | HYPE | DOWN | 1.9 min | +0.141% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
