@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 9:28 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 9:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53323 | 2990 | 12 (0%) | 1.1% | -$280.50 (-63%) | Hold to the end: -$280.50 (-63%) |
+| 53334 | 2992 | 12 (0%) | 1.1% | -$280.80 (-63%) | Hold to the end: -$280.80 (-63%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 2990 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 50293 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 2992 | 14% | 10% | 6% | 3% | 1% | 1% |
+| Unverified | 50303 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 12 | 0% | -$280.50 | -63% |
-| Sell at 2¢ | 410 | 14% | -$341.90 | -76% |
-| Sell at 3¢ | 286 | 10% | -$336.96 | -75% |
-| Sell at 5¢ | 193 | 6% | -$323.05 | -72% |
-| Sell at 10¢ | 85 | 3% | -$337.15 | -75% |
-| Sell at 25¢ | 31 | 1% | -$345.89 | -77% |
-| Sell at 50¢ | 20 | 1% | -$313.50 | -70% |
+| Hold to the end | 12 | 0% | -$280.80 | -63% |
+| Sell at 2¢ | 411 | 14% | -$341.94 | -76% |
+| Sell at 3¢ | 286 | 10% | -$337.26 | -75% |
+| Sell at 5¢ | 193 | 6% | -$323.35 | -72% |
+| Sell at 10¢ | 85 | 3% | -$337.45 | -75% |
+| Sell at 25¢ | 31 | 1% | -$346.19 | -77% |
+| Sell at 50¢ | 20 | 1% | -$313.80 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24798 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 24806 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2980 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2441 | 4 | 2% | 1% | -85% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1642 | 6 | 14% | 6% | -66% | -77% | 4 min |
@@ -174,9 +174,9 @@
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's ODI Cricket Match | ✘ | 77 | 3 | 19% | 6% | +264% | -66% | 45 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
+| Bundesliga Game | ✔ | 77 | 1 | 17% | 9% | +21% | -71% | 9 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | Allsvenskan Game | ✘ | 75 | 1 | 15% | 9% | +24% | -75% | 12 min |
-| Bundesliga Game | ✔ | 75 | 1 | 16% | 9% | +24% | -72% | 8 min |
 | Turkish Super Lig Game | ✘ | 74 | 0 | 18% | 4% | -100% | -70% | 15 min |
 | NFL Game | ✔ | 73 | 1 | 18% | 7% | +28% | -69% | 8 min |
 | Czech First League Game | ✘ | 73 | 0 | 8% | 0% | -100% | -86% | 12 min |
@@ -230,10 +230,10 @@
 | Croatia HNL Game | ✘ | 45 | 0 | 9% | 4% | -100% | -85% | 10 min |
 | Danish Superliga Game | ✘ | 45 | 0 | 11% | 7% | -100% | -81% | 13 min |
 | Latvian Virsliga Game | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 22 min |
+| Qatar Stars League | ✘ | 45 | 0 | 11% | 4% | -100% | -81% | 10 min |
 | Australia NBL Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | Bundesliga Basketball Game | ✘ | 43 | 0 | 9% | 5% | -100% | -84% | 13 min |
 | Slovenian Prva Liga Game | ✘ | 43 | 0 | 7% | 2% | -100% | -88% | 7 min |
-| Qatar Stars League | ✘ | 43 | 0 | 12% | 5% | -100% | -80% | 9 min |
 | Sweden SBL Game | ✘ | 42 | 0 | 5% | 5% | -100% | -92% | 12 min |
 | Australian A League Game | ✘ | 42 | 0 | 10% | 2% | -100% | -83% | 11 min |
 | Indian Super League Game | ✘ | 42 | 0 | 14% | 7% | -100% | -75% | 9 min |
@@ -321,8 +321,8 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 1123 | 4% | 1% | 0% | -94% |
-| 5–15 min | 702 | 16% | 8% | 1% | -72% |
-| 15–30 min | 474 | 24% | 12% | 1% | -58% |
+| 5–15 min | 703 | 17% | 8% | 1% | -71% |
+| 15–30 min | 475 | 24% | 12% | 1% | -58% |
 | 30–60 min | 357 | 20% | 11% | 1% | -66% |
 | Over 60 min | 306 | 22% | 10% | 0% | -62% |
 
@@ -342,16 +342,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-08 16:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 16:26 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | — | In play | — |
-| 11-08 16:25 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | — | In play | — |
-| 11-08 16:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 16:38 | eBasketball Game | New York Knicks (Jason) | ✘ | — | — | In play | — |
+| 11-08 16:37 | eSoccer Game | Everton (Eder) | ✘ | — | — | In play | — |
+| 11-08 16:37 | Counter-Strike 2 Game | ex-ENCE | ✘ | — | — | In play | — |
+| 11-08 16:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 16:36 | eSoccer Game | Sunderland (Niskanen15) | ✘ | — | — | In play | — |
+| 11-08 16:36 | Super League Greece Game | Levadiakos | ✘ | — | — | In play | — |
+| 11-08 16:36 | Italy Serie A Game | Pallacanestro Cantu | ✘ | — | — | In play | — |
+| 11-08 16:36 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-08 16:30 | Hungarian NB I Game | Tie | ✘ | — | — | In play | — |
+| 11-08 16:29 | Hungarian NB I Game | Ujpest Budapest | ✘ | — | — | In play | — |
+| 11-08 16:28 | ITF Men's Match | Ryan Char | ✘ | — | — | In play | — |
+| 11-08 16:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:26 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:25 | eSoccer Game | Manchester City (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:24 | Bulgaria First League Game | Tie | ✘ | — | — | In play | — |
-| 11-08 16:24 | eSoccer Game | Everton (Rooney) | ✘ | — | — | In play | — |
-| 11-08 16:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 16:24 | eSoccer Game | Everton (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:22 | Danish Superliga Game | Tie | ✘ | — | — | In play | — |
-| 11-08 16:22 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 11-08 16:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 16:22 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:20 | Chile Liga de Primera Game | Deportes Limache | ✘ | — | — | In play | — |
 | 11-08 16:20 | KHL Game | Dinamo Minsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:19 | Bulgaria First League Game | Levski Sofia | ✘ | — | — | In play | — |
@@ -359,19 +370,8 @@
 | 11-08 16:17 | ATP Tennis Match | Ben Shelton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:14 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 16:14 | Danish Superliga Game | Randers | ✘ | — | — | In play | — |
-| 11-08 16:14 | Bundesliga Game | Tie | ✔ | 86' · B04 1 - KOE 0 | — | In play | — |
-| 11-08 16:13 | Qatar Stars League | Tie | ✘ | — | — | In play | — |
-| 11-08 16:13 | eSoccer Game | Hoffenheim (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 16:13 | eSoccer Game | Werder Bremen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 16:11 | Turkish Super Lig Game | Alanyaspor | ✘ | — | — | In play | — |
-| 11-08 16:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 16:11 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 16:10 | Bundesliga Game | FC Köln | ✔ | 82' · B04 1 - KOE 0 | — | In play | — |
-| 11-08 16:10 | Eliteserien Game | Tie | ✘ | — | — | In play | — |
-| 11-08 16:09 | BNXT League Game | Donar Groningen | ✘ | — | — | In play | — |
-| 11-08 16:09 | Scottish Premiership Game | Tie | ✘ | — | — | In play | — |
-| 11-08 16:08 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 16:08 | eBasketball Game | Golden State Warriors (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 16:14 | Bundesliga Game | Tie | ✔ | 86' · B04 1 - KOE 0 | 2¢ | ❌ Lost | -$0.15 |
+| 11-08 16:13 | Qatar Stars League | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
