@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 3:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 3:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53987 | 3053 | 13 (0%) | 1.1% | -$275.95 (-60%) | Hold to the end: -$275.95 (-60%) |
+| 54006 | 3053 | 13 (0%) | 1.1% | -$275.95 (-60%) | Hold to the end: -$275.95 (-60%) |
 
 *In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3053 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 50896 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 50915 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,23 +96,23 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25020 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25030 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3027 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2463 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1649 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1561 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1514 | 2 | 6% | 3% | -88% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1515 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 964 | 3 | 11% | 4% | -71% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 520 | 3 | 11% | 6% | -46% | -81% | 23 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 357 | 2 | 4% | 2% | -48% | -93% | 67 min |
+| Women's College Volleyball Match | ✘ | 358 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Men's T20 Cricket Match | ✘ | 329 | 2 | 16% | 7% | -43% | -73% | 23 min |
 | Dota 2 Game | ✘ | 329 | 1 | 1% | 1% | -72% | -98% | 31 min |
 | Serie C Game | ✘ | 329 | 2 | 4% | 2% | -43% | -93% | 8 min |
-| Men's College Basketball Game | partly | 327 | 5 | 18% | 7% | +43% | -69% | 30 min |
-| Women's College Basketball Game | partly | 327 | 1 | 9% | 4% | -71% | -84% | 38 min |
+| Men's College Basketball Game | partly | 328 | 5 | 18% | 7% | +42% | -68% | 30 min |
+| Women's College Basketball Game | partly | 328 | 1 | 9% | 4% | -72% | -84% | 38 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Challenger WTA | ✘ | 281 | 1 | 13% | 5% | -67% | -77% | 9 min |
 | NHL Game | ✔ | 276 | 2 | 16% | 8% | -32% | -73% | 5 min |
@@ -196,19 +196,19 @@
 | Belgian Pro League Game | ✘ | 68 | 0 | 7% | 0% | -100% | -87% | 19 min |
 | Bolivia Premier Division Game | ✘ | 68 | 0 | 7% | 1% | -100% | -87% | 8 min |
 | Israeli Premier League Game | ✘ | 68 | 0 | 6% | 1% | -100% | -90% | 13 min |
+| Liga Portugal Game | ✘ | 67 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | LNB Elite 2 Game | ✘ | 64 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Czech National Football League Game | ✘ | 64 | 0 | 11% | 6% | -100% | -81% | 9 min |
-| Liga Portugal Game | ✘ | 64 | 0 | 5% | 2% | -100% | -92% | 13 min |
 | LNBP Basketball Game | ✘ | 63 | 0 | 10% | 2% | -100% | -83% | 12 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Super League Greece Game | ✘ | 63 | 0 | 17% | 3% | -100% | -70% | 14 min |
 | England Women's Super League Game | ✘ | 62 | 0 | 15% | 6% | -100% | -75% | 23 min |
 | Chinese Super League Game | ✘ | 62 | 1 | 11% | 6% | +51% | -80% | 19 min |
 | Serbian SuperLiga Game | ✘ | 62 | 0 | 3% | 2% | -100% | -94% | 15 min |
+| Chile Liga de Primera Game | ✘ | 61 | 0 | 13% | 2% | -100% | -77% | 14 min |
 | Vietnam V-League 1 Game | ✘ | 60 | 1 | 5% | 3% | +56% | -91% | 11 min |
 | Korea K League Game | ✘ | 60 | 1 | 15% | 8% | +56% | -74% | 8 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| Chile Liga de Primera Game | ✘ | 59 | 0 | 14% | 2% | -100% | -76% | 14 min |
 | Finland Korisliiga Game | ✘ | 58 | 1 | 7% | 3% | +61% | -88% | 8 min |
 | KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
 | Serie A Femminile Game | ✘ | 57 | 0 | 2% | 2% | -100% | -97% | 13 min |
@@ -343,36 +343,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-08 22:48 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | — | In play | — |
+| 11-08 22:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 22:47 | Call of Duty Games | Cloud9 New York | ✘ | — | — | In play | — |
+| 11-08 22:47 | NHL Game | Buffalo | ✔ | 9:54 - 3rd · VGK 3 - BUF 1 | — | In play | — |
+| 11-08 22:47 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
+| 11-08 22:46 | eSoccer Game | Flamengo (Bradley) | ✘ | — | — | In play | — |
+| 11-08 22:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 22:46 | eSoccer Game | Spurs (July) | ✘ | — | — | In play | — |
+| 11-08 22:45 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-08 22:44 | Venezuela Liga FUTVE game | Metropolitanos | ✘ | — | — | In play | — |
+| 11-08 22:44 | eBasketball Game | Denver Nuggets (Jimmy) | ✘ | — | — | In play | — |
+| 11-08 22:44 | eSoccer Game | River Plate (Castle) | ✘ | — | — | In play | — |
+| 11-08 22:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 22:44 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-08 22:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 22:44 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | — | In play | — |
+| 11-08 22:43 | NBA Game | Chicago | ✔ | 32.6 - 4th · PHI 125 - CHI 120 | — | In play | — |
+| 11-08 22:43 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | — | In play | — |
+| 11-08 22:40 | Men's College Basketball Game | Rider | ✘ | — | — | In play | — |
 | 11-08 22:35 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:35 | eSoccer Game | Real Betis (Dzen) | ✘ | — | — | In play | — |
-| 11-08 22:35 | eSoccer Game | Real Madrid (Zaroth) | ✘ | — | — | In play | — |
-| 11-08 22:35 | Counter-Strike 2 Game | Detonate | ✘ | — | — | In play | — |
-| 11-08 22:33 | eSoccer Game | Flamengo (Bradley) | ✘ | — | — | In play | — |
+| 11-08 22:35 | eSoccer Game | Real Betis (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:35 | eSoccer Game | Real Madrid (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:35 | Counter-Strike 2 Game | Detonate | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:33 | eSoccer Game | Flamengo (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 22:32 | Peru Liga 1 Game | Sport Boys | ✘ | — | — | In play | — |
 | 11-08 22:32 | Peru Liga 1 Game | UTC de Cajamarca | ✘ | — | — | In play | — |
 | 11-08 22:32 | Dota 2 Game | Ka4kanarskie cyxariki | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Palmeiras (Castle) | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:31 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-08 22:29 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:28 | Men's College Basketball Game | Western Kentucky | ✘ | — | — | In play | — |
-| 11-08 22:27 | Women's College Volleyball Match | Kansas State | ✘ | — | — | In play | — |
-| 11-08 22:25 | Liga Portugal Game | Tie | ✘ | — | — | In play | — |
-| 11-08 22:25 | Women's College Basketball Game | UC Riverside | ✘ | — | — | In play | — |
-| 11-08 22:22 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:19 | Women's College Basketball Game | Belmont | ✘ | — | — | In play | — |
-| 11-08 22:19 | eSoccer Game | River Plate (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:19 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:19 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:18 | Chile Liga de Primera Game | Huachipato | ✘ | — | — | In play | — |
-| 11-08 22:17 | eSoccer Game | Universitario (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 22:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 22:31 | eSoccer Game | Palmeiras (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
