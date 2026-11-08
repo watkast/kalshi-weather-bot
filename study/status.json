@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-08T18:22:33+00:00",
+ "saved_at": "2026-11-08T18:32:58+00:00",
  "series_watched": 380,
  "markets_in_or_near_play": 510,
  "batch_lookup": true,
- "espn_games_linked": 41,
+ "espn_games_linked": 42,
  "espn_check": {
   "at": "2026-11-08T18:13:00+00:00",
   "started_games": 42,
@@ -21,7 +21,7 @@
    "KXNCAAWBGAME-26NOV08NICHUGA"
   ]
  },
- "bets": 53539,
- "open": 50,
+ "bets": 53563,
+ "open": 53,
  "errors": []
 }
