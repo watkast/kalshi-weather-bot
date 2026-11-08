@@ -1,20 +1,21 @@
 {
- "saved_at": "2026-11-08T17:09:28+00:00",
+ "saved_at": "2026-11-08T17:19:59+00:00",
  "series_watched": 380,
- "markets_in_or_near_play": 447,
+ "markets_in_or_near_play": 482,
  "batch_lookup": true,
- "espn_games_linked": 23,
+ "espn_games_linked": 28,
  "espn_check": {
-  "at": "2026-11-08T16:39:02+00:00",
-  "started_games": 17,
-  "matched": 14,
+  "at": "2026-11-08T17:10:20+00:00",
+  "started_games": 23,
+  "matched": 19,
   "unmatched_sample": [
+   "KXNCAAWBGAME-26NOV08MERWAKE",
    "KXNCAAWBGAME-26NOV08MASSLCAN",
    "KXNCAAWBGAME-26NOV08CORSYR",
    "KXNCAAWBGAME-26NOV08PRINMURR"
   ]
  },
- "bets": 53392,
- "open": 45,
+ "bets": 53413,
+ "open": 42,
  "errors": []
 }
