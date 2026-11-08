@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 7:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 7:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52447 | 2917 | 12 (0%) | 1.1% | -$269.55 (-62%) | Hold to the end: -$269.55 (-62%) |
+| 52466 | 2917 | 12 (0%) | 1.1% | -$269.55 (-62%) | Hold to the end: -$269.55 (-62%) |
 
-*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2917 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49484 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49492 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24382 | 15 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 24386 | 15 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2917 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2398 | 4 | 2% | 1% | -84% | -93% | 2 min |
+| eBasketball Game | ✘ | 2400 | 4 | 2% | 1% | -84% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1630 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1542 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1492 | 2 | 6% | 3% | -87% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 944 | 3 | 11% | 4% | -70% | -81% | 5 min |
+| Challenger ATP  | ✘ | 945 | 3 | 11% | 4% | -70% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 498 | 3 | 11% | 5% | -44% | -82% | 23 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -112,7 +112,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Dota 2 Game | ✘ | 316 | 1 | 1% | 1% | -70% | -98% | 31 min |
 | Serie C Game | ✘ | 311 | 2 | 4% | 2% | -40% | -93% | 8 min |
-| Men's College Basketball Game | partly | 295 | 5 | 19% | 7% | +58% | -68% | 41 min |
+| Men's College Basketball Game | partly | 296 | 5 | 19% | 7% | +58% | -68% | 40 min |
 | Challenger WTA | ✘ | 280 | 1 | 13% | 4% | -67% | -78% | 9 min |
 | Women's College Basketball Game | partly | 276 | 1 | 10% | 4% | -66% | -83% | 37 min |
 | NHL Game | ✔ | 266 | 2 | 15% | 8% | -30% | -73% | 5 min |
@@ -341,36 +341,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-08 02:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:18 | eSoccer Game | Manchester City (Zaroth) | ✘ | — | — | In play | — |
+| 11-08 02:18 | College Hockey Game | Holy Cross | ✘ | — | — | In play | — |
+| 11-08 02:18 | College Hockey Game | Union | ✘ | — | — | In play | — |
+| 11-08 02:17 | Women's College Volleyball Match | Maryland | ✘ | — | — | In play | — |
+| 11-08 02:16 | College Hockey Game | Alaska | ✘ | — | — | In play | — |
+| 11-08 02:16 | College Hockey Game | Rensselaer | ✘ | — | — | In play | — |
+| 11-08 02:15 | College Football Game | Ole Miss | ✔ | 0:40 - 2nd · UGA 28 - MISS 0 | — | In play | — |
+| 11-08 02:15 | eSoccer Game | Flamengo (Bradley) | ✘ | — | — | In play | — |
+| 11-08 02:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:14 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-08 02:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:13 | Liga MX Game | Monterrey | ✔ | 51' · MTY 0 - TOL 2 | — | In play | — |
+| 11-08 02:13 | eSoccer Game | Botafogo (Castle) | ✘ | — | — | In play | — |
+| 11-08 02:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:11 | eSoccer Game | RC Lens (Lotta) | ✘ | — | — | In play | — |
+| 11-08 02:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:08 | College Football Game | Kentucky | ✔ | 10:41 - 4th · UK 6 - TENN 20 | — | In play | — |
+| 11-08 02:08 | Challenger ATP  | Benjamin Hassan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 02:08 | Major League Soccer Game | Tie | ✔ | 90'+6' · LAFC 1 - SEA 2 | — | In play | — |
 | 11-08 02:08 | Major League Soccer Game | Tie | ✔ | 90'+7' · STL 0 - HOU 0 | — | In play | — |
 | 11-08 02:08 | College Hockey Game | Army West Point | ✘ | — | — | In play | — |
 | 11-08 02:07 | Men's College Basketball Game | Providence | ✘ | — | — | In play | — |
 | 11-08 02:06 | Major League Soccer Game | Houston | ✔ | 90'+6' · STL 0 - HOU 0 | — | In play | — |
-| 11-08 02:05 | eSoccer Game | Everton (Arkon) | ✘ | — | — | In play | — |
-| 11-08 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 02:05 | eSoccer Game | Everton (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 02:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 02:05 | Major League Soccer Game | Tie | ✔ | 90'+4' · SKC 1 - SD 0 | — | In play | — |
 | 11-08 02:05 | Major League Soccer Game | Tie | ✘ | — | — | In play | — |
 | 11-08 02:05 | USL Championship Game | Miami | ✔ | 90'+10' · MIA 2 - LOU 3 | — | In play | — |
 | 11-08 02:05 | USL Championship Game | Tie | ✔ | 90'+10' · MIA 2 - LOU 3 | — | In play | — |
-| 11-08 02:04 | eBasketball Game | New Orleans Pelicans (Ray) | ✘ | — | — | In play | — |
-| 11-08 02:03 | Major League Soccer Game | Tie | ✔ | 90'+3' · SJ 1 - MIN 2 | — | In play | — |
-| 11-08 02:03 | Major League Soccer Game | Tie | ✔ | 90'+2' · COL 1 - DAL 2 | — | In play | — |
-| 11-08 02:00 | eSoccer Game | Estudiantes (Kylian) | ✘ | — | — | In play | — |
-| 11-08 02:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 02:00 | Major League Soccer Game | San Diego FC | ✔ | 89' · SKC 1 - SD 0 | — | In play | — |
-| 11-08 02:00 | Major League Soccer Game | Colorado | ✔ | 88' · COL 1 - DAL 1 | — | In play | — |
-| 11-08 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 01:59 | eSoccer Game | Universitario (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 01:58 | Men's College Basketball Game | Maryland | ✘ | — | — | In play | — |
-| 11-08 01:58 | Major League Soccer Game | Los Angeles G | ✘ | — | — | In play | — |
-| 11-08 01:58 | College Football Game | Sam Houston | ✔ | 14:20 - 3rd · SHSU 0 - JXST 23 | — | In play | — |
-| 11-08 01:57 | eBasketball Game | Denver Nuggets (Conor) | ✘ | — | — | In play | — |
-| 11-08 01:57 | Major League Soccer Game | Tie | ✔ | 87' · POR 2 - ATX 0 | — | In play | — |
-| 11-08 01:55 | Brasileiro Serie B Game | Tie | ✘ | — | — | In play | — |
-| 11-08 01:53 | AHL Game | Toronto Marlies | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 01:53 | Men's College Basketball Game | Western Illinois | ✘ | — | — | In play | — |
-| 11-08 01:53 | Major League Soccer Game | San Jose | ✔ | 83' · SJ 1 - MIN 1 | — | In play | — |
-| 11-08 01:51 | Men's College Basketball Game | Niagara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
