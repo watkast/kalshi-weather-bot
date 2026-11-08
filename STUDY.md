@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 11:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 11:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53563 | 3010 | 12 (0%) | 1.1% | -$283.50 (-63%) | Hold to the end: -$283.50 (-63%) |
+| 53578 | 3013 | 13 (0%) | 1.1% | -$269.95 (-60%) | Hold to the end: -$269.95 (-60%) |
 
-*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3010 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 50500 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3013 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 50519 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 12 | 0% | -$283.50 | -63% |
-| Sell at 2¢ | 413 | 14% | -$344.12 | -76% |
-| Sell at 3¢ | 288 | 10% | -$339.18 | -75% |
-| Sell at 5¢ | 194 | 6% | -$325.40 | -72% |
-| Sell at 10¢ | 85 | 3% | -$340.15 | -75% |
-| Sell at 25¢ | 31 | 1% | -$348.89 | -77% |
-| Sell at 50¢ | 20 | 1% | -$316.50 | -70% |
+| Hold to the end | 13 | 0% | -$269.95 | -60% |
+| Sell at 2¢ | 416 | 14% | -$343.79 | -76% |
+| Sell at 3¢ | 291 | 10% | -$338.46 | -75% |
+| Sell at 5¢ | 196 | 7% | -$324.55 | -72% |
+| Sell at 10¢ | 86 | 3% | -$339.29 | -75% |
+| Sell at 25¢ | 32 | 1% | -$346.03 | -77% |
+| Sell at 50¢ | 21 | 1% | -$310.20 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24870 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2998 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2448 | 4 | 2% | 1% | -85% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1645 | 6 | 13% | 6% | -66% | -77% | 4 min |
+| eSoccer Game | ✘ | 24876 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3000 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2449 | 4 | 2% | 1% | -85% | -93% | 2 min |
+| ITF Women's Match | ✘ | 1646 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1559 | 3 | 13% | 6% | -82% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1503 | 2 | 6% | 3% | -88% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1504 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 956 | 3 | 11% | 4% | -71% | -82% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -109,9 +109,9 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 338 | 2 | 4% | 2% | -45% | -92% | 68 min |
 | Men's T20 Cricket Match | ✘ | 328 | 2 | 16% | 7% | -43% | -73% | 23 min |
+| Serie C Game | ✘ | 325 | 2 | 4% | 2% | -43% | -93% | 8 min |
 | Dota 2 Game | ✘ | 323 | 1 | 1% | 1% | -71% | -98% | 31 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Serie C Game | ✘ | 319 | 2 | 4% | 2% | -41% | -93% | 8 min |
 | Men's College Basketball Game | partly | 310 | 5 | 19% | 7% | +51% | -68% | 36 min |
 | Challenger WTA | ✘ | 280 | 1 | 13% | 4% | -67% | -78% | 9 min |
 | Women's College Basketball Game | partly | 279 | 1 | 10% | 4% | -67% | -83% | 37 min |
@@ -155,9 +155,9 @@
 | Indonesia Super League Game | ✘ | 96 | 0 | 12% | 7% | -100% | -78% | 12 min |
 | Liiga Game | ✘ | 95 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
+| English Premier League Game | ✔ | 94 | 1 | 9% | 4% | -1% | -85% | 10 min |
 | EuroCup Basketball Game | ✘ | 92 | 0 | 5% | 4% | -100% | -91% | 11 min |
 | Liga Expansion Game | ✘ | 91 | 0 | 7% | 3% | -100% | -89% | 12 min |
-| English Premier League Game | ✔ | 91 | 0 | 5% | 2% | -100% | -90% | 9 min |
 | Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
 | National League Game | ✘ | 90 | 1 | 1% | 1% | +4% | -98% | 6 min |
 | Ligue 2 Game | ✘ | 90 | 0 | 8% | 6% | -100% | -87% | 12 min |
@@ -203,11 +203,11 @@
 | England Women's Super League Game | ✘ | 62 | 0 | 15% | 6% | -100% | -75% | 23 min |
 | Chinese Super League Game | ✘ | 62 | 1 | 11% | 6% | +51% | -80% | 19 min |
 | Liga Portugal Game | ✘ | 62 | 0 | 5% | 2% | -100% | -92% | 12 min |
+| Super League Greece Game | ✘ | 61 | 0 | 18% | 3% | -100% | -69% | 14 min |
 | Vietnam V-League 1 Game | ✘ | 60 | 1 | 5% | 3% | +56% | -91% | 11 min |
 | Korea K League Game | ✘ | 60 | 1 | 15% | 8% | +56% | -74% | 8 min |
 | Serbian SuperLiga Game | ✘ | 60 | 0 | 3% | 2% | -100% | -94% | 15 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
-| Super League Greece Game | ✘ | 59 | 0 | 19% | 3% | -100% | -68% | 15 min |
 | Finland Korisliiga Game | ✘ | 58 | 1 | 7% | 3% | +61% | -88% | 8 min |
 | KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
 | Scottish Premiership Game | ✘ | 56 | 0 | 9% | 2% | -100% | -85% | 11 min |
@@ -321,9 +321,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1128 | 4% | 1% | 0% | -94% |
-| 5–15 min | 710 | 16% | 8% | 1% | -72% |
-| 15–30 min | 480 | 24% | 12% | 1% | -58% |
+| Under 5 min | 1129 | 4% | 1% | 0% | -93% |
+| 5–15 min | 711 | 16% | 8% | 1% | -71% |
+| 15–30 min | 481 | 25% | 12% | 1% | -57% |
 | 30–60 min | 357 | 20% | 11% | 1% | -66% |
 | Over 60 min | 307 | 22% | 10% | 0% | -62% |
 
@@ -343,36 +343,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-08 18:43 | Women's College Basketball Game | Niagara | ✘ | — | — | In play | — |
+| 11-08 18:41 | Slovakia Niké liga Game | Tie | ✘ | — | — | In play | — |
+| 11-08 18:41 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | — | In play | — |
+| 11-08 18:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 18:41 | Russia Liga Pro Match | Vasilenko Andrei | ✘ | — | — | In play | — |
+| 11-08 18:40 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 11-08 18:40 | Italy Serie A2 Game | Elachem Vigevano 1955 | ✘ | — | — | In play | — |
+| 11-08 18:36 | Croatia HNL Game | Varazdin | ✘ | — | — | In play | — |
+| 11-08 18:34 | Italy Serie A2 Game | Basket Torino | ✘ | — | — | In play | — |
+| 11-08 18:34 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:34 | Women's College Basketball Game | Bellarmine | ✘ | — | — | In play | — |
+| 11-08 18:34 | Serie C Game | Carpi | ✘ | — | — | In play | — |
+| 11-08 18:34 | Serie C Game | Folgore Caratese | ✘ | — | — | In play | — |
+| 11-08 18:34 | Qatar Stars League | Tie | ✘ | — | — | In play | — |
+| 11-08 18:33 | ITF Women's Match | Janae Preston | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 18:31 | Serie A Game | Como | ✔ | 67' · COMO 0 - INT 2 | — | In play | — |
-| 11-08 18:30 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | — | In play | — |
-| 11-08 18:30 | eBasketball Game | Indiana Pacers (Cade) | ✘ | — | — | In play | — |
-| 11-08 18:30 | eSoccer Game | Liverpool (SilentShooter) | ✘ | — | — | In play | — |
-| 11-08 18:29 | eSoccer Game | Montpellier (Trinity) | ✘ | — | — | In play | — |
-| 11-08 18:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 18:30 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:30 | eBasketball Game | Indiana Pacers (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:30 | eSoccer Game | Liverpool (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:29 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 18:28 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 18:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 18:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 18:28 | Slovenian Prva Liga Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:28 | English Premier League Game | Aston Villa | ✔ | 90'+7' · AVL 4 - MAN 3 | — | In play | — |
+| 11-08 18:28 | English Premier League Game | Aston Villa | ✔ | 90'+7' · AVL 4 - MAN 3 | 8¢ | ❌ Lost | -$0.15 |
 | 11-08 18:28 | Women's College Basketball Game | Florida A&M | ✘ | — | — | In play | — |
-| 11-08 18:27 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-08 18:27 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 18:27 | Women's College Basketball Game | Campbell | ✘ | — | — | In play | — |
 | 11-08 18:27 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 18:26 | Qatar Stars League | Al Sadd | ✘ | — | — | In play | — |
-| 11-08 18:25 | Counter-Strike 2 Game | BESTIA Academy | ✘ | — | — | In play | — |
-| 11-08 18:25 | Super League Greece Game | OFI Crete | ✘ | — | — | In play | — |
-| 11-08 18:25 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:24 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:24 | Super League Greece Game | Atromitos Athinon | ✘ | — | — | In play | — |
-| 11-08 18:24 | Turkish Super Lig Game | Genclerbirligi | ✘ | — | — | In play | — |
-| 11-08 18:23 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:23 | Serie C Game | Sambenedettese | ✘ | — | — | In play | — |
-| 11-08 18:21 | England Super League Basketball Game | Cheshire Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 18:20 | English Premier League Game | Tie | ✔ | 89' · AVL 4 - MAN 2 | — | In play | — |
-| 11-08 18:19 | Serie C Game | Perugia | ✘ | — | — | In play | — |
-| 11-08 18:19 | Serie C Game | Tie | ✘ | — | — | In play | — |
-| 11-08 18:19 | Serie C Game | Desenzano | ✘ | — | — | In play | — |
-| 11-08 18:19 | Italy Serie A Game | Universo Treviso Basket | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
