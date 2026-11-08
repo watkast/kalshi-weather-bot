@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 12:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 1:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52869 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
+| 52873 | 2976 | 12 (0%) | 1.1% | -$278.40 (-62%) | Hold to the end: -$278.40 (-62%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2976 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49868 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49881 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24594 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 24602 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 2944 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2421 | 4 | 2% | 1% | -85% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1636 | 6 | 14% | 6% | -66% | -77% | 4 min |
@@ -123,8 +123,8 @@
 | Argentina Primera Division Game | ✘ | 173 | 2 | 17% | 9% | +8% | -71% | 9 min |
 | College Hockey Game | ✘ | 164 | 0 | 1% | 0% | -100% | -99% | 11 min |
 | Ettan Game | ✘ | 161 | 0 | 4% | 1% | -100% | -94% | 8 min |
+| Japan J2 League Game | ✘ | 161 | 1 | 10% | 4% | -42% | -83% | 7 min |
 | League of Legends Game | ✘ | 160 | 0 | 8% | 2% | -100% | -87% | 11 min |
-| Japan J2 League Game | ✘ | 159 | 1 | 10% | 4% | -41% | -83% | 7 min |
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
 | Liga DIMAYOR Game | ✘ | 143 | 1 | 10% | 3% | -35% | -82% | 8 min |
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
@@ -136,7 +136,7 @@
 | Overwatch Game | ✘ | 122 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
 | USL Championship Game | partly | 118 | 0 | 11% | 4% | -100% | -81% | 5 min |
-| Japan J League Game | ✘ | 115 | 1 | 14% | 5% | -19% | -76% | 12 min |
+| Japan J League Game | ✘ | 117 | 1 | 15% | 5% | -20% | -75% | 12 min |
 | EFL League One Game | ✔ | 112 | 0 | 9% | 3% | -100% | -85% | 10 min |
 | German 3. Liga Game | ✘ | 109 | 0 | 11% | 5% | -100% | -81% | 10 min |
 | Serie B Game | ✘ | 109 | 0 | 11% | 6% | -100% | -81% | 9 min |
@@ -204,7 +204,7 @@
 | Liga Portugal Game | ✘ | 60 | 0 | 5% | 2% | -100% | -91% | 12 min |
 | International Friendly Game | partly | 59 | 1 | 15% | 7% | +58% | -74% | 17 min |
 | Serbian SuperLiga Game | ✘ | 58 | 0 | 3% | 2% | -100% | -94% | 15 min |
-| KBO Game | ✘ | 56 | 0 | 11% | 5% | -100% | -81% | 5 min |
+| KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
 | Finland Korisliiga Game | ✘ | 56 | 1 | 7% | 4% | +67% | -88% | 9 min |
 | England Women's Super League Game | ✘ | 56 | 0 | 16% | 7% | -100% | -72% | 23 min |
 | Korea K League Game | ✘ | 56 | 1 | 14% | 7% | +67% | -75% | 7 min |
@@ -341,16 +341,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-08 07:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 07:58 | eSoccer Game | Sevilla FC (Bony) | ✘ | — | — | In play | — |
-| 11-08 07:58 | eSoccer Game | Rennes (Mordor) | ✘ | — | — | In play | — |
-| 11-08 07:58 | eSoccer Game | Real Sociedad (Hurricane) | ✘ | — | — | In play | — |
-| 11-08 07:57 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 11-08 08:08 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-08 08:08 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-08 08:07 | R6 Game | M80 | ✘ | — | — | In play | — |
+| 11-08 08:04 | eBasketball Game | Los Angeles Lakers (Wemby) | ✘ | — | — | In play | — |
+| 11-08 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:58 | eSoccer Game | Sevilla FC (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:58 | eSoccer Game | Rennes (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:58 | eSoccer Game | Real Sociedad (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:57 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:56 | Australian A League Game | Adelaide | ✘ | — | — | In play | — |
-| 11-08 07:56 | eSoccer Game | Real Madrid (Antonio) | ✘ | — | — | In play | — |
-| 11-08 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 07:55 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
-| 11-08 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 07:56 | eSoccer Game | Real Madrid (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:55 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:49 | Australia NBL Game | Perth Wildcats | ✘ | — | — | In play | — |
 | 11-08 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:45 | eSoccer Game | Nantes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -366,11 +370,7 @@
 | 11-08 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:40 | Russia Liga Pro Match | Bikkulov Emil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 07:38 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:35 | Japan J League Game | Gamba | ✘ | — | — | In play | — |
-| 11-08 07:31 | eSoccer Game | Stade Brestois 29 (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:30 | Russia Liga Pro Match | Antonov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 07:30 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 07:35 | Japan J League Game | Gamba | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
