@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-08T17:19:59+00:00",
+ "saved_at": "2026-11-08T17:30:27+00:00",
  "series_watched": 380,
  "markets_in_or_near_play": 482,
  "batch_lookup": true,
- "espn_games_linked": 28,
+ "espn_games_linked": 29,
  "espn_check": {
   "at": "2026-11-08T17:10:20+00:00",
   "started_games": 23,
@@ -15,7 +15,7 @@
    "KXNCAAWBGAME-26NOV08PRINMURR"
   ]
  },
- "bets": 53413,
- "open": 42,
+ "bets": 53433,
+ "open": 51,
  "errors": []
 }
