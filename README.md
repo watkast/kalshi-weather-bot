@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sat Nov 7, 5:30 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Sat Nov 7, 5:45 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 772 | 741 | 36% | -$318.63 | -10.6% | 31 | Losing |
-| **Rain** | 218 | 209 | 33% | -$9.07 | -1.3% | 9 | Break-even |
+| **Temperature** | 776 | 741 | 36% | -$318.63 | -10.6% | 35 | Losing |
+| **Rain** | 221 | 209 | 33% | -$9.07 | -1.3% | 12 | Break-even |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,21 +44,24 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | PHIL 62-63 | YES | 16¢ | 26% | Open | — |
+| 2026-11-08 | PHIL <60 | YES | 9¢ | 20% | Open | — |
+| 2026-11-08 | AUS 64-65 | NO | 61¢ | 74% | Open | — |
+| 2026-11-08 | AUS 66-67 | YES | 7¢ | 23% | Open | — |
 | 2026-11-08 | PHIL 60-61 | NO | 39¢ | 77% | Open | — |
 | 2026-11-08 | LAX 87-88 | NO | 54¢ | 77% | Open | — |
 | 2026-11-08 | DEN 69-70 | NO | 42¢ | 77% | Open | — |
 | 2026-11-08 | DEN >70 | YES | 8¢ | 20% | Open | — |
 | 2026-11-08 | AUS <64 | NO | 50¢ | 69% | Open | — |
 | 2026-11-08 | MIA 83-84 | YES | 6¢ | 23% | Open | — |
-| 2026-11-08 | MIA 85-86 | NO | 36¢ | 74% | Open | — |
-| 2026-11-08 | CHI 57-58 | YES | 10¢ | 23% | Open | — |
-| 2026-11-08 | CHI 59-60 | NO | 50¢ | 74% | Open | — |
-| 2026-11-08 | CHI 61-62 | NO | 65¢ | 81% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | MIA | NO | 63¢ | 78% | Open | — |
+| 2026-11-08 | HOU | NO | 33¢ | 54% | Open | — |
+| 2026-11-08 | DAL | NO | 61¢ | 93% | Open | — |
 | 2026-11-08 | SEA | NO | 7¢ | 23% | Open | — |
 | 2026-11-08 | CLL | NO | 15¢ | 35% | Open | — |
 | 2026-11-08 | BOS | NO | 9¢ | 24% | Open | — |
@@ -66,9 +69,6 @@
 | 2026-11-07 | CLL | NO | 39¢ | 78% | Open | — |
 | 2026-11-07 | BOS | NO | 6¢ | 17% | Open | — |
 | 2026-11-07 | SATX | NO | 20¢ | 54% | Open | — |
-| 2026-11-07 | PIT | YES | 29¢ | 55% | Open | — |
-| 2026-11-07 | AUS | NO | 24¢ | 45% | Open | — |
-| 2026-11-06 | DC | NO | 6¢ | 23% | YES | -$0.64 |
 
 ## The bots
 
