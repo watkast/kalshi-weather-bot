@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 7, 10:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 7, 10:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52684 | 2965 | 12 (0%) | 1.1% | -$276.75 (-62%) | Hold to the end: -$276.75 (-62%) |
+| 52689 | 2965 | 12 (0%) | 1.1% | -$276.75 (-62%) | Hold to the end: -$276.75 (-62%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 2965 | 14% | 10% | 6% | 3% | 1% | 1% |
-| Unverified | 49690 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 49701 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 24490 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 2923 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2410 | 4 | 2% | 1% | -85% | -93% | 2 min |
+| eSoccer Game | ✘ | 24496 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 2925 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2412 | 4 | 2% | 1% | -85% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1633 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1542 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1492 | 2 | 6% | 3% | -87% | -90% | 11 min |
@@ -171,8 +171,8 @@
 | Japan B League Game | ✘ | 80 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | ELH Game | ✘ | 79 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Polish Ekstraklasa Game | ✘ | 79 | 0 | 11% | 6% | -100% | -80% | 11 min |
+| Men's ODI Cricket Match | ✘ | 77 | 3 | 19% | 6% | +264% | -66% | 45 min |
 | Copa Del Rey Game | ✘ | 77 | 0 | 6% | 5% | -100% | -89% | 40 min |
-| Men's ODI Cricket Match | ✘ | 76 | 3 | 20% | 7% | +268% | -66% | 48 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | Allsvenskan Game | ✘ | 75 | 1 | 15% | 9% | +24% | -75% | 12 min |
 | Bundesliga Game | ✔ | 75 | 1 | 16% | 9% | +24% | -72% | 8 min |
@@ -341,23 +341,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-08 05:24 | College Football Game | Fresno St. | ✔ | 5:24 - 4th · FRES 3 - USU 14 | — | In play | — |
+| 11-08 05:18 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:17 | Russia Liga Pro Match | Kharlakin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 05:16 | eSoccer Game | Freiburg (Vini) | ✘ | — | — | In play | — |
 | 11-08 05:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 05:14 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
-| 11-08 05:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 05:13 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
-| 11-08 05:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-08 05:14 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:13 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:13 | Liga MX Game | America | ✔ | 90'+8' · AME 2 - UNAM 2 | — | In play | — |
 | 11-08 05:13 | Liga MX Game | Pumas UNAM | ✔ | 90'+8' · AME 2 - UNAM 2 | — | In play | — |
 | 11-08 05:13 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 11-08 05:12 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | — | In play | — |
-| 11-08 05:10 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | — | In play | — |
+| 11-08 05:12 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:10 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:09 | Liga Expansion Game | Club Atletico La Paz | ✘ | — | — | In play | — |
 | 11-08 05:09 | USL Championship Game | El Paso Locomotive FC | ✔ | 90'+8' · ELP 1 - SAC 2 | — | In play | — |
 | 11-08 05:08 | USL Championship Game | Tie | ✔ | 90'+8' · ELP 1 - SAC 2 | — | In play | — |
-| 11-08 05:08 | Men's ODI Cricket Match | Otago Volts | ✘ | — | — | In play | — |
+| 11-08 05:08 | Men's ODI Cricket Match | Otago Volts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:06 | Russia Liga Pro Match | Antonov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-08 05:05 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | — | In play | — |
+| 11-08 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-08 05:05 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:01 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 05:00 | Russia Liga Pro Match | Kutenkov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -366,11 +371,6 @@
 | 11-08 04:59 | Men's College Basketball Game | Sacramento St. | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-08 04:57 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-08 04:51 | Men's College Basketball Game | Portland St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 04:51 | NBA Game | Portland | ✔ | 5:16 - 3rd · SA 91 - POR 64 | — | In play | — |
-| 11-08 04:49 | eSoccer Game | Liverpool (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 04:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 04:49 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-08 04:48 | eSoccer Game | Stuttgart (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
