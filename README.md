@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sun Nov 8, 12:16 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Sun Nov 8, 3:32 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -21,7 +21,7 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 776 | 741 | 36% | -$318.63 | -10.6% | 35 | Losing |
-| **Rain** | 221 | 209 | 33% | -$9.07 | -1.3% | 12 | Break-even |
+| **Rain** | 224 | 209 | 33% | -$9.07 | -1.3% | 15 | Break-even |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -59,6 +59,9 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-09 | HOU | NO | 26¢ | 57% | Open | — |
+| 2026-11-09 | CLL | NO | 46¢ | 80% | Open | — |
+| 2026-11-09 | BOS | NO | 65¢ | 87% | Open | — |
 | 2026-11-08 | MIA | NO | 63¢ | 78% | Open | — |
 | 2026-11-08 | HOU | NO | 33¢ | 54% | Open | — |
 | 2026-11-08 | DAL | NO | 61¢ | 93% | Open | — |
@@ -66,9 +69,6 @@
 | 2026-11-08 | CLL | NO | 15¢ | 35% | Open | — |
 | 2026-11-08 | BOS | NO | 9¢ | 24% | Open | — |
 | 2026-11-07 | PVD | NO | 5¢ | 21% | Open | — |
-| 2026-11-07 | CLL | NO | 39¢ | 78% | Open | — |
-| 2026-11-07 | BOS | NO | 6¢ | 17% | Open | — |
-| 2026-11-07 | SATX | NO | 20¢ | 54% | Open | — |
 
 ## The bots
 
