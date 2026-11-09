@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 9:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54303 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
+| 54313 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3073 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51209 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51218 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25212 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25220 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3048 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2482 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1651 | 6 | 13% | 6% | -66% | -77% | 4 min |
@@ -107,7 +107,7 @@
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 520 | 3 | 11% | 6% | -46% | -81% | 23 min |
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 360 | 2 | 4% | 2% | -48% | -93% | 66 min |
+| Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Women's College Basketball Game | partly | 340 | 1 | 10% | 4% | -73% | -83% | 37 min |
 | Men's College Basketball Game | partly | 337 | 5 | 19% | 7% | +38% | -67% | 30 min |
 | Dota 2 Game | ✘ | 331 | 1 | 1% | 1% | -72% | -98% | 31 min |
@@ -344,16 +344,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-09 04:20 | eSoccer Game | Stuttgart (Bradley) | ✘ | — | — | In play | — |
+| 11-09 04:20 | eSoccer Game | RB Leipzig (Vini) | ✘ | — | — | In play | — |
+| 11-09 04:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:20 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
+| 11-09 04:19 | eBasketball Game | Golden State Warriors (Tyler) | ✘ | — | — | In play | — |
+| 11-09 04:19 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | — | In play | — |
+| 11-09 04:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:17 | eSoccer Game | Frankfurt (Castle) | ✘ | — | — | In play | — |
+| 11-09 04:16 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
 | 11-09 04:09 | Liga MX Game | Guadalajara | ✔ | 90'+5' · GDL 1 - LEO 1 | — | In play | — |
-| 11-09 04:08 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
-| 11-09 04:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 04:07 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | — | In play | — |
-| 11-09 04:06 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 11-09 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 04:03 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 11-09 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 04:01 | eSoccer Game | 1. FC Köln (Castle) | ✘ | — | — | In play | — |
+| 11-09 04:08 | Women's College Volleyball Match | Northwestern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:07 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:06 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:03 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 04:01 | eSoccer Game | 1. FC Köln (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:55 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:51 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -364,16 +374,6 @@
 | 11-09 03:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:42 | eSoccer Game | Manchester Utd (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:38 | eSoccer Game | 1. FC Köln (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:38 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:37 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:37 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:35 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:35 | ITF Women's Match | Himari Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:30 | ITF Women's Match | Kurea Hayasaka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
