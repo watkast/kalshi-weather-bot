@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 8, 11:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 8, 11:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50351 | 50334 | 186 (0%) | 1.07% | -$3,518.40 (-57%) | Hold to the close: -$3,518.40 (-57%) |
+| 50355 | 50334 | 186 (0%) | 1.07% | -$3,518.40 (-57%) | Hold to the close: -$3,518.40 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/8 11:12:33 PM | BTC | DOWN | 2.5 min | +0.171% | — | In play | — |
+| 11/8 11:12:17 PM | GBPUSD | DOWN | 2.7 min | — | — | In play | — |
+| 11/8 11:11:44 PM | COPPER | UP | 3.3 min | — | — | In play | — |
+| 11/8 11:10:23 PM | EURUSD | DOWN | 4.6 min | — | — | In play | — |
 | 11/8 10:59:58 PM | PLATINUM | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 10:59:58 PM | EURUSD | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 10:59:42 PM | GOLD | DOWN | 17 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -215,10 +219,6 @@
 | 11/8 10:44:17 PM | GBPUSD | UP | 42 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/8 10:43:59 PM | BRENT | UP | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 10:43:43 PM | USDCAD | DOWN | 77 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/8 10:43:43 PM | COPPER | DOWN | 77 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/8 10:43:43 PM | ETH | UP | 77 sec | -0.164% | 1¢ | ❌ Lost | -$0.15 |
-| 11/8 10:42:38 PM | ZEC | DOWN | 2.4 min | +0.532% | 1¢ | ❌ Lost | -$0.15 |
-| 11/8 10:42:07 PM | SOL | UP | 2.9 min | -0.317% | 6¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
