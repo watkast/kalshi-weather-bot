@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 8:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54293 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
+| 54303 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3073 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51203 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51209 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25206 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25212 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3048 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2482 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1651 | 6 | 13% | 6% | -66% | -77% | 4 min |
@@ -344,12 +344,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 03:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 03:55 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | — | In play | — |
-| 11-09 03:51 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 03:51 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
-| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:09 | Liga MX Game | Guadalajara | ✔ | 90'+5' · GDL 1 - LEO 1 | — | In play | — |
+| 11-09 04:08 | Women's College Volleyball Match | Northwestern | ✘ | — | — | In play | — |
+| 11-09 04:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:07 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | — | In play | — |
+| 11-09 04:06 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-09 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:03 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-09 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 04:01 | eSoccer Game | 1. FC Köln (Castle) | ✘ | — | — | In play | — |
+| 11-09 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:55 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:51 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:51 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:44 | Liga MX Game | Leon | ✔ | 70' · GDL 1 - LEO 0 | — | In play | — |
 | 11-09 03:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:42 | eSoccer Game | Manchester Utd (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -364,16 +374,6 @@
 | 11-09 03:35 | ITF Women's Match | Himari Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:30 | ITF Women's Match | Kurea Hayasaka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:27 | eBasketball Game | Golden State Warriors (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:25 | Peru Liga 1 Game | Universitario | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:24 | eBasketball Game | New York Knicks (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:23 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:23 | eSoccer Game | Leverkusen (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:22 | eSoccer Game | FC Augsburg (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:22 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
