@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 6:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 6:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54713 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 54723 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51614 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51622 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25494 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3095 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 25500 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3096 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2507 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1660 | 6 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1573 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -129,7 +129,7 @@
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
 | Brasileiro Serie B Game | ✘ | 147 | 1 | 7% | 3% | -37% | -87% | 10 min |
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
-| ATP Tennis Match | ✘ | 141 | 0 | 15% | 6% | -100% | -74% | 4 min |
+| ATP Tennis Match | ✘ | 142 | 0 | 15% | 6% | -100% | -74% | 4 min |
 | KHL Game | ✘ | 141 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
@@ -344,16 +344,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 13:05 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | — | In play | — |
-| 11-09 13:05 | eSoccer Game | Nottingham Forest (NINJA) | ✘ | — | — | In play | — |
-| 11-09 13:05 | Russia Liga Pro Match | Andreev Stanislav | ✘ | — | — | In play | — |
-| 11-09 13:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 13:03 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | — | In play | — |
+| 11-09 13:16 | eSoccer Game | Chelsea (NINJA) | ✘ | — | — | In play | — |
+| 11-09 13:16 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | — | In play | — |
+| 11-09 13:16 | eSoccer Game | FC Bayern (Nate) | ✘ | — | — | In play | — |
+| 11-09 13:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 13:14 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-09 13:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 13:11 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-09 13:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 13:11 | Challenger ATP  | Guillaume Dalmasso | ✘ | — | — | In play | — |
+| 11-09 13:07 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
+| 11-09 13:05 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 13:05 | eSoccer Game | Nottingham Forest (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 13:05 | Russia Liga Pro Match | Andreev Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 13:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 13:03 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 13:02 | Dota 2 Game | potn9ki | ✘ | — | — | In play | — |
-| 11-09 13:01 | eSoccer Game | FC Bayern (Nate) | ✘ | — | — | In play | — |
-| 11-09 13:01 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | — | In play | — |
+| 11-09 13:01 | eSoccer Game | FC Bayern (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 13:01 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 13:00 | ATP Tennis Match | James Duckworth | ✘ | — | — | In play | — |
+| 11-09 13:00 | ATP Tennis Match | James Duckworth | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-09 12:59 | ATP Tennis Match | Yannick Hanfmann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:57 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -364,16 +374,6 @@
 | 11-09 12:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:52 | eSoccer Game | Liverpool (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:50 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:50 | eSoccer Game | Hoffenheim (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:50 | Russia Liga Pro Match | Stroev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:49 | eBasketball Game | Dallas Mavericks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:49 | Dota 2 Game | HULIGANI | ✘ | — | — | In play | — |
-| 11-09 12:48 | eSoccer Game | Leverkusen (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:38 | eSoccer Game | Spurs (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:36 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 12:36 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
