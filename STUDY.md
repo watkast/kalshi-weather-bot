@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 8:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 8:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54287 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
+| 54293 | 3073 | 13 (0%) | 1.1% | -$278.95 (-61%) | Hold to the end: -$278.95 (-61%) |
 
-*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3073 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51200 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51203 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25204 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25206 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3048 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2482 | 5 | 2% | 1% | -81% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1650 | 6 | 13% | 6% | -66% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1651 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1562 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1516 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -344,9 +344,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-09 03:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 03:55 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | — | In play | — |
+| 11-09 03:51 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 03:51 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 11-09 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-09 03:44 | Liga MX Game | Leon | ✔ | 70' · GDL 1 - LEO 0 | — | In play | — |
-| 11-09 03:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 03:42 | eSoccer Game | Manchester Utd (Zaroth) | ✘ | — | — | In play | — |
+| 11-09 03:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 03:42 | eSoccer Game | Manchester Utd (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:38 | eSoccer Game | 1. FC Köln (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:38 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:37 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -355,7 +361,7 @@
 | 11-09 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:35 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:35 | ITF Women's Match | Himari Sato | ✘ | — | — | In play | — |
+| 11-09 03:35 | ITF Women's Match | Himari Sato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:30 | ITF Women's Match | Kurea Hayasaka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:27 | eBasketball Game | Golden State Warriors (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -368,12 +374,6 @@
 | 11-09 03:22 | eSoccer Game | FC Augsburg (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 03:22 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:21 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:21 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:14 | Men's College Basketball Game | Penn St. | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 11-09 03:13 | eSoccer Game | Everton (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 03:13 | Challenger ATP  | Masamichi Imamura | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
