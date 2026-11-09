@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 3:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 4:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55008 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 55016 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51904 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51918 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25674 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25684 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3126 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2523 | 5 | 2% | 1% | -82% | -93% | 2 min |
+| eBasketball Game | ✘ | 2525 | 5 | 2% | 1% | -82% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1662 | 6 | 14% | 6% | -66% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1580 | 3 | 13% | 6% | -82% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1581 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1523 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 986 | 5 | 11% | 4% | -53% | -81% | 5 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 520 | 3 | 11% | 6% | -46% | -81% | 23 min |
 | Darts Match | ✘ | 377 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
-| Dota 2 Game | ✘ | 341 | 1 | 1% | 1% | -73% | -98% | 31 min |
+| Dota 2 Game | ✘ | 342 | 1 | 1% | 1% | -73% | -98% | 31 min |
 | Women's College Basketball Game | partly | 340 | 1 | 10% | 4% | -73% | -83% | 37 min |
 | Men's College Basketball Game | partly | 339 | 5 | 19% | 7% | +38% | -67% | 30 min |
 | Serie C Game | ✘ | 337 | 2 | 4% | 2% | -45% | -92% | 8 min |
@@ -344,19 +344,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 22:49 | ITF Men's Match | Marcel Hornung | ✘ | — | — | In play | — |
-| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:47 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
-| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:45 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | — | In play | — |
-| 11-09 22:45 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
-| 11-09 22:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:44 | eSoccer Game | River Plate (Eder) | ✘ | — | — | In play | — |
-| 11-09 22:43 | eSoccer Game | Real Sociedad (Drakon) | ✘ | — | — | In play | — |
-| 11-09 22:42 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 11-09 22:42 | eBasketball Game | Denver Nuggets (Jimmy) | ✘ | — | — | In play | — |
+| 11-09 23:00 | eSoccer Game | Spurs (July) | ✘ | — | — | In play | — |
+| 11-09 22:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 22:59 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | — | In play | — |
+| 11-09 22:59 | eSoccer Game | Boca Juniors (Rooney) | ✘ | — | — | In play | — |
+| 11-09 22:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 22:59 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 11-09 22:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 22:57 | Women's College Basketball Game | Delaware | ✘ | — | — | In play | — |
+| 11-09 22:49 | ITF Men's Match | Marcel Hornung | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:47 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:47 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:45 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:45 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:44 | eSoccer Game | River Plate (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:43 | eSoccer Game | Real Sociedad (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:42 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
+| 11-09 22:42 | eBasketball Game | Denver Nuggets (Jimmy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:39 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:38 | Russia Liga Pro Match | CHernikov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:35 | eSoccer Game | Real Betis (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -366,14 +374,6 @@
 | 11-09 22:32 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:31 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:31 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:30 | Ecuador Liga Pro Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:30 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:26 | Ecuador Liga Pro Game | Tecnico Uni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 22:22 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
-| 11-09 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
