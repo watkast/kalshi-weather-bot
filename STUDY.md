@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 5:15 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 5:25 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54664 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 54674 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51556 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51568 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25458 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3091 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 25466 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3092 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2503 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1658 | 6 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1573 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -166,8 +166,8 @@
 | UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | NFL Game | ✔ | 86 | 1 | 17% | 7% | +9% | -70% | 8 min |
+| Japan B League Game | ✘ | 86 | 0 | 7% | 0% | -100% | -88% | 11 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
-| Japan B League Game | ✘ | 84 | 0 | 7% | 0% | -100% | -88% | 11 min |
 | Euroleague Game | ✘ | 83 | 0 | 22% | 6% | -100% | -62% | 13 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
 | Bundesliga Game | ✔ | 81 | 1 | 17% | 9% | +15% | -70% | 9 min |
@@ -238,9 +238,9 @@
 | Australia NBL Game | ✘ | 44 | 0 | 5% | 2% | -100% | -92% | 10 min |
 | Hungarian NB I Game | ✘ | 44 | 0 | 7% | 7% | -100% | -88% | 9 min |
 | Sweden SBL Game | ✘ | 42 | 0 | 5% | 5% | -100% | -92% | 12 min |
+| Korea KBL Game | ✘ | 42 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Australian A League Game | ✘ | 42 | 0 | 10% | 2% | -100% | -83% | 11 min |
 | Indian Super League Game | ✘ | 42 | 0 | 14% | 7% | -100% | -75% | 9 min |
-| Korea KBL Game | ✘ | 41 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Faroe Islands Premier League Game | ✘ | 40 | 0 | 2% | 0% | -100% | -96% | 31 min |
 | Austrian Bundesliga Game | ✘ | 40 | 0 | 8% | 5% | -100% | -87% | 14 min |
 | Canadian Premier League | ✘ | 39 | 1 | 15% | 13% | +139% | -73% | 17 min |
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-09 12:25 | Japan B League Game | Kyoto Hannaryz | ✘ | — | — | In play | — |
+| 11-09 12:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 12:22 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | — | In play | — |
+| 11-09 12:22 | eBasketball Game | New York Knicks (Melo) | ✘ | — | — | In play | — |
+| 11-09 12:21 | eSoccer Game | 1. FC Köln (Frost) | ✘ | — | — | In play | — |
+| 11-09 12:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 12:21 | eBasketball Game | Golden State Warriors (Zach) | ✘ | — | — | In play | — |
+| 11-09 12:18 | eSoccer Game | Werder Bremen (Elastico) | ✘ | — | — | In play | — |
+| 11-09 12:17 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-09 12:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-09 12:14 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
 | 11-09 12:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 12:13 | Japan B League Game | Kawasaki Brave Thunders | ✘ | — | — | In play | — |
-| 11-09 12:12 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | — | In play | — |
-| 11-09 12:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | — | In play | — |
-| 11-09 12:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 12:13 | Japan B League Game | Kawasaki Brave Thunders | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:12 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
+| 11-09 12:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:08 | Japan B League Game | Nagoya Diamond Dolphins | ✘ | — | — | In play | — |
-| 11-09 12:08 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
-| 11-09 12:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 12:08 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:06 | Counter-Strike 2 Game | Walczaki | ✘ | — | — | In play | — |
 | 11-09 12:06 | Dota 2 Game | Team Synapse | ✘ | — | — | In play | — |
-| 11-09 12:06 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | — | In play | — |
-| 11-09 12:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 12:05 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-09 12:03 | Korea KBL Game | KT Sonicboom | ✘ | — | — | In play | — |
+| 11-09 12:06 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:05 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 12:03 | Korea KBL Game | KT Sonicboom | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-09 12:03 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:03 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:02 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 12:01 | Japan B League Game | Ryukyu Golden Kings Okinawa | ✘ | — | — | In play | — |
-| 11-09 11:57 | Japan B League Game | Toyama Grouses | ✘ | — | — | In play | — |
-| 11-09 11:57 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:55 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:54 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:53 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:51 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:50 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
