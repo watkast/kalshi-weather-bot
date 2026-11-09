@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 9, 3:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 9, 3:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 50718 | 50701 | 187 (0%) | 1.07% | -$3,550.45 (-58%) | Hold to the close: -$3,550.45 (-58%) |
+| 50722 | 50701 | 187 (0%) | 1.07% | -$3,550.45 (-58%) | Hold to the close: -$3,550.45 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/9 3:56:24 AM | WTI | UP | 3.6 min | — | — | In play | — |
+| 11/9 3:56:24 AM | BRENT | UP | 3.6 min | — | — | In play | — |
+| 11/9 3:56:09 AM | USDCAD | DOWN | 3.8 min | — | — | In play | — |
+| 11/9 3:55:50 AM | BNB | DOWN | 4.2 min | +0.162% | — | In play | — |
 | 11/9 3:44:57 AM | EURUSD | DOWN | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/9 3:44:57 AM | SILVER | UP | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/9 3:44:41 AM | BRENT | UP | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/9 3:29:33 AM | GBPUSD | DOWN | 26 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/9 3:29:33 AM | COPPER | DOWN | 26 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/9 3:29:14 AM | EURUSD | UP | 46 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/9 3:29:14 AM | GOLD | UP | 46 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/9 3:28:58 AM | ZEC | DOWN | 62 sec | +0.288% | 0¢ | ❌ Lost | $0.00 |
-| 11/9 3:28:42 AM | SOL | DOWN | 78 sec | +0.211% | 0¢ | ❌ Lost | $0.00 |
-| 11/9 3:28:27 AM | PLATINUM | DOWN | 1.6 min | — | 3¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
