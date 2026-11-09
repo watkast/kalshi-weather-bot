@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 4:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 5:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54641 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 54649 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51541 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51550 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25446 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25454 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3090 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2503 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1658 | 6 | 14% | 6% | -66% | -76% | 4 min |
@@ -110,7 +110,7 @@
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Women's College Basketball Game | partly | 340 | 1 | 10% | 4% | -73% | -83% | 37 min |
 | Men's College Basketball Game | partly | 339 | 5 | 19% | 7% | +38% | -67% | 30 min |
-| Men's T20 Cricket Match | ✘ | 331 | 2 | 15% | 7% | -44% | -73% | 22 min |
+| Men's T20 Cricket Match | ✘ | 332 | 2 | 15% | 7% | -44% | -73% | 22 min |
 | Dota 2 Game | ✘ | 331 | 1 | 1% | 1% | -72% | -98% | 31 min |
 | Serie C Game | ✘ | 329 | 2 | 4% | 2% | -43% | -93% | 8 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 11:54 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | — | In play | — |
-| 11-09 11:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 11:53 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | — | In play | — |
-| 11-09 11:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 11:51 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
-| 11-09 11:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 12:03 | Korea KBL Game | KT Sonicboom | ✘ | — | — | In play | — |
+| 11-09 12:03 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
+| 11-09 12:03 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-09 12:02 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | — | In play | — |
+| 11-09 12:01 | Japan B League Game | Ryukyu Golden Kings Okinawa | ✘ | — | — | In play | — |
+| 11-09 11:57 | Japan B League Game | Toyama Grouses | ✘ | — | — | In play | — |
+| 11-09 11:57 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | — | In play | — |
+| 11-09 11:55 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 11-09 11:54 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 11:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 11:53 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 11:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 11:51 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 11:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:50 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:49 | Japan B League Game | Nagasaki Velca | ✘ | — | — | In play | — |
 | 11-09 11:49 | Challenger ATP  | Alexandre Reco | ✘ | — | — | In play | — |
-| 11-09 11:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 11:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:44 | Challenger ATP  | Benjamin Kittay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:43 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
+| 11-09 11:43 | eSoccer Game | Portugal (Adri) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-09 11:43 | eSoccer Game | Freiburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:42 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:41 | eSoccer Game | Manchester City (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:39 | Men's T20 Cricket Match | BBK Partnership | ✘ | — | — | In play | — |
+| 11-09 11:39 | Men's T20 Cricket Match | BBK Partnership | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:37 | Challenger ATP  | Vladyslav Orlov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:36 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 11:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:28 | eSoccer Game | Frankfurt (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:27 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:27 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:26 | eSoccer Game | Mönchengladbach (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 11:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
