@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 3:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 3:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54974 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 54981 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51871 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51885 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25654 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3122 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2521 | 5 | 2% | 1% | -81% | -93% | 2 min |
+| eSoccer Game | ✘ | 25662 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3123 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eBasketball Game | ✘ | 2523 | 5 | 2% | 1% | -82% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1662 | 6 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1580 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1523 | 2 | 6% | 3% | -88% | -90% | 11 min |
@@ -257,8 +257,8 @@
 | EFL Trophy Game | ✘ | 31 | 0 | 6% | 6% | -100% | -89% | 47 min |
 | BNXT League Game | ✘ | 31 | 0 | 6% | 3% | -100% | -89% | 11 min |
 | Slovakia SBL Game | ✘ | 30 | 0 | 3% | 0% | -100% | -94% | 16 min |
+| Croatia Premijer Liga Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | FIBA Champions League Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| Croatia Premijer Liga Game | ✘ | 29 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Singapore Premier League Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 18 min |
 | LKL Lithuania Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 9 min |
 | Eredivisie Vrouwen Game | ✘ | 28 | 0 | 4% | 4% | -100% | -94% | 8 min |
@@ -285,10 +285,10 @@
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | Women's Bundesliga Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Israel Super League Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 13 min |
+| Liga Portugal 2 Game | ✘ | 12 | 0 | 25% | 17% | -100% | -57% | 19 min |
 | Slovakia Niké liga Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 21 min |
 | Powerslap Match Winner | ✘ | 11 | 0 | 9% | 9% | -100% | -84% | 7 min |
 | United Rugby Championship Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| Liga Portugal 2 Game | ✘ | 10 | 0 | 20% | 20% | -100% | -65% | 18 min |
 | CONMEBOL Sudamericana Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Copa do Brasil Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 17 min |
 | Bare Knuckle Fight Match | ✘ | 8 | 0 | 25% | 0% | -100% | -57% | 27 min |
@@ -344,15 +344,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 22:18 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
-| 11-09 22:17 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | — | In play | — |
+| 11-09 22:26 | Ecuador Liga Pro Game | Tecnico Uni | ✘ | — | — | In play | — |
+| 11-09 22:22 | Dota 2 Game | Yakult's Brothers | ✘ | — | — | In play | — |
+| 11-09 22:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 22:21 | eSoccer Game | Sevilla FC (Zaroth) | ✘ | — | — | In play | — |
+| 11-09 22:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:19 | eSoccer Game | River Plate (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:18 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:17 | Russia Liga Pro Match | Nemashkalo Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:17 | Counter-Strike 2 Game | Pandaric eSports | ✘ | — | — | In play | — |
-| 11-09 22:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 22:14 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
-| 11-09 22:14 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | — | In play | — |
-| 11-09 22:13 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
-| 11-09 22:10 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | — | In play | — |
+| 11-09 22:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:14 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:14 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:13 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 22:10 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 11-09 22:09 | WTA Tennis Match | Karolina Muchova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:08 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:06 | eSoccer Game | Palmeiras (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -367,13 +374,6 @@
 | 11-09 22:02 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 22:00 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-09 21:59 | Liga Portugal 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-09 21:54 | Dota 2 Game | HULIGANI | ✘ | — | — | In play | — |
-| 11-09 21:53 | APF Division de Honor Game | Rubio Nu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 21:53 | APF Division de Honor Game | San Lorenzo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 21:52 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 21:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 21:49 | Spanish Liga F Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
