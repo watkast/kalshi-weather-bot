@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 8, 5:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 8, 5:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 49922 | 49905 | 184 (0%) | 1.07% | -$3,491.80 (-58%) | Hold to the close: -$3,491.80 (-58%) |
+| 49926 | 49905 | 184 (0%) | 1.07% | -$3,491.80 (-58%) | Hold to the close: -$3,491.80 (-58%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/8 5:28:17 PM | HYPE | UP | 1.7 min | -0.516% | — | In play | — |
+| 11/8 5:28:17 PM | BTC | DOWN | 1.7 min | +0.221% | — | In play | — |
+| 11/8 5:27:59 PM | SILVER | UP | 2.0 min | — | — | In play | — |
+| 11/8 5:27:43 PM | NEAR | UP | 2.3 min | -0.841% | — | In play | — |
 | 11/8 5:14:46 PM | BTC | UP | 14 sec | +0.026% | 0¢ | ❌ Lost | $0.00 |
 | 11/8 5:14:30 PM | XRP | DOWN | 30 sec | +0.144% | 0¢ | ❌ Lost | $0.00 |
 | 11/8 5:14:30 PM | USDCAD | DOWN | 30 sec | — | 9¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/8 4:59:21 PM | EURUSD | UP | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 4:58:49 PM | PALLADIUM | UP | 70 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/8 4:57:46 PM | COPPER | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/8 4:57:46 PM | AUDUSD | UP | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/8 4:57:19 PM | USDJPY | UP | 2.7 min | — | 6¢ | ❌ Lost | -$0.15 |
-| 11/8 4:56:46 PM | ZEC | UP | 3.2 min | -0.868% | 1¢ | ❌ Lost | -$0.15 |
-| 11/8 4:56:46 PM | NEAR | UP | 3.2 min | -0.886% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
