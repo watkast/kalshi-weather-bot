@@ -1,19 +1,18 @@
 {
- "saved_at": "2026-11-09T22:08:37+00:00",
+ "saved_at": "2026-11-09T22:18:58+00:00",
  "series_watched": 383,
- "markets_in_or_near_play": 186,
+ "markets_in_or_near_play": 174,
  "batch_lookup": true,
  "espn_games_linked": 0,
  "espn_check": {
-  "at": "2026-11-09T21:38:07+00:00",
-  "started_games": 2,
+  "at": "2026-11-09T22:09:22+00:00",
+  "started_games": 1,
   "matched": 0,
   "unmatched_sample": [
-   "KXNCAAWBGAME-26NOV09DELTOWS",
-   "KXLALIGA2GAME-26NOV09SABRSO"
+   "KXNCAAWBGAME-26NOV09DELTOWS"
   ]
  },
- "bets": 54964,
- "open": 32,
+ "bets": 54974,
+ "open": 24,
  "errors": []
 }
