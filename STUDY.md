@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 9, 1:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 9, 1:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54536 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
+| 54548 | 3079 | 13 (0%) | 1.1% | -$279.85 (-61%) | Hold to the end: -$279.85 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51438 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51447 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25374 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3072 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 25382 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3073 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2497 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1657 | 6 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1573 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -344,17 +344,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 08:29 | Russia Liga Pro Match | Arbidan Aleksandr | ✘ | — | — | In play | — |
-| 11-09 08:28 | eSoccer Game | OGC Nice (NINJA) | ✘ | — | — | In play | — |
-| 11-09 08:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 08:26 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
-| 11-09 08:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 08:25 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-09 08:40 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | — | In play | — |
+| 11-09 08:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 08:40 | Russia Liga Pro Match | Keptenar Evgenii | ✘ | — | — | In play | — |
+| 11-09 08:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 08:39 | eSoccer Game | Juventus (Rendeto) | ✘ | — | — | In play | — |
+| 11-09 08:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 08:39 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-09 08:37 | eBasketball Game | Los Angeles Lakers (Zach) | ✘ | — | — | In play | — |
+| 11-09 08:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 08:36 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 11-09 08:34 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | — | In play | — |
+| 11-09 08:32 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | — | In play | — |
+| 11-09 08:29 | Russia Liga Pro Match | Arbidan Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:28 | eSoccer Game | OGC Nice (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:26 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:25 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:24 | eSoccer Game | Montpellier (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:23 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 08:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | — | In play | — |
+| 11-09 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 08:21 | eSoccer Game | Juventus (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:15 | Men's T20 Cricket Match | Colombo Aces | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:15 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:14 | eSoccer Game | AS Monaco (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -362,18 +374,6 @@
 | 11-09 08:11 | eSoccer Game | RCD Mallorca (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 08:10 | ITF Men's Match | Jules Melot | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:10 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:09 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:06 | eSoccer Game | Real Madrid (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 08:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 07:59 | eSoccer Game | Rennes (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 07:57 | eSoccer Game | Sevilla FC (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 07:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 07:56 | ITF Women's Match | Riko Kikawada | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
