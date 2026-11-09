@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-11-09T15:15:13+00:00",
+ "saved_at": "2026-11-09T20:53:28+00:00",
  "series": 35,
  "markets_watched": 27,
  "batch_lookup": true,
- "bets": 51007,
- "open": 18,
+ "bets": 51027,
+ "open": 3,
  "coinbase_spot": {
   "ETH": true,
-  "HYPE": true,
-  "XRP": true,
-  "NEAR": true,
-  "SOL": true,
   "BNB": true,
-  "BTC": true,
+  "ZEC": true,
+  "SOL": true,
   "DOGE": true,
-  "ZEC": true
+  "BTC": true,
+  "NEAR": true,
+  "XRP": true,
+  "HYPE": true
  },
- "errors": [
-  "2026-11-09T12:00:00+00:00 refresh KXTON15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
