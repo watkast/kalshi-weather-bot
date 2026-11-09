@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 9, 3:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 9, 3:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51293 | 51276 | 195 (0%) | 1.07% | -$3,512.10 (-56%) | Hold to the close: -$3,512.10 (-56%) |
+| 51295 | 51276 | 195 (0%) | 1.07% | -$3,512.10 (-56%) | Hold to the close: -$3,512.10 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/9 3:55:26 PM | ZEC | UP | 4.5 min | -0.739% | — | In play | — |
+| 11/9 3:53:30 PM | XRP | DOWN | 6.5 min | +0.519% | — | In play | — |
 | 11/9 3:44:59 PM | WTI | DOWN | 1 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/9 3:44:59 PM | AUDUSD | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/9 3:44:59 PM | USDCAD | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,6 @@
 | 11/9 3:28:19 PM | NEAR | UP | 1.7 min | -0.400% | 1¢ | ❌ Lost | -$0.15 |
 | 11/9 3:28:19 PM | SOL | DOWN | 1.7 min | +0.099% | 1¢ | ❌ Lost | -$0.15 |
 | 11/9 3:14:59 PM | EURUSD | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/9 3:14:59 PM | WTI | DOWN | 1 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/9 3:14:43 PM | NEAR | DOWN | 17 sec | +0.060% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
