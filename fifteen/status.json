@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-09T14:24:17+00:00",
+ "saved_at": "2026-11-09T14:34:41+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 50920,
+ "bets": 50940,
  "open": 3,
  "coinbase_spot": {
   "ETH": true,
