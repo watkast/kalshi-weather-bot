@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 10:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 10:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54366 | 3078 | 13 (0%) | 1.1% | -$279.70 (-61%) | Hold to the end: -$279.70 (-61%) |
+| 54378 | 3078 | 13 (0%) | 1.1% | -$279.70 (-61%) | Hold to the end: -$279.70 (-61%) |
 
-*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3078 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51273 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51280 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25260 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3051 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 25264 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3053 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2487 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1653 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1565 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -109,7 +109,7 @@
 | Darts Match | ✘ | 374 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Women's College Basketball Game | partly | 340 | 1 | 10% | 4% | -73% | -83% | 37 min |
-| Men's College Basketball Game | partly | 337 | 5 | 19% | 7% | +38% | -67% | 30 min |
+| Men's College Basketball Game | partly | 338 | 5 | 19% | 7% | +38% | -67% | 30 min |
 | Dota 2 Game | ✘ | 331 | 1 | 1% | 1% | -72% | -98% | 31 min |
 | Men's T20 Cricket Match | ✘ | 329 | 2 | 16% | 7% | -43% | -73% | 23 min |
 | Serie C Game | ✘ | 329 | 2 | 4% | 2% | -43% | -93% | 8 min |
@@ -344,11 +344,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-09 05:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:33 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | — | In play | — |
+| 11-09 05:30 | eSoccer Game | Valencia CF (Vini) | ✘ | — | — | In play | — |
+| 11-09 05:30 | Russia Liga Pro Match | Arbidan Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:30 | eSoccer Game | Athletic Club (Kylian) | ✘ | — | — | In play | — |
+| 11-09 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:29 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-09 05:28 | eSoccer Game | Sevilla FC (Bradley) | ✘ | — | — | In play | — |
+| 11-09 05:28 | eSoccer Game | Real Sociedad (Castle) | ✘ | — | — | In play | — |
+| 11-09 05:27 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-09 05:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:23 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:18 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-09 05:16 | eSoccer Game | Freiburg (Vini) | ✘ | — | — | In play | — |
-| 11-09 05:15 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
-| 11-09 05:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:16 | eSoccer Game | Freiburg (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:15 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:14 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -358,22 +370,10 @@
 | 11-09 05:05 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:03 | Russia Liga Pro Match | Semeshin Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:03 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-09 05:02 | Men's College Basketball Game | UT Arlington | ✘ | — | — | In play | — |
+| 11-09 05:02 | Men's College Basketball Game | UT Arlington | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 11-09 05:02 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:01 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:00 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:59 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:53 | eSoccer Game | Liverpool (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:53 | eSoccer Game | Newcastle Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:48 | eSoccer Game | Mönchengladbach (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:47 | eBasketball Game | Indiana Pacers (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:46 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:45 | eSoccer Game | RB Leipzig (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 04:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
