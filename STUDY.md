@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 10:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 10:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54386 | 3078 | 13 (0%) | 1.1% | -$279.70 (-61%) | Hold to the end: -$279.70 (-61%) |
+| 54397 | 3078 | 13 (0%) | 1.1% | -$279.70 (-61%) | Hold to the end: -$279.70 (-61%) |
 
-*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3078 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51292 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51300 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25274 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 25278 | 16 | 1% | 0% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3055 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2487 | 5 | 2% | 1% | -81% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1653 | 6 | 13% | 6% | -66% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1565 | 3 | 13% | 6% | -82% | -77% | 5 min |
+| eBasketball Game | ✘ | 2488 | 5 | 2% | 1% | -81% | -93% | 2 min |
+| ITF Women's Match | ✘ | 1655 | 6 | 14% | 6% | -66% | -77% | 4 min |
+| ITF Men's Match | ✘ | 1566 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1516 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 965 | 3 | 11% | 4% | -71% | -81% | 5 min |
@@ -344,11 +344,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 05:42 | ITF Women's Match | Erika Sema | ✘ | — | — | In play | — |
-| 11-09 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:51 | Russia Liga Pro Match | Boiko Aleksei | ✘ | — | — | In play | — |
+| 11-09 05:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:51 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-09 05:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:47 | eSoccer Game | Chelsea (Adri) | ✘ | — | — | In play | — |
+| 11-09 05:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 05:46 | ITF Women's Match | Jizelle Sibai | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:44 | eSoccer Game | Athletic Club (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:44 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | — | In play | — |
+| 11-09 05:44 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:42 | ITF Women's Match | Erika Sema | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 11-09 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:42 | Challenger ATP  | Mitsuki Wei Kang Leong | ✘ | — | — | In play | — |
-| 11-09 05:41 | eSoccer Game | Sevilla FC (Castle) | ✘ | — | — | In play | — |
-| 11-09 05:41 | ITF Men's Match | Jerome Estephan | ✘ | — | — | In play | — |
+| 11-09 05:41 | eSoccer Game | Sevilla FC (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 05:41 | ITF Men's Match | Jerome Estephan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:41 | eSoccer Game | Spurs (Zaroth) | ✘ | — | — | In play | — |
 | 11-09 05:38 | Russia Liga Pro Match | Nuriev Damir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:33 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -363,17 +374,6 @@
 | 11-09 05:28 | eSoccer Game | Real Sociedad (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:27 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:23 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:18 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:16 | eSoccer Game | Freiburg (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:15 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:14 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:13 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 05:09 | ITF Men's Match | Maximus Zavier Wong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
