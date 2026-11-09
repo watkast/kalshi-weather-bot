@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 8, 7:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 8, 7:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54217 | 3065 | 13 (0%) | 1.1% | -$277.75 (-60%) | Hold to the end: -$277.75 (-60%) |
+| 54224 | 3065 | 13 (0%) | 1.1% | -$277.75 (-60%) | Hold to the end: -$277.75 (-60%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3065 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 51135 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 51140 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 25157 | 16 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3046 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 25161 | 16 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3047 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2477 | 5 | 2% | 1% | -81% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1649 | 6 | 13% | 6% | -66% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1562 | 3 | 13% | 6% | -82% | -77% | 5 min |
@@ -344,9 +344,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-09 02:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 02:34 | R6 Game | DarkZero Esports | ✘ | — | — | In play | — |
+| 11-09 02:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-09 02:31 | eSoccer Game | Everton (Dzen) | ✘ | — | — | In play | — |
+| 11-09 02:29 | Russia Liga Pro Match | Andreev Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 02:29 | NHL Game | Toronto | ✔ | 9:30 - 3rd · NJ 3 - TOR 0 | — | In play | — |
+| 11-09 02:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 02:27 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-09 02:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:24 | eBasketball Game | New Orleans Pelicans (Jalen) | ✘ | — | — | In play | — |
-| 11-09 02:24 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 11-09 02:24 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:17 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -367,13 +374,6 @@
 | 11-09 02:01 | eBasketball Game | Dallas Mavericks (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:01 | eSoccer Game | Flamengo (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-09 02:01 | eSoccer Game | Estudiantes (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:59 | eSoccer Game | São Paulo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:59 | eSoccer Game | Universitario (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:52 | Liga MX Game | Tie | ✔ | 90' · PUE 2 - QRO 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:49 | Women's College Basketball Game | East Texas A&M | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-09 01:46 | eSoccer Game | Botafogo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-09 01:40 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
