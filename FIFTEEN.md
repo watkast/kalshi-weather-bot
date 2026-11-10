@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 10, 8:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 10, 8:12 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 52175 | 52158 | 200 (0%) | 1.07% | -$3,555.50 (-56%) | Hold to the close: -$3,555.50 (-56%) |
+| 52179 | 52158 | 200 (0%) | 1.07% | -$3,555.50 (-56%) | Hold to the close: -$3,555.50 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/10 8:11:39 AM | SOL | DOWN | 3.4 min | +0.581% | — | In play | — |
+| 11/10 8:11:39 AM | PALLADIUM | DOWN | 3.4 min | — | — | In play | — |
+| 11/10 8:11:39 AM | HYPE | DOWN | 3.4 min | +0.598% | — | In play | — |
+| 11/10 8:11:08 AM | GOLD | DOWN | 3.9 min | — | — | In play | — |
 | 11/10 7:59:52 AM | USDCAD | DOWN | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/10 7:59:37 AM | BTC | DOWN | 22 sec | +0.119% | 0¢ | ❌ Lost | $0.00 |
 | 11/10 7:59:37 AM | BNB | DOWN | 22 sec | +0.080% | 0¢ | ❌ Lost | $0.00 |
@@ -215,10 +219,6 @@
 | 11/10 7:44:44 AM | AUDUSD | UP | 15 sec | — | 63¢ | ✅ Won | $13.85 |
 | 11/10 7:44:25 AM | PALLADIUM | UP | 35 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/10 7:44:09 AM | BRENT | DOWN | 51 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 7:43:38 AM | 30YRRATE | DOWN | 81 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 7:43:38 AM | XRP | DOWN | 81 sec | +0.624% | 0¢ | ❌ Lost | $0.00 |
-| 11/10 7:43:19 AM | HYPE | DOWN | 1.7 min | +0.721% | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 7:43:03 AM | WTI | DOWN | 1.9 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
