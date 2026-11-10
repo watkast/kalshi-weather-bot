@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 10:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 10:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55913 | 3093 | 13 (0%) | 1.1% | -$281.95 (-61%) | Hold to the end: -$281.95 (-61%) |
+| 55918 | 3093 | 13 (0%) | 1.1% | -$281.95 (-61%) | Hold to the end: -$281.95 (-61%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3093 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 52793 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 52807 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26232 | 17 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3205 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 26242 | 17 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3207 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2581 | 5 | 2% | 1% | -82% | -93% | 2 min |
 | ITF Women's Match | ✘ | 1704 | 6 | 14% | 6% | -67% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1613 | 3 | 13% | 6% | -83% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1531 | 2 | 6% | 3% | -88% | -90% | 12 min |
+| ITF Men's Match | ✘ | 1614 | 3 | 13% | 6% | -83% | -77% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1532 | 2 | 6% | 3% | -88% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1006 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -344,16 +344,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-10 17:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-10 17:21 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | — | In play | — |
-| 11-10 17:20 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-10 17:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-10 17:19 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | — | In play | — |
-| 11-10 17:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-10 17:19 | eSoccer Game | Chelsea (Fede) | ✘ | — | — | In play | — |
-| 11-10 17:19 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-10 17:19 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 11-10 17:18 | eSoccer Game | Werder Bremen (Ryft) | ✘ | — | — | In play | — |
+| 11-10 17:30 | Valorant game winner | Pixel Lumina | ✘ | — | — | In play | — |
+| 11-10 17:28 | Russia Liga Pro Match | Burov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:24 | Slovenia 1. SKL Game | Nova Gorica Mladi | ✘ | — | — | In play | — |
+| 11-10 17:22 | ITF Men's Match | Thomas Gimenez | ✘ | — | — | In play | — |
+| 11-10 17:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:21 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:20 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:19 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:19 | eSoccer Game | Chelsea (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:19 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:19 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 17:18 | eSoccer Game | Werder Bremen (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 17:18 | Russia Liga Pro Match | Smyshnikov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 17:15 | Russia Liga Pro Match | Pinkovskii Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 17:12 | Russia VTB United Game | Avtodor Saratov | ✘ | — | — | In play | — |
@@ -369,11 +374,6 @@
 | 11-10 17:05 | eSoccer Game | Crystal Palace (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 17:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 17:05 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 17:04 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 17:00 | Challenger ATP  | Juan Carlos Prado Angelo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 17:00 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
-| 11-10 16:59 | ITF Men's Match | Thiago Horacio Messa | ✘ | — | — | In play | — |
 
 ## Raw data
 
