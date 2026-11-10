@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-11-10T05:53:49+00:00",
+ "saved_at": "2026-11-10T06:04:07+00:00",
  "series_watched": 383,
- "markets_in_or_near_play": 130,
+ "markets_in_or_near_play": 124,
  "batch_lookup": true,
  "espn_games_linked": 5,
  "espn_check": {
-  "at": "2026-11-10T05:23:07+00:00",
-  "started_games": 3,
-  "matched": 2,
+  "at": "2026-11-10T05:54:17+00:00",
+  "started_games": 2,
+  "matched": 1,
   "unmatched_sample": [
    "KXNCAAMBGAME-26NOV10PORTHAW"
   ]
  },
- "bets": 55375,
- "open": 18,
+ "bets": 55384,
+ "open": 16,
  "errors": []
 }
