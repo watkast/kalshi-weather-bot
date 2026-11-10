@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 10, 5:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 10, 5:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4157 finished bets | 1% | $182.30 | +39% | +4.39¢ | $89.05 / $93.25 |
 
-*Expect about **96 buys a day** (~$14.42/day at risk); max loss per buy **15¢**.*
+*Expect about **96 buys a day** (~$14.41/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 51983 | 51966 | 199 (0%) | 1.07% | -$3,544.15 (-56%) | Hold to the close: -$3,544.15 (-56%) |
+| 51988 | 51966 | 199 (0%) | 1.07% | -$3,544.15 (-56%) | Hold to the close: -$3,544.15 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 14. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/10 5:56:46 AM | BNB | DOWN | 3.2 min | +0.089% | — | In play | — |
+| 11/10 5:56:30 AM | SOL | DOWN | 3.5 min | +0.219% | — | In play | — |
+| 11/10 5:55:55 AM | ZEC | DOWN | 4.1 min | +0.532% | — | In play | — |
+| 11/10 5:55:39 AM | BTC | DOWN | 4.3 min | +0.228% | — | In play | — |
+| 11/10 5:54:48 AM | ETH | DOWN | 5.2 min | +0.294% | — | In play | — |
 | 11/10 5:44:51 AM | SILVER | UP | 9 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/10 5:44:51 AM | SOL | DOWN | 9 sec | -0.010% | 0¢ | ❌ Lost | $0.00 |
 | 11/10 5:44:51 AM | USDJPY | UP | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,11 +219,6 @@
 | 11/10 2:29:44 AM | BRENT | UP | 15 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/10 2:29:28 AM | 5YRRATE | UP | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/10 2:29:28 AM | 10YRRATE | UP | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 2:29:28 AM | 30YRRATE | UP | 31 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 2:29:12 AM | 2YRRATE | UP | 47 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/10 2:29:12 AM | GOLD | UP | 47 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/10 2:28:56 AM | SOL | DOWN | 63 sec | +0.120% | 0¢ | ❌ Lost | $0.00 |
-| 11/10 2:28:56 AM | USDJPY | UP | 63 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
