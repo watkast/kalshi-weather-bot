@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 2:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 2:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55565 | 3093 | 13 (0%) | 1.1% | -$281.95 (-61%) | Hold to the end: -$281.95 (-61%) |
+| 55571 | 3093 | 13 (0%) | 1.1% | -$281.95 (-61%) | Hold to the end: -$281.95 (-61%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 11. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3093 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 52455 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 52467 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26029 | 17 | 1% | 0% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3172 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 26039 | 17 | 1% | 0% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3173 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2564 | 5 | 2% | 1% | -82% | -93% | 2 min |
-| ITF Women's Match | ✘ | 1682 | 6 | 13% | 6% | -67% | -77% | 4 min |
+| ITF Women's Match | ✘ | 1683 | 6 | 14% | 6% | -67% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1590 | 3 | 13% | 6% | -82% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1525 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -344,15 +344,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-10 09:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-10 09:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-10 09:18 | Russia Liga Pro Match | Popov Dmitrii | ✘ | — | — | In play | — |
-| 11-10 09:18 | eSoccer Game | Juventus (Rendeto) | ✘ | — | — | In play | — |
-| 11-10 09:17 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
-| 11-10 09:16 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-10 09:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:22 | eSoccer Game | Olympique de Marseille (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:22 | eSoccer Game | Real Madrid (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:22 | eSoccer Game | Olympique Lyon (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:21 | Russia Liga Pro Match | Krikunov Oleg | ✘ | — | — | In play | — |
+| 11-10 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:18 | Russia Liga Pro Match | Popov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:18 | eSoccer Game | Juventus (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:17 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-10 09:16 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 09:10 | eSoccer Game | Paris Saint-Germain (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 09:10 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 09:09 | ITF Women's Match | Jia-Jing Lu | ✘ | — | — | In play | — |
+| 11-10 09:09 | ITF Women's Match | Jia-Jing Lu | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 11-10 09:08 | eSoccer Game | Liverpool (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 09:06 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 09:05 | eSoccer Game | Real Madrid (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -368,12 +374,6 @@
 | 11-10 08:54 | eSoccer Game | Slavia Praha (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 08:54 | eSoccer Game | Juventus (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-10 08:53 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 08:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 08:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 08:49 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 08:49 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-10 08:44 | ITF Men's Match | Natthayut Nithithananont | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-10 08:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
