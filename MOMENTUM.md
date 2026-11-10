@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Tue Nov 10 21:11 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Tue Nov 10 21:21 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 38036 | 33036 | 5000 (144) | 2 | $-1390.87 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 23387 | 12796 | 10591 (4748) | 2 | $-7672.92 | -5.1% |
+| **20¢+ jump, sell +5¢** | 38038 | 33036 | 5002 (144) | 0 | $-1405.15 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 23389 | 12796 | 10593 (4748) | 0 | $-7686.50 | -5.1% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,11 +18,11 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 11-10 21:08 | J20R | NEAR | UP | 28¢ | 0.83 | open |  |
-| 11-10 21:08 | J20 | NEAR | UP | 28¢ | 0.83 | open |  |
-| 11-10 21:06 | J20 | ZEC | DOWN | 21¢ | 0.57 | open |  |
+| 11-10 21:08 | J20R | NEAR | UP | 28¢ | 0.83 | no | -8.40 |
+| 11-10 21:08 | J20 | NEAR | UP | 28¢ | 0.83 | no | -8.40 |
+| 11-10 21:06 | J20 | ZEC | DOWN | 21¢ | 0.57 | yes | -5.88 |
 | 11-10 21:06 | J20 | ZEC | DOWN | 21¢ | 0.51 | 0.56 | 0.14 |
-| 11-10 21:06 | J20R | ZEC | DOWN | 21¢ | 0.50 | open |  |
+| 11-10 21:06 | J20R | ZEC | DOWN | 21¢ | 0.50 | yes | -5.18 |
 | 11-10 21:06 | J20 | ZEC | DOWN | 21¢ | 0.50 | 0.56 | 0.24 |
 | 11-10 21:02 | J20R | ZEC | UP | 21¢ | 0.57 | 0.63 | 0.26 |
 | 11-10 21:02 | J20 | ZEC | UP | 21¢ | 0.56 | 0.63 | 0.33 |
