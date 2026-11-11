@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-11T04:06:54+00:00",
+ "saved_at": "2026-11-11T04:17:20+00:00",
  "series": 35,
  "markets_watched": 22,
  "batch_lookup": true,
- "bets": 52866,
+ "bets": 52887,
  "open": 3,
  "coinbase_spot": {
   "ZEC": true,
@@ -16,5 +16,7 @@
   "SOL": true,
   "DOGE": true
  },
- "errors": []
+ "errors": [
+  "2026-11-11T04:15:05+00:00 settle KXXRP15M-26NOV102315-15: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ ]
 }
