@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-11T01:22:52+00:00",
+ "saved_at": "2026-11-11T01:33:14+00:00",
  "series_watched": 383,
  "markets_in_or_near_play": 315,
  "batch_lookup": true,
- "espn_games_linked": 25,
+ "espn_games_linked": 27,
  "espn_check": {
   "at": "2026-11-11T01:13:47+00:00",
   "started_games": 76,
@@ -21,7 +21,7 @@
    "KXNCAAMBGAME-26NOV10YALEBAY"
   ]
  },
- "bets": 56309,
- "open": 45,
+ "bets": 56321,
+ "open": 42,
  "errors": []
 }
