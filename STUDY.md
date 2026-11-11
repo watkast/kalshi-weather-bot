@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 11:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 11:41 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56659 | 3129 | 13 (0%) | 1.1% | -$287.35 (-61%) | Hold to the end: -$287.35 (-61%) |
+| 56671 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 15. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 713 | 2.7% | 0.1% (1) | -171% | ❌ Worse |
+| ESPN win probability | 714 | 2.7% | 0.1% (1) | -171% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,7 +58,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 713 | 1 | -87% | -70% | -71% | -73% |
+| **Any 1¢ (no model)** | 714 | 1 | -87% | -70% | -71% | -73% |
 | ESPN win probability ≥ 2% | 142 | 1 | -34% | -63% | -67% | -73% |
 | ESPN win probability ≥ 5% | 62 | 1 | +51% | -83% | -83% | -86% |
 | ESPN win probability ≥ 10% | 40 | 1 | +133% | -78% | -74% | -78% |
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3129 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53513 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 53526 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$287.35 | -61% |
-| Sell at 2¢ | 439 | 14% | -$355.21 | -76% |
-| Sell at 3¢ | 306 | 10% | -$350.01 | -75% |
-| Sell at 5¢ | 206 | 7% | -$335.45 | -71% |
-| Sell at 10¢ | 89 | 3% | -$352.76 | -75% |
-| Sell at 25¢ | 34 | 1% | -$356.81 | -76% |
-| Sell at 50¢ | 22 | 1% | -$320.85 | -68% |
+| Hold to the end | 13 | 0% | -$287.50 | -61% |
+| Sell at 2¢ | 440 | 14% | -$355.10 | -76% |
+| Sell at 3¢ | 306 | 10% | -$350.16 | -75% |
+| Sell at 5¢ | 206 | 7% | -$335.60 | -71% |
+| Sell at 10¢ | 89 | 3% | -$352.91 | -75% |
+| Sell at 25¢ | 34 | 1% | -$356.96 | -76% |
+| Sell at 50¢ | 22 | 1% | -$321.00 | -68% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26657 | 18 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3257 | 0 | 1% | 0% | -100% | -99% | 4 min |
+| eSoccer Game | ✘ | 26667 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3258 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2621 | 5 | 3% | 1% | -82% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1728 | 7 | 14% | 6% | -62% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1651 | 3 | 14% | 6% | -83% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1540 | 2 | 6% | 3% | -88% | -90% | 11 min |
+| ITF Men's Match | ✘ | 1652 | 3 | 13% | 6% | -83% | -77% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1541 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1016 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -117,7 +117,7 @@
 | NHL Game | ✔ | 289 | 2 | 16% | 9% | -35% | -72% | 5 min |
 | Challenger WTA | ✘ | 285 | 1 | 13% | 5% | -67% | -77% | 9 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
-| NBA Game | ✔ | 216 | 0 | 20% | 6% | -100% | -65% | 10 min |
+| NBA Game | ✔ | 217 | 0 | 20% | 6% | -100% | -65% | 10 min |
 | AHL Game | ✘ | 210 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | WTA Tennis Match | ✘ | 189 | 0 | 13% | 3% | -100% | -78% | 5 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
@@ -324,7 +324,7 @@
 |---|---|---|---|---|---|
 | Under 5 min | 1158 | 4% | 1% | 0% | -93% |
 | 5–15 min | 732 | 17% | 8% | 1% | -71% |
-| 15–30 min | 495 | 24% | 13% | 1% | -58% |
+| 15–30 min | 496 | 25% | 12% | 1% | -57% |
 | 30–60 min | 377 | 21% | 12% | 1% | -64% |
 | Over 60 min | 339 | 22% | 9% | 0% | -62% |
 
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 06:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 06:29 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-11 06:40 | eBasketball Game | Denver Nuggets (Miles) | ✘ | — | — | In play | — |
+| 11-11 06:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 06:34 | eSoccer Game | Rennes (NINJA) | ✘ | — | — | In play | — |
+| 11-11 06:34 | eSoccer Game | RC Celta (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:32 | eSoccer Game | Manchester City (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:31 | ITF Men's Match | Geun Jun Kim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:31 | Russia Liga Pro Match | Rakhmanovskii Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:31 | eSoccer Game | Getafe CF (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:31 | ITF Men's Match | Jirat Navasirisomboon | ✘ | — | — | In play | — |
+| 11-11 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:29 | eSoccer Game | Arsenal (Demi) | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 11-11 06:28 | ITF Men's Match | Congsup Congcar | ✘ | — | — | In play | — |
-| 11-11 06:23 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | — | In play | — |
-| 11-11 06:23 | eSoccer Game | Nantes (Strudl) | ✘ | — | — | In play | — |
+| 11-11 06:23 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:23 | eSoccer Game | Nantes (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:19 | eSoccer Game | RC Celta (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:19 | eSoccer Game | CA Osasuna (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:19 | Challenger ATP  | Fajing Sun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:19 | Russia Liga Pro Match | Karpovkin Gennadiy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | — | In play | — |
+| 11-11 06:17 | Counter-Strike 2 Game | Team Falcons | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:16 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:15 | NBA Game | Oklahoma City | ✔ | 7:28 - 4th · OKC 89 - POR 108 | — | In play | — |
+| 11-11 06:15 | NBA Game | Oklahoma City | ✔ | 7:28 - 4th · OKC 89 - POR 108 | 2¢ | ❌ Lost | -$0.15 |
 | 11-11 06:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:13 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:12 | eSoccer Game | Girona (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:11 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:09 | eSoccer Game | Rennes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:07 | eBasketball Game | Indiana Pacers (Lenny) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 11-11 06:07 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:07 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:05 | eSoccer Game | RC Celta (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:05 | ITF Women's Match | Yuka Naito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:04 | eSoccer Game | CA Osasuna (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:04 | eSoccer Game | Girona (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:04 | ITF Men's Match | Stefan Storch | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
