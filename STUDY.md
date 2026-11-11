@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 9:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 9:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56515 | 3122 | 13 (0%) | 1.1% | -$286.30 (-61%) | Hold to the end: -$286.30 (-61%) |
+| 56530 | 3122 | 13 (0%) | 1.1% | -$286.30 (-61%) | Hold to the end: -$286.30 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3122 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53374 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53382 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26566 | 17 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 26572 | 17 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3246 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2611 | 5 | 2% | 1% | -82% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1723 | 7 | 14% | 6% | -62% | -76% | 4 min |
@@ -106,7 +106,7 @@
 | Challenger ATP  | ✘ | 1013 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 522 | 3 | 11% | 6% | -46% | -81% | 23 min |
-| Men's College Basketball Game | partly | 422 | 5 | 19% | 7% | +11% | -67% | 31 min |
+| Men's College Basketball Game | partly | 424 | 5 | 19% | 7% | +10% | -67% | 30 min |
 | Women's College Basketball Game | partly | 393 | 1 | 12% | 5% | -76% | -79% | 40 min |
 | Darts Match | ✘ | 379 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
@@ -344,10 +344,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 04:15 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
-| 11-11 04:15 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | — | In play | — |
-| 11-11 04:10 | eSoccer Game | Arsenal (Arkon) | ✘ | — | — | In play | — |
-| 11-11 04:10 | eSoccer Game | Chelsea (Dzen) | ✘ | — | — | In play | — |
+| 11-11 04:25 | ITF Men's Match | Chen Dong | ✘ | — | — | In play | — |
+| 11-11 04:24 | Men's College Basketball Game | Georgia St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:23 | Men's College Basketball Game | Kentucky | ✔ | 14:58 - 2nd · KU 63 - UK 41 | — | In play | — |
+| 11-11 04:22 | eSoccer Game | Newcastle Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-11 04:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 04:21 | Women's College Basketball Game | UNLV | ✘ | — | — | In play | — |
+| 11-11 04:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 04:20 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | — | In play | — |
+| 11-11 04:20 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
+| 11-11 04:20 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
+| 11-11 04:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 04:18 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
+| 11-11 04:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:17 | Men's College Basketball Game | Creighton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:15 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:15 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:10 | eSoccer Game | Arsenal (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:10 | eSoccer Game | Chelsea (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:08 | ITF Men's Match | Leonardo Aguilar | ✘ | — | — | In play | — |
 | 11-11 04:05 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -359,21 +374,6 @@
 | 11-11 04:02 | Counter-Strike 2 Game | Legacy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:01 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:59 | ITF Men's Match | Mikaeel Ali Baig | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:58 | Women's College Basketball Game | Portland St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:58 | NBA Game | Utah | ✔ | 2:28 - 3rd · MIA 89 - UTAH 66 | — | In play | — |
-| 11-11 03:58 | Men's College Basketball Game | San Diego | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:54 | eSoccer Game | Crystal Palace (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:52 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:50 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:49 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:49 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:45 | AHL Game | Texas Stars | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:43 | NHL Game | Detroit | ✔ | 2:42 - 3rd · DET 1 - STL 3 | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
