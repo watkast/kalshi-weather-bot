@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-11-11T07:45:53+00:00",
+ "saved_at": "2026-11-11T09:30:38+00:00",
  "series": 35,
- "markets_watched": 22,
+ "markets_watched": 21,
  "batch_lookup": true,
- "bets": 53155,
- "open": 16,
+ "bets": 53174,
+ "open": 19,
  "coinbase_spot": {
-  "ZEC": true,
-  "ETH": true,
   "HYPE": true,
-  "NEAR": true,
-  "XRP": true,
-  "BTC": true,
-  "BNB": true,
   "SOL": true,
-  "DOGE": true
+  "ZEC": true,
+  "DOGE": true,
+  "BNB": true,
+  "NEAR": true,
+  "ETH": true,
+  "XRP": true,
+  "BTC": true
  },
- "errors": [
-  "2026-11-11T04:15:05+00:00 settle KXXRP15M-26NOV102315-15: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "errors": []
 }
