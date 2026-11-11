@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 5:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56933 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
+| 56942 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53772 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53787 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26812 | 18 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3287 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 26823 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3288 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2639 | 5 | 3% | 1% | -82% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1750 | 7 | 13% | 6% | -63% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1667 | 3 | 14% | 6% | -83% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1669 | 3 | 14% | 6% | -83% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1541 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1019 | 5 | 11% | 4% | -54% | -81% | 5 min |
@@ -133,7 +133,7 @@
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
 | UEFA Nations League Game | ✔ | 140 | 0 | 9% | 5% | -100% | -84% | 7 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
-| Overwatch Game | ✘ | 125 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| Overwatch Game | ✘ | 126 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
 | Japan J League Game | ✘ | 119 | 1 | 16% | 7% | -22% | -72% | 12 min |
 | USL Championship Game | partly | 118 | 0 | 11% | 4% | -100% | -81% | 5 min |
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 12:06 | eSoccer Game | Mönchengladbach (Luis) | ✘ | — | — | In play | — |
-| 11-11 12:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 12:16 | ITF Women's Match | Lucia Ros Parres | ✘ | — | — | In play | — |
+| 11-11 12:16 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
+| 11-11 12:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 12:10 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:10 | eSoccer Game | Chelsea (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:08 | eSoccer Game | Frankfurt (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:08 | Dota 2 Game | PuckChamp | ✘ | — | — | In play | — |
+| 11-11 12:06 | ITF Men's Match | Ammar Elamin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:06 | eSoccer Game | Mönchengladbach (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 12:05 | Japan B League Game | Levanga Hokkaido | ✘ | — | — | In play | — |
-| 11-11 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 12:03 | Japan B League Game | Hiroshima Dragonflies | ✘ | — | — | In play | — |
-| 11-11 12:03 | eSoccer Game | France (Mei) | ✘ | — | — | In play | — |
+| 11-11 12:03 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 12:02 | Japan B League Game | Nagasaki Velca | ✘ | — | — | In play | — |
-| 11-11 12:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 12:01 | Overwatch Game | MURASH GAMING | ✘ | — | — | In play | — |
-| 11-11 12:00 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 11-11 12:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:01 | Overwatch Game | MURASH GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 12:00 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 12:00 | ITF Women's Match | Lucia Natal | ✘ | — | — | In play | — |
 | 11-11 11:59 | Darts Match | Neil Duff | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:59 | ITF Women's Match | Giorgia Pedone | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:57 | Japan B League Game | Akita Northern Happinets | ✘ | — | — | In play | — |
 | 11-11 11:56 | ITF Women's Match | Anna Burchak | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:56 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | — | In play | — |
-| 11-11 11:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 11:56 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 11:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:54 | eSoccer Game | Freiburg (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:54 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:52 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:51 | eSoccer Game | France (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:50 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:49 | Japan B League Game | Kawasaki Brave Thunders | ✘ | — | — | In play | — |
-| 11-11 11:48 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:47 | Challenger ATP  | Michael Geerts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:44 | Japan B League Game | Kyoto Hannaryz | ✘ | — | — | In play | — |
-| 11-11 11:43 | eSoccer Game | RB Leipzig (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 11:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
