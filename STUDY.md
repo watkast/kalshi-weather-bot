@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 11:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 12:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56682 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
+| 56690 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53533 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53542 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26671 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 26677 | 18 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3259 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2622 | 5 | 3% | 1% | -82% | -92% | 2 min |
+| eBasketball Game | ✘ | 2623 | 5 | 3% | 1% | -82% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1728 | 7 | 14% | 6% | -62% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1653 | 3 | 14% | 6% | -83% | -77% | 5 min |
+| ITF Men's Match | ✘ | 1654 | 3 | 14% | 6% | -83% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1541 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1016 | 5 | 11% | 4% | -54% | -81% | 5 min |
@@ -138,8 +138,8 @@
 | Japan J League Game | ✘ | 119 | 1 | 16% | 7% | -22% | -72% | 12 min |
 | USL Championship Game | partly | 118 | 0 | 11% | 4% | -100% | -81% | 5 min |
 | Valorant game winner | ✘ | 115 | 0 | 5% | 3% | -100% | -91% | 12 min |
+| R6 Game | ✘ | 115 | 1 | 10% | 4% | -19% | -83% | 8 min |
 | Serie B Game | ✘ | 115 | 0 | 10% | 5% | -100% | -82% | 9 min |
-| R6 Game | ✘ | 114 | 1 | 10% | 4% | -18% | -83% | 8 min |
 | LaLiga 2 Game | partly | 114 | 1 | 18% | 8% | -18% | -70% | 9 min |
 | German 3. Liga Game | ✘ | 113 | 0 | 11% | 4% | -100% | -82% | 10 min |
 | EFL League One Game | ✔ | 112 | 0 | 9% | 3% | -100% | -85% | 10 min |
@@ -344,17 +344,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 06:50 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | — | In play | — |
-| 11-11 06:49 | eSoccer Game | Nantes (NINJA) | ✘ | — | — | In play | — |
+| 11-11 07:00 | eSoccer Game | Manchester City (Mei) | ✘ | — | — | In play | — |
+| 11-11 06:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 06:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 06:57 | ITF Women's Match | Anri Nagata | ✘ | — | — | In play | — |
+| 11-11 06:56 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | — | In play | — |
+| 11-11 06:56 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
+| 11-11 06:54 | R6 Game | LOS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:51 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | — | In play | — |
+| 11-11 06:50 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:49 | eSoccer Game | Nantes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:48 | ITF Women's Match | JiaYi Wang | ✘ | — | — | In play | — |
-| 11-11 06:46 | eSoccer Game | Getafe CF (Frenkie) | ✘ | — | — | In play | — |
-| 11-11 06:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 06:46 | eSoccer Game | Getafe CF (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:44 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 06:43 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | — | In play | — |
+| 11-11 06:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 06:43 | eBasketball Game | New Orleans Pelicans (IceKimi) | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 11-11 06:42 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:42 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | — | In play | — |
+| 11-11 06:42 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:40 | eBasketball Game | Denver Nuggets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:34 | eSoccer Game | Rennes (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -366,14 +374,6 @@
 | 11-11 06:31 | Russia Liga Pro Match | Rakhmanovskii Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:31 | eSoccer Game | Getafe CF (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:31 | ITF Men's Match | Jirat Navasirisomboon | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 11-11 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:29 | eSoccer Game | Arsenal (Demi) | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 11-11 06:28 | ITF Men's Match | Congsup Congcar | ✘ | — | — | In play | — |
-| 11-11 06:23 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:23 | eSoccer Game | Nantes (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:19 | eSoccer Game | RC Celta (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 06:19 | eSoccer Game | CA Osasuna (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
