@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 8:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 8:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56458 | 3115 | 13 (0%) | 1.1% | -$285.25 (-61%) | Hold to the end: -$285.25 (-61%) |
+| 56471 | 3117 | 13 (0%) | 1.1% | -$285.55 (-61%) | Hold to the end: -$285.55 (-61%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 701 | 2.8% | 0.1% (1) | -172% | ❌ Worse |
+| ESPN win probability | 703 | 2.8% | 0.1% (1) | -172% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,7 +58,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 701 | 1 | -87% | -71% | -71% | -73% |
+| **Any 1¢ (no model)** | 703 | 1 | -87% | -71% | -71% | -73% |
 | ESPN win probability ≥ 2% | 141 | 1 | -34% | -63% | -67% | -72% |
 | ESPN win probability ≥ 5% | 61 | 1 | +53% | -83% | -83% | -86% |
 | ESPN win probability ≥ 10% | 39 | 1 | +139% | -78% | -73% | -78% |
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3115 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53310 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3117 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 53325 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$285.25 | -61% |
-| Sell at 2¢ | 434 | 14% | -$354.41 | -76% |
-| Sell at 3¢ | 304 | 10% | -$348.69 | -75% |
-| Sell at 5¢ | 204 | 7% | -$334.65 | -72% |
-| Sell at 10¢ | 89 | 3% | -$350.66 | -75% |
-| Sell at 25¢ | 34 | 1% | -$354.71 | -76% |
-| Sell at 50¢ | 22 | 1% | -$318.75 | -68% |
+| Hold to the end | 13 | 0% | -$285.55 | -61% |
+| Sell at 2¢ | 434 | 14% | -$354.71 | -76% |
+| Sell at 3¢ | 304 | 10% | -$348.99 | -75% |
+| Sell at 5¢ | 204 | 7% | -$334.95 | -72% |
+| Sell at 10¢ | 89 | 3% | -$350.96 | -75% |
+| Sell at 25¢ | 34 | 1% | -$355.01 | -76% |
+| Sell at 50¢ | 22 | 1% | -$319.05 | -68% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,18 +96,18 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26528 | 17 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 26536 | 17 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3246 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2609 | 5 | 2% | 1% | -82% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1717 | 7 | 14% | 6% | -62% | -76% | 4 min |
+| eBasketball Game | ✘ | 2610 | 5 | 2% | 1% | -82% | -92% | 2 min |
+| ITF Women's Match | ✘ | 1720 | 7 | 14% | 6% | -62% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1638 | 3 | 13% | 6% | -83% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1539 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1013 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| College Football Game | partly | 520 | 3 | 11% | 6% | -46% | -81% | 23 min |
-| Men's College Basketball Game | partly | 412 | 5 | 19% | 7% | +13% | -66% | 30 min |
-| Women's College Basketball Game | partly | 389 | 1 | 12% | 5% | -76% | -79% | 40 min |
+| College Football Game | partly | 521 | 3 | 11% | 6% | -46% | -81% | 23 min |
+| Men's College Basketball Game | partly | 414 | 5 | 19% | 7% | +13% | -67% | 30 min |
+| Women's College Basketball Game | partly | 390 | 1 | 12% | 5% | -76% | -79% | 40 min |
 | Darts Match | ✘ | 379 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Dota 2 Game | ✘ | 353 | 1 | 1% | 1% | -74% | -98% | 31 min |
@@ -117,7 +117,7 @@
 | NHL Game | ✔ | 287 | 2 | 16% | 8% | -35% | -73% | 5 min |
 | Challenger WTA | ✘ | 285 | 1 | 13% | 5% | -67% | -77% | 9 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
-| NBA Game | ✔ | 212 | 0 | 19% | 6% | -100% | -66% | 10 min |
+| NBA Game | ✔ | 213 | 0 | 19% | 6% | -100% | -67% | 10 min |
 | AHL Game | ✘ | 207 | 0 | 4% | 2% | -100% | -93% | 5 min |
 | WTA Tennis Match | ✘ | 189 | 0 | 13% | 3% | -100% | -78% | 5 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
@@ -324,8 +324,8 @@
 |---|---|---|---|---|---|
 | Under 5 min | 1157 | 4% | 1% | 0% | -93% |
 | 5–15 min | 728 | 16% | 8% | 1% | -72% |
-| 15–30 min | 494 | 24% | 13% | 1% | -58% |
-| 30–60 min | 373 | 20% | 12% | 1% | -65% |
+| 15–30 min | 495 | 24% | 13% | 1% | -58% |
+| 30–60 min | 374 | 20% | 11% | 1% | -65% |
 | Over 60 min | 335 | 22% | 9% | 0% | -62% |
 
 ## Speed & liquidity
@@ -344,14 +344,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 03:25 | eSoccer Game | Leverkusen (Eder) | ✘ | — | — | In play | — |
-| 11-11 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 03:22 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-11 03:22 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | — | In play | — |
-| 11-11 03:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 03:19 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 11-11 03:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 03:18 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | — | In play | — |
+| 11-11 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 03:34 | College Football Game | Kent St. | ✔ | 0:54 - 4th · KENT 28 - BGSU 33 | — | In play | — |
+| 11-11 03:34 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-11 03:32 | Men's College Basketball Game | Weber St. | ✘ | — | — | In play | — |
+| 11-11 03:30 | ITF Women's Match | Valeriya Strakhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:29 | ITF Women's Match | Tahlia Kokkinis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:28 | ITF Men's Match | Takumi Katsuda | ✘ | — | — | In play | — |
+| 11-11 03:28 | ITF Women's Match | Eva Bennemann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:27 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | — | In play | — |
+| 11-11 03:26 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | — | In play | — |
+| 11-11 03:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 03:26 | Liga Nacional de Basquetbol Game | Ferro Carril Oeste | ✘ | — | — | In play | — |
+| 11-11 03:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:25 | eSoccer Game | Leverkusen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:22 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:22 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
+| 11-11 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:19 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:18 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:17 | Women's College Basketball Game | Northern Arizona | ✘ | — | — | In play | — |
 | 11-11 03:16 | Men's College Basketball Game | Hofstra | ✘ | — | — | In play | — |
 | 11-11 03:12 | Men's College Basketball Game | Illinois | ✔ | 0:29 - 2nd · ILL 76 - TTU 81 | 0¢ | ❌ Lost | -$0.15 |
@@ -361,19 +374,6 @@
 | 11-11 03:09 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:09 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | 1. FC Köln (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:07 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:07 | eSoccer Game | Manchester City (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:06 | NHL Game | Columbus | ✔ | 3:24 - 3rd · FLA 3 - CBJ 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:05 | NBA Game | Philadelphia | ✔ | 8:44 - 4th · BOS 102 - PHI 82 | — | In play | — |
-| 11-11 03:03 | Women's College Basketball Game | UT Arlington | ✘ | — | — | In play | — |
-| 11-11 03:02 | R6 Game | 100 Thieves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:01 | Challenger ATP  | Naoya Honda | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-11 02:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 02:58 | eBasketball Game | Golden State Warriors (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 02:58 | eBasketball Game | New York Knicks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 02:57 | Liga Nacional de Basquetbol Game | Ciclista Olimpico de La Banda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
