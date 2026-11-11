@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 11, 7:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 11, 7:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53656 | 53639 | 205 (0%) | 1.07% | -$3,671.95 (-56%) | Hold to the close: -$3,671.95 (-56%) |
+| 53660 | 53639 | 205 (0%) | 1.07% | -$3,671.95 (-56%) | Hold to the close: -$3,671.95 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/11 7:41:39 AM | PLATINUM | UP | 3.4 min | — | — | In play | — |
+| 11/11 7:40:04 AM | HYPE | DOWN | 4.9 min | +0.935% | — | In play | — |
+| 11/11 7:40:04 AM | PALLADIUM | UP | 4.9 min | — | — | In play | — |
+| 11/11 7:37:38 AM | GOLD | UP | 7.3 min | — | — | In play | — |
 | 11/11 7:29:49 AM | NEAR | UP | 10 sec | -0.171% | 0¢ | ❌ Lost | $0.00 |
 | 11/11 7:29:49 AM | SILVER | DOWN | 10 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/11 7:29:49 AM | GOLD | DOWN | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/11 7:14:09 AM | XRP | UP | 51 sec | -0.179% | 0¢ | ❌ Lost | $0.00 |
 | 11/11 7:13:52 AM | BNB | UP | 67 sec | -0.126% | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 7:13:52 AM | DOGE | UP | 67 sec | -0.131% | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 7:13:20 AM | WTI | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 7:13:20 AM | NATGAS | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 7:13:20 AM | USDCAD | DOWN | 1.6 min | — | 38¢ | ❌ Lost | -$0.15 |
-| 11/11 7:13:03 AM | BTC | UP | 1.9 min | -0.165% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
