@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 11, 3:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 11, 3:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53355 | 53338 | 203 (0%) | 1.07% | -$3,663.20 (-56%) | Hold to the close: -$3,663.20 (-56%) |
+| 53358 | 53338 | 203 (0%) | 1.07% | -$3,663.20 (-56%) | Hold to the close: -$3,663.20 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/11 3:42:29 AM | PALLADIUM | UP | 2.5 min | — | — | In play | — |
+| 11/11 3:42:13 AM | GBPUSD | UP | 2.8 min | — | — | In play | — |
+| 11/11 3:40:37 AM | SILVER | UP | 4.4 min | — | — | In play | — |
 | 11/11 3:29:57 AM | USDJPY | UP | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 3:29:57 AM | BRENT | UP | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 3:29:25 AM | PALLADIUM | DOWN | 34 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/11 3:13:49 AM | PALLADIUM | DOWN | 71 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 3:13:49 AM | GBPUSD | UP | 71 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 3:13:33 AM | XRP | UP | 87 sec | -0.208% | 1¢ | ❌ Lost | -$0.15 |
-| 11/11 3:13:17 AM | COPPER | UP | 1.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 3:13:17 AM | DOGE | UP | 1.7 min | -0.197% | 1¢ | ❌ Lost | -$0.15 |
-| 11/11 3:13:01 AM | SOL | UP | 2.0 min | -0.195% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
