@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 7:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 7:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 57066 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
+| 57080 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
 *In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53910 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53924 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26885 | 18 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3297 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 26887 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3299 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2647 | 5 | 3% | 1% | -82% | -92% | 2 min |
 | ITF Women's Match | ✘ | 1763 | 8 | 14% | 6% | -58% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1679 | 3 | 14% | 6% | -83% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1547 | 3 | 6% | 3% | -82% | -90% | 12 min |
+| ITF Men's Match | ✘ | 1684 | 4 | 14% | 6% | -78% | -76% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1548 | 3 | 6% | 3% | -82% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1022 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -110,7 +110,7 @@
 | Women's College Basketball Game | partly | 395 | 1 | 12% | 5% | -76% | -79% | 40 min |
 | Darts Match | ✘ | 384 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
-| Dota 2 Game | ✘ | 357 | 1 | 1% | 1% | -74% | -98% | 31 min |
+| Dota 2 Game | ✘ | 359 | 1 | 1% | 1% | -74% | -98% | 31 min |
 | Men's T20 Cricket Match | ✘ | 337 | 2 | 16% | 7% | -45% | -72% | 22 min |
 | Serie C Game | ✘ | 337 | 2 | 4% | 2% | -45% | -92% | 8 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -260,11 +260,11 @@
 | Slovakia SBL Game | ✘ | 30 | 0 | 3% | 0% | -100% | -94% | 16 min |
 | Croatia Premijer Liga Game | ✘ | 30 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Singapore Premier League Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 18 min |
+| Slovakian Cup Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 18 min |
 | LKL Lithuania Game | ✘ | 28 | 0 | 4% | 0% | -100% | -94% | 9 min |
 | Eredivisie Vrouwen Game | ✘ | 28 | 0 | 4% | 4% | -100% | -94% | 8 min |
 | Slovenia 1. SKL Game | ✘ | 27 | 0 | 4% | 4% | -100% | -94% | 15 min |
 | Call of Duty Games | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 38 min |
-| Slovakian Cup Game | ✘ | 26 | 0 | 8% | 4% | -100% | -87% | 18 min |
 | UAE Pro League | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 17 min |
 | EuroLeague (W) Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 9 min |
 | Ligue Magnus Game | ✘ | 24 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 13:59 | Russia Liga Pro Match | Samokha Evgenii | ✘ | — | — | In play | — |
-| 11-11 13:58 | ITF Men's Match | Igor Piasek | ✘ | — | — | In play | — |
-| 11-11 13:57 | ITF Men's Match | Luke Hooper | ✘ | — | — | In play | — |
-| 11-11 13:54 | ITF Men's Match | Vincent Reisach | ✘ | — | — | In play | — |
-| 11-11 13:53 | Russia Liga Pro Match | Bogomolov Albert | ✘ | — | — | In play | — |
-| 11-11 13:51 | eSoccer Game | Manchester City (Demi) | ✘ | — | — | In play | — |
-| 11-11 13:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 14:10 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | — | In play | — |
+| 11-11 14:09 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
+| 11-11 14:08 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 11-11 14:07 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 14:07 | eSoccer Game | Nantes (Frost) | ✘ | — | — | In play | — |
+| 11-11 14:07 | eSoccer Game | Toulouse FC (Nate) | ✘ | — | — | In play | — |
+| 11-11 14:06 | eSoccer Game | Manchester City (Demi) | ✘ | — | — | In play | — |
+| 11-11 14:06 | eSoccer Game | Spurs (Lexi) | ✘ | — | — | In play | — |
+| 11-11 14:05 | eSoccer Game | Stade Brestois 29 (Elastico) | ✘ | — | — | In play | — |
+| 11-11 14:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 14:05 | ITF Men's Match | Carles Rojas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 14:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 14:01 | eSoccer Game | Chelsea (Adri) | ✘ | — | — | In play | — |
+| 11-11 14:00 | ITF Women's Match | Galatea Ferro | ✘ | — | — | In play | — |
+| 11-11 13:59 | Russia Liga Pro Match | Samokha Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:58 | ITF Men's Match | Igor Piasek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:57 | ITF Men's Match | Luke Hooper | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:54 | ITF Men's Match | Vincent Reisach | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:53 | Russia Liga Pro Match | Bogomolov Albert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:51 | eSoccer Game | Manchester City (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:49 | Counter-Strike 2 Game | Lunacy Team | ✘ | — | — | In play | — |
-| 11-11 13:47 | Slovakian Cup Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 11-11 13:49 | Counter-Strike 2 Game | Lunacy Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 13:47 | Slovakian Cup Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:47 | eSoccer Game | Spurs (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:47 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:47 | ITF Men's Match | Adam Knis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 13:45 | ITF Women's Match | Aya El Sayed | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:45 | eSoccer Game | Werder Bremen (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:45 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:44 | eSoccer Game | Hoffenheim (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:43 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:43 | Counter-Strike 2 Game | Drama eSports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:41 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:40 | Russia Liga Pro Match | Slesarev Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:39 | Challenger ATP  | Eliakim Coulibaly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:36 | ITF Men's Match | Ruben Hartig | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-11 13:35 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
-| 11-11 13:35 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 13:34 | Counter-Strike 2 Game | GenOne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
