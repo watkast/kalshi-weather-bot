@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 9:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 9:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56543 | 3123 | 13 (0%) | 1.1% | -$286.45 (-61%) | Hold to the end: -$286.45 (-61%) |
+| 56551 | 3123 | 13 (0%) | 1.1% | -$286.45 (-61%) | Hold to the end: -$286.45 (-61%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3123 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53393 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53405 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26578 | 17 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 26588 | 17 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3246 | 0 | 1% | 0% | -100% | -99% | 4 min |
 | eBasketball Game | ✘ | 2613 | 5 | 2% | 1% | -82% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1723 | 7 | 14% | 6% | -62% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1642 | 3 | 13% | 6% | -83% | -77% | 5 min |
+| ITF Women's Match | ✘ | 1724 | 7 | 14% | 6% | -62% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1643 | 3 | 13% | 6% | -83% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1540 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1013 | 5 | 11% | 4% | -54% | -81% | 5 min |
@@ -344,19 +344,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 04:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 04:33 | ITF Men's Match | Calvin Mueller | ✘ | — | — | In play | — |
-| 11-11 04:33 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 11-11 04:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 04:32 | eSoccer Game | Frankfurt (Eder) | ✘ | — | — | In play | — |
-| 11-11 04:32 | eSoccer Game | Spurs (Drakon) | ✘ | — | — | In play | — |
-| 11-11 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 04:31 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
-| 11-11 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 04:46 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
+| 11-11 04:46 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | — | In play | — |
+| 11-11 04:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 04:45 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
+| 11-11 04:45 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-11 04:45 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-11 04:44 | AHL Game | Abbotsford Canucks | ✘ | — | — | In play | — |
+| 11-11 04:39 | College Football Game | Ohio | ✔ | 1:46 - 4th · OHIO 17 - M-OH 26 | — | In play | — |
+| 11-11 04:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:33 | ITF Men's Match | Calvin Mueller | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:33 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:32 | eSoccer Game | Frankfurt (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:32 | eSoccer Game | Spurs (Drakon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:31 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:31 | ITF Men's Match | Aqil Adibi Rahiman | ✘ | — | — | In play | — |
-| 11-11 04:29 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
-| 11-11 04:28 | ITF Women's Match | Priska Madelyn Nugroho | ✘ | — | — | In play | — |
+| 11-11 04:29 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 04:28 | ITF Women's Match | Priska Madelyn Nugroho | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:25 | ITF Men's Match | Chen Dong | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:24 | Men's College Basketball Game | Georgia St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:23 | Men's College Basketball Game | Kentucky | ✔ | 14:58 - 2nd · KU 63 - UK 41 | — | In play | — |
@@ -366,14 +374,6 @@
 | 11-11 04:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:20 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 04:20 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:20 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:18 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:17 | Men's College Basketball Game | Creighton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:15 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 04:15 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
