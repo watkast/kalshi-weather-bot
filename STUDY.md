@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 1:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 2:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 57415 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
+| 57426 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54251 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54265 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27056 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 27066 | 18 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3329 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2659 | 5 | 3% | 1% | -82% | -92% | 3 min |
+| eBasketball Game | ✘ | 2661 | 5 | 3% | 1% | -82% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1779 | 8 | 14% | 6% | -58% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1711 | 4 | 14% | 6% | -78% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1563 | 3 | 6% | 4% | -82% | -90% | 11 min |
@@ -249,9 +249,9 @@
 | Liga Nacional de Basquetbol Game | ✘ | 38 | 0 | 3% | 0% | -100% | -95% | 6 min |
 | Russia VTB United Game | ✘ | 37 | 0 | 5% | 0% | -100% | -91% | 16 min |
 | Austria BSL Game | ✘ | 37 | 0 | 8% | 5% | -100% | -86% | 10 min |
+| EFL Trophy Game | ✘ | 37 | 0 | 11% | 5% | -100% | -81% | 46 min |
 | French Women's Première Ligue Game | ✘ | 37 | 0 | 8% | 5% | -100% | -86% | 13 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| EFL Trophy Game | ✘ | 35 | 0 | 9% | 6% | -100% | -85% | 46 min |
 | FIBA Champions League Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | German Women's Bundesliga Game | ✘ | 34 | 0 | 6% | 3% | -100% | -90% | 25 min |
 | England Super League Basketball Game | ✘ | 33 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -344,36 +344,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-11 21:00 | eSoccer Game | Chelsea (Elastico) | ✘ | — | — | In play | — |
+| 11-11 21:00 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-11 21:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 20:59 | Champions League Hockey | Genève Servette | ✘ | — | — | In play | — |
+| 11-11 20:58 | Counter-Strike 2 Game | The Last Resort | ✘ | — | — | In play | — |
+| 11-11 20:57 | National League Game | HC Lugano | ✘ | — | — | In play | — |
+| 11-11 20:54 | ITF Men's Match | Jacob Brumm | ✘ | — | — | In play | — |
+| 11-11 20:54 | Counter-Strike 2 Game | Team ACES | ✘ | — | — | In play | — |
+| 11-11 20:53 | EuroCup Basketball Game | CB San Pablo Burgos | ✘ | — | — | In play | — |
+| 11-11 20:51 | eSoccer Game | Leverkusen (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:50 | FIBA Champions League Game | Brose Bamberg | ✘ | — | — | In play | — |
-| 11-11 20:50 | eSoccer Game | Everton (Rendeto) | ✘ | — | — | In play | — |
+| 11-11 20:50 | eSoccer Game | Everton (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:50 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | — | In play | — |
-| 11-11 20:50 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
+| 11-11 20:50 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:49 | Dota 2 Game | LenS Team | ✘ | — | — | In play | — |
-| 11-11 20:48 | eSoccer Game | France (Demi) | ✘ | — | — | In play | — |
-| 11-11 20:48 | eSoccer Game | Argentina (Lexi) | ✘ | — | — | In play | — |
-| 11-11 20:47 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | — | In play | — |
-| 11-11 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 20:47 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | — | In play | — |
-| 11-11 20:47 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | — | In play | — |
-| 11-11 20:45 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
-| 11-11 20:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 20:48 | eSoccer Game | France (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:48 | eSoccer Game | Argentina (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:47 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:47 | eBasketball Game | Denver Nuggets (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:47 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:45 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 20:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:40 | Champions League Women's Game | Tie | ✔ | 40' · LYON 2 - JUV 0 | — | In play | — |
 | 11-11 20:39 | EFL Trophy Game | Tie | ✘ | — | — | In play | — |
 | 11-11 20:38 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:38 | Champions League Hockey | Bili Tygri Liberec | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 20:36 | eSoccer Game | Paris Saint-Germain (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:35 | eSoccer Game | Chelsea (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:35 | Champions League Women's Game | Juventus | ✔ | 35' · LYON 1 - JUV 0 | — | In play | — |
-| 11-11 20:35 | Men's ODI Cricket Match | West Indies A | ✘ | — | — | In play | — |
-| 11-11 20:34 | eSoccer Game | Everton (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:34 | eSoccer Game | England (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:34 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:33 | ITF Women's Match | Kolie Allen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 20:32 | Counter-Strike 2 Game | BBL | ✘ | — | — | In play | — |
-| 11-11 20:29 | ITF Women's Match | Adriana Reami | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
