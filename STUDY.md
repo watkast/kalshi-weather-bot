@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 10, 8:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 10, 8:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56471 | 3117 | 13 (0%) | 1.1% | -$285.55 (-61%) | Hold to the end: -$285.55 (-61%) |
+| 56487 | 3117 | 13 (0%) | 1.1% | -$285.55 (-61%) | Hold to the end: -$285.55 (-61%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3117 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53325 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53332 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26536 | 17 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 26538 | 17 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3246 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2610 | 5 | 2% | 1% | -82% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1720 | 7 | 14% | 6% | -62% | -77% | 4 min |
+| eBasketball Game | ✘ | 2611 | 5 | 2% | 1% | -82% | -92% | 2 min |
+| ITF Women's Match | ✘ | 1722 | 7 | 14% | 6% | -62% | -77% | 4 min |
 | ITF Men's Match | ✘ | 1638 | 3 | 13% | 6% | -83% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1539 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -107,7 +107,7 @@
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 521 | 3 | 11% | 6% | -46% | -81% | 23 min |
 | Men's College Basketball Game | partly | 414 | 5 | 19% | 7% | +13% | -67% | 30 min |
-| Women's College Basketball Game | partly | 390 | 1 | 12% | 5% | -76% | -79% | 40 min |
+| Women's College Basketball Game | partly | 391 | 1 | 12% | 5% | -76% | -79% | 40 min |
 | Darts Match | ✘ | 379 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 66 min |
 | Dota 2 Game | ✘ | 353 | 1 | 1% | 1% | -74% | -98% | 31 min |
@@ -246,8 +246,8 @@
 | Austrian Bundesliga Game | ✘ | 40 | 0 | 8% | 5% | -100% | -87% | 14 min |
 | Canadian Premier League | ✘ | 39 | 1 | 15% | 13% | +139% | -73% | 17 min |
 | Turkey BSL Game | ✘ | 38 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Liga Nacional de Basquetbol Game | ✘ | 38 | 0 | 3% | 0% | -100% | -95% | 6 min |
 | Austria BSL Game | ✘ | 37 | 0 | 8% | 5% | -100% | -86% | 10 min |
-| Liga Nacional de Basquetbol Game | ✘ | 37 | 0 | 3% | 0% | -100% | -95% | 6 min |
 | French Women's Première Ligue Game | ✘ | 37 | 0 | 8% | 5% | -100% | -86% | 13 min |
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Russia VTB United Game | ✘ | 36 | 0 | 6% | 0% | -100% | -90% | 15 min |
@@ -344,6 +344,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-11 03:45 | AHL Game | Texas Stars | ✘ | — | — | In play | — |
+| 11-11 03:43 | NHL Game | Detroit | ✔ | 2:42 - 3rd · DET 1 - STL 3 | — | In play | — |
+| 11-11 03:43 | ITF Women's Match | Ena Koike | ✘ | — | — | In play | — |
+| 11-11 03:42 | Women's College Basketball Game | UTEP | ✘ | — | — | In play | — |
+| 11-11 03:42 | ITF Women's Match | Mei Yamaguchi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:41 | eSoccer Game | Manchester Utd (Drakon) | ✘ | — | — | In play | — |
+| 11-11 03:41 | eSoccer Game | Manchester City (Dzen) | ✘ | — | — | In play | — |
+| 11-11 03:39 | ITF Women's Match | Eri Shimizu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:39 | Women's College Basketball Game | Charleston | ✔ | 9:33 - 1st · COFC 2 - USC 2 | — | In play | — |
+| 11-11 03:38 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-11 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 03:37 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
+| 11-11 03:37 | eSoccer Game | 1. FC Köln (Rooney) | ✘ | — | — | In play | — |
+| 11-11 03:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 03:36 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | — | In play | — |
+| 11-11 03:35 | NBA Game | Los Angeles C | ✔ | 5:58 - 3rd · LAC 56 - PHX 86 | — | In play | — |
 | 11-11 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-11 03:34 | College Football Game | Kent St. | ✔ | 0:54 - 4th · KENT 28 - BGSU 33 | — | In play | — |
 | 11-11 03:34 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
@@ -352,28 +368,12 @@
 | 11-11 03:29 | ITF Women's Match | Tahlia Kokkinis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:28 | ITF Men's Match | Takumi Katsuda | ✘ | — | — | In play | — |
 | 11-11 03:28 | ITF Women's Match | Eva Bennemann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:27 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | — | In play | — |
-| 11-11 03:26 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | — | In play | — |
-| 11-11 03:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 03:26 | Liga Nacional de Basquetbol Game | Ferro Carril Oeste | ✘ | — | — | In play | — |
+| 11-11 03:27 | eSoccer Game | Crystal Palace (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:26 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 03:26 | Liga Nacional de Basquetbol Game | Ferro Carril Oeste | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 03:25 | eSoccer Game | Leverkusen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:22 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:22 | eBasketball Game | Golden State Warriors (Donovan) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-11 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:19 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:18 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:17 | Women's College Basketball Game | Northern Arizona | ✘ | — | — | In play | — |
-| 11-11 03:16 | Men's College Basketball Game | Hofstra | ✘ | — | — | In play | — |
-| 11-11 03:12 | Men's College Basketball Game | Illinois | ✔ | 0:29 - 2nd · ILL 76 - TTU 81 | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | Leverkusen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 03:09 | eSoccer Game | Dortmund (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
