@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 11, 5:16 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 11, 5:26 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4207 finished bets | 1% | $176.90 | +38% | +4.20¢ | $86.20 / $90.70 |
 
-*Expect about **95 buys a day** (~$14.27/day at risk); max loss per buy **15¢**.*
+*Expect about **95 buys a day** (~$14.26/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 53482 | 53465 | 203 (0%) | 1.07% | -$3,678.65 (-56%) | Hold to the close: -$3,678.65 (-56%) |
+| 53484 | 53465 | 203 (0%) | 1.07% | -$3,678.65 (-56%) | Hold to the close: -$3,678.65 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/11 5:26:40 AM | WTI | DOWN | 3.3 min | — | — | In play | — |
+| 11/11 5:26:08 AM | DOGE | UP | 3.9 min | -0.292% | — | In play | — |
 | 11/11 5:14:54 AM | PALLADIUM | DOWN | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 5:14:54 AM | NATGAS | UP | 6 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 5:14:38 AM | GOLD | DOWN | 22 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -217,8 +219,6 @@
 | 11/11 4:59:43 AM | BTC | UP | 17 sec | -0.051% | 0¢ | ❌ Lost | $0.00 |
 | 11/11 4:59:43 AM | XRP | UP | 17 sec | -0.085% | 0¢ | ❌ Lost | $0.00 |
 | 11/11 4:59:43 AM | NATGAS | DOWN | 17 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 4:59:27 AM | HYPE | UP | 33 sec | -0.095% | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 4:59:11 AM | ETH | DOWN | 49 sec | +0.058% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
