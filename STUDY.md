@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 4:04 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 4:14 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56863 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
+| 56870 | 3130 | 13 (0%) | 1.1% | -$287.50 (-61%) | Hold to the end: -$287.50 (-61%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3130 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 53711 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 53720 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 26781 | 18 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3281 | 0 | 1% | 0% | -100% | -99% | 4 min |
-| eBasketball Game | ✘ | 2635 | 5 | 3% | 1% | -82% | -92% | 2 min |
-| ITF Women's Match | ✘ | 1739 | 7 | 14% | 6% | -62% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1666 | 3 | 14% | 6% | -83% | -76% | 5 min |
+| eSoccer Game | ✘ | 26784 | 18 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3282 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2637 | 5 | 3% | 1% | -82% | -92% | 2 min |
+| ITF Women's Match | ✘ | 1740 | 7 | 14% | 6% | -62% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1667 | 3 | 14% | 6% | -83% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1541 | 2 | 6% | 3% | -88% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1017 | 5 | 11% | 4% | -54% | -81% | 5 min |
+| Challenger ATP  | ✘ | 1018 | 5 | 11% | 4% | -54% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | College Football Game | partly | 523 | 3 | 11% | 6% | -46% | -81% | 23 min |
 | Men's College Basketball Game | partly | 427 | 5 | 20% | 7% | +9% | -66% | 30 min |
@@ -344,17 +344,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-11 11:03 | Russia Liga Pro Match | Cheklin Mihail | ✘ | — | — | In play | — |
+| 11-11 11:13 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | — | In play | — |
+| 11-11 11:13 | ITF Women's Match | Laura Boehner | ✘ | — | — | In play | — |
+| 11-11 11:10 | Women's T20 Match | Sydney Thunder Women | ✘ | — | — | In play | — |
+| 11-11 11:09 | ITF Women's Match | Melinda Biro | ✘ | — | — | In play | — |
+| 11-11 11:08 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 11-11 11:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-11 11:08 | ITF Women's Match | Hania Abouelsaad | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-11 11:03 | Russia Liga Pro Match | Cheklin Mihail | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-11 11:02 | ITF Women's Match | Daniela Darta Feldmane | ✘ | — | — | In play | — |
-| 11-11 11:02 | eBasketball Game | Los Angeles Lakers (Barry) | ✘ | — | — | In play | — |
+| 11-11 11:02 | eBasketball Game | Los Angeles Lakers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 11:01 | ITF Women's Match | Denislava Glushkova | ✘ | — | — | In play | — |
 | 11-11 11:00 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:59 | Challenger ATP  | Johannus Monday | ✘ | — | — | In play | — |
-| 11-11 10:58 | ITF Men's Match | Vito Dell'elba | ✘ | — | — | In play | — |
-| 11-11 10:57 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-11 10:57 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
-| 11-11 10:56 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | — | In play | — |
-| 11-11 10:56 | eSoccer Game | Arsenal (Homie) | ✘ | — | — | In play | — |
+| 11-11 10:59 | Challenger ATP  | Johannus Monday | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-11 10:58 | ITF Men's Match | Vito Dell'elba | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-11 10:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 10:57 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 10:56 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-11 10:56 | eSoccer Game | Arsenal (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 10:54 | Russia Liga Pro Match | Iankovskii Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 10:54 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 10:54 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -367,13 +374,6 @@
 | 11-11 10:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 10:44 | eSoccer Game | RB Leipzig (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-11 10:44 | eSoccer Game | Mönchengladbach (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:44 | Russia Liga Pro Match | Tsvetkov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:42 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:42 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:41 | Russia Liga Pro Match | Margolin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-11 10:36 | Challenger ATP  | Felix Gill | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-11 10:33 | eSoccer Game | Manchester Utd (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
