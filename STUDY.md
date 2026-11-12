@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 8:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 8:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58370 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
+| 58379 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3162 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 55184 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 55197 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27576 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3400 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2709 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eSoccer Game | ✘ | 27584 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3401 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2710 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1822 | 8 | 14% | 6% | -59% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1751 | 4 | 14% | 6% | -79% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1752 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1581 | 3 | 6% | 3% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1039 | 5 | 11% | 4% | -55% | -81% | 5 min |
@@ -108,8 +108,8 @@
 | College Football Game | partly | 526 | 3 | 11% | 6% | -47% | -81% | 23 min |
 | Men's College Basketball Game | partly | 478 | 5 | 19% | 8% | -2% | -66% | 30 min |
 | Women's College Basketball Game | partly | 451 | 1 | 13% | 4% | -79% | -78% | 37 min |
-| Darts Match | ✘ | 392 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Dota 2 Game | ✘ | 370 | 1 | 1% | 1% | -75% | -98% | 31 min |
+| Darts Match | ✘ | 393 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Dota 2 Game | ✘ | 371 | 1 | 1% | 1% | -75% | -98% | 31 min |
 | Women's College Volleyball Match | ✘ | 366 | 2 | 4% | 2% | -49% | -93% | 65 min |
 | Men's T20 Cricket Match | ✘ | 340 | 2 | 16% | 7% | -45% | -72% | 22 min |
 | Serie C Game | ✘ | 337 | 2 | 4% | 2% | -45% | -92% | 8 min |
@@ -346,14 +346,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 15:42 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
-| 11-12 15:41 | eSoccer Game | Olympique Lyon (Nate) | ✘ | — | — | In play | — |
-| 11-12 15:41 | eSoccer Game | Olympique de Marseille (Ousmane) | ✘ | — | — | In play | — |
-| 11-12 15:41 | Russia Liga Pro Match | Stepanov Ivan | ✘ | — | — | In play | — |
-| 11-12 15:41 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-12 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 15:40 | eSoccer Game | Everton (Moana) | ✘ | — | — | In play | — |
-| 11-12 15:37 | Darts Match | James Bailey | ✘ | — | — | In play | — |
+| 11-12 15:52 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | — | In play | — |
+| 11-12 15:52 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-12 15:51 | AFCON Game Winner | Somalia | ✘ | — | — | In play | — |
+| 11-12 15:51 | Darts Match | Declan Bailey | ✘ | — | — | In play | — |
+| 11-12 15:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 15:45 | eSoccer Game | FC Bayern (Ryft) | ✘ | — | — | In play | — |
+| 11-12 15:45 | eSoccer Game | Paris Saint-Germain (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:42 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:41 | eSoccer Game | Olympique Lyon (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:41 | eSoccer Game | Olympique de Marseille (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:41 | Russia Liga Pro Match | Stepanov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:41 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:40 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 15:37 | Darts Match | James Bailey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 15:34 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 15:34 | Russia Liga Pro Match | Alekseev Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 15:31 | eSoccer Game | FC Koln (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -367,15 +376,6 @@
 | 11-12 15:28 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 15:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 15:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:25 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:23 | eSoccer Game | Chelsea (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:21 | Counter-Strike 2 Game | mixLVLT | ✘ | — | — | In play | — |
-| 11-12 15:21 | Counter-Strike 2 Game | Four Magic | ✘ | — | — | In play | — |
-| 11-12 15:18 | ITF Men's Match | Pierre Antoine Tailleu | ✘ | — | — | In play | — |
-| 11-12 15:17 | eSoccer Game | FC Bayern (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:16 | Darts Match | Jack Drayton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 15:16 | eSoccer Game | Paris Saint-Germain (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
