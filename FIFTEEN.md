@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 12, 2:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 12, 2:13 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55094 | 55073 | 212 (0%) | 1.07% | -$3,751.85 (-56%) | Hold to the close: -$3,751.85 (-56%) |
+| 55100 | 55073 | 212 (0%) | 1.07% | -$3,751.85 (-56%) | Hold to the close: -$3,751.85 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 15. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,12 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/12 2:13:18 PM | USDJPY | UP | 1.7 min | — | — | In play | — |
+| 11/12 2:13:18 PM | NATGAS | DOWN | 1.7 min | — | — | In play | — |
+| 11/12 2:12:47 PM | 2YRRATE | DOWN | 2.2 min | — | — | In play | — |
+| 11/12 2:12:47 PM | EURUSD | UP | 2.2 min | — | — | In play | — |
+| 11/12 2:11:58 PM | BNB | DOWN | 3.0 min | +0.259% | — | In play | — |
+| 11/12 2:11:58 PM | 5YRRATE | DOWN | 3.0 min | — | — | In play | — |
 | 11/12 1:59:51 PM | BNB | DOWN | 8 sec | -0.014% | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 1:59:51 PM | WTI | UP | 8 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/12 1:59:51 PM | USDJPY | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -213,12 +219,6 @@
 | 11/12 1:44:50 PM | DOGE | DOWN | 9 sec | +0.106% | 0¢ | ❌ Lost | $0.00 |
 | 11/12 1:44:50 PM | 2YRRATE | UP | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 1:44:50 PM | BTC | DOWN | 9 sec | +0.001% | 0¢ | ❌ Lost | $0.00 |
-| 11/12 1:44:50 PM | SOL | DOWN | 9 sec | +0.007% | 0¢ | ❌ Lost | $0.00 |
-| 11/12 1:44:50 PM | ETH | UP | 9 sec | -0.020% | 0¢ | ❌ Lost | $0.00 |
-| 11/12 1:44:50 PM | BRENT | DOWN | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 1:44:50 PM | 10YRRATE | DOWN | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 1:44:34 PM | INX | UP | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 1:44:34 PM | BNB | DOWN | 25 sec | -0.011% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
