@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 12:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 12:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58502 | 3173 | 13 (0%) | 1.1% | -$293.95 (-62%) | Hold to the end: -$293.95 (-62%) |
+| 58519 | 3173 | 13 (0%) | 1.1% | -$293.95 (-62%) | Hold to the end: -$293.95 (-62%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3173 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 55304 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 55310 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27639 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3415 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 27643 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3416 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2715 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1824 | 8 | 14% | 6% | -59% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1756 | 4 | 14% | 6% | -79% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1757 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1591 | 3 | 6% | 4% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1041 | 5 | 11% | 4% | -55% | -81% | 5 min |
@@ -347,12 +347,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-12 19:59 | Copa Del Rey Game | Real Betis | ✘ | — | — | In play | — |
+| 11-12 19:58 | Copa Del Rey Game | Navalcarnero | ✘ | — | — | In play | — |
+| 11-12 19:58 | UEFA Nations League Game | San Marino | ✔ | 13' · BLR 0 - SMR 0 | — | In play | — |
+| 11-12 19:55 | SHL Game | Timra IK | ✘ | — | — | In play | — |
+| 11-12 19:55 | Counter-Strike 2 Game | Drama eSports | ✘ | — | — | In play | — |
+| 11-12 19:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 19:55 | eSoccer Game | Juventus (SilentShooter) | ✘ | — | — | In play | — |
+| 11-12 19:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 19:53 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
+| 11-12 19:52 | eSoccer Game | England (Moana) | ✘ | — | — | In play | — |
+| 11-12 19:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 19:52 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | — | In play | — |
+| 11-12 19:52 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | — | In play | — |
+| 11-12 19:51 | eSoccer Game | Arsenal (Nate) | ✘ | — | — | In play | — |
+| 11-12 19:50 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 19:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 19:50 | ITF Men's Match | Aidan Kim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:49 | Counter-Strike 2 Game | DNK | ✘ | — | — | In play | — |
-| 11-12 19:47 | Russia Liga Pro Match | Troyanov Yaroslav | ✘ | — | — | In play | — |
+| 11-12 19:47 | Russia Liga Pro Match | Troyanov Yaroslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:42 | AFCON Game Winner | Central African Republic | ✘ | — | — | In play | — |
 | 11-12 19:41 | Challenger ATP  | Sebastian Baez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:41 | eSoccer Game | Liverpool (Ryft) | ✘ | — | — | In play | — |
-| 11-12 19:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 19:41 | eSoccer Game | Liverpool (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 19:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:39 | eSoccer Game | Brighton (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:39 | eSoccer Game | Fulham (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:39 | Champions League Women's Game | Barcelona | ✔ | 90'+3' · ARS 1 - BAR 1 | 0¢ | ❌ Lost | -$0.15 |
@@ -360,23 +377,6 @@
 | 11-12 19:38 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:38 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:37 | Champions League Women's Game | Arsenal | ✔ | 90'+1' · ARS 1 - BAR 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:36 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:36 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-12 19:35 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:34 | AFCON Game Winner | Sudan | ✘ | — | — | In play | — |
-| 11-12 19:32 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:31 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:31 | Counter-Strike 2 Game | TitanFlow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:29 | Russia Liga Pro Match | Korolev Semyon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:28 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-12 19:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:26 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:26 | International Friendly Game | Malta | ✔ | 90'+4' · SWZ 1 - MLT 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:25 | AFCON Game Winner | Gambia | ✘ | — | — | In play | — |
-| 11-12 19:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 19:24 | eSoccer Game | Arsenal (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
