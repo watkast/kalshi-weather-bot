@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 4:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 4:11 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58062 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
+| 58068 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 16. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3162 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54883 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54890 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27406 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3368 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 27408 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3371 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2693 | 5 | 3% | 1% | -83% | -92% | 3 min |
-| ITF Women's Match | ✘ | 1797 | 8 | 14% | 6% | -58% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1736 | 4 | 14% | 6% | -78% | -76% | 5 min |
+| ITF Women's Match | ✘ | 1798 | 8 | 14% | 6% | -58% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1737 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1570 | 3 | 6% | 4% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1035 | 5 | 11% | 4% | -55% | -81% | 5 min |
@@ -346,17 +346,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-12 11:10 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
+| 11-12 11:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:09 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 11-12 11:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:06 | ITF Women's Match | Iveta Dapkute | ✘ | — | — | In play | — |
+| 11-12 11:02 | ITF Women's Match | Lya Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:59 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:59 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:58 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | — | In play | — |
-| 11-12 10:57 | ITF Men's Match | Nicola Senn | ✘ | — | — | In play | — |
-| 11-12 10:57 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
-| 11-12 10:56 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 11-12 10:58 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 10:57 | ITF Men's Match | Nicola Senn | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 10:57 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 10:56 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:54 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:52 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
-| 11-12 10:52 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | — | In play | — |
-| 11-12 10:50 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | — | In play | — |
+| 11-12 10:52 | Russia Liga Pro Match | Novikov Ilya | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 10:50 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:49 | ITF Women's Match | Coco Bosman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:48 | ITF Women's Match | Mariia Drobysheva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:47 | eSoccer Game | Stuttgart (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -370,12 +376,6 @@
 | 11-12 10:44 | eSoccer Game | Frankfurt (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 10:40 | Challenger ATP  | Cezar Cretu (b. 2001) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:39 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:38 | Russia Liga Pro Match | Bespalov Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:38 | ITF Men's Match | Andrea Paolini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:35 | ITF Women's Match | Ekaterina Agureeva | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 11-12 10:32 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:32 | eSoccer Game | FC Bayern (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
