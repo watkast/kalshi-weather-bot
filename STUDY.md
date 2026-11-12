@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 10:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 10:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 57940 | 3158 | 13 (0%) | 1.1% | -$291.70 (-62%) | Hold to the end: -$291.70 (-62%) |
+| 57949 | 3158 | 13 (0%) | 1.1% | -$291.70 (-62%) | Hold to the end: -$291.70 (-62%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3158 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54761 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54771 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27331 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3353 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 27337 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3356 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2683 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1791 | 8 | 14% | 6% | -58% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1730 | 4 | 14% | 6% | -78% | -76% | 5 min |
@@ -116,7 +116,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | NHL Game | ✔ | 293 | 2 | 16% | 9% | -36% | -73% | 5 min |
 | Challenger WTA | ✘ | 287 | 1 | 13% | 5% | -67% | -78% | 9 min |
-| NBA Game | ✔ | 226 | 0 | 19% | 6% | -100% | -66% | 11 min |
+| NBA Game | partly | 227 | 0 | 19% | 6% | -100% | -66% | 10 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
 | AHL Game | ✘ | 217 | 0 | 4% | 2% | -100% | -94% | 5 min |
 | WTA Tennis Match | ✘ | 191 | 0 | 13% | 3% | -100% | -78% | 5 min |
@@ -346,16 +346,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:29 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 11-12 05:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:29 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-12 05:38 | Russia Liga Pro Match | Akkuratov Aleksei | ✘ | — | — | In play | — |
+| 11-12 05:38 | NHL Game | Anaheim | ✔ | 3:14 - 3rd · NSH 4 - ANA 2 | — | In play | — |
+| 11-12 05:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 05:33 | ITF Men's Match | Tin Chen | ✘ | — | — | In play | — |
+| 11-12 05:33 | eSoccer Game | Nottingham Forest (Arkon) | ✘ | — | — | In play | — |
+| 11-12 05:31 | Men's ODI Cricket Match | Auckland Aces | ✘ | — | — | In play | — |
+| 11-12 05:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 05:30 | eSoccer Game | Valencia CF (Eder) | ✘ | — | — | In play | — |
+| 11-12 05:30 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:29 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:29 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:28 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
-| 11-12 05:28 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | — | In play | — |
-| 11-12 05:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:27 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | — | In play | — |
-| 11-12 05:26 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | — | In play | — |
-| 11-12 05:24 | NBA Game | Oklahoma City | ✘ | — | — | In play | — |
+| 11-12 05:28 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:27 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:26 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:24 | NBA Game | Oklahoma City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-12 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:19 | eSoccer Game | Chelsea (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:17 | NHL Game | Utah | ✔ | 3:03 - 3rd · UTA 3 - VGK 5 | 0¢ | ❌ Lost | -$0.15 |
@@ -367,15 +376,6 @@
 | 11-12 05:15 | eSoccer Game | RB Leipzig (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:11 | Men's ODI Cricket Match | Northern Districts Men | ✘ | — | — | In play | — |
-| 11-12 05:11 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:11 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:07 | Men's College Basketball Game | Pacific | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:04 | eSoccer Game | Manchester Utd (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:02 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:00 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
