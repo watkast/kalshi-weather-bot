@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 11, 9:16 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 11, 9:26 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54304 | 54283 | 208 (0%) | 1.07% | -$3,709.75 (-56%) | Hold to the close: -$3,709.75 (-56%) |
+| 54305 | 54283 | 208 (0%) | 1.07% | -$3,709.75 (-56%) | Hold to the close: -$3,709.75 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/11 9:26:19 PM | WTI | UP | 3.7 min | — | — | In play | — |
 | 11/11 9:14:54 PM | USDJPY | UP | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 9:14:38 PM | NEAR | UP | 21 sec | -0.256% | 0¢ | ❌ Lost | $0.00 |
 | 11/11 9:14:38 PM | COPPER | UP | 21 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -218,7 +219,6 @@
 | 11/11 8:59:37 PM | BRENT | UP | 23 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 8:59:37 PM | PALLADIUM | DOWN | 23 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/11 8:59:22 PM | PLATINUM | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/11 8:59:22 PM | USDJPY | DOWN | 38 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
