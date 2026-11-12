@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 3:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 3:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58695 | 3191 | 13 (0%) | 1.1% | -$296.65 (-62%) | Hold to the end: -$296.65 (-62%) |
+| 58707 | 3191 | 13 (0%) | 1.1% | -$296.65 (-62%) | Hold to the end: -$296.65 (-62%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3191 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 55484 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 55492 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27733 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 27739 | 19 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3430 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2723 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eBasketball Game | ✘ | 2724 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1827 | 8 | 14% | 6% | -59% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1766 | 4 | 14% | 6% | -79% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1602 | 3 | 6% | 3% | -83% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1603 | 3 | 6% | 3% | -83% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1042 | 5 | 11% | 4% | -55% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -348,36 +348,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-12 22:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 22:21 | eSoccer Game | Real Sociedad (Zaroth) | ✘ | — | — | In play | — |
+| 11-12 22:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 22:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 22:19 | Darts Match | Richie Burnett | ✘ | — | — | In play | — |
+| 11-12 22:18 | eSoccer Game | Spurs (Millie) | ✘ | — | — | In play | — |
+| 11-12 22:16 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
+| 11-12 22:16 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | — | In play | — |
+| 11-12 22:16 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 11-12 22:16 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-12 22:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 22:15 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | — | In play | — |
 | 11-12 22:13 | ITF Men's Match | Gavin Goode | ✘ | — | — | In play | — |
-| 11-12 22:11 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
+| 11-12 22:11 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:10 | Dota 2 Game | No Hoodwink | ✘ | — | — | In play | — |
-| 11-12 22:09 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | — | In play | — |
-| 11-12 22:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 22:06 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | — | In play | — |
-| 11-12 22:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 22:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 22:09 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 22:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 22:06 | Counter-Strike 2 Game | Procyon Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:04 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:04 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:04 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:03 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-12 22:02 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 11-12 22:03 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 22:02 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:02 | Russia Liga Pro Match | Lyfenko Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:00 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 21:59 | ATP Tennis Match | Ugo Humbert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 21:58 | ITF Women's Match | Despina Papamichail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:56 | ITF Men's Match | Emanuel Ivanisevic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:54 | WTA Tennis Match | Marta Kostyuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:53 | ITF Men's Match | Lorenzo Joaquin Rodriguez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:53 | Russia Liga Pro Match | Klimentev Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:51 | Challenger ATP  | Kyrian Jacquet | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:50 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:50 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:48 | eSoccer Game | FC Bayern (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:48 | eSoccer Game | Paris Saint-Germain (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 21:48 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
