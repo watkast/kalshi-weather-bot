@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 4:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 4:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58762 | 3191 | 13 (0%) | 1.1% | -$296.65 (-62%) | Hold to the end: -$296.65 (-62%) |
+| 58770 | 3191 | 13 (0%) | 1.1% | -$296.65 (-62%) | Hold to the end: -$296.65 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3191 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 55547 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 55561 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27777 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3435 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2727 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eSoccer Game | ✘ | 27787 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3436 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2729 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1828 | 8 | 14% | 6% | -59% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1767 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1605 | 3 | 6% | 3% | -83% | -90% | 12 min |
@@ -108,7 +108,7 @@
 | College Football Game | partly | 526 | 3 | 11% | 6% | -47% | -81% | 23 min |
 | Men's College Basketball Game | partly | 479 | 5 | 19% | 8% | -3% | -66% | 30 min |
 | Women's College Basketball Game | partly | 455 | 1 | 13% | 4% | -79% | -78% | 37 min |
-| Darts Match | ✘ | 398 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Darts Match | ✘ | 399 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 376 | 1 | 1% | 1% | -75% | -98% | 31 min |
 | Women's College Volleyball Match | ✘ | 367 | 2 | 4% | 2% | -49% | -93% | 65 min |
 | Men's T20 Cricket Match | ✘ | 340 | 2 | 16% | 7% | -45% | -72% | 22 min |
@@ -348,17 +348,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 23:16 | eSoccer Game | Girona (Krocs) | ✘ | — | — | In play | — |
-| 11-12 23:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 23:15 | eBasketball Game | Indiana Pacers (Zach) | ✘ | — | — | In play | — |
-| 11-12 23:15 | eSoccer Game | Palmeiras (Holis) | ✘ | — | — | In play | — |
-| 11-12 23:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 23:13 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | — | In play | — |
-| 11-12 23:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 23:13 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-12 23:12 | eBasketball Game | Dallas Mavericks (Gavi) | ✘ | — | — | In play | — |
-| 11-12 23:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 23:09 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-12 23:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 23:26 | eSoccer Game | Universitario (Bony) | ✘ | — | — | In play | — |
+| 11-12 23:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-12 23:25 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-12 23:22 | ITF Women's Match | Isabella Kruger | ✘ | — | — | In play | — |
+| 11-12 23:18 | Russia Liga Pro Match | Aksentev Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:18 | Darts Match | Archie Self | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:16 | eSoccer Game | Girona (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:15 | eBasketball Game | Indiana Pacers (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:15 | eSoccer Game | Palmeiras (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:13 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:13 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:12 | eBasketball Game | Dallas Mavericks (Gavi) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-12 23:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 23:09 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 23:03 | Darts Match | Steve West | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 23:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 23:02 | Women's College Basketball Game | Middle Tennessee | ✘ | — | — | In play | — |
@@ -370,14 +378,6 @@
 | 11-12 22:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 22:56 | eSoccer Game | Tie | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-12 22:56 | Russia Liga Pro Match | Kolmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:56 | Women's College Basketball Game | Brown | ✘ | — | — | In play | — |
-| 11-12 22:55 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:54 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:49 | eSoccer Game | Real Sociedad (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:49 | eSoccer Game | RCD Mallorca (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:47 | Darts Match | Richie Burnett | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:47 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 22:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
