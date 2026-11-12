@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 4:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 4:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58091 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
+| 58102 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
 
 *In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3162 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54907 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54918 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27418 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 27425 | 19 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3374 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2693 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eBasketball Game | ✘ | 2695 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1800 | 8 | 14% | 6% | -59% | -77% | 4 min |
-| ITF Men's Match | ✘ | 1737 | 4 | 14% | 6% | -79% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1739 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1571 | 3 | 6% | 4% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1036 | 5 | 11% | 4% | -55% | -81% | 5 min |
@@ -346,36 +346,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-12 11:42 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
+| 11-12 11:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:40 | eSoccer Game | Manchester City (NINJA) | ✘ | — | — | In play | — |
+| 11-12 11:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:40 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | — | In play | — |
+| 11-12 11:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:38 | ITF Women's Match | Claudia Ferrer Perez | ✘ | — | — | In play | — |
+| 11-12 11:37 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | — | In play | — |
+| 11-12 11:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:34 | ITF Men's Match | Tommaso Compagnucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:33 | ITF Women's Match | Eliska Tichackova | ✘ | — | — | In play | — |
 | 11-12 11:30 | ITF Women's Match | Iliia Dashkevich | ✘ | — | — | In play | — |
 | 11-12 11:29 | Challenger ATP  | Raul Brancaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:28 | eSoccer Game | Crystal Palace (Mavi) | ✘ | — | — | In play | — |
-| 11-12 11:28 | eSoccer Game | Chelsea (NINJA) | ✘ | — | — | In play | — |
-| 11-12 11:28 | ITF Men's Match | Ole Bredschneijder | ✘ | — | — | In play | — |
-| 11-12 11:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 11:27 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | — | In play | — |
-| 11-12 11:26 | eBasketball Game | New York Knicks (Ray) | ✘ | — | — | In play | — |
-| 11-12 11:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:28 | eSoccer Game | Crystal Palace (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:28 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:28 | ITF Men's Match | Ole Bredschneijder | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:27 | eSoccer Game | Frankfurt (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:26 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:26 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:25 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:24 | ITF Women's Match | Lorena Solar Donoso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:24 | eSoccer Game | Freiburg (Declan) | ✘ | — | — | In play | — |
+| 11-12 11:24 | eSoccer Game | Freiburg (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:22 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:22 | Women's T20 Match | Melbourne Renegades Women | ✘ | — | — | In play | — |
-| 11-12 11:21 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 11-12 11:21 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-12 11:17 | Dota 2 Game | angry birds | ✘ | — | — | In play | — |
-| 11-12 11:15 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:15 | Russia Liga Pro Match | Pismennyi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:14 | eSoccer Game | Manchester City (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:10 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:09 | eSoccer Game | United States (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:06 | ITF Women's Match | Iveta Dapkute | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:02 | ITF Women's Match | Lya Fernandez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 10:59 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
