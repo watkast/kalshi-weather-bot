@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 4:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 5:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58119 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
+| 58130 | 3162 | 13 (0%) | 1.1% | -$292.30 (-62%) | Hold to the end: -$292.30 (-62%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3162 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54930 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54944 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27431 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 27439 | 19 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3378 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2695 | 5 | 3% | 1% | -83% | -92% | 3 min |
-| ITF Women's Match | ✘ | 1801 | 8 | 14% | 6% | -59% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1739 | 4 | 14% | 6% | -79% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1571 | 3 | 6% | 4% | -82% | -90% | 12 min |
+| ITF Women's Match | ✘ | 1804 | 8 | 14% | 6% | -59% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1741 | 4 | 14% | 6% | -79% | -76% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1572 | 3 | 6% | 3% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1036 | 5 | 11% | 4% | -55% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -346,36 +346,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 11:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 11:51 | ITF Women's Match | Carlotta Moccia | ✘ | — | — | In play | — |
-| 11-12 11:51 | eSoccer Game | RB Leipzig (Pedri) | ✘ | — | — | In play | — |
-| 11-12 11:50 | Counter-Strike 2 Game | Bad Beavers | ✘ | — | — | In play | — |
-| 11-12 11:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 11:50 | eSoccer Game | Stuttgart (Declan) | ✘ | — | — | In play | — |
-| 11-12 11:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 11:49 | ITF Men's Match | Szymon Karpinski | ✘ | — | — | In play | — |
+| 11-12 12:03 | eSoccer Game | Mönchengladbach (Luis) | ✘ | — | — | In play | — |
+| 11-12 12:02 | eSoccer Game | United States (Demi) | ✘ | — | — | In play | — |
+| 11-12 12:02 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-12 12:01 | Korea KBL Game | Daegu Pegasus | ✘ | — | — | In play | — |
+| 11-12 11:59 | Women's T20 Match | Thailand | ✘ | — | — | In play | — |
+| 11-12 11:59 | ITF Women's Match | Keisija Berzina | ✘ | — | — | In play | — |
+| 11-12 11:59 | Japan B League Game | Osaka Evessa | ✘ | — | — | In play | — |
+| 11-12 11:58 | ITF Men's Match | Viktor Frydrych | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:56 | ITF Women's Match | Jana Bojovic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:55 | eSoccer Game | Crystal Palace (Mavi) | ✘ | — | — | In play | — |
+| 11-12 11:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:51 | ITF Women's Match | Carlotta Moccia | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 11-12 11:51 | eSoccer Game | RB Leipzig (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:50 | Counter-Strike 2 Game | Bad Beavers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:50 | eSoccer Game | Stuttgart (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:49 | ITF Men's Match | Szymon Karpinski | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-12 11:49 | Women's T20 Match | Bangladesh | ✘ | — | — | In play | — |
-| 11-12 11:49 | eSoccer Game | Spain (Lotta) | ✘ | — | — | In play | — |
-| 11-12 11:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 11:49 | eSoccer Game | Spain (Lotta) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 11:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:49 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:48 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
+| 11-12 11:48 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:46 | Counter-Strike 2 Game | NAVI Junior | ✘ | — | — | In play | — |
 | 11-12 11:46 | Russia Liga Pro Match | Lednev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:44 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:44 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 11:42 | Counter-Strike 2 Game | MASONIC | ✘ | — | — | In play | — |
 | 11-12 11:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:40 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:40 | eSoccer Game | Stuttgart (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:38 | ITF Women's Match | Claudia Ferrer Perez | ✘ | — | — | In play | — |
-| 11-12 11:37 | eSoccer Game | Freiburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:34 | ITF Men's Match | Tommaso Compagnucci | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 11:33 | ITF Women's Match | Eliska Tichackova | ✘ | — | — | In play | — |
-| 11-12 11:30 | ITF Women's Match | Iliia Dashkevich | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 11-12 11:29 | Challenger ATP  | Raul Brancaccio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
