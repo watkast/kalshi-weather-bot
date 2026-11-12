@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 12, 1:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 12, 1:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58550 | 3173 | 13 (0%) | 1.1% | -$293.95 (-62%) | Hold to the end: -$293.95 (-62%) |
+| 58560 | 3173 | 13 (0%) | 1.1% | -$293.95 (-62%) | Hold to the end: -$293.95 (-62%) |
 
-*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3173 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 55332 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 55349 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27661 | 19 | 1% | 1% | -94% | -99% | 3 min |
-| Russia Liga Pro Match | ✘ | 3417 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2715 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eSoccer Game | ✘ | 27671 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| Russia Liga Pro Match | ✘ | 3418 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2717 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1824 | 8 | 14% | 6% | -59% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1757 | 4 | 14% | 6% | -79% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1593 | 3 | 6% | 4% | -82% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1594 | 3 | 6% | 4% | -82% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1041 | 5 | 11% | 4% | -55% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -183,12 +183,12 @@
 | Turkish Super Lig Game | ✘ | 78 | 0 | 18% | 4% | -100% | -69% | 17 min |
 | APF Division de Honor Game | ✘ | 77 | 0 | 16% | 4% | -100% | -73% | 13 min |
 | NWSL Game | ✔ | 76 | 0 | 7% | 1% | -100% | -89% | 7 min |
+| SHL Game | ✘ | 76 | 0 | 3% | 3% | -100% | -95% | 6 min |
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | Eredivisie Game | ✔ | 76 | 0 | 9% | 7% | -100% | -84% | 5 min |
 | Ecuador Liga Pro Game | ✘ | 76 | 0 | 7% | 1% | -100% | -89% | 12 min |
 | Czech First League Game | ✘ | 75 | 0 | 8% | 0% | -100% | -86% | 12 min |
 | Bolivia Premier Division Game | ✘ | 74 | 0 | 8% | 1% | -100% | -86% | 11 min |
-| SHL Game | ✘ | 73 | 0 | 3% | 3% | -100% | -95% | 5 min |
 | Mobile Legends Bang Bang Game | ✘ | 73 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Bundesliga 2 Game | ✔ | 73 | 0 | 15% | 7% | -100% | -74% | 8 min |
 | DEL Game | ✘ | 72 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -347,36 +347,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 20:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 20:28 | ITF Men's Match | Ryan Colby | ✘ | — | — | In play | — |
+| 11-12 20:27 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 11-12 20:27 | CONCACAF Nations League Game | Tie | ✔ | 68' · CUB 3 - BOE 1 | — | In play | — |
+| 11-12 20:24 | Counter-Strike 2 Game | Nuclear TigeRES | ✘ | — | — | In play | — |
+| 11-12 20:24 | eSoccer Game | FC Bayern (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:23 | eSoccer Game | Leverkusen (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:21 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:21 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:21 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:21 | eSoccer Game | England (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:20 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
 | 11-12 20:19 | Counter-Strike 2 Game | eSuba | ✘ | — | — | In play | — |
 | 11-12 20:19 | Counter-Strike 2 Game | LPH Gaming | ✘ | — | — | In play | — |
-| 11-12 20:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 20:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-12 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:17 | CONCACAF Nations League Game | Barbados | ✔ | 56' · GDL 2 - BRB 0 | — | In play | — |
-| 11-12 20:17 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
-| 11-12 20:17 | eSoccer Game | Everton (Rendeto) | ✘ | — | — | In play | — |
-| 11-12 20:17 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | — | In play | — |
+| 11-12 20:17 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:17 | eSoccer Game | Everton (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:17 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:16 | Women's College Basketball Game | Portland St. | ✘ | — | — | In play | — |
-| 11-12 20:16 | Counter-Strike 2 Game | OLDBOYS- | ✘ | — | — | In play | — |
-| 11-12 20:14 | Russia Liga Pro Match | Shershnev Aleksei | ✘ | — | — | In play | — |
+| 11-12 20:16 | Counter-Strike 2 Game | OLDBOYS- | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:14 | Russia Liga Pro Match | Shershnev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:13 | SHL Game | Malmo Redhawks | ✘ | — | — | In play | — |
 | 11-12 20:13 | CONCACAF Nations League Game | Bonaire | ✔ | 54' · CUB 2 - BOE 0 | — | In play | — |
-| 11-12 20:13 | SHL Game | IF Bjorkloven | ✘ | — | — | In play | — |
-| 11-12 20:13 | SHL Game | HV71 | ✘ | — | — | In play | — |
+| 11-12 20:13 | SHL Game | IF Bjorkloven | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 20:13 | SHL Game | HV71 | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:08 | eSoccer Game | Liverpool (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 20:08 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:07 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:07 | Counter-Strike 2 Game | Nordic Valor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:05 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:04 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
-| 11-12 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:04 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 20:03 | UEFA Nations League Game | Tie | ✔ | 18' · BLR 2 - SMR 0 | — | In play | — |
-| 11-12 20:03 | Counter-Strike 2 Game | WW | ✘ | — | — | In play | — |
 
 ## Raw data
 
