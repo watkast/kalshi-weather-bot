@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 12, 12:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 12, 12:29 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 54957 | 54936 | 211 (0%) | 1.07% | -$3,749.35 (-56%) | Hold to the close: -$3,749.35 (-56%) |
+| 54961 | 54936 | 211 (0%) | 1.07% | -$3,749.35 (-56%) | Hold to the close: -$3,749.35 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/12 12:28:50 PM | BNB | DOWN | 69 sec | +0.037% | — | In play | — |
+| 11/12 12:28:50 PM | SOL | DOWN | 69 sec | +0.123% | — | In play | — |
+| 11/12 12:27:14 PM | NEAR | UP | 2.8 min | -0.564% | — | In play | — |
+| 11/12 12:26:43 PM | NATGAS | DOWN | 3.3 min | — | — | In play | — |
 | 11/12 12:14:59 PM | PALLADIUM | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 12:14:59 PM | HYPE | DOWN | 1 sec | -0.005% | 0¢ | ❌ Lost | $0.00 |
 | 11/12 12:14:59 PM | 5YRRATE | UP | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/12 11:59:57 AM | 2YRRATE | DOWN | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 11:59:57 AM | EURUSD | DOWN | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 11:59:41 AM | XRP | DOWN | 18 sec | +0.039% | 0¢ | ❌ Lost | $0.00 |
-| 11/12 11:59:41 AM | SILVER | UP | 18 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/12 11:59:41 AM | USDJPY | DOWN | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 11:59:41 AM | GOLD | UP | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 11:59:41 AM | 5YRRATE | UP | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
