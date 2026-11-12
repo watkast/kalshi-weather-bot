@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 12, 4:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 12, 4:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55224 | 55203 | 212 (0%) | 1.07% | -$3,767.30 (-56%) | Hold to the close: -$3,767.30 (-56%) |
+| 55228 | 55203 | 212 (0%) | 1.07% | -$3,767.30 (-56%) | Hold to the close: -$3,767.30 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/12 4:27:45 PM | BTC | UP | 2.2 min | -0.221% | — | In play | — |
+| 11/12 4:27:13 PM | EURUSD | UP | 2.8 min | — | — | In play | — |
+| 11/12 4:26:57 PM | USDCAD | DOWN | 3.0 min | — | — | In play | — |
+| 11/12 4:24:03 PM | SOL | UP | 5.9 min | -0.378% | — | In play | — |
 | 11/12 4:14:54 PM | AUDUSD | UP | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 4:14:54 PM | NATGAS | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 4:14:04 PM | BTC | DOWN | 56 sec | +0.079% | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/12 3:44:55 PM | NATGAS | UP | 4 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/12 3:44:39 PM | DOGE | UP | 20 sec | -0.030% | 0¢ | ❌ Lost | $0.00 |
 | 11/12 3:44:39 PM | GBPUSD | DOWN | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 3:44:05 PM | BNB | DOWN | 55 sec | +0.060% | 1¢ | ❌ Lost | -$0.15 |
-| 11/12 3:44:05 PM | ETH | UP | 55 sec | -0.071% | 0¢ | ❌ Lost | -$0.15 |
-| 11/12 3:43:49 PM | BTC | UP | 71 sec | -0.066% | 1¢ | ❌ Lost | -$0.15 |
-| 11/12 3:43:33 PM | ZEC | DOWN | 87 sec | +0.341% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
