@@ -1,35 +1,10 @@
 {
- "saved_at": "2026-11-12T15:16:50+00:00",
+ "saved_at": "2026-11-12T18:26:26+00:00",
  "series": 35,
  "markets_watched": 27,
- "batch_lookup": false,
- "bets": 54765,
- "open": 3,
- "coinbase_spot": {
-  "ZEC": true,
-  "ETH": true,
-  "HYPE": true,
-  "SOL": true,
-  "BTC": true,
-  "NEAR": true,
-  "BNB": true,
-  "XRP": true,
-  "DOGE": true
- },
- "errors": [
-  "2026-11-12T14:44:50+00:00 batch off: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?tickers=KXBNB15M-26NOV120945-45%2CKXPLATINUM15M-26NOV120945-45%2CKXPALLADIUM15M-26NOV120945-45%2CKXXRP15M-26NOV120945-45%2CKXBTC15M-26NOV120945-45%2CKX5YRRATE15M-26NOV120945-45%2CKXNATGAS15M-26NOV120945-45%2CKXBRENT15M-26NOV120945-45%2CKXNEAR15M-26NOV120945-45%2CKX2YRRATE15M-26NOV120945-45%2CKXGBPUSD15M-26NOV120945-30%2CKXEURUSD15M-26NOV120945-30%2CKX10YRRATE15M-26NOV120945-45%2CKXGOLD15M-26NOV120945-45%2CKXUSDJPY15M-26NOV120945-30%2CKXUSDCAD15M-26NOV120945-30%2CKXDOGE15M-26NOV120945-45%2CKXAUDUSD15M-26NOV120945-30%2CKXSILVER15M-26NOV120945-45%2CKXHYPE15M-26NOV120945-45%2CKXZEC15M-26NOV120945-45%2CKXETH15M-26NOV120945-45%2CKX30YRRATE15M-26NOV120945-45%2CKXWTI15M-26NOV120945-45%2CKXCOPPER15M-26NOV120945-45%2CKXSOL15M-26NOV120945-45&limit=1000",
-  "2026-11-12T14:47:40+00:00 quotes KXWTI15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXWTI15M&status=open&limit=1000",
-  "2026-11-12T14:48:36+00:00 quotes KXUSDCAD15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXUSDCAD15M&status=open&limit=1000",
-  "2026-11-12T14:50:11+00:00 quotes KXUSDJPY15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXUSDJPY15M&status=open&limit=1000",
-  "2026-11-12T14:51:19+00:00 quotes KXAUDUSD15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXAUDUSD15M&status=open&limit=1000",
-  "2026-11-12T14:55:44+00:00 quotes KXWTI15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXWTI15M&status=open&limit=1000",
-  "2026-11-12T14:58:17+00:00 quotes KX30YRRATE15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KX30YRRATE15M&status=open&limit=1000",
-  "2026-11-12T14:58:44+00:00 refresh KXXRP15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXXRP15M&status=open&limit=1000",
-  "2026-11-12T14:59:01+00:00 quotes KXGOLD15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXGOLD15M&status=open&limit=1000",
-  "2026-11-12T14:59:48+00:00 quotes KX2YRRATE15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KX2YRRATE15M&status=open&limit=1000",
-  "2026-11-12T15:02:13+00:00 quotes KX2YRRATE15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KX2YRRATE15M&status=open&limit=1000",
-  "2026-11-12T15:03:55+00:00 quotes KXUSDJPY15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXUSDJPY15M&status=open&limit=1000",
-  "2026-11-12T15:12:24+00:00 quotes KX5YRRATE15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KX5YRRATE15M&status=open&limit=1000",
-  "2026-11-12T15:13:49+00:00 refresh KXKPOWMID15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXKPOWMID15M&status=open&limit=1000"
- ]
+ "batch_lookup": true,
+ "bets": 54766,
+ "open": 4,
+ "coinbase_spot": {},
+ "errors": []
 }
