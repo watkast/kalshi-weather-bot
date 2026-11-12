@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 11, 10:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 11, 11:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 57959 | 3159 | 13 (0%) | 1.1% | -$291.85 (-62%) | Hold to the end: -$291.85 (-62%) |
+| 57962 | 3159 | 13 (0%) | 1.1% | -$291.85 (-62%) | Hold to the end: -$291.85 (-62%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 13. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3159 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 54779 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 54790 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 27341 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 27350 | 19 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3357 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2683 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eBasketball Game | ✘ | 2685 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1791 | 8 | 14% | 6% | -58% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1731 | 4 | 14% | 6% | -78% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1568 | 3 | 6% | 4% | -82% | -90% | 11 min |
@@ -346,16 +346,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-12 05:50 | eSoccer Game | Spurs (Trinity) | ✘ | — | — | In play | — |
-| 11-12 05:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:45 | eSoccer Game | Manchester Utd (Kovboj) | ✘ | — | — | In play | — |
-| 11-12 05:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:45 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | — | In play | — |
-| 11-12 05:45 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | — | In play | — |
-| 11-12 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-12 05:42 | eSoccer Game | Athletic Club (Antonio) | ✘ | — | — | In play | — |
-| 11-12 05:42 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | — | In play | — |
-| 11-12 05:42 | eSoccer Game | Sevilla FC (Fede) | ✘ | — | — | In play | — |
+| 11-12 05:59 | ITF Women's Match | Elena Micic | ✘ | — | — | In play | — |
+| 11-12 05:55 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | — | In play | — |
+| 11-12 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:50 | eSoccer Game | Spurs (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:45 | eSoccer Game | Manchester Utd (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:45 | eSoccer Game | Manchester Utd (Lotta) | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 11-12 05:45 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:42 | eSoccer Game | Athletic Club (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:42 | eBasketball Game | New Orleans Pelicans (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-12 05:42 | eSoccer Game | Sevilla FC (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:38 | Russia Liga Pro Match | Akkuratov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:38 | NHL Game | Anaheim | ✔ | 3:14 - 3rd · NSH 4 - ANA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -373,9 +376,6 @@
 | 11-12 05:28 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-12 05:27 | Russia Liga Pro Match | Skoblov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:26 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-12 05:24 | NBA Game | Oklahoma City | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-12 05:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
