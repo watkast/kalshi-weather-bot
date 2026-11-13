@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 13, 3:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 13, 3:43 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55732 | 55711 | 212 (0%) | 1.07% | -$3,830.00 (-56%) | Hold to the close: -$3,830.00 (-56%) |
+| 55738 | 55711 | 212 (0%) | 1.07% | -$3,830.00 (-56%) | Hold to the close: -$3,830.00 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 15. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,12 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/13 3:43:03 AM | PLATINUM | UP | 1.9 min | — | — | In play | — |
+| 11/13 3:43:03 AM | USDCAD | DOWN | 1.9 min | — | — | In play | — |
+| 11/13 3:42:45 AM | AUDUSD | UP | 2.2 min | — | — | In play | — |
+| 11/13 3:42:45 AM | GOLD | UP | 2.2 min | — | — | In play | — |
+| 11/13 3:42:13 AM | HYPE | DOWN | 2.8 min | +0.329% | — | In play | — |
+| 11/13 3:39:50 AM | XRP | UP | 5.2 min | -0.409% | — | In play | — |
 | 11/13 3:29:52 AM | BRENT | UP | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 3:29:52 AM | NATGAS | UP | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 3:29:52 AM | WTI | UP | 8 sec | — | 1¢ | ❌ Lost | -$0.15 |
@@ -213,12 +219,6 @@
 | 11/13 3:13:58 AM | EURUSD | UP | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 3:13:58 AM | AUDUSD | UP | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 3:13:42 AM | USDCAD | DOWN | 77 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 3:13:42 AM | WTI | UP | 77 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/13 3:13:26 AM | BRENT | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 3:13:26 AM | XRP | UP | 1.6 min | -0.243% | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 3:13:26 AM | 30YRRATE | UP | 1.6 min | — | 11¢ | ❌ Lost | -$0.15 |
-| 11/13 3:13:10 AM | 10YRRATE | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 3:12:38 AM | NEAR | DOWN | 2.4 min | +0.583% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
