@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 13, 12:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 13, 1:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 59260 | 3223 | 13 (0%) | 1.1% | -$301.45 (-62%) | Hold to the end: -$301.45 (-62%) |
+| 59270 | 3223 | 13 (0%) | 1.1% | -$301.45 (-62%) | Hold to the end: -$301.45 (-62%) |
 
 *In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3223 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 56011 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 56021 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28077 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 28087 | 19 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3468 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2752 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1835 | 8 | 14% | 6% | -59% | -76% | 4 min |
@@ -350,16 +350,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-13 07:58 | eSoccer Game | Rennes (Mordor) | ✘ | — | — | In play | — |
-| 11-13 07:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 07:58 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
-| 11-13 07:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 07:55 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | — | In play | — |
-| 11-13 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 07:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 11-13 07:53 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
+| 11-13 08:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 08:09 | eBasketball Game | Brooklyn Nets (Ray) | ✘ | — | — | In play | — |
+| 11-13 08:08 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | — | In play | — |
+| 11-13 08:08 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 11-13 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 08:07 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | — | In play | — |
+| 11-13 08:06 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-13 08:04 | eBasketball Game | New York Knicks (Davis) | ✘ | — | — | In play | — |
+| 11-13 08:01 | Valorant game winner | Ambitious Legend Gaming | ✘ | — | — | In play | — |
+| 11-13 07:58 | eSoccer Game | Rennes (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:58 | eSoccer Game | Real Sociedad (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:55 | eSoccer Game | Olympique de Marseille (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 07:53 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 07:51 | Valorant game winner | LGD Gaming | ✘ | — | — | In play | — |
 | 11-13 07:51 | Women's T20 Match | Scotland | ✘ | — | — | In play | — |
 | 11-13 07:47 | Men's ODI Cricket Match | India | ✘ | — | — | In play | — |
@@ -370,16 +380,6 @@
 | 11-13 07:43 | Women's T20 Match | United Arab Emirates | ✘ | — | — | In play | — |
 | 11-13 07:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 07:43 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:40 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:40 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:39 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:39 | eSoccer Game | Real Madrid (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:37 | Russia Liga Pro Match | Burmakin IUrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:31 | eSoccer Game | Toulouse FC (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 07:31 | eSoccer Game | Stade Brestois 29 (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
