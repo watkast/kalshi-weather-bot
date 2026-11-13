@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Thu Nov 12, 5:14 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Thu Nov 12, 6:56 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 852 | 823 | 35% | -$390.18 | -11.8% | 29 | Losing |
-| **Rain** | 250 | 236 | 32% | -$13.31 | -1.7% | 14 | Break-even |
+| **Temperature** | 857 | 823 | 35% | -$390.18 | -11.8% | 34 | Losing |
+| **Rain** | 251 | 236 | 32% | -$13.31 | -1.7% | 15 | Break-even |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,21 +44,22 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-13 | PHIL 49-50 | NO | 61¢ | 81% | Open | — |
+| 2026-11-13 | LAX 72-73 | YES | 15¢ | 26% | Open | — |
+| 2026-11-13 | AUS 81-82 | NO | 74¢ | 95% | Open | — |
+| 2026-11-13 | CHI 39-40 | YES | 12¢ | 23% | Open | — |
+| 2026-11-13 | CHI 43-44 | NO | 67¢ | 81% | Open | — |
 | 2026-11-13 | PHIL 47-48 | YES | 7¢ | 26% | Open | — |
 | 2026-11-13 | PHIL 51-52 | NO | 49¢ | 91% | Open | — |
 | 2026-11-13 | PHIL 53-54 | NO | 84¢ | 97% | Open | — |
 | 2026-11-13 | LAX 68-69 | NO | 78¢ | 91% | Open | — |
 | 2026-11-13 | LAX 70-71 | NO | 46¢ | 81% | Open | — |
-| 2026-11-13 | DEN 64-65 | NO | 44¢ | 74% | Open | — |
-| 2026-11-13 | AUS 75-76 | YES | 5¢ | 26% | Open | — |
-| 2026-11-13 | AUS 79-80 | NO | 36¢ | 86% | Open | — |
-| 2026-11-13 | MIA 80-81 | NO | 49¢ | 74% | Open | — |
-| 2026-11-13 | CHI 41-42 | NO | 41¢ | 74% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-13 | CHI | YES | 51¢ | 69% | Open | — |
 | 2026-11-13 | MKE | YES | 32¢ | 52% | Open | — |
 | 2026-11-13 | CMH | NO | 20¢ | 41% | Open | — |
 | 2026-11-13 | SEA | NO | 9¢ | 21% | Open | — |
@@ -68,7 +69,6 @@
 | 2026-11-12 | MKE | YES | 42¢ | 62% | Open | — |
 | 2026-11-12 | CHI | YES | 57¢ | 82% | Open | — |
 | 2026-11-12 | SFO | YES | 16¢ | 35% | Open | — |
-| 2026-11-12 | SEA | YES | 6¢ | 36% | Open | — |
 
 ## The bots
 
