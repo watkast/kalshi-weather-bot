@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 13, 3:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 13, 3:12 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4274 finished bets | 1% | $169.40 | +36% | +3.96¢ | $81.40 / $88.00 |
 
-*Expect about **93 buys a day** (~$13.90/day at risk); max loss per buy **15¢**.*
+*Expect about **93 buys a day** (~$13.89/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 55695 | 55674 | 212 (0%) | 1.07% | -$3,825.05 (-56%) | Hold to the close: -$3,825.05 (-56%) |
+| 55700 | 55674 | 212 (0%) | 1.07% | -$3,825.05 (-56%) | Hold to the close: -$3,825.05 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 14. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/13 3:10:55 AM | BNB | DOWN | 4.1 min | +0.342% | — | In play | — |
+| 11/13 3:10:55 AM | BTC | DOWN | 4.1 min | +0.322% | — | In play | — |
+| 11/13 3:10:55 AM | DOGE | DOWN | 4.1 min | +0.403% | — | In play | — |
+| 11/13 3:10:20 AM | SOL | DOWN | 4.7 min | +0.378% | — | In play | — |
+| 11/13 3:09:31 AM | ETH | DOWN | 5.5 min | +0.397% | — | In play | — |
 | 11/13 2:59:47 AM | PALLADIUM | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 2:59:47 AM | PLATINUM | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 2:59:47 AM | ZEC | UP | 13 sec | -0.000% | 0¢ | ❌ Lost | -$0.15 |
@@ -214,11 +219,6 @@
 | 11/13 2:43:44 AM | HYPE | DOWN | 75 sec | +0.202% | 1¢ | ❌ Lost | -$0.15 |
 | 11/13 2:43:12 AM | USDCAD | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 2:43:12 AM | 10YRRATE | UP | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 2:43:12 AM | SILVER | DOWN | 1.8 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/13 2:43:12 AM | DOGE | DOWN | 1.8 min | +0.218% | 0¢ | ❌ Lost | $0.00 |
-| 11/13 2:42:56 AM | EURUSD | UP | 2.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 2:42:56 AM | BTC | DOWN | 2.1 min | +0.190% | 1¢ | ❌ Lost | -$0.15 |
-| 11/13 2:42:23 AM | PALLADIUM | DOWN | 2.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
