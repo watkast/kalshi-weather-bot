@@ -1,20 +1,19 @@
 {
- "saved_at": "2026-11-13T20:24:22+00:00",
+ "saved_at": "2026-11-13T20:34:46+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 288,
+ "markets_in_or_near_play": 252,
  "batch_lookup": true,
  "espn_games_linked": 16,
  "espn_check": {
-  "at": "2026-11-13T19:54:56+00:00",
-  "started_games": 15,
+  "at": "2026-11-13T20:26:17+00:00",
+  "started_games": 14,
   "matched": 12,
   "unmatched_sample": [
    "KXCONCACAFNLGAME-26NOV13GRNKNA",
-   "KXNCAAMBGAME-26NOV13CLEVUWFL",
-   "KXNCAAWBGAME-26NOV13COOKUSU"
+   "KXNCAAMBGAME-26NOV13CLEVUWFL"
   ]
  },
- "bets": 59864,
- "open": 39,
+ "bets": 59876,
+ "open": 38,
  "errors": []
 }
