@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 13, 7:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 13, 7:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56034 | 56013 | 212 (0%) | 1.07% | -$3,868.70 (-57%) | Hold to the close: -$3,868.70 (-57%) |
+| 56038 | 56013 | 212 (0%) | 1.07% | -$3,868.70 (-57%) | Hold to the close: -$3,868.70 (-57%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 13. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/13 7:42:35 AM | PLATINUM | DOWN | 2.4 min | — | — | In play | — |
+| 11/13 7:42:04 AM | AUDUSD | DOWN | 2.9 min | — | — | In play | — |
+| 11/13 7:42:04 AM | SILVER | DOWN | 2.9 min | — | — | In play | — |
+| 11/13 7:41:29 AM | GBPUSD | DOWN | 3.5 min | — | — | In play | — |
 | 11/13 7:29:48 AM | NEAR | DOWN | 11 sec | +0.053% | 1¢ | ❌ Lost | -$0.15 |
 | 11/13 7:29:48 AM | DOGE | DOWN | 11 sec | +0.014% | 0¢ | ❌ Lost | $0.00 |
 | 11/13 7:29:48 AM | BRENT | DOWN | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/13 7:14:41 AM | 5YRRATE | DOWN | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 7:14:41 AM | PALLADIUM | UP | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 7:14:25 AM | 30YRRATE | DOWN | 35 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 7:14:25 AM | GOLD | DOWN | 35 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/13 7:14:06 AM | 10YRRATE | DOWN | 54 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 7:14:06 AM | COPPER | UP | 54 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 7:13:50 AM | NEAR | UP | 70 sec | -0.530% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
