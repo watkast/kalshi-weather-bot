@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 13, 2:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 13, 2:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 59338 | 3223 | 13 (0%) | 1.1% | -$301.45 (-62%) | Hold to the end: -$301.45 (-62%) |
+| 59349 | 3223 | 13 (0%) | 1.1% | -$301.45 (-62%) | Hold to the end: -$301.45 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3223 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 56091 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 56103 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28137 | 19 | 1% | 1% | -94% | -99% | 3 min |
+| eSoccer Game | ✘ | 28147 | 19 | 1% | 1% | -94% | -99% | 3 min |
 | Russia Liga Pro Match | ✘ | 3476 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2757 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1835 | 8 | 14% | 6% | -59% | -76% | 4 min |
@@ -132,7 +132,7 @@
 | Brasileiro Serie B Game | ✘ | 148 | 1 | 7% | 3% | -37% | -87% | 11 min |
 | KHL Game | ✘ | 148 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
-| Overwatch Game | ✘ | 128 | 0 | 2% | 0% | -100% | -97% | 6 min |
+| Overwatch Game | ✘ | 129 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
 | Valorant game winner | ✘ | 124 | 0 | 5% | 3% | -100% | -92% | 12 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
@@ -169,9 +169,9 @@
 | UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
+| Men's ODI Cricket Match | ✘ | 83 | 3 | 19% | 6% | +237% | -67% | 51 min |
 | Copa Del Rey Game | ✘ | 83 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Uruguay Primera Division Game | ✘ | 82 | 0 | 9% | 4% | -100% | -85% | 10 min |
-| Men's ODI Cricket Match | ✘ | 82 | 3 | 20% | 6% | +241% | -66% | 48 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
 | Bundesliga Game | ✔ | 81 | 1 | 17% | 9% | +15% | -70% | 9 min |
 | Tweede Divisie Game | ✘ | 80 | 0 | 1% | 0% | -100% | -98% | 8 min |
@@ -350,17 +350,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-13 09:22 | eSoccer Game | Olympique de Marseille (Mavi) | ✘ | — | — | In play | — |
-| 11-13 09:22 | eSoccer Game | Olympique Lyon (Mordor) | ✘ | — | — | In play | — |
-| 11-13 09:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 09:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 09:33 | eBasketball Game | Denver Nuggets (Davis) | ✘ | — | — | In play | — |
+| 11-13 09:32 | eSoccer Game | FC Bayern (Castle) | ✘ | — | — | In play | — |
+| 11-13 09:32 | eSoccer Game | Paris Saint-Germain (Kylian) | ✘ | — | — | In play | — |
+| 11-13 09:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-13 09:32 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 11-13 09:32 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-13 09:31 | Russia Liga Pro Match | KHomiakov Vladislav | ✘ | — | — | In play | — |
+| 11-13 09:29 | NBL Australia (W) Game | Geelong Venom | ✘ | — | — | In play | — |
+| 11-13 09:29 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | — | In play | — |
+| 11-13 09:25 | Overwatch Game | MURASH GAMING | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:22 | eSoccer Game | Olympique de Marseille (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:22 | eSoccer Game | Olympique Lyon (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 09:20 | Russia Liga Pro Match | Karabanov Egor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:20 | eSoccer Game | Real Madrid (Castle) | ✘ | — | — | In play | — |
-| 11-13 09:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 09:19 | eSoccer Game | Arsenal (Kylian) | ✘ | — | — | In play | — |
-| 11-13 09:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 09:19 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
-| 11-13 09:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-13 09:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-13 09:20 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:19 | eSoccer Game | Arsenal (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:19 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-13 09:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 09:12 | League of Legends Game | DetonatioN FocusMe | ✘ | — | — | In play | — |
 | 11-13 09:09 | eSoccer Game | Paris Saint-Germain (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 09:09 | eSoccer Game | Strasbourg (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -369,17 +380,6 @@
 | 11-13 09:06 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 09:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-13 09:05 | eSoccer Game | Liverpool (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:04 | Russia Liga Pro Match | Surikov Viacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:02 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:02 | eSoccer Game | Real Madrid (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:01 | ITF Men's Match | Kuan-Shou Chen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 09:00 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 08:57 | Russia Liga Pro Match | Gulnitskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 08:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 08:54 | eSoccer Game | OGC Nice (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-13 08:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
