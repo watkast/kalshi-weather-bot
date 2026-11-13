@@ -1,19 +1,18 @@
 {
- "saved_at": "2026-11-13T04:37:50+00:00",
+ "saved_at": "2026-11-13T04:48:16+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 145,
+ "markets_in_or_near_play": 142,
  "batch_lookup": true,
  "espn_games_linked": 30,
  "espn_check": {
-  "at": "2026-11-13T04:07:03+00:00",
-  "started_games": 10,
-  "matched": 8,
+  "at": "2026-11-13T04:38:19+00:00",
+  "started_games": 7,
+  "matched": 6,
   "unmatched_sample": [
-   "KXNCAAMBGAME-26NOV12UCRVSJSU",
-   "KXNCAAMBGAME-26NOV12NMSUUTEP"
+   "KXNCAAMBGAME-26NOV12UCRVSJSU"
   ]
  },
- "bets": 59114,
- "open": 21,
+ "bets": 59124,
+ "open": 22,
  "errors": []
 }
