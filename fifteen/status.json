@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-11-13T10:12:01+00:00",
+ "saved_at": "2026-11-13T10:22:24+00:00",
  "series": 35,
  "markets_watched": 26,
  "batch_lookup": true,
- "bets": 55592,
- "open": 8,
+ "bets": 55606,
+ "open": 3,
  "coinbase_spot": {
   "XRP": true,
   "SOL": true,
