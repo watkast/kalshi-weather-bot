@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Fri Nov 13 21:02 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Fri Nov 13 21:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -12,8 +12,8 @@
 |---|---|---|---|---|---|---|
 | **+5¢** | 58664 | 51188 | 7476 (105) | 0 | $-15825.92 | -4.3% |
 | **+10¢** | 43824 | 35080 | 8744 (139) | 0 | $-14797.38 | -5.4% |
-| **+15¢** | 36726 | 27307 | 9419 (174) | 2 | $-13385.41 | -5.8% |
-| **+20¢** | 32718 | 22830 | 9888 (225) | 2 | $-11771.94 | -5.7% |
+| **+15¢** | 36728 | 27309 | 9419 (174) | 0 | $-13382.66 | -5.8% |
+| **+20¢** | 32720 | 22832 | 9888 (225) | 0 | $-11767.76 | -5.7% |
 | **+10¢ (15¢ stop)** | 71432 | 71298 | 134 (82) | 0 | $-26294.47 | -5.9% |
 
 ## Latest trades
@@ -21,13 +21,13 @@
 | Time (UTC) | Version | Coin | Side | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|
 | 11-13 21:02 | +10 stop | NEAR | DOWN | 0.67 | 0.78 | 0.81 |
-| 11-13 21:02 | +20 | NEAR | DOWN | 0.68 | open |  |
-| 11-13 21:02 | +15 | NEAR | DOWN | 0.68 | open |  |
+| 11-13 21:02 | +20 | NEAR | DOWN | 0.68 | 0.89 | 1.87 |
+| 11-13 21:02 | +15 | NEAR | DOWN | 0.68 | 0.84 | 1.39 |
 | 11-13 21:02 | +10 | NEAR | DOWN | 0.68 | 0.78 | 0.76 |
 | 11-13 21:02 | +5 | NEAR | DOWN | 0.68 | 0.74 | 0.30 |
 | 11-13 21:01 | +10 stop | BTC | DOWN | 0.66 | 0.82 | 1.33 |
-| 11-13 21:01 | +20 | BTC | DOWN | 0.66 | open |  |
-| 11-13 21:01 | +15 | BTC | DOWN | 0.69 | open |  |
+| 11-13 21:01 | +20 | BTC | DOWN | 0.66 | 0.91 | 2.31 |
+| 11-13 21:01 | +15 | BTC | DOWN | 0.69 | 0.85 | 1.36 |
 | 11-13 21:01 | +10 | BTC | DOWN | 0.69 | 0.82 | 1.04 |
 | 11-13 21:01 | +5 | BTC | DOWN | 0.69 | 0.82 | 1.04 |
 | 11-13 21:01 | +10 stop | ETH | DOWN | 0.58 | 0.69 | 0.77 |
