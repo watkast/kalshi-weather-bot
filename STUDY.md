@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 4:10 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 4:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60715 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
+| 60721 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3289 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57403 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57406 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28866 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3594 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 28868 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3595 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2824 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1853 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1803 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -352,10 +352,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 11:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 11:19 | Russia Liga Pro Match | Afanasev Ivan | ✘ | — | — | In play | — |
+| 11-14 11:17 | Russia Liga Pro Match | Dolbilin Stepan | ✘ | — | — | In play | — |
+| 11-14 11:16 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | — | In play | — |
+| 11-14 11:14 | eSoccer Game | Manchester City (Mordor) | ✘ | — | — | In play | — |
+| 11-14 11:11 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-14 11:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 11:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:08 | Women's T20 Match | Mumbai Women | ✘ | — | — | In play | — |
-| 11-14 11:08 | Russia Liga Pro Match | Barannik Aleksandr | ✘ | — | — | In play | — |
-| 11-14 11:05 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-14 11:08 | Russia Liga Pro Match | Barannik Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 11:05 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:03 | Counter-Strike 2 Game | Infinite | ✘ | — | — | In play | — |
 | 11-14 11:01 | ITF Men's Match | Marek Gengel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:00 | Russia Liga Pro Match | Rakhmatov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -376,12 +382,6 @@
 | 11-14 10:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 10:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 10:44 | eSoccer Game | Mönchengladbach (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:42 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:41 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:39 | Valorant game winner | Young Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:36 | Russia Liga Pro Match | Dolbilin Stepan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
