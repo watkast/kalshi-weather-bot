@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 1:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 1:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61330 | 3333 | 13 (0%) | 1.1% | -$317.95 (-64%) | Hold to the end: -$317.95 (-64%) |
+| 61345 | 3334 | 13 (0%) | 1.1% | -$318.10 (-64%) | Hold to the end: -$318.10 (-64%) |
 
-*In play right now: 68. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 783 | 2.7% | 0.1% (1) | -166% | ❌ Worse |
+| ESPN win probability | 784 | 2.7% | 0.1% (1) | -166% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,8 +58,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 783 | 1 | -88% | -70% | -71% | -71% |
-| ESPN win probability ≥ 2% | 152 | 1 | -39% | -61% | -62% | -66% |
+| **Any 1¢ (no model)** | 784 | 1 | -88% | -70% | -71% | -71% |
+| ESPN win probability ≥ 2% | 153 | 1 | -39% | -61% | -63% | -66% |
 | ESPN win probability ≥ 5% | 65 | 1 | +44% | -84% | -84% | -87% |
 | ESPN win probability ≥ 10% | 42 | 1 | +122% | -79% | -75% | -79% |
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3333 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57929 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3334 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 57955 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$317.95 | -64% |
-| Sell at 2¢ | 469 | 14% | -$378.01 | -76% |
-| Sell at 3¢ | 329 | 10% | -$371.64 | -74% |
-| Sell at 5¢ | 223 | 7% | -$355.00 | -71% |
-| Sell at 10¢ | 92 | 3% | -$379.43 | -76% |
-| Sell at 25¢ | 35 | 1% | -$384.10 | -77% |
-| Sell at 50¢ | 23 | 1% | -$344.70 | -69% |
+| Hold to the end | 13 | 0% | -$318.10 | -64% |
+| Sell at 2¢ | 469 | 14% | -$378.16 | -76% |
+| Sell at 3¢ | 329 | 10% | -$371.79 | -74% |
+| Sell at 5¢ | 223 | 7% | -$355.15 | -71% |
+| Sell at 10¢ | 92 | 3% | -$379.58 | -76% |
+| Sell at 25¢ | 35 | 1% | -$384.25 | -77% |
+| Sell at 50¢ | 23 | 1% | -$344.85 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29089 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 29099 | 21 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3645 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2848 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1856 | 8 | 14% | 6% | -60% | -76% | 4 min |
@@ -105,10 +105,10 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1064 | 5 | 11% | 4% | -56% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| Men's College Basketball Game | partly | 560 | 5 | 19% | 7% | -17% | -67% | 28 min |
-| College Football Game | partly | 535 | 3 | 11% | 5% | -48% | -81% | 23 min |
-| Women's College Basketball Game | partly | 535 | 2 | 14% | 4% | -65% | -75% | 38 min |
-| Darts Match | ✘ | 408 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Men's College Basketball Game | partly | 562 | 5 | 19% | 7% | -17% | -67% | 27 min |
+| College Football Game | partly | 542 | 3 | 11% | 6% | -48% | -81% | 23 min |
+| Women's College Basketball Game | partly | 540 | 2 | 14% | 4% | -65% | -75% | 37 min |
+| Darts Match | ✘ | 409 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 390 | 2 | 4% | 2% | -52% | -93% | 56 min |
 | Dota 2 Game | ✘ | 387 | 1 | 1% | 1% | -76% | -98% | 31 min |
 | Serie C Game | ✘ | 361 | 2 | 4% | 2% | -48% | -93% | 8 min |
@@ -132,7 +132,7 @@
 | English National League Game | ✘ | 149 | 1 | 8% | 6% | -37% | -86% | 10 min |
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
 | Brasileiro Serie B Game | ✘ | 148 | 1 | 7% | 3% | -37% | -87% | 11 min |
-| Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
+| Argentine Nacional B Game | ✘ | 144 | 0 | 8% | 6% | -100% | -86% | 8 min |
 | Valorant game winner | ✘ | 131 | 0 | 5% | 3% | -100% | -92% | 11 min |
 | Overwatch Game | ✘ | 131 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | CONCACAF Nations League Game | partly | 130 | 2 | 21% | 8% | +44% | -64% | 20 min |
@@ -338,7 +338,7 @@
 | Under 5 min | 1215 | 4% | 1% | 0% | -93% |
 | 5–15 min | 773 | 16% | 8% | 1% | -72% |
 | 15–30 min | 521 | 24% | 12% | 1% | -58% |
-| 30–60 min | 406 | 21% | 12% | 1% | -64% |
+| 30–60 min | 407 | 21% | 12% | 1% | -64% |
 | Over 60 min | 390 | 22% | 10% | 0% | -61% |
 
 ## Speed & liquidity
@@ -357,36 +357,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 20:05 | College Football Game | Rhode Island | ✘ | — | — | In play | — |
-| 11-14 20:05 | eSoccer Game | Fulham (Luis) | ✘ | — | — | In play | — |
+| 11-14 20:12 | Women's College Basketball Game | Rhode Island | ✘ | — | — | In play | — |
+| 11-14 20:11 | College Football Game | Presbyterian | ✘ | — | — | In play | — |
+| 11-14 20:10 | NHL Game | Seattle | ✔ | 17:29 - 3rd · SEA 1 - CAR 4 | — | In play | — |
+| 11-14 20:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:10 | eSoccer Game | Real Madrid (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | Bundesliga Basketball Game | Baskets Oldenburg | ✘ | — | — | In play | — |
+| 11-14 20:08 | CONCACAF Nations League Game | Sint Maarten | ✔ | 48' · GUF 2 - SMA 1 | — | In play | — |
+| 11-14 20:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | eSoccer Game | Nottingham Forest (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | College Football Game | Duke | ✔ | 6:54 - 4th · DUKE 17 - MIA 29 | — | In play | — |
+| 11-14 20:08 | Men's College Basketball Game | George Mason | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:08 | UEFA Nations League Game | Bosnia and Herzegovina | ✔ | 22' · BIH 0 - SWE 2 | — | In play | — |
+| 11-14 20:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:05 | College Football Game | Rhode Island | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:05 | eSoccer Game | Fulham (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:05 | Women's College Basketball Game | St. Bonaventure | ✘ | — | — | In play | — |
-| 11-14 20:04 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 11-14 20:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 20:04 | College Football Game | Monmouth | ✘ | — | — | In play | — |
-| 11-14 20:02 | Women's College Basketball Game | Kent St. | ✘ | — | — | In play | — |
+| 11-14 20:04 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:04 | College Football Game | Monmouth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:02 | Women's College Basketball Game | Kent St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:02 | College Football Game | Northwestern | ✔ | 6:33 - 4th · NU 13 - OSU 27 | — | In play | — |
-| 11-14 20:02 | College Football Game | Stonehill | ✘ | — | — | In play | — |
-| 11-14 20:01 | Darts Match | Neil Duff | ✘ | — | — | In play | — |
+| 11-14 20:02 | College Football Game | Stonehill | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:01 | Darts Match | Neil Duff | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:01 | College Football Game | Vanderbilt | ✔ | 5:46 - 3rd · ALA 21 - VAN 6 | — | In play | — |
 | 11-14 20:01 | Men's College Basketball Game | St. Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:00 | Argentine Nacional B Game | Atlanta | ✘ | — | — | In play | — |
-| 11-14 20:00 | Argentine Nacional B Game | Estudiantes | ✘ | — | — | In play | — |
-| 11-14 19:59 | Women's College Basketball Game | UNC Greensboro | ✘ | — | — | In play | — |
-| 11-14 19:58 | Men's College Basketball Game | Maine | ✘ | — | — | In play | — |
-| 11-14 19:58 | Darts Match | Cameron Crabtree | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:56 | College Football Game | James Madison | ✔ | 10:05 - 4th · JMU 16 - CONN 33 | — | In play | — |
-| 11-14 19:56 | eSoccer Game | Juventus (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:55 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:53 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:52 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:52 | Slovenia 1. SKL Game | KK Triglav Kranj | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:51 | Croatia Premijer Liga Game | KK Skrljevo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:51 | College Football Game | Columbia | ✘ | — | — | In play | — |
-| 11-14 19:51 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:50 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:50 | College Football Game | Central Connecticut St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:00 | Argentine Nacional B Game | Atlanta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:00 | Argentine Nacional B Game | Estudiantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 19:59 | Women's College Basketball Game | UNC Greensboro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
