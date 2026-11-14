@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 3:29 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 3:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60675 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
+| 60686 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3289 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57366 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57367 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 28850 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3588 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| Russia Liga Pro Match | ✘ | 3589 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2820 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1853 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1800 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -352,6 +352,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-14 10:36 | Russia Liga Pro Match | Dolbilin Stepan | ✘ | — | — | In play | — |
+| 11-14 10:34 | Russia VTB United Game | Enisey Krasnoyarsk | ✘ | — | — | In play | — |
+| 11-14 10:32 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | — | In play | — |
+| 11-14 10:32 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
+| 11-14 10:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 10:32 | eSoccer Game | FC Bayern (Kevin) | ✘ | — | — | In play | — |
+| 11-14 10:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 10:31 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | — | In play | — |
+| 11-14 10:30 | Counter-Strike 2 Game | STATE | ✘ | — | — | In play | — |
+| 11-14 10:30 | eBasketball Game | Indiana Pacers (Devin) | ✘ | — | — | In play | — |
+| 11-14 10:29 | Russia Liga Pro Match | Kariukhin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 10:27 | EuroBasket (W) Game | Azerbaijan | ✘ | — | — | In play | — |
 | 11-14 10:25 | Men's T20 Cricket Match | Rocks | ✘ | — | — | In play | — |
 | 11-14 10:21 | Russia Liga Pro Match | Rakhmatov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -371,17 +382,6 @@
 | 11-14 10:03 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 10:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 10:02 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:01 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:01 | eSoccer Game | Paris Saint-Germain (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:01 | eSoccer Game | Benfica (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:01 | Russia Liga Pro Match | Chechulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:00 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 10:00 | eBasketball Game | Indiana Pacers (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 09:59 | Russia Liga Pro Match | Mikhailov Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 09:58 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 09:57 | Russia Liga Pro Match | Pishchuk Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 09:51 | Counter-Strike 2 Game | MOUZ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
