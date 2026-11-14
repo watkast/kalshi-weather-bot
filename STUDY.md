@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 5:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 5:43 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60791 | 3291 | 13 (0%) | 1.1% | -$311.65 (-63%) | Hold to the end: -$311.65 (-63%) |
+| 60801 | 3291 | 13 (0%) | 1.1% | -$311.65 (-63%) | Hold to the end: -$311.65 (-63%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3291 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57478 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57486 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28916 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 28922 | 21 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3604 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2828 | 5 | 3% | 1% | -83% | -92% | 3 min |
-| ITF Women's Match | ✘ | 1853 | 8 | 14% | 6% | -60% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1855 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1803 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1642 | 3 | 6% | 3% | -83% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -352,11 +352,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 12:30 | eSoccer Game | Hoffenheim (Castle) | ✘ | — | — | In play | — |
-| 11-14 12:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 12:29 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 11-14 12:29 | ITF Women's Match | Sandra Samir | ✘ | — | — | In play | — |
-| 11-14 12:28 | ITF Women's Match | Anais Gabriel | ✘ | — | — | In play | — |
+| 11-14 12:42 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | — | In play | — |
+| 11-14 12:41 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | — | In play | — |
+| 11-14 12:39 | Counter-Strike 2 Game | GenOne | ✘ | — | — | In play | — |
+| 11-14 12:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 12:36 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | — | In play | — |
+| 11-14 12:35 | eSoccer Game | Werder Bremen (Kevin) | ✘ | — | — | In play | — |
+| 11-14 12:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 12:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:33 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:30 | eSoccer Game | Hoffenheim (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:29 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:29 | ITF Women's Match | Sandra Samir | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
+| 11-14 12:28 | ITF Women's Match | Anais Gabriel | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-14 12:24 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:23 | eBasketball Game | New York Knicks (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -372,16 +382,6 @@
 | 11-14 12:12 | Turkey BSL Game | Turk Telekom | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:08 | eSoccer Game | Freiburg (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:07 | International Friendly Game | Brazil | ✔ | 90'+1' · BRA 2 - JPN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:06 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:02 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:01 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:56 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
