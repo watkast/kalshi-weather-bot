@@ -1,13 +1,13 @@
 {
- "saved_at": "2026-11-14T21:08:41+00:00",
+ "saved_at": "2026-11-14T21:11:37+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 631,
+ "markets_in_or_near_play": 562,
  "batch_lookup": true,
- "espn_games_linked": 90,
+ "espn_games_linked": 92,
  "espn_check": {
-  "at": "2026-11-14T20:38:03+00:00",
-  "started_games": 147,
-  "matched": 61,
+  "at": "2026-11-14T21:09:46+00:00",
+  "started_games": 130,
+  "matched": 56,
   "unmatched_sample": [
    "KXNCAAWBGAME-26NOV14NEVUVU",
    "KXNCAAWBGAME-26NOV14USTARMY",
@@ -21,7 +21,7 @@
    "KXNCAAWBGAME-26NOV14CALUCSB"
   ]
  },
- "bets": 61464,
- "open": 74,
+ "bets": 61469,
+ "open": 72,
  "errors": []
 }
