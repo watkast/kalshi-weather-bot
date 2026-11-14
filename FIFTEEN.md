@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Nov 14, 1:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Nov 14, 1:28 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4329 finished bets | 1% | $177.10 | +37% | +4.09¢ | $77.80 / $99.30 |
 
-*Expect about **92 buys a day** (~$13.80/day at risk); max loss per buy **15¢**.*
+*Expect about **92 buys a day** (~$13.79/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56785 | 56764 | 216 (0%) | 1.07% | -$3,899.10 (-56%) | Hold to the close: -$3,899.10 (-56%) |
+| 56786 | 56764 | 216 (0%) | 1.07% | -$3,899.10 (-56%) | Hold to the close: -$3,899.10 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/14 1:28:15 AM | SOL | DOWN | 1.7 min | +0.190% | — | In play | — |
 | 11/14 1:14:39 AM | HYPE | UP | 21 sec | -0.081% | 0¢ | ❌ Lost | $0.00 |
 | 11/14 1:14:39 AM | NEAR | UP | 21 sec | -0.163% | 0¢ | ❌ Lost | $0.00 |
 | 11/14 1:14:22 AM | BNB | DOWN | 37 sec | +0.008% | 0¢ | ❌ Lost | $0.00 |
@@ -218,7 +219,6 @@
 | 11/14 12:29:30 AM | ZEC | DOWN | 30 sec | +0.073% | 0¢ | ❌ Lost | -$0.15 |
 | 11/14 12:29:14 AM | HYPE | UP | 46 sec | -0.192% | 1¢ | ❌ Lost | -$0.15 |
 | 11/14 12:28:59 AM | SOL | UP | 60 sec | -0.147% | 1¢ | ❌ Lost | $0.00 |
-| 11/14 12:28:27 AM | BTC | UP | 1.5 min | -0.258% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
