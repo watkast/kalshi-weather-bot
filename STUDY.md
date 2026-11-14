@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 1:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 1:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 65 finished bets | 2% | $4.25 | +44% | +6.54¢ | $9.20 / -$4.95 |
 
-*Expect about **2 buys a day**, roughly **$0.23/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.24/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61345 | 3334 | 13 (0%) | 1.1% | -$318.10 (-64%) | Hold to the end: -$318.10 (-64%) |
+| 61364 | 3334 | 13 (0%) | 1.1% | -$318.10 (-64%) | Hold to the end: -$318.10 (-64%) |
 
-*In play right now: 56. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3334 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57955 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57967 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29099 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3645 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2848 | 5 | 3% | 1% | -84% | -92% | 3 min |
+| eSoccer Game | ✘ | 29103 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3646 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2849 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1856 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1809 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1657 | 3 | 6% | 3% | -83% | -90% | 11 min |
@@ -106,8 +106,8 @@
 | Challenger ATP  | ✘ | 1064 | 5 | 11% | 4% | -56% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Men's College Basketball Game | partly | 562 | 5 | 19% | 7% | -17% | -67% | 27 min |
-| College Football Game | partly | 542 | 3 | 11% | 6% | -48% | -81% | 23 min |
-| Women's College Basketball Game | partly | 540 | 2 | 14% | 4% | -65% | -75% | 37 min |
+| College Football Game | partly | 543 | 3 | 11% | 6% | -48% | -81% | 23 min |
+| Women's College Basketball Game | partly | 541 | 2 | 14% | 4% | -65% | -75% | 37 min |
 | Darts Match | ✘ | 409 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 390 | 2 | 4% | 2% | -52% | -93% | 56 min |
 | Dota 2 Game | ✘ | 387 | 1 | 1% | 1% | -76% | -98% | 31 min |
@@ -303,6 +303,7 @@
 | CONMEBOL Libertadores Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
 | Portugal LPB Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 8 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
+| Coupe de France Game | ✘ | 6 | 0 | 17% | 17% | -100% | -71% | 202 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Bulgaria First League Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 46 min |
@@ -326,7 +327,6 @@
 | UEFA Women Europa Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Argentina Super Cup Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 16 min |
 | Australia A League Women Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
-| Coupe de France Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 159 min |
 | Scottish Women Premier League Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 7 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -357,8 +357,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-14 20:25 | Men's College Basketball Game | Colorado St. | ✘ | — | — | In play | — |
+| 11-14 20:24 | eSoccer Game | FC Bayern (Ryft) | ✘ | — | — | In play | — |
+| 11-14 20:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 20:23 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | — | In play | — |
+| 11-14 20:23 | College Football Game | NC St. | ✔ | 0:12 - 4th · SYR 34 - NCSU 31 | — | In play | — |
+| 11-14 20:22 | Poland PLK Game | Basket Zielona Gora | ✘ | — | — | In play | — |
+| 11-14 20:21 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
+| 11-14 20:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 20:21 | eSoccer Game | Crystal Palace (Pedri) | ✘ | — | — | In play | — |
+| 11-14 20:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 20:21 | AFCON Game Winner | South Sudan | ✘ | — | — | In play | — |
+| 11-14 20:21 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:20 | Russia Liga Pro Match | Lobanov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:20 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:19 | Eerste Divisie Game | Den Bosch | ✘ | — | — | In play | — |
+| 11-14 20:19 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 20:16 | College Football Game | Norfolk St. | ✘ | — | — | In play | — |
 | 11-14 20:12 | Women's College Basketball Game | Rhode Island | ✘ | — | — | In play | — |
-| 11-14 20:11 | College Football Game | Presbyterian | ✘ | — | — | In play | — |
+| 11-14 20:11 | College Football Game | Presbyterian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:10 | NHL Game | Seattle | ✔ | 17:29 - 3rd · SEA 1 - CAR 4 | — | In play | — |
 | 11-14 20:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:10 | eSoccer Game | Real Madrid (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -368,25 +387,6 @@
 | 11-14 20:08 | eSoccer Game | Nottingham Forest (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 20:08 | College Football Game | Duke | ✔ | 6:54 - 4th · DUKE 17 - MIA 29 | — | In play | — |
 | 11-14 20:08 | Men's College Basketball Game | George Mason | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:08 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:08 | UEFA Nations League Game | Bosnia and Herzegovina | ✔ | 22' · BIH 0 - SWE 2 | — | In play | — |
-| 11-14 20:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:05 | College Football Game | Rhode Island | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:05 | eSoccer Game | Fulham (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:05 | Women's College Basketball Game | St. Bonaventure | ✘ | — | — | In play | — |
-| 11-14 20:04 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:04 | College Football Game | Monmouth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:02 | Women's College Basketball Game | Kent St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:02 | College Football Game | Northwestern | ✔ | 6:33 - 4th · NU 13 - OSU 27 | — | In play | — |
-| 11-14 20:02 | College Football Game | Stonehill | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:01 | Darts Match | Neil Duff | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:01 | College Football Game | Vanderbilt | ✔ | 5:46 - 3rd · ALA 21 - VAN 6 | — | In play | — |
-| 11-14 20:01 | Men's College Basketball Game | St. Thomas | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:00 | Argentine Nacional B Game | Atlanta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 20:00 | Argentine Nacional B Game | Estudiantes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 19:59 | Women's College Basketball Game | UNC Greensboro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
