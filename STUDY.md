@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 9:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 9:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60977 | 3294 | 13 (0%) | 1.1% | -$312.10 (-63%) | Hold to the end: -$312.10 (-63%) |
+| 61014 | 3294 | 13 (0%) | 1.1% | -$312.10 (-63%) | Hold to the end: -$312.10 (-63%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 86. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3294 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57629 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57634 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28981 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 28983 | 21 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3617 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2836 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1856 | 8 | 14% | 6% | -60% | -76% | 4 min |
@@ -174,7 +174,7 @@
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
 | Uruguay Primera Division Game | ✘ | 84 | 0 | 10% | 5% | -100% | -83% | 10 min |
-| SHL Game | ✘ | 81 | 0 | 4% | 2% | -100% | -94% | 6 min |
+| SHL Game | ✘ | 82 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
 | Bundesliga Game | ✔ | 81 | 1 | 17% | 9% | +15% | -70% | 9 min |
 | Italy Serie A2 Game | ✘ | 80 | 1 | 2% | 1% | +17% | -96% | 5 min |
@@ -324,6 +324,7 @@
 | Argentina Super Cup Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 16 min |
 | Australia A League Women Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Scottish Women Premier League Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 7 min |
+| Scottish Championship Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 
@@ -353,36 +354,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 16:46 | EFL League Two Game | Oldham | ✔ | 88' · OLD 0 - SHR 2 | — | In play | — |
-| 11-14 16:45 | English National League Game | Tamworth | ✘ | — | — | In play | — |
-| 11-14 16:45 | EFL League One Game | Blackpool | ✔ | 88' · BLP 0 - WIM 1 | — | In play | — |
-| 11-14 16:44 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
-| 11-14 16:44 | EFL League One Game | Barnsley | ✔ | 87' · BAR 1 - WGA 2 | — | In play | — |
-| 11-14 16:44 | English National League Game | Wealdstone | ✘ | — | — | In play | — |
-| 11-14 16:44 | English National League Game | Eastleigh | ✘ | — | — | In play | — |
-| 11-14 16:44 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:42 | EFL League Two Game | Gillingham | ✔ | 79' · GIL 0 - COL 2 | — | In play | — |
-| 11-14 16:41 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:41 | eSoccer Game | Freiburg (SilentShooter) | ✘ | — | — | In play | — |
-| 11-14 16:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:40 | International Friendly Game | Palestine | ✔ | 77' · IRN 0 - PLE 0 | — | In play | — |
-| 11-14 16:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:40 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:39 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:39 | EFL League One Game | Tie | ✔ | 79' · REA 1 - STO 3 | — | In play | — |
-| 11-14 16:38 | EFL League One Game | Tie | ✔ | 81' · PLY 0 - SHW 2 | — | In play | — |
-| 11-14 16:38 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:38 | eSoccer Game | Sunderland (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:38 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:38 | eBasketball Game | Golden State Warriors (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:37 | EFL League One Game | Plymouth | ✔ | 81' · PLY 0 - SHW 2 | — | In play | — |
-| 11-14 16:36 | Finland Korisliiga Game | KTP Basket Kotka | ✘ | — | — | In play | — |
-| 11-14 16:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:34 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:33 | eSoccer Game | Manchester City (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:33 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
-| 11-14 16:32 | English National League Game | Gateshead | ✘ | — | — | In play | — |
+| 11-14 16:56 | French Women's Première Ligue Game | Saint Malo | ✘ | — | — | In play | — |
+| 11-14 16:56 | EFL League Two Game | Tie | ✔ | 90'+3' · GIL 0 - COL 2 | — | In play | — |
+| 11-14 16:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:55 | English National League Game | Halifax | ✘ | — | — | In play | — |
+| 11-14 16:55 | English National League Game | Hartlepool | ✘ | — | — | In play | — |
+| 11-14 16:55 | English National League Game | Kidderminster | ✘ | — | — | In play | — |
+| 11-14 16:55 | English National League Game | Yeovil | ✘ | — | — | In play | — |
+| 11-14 16:54 | English National League Game | Worthing | ✘ | — | — | In play | — |
+| 11-14 16:54 | eSoccer Game | Everton (Declan) | ✘ | — | — | In play | — |
+| 11-14 16:54 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 11-14 16:54 | English National League Game | Boreham | ✘ | — | — | In play | — |
+| 11-14 16:53 | EFL League Two Game | Tie | ✔ | 90'+6' · OLD 1 - SHR 2 | — | In play | — |
+| 11-14 16:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:53 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | — | In play | — |
+| 11-14 16:52 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:52 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | — | In play | — |
+| 11-14 16:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:52 | EFL League Two Game | Rochdale | ✔ | 90'+3' · YORK 1 - RCH 0 | — | In play | — |
+| 11-14 16:52 | EFL League Two Game | Tie | ✔ | 90'+4' · ACC 2 - PTV 4 | — | In play | — |
+| 11-14 16:51 | EFL League Two Game | Northampton | ✔ | 90'+3' · NHT 1 - SAL 1 | — | In play | — |
+| 11-14 16:51 | EFL League Two Game | Salford | ✔ | 90'+3' · NHT 1 - SAL 1 | — | In play | — |
+| 11-14 16:51 | EFL League Two Game | Newport | ✔ | 90'+3' · NEW 2 - CAX 2 | — | In play | — |
+| 11-14 16:51 | EFL League One Game | Tie | ✔ | 90'+4' · BLP 0 - WIM 1 | — | In play | — |
+| 11-14 16:51 | EFL League One Game | Tie | ✔ | 90'+4' · BAR 1 - WGA 2 | — | In play | — |
+| 11-14 16:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:50 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 11-14 16:50 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:50 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:50 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:49 | England Women's Super League Game | Everton | ✘ | — | — | In play | — |
 
 ## Raw data
 
