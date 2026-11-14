@@ -1,27 +1,27 @@
 {
- "saved_at": "2026-11-14T18:00:01+00:00",
+ "saved_at": "2026-11-14T18:10:28+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 460,
+ "markets_in_or_near_play": 552,
  "batch_lookup": true,
- "espn_games_linked": 29,
+ "espn_games_linked": 30,
  "espn_check": {
-  "at": "2026-11-14T17:29:26+00:00",
-  "started_games": 37,
-  "matched": 11,
+  "at": "2026-11-14T18:00:47+00:00",
+  "started_games": 67,
+  "matched": 15,
   "unmatched_sample": [
-   "KXNCAAWBGAME-26NOV14MVSUTNST",
-   "KXNCAAWBGAME-26NOV14CHSOPITT",
-   "KXNCAAWBGAME-26NOV14MSSTBUFF",
-   "KXNCAAWBGAME-26NOV14PROVBC",
-   "KXNCAAWBGAME-26NOV14RIDYALE",
-   "KXNCAAWBGAME-26NOV14WOFGASO",
-   "KXNCAAMBGAME-26NOV14TULNAKR",
-   "KXNCAAMBGAME-26NOV14UNCGCOR",
    "KXNCAAFGAME-26NOV14CITVMI",
-   "KXNCAAFGAME-26NOV14CCSULIU"
+   "KXNCAAFGAME-26NOV14CCSULIU",
+   "KXNCAAFGAME-26NOV14NCCUSCST",
+   "KXNCAAFGAME-26NOV14ETSUWOF",
+   "KXNCAAFGAME-26NOV14GRAMCOOK",
+   "KXNCAAFGAME-26NOV14CHATFUR",
+   "KXNCAAFGAME-26NOV14VALPSTET",
+   "KXNCAAFGAME-26NOV14LAFCOLG",
+   "KXNCAAFGAME-26NOV14BUCKWM",
+   "KXNCAAFGAME-26NOV14STONUNH"
   ]
  },
- "bets": 61103,
- "open": 45,
+ "bets": 61118,
+ "open": 47,
  "errors": []
 }
