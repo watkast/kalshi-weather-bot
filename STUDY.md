@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 12:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 12:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60489 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
+| 60501 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3289 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57181 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57192 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28726 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3565 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2806 | 5 | 3% | 1% | -83% | -92% | 3 min |
+| eSoccer Game | ✘ | 28732 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3566 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2807 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1853 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1797 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1636 | 3 | 6% | 3% | -83% | -90% | 11 min |
@@ -134,8 +134,8 @@
 | Argentine Nacional B Game | ✘ | 142 | 0 | 8% | 6% | -100% | -85% | 8 min |
 | Overwatch Game | ✘ | 131 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | CONCACAF Nations League Game | partly | 130 | 2 | 21% | 8% | +44% | -64% | 20 min |
+| Valorant game winner | ✘ | 128 | 0 | 5% | 3% | -100% | -92% | 11 min |
 | English National League Game | ✘ | 128 | 1 | 9% | 7% | -27% | -84% | 10 min |
-| Valorant game winner | ✘ | 127 | 0 | 5% | 3% | -100% | -92% | 12 min |
 | R6 Game | ✘ | 120 | 1 | 10% | 4% | -22% | -83% | 8 min |
 | Brasileiro Serie A Game | partly | 120 | 1 | 11% | 7% | -22% | -81% | 9 min |
 | Japan J League Game | ✘ | 119 | 1 | 16% | 7% | -22% | -72% | 12 min |
@@ -149,8 +149,8 @@
 | UEFA Champions League Game | partly | 109 | 1 | 11% | 5% | -14% | -81% | 10 min |
 | Liga MX Game | ✔ | 108 | 0 | 14% | 8% | -100% | -76% | 7 min |
 | Liiga Game | ✘ | 108 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Japan B League Game | ✘ | 107 | 0 | 7% | 1% | -100% | -87% | 12 min |
 | Peru Liga 1 Game | ✘ | 106 | 0 | 17% | 8% | -100% | -71% | 14 min |
-| Japan B League Game | ✘ | 106 | 0 | 8% | 1% | -100% | -87% | 12 min |
 | Eerste Divisie Game | ✘ | 105 | 0 | 9% | 5% | -100% | -85% | 12 min |
 | EuroCup Basketball Game | ✘ | 104 | 0 | 5% | 4% | -100% | -92% | 11 min |
 | Liga Expansion Game | ✘ | 99 | 0 | 6% | 3% | -100% | -89% | 13 min |
@@ -231,11 +231,11 @@
 | Sweden SBL Game | ✘ | 47 | 0 | 4% | 4% | -100% | -93% | 14 min |
 | Czech NBL Game | ✘ | 47 | 0 | 2% | 0% | -100% | -96% | 16 min |
 | Croatia HNL Game | ✘ | 47 | 0 | 9% | 4% | -100% | -85% | 11 min |
+| Korea KBL Game | ✘ | 47 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Qatar Stars League | ✘ | 47 | 0 | 11% | 4% | -100% | -82% | 10 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
 | Bundesliga Basketball Game | ✘ | 46 | 0 | 9% | 4% | -100% | -85% | 13 min |
 | Italy Serie A Game | ✘ | 46 | 0 | 4% | 2% | -100% | -92% | 6 min |
-| Korea KBL Game | ✘ | 46 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Latvian Virsliga Game | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 22 min |
 | Slovenian Prva Liga Game | ✘ | 45 | 0 | 9% | 2% | -100% | -85% | 12 min |
 | Swiss Super League Game | ✘ | 45 | 1 | 4% | 2% | +107% | -92% | 7 min |
@@ -351,9 +351,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 07:11 | Russia Liga Pro Match | Kovalev Igor | ✘ | — | — | In play | — |
-| 11-14 07:08 | Korea KBL Game | LG Sakers | ✘ | — | — | In play | — |
-| 11-14 07:07 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
+| 11-14 07:18 | Valorant game winner | LNG Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 07:16 | eSoccer Game | Rennes (Strudl) | ✘ | — | — | In play | — |
+| 11-14 07:16 | eSoccer Game | Sevilla FC (Kevin) | ✘ | — | — | In play | — |
+| 11-14 07:16 | eSoccer Game | Real Madrid (Vini) | ✘ | — | — | In play | — |
+| 11-14 07:14 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:14 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | — | In play | — |
+| 11-14 07:12 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:12 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:12 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:11 | Russia Liga Pro Match | Kovalev Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:08 | Korea KBL Game | LG Sakers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 07:07 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-14 07:07 | ITF Men's Match | Noritaka Koizumi | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-14 07:05 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 07:03 | Korea KBL Game | Seoul SK Knights | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -361,7 +373,7 @@
 | 11-14 07:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 07:03 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 07:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 07:03 | Japan B League Game | Altiri Chiba | ✘ | — | — | In play | — |
+| 11-14 07:03 | Japan B League Game | Altiri Chiba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 07:03 | Men's T20 Cricket Match | Maharashtra | ✘ | — | — | In play | — |
 | 11-14 07:03 | Men's T20 Cricket Match | Baroda | ✘ | — | — | In play | — |
 | 11-14 07:03 | Men's T20 Cricket Match | Arunachal Pradesh | ✘ | — | — | In play | — |
@@ -369,18 +381,6 @@
 | 11-14 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 05:41 | eBasketball Game | Dallas Mavericks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 05:40 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:40 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:40 | Men's College Basketball Game | Portland | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-14 05:39 | Russia Liga Pro Match | Voronkov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:37 | Japan J2 League Game | Oita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:36 | College Football Game | Illinois | ✔ | 0:47 - 4th · ILL 14 - UCLA 22 | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:31 | Russia Liga Pro Match | Moshkov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:31 | eSoccer Game | Newcastle Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:30 | eSoccer Game | Valencia CF (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:28 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
