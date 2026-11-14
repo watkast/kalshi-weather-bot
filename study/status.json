@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-14T17:38:59+00:00",
+ "saved_at": "2026-11-14T17:49:29+00:00",
  "series_watched": 419,
  "markets_in_or_near_play": 460,
  "batch_lookup": true,
- "espn_games_linked": 28,
+ "espn_games_linked": 29,
  "espn_check": {
   "at": "2026-11-14T17:29:26+00:00",
   "started_games": 37,
@@ -21,7 +21,7 @@
    "KXNCAAFGAME-26NOV14CCSULIU"
   ]
  },
- "bets": 61080,
- "open": 44,
+ "bets": 61091,
+ "open": 43,
  "errors": []
 }
