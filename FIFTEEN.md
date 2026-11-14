@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 13, 9:32 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 13, 9:43 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 56686 | 56665 | 216 (0%) | 1.07% | -$3,889.50 (-56%) | Hold to the close: -$3,889.50 (-56%) |
+| 56689 | 56665 | 216 (0%) | 1.07% | -$3,889.50 (-56%) | Hold to the close: -$3,889.50 (-56%) |
 
-*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 12. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/13 9:42:06 PM | BNB | DOWN | 2.9 min | +0.285% | — | In play | — |
+| 11/13 9:41:33 PM | BTC | DOWN | 3.5 min | +0.433% | — | In play | — |
+| 11/13 9:40:46 PM | HYPE | DOWN | 4.2 min | +0.761% | — | In play | — |
 | 11/13 9:29:51 PM | NATGAS | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 9:29:02 PM | HYPE | DOWN | 58 sec | +0.249% | 2¢ | ❌ Lost | -$0.15 |
 | 11/13 9:28:47 PM | BRENT | DOWN | 72 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/13 8:59:16 PM | SOL | UP | 43 sec | -0.259% | 0¢ | ❌ Lost | $0.00 |
 | 11/13 8:59:01 PM | BRENT | UP | 59 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/13 8:58:45 PM | BTC | UP | 75 sec | -0.210% | 0¢ | ❌ Lost | -$0.15 |
-| 11/13 8:58:45 PM | ETH | UP | 75 sec | -0.193% | 1¢ | ❌ Lost | -$0.15 |
-| 11/13 8:58:29 PM | HYPE | UP | 1.5 min | -0.609% | 1¢ | ❌ Lost | -$0.15 |
-| 11/13 8:58:12 PM | WTI | UP | 1.8 min | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
