@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sat Nov 14 08:36 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sat Nov 14 08:46 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -12,8 +12,8 @@
 |---|---|---|---|---|---|---|
 | **+5¢** | 59223 | 51673 | 7550 (107) | 0 | $-16001.30 | -4.3% |
 | **+10¢** | 44244 | 35409 | 8835 (140) | 0 | $-15021.20 | -5.4% |
-| **+15¢** | 37073 | 27546 | 9527 (176) | 1 | $-13663.91 | -5.9% |
-| **+20¢** | 33024 | 23022 | 10002 (228) | 1 | $-12060.61 | -5.8% |
+| **+15¢** | 37074 | 27547 | 9527 (176) | 0 | $-13662.55 | -5.9% |
+| **+20¢** | 33025 | 23023 | 10002 (228) | 0 | $-12058.83 | -5.8% |
 | **+10¢ (15¢ stop)** | 72072 | 71930 | 142 (82) | 0 | $-26506.26 | -5.9% |
 
 ## Latest trades
@@ -31,8 +31,8 @@
 | 11-14 08:30 | +10 | BTC | DOWN | 0.68 | 0.80 | 0.92 |
 | 11-14 08:30 | +5 | BTC | DOWN | 0.68 | 0.76 | 0.51 |
 | 11-14 08:30 | +10 stop | NEAR | DOWN | 0.69 | 0.80 | 0.83 |
-| 11-14 08:30 | +20 | NEAR | DOWN | 0.69 | open |  |
-| 11-14 08:30 | +15 | NEAR | DOWN | 0.69 | open |  |
+| 11-14 08:30 | +20 | NEAR | DOWN | 0.69 | 0.89 | 1.78 |
+| 11-14 08:30 | +15 | NEAR | DOWN | 0.69 | 0.85 | 1.36 |
 | 11-14 08:30 | +10 | NEAR | DOWN | 0.69 | 0.80 | 0.83 |
 | 11-14 08:30 | +5 | NEAR | DOWN | 0.69 | 0.74 | 0.21 |
 | 11-14 08:27 | +10 stop | BNB | UP | 0.61 | 0.82 | 1.82 |
