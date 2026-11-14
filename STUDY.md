@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 5:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 5:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60774 | 3289 | 13 (0%) | 1.1% | -$311.35 (-63%) | Hold to the end: -$311.35 (-63%) |
+| 60782 | 3291 | 13 (0%) | 1.1% | -$311.65 (-63%) | Hold to the end: -$311.65 (-63%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3289 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57457 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3291 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 57466 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$311.35 | -63% |
-| Sell at 2¢ | 465 | 14% | -$372.45 | -75% |
-| Sell at 3¢ | 325 | 10% | -$366.60 | -74% |
-| Sell at 5¢ | 220 | 7% | -$350.35 | -71% |
-| Sell at 10¢ | 92 | 3% | -$372.83 | -76% |
-| Sell at 25¢ | 35 | 1% | -$377.50 | -77% |
-| Sell at 50¢ | 23 | 1% | -$338.10 | -69% |
+| Hold to the end | 13 | 0% | -$311.65 | -63% |
+| Sell at 2¢ | 465 | 14% | -$372.75 | -76% |
+| Sell at 3¢ | 325 | 10% | -$366.90 | -74% |
+| Sell at 5¢ | 220 | 7% | -$350.65 | -71% |
+| Sell at 10¢ | 92 | 3% | -$373.13 | -76% |
+| Sell at 25¢ | 35 | 1% | -$377.80 | -77% |
+| Sell at 50¢ | 23 | 1% | -$338.40 | -69% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28902 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3602 | 0 | 1% | 0% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 28910 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3603 | 0 | 1% | 0% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2826 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1853 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1803 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -190,9 +190,9 @@
 | Saudi Pro League Game | ✘ | 76 | 2 | 18% | 12% | +146% | -68% | 13 min |
 | Eredivisie Game | ✔ | 76 | 0 | 9% | 7% | -100% | -84% | 5 min |
 | Ecuador Liga Pro Game | ✘ | 76 | 0 | 7% | 1% | -100% | -89% | 12 min |
+| International Friendly Game | partly | 75 | 1 | 16% | 7% | +24% | -72% | 14 min |
 | Czech First League Game | ✘ | 75 | 0 | 8% | 0% | -100% | -86% | 12 min |
 | Bolivia Premier Division Game | ✘ | 74 | 0 | 8% | 1% | -100% | -86% | 11 min |
-| International Friendly Game | partly | 73 | 1 | 16% | 7% | +28% | -72% | 15 min |
 | LNB Elite 2 Game | ✘ | 73 | 0 | 1% | 0% | -100% | -98% | 6 min |
 | Bundesliga 2 Game | ✔ | 73 | 0 | 15% | 7% | -100% | -74% | 8 min |
 | AFC Champions League Game | ✘ | 72 | 0 | 6% | 1% | -100% | -90% | 12 min |
@@ -330,8 +330,8 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1200 | 4% | 1% | 0% | -93% |
-| 5–15 min | 761 | 16% | 8% | 1% | -72% |
+| Under 5 min | 1201 | 4% | 1% | 0% | -93% |
+| 5–15 min | 762 | 16% | 8% | 1% | -72% |
 | 15–30 min | 515 | 24% | 12% | 1% | -58% |
 | 30–60 min | 399 | 21% | 12% | 1% | -64% |
 | Over 60 min | 386 | 23% | 10% | 0% | -61% |
@@ -352,18 +352,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-14 12:21 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | — | In play | — |
+| 11-14 12:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 12:16 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-14 12:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 12:16 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-14 12:15 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
+| 11-14 12:12 | Russia Liga Pro Match | Rakhmatov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:12 | International Friendly Game | Tie | ✔ | 90'+6' · BRA 2 - JPN 3 | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:12 | Turkey BSL Game | Turk Telekom | ✘ | — | — | In play | — |
-| 11-14 12:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | — | In play | — |
-| 11-14 12:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 12:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 12:08 | eSoccer Game | Freiburg (Vini) | ✘ | — | — | In play | — |
-| 11-14 12:07 | International Friendly Game | Brazil | ✔ | 90'+1' · BRA 2 - JPN 2 | — | In play | — |
-| 11-14 12:06 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | — | In play | — |
-| 11-14 12:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 12:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 12:10 | eSoccer Game | Arsenal (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:08 | eSoccer Game | Freiburg (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:07 | International Friendly Game | Brazil | ✔ | 90'+1' · BRA 2 - JPN 2 | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:06 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:02 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 12:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 12:01 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-14 12:01 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:56 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:56 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -374,14 +382,6 @@
 | 11-14 11:52 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:52 | eSoccer Game | RB Leipzig (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 11:51 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:48 | Mobile Legends Bang Bang Game | TNR Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:47 | eSoccer Game | England (Lucy) | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 11-14 11:47 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:42 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 11:39 | eSoccer Game | RB Leipzig (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
