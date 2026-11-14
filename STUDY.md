@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 9:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 9:46 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60951 | 3294 | 13 (0%) | 1.1% | -$312.10 (-63%) | Hold to the end: -$312.10 (-63%) |
+| 60977 | 3294 | 13 (0%) | 1.1% | -$312.10 (-63%) | Hold to the end: -$312.10 (-63%) |
 
-*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3294 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 57614 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 57629 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28973 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3615 | 0 | 1% | 0% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2834 | 5 | 3% | 1% | -84% | -92% | 3 min |
+| eSoccer Game | ✘ | 28981 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3617 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2836 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1856 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1804 | 4 | 14% | 6% | -79% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1645 | 3 | 6% | 3% | -83% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1646 | 3 | 6% | 3% | -83% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1062 | 5 | 11% | 4% | -56% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -110,7 +110,7 @@
 | Women's College Basketball Game | partly | 524 | 2 | 15% | 5% | -64% | -75% | 37 min |
 | Darts Match | ✘ | 406 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 390 | 2 | 4% | 2% | -52% | -93% | 56 min |
-| Dota 2 Game | ✘ | 386 | 1 | 1% | 1% | -76% | -98% | 31 min |
+| Dota 2 Game | ✘ | 387 | 1 | 1% | 1% | -76% | -98% | 31 min |
 | Men's T20 Cricket Match | ✘ | 354 | 2 | 16% | 7% | -47% | -73% | 24 min |
 | Serie C Game | ✘ | 353 | 2 | 4% | 2% | -47% | -93% | 8 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
@@ -174,9 +174,9 @@
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
 | Uruguay Primera Division Game | ✘ | 84 | 0 | 10% | 5% | -100% | -83% | 10 min |
+| SHL Game | ✘ | 81 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
 | Bundesliga Game | ✔ | 81 | 1 | 17% | 9% | +15% | -70% | 9 min |
-| SHL Game | ✘ | 80 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | Italy Serie A2 Game | ✘ | 80 | 1 | 2% | 1% | +17% | -96% | 5 min |
 | Korea K-League 2 Game | ✘ | 80 | 0 | 11% | 6% | -100% | -80% | 9 min |
 | Ligue 1 Game | ✔ | 80 | 0 | 15% | 6% | -100% | -74% | 9 min |
@@ -353,36 +353,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 16:34 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
-| 11-14 16:33 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
-| 11-14 16:33 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | — | In play | — |
+| 11-14 16:46 | EFL League Two Game | Oldham | ✔ | 88' · OLD 0 - SHR 2 | — | In play | — |
+| 11-14 16:45 | English National League Game | Tamworth | ✘ | — | — | In play | — |
+| 11-14 16:45 | EFL League One Game | Blackpool | ✔ | 88' · BLP 0 - WIM 1 | — | In play | — |
+| 11-14 16:44 | Counter-Strike 2 Game | maybe | ✘ | — | — | In play | — |
+| 11-14 16:44 | EFL League One Game | Barnsley | ✔ | 87' · BAR 1 - WGA 2 | — | In play | — |
+| 11-14 16:44 | English National League Game | Wealdstone | ✘ | — | — | In play | — |
+| 11-14 16:44 | English National League Game | Eastleigh | ✘ | — | — | In play | — |
+| 11-14 16:44 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:42 | EFL League Two Game | Gillingham | ✔ | 79' · GIL 0 - COL 2 | — | In play | — |
+| 11-14 16:41 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:41 | eSoccer Game | Freiburg (SilentShooter) | ✘ | — | — | In play | — |
+| 11-14 16:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:40 | International Friendly Game | Palestine | ✔ | 77' · IRN 0 - PLE 0 | — | In play | — |
+| 11-14 16:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:40 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:39 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:39 | EFL League One Game | Tie | ✔ | 79' · REA 1 - STO 3 | — | In play | — |
+| 11-14 16:38 | EFL League One Game | Tie | ✔ | 81' · PLY 0 - SHW 2 | — | In play | — |
+| 11-14 16:38 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-14 16:38 | eSoccer Game | Sunderland (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:38 | eSoccer Game | Everton (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:38 | eBasketball Game | Golden State Warriors (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:37 | EFL League One Game | Plymouth | ✔ | 81' · PLY 0 - SHW 2 | — | In play | — |
+| 11-14 16:36 | Finland Korisliiga Game | KTP Basket Kotka | ✘ | — | — | In play | — |
+| 11-14 16:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:34 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:33 | eSoccer Game | Manchester City (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 16:33 | Russia Liga Pro Match | CHulkov Vitalii | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
 | 11-14 16:32 | English National League Game | Gateshead | ✘ | — | — | In play | — |
-| 11-14 16:31 | Russia Liga Pro Match | Yakovlev Andrey | ✘ | — | — | In play | — |
-| 11-14 16:29 | SHL Game | Rogle BK | ✘ | — | — | In play | — |
-| 11-14 16:29 | Scottish Championship Game | Queen's Park | ✘ | — | — | In play | — |
-| 11-14 16:28 | English National League Game | Boston | ✘ | — | — | In play | — |
-| 11-14 16:27 | English National League Game | Aldershot | ✘ | — | — | In play | — |
-| 11-14 16:27 | eSoccer Game | FC Koln (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:27 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:25 | SHL Game | Malmo Redhawks | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:25 | English National League Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:25 | Counter-Strike 2 Game | ex-INOX Division | ✘ | — | — | In play | — |
-| 11-14 16:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:23 | EFL League Two Game | Crewe | ✔ | 65' · NEW 2 - CAX 0 | — | In play | — |
-| 11-14 16:23 | eSoccer Game | Crystal Palace (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:22 | Latvian-Estonian Basketball League Game | Kk Viimsi | ✘ | — | — | In play | — |
-| 11-14 16:22 | Liiga Game | KooKoo Kouvola | ✘ | — | — | In play | — |
-| 11-14 16:22 | ITF Women's Match | Victoria Bosio | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:20 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
-| 11-14 16:20 | Scottish Championship Game | Raith Rovers | ✘ | — | — | In play | — |
-| 11-14 16:20 | English National League Game | Sutton | ✘ | — | — | In play | — |
-| 11-14 16:19 | English National League Game | Altrincham | ✘ | — | — | In play | — |
-| 11-14 16:19 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 16:19 | EFL League Two Game | Swindon | ✔ | 62' · GRI 3 - SWI 0 | — | In play | — |
-| 11-14 16:19 | EFL League Two Game | Tie | ✔ | 62' · GRI 3 - SWI 0 | — | In play | — |
-| 11-14 16:16 | Scottish Championship Game | Inverness | ✘ | — | — | In play | — |
-| 11-14 16:14 | Darts Match | Maik Kuivenhoven | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
