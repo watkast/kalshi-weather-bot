@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 13, 6:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 13, 6:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 60146 | 3255 | 13 (0%) | 1.1% | -$306.25 (-63%) | Hold to the end: -$306.25 (-63%) |
+| 60160 | 3255 | 13 (0%) | 1.1% | -$306.25 (-63%) | Hold to the end: -$306.25 (-63%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3255 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 56862 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 56867 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 28554 | 20 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3552 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 28558 | 20 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3553 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2793 | 5 | 3% | 1% | -83% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1848 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1796 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -351,11 +351,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-14 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-14 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 01:26 | Men's College Basketball Game | Ohio | ✘ | — | — | In play | — |
+| 11-14 01:25 | Women's College Volleyball Match | Georgia | ✘ | — | — | In play | — |
+| 11-14 01:24 | Women's College Basketball Game | Drake | ✘ | — | — | In play | — |
+| 11-14 01:24 | Men's College Basketball Game | LIU | ✘ | — | — | In play | — |
+| 11-14 01:22 | Men's College Basketball Game | Central Arkansas | ✔ | 10:22 - 1st · CARK 9 - ARK 23 | — | In play | — |
+| 11-14 01:22 | Men's College Basketball Game | Troy | ✘ | — | — | In play | — |
+| 11-14 01:22 | Men's College Basketball Game | Harvard | ✘ | — | — | In play | — |
+| 11-14 01:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 01:20 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
+| 11-14 01:20 | eSoccer Game | Universitario (Ousmane) | ✘ | — | — | In play | — |
+| 11-14 01:20 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 01:20 | eSoccer Game | Real Madrid (Kovboj) | ✘ | — | — | In play | — |
+| 11-14 01:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-14 01:19 | USL Super League Women Game | Fort Lauderdale United FC Women | ✘ | — | — | In play | — |
+| 11-14 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:16 | eSoccer Game | Nantes (Moana) | ✘ | — | — | In play | — |
-| 11-14 01:15 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | — | In play | — |
-| 11-14 01:14 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 11-14 01:15 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-14 01:14 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:09 | eSoccer Game | RCD Mallorca (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:08 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -367,20 +381,6 @@
 | 11-14 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-14 01:03 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 01:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 01:02 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 01:00 | International Friendly Game | Tie | ✔ | 90'+5' · URU 2 - ARG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:59 | Liga Nacional de Basquetbol Game | Ferro Carril Oeste | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:59 | eSoccer Game | Nantes (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:55 | International Friendly Game | Argentina | ✔ | 90' · URU 2 - ARG 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:55 | eSoccer Game | CA Osasuna (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:55 | Russia Liga Pro Match | Manushin Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:54 | Men's College Basketball Game | Clemson | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-14 00:53 | eSoccer Game | Estudiantes (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-14 00:51 | Russia Liga Pro Match | Kuznetsov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
