@@ -1,21 +1,21 @@
 {
- "saved_at": "2026-11-14T16:25:52+00:00",
+ "saved_at": "2026-11-14T16:36:16+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 364,
+ "markets_in_or_near_play": 506,
  "batch_lookup": true,
  "espn_games_linked": 19,
  "espn_check": {
-  "at": "2026-11-14T15:54:59+00:00",
+  "at": "2026-11-14T16:26:23+00:00",
   "started_games": 22,
   "matched": 18,
   "unmatched_sample": [
+   "KXLALIGA2GAME-26NOV14RSOGIJ",
    "KXNCAAWBGAME-26NOV14RIDYALE",
    "KXNCAAWBGAME-26NOV14WOFGASO",
-   "KXNCAAMBGAME-26NOV14UNCGCOR",
-   "KXLALIGA2GAME-26NOV14RSOGIJ"
+   "KXNCAAMBGAME-26NOV14UNCGCOR"
   ]
  },
- "bets": 60940,
- "open": 47,
+ "bets": 60951,
+ "open": 43,
  "errors": []
 }
