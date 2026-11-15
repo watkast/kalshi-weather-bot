@@ -1,10 +1,10 @@
 {
- "saved_at": "2026-11-15T12:58:25+00:00",
+ "saved_at": "2026-11-15T13:08:48+00:00",
  "series": 35,
  "markets_watched": 9,
  "batch_lookup": false,
- "bets": 57492,
- "open": 5,
+ "bets": 57499,
+ "open": 3,
  "coinbase_spot": {
   "ZEC": true,
   "BTC": true,
@@ -17,6 +17,7 @@
   "HYPE": true
  },
  "errors": [
-  "2026-11-15T11:13:42+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  "2026-11-15T11:13:42+00:00 batch off: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+  "2026-11-15T13:07:11+00:00 quotes KXETH15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
  ]
 }
