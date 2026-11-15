@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 10:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 10:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62120 | 3427 | 13 (0%) | 1.1% | -$332.05 (-65%) | Hold to the end: -$332.05 (-65%) |
+| 62134 | 3427 | 13 (0%) | 1.1% | -$332.05 (-65%) | Hold to the end: -$332.05 (-65%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3427 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 58653 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 58662 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29416 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3678 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 29420 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3680 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2884 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1862 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1810 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -265,9 +265,9 @@
 | Singapore Premier League Game | ✘ | 29 | 0 | 14% | 3% | -100% | -76% | 18 min |
 | Slovakian Cup Game | ✘ | 28 | 0 | 7% | 4% | -100% | -88% | 18 min |
 | Eredivisie Vrouwen Game | ✘ | 28 | 0 | 4% | 4% | -100% | -94% | 8 min |
+| Women's ODI Cricket Match | ✘ | 27 | 0 | 15% | 7% | -100% | -74% | 40 min |
 | Men's Iceland Basketball Premier League Game | ✘ | 27 | 0 | 15% | 7% | -100% | -74% | 7 min |
 | Call of Duty Games | ✘ | 27 | 0 | 0% | 0% | -100% | -100% | 38 min |
-| Women's ODI Cricket Match | ✘ | 26 | 0 | 15% | 8% | -100% | -73% | 45 min |
 | Polish Hockey Game | ✘ | 25 | 0 | 4% | 4% | -100% | -93% | 6 min |
 | UAE Pro League | ✘ | 24 | 0 | 4% | 4% | -100% | -93% | 17 min |
 | EuroLeague (W) Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 9 min |
@@ -298,13 +298,13 @@
 | Copa do Brasil Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 17 min |
 | Bare Knuckle Fight Match | ✘ | 8 | 0 | 25% | 0% | -100% | -57% | 27 min |
 | SAFF Championship Game | ✘ | 8 | 0 | 38% | 12% | -100% | -35% | 50 min |
+| Liga MX Women Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 12 min |
 | Scottish Championship Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 28 min |
 | PREM Rugby Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | CONMEBOL Libertadores Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
 | Portugal LPB Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 8 min |
 | Coupe de France Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 200 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
-| Liga MX Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 19 min |
 | Uruguay LUB Basketball Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Poland PLK Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | NBL Australia (W) Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
@@ -362,36 +362,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-15 05:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 05:19 | eSoccer Game | Chelsea (Zaroth) | ✘ | — | — | In play | — |
+| 11-15 05:17 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | — | In play | — |
+| 11-15 05:17 | eSoccer Game | Freiburg (Rendeto) | ✘ | — | — | In play | — |
+| 11-15 05:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 05:16 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
+| 11-15 05:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 05:15 | eSoccer Game | France (Maddy) | ✘ | — | — | In play | — |
+| 11-15 05:15 | Men's College Basketball Game | New Mexico | ✘ | — | — | In play | — |
+| 11-15 05:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 05:13 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
+| 11-15 05:13 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-15 05:13 | eSoccer Game | Mönchengladbach (Elastico) | ✘ | — | — | In play | — |
+| 11-15 05:13 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | — | In play | — |
 | 11-15 05:06 | NHL Game | Utah | ✔ | In SO · SJ 5 - UTA 5 | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 05:05 | Russia Liga Pro Match | Bikkulov Emil | ✘ | — | — | In play | — |
-| 11-15 05:05 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | — | In play | — |
+| 11-15 05:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:05 | Russia Liga Pro Match | Bikkulov Emil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:05 | eSoccer Game | Nottingham Forest (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:05 | NHL Game | Anaheim | ✔ | 17:13 - 3rd · NYI 6 - ANA 2 | — | In play | — |
-| 11-15 05:05 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | — | In play | — |
-| 11-15 05:04 | Liga MX Women Game | FC Juarez (women) | ✘ | — | — | In play | — |
-| 11-15 05:04 | Liga MX Women Game | CD Guadalajara Mexico (women) | ✘ | — | — | In play | — |
-| 11-15 04:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 05:05 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:04 | Liga MX Women Game | FC Juarez (women) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:04 | Liga MX Women Game | CD Guadalajara Mexico (women) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 04:59 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 04:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:57 | eSoccer Game | Argentina (Kitana) | ✘ | — | — | In play | — |
+| 11-15 04:57 | eSoccer Game | Argentina (Kitana) | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 11-15 04:56 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 04:54 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | — | In play | — |
-| 11-15 04:54 | Women's ODI Cricket Match | Northern Districts Women | ✘ | — | — | In play | — |
+| 11-15 04:54 | Women's ODI Cricket Match | Northern Districts Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 04:53 | ITF Women's Match | Ying Zhang | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:51 | eSoccer Game | Liverpool (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:51 | eSoccer Game | Newcastle Utd (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:48 | College Football Game | Colorado St. | ✔ | 7:31 - 2nd · CSU 0 - WSU 28 | — | In play | — |
-| 11-15 04:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:47 | Challenger ATP  | Nitin Kumar Sinha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:46 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:46 | eSoccer Game | Stuttgart (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:46 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:46 | eSoccer Game | RB Leipzig (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:45 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 04:41 | Japan J2 League Game | Blaublitz A | ✘ | — | — | In play | — |
 
 ## Raw data
 
