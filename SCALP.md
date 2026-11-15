@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Sun Nov 15 06:57 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Sun Nov 15 07:08 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,10 +10,10 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 60509 | 52785 | 7724 (107) | 1 | $-16446.66 | -4.3% |
-| **+10¢** | 45209 | 36158 | 9051 (143) | 1 | $-15515.32 | -5.5% |
-| **+15¢** | 37873 | 28108 | 9765 (181) | 1 | $-14200.83 | -6.0% |
-| **+20¢** | 33758 | 23516 | 10242 (233) | 1 | $-12479.20 | -5.9% |
+| **+5¢** | 60510 | 52785 | 7725 (107) | 0 | $-16451.94 | -4.3% |
+| **+10¢** | 45210 | 36158 | 9052 (143) | 0 | $-15520.60 | -5.5% |
+| **+15¢** | 37874 | 28108 | 9766 (181) | 0 | $-14206.71 | -6.0% |
+| **+20¢** | 33759 | 23516 | 10243 (233) | 0 | $-12485.08 | -5.9% |
 | **+10¢ (15¢ stop)** | 73664 | 73521 | 143 (82) | 0 | $-27119.53 | -5.9% |
 
 ## Latest trades
@@ -29,8 +29,8 @@
 | 11-15 06:52 | +10 stop | NEAR | DOWN | 0.71 | 0.85 | 1.16 |
 | 11-15 06:51 | +10 stop | XRP | DOWN | 0.70 | 0.86 | 1.36 |
 | 11-15 06:50 | +10 stop | ZEC | UP | 0.69 | 0.48 | -2.43 |
-| 11-15 06:50 | +10 | XRP | UP | 0.51 | open |  |
-| 11-15 06:50 | +5 | XRP | UP | 0.51 | open |  |
+| 11-15 06:50 | +10 | XRP | UP | 0.51 | no | -5.28 |
+| 11-15 06:50 | +5 | XRP | UP | 0.51 | no | -5.28 |
 | 11-15 06:50 | +10 stop | NEAR | DOWN | 0.56 | 0.67 | 0.72 |
 | 11-15 06:50 | +10 stop | DOGE | DOWN | 0.62 | 0.75 | 1.02 |
 | 11-15 06:49 | +10 stop | XRP | UP | 0.71 | 0.55 | -1.93 |
