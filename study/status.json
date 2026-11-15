@@ -1,8 +1,8 @@
 {
- "saved_at": "2026-11-15T13:24:02+00:00",
+ "saved_at": "2026-11-15T13:34:22+00:00",
  "series_watched": 419,
  "markets_in_or_near_play": 325,
- "batch_lookup": true,
+ "batch_lookup": false,
  "espn_games_linked": 1,
  "espn_check": {
   "at": "2026-11-15T13:06:18+00:00",
@@ -15,7 +15,7 @@
    "KXNCAAMBGAME-26NOV14WASHUTAH"
   ]
  },
- "bets": 62620,
- "open": 45,
+ "bets": 62640,
+ "open": 53,
  "errors": []
 }
