@@ -1,11 +1,11 @@
 {
- "saved_at": "2026-11-15T08:15:43+00:00",
+ "saved_at": "2026-11-15T08:26:06+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 144,
+ "markets_in_or_near_play": 143,
  "batch_lookup": true,
  "espn_games_linked": 30,
  "espn_check": {
-  "at": "2026-11-15T07:47:07+00:00",
+  "at": "2026-11-15T08:18:12+00:00",
   "started_games": 6,
   "matched": 1,
   "unmatched_sample": [
@@ -16,7 +16,7 @@
    "KXNCAAMBGAME-26NOV14AFAPAC"
   ]
  },
- "bets": 62338,
- "open": 43,
+ "bets": 62348,
+ "open": 40,
  "errors": []
 }
