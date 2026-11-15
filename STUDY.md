@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 7:15 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 7:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61920 | 3396 | 13 (0%) | 1.1% | -$327.40 (-64%) | Hold to the end: -$327.40 (-64%) |
+| 61936 | 3396 | 13 (0%) | 1.1% | -$327.40 (-64%) | Hold to the end: -$327.40 (-64%) |
 
 *In play right now: 58. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3396 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 58466 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 58482 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29308 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 29318 | 21 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3676 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2874 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1857 | 8 | 14% | 6% | -60% | -76% | 4 min |
@@ -105,8 +105,8 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1068 | 5 | 11% | 4% | -56% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| College Football Game | partly | 605 | 3 | 11% | 5% | -54% | -81% | 23 min |
-| Men's College Basketball Game | partly | 597 | 5 | 19% | 7% | -22% | -68% | 26 min |
+| College Football Game | partly | 606 | 3 | 11% | 5% | -54% | -81% | 23 min |
+| Men's College Basketball Game | partly | 600 | 5 | 18% | 7% | -22% | -68% | 26 min |
 | Women's College Basketball Game | partly | 573 | 2 | 14% | 4% | -67% | -75% | 35 min |
 | Darts Match | ✘ | 420 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 393 | 2 | 4% | 2% | -53% | -93% | 56 min |
@@ -119,7 +119,7 @@
 | NBA Game | partly | 239 | 0 | 19% | 7% | -100% | -67% | 11 min |
 | AHL Game | ✘ | 231 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
-| College Hockey Game | ✘ | 202 | 0 | 0% | 0% | -100% | -99% | 12 min |
+| College Hockey Game | ✘ | 203 | 0 | 1% | 0% | -100% | -98% | 12 min |
 | WTA Tennis Match | ✘ | 195 | 0 | 12% | 3% | -100% | -79% | 5 min |
 | UEFA Nations League Game | ✔ | 192 | 0 | 11% | 5% | -100% | -80% | 8 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
@@ -172,8 +172,8 @@
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | ELH Game | ✘ | 86 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | SHL Game | ✘ | 86 | 0 | 3% | 2% | -100% | -94% | 6 min |
+| Men's ODI Cricket Match | ✘ | 86 | 3 | 20% | 7% | +226% | -66% | 53 min |
 | AFCON Game Winner | ✘ | 85 | 1 | 18% | 6% | +10% | -69% | 22 min |
-| Men's ODI Cricket Match | ✘ | 85 | 3 | 19% | 6% | +229% | -67% | 51 min |
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
 | Italy Serie A2 Game | ✘ | 81 | 1 | 2% | 1% | +15% | -96% | 6 min |
@@ -361,36 +361,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-15 02:25 | College Hockey Game | Massachusetts | ✘ | — | — | In play | — |
+| 11-15 02:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 02:25 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-15 02:23 | College Hockey Game | St. Cloud State | ✘ | — | — | In play | — |
+| 11-15 02:23 | College Hockey Game | Sacred Heart | ✘ | — | — | In play | — |
+| 11-15 02:22 | Australia A League Women Game | Sydney FC (women) | ✘ | — | — | In play | — |
+| 11-15 02:22 | USL League One Game | AC Boise | ✘ | — | — | In play | — |
+| 11-15 02:20 | College Hockey Game | Cornell | ✘ | — | — | In play | — |
+| 11-15 02:20 | NHL Game | Boston | ✔ | 10:45 - 3rd · MIN 5 - BOS 2 | — | In play | — |
+| 11-15 02:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:19 | CONCACAF Nations League Game | Mexico | ✔ | 63' · MEX 0 - JAM 3 | — | In play | — |
+| 11-15 02:18 | Challenger ATP  | Ymerali Ibraimi | ✘ | — | — | In play | — |
+| 11-15 02:16 | College Hockey Game | New Hampshire | ✘ | — | — | In play | — |
+| 11-15 02:16 | eSoccer Game | Crystal Palace (Zaroth) | ✘ | — | — | In play | — |
+| 11-15 02:16 | eSoccer Game | Universitario (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-15 02:15 | Men's College Basketball Game | Dayton | ✘ | — | — | In play | — |
-| 11-15 02:15 | eSoccer Game | Argentina (Kitana) | ✘ | — | — | In play | — |
-| 11-15 02:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 02:14 | eSoccer Game | Botafogo (Elastico) | ✘ | — | — | In play | — |
-| 11-15 02:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 02:15 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:14 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 02:13 | College Hockey Game | Wisconsin | ✘ | — | — | In play | — |
 | 11-15 02:13 | NBA Game | New Orleans | ✔ | 6:36 - 4th · DEN 102 - NO 87 | — | In play | — |
-| 11-15 02:12 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
-| 11-15 02:12 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-15 02:12 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:12 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 02:12 | NHL Game | St. Louis | ✔ | 12:22 - 3rd · FLA 3 - STL 0 | — | In play | — |
 | 11-15 02:10 | College Football Game | Marshall | ✔ | 1:12 - 4th · APP 20 - MRSH 16 | — | In play | — |
 | 11-15 02:08 | College Hockey Game | Ferris State | ✘ | — | — | In play | — |
-| 11-15 02:08 | Men's College Basketball Game | Western Carolina | ✘ | — | — | In play | — |
-| 11-15 02:07 | College Hockey Game | Alaska Anchorage | ✘ | — | — | In play | — |
-| 11-15 02:06 | College Hockey Game | Harvard | ✘ | — | — | In play | — |
-| 11-15 02:05 | eSoccer Game | Chelsea (Kovboj) | ✘ | — | — | In play | — |
-| 11-15 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 02:05 | Men's College Basketball Game | NJIT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 02:03 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 02:03 | Men's College Basketball Game | Brown | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-15 02:02 | Men's College Basketball Game | Davidson | ✘ | — | — | In play | — |
-| 11-15 02:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 02:01 | eSoccer Game | Estudiantes (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 02:00 | Men's College Basketball Game | UMBC | ✘ | — | — | In play | — |
-| 11-15 02:00 | eSoccer Game | São Paulo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 02:00 | eSoccer Game | Universitario (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 01:59 | Men's College Basketball Game | UAB | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 01:58 | eBasketball Game | Indiana Pacers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 01:55 | College Hockey Game | Merrimack | ✘ | — | — | In play | — |
-| 11-15 01:54 | College Football Game | Michigan St. | ✔ | 0:46 - 4th · WASH 21 - MSU 14 | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:08 | Men's College Basketball Game | Western Carolina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 02:07 | College Hockey Game | Alaska Anchorage | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
