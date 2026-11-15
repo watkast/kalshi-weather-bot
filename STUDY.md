@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 14, 11:01 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 14, 11:11 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62180 | 3430 | 13 (0%) | 1.1% | -$332.50 (-65%) | Hold to the end: -$332.50 (-65%) |
+| 62192 | 3431 | 13 (0%) | 1.1% | -$332.65 (-65%) | Hold to the end: -$332.65 (-65%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 842 | 2.7% | 0.1% (1) | -234% | ❌ Worse |
+| ESPN win probability | 843 | 2.7% | 0.1% (1) | -234% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,7 +58,7 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 842 | 1 | -89% | -71% | -71% | -72% |
+| **Any 1¢ (no model)** | 843 | 1 | -89% | -71% | -71% | -72% |
 | ESPN win probability ≥ 2% | 163 | 1 | -43% | -61% | -63% | -65% |
 | ESPN win probability ≥ 5% | 71 | 1 | +31% | -80% | -85% | -88% |
 | ESPN win probability ≥ 10% | 47 | 1 | +99% | -78% | -78% | -82% |
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3430 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 58710 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3431 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 58724 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$332.50 | -65% |
-| Sell at 2¢ | 483 | 14% | -$388.92 | -76% |
-| Sell at 3¢ | 339 | 10% | -$382.29 | -74% |
-| Sell at 5¢ | 228 | 7% | -$366.30 | -71% |
-| Sell at 10¢ | 94 | 3% | -$391.36 | -76% |
-| Sell at 25¢ | 36 | 1% | -$395.34 | -77% |
-| Sell at 50¢ | 23 | 1% | -$359.25 | -70% |
+| Hold to the end | 13 | 0% | -$332.65 | -65% |
+| Sell at 2¢ | 483 | 14% | -$389.07 | -76% |
+| Sell at 3¢ | 339 | 10% | -$382.44 | -74% |
+| Sell at 5¢ | 228 | 7% | -$366.45 | -71% |
+| Sell at 10¢ | 94 | 3% | -$391.51 | -76% |
+| Sell at 25¢ | 36 | 1% | -$395.49 | -77% |
+| Sell at 50¢ | 23 | 1% | -$359.40 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29450 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3683 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 29454 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3685 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2888 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1863 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1811 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1665 | 3 | 6% | 3% | -83% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1077 | 5 | 11% | 4% | -57% | -81% | 5 min |
+| Challenger ATP  | ✘ | 1080 | 5 | 11% | 4% | -57% | -81% | 5 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| College Football Game | partly | 622 | 3 | 11% | 5% | -55% | -81% | 23 min |
+| College Football Game | partly | 623 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | Men's College Basketball Game | partly | 613 | 5 | 19% | 7% | -24% | -68% | 26 min |
 | Women's College Basketball Game | partly | 573 | 2 | 14% | 4% | -67% | -75% | 35 min |
 | Darts Match | ✘ | 420 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -125,7 +125,7 @@
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
 | Argentina Primera Division Game | ✘ | 175 | 2 | 17% | 9% | +7% | -71% | 9 min |
 | Liga DIMAYOR Game | ✘ | 173 | 1 | 10% | 3% | -46% | -82% | 9 min |
-| Japan J2 League Game | ✘ | 165 | 1 | 10% | 4% | -43% | -83% | 7 min |
+| Japan J2 League Game | ✘ | 169 | 1 | 9% | 4% | -45% | -84% | 7 min |
 | League of Legends Game | ✘ | 164 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | Brasileiro Serie B Game | ✘ | 162 | 1 | 7% | 3% | -42% | -87% | 10 min |
 | KHL Game | ✘ | 154 | 0 | 4% | 2% | -100% | -93% | 6 min |
@@ -306,9 +306,9 @@
 | Coupe de France Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 200 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Australia A League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 4 min |
+| NBL Australia (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Uruguay LUB Basketball Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Poland PLK Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 10 min |
-| NBL Australia (W) Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Bulgaria First League Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 46 min |
@@ -343,7 +343,7 @@
 | Under 5 min | 1243 | 4% | 1% | 0% | -93% |
 | 5–15 min | 789 | 16% | 8% | 1% | -72% |
 | 15–30 min | 540 | 24% | 12% | 1% | -58% |
-| 30–60 min | 425 | 20% | 12% | 1% | -65% |
+| 30–60 min | 426 | 20% | 12% | 1% | -65% |
 | Over 60 min | 405 | 23% | 10% | 0% | -61% |
 
 ## Speed & liquidity
@@ -362,36 +362,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 05:57 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 11-15 05:57 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | — | In play | — |
-| 11-15 05:55 | Challenger ATP  | Ajeet Rai | ✘ | — | — | In play | — |
+| 11-15 06:11 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | — | In play | — |
+| 11-15 06:10 | eSoccer Game | Stade Brestois 29 (Mordor) | ✘ | — | — | In play | — |
+| 11-15 06:09 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
+| 11-15 06:06 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | — | In play | — |
+| 11-15 06:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 06:05 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 11-15 06:05 | eSoccer Game | Spurs (Mei) | ✘ | — | — | In play | — |
+| 11-15 06:04 | eSoccer Game | CA Osasuna (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 06:04 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 06:02 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:57 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:57 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 05:55 | Challenger ATP  | Ajeet Rai | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 11-15 05:53 | Japan J2 League Game | Iwaki FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:53 | Japan J2 League Game | Vanraure Hachinohe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:53 | Australia A League Women Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:53 | ITF Women's Match | Amy Stevens | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:52 | Challenger ATP  | Hiromasa Koyama | ✘ | — | — | In play | — |
+| 11-15 05:52 | Challenger ATP  | Hiromasa Koyama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:51 | eSoccer Game | Everton (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:51 | NBL Australia (W) Game | Canberra Capitals | ✘ | — | — | In play | — |
+| 11-15 05:51 | NBL Australia (W) Game | Canberra Capitals | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:51 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:51 | ITF Men's Match | Denis Yevseyev | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:50 | NHL Game | Los Angeles | ✔ | 1:14 - 3rd · CGY 2 - LA 1 | 7¢ | ❌ Lost | -$0.15 |
 | 11-15 05:49 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:48 | Challenger ATP  | Christian Langmo | ✘ | — | — | In play | — |
+| 11-15 05:48 | Challenger ATP  | Christian Langmo | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-15 05:46 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:46 | eSoccer Game | Spurs (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:44 | eBasketball Game | New Orleans Pelicans (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:44 | Japan J2 League Game | Sapporo | ✘ | — | — | In play | — |
-| 11-15 05:44 | eSoccer Game | Athletic Club (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:42 | eSoccer Game | Sevilla FC (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:41 | AHL Game | Colorado Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:39 | College Football Game | Oklahoma St. | ✔ | 13:09 - 4th · TTU 42 - OKST 20 | — | In play | — |
-| 11-15 05:38 | Women's College Volleyball Match | Washington | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:37 | Australia A League Women Game | Brisbane Roar FC (women) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 05:36 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
 
 ## Raw data
 
