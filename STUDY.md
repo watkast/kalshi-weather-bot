@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 1:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 1:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62348 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
+| 62354 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3436 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 58872 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 58883 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29548 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3699 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 29557 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3700 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2898 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1866 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1813 | 4 | 14% | 6% | -79% | -76% | 5 min |
@@ -221,7 +221,7 @@
 | Adriatic ABA Game | ✘ | 55 | 1 | 7% | 4% | +70% | -87% | 9 min |
 | LNB Elite Game | ✘ | 55 | 0 | 2% | 0% | -100% | -97% | 9 min |
 | Romanian Liga I Game | ✘ | 55 | 0 | 11% | 2% | -100% | -81% | 13 min |
-| Australia NBL Game | ✘ | 52 | 0 | 8% | 6% | -100% | -87% | 10 min |
+| Australia NBL Game | ✘ | 53 | 0 | 8% | 6% | -100% | -87% | 10 min |
 | Spain Liga ACB Game | ✘ | 52 | 0 | 8% | 4% | -100% | -87% | 13 min |
 | Taca de Portugal Game | ✘ | 52 | 0 | 15% | 4% | -100% | -73% | 14 min |
 | Czech NBL Game | ✘ | 51 | 0 | 2% | 0% | -100% | -97% | 16 min |
@@ -363,15 +363,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 08:25 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | — | In play | — |
-| 11-15 08:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 08:24 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | — | In play | — |
-| 11-15 08:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 08:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 08:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 08:22 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
-| 11-15 08:21 | eSoccer Game | Juventus (Rooney) | ✘ | — | — | In play | — |
-| 11-15 08:20 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 11-15 08:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 08:34 | eBasketball Game | Golden State Warriors (Devin) | ✘ | — | — | In play | — |
+| 11-15 08:34 | eBasketball Game | New York Knicks (Tatum) | ✘ | — | — | In play | — |
+| 11-15 08:33 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-15 08:30 | Russia Liga Pro Match | Innazarov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:28 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 08:25 | eSoccer Game | Strasbourg (Mordor) | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 11-15 08:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:24 | eSoccer Game | Slavia Praha (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:22 | eSoccer Game | Montpellier (Mei) | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
+| 11-15 08:21 | eSoccer Game | Juventus (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 08:20 | eSoccer Game | RC Lens (Florie) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 11-15 08:19 | Russia Liga Pro Match | Kondratev Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -381,18 +387,12 @@
 | 11-15 08:11 | Valorant game winner | Qian Xing Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:10 | eBasketball Game | Los Angeles Lakers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:09 | eSoccer Game | AS Monaco (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 08:09 | Australia NBL Game | Brisbane Bullets | ✘ | — | — | In play | — |
+| 11-15 08:09 | Australia NBL Game | Brisbane Bullets | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:09 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:09 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:07 | eBasketball Game | Golden State Warriors (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 08:06 | eSoccer Game | Montpellier (Mei) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-15 08:02 | Women's T20 Match | Thailand | ✘ | — | — | In play | — |
-| 11-15 08:01 | Japan J League Cup Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 07:58 | Japan J League Cup Game | Marinos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 07:58 | Japan J League Cup Game | Cerezo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 07:57 | Japan J League Cup Game | Urawa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 07:57 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
