@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 4:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 4:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63395 | 3479 | 13 (0%) | 1.1% | -$339.85 (-65%) | Hold to the end: -$339.85 (-65%) |
+| 63400 | 3479 | 13 (0%) | 1.1% | -$339.85 (-65%) | Hold to the end: -$339.85 (-65%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3479 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 59866 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 59870 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -104,13 +104,13 @@
 | Counter-Strike 2 Game | ✘ | 1697 | 3 | 6% | 3% | -84% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1118 | 5 | 12% | 4% | -58% | -80% | 5 min |
-| Men's College Basketball Game | partly | 633 | 5 | 19% | 7% | -26% | -67% | 26 min |
+| Men's College Basketball Game | partly | 634 | 5 | 19% | 7% | -26% | -67% | 26 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | Women's College Basketball Game | partly | 627 | 2 | 14% | 4% | -70% | -77% | 33 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 428 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 408 | 2 | 4% | 2% | -54% | -94% | 51 min |
-| Dota 2 Game | ✘ | 401 | 1 | 1% | 1% | -77% | -98% | 32 min |
+| Dota 2 Game | ✘ | 402 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 389 | 2 | 5% | 2% | -52% | -92% | 8 min |
 | Men's T20 Cricket Match | ✘ | 358 | 2 | 16% | 7% | -48% | -72% | 24 min |
 | NHL Game | ✔ | 321 | 2 | 15% | 8% | -42% | -74% | 5 min |
@@ -315,6 +315,7 @@
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Bulgaria First League Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 46 min |
 | USL Super League Women Game | ✘ | 4 | 0 | 25% | 0% | -100% | -57% | 89 min |
+| Paraguay Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Denmark Basketligaen Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 38 min |
 | Latvian-Estonian Basketball League Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -330,7 +331,6 @@
 | UEFA Women Europa Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Argentina Super Cup Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 16 min |
 | Dominican Winter League (LIDOM) | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 47 min |
-| Paraguay Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Argentina Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | USL League One Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 12 min |
 | China CBA (W) Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -364,10 +364,15 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-15 23:06 | Men's College Basketball Game | Southern Indiana | ✘ | — | — | In play | — |
+| 11-15 23:05 | Counter-Strike 2 Game | RED Canids Academy | ✘ | — | — | In play | — |
+| 11-15 23:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 23:02 | eSoccer Game | Real Betis (Strudl) | ✘ | — | — | In play | — |
+| 11-15 23:02 | Darts Match | Jeffrey de Graaf | ✘ | — | — | In play | — |
 | 11-15 22:59 | Men's College Basketball Game | New Mexico St. | ✘ | — | — | In play | — |
 | 11-15 22:59 | NFL Game | Arizona | ✔ | 8:48 - 3rd · LAR 24 - ARI 6 | — | In play | — |
-| 11-15 22:56 | Paraguay Cup Game | Club Sol de América | ✘ | — | — | In play | — |
-| 11-15 22:56 | Paraguay Cup Game | Cerro Porteno | ✘ | — | — | In play | — |
+| 11-15 22:56 | Paraguay Cup Game | Club Sol de América | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 22:56 | Paraguay Cup Game | Cerro Porteno | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:50 | NBA Game | Phoenix | ✔ | 4:27 - 3rd · LAL 88 - PHX 66 | — | In play | — |
 | 11-15 22:49 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -383,17 +388,12 @@
 | 11-15 22:45 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:45 | Women's College Basketball Game | Portland St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:43 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:40 | Men's College Basketball Game | Mercyhurst | ✘ | — | — | In play | — |
+| 11-15 22:40 | Men's College Basketball Game | Mercyhurst | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-15 22:40 | AHL Game | Toronto Marlies | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:40 | Challenger ATP  | Lucas Horve | ✘ | — | — | In play | — |
 | 11-15 22:36 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:36 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:35 | eSoccer Game | Real Madrid (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:33 | Women's College Basketball Game | American | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:33 | eSoccer Game | Boca Juniors (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:33 | Women's College Basketball Game | UMBC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:33 | Women's College Basketball Game | UC San Diego | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
