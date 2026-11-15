@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 3:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 4:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62441 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
+| 62452 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
 
 *In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3436 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 58962 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 58973 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29607 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3712 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2904 | 5 | 3% | 1% | -84% | -92% | 3 min |
+| eSoccer Game | ✘ | 29613 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3715 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2906 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1868 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1814 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1665 | 3 | 6% | 3% | -83% | -90% | 11 min |
@@ -363,18 +363,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 10:58 | eSoccer Game | Crystal Palace (Mordor) | ✘ | — | — | In play | — |
-| 11-15 10:57 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | — | In play | — |
-| 11-15 10:56 | eSoccer Game | Argentina (Mei) | ✘ | — | — | In play | — |
-| 11-15 10:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 10:55 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | — | In play | — |
-| 11-15 10:55 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
-| 11-15 10:55 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 11-15 10:54 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | — | In play | — |
-| 11-15 10:53 | Russia Liga Pro Match | Aleksandrovskiy Mikhail | ✘ | — | — | In play | — |
+| 11-15 11:09 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-15 11:09 | Valorant game winner | LNG Esports | ✘ | — | — | In play | — |
+| 11-15 11:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 11:08 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 11-15 11:07 | Counter-Strike 2 Game | Drama eSports | ✘ | — | — | In play | — |
+| 11-15 11:06 | Russia Liga Pro Match | Rybalkin Aleksandr | ✘ | — | — | In play | — |
+| 11-15 11:06 | Slovakian 2. Liga Game | Dynamo Malzenice | ✘ | — | — | In play | — |
+| 11-15 11:04 | Russia Liga Pro Match | Suslov Andrei | ✘ | — | — | In play | — |
+| 11-15 11:04 | Counter-Strike 2 Game | Hype Tech | ✘ | — | — | In play | — |
+| 11-15 11:01 | Women's T20 Match | Papua New Guinea Women | ✘ | — | — | In play | — |
+| 11-15 10:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:58 | eSoccer Game | Crystal Palace (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:57 | eBasketball Game | Brooklyn Nets (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:56 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:55 | Russia Liga Pro Match | Kononenko Taras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:55 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:55 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:54 | Russia Liga Pro Match | Eremin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 10:53 | Russia Liga Pro Match | Aleksandrovskiy Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 10:53 | Challenger ATP  | Marvin Moeller | ✘ | — | — | In play | — |
 | 11-15 10:52 | Counter-Strike 2 Game | Spirit | ✘ | — | — | In play | — |
-| 11-15 10:51 | eBasketball Game | Los Angeles Lakers (Rodzilla) | ✘ | — | — | In play | — |
+| 11-15 10:51 | eBasketball Game | Los Angeles Lakers (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 10:50 | Adriatic ABA Game | Spartak Subotica | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 10:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 10:45 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -382,17 +393,6 @@
 | 11-15 10:44 | eSoccer Game | Chelsea (Mordor) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-15 10:43 | eSoccer Game | Frankfurt (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 10:43 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:42 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:41 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:40 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:38 | Men's ODI Cricket Match | Australia | ✘ | — | — | In play | — |
-| 11-15 10:37 | Russia Liga Pro Match | Kasatkin Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:34 | ITF Women's Match | Anna Snigireva | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 11-15 10:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:32 | eSoccer Game | Everton (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 10:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
