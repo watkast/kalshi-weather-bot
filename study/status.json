@@ -1,23 +1,23 @@
 {
- "saved_at": "2026-11-15T06:11:39+00:00",
+ "saved_at": "2026-11-15T06:21:59+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 242,
+ "markets_in_or_near_play": 219,
  "batch_lookup": true,
  "espn_games_linked": 30,
  "espn_check": {
-  "at": "2026-11-15T05:42:16+00:00",
-  "started_games": 14,
-  "matched": 8,
+  "at": "2026-11-15T06:13:27+00:00",
+  "started_games": 12,
+  "matched": 6,
   "unmatched_sample": [
    "KXNCAAFGAME-26NOV14IDSTMONT",
-   "KXNCAAWBGAME-26NOV14LBSUPORT",
    "KXNCAAMBGAME-26NOV14IDSTSEA",
    "KXNCAAMBGAME-26NOV14ULLUNCW",
    "KXNCAAMBGAME-26NOV14WASHUTAH",
-   "KXNCAAMBGAME-26NOV14AFAPAC"
+   "KXNCAAMBGAME-26NOV14AFAPAC",
+   "KXNCAAWBGAME-26NOV14LBSUPORT"
   ]
  },
- "bets": 62192,
- "open": 37,
+ "bets": 62206,
+ "open": 41,
  "errors": []
 }
