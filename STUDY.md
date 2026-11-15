@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 3:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 3:39 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63358 | 3479 | 13 (0%) | 1.1% | -$339.85 (-65%) | Hold to the end: -$339.85 (-65%) |
+| 63373 | 3479 | 13 (0%) | 1.1% | -$339.85 (-65%) | Hold to the end: -$339.85 (-65%) |
 
-*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3479 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 59831 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 59837 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29983 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 29987 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3794 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2945 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1892 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1828 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1696 | 3 | 6% | 3% | -83% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1697 | 3 | 6% | 3% | -84% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1118 | 5 | 12% | 4% | -58% | -80% | 5 min |
 | Men's College Basketball Game | partly | 632 | 5 | 19% | 7% | -26% | -67% | 26 min |
@@ -117,7 +117,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Challenger WTA | ✘ | 293 | 1 | 13% | 4% | -68% | -78% | 9 min |
 | NBA Game | partly | 245 | 0 | 20% | 7% | -100% | -65% | 11 min |
-| AHL Game | ✘ | 242 | 0 | 3% | 2% | -100% | -94% | 6 min |
+| AHL Game | ✘ | 243 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
 | College Hockey Game | ✘ | 216 | 0 | 1% | 0% | -100% | -98% | 13 min |
 | UEFA Nations League Game | ✔ | 205 | 0 | 13% | 7% | -100% | -78% | 9 min |
@@ -364,7 +364,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 22:28 | AHL Game | Charlotte Checkers | ✘ | — | — | In play | — |
+| 11-15 22:36 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | — | In play | — |
+| 11-15 22:36 | eSoccer Game | Real Betis (NINJA) | ✘ | — | — | In play | — |
+| 11-15 22:35 | eSoccer Game | Real Madrid (Mantis) | ✘ | — | — | In play | — |
+| 11-15 22:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 22:33 | Women's College Basketball Game | American | ✘ | — | — | In play | — |
+| 11-15 22:33 | eSoccer Game | Boca Juniors (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 22:33 | Women's College Basketball Game | UMBC | ✘ | — | — | In play | — |
+| 11-15 22:33 | Women's College Basketball Game | UC San Diego | ✘ | — | — | In play | — |
+| 11-15 22:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 22:32 | Darts Match | Gabriel Clemens | ✘ | — | — | In play | — |
+| 11-15 22:31 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
+| 11-15 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 22:31 | eSoccer Game | Palmeiras (Luis) | ✘ | — | — | In play | — |
+| 11-15 22:30 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 22:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 22:28 | AHL Game | Charlotte Checkers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:23 | eSoccer Game | Sevilla FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:23 | eSoccer Game | Real Sociedad (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 22:20 | Women's College Volleyball Match | Colorado | ✘ | — | — | In play | — |
@@ -379,21 +394,6 @@
 | 11-15 22:15 | eSoccer Game | Boca Juniors (Luis) | ✘ | — | — | In play | — |
 | 11-15 22:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-15 22:14 | NWSL Game | Tie | ✔ | 90'+4' · KC 2 - GFC 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:14 | eBasketball Game | Dallas Mavericks (Jalen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:10 | eBasketball Game | Indiana Pacers (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:10 | NWSL Game | Gotham | ✔ | 90' · KC 2 - GFC 1 | 1¢ | ❌ Lost | -$0.15 |
-| 11-15 22:10 | Peru Liga 1 Game | Deportivo Garcilaso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:10 | Peru Liga 1 Game | Juan Pablo II College | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:10 | Men's College Basketball Game | Saint Louis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:08 | eSoccer Game | RCD Mallorca (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:08 | ITF Men's Match | Thiago Horacio Messa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:07 | Women's College Volleyball Match | Arkansas | ✘ | — | — | In play | — |
-| 11-15 22:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:06 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:06 | Men's College Basketball Game | Alabama A&M | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 22:05 | eSoccer Game | Palmeiras (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
