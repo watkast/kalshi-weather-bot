@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 4:40 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 4:50 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62491 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
+| 62499 | 3436 | 13 (0%) | 1.1% | -$333.40 (-65%) | Hold to the end: -$333.40 (-65%) |
 
-*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3436 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 59012 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 59024 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29629 | 21 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3720 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 29639 | 21 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3721 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2908 | 5 | 3% | 1% | -84% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1868 | 8 | 14% | 6% | -60% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1815 | 4 | 14% | 6% | -79% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1670 | 3 | 6% | 3% | -83% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1090 | 5 | 11% | 4% | -57% | -81% | 5 min |
+| Challenger ATP  | ✘ | 1091 | 5 | 11% | 4% | -57% | -81% | 5 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Men's College Basketball Game | partly | 613 | 5 | 19% | 7% | -24% | -68% | 26 min |
@@ -363,18 +363,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 11:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 11:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 11:49 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-15 11:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 11:48 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
+| 11-15 11:48 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 11-15 11:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:42 | eSoccer Game | Manchester City (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:42 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
+| 11-15 11:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:40 | Counter-Strike 2 Game | Team Jerry | ✘ | — | — | In play | — |
-| 11-15 11:40 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | — | In play | — |
-| 11-15 11:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 11:40 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:38 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | — | In play | — |
-| 11-15 11:38 | eSoccer Game | Argentina (Mei) | ✘ | — | — | In play | — |
-| 11-15 11:38 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
-| 11-15 11:37 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | — | In play | — |
-| 11-15 11:34 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 11:33 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 11-15 11:33 | Russia Liga Pro Match | Shershnev Aleksei | ✘ | — | — | In play | — |
-| 11-15 11:31 | Challenger ATP  | Martin Krumich | ✘ | — | — | In play | — |
+| 11-15 11:38 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:38 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:37 | eSoccer Game | RB Leipzig (Niskanen15) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:33 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:33 | Russia Liga Pro Match | Shershnev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 11:31 | Challenger ATP  | Martin Krumich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:30 | Counter-Strike 2 Game | Team leva2k | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:28 | eSoccer Game | Crystal Palace (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -385,14 +393,6 @@
 | 11-15 11:23 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:23 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 11:23 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:22 | Russia Liga Pro Match | Selkin Vladimir | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 11-15 11:22 | Challenger ATP  | Oskari Paldanius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:21 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:20 | Slovakian 2. Liga Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:19 | Slovakian 2. Liga Game | Zilina B | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 11:18 | Russia Liga Pro Match | Potapkov Andrey | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
