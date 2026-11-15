@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 2:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 2:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63274 | 3466 | 13 (0%) | 1.1% | -$337.90 (-65%) | Hold to the end: -$337.90 (-65%) |
+| 63294 | 3466 | 13 (0%) | 1.1% | -$337.90 (-65%) | Hold to the end: -$337.90 (-65%) |
 
-*In play right now: 61. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 66. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3466 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 59747 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 59762 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,20 +96,20 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 29940 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3787 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 29948 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3789 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2941 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1892 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1826 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1694 | 3 | 6% | 3% | -83% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1695 | 3 | 6% | 3% | -83% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1117 | 5 | 12% | 4% | -58% | -80% | 5 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
-| Men's College Basketball Game | partly | 626 | 5 | 19% | 7% | -25% | -68% | 26 min |
+| Men's College Basketball Game | partly | 627 | 5 | 19% | 7% | -26% | -68% | 26 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Women's College Basketball Game | partly | 610 | 2 | 14% | 4% | -69% | -76% | 33 min |
 | Darts Match | ✘ | 425 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 407 | 2 | 4% | 2% | -54% | -94% | 52 min |
+| Women's College Volleyball Match | ✘ | 408 | 2 | 4% | 2% | -54% | -94% | 51 min |
 | Dota 2 Game | ✘ | 401 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 389 | 2 | 5% | 2% | -52% | -92% | 8 min |
 | Men's T20 Cricket Match | ✘ | 358 | 2 | 16% | 7% | -48% | -72% | 24 min |
@@ -165,12 +165,12 @@
 | English Premier League Game | ✔ | 94 | 1 | 9% | 4% | -1% | -85% | 10 min |
 | Euroleague Game | ✘ | 93 | 0 | 20% | 6% | -100% | -65% | 13 min |
 | ELH Game | ✘ | 91 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| Uruguay Primera Division Game | ✘ | 90 | 0 | 11% | 4% | -100% | -81% | 10 min |
 | Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
 | Italy Serie A2 Game | ✘ | 90 | 1 | 2% | 1% | +4% | -96% | 6 min |
 | Ligue 2 Game | ✘ | 90 | 0 | 8% | 6% | -100% | -87% | 12 min |
 | China League 1 Game | ✘ | 89 | 0 | 9% | 4% | -100% | -84% | 12 min |
 | Men's ODI Cricket Match | ✘ | 89 | 3 | 19% | 7% | +215% | -67% | 56 min |
-| Uruguay Primera Division Game | ✘ | 88 | 0 | 10% | 5% | -100% | -82% | 10 min |
 | UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | SHL Game | ✘ | 86 | 0 | 3% | 2% | -100% | -94% | 6 min |
@@ -364,36 +364,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-15 21:23 | Men's College Basketball Game | Princeton | ✘ | — | — | In play | — |
+| 11-15 21:34 | Women's College Basketball Game | Lindenwood | ✘ | — | — | In play | — |
+| 11-15 21:33 | Darts Match | Cameron Crabtree | ✘ | — | — | In play | — |
+| 11-15 21:33 | Women's College Volleyball Match | Mississippi State | ✘ | — | — | In play | — |
+| 11-15 21:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 21:33 | eSoccer Game | Leverkusen (SilentShooter) | ✘ | — | — | In play | — |
+| 11-15 21:31 | Challenger ATP  | Matt Kuhar | ✘ | — | — | In play | — |
+| 11-15 21:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 21:29 | eSoccer Game | Manchester City (Kevin) | ✘ | — | — | In play | — |
+| 11-15 21:29 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-15 21:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-15 21:28 | Women's College Basketball Game | Stetson | ✘ | — | — | In play | — |
+| 11-15 21:28 | Argentine Nacional B Game | Tristan Suarez | ✘ | — | — | In play | — |
+| 11-15 21:28 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-15 21:26 | eSoccer Game | Chelsea (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:26 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:26 | UEFA Nations League Game | Tie | ✔ | 81' · ITA 1 - BEL 4 | — | In play | — |
+| 11-15 21:25 | UEFA Nations League Game | Tie | ✔ | 82' · TUR 0 - FRA 2 | — | In play | — |
+| 11-15 21:24 | Women's College Basketball Game | Maryland-Eastern Shore | ✘ | — | — | In play | — |
+| 11-15 21:23 | Men's College Basketball Game | Princeton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 21:23 | UEFA Nations League Game | Turkiye | ✔ | 80' · TUR 0 - FRA 2 | — | In play | — |
-| 11-15 21:22 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | — | In play | — |
-| 11-15 21:22 | Uruguay Primera Division Game | Tie | ✘ | — | — | In play | — |
+| 11-15 21:22 | Russia Liga Pro Match | Stepanov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:22 | Uruguay Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 21:22 | Men's College Basketball Game | Chicago St. | ✘ | — | — | In play | — |
-| 11-15 21:20 | eSoccer Game | Paris Saint-Germain (Ryft) | ✘ | — | — | In play | — |
-| 11-15 21:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 21:19 | Women's College Volleyball Match | Alabama | ✘ | — | — | In play | — |
+| 11-15 21:20 | eSoccer Game | Paris Saint-Germain (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-15 21:19 | Women's College Volleyball Match | Alabama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 21:17 | Women's College Basketball Game | South Alabama | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-15 21:17 | UEFA Nations League Game | Czechia | ✔ | 76' · CZE 0 - CRO 1 | — | In play | — |
-| 11-15 21:17 | eBasketball Game | Dallas Mavericks (Jalen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:16 | eBasketball Game | New Orleans Pelicans (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:16 | eSoccer Game | Chelsea (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:16 | Uruguay Primera Division Game | Danubio | ✘ | — | — | In play | — |
-| 11-15 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-15 21:15 | eSoccer Game | Crystal Palace (Kevin) | ✘ | — | — | In play | — |
-| 11-15 21:15 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 11-15 21:14 | NFL Game | Miami | ✔ | 1:18 - 4th · MIA 22 - IND 24 | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:14 | Women's College Basketball Game | South Dakota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:14 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:11 | NFL Game | New Orleans | ✔ | End of 4th · CAR 20 - NO 17 | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:11 | UEFA Nations League Game | Spain | ✔ | 61' · ENG 3 - ESP 0 | — | In play | — |
-| 11-15 21:08 | UEFA Nations League Game | Italy | ✔ | 63' · ITA 1 - BEL 3 | — | In play | — |
-| 11-15 21:08 | Russia Liga Pro Match | Popov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:07 | Women's College Basketball Game | Florida International | ✘ | — | — | In play | — |
-| 11-15 21:06 | eSoccer Game | Manchester City (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-15 21:06 | eSoccer Game | FC Bayern (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
