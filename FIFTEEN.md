@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 16, 12:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 16, 12:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 58714 | 58680 | 227 (0%) | 1.07% | -$3,958.25 (-55%) | Hold to the close: -$3,958.25 (-55%) |
+| 58719 | 58680 | 227 (0%) | 1.07% | -$3,958.25 (-55%) | Hold to the close: -$3,958.25 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/16 12:11:26 PM | ETH | UP | 3.5 min | -0.332% | — | In play | — |
+| 11/16 12:11:26 PM | NEAR | UP | 3.5 min | -0.558% | — | In play | — |
+| 11/16 12:11:26 PM | DOGE | UP | 3.5 min | -0.367% | — | In play | — |
+| 11/16 12:11:10 PM | SOL | UP | 3.8 min | -0.396% | — | In play | — |
+| 11/16 12:10:54 PM | XRP | UP | 4.1 min | -0.469% | — | In play | — |
 | 11/16 11:59:45 AM | USDJPY | DOWN | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/16 11:59:29 AM | DOGE | DOWN | 30 sec | +0.115% | 0¢ | ❌ Lost | $0.00 |
 | 11/16 11:59:13 AM | NATGAS | DOWN | 47 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,11 +219,6 @@
 | 11/16 11:44:45 AM | DOGE | DOWN | 15 sec | -0.015% | 0¢ | ❌ Lost | $0.00 |
 | 11/16 11:44:29 AM | NEAR | UP | 31 sec | -0.136% | 0¢ | ❌ Lost | -$0.15 |
 | 11/16 11:44:13 AM | XRP | DOWN | 47 sec | +0.125% | 0¢ | ❌ Lost | $0.00 |
-| 11/16 11:44:13 AM | INX | UP | 47 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/16 11:44:13 AM | COPPER | UP | 47 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/16 11:43:40 AM | PALLADIUM | UP | 80 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/16 11:43:24 AM | EURUSD | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/16 11:43:24 AM | AUDUSD | UP | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
