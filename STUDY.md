@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 2:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 2:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64234 | 3510 | 13 (0%) | 1.1% | -$344.50 (-65%) | Hold to the end: -$344.50 (-65%) |
+| 64250 | 3510 | 13 (0%) | 1.1% | -$344.50 (-65%) | Hold to the end: -$344.50 (-65%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3510 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60697 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60708 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30526 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3869 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 30534 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3870 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2999 | 6 | 3% | 2% | -81% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1910 | 8 | 14% | 6% | -61% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1838 | 4 | 14% | 6% | -80% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1840 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1715 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1142 | 5 | 12% | 4% | -59% | -80% | 5 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 21:00 | ITF Men's Match | Mohammad Alkotop | ✘ | — | — | In play | — |
-| 11-16 20:59 | eSoccer Game | Portugal (Nicol) | ✘ | — | — | In play | — |
-| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:12 | UEFA Nations League Game | Gibraltar | ✔ | 68' · MLT 1 - GIB 0 | — | In play | — |
+| 11-16 21:10 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | — | In play | — |
+| 11-16 21:09 | Serie C Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:09 | UEFA Nations League Game | North Macedonia | ✔ | 67' · SVN 1 - MKD 0 | — | In play | — |
+| 11-16 21:07 | LaLiga 2 Game | Celta Fortuna | ✔ | 77' · CEL 0 - ALB 1 | — | In play | — |
+| 11-16 21:07 | UEFA Nations League Game | Tie | ✔ | 65' · NED 0 - GER 2 | — | In play | — |
+| 11-16 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:05 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | — | In play | — |
+| 11-16 21:04 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:04 | UEFA Nations League Game | Tie | ✔ | 58' · SCO 0 - SUI 3 | — | In play | — |
+| 11-16 21:04 | UEFA Nations League Game | Netherlands | ✔ | 62' · NED 0 - GER 2 | — | In play | — |
+| 11-16 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:04 | eSoccer Game | Manchester City (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:04 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | — | In play | — |
+| 11-16 21:02 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:02 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:00 | ITF Men's Match | Mohammad Alkotop | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:59 | eSoccer Game | Portugal (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:59 | Russia Liga Pro Match | SHevtsov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 20:57 | eSoccer Game | Chelsea (Castle) | ✘ | — | — | In play | — |
+| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:57 | eSoccer Game | Chelsea (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:57 | Counter-Strike 2 Game | eSuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:57 | UEFA Nations League Game | Scotland | ✔ | 51' · SCO 0 - SUI 2 | — | In play | — |
-| 11-16 20:55 | ITF Men's Match | Marcel Hornung | ✘ | — | — | In play | — |
+| 11-16 20:55 | ITF Men's Match | Marcel Hornung | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-16 20:53 | Russia Liga Pro Match | Popov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:52 | eSoccer Game | Leverkusen (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:52 | eSoccer Game | Benfica (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:50 | Russia Liga Pro Match | Tunitsyn Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:49 | eSoccer Game | Manchester City (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:49 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:49 | eBasketball Game | Dallas Mavericks (Steph) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:48 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:47 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:45 | eSoccer Game | Portugal (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:44 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:43 | Dota 2 Game | Team Synapse | ✘ | — | — | In play | — |
-| 11-16 20:42 | CONCACAF Nations League Game | Tie | ✔ | 84' · PUR 2 - GUY 4 | 2¢ | ❌ Lost | -$0.15 |
-| 11-16 20:38 | eSoccer Game | Paris Saint-Germain (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:38 | eSoccer Game | Manchester City (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:36 | ITF Women's Match | Isadora Sigrist | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
