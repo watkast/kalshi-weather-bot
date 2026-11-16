@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 3:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63909 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
+| 63924 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
 
-*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 57. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3502 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60359 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60365 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30338 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3837 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 30342 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3839 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2983 | 6 | 3% | 1% | -81% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1898 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1831 | 4 | 14% | 6% | -80% | -76% | 5 min |
@@ -365,12 +365,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 10:31 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | — | In play | — |
+| 11-16 10:48 | Darts Match | Trina Gulliver | ✘ | — | — | In play | — |
+| 11-16 10:47 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | — | In play | — |
+| 11-16 10:46 | Men's T20 Cricket Match | Tripura | ✘ | — | — | In play | — |
+| 11-16 10:46 | Counter-Strike 2 Game | BRUTE SQ | ✘ | — | — | In play | — |
+| 11-16 10:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 10:44 | eSoccer Game | RB Leipzig (Endrick) | ✘ | — | — | In play | — |
+| 11-16 10:44 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | — | In play | — |
+| 11-16 10:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 10:43 | eSoccer Game | Frankfurt (Eder) | ✘ | — | — | In play | — |
+| 11-16 10:43 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | — | In play | — |
+| 11-16 10:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 10:43 | eSoccer Game | Argentina (Mei) | ✘ | — | — | In play | — |
+| 11-16 10:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 10:41 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 11-16 10:39 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:31 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:31 | Men's ODI Cricket Match | Victoria | ✘ | — | — | In play | — |
-| 11-16 10:31 | eSoccer Game | Everton (Ryft) | ✘ | — | — | In play | — |
-| 11-16 10:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 10:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 10:30 | eSoccer Game | Benfica (Danny) | ✘ | — | — | In play | — |
+| 11-16 10:31 | eSoccer Game | Everton (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:30 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:29 | ITF Women's Match | Patricia Georgiana Goina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:29 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -380,21 +395,6 @@
 | 11-16 10:22 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:21 | Men's T20 Cricket Match | Meghalaya | ✘ | — | — | In play | — |
 | 11-16 10:18 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:16 | Darts Match | Eleanor Cairns | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:16 | eSoccer Game | Manchester City (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:15 | eSoccer Game | Benfica (Danny) | ✘ | — | 26¢ | ❌ Lost | -$0.15 |
-| 11-16 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:13 | eSoccer Game | Paris Saint-Germain (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:08 | Men's T20 Cricket Match | Gujarat | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-16 10:05 | eSoccer Game | Chelsea (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:02 | eSoccer Game | Leverkusen (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:01 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:01 | eSoccer Game | Paris Saint-Germain (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:01 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
 
 ## Raw data
 
