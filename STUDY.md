@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 9:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 9:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63674 | 3498 | 13 (0%) | 1.1% | -$342.70 (-65%) | Hold to the end: -$342.70 (-65%) |
+| 63680 | 3498 | 13 (0%) | 1.1% | -$342.70 (-65%) | Hold to the end: -$342.70 (-65%) |
 
-*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3498 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60127 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60137 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30172 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30182 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3815 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2967 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1893 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -353,7 +353,7 @@
 
 | Metric | Typical (median) |
 |---|---|
-| Our buy vs Kalshi's first 1¢ trade | 38 sec later |
+| Our buy vs Kalshi's first 1¢ trade | 37 sec later |
 | Time from 1¢ to its best bounce (bounced bets) | 6 min |
 | Contracts traded at 1¢ after our buy (how much you could buy) | 0 |
 
@@ -365,16 +365,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 04:10 | eSoccer Game | Arsenal (NINJA) | ✘ | — | — | In play | — |
-| 11-16 04:10 | eSoccer Game | Chelsea (Strudl) | ✘ | — | — | In play | — |
-| 11-16 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 04:06 | eSoccer Game | Leverkusen (Declan) | ✘ | — | — | In play | — |
-| 11-16 04:05 | eSoccer Game | England (Megan) | ✘ | — | — | In play | — |
-| 11-16 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 04:03 | eSoccer Game | 1. FC Köln (Luis) | ✘ | — | — | In play | — |
-| 11-16 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 04:03 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-16 04:20 | NHL Game | Nashville | ✔ | 7:29 - 3rd · NSH 1 - SJ 4 | — | In play | — |
+| 11-16 04:19 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | — | In play | — |
+| 11-16 04:18 | eSoccer Game | Frankfurt (Luis) | ✘ | — | — | In play | — |
+| 11-16 04:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 04:17 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-16 04:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 04:10 | eSoccer Game | Arsenal (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:10 | eSoccer Game | Chelsea (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:06 | eSoccer Game | Leverkusen (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:05 | eSoccer Game | England (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:03 | eSoccer Game | 1. FC Köln (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 04:03 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 03:55 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 03:54 | NBA Game | Sacramento | ✔ | 10:06 - 4th · OKC 98 - SAC 82 | — | In play | — |
@@ -389,12 +395,6 @@
 | 11-16 03:39 | eSoccer Game | 1. FC Köln (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 03:39 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 03:38 | AHL Game | Colorado Eagles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 03:37 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 03:35 | eSoccer Game | Dortmund (Luis) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-16 03:35 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 03:34 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
