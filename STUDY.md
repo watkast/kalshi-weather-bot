@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 15, 6:22 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 15, 6:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63534 | 3490 | 13 (0%) | 1.1% | -$341.50 (-65%) | Hold to the end: -$341.50 (-65%) |
+| 63547 | 3490 | 13 (0%) | 1.1% | -$341.50 (-65%) | Hold to the end: -$341.50 (-65%) |
 
-*In play right now: 45. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3490 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 59999 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60008 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30084 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30090 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3810 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2957 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1892 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -109,7 +109,7 @@
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 429 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 412 | 2 | 4% | 2% | -55% | -94% | 55 min |
+| Women's College Volleyball Match | ✘ | 413 | 2 | 4% | 2% | -55% | -94% | 56 min |
 | Dota 2 Game | ✘ | 402 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 389 | 2 | 5% | 2% | -52% | -92% | 8 min |
 | Men's T20 Cricket Match | ✘ | 358 | 2 | 16% | 7% | -48% | -72% | 24 min |
@@ -334,6 +334,7 @@
 | Argentina Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 24 min |
 | USL League One Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 12 min |
 | China CBA (W) Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Peru League Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 87 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Bosnia Division I Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 309 min |
@@ -364,10 +365,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 01:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 01:19 | eSoccer Game | Montpellier (Megan) | ✘ | — | — | In play | — |
-| 11-16 01:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 01:17 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 11-16 01:33 | Counter-Strike 2 Game | LAG Gaming | ✘ | — | — | In play | — |
+| 11-16 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 01:32 | Argentine Nacional B Game | Ferro Carril Oeste | ✘ | — | — | In play | — |
+| 11-16 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 01:31 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
+| 11-16 01:31 | Women's College Basketball Game | Nicholls St. | ✘ | — | — | In play | — |
+| 11-16 01:29 | NBA Game | Washington | ✔ | 8:36 - 3rd · HOU 86 - WSH 58 | — | In play | — |
+| 11-16 01:29 | eSoccer Game | Estudiantes (Declan) | ✘ | — | — | In play | — |
+| 11-16 01:28 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 11-16 01:28 | ITF Women's Match | Laquisa Khan | ✘ | — | — | In play | — |
+| 11-16 01:27 | AHL Game | Tucson Roadrunners | ✘ | — | — | In play | — |
+| 11-16 01:24 | eSoccer Game | Real Madrid (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 01:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 01:19 | eSoccer Game | Montpellier (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 01:17 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 01:12 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 01:10 | eSoccer Game | RCD Mallorca (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 01:08 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -381,19 +395,6 @@
 | 11-16 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 01:05 | Men's College Basketball Game | Coastal Carolina | ✘ | — | — | In play | — |
 | 11-16 01:04 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 01:04 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 01:04 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:56 | eSoccer Game | Getafe CF (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:56 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:53 | Women's College Basketball Game | UIC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:53 | eSoccer Game | Estudiantes (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:53 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:53 | Uruguay Primera Division Game | Penarol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:52 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:52 | eSoccer Game | São Paulo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:52 | eSoccer Game | Montpellier (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 00:50 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
