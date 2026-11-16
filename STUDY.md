@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 3:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63894 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
+| 63899 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
 
-*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3502 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60344 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60351 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30330 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30336 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3834 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2982 | 6 | 3% | 1% | -81% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1897 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -108,7 +108,7 @@
 | Women's College Basketball Game | partly | 639 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| Darts Match | ✘ | 431 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Darts Match | ✘ | 432 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 414 | 2 | 4% | 2% | -55% | -94% | 56 min |
 | Dota 2 Game | ✘ | 402 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 389 | 2 | 5% | 2% | -52% | -92% | 8 min |
@@ -365,12 +365,17 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 10:16 | Darts Match | Eleanor Cairns | ✘ | — | — | In play | — |
-| 11-16 10:16 | eSoccer Game | Manchester City (Ryft) | ✘ | — | — | In play | — |
-| 11-16 10:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 10:15 | eSoccer Game | Benfica (Danny) | ✘ | — | — | In play | — |
-| 11-16 10:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 10:13 | eSoccer Game | Paris Saint-Germain (Endrick) | ✘ | — | — | In play | — |
+| 11-16 10:27 | Russia Liga Pro Match | Gavrilov Yuriy | ✘ | — | — | In play | — |
+| 11-16 10:24 | Russia Liga Pro Match | Plevako Ilia | ✘ | — | — | In play | — |
+| 11-16 10:22 | Russia Liga Pro Match | Kulikov Sergey | ✘ | — | — | In play | — |
+| 11-16 10:21 | Men's T20 Cricket Match | Meghalaya | ✘ | — | — | In play | — |
+| 11-16 10:18 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:16 | Darts Match | Eleanor Cairns | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:16 | eSoccer Game | Manchester City (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:15 | eSoccer Game | Benfica (Danny) | ✘ | — | 26¢ | ❌ Lost | -$0.15 |
+| 11-16 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:13 | eSoccer Game | Paris Saint-Germain (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:08 | Men's T20 Cricket Match | Gujarat | ✘ | — | — | In play | — |
 | 11-16 10:05 | eSoccer Game | Chelsea (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -390,11 +395,6 @@
 | 11-16 09:52 | ITF Women's Match | Maayan Laron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 09:48 | eSoccer Game | Montpellier (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 09:48 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 09:48 | eSoccer Game | FC Bayern (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 09:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 09:48 | eSoccer Game | Nantes (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 09:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 09:47 | Darts Match | Trina Gulliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
