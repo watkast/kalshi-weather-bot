@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 1:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 1:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64185 | 3504 | 13 (0%) | 1.1% | -$343.60 (-65%) | Hold to the end: -$343.60 (-65%) |
+| 64196 | 3504 | 13 (0%) | 1.1% | -$343.60 (-65%) | Hold to the end: -$343.60 (-65%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3504 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60650 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60657 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30498 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30502 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3863 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2995 | 6 | 3% | 2% | -81% | -92% | 3 min |
+| eBasketball Game | ✘ | 2997 | 6 | 3% | 2% | -81% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1908 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1838 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1711 | 3 | 6% | 3% | -84% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1712 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1141 | 5 | 12% | 4% | -59% | -80% | 5 min |
 | Men's College Basketball Game | partly | 644 | 5 | 19% | 7% | -28% | -67% | 26 min |
@@ -367,15 +367,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-16 20:30 | Russia Liga Pro Match | Kochetkov Konstantin | ✘ | — | — | In play | — |
+| 11-16 20:30 | CONCACAF Nations League Game | Puerto Rico | ✔ | 72' · PUR 1 - GUY 2 | — | In play | — |
+| 11-16 20:28 | Counter-Strike 2 Game | Team NS | ✘ | — | — | In play | — |
+| 11-16 20:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 20:23 | eSoccer Game | FC Bayern (Dzen) | ✘ | — | — | In play | — |
+| 11-16 20:21 | eSoccer Game | Manchester City (Vini) | ✘ | — | — | In play | — |
+| 11-16 20:21 | eSoccer Game | Crystal Palace (Kylian) | ✘ | — | — | In play | — |
+| 11-16 20:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 20:21 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:21 | Challenger ATP  | Diego Dedura | ✘ | — | — | In play | — |
+| 11-16 20:20 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:20 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-16 20:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 20:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 20:18 | eSoccer Game | Spain (Alicia) | ✘ | — | — | In play | — |
+| 11-16 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 20:18 | eSoccer Game | Spain (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:16 | CONCACAF Nations League Game | Bermuda | ✔ | 57' · BER 0 - GDL 1 | — | In play | — |
-| 11-16 20:15 | eSoccer Game | Everton (Bradley) | ✘ | — | — | In play | — |
+| 11-16 20:15 | eSoccer Game | Everton (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:13 | ITF Women's Match | Pietra Rivoli | ✘ | — | — | In play | — |
 | 11-16 20:11 | ITF Men's Match | Joao Portugal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:11 | Counter-Strike 2 Game | OldBoys | ✘ | — | — | In play | — |
+| 11-16 20:11 | Counter-Strike 2 Game | OldBoys | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:07 | Israel Super League Game | Hapoel Eilat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:06 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -386,17 +397,6 @@
 | 11-16 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 20:04 | eSoccer Game | Portugal (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:03 | eSoccer Game | Arsenal (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:03 | eSoccer Game | Nottingham Forest (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:01 | Challenger ATP  | Francisco Llanes | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:58 | ITF Men's Match | Rafael Candelas Ruiz | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-16 19:57 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
-| 11-16 19:55 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:55 | eSoccer Game | Arsenal (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:53 | Russia Liga Pro Match | Mashchenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 19:52 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
