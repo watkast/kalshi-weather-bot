@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:56 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 4:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64356 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
+| 64360 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60814 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60815 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,7 +97,7 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 30606 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3880 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| Russia Liga Pro Match | ✘ | 3881 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 3007 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1912 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1840 | 4 | 14% | 6% | -80% | -76% | 5 min |
@@ -367,7 +367,11 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 22:55 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | — | In play | — |
+| 11-16 23:05 | Challenger ATP  | Pyotr Nesterov | ✘ | — | — | In play | — |
+| 11-16 23:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 23:03 | eSoccer Game | Sevilla FC (NINJA) | ✘ | — | — | In play | — |
+| 11-16 22:58 | Men's College Basketball Game | Prairie View A&M | ✘ | — | — | In play | — |
+| 11-16 22:55 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:49 | eSoccer Game | RCD Mallorca (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:47 | eSoccer Game | Universitario (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,10 +397,6 @@
 | 11-16 22:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:29 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:28 | Men's College Basketball Game | Alcorn St. | ✘ | — | — | In play | — |
-| 11-16 22:26 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:24 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:22 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
