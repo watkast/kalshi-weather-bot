@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 12:39 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 12:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63740 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
+| 63752 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
 
-*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3502 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60191 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60197 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30222 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3818 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 30224 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3819 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2972 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1895 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1828 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1702 | 3 | 6% | 3% | -84% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1127 | 5 | 12% | 4% | -59% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1128 | 5 | 12% | 4% | -59% | -80% | 5 min |
 | Men's College Basketball Game | partly | 644 | 5 | 19% | 7% | -28% | -67% | 26 min |
 | Women's College Basketball Game | partly | 639 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
@@ -133,7 +133,7 @@
 | ATP Tennis Match | ✘ | 152 | 0 | 16% | 7% | -100% | -73% | 4 min |
 | English National League Game | ✘ | 149 | 1 | 8% | 6% | -37% | -86% | 10 min |
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
-| Valorant game winner | ✘ | 142 | 0 | 4% | 3% | -100% | -93% | 11 min |
+| Valorant game winner | ✘ | 144 | 0 | 4% | 3% | -100% | -93% | 11 min |
 | CONCACAF Nations League Game | partly | 140 | 2 | 21% | 9% | +33% | -64% | 20 min |
 | Overwatch Game | ✘ | 131 | 0 | 2% | 0% | -100% | -97% | 6 min |
 | LaLiga 2 Game | partly | 129 | 1 | 18% | 8% | -28% | -69% | 9 min |
@@ -365,11 +365,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 07:38 | Valorant game winner | Hyper Tide Gaming | ✘ | — | — | In play | — |
-| 11-16 07:37 | Valorant game winner | SEC | ✘ | — | — | In play | — |
-| 11-16 07:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 07:32 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | — | In play | — |
-| 11-16 07:32 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | — | In play | — |
+| 11-16 07:46 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | — | In play | — |
+| 11-16 07:46 | eBasketball Game | Dallas Mavericks (Cade) | ✘ | — | — | In play | — |
+| 11-16 07:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 07:43 | eSoccer Game | Nantes (Ryft) | ✘ | — | — | In play | — |
+| 11-16 07:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 07:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 07:42 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | — | In play | — |
+| 11-16 07:41 | eSoccer Game | Real Madrid (Endrick) | ✘ | — | — | In play | — |
+| 11-16 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 07:41 | eSoccer Game | Spurs (Mei) | ✘ | — | — | In play | — |
+| 11-16 07:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 07:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-16 07:38 | Valorant game winner | Hyper Tide Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 07:37 | Valorant game winner | SEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 07:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 07:32 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 07:32 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 07:29 | eSoccer Game | Sevilla FC (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 07:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 07:29 | Russia Liga Pro Match | Burmakin IUrii | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
@@ -383,18 +395,6 @@
 | 11-16 07:20 | eSoccer Game | Rennes (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 07:20 | eSoccer Game | Nantes (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 07:20 | eSoccer Game | Real Madrid (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 07:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 07:20 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 07:20 | Men's T20 Cricket Match | Jharkhand | ✘ | — | — | In play | — |
-| 11-16 07:20 | Men's T20 Cricket Match | Andhra | ✘ | — | — | In play | — |
-| 11-16 07:20 | Men's T20 Cricket Match | Railways | ✘ | — | — | In play | — |
-| 11-16 07:20 | eBasketball Game | Indiana Pacers (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 07:20 | Challenger ATP  | Jie Cui | ✘ | — | — | In play | — |
-| 11-16 05:05 | Men's T20 Cricket Match | Odisha | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-16 05:03 | Men's ODI Cricket Match | New South Wales Blues | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 05:03 | Challenger ATP  | Dimitris Sakellaridis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 05:01 | eSoccer Game | England (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 05:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
