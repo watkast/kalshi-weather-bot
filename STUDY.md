@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 3:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64329 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
+| 64342 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60777 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60789 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30576 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30586 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3878 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 3005 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1912 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -146,9 +146,9 @@
 | Japan J League Game | ✘ | 119 | 1 | 16% | 7% | -22% | -72% | 12 min |
 | Japan B League Game | ✘ | 119 | 0 | 8% | 1% | -100% | -87% | 13 min |
 | Serie B Game | ✘ | 115 | 0 | 10% | 5% | -100% | -82% | 9 min |
+| Peru Liga 1 Game | ✘ | 114 | 0 | 16% | 7% | -100% | -73% | 14 min |
 | Liiga Game | ✘ | 113 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | German 3. Liga Game | ✘ | 113 | 0 | 11% | 4% | -100% | -82% | 10 min |
-| Peru Liga 1 Game | ✘ | 112 | 0 | 16% | 7% | -100% | -72% | 14 min |
 | Serie A Game | ✔ | 112 | 0 | 10% | 5% | -100% | -83% | 12 min |
 | Liga MX Game | ✔ | 110 | 0 | 14% | 8% | -100% | -76% | 7 min |
 | UEFA Champions League Game | partly | 109 | 1 | 11% | 5% | -14% | -81% | 10 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 22:24 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:22 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | — | In play | — |
-| 11-16 22:20 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:35 | eSoccer Game | Real Betis (Mordor) | ✘ | — | — | In play | — |
+| 11-16 22:35 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | — | In play | — |
+| 11-16 22:35 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | — | In play | — |
+| 11-16 22:33 | eSoccer Game | Flamengo (Frenkie) | ✘ | — | — | In play | — |
+| 11-16 22:33 | eSoccer Game | Boca Juniors (Declan) | ✘ | — | — | In play | — |
+| 11-16 22:32 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
+| 11-16 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:31 | eSoccer Game | Palmeiras (Luis) | ✘ | — | — | In play | — |
+| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:29 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-16 22:28 | Men's College Basketball Game | Alcorn St. | ✘ | — | — | In play | — |
+| 11-16 22:26 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-16 22:24 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:22 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:19 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:18 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
-| 11-16 22:18 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
-| 11-16 22:18 | Peru Liga 1 Game | Atletico Grau | ✘ | — | — | In play | — |
-| 11-16 22:18 | eSoccer Game | River Plate (Declan) | ✘ | — | — | In play | — |
-| 11-16 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:16 | eSoccer Game | Universitario (Frenkie) | ✘ | — | — | In play | — |
-| 11-16 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:14 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-16 22:18 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:18 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:18 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:18 | eSoccer Game | River Plate (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:16 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:14 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:13 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:12 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:11 | Peru Liga 1 Game | Cusco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:10 | Peru Liga 1 Game | Asociacion Deportiva Tarma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:08 | eSoccer Game | Real Madrid (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:07 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:07 | eSoccer Game | Palmeiras (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:05 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:04 | Russia Liga Pro Match | Mameka Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:04 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:03 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 21:57 | Russia Liga Pro Match | SHevtsov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
