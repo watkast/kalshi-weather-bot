@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 3:46 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64342 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
+| 64349 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60789 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60802 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30586 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3878 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 30596 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3880 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 3005 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1912 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1840 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1716 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1143 | 5 | 12% | 4% | -59% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1144 | 5 | 12% | 4% | -59% | -80% | 5 min |
 | Men's College Basketball Game | partly | 644 | 5 | 19% | 7% | -28% | -67% | 26 min |
 | Women's College Basketball Game | partly | 639 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
@@ -367,19 +367,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 22:35 | eSoccer Game | Real Betis (Mordor) | ✘ | — | — | In play | — |
-| 11-16 22:35 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | — | In play | — |
-| 11-16 22:35 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | — | In play | — |
-| 11-16 22:33 | eSoccer Game | Flamengo (Frenkie) | ✘ | — | — | In play | — |
-| 11-16 22:33 | eSoccer Game | Boca Juniors (Declan) | ✘ | — | — | In play | — |
-| 11-16 22:32 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
-| 11-16 22:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:31 | eSoccer Game | Palmeiras (Luis) | ✘ | — | — | In play | — |
-| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 22:29 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-16 22:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:45 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-16 22:45 | eSoccer Game | River Plate (Luis) | ✘ | — | — | In play | — |
+| 11-16 22:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 22:43 | eBasketball Game | New Orleans Pelicans (Conor) | ✘ | — | — | In play | — |
+| 11-16 22:41 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-16 22:36 | Challenger ATP  | Mitchell Krueger | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
+| 11-16 22:35 | eSoccer Game | Real Betis (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:35 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:35 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:33 | eSoccer Game | Flamengo (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:33 | eSoccer Game | Boca Juniors (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:32 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:31 | eSoccer Game | Palmeiras (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 22:29 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:28 | Men's College Basketball Game | Alcorn St. | ✘ | — | — | In play | — |
-| 11-16 22:26 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-16 22:26 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:24 | Peru Liga 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:22 | eSoccer Game | Real Sociedad (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -390,13 +397,6 @@
 | 11-16 22:18 | Peru Liga 1 Game | Atletico Grau | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:18 | eSoccer Game | River Plate (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:16 | eSoccer Game | Universitario (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:14 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:13 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:12 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:11 | Peru Liga 1 Game | Cusco | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:10 | Peru Liga 1 Game | Asociacion Deportiva Tarma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
