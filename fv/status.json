@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-16T22:02:25+00:00",
+ "saved_at": "2026-11-16T22:12:49+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -79,15 +79,15 @@
  "open": 0,
  "results_known": 38046,
  "sigma_pct": {
-  "DOGE": 0.0812,
-  "ETH": 0.0575,
-  "NEAR": 0.1233,
-  "ZEC": 0.2095,
-  "BTC": 0.0521,
-  "XRP": 0.0843,
-  "HYPE": 0.227,
-  "BNB": 0.0511,
-  "SOL": 0.0724
+  "DOGE": 0.0865,
+  "ETH": 0.0603,
+  "NEAR": 0.1321,
+  "ZEC": 0.1796,
+  "BTC": 0.0623,
+  "XRP": 0.0793,
+  "HYPE": 0.2245,
+  "BNB": 0.0528,
+  "SOL": 0.0757
  },
  "errors": [
   "2026-11-16T22:01:17+00:00 refresh KXNEAR15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXNEAR15M&status=open&limit=1000",
