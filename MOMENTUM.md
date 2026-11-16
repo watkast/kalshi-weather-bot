@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Mon Nov 16 00:09 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Mon Nov 16 00:19 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 42757 | 37131 | 5626 (166) | 0 | $-1473.78 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 26240 | 14356 | 11884 (5310) | 0 | $-8696.60 | -5.2% |
+| **20¢+ jump, sell +5¢** | 42758 | 37132 | 5626 (166) | 1 | $-1473.53 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 26240 | 14356 | 11884 (5310) | 1 | $-8696.60 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 11-16 00:19 | J20 | ZEC | UP | 24¢ | 0.85 | open |  |
+| 11-16 00:16 | J20R | ZEC | UP | 24¢ | 0.54 | open |  |
+| 11-16 00:16 | J20 | ZEC | UP | 24¢ | 0.55 | 0.61 | 0.25 |
 | 11-16 00:06 | J20 | ETH | DOWN | 24¢ | 0.87 | 0.93 | 0.44 |
 | 11-16 00:06 | J20R | BNB | DOWN | 22¢ | 0.69 | 0.80 | 0.83 |
 | 11-16 00:06 | J20 | BNB | DOWN | 22¢ | 0.69 | 0.77 | 0.52 |
@@ -55,6 +58,3 @@
 | 11-15 23:50 | J20R | XRP | DOWN | 28¢ | 0.59 | 0.89 | 2.76 |
 | 11-15 23:50 | J20 | XRP | DOWN | 28¢ | 0.59 | 0.69 | 0.68 |
 | 11-15 23:39 | J20R | HYPE | UP | 20¢ | 0.81 | yes | 1.79 |
-| 11-15 23:39 | J20 | HYPE | UP | 20¢ | 0.81 | 0.86 | 0.30 |
-| 11-15 23:37 | J20 | HYPE | UP | 38¢ | 0.46 | 0.57 | 0.74 |
-| 11-15 23:37 | J20 | HYPE | UP | 38¢ | 0.44 | 0.57 | 0.96 |
