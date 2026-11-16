@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 2:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 2:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64250 | 3510 | 13 (0%) | 1.1% | -$344.50 (-65%) | Hold to the end: -$344.50 (-65%) |
+| 64267 | 3510 | 13 (0%) | 1.1% | -$344.50 (-65%) | Hold to the end: -$344.50 (-65%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3510 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60708 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60718 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30534 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3870 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2999 | 6 | 3% | 2% | -81% | -92% | 3 min |
+| eSoccer Game | ✘ | 30538 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3872 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 3000 | 6 | 3% | 2% | -81% | -92% | 3 min |
 | ITF Women's Match | ✘ | 1910 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1840 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1715 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1142 | 5 | 12% | 4% | -59% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1143 | 5 | 12% | 4% | -59% | -80% | 5 min |
 | Men's College Basketball Game | partly | 644 | 5 | 19% | 7% | -28% | -67% | 26 min |
 | Women's College Basketball Game | partly | 639 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 434 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 414 | 2 | 4% | 2% | -55% | -94% | 56 min |
-| Dota 2 Game | ✘ | 408 | 1 | 1% | 1% | -77% | -98% | 32 min |
+| Dota 2 Game | ✘ | 409 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 389 | 2 | 5% | 2% | -52% | -92% | 8 min |
 | Men's T20 Cricket Match | ✘ | 371 | 2 | 16% | 7% | -50% | -72% | 25 min |
 | NHL Game | ✔ | 326 | 2 | 15% | 9% | -43% | -74% | 5 min |
@@ -213,9 +213,9 @@
 | Chinese Super League Game | ✘ | 62 | 1 | 11% | 6% | +51% | -80% | 19 min |
 | Serbian SuperLiga Game | ✘ | 62 | 0 | 3% | 2% | -100% | -94% | 15 min |
 | Brazil NBB Basketball Game | ✘ | 62 | 0 | 6% | 3% | -100% | -89% | 16 min |
+| Adriatic ABA Game | ✘ | 60 | 1 | 7% | 3% | +56% | -88% | 9 min |
 | Vietnam V-League 1 Game | ✘ | 60 | 1 | 5% | 3% | +56% | -91% | 11 min |
 | Korea K League Game | ✘ | 60 | 1 | 15% | 8% | +56% | -74% | 8 min |
-| Adriatic ABA Game | ✘ | 59 | 1 | 7% | 3% | +58% | -88% | 9 min |
 | Spain Liga ACB Game | ✘ | 58 | 0 | 7% | 3% | -100% | -88% | 14 min |
 | KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
 | LNB Elite Game | ✘ | 57 | 0 | 2% | 0% | -100% | -97% | 9 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-16 21:21 | ATP Tennis Match | Flavio Cobolli | ✘ | — | — | In play | — |
+| 11-16 21:21 | UEFA Nations League Game | Tie | ✔ | 79' · SVN 2 - MKD 0 | — | In play | — |
+| 11-16 21:21 | UEFA Nations League Game | Serbia | ✔ | 76' · SRB 0 - GRE 1 | — | In play | — |
+| 11-16 21:19 | eSoccer Game | Paris Saint-Germain (Krocs) | ✘ | — | — | In play | — |
+| 11-16 21:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:17 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:16 | eSoccer Game | Sunderland (Kevin) | ✘ | — | — | In play | — |
+| 11-16 21:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 21:15 | Challenger ATP  | Noah Zamora | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:15 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:15 | eSoccer Game | Everton (Bradley) | ✘ | — | — | In play | — |
+| 11-16 21:15 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-16 21:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:14 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | — | In play | — |
+| 11-16 21:13 | eSoccer Game | Spain (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 21:12 | UEFA Nations League Game | Gibraltar | ✔ | 68' · MLT 1 - GIB 0 | — | In play | — |
-| 11-16 21:10 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | — | In play | — |
+| 11-16 21:10 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 21:09 | Serie C Game | Tie | ✘ | — | — | In play | — |
 | 11-16 21:09 | UEFA Nations League Game | North Macedonia | ✔ | 67' · SVN 1 - MKD 0 | — | In play | — |
 | 11-16 21:07 | LaLiga 2 Game | Celta Fortuna | ✔ | 77' · CEL 0 - ALB 1 | — | In play | — |
 | 11-16 21:07 | UEFA Nations League Game | Tie | ✔ | 65' · NED 0 - GER 2 | — | In play | — |
-| 11-16 21:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 21:05 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | — | In play | — |
+| 11-16 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 21:05 | Adriatic ABA Game | KK Studentski centar Podgorica | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-16 21:04 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 21:04 | UEFA Nations League Game | Tie | ✔ | 58' · SCO 0 - SUI 3 | — | In play | — |
 | 11-16 21:04 | UEFA Nations League Game | Netherlands | ✔ | 62' · NED 0 - GER 2 | — | In play | — |
 | 11-16 21:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 21:04 | eSoccer Game | Manchester City (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 21:04 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | — | In play | — |
-| 11-16 21:02 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 21:02 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 21:00 | ITF Men's Match | Mohammad Alkotop | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:59 | eSoccer Game | Portugal (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:59 | Russia Liga Pro Match | SHevtsov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:57 | eSoccer Game | Chelsea (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:57 | Counter-Strike 2 Game | eSuba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:57 | UEFA Nations League Game | Scotland | ✔ | 51' · SCO 0 - SUI 2 | — | In play | — |
-| 11-16 20:55 | ITF Men's Match | Marcel Hornung | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-16 20:53 | Russia Liga Pro Match | Popov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:52 | eSoccer Game | Leverkusen (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:52 | eSoccer Game | Benfica (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:50 | Russia Liga Pro Match | Tunitsyn Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
