@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 3:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 4:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63933 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
+| 63939 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
 
-*In play right now: 54. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 49. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3502 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60377 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60388 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30352 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3839 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 2983 | 6 | 3% | 1% | -81% | -92% | 3 min |
+| eSoccer Game | ✘ | 30356 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3841 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 2985 | 6 | 3% | 2% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1898 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1831 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1702 | 3 | 6% | 3% | -84% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1703 | 3 | 6% | 3% | -84% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1128 | 5 | 12% | 4% | -59% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1129 | 5 | 12% | 4% | -59% | -80% | 5 min |
 | Men's College Basketball Game | partly | 644 | 5 | 19% | 7% | -28% | -67% | 26 min |
 | Women's College Basketball Game | partly | 639 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
@@ -166,8 +166,8 @@
 | Euroleague Game | ✘ | 93 | 0 | 20% | 6% | -100% | -65% | 13 min |
 | Uruguay Primera Division Game | ✘ | 92 | 0 | 11% | 4% | -100% | -81% | 10 min |
 | ELH Game | ✘ | 91 | 0 | 1% | 1% | -100% | -98% | 5 min |
+| Men's ODI Cricket Match | ✘ | 91 | 3 | 20% | 8% | +208% | -66% | 56 min |
 | Liga Leumit Game | ✘ | 90 | 0 | 4% | 3% | -100% | -92% | 18 min |
-| Men's ODI Cricket Match | ✘ | 90 | 3 | 19% | 7% | +211% | -67% | 56 min |
 | Italy Serie A2 Game | ✘ | 90 | 1 | 2% | 1% | +4% | -96% | 6 min |
 | Ligue 2 Game | ✘ | 90 | 0 | 8% | 6% | -100% | -87% | 12 min |
 | China League 1 Game | ✘ | 89 | 0 | 9% | 4% | -100% | -84% | 12 min |
@@ -365,19 +365,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 10:58 | eBasketball Game | New York Knicks (Ray) | ✘ | — | — | In play | — |
-| 11-16 10:57 | Russia Liga Pro Match | Plevako Ilia | ✘ | — | — | In play | — |
-| 11-16 10:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:08 | eSoccer Game | Spain (Florie) | ✘ | — | — | In play | — |
+| 11-16 11:08 | Darts Match | Vicky Pruim | ✘ | — | — | In play | — |
+| 11-16 11:07 | ITF Women's Match | Mirjana Jovanovic | ✘ | — | — | In play | — |
+| 11-16 11:03 | Men's T20 Cricket Match | Mizoram | ✘ | — | — | In play | — |
+| 11-16 11:02 | Women's T20 Match | Delhi Women | ✘ | — | — | In play | — |
+| 11-16 10:58 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:57 | Russia Liga Pro Match | Plevako Ilia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:55 | Dota 2 Game | Team Lynx | ✘ | — | — | In play | — |
-| 11-16 10:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 10:55 | Challenger ATP  | Carlo Alberto Caniato | ✘ | — | — | In play | — |
-| 11-16 10:54 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | — | In play | — |
-| 11-16 10:54 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
-| 11-16 10:54 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-16 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:55 | Challenger ATP  | Carlo Alberto Caniato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:54 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:54 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 10:54 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:48 | Darts Match | Trina Gulliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:47 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | — | In play | — |
+| 11-16 10:47 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 11-16 10:46 | Men's T20 Cricket Match | Tripura | ✘ | — | — | In play | — |
-| 11-16 10:46 | Counter-Strike 2 Game | BRUTE SQ | ✘ | — | — | In play | — |
+| 11-16 10:46 | Counter-Strike 2 Game | BRUTE SQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:44 | eSoccer Game | RB Leipzig (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:44 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -389,12 +395,6 @@
 | 11-16 10:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:41 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 10:39 | Russia Liga Pro Match | Bogdenko Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:31 | Russia Liga Pro Match | Kochergin Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:31 | Men's ODI Cricket Match | Victoria | ✘ | — | — | In play | — |
-| 11-16 10:31 | eSoccer Game | Everton (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:30 | eSoccer Game | Benfica (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
