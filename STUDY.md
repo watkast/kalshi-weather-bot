@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 4:27 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 4:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64383 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
+| 64391 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
 
 *In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60834 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60842 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30618 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30626 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3884 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 3009 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1912 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -367,11 +367,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 23:26 | eSoccer Game | Boca Juniors (Luis) | ✘ | — | — | In play | — |
-| 11-16 23:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 23:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
-| 11-16 23:25 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
-| 11-16 23:24 | eSoccer Game | River Plate (Declan) | ✘ | — | — | In play | — |
+| 11-16 23:37 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-16 23:37 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | — | In play | — |
+| 11-16 23:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 23:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:29 | eSoccer Game | CA Osasuna (Mantis) | ✘ | — | — | In play | — |
+| 11-16 23:28 | Challenger WTA | Luisina Giovannini | ✘ | — | — | In play | — |
+| 11-16 23:28 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:26 | eSoccer Game | Boca Juniors (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:26 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:25 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 23:24 | eSoccer Game | River Plate (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:22 | Uruguay LUB Basketball Game | Club Union Atletica | ✘ | — | — | In play | — |
 | 11-16 23:21 | Challenger ATP  | Hugo Dellien | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-16 23:16 | eSoccer Game | Getafe CF (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -389,14 +397,6 @@
 | 11-16 23:12 | eSoccer Game | River Plate (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:12 | Women's College Basketball Game | North Carolina Central | ✘ | — | — | In play | — |
 | 11-16 23:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:11 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:05 | Challenger ATP  | Pyotr Nesterov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:03 | eSoccer Game | Sevilla FC (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:58 | Men's College Basketball Game | Prairie View A&M | ✘ | — | — | In play | — |
-| 11-16 22:55 | Russia Liga Pro Match | Molodykh Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:49 | eSoccer Game | RCD Mallorca (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 22:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
