@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 4:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 4:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63947 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
+| 63965 | 3502 | 13 (0%) | 1.1% | -$343.30 (-65%) | Hold to the end: -$343.30 (-65%) |
 
-*In play right now: 52. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 66. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3502 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60393 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60397 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30360 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3842 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eSoccer Game | ✘ | 30362 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3844 | 0 | 1% | 1% | -100% | -98% | 4 min |
 | eBasketball Game | ✘ | 2985 | 6 | 3% | 2% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1898 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1831 | 4 | 14% | 6% | -80% | -76% | 5 min |
@@ -365,11 +365,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-16 11:14 | Russia Liga Pro Match | Borisov Andrei | ✘ | — | — | In play | — |
+| 11-16 11:29 | ITF Men's Match | Josh Manuel | ✘ | — | — | In play | — |
+| 11-16 11:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:27 | eSoccer Game | Stuttgart (Sheerpy) | ✘ | — | — | In play | — |
+| 11-16 11:27 | eSoccer Game | Chelsea (Ryft) | ✘ | — | — | In play | — |
+| 11-16 11:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:27 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | — | In play | — |
+| 11-16 11:26 | eBasketball Game | Los Angeles Lakers (Cade) | ✘ | — | — | In play | — |
+| 11-16 11:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:25 | eSoccer Game | Freiburg (Danny) | ✘ | — | — | In play | — |
+| 11-16 11:24 | Dota 2 Game | Cloud of Hope | ✘ | — | — | In play | — |
+| 11-16 11:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:23 | Russia Liga Pro Match | Andreev Danila | ✘ | — | — | In play | — |
+| 11-16 11:23 | Women's T20 Match | Sydney Thunder Women | ✘ | — | — | In play | — |
+| 11-16 11:23 | eSoccer Game | Argentina (Mei) | ✘ | — | — | In play | — |
+| 11-16 11:23 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 11-16 11:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-16 11:22 | Women's T20 Match | Papua New Guinea Women | ✘ | — | — | In play | — |
+| 11-16 11:20 | Japan B League Game | Kobe Storks | ✘ | — | — | In play | — |
+| 11-16 11:14 | Russia Liga Pro Match | Borisov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 11:14 | Men's T20 Cricket Match | Haryana | ✘ | — | — | In play | — |
-| 11-16 11:13 | Russia Liga Pro Match | Stroev Aleksei | ✘ | — | — | In play | — |
-| 11-16 11:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-16 11:12 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | — | In play | — |
+| 11-16 11:13 | Russia Liga Pro Match | Stroev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 11:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-16 11:12 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 11:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 11:10 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 11:09 | Russia Liga Pro Match | Gusev Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -377,24 +395,6 @@
 | 11-16 11:08 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 11:08 | Darts Match | Vicky Pruim | ✘ | — | — | In play | — |
 | 11-16 11:07 | ITF Women's Match | Mirjana Jovanovic | ✘ | — | — | In play | — |
-| 11-16 11:03 | Men's T20 Cricket Match | Mizoram | ✘ | — | — | In play | — |
-| 11-16 11:02 | Women's T20 Match | Delhi Women | ✘ | — | — | In play | — |
-| 11-16 10:58 | eBasketball Game | New York Knicks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:57 | Russia Liga Pro Match | Plevako Ilia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:55 | Dota 2 Game | Team Lynx | ✘ | — | — | In play | — |
-| 11-16 10:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:55 | Challenger ATP  | Carlo Alberto Caniato | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:54 | Russia Liga Pro Match | Inozemtsev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:54 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:54 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:48 | Darts Match | Trina Gulliver | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:47 | eBasketball Game | Brooklyn Nets (Wemby) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-16 10:46 | Men's T20 Cricket Match | Tripura | ✘ | — | — | In play | — |
-| 11-16 10:46 | Counter-Strike 2 Game | BRUTE SQ | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:44 | eSoccer Game | RB Leipzig (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 10:44 | eSoccer Game | Manchester City (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
