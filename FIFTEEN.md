@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 17, 6:48 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 17, 6:58 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4467 finished bets | 1% | $220.35 | +45% | +4.93¢ | $83.85 / $136.50 |
 
-*Expect about **89 buys a day** (~$13.33/day at risk); max loss per buy **15¢**.*
+*Expect about **89 buys a day** (~$13.32/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 59512 | 59478 | 227 (0%) | 1.07% | -$4,057.85 (-56%) | Hold to the close: -$4,057.85 (-56%) |
+| 59525 | 59478 | 227 (0%) | 1.07% | -$4,057.85 (-56%) | Hold to the close: -$4,057.85 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 19. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,19 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/17 6:58:29 AM | ETH | DOWN | 1.5 min | +0.255% | — | In play | — |
+| 11/17 6:58:29 AM | BTC | DOWN | 1.5 min | +0.175% | — | In play | — |
+| 11/17 6:58:29 AM | NATGAS | UP | 1.5 min | — | — | In play | — |
+| 11/17 6:57:41 AM | AUDUSD | DOWN | 2.3 min | — | — | In play | — |
+| 11/17 6:57:09 AM | GBPUSD | DOWN | 2.8 min | — | — | In play | — |
+| 11/17 6:56:53 AM | DOGE | DOWN | 3.1 min | +0.283% | — | In play | — |
+| 11/17 6:56:53 AM | SOL | DOWN | 3.1 min | +0.458% | — | In play | — |
+| 11/17 6:56:53 AM | USDCAD | UP | 3.1 min | — | — | In play | — |
+| 11/17 6:56:38 AM | XRP | DOWN | 3.4 min | +0.371% | — | In play | — |
+| 11/17 6:56:06 AM | HYPE | DOWN | 3.9 min | +0.465% | — | In play | — |
+| 11/17 6:56:06 AM | NEAR | DOWN | 3.9 min | +0.584% | — | In play | — |
+| 11/17 6:55:50 AM | PALLADIUM | DOWN | 4.2 min | — | — | In play | — |
+| 11/17 6:55:34 AM | ZEC | DOWN | 4.4 min | +0.836% | — | In play | — |
 | 11/17 6:44:41 AM | USDJPY | DOWN | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/17 6:43:36 AM | NATGAS | UP | 84 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/17 6:43:36 AM | 30YRRATE | DOWN | 84 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -206,19 +219,6 @@
 | 11/17 6:40:10 AM | SILVER | UP | 4.8 min | — | 7¢ | ❌ Lost | -$0.15 |
 | 11/17 6:39:54 AM | 10YRRATE | DOWN | 5.1 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/17 6:39:23 AM | XRP | UP | 5.6 min | -0.583% | 1¢ | ❌ Lost | -$0.15 |
-| 11/17 6:38:34 AM | GOLD | UP | 6.4 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/17 6:37:44 AM | EURUSD | UP | 7.3 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:37:44 AM | GBPUSD | UP | 7.3 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:37:29 AM | AUDUSD | UP | 7.5 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:35:22 AM | 2YRRATE | DOWN | 9.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:35:07 AM | 5YRRATE | DOWN | 9.9 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/17 6:29:48 AM | EURUSD | UP | 11 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:29:32 AM | 5YRRATE | DOWN | 27 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:29:17 AM | PLATINUM | UP | 43 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/17 6:29:17 AM | 10YRRATE | DOWN | 43 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 6:29:17 AM | NEAR | UP | 43 sec | -0.279% | 0¢ | ❌ Lost | $0.00 |
-| 11/17 6:29:01 AM | DOGE | DOWN | 59 sec | +0.124% | 1¢ | ❌ Lost | -$0.15 |
-| 11/17 6:28:45 AM | SOL | DOWN | 75 sec | +0.188% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
