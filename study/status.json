@@ -1,20 +1,20 @@
 {
- "saved_at": "2026-11-17T19:37:18+00:00",
+ "saved_at": "2026-11-17T19:41:48+00:00",
  "series_watched": 419,
- "markets_in_or_near_play": 505,
+ "markets_in_or_near_play": 471,
  "batch_lookup": true,
- "espn_games_linked": 16,
+ "espn_games_linked": 24,
  "espn_check": {
-  "at": "2026-11-17T19:07:59+00:00",
-  "started_games": 7,
-  "matched": 4,
+  "at": "2026-11-17T19:39:32+00:00",
+  "started_games": 15,
+  "matched": 12,
   "unmatched_sample": [
-   "KXNCAAMBGAME-26NOV17MURRHOF",
+   "KXCONCACAFNLGAME-26NOV17KNABON",
    "KXNCAAWBGAME-26NOV17MURRORE",
    "KXNCAAWBGAME-26NOV17PEPPNEV"
   ]
  },
- "bets": 65266,
- "open": 28,
+ "bets": 65275,
+ "open": 30,
  "errors": []
 }
