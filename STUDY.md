@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 10:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 11:03 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65110 | 3541 | 13 (0%) | 1.1% | -$349.15 (-66%) | Hold to the end: -$349.15 (-66%) |
+| 65128 | 3541 | 13 (0%) | 1.1% | -$349.15 (-66%) | Hold to the end: -$349.15 (-66%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3541 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61533 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61539 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31050 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3945 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 31054 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3946 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3052 | 7 | 3% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1933 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1872 | 4 | 14% | 6% | -80% | -76% | 5 min |
@@ -276,8 +276,8 @@
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | CFL Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 8 min |
 | Liga Portugal 2 Game | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 16 min |
+| EuroBasket (W) Game | ✘ | 20 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Colombia LBP Basketball Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 17 min |
-| EuroBasket (W) Game | ✘ | 19 | 0 | 11% | 0% | -100% | -82% | 11 min |
 | Women's Pro Basketball Game | ✔ | 18 | 0 | 22% | 6% | -100% | -61% | 6 min |
 | Malaysia Super League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 9 min |
 | Philippines PBA Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 11 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-17 18:03 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | — | In play | — |
+| 11-17 18:03 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | — | In play | — |
+| 11-17 18:03 | eBasketball Game | Indiana Pacers (Devin) | ✘ | — | — | In play | — |
+| 11-17 18:03 | eSoccer Game | Newcastle Utd (Rooney) | ✘ | — | — | In play | — |
+| 11-17 18:03 | eSoccer Game | Juventus (Arkon) | ✘ | — | — | In play | — |
+| 11-17 18:02 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
+| 11-17 18:02 | EuroBasket (W) Game | Turkiye | ✘ | — | — | In play | — |
+| 11-17 18:02 | Counter-Strike 2 Game | FORZE Reload | ✘ | — | — | In play | — |
+| 11-17 18:01 | eSoccer Game | Chelsea (Endrick) | ✘ | — | — | In play | — |
+| 11-17 18:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 17:59 | Counter-Strike 2 Game | NoTime | ✘ | — | — | In play | — |
+| 11-17 17:58 | Russia Liga Pro Match | Moshkov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:58 | Challenger ATP  | Matias Soto | ✘ | — | — | In play | — |
+| 11-17 17:58 | Counter-Strike 2 Game | Banger Gang | ✘ | — | — | In play | — |
+| 11-17 17:57 | Counter-Strike 2 Game | Vitality Academy | ✘ | — | — | In play | — |
+| 11-17 17:57 | Euroleague Game | Anadolu Efes SK | ✘ | — | — | In play | — |
+| 11-17 17:54 | AFCON Game Winner | Congo DR | ✘ | — | — | In play | — |
+| 11-17 17:54 | AFCON Game Winner | Ivory Coast | ✘ | — | — | In play | — |
 | 11-17 17:51 | International Friendly Game | Tie | ✔ | 90'+2' · AUS 0 - JOR 1 | — | In play | — |
 | 11-17 17:48 | Counter-Strike 2 Game | JUMBO TEAM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:47 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-17 17:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 11-17 17:47 | eSoccer Game | Manchester City (Rooney) | ✘ | — | — | In play | — |
-| 11-17 17:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 17:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:47 | eSoccer Game | Manchester City (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:46 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:46 | Challenger ATP  | Quinn Vandecasteele | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:45 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:45 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:42 | International Friendly Game | Tie | ✔ | 76' · VEN 0 - RUS 2 | — | In play | — |
 | 11-17 17:41 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-17 17:41 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
-| 11-17 17:40 | International Friendly Game | Venezuela | ✔ | 74' · VEN 0 - RUS 1 | — | In play | — |
-| 11-17 17:39 | International Friendly Game | Australia | ✔ | 80' · AUS 0 - JOR 1 | — | In play | — |
-| 11-17 17:38 | ITF Men's Match | Artem Alekseychuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:38 | EuroBasket (W) Game | Greece | ✘ | — | — | In play | — |
-| 11-17 17:38 | Women's College Basketball Game | Loyola Chicago | ✘ | — | — | In play | — |
-| 11-17 17:37 | eBasketball Game | Indiana Pacers (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:36 | AFCON Game Winner | Kenya | ✘ | — | — | In play | — |
-| 11-17 17:35 | eBasketball Game | Dallas Mavericks (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:35 | eSoccer Game | Spurs (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:35 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:33 | Challenger ATP  | Moez Echargui | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:33 | eSoccer Game | Newcastle Utd (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:32 | eSoccer Game | Manchester Utd (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:32 | Russia Liga Pro Match | Puchinin Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:32 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
