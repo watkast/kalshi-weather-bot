@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 17, 10:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 17, 10:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 59866 | 59832 | 235 (0%) | 1.07% | -$3,990.10 (-55%) | Hold to the close: -$3,990.10 (-55%) |
+| 59870 | 59832 | 235 (0%) | 1.07% | -$3,990.10 (-55%) | Hold to the close: -$3,990.10 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/17 10:57:23 AM | HYPE | UP | 2.6 min | -0.484% | — | In play | — |
+| 11/17 10:57:23 AM | SILVER | UP | 2.6 min | — | — | In play | — |
+| 11/17 10:57:07 AM | GBPUSD | DOWN | 2.9 min | — | — | In play | — |
+| 11/17 10:56:03 AM | COPPER | UP | 3.9 min | — | — | In play | — |
 | 11/17 10:44:50 AM | HYPE | DOWN | 9 sec | +0.385% | 0¢ | ❌ Lost | $0.00 |
 | 11/17 10:44:50 AM | 5YRRATE | UP | 9 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/17 10:44:50 AM | NEAR | DOWN | 9 sec | +0.170% | 0¢ | ❌ Lost | $0.00 |
@@ -215,10 +219,6 @@
 | 11/17 10:29:57 AM | PALLADIUM | DOWN | 3 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/17 10:29:41 AM | WTI | UP | 19 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/17 10:29:41 AM | HYPE | DOWN | 19 sec | +0.032% | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 10:29:41 AM | 30YRRATE | UP | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 10:29:41 AM | BNB | UP | 19 sec | -0.082% | 0¢ | ❌ Lost | $0.00 |
-| 11/17 10:29:41 AM | 10YRRATE | UP | 19 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/17 10:29:41 AM | NEAR | UP | 19 sec | -0.223% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
