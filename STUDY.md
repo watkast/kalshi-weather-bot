@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 8:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64949 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
+| 64961 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3534 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61381 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61394 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30962 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3931 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 30972 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3932 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3045 | 7 | 3% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 1924 | 8 | 14% | 6% | -61% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1925 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1865 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1728 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -110,7 +110,7 @@
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 434 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 414 | 2 | 4% | 2% | -55% | -94% | 56 min |
-| Dota 2 Game | ✘ | 411 | 1 | 1% | 1% | -77% | -98% | 32 min |
+| Dota 2 Game | ✘ | 412 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 393 | 2 | 5% | 3% | -53% | -91% | 8 min |
 | Men's T20 Cricket Match | ✘ | 374 | 2 | 16% | 7% | -50% | -73% | 25 min |
 | NHL Game | ✔ | 328 | 2 | 15% | 9% | -43% | -74% | 5 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 15:47 | ITF Women's Match | Georgina Garcia-Perez | ✘ | — | — | In play | — |
+| 11-17 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:56 | Challenger ATP  | Theodore Dean | ✘ | — | — | In play | — |
+| 11-17 15:56 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | — | In play | — |
+| 11-17 15:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:56 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 11-17 15:55 | eSoccer Game | Strasbourg (Eder) | ✘ | — | — | In play | — |
+| 11-17 15:55 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | — | In play | — |
+| 11-17 15:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:55 | SAFF Championship Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 11-17 15:54 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 11-17 15:54 | Counter-Strike 2 Game | Falcons Force | ✘ | — | — | In play | — |
+| 11-17 15:51 | International Friendly Game | Tie | ✔ | 90'+3' · KOR 1 - QAT 0 | — | In play | — |
+| 11-17 15:47 | ITF Women's Match | Georgina Garcia-Perez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:46 | SAFF Championship Game | Reg Time: Pakistan | ✘ | — | — | In play | — |
 | 11-17 15:45 | ITF Women's Match | Cindy Langlais | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:45 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | — | In play | — |
-| 11-17 15:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:45 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:42 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 15:42 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
-| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 15:41 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | — | In play | — |
-| 11-17 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 15:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 15:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 11-17 15:39 | eSoccer Game | Everton (Millie) | ✘ | — | — | In play | — |
+| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:42 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:41 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:39 | eSoccer Game | Everton (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:37 | International Friendly Game | Tie | ✔ | 69' · SYR 1 - UAE 3 | — | In play | — |
 | 11-17 15:36 | Dota 2 Game | Team Nemesis Academy | ✘ | — | — | In play | — |
 | 11-17 15:36 | International Friendly Game | Syria | ✔ | 67' · SYR 1 - UAE 2 | — | In play | — |
 | 11-17 15:33 | ITF Men's Match | Jules Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:32 | Women's College Basketball Game | Akron | ✔ | 9:58 - 1st · AKR 0 - WVU 0 | — | In play | — |
-| 11-17 15:32 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:30 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:30 | Challenger WTA | Darja Semenistaja | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-17 15:29 | Russia Liga Pro Match | Alekseev Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:29 | Russia Liga Pro Match | Ivashov Roman | ✘ | — | — | In play | — |
-| 11-17 15:29 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:28 | Men's College Basketball Game | Wilson College | ✘ | — | — | In play | — |
-| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
