@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 8:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64935 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
+| 64949 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3534 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61373 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61381 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30960 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3930 | 0 | 1% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3044 | 7 | 3% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 1922 | 8 | 14% | 6% | -61% | -76% | 4 min |
+| eSoccer Game | ✘ | 30962 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3931 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3045 | 7 | 3% | 2% | -79% | -91% | 3 min |
+| ITF Women's Match | ✘ | 1924 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1865 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1727 | 3 | 6% | 3% | -84% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1728 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1166 | 5 | 12% | 4% | -60% | -80% | 5 min |
 | Men's College Basketball Game | partly | 655 | 5 | 19% | 7% | -29% | -67% | 26 min |
@@ -115,7 +115,7 @@
 | Men's T20 Cricket Match | ✘ | 374 | 2 | 16% | 7% | -50% | -73% | 25 min |
 | NHL Game | ✔ | 328 | 2 | 15% | 9% | -43% | -74% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Challenger WTA | ✘ | 295 | 1 | 13% | 4% | -68% | -78% | 9 min |
+| Challenger WTA | ✘ | 296 | 1 | 12% | 4% | -68% | -78% | 9 min |
 | NBA Game | partly | 257 | 0 | 20% | 7% | -100% | -66% | 11 min |
 | AHL Game | ✘ | 249 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-17 15:47 | ITF Women's Match | Georgina Garcia-Perez | ✘ | — | — | In play | — |
+| 11-17 15:46 | SAFF Championship Game | Reg Time: Pakistan | ✘ | — | — | In play | — |
+| 11-17 15:45 | ITF Women's Match | Cindy Langlais | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:45 | eSoccer Game | FC Bayern (Krocs) | ✘ | — | — | In play | — |
+| 11-17 15:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:42 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:42 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
+| 11-17 15:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:41 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | — | In play | — |
+| 11-17 15:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:39 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-17 15:39 | eSoccer Game | Everton (Millie) | ✘ | — | — | In play | — |
 | 11-17 15:37 | International Friendly Game | Tie | ✔ | 69' · SYR 1 - UAE 3 | — | In play | — |
 | 11-17 15:36 | Dota 2 Game | Team Nemesis Academy | ✘ | — | — | In play | — |
 | 11-17 15:36 | International Friendly Game | Syria | ✔ | 67' · SYR 1 - UAE 2 | — | In play | — |
 | 11-17 15:33 | ITF Men's Match | Jules Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:32 | Women's College Basketball Game | Akron | ✔ | 9:58 - 1st · AKR 0 - WVU 0 | — | In play | — |
-| 11-17 15:32 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | — | In play | — |
-| 11-17 15:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:32 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:30 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:30 | Challenger WTA | Darja Semenistaja | ✘ | — | — | In play | — |
+| 11-17 15:30 | Challenger WTA | Darja Semenistaja | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-17 15:29 | Russia Liga Pro Match | Alekseev Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:29 | Russia Liga Pro Match | Ivashov Roman | ✘ | — | — | In play | — |
-| 11-17 15:29 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | — | In play | — |
+| 11-17 15:29 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:28 | Men's College Basketball Game | Wilson College | ✘ | — | — | In play | — |
 | 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Spurs (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:25 | International Friendly Game | Qatar | ✔ | 68' · KOR 1 - QAT 0 | — | In play | — |
-| 11-17 15:24 | Dota 2 Game | PuckChamp | ✘ | — | — | In play | — |
-| 11-17 15:17 | ITF Men's Match | Alvaro Peiro Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:17 | ITF Women's Match | Maria Toma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:16 | eSoccer Game | Werder Bremen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:13 | ITF Men's Match | Joan Torres Espinosa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
