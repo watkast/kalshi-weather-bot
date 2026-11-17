@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 5:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 5:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64432 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
+| 64441 | 3522 | 13 (0%) | 1.1% | -$346.30 (-66%) | Hold to the end: -$346.30 (-66%) |
 
-*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3522 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60878 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60884 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30652 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3887 | 0 | 1% | 1% | -100% | -98% | 4 min |
-| eBasketball Game | ✘ | 3011 | 6 | 3% | 1% | -81% | -91% | 3 min |
+| eSoccer Game | ✘ | 30654 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3889 | 0 | 1% | 1% | -100% | -98% | 4 min |
+| eBasketball Game | ✘ | 3013 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1912 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1840 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1717 | 3 | 6% | 3% | -84% | -90% | 11 min |
@@ -367,19 +367,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-17 00:28 | Men's College Basketball Game | Western Illinois | ✘ | — | — | In play | — |
+| 11-17 00:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 00:27 | eSoccer Game | RC Celta (Mantis) | ✘ | — | — | In play | — |
+| 11-17 00:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 00:24 | eSoccer Game | Flamengo (Declan) | ✘ | — | — | In play | — |
+| 11-17 00:23 | eSoccer Game | Botafogo (Luis) | ✘ | — | — | In play | — |
+| 11-17 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 00:21 | Uruguay Primera Division Game | Las Piedras | ✘ | — | — | In play | — |
+| 11-17 00:20 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:19 | Russia Liga Pro Match | Mikhailov Danila | ✘ | — | — | In play | — |
-| 11-17 00:14 | eSoccer Game | CA Osasuna (Mantis) | ✘ | — | — | In play | — |
-| 11-17 00:14 | eSoccer Game | FC Barcelona (Mordor) | ✘ | — | — | In play | — |
+| 11-17 00:14 | eSoccer Game | CA Osasuna (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 00:14 | eSoccer Game | FC Barcelona (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:10 | Women's College Basketball Game | Holy Cross | ✘ | — | — | In play | — |
 | 11-17 00:08 | Challenger ATP  | Casey Hoole | ✘ | — | — | In play | — |
 | 11-17 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 00:07 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | — | In play | — |
+| 11-17 00:07 | eBasketball Game | Los Angeles Lakers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:07 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:05 | Men's College Basketball Game | Grambling St. | ✘ | — | — | In play | — |
-| 11-17 00:05 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | — | In play | — |
+| 11-17 00:05 | eBasketball Game | Golden State Warriors (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 00:03 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 00:03 | Russia Liga Pro Match | Sitnikov Roman | ✘ | — | — | In play | — |
+| 11-17 00:03 | Russia Liga Pro Match | Sitnikov Roman | ✘ | — | 12¢ | ❌ Lost | -$0.15 |
 | 11-17 00:00 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:58 | eSoccer Game | Girona (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -388,15 +397,6 @@
 | 11-16 23:57 | Brazil NBB Basketball Game | Sao Jose dos Campos | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:56 | eSoccer Game | Flamengo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-16 23:56 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:53 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:51 | eSoccer Game | Palmeiras (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:51 | Counter-Strike 2 Game | street dogs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:49 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-16 23:48 | Women's College Basketball Game | Lamar | ✘ | — | — | In play | — |
-| 11-16 23:44 | eSoccer Game | Getafe CF (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
