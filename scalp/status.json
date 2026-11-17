@@ -1,6 +1,9 @@
 {
- "saved_at": "2026-11-17T04:54:46+00:00",
+ "saved_at": "2026-11-17T05:04:56+00:00",
  "windows_watched": 9,
- "trades": 259883,
- "errors": []
+ "trades": 259900,
+ "errors": [
+  "2026-11-17T04:59:55+00:00 HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?tickers=KXBTC15M-26NOV170000-00%2CKXNEAR15M-26NOV170000-00%2CKXBNB15M-26NOV170000-00%2CKXXRP15M-26NOV170000-00%2CKXZEC15M-26NOV170000-00%2CKXDOGE15M-26NOV170000-00%2CKXHYPE15M-26NOV170000-00%2CKXETH15M-26NOV170000-00%2CKXSOL15M-26NOV170000-00&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))",
+  "2026-11-17T05:00:16+00:00 refresh KXBTC15M: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?series_ticker=KXBTC15M&status=open&limit=1000 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elections.kalshi.com', port=443): Failed to resolve 'api.elections.kalshi.com' ([Errno -3] Temporary failure in name resolution)\"))"
+ ]
 }
