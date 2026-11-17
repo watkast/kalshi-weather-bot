@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 10:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 10:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65100 | 3541 | 13 (0%) | 1.1% | -$349.15 (-66%) | Hold to the end: -$349.15 (-66%) |
+| 65110 | 3541 | 13 (0%) | 1.1% | -$349.15 (-66%) | Hold to the end: -$349.15 (-66%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3541 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61525 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61533 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,15 +97,15 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 31050 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3942 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| Russia Liga Pro Match | ✘ | 3945 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3052 | 7 | 3% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1933 | 8 | 14% | 6% | -61% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1871 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1736 | 3 | 6% | 3% | -84% | -90% | 11 min |
+| ITF Men's Match | ✘ | 1872 | 4 | 14% | 6% | -80% | -76% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1737 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1170 | 5 | 12% | 5% | -60% | -79% | 5 min |
-| Men's College Basketball Game | partly | 655 | 5 | 19% | 7% | -29% | -67% | 26 min |
-| Women's College Basketball Game | partly | 648 | 2 | 14% | 4% | -71% | -76% | 33 min |
+| Challenger ATP  | ✘ | 1171 | 5 | 12% | 5% | -60% | -79% | 5 min |
+| Men's College Basketball Game | partly | 656 | 5 | 19% | 7% | -29% | -68% | 26 min |
+| Women's College Basketball Game | partly | 649 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 434 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -367,12 +367,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-17 17:51 | International Friendly Game | Tie | ✔ | 90'+2' · AUS 0 - JOR 1 | — | In play | — |
+| 11-17 17:48 | Counter-Strike 2 Game | JUMBO TEAM | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:47 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
+| 11-17 17:47 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
+| 11-17 17:47 | eSoccer Game | Manchester City (Rooney) | ✘ | — | — | In play | — |
+| 11-17 17:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 17:46 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:46 | Challenger ATP  | Quinn Vandecasteele | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:45 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 17:45 | Russia Liga Pro Match | Kulikov Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:42 | International Friendly Game | Tie | ✔ | 76' · VEN 0 - RUS 2 | — | In play | — |
 | 11-17 17:41 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
 | 11-17 17:41 | eSoccer Game | Nottingham Forest (Sheerpy) | ✘ | — | — | In play | — |
 | 11-17 17:40 | International Friendly Game | Venezuela | ✔ | 74' · VEN 0 - RUS 1 | — | In play | — |
 | 11-17 17:39 | International Friendly Game | Australia | ✔ | 80' · AUS 0 - JOR 1 | — | In play | — |
-| 11-17 17:38 | ITF Men's Match | Artem Alekseychuk | ✘ | — | — | In play | — |
+| 11-17 17:38 | ITF Men's Match | Artem Alekseychuk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:38 | EuroBasket (W) Game | Greece | ✘ | — | — | In play | — |
 | 11-17 17:38 | Women's College Basketball Game | Loyola Chicago | ✘ | — | — | In play | — |
 | 11-17 17:37 | eBasketball Game | Indiana Pacers (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -387,16 +397,6 @@
 | 11-17 17:32 | Russia Liga Pro Match | Puchinin Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 17:32 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:31 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:30 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-17 17:29 | ITF Men's Match | Gian Luca Tanner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:28 | Women's College Basketball Game | North Florida | ✘ | — | — | In play | — |
-| 11-17 17:28 | EuroBasket (W) Game | Romania | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:28 | International Friendly Game | Tie | ✔ | 90'+5' · UZB 2 - KSA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:28 | ITF Women's Match | Berta Bonardi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 17:27 | AFCON Game Winner | Sierra Leone | ✘ | — | — | In play | — |
-| 11-17 17:27 | AFCON Game Winner | Madagascar | ✘ | — | — | In play | — |
-| 11-17 17:25 | Counter-Strike 2 Game | GamersLab Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
