@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 9:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 9:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64505 | 3526 | 13 (0%) | 1.1% | -$346.90 (-66%) | Hold to the end: -$346.90 (-66%) |
+| 64516 | 3526 | 13 (0%) | 1.1% | -$346.90 (-66%) | Hold to the end: -$346.90 (-66%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3526 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60961 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60967 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30694 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30700 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3893 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3017 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1913 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -367,8 +367,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 03:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:55 | eSoccer Game | Everton (Mordor) | ✘ | — | — | In play | — |
+| 11-17 04:11 | NBA Game | Denver | ✔ | 5:41 - 4th · PHX 109 - DEN 90 | — | In play | — |
+| 11-17 04:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 04:09 | eSoccer Game | Chelsea (Mantis) | ✘ | — | — | In play | — |
+| 11-17 04:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 04:05 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | — | In play | — |
+| 11-17 04:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 04:04 | eSoccer Game | England (Megan) | ✘ | — | — | In play | — |
+| 11-17 04:04 | eSoccer Game | 1. FC Köln (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 04:03 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:55 | eSoccer Game | Everton (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:51 | eSoccer Game | England (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -386,17 +397,6 @@
 | 11-17 03:34 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:27 | eSoccer Game | Crystal Palace (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:27 | eBasketball Game | Brooklyn Nets (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:26 | Challenger ATP  | Jake Delaney | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:25 | eBasketball Game | New York Knicks (Jalen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:25 | NHL Game | Montreal | ✔ | 1:05 - 3rd · MTL 1 - NYR 3 | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:24 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:23 | Challenger ATP  | Yuta Tomida | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:21 | eSoccer Game | 1. FC Köln (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:14 | ITF Women's Match | Lizette Cabrera | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
