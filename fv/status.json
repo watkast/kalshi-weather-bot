@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-17T00:15:46+00:00",
+ "saved_at": "2026-11-17T03:12:24+00:00",
  "assets": [
   "ADA",
   "BCH",
@@ -14,7 +14,7 @@
   "XRP",
   "ZEC"
  ],
- "markets": 8,
+ "markets": 9,
  "trades": 2003,
  "trades_v2": 1652,
  "trades_v3": 422,
@@ -32,12 +32,7 @@
    "gemini",
    "kraken"
   ],
-  "BTC": [
-   "bitstamp",
-   "gemini",
-   "kraken"
-  ],
-  "ETH": [
+  "XRP": [
    "bitstamp",
    "gemini",
    "kraken"
@@ -47,10 +42,19 @@
    "gemini",
    "kraken"
   ],
-  "XRP": [
+  "ETH": [
    "bitstamp",
    "gemini",
    "kraken"
+  ],
+  "BTC": [
+   "bitstamp",
+   "gemini",
+   "kraken"
+  ],
+  "BNB": [
+   "bitstamp",
+   "gemini"
   ],
   "HYPE": [
    "bitstamp",
@@ -70,27 +74,20 @@
   "BCH": [
    "bitstamp",
    "gemini"
-  ],
-  "BNB": [
-   "bitstamp",
-   "gemini"
   ]
  },
  "open": 0,
  "results_known": 38130,
  "sigma_pct": {
-  "DOGE": 0.0697,
-  "ETH": 0.0571,
-  "NEAR": 0.1116,
-  "ZEC": 0.1384,
-  "BTC": 0.0534,
-  "XRP": 0.0766,
-  "HYPE": 0.1254,
-  "BNB": 0.0563,
-  "SOL": 0.0768
+  "NEAR": 0.1417,
+  "DOGE": 0.0835,
+  "SOL": 0.0958,
+  "ETH": 0.0789,
+  "XRP": 0.0874,
+  "BTC": 0.0582,
+  "BNB": 0.0761,
+  "HYPE": 0.1018,
+  "ZEC": 0.1337
  },
- "errors": [
-  "2026-11-16T22:01:17+00:00 refresh KXNEAR15M: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXNEAR15M&status=open&limit=1000",
-  "2026-11-16T22:01:37+00:00 loop: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets?tickers=KXDOGE15M-26NOV161715-15%2CKXZEC15M-26NOV161715-15%2CKXETH15M-26NOV161715-15%2CKXXRP15M-26NOV161715-15%2CKXSOL15M-26NOV161715-15%2CKXHYPE15M-26NOV161715-15%2CKXBTC15M-26NOV161715-15%2CKXBNB15M-26NOV161715-15&limit=1000"
- ]
+ "errors": []
 }
