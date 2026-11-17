@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Tue Nov 17 06:09 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Tue Nov 17 06:19 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 43659 | 37928 | 5731 (175) | 0 | $-1336.02 | -0.5% |
-| **20¢+ jump, ride past +5¢** | 26760 | 14648 | 12112 (5412) | 1 | $-8841.05 | -5.2% |
+| **20¢+ jump, sell +5¢** | 43671 | 37939 | 5732 (175) | 0 | $-1330.78 | -0.5% |
+| **20¢+ jump, ride past +5¢** | 26766 | 14650 | 12116 (5414) | 1 | $-8843.16 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,7 +18,25 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 06:06 | J20R | BTC | DOWN | 22¢ | 0.69 | open |  |
+| 11-17 06:17 | J20R | ZEC | DOWN | 20¢ | 0.69 | open |  |
+| 11-17 06:17 | J20 | ZEC | DOWN | 20¢ | 0.69 | 0.76 | 0.42 |
+| 11-17 06:13 | J20 | ZEC | UP | 23¢ | 0.80 | 0.93 | 1.08 |
+| 11-17 06:11 | J20 | ETH | DOWN | 20¢ | 0.69 | 0.87 | 1.57 |
+| 11-17 06:11 | J20 | ETH | DOWN | 20¢ | 0.65 | 0.70 | 0.19 |
+| 11-17 06:11 | J20R | ETH | DOWN | 20¢ | 0.66 | no | 3.24 |
+| 11-17 06:11 | J20 | ETH | DOWN | 20¢ | 0.65 | 0.70 | 0.19 |
+| 11-17 06:11 | J20 | ZEC | DOWN | 51¢ | 0.57 | 0.70 | 0.97 |
+| 11-17 06:11 | J20 | ZEC | DOWN | 51¢ | 0.47 | 0.71 | 2.07 |
+| 11-17 06:11 | J20 | ZEC | DOWN | 51¢ | 0.55 | 0.71 | 1.29 |
+| 11-17 06:10 | J20R | HYPE | DOWN | 32¢ | 0.71 | 0.76 | 0.22 |
+| 11-17 06:10 | J20 | HYPE | DOWN | 32¢ | 0.71 | 0.79 | 0.53 |
+| 11-17 06:10 | J20R | ZEC | DOWN | 51¢ | 0.66 | yes | -6.74 |
+| 11-17 06:10 | J20 | ZEC | DOWN | 51¢ | 0.66 | 0.71 | 0.22 |
+| 11-17 06:10 | J20R | SOL | UP | 24¢ | 0.39 | no | -4.12 |
+| 11-17 06:10 | J20 | SOL | UP | 24¢ | 0.39 | no | -4.07 |
+| 11-17 06:10 | J20R | XRP | UP | 24¢ | 0.60 | yes | 3.83 |
+| 11-17 06:10 | J20 | XRP | UP | 24¢ | 0.60 | 0.71 | 0.78 |
+| 11-17 06:06 | J20R | BTC | DOWN | 22¢ | 0.69 | 0.86 | 1.46 |
 | 11-17 06:06 | J20 | BTC | DOWN | 22¢ | 0.69 | 0.75 | 0.31 |
 | 11-17 06:06 | J20R | NEAR | DOWN | 20¢ | 0.65 | 0.85 | 1.75 |
 | 11-17 06:06 | J20 | NEAR | DOWN | 20¢ | 0.65 | 0.75 | 0.70 |
@@ -40,21 +58,3 @@
 | 11-17 05:50 | J20 | HYPE | DOWN | 32¢ | 0.59 | 0.67 | 0.48 |
 | 11-17 05:50 | J20R | XRP | DOWN | 32¢ | 0.47 | 0.72 | 2.17 |
 | 11-17 05:50 | J20 | XRP | DOWN | 32¢ | 0.48 | 0.56 | 0.44 |
-| 11-17 05:50 | J20R | BTC | DOWN | 33¢ | 0.71 | 0.77 | 0.32 |
-| 11-17 05:50 | J20 | BTC | DOWN | 33¢ | 0.71 | 0.79 | 0.53 |
-| 11-17 05:50 | J20R | NEAR | DOWN | 32¢ | 0.59 | no | 3.93 |
-| 11-17 05:50 | J20 | NEAR | DOWN | 32¢ | 0.60 | 0.66 | 0.27 |
-| 11-17 05:46 | J20R | BNB | UP | 20¢ | 0.75 | no | -7.64 |
-| 11-17 05:46 | J20 | BNB | UP | 20¢ | 0.75 | no | -7.64 |
-| 11-17 05:40 | J20R | NEAR | DOWN | 28¢ | 0.74 | 0.85 | 0.87 |
-| 11-17 05:40 | J20 | NEAR | DOWN | 28¢ | 0.74 | 0.85 | 0.88 |
-| 11-17 05:38 | J20 | HYPE | DOWN | 26¢ | 0.84 | 0.89 | 0.33 |
-| 11-17 05:37 | J20R | ZEC | DOWN | 28¢ | 0.69 | 0.86 | 1.46 |
-| 11-17 05:37 | J20 | ZEC | DOWN | 28¢ | 0.69 | 0.77 | 0.52 |
-| 11-17 05:34 | J20R | HYPE | DOWN | 20¢ | 0.45 | no | 5.32 |
-| 11-17 05:34 | J20 | HYPE | DOWN | 20¢ | 0.45 | 0.50 | 0.14 |
-| 11-17 05:33 | J20R | DOGE | UP | 20¢ | 0.75 | no | -7.64 |
-| 11-17 05:33 | J20 | DOGE | UP | 20¢ | 0.76 | no | -7.73 |
-| 11-17 05:33 | J20R | BTC | UP | 22¢ | 0.61 | no | -6.27 |
-| 11-17 05:33 | J20 | BTC | UP | 22¢ | 0.62 | no | -6.37 |
-| 11-17 05:33 | J20R | BNB | UP | 22¢ | 0.81 | no | -8.21 |
