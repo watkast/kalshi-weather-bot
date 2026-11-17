@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 8:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 8:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64499 | 3526 | 13 (0%) | 1.1% | -$346.90 (-66%) | Hold to the end: -$346.90 (-66%) |
+| 64503 | 3526 | 13 (0%) | 1.1% | -$346.90 (-66%) | Hold to the end: -$346.90 (-66%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3526 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 60945 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 60956 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30680 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30690 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3893 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3017 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1913 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -318,6 +318,7 @@
 | Bulgaria First League Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 46 min |
 | Paraguay Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Denmark Basketligaen Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 38 min |
+| Womens TGL Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 51 min |
 | Latvian-Estonian Basketball League Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Bosnia Division I Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 428 min |
 | China CBA (W) Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -330,7 +331,6 @@
 | Hungary NB I. A Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Premier League Cup Game | ✘ | 2 | 0 | 50% | 50% | -100% | -13% | 17 min |
 | Ukrainian Premier League Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 14 min |
-| Womens TGL Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 71 min |
 | UEFA Women Europa Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Argentina Super Cup Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 16 min |
 | Dominican Winter League (LIDOM) | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 47 min |
@@ -367,17 +367,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 03:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:41 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
+| 11-17 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 03:51 | eSoccer Game | England (Megan) | ✘ | — | — | In play | — |
+| 11-17 03:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 03:48 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-17 03:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:41 | eSoccer Game | Manchester City (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:38 | Men's College Basketball Game | East Texas A&M | ✘ | — | — | In play | — |
-| 11-17 03:38 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
-| 11-17 03:38 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:36 | eSoccer Game | England (Megan) | ✘ | — | — | In play | — |
-| 11-17 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 03:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
-| 11-17 03:34 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | — | In play | — |
+| 11-17 03:38 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:36 | eSoccer Game | England (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:35 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 03:34 | eSoccer Game | FC Augsburg (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:27 | eSoccer Game | Crystal Palace (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:27 | eBasketball Game | Brooklyn Nets (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,10 +397,6 @@
 | 11-17 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:13 | Men's College Basketball Game | Abilene Christian | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 03:13 | Men's College Basketball Game | Long Beach St. | ✔ | 16:21 - 1st · LBSU 2 - UCLA 7 | — | In play | — |
-| 11-17 03:12 | Liga Nacional de Basquetbol Game | CA San Lorenzo de Almagro | ✘ | — | — | In play | — |
-| 11-17 03:12 | Men's College Basketball Game | Southeastern Louisiana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 03:12 | Womens TGL Match | Boston Common Golf (W) | ✘ | — | — | In play | — |
-| 11-17 03:12 | eSoccer Game | FSV Mainz 05 (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
