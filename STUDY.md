@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 8:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64895 | 3532 | 13 (0%) | 1.1% | -$347.80 (-66%) | Hold to the end: -$347.80 (-66%) |
+| 64910 | 3533 | 13 (0%) | 1.1% | -$347.95 (-66%) | Hold to the end: -$347.95 (-66%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3532 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61329 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3533 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 61341 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$347.80 | -66% |
-| Sell at 2¢ | 499 | 14% | -$400.06 | -76% |
-| Sell at 3¢ | 351 | 10% | -$392.91 | -74% |
-| Sell at 5¢ | 237 | 7% | -$375.75 | -71% |
-| Sell at 10¢ | 97 | 3% | -$402.73 | -76% |
-| Sell at 25¢ | 36 | 1% | -$410.64 | -78% |
-| Sell at 50¢ | 23 | 1% | -$374.55 | -71% |
+| Hold to the end | 13 | 0% | -$347.95 | -66% |
+| Sell at 2¢ | 499 | 14% | -$400.21 | -76% |
+| Sell at 3¢ | 351 | 10% | -$393.06 | -74% |
+| Sell at 5¢ | 237 | 7% | -$375.90 | -71% |
+| Sell at 10¢ | 97 | 3% | -$402.88 | -76% |
+| Sell at 25¢ | 36 | 1% | -$410.79 | -78% |
+| Sell at 50¢ | 23 | 1% | -$374.70 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30939 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3925 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 30942 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3926 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3042 | 7 | 3% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 1919 | 8 | 14% | 6% | -61% | -76% | 4 min |
+| ITF Women's Match | ✘ | 1920 | 8 | 14% | 6% | -61% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1862 | 4 | 14% | 6% | -80% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1723 | 3 | 6% | 3% | -84% | -90% | 12 min |
+| Counter-Strike 2 Game | ✘ | 1726 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1165 | 5 | 12% | 4% | -60% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1166 | 5 | 12% | 4% | -60% | -80% | 5 min |
 | Men's College Basketball Game | partly | 655 | 5 | 19% | 7% | -29% | -67% | 26 min |
 | Women's College Basketball Game | partly | 647 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
@@ -158,8 +158,8 @@
 | Slovakian 2. Liga Game | ✘ | 100 | 0 | 5% | 4% | -100% | -91% | 44 min |
 | NFL Game | ✔ | 100 | 1 | 18% | 7% | -7% | -69% | 9 min |
 | TFF 1. Lig Game | ✘ | 98 | 0 | 12% | 7% | -100% | -79% | 11 min |
+| AFCON Game Winner | ✘ | 97 | 1 | 16% | 6% | -4% | -71% | 18 min |
 | Indonesia Super League Game | ✘ | 96 | 0 | 12% | 7% | -100% | -78% | 12 min |
-| AFCON Game Winner | ✘ | 95 | 1 | 17% | 6% | -2% | -71% | 20 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
 | Tweede Divisie Game | ✘ | 94 | 0 | 1% | 0% | -100% | -98% | 7 min |
 | La Liga Game | ✔ | 94 | 0 | 18% | 12% | -100% | -69% | 8 min |
@@ -176,9 +176,9 @@
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | SHL Game | ✘ | 86 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | DEL Game | ✘ | 86 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| International Friendly Game | partly | 85 | 1 | 16% | 6% | +10% | -71% | 14 min |
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
-| International Friendly Game | partly | 84 | 1 | 17% | 6% | +11% | -71% | 15 min |
 | Mobile Legends Bang Bang Game | ✘ | 81 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
 | Bundesliga Game | ✔ | 81 | 1 | 17% | 9% | +15% | -70% | 9 min |
@@ -278,9 +278,9 @@
 | Liga Portugal 2 Game | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 16 min |
 | Colombia LBP Basketball Game | ✘ | 19 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | Women's Pro Basketball Game | ✔ | 18 | 0 | 22% | 6% | -100% | -61% | 6 min |
+| EuroBasket (W) Game | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 11 min |
 | Malaysia Super League Game | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 9 min |
 | Philippines PBA Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 11 min |
-| EuroBasket (W) Game | ✘ | 17 | 0 | 6% | 0% | -100% | -90% | 11 min |
 | Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
 | Israel Super League Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 12 min |
 | EFL Cup Game | ✘ | 16 | 0 | 19% | 0% | -100% | -68% | 15 min |
@@ -345,7 +345,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1265 | 4% | 1% | 0% | -93% |
+| Under 5 min | 1266 | 4% | 1% | 0% | -93% |
 | 5–15 min | 806 | 16% | 8% | 1% | -72% |
 | 15–30 min | 564 | 24% | 12% | 1% | -58% |
 | 30–60 min | 446 | 20% | 12% | 1% | -65% |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 15:06 | International Friendly Game | Tie | ✔ | 90'+4' · PAR 2 - JPN 1 | — | In play | — |
-| 11-17 15:05 | ITF Women's Match | Emma Slavikova | ✘ | — | — | In play | — |
+| 11-17 15:16 | eSoccer Game | Werder Bremen (Arkon) | ✘ | — | — | In play | — |
+| 11-17 15:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 11-17 15:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:13 | ITF Men's Match | Joan Torres Espinosa | ✘ | — | — | In play | — |
+| 11-17 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:13 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | — | In play | — |
+| 11-17 15:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:13 | eSoccer Game | OGC Nice (Rooney) | ✘ | — | — | In play | — |
+| 11-17 15:12 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:12 | ITF Women's Match | Lucia Ibarrola | ✘ | — | — | In play | — |
+| 11-17 15:11 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
+| 11-17 15:11 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | — | In play | — |
+| 11-17 15:10 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | — | In play | — |
+| 11-17 15:10 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | — | In play | — |
+| 11-17 15:06 | International Friendly Game | Tie | ✔ | 90'+4' · PAR 2 - JPN 1 | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:05 | ITF Women's Match | Emma Slavikova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 11-17 15:04 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | — | In play | — |
-| 11-17 15:04 | Russia Liga Pro Match | Mukhamedzhanov Mikhail | ✘ | — | — | In play | — |
-| 11-17 15:03 | eSoccer Game | FC Koln (Krocs) | ✘ | — | — | In play | — |
-| 11-17 15:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 15:03 | Counter-Strike 2 Game | Misa Esports | ✘ | — | — | In play | — |
-| 11-17 15:02 | AFCON Game Winner | Nigeria | ✘ | — | — | In play | — |
+| 11-17 15:04 | Russia Liga Pro Match | Mukhamedzhanov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:03 | eSoccer Game | FC Koln (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:03 | Counter-Strike 2 Game | Misa Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:02 | AFCON Game Winner | Nigeria | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:02 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
-| 11-17 15:01 | Counter-Strike 2 Game | Iberian Soul | ✘ | — | — | In play | — |
-| 11-17 15:00 | Challenger ATP  | Leo Borg | ✘ | — | — | In play | — |
-| 11-17 15:00 | AFCON Game Winner | Tanzania | ✘ | — | — | In play | — |
-| 11-17 15:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:01 | Counter-Strike 2 Game | Iberian Soul | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:00 | Challenger ATP  | Leo Borg | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-17 15:00 | AFCON Game Winner | Tanzania | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-17 15:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 14:59 | eSoccer Game | Toulouse FC (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 14:59 | eSoccer Game | Spurs (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:59 | eSoccer Game | AS Monaco (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:58 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:58 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:58 | AFCON Game Winner | Burundi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:56 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:56 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:53 | AFCON Game Winner | Egypt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:52 | AFCON Game Winner | Malawi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:51 | Counter-Strike 2 Game | ex-INOX Division | ✘ | — | — | In play | — |
-| 11-17 14:50 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:50 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:50 | Dota 2 Game | 4ikibamboni | ✘ | — | — | In play | — |
-| 11-17 14:48 | ITF Men's Match | Maksim Tikhomirov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
