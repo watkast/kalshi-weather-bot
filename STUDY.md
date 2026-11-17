@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 16, 10:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 16, 11:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64608 | 3530 | 13 (0%) | 1.1% | -$347.50 (-66%) | Hold to the end: -$347.50 (-66%) |
+| 64618 | 3530 | 13 (0%) | 1.1% | -$347.50 (-66%) | Hold to the end: -$347.50 (-66%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3530 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61055 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61064 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30766 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3898 | 0 | 1% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3024 | 6 | 3% | 1% | -81% | -91% | 3 min |
+| eSoccer Game | ✘ | 30768 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3901 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3025 | 6 | 3% | 1% | -81% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1913 | 8 | 14% | 6% | -61% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1841 | 4 | 14% | 6% | -80% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1843 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1720 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1156 | 5 | 12% | 4% | -60% | -79% | 5 min |
@@ -112,7 +112,7 @@
 | Women's College Volleyball Match | ✘ | 414 | 2 | 4% | 2% | -55% | -94% | 56 min |
 | Dota 2 Game | ✘ | 409 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 393 | 2 | 5% | 3% | -53% | -91% | 8 min |
-| Men's T20 Cricket Match | ✘ | 371 | 2 | 16% | 7% | -50% | -72% | 25 min |
+| Men's T20 Cricket Match | ✘ | 372 | 2 | 16% | 7% | -50% | -73% | 25 min |
 | NHL Game | ✔ | 328 | 2 | 15% | 9% | -43% | -74% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Challenger WTA | ✘ | 295 | 1 | 13% | 4% | -68% | -78% | 9 min |
@@ -367,14 +367,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 05:57 | Russia Liga Pro Match | Krivonos Dmitrii | ✘ | — | — | In play | — |
-| 11-17 05:55 | ITF Men's Match | Taiyo Yamanaka | ✘ | — | — | In play | — |
-| 11-17 05:52 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | — | In play | — |
-| 11-17 05:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 05:50 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-17 05:50 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | — | In play | — |
+| 11-17 06:06 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
+| 11-17 06:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 06:05 | eSoccer Game | Spurs (Kitana) | ✘ | — | — | In play | — |
+| 11-17 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 06:04 | eSoccer Game | Girona (Antonio) | ✘ | — | — | In play | — |
+| 11-17 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 06:01 | eSoccer Game | RC Celta (Hurricane) | ✘ | — | — | In play | — |
+| 11-17 06:01 | eSoccer Game | Chelsea (Adri) | ✘ | — | — | In play | — |
+| 11-17 05:59 | Russia Liga Pro Match | Bogomolov Albert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:57 | Russia Liga Pro Match | Krivonos Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:55 | ITF Men's Match | Taiyo Yamanaka | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
+| 11-17 05:52 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:50 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:50 | eBasketball Game | Denver Nuggets (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:49 | Men's T20 Cricket Match | Royal Cobras | ✘ | — | — | In play | — |
+| 11-17 05:49 | Men's T20 Cricket Match | Royal Cobras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:48 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:46 | eSoccer Game | Spurs (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -386,17 +396,7 @@
 | 11-17 05:40 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:38 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 05:38 | Dota 2 Game | Team Nemesis Academy | ✘ | — | — | In play | — |
-| 11-17 05:34 | ITF Men's Match | Muzammil Murtaza | ✘ | — | — | In play | — |
-| 11-17 05:34 | eSoccer Game | Newcastle Utd (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:34 | eSoccer Game | Nottingham Forest (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:30 | eSoccer Game | Valencia CF (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:29 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:27 | eSoccer Game | Sevilla FC (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 05:27 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 05:34 | ITF Men's Match | Muzammil Murtaza | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
