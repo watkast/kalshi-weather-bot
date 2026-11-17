@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 8:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64919 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
+| 64935 | 3534 | 13 (0%) | 1.1% | -$348.10 (-66%) | Hold to the end: -$348.10 (-66%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3534 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61358 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61373 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30952 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3927 | 0 | 1% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 30960 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3930 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3044 | 7 | 3% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 1921 | 8 | 14% | 6% | -61% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1864 | 4 | 14% | 6% | -80% | -76% | 5 min |
+| ITF Women's Match | ✘ | 1922 | 8 | 14% | 6% | -61% | -76% | 4 min |
+| ITF Men's Match | ✘ | 1865 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1727 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1166 | 5 | 12% | 4% | -60% | -80% | 5 min |
@@ -110,7 +110,7 @@
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 434 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 414 | 2 | 4% | 2% | -55% | -94% | 56 min |
-| Dota 2 Game | ✘ | 410 | 1 | 1% | 1% | -77% | -98% | 32 min |
+| Dota 2 Game | ✘ | 411 | 1 | 1% | 1% | -77% | -98% | 32 min |
 | Serie C Game | ✘ | 393 | 2 | 5% | 3% | -53% | -91% | 8 min |
 | Men's T20 Cricket Match | ✘ | 374 | 2 | 16% | 7% | -50% | -73% | 25 min |
 | NHL Game | ✔ | 328 | 2 | 15% | 9% | -43% | -74% | 5 min |
@@ -236,9 +236,9 @@
 | Sweden SBL Game | ✘ | 47 | 0 | 4% | 4% | -100% | -93% | 14 min |
 | Austria BSL Game | ✘ | 47 | 0 | 6% | 4% | -100% | -89% | 8 min |
 | Croatia HNL Game | ✘ | 47 | 0 | 9% | 4% | -100% | -85% | 11 min |
+| Liga Nacional de Basquetbol Game | ✘ | 47 | 0 | 2% | 0% | -100% | -96% | 6 min |
 | Qatar Stars League | ✘ | 47 | 0 | 11% | 4% | -100% | -82% | 10 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
-| Liga Nacional de Basquetbol Game | ✘ | 46 | 0 | 2% | 0% | -100% | -96% | 6 min |
 | Latvian Virsliga Game | ✘ | 45 | 0 | 16% | 7% | -100% | -73% | 22 min |
 | Slovenian Prva Liga Game | ✘ | 45 | 0 | 9% | 2% | -100% | -85% | 12 min |
 | Swiss Super League Game | ✘ | 45 | 1 | 4% | 2% | +107% | -92% | 7 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 15:27 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | — | In play | — |
-| 11-17 15:27 | eSoccer Game | Spurs (Mei) | ✘ | — | — | In play | — |
-| 11-17 15:27 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | — | In play | — |
-| 11-17 15:27 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:37 | International Friendly Game | Tie | ✔ | 69' · SYR 1 - UAE 3 | — | In play | — |
+| 11-17 15:36 | Dota 2 Game | Team Nemesis Academy | ✘ | — | — | In play | — |
+| 11-17 15:36 | International Friendly Game | Syria | ✔ | 67' · SYR 1 - UAE 2 | — | In play | — |
+| 11-17 15:33 | ITF Men's Match | Jules Fabre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:32 | Women's College Basketball Game | Akron | ✔ | 9:58 - 1st · AKR 0 - WVU 0 | — | In play | — |
+| 11-17 15:32 | Russia Liga Pro Match | Anisimov Evgeny | ✘ | — | — | In play | — |
+| 11-17 15:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:30 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:30 | Challenger WTA | Darja Semenistaja | ✘ | — | — | In play | — |
+| 11-17 15:29 | Russia Liga Pro Match | Alekseev Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:29 | Russia Liga Pro Match | Ivashov Roman | ✘ | — | — | In play | — |
+| 11-17 15:29 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | — | In play | — |
+| 11-17 15:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:28 | Men's College Basketball Game | Wilson College | ✘ | — | — | In play | — |
+| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Olympique de Marseille (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Spurs (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Paris Saint-Germain (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 15:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:25 | International Friendly Game | Qatar | ✔ | 68' · KOR 1 - QAT 0 | — | In play | — |
 | 11-17 15:24 | Dota 2 Game | PuckChamp | ✘ | — | — | In play | — |
 | 11-17 15:17 | ITF Men's Match | Alvaro Peiro Serrano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:17 | ITF Women's Match | Maria Toma | ✘ | — | — | In play | — |
+| 11-17 15:17 | ITF Women's Match | Maria Toma | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:16 | eSoccer Game | Werder Bremen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 15:13 | ITF Men's Match | Joan Torres Espinosa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:13 | eSoccer Game | Olympique Lyon (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:13 | eSoccer Game | OGC Nice (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:12 | ITF Women's Match | Lucia Ibarrola | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:11 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:11 | Russia Liga Pro Match | Abanokov Zalimgeri | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:10 | Counter-Strike 2 Game | ex-RUSTEC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:10 | eBasketball Game | New Orleans Pelicans (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:06 | International Friendly Game | Tie | ✔ | 90'+4' · PAR 2 - JPN 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:05 | ITF Women's Match | Emma Slavikova | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-17 15:04 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:04 | Russia Liga Pro Match | Mukhamedzhanov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:03 | eSoccer Game | FC Koln (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 15:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
