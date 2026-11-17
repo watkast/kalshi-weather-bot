@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 7:56 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:06 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64873 | 3532 | 13 (0%) | 1.1% | -$347.80 (-66%) | Hold to the end: -$347.80 (-66%) |
+| 64895 | 3532 | 13 (0%) | 1.1% | -$347.80 (-66%) | Hold to the end: -$347.80 (-66%) |
 
-*In play right now: 40. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3532 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61301 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61329 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 30923 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 30939 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3925 | 0 | 1% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3042 | 7 | 3% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1919 | 8 | 14% | 6% | -61% | -76% | 4 min |
-| ITF Men's Match | ✘ | 1861 | 4 | 14% | 6% | -80% | -76% | 5 min |
+| ITF Men's Match | ✘ | 1862 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1723 | 3 | 6% | 3% | -84% | -90% | 12 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1164 | 5 | 12% | 4% | -60% | -80% | 5 min |
+| Challenger ATP  | ✘ | 1165 | 5 | 12% | 4% | -60% | -80% | 5 min |
 | Men's College Basketball Game | partly | 655 | 5 | 19% | 7% | -29% | -67% | 26 min |
 | Women's College Basketball Game | partly | 647 | 2 | 14% | 4% | -71% | -76% | 33 min |
 | College Football Game | partly | 628 | 3 | 11% | 5% | -55% | -81% | 23 min |
@@ -159,6 +159,7 @@
 | NFL Game | ✔ | 100 | 1 | 18% | 7% | -7% | -69% | 9 min |
 | TFF 1. Lig Game | ✘ | 98 | 0 | 12% | 7% | -100% | -79% | 11 min |
 | Indonesia Super League Game | ✘ | 96 | 0 | 12% | 7% | -100% | -78% | 12 min |
+| AFCON Game Winner | ✘ | 95 | 1 | 17% | 6% | -2% | -71% | 20 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
 | Tweede Divisie Game | ✘ | 94 | 0 | 1% | 0% | -100% | -98% | 7 min |
 | La Liga Game | ✔ | 94 | 0 | 18% | 12% | -100% | -69% | 8 min |
@@ -175,7 +176,6 @@
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | SHL Game | ✘ | 86 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | DEL Game | ✘ | 86 | 0 | 0% | 0% | -100% | -100% | 5 min |
-| AFCON Game Winner | ✘ | 85 | 1 | 18% | 6% | +10% | -69% | 22 min |
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
 | Polish Ekstraklasa Game | ✘ | 85 | 0 | 12% | 7% | -100% | -80% | 12 min |
 | International Friendly Game | partly | 84 | 1 | 17% | 6% | +11% | -71% | 15 min |
@@ -367,36 +367,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 14:56 | AFCON Game Winner | Tie | ✘ | — | — | In play | — |
-| 11-17 14:53 | AFCON Game Winner | Egypt | ✘ | — | — | In play | — |
-| 11-17 14:52 | AFCON Game Winner | Malawi | ✘ | — | — | In play | — |
+| 11-17 15:06 | International Friendly Game | Tie | ✔ | 90'+4' · PAR 2 - JPN 1 | — | In play | — |
+| 11-17 15:05 | ITF Women's Match | Emma Slavikova | ✘ | — | — | In play | — |
+| 11-17 15:04 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | — | In play | — |
+| 11-17 15:04 | Russia Liga Pro Match | Mukhamedzhanov Mikhail | ✘ | — | — | In play | — |
+| 11-17 15:03 | eSoccer Game | FC Koln (Krocs) | ✘ | — | — | In play | — |
+| 11-17 15:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 15:03 | Counter-Strike 2 Game | Misa Esports | ✘ | — | — | In play | — |
+| 11-17 15:02 | AFCON Game Winner | Nigeria | ✘ | — | — | In play | — |
+| 11-17 15:02 | Counter-Strike 2 Game | BIG | ✘ | — | — | In play | — |
+| 11-17 15:01 | Counter-Strike 2 Game | Iberian Soul | ✘ | — | — | In play | — |
+| 11-17 15:00 | Challenger ATP  | Leo Borg | ✘ | — | — | In play | — |
+| 11-17 15:00 | AFCON Game Winner | Tanzania | ✘ | — | — | In play | — |
+| 11-17 15:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 14:59 | eSoccer Game | Toulouse FC (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:59 | eSoccer Game | Spurs (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:59 | eSoccer Game | AS Monaco (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:58 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:58 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:58 | AFCON Game Winner | Burundi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:56 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:56 | AFCON Game Winner | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:53 | AFCON Game Winner | Egypt | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:52 | AFCON Game Winner | Malawi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 14:51 | Counter-Strike 2 Game | ex-INOX Division | ✘ | — | — | In play | — |
-| 11-17 14:50 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | — | In play | — |
-| 11-17 14:50 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | — | In play | — |
+| 11-17 14:50 | eSoccer Game | FC Bayern (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:50 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 14:50 | Dota 2 Game | 4ikibamboni | ✘ | — | — | In play | — |
-| 11-17 14:48 | ITF Men's Match | Maksim Tikhomirov | ✘ | — | — | In play | — |
-| 11-17 14:48 | AFCON Game Winner | Ethiopia | ✘ | — | — | In play | — |
-| 11-17 14:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 14:47 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-17 14:46 | eSoccer Game | AS Monaco (Danny) | ✘ | — | — | In play | — |
-| 11-17 14:46 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
-| 11-17 14:46 | International Friendly Game | Japan | ✔ | 75' · PAR 2 - JPN 0 | — | In play | — |
-| 11-17 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 14:45 | Challenger ATP  | Luka Mikrut | ✘ | — | — | In play | — |
-| 11-17 14:44 | eSoccer Game | Toulouse FC (Endrick) | ✘ | — | — | In play | — |
-| 11-17 14:44 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 11-17 14:43 | eBasketball Game | Indiana Pacers (Larry) | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-17 14:43 | AFCON Game Winner | Zambia | ✘ | — | — | In play | — |
-| 11-17 14:43 | eBasketball Game | Dallas Mavericks (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:43 | Russia Liga Pro Match | Kolmin Aleksandr | ✘ | — | — | In play | — |
-| 11-17 14:42 | ITF Women's Match | Jahnie Van Zyl | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:42 | ITF Women's Match | Anastasia Bertacchi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:40 | AFCON Game Winner | Gabon | ✘ | — | — | In play | — |
-| 11-17 14:40 | ITF Men's Match | Niccolo Ciavarella | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:36 | eSoccer Game | Werder Bremen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:35 | eSoccer Game | FC Koln (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 14:35 | KHL Game | Traktor Chelyabinsk | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 14:48 | ITF Men's Match | Maksim Tikhomirov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
