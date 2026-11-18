@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 18, 2:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 18, 2:56 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61159 | 61125 | 237 (0%) | 1.07% | -$4,121.25 (-55%) | Hold to the close: -$4,121.25 (-55%) |
+| 61162 | 61125 | 237 (0%) | 1.07% | -$4,121.25 (-55%) | Hold to the close: -$4,121.25 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/18 2:56:27 PM | WTI | UP | 3.5 min | — | — | In play | — |
+| 11/18 2:56:27 PM | BRENT | UP | 3.5 min | — | — | In play | — |
+| 11/18 2:55:22 PM | COPPER | UP | 4.6 min | — | — | In play | — |
 | 11/18 2:44:46 PM | PALLADIUM | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 2:44:46 PM | USDCAD | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 2:44:46 PM | COPPER | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/18 2:29:51 PM | 10YRRATE | DOWN | 8 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 2:29:35 PM | PALLADIUM | DOWN | 24 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 2:29:35 PM | WTI | UP | 24 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/18 2:29:35 PM | BNB | DOWN | 24 sec | +0.026% | 1¢ | ❌ Lost | -$0.15 |
-| 11/18 2:29:35 PM | SOL | UP | 24 sec | -0.060% | 0¢ | ❌ Lost | $0.00 |
-| 11/18 2:29:19 PM | NATGAS | UP | 41 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
