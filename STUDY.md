@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 12:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 12:38 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65896 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
+| 65898 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3594 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62269 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62281 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31464 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4000 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 31472 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4002 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3096 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1943 | 8 | 14% | 6% | -62% | -75% | 4 min |
 | ITF Men's Match | ✘ | 1898 | 5 | 14% | 6% | -75% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1760 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1194 | 5 | 12% | 5% | -61% | -79% | 5 min |
-| Men's College Basketball Game | partly | 710 | 5 | 19% | 8% | -34% | -66% | 26 min |
+| Men's College Basketball Game | partly | 711 | 5 | 19% | 8% | -34% | -66% | 26 min |
 | Women's College Basketball Game | partly | 682 | 2 | 14% | 4% | -73% | -76% | 33 min |
 | College Football Game | partly | 631 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -112,7 +112,7 @@
 | Women's College Volleyball Match | ✘ | 423 | 2 | 4% | 2% | -56% | -93% | 52 min |
 | Dota 2 Game | ✘ | 415 | 1 | 1% | 1% | -78% | -98% | 32 min |
 | Serie C Game | ✘ | 393 | 2 | 5% | 3% | -53% | -91% | 8 min |
-| Men's T20 Cricket Match | ✘ | 376 | 2 | 16% | 7% | -50% | -73% | 25 min |
+| Men's T20 Cricket Match | ✘ | 377 | 2 | 16% | 7% | -50% | -73% | 25 min |
 | NHL Game | ✔ | 338 | 3 | 16% | 9% | -17% | -73% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Challenger WTA | ✘ | 299 | 1 | 12% | 4% | -69% | -79% | 9 min |
@@ -369,17 +369,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 07:27 | eSoccer Game | Spurs (Kitana) | ✘ | — | — | In play | — |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:27 | eSoccer Game | Real Betis (Antonio) | ✘ | — | — | In play | — |
-| 11-18 07:27 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | — | In play | — |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-18 07:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:26 | Men's College Basketball Game | Auburn | ✘ | — | — | In play | — |
-| 11-18 07:24 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | — | In play | — |
-| 11-18 07:23 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | — | In play | — |
+| 11-18 07:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 07:30 | eSoccer Game | Toulouse FC (Ryft) | ✘ | — | — | In play | — |
+| 11-18 07:27 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:27 | eSoccer Game | Real Betis (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:27 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:26 | Men's College Basketball Game | Auburn | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-18 07:24 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:23 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:19 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:17 | eSoccer Game | Rennes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -394,11 +396,9 @@
 | 11-18 07:12 | eBasketball Game | Dallas Mavericks (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:12 | eSoccer Game | Chelsea (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:12 | Men's T20 Cricket Match | Delhi | ✘ | — | — | In play | — |
+| 11-18 07:12 | Men's T20 Cricket Match | Delhi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:03 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:03 | eSoccer Game | AS Monaco (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:03 | Men's T20 Cricket Match | Speedworld SS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:01 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
