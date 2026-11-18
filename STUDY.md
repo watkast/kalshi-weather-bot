@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 5:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 5:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65408 | 3551 | 13 (0%) | 1.1% | -$350.65 (-66%) | Hold to the end: -$350.65 (-66%) |
+| 65421 | 3551 | 13 (0%) | 1.1% | -$350.65 (-66%) | Hold to the end: -$350.65 (-66%) |
 
-*In play right now: 38. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3551 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61819 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61823 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31196 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31200 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3972 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3068 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1937 | 8 | 14% | 6% | -61% | -75% | 4 min |
@@ -368,6 +368,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-18 00:45 | CONCACAF Nations League Game | Reg Time: Haiti | ✔ | 38' · HAI 0 - USA 1 | — | In play | — |
+| 11-18 00:45 | Brazil NBB Basketball Game | Botafogo | ✘ | — | — | In play | — |
+| 11-18 00:43 | Men's College Basketball Game | Kennesaw St. | ✔ | 15:47 - 1st · KENN 8 - ALA 15 | — | In play | — |
+| 11-18 00:42 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | — | In play | — |
+| 11-18 00:41 | Men's College Basketball Game | Saint Peter's | ✘ | — | — | In play | — |
+| 11-18 00:41 | eSoccer Game | Girona (Mordor) | ✘ | — | — | In play | — |
+| 11-18 00:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 00:39 | eBasketball Game | New York Knicks (Conor) | ✘ | — | — | In play | — |
+| 11-18 00:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 00:36 | eSoccer Game | Nantes (Lucy) | ✘ | — | — | In play | — |
+| 11-18 00:36 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | — | In play | — |
+| 11-18 00:36 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 00:35 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:35 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
 | 11-18 00:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-18 00:34 | Men's College Basketball Game | Ball St. | ✘ | — | — | In play | — |
@@ -376,28 +389,15 @@
 | 11-18 00:31 | College Football Game | Eastern Michigan | ✔ | 0:02 - 2nd · EMU 7 - WMU 30 | — | In play | — |
 | 11-18 00:29 | ITF Men's Match | Maxwell Benson | ✘ | — | — | In play | — |
 | 11-18 00:28 | Men's College Basketball Game | Maryland-Eastern Shore | ✘ | — | — | In play | — |
-| 11-18 00:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 00:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:27 | Challenger ATP  | Jeremy Zhang | ✘ | — | — | In play | — |
 | 11-18 00:27 | International Friendly Game | Tie | ✔ | 45'+4' · BOL 0 - ECU 1 | — | In play | — |
-| 11-18 00:27 | eSoccer Game | RC Celta (NINJA) | ✘ | — | — | In play | — |
+| 11-18 00:27 | eSoccer Game | RC Celta (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:26 | Women's College Basketball Game | Bellarmine | ✘ | — | — | In play | — |
 | 11-18 00:23 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:23 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 00:22 | eSoccer Game | São Paulo (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:21 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:20 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:17 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:17 | Women's College Basketball Game | Merrimack | ✘ | — | — | In play | — |
-| 11-18 00:14 | eSoccer Game | CA Osasuna (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:12 | International Friendly Game | Dominican Republic | ✔ | 41' · DOM 0 - URU 0 | — | In play | — |
-| 11-18 00:10 | eBasketball Game | New York Knicks (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:09 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:08 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 00:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
