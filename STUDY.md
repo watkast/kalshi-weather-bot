@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 1:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 1:19 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65924 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
+| 65934 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3594 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62305 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62311 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31490 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31494 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4005 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3097 | 8 | 3% | 2% | -76% | -91% | 3 min |
+| eBasketball Game | ✘ | 3098 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1943 | 8 | 14% | 6% | -62% | -75% | 4 min |
 | ITF Men's Match | ✘ | 1898 | 5 | 14% | 6% | -75% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1760 | 3 | 6% | 3% | -84% | -90% | 11 min |
@@ -137,7 +137,7 @@
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
 | LaLiga 2 Game | partly | 131 | 1 | 18% | 8% | -29% | -70% | 9 min |
 | Overwatch Game | ✘ | 131 | 0 | 2% | 0% | -100% | -97% | 6 min |
-| Women's T20 Match | ✘ | 129 | 0 | 16% | 5% | -100% | -73% | 28 min |
+| Women's T20 Match | ✘ | 130 | 0 | 15% | 5% | -100% | -73% | 28 min |
 | Brasileiro Serie A Game | partly | 124 | 1 | 10% | 6% | -25% | -82% | 9 min |
 | EFL League One Game | ✔ | 122 | 0 | 8% | 2% | -100% | -86% | 10 min |
 | R6 Game | ✘ | 121 | 1 | 10% | 4% | -23% | -83% | 8 min |
@@ -369,8 +369,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 08:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
-| 11-18 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 08:14 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | — | In play | — |
+| 11-18 08:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 08:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 08:13 | Women's T20 Match | Karnataka Women | ✘ | — | — | In play | — |
+| 11-18 08:11 | eSoccer Game | AS Monaco (Ryft) | ✘ | — | — | In play | — |
+| 11-18 08:10 | eSoccer Game | Montpellier (Kitana) | ✘ | — | — | In play | — |
+| 11-18 08:10 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-18 08:10 | eBasketball Game | Golden State Warriors (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 08:09 | eSoccer Game | Real Betis (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 08:09 | eSoccer Game | Real Madrid (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 08:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 08:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 08:06 | Men's T20 Cricket Match | Railways | ✘ | — | — | In play | — |
 | 11-18 08:06 | eBasketball Game | New York Knicks (Zach) | ✘ | — | — | In play | — |
 | 11-18 08:00 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -389,16 +399,6 @@
 | 11-18 07:44 | Valorant game winner | LGD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:43 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:42 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Real Madrid (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Real Betis (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:30 | eSoccer Game | Toulouse FC (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
