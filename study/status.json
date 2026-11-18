@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-18T00:24:43+00:00",
+ "saved_at": "2026-11-18T00:35:11+00:00",
  "series_watched": 419,
  "markets_in_or_near_play": 433,
  "batch_lookup": true,
- "espn_games_linked": 23,
+ "espn_games_linked": 24,
  "espn_check": {
   "at": "2026-11-18T00:14:43+00:00",
   "started_games": 66,
@@ -21,7 +21,7 @@
    "KXNCAAWBGAME-26NOV17BELLINST"
   ]
  },
- "bets": 65395,
- "open": 33,
+ "bets": 65408,
+ "open": 38,
  "errors": []
 }
