@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Wed Nov 18 11:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Wed Nov 18 11:23 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
 | **20¢+ jump, sell +5¢** | 44404 | 38544 | 5860 (177) | 0 | $-1650.86 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 27245 | 14891 | 12354 (5509) | 3 | $-9122.73 | -5.3% |
+| **20¢+ jump, ride past +5¢** | 27248 | 14891 | 12357 (5512) | 0 | $-9117.93 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,15 +18,15 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 11:06 | J20R | BTC | DOWN | 22¢ | 0.90 | open |  |
+| 11-18 11:06 | J20R | BTC | DOWN | 22¢ | 0.90 | no | 0.90 |
 | 11-18 11:06 | J20 | BTC | DOWN | 22¢ | 0.90 | 0.97 | 0.54 |
 | 11-18 11:01 | J20R | BTC | DOWN | 21¢ | 0.65 | 0.73 | 0.50 |
 | 11-18 11:01 | J20 | BTC | DOWN | 21¢ | 0.65 | 0.70 | 0.19 |
 | 11-18 11:01 | J20R | XRP | DOWN | 23¢ | 0.68 | 0.77 | 0.61 |
 | 11-18 11:01 | J20 | XRP | DOWN | 23¢ | 0.68 | 0.73 | 0.20 |
-| 11-18 11:01 | J20R | NEAR | DOWN | 20¢ | 0.81 | open |  |
+| 11-18 11:01 | J20R | NEAR | DOWN | 20¢ | 0.81 | no | 1.83 |
 | 11-18 11:01 | J20 | NEAR | DOWN | 20¢ | 0.81 | 0.86 | 0.34 |
-| 11-18 11:01 | J20R | ETH | DOWN | 21¢ | 0.78 | open |  |
+| 11-18 11:01 | J20R | ETH | DOWN | 21¢ | 0.78 | no | 2.07 |
 | 11-18 11:01 | J20 | ETH | DOWN | 21¢ | 0.78 | 0.85 | 0.48 |
 | 11-18 10:59 | J20R | DOGE | UP | 22¢ | 0.36 | yes | 6.18 |
 | 11-18 10:58 | J20R | DOGE | UP | 24¢ | 0.27 | 0.42 | 1.20 |
