@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 8:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 8:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65619 | 3576 | 13 (0%) | 1.1% | -$354.40 (-66%) | Hold to the end: -$354.40 (-66%) |
+| 65632 | 3576 | 13 (0%) | 1.1% | -$354.40 (-66%) | Hold to the end: -$354.40 (-66%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3576 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62012 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62020 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31291 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31296 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3982 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3080 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1939 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -104,7 +104,7 @@
 | Counter-Strike 2 Game | ✘ | 1760 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1188 | 5 | 12% | 5% | -61% | -79% | 5 min |
-| Men's College Basketball Game | partly | 695 | 5 | 19% | 8% | -33% | -66% | 26 min |
+| Men's College Basketball Game | partly | 698 | 5 | 19% | 8% | -33% | -66% | 26 min |
 | Women's College Basketball Game | partly | 677 | 2 | 14% | 4% | -72% | -76% | 33 min |
 | College Football Game | partly | 630 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -369,16 +369,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 03:12 | Men's College Basketball Game | Georgia Southern | ✘ | — | — | In play | — |
-| 11-18 03:10 | eSoccer Game | Everton (Mordor) | ✘ | — | — | In play | — |
+| 11-18 03:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 03:23 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-18 03:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 03:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 03:23 | eSoccer Game | Leverkusen (Castle) | ✘ | — | — | In play | — |
+| 11-18 03:22 | eSoccer Game | 1. FC Köln (Bradley) | ✘ | — | — | In play | — |
+| 11-18 03:21 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-18 03:21 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-18 03:18 | Challenger ATP  | Koki Matsuda | ✘ | — | — | In play | — |
+| 11-18 03:16 | NHL Game | Anaheim | ✔ | 11:26 - 3rd · ANA 3 - STL 7 | — | In play | — |
+| 11-18 03:15 | Men's College Basketball Game | Southern Miss | ✘ | — | — | In play | — |
+| 11-18 03:14 | Men's College Basketball Game | UNLV | ✔ | 11:36 - 1st · UNLV 15 - KU 31 | — | In play | — |
+| 11-18 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 03:12 | Men's College Basketball Game | Georgia Southern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 03:10 | eSoccer Game | Everton (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:09 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:09 | Challenger ATP  | Pavle Marinkov | ✘ | — | — | In play | — |
-| 11-18 03:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 03:07 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | — | In play | — |
+| 11-18 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 03:07 | eSoccer Game | FSV Mainz 05 (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:07 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 03:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:04 | eSoccer Game | 1. FC Köln (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:03 | Men's College Basketball Game | Texas A&M-Corpus Christi | ✘ | — | — | In play | — |
 | 11-18 03:03 | NHL Game | Washington | ✔ | 2:41 - 3rd · WSH 2 - TB 4 | 0¢ | ❌ Lost | -$0.15 |
@@ -386,19 +399,6 @@
 | 11-18 03:01 | Men's College Basketball Game | UMass | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
 | 11-18 02:59 | Women's College Basketball Game | Oral Roberts | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 02:59 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:59 | eBasketball Game | Golden State Warriors (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:57 | eBasketball Game | Los Angeles Lakers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:56 | NHL Game | Toronto | ✔ | 6:54 - 3rd · TOR 3 - CHI 6 | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:55 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | eSoccer Game | Estudiantes (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | eSoccer Game | Botafogo (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | NBA Game | Toronto | ✔ | 35.5 - 4th · NY 111 - TOR 102 | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:54 | ITF Women's Match | Yuki Naito | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 02:48 | CONCACAF Nations League Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
