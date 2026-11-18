@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 9:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 9:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65677 | 3581 | 13 (0%) | 1.1% | -$355.15 (-66%) | Hold to the end: -$355.15 (-66%) |
+| 65684 | 3581 | 13 (0%) | 1.1% | -$355.15 (-66%) | Hold to the end: -$355.15 (-66%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3581 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62069 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62079 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31326 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31336 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3982 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3082 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1939 | 8 | 14% | 6% | -61% | -76% | 4 min |
@@ -369,14 +369,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 04:05 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-18 04:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 04:03 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | — | In play | — |
-| 11-18 04:03 | eSoccer Game | Dortmund (Kylian) | ✘ | — | — | In play | — |
-| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 04:02 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-18 04:17 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-18 04:17 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-18 04:16 | Women's College Basketball Game | Washington St. | ✔ | Halftime · WASH 44 - WSU 26 | — | In play | — |
+| 11-18 04:14 | Men's College Basketball Game | UC Davis | ✘ | — | — | In play | — |
+| 11-18 04:08 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:07 | CONCACAF Nations League Game | Reg Time: Jamaica | ✔ | 78' · JAM 0 - MEX 1 | — | In play | — |
+| 11-18 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:05 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:03 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:03 | eSoccer Game | Dortmund (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:02 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:58 | ITF Men's Match | Min Ho Ko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:58 | ITF Men's Match | Haqim Kamal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -392,13 +399,6 @@
 | 11-18 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:43 | Men's College Basketball Game | Utah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 03:41 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:41 | eSoccer Game | Manchester Utd (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:40 | ITF Men's Match | David Mas Masia Lopez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:38 | Women's College Volleyball Match | Washington | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-18 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:37 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
