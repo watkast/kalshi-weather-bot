@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 12:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 1:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65918 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
+| 65924 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3594 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62297 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62305 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31482 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31490 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4005 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3097 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1943 | 8 | 14% | 6% | -62% | -75% | 4 min |
@@ -369,12 +369,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:56 | eSoccer Game | Nantes (Moana) | ✘ | — | — | In play | — |
-| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:55 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | — | In play | — |
-| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:52 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | — | In play | — |
+| 11-18 08:08 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | — | In play | — |
+| 11-18 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 08:06 | Men's T20 Cricket Match | Railways | ✘ | — | — | In play | — |
+| 11-18 08:06 | eBasketball Game | New York Knicks (Zach) | ✘ | — | — | In play | — |
+| 11-18 08:00 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 08:00 | eSoccer Game | Rennes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:56 | eSoccer Game | Nantes (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:55 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:52 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-18 07:48 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:47 | Valorant game winner | Ambitious Legend Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:46 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,12 +399,6 @@
 | 11-18 07:30 | eSoccer Game | Toulouse FC (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:27 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Real Betis (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
