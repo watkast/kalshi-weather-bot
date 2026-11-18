@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 7:30 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 7:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 66153 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
+| 66161 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3594 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62525 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62537 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31618 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 31626 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4028 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3110 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1958 | 8 | 14% | 6% | -62% | -75% | 4 min |
-| ITF Men's Match | ✘ | 1908 | 5 | 14% | 6% | -76% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1764 | 3 | 6% | 3% | -84% | -90% | 11 min |
+| ITF Men's Match | ✘ | 1909 | 5 | 14% | 6% | -76% | -76% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1765 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1196 | 5 | 12% | 5% | -61% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1198 | 5 | 12% | 5% | -61% | -79% | 5 min |
 | Men's College Basketball Game | partly | 711 | 5 | 19% | 8% | -34% | -66% | 26 min |
 | Women's College Basketball Game | partly | 682 | 2 | 14% | 4% | -73% | -76% | 33 min |
 | College Football Game | partly | 631 | 3 | 11% | 5% | -56% | -81% | 23 min |
@@ -371,19 +371,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 14:30 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-18 14:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 14:29 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 11-18 14:29 | Challenger ATP  | Jurij Rodionov | ✘ | — | — | In play | — |
+| 11-18 14:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 14:34 | eSoccer Game | Werder Bremen (Zaroth) | ✘ | — | — | In play | — |
+| 11-18 14:32 | ITF Women's Match | Emilia Carlotta Brune | ✘ | — | — | In play | — |
+| 11-18 14:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:32 | eSoccer Game | AS Monaco (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:32 | eSoccer Game | Toulouse FC (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:32 | eSoccer Game | Rennes (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:30 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:29 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 14:29 | Challenger ATP  | Jurij Rodionov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:28 | Men's T20 Cricket Match | Gujarat | ✘ | — | — | In play | — |
-| 11-18 14:26 | ITF Men's Match | Yannik Kelm | ✘ | — | — | In play | — |
+| 11-18 14:26 | ITF Men's Match | Yannik Kelm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:25 | Women's T20 Match | Muscat Thunders Women | ✘ | — | — | In play | — |
 | 11-18 14:24 | Men's ODI Cricket Match | Zimbabwe A | ✘ | — | — | In play | — |
 | 11-18 14:23 | ITF Men's Match | Stefano D'Agostino | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:23 | Challenger ATP  | Carlos Taberner | ✘ | — | — | In play | — |
+| 11-18 14:23 | Challenger ATP  | Carlos Taberner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:22 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:22 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | — | In play | — |
+| 11-18 14:22 | Counter-Strike 2 Game | ILLYRIANS | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:21 | ITF Women's Match | Madelief Hageman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:19 | ITF Men's Match | Karol Malirz | ✘ | — | — | In play | — |
 | 11-18 14:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,14 +401,6 @@
 | 11-18 14:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:16 | eSoccer Game | AS Monaco (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 14:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:16 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:15 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:15 | Men's T20 Cricket Match | Jammu & Kashmir | ✘ | — | — | In play | — |
-| 11-18 14:14 | ITF Men's Match | Fryderyk Lechno-Wasiutynski | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:14 | Russia Liga Pro Match | Shutov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:11 | ITF Women's Match | Sonja Zhenikhova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 14:11 | ITF Women's Match | Anastasia Efremova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
