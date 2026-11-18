@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 4:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 5:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65355 | 3550 | 13 (0%) | 1.1% | -$350.50 (-66%) | Hold to the end: -$350.50 (-66%) |
+| 65370 | 3550 | 13 (0%) | 1.1% | -$350.50 (-66%) | Hold to the end: -$350.50 (-66%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3550 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 61778 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 61788 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31168 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 3968 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 31175 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 3971 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3066 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1937 | 8 | 14% | 6% | -61% | -75% | 4 min |
 | ITF Men's Match | ✘ | 1877 | 4 | 14% | 6% | -80% | -76% | 5 min |
@@ -368,13 +368,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-17 23:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 11-17 23:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 00:03 | eBasketball Game | Brooklyn Nets (Jalen) | ✘ | — | — | In play | — |
+| 11-18 00:02 | Men's College Basketball Game | Rider | ✔ | 19:32 - 1st · RID 0 - MIA 2 | — | In play | — |
+| 11-18 00:01 | Women's College Basketball Game | Mount St. Mary's | ✔ | 9:58 - 1st · MSM 0 - NEB 2 | — | In play | — |
+| 11-18 00:01 | Russia Liga Pro Match | Popov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 00:00 | ITF Men's Match | Luis Patino | ✘ | — | — | In play | — |
+| 11-17 23:58 | ITF Men's Match | Livas Eduardo De Carvalho Damazio | ✘ | — | — | In play | — |
+| 11-17 23:58 | eSoccer Game | Girona (Mordor) | ✘ | — | — | In play | — |
+| 11-17 23:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 23:57 | Russia Liga Pro Match | Lyfenko Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:55 | Russia Liga Pro Match | Soldatov Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:55 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-17 23:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-17 23:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:54 | eSoccer Game | River Plate (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:54 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:53 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:52 | Challenger ATP  | Max Wiskandt | ✘ | — | — | In play | — |
 | 11-17 23:51 | Men's College Basketball Game | Lipscomb | ✘ | — | — | In play | — |
 | 11-17 23:46 | Counter-Strike 2 Game | QUINTESSENCIA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-17 23:45 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | — | In play | — |
+| 11-17 23:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-17 23:45 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:44 | eBasketball Game | New Orleans Pelicans (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:42 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:42 | Women's College Basketball Game | Northern Kentucky | ✘ | — | — | In play | — |
@@ -383,21 +398,6 @@
 | 11-17 23:41 | eSoccer Game | Universitario (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:41 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-17 23:40 | eSoccer Game | Palmeiras (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:40 | eSoccer Game | Flamengo (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:38 | Women's College Basketball Game | Army | ✘ | — | — | In play | — |
-| 11-17 23:38 | Men's College Basketball Game | Notre Dame | ✔ | 6:15 - 2nd · ND 62 - FLA 73 | — | In play | — |
-| 11-17 23:37 | International Friendly Game | Tie | ✔ | 36' · CRC 0 - ARG 1 | — | In play | — |
-| 11-17 23:37 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:32 | ITF Women's Match | Carolina Alves | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:31 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
-| 11-17 23:31 | eSoccer Game | RC Celta (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:31 | eSoccer Game | CA Osasuna (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:31 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-17 23:28 | ITF Men's Match | Joaquin Bianchi | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 11-17 23:28 | Men's College Basketball Game | Cleveland St. | ✘ | — | — | In play | — |
-| 11-17 23:27 | eSoccer Game | Spurs (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
