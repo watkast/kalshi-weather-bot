@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 12:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 12:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65912 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
+| 65918 | 3594 | 14 (0%) | 1.1% | -$343.10 (-64%) | Hold to the end: -$343.10 (-64%) |
 
-*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3594 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62283 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 62297 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31474 | 22 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4002 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3096 | 8 | 3% | 2% | -76% | -91% | 3 min |
+| eSoccer Game | ✘ | 31482 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4005 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3097 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1943 | 8 | 14% | 6% | -62% | -75% | 4 min |
 | ITF Men's Match | ✘ | 1898 | 5 | 14% | 6% | -75% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1760 | 3 | 6% | 3% | -84% | -90% | 11 min |
@@ -132,7 +132,7 @@
 | Argentine Nacional B Game | ✘ | 156 | 0 | 8% | 5% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 156 | 2 | 20% | 8% | +20% | -66% | 20 min |
 | ATP Tennis Match | ✘ | 153 | 0 | 16% | 7% | -100% | -73% | 4 min |
-| Valorant game winner | ✘ | 150 | 0 | 4% | 3% | -100% | -93% | 10 min |
+| Valorant game winner | ✘ | 152 | 0 | 4% | 3% | -100% | -93% | 10 min |
 | English National League Game | ✘ | 149 | 1 | 8% | 6% | -37% | -86% | 10 min |
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
 | LaLiga 2 Game | partly | 131 | 1 | 18% | 8% | -29% | -70% | 9 min |
@@ -369,20 +369,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 07:48 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | — | In play | — |
-| 11-18 07:47 | Valorant game winner | Ambitious Legend Gaming | ✘ | — | — | In play | — |
-| 11-18 07:46 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | — | In play | — |
-| 11-18 07:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:44 | eSoccer Game | AS Monaco (Homie) | ✘ | — | — | In play | — |
-| 11-18 07:44 | Valorant game winner | LGD Gaming | ✘ | — | — | In play | — |
-| 11-18 07:43 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | — | In play | — |
-| 11-18 07:42 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Everton (Moana) | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Real Madrid (Holis) | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Real Betis (Antonio) | ✘ | — | — | In play | — |
-| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 07:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 07:56 | eSoccer Game | Nantes (Moana) | ✘ | — | — | In play | — |
+| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 07:55 | eSoccer Game | Sevilla FC (Hurricane) | ✘ | — | — | In play | — |
+| 11-18 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 07:52 | eSoccer Game | RCD Mallorca (Fede) | ✘ | — | — | In play | — |
+| 11-18 07:48 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:47 | Valorant game winner | Ambitious Legend Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:46 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:44 | eSoccer Game | AS Monaco (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:44 | Valorant game winner | LGD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:43 | Russia Liga Pro Match | Sadovskiy Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:42 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Real Madrid (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Real Betis (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:30 | eSoccer Game | Toulouse FC (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:27 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,12 +399,6 @@
 | 11-18 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:26 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:26 | Men's College Basketball Game | Auburn | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-18 07:24 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:23 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:19 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 07:17 | eSoccer Game | Rennes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
