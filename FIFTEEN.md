@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 18, 3:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 18, 3:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61188 | 61154 | 237 (0%) | 1.07% | -$4,123.95 (-55%) | Hold to the close: -$4,123.95 (-55%) |
+| 61190 | 61154 | 237 (0%) | 1.07% | -$4,123.95 (-55%) | Hold to the close: -$4,123.95 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/18 3:26:15 PM | BTC | DOWN | 3.7 min | +0.254% | — | In play | — |
+| 11/18 3:25:59 PM | HYPE | DOWN | 4.0 min | +0.450% | — | In play | — |
 | 11/18 3:14:50 PM | ZEC | UP | 9 sec | -0.076% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 3:14:34 PM | SOL | UP | 25 sec | -0.094% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 3:14:34 PM | NEAR | UP | 25 sec | -0.179% | 0¢ | ❌ Lost | $0.00 |
@@ -217,8 +219,6 @@
 | 11/18 2:57:15 PM | NEAR | UP | 2.8 min | -0.448% | 1¢ | ❌ Lost | -$0.15 |
 | 11/18 2:56:27 PM | WTI | UP | 3.5 min | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/18 2:56:27 PM | BRENT | UP | 3.5 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/18 2:55:22 PM | COPPER | UP | 4.6 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/18 2:44:46 PM | PALLADIUM | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
