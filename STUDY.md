@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 17, 9:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 17, 9:42 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65697 | 3583 | 13 (0%) | 1.1% | -$355.45 (-66%) | Hold to the end: -$355.45 (-66%) |
+| 65712 | 3585 | 13 (0%) | 1.1% | -$355.75 (-66%) | Hold to the end: -$355.75 (-66%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3583 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 62090 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3585 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 62101 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 13 | 0% | -$355.45 | -66% |
-| Sell at 2¢ | 508 | 14% | -$405.37 | -75% |
-| Sell at 3¢ | 356 | 10% | -$398.61 | -74% |
-| Sell at 5¢ | 239 | 7% | -$382.10 | -71% |
-| Sell at 10¢ | 98 | 3% | -$409.07 | -76% |
-| Sell at 25¢ | 36 | 1% | -$418.29 | -78% |
-| Sell at 50¢ | 23 | 1% | -$382.20 | -71% |
+| Hold to the end | 13 | 0% | -$355.75 | -66% |
+| Sell at 2¢ | 508 | 14% | -$405.67 | -75% |
+| Sell at 3¢ | 356 | 10% | -$398.91 | -74% |
+| Sell at 5¢ | 239 | 7% | -$382.40 | -71% |
+| Sell at 10¢ | 98 | 3% | -$409.37 | -76% |
+| Sell at 25¢ | 36 | 1% | -$418.59 | -78% |
+| Sell at 50¢ | 23 | 1% | -$382.50 | -71% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31346 | 22 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 31354 | 22 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 3982 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3082 | 8 | 3% | 2% | -76% | -91% | 3 min |
-| ITF Women's Match | ✘ | 1939 | 8 | 14% | 6% | -61% | -76% | 4 min |
+| eBasketball Game | ✘ | 3084 | 8 | 3% | 2% | -76% | -91% | 3 min |
+| ITF Women's Match | ✘ | 1940 | 8 | 14% | 6% | -62% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1887 | 4 | 14% | 6% | -80% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1760 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -130,8 +130,8 @@
 | Brasileiro Serie B Game | ✘ | 162 | 1 | 7% | 3% | -42% | -87% | 10 min |
 | KHL Game | ✘ | 162 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | Argentine Nacional B Game | ✘ | 156 | 0 | 8% | 5% | -100% | -87% | 8 min |
+| CONCACAF Nations League Game | partly | 154 | 2 | 20% | 8% | +21% | -65% | 20 min |
 | ATP Tennis Match | ✘ | 153 | 0 | 16% | 7% | -100% | -73% | 4 min |
-| CONCACAF Nations League Game | partly | 152 | 2 | 20% | 9% | +23% | -65% | 20 min |
 | Valorant game winner | ✘ | 150 | 0 | 4% | 3% | -100% | -93% | 10 min |
 | English National League Game | ✘ | 149 | 1 | 8% | 6% | -37% | -86% | 10 min |
 | EFL Championship Game | ✔ | 149 | 1 | 9% | 5% | -37% | -85% | 9 min |
@@ -347,9 +347,9 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1275 | 4% | 1% | 0% | -93% |
+| Under 5 min | 1276 | 4% | 1% | 0% | -93% |
 | 5–15 min | 811 | 16% | 8% | 1% | -72% |
-| 15–30 min | 578 | 24% | 12% | 1% | -58% |
+| 15–30 min | 579 | 24% | 12% | 1% | -58% |
 | 30–60 min | 448 | 21% | 12% | 1% | -64% |
 | Over 60 min | 443 | 21% | 9% | 0% | -63% |
 
@@ -369,14 +369,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-18 04:28 | ITF Women's Match | Eva Bennemann | ✘ | — | — | In play | — |
-| 11-18 04:24 | CONCACAF Nations League Game | Reg Time: Tie | ✔ | 90'+5' · JAM 0 - MEX 1 | — | In play | — |
+| 11-18 04:41 | CONCACAF Nations League Game | Reg Time: Montserrat | ✔ | 77' · MSR 0 - NCA 1 | — | In play | — |
+| 11-18 04:41 | LNBP Basketball Game | Astros de Jalisco | ✘ | — | — | In play | — |
+| 11-18 04:39 | ITF Men's Match | Alberto Odiseo Alvarado Berrospi | ✘ | — | — | In play | — |
+| 11-18 04:36 | eSoccer Game | Nottingham Forest (Mordor) | ✘ | — | — | In play | — |
+| 11-18 04:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-18 04:34 | Women's College Basketball Game | UNLV | ✘ | — | — | In play | — |
+| 11-18 04:33 | ITF Men's Match | Lance Lage | ✘ | — | — | In play | — |
+| 11-18 04:33 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Freiburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Frankfurt (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:28 | ITF Women's Match | Eva Bennemann | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-18 04:24 | CONCACAF Nations League Game | Reg Time: Tie | ✔ | 90'+5' · JAM 0 - MEX 1 | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:23 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:22 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | — | In play | — |
+| 11-18 04:22 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:19 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:19 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 11-18 04:19 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:19 | eSoccer Game | Stuttgart (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:18 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -384,21 +399,6 @@
 | 11-18 04:18 | Men's College Basketball Game | Michigan St. | ✔ | 1:31 - 2nd · MSU 46 - TENN 57 | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:17 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-18 04:17 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:16 | Women's College Basketball Game | Washington St. | ✔ | Halftime · WASH 44 - WSU 26 | — | In play | — |
-| 11-18 04:14 | Men's College Basketball Game | UC Davis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:08 | eSoccer Game | Chelsea (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:07 | CONCACAF Nations League Game | Reg Time: Jamaica | ✔ | 78' · JAM 0 - MEX 1 | — | In play | — |
-| 11-18 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:05 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:03 | eSoccer Game | FC Augsburg (Kevin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:03 | eSoccer Game | Dortmund (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 04:02 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:58 | ITF Men's Match | Min Ho Ko | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-18 03:58 | ITF Men's Match | Haqim Kamal | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
