@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Wed Nov 18 03:03 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Wed Nov 18 03:13 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 44193 | 38364 | 5829 (177) | 0 | $-1573.64 | -0.6% |
-| **20¢+ jump, ride past +5¢** | 27116 | 14825 | 12291 (5484) | 0 | $-9046.17 | -5.2% |
+| **20¢+ jump, sell +5¢** | 44195 | 38366 | 5829 (177) | 0 | $-1572.76 | -0.6% |
+| **20¢+ jump, ride past +5¢** | 27116 | 14825 | 12291 (5484) | 1 | $-9046.17 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,9 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 11-18 03:09 | J20 | ZEC | UP | 22¢ | 0.68 | 0.75 | 0.40 |
+| 11-18 03:06 | J20R | ZEC | DOWN | 22¢ | 0.62 | open |  |
+| 11-18 03:06 | J20 | ZEC | DOWN | 22¢ | 0.63 | 0.71 | 0.48 |
 | 11-18 02:59 | J20 | HYPE | UP | 36¢ | 0.27 | 0.82 | 5.25 |
 | 11-18 02:59 | J20R | HYPE | UP | 36¢ | 0.55 | no | -5.67 |
 | 11-18 02:59 | J20 | HYPE | UP | 36¢ | 0.55 | 0.82 | 2.41 |
@@ -55,6 +58,3 @@
 | 11-18 02:25 | J20R | HYPE | UP | 36¢ | 0.53 | 0.71 | 1.51 |
 | 11-18 02:25 | J20 | HYPE | UP | 36¢ | 0.53 | 0.59 | 0.29 |
 | 11-18 02:25 | J20 | ZEC | UP | 24¢ | 0.75 | 0.99 | 2.30 |
-| 11-18 02:24 | J20R | ZEC | UP | 24¢ | 0.45 | 0.63 | 1.45 |
-| 11-18 02:24 | J20 | ZEC | UP | 24¢ | 0.47 | 0.71 | 2.07 |
-| 11-18 02:23 | J20R | ETH | DOWN | 24¢ | 0.81 | yes | -8.21 |
