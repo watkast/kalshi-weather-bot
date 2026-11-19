@@ -1,8 +1,6 @@
 {
- "saved_at": "2026-11-19T09:27:32+00:00",
+ "saved_at": "2026-11-19T14:07:33+00:00",
  "windows_watched": 9,
- "trades": 269873,
- "errors": [
-  "2026-11-19T08:58:22+00:00 refresh KXHYPE15M: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
- ]
+ "trades": 269930,
+ "errors": []
 }
