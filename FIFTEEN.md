@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 19, 5:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 19, 5:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61815 | 61781 | 239 (0%) | 1.07% | -$4,169.90 (-55%) | Hold to the close: -$4,169.90 (-55%) |
+| 61818 | 61781 | 239 (0%) | 1.07% | -$4,169.90 (-55%) | Hold to the close: -$4,169.90 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/19 5:41:25 AM | BNB | DOWN | 3.6 min | +0.195% | — | In play | — |
+| 11/19 5:40:21 AM | COPPER | UP | 4.6 min | — | — | In play | — |
+| 11/19 5:38:14 AM | NATGAS | UP | 6.8 min | — | — | In play | — |
 | 11/19 5:29:58 AM | NATGAS | DOWN | 1 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/19 5:29:43 AM | GOLD | DOWN | 17 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/19 5:29:43 AM | GBPUSD | DOWN | 17 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/19 5:13:48 AM | SILVER | UP | 72 sec | — | 3¢ | ❌ Lost | -$0.15 |
 | 11/19 5:13:48 AM | GBPUSD | UP | 72 sec | — | 62¢ | ✅ Won | $13.85 |
 | 11/19 5:13:00 AM | 2YRRATE | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 5:13:00 AM | AUDUSD | UP | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 5:13:00 AM | 30YRRATE | DOWN | 2.0 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 5:13:00 AM | HYPE | UP | 2.0 min | -0.217% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
