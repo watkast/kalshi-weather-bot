@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 9:25 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 9:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 66948 | 3637 | 14 (0%) | 1.1% | -$349.55 (-64%) | Hold to the end: -$349.55 (-64%) |
+| 66960 | 3637 | 14 (0%) | 1.1% | -$349.55 (-64%) | Hold to the end: -$349.55 (-64%) |
 
 *In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3637 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 63280 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 63292 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32023 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 32033 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4087 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3152 | 8 | 3% | 2% | -76% | -91% | 3 min |
+| eBasketball Game | ✘ | 3154 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1984 | 8 | 14% | 6% | -62% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1928 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1787 | 3 | 6% | 3% | -84% | -90% | 11 min |
@@ -373,36 +373,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-19 04:33 | AHL Game | San Jose Barracuda | ✘ | — | — | In play | — |
+| 11-19 04:33 | Challenger ATP  | Rio Noguchi | ✘ | — | — | In play | — |
+| 11-19 04:32 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-19 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 04:32 | eSoccer Game | Frankfurt (Bradley) | ✘ | — | — | In play | — |
+| 11-19 04:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 04:31 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-19 04:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 04:30 | eSoccer Game | Mönchengladbach (Castle) | ✘ | — | — | In play | — |
+| 11-19 04:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 04:28 | Women's College Basketball Game | Cal State Bakersfield | ✘ | — | — | In play | — |
+| 11-19 04:25 | Men's College Basketball Game | UC Riverside | ✘ | — | — | In play | — |
 | 11-19 04:24 | ITF Women's Match | Hayu Kinoshita | ✘ | — | — | In play | — |
-| 11-19 04:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 04:22 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | — | In play | — |
-| 11-19 04:21 | eBasketball Game | New York Knicks (Rodzilla) | ✘ | — | — | In play | — |
-| 11-19 04:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 04:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 04:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:22 | eSoccer Game | Newcastle Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:21 | eBasketball Game | New York Knicks (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 04:18 | AHL Game | Bakersfield Condors | ✘ | — | — | In play | — |
-| 11-19 04:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 04:18 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | — | In play | — |
-| 11-19 04:18 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | — | In play | — |
-| 11-19 04:18 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
-| 11-19 04:17 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-19 04:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 04:16 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | — | In play | — |
+| 11-19 04:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:18 | eSoccer Game | RB Leipzig (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:18 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:18 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:17 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 04:16 | eSoccer Game | Mönchengladbach (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 04:16 | Men's College Basketball Game | UConn | ✔ | 4:10 - 2nd · CONN 61 - ARIZ 75 | — | In play | — |
 | 11-19 04:16 | Men's College Basketball Game | Oakland | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 04:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 04:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:05 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:04 | Men's College Basketball Game | Fresno St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:04 | Men's College Basketball Game | North Dakota St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:04 | eSoccer Game | Leverkusen (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:03 | eSoccer Game | Arsenal (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:03 | eSoccer Game | Dortmund (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 04:01 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:56 | Men's College Basketball Game | Colorado | ✘ | — | 18¢ | ❌ Lost | -$0.15 |
-| 11-19 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
