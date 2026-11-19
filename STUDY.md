@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 19, 4:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 19, 4:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67654 | 3644 | 14 (0%) | 1.1% | -$350.60 (-64%) | Hold to the end: -$350.60 (-64%) |
+| 67668 | 3644 | 14 (0%) | 1.1% | -$350.60 (-64%) | Hold to the end: -$350.60 (-64%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3644 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 63989 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 63996 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32439 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4164 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 32443 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4165 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3198 | 8 | 3% | 2% | -77% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2009 | 8 | 14% | 6% | -63% | -76% | 4 min |
+| ITF Women's Match | ✘ | 2010 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1965 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1810 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -305,11 +305,11 @@
 | Liga MX Women Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 12 min |
 | Scottish Championship Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 28 min |
 | Slovenian Cup Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 23 min |
+| Lithuania NKL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 287 min |
 | PREM Rugby Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | CONMEBOL Libertadores Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
 | Portugal LPB Game | ✘ | 7 | 0 | 14% | 14% | -100% | -75% | 8 min |
 | Poland PLK Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
-| Lithuania NKL Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 294 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | USL Super League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 46 min |
 | Australia A League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 4 min |
@@ -376,13 +376,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-19 23:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 23:28 | College Football Game | Northwestern St. | ✘ | — | — | In play | — |
+| 11-19 23:28 | Women's College Basketball Game | Radford | ✘ | — | — | In play | — |
+| 11-19 23:27 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
+| 11-19 23:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 23:27 | eSoccer Game | RC Celta (Mantis) | ✘ | — | — | In play | — |
+| 11-19 23:26 | eSoccer Game | Boca Juniors (Eder) | ✘ | — | — | In play | — |
+| 11-19 23:26 | eSoccer Game | Universitario (Rooney) | ✘ | — | — | In play | — |
+| 11-19 23:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 23:25 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-19 23:25 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-19 23:24 | eSoccer Game | River Plate (Endrick) | ✘ | — | — | In play | — |
+| 11-19 23:21 | ITF Women's Match | Maria Carolina Ferreira Turchetto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 23:21 | Women's College Basketball Game | Florida Atlantic | ✘ | — | — | In play | — |
 | 11-19 23:20 | Darts Match | Mayumi Ouchi | ✘ | — | — | In play | — |
-| 11-19 23:18 | eSoccer Game | Girona (Mantis) | ✘ | — | — | In play | — |
-| 11-19 23:17 | eSoccer Game | Getafe CF (Strudl) | ✘ | — | — | In play | — |
-| 11-19 23:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-19 23:14 | eSoccer Game | Everton (Millie) | ✘ | — | — | In play | — |
+| 11-19 23:18 | eSoccer Game | Girona (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 23:17 | eSoccer Game | Getafe CF (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 23:14 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 23:14 | eSoccer Game | Everton (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:13 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | — | In play | — |
+| 11-19 23:13 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:12 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:12 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -392,20 +406,6 @@
 | 11-19 23:08 | Darts Match | Laura Turner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:03 | Darts Match | James Wade | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:03 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:02 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-19 23:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:01 | eSoccer Game | Sevilla FC (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:59 | Women's College Basketball Game | High Point | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
-| 11-19 22:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:58 | Darts Match | Emine Dursun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:58 | Women's College Basketball Game | Sacred Heart | ✘ | — | — | In play | — |
-| 11-19 22:58 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:54 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:48 | eBasketball Game | Indiana Pacers (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:47 | eSoccer Game | Real Sociedad (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:46 | eBasketball Game | Dallas Mavericks (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 22:46 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
