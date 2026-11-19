@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 18, 5:31 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 18, 5:41 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61219 | 61185 | 237 (0%) | 1.07% | -$4,126.65 (-55%) | Hold to the close: -$4,126.65 (-55%) |
+| 61222 | 61185 | 237 (0%) | 1.07% | -$4,126.65 (-55%) | Hold to the close: -$4,126.65 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/18 5:41:25 PM | NATGAS | UP | 3.6 min | — | — | In play | — |
+| 11/18 5:40:19 PM | NEAR | DOWN | 4.7 min | +0.718% | — | In play | — |
+| 11/18 5:40:03 PM | AUDUSD | UP | 5.0 min | — | — | In play | — |
 | 11/18 5:29:29 PM | SOL | DOWN | 30 sec | +0.104% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 5:29:29 PM | HYPE | DOWN | 30 sec | +0.172% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 5:29:29 PM | BTC | DOWN | 30 sec | +0.137% | 0¢ | ❌ Lost | $0.00 |
@@ -216,9 +219,6 @@
 | 11/18 3:29:13 PM | DOGE | DOWN | 47 sec | +0.055% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 3:29:13 PM | ETH | UP | 47 sec | -0.119% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 3:29:13 PM | XRP | DOWN | 47 sec | +0.042% | 0¢ | ❌ Lost | $0.00 |
-| 11/18 3:29:13 PM | SOL | DOWN | 47 sec | +0.061% | 1¢ | ❌ Lost | -$0.15 |
-| 11/18 3:28:40 PM | BNB | DOWN | 79 sec | +0.088% | 0¢ | ❌ Lost | -$0.15 |
-| 11/18 3:26:15 PM | BTC | DOWN | 3.7 min | +0.254% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
