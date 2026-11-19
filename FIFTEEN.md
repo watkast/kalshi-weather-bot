@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 18, 6:02 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 18, 6:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61258 | 61224 | 237 (0%) | 1.07% | -$4,131.00 (-55%) | Hold to the close: -$4,131.00 (-55%) |
+| 61261 | 61224 | 237 (0%) | 1.07% | -$4,131.00 (-55%) | Hold to the close: -$4,131.00 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/18 6:11:55 PM | PLATINUM | UP | 3.1 min | — | — | In play | — |
+| 11/18 6:09:00 PM | WTI | DOWN | 6.0 min | — | — | In play | — |
+| 11/18 6:07:24 PM | BRENT | DOWN | 7.6 min | — | — | In play | — |
 | 11/18 5:59:54 PM | DOGE | UP | 6 sec | -0.020% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 5:59:38 PM | SOL | UP | 22 sec | -0.051% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 5:59:38 PM | BRENT | UP | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,9 +219,6 @@
 | 11/18 5:43:23 PM | SILVER | DOWN | 1.6 min | — | 0¢ | ❌ Lost | $0.00 |
 | 11/18 5:43:23 PM | PALLADIUM | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 5:43:07 PM | SOL | DOWN | 1.9 min | +0.302% | 1¢ | ❌ Lost | -$0.15 |
-| 11/18 5:43:07 PM | DOGE | DOWN | 1.9 min | +0.287% | 0¢ | ❌ Lost | $0.00 |
-| 11/18 5:42:51 PM | USDCAD | DOWN | 2.1 min | — | 3¢ | ❌ Lost | -$0.15 |
-| 11/18 5:42:51 PM | BNB | DOWN | 2.1 min | +0.175% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
