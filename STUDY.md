@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 10:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 10:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67030 | 3642 | 14 (0%) | 1.1% | -$350.30 (-64%) | Hold to the end: -$350.30 (-64%) |
+| 67035 | 3642 | 14 (0%) | 1.1% | -$350.30 (-64%) | Hold to the end: -$350.30 (-64%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3642 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 63363 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 63376 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32079 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4092 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3158 | 8 | 3% | 2% | -76% | -91% | 3 min |
+| eSoccer Game | ✘ | 32087 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4094 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3160 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1985 | 8 | 14% | 6% | -62% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1932 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1787 | 3 | 6% | 3% | -84% | -90% | 11 min |
@@ -117,7 +117,7 @@
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | Challenger WTA | ✘ | 302 | 1 | 12% | 4% | -69% | -79% | 9 min |
 | NBA Game | partly | 273 | 0 | 19% | 7% | -100% | -66% | 11 min |
-| AHL Game | ✘ | 260 | 0 | 4% | 2% | -100% | -93% | 6 min |
+| AHL Game | ✘ | 261 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | Major League Soccer Game | partly | 217 | 1 | 12% | 6% | -57% | -80% | 8 min |
 | College Hockey Game | ✘ | 216 | 0 | 1% | 0% | -100% | -98% | 13 min |
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
@@ -373,17 +373,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-19 05:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 05:46 | eSoccer Game | Spurs (Mordor) | ✘ | — | — | In play | — |
+| 11-19 05:59 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-19 05:50 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:50 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:50 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
+| 11-19 05:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:46 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:46 | NHL Game | Colorado | ✔ | 7:09 - 3rd · COL 0 - UTA 3 | — | In play | — |
-| 11-19 05:43 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | — | In play | — |
-| 11-19 05:43 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | — | In play | — |
-| 11-19 05:42 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | — | In play | — |
-| 11-19 05:42 | eSoccer Game | Villarreal CF (Castle) | ✘ | — | — | In play | — |
-| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 05:42 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | — | In play | — |
-| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 05:42 | eSoccer Game | Athletic Club (Vini) | ✘ | — | — | In play | — |
+| 11-19 05:43 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:43 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | eSoccer Game | Villarreal CF (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:42 | eSoccer Game | Athletic Club (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:41 | ITF Men's Match | Corban Crowther | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:30 | eSoccer Game | Nottingham Forest (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -393,16 +398,11 @@
 | 11-19 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:28 | eSoccer Game | Athletic Club (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:27 | AHL Game | Abbotsford Canucks | ✘ | — | — | In play | — |
+| 11-19 05:27 | AHL Game | Abbotsford Canucks | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 11-19 05:27 | Men's College Basketball Game | UNLV | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-19 05:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:26 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:26 | NBA Game | Los Angeles L | ✔ | 2:28 - 4th · UTAH 104 - LAL 90 | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:24 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:19 | eBasketball Game | Indiana Pacers (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:19 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:17 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
