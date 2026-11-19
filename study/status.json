@@ -1,27 +1,25 @@
 {
- "saved_at": "2026-11-19T04:11:14+00:00",
+ "saved_at": "2026-11-19T04:25:04+00:00",
  "series_watched": 421,
- "markets_in_or_near_play": 197,
+ "markets_in_or_near_play": 194,
  "batch_lookup": true,
- "espn_games_linked": 42,
+ "espn_games_linked": 6,
  "espn_check": {
-  "at": "2026-11-19T04:09:13+00:00",
-  "started_games": 16,
+  "at": "2026-11-19T04:15:02+00:00",
+  "started_games": 14,
   "matched": 6,
   "unmatched_sample": [
+   "KXNCAAWBGAME-26NOV18UTUCSB",
    "KXNCAAMBGAME-26NOV18UNLVAUB",
    "KXNCAAMBGAME-26NOV18HAWWSU",
    "KXNCAAMBGAME-26NOV18TXSOSDSU",
    "KXNCAAMBGAME-26NOV18IDHONEV",
    "KXNCAAMBGAME-26NOV18ULLSF",
    "KXNCAAMBGAME-26NOV18UCRVUSD",
-   "KXNCAAMBGAME-26NOV18OAKASU",
-   "KXNCAAMBGAME-26NOV18ALCNMIZZ",
-   "KXNCAAWBGAME-26NOV18UTUCSB",
-   "KXNCAAWBGAME-26NOV18COLOUNM"
+   "KXNCAAMBGAME-26NOV18OAKASU"
   ]
  },
- "bets": 66932,
- "open": 24,
+ "bets": 66948,
+ "open": 31,
  "errors": []
 }
