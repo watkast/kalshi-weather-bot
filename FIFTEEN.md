@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 18, 9:18 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 18, 9:28 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4544 finished bets | 1% | $213.15 | +43% | +4.69¢ | $79.35 / $133.80 |
 
-*Expect about **88 buys a day** (~$13.14/day at risk); max loss per buy **15¢**.*
+*Expect about **88 buys a day** (~$13.13/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61521 | 61487 | 237 (0%) | 1.07% | -$4,163.40 (-56%) | Hold to the close: -$4,163.40 (-56%) |
+| 61522 | 61487 | 237 (0%) | 1.07% | -$4,163.40 (-56%) | Hold to the close: -$4,163.40 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/18 9:26:37 PM | COPPER | UP | 3.4 min | — | — | In play | — |
 | 11/18 9:14:40 PM | NATGAS | DOWN | 20 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 9:14:40 PM | DOGE | DOWN | 20 sec | +0.081% | 0¢ | ❌ Lost | $0.00 |
 | 11/18 9:14:08 PM | SOL | DOWN | 52 sec | +0.085% | 0¢ | ❌ Lost | $0.00 |
@@ -218,7 +219,6 @@
 | 11/18 8:58:11 PM | AUDUSD | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/18 8:57:11 PM | BTC | DOWN | 2.8 min | +0.255% | 1¢ | ❌ Lost | -$0.15 |
 | 11/18 8:56:55 PM | PALLADIUM | DOWN | 3.1 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/18 8:56:07 PM | SOL | DOWN | 3.9 min | +0.441% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
