@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 8:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 8:53 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 66910 | 3636 | 14 (0%) | 1.1% | -$349.40 (-64%) | Hold to the end: -$349.40 (-64%) |
+| 66917 | 3636 | 14 (0%) | 1.1% | -$349.40 (-64%) | Hold to the end: -$349.40 (-64%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3636 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 63241 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 63253 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 31997 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 32007 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4087 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3152 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1984 | 8 | 14% | 6% | -62% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1928 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1787 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1214 | 5 | 12% | 5% | -62% | -79% | 5 min |
-| Men's College Basketball Game | partly | 754 | 5 | 19% | 8% | -38% | -67% | 26 min |
+| Challenger ATP  | ✘ | 1215 | 5 | 12% | 5% | -62% | -79% | 5 min |
+| Men's College Basketball Game | partly | 755 | 5 | 19% | 8% | -38% | -67% | 26 min |
 | Women's College Basketball Game | partly | 734 | 2 | 14% | 4% | -75% | -76% | 33 min |
 | College Football Game | partly | 633 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -373,18 +373,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-19 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 03:41 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | — | In play | — |
+| 11-19 03:51 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-19 03:51 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-19 03:49 | Challenger ATP  | Alafia Ayeni | ✘ | — | — | In play | — |
+| 11-19 03:49 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-19 03:49 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-19 03:49 | Men's College Basketball Game | Louisiana | ✘ | — | — | In play | — |
+| 11-19 03:44 | Challenger ATP  | Luca Staeheli | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:41 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 03:39 | Men's College Basketball Game | Cal State Fullerton | ✔ | 19:39 - 1st · CSUF 3 - UCLA 0 | — | In play | — |
 | 11-19 03:39 | Women's College Basketball Game | Idaho St. | ✘ | — | — | In play | — |
-| 11-19 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 03:37 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 11-19 03:36 | eSoccer Game | Dortmund (Castle) | ✘ | — | — | In play | — |
-| 11-19 03:36 | eSoccer Game | FC Augsburg (Vini) | ✘ | — | — | In play | — |
-| 11-19 03:36 | eSoccer Game | FSV Mainz 05 (Kylian) | ✘ | — | — | In play | — |
-| 11-19 03:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 03:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-19 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:37 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:36 | eSoccer Game | Dortmund (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:36 | eSoccer Game | FC Augsburg (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:36 | eSoccer Game | FSV Mainz 05 (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 03:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 03:32 | Men's College Basketball Game | Bethune-Cookman | ✘ | — | — | In play | — |
 | 11-19 03:27 | Women's College Basketball Game | Air Force | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-19 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -396,13 +403,6 @@
 | 11-19 03:22 | eSoccer Game | FC Augsburg (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:21 | eSoccer Game | FSV Mainz 05 (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:21 | Challenger ATP  | Keegan Smith | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-19 03:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:21 | Women's College Basketball Game | New Mexico | ✘ | — | — | In play | — |
-| 11-19 03:21 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:19 | Men's College Basketball Game | Harvard | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 03:17 | ITF Women's Match | Varvara Panshina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
