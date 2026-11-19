@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Nov 19 15:18 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Nov 19 15:29 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -12,8 +12,8 @@
 |---|---|---|---|---|---|---|
 | **+5¢** | 65093 | 56814 | 8279 (124) | 0 | $-17474.14 | -4.3% |
 | **+10¢** | 48623 | 38939 | 9684 (165) | 0 | $-16255.03 | -5.3% |
-| **+15¢** | 40765 | 30318 | 10447 (210) | 2 | $-14681.56 | -5.7% |
-| **+20¢** | 36306 | 25334 | 10972 (265) | 2 | $-12977.82 | -5.7% |
+| **+15¢** | 40767 | 30320 | 10447 (210) | 0 | $-14679.08 | -5.7% |
+| **+20¢** | 36308 | 25336 | 10972 (265) | 0 | $-12973.94 | -5.7% |
 | **+10¢ (15¢ stop)** | 79219 | 79055 | 164 (98) | 0 | $-29097.23 | -5.9% |
 
 ## Latest trades
@@ -22,13 +22,13 @@
 |---|---|---|---|---|---|---|
 | 11-19 15:17 | +5 | ETH | DOWN | 0.71 | 0.77 | 0.32 |
 | 11-19 15:16 | +10 stop | HYPE | DOWN | 0.69 | 0.80 | 0.83 |
-| 11-19 15:16 | +20 | HYPE | DOWN | 0.69 | open |  |
-| 11-19 15:16 | +15 | HYPE | DOWN | 0.69 | open |  |
+| 11-19 15:16 | +20 | HYPE | DOWN | 0.69 | 0.91 | 2.02 |
+| 11-19 15:16 | +15 | HYPE | DOWN | 0.69 | 0.84 | 1.25 |
 | 11-19 15:16 | +10 | HYPE | DOWN | 0.69 | 0.80 | 0.83 |
 | 11-19 15:16 | +5 | HYPE | DOWN | 0.69 | 0.75 | 0.31 |
 | 11-19 15:16 | +10 stop | ETH | DOWN | 0.67 | 0.77 | 0.71 |
-| 11-19 15:16 | +20 | ETH | DOWN | 0.67 | open |  |
-| 11-19 15:16 | +15 | ETH | DOWN | 0.66 | open |  |
+| 11-19 15:16 | +20 | ETH | DOWN | 0.67 | 0.88 | 1.86 |
+| 11-19 15:16 | +15 | ETH | DOWN | 0.66 | 0.81 | 1.23 |
 | 11-19 15:16 | +10 | ETH | DOWN | 0.65 | 0.77 | 0.91 |
 | 11-19 15:16 | +5 | ETH | DOWN | 0.66 | 0.72 | 0.29 |
 | 11-19 15:13 | +10 stop | HYPE | DOWN | 0.70 | 0.99 | 2.68 |
