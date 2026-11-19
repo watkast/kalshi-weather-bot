@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Thu Nov 19, 3:47 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Thu Nov 19, 3:57 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 61667 | 61633 | 237 (0%) | 1.07% | -$4,179.75 (-56%) | Hold to the close: -$4,179.75 (-56%) |
+| 61672 | 61633 | 237 (0%) | 1.07% | -$4,179.75 (-56%) | Hold to the close: -$4,179.75 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/19 3:56:03 AM | BNB | DOWN | 3.9 min | +0.163% | — | In play | — |
+| 11/19 3:56:03 AM | PLATINUM | DOWN | 3.9 min | — | — | In play | — |
+| 11/19 3:55:16 AM | WTI | UP | 4.7 min | — | — | In play | — |
+| 11/19 3:55:16 AM | BRENT | UP | 4.7 min | — | — | In play | — |
+| 11/19 3:54:44 AM | COPPER | DOWN | 5.3 min | — | — | In play | — |
 | 11/19 3:44:47 AM | SILVER | DOWN | 12 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/19 3:44:47 AM | HYPE | DOWN | 12 sec | +0.098% | 0¢ | ❌ Lost | $0.00 |
 | 11/19 3:44:47 AM | XRP | DOWN | 12 sec | +0.061% | 0¢ | ❌ Lost | $0.00 |
@@ -214,11 +219,6 @@
 | 11/19 3:29:35 AM | DOGE | UP | 25 sec | -0.089% | 0¢ | ❌ Lost | $0.00 |
 | 11/19 3:29:35 AM | BNB | DOWN | 25 sec | -0.034% | 0¢ | ❌ Lost | -$0.15 |
 | 11/19 3:29:35 AM | WTI | UP | 25 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/19 3:29:35 AM | USDCAD | DOWN | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 3:29:35 AM | BRENT | UP | 25 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 3:29:19 AM | COPPER | UP | 40 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/19 3:29:19 AM | ZEC | DOWN | 40 sec | +0.085% | 0¢ | ❌ Lost | $0.00 |
-| 11/19 3:29:19 AM | GOLD | UP | 40 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
