@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 18, 11:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 18, 11:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67048 | 3643 | 14 (0%) | 1.1% | -$350.45 (-64%) | Hold to the end: -$350.45 (-64%) |
+| 67058 | 3643 | 14 (0%) | 1.1% | -$350.45 (-64%) | Hold to the end: -$350.45 (-64%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3643 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 63378 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 63392 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32089 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4094 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 32099 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4097 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3160 | 8 | 3% | 2% | -76% | -91% | 3 min |
 | ITF Women's Match | ✘ | 1985 | 8 | 14% | 6% | -62% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1932 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1787 | 3 | 6% | 3% | -84% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1218 | 5 | 12% | 5% | -62% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1219 | 5 | 12% | 5% | -62% | -79% | 5 min |
 | Men's College Basketball Game | partly | 770 | 5 | 19% | 8% | -39% | -67% | 26 min |
 | Women's College Basketball Game | partly | 739 | 2 | 14% | 4% | -75% | -76% | 33 min |
 | College Football Game | partly | 633 | 3 | 11% | 5% | -56% | -81% | 23 min |
@@ -373,36 +373,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-19 06:09 | eSoccer Game | Rennes (Haze) | ✘ | — | — | In play | — |
-| 11-19 06:09 | eSoccer Game | Stade Brestois 29 (Homie) | ✘ | — | — | In play | — |
-| 11-19 06:06 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | — | In play | — |
-| 11-19 06:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 06:04 | eSoccer Game | RC Celta (Frost) | ✘ | — | — | In play | — |
-| 11-19 06:04 | eSoccer Game | FC Barcelona (Nate) | ✘ | — | — | In play | — |
-| 11-19 06:04 | Challenger ATP  | Yu Hsiou Hsu | ✘ | — | — | In play | — |
-| 11-19 06:04 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
-| 11-19 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-19 06:03 | eSoccer Game | CA Osasuna (Elastico) | ✘ | — | — | In play | — |
-| 11-19 06:02 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | — | In play | — |
-| 11-19 06:01 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | — | In play | — |
-| 11-19 05:59 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-19 06:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 06:18 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-19 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 06:17 | eSoccer Game | Getafe CF (Ousmane) | ✘ | — | — | In play | — |
+| 11-19 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 06:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-19 06:15 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-19 06:14 | eSoccer Game | CA Osasuna (Elastico) | ✘ | — | — | In play | — |
+| 11-19 06:13 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | — | In play | — |
+| 11-19 06:12 | eBasketball Game | New Orleans Pelicans (Tyler) | ✘ | — | — | In play | — |
+| 11-19 06:09 | eSoccer Game | Rennes (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:09 | eSoccer Game | Stade Brestois 29 (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:06 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:04 | eSoccer Game | RC Celta (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:04 | eSoccer Game | FC Barcelona (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:04 | Challenger ATP  | Yu Hsiou Hsu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:04 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:03 | eSoccer Game | CA Osasuna (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:02 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 06:01 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-19 05:59 | eSoccer Game | Arsenal (Demi) | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
 | 11-19 05:50 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:50 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:50 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 05:46 | eSoccer Game | Spurs (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:46 | NHL Game | Colorado | ✔ | 7:09 - 3rd · COL 0 - UTA 3 | 2¢ | ❌ Lost | -$0.15 |
-| 11-19 05:43 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:43 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | eSoccer Game | Villarreal CF (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:42 | eSoccer Game | Athletic Club (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 05:41 | ITF Men's Match | Corban Crowther | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
