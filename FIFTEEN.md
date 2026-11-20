@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 20, 3:32 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 20, 3:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4605 finished bets | 1% | $208.05 | +41% | +4.52¢ | $76.05 / $132.00 |
 
-*Expect about **86 buys a day** (~$12.88/day at risk); max loss per buy **15¢**.*
+*Expect about **86 buys a day** (~$12.87/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63429 | 63395 | 245 (0%) | 1.07% | -$4,280.45 (-56%) | Hold to the close: -$4,280.45 (-56%) |
+| 63430 | 63395 | 245 (0%) | 1.07% | -$4,280.45 (-56%) | Hold to the close: -$4,280.45 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 7. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,7 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/20 3:40:29 PM | ZEC | DOWN | 4.5 min | +1.175% | — | In play | — |
 | 11/20 3:29:51 PM | ETH | UP | 8 sec | -0.081% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 3:29:51 PM | DOGE | DOWN | 8 sec | +0.070% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 3:29:51 PM | NEAR | DOWN | 8 sec | -0.031% | 0¢ | ❌ Lost | $0.00 |
@@ -218,7 +219,6 @@
 | 11/20 2:58:30 PM | USDJPY | UP | 89 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 2:58:14 PM | NATGAS | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 2:58:14 PM | GBPUSD | DOWN | 1.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 2:58:02 PM | SILVER | DOWN | 1.9 min | — | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
