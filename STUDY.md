@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 1:21 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 1:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 68216 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
+| 68225 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
 
-*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3679 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64518 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64528 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32773 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 32783 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4203 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3234 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2011 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -378,7 +378,16 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-20 08:21 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 11-20 08:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:26 | eSoccer Game | Strasbourg (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:23 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:23 | eSoccer Game | Real Madrid (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:22 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 08:21 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 08:20 | Men's T20 Cricket Match | Madhya Pradesh | ✘ | — | — | In play | — |
 | 11-20 08:11 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 08:11 | eSoccer Game | Stade Brestois 29 (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -399,15 +408,6 @@
 | 11-20 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:51 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:46 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:45 | eSoccer Game | Nantes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:45 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:43 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:43 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:42 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:41 | eSoccer Game | Real Madrid (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
