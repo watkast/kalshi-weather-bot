@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 20, 6:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 20, 6:11 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62907 | 62873 | 243 (0%) | 1.07% | -$4,242.60 (-55%) | Hold to the close: -$4,242.60 (-55%) |
+| 62912 | 62873 | 243 (0%) | 1.07% | -$4,242.60 (-55%) | Hold to the close: -$4,242.60 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/20 6:10:45 AM | EURUSD | DOWN | 4.2 min | — | — | In play | — |
+| 11/20 6:10:29 AM | USDJPY | UP | 4.5 min | — | — | In play | — |
+| 11/20 6:09:23 AM | WTI | UP | 5.6 min | — | — | In play | — |
+| 11/20 6:09:23 AM | GBPUSD | DOWN | 5.6 min | — | — | In play | — |
+| 11/20 6:06:44 AM | BRENT | UP | 8.3 min | — | — | In play | — |
 | 11/20 5:59:59 AM | ETH | UP | 0 sec | -0.085% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 5:59:59 AM | SILVER | DOWN | 0 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/20 5:59:59 AM | GOLD | DOWN | 0 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -214,11 +219,6 @@
 | 11/20 1:29:28 AM | ETH | DOWN | 32 sec | +0.037% | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 1:29:11 AM | XRP | DOWN | 48 sec | +0.145% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 1:29:11 AM | SOL | DOWN | 48 sec | +0.141% | 0¢ | ❌ Lost | $0.00 |
-| 11/20 1:28:55 AM | GBPUSD | DOWN | 64 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 1:28:55 AM | AUDUSD | DOWN | 64 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 1:28:39 AM | WTI | UP | 80 sec | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/20 1:28:39 AM | BRENT | UP | 80 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 1:28:23 AM | COPPER | DOWN | 1.6 min | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
