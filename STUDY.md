@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 19, 6:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 19, 6:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67802 | 3647 | 14 (0%) | 1.1% | -$351.05 (-64%) | Hold to the end: -$351.05 (-64%) |
+| 67818 | 3647 | 14 (0%) | 1.1% | -$351.05 (-64%) | Hold to the end: -$351.05 (-64%) |
 
-*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3647 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64121 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64129 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32523 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4176 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3206 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 32525 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4177 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3207 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2010 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1967 | 5 | 14% | 6% | -76% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1812 | 3 | 6% | 3% | -85% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1813 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1234 | 5 | 12% | 4% | -62% | -79% | 5 min |
 | Men's College Basketball Game | partly | 772 | 5 | 19% | 8% | -40% | -67% | 26 min |
-| Women's College Basketball Game | partly | 755 | 2 | 14% | 5% | -75% | -75% | 32 min |
+| Women's College Basketball Game | partly | 758 | 2 | 14% | 5% | -75% | -75% | 32 min |
 | College Football Game | partly | 633 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 448 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -376,36 +376,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-20 01:26 | eBasketball Game | Indiana Pacers (Rodzilla) | ✘ | — | — | In play | — |
+| 11-20 01:36 | Women's College Basketball Game | North Carolina Central | ✘ | — | — | In play | — |
+| 11-20 01:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 01:33 | eBasketball Game | Denver Nuggets (Tatum) | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | Estudiantes (Endrick) | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | São Paulo (Rooney) | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-20 01:32 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-20 01:30 | Women's College Basketball Game | Delaware | ✘ | — | — | In play | — |
+| 11-20 01:29 | Russia Liga Pro Match | Lialichev Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 01:29 | Counter-Strike 2 Game | Rush | ✘ | — | — | In play | — |
+| 11-20 01:28 | College Hockey Game | Stonehill | ✘ | — | — | In play | — |
+| 11-20 01:28 | Counter-Strike 2 Game | Villainous | ✘ | — | — | In play | — |
+| 11-20 01:27 | Women's College Basketball Game | UAB | ✘ | — | — | In play | — |
+| 11-20 01:26 | eBasketball Game | Indiana Pacers (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:25 | College Hockey Game | Massachusetts | ✘ | — | — | In play | — |
 | 11-20 01:25 | Men's College Basketball Game | Robert Morris | ✘ | — | — | In play | — |
-| 11-20 01:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 01:21 | eSoccer Game | Real Madrid (Strudl) | ✘ | — | — | In play | — |
+| 11-20 01:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 01:21 | eSoccer Game | Real Madrid (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:19 | eSoccer Game | Nantes (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:18 | Counter-Strike 2 Game | paiN Academy | ✘ | — | — | In play | — |
+| 11-20 01:18 | Counter-Strike 2 Game | paiN Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:18 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:18 | Men's College Basketball Game | Buffalo | ✘ | — | — | In play | — |
 | 11-20 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:17 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:16 | Women's College Basketball Game | Old Dominion | ✘ | — | — | In play | — |
+| 11-20 01:16 | Women's College Basketball Game | Old Dominion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 01:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:10 | eSoccer Game | Real Betis (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:07 | eBasketball Game | Golden State Warriors (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:07 | Women's College Basketball Game | Stetson | ✘ | — | — | In play | — |
-| 11-20 01:07 | eSoccer Game | Nantes (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:07 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:07 | eBasketball Game | New York Knicks (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:05 | eSoccer Game | Montpellier (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:04 | eSoccer Game | Universitario (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:04 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:03 | Women's College Basketball Game | Quinnipiac | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:03 | eSoccer Game | São Paulo (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 01:03 | Men's College Basketball Game | Stetson | ✔ | 19:46 - 1st · STET 0 - LOU 0 | — | In play | — |
-| 11-20 01:03 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
