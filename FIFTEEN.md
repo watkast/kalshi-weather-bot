@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 20, 1:01 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 20, 1:12 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 62843 | 62809 | 243 (0%) | 1.07% | -$4,235.55 (-55%) | Hold to the close: -$4,235.55 (-55%) |
+| 62847 | 62809 | 243 (0%) | 1.07% | -$4,235.55 (-55%) | Hold to the close: -$4,235.55 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/20 1:11:43 AM | AUDUSD | UP | 3.3 min | — | — | In play | — |
+| 11/20 1:11:27 AM | NATGAS | UP | 3.5 min | — | — | In play | — |
+| 11/20 1:11:27 AM | ETH | DOWN | 3.5 min | +0.316% | — | In play | — |
+| 11/20 1:11:11 AM | EURUSD | UP | 3.8 min | — | — | In play | — |
 | 11/20 12:59:47 AM | GBPUSD | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 12:59:16 AM | PLATINUM | DOWN | 43 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 12:59:00 AM | 30YRRATE | DOWN | 60 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -215,10 +219,6 @@
 | 11/20 12:44:14 AM | BTC | DOWN | 46 sec | +0.146% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 12:44:14 AM | ZEC | UP | 46 sec | -0.251% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 12:44:14 AM | DOGE | DOWN | 46 sec | +0.157% | 0¢ | ❌ Lost | $0.00 |
-| 11/20 12:44:14 AM | USDJPY | DOWN | 46 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 12:44:14 AM | USDCAD | UP | 46 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/20 12:44:14 AM | BNB | DOWN | 46 sec | +0.044% | 0¢ | ❌ Lost | $0.00 |
-| 11/20 12:43:58 AM | NEAR | DOWN | 62 sec | +0.201% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
