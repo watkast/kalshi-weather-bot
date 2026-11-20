@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 19, 9:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 19, 9:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67988 | 3671 | 14 (0%) | 1.1% | -$354.65 (-64%) | Hold to the end: -$354.65 (-64%) |
+| 68000 | 3671 | 14 (0%) | 1.1% | -$354.65 (-64%) | Hold to the end: -$354.65 (-64%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3671 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64294 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64304 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32617 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 32625 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4180 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3216 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eBasketball Game | ✘ | 3217 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2011 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1967 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1817 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1239 | 5 | 12% | 4% | -62% | -79% | 5 min |
-| Men's College Basketball Game | partly | 790 | 5 | 20% | 8% | -41% | -66% | 26 min |
+| Men's College Basketball Game | partly | 791 | 5 | 20% | 8% | -41% | -66% | 26 min |
 | Women's College Basketball Game | partly | 781 | 2 | 15% | 5% | -76% | -75% | 32 min |
 | College Football Game | partly | 636 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -378,17 +378,29 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-20 04:29 | LNBP Basketball Game | Soles de Mexicali | ✘ | — | — | In play | — |
+| 11-20 04:28 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
+| 11-20 04:28 | ITF Men's Match | Shaheed Alam | ✘ | — | — | In play | — |
+| 11-20 04:25 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | — | In play | — |
+| 11-20 04:24 | eSoccer Game | Newcastle Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:23 | Men's College Basketball Game | Tarleton St. | ✔ | 11:44 - 1st · TAR 9 - USC 19 | — | In play | — |
+| 11-20 04:22 | Counter-Strike 2 Game | FlyQuest RED | ✘ | — | — | In play | — |
+| 11-20 04:22 | NHL Game | Anaheim | ✔ | 8:57 - 3rd · ANA 0 - COL 4 | — | In play | — |
+| 11-20 04:17 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:16 | eSoccer Game | Mönchengladbach (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:15 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:13 | Men's College Basketball Game | Pepperdine | ✘ | — | — | In play | — |
 | 11-20 04:11 | Challenger ATP  | Hiroki Moriya | ✘ | — | — | In play | — |
-| 11-20 04:09 | eSoccer Game | Arsenal (Mantis) | ✘ | — | — | In play | — |
-| 11-20 04:09 | eSoccer Game | Chelsea (Mavi) | ✘ | — | — | In play | — |
+| 11-20 04:09 | eSoccer Game | Arsenal (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:09 | eSoccer Game | Chelsea (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:06 | Men's College Basketball Game | Oregon | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-20 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 04:05 | eSoccer Game | Argentina (Mei) | ✘ | — | — | In play | — |
+| 11-20 04:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 04:05 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:04 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 04:04 | Men's College Basketball Game | New Mexico St. | ✘ | — | — | In play | — |
+| 11-20 04:04 | Men's College Basketball Game | New Mexico St. | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-20 04:04 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:04 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 04:03 | Women's College Volleyball Match | Utah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -396,18 +408,6 @@
 | 11-20 03:59 | Women's College Basketball Game | Fairfield | ✘ | — | — | In play | — |
 | 11-20 03:59 | Padel Match | Las Vegas Smash | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 03:58 | Men's College Basketball Game | Wisconsin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:53 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:50 | College Football Game | Temple | ✔ | End of 4th · RICE 31 - TEM 27 | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:49 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:49 | eSoccer Game | Spain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:47 | Men's College Basketball Game | East Texas A&M | ✘ | — | — | In play | — |
-| 11-20 03:45 | Women's College Basketball Game | San Diego St. | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
-| 11-20 03:41 | eSoccer Game | Manchester Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:39 | Men's College Basketball Game | TCU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 03:38 | eSoccer Game | Tie | ✘ | — | 17¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
