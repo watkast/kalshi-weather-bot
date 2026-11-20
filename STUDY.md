@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 12:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 1:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 68195 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
+| 68202 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3679 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64486 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64499 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32749 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4202 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3231 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 32757 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4203 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3232 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2011 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1969 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1820 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -129,7 +129,7 @@
 | KHL Game | ✘ | 170 | 0 | 4% | 2% | -100% | -94% | 6 min |
 | League of Legends Game | ✘ | 164 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | Brasileiro Serie B Game | ✘ | 162 | 1 | 7% | 3% | -42% | -87% | 10 min |
-| Valorant game winner | ✘ | 157 | 0 | 4% | 3% | -100% | -93% | 10 min |
+| Valorant game winner | ✘ | 158 | 0 | 4% | 3% | -100% | -93% | 10 min |
 | Argentine Nacional B Game | ✘ | 156 | 0 | 8% | 5% | -100% | -87% | 8 min |
 | CONCACAF Nations League Game | partly | 156 | 2 | 20% | 8% | +20% | -66% | 20 min |
 | ATP Tennis Match | ✘ | 153 | 0 | 16% | 7% | -100% | -73% | 4 min |
@@ -303,6 +303,7 @@
 | Copa do Brasil Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 17 min |
 | Bare Knuckle Fight Match | ✘ | 8 | 0 | 25% | 0% | -100% | -57% | 27 min |
 | Liga MX Women Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 12 min |
+| Australia A League Women Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 5 min |
 | Scottish Championship Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 28 min |
 | Slovenian Cup Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 23 min |
 | Lithuania NKL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 287 min |
@@ -312,7 +313,6 @@
 | Poland PLK Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | USL Super League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 46 min |
-| Australia A League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 4 min |
 | Japan J League Cup Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | NBL Australia (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
@@ -378,36 +378,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-20 07:46 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
-| 11-20 07:45 | eSoccer Game | Nantes (Ryft) | ✘ | — | — | In play | — |
-| 11-20 07:45 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | — | In play | — |
-| 11-20 07:43 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
-| 11-20 07:43 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
-| 11-20 07:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 08:00 | Women's T20 Match | Scotland | ✘ | — | — | In play | — |
+| 11-20 07:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 07:57 | eSoccer Game | Rennes (Haze) | ✘ | — | — | In play | — |
+| 11-20 07:55 | eSoccer Game | Real Madrid (Nate) | ✘ | — | — | In play | — |
+| 11-20 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 07:51 | eSoccer Game | Real Sociedad (Ousmane) | ✘ | — | — | In play | — |
+| 11-20 07:46 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:45 | eSoccer Game | Nantes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:45 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:43 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:43 | eSoccer Game | Spurs (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:42 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 07:41 | eSoccer Game | Real Madrid (Nate) | ✘ | — | — | In play | — |
-| 11-20 07:40 | eSoccer Game | Real Betis (Rendeto) | ✘ | — | — | In play | — |
-| 11-20 07:40 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 07:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:41 | eSoccer Game | Real Madrid (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:40 | eSoccer Game | Real Betis (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:40 | Australia A League Women Game | Tie | ✘ | — | — | In play | — |
+| 11-20 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 07:40 | Australia A League Women Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:38 | eSoccer Game | Arsenal (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:38 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:37 | Russia Liga Pro Match | Vorozheikin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:37 | Valorant game winner | LNG Esports | ✘ | — | — | In play | — |
+| 11-20 07:37 | Valorant game winner | LNG Esports | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:33 | Valorant game winner | LGD Gaming | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:30 | eSoccer Game | Toulouse FC (Haze) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:30 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
 | 11-20 07:27 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:27 | Australia A League Women Game | Western Sydney Wanderers | ✘ | — | — | In play | — |
-| 11-20 07:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:27 | eSoccer Game | RCD Mallorca (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:26 | eSoccer Game | Real Betis (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:26 | eSoccer Game | Chelsea (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 07:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
