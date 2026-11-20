@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 19, 10:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 19, 10:54 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 68075 | 3676 | 14 (0%) | 1.1% | -$355.40 (-64%) | Hold to the end: -$355.40 (-64%) |
+| 68083 | 3676 | 14 (0%) | 1.1% | -$355.40 (-64%) | Hold to the end: -$355.40 (-64%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3676 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64376 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64383 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32671 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4186 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3222 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 32675 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4187 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3224 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2011 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1969 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1820 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -378,13 +378,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-20 05:43 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | — | In play | — |
-| 11-20 05:43 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | — | In play | — |
-| 11-20 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 05:42 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 05:42 | eSoccer Game | Real Sociedad (Endrick) | ✘ | — | — | In play | — |
+| 11-20 05:52 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
+| 11-20 05:52 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-20 05:50 | NHL Game | Vegas | ✔ | In SO · DAL 3 - VGK 3 | — | In play | — |
+| 11-20 05:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 05:49 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-20 05:49 | Women's T20 Match | Zimbabwe | ✘ | — | — | In play | — |
+| 11-20 05:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 05:44 | eBasketball Game | Denver Nuggets (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 05:43 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 05:43 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 05:42 | eSoccer Game | Real Sociedad (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 05:42 | eSoccer Game | Spurs (Strudl) | ✘ | — | — | In play | — |
-| 11-20 05:41 | eSoccer Game | Sevilla FC (Eder) | ✘ | — | — | In play | — |
+| 11-20 05:41 | eSoccer Game | Sevilla FC (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 05:39 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 05:38 | ITF Men's Match | Thanapet Chanta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 05:35 | Men's T20 Cricket Match | Arunachal Pradesh | ✘ | — | — | In play | — |
@@ -400,14 +408,6 @@
 | 11-20 05:27 | eSoccer Game | United States (Mia) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-20 05:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 05:25 | eSoccer Game | Athletic Club (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:21 | Russia Liga Pro Match | Bazilevskiy Vitaliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:19 | eSoccer Game | Chelsea (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:17 | Men's T20 Cricket Match | Nagaland | ✘ | — | — | In play | — |
-| 11-20 05:16 | eBasketball Game | New Orleans Pelicans (Larry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:16 | Major League Soccer Game | Seattle | ✔ | 90'+11' · RSL 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:15 | Major League Soccer Game | Salt Lake | ✔ | 90'+11' · RSL 1 - SEA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 05:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
