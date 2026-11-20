@@ -1,7 +1,7 @@
 {
- "saved_at": "2026-11-20T17:45:16+00:00",
+ "saved_at": "2026-11-20T17:55:28+00:00",
  "windows_watched": 9,
- "trades": 275946,
+ "trades": 276030,
  "errors": [
   "2026-11-20T16:50:53+00:00 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
  ]
