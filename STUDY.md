@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 19, 5:13 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 19, 5:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67712 | 3644 | 14 (0%) | 1.1% | -$350.60 (-64%) | Hold to the end: -$350.60 (-64%) |
+| 67724 | 3644 | 14 (0%) | 1.1% | -$350.60 (-64%) | Hold to the end: -$350.60 (-64%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3644 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64040 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64049 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32473 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4169 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3200 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 32479 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4170 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3202 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2010 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1966 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1811 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -376,16 +376,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-20 00:23 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
+| 11-20 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 00:23 | eSoccer Game | Botafogo (Eder) | ✘ | — | — | In play | — |
+| 11-20 00:22 | eSoccer Game | Estudiantes (Rooney) | ✘ | — | — | In play | — |
+| 11-20 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 00:22 | Darts Match | Laura Turner | ✘ | — | — | In play | — |
+| 11-20 00:21 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 11-20 00:21 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-20 00:21 | eSoccer Game | Flamengo (Endrick) | ✘ | — | — | In play | — |
+| 11-20 00:13 | eSoccer Game | FC Barcelona (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:13 | Brasileiro Serie A Game | Internacional | ✔ | 82' · INT 1 - VAS 2 | — | In play | — |
 | 11-20 00:13 | Men's College Basketball Game | UMBC | ✘ | — | — | In play | — |
-| 11-20 00:12 | eBasketball Game | Golden State Warriors (Rodzilla) | ✘ | — | — | In play | — |
-| 11-20 00:12 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | — | In play | — |
-| 11-20 00:11 | eBasketball Game | New York Knicks (Tatum) | ✘ | — | — | In play | — |
-| 11-20 00:09 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
+| 11-20 00:12 | eBasketball Game | Golden State Warriors (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:12 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:11 | eBasketball Game | New York Knicks (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:09 | eSoccer Game | Montpellier (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 00:09 | Brasileiro Serie A Game | Bragantino | ✔ | 72' · BRA 0 - VIT 2 | — | In play | — |
 | 11-20 00:09 | Russia Liga Pro Match | Lialichev Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 00:08 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-20 00:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 00:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-20 00:08 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-20 00:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 00:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 00:02 | Women's College Basketball Game | Northwestern St. | ✔ | 10:00 - 1st · NWST 0 - OU 0 | — | In play | — |
 | 11-20 00:00 | Russia Liga Pro Match | Vlasov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:59 | Challenger ATP  | Henrique Rocha | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -394,18 +406,6 @@
 | 11-19 23:56 | Counter-Strike 2 Game | gothboiclique | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-19 23:56 | ITF Men's Match | Stefan Cooper | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-19 23:56 | eSoccer Game | Girona (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:55 | Challenger WTA | Fernanda Labrana | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:54 | eSoccer Game | Palmeiras (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:54 | eSoccer Game | Flamengo (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:53 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:53 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:53 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:52 | Women's College Basketball Game | Florida International | ✘ | — | — | In play | — |
-| 11-19 23:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-19 23:43 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
