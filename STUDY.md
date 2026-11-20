@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 7:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 8:02 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 68417 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
+| 68429 | 3679 | 14 (0%) | 1.1% | -$355.85 (-64%) | Hold to the end: -$355.85 (-64%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3679 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 64708 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 64724 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 32887 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4225 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3246 | 8 | 3% | 2% | -77% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2015 | 8 | 14% | 6% | -63% | -76% | 4 min |
+| eSoccer Game | ✘ | 32895 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4227 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3248 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| ITF Women's Match | ✘ | 2017 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1970 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1823 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -108,7 +108,7 @@
 | Women's College Basketball Game | partly | 784 | 2 | 15% | 5% | -76% | -75% | 32 min |
 | College Football Game | partly | 636 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
-| Darts Match | ✘ | 452 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Darts Match | ✘ | 453 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 427 | 1 | 1% | 1% | -78% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 425 | 2 | 4% | 2% | -56% | -93% | 52 min |
 | Men's T20 Cricket Match | ✘ | 408 | 2 | 15% | 6% | -54% | -75% | 26 min |
@@ -121,7 +121,7 @@
 | Major League Soccer Game | partly | 221 | 1 | 11% | 5% | -58% | -80% | 8 min |
 | College Hockey Game | ✘ | 219 | 0 | 1% | 0% | -100% | -98% | 13 min |
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
-| WTA Tennis Match | ✘ | 195 | 0 | 12% | 3% | -100% | -79% | 5 min |
+| WTA Tennis Match | ✘ | 196 | 0 | 12% | 3% | -100% | -79% | 5 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
 | Argentina Primera Division Game | ✘ | 175 | 2 | 17% | 9% | +7% | -71% | 9 min |
 | Liga DIMAYOR Game | ✘ | 173 | 1 | 10% | 3% | -46% | -82% | 9 min |
@@ -378,36 +378,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-20 14:49 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | — | In play | — |
-| 11-20 14:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 14:49 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | — | In play | — |
-| 11-20 14:49 | ITF Women's Match | Charo Esquiva Banuls | ✘ | — | — | In play | — |
+| 11-20 15:01 | Counter-Strike 2 Game | Just_Players | ✘ | — | — | In play | — |
+| 11-20 14:59 | eSoccer Game | AS Monaco (Bony) | ✘ | — | — | In play | — |
+| 11-20 14:59 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | — | In play | — |
+| 11-20 14:59 | Russia Liga Pro Match | Korneev Dmitriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 14:59 | Qatar Stars League | AL Duhail | ✘ | — | — | In play | — |
+| 11-20 14:58 | Qatar Stars League | Tie | ✘ | — | — | In play | — |
+| 11-20 14:57 | Counter-Strike 2 Game | ex-INOX Division | ✘ | — | — | In play | — |
+| 11-20 14:57 | Malaysia Super League Game | Tie | ✘ | — | — | In play | — |
+| 11-20 14:57 | eSoccer Game | Rennes (Antonio) | ✘ | — | — | In play | — |
+| 11-20 14:52 | Russia Liga Pro Match | KHurudzhi Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:52 | T10 Match | Napoli Knights | ✘ | — | — | In play | — |
+| 11-20 14:49 | eSoccer Game | Leverkusen (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:49 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:49 | ITF Women's Match | Charo Esquiva Banuls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 14:49 | Malaysia Super League Game | Terengganu | ✘ | — | — | In play | — |
-| 11-20 14:47 | ITF Women's Match | Nellie Taraba Wallberg | ✘ | — | — | In play | — |
-| 11-20 14:46 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
-| 11-20 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-20 14:45 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | — | In play | — |
-| 11-20 14:45 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | — | In play | — |
-| 11-20 14:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 14:47 | ITF Women's Match | Nellie Taraba Wallberg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:46 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:45 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:45 | eSoccer Game | Stade Brestois 29 (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 14:44 | eSoccer Game | Chelsea (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:44 | eSoccer Game | AS Monaco (Bony) | ✘ | — | — | In play | — |
-| 11-20 14:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-20 14:44 | eSoccer Game | AS Monaco (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-20 14:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 14:44 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 14:43 | Dota 2 Game | angry birds | ✘ | — | — | In play | — |
-| 11-20 14:43 | Darts Match | Vicky Pruim | ✘ | — | — | In play | — |
+| 11-20 14:43 | Darts Match | Vicky Pruim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-20 14:38 | Challenger ATP  | Dino Prizmic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:36 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:34 | eSoccer Game | FC Koln (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:34 | Counter-Strike 2 Game | Butterfly | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:33 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:31 | UAE Pro League | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:31 | Challenger ATP  | Edas Butvilas | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-20 14:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:30 | eSoccer Game | Toulouse FC (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-20 14:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
