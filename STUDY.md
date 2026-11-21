@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 11:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 11:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69406 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69426 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65661 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65672 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33382 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33392 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4299 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3302 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2025 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -317,6 +317,7 @@
 | USL Super League Women Game | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 46 min |
 | Japan J League Cup Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Romania Division A Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 27 min |
+| Padel Match | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Ukrainian Premier League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
@@ -324,7 +325,6 @@
 | Paraguay Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Serbian Cup Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 12 min |
 | T10 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 29 min |
-| Padel Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Mexican Pacific League | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Denmark Basketligaen Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 38 min |
 | Womens TGL Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 51 min |
@@ -380,36 +380,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 06:37 | Padel Match | New York Atlantics | ✘ | — | — | In play | — |
-| 11-21 06:36 | eSoccer Game | AS Monaco (Ryft) | ✘ | — | — | In play | — |
-| 11-21 06:35 | eSoccer Game | Rennes (Homie) | ✘ | — | — | In play | — |
+| 11-21 06:49 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:49 | Korea K League Game | Jeonbuk | ✘ | — | — | In play | — |
+| 11-21 06:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:47 | eSoccer Game | Stade Brestois 29 (SilentShooter) | ✘ | — | — | In play | — |
+| 11-21 06:47 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:47 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:47 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | — | In play | — |
+| 11-21 06:46 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | — | In play | — |
+| 11-21 06:46 | Japan J2 League Game | Yokohama | ✘ | — | — | In play | — |
+| 11-21 06:45 | Japan J2 League Game | Fujieda | ✘ | — | — | In play | — |
+| 11-21 06:45 | eSoccer Game | Getafe CF (Pedri) | ✘ | — | — | In play | — |
+| 11-21 06:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:45 | Japan J2 League Game | Ventforet | ✘ | — | — | In play | — |
+| 11-21 06:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:44 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:44 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | — | In play | — |
+| 11-21 06:44 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | — | In play | — |
+| 11-21 06:42 | Japan J2 League Game | Montedio | ✘ | — | — | In play | — |
+| 11-21 06:42 | Korea K League Game | FC Anyang | ✘ | — | — | In play | — |
+| 11-21 06:41 | Japan J League Game | Marinos | ✘ | — | — | In play | — |
+| 11-21 06:37 | Padel Match | New York Atlantics | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:36 | eSoccer Game | AS Monaco (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:35 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:34 | College Hockey Game | Alaska Anchorage | ✘ | — | — | In play | — |
 | 11-21 06:33 | Japan J2 League Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:32 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-21 06:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:31 | eSoccer Game | RC Celta (Frenkie) | ✘ | — | — | In play | — |
-| 11-21 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:29 | eSoccer Game | FC Barcelona (Luis) | ✘ | — | — | In play | — |
-| 11-21 06:28 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:28 | Japan J2 League Game | Tochigi City FC | ✘ | — | — | In play | — |
-| 11-21 06:28 | eFootball Game | Philadelphia (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:28 | WTA Tennis Match | Maria Florencia Urrutia | ✘ | — | — | In play | — |
-| 11-21 06:24 | Japan J2 League Game | Omiya Ardija | ✘ | — | — | In play | — |
-| 11-21 06:22 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:22 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:22 | eSoccer Game | Nantes (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:21 | Korea K-League 2 Game | Gyeongnam | ✘ | — | — | In play | — |
-| 11-21 06:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:17 | eSoccer Game | RC Celta (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:17 | eSoccer Game | Girona (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:15 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:14 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:32 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:31 | eSoccer Game | RC Celta (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
