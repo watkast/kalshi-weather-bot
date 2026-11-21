@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 7:52 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 8:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69147 | 3692 | 14 (0%) | 1.1% | -$357.80 (-65%) | Hold to the end: -$357.80 (-65%) |
+| 69164 | 3692 | 14 (0%) | 1.1% | -$357.80 (-65%) | Hold to the end: -$357.80 (-65%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3692 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65416 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65428 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33238 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33246 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4287 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3288 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2019 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1976 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1844 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1252 | 5 | 12% | 5% | -63% | -79% | 5 min |
-| Men's College Basketball Game | partly | 835 | 5 | 20% | 8% | -44% | -66% | 26 min |
-| Women's College Basketball Game | partly | 808 | 2 | 15% | 5% | -77% | -74% | 32 min |
+| Challenger ATP  | ✘ | 1253 | 5 | 12% | 5% | -63% | -79% | 5 min |
+| Men's College Basketball Game | partly | 837 | 5 | 19% | 8% | -44% | -66% | 26 min |
+| Women's College Basketball Game | partly | 809 | 2 | 15% | 5% | -77% | -75% | 32 min |
 | College Football Game | partly | 637 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 471 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -379,36 +379,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 02:51 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 11-21 02:59 | Challenger ATP  | Jay Friend | ✘ | — | — | In play | — |
+| 11-21 02:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 02:58 | Women's College Volleyball Match | Syracuse | ✘ | — | — | In play | — |
+| 11-21 02:58 | Bare Knuckle Fight Match | Amos Collins | ✘ | — | — | In play | — |
+| 11-21 02:57 | eBasketball Game | Brooklyn Nets (Lenny) | ✘ | — | — | In play | — |
+| 11-21 02:57 | Liga MX Game | San Luis | ✔ | 90'+7' · ASL 1 - PUE 1 | — | In play | — |
+| 11-21 02:56 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | — | In play | — |
+| 11-21 02:54 | eBasketball Game | New York Knicks (Ray) | ✘ | — | — | In play | — |
+| 11-21 02:54 | Liga MX Game | Puebla | ✔ | 90'+5' · ASL 1 - PUE 1 | — | In play | — |
+| 11-21 02:54 | Valorant game winner | Masterclass | ✘ | — | — | In play | — |
+| 11-21 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:54 | eSoccer Game | São Paulo (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:54 | eSoccer Game | Universitario (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 02:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:53 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
+| 11-21 02:51 | eSoccer Game | RC Lens (Florie) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-21 02:51 | Men's College Basketball Game | Kentucky | ✘ | — | — | In play | — |
 | 11-21 02:50 | Women's College Volleyball Match | Houston | ✘ | — | — | In play | — |
-| 11-21 02:50 | Challenger ATP  | Philip Sekulic | ✘ | — | — | In play | — |
-| 11-21 02:46 | Men's College Basketball Game | Delaware St. | ✘ | — | — | In play | — |
+| 11-21 02:50 | Challenger ATP  | Philip Sekulic | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:46 | Men's College Basketball Game | Delaware St. | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-21 02:46 | Women's College Basketball Game | Colorado St. | ✘ | — | — | In play | — |
-| 11-21 02:46 | eSoccer Game | Manchester City (NINJA) | ✘ | — | — | In play | — |
-| 11-21 02:46 | eSoccer Game | Chelsea (Strudl) | ✘ | — | — | In play | — |
+| 11-21 02:46 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 02:46 | eSoccer Game | Chelsea (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 02:44 | College Hockey Game | Ferris State | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:42 | Women's College Basketball Game | UC Davis | ✘ | — | — | In play | — |
+| 11-21 02:42 | Women's College Basketball Game | UC Davis | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-21 02:42 | College Football Game | Bowling Green | ✔ | 8:11 - 3rd · BGSU 0 - TOL 16 | — | In play | — |
 | 11-21 02:42 | AHL Game | Rockford Icehogs | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 02:42 | College Hockey Game | Canisius | ✘ | — | — | In play | — |
-| 11-21 02:41 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:41 | Men's College Basketball Game | Kansas St. | ✘ | — | — | In play | — |
-| 11-21 02:40 | Bare Knuckle Fight Match | Justin Howell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:39 | AHL Game | Lehigh Valley Phantoms | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:39 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:37 | College Football Game | Michigan St. | ✔ | 0:01 - 2nd · ORE 16 - MSU 0 | — | In play | — |
-| 11-21 02:35 | Women's College Basketball Game | Utah Tech | ✘ | — | — | In play | — |
-| 11-21 02:35 | Men's College Basketball Game | Lipscomb | ✘ | — | — | In play | — |
-| 11-21 02:34 | College Hockey Game | Union | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:33 | AHL Game | Springfield Thunderbirds | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:33 | Padel Match | Toronto Polar Bears | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:33 | Liga Nacional de Basquetbol Game | AD Atenas Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:32 | eSoccer Game | Manchester Utd (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:32 | eSoccer Game | Everton (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 02:30 | Russia Liga Pro Match | Konobeev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
