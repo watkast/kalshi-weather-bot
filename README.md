@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Sat Nov 21, 2:42 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Sat Nov 21, 4:17 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -21,7 +21,7 @@
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
 | **Temperature** | 995 | 960 | 36% | -$376.35 | -9.8% | 35 | Losing |
-| **Rain** | 286 | 277 | 30% | -$39.33 | -4.5% | 9 | Losing |
+| **Rain** | 296 | 277 | 30% | -$39.33 | -4.5% | 19 | Losing |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -59,16 +59,16 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
-| 2026-11-21 | SFO | YES | 84¢ | 96% | Open | — |
-| 2026-11-21 | SEA | YES | 65¢ | 82% | Open | — |
-| 2026-11-21 | OKC | YES | 57¢ | 70% | Open | — |
-| 2026-11-21 | MIN | NO | 16¢ | 39% | Open | — |
-| 2026-11-21 | MIA | NO | 31¢ | 67% | Open | — |
-| 2026-11-21 | ATL | NO | 39¢ | 94% | Open | — |
-| 2026-11-20 | MIA | YES | 15¢ | 40% | Open | — |
-| 2026-11-20 | SFO | NO | 12¢ | 51% | Open | — |
-| 2026-11-20 | NOLA | YES | 12¢ | 25% | Open | — |
-| 2026-11-19 | SEA | YES | 12¢ | 40% | NO | -$1.28 |
+| 2026-11-22 | SFO | YES | 36¢ | 52% | Open | — |
+| 2026-11-22 | SEA | NO | 34¢ | 55% | Open | — |
+| 2026-11-22 | SATX | YES | 49¢ | 63% | Open | — |
+| 2026-11-22 | MIA | YES | 19¢ | 30% | Open | — |
+| 2026-11-22 | LEX | NO | 48¢ | 74% | Open | — |
+| 2026-11-22 | LAX | YES | 20¢ | 41% | Open | — |
+| 2026-11-22 | HOU | YES | 30¢ | 42% | Open | — |
+| 2026-11-22 | CMH | NO | 73¢ | 87% | Open | — |
+| 2026-11-22 | CLL | YES | 14¢ | 30% | Open | — |
+| 2026-11-22 | AUS | YES | 27¢ | 57% | Open | — |
 
 ## The bots
 
