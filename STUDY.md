@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 6:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 6:29 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69012 | 3685 | 14 (0%) | 1.1% | -$356.75 (-65%) | Hold to the end: -$356.75 (-65%) |
+| 69025 | 3685 | 14 (0%) | 1.1% | -$356.75 (-65%) | Hold to the end: -$356.75 (-65%) |
 
-*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3685 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65290 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65296 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33194 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4279 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 33198 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4281 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3282 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2019 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1976 | 5 | 14% | 6% | -76% | -76% | 5 min |
@@ -379,12 +379,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-21 01:29 | Men's College Basketball Game | Cal State Northridge | ✘ | — | — | In play | — |
+| 11-21 01:28 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
+| 11-21 01:27 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-21 01:27 | Men's College Basketball Game | Holy Cross | ✘ | — | — | In play | — |
+| 11-21 01:27 | Men's College Basketball Game | UCF | ✔ | 10:50 - 1st · UCF 5 - VAN 21 | — | In play | — |
+| 11-21 01:24 | Challenger ATP  | Franco Roncadelli | ✘ | — | — | In play | — |
+| 11-21 01:24 | Russia Liga Pro Match | Telnov Evgenii | ✘ | — | — | In play | — |
+| 11-21 01:24 | Counter-Strike 2 Game | Mira | ✘ | — | — | In play | — |
+| 11-21 01:23 | Chile Liga de Primera Game | Palestino | ✘ | — | — | In play | — |
+| 11-21 01:23 | Women's College Basketball Game | Georgia Southern | ✘ | — | — | In play | — |
+| 11-21 01:22 | eSoccer Game | Real Madrid (Mantis) | ✘ | — | — | In play | — |
+| 11-21 01:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 01:18 | Women's College Basketball Game | Middle Tennessee | ✘ | — | — | In play | — |
-| 11-21 01:18 | eSoccer Game | Nantes (Ellen) | ✘ | — | — | In play | — |
-| 11-21 01:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 01:17 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-21 01:16 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | — | In play | — |
-| 11-21 01:16 | Russia Liga Pro Match | Konobeev Aleksei | ✘ | — | — | In play | — |
+| 11-21 01:18 | eSoccer Game | Nantes (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 01:17 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 01:16 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 01:16 | Russia Liga Pro Match | Konobeev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 01:11 | Women's College Basketball Game | Tennessee-Martin | ✘ | — | — | In play | — |
 | 11-21 01:11 | Women's College Basketball Game | Lamar | ✘ | — | — | In play | — |
 | 11-21 01:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -396,19 +409,6 @@
 | 11-21 01:05 | eSoccer Game | Montpellier (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 01:05 | eSoccer Game | Botafogo (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 01:05 | eBasketball Game | New York Knicks (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:04 | Darts Match | Emine Dursun | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:04 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:04 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:03 | eSoccer Game | Flamengo (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 01:02 | Women's College Basketball Game | Seton Hall | ✔ | 9:57 - 1st · HALL 0 - CONN 0 | — | In play | — |
-| 11-21 01:02 | Men's College Basketball Game | Mississippi Valley St. | ✔ | 19:27 - 1st · MVSU 0 - ARK 3 | — | In play | — |
-| 11-21 00:57 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:54 | Women's College Basketball Game | UMass | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:54 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:54 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:54 | Argentina Primera Division Game | Belgrano de Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
