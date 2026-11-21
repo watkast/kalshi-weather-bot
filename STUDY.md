@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 7:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 7:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69834 | 3737 | 14 (0%) | 1.1% | -$364.55 (-65%) | Hold to the end: -$364.55 (-65%) |
+| 69855 | 3737 | 14 (0%) | 1.1% | -$364.55 (-65%) | Hold to the end: -$364.55 (-65%) |
 
-*In play right now: 59. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 66. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3737 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 66038 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 66052 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33563 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33571 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4335 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3322 | 8 | 3% | 2% | -78% | -91% | 3 min |
+| eBasketball Game | ✘ | 3324 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2027 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1983 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1846 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -259,9 +259,9 @@
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Slovakia SBL Game | ✘ | 36 | 0 | 3% | 0% | -100% | -95% | 15 min |
 | Croatia Premijer Liga Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| UAE Pro League | ✘ | 34 | 0 | 6% | 6% | -100% | -90% | 16 min |
 | Polish Hockey Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 7 min |
 | LKL Lithuania Game | ✘ | 33 | 0 | 3% | 0% | -100% | -95% | 9 min |
-| UAE Pro League | ✘ | 32 | 0 | 6% | 6% | -100% | -89% | 17 min |
 | Ligue Magnus Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | DFB Pokal Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 18 min |
 | Slovenia 1. SKL Game | ✘ | 31 | 0 | 3% | 3% | -100% | -94% | 15 min |
@@ -274,10 +274,10 @@
 | EuroLeague (W) Game | ✘ | 24 | 0 | 8% | 0% | -100% | -86% | 9 min |
 | South African Premiership Game | ✘ | 23 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Professional Baseball Game | partly | 22 | 0 | 14% | 9% | -100% | -76% | 2 min |
+| Malaysia Super League Game | ✘ | 22 | 0 | 9% | 0% | -100% | -84% | 9 min |
 | Finnish Ykkosliiga Game | ✘ | 21 | 1 | 10% | 5% | +344% | -83% | 6 min |
 | Colombia LBP Basketball Game | ✘ | 21 | 0 | 0% | 0% | -100% | -100% | 15 min |
 | CFL Game | ✘ | 20 | 0 | 5% | 0% | -100% | -91% | 8 min |
-| Malaysia Super League Game | ✘ | 20 | 0 | 10% | 0% | -100% | -83% | 9 min |
 | Liga Portugal 2 Game | ✘ | 20 | 0 | 15% | 10% | -100% | -74% | 16 min |
 | EFL League Two Game | ✔ | 20 | 0 | 15% | 10% | -100% | -74% | 7 min |
 | Women's Pro Basketball Game | ✔ | 18 | 0 | 22% | 6% | -100% | -61% | 6 min |
@@ -381,36 +381,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-21 14:57 | Russia Liga Pro Match | Smirnov Mikhail | ✘ | — | — | In play | — |
+| 11-21 14:57 | LaLiga 2 Game | Granada | ✔ | 90'+4' · GRA 1 - CDS 1 | — | In play | — |
+| 11-21 14:55 | Tweede Divisie Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:55 | German Women's Bundesliga Game | Köln | ✘ | — | — | In play | — |
+| 11-21 14:55 | German Women's Bundesliga Game | Werder | ✘ | — | — | In play | — |
+| 11-21 14:54 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:54 | Russia Liga Pro Match | Klimentev Vladimir | ✘ | — | — | In play | — |
+| 11-21 14:53 | Counter-Strike 2 Game | TEAM GELO | ✘ | — | — | In play | — |
+| 11-21 14:53 | Ligue 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:53 | ITF Women's Match | Lea Boskovic | ✘ | — | — | In play | — |
+| 11-21 14:53 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:52 | Qatar Stars League | AL Wakrah | ✘ | — | — | In play | — |
+| 11-21 14:52 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:50 | Russia Liga Pro Match | Antonov Roman | ✘ | — | — | In play | — |
+| 11-21 14:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:49 | Malaysia Super League Game | Sabah | ✘ | — | — | In play | — |
+| 11-21 14:49 | eSoccer Game | FC Bayern (Dzen) | ✘ | — | — | In play | — |
+| 11-21 14:49 | La Liga Game | Tie | ✔ | 90' · DEP 1 - ALA 2 | — | In play | — |
+| 11-21 14:48 | eBasketball Game | Dallas Mavericks (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:47 | UAE Pro League | Khor Fakkan | ✘ | — | — | In play | — |
+| 11-21 14:47 | Tweede Divisie Game | Koninklijke | ✘ | — | — | In play | — |
 | 11-21 14:46 | German 3. Liga Game | Wurzburg | ✘ | — | — | In play | — |
-| 11-21 14:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 14:45 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
-| 11-21 14:45 | eSoccer Game | Nantes (Frost) | ✘ | — | — | In play | — |
-| 11-21 14:45 | eSoccer Game | AS Monaco (Ousmane) | ✘ | — | — | In play | — |
-| 11-21 14:45 | eSoccer Game | Toulouse FC (Nate) | ✘ | — | — | In play | — |
-| 11-21 14:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 14:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:45 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:45 | eSoccer Game | Nantes (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:45 | eSoccer Game | AS Monaco (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:45 | eSoccer Game | Toulouse FC (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 14:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 14:45 | Ligue 2 Game | Montpellier | ✘ | — | — | In play | — |
 | 11-21 14:44 | Czech First League Game | Jablonec | ✘ | — | — | In play | — |
-| 11-21 14:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 14:44 | Turkish Super Lig Game | Tie | ✘ | — | — | In play | — |
-| 11-21 14:44 | Counter-Strike 2 Game | INFURITY Gaming | ✘ | — | — | In play | — |
-| 11-21 14:43 | Lithuania NKL Game | Vilkaviskio Perlas Go | ✘ | — | — | In play | — |
-| 11-21 14:43 | German 3. Liga Game | Meppen | ✘ | — | — | In play | — |
-| 11-21 14:43 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
-| 11-21 14:43 | Tweede Divisie Game | Rohda Raalte | ✘ | — | — | In play | — |
-| 11-21 14:42 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
-| 11-21 14:42 | UAE Pro League | Al Jazira | ✘ | — | — | In play | — |
-| 11-21 14:40 | UAE Pro League | Tie | ✘ | — | — | In play | — |
-| 11-21 14:39 | Malaysia Super League Game | Melaka FC | ✘ | — | — | In play | — |
-| 11-21 14:39 | Malaysia Super League Game | Immigration FC | ✘ | — | — | In play | — |
-| 11-21 14:39 | La Liga Game | Deportivo De La Coruna | ✔ | 79' · DEP 1 - ALA 2 | — | In play | — |
-| 11-21 14:36 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
-| 11-21 14:36 | Dota 2 Game | Astra Invicta | ✘ | — | — | In play | — |
-| 11-21 14:35 | Bulgaria First League Game | Arda Kardzhali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 14:35 | Bulgaria First League Game | Slavia Sofia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 14:35 | England Women's Super League Game | Chelsea | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 14:35 | England Women's Super League Game | Liverpool | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 14:35 | UAE Pro League | Al-Nasr | ✘ | — | — | In play | — |
-| 11-21 14:34 | eBasketball Game | New Orleans Pelicans (Jason) | ✘ | — | — | In play | — |
 
 ## Raw data
 
