@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 11:37 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 11:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 70377 | 3826 | 15 (0%) | 1.1% | -$363.90 (-63%) | Hold to the end: -$363.90 (-63%) |
+| 70395 | 3826 | 15 (0%) | 1.1% | -$363.90 (-63%) | Hold to the end: -$363.90 (-63%) |
 
-*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 60. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3826 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 66504 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 66509 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33697 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33699 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4365 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3340 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2033 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -235,10 +235,10 @@
 | Rugby French 14 Match | ✘ | 50 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Egyptian Premier League Game | ✘ | 50 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | Korea KBL Game | ✘ | 50 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Austria BSL Game | ✘ | 49 | 0 | 6% | 4% | -100% | -89% | 9 min |
 | Croatia HNL Game | ✘ | 49 | 0 | 8% | 4% | -100% | -86% | 11 min |
 | Danish Superliga Game | ✘ | 49 | 0 | 10% | 6% | -100% | -82% | 13 min |
 | Slovenian Prva Liga Game | ✘ | 49 | 0 | 8% | 2% | -100% | -86% | 12 min |
-| Austria BSL Game | ✘ | 48 | 0 | 6% | 4% | -100% | -89% | 8 min |
 | Indian Super League Game | ✘ | 48 | 0 | 12% | 6% | -100% | -78% | 9 min |
 | Hungarian NB I Game | ✘ | 48 | 0 | 6% | 6% | -100% | -89% | 8 min |
 | KNVB Cup Game | ✘ | 47 | 0 | 17% | 11% | -100% | -70% | 13 min |
@@ -263,9 +263,9 @@
 | Croatia Premijer Liga Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | LKL Lithuania Game | ✘ | 35 | 0 | 3% | 0% | -100% | -95% | 10 min |
 | Polish Hockey Game | ✘ | 34 | 0 | 3% | 3% | -100% | -95% | 7 min |
+| Slovenia 1. SKL Game | ✘ | 32 | 0 | 3% | 3% | -100% | -95% | 15 min |
 | Ligue Magnus Game | ✘ | 32 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | DFB Pokal Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 18 min |
-| Slovenia 1. SKL Game | ✘ | 31 | 0 | 3% | 3% | -100% | -94% | 15 min |
 | Singapore Premier League Game | ✘ | 31 | 0 | 13% | 3% | -100% | -78% | 18 min |
 | EuroBasket (W) Game | ✘ | 31 | 0 | 10% | 0% | -100% | -83% | 11 min |
 | Women's ODI Cricket Match | ✘ | 29 | 0 | 14% | 7% | -100% | -76% | 40 min |
@@ -284,10 +284,10 @@
 | Powerslap Match Winner | ✘ | 18 | 0 | 6% | 6% | -100% | -90% | 6 min |
 | Slovakia Niké liga Game | ✘ | 18 | 0 | 11% | 0% | -100% | -81% | 19 min |
 | Philippines PBA Game | ✘ | 17 | 0 | 0% | 0% | -100% | -100% | 11 min |
+| Israel Super League Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 11 min |
 | Bare Knuckle Fight Match | ✘ | 17 | 0 | 12% | 0% | -100% | -80% | 23 min |
 | Lithuania NKL Game | ✘ | 17 | 0 | 6% | 6% | -100% | -90% | 119 min |
 | Brasileiro Serie C Game | ✘ | 16 | 0 | 19% | 12% | -100% | -68% | 5 min |
-| Israel Super League Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 12 min |
 | EFL Cup Game | ✘ | 16 | 0 | 19% | 0% | -100% | -68% | 15 min |
 | Coppa Italia Lega Pro Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 9 min |
 | Coupe de France Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 141 min |
@@ -383,36 +383,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-21 18:48 | Eliteserien Game | Valerenga | ✘ | — | — | In play | — |
+| 11-21 18:47 | Italy Serie A (W) Game | ASD San Martino di Lupari | ✘ | — | — | In play | — |
+| 11-21 18:47 | Slovakia SBL Game | Inter Basket | ✘ | — | — | In play | — |
+| 11-21 18:46 | French Women's Première Ligue Game | Le Havre | ✘ | — | — | In play | — |
+| 11-21 18:46 | Slovakia SBL Game | BK 04 AC LB SNV Spisski Rytieri | ✘ | — | — | In play | — |
+| 11-21 18:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 18:45 | Croatia HNL Game | Tie | ✘ | — | — | In play | — |
+| 11-21 18:45 | Russia Liga Pro Match | Pandur Ivan | ✘ | — | — | In play | — |
+| 11-21 18:44 | eSoccer Game | Real Madrid (Dzen) | ✘ | — | — | In play | — |
+| 11-21 18:43 | LNB Elite Game | Elan Bearnais Pau-Lacq-Orthez | ✘ | — | — | In play | — |
+| 11-21 18:42 | Swiss Super League Game | Grasshopper | ✘ | — | — | In play | — |
+| 11-21 18:42 | Slovakia Niké liga Game | Michalovce | ✘ | — | — | In play | — |
+| 11-21 18:41 | Swiss Super League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 18:41 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 11-21 18:41 | Czech First League Game | Bohemians Prague | ✘ | — | — | In play | — |
+| 11-21 18:41 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
+| 11-21 18:40 | Swiss Super League Game | Thun | ✘ | — | — | In play | — |
+| 11-21 18:39 | College Football Game | Western Kentucky | ✔ | 0:47 - 1st · WKU 0 - LIB 20 | — | In play | — |
 | 11-21 18:35 | Slovakia SBL Game | BC Komarno | ✘ | — | — | In play | — |
 | 11-21 18:34 | Men's T20 Cricket Match | Desert Vipers | ✘ | — | — | In play | — |
 | 11-21 18:33 | Women's College Basketball Game | Providence | ✔ | 9:42 - 1st · SC 0 - PROV 0 | — | In play | — |
 | 11-21 18:33 | Serie A Game | Tie | ✔ | 76' · ROMA 3 - PAR 1 | — | In play | — |
 | 11-21 18:31 | Serie C Game | Pescara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 18:31 | Serie C Game | Pineto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 18:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 18:31 | England Women's Super League Game | Tie | ✘ | — | — | In play | — |
-| 11-21 18:30 | eSoccer Game | Juventus (Krocs) | ✘ | — | — | In play | — |
+| 11-21 18:30 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 18:30 | Spain Liga ACB Game | CB San Pablo Burgos | ✘ | — | — | In play | — |
 | 11-21 18:29 | Russia Liga Pro Match | CHerniavskii Boris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:28 | Israel Super League Game | Ironi Kiryat ATA | ✘ | — | — | In play | — |
-| 11-21 18:28 | Women's College Basketball Game | Delaware St. | ✘ | — | — | In play | — |
-| 11-21 18:28 | Adriatic ABA Game | BC Slovan Bratislava | ✘ | — | — | In play | — |
-| 11-21 18:28 | Taca de Portugal Game | Reg Time: Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:27 | Scottish Premiership Game | Tie | ✘ | — | — | In play | — |
-| 11-21 18:27 | Austria BSL Game | BBC Nord Dragonz | ✘ | — | — | In play | — |
-| 11-21 18:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:26 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:26 | eBasketball Game | Denver Nuggets (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:26 | Women's College Basketball Game | UCF | ✘ | — | — | In play | — |
-| 11-21 18:25 | Serie C Game | Campobasso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:25 | Serie C Game | Pesaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:25 | England Women's Super League Game | Crystal Palace | ✘ | — | — | In play | — |
-| 11-21 18:25 | Serie C Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:25 | Serie A Game | Parma Calcio | ✔ | 69' · ROMA 2 - PAR 1 | — | In play | — |
-| 11-21 18:25 | Taca de Portugal Game | Reg Time: Estoril | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:24 | Serie C Game | Arzignano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 18:24 | Slovenia 1. SKL Game | Helios Domzale | ✘ | — | — | In play | — |
-| 11-21 18:24 | Turkey TBL Game | Buyukcekmece Basketbol | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 18:28 | Israel Super League Game | Ironi Kiryat ATA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
