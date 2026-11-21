@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 2:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 2:27 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69599 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69610 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 34. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65854 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65861 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33484 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4314 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 33488 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4315 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3314 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2025 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1981 | 5 | 14% | 6% | -76% | -76% | 5 min |
@@ -178,8 +178,8 @@
 | Polish Ekstraklasa Game | ✘ | 87 | 0 | 11% | 7% | -100% | -80% | 12 min |
 | SHL Game | ✘ | 86 | 0 | 3% | 2% | -100% | -94% | 6 min |
 | DEL Game | ✘ | 86 | 0 | 0% | 0% | -100% | -100% | 5 min |
+| Korea K-League 2 Game | ✘ | 86 | 0 | 10% | 6% | -100% | -82% | 10 min |
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
-| Korea K-League 2 Game | ✘ | 84 | 0 | 11% | 6% | -100% | -81% | 9 min |
 | APF Division de Honor Game | ✘ | 81 | 0 | 17% | 5% | -100% | -70% | 13 min |
 | Mobile Legends Bang Bang Game | ✘ | 81 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Allsvenskan Game | ✘ | 81 | 1 | 14% | 9% | +15% | -76% | 13 min |
@@ -380,10 +380,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 09:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-21 09:26 | eFootball Game | Chicago (Charlie) | ✘ | — | — | In play | — |
+| 11-21 09:26 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-21 09:24 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 09:23 | Russia Liga Pro Match | Lyfenko Nikita | ✘ | — | — | In play | — |
+| 11-21 09:23 | Russia Liga Pro Match | Muslikov Sergey | ✘ | — | — | In play | — |
+| 11-21 09:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 09:21 | eSoccer Game | Olympique de Marseille (Ryft) | ✘ | — | — | In play | — |
+| 11-21 09:20 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 09:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 09:19 | Korea K League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 09:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 09:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 09:13 | Korea K League Game | Gangwon | ✘ | — | — | In play | — |
 | 11-21 09:11 | Korea K League Game | Ulsan HD | ✘ | — | — | In play | — |
-| 11-21 09:11 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | — | In play | — |
+| 11-21 09:11 | Russia Liga Pro Match | KHarlamov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 09:09 | eSoccer Game | Paris Saint-Germain (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 09:09 | eSoccer Game | Strasbourg (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 09:08 | eSoccer Game | Slavia Praha (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -399,17 +410,6 @@
 | 11-21 08:58 | Russia Liga Pro Match | Zubov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 08:56 | Korea K-League 2 Game | Gimpo | ✘ | — | — | In play | — |
 | 11-21 08:55 | eSoccer Game | Olympique de Marseille (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:55 | eSoccer Game | OGC Nice (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:55 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-21 08:55 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:51 | eSoccer Game | Slavia Praha (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:51 | eSoccer Game | Liverpool (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:50 | eFootball Game | Dallas (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:50 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 08:50 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
