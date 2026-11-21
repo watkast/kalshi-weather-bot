@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 11:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 11:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69372 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69385 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65634 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65644 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33362 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33372 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4296 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3300 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2025 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -380,14 +380,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 06:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:04 | eSoccer Game | CA Osasuna (Luis) | ✘ | — | — | In play | — |
-| 11-21 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:03 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | — | In play | — |
-| 11-21 06:03 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-21 06:01 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
-| 11-21 06:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:17 | eSoccer Game | RC Celta (Pedri) | ✘ | — | — | In play | — |
+| 11-21 06:17 | eSoccer Game | Girona (Luis) | ✘ | — | — | In play | — |
+| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:15 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 11-21 06:14 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | — | In play | — |
+| 11-21 06:13 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | — | In play | — |
+| 11-21 06:10 | Russia Liga Pro Match | CHereugin Stanislav | ✘ | — | — | In play | — |
+| 11-21 06:09 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:04 | eSoccer Game | CA Osasuna (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:03 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:03 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:01 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:00 | Women's College Basketball Game | Baylor | ✔ | 2:18 - 4th · BAY 62 - USC 73 | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 05:57 | Australian A League Game | Melbourne Victory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 05:57 | Russia Liga Pro Match | Gritsenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -397,19 +410,6 @@
 | 11-21 05:50 | Men's College Basketball Game | Saint Louis | ✘ | — | — | In play | — |
 | 11-21 05:49 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:49 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:46 | Russia Liga Pro Match | Krikunov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:46 | Australian A League Game | Auckland | ✘ | — | 13¢ | ❌ Lost | -$0.15 |
-| 11-21 05:46 | eSoccer Game | Manchester Utd (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:44 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:44 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:41 | eSoccer Game | Sevilla FC (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:41 | eSoccer Game | Real Sociedad (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:37 | Russia Liga Pro Match | Kononenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
