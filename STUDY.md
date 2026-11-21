@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 9:03 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 9:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69237 | 3702 | 14 (0%) | 1.1% | -$359.30 (-65%) | Hold to the end: -$359.30 (-65%) |
+| 69248 | 3702 | 14 (0%) | 1.1% | -$359.30 (-65%) | Hold to the end: -$359.30 (-65%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3702 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65499 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65513 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33284 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33292 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4287 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3292 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2022 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -105,9 +105,9 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1254 | 5 | 12% | 5% | -63% | -79% | 5 min |
 | Men's College Basketball Game | partly | 846 | 5 | 20% | 9% | -45% | -65% | 26 min |
-| Women's College Basketball Game | partly | 814 | 2 | 15% | 5% | -77% | -74% | 32 min |
+| Women's College Basketball Game | partly | 815 | 2 | 15% | 5% | -77% | -74% | 32 min |
 | College Football Game | partly | 638 | 3 | 11% | 5% | -56% | -81% | 23 min |
-| eFootball Game | ✘ | 627 | 2 | 1% | 1% | -70% | -98% | 2 min |
+| eFootball Game | ✘ | 628 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 471 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 433 | 1 | 1% | 1% | -78% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 430 | 2 | 4% | 2% | -57% | -94% | 49 min |
@@ -118,7 +118,7 @@
 | Challenger WTA | ✘ | 308 | 1 | 13% | 4% | -70% | -78% | 9 min |
 | NBA Game | partly | 283 | 0 | 19% | 7% | -100% | -67% | 11 min |
 | AHL Game | ✘ | 267 | 0 | 4% | 2% | -100% | -93% | 6 min |
-| College Hockey Game | ✘ | 234 | 0 | 1% | 0% | -100% | -99% | 13 min |
+| College Hockey Game | ✘ | 237 | 0 | 1% | 0% | -100% | -99% | 14 min |
 | Major League Soccer Game | partly | 221 | 1 | 11% | 5% | -58% | -80% | 8 min |
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
 | WTA Tennis Match | ✘ | 198 | 0 | 12% | 3% | -100% | -79% | 5 min |
@@ -289,11 +289,11 @@
 | Coupe de France Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 141 min |
 | EFL League Two Game | ✔ | 16 | 0 | 12% | 12% | -100% | -78% | 5 min |
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
+| Bare Knuckle Fight Match | ✘ | 13 | 0 | 15% | 0% | -100% | -73% | 17 min |
 | RAF Match Result | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 2840 min |
 | Champions League Hockey | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Bundesliga Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Slovakia Niké liga Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 21 min |
-| Bare Knuckle Fight Match | ✘ | 12 | 0 | 17% | 0% | -100% | -71% | 17 min |
 | Ukraine SuperLeague Game | ✘ | 11 | 0 | 9% | 0% | -100% | -84% | 7 min |
 | Uruguay LUB Basketball Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | United Rugby Championship Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -380,36 +380,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 04:03 | eSoccer Game | United States (Mia) | ✘ | — | — | In play | — |
-| 11-21 04:03 | eSoccer Game | Portugal (Olive) | ✘ | — | — | In play | — |
+| 11-21 04:09 | eSoccer Game | Chelsea (Strudl) | ✘ | — | — | In play | — |
+| 11-21 04:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 04:09 | eFootball Game | Atlanta (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:08 | ITF Women's Match | Kylie Collins | ✘ | — | — | In play | — |
+| 11-21 04:07 | Bare Knuckle Fight Match | Joshua Claudio | ✘ | — | — | In play | — |
+| 11-21 04:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:04 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:04 | eSoccer Game | 1. FC Köln (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:04 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-21 04:03 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 04:03 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 04:01 | College Football Game | Duke | ✔ | 1:01 - 4th · CLEM 20 - DUKE 10 | — | In play | — |
 | 11-21 04:00 | Men's College Basketball Game | Boise St. | ✘ | — | — | In play | — |
-| 11-21 03:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 03:54 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | — | In play | — |
+| 11-21 03:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 03:54 | eSoccer Game | Crystal Palace (Mantis) | ✘ | — | 14¢ | ❌ Lost | -$0.15 |
 | 11-21 03:54 | eSoccer Game | England (Ellen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:49 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:47 | eFootball Game | Pittsburgh (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:46 | Bare Knuckle Fight Match | Robert Fichtner | ✘ | — | — | In play | — |
+| 11-21 03:46 | Bare Knuckle Fight Match | Robert Fichtner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:41 | eSoccer Game | Manchester City (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:40 | Women's T20 Match | Sydney Thunder Women | ✘ | — | — | In play | — |
-| 11-21 03:40 | Women's College Basketball Game | Nevada | ✘ | — | — | In play | — |
+| 11-21 03:40 | Women's College Basketball Game | Nevada | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:39 | ITF Women's Match | Kristina Penickova | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 03:38 | Men's College Basketball Game | Alabama St. | ✘ | — | — | In play | — |
 | 11-21 03:37 | Men's College Basketball Game | Cal State Bakersfield | ✘ | — | 9¢ | ❌ Lost | -$0.15 |
-| 11-21 03:37 | eSoccer Game | Argentina (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:36 | eSoccer Game | FSV Mainz 05 (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:35 | College Hockey Game | St. Cloud State | ✘ | — | — | In play | — |
-| 11-21 03:35 | eSoccer Game | FC Augsburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:35 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 03:34 | College Hockey Game | Western Michigan | ✘ | — | — | In play | — |
-| 11-21 03:32 | Women's College Basketball Game | Stanford | ✔ | 5:04 - 2nd · STAN 15 - WASH 41 | — | In play | — |
 
 ## Raw data
 
