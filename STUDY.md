@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 12:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 12:32 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69471 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69483 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65735 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65738 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33410 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4303 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 33412 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4304 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3306 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2025 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1977 | 5 | 14% | 6% | -76% | -76% | 5 min |
@@ -380,9 +380,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 07:21 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | — | In play | — |
-| 11-21 07:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 07:17 | eSoccer Game | Nantes (Ryft) | ✘ | — | — | In play | — |
+| 11-21 07:30 | eSoccer Game | Toulouse FC (Homie) | ✘ | — | — | In play | — |
+| 11-21 07:30 | Valorant game winner | XJG | ✘ | — | — | In play | — |
+| 11-21 07:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 07:29 | eFootball Game | Seattle (Charlie) | ✘ | — | — | In play | — |
+| 11-21 07:28 | eSoccer Game | Spurs (Lucy) | ✘ | — | — | In play | — |
+| 11-21 07:28 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-21 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 07:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 07:27 | eSoccer Game | RCD Mallorca (Declan) | ✘ | — | — | In play | — |
+| 11-21 07:26 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-21 07:26 | eSoccer Game | Chelsea (Ellie) | ✘ | — | — | In play | — |
+| 11-21 07:25 | eSoccer Game | Real Sociedad (Pedri) | ✘ | — | — | In play | — |
+| 11-21 07:21 | Russia Liga Pro Match | Denisov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 07:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 07:17 | eSoccer Game | Nantes (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 07:14 | eBasketball Game | Dallas Mavericks (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 07:14 | Men's T20 Cricket Match | Knight Fighters 11 | ✘ | — | — | In play | — |
 | 11-21 07:14 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -398,18 +410,6 @@
 | 11-21 07:10 | Japan J League Game | Cerezo | ✘ | — | — | In play | — |
 | 11-21 07:04 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 07:04 | Russia Liga Pro Match | Mareychev Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:04 | Japan B.League One Game | Ehime Orange Vikings | ✘ | — | — | In play | — |
-| 11-21 07:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:02 | eSoccer Game | Toulouse FC (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:02 | Japan J2 League Game | Iwaki FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:02 | Japan J2 League Game | Tegevajaro | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:00 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 07:00 | eSoccer Game | Spurs (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:59 | Japan J2 League Game | Tosu | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:59 | Japan J2 League Game | Vegalta | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:59 | Japan J League Game | Machida Z | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:58 | eSoccer Game | Chelsea (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:58 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
