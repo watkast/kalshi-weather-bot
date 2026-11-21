@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 6:44 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 6:54 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69690 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69711 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 43. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65946 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65953 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33524 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4324 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3318 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 33528 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4326 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3319 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2026 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1983 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1844 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -381,36 +381,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 13:43 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | — | In play | — |
-| 11-21 13:43 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 13:43 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | — | In play | — |
+| 11-21 13:54 | Czech National Football League Game | Trinec | ✘ | — | — | In play | — |
+| 11-21 13:54 | Russia Liga Pro Match | Golovachev Eduard | ✘ | — | — | In play | — |
+| 11-21 13:53 | Bundesliga 2 Game | Tie | ✔ | 90'+3' · EBS 2 - FCN 1 | — | In play | — |
+| 11-21 13:53 | Russia Liga Pro Match | Danilov Evgenii | ✘ | — | — | In play | — |
+| 11-21 13:52 | Bundesliga 2 Game | Tie | ✔ | 90'+3' · SGF 1 - H96 2 | — | In play | — |
+| 11-21 13:51 | WTA Tennis Match | Clara Burel | ✘ | — | — | In play | — |
+| 11-21 13:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:50 | EFL League Two Game | Swindon | ✔ | 61' · SWI 0 - NEW 2 | — | In play | — |
+| 11-21 13:50 | Sweden Superettan Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:50 | eSoccer Game | Spurs (Megan) | ✘ | — | — | In play | — |
+| 11-21 13:50 | Bundesliga 2 Game | Greuther Furth | ✔ | 90'+1' · SGF 1 - H96 1 | — | In play | — |
+| 11-21 13:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:49 | Russia Liga Pro Match | Antonov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:48 | Bundesliga 2 Game | Nuremberg | ✔ | 89' · EBS 2 - FCN 1 | — | In play | — |
+| 11-21 13:47 | eSoccer Game | Chelsea (Lexi) | ✘ | — | — | In play | — |
+| 11-21 13:47 | Russia Liga Pro Match | Klimentev Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:46 | Sweden Superettan Game | Ostersund | ✘ | — | — | In play | — |
+| 11-21 13:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:45 | TFF 1. Lig Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:44 | eSoccer Game | Manchester Utd (SilentShooter) | ✘ | — | — | In play | — |
+| 11-21 13:43 | eSoccer Game | 1. FC Köln (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:43 | eBasketball Game | Indiana Pacers (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 13:43 | TFF 1. Lig Game | Sariyer | ✘ | — | — | In play | — |
 | 11-21 13:42 | eBasketball Game | Dallas Mavericks (Barry) | ✘ | — | — | In play | — |
-| 11-21 13:41 | eSoccer Game | Leverkusen (Declan) | ✘ | — | — | In play | — |
+| 11-21 13:41 | eSoccer Game | Leverkusen (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 13:39 | Serbian SuperLiga Game | Zemun | ✘ | — | — | In play | — |
 | 11-21 13:37 | Russia VTB United Game | MBA Moscow | ✘ | — | — | In play | — |
 | 11-21 13:35 | Bundesliga 2 Game | Tie | ✔ | 77' · KSV 0 - WOB 2 | — | In play | — |
-| 11-21 13:35 | eFootball Game | Seattle (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:31 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:31 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:31 | Dota 2 Game | LGD Gaming | ✘ | — | — | In play | — |
-| 11-21 13:31 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:31 | ITF Men's Match | Aziz Ouakaa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:31 | Women's ODI Cricket Match | Western Province Women | ✘ | — | — | In play | — |
-| 11-21 13:30 | KHL Game | Spartak Moscow | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:29 | Indonesia Super League Game | Persijap Jepara | ✘ | — | — | In play | — |
-| 11-21 13:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:29 | eSoccer Game | 1. FC Köln (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:29 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:29 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:27 | China CBA (W) Game | Dalian Wenti Lv | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:27 | Thai League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:26 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:26 | Bundesliga 2 Game | Kiel | ✔ | 68' · KSV 0 - WOB 1 | — | In play | — |
-| 11-21 13:25 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
