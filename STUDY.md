@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 6:23 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 6:33 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69657 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69680 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65911 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65921 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33508 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4320 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 33514 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4322 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3318 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2026 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1982 | 5 | 14% | 6% | -76% | -76% | 5 min |
@@ -302,10 +302,10 @@
 | Scottish Women Premier League Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 8 min |
 | Japan B.League One Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 284 min |
 | GBL Basketball Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 9 min |
+| Poland PLK Game | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | CONMEBOL Sudamericana Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Copa do Brasil Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 17 min |
 | Liga MX Women Game | ✘ | 8 | 0 | 12% | 0% | -100% | -78% | 12 min |
-| Poland PLK Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 20 min |
 | Scottish Championship Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 28 min |
 | Slovenian Cup Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 23 min |
 | Lithuania NKL Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 287 min |
@@ -324,13 +324,13 @@
 | Ukrainian Premier League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Latvian-Estonian Basketball League Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | Paraguay Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 4 min |
+| China CBA (W) Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Serbian Cup Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 12 min |
 | T10 Match | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 29 min |
 | Mexican Pacific League | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 16 min |
 | Denmark Basketligaen Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 38 min |
 | Womens TGL Match | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 51 min |
 | Bosnia Division I Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 428 min |
-| China CBA (W) Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Korea KBL (W) Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 22 min |
 | Puerto Rico BSN (W) Game | ✘ | 3 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
@@ -381,36 +381,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-21 13:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:31 | Russia Liga Pro Match | Shmakov Andrey | ✘ | — | — | In play | — |
+| 11-21 13:31 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | — | In play | — |
+| 11-21 13:31 | Dota 2 Game | LGD Gaming | ✘ | — | — | In play | — |
+| 11-21 13:31 | eSoccer Game | Nottingham Forest (Homie) | ✘ | — | — | In play | — |
+| 11-21 13:31 | ITF Men's Match | Aziz Ouakaa | ✘ | — | — | In play | — |
+| 11-21 13:31 | Women's ODI Cricket Match | Western Province Women | ✘ | — | — | In play | — |
+| 11-21 13:30 | KHL Game | Spartak Moscow | ✘ | — | — | In play | — |
+| 11-21 13:29 | Indonesia Super League Game | Persijap Jepara | ✘ | — | — | In play | — |
+| 11-21 13:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:29 | eSoccer Game | 1. FC Köln (Declan) | ✘ | — | — | In play | — |
+| 11-21 13:29 | eSoccer Game | Werder Bremen (Luis) | ✘ | — | — | In play | — |
+| 11-21 13:29 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:27 | China CBA (W) Game | Dalian Wenti Lv | ✘ | — | — | In play | — |
+| 11-21 13:27 | Thai League 1 Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:26 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-21 13:26 | Bundesliga 2 Game | Kiel | ✔ | 68' · KSV 0 - WOB 1 | — | In play | — |
+| 11-21 13:25 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-21 13:25 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:25 | Indian Super League Game | Chennaiyin | ✘ | — | — | In play | — |
+| 11-21 13:24 | Indian Super League Game | Punjab | ✘ | — | — | In play | — |
+| 11-21 13:23 | German 3. Liga Game | Großaspach | ✘ | — | — | In play | — |
 | 11-21 13:21 | Challenger ATP  | Nishesh Basavareddy | ✘ | — | — | In play | — |
-| 11-21 13:21 | Russia Liga Pro Match | Idrisov Aleksandr | ✘ | — | — | In play | — |
-| 11-21 13:21 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | — | In play | — |
+| 11-21 13:21 | Russia Liga Pro Match | Idrisov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:21 | Russia Liga Pro Match | Kirichenko Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 13:20 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 13:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 13:19 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
-| 11-21 13:19 | eSoccer Game | Spurs (Homie) | ✘ | — | — | In play | — |
-| 11-21 13:18 | Thai League 1 Game | Chonburi | ✘ | — | — | In play | — |
-| 11-21 13:18 | eBasketball Game | Indiana Pacers (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:17 | Singapore Premier League Game | Tie | ✘ | — | — | In play | — |
-| 11-21 13:17 | Lithuania NKL Game | KK Silutes Silute-PDS.lt | ✘ | — | — | In play | — |
-| 11-21 13:16 | eFootball Game | Dallas (Marlon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:15 | Counter-Strike 2 Game | Nice Try | ✘ | — | — | In play | — |
-| 11-21 13:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 13:15 | China CBA (W) Game | Jiangsu Nangang | ✘ | — | — | In play | — |
-| 11-21 13:14 | eSoccer Game | Hoffenheim (Luis) | ✘ | — | — | In play | — |
-| 11-21 13:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 13:14 | eSoccer Game | Leverkusen (Pedri) | ✘ | — | — | In play | — |
-| 11-21 13:13 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:13 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:13 | Poland PLK Game | MKS Start Lublin | ✘ | — | — | In play | — |
-| 11-21 13:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:09 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:04 | Russia Liga Pro Match | Lyfenko Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:04 | eSoccer Game | Nottingham Forest (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:04 | Serie A Femminile Game | Napoli | ✘ | — | — | In play | — |
-| 11-21 13:03 | Russia Liga Pro Match | Kochetkov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 13:03 | Singapore Premier League Game | Young Lions | ✘ | — | — | In play | — |
-| 11-21 13:03 | eSoccer Game | FC Bayern (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 13:19 | eSoccer Game | Spurs (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
