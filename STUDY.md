@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 3:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 3:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 73 finished bets | 1% | $3.05 | +28% | +4.18¢ | $8.60 / -$5.55 |
 
-*Expect about **1 buys a day**, roughly **$0.22/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.23/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 70628 | 3862 | 15 (0%) | 1.1% | -$369.30 (-64%) | Hold to the end: -$369.30 (-64%) |
+| 70643 | 3863 | 15 (0%) | 1.1% | -$369.45 (-64%) | Hold to the end: -$369.45 (-64%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 3862 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 66716 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 3863 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 66732 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 15 | 0% | -$369.30 | -64% |
-| Sell at 2¢ | 545 | 14% | -$437.60 | -76% |
-| Sell at 3¢ | 381 | 10% | -$430.71 | -74% |
-| Sell at 5¢ | 257 | 7% | -$412.25 | -71% |
-| Sell at 10¢ | 105 | 3% | -$441.75 | -76% |
-| Sell at 25¢ | 40 | 1% | -$446.90 | -77% |
-| Sell at 50¢ | 26 | 1% | -$403.80 | -70% |
+| Hold to the end | 15 | 0% | -$369.45 | -64% |
+| Sell at 2¢ | 545 | 14% | -$437.75 | -76% |
+| Sell at 3¢ | 381 | 10% | -$430.86 | -74% |
+| Sell at 5¢ | 257 | 7% | -$412.40 | -71% |
+| Sell at 10¢ | 105 | 3% | -$441.90 | -76% |
+| Sell at 25¢ | 40 | 1% | -$447.05 | -77% |
+| Sell at 50¢ | 26 | 1% | -$403.95 | -70% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,17 +96,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33751 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4376 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3346 | 8 | 3% | 2% | -78% | -91% | 3 min |
+| eSoccer Game | ✘ | 33761 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4378 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3347 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2033 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1985 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1859 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1261 | 5 | 12% | 5% | -63% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1262 | 5 | 12% | 5% | -63% | -79% | 5 min |
 | Men's College Basketball Game | partly | 865 | 5 | 20% | 9% | -46% | -65% | 26 min |
 | Women's College Basketball Game | partly | 839 | 2 | 14% | 5% | -78% | -75% | 32 min |
-| College Football Game | partly | 663 | 3 | 11% | 5% | -58% | -81% | 23 min |
+| College Football Game | partly | 664 | 3 | 11% | 5% | -58% | -81% | 23 min |
 | eFootball Game | ✘ | 651 | 2 | 1% | 1% | -71% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 438 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -164,8 +164,8 @@
 | Liga Expansion Game | ✘ | 101 | 0 | 6% | 3% | -100% | -90% | 12 min |
 | Slovakian 2. Liga Game | ✘ | 100 | 0 | 5% | 4% | -100% | -91% | 44 min |
 | Euroleague Game | ✘ | 100 | 0 | 20% | 6% | -100% | -65% | 12 min |
+| La Liga Game | ✔ | 100 | 0 | 18% | 11% | -100% | -69% | 8 min |
 | ELH Game | ✘ | 99 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| La Liga Game | ✔ | 99 | 0 | 18% | 11% | -100% | -68% | 8 min |
 | Men's ODI Cricket Match | ✘ | 95 | 3 | 20% | 8% | +195% | -65% | 56 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
 | Ligue 2 Game | ✘ | 94 | 0 | 7% | 5% | -100% | -87% | 12 min |
@@ -218,8 +218,8 @@
 | Vietnam V-League 1 Game | ✘ | 62 | 1 | 5% | 3% | +51% | -92% | 11 min |
 | Chinese Super League Game | ✘ | 62 | 1 | 11% | 6% | +51% | -80% | 19 min |
 | Adriatic ABA Game | ✘ | 61 | 1 | 7% | 3% | +53% | -89% | 9 min |
+| Spain Liga ACB Game | ✘ | 61 | 0 | 7% | 3% | -100% | -89% | 14 min |
 | Taca de Portugal Game | ✘ | 61 | 0 | 15% | 5% | -100% | -74% | 14 min |
-| Spain Liga ACB Game | ✘ | 60 | 0 | 7% | 3% | -100% | -88% | 14 min |
 | Czech NBL Game | ✘ | 59 | 0 | 3% | 2% | -100% | -94% | 15 min |
 | LNB Elite Game | ✘ | 59 | 0 | 2% | 0% | -100% | -97% | 9 min |
 | KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
@@ -364,7 +364,7 @@
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
 | Under 5 min | 1374 | 4% | 1% | 0% | -94% |
-| 5–15 min | 869 | 16% | 7% | 1% | -72% |
+| 5–15 min | 870 | 16% | 7% | 1% | -72% |
 | 15–30 min | 622 | 24% | 12% | 0% | -58% |
 | 30–60 min | 474 | 20% | 12% | 1% | -65% |
 | Over 60 min | 494 | 22% | 10% | 0% | -62% |
@@ -385,36 +385,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 22:07 | Spain Liga ACB Game | UCAM Murcia | ✘ | — | — | In play | — |
-| 11-21 22:04 | eSoccer Game | River Plate (Fede) | ✘ | — | — | In play | — |
-| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 22:04 | eSoccer Game | Palmeiras (Holis) | ✘ | — | — | In play | — |
-| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 22:17 | College Football Game | Morgan St. | ✘ | — | — | In play | — |
+| 11-21 22:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 22:17 | eSoccer Game | Boca Juniors (Antonio) | ✘ | — | — | In play | — |
+| 11-21 22:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 22:16 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 11-21 22:16 | eSoccer Game | Manchester Utd (Adri) | ✘ | — | — | In play | — |
+| 11-21 22:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 22:13 | College Football Game | Missouri St. | ✔ | 1:01 - 4th · MOST 20 - JXST 25 | — | In play | — |
+| 11-21 22:13 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | — | In play | — |
+| 11-21 22:12 | Taca de Portugal Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 11-21 22:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:09 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:08 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:07 | College Football Game | Texas Southern | ✔ | 0:12 - 2nd · ARK 3 - TEX 31 | — | In play | — |
+| 11-21 22:07 | eBasketball Game | Indiana Pacers (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:07 | Spain Liga ACB Game | UCAM Murcia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:04 | eSoccer Game | River Plate (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:04 | eSoccer Game | Palmeiras (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 22:04 | Canadian Premier League | Reg Time: Ottawa | ✘ | — | — | In play | — |
-| 11-21 22:03 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-21 22:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 22:03 | eSoccer Game | Manchester City (Maddy) | ✘ | — | — | In play | — |
+| 11-21 22:03 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 22:03 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 22:01 | College Football Game | Southern Illinois | ✔ | 9:01 - 2nd · NIU 3 - NDSU 7 | — | In play | — |
-| 11-21 22:01 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | — | In play | — |
+| 11-21 22:01 | Russia Liga Pro Match | Ivanov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 22:01 | La Liga Game | Tie | ✔ | 90'+4' · CEL 1 - RMA 2 | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 22:00 | Argentine Nacional B Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:59 | College Football Game | West Georgia | ✘ | — | — | In play | — |
-| 11-21 21:59 | Darts Match | Nathan Aspinall | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:59 | Peru Liga 1 Game | Tie | ✘ | — | — | In play | — |
-| 11-21 21:58 | Valorant game winner | Mafiosos | ✘ | — | — | In play | — |
-| 11-21 21:57 | Darts Match | Deta Hedman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:55 | Men's College Basketball Game | Army | ✘ | — | — | In play | — |
-| 11-21 21:55 | Challenger ATP  | James Kent Trotter | ✘ | — | — | In play | — |
-| 11-21 21:55 | Peru Liga 1 Game | FC Cajamarca | ✘ | — | — | In play | — |
-| 11-21 21:55 | Argentina Primera Division Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:54 | LaLiga 2 Game | Mallorca | ✔ | 90'+6' · MLL 0 - TEN 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:54 | LaLiga 2 Game | Tenerife | ✔ | 90'+6' · MLL 0 - TEN 0 | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:53 | Men's College Basketball Game | Indiana St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:52 | College Football Game | Charlotte | ✔ | End of 3rd · CLT 14 - TLSA 28 | — | In play | — |
-| 11-21 21:52 | La Liga Game | Celta Vigo | ✔ | 86' · CEL 1 - RMA 1 | — | In play | — |
-| 11-21 21:52 | Scottish Premiership Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 21:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 21:59 | College Football Game | West Georgia | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
