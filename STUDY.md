@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 11:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 11:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69385 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
+| 69396 | 3715 | 14 (0%) | 1.1% | -$361.25 (-65%) | Hold to the end: -$361.25 (-65%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3715 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65644 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65656 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33372 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4296 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3300 | 8 | 3% | 2% | -77% | -91% | 3 min |
+| eSoccer Game | ✘ | 33380 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4297 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3302 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2025 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1977 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1844 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1256 | 5 | 12% | 5% | -63% | -79% | 5 min |
-| Men's College Basketball Game | partly | 848 | 5 | 20% | 9% | -45% | -65% | 26 min |
+| Men's College Basketball Game | partly | 849 | 5 | 20% | 9% | -45% | -65% | 26 min |
 | Women's College Basketball Game | partly | 818 | 2 | 15% | 5% | -77% | -74% | 32 min |
 | College Football Game | partly | 642 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 632 | 2 | 1% | 1% | -70% | -98% | 2 min |
@@ -380,17 +380,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 06:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
-| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:17 | eSoccer Game | RC Celta (Pedri) | ✘ | — | — | In play | — |
-| 11-21 06:17 | eSoccer Game | Girona (Luis) | ✘ | — | — | In play | — |
-| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 06:15 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
-| 11-21 06:14 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | — | In play | — |
-| 11-21 06:13 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | — | In play | — |
-| 11-21 06:10 | Russia Liga Pro Match | CHereugin Stanislav | ✘ | — | — | In play | — |
+| 11-21 06:29 | eSoccer Game | FC Barcelona (Luis) | ✘ | — | — | In play | — |
+| 11-21 06:28 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:28 | Japan J2 League Game | Tochigi City FC | ✘ | — | — | In play | — |
+| 11-21 06:28 | eFootball Game | Philadelphia (Charlie) | ✘ | — | — | In play | — |
+| 11-21 06:28 | WTA Tennis Match | Maria Florencia Urrutia | ✘ | — | — | In play | — |
+| 11-21 06:24 | Japan J2 League Game | Omiya Ardija | ✘ | — | — | In play | — |
+| 11-21 06:22 | Russia Liga Pro Match | Priakhin Vadim | ✘ | — | — | In play | — |
+| 11-21 06:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 06:22 | Russia Liga Pro Match | Lobanov Aleksey | ✘ | — | — | In play | — |
+| 11-21 06:22 | eSoccer Game | Nantes (SilentShooter) | ✘ | — | — | In play | — |
+| 11-21 06:21 | Korea K-League 2 Game | Gyeongnam | ✘ | — | — | In play | — |
+| 11-21 06:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:18 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:17 | eSoccer Game | RC Celta (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:17 | eSoccer Game | Girona (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:15 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:14 | eBasketball Game | Denver Nuggets (Lonzo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:13 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 06:10 | Russia Liga Pro Match | CHereugin Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:09 | eSoccer Game | Rennes (Homie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -399,17 +410,6 @@
 | 11-21 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:03 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 06:03 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:01 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 06:00 | Women's College Basketball Game | Baylor | ✔ | 2:18 - 4th · BAY 62 - USC 73 | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:57 | Australian A League Game | Melbourne Victory | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:57 | Russia Liga Pro Match | Gritsenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:54 | NBL Australia (W) Game | Southside Melbourne Flyers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:54 | Russia Liga Pro Match | Blinov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:53 | Japan B.League One Game | Bambitious Nara | ✘ | — | — | In play | — |
-| 11-21 05:50 | Men's College Basketball Game | Saint Louis | ✘ | — | — | In play | — |
-| 11-21 05:49 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
