@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 20, 5:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 20, 6:08 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 68988 | 3685 | 14 (0%) | 1.1% | -$356.75 (-65%) | Hold to the end: -$356.75 (-65%) |
+| 69002 | 3685 | 14 (0%) | 1.1% | -$356.75 (-65%) | Hold to the end: -$356.75 (-65%) |
 
 *In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3685 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 65262 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 65276 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,16 +96,16 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33176 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4278 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 33184 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4279 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3280 | 8 | 3% | 2% | -77% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2019 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1976 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1843 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1250 | 5 | 12% | 5% | -63% | -79% | 5 min |
-| Men's College Basketball Game | partly | 810 | 5 | 20% | 9% | -42% | -65% | 26 min |
-| Women's College Basketball Game | partly | 792 | 2 | 15% | 5% | -76% | -74% | 32 min |
+| Men's College Basketball Game | partly | 812 | 5 | 20% | 8% | -43% | -65% | 26 min |
+| Women's College Basketball Game | partly | 793 | 2 | 15% | 5% | -76% | -74% | 32 min |
 | College Football Game | partly | 636 | 3 | 11% | 5% | -56% | -81% | 23 min |
 | eFootball Game | ✘ | 625 | 2 | 1% | 1% | -70% | -98% | 2 min |
 | Darts Match | ✘ | 470 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -123,9 +123,9 @@
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
 | WTA Tennis Match | ✘ | 198 | 0 | 12% | 3% | -100% | -79% | 5 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
+| Argentina Primera Division Game | ✘ | 177 | 2 | 16% | 8% | +5% | -72% | 9 min |
 | Liga DIMAYOR Game | ✘ | 175 | 1 | 10% | 3% | -47% | -82% | 9 min |
 | KHL Game | ✘ | 175 | 0 | 3% | 2% | -100% | -94% | 6 min |
-| Argentina Primera Division Game | ✘ | 175 | 2 | 17% | 9% | +7% | -71% | 9 min |
 | Japan J2 League Game | ✘ | 173 | 1 | 10% | 4% | -46% | -83% | 7 min |
 | League of Legends Game | ✘ | 164 | 0 | 7% | 2% | -100% | -87% | 11 min |
 | Valorant game winner | ✘ | 163 | 0 | 4% | 2% | -100% | -94% | 11 min |
@@ -379,36 +379,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 00:57 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | — | In play | — |
+| 11-21 01:07 | Valorant game winner | Wildcard | ✘ | — | — | In play | — |
+| 11-21 01:06 | eBasketball Game | Golden State Warriors (Cade) | ✘ | — | — | In play | — |
+| 11-21 01:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 01:05 | eSoccer Game | São Paulo (Rooney) | ✘ | — | — | In play | — |
+| 11-21 01:05 | eSoccer Game | Montpellier (Mei) | ✘ | — | — | In play | — |
+| 11-21 01:05 | eSoccer Game | Botafogo (Eder) | ✘ | — | — | In play | — |
+| 11-21 01:05 | eBasketball Game | New York Knicks (Wemby) | ✘ | — | — | In play | — |
+| 11-21 01:04 | Darts Match | Emine Dursun | ✘ | — | — | In play | — |
+| 11-21 01:04 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
+| 11-21 01:04 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | — | In play | — |
+| 11-21 01:03 | eSoccer Game | Flamengo (Endrick) | ✘ | — | — | In play | — |
+| 11-21 01:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 01:02 | Women's College Basketball Game | Seton Hall | ✔ | 9:57 - 1st · HALL 0 - CONN 0 | — | In play | — |
+| 11-21 01:02 | Men's College Basketball Game | Mississippi Valley St. | ✔ | 19:27 - 1st · MVSU 0 - ARK 3 | — | In play | — |
+| 11-21 00:57 | Russia Liga Pro Match | Agababyan Robert | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:54 | Women's College Basketball Game | UMass | ✘ | — | — | In play | — |
-| 11-21 00:54 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | — | In play | — |
-| 11-21 00:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 00:54 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | — | In play | — |
-| 11-21 00:54 | Argentina Primera Division Game | Belgrano de Cordoba | ✘ | — | — | In play | — |
-| 11-21 00:52 | Women's College Basketball Game | North Carolina A&T | ✘ | — | — | In play | — |
-| 11-21 00:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 00:54 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 00:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 00:54 | Argentina Primera Division Game | Velez Sarsfield | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 00:54 | Argentina Primera Division Game | Belgrano de Cordoba | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 00:52 | Women's College Basketball Game | North Carolina A&T | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-21 00:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:52 | Men's College Basketball Game | Central Michigan | ✘ | — | — | In play | — |
-| 11-21 00:52 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
+| 11-21 00:52 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:51 | APF Division de Honor Game | Club Guarani | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 00:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:50 | College Hockey Game | Ohio State | ✘ | — | — | In play | — |
-| 11-21 00:48 | eSoccer Game | Estudiantes (Endrick) | ✘ | — | — | In play | — |
+| 11-21 00:48 | eSoccer Game | Estudiantes (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:48 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-21 00:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:47 | eSoccer Game | Universitario (Danny) | ✘ | — | — | In play | — |
-| 11-21 00:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 00:47 | Men's College Basketball Game | Southern Illinois | ✘ | — | — | In play | — |
-| 11-21 00:46 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:44 | Men's College Basketball Game | Coastal Carolina | ✔ | 0:03 - 1st · CCU 30 - TENN 41 | — | In play | — |
-| 11-21 00:44 | APF Division de Honor Game | CD Recoleta | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
-| 11-21 00:44 | Darts Match | Laura Turner | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:44 | Women's College Basketball Game | Campbell | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:43 | Men's College Basketball Game | Southeastern Louisiana | ✘ | — | — | In play | — |
-| 11-21 00:42 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:41 | Men's College Basketball Game | Mercyhurst | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:40 | eSoccer Game | FC Barcelona (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 00:38 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
