@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 9:42 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 9:53 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 70111 | 3755 | 14 (0%) | 1.1% | -$367.25 (-65%) | Hold to the end: -$367.25 (-65%) |
+| 70165 | 3755 | 14 (0%) | 1.1% | -$367.25 (-65%) | Hold to the end: -$367.25 (-65%) |
 
-*In play right now: 87. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 122. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3755 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 66269 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 66288 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,14 +96,14 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33635 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4349 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3331 | 8 | 3% | 2% | -78% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2028 | 8 | 14% | 6% | -63% | -76% | 4 min |
+| eSoccer Game | ✘ | 33645 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4351 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3332 | 8 | 3% | 2% | -78% | -91% | 3 min |
+| ITF Women's Match | ✘ | 2029 | 8 | 14% | 6% | -63% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1983 | 5 | 14% | 6% | -76% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1852 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Challenger ATP  | ✘ | 1257 | 5 | 12% | 5% | -63% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1258 | 5 | 12% | 5% | -63% | -79% | 5 min |
 | Men's College Basketball Game | partly | 849 | 5 | 20% | 9% | -45% | -65% | 26 min |
 | Women's College Basketball Game | partly | 818 | 2 | 15% | 5% | -77% | -74% | 32 min |
 | eFootball Game | ✘ | 644 | 2 | 1% | 1% | -71% | -98% | 2 min |
@@ -223,11 +223,11 @@
 | LNB Elite Game | ✘ | 57 | 0 | 2% | 0% | -100% | -97% | 9 min |
 | Scottish Premiership Game | ✘ | 56 | 0 | 9% | 2% | -100% | -85% | 11 min |
 | Venezuela Liga FUTVE game | ✘ | 56 | 0 | 18% | 11% | -100% | -69% | 7 min |
+| Taca de Portugal Game | ✘ | 56 | 0 | 16% | 5% | -100% | -72% | 14 min |
 | Australia NBL Game | ✘ | 55 | 0 | 7% | 5% | -100% | -87% | 10 min |
+| Liga Nacional de Basquetbol Game | ✘ | 55 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Qatar Stars League | ✘ | 55 | 0 | 15% | 7% | -100% | -75% | 10 min |
 | Champions League Women's Game | partly | 54 | 1 | 20% | 9% | +73% | -65% | 26 min |
-| Liga Nacional de Basquetbol Game | ✘ | 54 | 0 | 2% | 0% | -100% | -97% | 7 min |
-| Taca de Portugal Game | ✘ | 54 | 0 | 17% | 6% | -100% | -71% | 14 min |
 | Italy Serie A Game | ✘ | 53 | 0 | 4% | 2% | -100% | -93% | 7 min |
 | Bundesliga Basketball Game | ✘ | 52 | 0 | 8% | 4% | -100% | -87% | 13 min |
 | Rugby French 14 Match | ✘ | 50 | 0 | 0% | 0% | -100% | -100% | 8 min |
@@ -292,11 +292,11 @@
 | Coupe de France Game | ✘ | 16 | 0 | 6% | 6% | -100% | -89% | 141 min |
 | Greek Cup Game | ✘ | 15 | 0 | 7% | 0% | -100% | -88% | 12 min |
 | RAF Match Result | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 2840 min |
+| Lithuania NKL Game | ✘ | 13 | 0 | 8% | 8% | -100% | -87% | 278 min |
 | Champions League Hockey | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Women's Bundesliga Basketball Game | ✘ | 12 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Ukraine SuperLeague Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 10 min |
 | Australia A League Women Game | ✘ | 12 | 0 | 8% | 0% | -100% | -86% | 6 min |
-| Lithuania NKL Game | ✘ | 12 | 0 | 8% | 8% | -100% | -86% | 278 min |
 | GBL Basketball Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 10 min |
 | Uruguay LUB Basketball Game | ✘ | 11 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | United Rugby Championship Match | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -382,36 +382,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-21 16:42 | English Premier League Game | Tie | ✔ | 84' · NFO 0 - BOU 2 | — | In play | — |
-| 11-21 16:42 | Challenger ATP  | Sascha Gueymard Wayenburg | ✘ | — | — | In play | — |
-| 11-21 16:42 | Russia Liga Pro Match | Kolmin Aleksandr | ✘ | — | — | In play | — |
-| 11-21 16:41 | eSoccer Game | Freiburg (Kovboj) | ✘ | — | — | In play | — |
-| 11-21 16:41 | eSoccer Game | Stuttgart (Krocs) | ✘ | — | — | In play | — |
-| 11-21 16:41 | English National League Game | Gateshead | ✘ | — | — | In play | — |
-| 11-21 16:41 | EFL Championship Game | Lincoln | ✔ | 84' · WXM 1 - LCN 0 | — | In play | — |
-| 11-21 16:41 | Romanian Liga I Game | Otelul Galati | ✘ | — | — | In play | — |
-| 11-21 16:41 | EFL League One Game | Doncaster | ✔ | 82' · DON 1 - BRD 2 | — | In play | — |
-| 11-21 16:40 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:40 | EFL League One Game | Tie | ✔ | 82' · STO 3 - CAM 0 | — | In play | — |
-| 11-21 16:39 | EFL League Two Game | Port Vale | ✔ | 79' · PTV 1 - BAR 2 | — | In play | — |
-| 11-21 16:39 | Scottish Championship Game | Raith Rovers | ✘ | — | — | In play | — |
-| 11-21 16:38 | Scottish Championship Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:38 | EFL League Two Game | Rochdale | ✔ | 81' · RCH 2 - NHT 3 | — | In play | — |
-| 11-21 16:38 | Taca de Portugal Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 11-21 16:37 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | — | In play | — |
-| 11-21 16:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:37 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | — | In play | — |
-| 11-21 16:37 | English Premier League Game | Tie | ✔ | 79' · IPS 0 - TOT 2 | — | In play | — |
-| 11-21 16:37 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | — | In play | — |
-| 11-21 16:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:37 | English National League Game | Scunthorpe | ✘ | — | — | In play | — |
-| 11-21 16:37 | SHL Game | Rogle BK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-21 16:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-21 16:35 | eSoccer Game | Chelsea (Elastico) | ✘ | — | — | In play | — |
-| 11-21 16:35 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | — | In play | — |
-| 11-21 16:35 | EFL League One Game | Burton | ✔ | 77' · LTN 1 - BRT 1 | — | In play | — |
-| 11-21 16:35 | eBasketball Game | New York Knicks (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-21 16:52 | EFL Championship Game | Preston | ✔ | 90'+4' · PNE 1 - WHU 1 | — | In play | — |
+| 11-21 16:52 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:52 | Eliteserien Game | HamKam | ✘ | — | — | In play | — |
+| 11-21 16:52 | EFL League Two Game | Grimsby | ✔ | 90'+4' · ROT 0 - GRI 0 | — | In play | — |
+| 11-21 16:52 | EFL League Two Game | Rotherham | ✔ | 90'+4' · ROT 0 - GRI 0 | — | In play | — |
+| 11-21 16:52 | LKL Lithuania Game | BC Jonava | ✘ | — | — | In play | — |
+| 11-21 16:52 | EFL League One Game | Tie | ✔ | 90'+3' · LEI 1 - HUD 0 | — | In play | — |
+| 11-21 16:52 | Eliteserien Game | Fredrikstad | ✘ | — | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Exeter | ✔ | 90'+4' · EXE 1 - OLD 1 | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Oldham | ✔ | 90'+4' · EXE 1 - OLD 1 | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Tie | ✔ | 90'+4' · COL 1 - TRN 2 | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Tie | ✔ | 90'+4' · RCH 2 - NHT 3 | — | In play | — |
+| 11-21 16:51 | ITF Women's Match | Matilde Jorge | ✘ | — | — | In play | — |
+| 11-21 16:51 | English National League Game | Harrogate | ✘ | — | — | In play | — |
+| 11-21 16:51 | Scottish Premiership Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Colchester | ✔ | 90'+4' · COL 1 - TRN 2 | — | In play | — |
+| 11-21 16:51 | EFL League Two Game | Tie | ✔ | 90'+3' · FLE 1 - CRA 2 | — | In play | — |
+| 11-21 16:51 | EFL Championship Game | Tie | ✔ | 90'+4' · WXM 1 - LCN 0 | — | In play | — |
+| 11-21 16:51 | EFL League One Game | Wycombe | ✔ | 90'+5' · WYC 3 - OXF 3 | — | In play | — |
+| 11-21 16:50 | Women's T20 Match | OCA Invincibles Women | ✘ | — | — | In play | — |
+| 11-21 16:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:50 | English Premier League Game | Tie | ✔ | 89' · LEE 3 - CHE 1 | — | In play | — |
+| 11-21 16:50 | English Premier League Game | Aston Villa | ✔ | 90'+3' · SUN 0 - AVL 0 | — | In play | — |
+| 11-21 16:50 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
+| 11-21 16:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:50 | Portugal LPB Game | Portimonense SC | ✘ | — | — | In play | — |
+| 11-21 16:50 | EFL League One Game | Tie | ✔ | 90'+4' · STE 1 - NCO 0 | — | In play | — |
+| 11-21 16:50 | English National League Game | Tie | ✘ | — | — | In play | — |
+| 11-21 16:50 | Serbian SuperLiga Game | Beograd | ✘ | — | — | In play | — |
 
 ## Raw data
 
