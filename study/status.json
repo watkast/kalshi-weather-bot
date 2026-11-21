@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-21T00:27:16+00:00",
+ "saved_at": "2026-11-21T00:37:37+00:00",
  "series_watched": 423,
  "markets_in_or_near_play": 381,
  "batch_lookup": true,
- "espn_games_linked": 12,
+ "espn_games_linked": 14,
  "espn_check": {
   "at": "2026-11-21T00:07:32+00:00",
   "started_games": 54,
@@ -21,7 +21,7 @@
    "KXNCAAMBGAME-26NOV20JOESDREX"
   ]
  },
- "bets": 68938,
- "open": 36,
+ "bets": 68957,
+ "open": 41,
  "errors": []
 }
