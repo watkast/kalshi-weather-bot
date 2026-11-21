@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 20, 5:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 20, 5:59 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 63515 | 63481 | 245 (0%) | 1.07% | -$4,288.10 (-56%) | Hold to the close: -$4,288.10 (-56%) |
+| 63518 | 63481 | 245 (0%) | 1.07% | -$4,288.10 (-56%) | Hold to the close: -$4,288.10 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/20 5:59:05 PM | BNB | DOWN | 55 sec | +0.020% | — | In play | — |
+| 11/20 5:57:04 PM | DOGE | DOWN | 2.9 min | +0.242% | — | In play | — |
+| 11/20 5:56:18 PM | XRP | DOWN | 3.7 min | +0.297% | — | In play | — |
 | 11/20 5:44:46 PM | NATGAS | DOWN | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/20 5:44:46 PM | ETH | DOWN | 13 sec | +0.018% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 5:44:46 PM | NEAR | UP | 13 sec | -0.142% | 0¢ | ❌ Lost | $0.00 |
@@ -216,9 +219,6 @@
 | 11/20 5:14:15 PM | BNB | DOWN | 44 sec | +0.018% | 0¢ | ❌ Lost | $0.00 |
 | 11/20 5:13:41 PM | DOGE | UP | 78 sec | -0.186% | 1¢ | ❌ Lost | -$0.15 |
 | 11/20 5:13:19 PM | HYPE | UP | 1.7 min | -0.334% | 0¢ | ❌ Lost | $0.00 |
-| 11/20 5:13:19 PM | NEAR | UP | 1.7 min | -0.450% | 1¢ | ❌ Lost | -$0.15 |
-| 11/20 5:12:47 PM | BTC | DOWN | 2.2 min | +0.203% | 1¢ | ❌ Lost | $0.00 |
-| 11/20 4:59:31 PM | ETH | UP | 28 sec | -0.096% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
