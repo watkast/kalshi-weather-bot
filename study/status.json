@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-21T16:21:42+00:00",
+ "saved_at": "2026-11-21T16:32:07+00:00",
  "series_watched": 423,
  "markets_in_or_near_play": 589,
  "batch_lookup": true,
- "espn_games_linked": 55,
+ "espn_games_linked": 58,
  "espn_check": {
   "at": "2026-11-21T16:11:51+00:00",
   "started_games": 43,
@@ -14,7 +14,7 @@
    "KXLALIGA2GAME-26NOV21RSOCAD"
   ]
  },
- "bets": 70051,
- "open": 58,
+ "bets": 70073,
+ "open": 63,
  "errors": []
 }
