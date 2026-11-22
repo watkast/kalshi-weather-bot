@@ -1,22 +1,20 @@
 {
- "saved_at": "2026-11-22T23:20:44+00:00",
+ "saved_at": "2026-11-22T23:47:52+00:00",
  "series": 35,
  "markets_watched": 22,
  "batch_lookup": true,
- "bets": 64665,
+ "bets": 64679,
  "open": 0,
  "coinbase_spot": {
-  "DOGE": true,
   "BTC": true,
+  "BNB": true,
+  "HYPE": true,
+  "DOGE": true,
+  "NEAR": true,
   "ZEC": true,
   "SOL": true,
-  "BNB": true,
   "XRP": true,
-  "ETH": true,
-  "HYPE": true,
-  "NEAR": true
+  "ETH": true
  },
- "errors": [
-  "2026-11-22T19:06:23+00:00 refresh KXADA15M: ('Connection broken: IncompleteRead(0 bytes read, 27 more expected)', IncompleteRead(0 bytes read, 27 more expected))"
- ]
+ "errors": []
 }
