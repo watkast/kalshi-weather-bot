@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Nov 21, 11:33 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Nov 21, 11:44 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64346 | 64312 | 247 (0%) | 1.07% | -$4,341.70 (-56%) | Hold to the close: -$4,341.70 (-56%) |
+| 64348 | 64312 | 247 (0%) | 1.07% | -$4,341.70 (-56%) | Hold to the close: -$4,341.70 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/21 11:43:50 PM | ETH | DOWN | 69 sec | +0.071% | — | In play | — |
+| 11/21 11:42:47 PM | BTC | DOWN | 2.2 min | +0.226% | — | In play | — |
 | 11/21 11:29:31 PM | SOL | DOWN | 28 sec | +0.072% | 0¢ | ❌ Lost | $0.00 |
 | 11/21 11:29:31 PM | XRP | DOWN | 28 sec | +0.076% | 0¢ | ❌ Lost | $0.00 |
 | 11/21 11:29:15 PM | ETH | DOWN | 44 sec | +0.041% | 2¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,6 @@
 | 11/21 10:55:00 PM | ZEC | DOWN | 5.0 min | +1.995% | 1¢ | ❌ Lost | -$0.15 |
 | 11/21 10:53:09 PM | ETH | DOWN | 6.8 min | +0.483% | 1¢ | ❌ Lost | -$0.15 |
 | 11/21 10:44:40 PM | ZEC | DOWN | 20 sec | +0.073% | 0¢ | ❌ Lost | $0.00 |
-| 11/21 10:44:24 PM | HYPE | UP | 36 sec | -0.100% | 0¢ | ❌ Lost | -$0.15 |
-| 11/21 10:43:20 PM | NEAR | UP | 1.6 min | -0.294% | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
