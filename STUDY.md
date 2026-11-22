@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 7:06 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 7:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 70974 | 3906 | 16 (0%) | 1.1% | -$361.90 (-62%) | Hold to the end: -$361.90 (-62%) |
+| 70995 | 3906 | 16 (0%) | 1.1% | -$361.90 (-62%) | Hold to the end: -$361.90 (-62%) |
 
-*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 53. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3906 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 67029 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 67036 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 33905 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 33907 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4399 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3364 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2034 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -104,10 +104,10 @@
 | Counter-Strike 2 Game | ✘ | 1861 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Challenger ATP  | ✘ | 1265 | 5 | 12% | 5% | -63% | -79% | 5 min |
-| Men's College Basketball Game | partly | 882 | 5 | 20% | 9% | -47% | -65% | 26 min |
-| Women's College Basketball Game | partly | 851 | 2 | 14% | 5% | -78% | -75% | 31 min |
+| Men's College Basketball Game | partly | 885 | 5 | 20% | 9% | -47% | -65% | 26 min |
+| Women's College Basketball Game | partly | 852 | 2 | 14% | 5% | -78% | -75% | 31 min |
 | College Football Game | partly | 706 | 4 | 11% | 5% | -47% | -81% | 23 min |
-| eFootball Game | ✘ | 660 | 2 | 1% | 1% | -72% | -98% | 2 min |
+| eFootball Game | ✘ | 661 | 2 | 1% | 1% | -72% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 438 | 1 | 1% | 1% | -79% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 437 | 2 | 4% | 2% | -57% | -94% | 52 min |
@@ -385,36 +385,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-22 02:15 | eSoccer Game | Argentina (Kitana) | ✘ | — | — | In play | — |
+| 11-22 02:15 | eSoccer Game | England (Moana) | ✘ | — | — | In play | — |
+| 11-22 02:15 | College Hockey Game | Penn State | ✘ | — | — | In play | — |
+| 11-22 02:15 | Valorant game winner | Piranhas do Caribe | ✘ | — | — | In play | — |
+| 11-22 02:15 | eFootball Game | New England (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 02:15 | Men's College Basketball Game | Michigan | ✔ | 1:15 - 2nd · MICH 66 - VILL 74 | — | In play | — |
+| 11-22 02:14 | Argentine Nacional B Game | Madryn | ✘ | — | — | In play | — |
+| 11-22 02:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 02:12 | eSoccer Game | Botafogo (Fede) | ✘ | — | — | In play | — |
+| 11-22 02:12 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
+| 11-22 02:12 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
+| 11-22 02:12 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | — | In play | — |
+| 11-22 02:11 | Challenger ATP  | Benjamin O'Connell | ✘ | — | — | In play | — |
+| 11-22 02:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 02:11 | Women's College Basketball Game | Hawai'i | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 02:10 | Puerto Rico BSN (W) Game | Pollitas de Isabela Women | ✘ | — | — | In play | — |
+| 11-22 02:09 | Men's College Basketball Game | Gardner-Webb | ✘ | — | — | In play | — |
+| 11-22 02:09 | College Hockey Game | Clarkson | ✘ | — | — | In play | — |
+| 11-22 02:07 | College Hockey Game | Brown | ✘ | — | — | In play | — |
+| 11-22 02:07 | NHL Game | New Jersey | ✔ | 17:05 - 3rd · NJ 4 - STL 8 | — | In play | — |
+| 11-22 02:07 | Men's College Basketball Game | Charleston Southern | ✘ | — | — | In play | — |
 | 11-22 02:06 | Men's College Basketball Game | Presbyterian | ✘ | — | — | In play | — |
-| 11-22 02:06 | eSoccer Game | Chelsea (Mantis) | ✘ | — | — | In play | — |
-| 11-22 02:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 02:06 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 02:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 02:05 | College Football Game | Idaho | ✘ | — | — | In play | — |
 | 11-22 02:03 | Men's College Basketball Game | Chattanooga | ✘ | — | — | In play | — |
-| 11-22 02:03 | Men's College Basketball Game | Northern Arizona | ✘ | — | — | In play | — |
-| 11-22 02:02 | Men's College Basketball Game | California Baptist | ✘ | — | — | In play | — |
+| 11-22 02:03 | Men's College Basketball Game | Northern Arizona | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
+| 11-22 02:02 | Men's College Basketball Game | California Baptist | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 02:01 | eBasketball Game | Indiana Pacers (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 02:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 02:00 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:59 | Men's College Basketball Game | Brown | ✘ | — | — | In play | — |
-| 11-22 01:59 | eSoccer Game | São Paulo (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:59 | College Football Game | Maryland | ✔ | 11:51 - 4th · MD 14 - USC 34 | — | In play | — |
-| 11-22 01:59 | eBasketball Game | Dallas Mavericks (Donovan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:54 | Challenger ATP  | Chase Ferguson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:54 | Brasileiro Serie A Game | Tie | ✔ | 90'+5' · CRU 2 - CHA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:50 | eFootball Game | New England (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:46 | Brasileiro Serie A Game | Chapecoense | ✔ | 88' · CRU 1 - CHA 1 | 1¢ | ❌ Lost | -$0.15 |
-| 11-22 01:45 | eSoccer Game | Estudiantes (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:45 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:39 | Women's College Basketball Game | Charlotte | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:39 | NHL Game | Pittsburgh | ✔ | End of 3rd · PIT 3 - NSH 4 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:37 | NHL Game | Buffalo | ✔ | 0:01 - 3rd · BUF 3 - FLA 4 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:37 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 01:37 | College Hockey Game | Rensselaer | ✘ | — | — | In play | — |
-| 11-22 01:36 | Valorant game winner | TIME DO B3M | ✘ | — | — | In play | — |
-| 11-22 01:36 | Women's College Basketball Game | Eastern Illinois | ✘ | — | — | In play | — |
 
 ## Raw data
 
