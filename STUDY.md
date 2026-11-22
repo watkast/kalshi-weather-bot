@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 12:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 12:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 72256 | 3976 | 16 (0%) | 1.1% | -$372.40 (-62%) | Hold to the end: -$372.40 (-62%) |
+| 72284 | 3976 | 16 (0%) | 1.1% | -$372.40 (-62%) | Hold to the end: -$372.40 (-62%) |
 
-*In play right now: 46. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 69. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3976 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68234 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68239 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34468 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4497 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 34470 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4498 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3424 | 8 | 4% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2050 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1995 | 5 | 14% | 6% | -77% | -76% | 5 min |
@@ -105,7 +105,7 @@
 | Challenger ATP  | ✘ | 1314 | 6 | 12% | 5% | -57% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 897 | 5 | 20% | 9% | -48% | -65% | 25 min |
-| Women's College Basketball Game | partly | 857 | 2 | 14% | 5% | -78% | -75% | 31 min |
+| Women's College Basketball Game | partly | 858 | 2 | 14% | 5% | -78% | -75% | 31 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | eFootball Game | ✘ | 684 | 2 | 1% | 1% | -73% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -264,7 +264,7 @@
 | Japan NPB Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Croatia Premijer Liga Game | ✘ | 36 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | Singapore Premier League Game | ✘ | 35 | 0 | 11% | 3% | -100% | -80% | 20 min |
-| Ligue Magnus Game | ✘ | 34 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Ligue Magnus Game | ✘ | 35 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Slovenia 1. SKL Game | ✘ | 33 | 0 | 3% | 3% | -100% | -95% | 15 min |
 | DFB Pokal Game | ✘ | 32 | 0 | 16% | 6% | -100% | -73% | 18 min |
 | EuroBasket (W) Game | ✘ | 31 | 0 | 10% | 0% | -100% | -83% | 11 min |
@@ -386,36 +386,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-22 19:57 | Sweden SBL Game | Koping Stars | ✘ | — | — | In play | — |
+| 11-22 19:57 | Russia Liga Pro Match | Vasilenko Andrei | ✘ | — | — | In play | — |
+| 11-22 19:56 | Serie A Femminile Game | Lazio | ✘ | — | — | In play | — |
+| 11-22 19:56 | Serie A Femminile Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:56 | Spain Liga ACB Game | Club Joventut Badalona | ✘ | — | — | In play | — |
+| 11-22 19:55 | Belgium Challenger Pro League Game | Royal Francs Borains | ✘ | — | — | In play | — |
+| 11-22 19:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:55 | eSoccer Game | Juventus (Arkon) | ✘ | — | — | In play | — |
+| 11-22 19:54 | Belgian Pro League Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:54 | Counter-Strike 2 Game | Lunacy Team | ✘ | — | — | In play | — |
+| 11-22 19:54 | Dota 2 Game | Aurora | ✘ | — | — | In play | — |
+| 11-22 19:54 | Women's College Basketball Game | Air Force | ✘ | — | — | In play | — |
+| 11-22 19:52 | Turkey BSL Game | Fenerbahce Istanbul | ✘ | — | — | In play | — |
+| 11-22 19:51 | Russia Liga Pro Match | Kutepov Stepan | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Nottingham Forest (Ousmane) | ✘ | — | — | In play | — |
+| 11-22 19:51 | Women's College Basketball Game | Loyola Maryland | ✘ | — | — | In play | — |
+| 11-22 19:51 | Women's College Basketball Game | Penn St. | ✘ | — | — | In play | — |
+| 11-22 19:51 | Taca de Portugal Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 11-22 19:51 | Russia Liga Pro Match | Murzakmatov Ernist | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | France (Gigi) | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Aston Villa (Elastico) | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-22 19:51 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-22 19:48 | Challenger ATP  | Sebastian Diaz Lora | ✘ | — | — | In play | — |
+| 11-22 19:47 | NHL Game | New York R | ✔ | 13:31 - 3rd · CAR 4 - NYR 1 | — | In play | — |
 | 11-22 19:46 | Men's College Basketball Game | Dayton | ✘ | — | — | In play | — |
 | 11-22 19:45 | Counter-Strike 2 Game | underw0rld | ✘ | — | — | In play | — |
-| 11-22 19:44 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | — | In play | — |
-| 11-22 19:44 | Ligue Magnus Game | Aigles de Nice | ✘ | — | — | In play | — |
-| 11-22 19:43 | Valorant game winner | Gesichtenhausen | ✘ | — | — | In play | — |
-| 11-22 19:42 | ITF Women's Match | Alina Shcherbinina | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:42 | Argentina Primera Division Game | Reg Time: Tie | ✘ | — | — | In play | — |
-| 11-22 19:41 | Women's College Basketball Game | Ohio St. | ✔ | 9:08 - 4th · OSU 43 - TEX 58 | — | In play | — |
-| 11-22 19:41 | Valorant game winner | Backed by Nobody | ✘ | — | — | In play | — |
-| 11-22 19:41 | eSoccer Game | Liverpool (Krocs) | ✘ | — | — | In play | — |
-| 11-22 19:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-22 19:41 | eFootball Game | Kansas City (Dexy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:41 | Women's College Basketball Game | Fordham | ✘ | — | — | In play | — |
-| 11-22 19:41 | Italy Serie A Game | Reyer Venezia | ✘ | — | — | In play | — |
-| 11-22 19:40 | Ligue Magnus Game | Spartiates de Marseille | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | Challenger ATP  | Shunsuke Mitsui | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | Women's College Basketball Game | Southern Indiana | ✘ | — | — | In play | — |
-| 11-22 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | Women's College Volleyball Match | Duke | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:38 | eSoccer Game | Brighton (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:36 | Women's College Basketball Game | Eastern Michigan | ✘ | — | — | In play | — |
-| 11-22 19:36 | eSoccer Game | Arsenal (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:36 | Brasileiro Serie A Game | Remo | ✔ | 35' · REMO 0 - CAP 2 | — | In play | — |
-| 11-22 19:36 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:35 | Taca de Portugal Game | Reg Time: Portimonense SAD | ✘ | — | — | In play | — |
-| 11-22 19:34 | Men's College Basketball Game | Canisius | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 19:34 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
