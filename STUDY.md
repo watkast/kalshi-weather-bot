@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 1:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 1:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 72338 | 3978 | 16 (0%) | 1.1% | -$372.70 (-62%) | Hold to the end: -$372.70 (-62%) |
+| 72351 | 3978 | 16 (0%) | 1.1% | -$372.70 (-62%) | Hold to the end: -$372.70 (-62%) |
 
-*In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 51. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3978 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68310 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68322 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,18 +96,18 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34496 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 34500 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4502 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3424 | 8 | 4% | 2% | -78% | -91% | 3 min |
+| eBasketball Game | ✘ | 3426 | 8 | 4% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2050 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1995 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1875 | 3 | 6% | 3% | -85% | -90% | 11 min |
-| Challenger ATP  | ✘ | 1315 | 6 | 12% | 5% | -57% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1316 | 6 | 12% | 5% | -57% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 901 | 5 | 20% | 9% | -48% | -66% | 25 min |
-| Women's College Basketball Game | partly | 867 | 2 | 14% | 5% | -78% | -76% | 30 min |
+| Women's College Basketball Game | partly | 869 | 2 | 14% | 5% | -79% | -76% | 30 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
-| eFootball Game | ✘ | 684 | 2 | 1% | 1% | -73% | -98% | 2 min |
+| eFootball Game | ✘ | 685 | 2 | 1% | 1% | -73% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 441 | 2 | 4% | 2% | -58% | -94% | 52 min |
 | Dota 2 Game | ✘ | 441 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -212,12 +212,12 @@
 | Finland Korisliiga Game | ✘ | 68 | 1 | 6% | 3% | +37% | -90% | 9 min |
 | Scottish Premiership Game | ✘ | 68 | 0 | 9% | 1% | -100% | -85% | 11 min |
 | Israeli Premier League Game | ✘ | 68 | 0 | 6% | 1% | -100% | -90% | 13 min |
+| Romanian Liga I Game | ✘ | 68 | 1 | 13% | 4% | +37% | -77% | 13 min |
 | LNBP Basketball Game | ✘ | 67 | 0 | 10% | 3% | -100% | -82% | 12 min |
 | Adriatic ABA Game | ✘ | 67 | 1 | 6% | 3% | +39% | -90% | 9 min |
 | Spain Liga ACB Game | ✘ | 67 | 0 | 6% | 3% | -100% | -90% | 14 min |
 | Liga Portugal Game | ✘ | 67 | 0 | 6% | 3% | -100% | -90% | 13 min |
 | Vietnam V-League 1 Game | ✘ | 66 | 1 | 5% | 3% | +41% | -92% | 11 min |
-| Romanian Liga I Game | ✘ | 66 | 1 | 14% | 5% | +41% | -76% | 14 min |
 | FIFA Women's Game | ✘ | 63 | 1 | 14% | 8% | +48% | -75% | 47 min |
 | Czech NBL Game | ✘ | 62 | 0 | 3% | 2% | -100% | -94% | 15 min |
 | Chinese Super League Game | ✘ | 62 | 1 | 11% | 6% | +51% | -80% | 19 min |
@@ -386,15 +386,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-22 20:26 | Challenger ATP  | Miles Clark | ✘ | — | — | In play | — |
-| 11-22 20:25 | Women's College Basketball Game | UNC Wilmington | ✘ | — | — | In play | — |
+| 11-22 20:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:37 | eSoccer Game | Manchester City (Arkon) | ✘ | — | — | In play | — |
+| 11-22 20:34 | Men's College Basketball Game | George Washington | ✘ | — | — | In play | — |
+| 11-22 20:34 | Peru Liga 1 Game | Universitario | ✘ | — | — | In play | — |
+| 11-22 20:33 | eSoccer Game | Sunderland (Ousmane) | ✘ | — | — | In play | — |
+| 11-22 20:33 | eSoccer Game | Everton (Rendeto) | ✘ | — | — | In play | — |
+| 11-22 20:32 | La Liga Game | Getafe | ✔ | 32' · ATM 2 - GET 0 | — | In play | — |
+| 11-22 20:32 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
+| 11-22 20:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:31 | eFootball Game | Atlanta (Knox) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:31 | German 3. Liga Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:31 | Poland PLK Game | Legia Warszawa | ✘ | — | — | In play | — |
+| 11-22 20:29 | Men's College Basketball Game | Fordham | ✘ | — | — | In play | — |
+| 11-22 20:26 | Challenger ATP  | Miles Clark | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:25 | Women's College Basketball Game | UNC Wilmington | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:25 | Women's College Volleyball Match | Central Florida | ✘ | — | — | In play | — |
-| 11-22 20:24 | Romanian Liga I Game | Champions FC Arges | ✘ | — | — | In play | — |
-| 11-22 20:24 | Romanian Liga I Game | FCSB | ✘ | — | — | In play | — |
-| 11-22 20:23 | eSoccer Game | FC Bayern (Skillz) | ✘ | — | — | In play | — |
-| 11-22 20:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:24 | Romanian Liga I Game | Champions FC Arges | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:24 | Romanian Liga I Game | FCSB | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:23 | eSoccer Game | FC Bayern (Skillz) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:22 | Men's College Basketball Game | Evansville | ✘ | — | — | In play | — |
-| 11-22 20:22 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | — | In play | — |
+| 11-22 20:22 | eBasketball Game | Brooklyn Nets (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:22 | NFL Game | Tennessee | ✔ | 15:00 - 4th · TEN 23 - DAL 41 | — | In play | — |
 | 11-22 20:21 | Italy Serie A2 Game | Pallacanestro Ruvo di Puglia | ✘ | — | — | In play | — |
 | 11-22 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -402,20 +415,7 @@
 | 11-22 20:19 | eSoccer Game | Chelsea (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:18 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-22 20:18 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:17 | Russia Liga Pro Match | Kochetkov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:17 | eBasketball Game | New York Knicks (Barry) | ✘ | — | — | In play | — |
-| 11-22 20:17 | German 3. Liga Game | Rostock | ✘ | — | — | In play | — |
-| 11-22 20:16 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
-| 11-22 20:15 | Adriatic ABA Game | Dubai Basketball | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:13 | Israel Super League Game | Hapoel Haemek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:10 | Belgium Challenger Pro League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:10 | Women's College Basketball Game | Coastal Carolina | ✘ | — | — | In play | — |
-| 11-22 20:09 | Israel Super League Game | Hapoel Galil Elyon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:09 | Ligue Magnus Game | Anglet Hormadi Elite | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:08 | LNB Elite Game | ASVEL Lyon-Villeurbanne | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
