@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-22T21:31:08+00:00",
+ "saved_at": "2026-11-22T21:41:39+00:00",
  "series_watched": 423,
  "markets_in_or_near_play": 305,
  "batch_lookup": true,
- "espn_games_linked": 37,
+ "espn_games_linked": 38,
  "espn_check": {
   "at": "2026-11-22T21:24:17+00:00",
   "started_games": 35,
@@ -21,7 +21,7 @@
    "KXNCAAWBGAME-26NOV22UCDBSU"
   ]
  },
- "bets": 72448,
- "open": 48,
+ "bets": 72467,
+ "open": 49,
  "errors": []
 }
