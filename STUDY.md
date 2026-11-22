@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sat Nov 21, 11:04 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 21, 11:14 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | ESPN win probability ≥ 5%, hold to the end | 80 finished bets | 1% | $2.00 | +17% | +2.50¢ | $8.00 / -$6.00 |
 
-*Expect about **2 buys a day**, roughly **$0.24/day** at risk; max loss per buy **15¢**.*
+*Expect about **2 buys a day**, roughly **$0.25/day** at risk; max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 71257 | 3941 | 16 (0%) | 1.1% | -$367.15 (-62%) | Hold to the end: -$367.15 (-62%) |
+| 71272 | 3941 | 16 (0%) | 1.1% | -$367.15 (-62%) | Hold to the end: -$367.15 (-62%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3941 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 67292 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 67299 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34047 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 34053 | 22 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4412 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3376 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2040 | 8 | 14% | 6% | -63% | -76% | 4 min |
@@ -225,7 +225,7 @@
 | Venezuela Liga FUTVE game | ✘ | 58 | 0 | 19% | 12% | -100% | -67% | 8 min |
 | KBO Game | ✘ | 57 | 0 | 11% | 5% | -100% | -82% | 6 min |
 | Qatar Stars League | ✘ | 57 | 0 | 14% | 7% | -100% | -76% | 10 min |
-| Australia NBL Game | ✘ | 55 | 0 | 7% | 5% | -100% | -87% | 10 min |
+| Australia NBL Game | ✘ | 56 | 0 | 7% | 5% | -100% | -88% | 10 min |
 | Bundesliga Basketball Game | ✘ | 55 | 0 | 7% | 4% | -100% | -87% | 13 min |
 | Liga Nacional de Basquetbol Game | ✘ | 55 | 0 | 2% | 0% | -100% | -97% | 7 min |
 | Champions League Women's Game | partly | 54 | 1 | 20% | 9% | +73% | -65% | 26 min |
@@ -386,9 +386,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-22 06:03 | eSoccer Game | Girona (Declan) | ✘ | — | — | In play | — |
-| 11-22 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-22 06:02 | eSoccer Game | Arsenal (Alicia) | ✘ | — | — | In play | — |
+| 11-22 06:14 | Men's T20 Cricket Match | Tripura | ✘ | — | — | In play | — |
+| 11-22 06:12 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | — | In play | — |
+| 11-22 06:11 | Women's T20 Match | Netherlands | ✘ | — | — | In play | — |
+| 11-22 06:10 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | — | In play | — |
+| 11-22 06:09 | College Football Game | Boise St. | ✔ | 0:03 - 4th · SDSU 19 - BOIS 20 | — | In play | — |
+| 11-22 06:09 | eSoccer Game | Stade Brestois 29 (Kovboj) | ✘ | — | — | In play | — |
+| 11-22 06:09 | eSoccer Game | Rennes (Ryft) | ✘ | — | — | In play | — |
+| 11-22 06:09 | Men's T20 Cricket Match | Gujarat | ✘ | — | — | In play | — |
+| 11-22 06:05 | eSoccer Game | Spurs (July) | ✘ | — | — | In play | — |
+| 11-22 06:05 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | — | In play | — |
+| 11-22 06:05 | Men's T20 Cricket Match | Saurashtra | ✘ | — | — | In play | — |
+| 11-22 06:04 | Australia NBL Game | SE Melbourne Phoenix | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:04 | eSoccer Game | FC Barcelona (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:03 | eSoccer Game | Girona (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 06:02 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 06:00 | Russia Liga Pro Match | Poidashev Artem | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 05:59 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 05:59 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -401,21 +416,6 @@
 | 11-22 05:50 | NBL Australia (W) Game | Bendigo Spirit | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 05:48 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:46 | eSoccer Game | Manchester Utd (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:45 | NHL Game | Seattle | ✔ | 0:05 - 3rd · SEA 3 - SJ 4 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:44 | eBasketball Game | Denver Nuggets (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:42 | eSoccer Game | Athletic Club (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:42 | Russia Liga Pro Match | Muslikov Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:41 | College Football Game | TCU | ✔ | 2:59 - 4th · UTAH 30 - TCU 17 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:41 | eSoccer Game | Sevilla FC (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:40 | eBasketball Game | Indiana Pacers (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:36 | AHL Game | Bakersfield Condors | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:35 | NBA Game | Boston | ✔ | 0.1 - 4th · BOS 96 - SAC 97 | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 05:32 | eSoccer Game | Nottingham Forest (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
