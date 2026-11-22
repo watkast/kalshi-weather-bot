@@ -1,13 +1,13 @@
 # Momentum Bot
 
-*Updated Sun Nov 22 13:32 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
+*Updated Sun Nov 22 13:42 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price jumps 20¢ or more within 30 seconds, buy 10 contracts and sell at +5¢ or more. No stop-loss; anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
 | Version | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **20¢+ jump, sell +5¢** | 47865 | 41564 | 6301 (196) | 0 | $-1540.34 | -0.5% |
-| **20¢+ jump, ride past +5¢** | 29302 | 16041 | 13261 (5902) | 0 | $-9760.88 | -5.2% |
+| **20¢+ jump, sell +5¢** | 47865 | 41564 | 6301 (196) | 1 | $-1540.34 | -0.5% |
+| **20¢+ jump, ride past +5¢** | 29302 | 16041 | 13261 (5902) | 1 | $-9760.88 | -5.2% |
 | **R5 (retired)** | 732 | 617 | 115 (7) | 0 | $-139.59 | -3.1% |
 | **R10 (retired)** | 624 | 546 | 78 (4) | 0 | $20.16 | +0.5% |
 | **R10R (retired)** | 339 | 214 | 125 (45) | 0 | $-26.54 | -1.3% |
@@ -18,6 +18,8 @@
 
 | Time (UTC) | Version | Coin | Side | Jump | Paid | Sold / result | P&L |
 |---|---|---|---|---|---|---|---|
+| 11-22 13:34 | J20R | SOL | DOWN | 24¢ | 0.53 | open |  |
+| 11-22 13:34 | J20 | SOL | DOWN | 24¢ | 0.53 | open |  |
 | 11-22 13:29 | J20 | NEAR | UP | 52¢ | 0.88 | 1.00 | 1.09 |
 | 11-22 13:28 | J20R | ETH | DOWN | 23¢ | 0.70 | 0.88 | 1.57 |
 | 11-22 13:28 | J20 | ETH | DOWN | 23¢ | 0.70 | 0.81 | 0.84 |
@@ -56,5 +58,3 @@
 | 11-22 13:01 | J20 | ETH | DOWN | 24¢ | 0.64 | 0.69 | 0.18 |
 | 11-22 13:01 | J20R | DOGE | DOWN | 22¢ | 0.61 | 0.76 | 1.20 |
 | 11-22 13:01 | J20 | DOGE | DOWN | 22¢ | 0.61 | 0.66 | 0.17 |
-| 11-22 12:57 | J20R | BNB | UP | 23¢ | 0.74 | yes | 2.46 |
-| 11-22 12:57 | J20 | BNB | UP | 23¢ | 0.74 | 0.87 | 1.08 |
