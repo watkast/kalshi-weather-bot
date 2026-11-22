@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 1:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 1:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 72377 | 3979 | 16 (0%) | 1.1% | -$372.85 (-62%) | Hold to the end: -$372.85 (-62%) |
+| 72398 | 3979 | 16 (0%) | 1.1% | -$372.85 (-62%) | Hold to the end: -$372.85 (-62%) |
 
-*In play right now: 63. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 62. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 3979 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68335 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68357 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,21 +96,21 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34506 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4502 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 34514 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4504 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3426 | 8 | 4% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2050 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1996 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1875 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1316 | 6 | 12% | 5% | -57% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 901 | 5 | 20% | 9% | -48% | -66% | 25 min |
-| Women's College Basketball Game | partly | 869 | 2 | 14% | 5% | -79% | -76% | 30 min |
+| Men's College Basketball Game | partly | 903 | 5 | 20% | 9% | -48% | -66% | 25 min |
+| Women's College Basketball Game | partly | 874 | 2 | 14% | 5% | -79% | -76% | 30 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | eFootball Game | ✘ | 685 | 2 | 1% | 1% | -73% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Women's College Volleyball Match | ✘ | 442 | 2 | 4% | 2% | -58% | -94% | 53 min |
-| Dota 2 Game | ✘ | 441 | 1 | 1% | 1% | -79% | -98% | 32 min |
+| Women's College Volleyball Match | ✘ | 443 | 2 | 4% | 2% | -58% | -94% | 52 min |
+| Dota 2 Game | ✘ | 442 | 1 | 1% | 1% | -79% | -98% | 32 min |
 | Serie C Game | ✘ | 433 | 2 | 6% | 3% | -57% | -90% | 8 min |
 | Men's T20 Cricket Match | ✘ | 429 | 2 | 14% | 6% | -56% | -75% | 26 min |
 | NHL Game | ✔ | 367 | 3 | 16% | 9% | -24% | -72% | 5 min |
@@ -125,8 +125,8 @@
 | Valorant game winner | ✘ | 196 | 0 | 3% | 2% | -100% | -95% | 15 min |
 | Japan J2 League Game | ✘ | 193 | 1 | 10% | 5% | -52% | -82% | 7 min |
 | Liga DIMAYOR Game | ✘ | 181 | 1 | 10% | 3% | -48% | -83% | 8 min |
+| Argentina Primera Division Game | ✘ | 181 | 2 | 16% | 8% | +3% | -72% | 9 min |
 | KHL Game | ✘ | 180 | 0 | 3% | 2% | -100% | -94% | 6 min |
-| Argentina Primera Division Game | ✘ | 179 | 2 | 16% | 8% | +4% | -72% | 9 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
 | EFL Championship Game | ✔ | 173 | 1 | 9% | 5% | -46% | -85% | 9 min |
 | English National League Game | ✘ | 169 | 1 | 7% | 5% | -45% | -88% | 11 min |
@@ -166,7 +166,7 @@
 | NFL Game | ✔ | 102 | 1 | 18% | 7% | -8% | -69% | 9 min |
 | Slovakian 2. Liga Game | ✘ | 100 | 0 | 5% | 4% | -100% | -91% | 44 min |
 | Euroleague Game | ✘ | 100 | 0 | 20% | 6% | -100% | -65% | 12 min |
-| Italy Serie A2 Game | ✘ | 98 | 1 | 2% | 1% | -5% | -96% | 6 min |
+| Italy Serie A2 Game | ✘ | 99 | 1 | 2% | 1% | -6% | -96% | 6 min |
 | Polish Ekstraklasa Game | ✘ | 97 | 0 | 11% | 6% | -100% | -80% | 13 min |
 | Men's ODI Cricket Match | ✘ | 96 | 3 | 20% | 8% | +192% | -66% | 55 min |
 | Korea K-League 2 Game | ✘ | 96 | 0 | 10% | 5% | -100% | -82% | 9 min |
@@ -386,36 +386,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-22 20:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:59 | eFootball Game | Pittsburgh (Dexy) | ✘ | — | — | In play | — |
+| 11-22 20:59 | Women's College Volleyball Match | Texas Tech | ✘ | — | — | In play | — |
+| 11-22 20:58 | Ligue 1 Game | Le Mans | ✔ | 53' · MNS 0 - OLM 2 | — | In play | — |
+| 11-22 20:57 | Ecuador Liga Pro Game | Orense | ✘ | — | — | In play | — |
+| 11-22 20:56 | Russia Liga Pro Match | Taltykin Mikhail | ✘ | — | — | In play | — |
+| 11-22 20:56 | Men's College Basketball Game | Utah Tech | ✘ | — | — | In play | — |
+| 11-22 20:56 | Women's College Basketball Game | Valparaiso | ✘ | — | — | In play | — |
+| 11-22 20:55 | Venezuelan Winter League (LVBP) | Tiburones De La Guaira | ✘ | — | — | In play | — |
+| 11-22 20:54 | Women's College Basketball Game | Creighton | ✔ | 1:39 - 4th · NEB 53 - CREI 41 | — | In play | — |
+| 11-22 20:54 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
+| 11-22 20:52 | eSoccer Game | Leverkusen (Skillz) | ✘ | — | — | In play | — |
+| 11-22 20:52 | Women's College Basketball Game | Georgetown | ✘ | — | — | In play | — |
+| 11-22 20:51 | Women's College Basketball Game | Boston University | ✘ | — | — | In play | — |
+| 11-22 20:51 | Women's College Volleyball Match | Wake Forest | ✘ | — | — | In play | — |
+| 11-22 20:51 | eSoccer Game | Benfica (Arkon) | ✘ | — | — | In play | — |
+| 11-22 20:50 | Women's College Basketball Game | Southeastern Louisiana | ✘ | — | — | In play | — |
+| 11-22 20:49 | Women's College Basketball Game | Morehead St. | ✘ | — | — | In play | — |
+| 11-22 20:49 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | — | In play | — |
+| 11-22 20:49 | NFL Game | New Orleans | ✔ | 7:05 - 4th · NO 10 - CHI 21 | — | In play | — |
+| 11-22 20:49 | eSoccer Game | France (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:49 | eSoccer Game | England (Megan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:48 | Men's College Basketball Game | Youngstown St. | ✘ | — | — | In play | — |
 | 11-22 20:48 | Bolivia Premier Division Game | Bolivar | ✘ | — | — | In play | — |
-| 11-22 20:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-22 20:48 | Women's College Basketball Game | Hampton | ✘ | — | — | In play | — |
+| 11-22 20:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:48 | Women's College Basketball Game | Hampton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-22 20:48 | NFL Game | Tampa Bay | ✔ | 4:12 - 4th · TB 14 - DET 24 | — | In play | — |
 | 11-22 20:47 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | — | In play | — |
-| 11-22 20:47 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | — | In play | — |
-| 11-22 20:47 | eSoccer Game | Manchester City (Frost) | ✘ | — | — | In play | — |
-| 11-22 20:46 | Russia Liga Pro Match | Reznikov Mikhail | ✘ | — | — | In play | — |
-| 11-22 20:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-22 20:46 | Italy Serie A2 Game | Pallacanestro 2.015 Forli | ✘ | — | — | In play | — |
-| 11-22 20:46 | Brasileiro Serie A Game | Tie | ✔ | 82' · REMO 1 - CAP 3 | — | In play | — |
-| 11-22 20:46 | Brazil NBB Basketball Game | Fortaleza Basquete Cearense | ✘ | — | — | In play | — |
-| 11-22 20:45 | Brasileiro Serie B Game | Fortaleza | ✘ | — | — | In play | — |
-| 11-22 20:45 | Men's College Basketball Game | New Mexico St. | ✘ | — | — | In play | — |
-| 11-22 20:44 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
-| 11-22 20:44 | ITF Men's Match | Teodor Davidov | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:42 | Russia Liga Pro Match | CHerniavskii Boris | ✘ | — | — | In play | — |
-| 11-22 20:41 | Women's College Basketball Game | Drake | ✘ | — | — | In play | — |
-| 11-22 20:40 | Women's College Basketball Game | Utah St. | ✔ | 9:41 - 1st · TCU 0 - USU 0 | — | In play | — |
-| 11-22 20:40 | Women's College Basketball Game | Gardner-Webb | ✘ | — | — | In play | — |
-| 11-22 20:40 | Women's College Basketball Game | Wright St. | ✘ | — | — | In play | — |
-| 11-22 20:39 | Women's College Basketball Game | Holy Cross | ✘ | — | — | In play | — |
-| 11-22 20:39 | Israel Super League Game | Hapoel Eilat | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:39 | Men's College Basketball Game | Duquesne | ✘ | — | — | In play | — |
-| 11-22 20:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:37 | eSoccer Game | Manchester City (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-22 20:34 | Men's College Basketball Game | George Washington | ✘ | — | — | In play | — |
-| 11-22 20:34 | Peru Liga 1 Game | Universitario | ✘ | — | — | In play | — |
+| 11-22 20:47 | eSoccer Game | Crystal Palace (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-22 20:47 | eSoccer Game | Manchester City (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
