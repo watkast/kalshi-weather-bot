@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 22, 4:47 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 22, 4:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4755 finished bets | 1% | $194.55 | +37% | +4.09¢ | $81.65 / $112.90 |
 
-*Expect about **85 buys a day** (~$12.81/day at risk); max loss per buy **15¢**.*
+*Expect about **85 buys a day** (~$12.80/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64787 | 64753 | 249 (0%) | 1.07% | -$4,356.15 (-56%) | Hold to the close: -$4,356.15 (-56%) |
+| 64789 | 64753 | 249 (0%) | 1.07% | -$4,356.15 (-56%) | Hold to the close: -$4,356.15 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/22 4:58:08 PM | USDJPY | DOWN | 1.9 min | — | — | In play | — |
+| 11/22 4:55:40 PM | AUDUSD | DOWN | 4.3 min | — | — | In play | — |
 | 11/22 4:44:57 PM | GBPUSD | DOWN | 2 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/22 4:44:41 PM | EURUSD | DOWN | 18 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/22 4:44:41 PM | ETH | DOWN | 18 sec | -0.011% | 1¢ | ❌ Lost | -$0.15 |
@@ -217,8 +219,6 @@
 | 11/22 4:12:49 PM | USDJPY | DOWN | 2.2 min | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/22 4:12:49 PM | BTC | UP | 2.2 min | -0.352% | 1¢ | ❌ Lost | -$0.15 |
 | 11/22 4:11:30 PM | WTI | UP | 3.5 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/22 3:59:08 PM | EURUSD | DOWN | 52 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/22 3:57:01 PM | NEAR | DOWN | 3.0 min | +0.246% | 2¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
