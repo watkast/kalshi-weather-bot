@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 22, 11:32 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 22, 11:42 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 64598 | 64564 | 247 (0%) | 1.07% | -$4,363.60 (-56%) | Hold to the close: -$4,363.60 (-56%) |
+| 64600 | 64564 | 247 (0%) | 1.07% | -$4,363.60 (-56%) | Hold to the close: -$4,363.60 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/22 11:41:30 AM | XRP | DOWN | 3.5 min | +0.216% | — | In play | — |
+| 11/22 11:40:26 AM | BNB | DOWN | 4.5 min | +0.138% | — | In play | — |
 | 11/22 11:29:40 AM | BNB | DOWN | 19 sec | -0.016% | 0¢ | ❌ Lost | $0.00 |
 | 11/22 11:28:52 AM | BTC | UP | 67 sec | -0.101% | 1¢ | ❌ Lost | -$0.15 |
 | 11/22 11:27:34 AM | DOGE | UP | 2.4 min | -0.319% | 0¢ | ❌ Lost | $0.00 |
@@ -217,8 +219,6 @@
 | 11/22 10:57:53 AM | DOGE | UP | 2.1 min | -0.197% | 1¢ | ❌ Lost | -$0.15 |
 | 11/22 8:14:39 AM | DOGE | DOWN | 21 sec | +0.044% | 0¢ | ❌ Lost | $0.00 |
 | 11/22 8:14:35 AM | ETH | UP | 25 sec | -0.058% | 0¢ | ❌ Lost | $0.00 |
-| 11/22 8:14:21 AM | BTC | UP | 39 sec | -0.093% | 0¢ | ❌ Lost | -$0.15 |
-| 11/22 8:14:06 AM | XRP | UP | 54 sec | -0.162% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
