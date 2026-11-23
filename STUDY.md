@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 9:47 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 9:57 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73343 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
+| 73356 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
 
-*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4036 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69284 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69287 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35077 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 35079 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4577 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3486 | 8 | 4% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2064 | 8 | 14% | 6% | -64% | -76% | 4 min |
+| ITF Women's Match | ✘ | 2065 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1882 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1342 | 6 | 12% | 5% | -58% | -79% | 5 min |
@@ -386,11 +386,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 16:42 | ITF Women's Match | Isabella Barrera Aguirre | ✘ | — | — | In play | — |
-| 11-23 16:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:55 | eSoccer Game | Mönchengladbach (Krocs) | ✘ | — | — | In play | — |
+| 11-23 16:54 | Super League Greece Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:53 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:53 | ITF Women's Match | Lisa Peer | ✘ | — | — | In play | — |
+| 11-23 16:52 | Super League Greece Game | Asteras Tripolis | ✘ | — | — | In play | — |
+| 11-23 16:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:51 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | — | In play | — |
+| 11-23 16:51 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-23 16:50 | eSoccer Game | Manchester City (Pedri) | ✘ | — | — | In play | — |
+| 11-23 16:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 16:48 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | — | In play | — |
+| 11-23 16:42 | ITF Women's Match | Isabella Barrera Aguirre | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:41 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:40 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:40 | eSoccer Game | Stuttgart (Zaroth) | ✘ | — | — | In play | — |
+| 11-23 16:40 | eSoccer Game | Stuttgart (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:39 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:38 | Egyptian Premier League Game | Tie | ✘ | — | — | In play | — |
 | 11-23 16:38 | eFootball Game | Denver (Knox) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -403,19 +416,6 @@
 | 11-23 16:37 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:34 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:33 | eSoccer Game | Everton (Luis) | ✘ | — | 4¢ | ❌ Lost | -$0.15 |
-| 11-23 16:32 | Russia Liga Pro Match | Libatskii Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:31 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:27 | eSoccer Game | FC Bayern (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:27 | Challenger WTA | Alexandra Osborne | ✘ | — | — | In play | — |
-| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:24 | eSoccer Game | Manchester City (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:23 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:23 | eSoccer Game | Everton (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:23 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 16:22 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
