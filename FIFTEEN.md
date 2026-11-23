@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Mon Nov 23, 1:31 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Mon Nov 23, 1:42 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65649 | 65615 | 253 (0%) | 1.07% | -$4,404.25 (-55%) | Hold to the close: -$4,404.25 (-55%) |
+| 65653 | 65615 | 253 (0%) | 1.07% | -$4,404.25 (-55%) | Hold to the close: -$4,404.25 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/23 1:41:57 PM | SILVER | UP | 3.0 min | — | — | In play | — |
+| 11/23 1:41:57 PM | GOLD | UP | 3.0 min | — | — | In play | — |
+| 11/23 1:41:57 PM | NEAR | UP | 3.0 min | -0.528% | — | In play | — |
+| 11/23 1:41:09 PM | GBPUSD | UP | 3.8 min | — | — | In play | — |
 | 11/23 1:29:46 PM | WTI | DOWN | 14 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/23 1:29:46 PM | 10YRRATE | DOWN | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/23 1:29:46 PM | EURUSD | DOWN | 14 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,10 +220,6 @@
 | 11/23 1:14:55 PM | PALLADIUM | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/23 1:14:55 PM | COPPER | DOWN | 5 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/23 1:14:39 PM | 2YRRATE | DOWN | 21 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/23 1:14:39 PM | USDJPY | UP | 21 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/23 1:14:39 PM | BNB | DOWN | 21 sec | +0.000% | 0¢ | ❌ Lost | $0.00 |
-| 11/23 1:14:39 PM | AUDUSD | UP | 21 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/23 1:14:39 PM | ZEC | UP | 21 sec | -0.044% | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
