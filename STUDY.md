@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 5:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 5:57 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 72706 | 4015 | 17 (0%) | 1.1% | -$364.25 (-60%) | Hold to the end: -$364.25 (-60%) |
+| 72720 | 4015 | 17 (0%) | 1.1% | -$364.25 (-60%) | Hold to the end: -$364.25 (-60%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4015 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68669 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68676 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34669 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4525 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 34673 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4526 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3444 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2050 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1997 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1877 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1319 | 6 | 12% | 5% | -58% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 922 | 5 | 20% | 9% | -49% | -66% | 25 min |
+| Men's College Basketball Game | partly | 924 | 5 | 20% | 9% | -49% | -66% | 25 min |
 | Women's College Basketball Game | partly | 907 | 2 | 14% | 5% | -79% | -76% | 30 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | eFootball Game | ✘ | 693 | 2 | 1% | 1% | -73% | -98% | 2 min |
@@ -386,11 +386,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 00:46 | Men's College Basketball Game | Temple | ✘ | — | — | In play | — |
-| 11-23 00:43 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | — | In play | — |
-| 11-23 00:40 | eSoccer Game | Girona (Mordor) | ✘ | — | — | In play | — |
-| 11-23 00:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 00:38 | Men's College Basketball Game | Utah | ✘ | — | — | In play | — |
+| 11-23 00:57 | Venezuelan Winter League (LVBP) | Aguilas del Zulia | ✘ | — | — | In play | — |
+| 11-23 00:55 | Liga MX Game | Cruz Azul | ✔ | 88' · CAZ 0 - GDL 1 | — | In play | — |
+| 11-23 00:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 00:55 | eSoccer Game | Getafe CF (Mordor) | ✘ | — | — | In play | — |
+| 11-23 00:51 | Dominican Winter League (LIDOM) | Leones del Escogido | ✘ | — | — | In play | — |
+| 11-23 00:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 00:50 | eSoccer Game | Universitario (Bony) | ✘ | — | — | In play | — |
+| 11-23 00:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 00:50 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 00:49 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:49 | NFL Game | Jacksonville | ✔ | 2:10 - 4th · JAX 18 - NYG 23 | — | In play | — |
+| 11-23 00:49 | eSoccer Game | Estudiantes (Antonio) | ✘ | — | — | In play | — |
+| 11-23 00:47 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-23 00:46 | Men's College Basketball Game | Temple | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:43 | Russia Liga Pro Match | Lopatin Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:40 | eSoccer Game | Girona (Mordor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 00:38 | Men's College Basketball Game | Utah | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 00:38 | eSoccer Game | Estudiantes (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 00:38 | eSoccer Game | Universitario (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 00:38 | eBasketball Game | Golden State Warriors (Gavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -402,20 +416,6 @@
 | 11-23 00:36 | Men's College Basketball Game | Lamar | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-23 00:36 | Puerto Rico BSN (W) Game | Atenienses de Manati Women | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 00:35 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:35 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:35 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:34 | Russia Liga Pro Match | Rudenko Vasiliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:30 | eFootball Game | Detroit (Pablo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:29 | Russia Liga Pro Match | Tunitsyn Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:29 | Brasileiro Serie A Game | Tie | ✔ | 90'+8' · VAS 0 - BRA 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:29 | Dominican Winter League (LIDOM) | Toros del Este | ✘ | — | — | In play | — |
-| 11-23 00:28 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:27 | eSoccer Game | RC Celta (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:25 | NHL Game | Tampa Bay | ✔ | 6:54 - 3rd · BUF 5 - TB 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:24 | eSoccer Game | Montpellier (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 00:23 | Russia Liga Pro Match | Bazilevskiy Vitaliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
