@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 12:44 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 12:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73539 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
+| 73557 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 39. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4036 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69470 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69482 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35174 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4596 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35184 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4597 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3498 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2071 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
@@ -107,7 +107,7 @@
 | Men's College Basketball Game | partly | 934 | 5 | 20% | 9% | -50% | -66% | 25 min |
 | Women's College Basketball Game | partly | 914 | 2 | 14% | 5% | -80% | -76% | 30 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
-| eFootball Game | ✘ | 723 | 2 | 1% | 1% | -74% | -98% | 2 min |
+| eFootball Game | ✘ | 724 | 2 | 1% | 1% | -74% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 450 | 2 | 4% | 2% | -59% | -94% | 51 min |
 | Dota 2 Game | ✘ | 446 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -386,36 +386,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 19:41 | eSoccer Game | Liverpool (Arkon) | ✘ | — | — | In play | — |
-| 11-23 19:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 19:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 19:38 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-23 19:37 | eSoccer Game | Fulham (Declan) | ✘ | — | — | In play | — |
-| 11-23 19:37 | eSoccer Game | Brighton (Pedri) | ✘ | — | — | In play | — |
+| 11-23 19:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:53 | eSoccer Game | Juventus (Zaroth) | ✘ | — | — | In play | — |
+| 11-23 19:53 | Romanian Liga I Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:52 | AFC Champions League Game | Al Gharafa | ✘ | — | — | In play | — |
+| 11-23 19:52 | Polish Ekstraklasa Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:51 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-23 19:51 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:50 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-23 19:50 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-23 19:49 | eFootball Game | Atlanta (Joey) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:47 | Men's College Basketball Game | Florida Gulf Coast | ✘ | — | — | In play | — |
+| 11-23 19:47 | Danish Superliga Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:46 | Allsvenskan Game | Kalmar | ✘ | — | — | In play | — |
+| 11-23 19:46 | Polish Ekstraklasa Game | Motor Lublin | ✘ | — | — | In play | — |
+| 11-23 19:46 | Romanian Liga I Game | Sepsi OSK | ✘ | — | — | In play | — |
+| 11-23 19:46 | Russia Liga Pro Match | Olhovoi Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:46 | AFC Champions League Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:41 | eSoccer Game | Liverpool (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:38 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:37 | eSoccer Game | Fulham (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:37 | eSoccer Game | Brighton (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 19:37 | Danish Superliga Game | Broendby | ✘ | — | — | In play | — |
 | 11-23 19:36 | Men's College Basketball Game | Indiana-South Bend | ✘ | — | — | In play | — |
-| 11-23 19:36 | eSoccer Game | Nottingham Forest (Frenkie) | ✘ | — | — | In play | — |
-| 11-23 19:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 19:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 19:36 | eSoccer Game | Nottingham Forest (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 19:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 19:35 | Allsvenskan Game | Tie | ✘ | — | — | In play | — |
-| 11-23 19:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 11-23 19:35 | Egyptian Premier League Game | Al Ahly (EGY) | ✘ | — | — | In play | — |
-| 11-23 19:33 | Russia Liga Pro Match | Polyakov Petr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:32 | Russia Liga Pro Match | Silantev Aleksei | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-23 19:27 | Serbia KLS Game | KK Sloboda Uzice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:27 | eBasketball Game | Los Angeles Lakers (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:25 | eSoccer Game | Real Madrid (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:25 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:24 | Dota 2 Game | DO KONCA | ✘ | — | — | In play | — |
-| 11-23 19:24 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:23 | eSoccer Game | Fulham (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:23 | eSoccer Game | Brighton (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:22 | eBasketball Game | Brooklyn Nets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:22 | Russia Liga Pro Match | Klavdenkov Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 19:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
