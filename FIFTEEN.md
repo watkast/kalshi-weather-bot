@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sun Nov 22, 8:48 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sun Nov 22, 8:58 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 65068 | 65034 | 251 (0%) | 1.07% | -$4,362.05 (-55%) | Hold to the close: -$4,362.05 (-55%) |
+| 65072 | 65034 | 251 (0%) | 1.07% | -$4,362.05 (-55%) | Hold to the close: -$4,362.05 (-55%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -189,6 +189,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/22 8:58:32 PM | USDCAD | UP | 88 sec | — | — | In play | — |
+| 11/22 8:58:15 PM | HYPE | DOWN | 1.7 min | +0.284% | — | In play | — |
+| 11/22 8:58:15 PM | DOGE | DOWN | 1.7 min | +0.179% | — | In play | — |
+| 11/22 8:57:59 PM | PLATINUM | UP | 2.0 min | — | — | In play | — |
 | 11/22 8:44:57 PM | XRP | UP | 3 sec | -0.097% | 0¢ | ❌ Lost | $0.00 |
 | 11/22 8:44:57 PM | HYPE | UP | 3 sec | -0.138% | 0¢ | ❌ Lost | $0.00 |
 | 11/22 8:44:57 PM | ZEC | UP | 3 sec | -0.200% | 0¢ | ❌ Lost | $0.00 |
@@ -215,10 +219,6 @@
 | 11/22 8:24:52 PM | BNB | DOWN | 5.1 min | +0.629% | 14¢ | ❌ Lost | -$0.15 |
 | 11/22 8:24:35 PM | NEAR | DOWN | 5.4 min | +1.519% | 1¢ | ❌ Lost | -$0.15 |
 | 11/22 8:24:35 PM | DOGE | DOWN | 5.4 min | +0.821% | 1¢ | ❌ Lost | -$0.15 |
-| 11/22 8:24:35 PM | ETH | DOWN | 5.4 min | +0.909% | 1¢ | ❌ Lost | -$0.15 |
-| 11/22 8:24:19 PM | HYPE | DOWN | 5.7 min | +0.922% | 1¢ | ❌ Lost | -$0.15 |
-| 11/22 8:24:19 PM | BTC | DOWN | 5.7 min | +0.905% | 1¢ | ❌ Lost | -$0.15 |
-| 11/22 8:24:03 PM | XRP | DOWN | 5.9 min | +0.876% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
