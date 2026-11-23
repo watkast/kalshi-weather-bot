@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 6:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 6:38 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 72758 | 4019 | 17 (0%) | 1.1% | -$364.85 (-61%) | Hold to the end: -$364.85 (-61%) |
+| 72771 | 4019 | 17 (0%) | 1.1% | -$364.85 (-61%) | Hold to the end: -$364.85 (-61%) |
 
-*In play right now: 31. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4019 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68708 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68719 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34697 | 22 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4528 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 34701 | 22 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4530 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3446 | 8 | 3% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2050 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1997 | 5 | 14% | 6% | -77% | -76% | 5 min |
@@ -107,7 +107,7 @@
 | Men's College Basketball Game | partly | 925 | 5 | 20% | 9% | -50% | -66% | 25 min |
 | Women's College Basketball Game | partly | 907 | 2 | 14% | 5% | -79% | -76% | 30 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
-| eFootball Game | ✘ | 694 | 2 | 1% | 1% | -73% | -98% | 2 min |
+| eFootball Game | ✘ | 695 | 2 | 1% | 1% | -73% | -98% | 2 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Women's College Volleyball Match | ✘ | 450 | 2 | 4% | 2% | -59% | -94% | 51 min |
 | Dota 2 Game | ✘ | 442 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -188,20 +188,20 @@
 | UEFA Europa League Game | partly | 88 | 1 | 16% | 8% | +6% | -72% | 11 min |
 | UEFA Conference League Game | partly | 88 | 0 | 15% | 9% | -100% | -74% | 13 min |
 | Bundesliga 2 Game | ✔ | 87 | 0 | 13% | 6% | -100% | -78% | 8 min |
+| Bolivia Premier Division Game | ✘ | 86 | 0 | 7% | 1% | -100% | -88% | 11 min |
 | APF Division de Honor Game | ✘ | 85 | 0 | 16% | 5% | -100% | -71% | 12 min |
 | Copa Del Rey Game | ✘ | 85 | 0 | 6% | 5% | -100% | -90% | 40 min |
-| Bolivia Premier Division Game | ✘ | 84 | 0 | 7% | 1% | -100% | -88% | 11 min |
 | NWSL Game | ✔ | 81 | 0 | 6% | 1% | -100% | -89% | 7 min |
 | England Women's Super League Game | ✘ | 81 | 0 | 14% | 6% | -100% | -76% | 20 min |
 | Mobile Legends Bang Bang Game | ✘ | 81 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | Belgian Pro League Game | ✘ | 81 | 0 | 10% | 2% | -100% | -83% | 19 min |
+| Chile Liga de Primera Game | ✘ | 79 | 0 | 15% | 4% | -100% | -74% | 13 min |
 | Czech National Football League Game | ✘ | 79 | 0 | 14% | 8% | -100% | -76% | 11 min |
 | Brazil NBB Basketball Game | ✘ | 79 | 0 | 6% | 3% | -100% | -89% | 18 min |
 | Thai League 1 Game | ✘ | 78 | 0 | 14% | 6% | -100% | -76% | 15 min |
 | Saudi Pro League Game | ✘ | 78 | 2 | 18% | 12% | +139% | -69% | 13 min |
 | FIBA Europe Cup Game | ✘ | 78 | 0 | 6% | 3% | -100% | -89% | 9 min |
 | LNB Elite 2 Game | ✘ | 77 | 0 | 1% | 0% | -100% | -98% | 6 min |
-| Chile Liga de Primera Game | ✘ | 77 | 0 | 16% | 4% | -100% | -73% | 13 min |
 | Serie A Femminile Game | ✘ | 77 | 1 | 8% | 4% | +21% | -86% | 15 min |
 | Spanish Liga F Game | ✘ | 76 | 0 | 11% | 7% | -100% | -82% | 14 min |
 | Serbian SuperLiga Game | ✘ | 73 | 0 | 4% | 1% | -100% | -93% | 16 min |
@@ -386,13 +386,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 01:26 | eFootball Game | Dallas (Walter) | ✘ | — | — | In play | — |
-| 11-23 01:26 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
-| 11-23 01:26 | Chile Liga de Primera Game | Tie | ✘ | — | — | In play | — |
+| 11-23 01:38 | Challenger ATP  | Eric Padgham | ✘ | — | — | In play | — |
+| 11-23 01:38 | Russia Liga Pro Match | Krygin Nikolai | ✘ | — | — | In play | — |
+| 11-23 01:35 | eBasketball Game | Dallas Mavericks (Zach) | ✘ | — | — | In play | — |
+| 11-23 01:33 | Major League Soccer Game | Chicago Fire | ✔ | 90'+6' · CLT 1 - CHI 1 | — | In play | — |
+| 11-23 01:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 01:32 | eSoccer Game | Estudiantes (Antonio) | ✘ | — | — | In play | — |
+| 11-23 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 01:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 01:31 | eSoccer Game | São Paulo (Holis) | ✘ | — | — | In play | — |
+| 11-23 01:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 01:31 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
+| 11-23 01:30 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | — | In play | — |
+| 11-23 01:29 | Valorant game winner | Arranca Dreams | ✘ | — | — | In play | — |
+| 11-23 01:26 | eFootball Game | Dallas (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:26 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-23 01:26 | Chile Liga de Primera Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:24 | eBasketball Game | Indiana Pacers (Kyle) | ✘ | — | — | In play | — |
-| 11-23 01:23 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | — | In play | — |
-| 11-23 01:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 01:22 | eSoccer Game | Real Madrid (Mavi) | ✘ | — | — | In play | — |
+| 11-23 01:23 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:22 | eSoccer Game | Real Madrid (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:19 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:18 | eSoccer Game | Universitario (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:18 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -400,22 +413,9 @@
 | 11-23 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:17 | eSoccer Game | Paris Saint-Germain (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 01:17 | eSoccer Game | OL Lyonnes (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:17 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
-| 11-23 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 01:16 | Chile Liga de Primera Game | Deportes Limache | ✘ | — | — | In play | — |
-| 11-23 01:14 | Bolivia Premier Division Game | Tie | ✘ | — | — | In play | — |
-| 11-23 01:14 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:09 | eSoccer Game | RCD Mallorca (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:09 | Men's College Basketball Game | Valparaiso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:09 | eSoccer Game | Real Betis (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:06 | eBasketball Game | New York Knicks (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:04 | eSoccer Game | Flamengo (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 01:04 | Bolivia Premier Division Game | San Antonio Bulo Bulo | ✘ | — | — | In play | — |
-| 11-23 01:03 | eSoccer Game | Botafogo (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:17 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 01:16 | Chile Liga de Primera Game | Deportes Limache | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
