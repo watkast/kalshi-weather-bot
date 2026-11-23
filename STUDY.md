@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 2:48 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 2:58 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73237 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
+| 73239 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 14. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4036 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69177 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69189 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35006 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4567 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35016 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4569 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3478 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2059 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
@@ -386,17 +386,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 09:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 09:47 | eSoccer Game | Benfica (Bradley) | ✘ | — | — | In play | — |
-| 11-23 09:47 | eSoccer Game | Leverkusen (Castle) | ✘ | — | — | In play | — |
-| 11-23 09:47 | eSoccer Game | Everton (Ryft) | ✘ | — | — | In play | — |
-| 11-23 09:47 | eSoccer Game | FC Bayern (Kylian) | ✘ | — | — | In play | — |
-| 11-23 09:47 | eSoccer Game | Manchester City (Vini) | ✘ | — | — | In play | — |
-| 11-23 09:45 | eSoccer Game | Nantes (Millie) | ✘ | — | — | In play | — |
-| 11-23 09:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 09:44 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | — | In play | — |
-| 11-23 09:44 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-23 09:43 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | — | In play | — |
+| 11-23 09:56 | eFootball Game | New England (Charlie) | ✘ | — | — | In play | — |
+| 11-23 09:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:48 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:47 | eSoccer Game | Benfica (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:47 | eSoccer Game | Leverkusen (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:47 | eSoccer Game | Everton (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:47 | eSoccer Game | FC Bayern (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:47 | eSoccer Game | Manchester City (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:45 | eSoccer Game | Nantes (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:44 | Russia Liga Pro Match | Olshakov Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:44 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 09:43 | Russia Liga Pro Match | Zelenskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 09:37 | Russia Liga Pro Match | Filiakov Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 09:35 | eFootball Game | New England (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 09:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -414,8 +416,6 @@
 | 11-23 09:22 | eSoccer Game | Olympique de Marseille (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 09:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 09:20 | eSoccer Game | Nantes (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 09:20 | eFootball Game | Dallas (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 09:20 | Russia Liga Pro Match | Konstantinov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
