@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 9:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 9:36 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73321 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
+| 73328 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4036 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69258 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69270 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35059 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 35069 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4574 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3484 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2064 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1882 | 3 | 6% | 3% | -85% | -90% | 11 min |
-| Challenger ATP  | ✘ | 1341 | 6 | 12% | 5% | -58% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1342 | 6 | 12% | 5% | -58% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 932 | 5 | 20% | 9% | -50% | -66% | 25 min |
 | Women's College Basketball Game | partly | 910 | 2 | 14% | 5% | -79% | -76% | 30 min |
@@ -115,7 +115,7 @@
 | Men's T20 Cricket Match | ✘ | 429 | 2 | 14% | 6% | -56% | -75% | 26 min |
 | NHL Game | ✔ | 371 | 3 | 16% | 9% | -25% | -72% | 5 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
-| Challenger WTA | ✘ | 313 | 1 | 12% | 4% | -70% | -78% | 9 min |
+| Challenger WTA | ✘ | 314 | 1 | 12% | 4% | -70% | -78% | 9 min |
 | NBA Game | partly | 298 | 0 | 19% | 7% | -100% | -67% | 11 min |
 | AHL Game | ✘ | 292 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | College Hockey Game | ✘ | 267 | 0 | 1% | 0% | -100% | -99% | 16 min |
@@ -386,16 +386,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 16:24 | eSoccer Game | Manchester City (Declan) | ✘ | — | — | In play | — |
-| 11-23 16:23 | eSoccer Game | Chelsea (Luis) | ✘ | — | — | In play | — |
-| 11-23 16:23 | eSoccer Game | Everton (Pedri) | ✘ | — | — | In play | — |
-| 11-23 16:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 16:23 | eSoccer Game | Everton (Lucy) | ✘ | — | — | In play | — |
-| 11-23 16:22 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | — | In play | — |
+| 11-23 16:34 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
+| 11-23 16:33 | eSoccer Game | Everton (Luis) | ✘ | — | — | In play | — |
+| 11-23 16:32 | Russia Liga Pro Match | Libatskii Aleksandr | ✘ | — | — | In play | — |
+| 11-23 16:31 | Russia Liga Pro Match | Drykin Sergei | ✘ | — | — | In play | — |
+| 11-23 16:27 | eSoccer Game | FC Bayern (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:27 | Challenger WTA | Alexandra Osborne | ✘ | — | — | In play | — |
+| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:24 | eSoccer Game | Manchester City (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:23 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:23 | eSoccer Game | Everton (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:23 | eSoccer Game | Everton (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 16:22 | eSoccer Game | Manchester Utd (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:19 | Dota 2 Game | Natus Vincere | ✘ | — | — | In play | — |
-| 11-23 16:18 | Challenger WTA | Josefina Estevez | ✘ | — | — | In play | — |
+| 11-23 16:18 | Challenger WTA | Josefina Estevez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:16 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:13 | eFootball Game | Denver (Knox) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -409,13 +416,6 @@
 | 11-23 16:08 | eSoccer Game | Arsenal (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 16:02 | Challenger ATP  | Samir Hamza Reguig | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
-| 11-23 15:59 | eSoccer Game | Leverkusen (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 15:59 | eSoccer Game | Werder Bremen (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 15:58 | Challenger ATP  | Pablo Aunion | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 15:57 | Challenger ATP  | Toufik Sahtali | ✘ | — | — | In play | — |
-| 11-23 15:56 | eSoccer Game | Strasbourg (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 15:56 | eSoccer Game | Paris Saint-Germain (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 15:56 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
