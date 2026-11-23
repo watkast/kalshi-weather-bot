@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Sun Nov 22, 11:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sun Nov 22, 11:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73037 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
+| 73045 | 4036 | 17 (0%) | 1.1% | -$367.40 (-61%) | Hold to the end: -$367.40 (-61%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4036 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 68979 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 68988 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 34870 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4543 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 34878 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4544 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3466 | 8 | 4% | 2% | -78% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2053 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1997 | 5 | 14% | 6% | -77% | -76% | 5 min |
@@ -386,15 +386,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-23 06:29 | Russia Liga Pro Match | Lomakin Maksim | ✘ | — | — | In play | — |
+| 11-23 06:28 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-23 06:27 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | — | In play | — |
+| 11-23 06:26 | eFootball Game | Philadelphia (Fred) | ✘ | — | — | In play | — |
+| 11-23 06:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-23 06:21 | eSoccer Game | Nantes (Dzen) | ✘ | — | — | In play | — |
+| 11-23 06:21 | Russia Liga Pro Match | Semeshin Pavel | ✘ | — | — | In play | — |
+| 11-23 06:21 | Russia Liga Pro Match | Minchenkov Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 06:19 | Challenger ATP  | Enzo Aguiard | ✘ | — | — | In play | — |
-| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-23 06:17 | eSoccer Game | Getafe CF (Bradley) | ✘ | — | — | In play | — |
-| 11-23 06:16 | eSoccer Game | CA Osasuna (Kylian) | ✘ | — | — | In play | — |
-| 11-23 06:16 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | — | In play | — |
-| 11-23 06:16 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
-| 11-23 06:16 | eSoccer Game | Spurs (Mei) | ✘ | — | — | In play | — |
+| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:17 | eSoccer Game | Getafe CF (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:16 | eSoccer Game | CA Osasuna (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:16 | eSoccer Game | Manchester Utd (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:16 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-23 06:16 | eSoccer Game | Spurs (Mei) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 06:11 | eBasketball Game | New Orleans Pelicans (Zach) | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-23 06:09 | eBasketball Game | Denver Nuggets (Kyle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 06:09 | eSoccer Game | Stade Brestois 29 (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -408,14 +416,6 @@
 | 11-23 06:02 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 06:00 | eSoccer Game | FC Barcelona (Vini) | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 11-23 05:53 | Russia Liga Pro Match | Martyukhin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:50 | Russia Liga Pro Match | Mareev Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:49 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:49 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:46 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 05:45 | Russia Liga Pro Match | Plotnikov Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
