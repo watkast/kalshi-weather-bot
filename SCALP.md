@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Tue Nov 24 01:03 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Tue Nov 24 01:14 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -13,7 +13,7 @@
 | **+5¢** | 70381 | 61431 | 8950 (147) | 0 | $-18829.55 | -4.3% |
 | **+10¢** | 52510 | 42057 | 10453 (190) | 0 | $-17460.25 | -5.3% |
 | **+15¢** | 43991 | 32732 | 11259 (246) | 0 | $-15543.99 | -5.6% |
-| **+20¢** | 39170 | 27318 | 11852 (311) | 1 | $-13919.78 | -5.7% |
+| **+20¢** | 39171 | 27319 | 11852 (311) | 0 | $-13917.95 | -5.7% |
 | **+10¢ (15¢ stop)** | 85705 | 85509 | 196 (118) | 0 | $-31520.09 | -5.9% |
 
 ## Latest trades
@@ -36,7 +36,7 @@
 | 11-24 01:01 | +10 | BTC | UP | 0.51 | 0.62 | 0.75 |
 | 11-24 01:01 | +5 | BTC | UP | 0.51 | 0.58 | 0.34 |
 | 11-24 01:01 | +10 stop | ZEC | UP | 0.65 | 0.77 | 0.89 |
-| 11-24 01:01 | +20 | ZEC | UP | 0.65 | open |  |
+| 11-24 01:01 | +20 | ZEC | UP | 0.65 | 0.86 | 1.83 |
 | 11-24 01:01 | +15 | ZEC | UP | 0.65 | 0.82 | 1.43 |
 | 11-24 01:01 | +10 | ZEC | UP | 0.65 | 0.77 | 0.91 |
 | 11-24 01:01 | +5 | ZEC | UP | 0.65 | 0.71 | 0.29 |
