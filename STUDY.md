@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 8:16 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 8:26 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73664 | 4040 | 17 (0%) | 1.1% | -$368.00 (-61%) | Hold to the end: -$368.00 (-61%) |
+| 73674 | 4040 | 17 (0%) | 1.1% | -$368.00 (-61%) | Hold to the end: -$368.00 (-61%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4040 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69602 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69605 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35244 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 35247 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4606 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3503 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2072 | 8 | 14% | 6% | -64% | -76% | 4 min |
@@ -386,11 +386,21 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-24 03:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:26 | NHL Game | Montreal | ✔ | End of 3rd · LA 2 - MTL 1 | — | In play | — |
+| 11-24 03:25 | eSoccer Game | Crystal Palace (Strudl) | ✘ | — | — | In play | — |
+| 11-24 03:24 | Major League Soccer Game | Tie | ✔ | 90'+11' · LAFC 2 - STL 3 | — | In play | — |
+| 11-24 03:23 | NHL Game | Calgary | ✔ | 0:08 - 3rd · CGY 1 - OTT 2 | — | In play | — |
+| 11-24 03:22 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | — | In play | — |
+| 11-24 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:18 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | — | In play | — |
+| 11-24 03:17 | Venezuelan Winter League (LVBP) | Cardenales de Lara | ✘ | — | — | In play | — |
 | 11-24 03:15 | NBA Game | Cleveland | ✔ | 3:30 - 4th · CLE 104 - CHI 120 | — | In play | — |
-| 11-24 03:14 | eSoccer Game | Everton (Strudl) | ✘ | — | — | In play | — |
-| 11-24 03:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:14 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:09 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:09 | Challenger ATP  | Hikaru Shiraishi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:08 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -406,16 +416,6 @@
 | 11-23 21:11 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 21:10 | Russia Liga Pro Match | Akkuratov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-23 21:09 | eBasketball Game | Dallas Mavericks (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:05 | Russia Liga Pro Match | Sitnikov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:05 | Men's College Basketball Game | Tulsa | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:05 | eSoccer Game | Manchester City (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:05 | Serie A Game | Fiorentina | ✔ | 60' · FIO 0 - MON 2 | 1¢ | ❌ Lost | -$0.15 |
-| 11-23 21:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:04 | Russia Liga Pro Match | Popov Dmitrii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:02 | ITF Women's Match | Luisa Hrda | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:01 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-23 21:00 | eFootball Game | Los Angeles (Joshua) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
