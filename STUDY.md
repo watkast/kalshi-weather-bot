@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 24, 1:33 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 24, 1:43 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 74395 | 4056 | 17 (0%) | 1.1% | -$370.40 (-61%) | Hold to the end: -$370.40 (-61%) |
+| 74407 | 4056 | 17 (0%) | 1.1% | -$370.40 (-61%) | Hold to the end: -$370.40 (-61%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4056 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 70303 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 70314 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,17 +96,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35651 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4670 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35659 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4671 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3545 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2091 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2001 | 5 | 14% | 6% | -77% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1906 | 3 | 6% | 3% | -85% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1907 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1368 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 957 | 5 | 19% | 9% | -51% | -66% | 25 min |
 | Women's College Basketball Game | partly | 926 | 2 | 14% | 6% | -80% | -75% | 30 min |
-| eFootball Game | ✘ | 750 | 2 | 1% | 1% | -75% | -98% | 2 min |
+| eFootball Game | ✘ | 751 | 2 | 1% | 1% | -75% | -98% | 2 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 451 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -388,16 +388,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-24 20:43 | Dota 2 Game | OG | ✘ | — | — | In play | — |
+| 11-24 20:43 | Serie B Game | Hellas Verona | ✘ | — | — | In play | — |
+| 11-24 20:39 | Russia Liga Pro Match | Andreev Buianto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:37 | Women's College Volleyball Match | Clemson | ✘ | — | — | In play | — |
+| 11-24 20:35 | eSoccer Game | Manchester City (Skillz) | ✘ | — | — | In play | — |
+| 11-24 20:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 20:34 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:34 | eFootball Game | Atlanta (Joshua) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:34 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:33 | eSoccer Game | Chelsea (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:32 | Men's College Basketball Game | San Francisco | ✘ | — | — | In play | — |
-| 11-24 20:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 20:32 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | — | In play | — |
-| 11-24 20:32 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-24 20:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:32 | eSoccer Game | Sunderland (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 20:32 | eSoccer Game | Spain (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:30 | Russia Liga Pro Match | Obukhov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:28 | Scottish Premiership Game | Dundee FC | ✘ | — | — | In play | — |
 | 11-24 20:27 | Serie B Game | Tie | ✘ | — | — | In play | — |
 | 11-24 20:24 | eSoccer Game | FC Bayern (Arkon) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:24 | eSoccer Game | Leverkusen (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:24 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | — | In play | — |
+| 11-24 20:24 | Counter-Strike 2 Game | MOUZ NXT | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:24 | Russia Liga Pro Match | Potapkov Andrey | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-24 20:23 | Challenger ATP  | Juan Miguel Bolivar Idarraga | ✘ | — | — | In play | — |
 | 11-24 20:23 | SHL Game | Lulea Hockey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -406,18 +418,6 @@
 | 11-24 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 20:20 | DEL Game | Krefeld Pinguine | ✘ | — | — | In play | — |
 | 11-24 20:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:18 | ITF Women's Match | Camilla Zanolini | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:18 | eSoccer Game | Crystal Palace (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:18 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:18 | eSoccer Game | Chelsea (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:17 | Dota 2 Game | Zero Tenacity | ✘ | — | — | In play | — |
-| 11-24 20:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:16 | eBasketball Game | New York Knicks (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:15 | SHL Game | Frolunda HC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 20:15 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-24 20:13 | UEFA Champions League Game | Lens | ✔ | 13' · RCL 0 - RBL 2 | — | In play | — |
-| 11-24 20:12 | Counter-Strike 2 Game | Fraternity | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
