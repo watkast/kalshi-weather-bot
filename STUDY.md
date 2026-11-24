@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 24, 12:09 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 24, 12:19 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 74265 | 4053 | 17 (0%) | 1.1% | -$369.95 (-61%) | Hold to the end: -$369.95 (-61%) |
+| 74282 | 4053 | 17 (0%) | 1.1% | -$369.95 (-61%) | Hold to the end: -$369.95 (-61%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 37. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4053 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 70182 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 70192 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35595 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4658 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35603 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4660 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3541 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2089 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2001 | 5 | 14% | 6% | -77% | -77% | 5 min |
@@ -388,36 +388,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-24 19:08 | eSoccer Game | Arsenal (Frenkie) | ✘ | — | — | In play | — |
-| 11-24 19:08 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
-| 11-24 19:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 19:06 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | — | In play | — |
+| 11-24 19:19 | Russia Liga Pro Match | Moshkov Ivan | ✘ | — | — | In play | — |
+| 11-24 19:19 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | — | In play | — |
+| 11-24 19:19 | ELH Game | HC Energie Karlovy Vary | ✘ | — | — | In play | — |
+| 11-24 19:18 | South African Premiership Game | Arrows | ✘ | — | — | In play | — |
+| 11-24 19:18 | South African Premiership Game | Tie | ✘ | — | — | In play | — |
+| 11-24 19:17 | ELH Game | HC Sparta Praha | ✘ | — | — | In play | — |
+| 11-24 19:16 | Israel National League Game | AS Ramat Hasharon | ✘ | — | — | In play | — |
+| 11-24 19:16 | Men's College Basketball Game | Belmont | ✘ | — | — | In play | — |
+| 11-24 19:14 | Serie B Game | Stabia | ✘ | — | — | In play | — |
+| 11-24 19:14 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 19:13 | eSoccer Game | Juventus (Skillz) | ✘ | — | — | In play | — |
+| 11-24 19:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:10 | eSoccer Game | France (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:10 | South African Premiership Game | Polokwane | ✘ | — | — | In play | — |
+| 11-24 19:09 | eSoccer Game | Aston Villa (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:08 | eSoccer Game | Arsenal (Frenkie) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-24 19:08 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 19:06 | Russia Liga Pro Match | Meteleshko Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 19:06 | Women's College Basketball Game | Davidson | ✔ | 7:43 - 3rd · DAV 21 - ND 33 | — | In play | — |
 | 11-24 19:04 | Challenger ATP  | Yannick Theodor Alexandrescou | ✘ | — | — | In play | — |
-| 11-24 19:02 | Russia Liga Pro Match | Puchinin Andrei | ✘ | — | — | In play | — |
+| 11-24 19:02 | Russia Liga Pro Match | Puchinin Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 18:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 18:59 | eSoccer Game | Liverpool (Zaroth) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 18:58 | ITF Women's Match | Weronika Falkowska | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-24 18:58 | eBasketball Game | Los Angeles Lakers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 18:58 | Liiga Game | Kiekko-Espoo | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 18:57 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:55 | eSoccer Game | Manchester Utd (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:55 | ELH Game | BK Mlada Boleslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:55 | eFootball Game | Chicago (Joshua) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:54 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:54 | eSoccer Game | Spurs (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:53 | eBasketball Game | Brooklyn Nets (Conor) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:52 | Russia Liga Pro Match | Savchenko Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:49 | Euroleague Game | Besiktas JK | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:48 | Challenger ATP  | Niklas Schell | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-24 18:47 | ELH Game | Ceske Budejovice | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:46 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 18:46 | Israel National League Game | AS Elitzur Eito Ashkelon | ✘ | — | — | In play | — |
-| 11-24 18:46 | KHL Game | Avtomobilist Yekaterinburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
