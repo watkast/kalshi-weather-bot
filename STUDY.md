@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 8:37 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 8:47 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73682 | 4045 | 17 (0%) | 1.1% | -$368.75 (-61%) | Hold to the end: -$368.75 (-61%) |
+| 73694 | 4045 | 17 (0%) | 1.1% | -$368.75 (-61%) | Hold to the end: -$368.75 (-61%) |
 
 *In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4045 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69612 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69624 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35253 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 35261 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4606 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3504 | 8 | 4% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2072 | 8 | 14% | 6% | -64% | -76% | 4 min |
+| eBasketball Game | ✘ | 3505 | 8 | 4% | 2% | -79% | -91% | 3 min |
+| ITF Women's Match | ✘ | 2073 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1888 | 3 | 6% | 3% | -85% | -90% | 11 min |
-| Challenger ATP  | ✘ | 1349 | 6 | 12% | 5% | -58% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1350 | 6 | 12% | 5% | -59% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 943 | 5 | 20% | 9% | -51% | -66% | 25 min |
 | Women's College Basketball Game | partly | 916 | 2 | 14% | 5% | -80% | -76% | 30 min |
@@ -326,9 +326,9 @@
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Japan J League Cup Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
 | T10 Match | ✘ | 6 | 0 | 17% | 0% | -100% | -71% | 18 min |
+| Venezuelan Winter League (LVBP) | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 134 min |
 | China CBA (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Puerto Rico BSN (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 6 min |
-| Venezuelan Winter League (LVBP) | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 135 min |
 | Italy Serie A (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | State Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 137 min |
 | Scottish Cup Game | ✘ | 4 | 0 | 0% | 0% | -100% | -100% | 6 min |
@@ -386,12 +386,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-24 03:36 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | — | In play | — |
-| 11-24 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 03:34 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-24 03:46 | NBA Game | Los Angeles C | ✔ | 2:23 - 4th · LAC 97 - HOU 106 | — | In play | — |
+| 11-24 03:44 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-24 03:41 | NBA Game | New Orleans | ✔ | 1:03 - OT · PHX 119 - NO 114 | — | In play | — |
+| 11-24 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 03:40 | Men's College Basketball Game | Utah Valley | ✘ | — | — | In play | — |
+| 11-24 03:40 | eSoccer Game | Manchester Utd (Mordor) | ✘ | — | — | In play | — |
+| 11-24 03:38 | Challenger ATP  | Takuya Kumasaka | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:38 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:38 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:36 | eSoccer Game | FC Augsburg (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:34 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:33 | Challenger ATP  | Zane Stevens | ✘ | — | — | In play | — |
-| 11-24 03:31 | ITF Women's Match | Savannah Broadus | ✘ | — | — | In play | — |
-| 11-24 03:29 | eBasketball Game | New York Knicks (Melo) | ✘ | — | — | In play | — |
+| 11-24 03:31 | ITF Women's Match | Savannah Broadus | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:29 | eBasketball Game | New York Knicks (Melo) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:27 | Men's College Basketball Game | Alabama St. | ✘ | — | — | In play | — |
 | 11-24 03:27 | eBasketball Game | Brooklyn Nets (Jason) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:26 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -403,19 +415,7 @@
 | 11-24 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 03:18 | eSoccer Game | FSV Mainz 05 (Frost) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:17 | Venezuelan Winter League (LVBP) | Cardenales de Lara | ✘ | — | — | In play | — |
-| 11-24 03:15 | NBA Game | Cleveland | ✔ | 3:30 - 4th · CLE 104 - CHI 120 | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:14 | eSoccer Game | Everton (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:09 | eSoccer Game | Olympique de Marseille (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:09 | Challenger ATP  | Hikaru Shiraishi | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:08 | eSoccer Game | Dortmund (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:08 | Major League Soccer Game | Los Angeles F | ✔ | 85' · LAFC 2 - STL 3 | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 03:08 | eSoccer Game | 1. FC Köln (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 03:17 | Venezuelan Winter League (LVBP) | Cardenales de Lara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
