@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 24, 12:59 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 24, 1:09 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73946 | 4053 | 17 (0%) | 1.1% | -$369.95 (-61%) | Hold to the end: -$369.95 (-61%) |
+| 73952 | 4053 | 17 (0%) | 1.1% | -$369.95 (-61%) | Hold to the end: -$369.95 (-61%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4053 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69865 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69876 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35423 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4629 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35431 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4630 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3521 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2077 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1895 | 3 | 6% | 3% | -85% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1896 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1356 | 6 | 12% | 5% | -59% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 951 | 5 | 19% | 9% | -51% | -66% | 25 min |
@@ -121,7 +121,7 @@
 | College Hockey Game | ✘ | 267 | 0 | 1% | 0% | -100% | -99% | 16 min |
 | Major League Soccer Game | partly | 235 | 1 | 11% | 5% | -60% | -82% | 8 min |
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
-| Valorant game winner | ✘ | 211 | 0 | 3% | 2% | -100% | -95% | 18 min |
+| Valorant game winner | ✘ | 212 | 0 | 3% | 2% | -100% | -95% | 18 min |
 | WTA Tennis Match | ✘ | 203 | 0 | 13% | 3% | -100% | -77% | 5 min |
 | Japan J2 League Game | ✘ | 193 | 1 | 10% | 5% | -52% | -82% | 7 min |
 | Argentina Primera Division Game | ✘ | 185 | 2 | 16% | 9% | +1% | -72% | 9 min |
@@ -386,17 +386,23 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-24 07:59 | eSoccer Game | Toulouse FC (SilentShooter) | ✘ | — | — | In play | — |
-| 11-24 07:57 | Valorant game winner | A Team | ✘ | — | — | In play | — |
-| 11-24 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 07:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 07:54 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | — | In play | — |
-| 11-24 07:54 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 07:54 | eSoccer Game | Real Sociedad (Vini) | ✘ | — | — | In play | — |
-| 11-24 07:53 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
-| 11-24 07:52 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | — | In play | — |
+| 11-24 08:08 | eFootball Game | Denver (Fred) | ✘ | — | — | In play | — |
+| 11-24 08:08 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
+| 11-24 08:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 08:03 | Counter-Strike 2 Game | Eternal Fire | ✘ | — | — | In play | — |
+| 11-24 08:00 | eBasketball Game | Golden State Warriors (Rodzilla) | ✘ | — | — | In play | — |
+| 11-24 07:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:59 | eSoccer Game | Toulouse FC (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:57 | Valorant game winner | A Team | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:54 | eSoccer Game | RCD Mallorca (Castle) | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-24 07:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:54 | eSoccer Game | Real Sociedad (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:53 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 07:52 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 07:50 | eFootball Game | Denver (Fred) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:47 | Counter-Strike 2 Game | FaZe | ✘ | — | — | In play | — |
+| 11-24 07:47 | Counter-Strike 2 Game | FaZe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 07:45 | Men's T20 Cricket Match | Saurashtra | ✘ | — | — | In play | — |
 | 11-24 07:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 07:45 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -410,12 +416,6 @@
 | 11-24 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 07:40 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 07:40 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:39 | eBasketball Game | Dallas Mavericks (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:38 | eSoccer Game | Sevilla FC (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:34 | ITF Women's Match | Sonal Patil | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:31 | eSoccer Game | Toulouse FC (Elmatador) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 07:29 | eFootball Game | Seattle (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
