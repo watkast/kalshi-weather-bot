@@ -1,14 +1,15 @@
 {
- "saved_at": "2026-11-24T16:22:14+00:00",
+ "saved_at": "2026-11-24T16:32:38+00:00",
  "series_watched": 424,
- "markets_in_or_near_play": 222,
+ "markets_in_or_near_play": 259,
  "batch_lookup": true,
  "espn_games_linked": 0,
  "espn_check": {
-  "at": "2026-11-24T15:51:39+00:00",
-  "started_games": 5,
+  "at": "2026-11-24T16:23:14+00:00",
+  "started_games": 6,
   "matched": 0,
   "unmatched_sample": [
+   "KXNCAAWBGAME-26NOV24LASVILL",
    "KXNCAAWBGAME-26NOV24AMERYALE",
    "KXNCAAWBGAME-26NOV24BUCKLMC",
    "KXNCAAWBGAME-26NOV24WMCOPP",
@@ -16,7 +17,7 @@
    "KXNCAAMBGAME-26NOV24WRSTSBON"
   ]
  },
- "bets": 74065,
+ "bets": 74076,
  "open": 21,
  "errors": []
 }
