@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Mon Nov 23, 11:35 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Mon Nov 23, 11:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 73866 | 4052 | 17 (0%) | 1.1% | -$369.80 (-61%) | Hold to the end: -$369.80 (-61%) |
+| 73875 | 4052 | 17 (0%) | 1.1% | -$369.80 (-61%) | Hold to the end: -$369.80 (-61%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4052 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 69786 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 69796 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,10 +96,10 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35369 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4620 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 35377 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4621 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3515 | 8 | 4% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2075 | 8 | 14% | 6% | -64% | -76% | 4 min |
+| ITF Women's Match | ✘ | 2076 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 1999 | 5 | 14% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1893 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1356 | 6 | 12% | 5% | -59% | -79% | 5 min |
@@ -386,17 +386,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-24 06:32 | eSoccer Game | Manchester City (Annie) | ✘ | — | — | In play | — |
-| 11-24 06:32 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 06:32 | ITF Women's Match | Zuzanna Bednarz | ✘ | — | — | In play | — |
+| 11-24 06:45 | eSoccer Game | RC Celta (Bradley) | ✘ | — | — | In play | — |
+| 11-24 06:45 | eSoccer Game | Getafe CF (Vini) | ✘ | — | — | In play | — |
+| 11-24 06:45 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-24 06:45 | eSoccer Game | Chelsea (Olive) | ✘ | — | — | In play | — |
+| 11-24 06:42 | eBasketball Game | Dallas Mavericks (Rodzilla) | ✘ | — | — | In play | — |
+| 11-24 06:42 | Russia Liga Pro Match | Tsybulskii Vladimir | ✘ | — | — | In play | — |
+| 11-24 06:40 | Russia Liga Pro Match | Sverdlov Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 06:35 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | — | In play | — |
+| 11-24 06:32 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:32 | ITF Women's Match | Zuzanna Bednarz | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:31 | Counter-Strike 2 Game | GOSH | ✘ | — | — | In play | — |
-| 11-24 06:31 | eSoccer Game | RC Celta (Bradley) | ✘ | — | — | In play | — |
-| 11-24 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-24 06:31 | eSoccer Game | Getafe CF (Vini) | ✘ | — | — | In play | — |
-| 11-24 06:31 | eSoccer Game | Girona (Kylian) | ✘ | — | — | In play | — |
-| 11-24 06:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-24 06:31 | eSoccer Game | RC Celta (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:31 | eSoccer Game | Getafe CF (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:31 | eSoccer Game | Girona (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-24 06:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:29 | Russia Liga Pro Match | Bystrushkin Konstantin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:29 | eSoccer Game | Arsenal (Mia) | ✘ | — | — | In play | — |
+| 11-24 06:29 | eSoccer Game | Arsenal (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:28 | Russia Liga Pro Match | Rokhlin Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:26 | eFootball Game | Philadelphia (Charlie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:22 | eSoccer Game | Toulouse FC (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -407,15 +416,6 @@
 | 11-24 06:17 | eSoccer Game | RC Celta (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-24 06:16 | Russia Liga Pro Match | Manuylov Oleg | ✘ | — | 6¢ | ❌ Lost | -$0.15 |
 | 11-24 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:16 | eSoccer Game | Manchester City (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:16 | eSoccer Game | Girona (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:14 | eSoccer Game | Chelsea (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:14 | eBasketball Game | New Orleans Pelicans (Mick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:12 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:09 | eSoccer Game | Stade Brestois 29 (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-24 06:08 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
