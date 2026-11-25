@@ -1,9 +1,9 @@
 {
- "saved_at": "2026-11-25T23:26:12+00:00",
+ "saved_at": "2026-11-25T23:36:30+00:00",
  "series_watched": 425,
  "markets_in_or_near_play": 226,
  "batch_lookup": true,
- "espn_games_linked": 6,
+ "espn_games_linked": 7,
  "espn_check": {
   "at": "2026-11-25T23:06:22+00:00",
   "started_games": 24,
@@ -21,7 +21,7 @@
    "KXNCAAMBGAME-26NOV25ALBYSYR"
   ]
  },
- "bets": 75402,
- "open": 23,
+ "bets": 75411,
+ "open": 22,
  "errors": []
 }
