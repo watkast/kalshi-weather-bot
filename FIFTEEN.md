@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 24, 8:17 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 24, 8:27 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 66935 | 66901 | 255 (0%) | 1.07% | -$4,529.40 (-56%) | Hold to the close: -$4,529.40 (-56%) |
+| 66940 | 66901 | 255 (0%) | 1.07% | -$4,529.40 (-56%) | Hold to the close: -$4,529.40 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 11. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,11 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/24 8:27:37 PM | NEAR | UP | 2.4 min | -0.445% | — | In play | — |
+| 11/24 8:27:22 PM | GOLD | UP | 2.6 min | — | — | In play | — |
+| 11/24 8:27:22 PM | BRENT | DOWN | 2.6 min | — | — | In play | — |
+| 11/24 8:27:05 PM | ZEC | UP | 2.9 min | -0.486% | — | In play | — |
+| 11/24 8:26:49 PM | WTI | DOWN | 3.2 min | — | — | In play | — |
 | 11/24 8:14:37 PM | EURUSD | UP | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 8:14:37 PM | AUDUSD | DOWN | 22 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 8:14:37 PM | WTI | DOWN | 22 sec | — | 1¢ | ❌ Lost | -$0.15 |
@@ -215,11 +220,6 @@
 | 11/24 7:59:42 PM | ETH | DOWN | 17 sec | +0.037% | 0¢ | ❌ Lost | $0.00 |
 | 11/24 7:59:32 PM | USDMXN | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 7:59:32 PM | USDCAD | DOWN | 28 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/24 7:59:32 PM | ZEC | DOWN | 28 sec | +0.018% | 0¢ | ❌ Lost | $0.00 |
-| 11/24 7:59:14 PM | BTC | DOWN | 45 sec | +0.123% | 0¢ | ❌ Lost | $0.00 |
-| 11/24 7:59:14 PM | SOL | DOWN | 45 sec | +0.162% | 0¢ | ❌ Lost | $0.00 |
-| 11/24 7:59:14 PM | XRP | DOWN | 45 sec | +0.098% | 0¢ | ❌ Lost | $0.00 |
-| 11/24 7:58:58 PM | NATGAS | DOWN | 61 sec | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
