@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 5:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 5:26 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 74950 | 4079 | 17 (0%) | 1.1% | -$373.85 (-61%) | Hold to the end: -$373.85 (-61%) |
+| 74965 | 4079 | 17 (0%) | 1.1% | -$373.85 (-61%) | Hold to the end: -$373.85 (-61%) |
 
-*In play right now: 26. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4079 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 70845 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 70861 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,11 +96,11 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35911 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4699 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3572 | 8 | 4% | 2% | -79% | -91% | 3 min |
-| ITF Women's Match | ✘ | 2100 | 8 | 14% | 6% | -64% | -76% | 4 min |
-| ITF Men's Match | ✘ | 2010 | 5 | 14% | 6% | -77% | -76% | 5 min |
+| eSoccer Game | ✘ | 35919 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4700 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3574 | 8 | 4% | 2% | -79% | -91% | 3 min |
+| ITF Women's Match | ✘ | 2103 | 8 | 14% | 6% | -64% | -76% | 4 min |
+| ITF Men's Match | ✘ | 2012 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1919 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1376 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
@@ -389,36 +389,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-25 12:16 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
-| 11-25 12:16 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | — | In play | — |
-| 11-25 12:14 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | — | In play | — |
+| 11-25 12:26 | Japan J League Game | Cerezo | ✘ | — | — | In play | — |
+| 11-25 12:26 | Japan J League Game | Urawa | ✘ | — | — | In play | — |
+| 11-25 12:24 | eFootball Game | Pittsburgh (Walter) | ✘ | — | — | In play | — |
+| 11-25 12:24 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-25 12:23 | eSoccer Game | Manchester Utd (SilentShooter) | ✘ | — | — | In play | — |
+| 11-25 12:19 | eSoccer Game | FC Bayern (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:19 | ITF Women's Match | Ulyana Hrabavets | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-25 12:19 | Dota 2 Game | InterActive Philippines | ✘ | — | — | In play | — |
+| 11-25 12:19 | eSoccer Game | Werder Bremen (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:19 | eSoccer Game | Hoffenheim (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:18 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:18 | eSoccer Game | England (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:18 | eSoccer Game | Portugal (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:18 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:16 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:16 | Russia Liga Pro Match | Krivenkii Iurii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:14 | eBasketball Game | Brooklyn Nets (Tyler) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:13 | eFootball Game | Green Bay (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:13 | ITF Men's Match | Massimo Pizzigoni | ✘ | — | — | In play | — |
-| 11-25 12:11 | ITF Men's Match | Gawad El Feky | ✘ | — | — | In play | — |
+| 11-25 12:13 | ITF Men's Match | Massimo Pizzigoni | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 12:11 | ITF Men's Match | Gawad El Feky | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:09 | eSoccer Game | Arsenal (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:08 | ITF Men's Match | Dragos Nicolae Madaras | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:06 | ITF Women's Match | Cindy Langlais | ✘ | — | — | In play | — |
+| 11-25 12:06 | ITF Women's Match | Cindy Langlais | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:04 | eSoccer Game | Argentina (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:04 | eSoccer Game | France (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 12:04 | eSoccer Game | Mönchengladbach (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:04 | eSoccer Game | Freiburg (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:03 | Counter-Strike 2 Game | maybe | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:02 | eSoccer Game | Spain (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:01 | ITF Men's Match | Alen Mujakic | ✘ | — | — | In play | — |
-| 11-25 12:01 | ITF Men's Match | Ruben Hartig | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 12:01 | ITF Women's Match | Elina Nepliy | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-25 12:00 | ITF Men's Match | Dominik Recek | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:59 | Japan J2 League Game | Tochigi City FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:59 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:59 | Japan J2 League Game | Blaublitz A | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:59 | ITF Women's Match | Margaux Komano | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:58 | ITF Men's Match | Filiberto Fumagalli | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-25 11:58 | Japan J2 League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 11:57 | Japan J League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
