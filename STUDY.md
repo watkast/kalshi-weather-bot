@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 24, 6:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 24, 6:28 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 74493 | 4060 | 17 (0%) | 1.1% | -$371.00 (-61%) | Hold to the end: -$371.00 (-61%) |
+| 74514 | 4060 | 17 (0%) | 1.1% | -$371.00 (-61%) | Hold to the end: -$371.00 (-61%) |
 
-*In play right now: 42. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 47. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4060 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 70391 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 70407 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35681 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 35689 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4675 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3550 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2091 | 8 | 14% | 6% | -64% | -76% | 4 min |
@@ -104,9 +104,9 @@
 | Counter-Strike 2 Game | ✘ | 1913 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1369 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 962 | 5 | 19% | 9% | -51% | -66% | 25 min |
-| Women's College Basketball Game | partly | 929 | 2 | 14% | 5% | -80% | -75% | 30 min |
-| eFootball Game | ✘ | 752 | 2 | 1% | 1% | -75% | -98% | 2 min |
+| Men's College Basketball Game | partly | 964 | 5 | 19% | 9% | -52% | -67% | 25 min |
+| Women's College Basketball Game | partly | 932 | 2 | 14% | 5% | -80% | -75% | 30 min |
+| eFootball Game | ✘ | 753 | 2 | 1% | 1% | -75% | -98% | 2 min |
 | College Football Game | partly | 727 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 453 | 1 | 1% | 1% | -79% | -98% | 32 min |
@@ -126,7 +126,7 @@
 | Japan J2 League Game | ✘ | 193 | 1 | 10% | 5% | -52% | -82% | 7 min |
 | Argentina Primera Division Game | ✘ | 185 | 2 | 16% | 9% | +1% | -72% | 9 min |
 | KHL Game | ✘ | 184 | 0 | 3% | 2% | -100% | -94% | 6 min |
-| Liga DIMAYOR Game | ✘ | 181 | 1 | 10% | 3% | -48% | -83% | 8 min |
+| Liga DIMAYOR Game | ✘ | 183 | 1 | 10% | 3% | -49% | -83% | 8 min |
 | Ettan Game | ✘ | 177 | 0 | 5% | 1% | -100% | -92% | 10 min |
 | EFL Championship Game | ✔ | 176 | 1 | 9% | 5% | -47% | -85% | 9 min |
 | English National League Game | ✘ | 171 | 1 | 8% | 5% | -45% | -87% | 11 min |
@@ -388,36 +388,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-25 01:17 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | — | In play | — |
-| 11-25 01:17 | eSoccer Game | São Paulo (Nate) | ✘ | — | — | In play | — |
+| 11-25 01:28 | Men's College Basketball Game | Evansville | ✘ | — | — | In play | — |
+| 11-25 01:26 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
+| 11-25 01:25 | Men's College Basketball Game | West Georgia | ✘ | — | — | In play | — |
+| 11-25 01:24 | Women's College Basketball Game | Youngstown St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:24 | Counter-Strike 2 Game | FlyQuest RED | ✘ | — | — | In play | — |
+| 11-25 01:24 | Women's College Basketball Game | Lehigh | ✘ | — | — | In play | — |
+| 11-25 01:23 | Women's College Basketball Game | Evansville | ✘ | — | — | In play | — |
+| 11-25 01:22 | ITF Men's Match | Thomas Enrique Menzel Piccioli | ✘ | — | — | In play | — |
+| 11-25 01:21 | Men's College Basketball Game | Kennesaw St. | ✘ | — | — | In play | — |
+| 11-25 01:21 | eFootball Game | Dallas (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-25 01:21 | eSoccer Game | Real Madrid (Strudl) | ✘ | — | — | In play | — |
+| 11-25 01:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:20 | Women's College Basketball Game | High Point | ✘ | — | — | In play | — |
+| 11-25 01:19 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:18 | Men's College Basketball Game | Robert Morris | ✘ | — | — | In play | — |
+| 11-25 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:18 | Women's College Basketball Game | Monmouth | ✔ | 5:31 - 3rd · MONM 31 - MD 53 | — | In play | — |
+| 11-25 01:18 | eSoccer Game | OL Lyonnes (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:18 | eSoccer Game | Botafogo (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:17 | eSoccer Game | Paris Saint-Germain (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:17 | eSoccer Game | São Paulo (Nate) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 01:13 | Men's College Basketball Game | Gardner-Webb | ✘ | — | — | In play | — |
 | 11-25 01:11 | Men's College Basketball Game | Coppin St. | ✘ | — | — | In play | — |
 | 11-25 01:10 | Women's College Basketball Game | Arkansas-Pine Bluff | ✘ | — | — | In play | — |
-| 11-25 01:10 | Men's College Basketball Game | Purdue | ✘ | — | — | In play | — |
+| 11-25 01:10 | Men's College Basketball Game | Purdue | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 01:10 | Women's College Basketball Game | New Hampshire | ✘ | — | — | In play | — |
-| 11-25 01:09 | Liga DIMAYOR Game | Bucaramanga | ✘ | — | — | In play | — |
-| 11-25 01:09 | Liga DIMAYOR Game | Tie | ✘ | — | — | In play | — |
-| 11-25 01:09 | Russia Liga Pro Match | Ganibaev Anton | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | eBasketball Game | New York Knicks (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | Men's College Basketball Game | San Diego St. | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | Men's College Basketball Game | Mercer | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | Elon | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | New Hampshire | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | Stetson | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | UMBC | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | Jacksonville | ✔ | 19:53 - 2nd · JAX 30 - IU 53 | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | Delaware St. | ✘ | — | — | In play | — |
-| 11-25 01:09 | Men's College Basketball Game | Alcorn St. | ✘ | — | — | In play | — |
-| 11-25 01:09 | eSoccer Game | Real Betis (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | eSoccer Game | Montpellier (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 01:09 | Women's College Basketball Game | Georgia Southern | ✘ | — | — | In play | — |
-| 11-25 01:09 | Women's College Basketball Game | Temple | ✘ | — | — | In play | — |
-| 11-25 01:09 | Women's College Basketball Game | UNC Asheville | ✘ | — | — | In play | — |
-| 11-25 01:09 | Women's College Basketball Game | SIU Edwardsville | ✘ | — | — | In play | — |
-| 11-25 01:09 | Women's College Basketball Game | Gardner-Webb | ✔ | 6:16 - 3rd · GWEB 15 - UNC 58 | — | In play | — |
+| 11-25 01:09 | Liga DIMAYOR Game | Bucaramanga | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 01:09 | Liga DIMAYOR Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
