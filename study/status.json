@@ -1,18 +1,18 @@
 {
- "saved_at": "2026-11-25T06:48:58+00:00",
+ "saved_at": "2026-11-25T06:55:51+00:00",
  "series_watched": 425,
- "markets_in_or_near_play": 125,
+ "markets_in_or_near_play": 106,
  "batch_lookup": true,
  "espn_games_linked": 18,
  "espn_check": {
-  "at": "2026-11-25T06:20:43+00:00",
-  "started_games": 3,
-  "matched": 2,
+  "at": "2026-11-25T06:52:07+00:00",
+  "started_games": 2,
+  "matched": 1,
   "unmatched_sample": [
    "KXNCAAMBGAME-26NOV25COLOSTAN"
   ]
  },
- "bets": 74864,
- "open": 30,
+ "bets": 74869,
+ "open": 21,
  "errors": []
 }
