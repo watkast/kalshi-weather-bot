@@ -1,6 +1,6 @@
 # Kalshi Paper Bots — Results
 
-*Updated Wed Nov 25, 5:45 AM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
+*Updated Wed Nov 25, 12:26 PM MT. Paper money only — no real trades. Study pages refresh about every 10 minutes; this page every few hours.*
 
 ### → [1¢ Study dashboard](STUDY.md) — every 1¢ moment across all sports, tracked to the final whistle
 
@@ -20,8 +20,8 @@
 
 | Bot | Bets | Settled | Win rate | Paper P&L | Return | Open | Verdict |
 |---|---|---|---|---|---|---|---|
-| **Temperature** | 1052 | 1025 | 36% | -$407.94 | -10.0% | 27 | Losing |
-| **Rain** | 317 | 308 | 30% | -$86.96 | -8.7% | 9 | Losing |
+| **Temperature** | 1064 | 1039 | 36% | -$418.36 | -10.1% | 25 | Losing |
+| **Rain** | 318 | 314 | 29% | -$107.70 | -10.5% | 4 | Losing |
 | **Longshot fade** | 953 | 951 | 93% | -$167.12 | -1.9% | 2 | Break-even |
 
 *Return = profit ÷ money risked on settled bets. Verdicts need at least 20 settled bets.*
@@ -44,31 +44,31 @@
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
-| 2026-11-25 | PHIL 50-51 | YES | 12¢ | 23% | Open | — |
-| 2026-11-25 | PHIL 52-53 | YES | 7¢ | 26% | Open | — |
-| 2026-11-25 | PHIL <50 | NO | 16¢ | 80% | Open | — |
-| 2026-11-25 | LAX 74-75 | NO | 46¢ | 77% | Open | — |
-| 2026-11-25 | DEN 49-50 | NO | 46¢ | 81% | Open | — |
-| 2026-11-25 | AUS 56-57 | YES | 5¢ | 23% | Open | — |
-| 2026-11-25 | AUS 58-59 | NO | 33¢ | 74% | Open | — |
-| 2026-11-25 | AUS 60-61 | NO | 70¢ | 81% | Open | — |
-| 2026-11-25 | MIA 75-76 | NO | 56¢ | 77% | Open | — |
-| 2026-11-25 | CHI 43-44 | NO | 42¢ | 74% | Open | — |
+| 2026-11-26 | PHIL <57 | NO | 34¢ | 57% | Open | — |
+| 2026-11-26 | LAX 80-81 | NO | 57¢ | 77% | Open | — |
+| 2026-11-26 | LAX 84-85 | YES | 7¢ | 19% | Open | — |
+| 2026-11-26 | DEN 60-61 | NO | 51¢ | 81% | Open | — |
+| 2026-11-26 | AUS 60-61 | NO | 40¢ | 81% | Open | — |
+| 2026-11-26 | MIA 76-77 | YES | 6¢ | 19% | Open | — |
+| 2026-11-26 | MIA 78-79 | NO | 54¢ | 74% | Open | — |
+| 2026-11-26 | MIA 80-81 | NO | 54¢ | 77% | Open | — |
+| 2026-11-26 | CHI 44-45 | NO | 50¢ | 81% | Open | — |
+| 2026-11-26 | CHI 46-47 | NO | 64¢ | 74% | Open | — |
 
 ## Latest rain bets
 
 | Day | Market | Bet | Paid | Bot's odds | Outcome | P&L |
 |---|---|---|---|---|---|---|
+| 2026-11-26 | MKE | YES | 30¢ | 42% | Open | — |
 | 2026-11-25 | DC | NO | 79¢ | 92% | Open | — |
 | 2026-11-25 | CHI | YES | 10¢ | 22% | Open | — |
 | 2026-11-25 | ATL | NO | 6¢ | 18% | Open | — |
-| 2026-11-24 | SFO | YES | 72¢ | 99% | Open | — |
-| 2026-11-24 | MIA | NO | 48¢ | 82% | Open | — |
-| 2026-11-24 | CLL | NO | 50¢ | 72% | Open | — |
-| 2026-11-24 | SATX | YES | 38¢ | 65% | Open | — |
-| 2026-11-24 | NOLA | NO | 45¢ | 74% | Open | — |
-| 2026-11-24 | HOU | NO | 44¢ | 68% | Open | — |
-| 2026-11-23 | NOLA | NO | 41¢ | 58% | NO | $5.73 |
+| 2026-11-24 | SFO | YES | 72¢ | 99% | YES | $2.65 |
+| 2026-11-24 | MIA | NO | 48¢ | 82% | YES | -$4.98 |
+| 2026-11-24 | CLL | NO | 50¢ | 72% | YES | -$5.18 |
+| 2026-11-24 | SATX | YES | 38¢ | 65% | NO | -$3.97 |
+| 2026-11-24 | NOLA | NO | 45¢ | 74% | YES | -$4.68 |
+| 2026-11-24 | HOU | NO | 44¢ | 68% | YES | -$4.58 |
 
 ## The bots
 
