@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 3:24 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 3:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75327 | 4080 | 17 (0%) | 1.1% | -$374.00 (-61%) | Hold to the end: -$374.00 (-61%) |
+| 75330 | 4080 | 17 (0%) | 1.1% | -$374.00 (-61%) | Hold to the end: -$374.00 (-61%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4080 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71223 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71225 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -97,14 +97,14 @@
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
 | eSoccer Game | ✘ | 36104 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4735 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| Russia Liga Pro Match | ✘ | 4736 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3594 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2135 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2038 | 5 | 13% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1928 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1378 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 1024 | 5 | 19% | 8% | -54% | -67% | 24 min |
+| Men's College Basketball Game | partly | 1025 | 5 | 19% | 8% | -54% | -67% | 24 min |
 | Women's College Basketball Game | partly | 961 | 3 | 15% | 6% | -71% | -75% | 30 min |
 | eFootball Game | ✘ | 779 | 2 | 2% | 1% | -76% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
@@ -390,9 +390,12 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-25 22:33 | Women's College Volleyball Match | Notre Dame | ✘ | — | — | In play | — |
+| 11-25 22:30 | Women's College Basketball Game | Bradley | ✘ | — | — | In play | — |
+| 11-25 22:24 | Russia Liga Pro Match | CHagaev Aleksei | ✘ | — | 7¢ | ❌ Lost | -$0.15 |
 | 11-25 22:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-25 22:22 | eSoccer Game | Real Sociedad (Mantis) | ✘ | — | — | In play | — |
-| 11-25 22:22 | Men's College Basketball Game | North Dakota | ✘ | — | — | In play | — |
+| 11-25 22:22 | Men's College Basketball Game | North Dakota | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 22:16 | Russia Liga Pro Match | Bazilevskiy Vitaliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 22:16 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 22:13 | Counter-Strike 2 Game | Rush | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -417,9 +420,6 @@
 | 11-25 17:33 | eSoccer Game | Paris Saint-Germain (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 17:29 | eFootball Game | San Francisco (Dexy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 17:28 | ITF Men's Match | Adan Freire Da Silva | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 17:28 | Men's College Basketball Game | American International | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 17:28 | Women's College Basketball Game | Mississippi Valley St. | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-25 17:27 | Russia Liga Pro Match | Smyshnikov Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
