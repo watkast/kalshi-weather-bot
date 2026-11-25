@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 24, 7:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 24, 7:56 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 66891 | 66857 | 255 (0%) | 1.07% | -$4,524.30 (-56%) | Hold to the close: -$4,524.30 (-56%) |
+| 66894 | 66857 | 255 (0%) | 1.07% | -$4,524.30 (-56%) | Hold to the close: -$4,524.30 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/24 7:55:56 PM | HYPE | DOWN | 4.0 min | +0.710% | — | In play | — |
+| 11/24 7:55:40 PM | PLATINUM | UP | 4.3 min | — | — | In play | — |
+| 11/24 7:55:24 PM | AUDUSD | UP | 4.6 min | — | — | In play | — |
 | 11/24 7:44:33 PM | BNB | UP | 27 sec | -0.129% | 0¢ | ❌ Lost | $0.00 |
 | 11/24 7:44:18 PM | PLATINUM | UP | 42 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 7:44:18 PM | USDCAD | DOWN | 42 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,9 +220,6 @@
 | 11/24 7:29:43 PM | DOGE | DOWN | 17 sec | +0.029% | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 7:29:12 PM | NEAR | UP | 47 sec | -0.366% | 0¢ | ❌ Lost | $0.00 |
 | 11/24 7:29:12 PM | SOL | UP | 47 sec | -0.256% | 0¢ | ❌ Lost | $0.00 |
-| 11/24 7:28:53 PM | BNB | DOWN | 66 sec | +0.103% | 8¢ | ❌ Lost | -$0.15 |
-| 11/24 7:28:37 PM | HYPE | DOWN | 82 sec | +0.253% | 1¢ | ❌ Lost | -$0.15 |
-| 11/24 7:28:05 PM | PLATINUM | DOWN | 1.9 min | — | 46¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
