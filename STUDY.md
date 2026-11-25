@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Tue Nov 24, 11:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Tue Nov 24, 11:18 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 74823 | 4077 | 17 (0%) | 1.1% | -$373.55 (-61%) | Hold to the end: -$373.55 (-61%) |
+| 74835 | 4077 | 17 (0%) | 1.1% | -$373.55 (-61%) | Hold to the end: -$373.55 (-61%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4077 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 70718 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 70731 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 35853 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4689 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3568 | 8 | 4% | 2% | -79% | -91% | 3 min |
+| eSoccer Game | ✘ | 35863 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4690 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3570 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2095 | 8 | 14% | 6% | -64% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2003 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1916 | 3 | 6% | 3% | -85% | -90% | 11 min |
@@ -389,15 +389,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-25 06:06 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | — | In play | — |
-| 11-25 06:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-25 06:04 | eSoccer Game | Spurs (Kitana) | ✘ | — | — | In play | — |
-| 11-25 06:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-25 06:04 | eSoccer Game | Girona (Rooney) | ✘ | — | — | In play | — |
-| 11-25 06:03 | eSoccer Game | FC Barcelona (Endrick) | ✘ | — | — | In play | — |
-| 11-25 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-25 06:03 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-25 06:02 | eSoccer Game | Chelsea (Adri) | ✘ | — | — | In play | — |
+| 11-25 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-25 06:17 | eSoccer Game | Getafe CF (Danny) | ✘ | — | — | In play | — |
+| 11-25 06:17 | eSoccer Game | Girona (Rooney) | ✘ | — | — | In play | — |
+| 11-25 06:16 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | — | In play | — |
+| 11-25 06:16 | eSoccer Game | Spurs (Kitana) | ✘ | — | — | In play | — |
+| 11-25 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-25 06:15 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-25 06:13 | eBasketball Game | New Orleans Pelicans (Shaq) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:11 | Russia Liga Pro Match | Lunev Daniil | ✘ | — | — | In play | — |
+| 11-25 06:10 | Russia Liga Pro Match | Keptenar Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:08 | eSoccer Game | Rennes (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:06 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:04 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:04 | eSoccer Game | Girona (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:03 | eSoccer Game | FC Barcelona (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-25 06:02 | eSoccer Game | Chelsea (Adri) | ✘ | — | 10¢ | ❌ Lost | -$0.15 |
 | 11-25 06:00 | Mexican Pacific League | Aguilas de Mexicali | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 05:56 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 05:51 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -407,18 +419,6 @@
 | 11-25 05:49 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 05:47 | AHL Game | San Diego Gulls | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 05:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:46 | eSoccer Game | Spurs (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:43 | eBasketball Game | New Orleans Pelicans (Clyde) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:43 | eSoccer Game | Villarreal CF (Ousmane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:43 | eSoccer Game | Sevilla FC (Rendeto) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:42 | ITF Women's Match | Leyla Fiorella Britez Risso | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:42 | Men's College Basketball Game | Oregon | ✔ | 16:22 - 2nd · ORE 37 - SJU 53 | — | In play | — |
-| 11-25 05:41 | Russia Liga Pro Match | Andreev Danila | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:41 | eSoccer Game | Real Sociedad (Elastico) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:40 | eBasketball Game | Denver Nuggets (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:39 | Russia Liga Pro Match | Mameka Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 05:38 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
