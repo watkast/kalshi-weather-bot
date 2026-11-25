@@ -1,20 +1,19 @@
 {
- "saved_at": "2026-11-25T05:46:55+00:00",
+ "saved_at": "2026-11-25T05:57:13+00:00",
  "series_watched": 425,
- "markets_in_or_near_play": 133,
+ "markets_in_or_near_play": 127,
  "batch_lookup": true,
  "espn_games_linked": 18,
  "espn_check": {
-  "at": "2026-11-25T05:17:58+00:00",
-  "started_games": 8,
-  "matched": 5,
+  "at": "2026-11-25T05:49:17+00:00",
+  "started_games": 4,
+  "matched": 2,
   "unmatched_sample": [
    "KXNCAAMBGAME-26NOV24VCUCSU",
-   "KXNCAAMBGAME-26NOV25COLOSTAN",
-   "KXNCAAMBGAME-26NOV24SLUGC"
+   "KXNCAAMBGAME-26NOV25COLOSTAN"
   ]
  },
- "bets": 74806,
- "open": 29,
+ "bets": 74813,
+ "open": 22,
  "errors": []
 }
