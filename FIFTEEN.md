@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Tue Nov 24, 11:46 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Tue Nov 24, 11:57 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -16,7 +16,7 @@
 |---|---|---|---|---|---|---|
 | Volatility model ≥ 5%, hold to the close | 4869 finished bets | 1% | $211.60 | +40% | +4.35¢ | $88.90 / $122.70 |
 
-*Expect about **84 buys a day** (~$12.59/day at risk); max loss per buy **15¢**.*
+*Expect about **84 buys a day** (~$12.60/day at risk); max loss per buy **15¢**.*
 
 <details><summary>Runner-up rules</summary>
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67184 | 67150 | 255 (0%) | 1.07% | -$4,558.05 (-56%) | Hold to the close: -$4,558.05 (-56%) |
+| 67187 | 67150 | 255 (0%) | 1.07% | -$4,558.05 (-56%) | Hold to the close: -$4,558.05 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/24 11:56:30 PM | NEAR | UP | 3.5 min | -0.637% | — | In play | — |
+| 11/24 11:54:49 PM | BNB | DOWN | 5.2 min | +0.199% | — | In play | — |
+| 11/24 11:54:17 PM | NATGAS | UP | 5.7 min | — | — | In play | — |
 | 11/24 11:44:35 PM | EURUSD | DOWN | 24 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/24 11:44:15 PM | GOLD | UP | 45 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/24 11:44:15 PM | NATGAS | UP | 45 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -217,9 +220,6 @@
 | 11/24 11:27:25 PM | XRP | UP | 2.6 min | -0.207% | 1¢ | ❌ Lost | -$0.15 |
 | 11/24 11:26:38 PM | DOGE | UP | 3.4 min | -0.294% | 1¢ | ❌ Lost | -$0.15 |
 | 11/24 11:26:19 PM | BTC | UP | 3.7 min | -0.380% | 1¢ | ❌ Lost | -$0.15 |
-| 11/24 11:26:19 PM | ETH | UP | 3.7 min | -0.333% | 1¢ | ❌ Lost | -$0.15 |
-| 11/24 11:26:19 PM | ZEC | UP | 3.7 min | -0.699% | 1¢ | ❌ Lost | -$0.15 |
-| 11/24 11:26:19 PM | SOL | UP | 3.7 min | -0.447% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
