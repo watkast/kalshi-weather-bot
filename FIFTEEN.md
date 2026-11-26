@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Wed Nov 25, 6:01 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Wed Nov 25, 6:12 PM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 67809 | 67775 | 256 (0%) | 1.07% | -$4,622.95 (-56%) | Hold to the close: -$4,622.95 (-56%) |
+| 67813 | 67775 | 256 (0%) | 1.07% | -$4,622.95 (-56%) | Hold to the close: -$4,622.95 (-56%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/25 6:11:54 PM | XRP | DOWN | 3.1 min | +0.351% | — | In play | — |
+| 11/25 6:11:38 PM | NEAR | DOWN | 3.4 min | +0.594% | — | In play | — |
+| 11/25 6:10:48 PM | PALLADIUM | DOWN | 4.2 min | — | — | In play | — |
+| 11/25 6:09:41 PM | BRENT | DOWN | 5.3 min | — | — | In play | — |
 | 11/25 5:59:49 PM | XRP | UP | 10 sec | -0.032% | 0¢ | ❌ Lost | $0.00 |
 | 11/25 5:59:49 PM | ETH | DOWN | 10 sec | +0.018% | 0¢ | ❌ Lost | $0.00 |
 | 11/25 5:59:49 PM | USDCAD | UP | 10 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -216,10 +220,6 @@
 | 11/25 5:42:38 PM | NEAR | UP | 2.4 min | -0.784% | 1¢ | ❌ Lost | -$0.15 |
 | 11/25 5:42:38 PM | DOGE | UP | 2.4 min | -0.423% | 1¢ | ❌ Lost | -$0.15 |
 | 11/25 5:42:38 PM | COPPER | UP | 2.4 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/25 5:42:17 PM | AUDUSD | DOWN | 2.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/25 5:42:17 PM | XRP | UP | 2.7 min | -0.308% | 1¢ | ❌ Lost | -$0.15 |
-| 11/25 5:42:17 PM | ETH | UP | 2.7 min | -0.481% | 0¢ | ❌ Lost | $0.00 |
-| 11/25 5:42:01 PM | BNB | UP | 3.0 min | -0.409% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
