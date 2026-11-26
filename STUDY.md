@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 5:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 5:59 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75498 | 4084 | 17 (0%) | 1.1% | -$374.60 (-61%) | Hold to the end: -$374.60 (-61%) |
+| 75511 | 4084 | 17 (0%) | 1.1% | -$374.60 (-61%) | Hold to the end: -$374.60 (-61%) |
 
-*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4084 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71385 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71391 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36208 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36213 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4750 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3606 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2135 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -106,7 +106,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1037 | 5 | 19% | 9% | -55% | -67% | 24 min |
 | Women's College Basketball Game | partly | 970 | 3 | 15% | 6% | -71% | -75% | 29 min |
-| eFootball Game | ✘ | 786 | 2 | 2% | 1% | -76% | -97% | 2 min |
+| eFootball Game | ✘ | 787 | 2 | 2% | 1% | -76% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 456 | 1 | 1% | 1% | -80% | -98% | 32 min |
@@ -390,14 +390,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-26 00:58 | Men's College Basketball Game | Bethune-Cookman | ✘ | — | — | In play | — |
+| 11-26 00:57 | Counter-Strike 2 Game | ALKA | ✘ | — | — | In play | — |
+| 11-26 00:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 00:55 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | — | In play | — |
+| 11-26 00:54 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | — | In play | — |
+| 11-26 00:54 | eFootball Game | Cincinnati (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:51 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 11-26 00:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 00:50 | eSoccer Game | São Paulo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:50 | eSoccer Game | Estudiantes (Declan) | ✘ | — | — | In play | — |
+| 11-26 00:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 00:49 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:47 | Men's College Basketball Game | USC Upstate | ✘ | — | — | In play | — |
 | 11-26 00:47 | Women's College Basketball Game | James Madison | ✘ | — | — | In play | — |
 | 11-26 00:46 | Brasileiro Serie A Game | Atletico Mineiro | ✘ | — | — | In play | — |
 | 11-26 00:45 | Liga DIMAYOR Game | Once Caldas | ✘ | — | — | In play | — |
 | 11-26 00:44 | Men's College Basketball Game | West Florida | ✘ | — | — | In play | — |
 | 11-26 00:42 | Men's College Basketball Game | Kennesaw St. | ✘ | — | — | In play | — |
-| 11-26 00:42 | eSoccer Game | Girona (NINJA) | ✘ | — | — | In play | — |
-| 11-26 00:42 | eSoccer Game | FC Barcelona (Mantis) | ✘ | — | — | In play | — |
+| 11-26 00:42 | eSoccer Game | Girona (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:42 | eSoccer Game | FC Barcelona (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:39 | Men's College Basketball Game | University at Albany | ✘ | — | — | In play | — |
 | 11-26 00:38 | eBasketball Game | Golden State Warriors (Walt) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -407,19 +420,6 @@
 | 11-26 00:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:35 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:35 | Men's College Basketball Game | Providence | ✔ | 0:20 - 2nd · BYU 83 - PROV 78 | 12¢ | ❌ Lost | -$0.15 |
-| 11-26 00:34 | eBasketball Game | New York Knicks (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:34 | eSoccer Game | Flamengo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:29 | Russia Liga Pro Match | Bazilevskiy Vitaliy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:28 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:26 | eSoccer Game | Getafe CF (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:26 | Men's College Basketball Game | Northeastern | ✘ | — | — | In play | — |
-| 11-26 00:25 | Men's College Basketball Game | Weber St. | ✘ | — | — | In play | — |
-| 11-26 00:24 | NBA Game | Miami | ✔ | 2:52 - 4th · MIA 95 - PHI 108 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:24 | eFootball Game | Dallas (Cooper) | ✘ | — | 21¢ | ❌ Lost | -$0.15 |
-| 11-26 00:23 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:23 | Russia Liga Pro Match | Bondarenko Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
