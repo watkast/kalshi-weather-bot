@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Nov 26 14:26 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Nov 26 14:30 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -10,10 +10,10 @@
 
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
-| **+5¢** | 72804 | 63542 | 9262 (158) | 1 | $-19409.39 | -4.2% |
-| **+10¢** | 54281 | 43468 | 10813 (203) | 1 | $-17995.36 | -5.3% |
-| **+15¢** | 45453 | 33804 | 11649 (261) | 1 | $-16106.81 | -5.6% |
-| **+20¢** | 40456 | 28190 | 12266 (327) | 1 | $-14500.14 | -5.7% |
+| **+5¢** | 72805 | 63542 | 9263 (158) | 0 | $-19415.76 | -4.2% |
+| **+10¢** | 54282 | 43468 | 10814 (203) | 0 | $-18001.73 | -5.3% |
+| **+15¢** | 45454 | 33804 | 11650 (261) | 0 | $-16113.08 | -5.7% |
+| **+20¢** | 40457 | 28190 | 12267 (327) | 0 | $-14506.41 | -5.7% |
 | **+10¢ (15¢ stop)** | 88664 | 88455 | 209 (128) | 0 | $-32670.05 | -5.9% |
 
 ## Latest trades
@@ -53,10 +53,10 @@
 | 11-26 14:16 | +10 | SOL | DOWN | 0.70 | 0.80 | 0.73 |
 | 11-26 14:16 | +5 | SOL | DOWN | 0.70 | 0.76 | 0.32 |
 | 11-26 14:16 | +10 stop | DOGE | DOWN | 0.61 | 0.46 | -1.85 |
-| 11-26 14:16 | +20 | DOGE | DOWN | 0.61 | open |  |
-| 11-26 14:16 | +15 | DOGE | DOWN | 0.61 | open |  |
-| 11-26 14:16 | +10 | DOGE | DOWN | 0.62 | open |  |
-| 11-26 14:16 | +5 | DOGE | DOWN | 0.62 | open |  |
+| 11-26 14:16 | +20 | DOGE | DOWN | 0.61 | yes | -6.27 |
+| 11-26 14:16 | +15 | DOGE | DOWN | 0.61 | yes | -6.27 |
+| 11-26 14:16 | +10 | DOGE | DOWN | 0.62 | yes | -6.37 |
+| 11-26 14:16 | +5 | DOGE | DOWN | 0.62 | yes | -6.37 |
 | 11-26 14:16 | +10 stop | ETH | DOWN | 0.71 | 0.83 | 0.95 |
 | 11-26 14:16 | +20 | ETH | DOWN | 0.71 | 0.92 | 1.86 |
 | 11-26 14:16 | +15 | ETH | DOWN | 0.71 | 0.92 | 1.86 |
