@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 11:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 11:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75824 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
+| 75832 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4114 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71683 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71695 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36385 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4767 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 36395 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4769 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3626 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2139 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2038 | 5 | 13% | 6% | -77% | -77% | 5 min |
@@ -390,17 +390,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 06:21 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | — | In play | — |
-| 11-26 06:20 | eSoccer Game | Toulouse FC (Kovboj) | ✘ | — | — | In play | — |
-| 11-26 06:19 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 06:18 | eSoccer Game | Spurs (Kitana) | ✘ | — | — | In play | — |
-| 11-26 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 06:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 06:16 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | — | In play | — |
+| 11-26 06:31 | eSoccer Game | Girona (Rooney) | ✘ | — | — | In play | — |
+| 11-26 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 06:31 | Russia Liga Pro Match | Konobeev Aleksei | ✘ | — | — | In play | — |
+| 11-26 06:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 06:28 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
+| 11-26 06:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:21 | Men's T20 Cricket Match | Baroda | ✘ | — | — | In play | — |
+| 11-26 06:21 | Russia Liga Pro Match | Karpovkin Gennadiy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:21 | Russia Liga Pro Match | Turnaev Vladislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:20 | eSoccer Game | Toulouse FC (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:18 | eSoccer Game | Spurs (Kitana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:16 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 06:16 | Russia Liga Pro Match | Pustoselov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 06:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 06:15 | eSoccer Game | Arsenal (Rose) | ✘ | — | — | In play | — |
-| 11-26 06:15 | eSoccer Game | Getafe CF (Danny) | ✘ | — | — | In play | — |
+| 11-26 06:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:15 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 06:15 | eSoccer Game | Getafe CF (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 06:14 | Men's T20 Cricket Match | Madhya Pradesh | ✘ | — | — | In play | — |
 | 11-26 06:14 | eBasketball Game | Denver Nuggets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 06:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -412,14 +420,6 @@
 | 11-26 06:05 | eSoccer Game | RC Celta (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 06:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 06:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 06:04 | Russia Liga Pro Match | Kadulin Maksim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 06:03 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 06:02 | eSoccer Game | Girona (Rooney) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 06:02 | eSoccer Game | Chelsea (Adri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 05:57 | Dota 2 Game | Execration | ✘ | — | — | In play | — |
-| 11-26 05:52 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 05:51 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 05:50 | Russia Liga Pro Match | Belugin Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
