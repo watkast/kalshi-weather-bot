@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 10:05 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 10:16 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76172 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
+| 76180 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4114 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72030 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72046 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36601 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4803 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3644 | 8 | 4% | 2% | -80% | -91% | 3 min |
+| eSoccer Game | ✘ | 36611 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4806 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3645 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2153 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2050 | 5 | 14% | 6% | -77% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1937 | 3 | 6% | 3% | -86% | -90% | 11 min |
-| Challenger ATP  | ✘ | 1395 | 6 | 12% | 5% | -60% | -78% | 5 min |
+| Counter-Strike 2 Game | ✘ | 1938 | 3 | 6% | 3% | -86% | -90% | 11 min |
+| Challenger ATP  | ✘ | 1396 | 6 | 12% | 5% | -60% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1061 | 5 | 19% | 8% | -56% | -67% | 24 min |
 | Women's College Basketball Game | partly | 979 | 3 | 15% | 6% | -71% | -75% | 29 min |
@@ -391,17 +391,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 17:05 | eSoccer Game | Crystal Palace (Vini) | ✘ | — | — | In play | — |
-| 11-26 17:04 | eSoccer Game | Sunderland (Bradley) | ✘ | — | — | In play | — |
-| 11-26 17:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 17:03 | eBasketball Game | Brooklyn Nets (Rodzilla) | ✘ | — | — | In play | — |
-| 11-26 17:02 | eSoccer Game | RC Lens (Florie) | ✘ | — | — | In play | — |
-| 11-26 17:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 17:01 | Challenger ATP  | Johan Nikles | ✘ | — | — | In play | — |
-| 11-26 16:59 | Russia Liga Pro Match | Dedov Vasilii | ✘ | — | — | In play | — |
+| 11-26 17:12 | ITF Women's Match | Barbara Gatica | ✘ | — | — | In play | — |
+| 11-26 17:10 | UEFA Conference League Game | Mjallby | ✔ | 83' · MJA 0 - KAI 1 | — | In play | — |
+| 11-26 17:09 | Lithuania NKL Game | Kauno Atletas | ✘ | — | — | In play | — |
+| 11-26 17:06 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:06 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:06 | Russia Liga Pro Match | Alov Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:06 | Russia Liga Pro Match | Afanasev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:05 | eSoccer Game | Crystal Palace (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:04 | eSoccer Game | Sunderland (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:03 | eBasketball Game | Brooklyn Nets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:02 | eSoccer Game | RC Lens (Florie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:02 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 17:01 | Challenger ATP  | Johan Nikles | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 16:59 | Russia Liga Pro Match | Dedov Vasilii | ✘ | — | 8¢ | ❌ Lost | -$0.15 |
 | 11-26 16:59 | Men's T20 Cricket Match | IAS Invincibles | ✘ | — | — | In play | — |
-| 11-26 16:55 | eSoccer Game | Mönchengladbach (Nyvex) | ✘ | — | — | In play | — |
-| 11-26 16:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 16:55 | eSoccer Game | Mönchengladbach (Nyvex) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 16:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 16:54 | Russia Liga Pro Match | Razinkov Timofei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 16:53 | Women's College Basketball Game | Southern University | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
 | 11-26 16:52 | eSoccer Game | Sunderland (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -413,14 +421,6 @@
 | 11-26 16:51 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 16:51 | eFootball Game | San Francisco (Joshua) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 16:49 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:46 | Russia Liga Pro Match | Gusev Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:40 | eSoccer Game | Freiburg (Skillz) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:38 | Counter-Strike 2 Game | Nordic Partners Gaming | ✘ | — | — | In play | — |
-| 11-26 16:38 | KHL Game | Salavat Yulaev UFA | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:38 | Challenger ATP  | Ryan Nijboer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:38 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 16:38 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
