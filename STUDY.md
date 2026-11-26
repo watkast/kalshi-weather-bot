@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 1:02 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 1:12 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76390 | 4147 | 17 (0%) | 1.1% | -$384.05 (-62%) | Hold to the end: -$384.05 (-62%) |
+| 76405 | 4147 | 17 (0%) | 1.1% | -$384.05 (-62%) | Hold to the end: -$384.05 (-62%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4147 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72221 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72228 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,17 +96,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36702 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36706 | 24 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4833 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3654 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2155 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2050 | 5 | 14% | 6% | -77% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1942 | 3 | 6% | 3% | -86% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1943 | 3 | 6% | 3% | -86% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1398 | 6 | 12% | 5% | -60% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1064 | 5 | 19% | 8% | -56% | -67% | 24 min |
-| Women's College Basketball Game | partly | 985 | 3 | 15% | 6% | -72% | -74% | 29 min |
-| eFootball Game | ✘ | 813 | 2 | 2% | 1% | -77% | -97% | 2 min |
+| Women's College Basketball Game | partly | 986 | 3 | 15% | 6% | -72% | -75% | 29 min |
+| eFootball Game | ✘ | 814 | 2 | 2% | 1% | -77% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 462 | 1 | 1% | 1% | -80% | -98% | 32 min |
@@ -391,10 +391,25 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 20:01 | Women's College Basketball Game | McNeese | ✘ | — | — | In play | — |
+| 11-26 20:12 | SHL Game | HV71 | ✘ | — | — | In play | — |
+| 11-26 20:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 20:09 | eSoccer Game | Liverpool (Krocs) | ✘ | — | — | In play | — |
+| 11-26 20:07 | SHL Game | Djurgardens IF | ✘ | — | — | In play | — |
+| 11-26 20:06 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 20:06 | eSoccer Game | France (Annie) | ✘ | — | — | In play | — |
+| 11-26 20:06 | eSoccer Game | England (Millie) | ✘ | — | — | In play | — |
+| 11-26 20:05 | eSoccer Game | Nottingham Forest (Bradley) | ✘ | — | — | In play | — |
+| 11-26 20:05 | SHL Game | Linkoping HC | ✘ | — | — | In play | — |
+| 11-26 20:04 | eSoccer Game | United States (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 20:04 | eSoccer Game | Portugal (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 20:04 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 20:04 | eSoccer Game | Arsenal (Vini) | ✘ | — | — | In play | — |
+| 11-26 20:04 | eFootball Game | Pittsburgh (Dexy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 20:02 | Counter-Strike 2 Game | B8 Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 20:01 | Women's College Basketball Game | McNeese | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:58 | UEFA Europa League Game | Tie | ✘ | — | — | In play | — |
-| 11-26 19:56 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 19:55 | eSoccer Game | Juventus (Krocs) | ✘ | — | — | In play | — |
+| 11-26 19:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:55 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:54 | Russia Liga Pro Match | Pinkovskii Pavel | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:54 | UEFA Europa League Game | Be'er Sheva | ✘ | — | — | In play | — |
 | 11-26 19:52 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -406,21 +421,6 @@
 | 11-26 19:46 | Counter-Strike 2 Game | X-CITY | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:44 | UEFA Conference League Game | Tie | ✔ | 90'+5' · MON 3 - HOM 2 | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:42 | UEFA Conference League Game | Heart of Midlothian | ✔ | 90'+4' · MON 2 - HOM 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:42 | Challenger WTA | Nuria Brancaccio | ✘ | — | 3¢ | ❌ Lost | -$0.15 |
-| 11-26 19:41 | eSoccer Game | Liverpool (Skillz) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:39 | Davis Cup Match | Jurij Rodionov | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | Russia Liga Pro Match | Afanasev Ivan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | Russia Liga Pro Match | Dedov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | eSoccer Game | England (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | UEFA Europa League Game | Lech Poznan | ✔ | 90'+3' · LECH 2 - USG 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | UEFA Europa League Game | Union Gilloise | ✔ | 90'+3' · LECH 2 - USG 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:38 | eSoccer Game | France (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:37 | UEFA Europa League Game | Tie | ✔ | 90'+4' · MIL 3 - OLY 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:37 | UEFA Conference League Game | Tie | ✔ | 90'+4' · LRI 1 - EGN 2 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:37 | UEFA Europa League Game | Tie | ✔ | 90'+3' · BOU 2 - CEL 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:37 | UEFA Conference League Game | Tie | ✔ | 90'+3' · GET 0 - IBE 1 | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
