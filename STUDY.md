@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 5:07 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 5:17 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75451 | 4081 | 17 (0%) | 1.1% | -$374.15 (-61%) | Hold to the end: -$374.15 (-61%) |
+| 75460 | 4081 | 17 (0%) | 1.1% | -$374.15 (-61%) | Hold to the end: -$374.15 (-61%) |
 
-*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4081 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71350 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71357 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,17 +96,17 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36184 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36188 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4747 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3602 | 8 | 4% | 2% | -79% | -91% | 3 min |
+| eBasketball Game | ✘ | 3603 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2135 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2038 | 5 | 13% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1928 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1378 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1035 | 5 | 19% | 9% | -55% | -67% | 24 min |
-| Women's College Basketball Game | partly | 968 | 3 | 15% | 6% | -71% | -75% | 29 min |
-| eFootball Game | ✘ | 784 | 2 | 2% | 1% | -76% | -97% | 2 min |
+| Women's College Basketball Game | partly | 969 | 3 | 15% | 6% | -71% | -75% | 29 min |
+| eFootball Game | ✘ | 785 | 2 | 2% | 1% | -76% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 456 | 1 | 1% | 1% | -80% | -98% | 32 min |
@@ -390,9 +390,18 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 00:06 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-26 00:15 | Men's College Basketball Game | South Carolina | ✔ | 0:05 - 2nd · SC 69 - USC 71 | — | In play | — |
+| 11-26 00:13 | eSoccer Game | FC Barcelona (NINJA) | ✘ | — | — | In play | — |
+| 11-26 00:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 00:11 | eFootball Game | Seattle (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:11 | eBasketball Game | Los Angeles Lakers (Shaq) | ✘ | — | — | In play | — |
+| 11-26 00:10 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:10 | eBasketball Game | Brooklyn Nets (Miles) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:07 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 00:06 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:05 | Men's College Basketball Game | Norfolk St. | ✘ | — | — | In play | — |
-| 11-26 00:03 | Women's College Basketball Game | UC Santa Barbara | ✘ | — | — | In play | — |
+| 11-26 00:03 | Women's College Basketball Game | UC Santa Barbara | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:03 | Women's College Basketball Game | Oregon St. | ✔ | 3:35 - 2nd · VAN 33 - ORST 24 | — | In play | — |
 | 11-26 00:02 | Women's College Basketball Game | Southeastern Louisiana | ✔ | 9:58 - 1st · SELA 0 - TEX 0 | — | In play | — |
 | 11-26 00:00 | Men's College Basketball Game | Dartmouth | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -411,15 +420,6 @@
 | 11-25 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 23:54 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-25 23:53 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:53 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:51 | eFootball Game | Denver (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:49 | Women's College Basketball Game | Samford | ✘ | — | — | In play | — |
-| 11-25 23:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:44 | Russia Liga Pro Match | Safonov Vladimir | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:44 | eSoccer Game | Manchester City (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:44 | eSoccer Game | Getafe CF (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-25 23:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
