@@ -1,6 +1,6 @@
 # Range-Scalp Bot
 
-*Updated Thu Nov 26 06:14 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
+*Updated Thu Nov 26 09:10 UTC. Paper money. Kalshi's 15-minute crypto up/down markets: when either side's price holds between 55¢ and 70¢ for 20 seconds, buy 10 contracts, sell at +5/+10/+15/+20¢, plus a +10¢ version that also cuts losses at −15¢ (five versions side by side), then look for the next one. Anything not sold rides to the close.*
 
 [← Back to all bots](README.md)
 
@@ -11,9 +11,9 @@
 | Sell at | Trades | Sold early | Held to close (won) | Open | P&L | Return |
 |---|---|---|---|---|---|---|
 | **+5¢** | 72483 | 63278 | 9205 (158) | 0 | $-19208.16 | -4.2% |
-| **+10¢** | 54059 | 43310 | 10749 (203) | 1 | $-17780.04 | -5.2% |
-| **+15¢** | 45268 | 33689 | 11579 (261) | 1 | $-15858.25 | -5.6% |
-| **+20¢** | 40293 | 28098 | 12195 (327) | 1 | $-14257.25 | -5.6% |
+| **+10¢** | 54060 | 43310 | 10750 (203) | 0 | $-17786.70 | -5.2% |
+| **+15¢** | 45269 | 33689 | 11580 (261) | 0 | $-15864.72 | -5.6% |
+| **+20¢** | 40294 | 28098 | 12196 (327) | 0 | $-14263.72 | -5.6% |
 | **+10¢ (15¢ stop)** | 88251 | 88042 | 209 (128) | 0 | $-32375.45 | -5.9% |
 
 ## Latest trades
@@ -22,9 +22,9 @@
 |---|---|---|---|---|---|---|
 | 11-26 06:14 | +5 | NEAR | DOWN | 0.40 | 0.54 | 1.05 |
 | 11-26 06:12 | +10 stop | NEAR | DOWN | 0.66 | 0.45 | -2.43 |
-| 11-26 06:12 | +20 | NEAR | DOWN | 0.63 | open |  |
-| 11-26 06:12 | +15 | NEAR | DOWN | 0.63 | open |  |
-| 11-26 06:12 | +10 | NEAR | DOWN | 0.65 | open |  |
+| 11-26 06:12 | +20 | NEAR | DOWN | 0.63 | yes | -6.47 |
+| 11-26 06:12 | +15 | NEAR | DOWN | 0.63 | yes | -6.47 |
+| 11-26 06:12 | +10 | NEAR | DOWN | 0.65 | yes | -6.66 |
 | 11-26 06:12 | +5 | NEAR | DOWN | 0.65 | 0.71 | 0.29 |
 | 11-26 06:10 | +5 | NEAR | DOWN | 0.58 | 0.69 | 0.77 |
 | 11-26 06:08 | +10 stop | NEAR | DOWN | 0.69 | 0.88 | 1.68 |
