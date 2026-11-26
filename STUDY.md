@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 6:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 6:30 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75533 | 4085 | 17 (0%) | 1.1% | -$374.75 (-61%) | Hold to the end: -$374.75 (-61%) |
+| 75536 | 4085 | 17 (0%) | 1.1% | -$374.75 (-61%) | Hold to the end: -$374.75 (-61%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4085 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71421 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71427 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36227 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36231 | 23 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4753 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3608 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2135 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -104,8 +104,8 @@
 | Counter-Strike 2 Game | ✘ | 1929 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1378 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 1041 | 5 | 19% | 9% | -55% | -67% | 24 min |
-| Women's College Basketball Game | partly | 972 | 3 | 15% | 6% | -71% | -75% | 29 min |
+| Men's College Basketball Game | partly | 1042 | 5 | 19% | 9% | -55% | -67% | 24 min |
+| Women's College Basketball Game | partly | 973 | 3 | 15% | 6% | -71% | -75% | 29 min |
 | eFootball Game | ✘ | 788 | 2 | 2% | 1% | -76% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -390,10 +390,13 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 01:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 01:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 01:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | — | In play | — |
-| 11-26 01:15 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | — | In play | — |
+| 11-26 01:28 | Men's College Basketball Game | Penn St. | ✔ | 12:39 - 2nd · MEM 67 - PSU 48 | — | In play | — |
+| 11-26 01:28 | Men's College Basketball Game | Mississippi Valley St. | ✘ | — | — | In play | — |
+| 11-26 01:27 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-26 01:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:15 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:15 | Argentina Primera Division Game | Reg Time: Rivadavia | ✘ | — | — | In play | — |
 | 11-26 01:13 | eFootball Game | Cincinnati (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:13 | Counter-Strike 2 Game | TTG Esports | ✘ | — | — | In play | — |
@@ -417,9 +420,6 @@
 | 11-26 00:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:55 | eSoccer Game | CA Osasuna (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 00:54 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:54 | eFootball Game | Cincinnati (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:51 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 00:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
