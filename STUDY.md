@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Wed Nov 25, 6:40 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Wed Nov 25, 6:50 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75552 | 4085 | 17 (0%) | 1.1% | -$374.75 (-61%) | Hold to the end: -$374.75 (-61%) |
+| 75558 | 4085 | 17 (0%) | 1.1% | -$374.75 (-61%) | Hold to the end: -$374.75 (-61%) |
 
-*In play right now: 33. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 29. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4085 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 71434 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 71444 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36235 | 23 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4755 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3608 | 8 | 4% | 2% | -79% | -91% | 3 min |
+| eSoccer Game | ✘ | 36241 | 23 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4756 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3610 | 8 | 4% | 2% | -79% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2135 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2038 | 5 | 13% | 6% | -77% | -77% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1929 | 3 | 6% | 3% | -85% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1378 | 6 | 12% | 5% | -59% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 1042 | 5 | 19% | 9% | -55% | -67% | 24 min |
+| Men's College Basketball Game | partly | 1043 | 5 | 19% | 9% | -55% | -67% | 24 min |
 | Women's College Basketball Game | partly | 973 | 3 | 15% | 6% | -71% | -75% | 29 min |
 | eFootball Game | ✘ | 789 | 2 | 2% | 1% | -76% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
@@ -390,21 +390,27 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 01:39 | eSoccer Game | RCD Mallorca (Strudl) | ✘ | — | — | In play | — |
-| 11-26 01:39 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 01:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | — | In play | — |
-| 11-26 01:35 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | — | In play | — |
-| 11-26 01:33 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | — | In play | — |
-| 11-26 01:33 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 01:49 | eSoccer Game | Sevilla FC (NINJA) | ✘ | — | — | In play | — |
+| 11-26 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 01:45 | eSoccer Game | Flamengo (Pedri) | ✘ | — | — | In play | — |
+| 11-26 01:42 | eSoccer Game | Estudiantes (Luis) | ✘ | — | — | In play | — |
+| 11-26 01:41 | Argentina Primera Division Game | Reg Time: Tie | ✘ | — | — | In play | — |
+| 11-26 01:39 | eSoccer Game | RCD Mallorca (Strudl) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:36 | eBasketball Game | Indiana Pacers (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:35 | Russia Liga Pro Match | Kryuchkov Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:33 | eBasketball Game | Denver Nuggets (IceKimi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:33 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:33 | eSoccer Game | Estudiantes (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:33 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:33 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
+| 11-26 01:33 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:32 | eFootball Game | New England (Mace) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:31 | Women's College Basketball Game | Pacific | ✘ | — | — | In play | — |
 | 11-26 01:31 | Russia Liga Pro Match | CHagaev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:31 | Russia Liga Pro Match | Kutuzov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:31 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 01:30 | eSoccer Game | São Paulo (Pedri) | ✘ | — | — | In play | — |
+| 11-26 01:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 01:30 | eSoccer Game | São Paulo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:30 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:28 | Men's College Basketball Game | Penn St. | ✔ | 12:39 - 2nd · MEM 67 - PSU 48 | — | In play | — |
 | 11-26 01:28 | Men's College Basketball Game | Mississippi Valley St. | ✘ | — | — | In play | — |
@@ -414,12 +420,6 @@
 | 11-26 01:16 | eSoccer Game | RC Lens (Nicol) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:15 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 01:15 | Argentina Primera Division Game | Reg Time: Rivadavia | ✘ | — | — | In play | — |
-| 11-26 01:13 | eFootball Game | Cincinnati (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:13 | Counter-Strike 2 Game | TTG Esports | ✘ | — | — | In play | — |
-| 11-26 01:09 | Russia Liga Pro Match | Denisov Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:08 | Russia Liga Pro Match | Lebedev Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:07 | eBasketball Game | Brooklyn Nets (Barry) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 01:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
