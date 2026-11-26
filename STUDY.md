@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 12:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 12:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76318 | 4117 | 17 (0%) | 1.1% | -$379.55 (-61%) | Hold to the end: -$379.55 (-61%) |
+| 76330 | 4117 | 17 (0%) | 1.1% | -$379.55 (-61%) | Hold to the end: -$379.55 (-61%) |
 
-*In play right now: 44. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4117 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72157 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72172 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36670 | 24 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4822 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3651 | 8 | 4% | 2% | -80% | -91% | 3 min |
+| eSoccer Game | ✘ | 36680 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4824 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3652 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2155 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2050 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1940 | 3 | 6% | 3% | -86% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1398 | 6 | 12% | 5% | -60% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 1063 | 5 | 19% | 8% | -56% | -67% | 24 min |
+| Men's College Basketball Game | partly | 1064 | 5 | 19% | 8% | -56% | -67% | 24 min |
 | Women's College Basketball Game | partly | 983 | 3 | 15% | 6% | -72% | -74% | 29 min |
 | eFootball Game | ✘ | 812 | 2 | 2% | 1% | -77% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
@@ -120,7 +120,7 @@
 | AHL Game | ✘ | 304 | 0 | 4% | 2% | -100% | -93% | 6 min |
 | College Hockey Game | ✘ | 270 | 0 | 1% | 0% | -100% | -99% | 16 min |
 | Major League Soccer Game | partly | 237 | 1 | 11% | 5% | -61% | -82% | 8 min |
-| Valorant game winner | ✘ | 223 | 0 | 3% | 2% | -100% | -95% | 18 min |
+| Valorant game winner | ✘ | 224 | 0 | 3% | 2% | -100% | -95% | 18 min |
 | UEFA Nations League Game | ✔ | 215 | 0 | 13% | 7% | -100% | -78% | 10 min |
 | Japan J2 League Game | ✘ | 209 | 1 | 11% | 4% | -55% | -82% | 7 min |
 | WTA Tennis Match | ✘ | 203 | 0 | 13% | 3% | -100% | -77% | 5 min |
@@ -391,36 +391,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-26 19:10 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 19:20 | UEFA Europa League Game | Levski Sofia | ✔ | 76' · LEV 0 - OLM 1 | — | In play | — |
+| 11-26 19:17 | UEFA Conference League Game | Lincoln Red Imps | ✔ | 74' · LRI 0 - EGN 1 | — | In play | — |
+| 11-26 19:17 | Valorant game winner | Enterprise Esports | ✘ | — | — | In play | — |
+| 11-26 19:16 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | — | In play | — |
+| 11-26 19:15 | UEFA Conference League Game | Tie | ✔ | 61' · RIG 0 - ZAL 2 | — | In play | — |
+| 11-26 19:15 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | — | In play | — |
+| 11-26 19:15 | UEFA Conference League Game | Tie | ✔ | 70' · THUN 0 - AJA 2 | — | In play | — |
+| 11-26 19:15 | UEFA Europa League Game | Tie | ✔ | 71' · B04 2 - DZG 0 | — | In play | — |
+| 11-26 19:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:13 | UEFA Conference League Game | Tie | ✔ | 70' · AGF 4 - SKBR 1 | — | In play | — |
+| 11-26 19:11 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:11 | Liiga Game | Vaasan Sport | ✘ | — | — | In play | — |
+| 11-26 19:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:10 | Valorant game winner | Barça eSports | ✘ | — | — | In play | — |
 | 11-26 19:10 | UEFA Conference League Game | Riga FC | ✔ | 55' · RIG 0 - ZAL 0 | — | In play | — |
-| 11-26 19:09 | eSoccer Game | Aston Villa (Castle) | ✘ | — | — | In play | — |
-| 11-26 19:09 | Russia Liga Pro Match | Komarov Denis | ✘ | — | — | In play | — |
-| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 19:09 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | — | In play | — |
-| 11-26 19:08 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-26 19:07 | Russia Liga Pro Match | IUgov Vasilii | ✘ | — | — | In play | — |
-| 11-26 19:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | — | In play | — |
-| 11-26 19:07 | eSoccer Game | Brighton (Kylian) | ✘ | — | — | In play | — |
+| 11-26 19:09 | eSoccer Game | Aston Villa (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:09 | Russia Liga Pro Match | Komarov Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:09 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:07 | Russia Liga Pro Match | IUgov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:07 | eSoccer Game | Brighton (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:06 | UEFA Europa League Game | Tie | ✔ | 64' · ARA 0 - SLZ 2 | — | In play | — |
 | 11-26 19:05 | Lithuania NKL Game | BC Sakiu Vytis-VDU | ✘ | — | — | In play | — |
 | 11-26 19:03 | UEFA Conference League Game | Brann | ✔ | 61' · AGF 4 - SKBR 1 | — | In play | — |
-| 11-26 19:00 | eBasketball Game | New York Knicks (Steph) | ✘ | — | — | In play | — |
+| 11-26 19:00 | eBasketball Game | New York Knicks (Steph) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:00 | UEFA Europa League Game | Tie | ✔ | 56' · SLB 0 - PLZ 4 | — | In play | — |
-| 11-26 18:59 | Russia Liga Pro Match | CHistiakov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:59 | eSoccer Game | Arsenal (Nyvex) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:57 | Men's College Basketball Game | Purdue | ✘ | — | — | In play | — |
-| 11-26 18:57 | eSoccer Game | Spurs (Bradley) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:57 | eSoccer Game | Chelsea (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:56 | Saudi Pro League Game | Al-Faisaly | ✘ | — | — | In play | — |
-| 11-26 18:56 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:54 | eSoccer Game | Montpellier (Millie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:54 | eSoccer Game | Manchester Utd (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 18:54 | eSoccer Game | Paris Saint-Germain (Olive) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
