@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 2:49 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 3:00 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 75921 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
+| 75925 | 4114 | 17 (0%) | 1.1% | -$379.10 (-61%) | Hold to the end: -$379.10 (-61%) |
 
-*In play right now: 28. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 32. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -390,6 +390,10 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-26 09:59 | eSoccer Game | AS Monaco (Dzen) | ✘ | — | — | In play | — |
+| 11-26 09:59 | Challenger ATP  | Georgii Kravchenko | ✘ | — | — | In play | — |
+| 11-26 09:59 | ITF Women's Match | Cristina Diaz Adrover | ✘ | — | — | In play | — |
+| 11-26 09:59 | ITF Men's Match | Aryan Lakshmanan | ✘ | — | — | In play | — |
 | 11-26 07:59 | eSoccer Game | Toulouse FC (Kovboj) | ✘ | — | — | In play | — |
 | 11-26 07:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
 | 11-26 07:56 | eSoccer Game | Olympique de Marseille (Maddy) | ✘ | — | — | In play | — |
@@ -416,10 +420,6 @@
 | 11-26 07:39 | eSoccer Game | Arsenal (Rose) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 07:39 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 07:39 | eFootball Game | Detroit (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 07:38 | Women's T20 Match | Adelaide Strikers Women | ✘ | — | — | In play | — |
-| 11-26 07:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 07:32 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 07:30 | Russia Liga Pro Match | Kuzmin Aleksandr | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
