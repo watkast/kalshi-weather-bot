@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 12:21 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 12:31 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76330 | 4117 | 17 (0%) | 1.1% | -$379.55 (-61%) | Hold to the end: -$379.55 (-61%) |
+| 76350 | 4117 | 17 (0%) | 1.1% | -$379.55 (-61%) | Hold to the end: -$379.55 (-61%) |
 
-*In play right now: 41. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 48. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4117 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72172 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72185 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36680 | 24 | 1% | 1% | -94% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4824 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 36686 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4828 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3652 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2155 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2050 | 5 | 14% | 6% | -77% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1940 | 3 | 6% | 3% | -86% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1941 | 3 | 6% | 3% | -86% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1398 | 6 | 12% | 5% | -60% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1064 | 5 | 19% | 8% | -56% | -67% | 24 min |
@@ -111,7 +111,7 @@
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 462 | 1 | 1% | 1% | -80% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 456 | 2 | 4% | 2% | -59% | -94% | 46 min |
-| Men's T20 Cricket Match | ✘ | 448 | 2 | 15% | 6% | -58% | -74% | 26 min |
+| Men's T20 Cricket Match | ✘ | 449 | 2 | 15% | 6% | -58% | -75% | 26 min |
 | Serie C Game | ✘ | 435 | 2 | 6% | 3% | -57% | -90% | 8 min |
 | NHL Game | ✔ | 390 | 3 | 16% | 8% | -28% | -73% | 5 min |
 | Challenger WTA | ✘ | 326 | 1 | 13% | 4% | -71% | -78% | 9 min |
@@ -141,7 +141,7 @@
 | LaLiga 2 Game | partly | 145 | 1 | 17% | 8% | -36% | -71% | 8 min |
 | EFL League One Game | ✔ | 145 | 1 | 9% | 3% | -36% | -84% | 10 min |
 | Serie B Game | ✘ | 141 | 0 | 11% | 5% | -100% | -80% | 10 min |
-| Liiga Game | ✘ | 134 | 0 | 0% | 0% | -100% | -100% | 6 min |
+| Liiga Game | ✘ | 135 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | Overwatch Game | ✘ | 133 | 0 | 2% | 1% | -100% | -96% | 6 min |
 | German 3. Liga Game | ✘ | 133 | 0 | 10% | 4% | -100% | -83% | 11 min |
 | Liga MX Game | ✔ | 132 | 0 | 14% | 8% | -100% | -75% | 6 min |
@@ -391,36 +391,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11-26 19:29 | Russia Liga Pro Match | SHvedov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:29 | UEFA Conference League Game | Tie | ✔ | 86' · MID 2 - PAF 0 | — | In play | — |
+| 11-26 19:29 | UEFA Conference League Game | Lugano | ✔ | 85' · LUG 0 - JABL 1 | — | In play | — |
+| 11-26 19:29 | UEFA Conference League Game | Getafe | ✔ | 85' · GET 0 - IBE 1 | — | In play | — |
+| 11-26 19:28 | UEFA Europa League Game | Olympiacos | ✔ | 85' · MIL 3 - OLY 2 | — | In play | — |
+| 11-26 19:26 | eSoccer Game | Arsenal (Krocs) | ✘ | — | — | In play | — |
+| 11-26 19:26 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-26 19:25 | Saudi Pro League Game | Diriyah Club | ✘ | — | — | In play | — |
+| 11-26 19:24 | eBasketball Game | Golden State Warriors (Larry) | ✘ | — | — | In play | — |
+| 11-26 19:24 | eSoccer Game | Nottingham Forest (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:24 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:23 | UEFA Conference League Game | Pafos | ✔ | 81' · MID 1 - PAF 0 | — | In play | — |
+| 11-26 19:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:23 | Russia Liga Pro Match | Evlampiev Vadim | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:22 | Counter-Strike 2 Game | aimclub | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:21 | eSoccer Game | Brighton (Vini) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-26 19:21 | Women's College Basketball Game | Wisconsin | ✘ | — | — | In play | — |
+| 11-26 19:21 | eBasketball Game | Los Angeles Lakers (Devin) | ✘ | — | — | In play | — |
+| 11-26 19:21 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:20 | UEFA Europa League Game | Levski Sofia | ✔ | 76' · LEV 0 - OLM 1 | — | In play | — |
 | 11-26 19:17 | UEFA Conference League Game | Lincoln Red Imps | ✔ | 74' · LRI 0 - EGN 1 | — | In play | — |
 | 11-26 19:17 | Valorant game winner | Enterprise Esports | ✘ | — | — | In play | — |
-| 11-26 19:16 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | — | In play | — |
+| 11-26 19:16 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:15 | UEFA Conference League Game | Tie | ✔ | 61' · RIG 0 - ZAL 2 | — | In play | — |
-| 11-26 19:15 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | — | In play | — |
+| 11-26 19:15 | Russia Liga Pro Match | Ilyukhin Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:15 | UEFA Conference League Game | Tie | ✔ | 70' · THUN 0 - AJA 2 | — | In play | — |
 | 11-26 19:15 | UEFA Europa League Game | Tie | ✔ | 71' · B04 2 - DZG 0 | — | In play | — |
 | 11-26 19:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 19:13 | UEFA Conference League Game | Tie | ✔ | 70' · AGF 4 - SKBR 1 | — | In play | — |
-| 11-26 19:11 | eSoccer Game | Juventus (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:11 | Liiga Game | Vaasan Sport | ✘ | — | — | In play | — |
-| 11-26 19:10 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:10 | Valorant game winner | Barça eSports | ✘ | — | — | In play | — |
-| 11-26 19:10 | UEFA Conference League Game | Riga FC | ✔ | 55' · RIG 0 - ZAL 0 | — | In play | — |
-| 11-26 19:09 | eSoccer Game | Aston Villa (Castle) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:09 | Russia Liga Pro Match | Komarov Denis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:09 | eSoccer Game | Olympique de Marseille (Annie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:08 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:07 | Russia Liga Pro Match | IUgov Vasilii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:07 | eSoccer Game | OL Lyonnes (Mia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:07 | eSoccer Game | Brighton (Kylian) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:06 | UEFA Europa League Game | Tie | ✔ | 64' · ARA 0 - SLZ 2 | — | In play | — |
-| 11-26 19:05 | Lithuania NKL Game | BC Sakiu Vytis-VDU | ✘ | — | — | In play | — |
-| 11-26 19:03 | UEFA Conference League Game | Brann | ✔ | 61' · AGF 4 - SKBR 1 | — | In play | — |
-| 11-26 19:00 | eBasketball Game | New York Knicks (Steph) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 19:00 | UEFA Europa League Game | Tie | ✔ | 56' · SLB 0 - PLZ 4 | — | In play | — |
 
 ## Raw data
 
