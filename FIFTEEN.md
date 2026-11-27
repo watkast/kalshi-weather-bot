@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 27, 1:46 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 27, 1:56 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69236 | 69202 | 257 (0%) | 1.07% | -$4,780.10 (-57%) | Hold to the close: -$4,780.10 (-57%) |
+| 69240 | 69202 | 257 (0%) | 1.07% | -$4,780.10 (-57%) | Hold to the close: -$4,780.10 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 10. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,10 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/27 1:56:19 AM | COPPER | DOWN | 3.7 min | — | — | In play | — |
+| 11/27 1:56:01 AM | XRP | UP | 4.0 min | -0.388% | — | In play | — |
+| 11/27 1:55:13 AM | SILVER | DOWN | 4.8 min | — | — | In play | — |
+| 11/27 1:53:29 AM | 10YRRATE | DOWN | 6.5 min | — | — | In play | — |
 | 11/27 1:44:46 AM | BRENT | UP | 13 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 1:44:46 AM | XRP | DOWN | 13 sec | -0.010% | 0¢ | ❌ Lost | $0.00 |
 | 11/27 1:44:43 AM | NEAR | UP | 17 sec | -0.196% | 0¢ | ❌ Lost | -$0.15 |
@@ -216,10 +220,6 @@
 | 11/27 1:29:42 AM | PALLADIUM | DOWN | 17 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 1:29:26 AM | SILVER | DOWN | 33 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 1:29:26 AM | DOGE | DOWN | 33 sec | +0.019% | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 1:29:26 AM | BNB | UP | 33 sec | -0.122% | 0¢ | ❌ Lost | $0.00 |
-| 11/27 1:29:10 AM | AUDUSD | UP | 50 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 1:29:10 AM | USDJPY | DOWN | 50 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 1:29:10 AM | HYPE | UP | 50 sec | -0.190% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
