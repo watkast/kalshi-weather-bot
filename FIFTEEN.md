@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 27, 2:17 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 27, 2:28 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69274 | 69240 | 257 (0%) | 1.07% | -$4,784.75 (-57%) | Hold to the close: -$4,784.75 (-57%) |
+| 69277 | 69240 | 257 (0%) | 1.07% | -$4,784.75 (-57%) | Hold to the close: -$4,784.75 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 9. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,9 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/27 2:28:02 AM | ETH | DOWN | 2.0 min | +0.116% | — | In play | — |
+| 11/27 2:28:02 AM | DOGE | DOWN | 2.0 min | +0.205% | — | In play | — |
+| 11/27 2:27:31 AM | SOL | DOWN | 2.5 min | +0.210% | — | In play | — |
 | 11/27 2:14:57 AM | DOGE | UP | 2 sec | -0.088% | 0¢ | ❌ Lost | $0.00 |
 | 11/27 2:14:57 AM | BTC | UP | 2 sec | -0.051% | 0¢ | ❌ Lost | $0.00 |
 | 11/27 2:14:41 AM | SILVER | DOWN | 19 sec | — | 0¢ | ❌ Lost | $0.00 |
@@ -217,9 +220,6 @@
 | 11/27 1:59:24 AM | GOLD | DOWN | 36 sec | — | 1¢ | ❌ Lost | -$0.15 |
 | 11/27 1:59:24 AM | BNB | UP | 36 sec | -0.090% | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 1:58:52 AM | 2YRRATE | DOWN | 68 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 1:58:37 AM | AUDUSD | DOWN | 82 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 1:58:37 AM | DOGE | DOWN | 82 sec | +0.112% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 1:58:37 AM | BTC | UP | 82 sec | -0.113% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
