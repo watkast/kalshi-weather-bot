@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 3:41 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 27, 3:51 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76813 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
+| 76828 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
 
-*In play right now: 17. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4164 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72632 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72645 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,12 +96,12 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36986 | 27 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4863 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 36994 | 27 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4866 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3682 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2158 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2053 | 5 | 14% | 6% | -77% | -77% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1944 | 3 | 6% | 3% | -86% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1945 | 3 | 6% | 3% | -86% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1407 | 6 | 12% | 5% | -60% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1074 | 5 | 19% | 9% | -57% | -67% | 24 min |
@@ -109,7 +109,7 @@
 | eFootball Game | ✘ | 832 | 2 | 2% | 1% | -78% | -97% | 2 min |
 | College Football Game | partly | 730 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
-| Dota 2 Game | ✘ | 462 | 1 | 1% | 1% | -80% | -98% | 32 min |
+| Dota 2 Game | ✘ | 463 | 1 | 1% | 1% | -80% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 456 | 2 | 4% | 2% | -59% | -94% | 46 min |
 | Men's T20 Cricket Match | ✘ | 450 | 2 | 15% | 6% | -59% | -75% | 27 min |
 | Serie C Game | ✘ | 435 | 2 | 6% | 3% | -57% | -90% | 8 min |
@@ -392,7 +392,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 10:36 | Counter-Strike 2 Game | spray'n'pray | ✘ | — | — | In play | — |
+| 11-27 10:51 | ITF Men's Match | Dominique Rolland | ✘ | — | — | In play | — |
+| 11-27 10:50 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
+| 11-27 10:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 10:45 | Russia Liga Pro Match | Kalnitskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:45 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | — | In play | — |
+| 11-27 10:44 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:43 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | Mönchengladbach (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | Stuttgart (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | Spain (Demi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:42 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 10:36 | Counter-Strike 2 Game | spray'n'pray | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:32 | ITF Women's Match | Victoria Gomez O'Hayon | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:31 | eSoccer Game | Manchester Utd (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -407,21 +422,6 @@
 | 11-27 10:21 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:19 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:18 | eSoccer Game | Manchester City (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:16 | Men's T20 Cricket Match | Australia | ✘ | — | — | In play | — |
-| 11-27 10:16 | Russia Liga Pro Match | CHagaev Aleksei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:15 | eSoccer Game | Paris Saint-Germain (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:15 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:15 | eSoccer Game | Benfica (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:13 | Dota 2 Game | Cloud Rising | ✘ | — | — | In play | — |
-| 11-27 10:09 | eSoccer Game | Manchester City (Hurricane) | ✘ | — | 99¢ | ✅ Won | $13.85 |
-| 11-27 10:08 | Australian A League Game | Melbourne City | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:06 | eBasketball Game | Indiana Pacers (Cade) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:05 | Russia Liga Pro Match | Surikov Viacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:05 | eSoccer Game | Everton (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:04 | eFootball Game | Chicago (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:04 | FIBA Game | Iran | ✘ | — | — | In play | — |
 
 ## Raw data
 
