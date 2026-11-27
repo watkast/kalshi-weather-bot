@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Fri Nov 27, 1:04 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Fri Nov 27, 1:14 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69175 | 69141 | 257 (0%) | 1.07% | -$4,772.45 (-57%) | Hold to the close: -$4,772.45 (-57%) |
+| 69195 | 69141 | 257 (0%) | 1.07% | -$4,772.45 (-57%) | Hold to the close: -$4,772.45 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 26. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,26 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/27 1:14:42 AM | WTI | UP | 17 sec | — | — | In play | — |
+| 11/27 1:14:42 AM | COPPER | DOWN | 17 sec | — | — | In play | — |
+| 11/27 1:14:42 AM | ETH | DOWN | 17 sec | +0.032% | — | In play | — |
+| 11/27 1:14:10 AM | SILVER | DOWN | 49 sec | — | — | In play | — |
+| 11/27 1:13:54 AM | SOL | UP | 66 sec | -0.180% | — | In play | — |
+| 11/27 1:13:54 AM | USDCAD | DOWN | 66 sec | — | — | In play | — |
+| 11/27 1:13:54 AM | USDJPY | DOWN | 66 sec | — | — | In play | — |
+| 11/27 1:13:35 AM | XRP | UP | 84 sec | -0.174% | — | In play | — |
+| 11/27 1:13:35 AM | PALLADIUM | DOWN | 84 sec | — | — | In play | — |
+| 11/27 1:13:19 AM | DOGE | DOWN | 1.7 min | +0.131% | — | In play | — |
+| 11/27 1:12:13 AM | AUDUSD | DOWN | 2.8 min | — | — | In play | — |
+| 11/27 1:12:13 AM | GOLD | DOWN | 2.8 min | — | — | In play | — |
+| 11/27 1:12:13 AM | ZEC | DOWN | 2.8 min | +0.587% | — | In play | — |
+| 11/27 1:11:20 AM | EURUSD | UP | 3.7 min | — | — | In play | — |
+| 11/27 1:11:04 AM | NATGAS | UP | 3.9 min | — | — | In play | — |
+| 11/27 1:10:48 AM | HYPE | DOWN | 4.2 min | +0.576% | — | In play | — |
+| 11/27 1:10:33 AM | USDMXN | UP | 4.4 min | — | — | In play | — |
+| 11/27 1:10:33 AM | BNB | DOWN | 4.4 min | +0.165% | — | In play | — |
+| 11/27 1:09:58 AM | NEAR | DOWN | 5.0 min | +0.542% | — | In play | — |
+| 11/27 1:08:19 AM | BTC | DOWN | 6.7 min | +0.431% | — | In play | — |
 | 11/27 12:59:44 AM | WTI | DOWN | 16 sec | — | 0¢ | ❌ Lost | $0.00 |
 | 11/27 12:59:44 AM | BRENT | DOWN | 16 sec | — | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 12:59:28 AM | 10YRRATE | DOWN | 32 sec | — | 0¢ | ❌ Lost | -$0.15 |
@@ -200,26 +220,6 @@
 | 11/27 12:57:50 AM | NEAR | DOWN | 2.1 min | +0.273% | 2¢ | ❌ Lost | -$0.15 |
 | 11/27 12:57:50 AM | ZEC | DOWN | 2.1 min | +0.510% | 1¢ | ❌ Lost | -$0.15 |
 | 11/27 12:57:50 AM | NATGAS | DOWN | 2.1 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:56:43 AM | PLATINUM | DOWN | 3.3 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:55:51 AM | COPPER | DOWN | 4.2 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:55:16 AM | AUDUSD | DOWN | 4.7 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:44 AM | GOLD | DOWN | 5.3 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:44 AM | XRP | DOWN | 5.3 min | +0.534% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:29 AM | BNB | DOWN | 5.5 min | +0.303% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:29 AM | SOL | DOWN | 5.5 min | +0.527% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:29 AM | DOGE | DOWN | 5.5 min | +0.394% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:29 AM | SILVER | DOWN | 5.5 min | — | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:54:29 AM | BTC | DOWN | 5.5 min | +0.391% | 2¢ | ❌ Lost | -$0.15 |
-| 11/27 12:53:31 AM | ETH | DOWN | 6.5 min | +0.418% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 12:52:08 AM | USDMXN | UP | 7.8 min | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:44:52 AM | USDMXN | DOWN | 7 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:44:52 AM | WTI | DOWN | 7 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/27 12:44:36 AM | BRENT | DOWN | 23 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:44:20 AM | USDCAD | DOWN | 39 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:44:04 AM | AUDUSD | UP | 56 sec | — | 0¢ | ❌ Lost | -$0.15 |
-| 11/27 12:44:04 AM | GOLD | UP | 56 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/27 12:44:04 AM | SILVER | UP | 56 sec | — | 0¢ | ❌ Lost | $0.00 |
-| 11/27 12:44:04 AM | XRP | UP | 56 sec | -0.195% | 0¢ | ❌ Lost | $0.00 |
 
 ## Raw data
 
