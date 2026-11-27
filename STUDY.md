@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 1:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 27, 2:05 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,7 +34,7 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 77264 | 4176 | 18 (0%) | 1.1% | -$374.40 (-60%) | Hold to the end: -$374.40 (-60%) |
+| 77289 | 4176 | 18 (0%) | 1.1% | -$374.40 (-60%) | Hold to the end: -$374.40 (-60%) |
 
 *In play right now: 50. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4176 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 73038 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 73063 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,8 +96,8 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 37191 | 28 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4900 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 37201 | 28 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4901 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3702 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2169 | 8 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2063 | 5 | 14% | 6% | -77% | -76% | 5 min |
@@ -105,16 +105,16 @@
 | Challenger ATP  | ✘ | 1415 | 6 | 12% | 5% | -60% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1080 | 5 | 19% | 9% | -57% | -67% | 24 min |
-| Women's College Basketball Game | partly | 998 | 3 | 15% | 6% | -72% | -74% | 29 min |
+| Women's College Basketball Game | partly | 999 | 3 | 15% | 6% | -72% | -74% | 29 min |
 | eFootball Game | ✘ | 838 | 2 | 2% | 2% | -78% | -97% | 2 min |
 | College Football Game | partly | 735 | 4 | 11% | 5% | -49% | -81% | 23 min |
-| Darts Match | ✘ | 487 | 0 | 0% | 0% | -100% | -100% | 7 min |
+| Darts Match | ✘ | 488 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 468 | 1 | 1% | 1% | -80% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 459 | 2 | 4% | 2% | -59% | -94% | 41 min |
 | Men's T20 Cricket Match | ✘ | 452 | 2 | 15% | 6% | -59% | -74% | 27 min |
 | Serie C Game | ✘ | 435 | 2 | 6% | 3% | -57% | -90% | 8 min |
 | NHL Game | ✔ | 393 | 3 | 16% | 8% | -29% | -73% | 5 min |
-| Challenger WTA | ✘ | 328 | 1 | 13% | 4% | -72% | -78% | 9 min |
+| Challenger WTA | ✘ | 329 | 1 | 13% | 4% | -72% | -78% | 9 min |
 | TT Star Series Match | ✘ | 320 | 1 | 2% | 2% | -71% | -97% | 5 min |
 | NBA Game | partly | 314 | 0 | 19% | 7% | -100% | -66% | 11 min |
 | AHL Game | ✘ | 304 | 0 | 4% | 2% | -100% | -93% | 6 min |
@@ -145,15 +145,15 @@
 | Liiga Game | ✘ | 136 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | German 3. Liga Game | ✘ | 135 | 0 | 10% | 4% | -100% | -83% | 11 min |
 | Overwatch Game | ✘ | 133 | 0 | 2% | 1% | -100% | -96% | 6 min |
-| Eerste Divisie Game | ✘ | 127 | 0 | 8% | 4% | -100% | -86% | 12 min |
+| Eerste Divisie Game | ✘ | 132 | 0 | 9% | 5% | -100% | -84% | 12 min |
 | Serie A Game | ✔ | 127 | 0 | 10% | 6% | -100% | -82% | 14 min |
 | R6 Game | ✘ | 121 | 1 | 10% | 4% | -23% | -83% | 8 min |
 | Peru Liga 1 Game | ✘ | 120 | 0 | 15% | 7% | -100% | -74% | 14 min |
 | USL Championship Game | partly | 120 | 0 | 11% | 4% | -100% | -81% | 5 min |
 | Japan B League Game | ✘ | 119 | 0 | 8% | 1% | -100% | -87% | 13 min |
 | NFL Game | ✔ | 117 | 2 | 19% | 8% | +60% | -67% | 9 min |
+| National League Game | ✘ | 115 | 1 | 1% | 1% | -19% | -98% | 6 min |
 | UEFA Champions League Game | partly | 114 | 1 | 12% | 5% | -18% | -79% | 10 min |
-| National League Game | ✘ | 113 | 1 | 1% | 1% | -17% | -98% | 6 min |
 | ELH Game | ✘ | 112 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Tweede Divisie Game | ✘ | 110 | 0 | 2% | 1% | -100% | -97% | 8 min |
 | TFF 1. Lig Game | ✘ | 110 | 0 | 11% | 6% | -100% | -81% | 11 min |
@@ -300,6 +300,7 @@
 | Women's Bundesliga Basketball Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 3 min |
 | Australia A League Women Game | ✘ | 14 | 0 | 7% | 0% | -100% | -88% | 5 min |
 | Scottish Championship Game | ✘ | 14 | 0 | 14% | 14% | -100% | -75% | 25 min |
+| Belgium Challenger Pro League Game | ✘ | 14 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Ukraine SuperLeague Game | ✘ | 13 | 0 | 8% | 0% | -100% | -87% | 12 min |
 | Poland PLK Game | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | RAF Match Result | ✘ | 13 | 0 | 0% | 0% | -100% | -100% | 2840 min |
@@ -315,7 +316,6 @@
 | SAFF Championship Game | ✘ | 10 | 0 | 30% | 10% | -100% | -48% | 31 min |
 | Scottish Women Premier League Game | ✘ | 10 | 0 | 10% | 0% | -100% | -83% | 8 min |
 | Slovenian Cup Game | ✘ | 10 | 0 | 10% | 10% | -100% | -83% | 20 min |
-| Belgium Challenger Pro League Game | ✘ | 10 | 0 | 0% | 0% | -100% | -100% | 8 min |
 | Israel National League Game | ✘ | 9 | 1 | 11% | 11% | +937% | -81% | 18 min |
 | Puerto Rican Winter League (LBPRC) | ✘ | 9 | 0 | 0% | 0% | -100% | -100% | 57 min |
 | Serbia KLS Game | ✘ | 8 | 0 | 12% | 12% | -100% | -78% | 8 min |
@@ -393,36 +393,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 20:54 | Belgium Challenger Pro League Game | KAS Eupen | ✘ | — | — | In play | — |
-| 11-27 20:54 | Belgium Challenger Pro League Game | Royal Francs Borains | ✘ | — | — | In play | — |
-| 11-27 20:52 | National League Game | SC Bern | ✘ | — | — | In play | — |
+| 11-27 21:05 | Serie C Game | Foggia | ✘ | — | — | In play | — |
+| 11-27 21:02 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 21:02 | Coupe de France Game | Caen | ✘ | — | — | In play | — |
+| 11-27 21:02 | eSoccer Game | England (Moana) | ✘ | — | — | In play | — |
+| 11-27 21:02 | Ligue Magnus Game | Chamonix | ✘ | — | — | In play | — |
+| 11-27 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 21:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 21:01 | eSoccer Game | Chelsea (Eder) | ✘ | — | — | In play | — |
+| 11-27 21:01 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
+| 11-27 21:00 | National League Game | Genève Servette | ✘ | — | — | In play | — |
+| 11-27 20:59 | FIBA Game | Slovenia | ✘ | — | — | In play | — |
+| 11-27 20:59 | eSoccer Game | Portugal (Adri) | ✘ | — | — | In play | — |
+| 11-27 20:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 20:59 | Darts Match | Brendan Dolan | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:58 | Eredivisie Game | Willem II | ✔ | 90'+4' · WIL 1 - GRO 1 | — | In play | — |
+| 11-27 20:57 | Challenger WTA | Laura Samson | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:57 | National League Game | EHC Kloten | ✘ | — | — | In play | — |
+| 11-27 20:57 | National League Game | Fribourg Gottéron | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:56 | Eerste Divisie Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:56 | Coupe de France Game | Pays du Valois | ✘ | — | — | In play | — |
+| 11-27 20:56 | Coupe de France Game | Tie | ✘ | — | — | In play | — |
+| 11-27 20:56 | Ligue Magnus Game | Aigles de Nice | ✘ | — | — | In play | — |
+| 11-27 20:56 | Coupe de France Game | Tie | ✘ | — | — | In play | — |
+| 11-27 20:55 | Eredivisie Game | Groningen | ✔ | 90'+2' · WIL 1 - GRO 0 | — | In play | — |
+| 11-27 20:55 | Russia Liga Pro Match | Olhovoi Evgenii | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:54 | Belgium Challenger Pro League Game | KAS Eupen | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:54 | Belgium Challenger Pro League Game | Royal Francs Borains | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 20:52 | National League Game | SC Bern | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 20:52 | Ecuador Liga Pro Game | Tie | ✘ | — | — | In play | — |
 | 11-27 20:52 | NHL Game | Nashville | ✔ | In SO · UTA 5 - NSH 5 | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:50 | DEL Game | Red Bull Munich | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:50 | eSoccer Game | Benfica (Arkon) | ✘ | — | — | In play | — |
-| 11-27 20:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 20:49 | DEL Game | Augsburger Panther | ✘ | — | — | In play | — |
-| 11-27 20:49 | DEL Game | Grizzlys Wolfsburg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:48 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 20:48 | eSoccer Game | Sunderland (Danny) | ✘ | — | — | In play | — |
-| 11-27 20:48 | eSoccer Game | Everton (Rooney) | ✘ | — | — | In play | — |
-| 11-27 20:48 | eSoccer Game | Manchester City (Sheerpy) | ✘ | — | — | In play | — |
-| 11-27 20:48 | eBasketball Game | Indiana Pacers (Tatum) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:47 | Russia Liga Pro Match | Chernyavskiy Mikhail | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:47 | eSoccer Game | Crystal Palace (Endrick) | ✘ | — | — | In play | — |
-| 11-27 20:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 20:46 | DEL Game | Straubing Tigers | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:46 | eSoccer Game | Spain (Rose) | ✘ | — | — | In play | — |
-| 11-27 20:46 | eSoccer Game | Argentina (Kitana) | ✘ | — | — | In play | — |
-| 11-27 20:46 | DEL Game | Krefeld Pinguine | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:46 | eBasketball Game | Denver Nuggets (Rodzilla) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:44 | Women's College Basketball Game | Drexel | ✘ | — | — | In play | — |
-| 11-27 20:42 | Women's College Basketball Game | South Dakota | ✘ | — | — | In play | — |
-| 11-27 20:42 | Ligue Magnus Game | Anglet Hormadi Elite | ✘ | — | — | In play | — |
-| 11-27 20:40 | Women's College Basketball Game | Little Rock | ✘ | — | — | In play | — |
-| 11-27 20:40 | Eerste Divisie Game | Jong Eindhoven | ✘ | — | — | In play | — |
-| 11-27 20:40 | Darts Match | Ross Smith | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 20:39 | Russia Liga Pro Match | Lyfenko Nikita | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
