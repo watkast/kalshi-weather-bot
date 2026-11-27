@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 9:48 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 9:58 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76709 | 4162 | 18 (0%) | 1.1% | -$372.30 (-60%) | Hold to the end: -$372.30 (-60%) |
+| 76713 | 4162 | 18 (0%) | 1.1% | -$372.30 (-60%) | Hold to the end: -$372.30 (-60%) |
 
-*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4162 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72523 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72533 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,9 +96,9 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36915 | 26 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 36923 | 26 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4851 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3672 | 8 | 4% | 2% | -80% | -91% | 3 min |
+| eBasketball Game | ✘ | 3674 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2157 | 8 | 14% | 6% | -65% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2050 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1944 | 3 | 6% | 3% | -86% | -90% | 11 min |
@@ -392,16 +392,20 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 04:48 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | — | In play | — |
-| 11-27 04:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 04:46 | eSoccer Game | Mönchengladbach (Declan) | ✘ | — | — | In play | — |
-| 11-27 04:46 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 04:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 04:58 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
+| 11-27 04:53 | eBasketball Game | Indiana Pacers (Davis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:50 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 04:50 | eSoccer Game | Newcastle Utd (Mantis) | ✘ | — | — | In play | — |
+| 11-27 04:48 | eBasketball Game | Denver Nuggets (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:46 | eSoccer Game | Mönchengladbach (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:46 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 04:45 | Challenger ATP  | David Jorda Sanchis | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 04:45 | eSoccer Game | RB Leipzig (Luis) | ✘ | — | — | In play | — |
-| 11-27 04:45 | eSoccer Game | Argentina (July) | ✘ | — | — | In play | — |
-| 11-27 04:44 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 04:44 | eSoccer Game | United States (Alicia) | ✘ | — | — | In play | — |
+| 11-27 04:45 | eSoccer Game | RB Leipzig (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:45 | eSoccer Game | Argentina (July) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
+| 11-27 04:44 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 04:44 | eSoccer Game | United States (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 04:38 | Liga MX Game | Tie | ✔ | 66' · CAZ 2 - LEO 0 | — | In play | — |
 | 11-27 04:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 04:37 | eSoccer Game | Spurs (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -418,10 +422,6 @@
 | 11-27 04:22 | eFootball Game | Los Angeles (Lamar) | ✘ | — | 31¢ | ❌ Lost | -$0.15 |
 | 11-27 04:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 04:21 | eBasketball Game | Golden State Warriors (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 04:20 | eBasketball Game | Los Angeles Lakers (Dirk) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 04:19 | eSoccer Game | Newcastle Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 04:18 | eSoccer Game | Argentina (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 04:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
