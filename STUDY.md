@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 7:20 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 27, 7:31 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 77071 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
+| 77081 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4164 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72880 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72892 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,13 +96,13 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 37121 | 28 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4888 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eSoccer Game | ✘ | 37131 | 28 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4889 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3696 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2167 | 8 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2062 | 5 | 14% | 6% | -77% | -76% | 5 min |
 | Counter-Strike 2 Game | ✘ | 1952 | 4 | 6% | 3% | -81% | -90% | 11 min |
-| Challenger ATP  | ✘ | 1412 | 6 | 12% | 5% | -60% | -79% | 5 min |
+| Challenger ATP  | ✘ | 1413 | 6 | 12% | 5% | -60% | -79% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1074 | 5 | 19% | 9% | -57% | -67% | 24 min |
 | Women's College Basketball Game | partly | 990 | 3 | 15% | 6% | -72% | -74% | 29 min |
@@ -393,18 +393,28 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 14:18 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | — | In play | — |
-| 11-27 14:18 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | — | In play | — |
-| 11-27 14:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 14:18 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 14:17 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 14:17 | eSoccer Game | AS Monaco (Danny) | ✘ | — | — | In play | — |
-| 11-27 14:17 | Challenger ATP  | Yannik Kelm | ✘ | — | — | In play | — |
+| 11-27 14:30 | Russia Liga Pro Match | Rukavishnikov Andrei | ✘ | — | — | In play | — |
+| 11-27 14:30 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 14:28 | eSoccer Game | Chelsea (Trinity) | ✘ | — | — | In play | — |
+| 11-27 14:27 | Darts Match | Alexander Merkx | ✘ | — | — | In play | — |
+| 11-27 14:25 | Liga Leumit Game | Tie | ✘ | — | — | In play | — |
+| 11-27 14:25 | Darts Match | William O’Connor | ✘ | — | — | In play | — |
+| 11-27 14:22 | eSoccer Game | Leverkusen (Krocs) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:22 | Counter-Strike 2 Game | Azuolas | ✘ | — | — | In play | — |
+| 11-27 14:22 | Russia Liga Pro Match | Bogdanov Dmitry | ✘ | — | — | In play | — |
+| 11-27 14:18 | Russia Liga Pro Match | Lanin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:18 | eSoccer Game | Nantes (Sheerpy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:18 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:17 | eSoccer Game | AS Monaco (Danny) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:17 | Challenger ATP  | Yannik Kelm | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:17 | Valorant game winner | GodLike Esports | ✘ | — | — | In play | — |
-| 11-27 14:16 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 14:16 | eSoccer Game | Chelsea (Trinity) | ✘ | — | — | In play | — |
+| 11-27 14:16 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 14:16 | eSoccer Game | Chelsea (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:16 | Liga Leumit Game | Kfar Saba | ✘ | — | — | In play | — |
-| 11-27 14:15 | eSoccer Game | Everton (Moana) | ✘ | — | — | In play | — |
+| 11-27 14:15 | eSoccer Game | Everton (Moana) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:10 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:10 | Dota 2 Game | Yangon Galacticos | ✘ | — | — | In play | — |
 | 11-27 14:10 | eSoccer Game | FC Koln (Nyvex) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -413,16 +423,6 @@
 | 11-27 14:08 | eBasketball Game | New Orleans Pelicans (Wemby) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:06 | Russia Liga Pro Match | Andreev Buianto | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 14:06 | eSoccer Game | Manchester City (Maddy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:06 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:04 | eSoccer Game | Stade Brestois 29 (Eder) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:04 | eSoccer Game | Toulouse FC (Endrick) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:04 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:03 | eSoccer Game | Arsenal (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:00 | Darts Match | Ritchie Edhouse | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 14:00 | Darts Match | Niko Springer | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 13:55 | Thai League 1 Game | Uthai Thani FC | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
