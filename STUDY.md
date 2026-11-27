@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 5:23 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 5:34 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76474 | 4149 | 17 (0%) | 1.1% | -$384.35 (-62%) | Hold to the end: -$384.35 (-62%) |
+| 76479 | 4149 | 17 (0%) | 1.1% | -$384.35 (-62%) | Hold to the end: -$384.35 (-62%) |
 
-*In play right now: 25. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 21. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4149 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72300 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72309 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36751 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36759 | 24 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4839 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3658 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2156 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -344,6 +344,7 @@
 | Turkey TBL Game | ✘ | 4 | 0 | 25% | 25% | -100% | -57% | 18 min |
 | Davis Cup Match | ✘ | 4 | 0 | 50% | 0% | -100% | -13% | 11 min |
 | Denmark Basketligaen Game | ✘ | 3 | 0 | 33% | 0% | -100% | -42% | 38 min |
+| FIBA Game | ✘ | 3 | 0 | 67% | 33% | -100% | +16% | 20 min |
 | Club Friendlies | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 12 min |
 | USL Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | National League Cup Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 122 min |
@@ -360,7 +361,6 @@
 | France National Division 1 Game | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Men's Test Cricket Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 2598 min |
 | Colombian Winter League (LPB) | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 11 min |
-| FIBA Game | ✘ | 2 | 0 | 50% | 0% | -100% | -13% | 15 min |
 | FIDE World Chess Championship Match | ✘ | 2 | 0 | 0% | 0% | -100% | -100% | 209 min |
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
@@ -392,14 +392,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 00:23 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 11-27 00:23 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 00:22 | eSoccer Game | Estudiantes (Pedri) | ✘ | — | — | In play | — |
-| 11-27 00:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 00:21 | eSoccer Game | São Paulo (Frenkie) | ✘ | — | — | In play | — |
-| 11-27 00:21 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 00:20 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | In play | — |
+| 11-27 00:32 | eFootball Game | Dallas (Mace) | ✘ | — | — | In play | — |
+| 11-27 00:31 | eBasketball Game | Los Angeles Lakers (Tim) | ✘ | — | — | In play | — |
+| 11-27 00:27 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 00:27 | eSoccer Game | Getafe CF (NINJA) | ✘ | — | — | In play | — |
+| 11-27 00:23 | Men's College Basketball Game | UCLA | ✔ | 3:40 - 2nd · UCLA 64 - SMC 78 | — | In play | — |
+| 11-27 00:23 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:23 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:22 | eSoccer Game | Estudiantes (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:22 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:21 | eSoccer Game | São Paulo (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:21 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 00:20 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 00:16 | Venezuelan Winter League (LVBP) | Bravos de Margarita | ✘ | — | — | In play | — |
 | 11-27 00:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 00:12 | eSoccer Game | CA Osasuna (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -417,11 +422,6 @@
 | 11-27 00:03 | Challenger WTA | Nadia Podoroska | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 00:01 | Men's College Basketball Game | USC | ✔ | 0:00 - 2nd · USC 74 - USU 77 | 0¢ | ❌ Lost | -$0.15 |
 | 11-26 23:58 | eSoccer Game | Girona (Mavi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 23:58 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 23:56 | FIBA Game | Canada | ✘ | — | — | In play | — |
-| 11-26 23:55 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 23:55 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-26 23:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
