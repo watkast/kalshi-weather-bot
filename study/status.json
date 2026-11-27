@@ -1,22 +1,22 @@
 {
- "saved_at": "2026-11-27T01:49:35+00:00",
+ "saved_at": "2026-11-27T02:00:05+00:00",
  "series_watched": 425,
- "markets_in_or_near_play": 119,
+ "markets_in_or_near_play": 123,
  "batch_lookup": false,
- "espn_games_linked": 10,
+ "espn_games_linked": 12,
  "espn_check": {
-  "at": "2026-11-27T01:27:07+00:00",
-  "started_games": 9,
-  "matched": 5,
+  "at": "2026-11-27T01:58:34+00:00",
+  "started_games": 10,
+  "matched": 6,
   "unmatched_sample": [
-   "KXNCAAWBGAME-26NOV26SCUXAV",
-   "KXNCAAMBGAME-26NOV26TCUCREI",
    "KXNCAAMBGAME-26NOV26JVSTUCD",
-   "KXNCAAMBGAME-26NOV26PITTDEP"
+   "KXNCAAMBGAME-26NOV26PITTDEP",
+   "KXNCAAWBGAME-26NOV26CINMOH",
+   "KXNCAAWBGAME-26NOV26SCUXAV"
   ]
  },
- "bets": 76549,
- "open": 18,
+ "bets": 76558,
+ "open": 23,
  "errors": [
   "2026-11-27T00:51:49+00:00 KXNCAAWBGAME-26NOV26AFATTU-AFA history: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets/trades?ticker=KXNCAAWBGAME-26NOV26AFATTU-AFA&limit=1000&min_ts=1795718405&max_ts=1795740641&cursor=EhIKEAcqc8R8UYFFgr7tlfuQCDcaCwjPn6PYBhCozLpp"
  ]

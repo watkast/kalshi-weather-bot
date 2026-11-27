@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 6:49 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 7:00 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76549 | 4155 | 18 (0%) | 1.1% | -$371.25 (-60%) | Hold to the end: -$371.25 (-60%) |
+| 76558 | 4155 | 18 (0%) | 1.1% | -$371.25 (-60%) | Hold to the end: -$371.25 (-60%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 23. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4155 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72376 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72380 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36803 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36807 | 24 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4848 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3663 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2156 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -392,10 +392,19 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 01:47 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 01:46 | eSoccer Game | Botafogo (Declan) | ✘ | — | — | In play | — |
-| 11-27 01:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 01:45 | eSoccer Game | Estudiantes (Luis) | ✘ | — | — | In play | — |
+| 11-27 01:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 01:59 | eSoccer Game | São Paulo (Luis) | ✘ | — | — | In play | — |
+| 11-27 01:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 01:58 | eSoccer Game | Estudiantes (Declan) | ✘ | — | — | In play | — |
+| 11-27 01:57 | eBasketball Game | New Orleans Pelicans (Jalen) | ✘ | — | — | In play | — |
+| 11-27 01:57 | eFootball Game | Kansas City (Cooper) | ✘ | — | — | In play | — |
+| 11-27 01:56 | FIBA Game | Bahamas | ✘ | — | — | In play | — |
+| 11-27 01:52 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 01:50 | eSoccer Game | Real Madrid (NINJA) | ✘ | — | — | In play | — |
+| 11-27 01:47 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 01:46 | eSoccer Game | Botafogo (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 01:45 | eSoccer Game | Estudiantes (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:39 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:39 | eSoccer Game | RCD Mallorca (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:39 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -413,15 +422,6 @@
 | 11-27 01:31 | eSoccer Game | Estudiantes (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:31 | Challenger ATP  | Karl Poling | ✘ | — | 2¢ | ❌ Lost | -$0.15 |
 | 11-27 01:28 | eBasketball Game | Indiana Pacers (Bryce) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:28 | Men's College Basketball Game | TCU | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:19 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:19 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:19 | Russia Liga Pro Match | Aksentev Sergei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:17 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:16 | eSoccer Game | OL Lyonnes (Alicia) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:15 | eFootball Game | Cincinnati (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:11 | Russia Liga Pro Match | Nikulin Sergey | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
