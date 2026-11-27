@@ -1,22 +1,22 @@
 {
- "saved_at": "2026-11-27T02:20:48+00:00",
+ "saved_at": "2026-11-27T02:31:20+00:00",
  "series_watched": 425,
- "markets_in_or_near_play": 123,
+ "markets_in_or_near_play": 143,
  "batch_lookup": false,
  "espn_games_linked": 12,
  "espn_check": {
-  "at": "2026-11-27T01:58:34+00:00",
+  "at": "2026-11-27T02:29:51+00:00",
   "started_games": 10,
   "matched": 6,
   "unmatched_sample": [
-   "KXNCAAMBGAME-26NOV26JVSTUCD",
-   "KXNCAAMBGAME-26NOV26PITTDEP",
    "KXNCAAWBGAME-26NOV26CINMOH",
-   "KXNCAAWBGAME-26NOV26SCUXAV"
+   "KXNCAAWBGAME-26NOV26SCUXAV",
+   "KXNCAAMBGAME-26NOV26JVSTUCD",
+   "KXNCAAMBGAME-26NOV26PITTDEP"
   ]
  },
- "bets": 76574,
- "open": 19,
+ "bets": 76583,
+ "open": 23,
  "errors": [
   "2026-11-27T00:51:49+00:00 KXNCAAWBGAME-26NOV26AFATTU-AFA history: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets/trades?ticker=KXNCAAWBGAME-26NOV26AFATTU-AFA&limit=1000&min_ts=1795718405&max_ts=1795740641&cursor=EhIKEAcqc8R8UYFFgr7tlfuQCDcaCwjPn6PYBhCozLpp",
   "2026-11-27T02:16:59+00:00 KXESOCCERGAME-26NOV262103ELLINICO-ELLI history: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/series/KXESOCCERGAME/markets/KXESOCCERGAME-26NOV262103ELLINICO-ELLI/candlesticks?start_ts=1795745358&end_ts=1795745778&period_interval=1",
