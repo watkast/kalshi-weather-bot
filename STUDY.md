@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 6:07 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 27, 6:17 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76985 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
+| 76997 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
 
-*In play right now: 30. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4164 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72791 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72797 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 37075 | 28 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 37081 | 28 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4878 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3690 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2167 | 8 | 14% | 6% | -66% | -76% | 4 min |
@@ -393,14 +393,26 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 13:05 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | — | In play | — |
-| 11-27 13:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:17 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | — | In play | — |
+| 11-27 13:15 | ITF Men's Match | James Beaven | ✘ | — | — | In play | — |
+| 11-27 13:15 | Dota 2 Game | PARIVISION | ✘ | — | — | In play | — |
+| 11-27 13:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:15 | eSoccer Game | Leverkusen (Bony) | ✘ | — | — | In play | — |
+| 11-27 13:15 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:14 | Russia Liga Pro Match | Goncharik Vasilii | ✘ | — | — | In play | — |
+| 11-27 13:13 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:12 | eSoccer Game | Hoffenheim (Antonio) | ✘ | — | — | In play | — |
+| 11-27 13:12 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 11-27 13:11 | eSoccer Game | Spain (Demi) | ✘ | — | — | In play | — |
+| 11-27 13:11 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:05 | eSoccer Game | Manchester Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 13:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 13:02 | Women's T20 Match | Hobart Hurricanes Women | ✘ | — | — | In play | — |
-| 11-27 13:01 | eSoccer Game | Werder Bremen (Fede) | ✘ | — | — | In play | — |
-| 11-27 13:01 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:01 | eSoccer Game | Werder Bremen (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 13:01 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 13:00 | China CBA (W) Game | Henan Yuguang Jinqian | ✘ | — | — | In play | — |
 | 11-27 13:00 | FIBA Game | Syria | ✘ | — | — | In play | — |
-| 11-27 13:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 13:00 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:59 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:59 | China CBA (W) Game | Hefei Cultural Tourism | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:59 | Russia Liga Pro Match | CHereugin Stanislav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -409,20 +421,8 @@
 | 11-27 12:58 | ITF Women's Match | Madelief Hageman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:57 | eSoccer Game | Portugal (Lexi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:57 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:57 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | — | In play | — |
+| 11-27 12:57 | eSoccer Game | 1. FC Köln (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 12:54 | eFootball Game | Tampa Bay (Walter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:54 | Ukrainian Premier League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:53 | Vietnam V-League 1 Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:51 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:51 | eSoccer Game | Newcastle Utd (Dzen) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:49 | Vietnam V-League 1 Game | CONG AN | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:49 | Vietnam V-League 1 Game | Nam Dinh | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:49 | Russia Liga Pro Match | Tarasenkov Nikolay | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:49 | China CBA (W) Game | Dalian Wenti Lv | ✘ | — | — | In play | — |
-| 11-27 12:49 | Russia Liga Pro Match | Glazun Evgeniy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:48 | eBasketball Game | Dallas Mavericks (Ray) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:47 | eSoccer Game | Leverkusen (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 12:47 | eSoccer Game | FC Bayern (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
