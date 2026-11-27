@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 4:12 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Fri Nov 27, 4:22 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76849 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
+| 76856 | 4164 | 18 (0%) | 1.1% | -$372.60 (-60%) | Hold to the end: -$372.60 (-60%) |
 
-*In play right now: 22. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 20. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4164 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72663 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72672 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 37002 | 27 | 1% | 1% | -93% | -98% | 3 min |
+| eSoccer Game | ✘ | 37008 | 27 | 1% | 1% | -93% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4868 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3684 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2158 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -106,12 +106,12 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1074 | 5 | 19% | 9% | -57% | -67% | 24 min |
 | Women's College Basketball Game | partly | 990 | 3 | 15% | 6% | -72% | -74% | 29 min |
-| eFootball Game | ✘ | 832 | 2 | 2% | 1% | -78% | -97% | 2 min |
+| eFootball Game | ✘ | 833 | 2 | 2% | 1% | -78% | -97% | 2 min |
 | College Football Game | partly | 730 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 463 | 1 | 1% | 1% | -80% | -98% | 32 min |
 | Women's College Volleyball Match | ✘ | 456 | 2 | 4% | 2% | -59% | -94% | 46 min |
-| Men's T20 Cricket Match | ✘ | 450 | 2 | 15% | 6% | -59% | -75% | 27 min |
+| Men's T20 Cricket Match | ✘ | 451 | 2 | 15% | 6% | -59% | -75% | 26 min |
 | Serie C Game | ✘ | 435 | 2 | 6% | 3% | -57% | -90% | 8 min |
 | NHL Game | ✔ | 390 | 3 | 16% | 8% | -28% | -73% | 5 min |
 | Challenger WTA | ✘ | 328 | 1 | 13% | 4% | -72% | -78% | 9 min |
@@ -365,6 +365,7 @@
 | England Super League Rugby Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 5 min |
 | Rugby NRL Match | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Europe Adriatic League 2 Game | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 10 min |
+| Australian Baseball League (ABL) | ✘ | 1 | 0 | 0% | 0% | -100% | -100% | 3 min |
 
 ## By time left when it hit 1¢
 
@@ -392,15 +393,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 11:12 | eFootball Game | Atlanta (Speed) | ✘ | — | — | In play | — |
+| 11-27 11:22 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-27 11:22 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 11:18 | Australian Baseball League (ABL) | Sydney Blue Sox | ✘ | — | — | In play | — |
+| 11-27 11:16 | Australian Baseball League (ABL) | Brisbane Bandits | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 11:15 | Japan B.League One Game | Gifu Swoops | ✘ | — | — | In play | — |
+| 11-27 11:14 | eSoccer Game | Manchester City (Ryft) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 11:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 11:12 | eFootball Game | Atlanta (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 11:10 | ITF Men's Match | Odysseas Geladaris | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 11:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 11:09 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 11:08 | eSoccer Game | England (Trinity) | ✘ | — | — | In play | — |
+| 11-27 11:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 11:09 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 11:08 | eSoccer Game | England (Trinity) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 11:06 | Challenger ATP  | Ergi Kirkin | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 11:06 | eSoccer Game | Portugal (Lexi) | ✘ | — | — | In play | — |
+| 11-27 11:06 | eSoccer Game | Portugal (Lexi) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
 | 11-27 11:05 | Valorant game winner | Young Gaming | ✘ | — | — | In play | — |
-| 11-27 11:05 | Men's T20 Cricket Match | Lokseva Academy | ✘ | — | — | In play | — |
+| 11-27 11:05 | Men's T20 Cricket Match | Lokseva Academy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 11:04 | Russia Liga Pro Match | Nosov Andrei | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 11:02 | Russia Liga Pro Match | Gavrilov Yuriy | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 11:00 | Challenger ATP  | Alejo Sanchez Quilez | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -415,13 +423,6 @@
 | 11-27 10:54 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:51 | ITF Men's Match | Dominique Rolland | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 10:50 | Counter-Strike 2 Game | WRAITH PCIFIC | ✘ | — | — | In play | — |
-| 11-27 10:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:45 | Russia Liga Pro Match | Kalnitskii Roman | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:45 | eSoccer Game | Manchester City (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:44 | Russia Liga Pro Match | Moshnikov Oleg | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:43 | Russia Liga Pro Match | Chernov Vyacheslav | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 10:43 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
