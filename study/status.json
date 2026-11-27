@@ -1,5 +1,5 @@
 {
- "saved_at": "2026-11-27T03:03:03+00:00",
+ "saved_at": "2026-11-27T03:13:30+00:00",
  "series_watched": 425,
  "markets_in_or_near_play": 120,
  "batch_lookup": false,
@@ -14,8 +14,8 @@
    "KXNCAAWBGAME-26NOV26SCUXAV"
   ]
  },
- "bets": 76613,
- "open": 28,
+ "bets": 76625,
+ "open": 30,
  "errors": [
   "2026-11-27T00:51:49+00:00 KXNCAAWBGAME-26NOV26AFATTU-AFA history: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/markets/trades?ticker=KXNCAAWBGAME-26NOV26AFATTU-AFA&limit=1000&min_ts=1795718405&max_ts=1795740641&cursor=EhIKEAcqc8R8UYFFgr7tlfuQCDcaCwjPn6PYBhCozLpp",
   "2026-11-27T02:16:59+00:00 KXESOCCERGAME-26NOV262103ELLINICO-ELLI history: 429 Client Error: Too Many Requests for url: https://api.elections.kalshi.com/trade-api/v2/series/KXESOCCERGAME/markets/KXESOCCERGAME-26NOV262103ELLINICO-ELLI/candlesticks?start_ts=1795745358&end_ts=1795745778&period_interval=1",
