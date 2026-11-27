@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 7:10 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 7:20 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76562 | 4155 | 18 (0%) | 1.1% | -$371.25 (-60%) | Hold to the end: -$371.25 (-60%) |
+| 76574 | 4155 | 18 (0%) | 1.1% | -$371.25 (-60%) | Hold to the end: -$371.25 (-60%) |
 
-*In play right now: 18. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 19. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4155 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72389 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72398 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36813 | 24 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36822 | 25 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4848 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3665 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2156 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -392,10 +392,22 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 02:09 | eSoccer Game | Montpellier (July) | ✘ | — | — | In play | — |
-| 11-27 02:05 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 02:19 | T10 Match | Secret Storm | ✘ | — | — | In play | — |
+| 11-27 02:19 | eSoccer Game | Manchester City (Mantis) | ✘ | — | — | In play | — |
+| 11-27 02:19 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | — | In play | — |
+| 11-27 02:18 | eFootball Game | Chicago (Mace) | ✘ | — | — | In play | — |
+| 11-27 02:14 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:14 | eSoccer Game | Nantes (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:13 | eSoccer Game | Universitario (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:12 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:12 | eSoccer Game | Botafogo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 02:12 | eSoccer Game | Tie | ✘ | — | — | ❌ Lost | -$0.15 |
+| 11-27 02:11 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | — | ❌ Lost | -$0.15 |
+| 11-27 02:09 | eSoccer Game | Montpellier (July) | ✘ | — | 99¢ | ✅ Won | $13.85 |
+| 11-27 02:05 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 02:03 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 02:02 | eSoccer Game | Chelsea (Mantis) | ✘ | — | — | In play | — |
+| 11-27 02:02 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 11¢ | ❌ Lost | -$0.15 |
 | 11-27 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:59 | eSoccer Game | São Paulo (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:59 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -410,18 +422,6 @@
 | 11-27 01:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:45 | eSoccer Game | Estudiantes (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 01:39 | eSoccer Game | Real Betis (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:39 | eSoccer Game | RCD Mallorca (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:39 | Russia Liga Pro Match | Evlakhin Dmitry | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:35 | eFootball Game | New England (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:34 | eSoccer Game | Montpellier (July) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:34 | eSoccer Game | Olympique de Marseille (Quinnie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:34 | eBasketball Game | Dallas Mavericks (Tim) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:34 | Russia Liga Pro Match | Kalashnikov Evgeny | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:32 | NFL Game | Dallas | ✔ | 0:02 - 4th · PHI 39 - DAL 38 | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:32 | eSoccer Game | São Paulo (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 01:31 | eSoccer Game | Paris Saint-Germain (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
