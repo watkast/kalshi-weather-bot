@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Thu Nov 26, 8:45 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Thu Nov 26, 8:55 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 76652 | 4158 | 18 (0%) | 1.1% | -$371.70 (-60%) | Hold to the end: -$371.70 (-60%) |
+| 76660 | 4158 | 18 (0%) | 1.1% | -$371.70 (-60%) | Hold to the end: -$371.70 (-60%) |
 
-*In play right now: 27. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 24. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -74,7 +74,7 @@
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
 | Verified | 4158 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 72467 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Unverified | 72478 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -96,7 +96,7 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 36868 | 25 | 1% | 1% | -94% | -98% | 3 min |
+| eSoccer Game | ✘ | 36878 | 25 | 1% | 1% | -94% | -98% | 3 min |
 | Russia Liga Pro Match | ✘ | 4851 | 0 | 2% | 1% | -100% | -97% | 4 min |
 | eBasketball Game | ✘ | 3670 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2156 | 8 | 14% | 6% | -65% | -76% | 4 min |
@@ -106,7 +106,7 @@
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
 | Men's College Basketball Game | partly | 1071 | 5 | 19% | 8% | -56% | -67% | 24 min |
 | Women's College Basketball Game | partly | 989 | 3 | 15% | 6% | -72% | -74% | 29 min |
-| eFootball Game | ✘ | 825 | 2 | 2% | 1% | -77% | -97% | 2 min |
+| eFootball Game | ✘ | 826 | 2 | 2% | 1% | -77% | -97% | 2 min |
 | College Football Game | partly | 729 | 4 | 11% | 5% | -49% | -81% | 23 min |
 | Darts Match | ✘ | 476 | 0 | 0% | 0% | -100% | -100% | 7 min |
 | Dota 2 Game | ✘ | 462 | 1 | 1% | 1% | -80% | -98% | 32 min |
@@ -392,16 +392,24 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-27 03:41 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 03:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | — | In play | — |
-| 11-27 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 03:37 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 03:37 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
-| 11-27 03:37 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | — | In play | — |
-| 11-27 03:36 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 03:35 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-27 03:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | — | In play | — |
-| 11-27 03:34 | eSoccer Game | Dortmund (Luis) | ✘ | — | — | In play | — |
+| 11-27 03:55 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 03:54 | eSoccer Game | Crystal Palace (NINJA) | ✘ | — | — | In play | — |
+| 11-27 03:51 | eSoccer Game | England (Lucy) | ✘ | — | — | In play | — |
+| 11-27 03:51 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 03:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-27 03:48 | eSoccer Game | Spain (Nicol) | ✘ | — | — | In play | — |
+| 11-27 03:46 | eSoccer Game | France (Quinnie) | ✘ | — | — | In play | — |
+| 11-27 03:45 | eFootball Game | Pittsburgh (Cooper) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:41 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:41 | eSoccer Game | Manchester Utd (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:37 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:37 | eSoccer Game | England (Lucy) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:37 | eSoccer Game | FSV Mainz 05 (Pedri) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:36 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:35 | eSoccer Game | Portugal (Ellie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-27 03:34 | eSoccer Game | Dortmund (Luis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 03:29 | Men's College Basketball Game | St. John's | ✔ | 14:30 - 2nd · LOU 68 - SJU 44 | — | In play | — |
 | 11-27 03:27 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 03:24 | eFootball Game | Green Bay (Lamar) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
@@ -414,14 +422,6 @@
 | 11-27 03:23 | eSoccer Game | FC Augsburg (Declan) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 03:22 | eSoccer Game | Chelsea (Mantis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-27 03:20 | eSoccer Game | Leverkusen (Frenkie) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 03:20 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 03:20 | College Football Game | TCU | ✔ | 9:54 - 3rd · TCU 10 - TTU 34 | — | In play | — |
-| 11-27 03:19 | eSoccer Game | United States (Alicia) | ✘ | — | 5¢ | ❌ Lost | -$0.15 |
-| 11-27 03:14 | Venezuelan Winter League (LVBP) | Tigres de Aragua | ✘ | — | — | In play | — |
-| 11-27 03:13 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 03:10 | eSoccer Game | Manchester City (NINJA) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-27 03:10 | Liga MX Game | Tie | ✔ | 90'+10' · GDL 1 - PAC 2 | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
