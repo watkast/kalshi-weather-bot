@@ -1,6 +1,6 @@
 # 1¢ Study
 
-*Updated Fri Nov 27, 11:51 PM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
+*Updated Sat Nov 28, 12:01 AM MT. Paper money: each bet buys 14 contracts at 1¢ (14¢ + 1¢ fee). Prices come from Kalshi's own trade records and minute-by-minute bid/ask.*
 
 [← Back to all bots](README.md)
 
@@ -22,7 +22,7 @@
 
 | Rule | Bets | P&L | Return |
 |---|---|---|---|
-| ESPN win probability ≥ 2%, hold to the end | 222 | -$5.30 | -16% |
+| ESPN win probability ≥ 2%, hold to the end | 223 | -$5.45 | -16% |
 | ESPN win probability ≥ 5%, sell at 50¢ | 89 | -$6.60 | -49% |
 | ESPN win probability ≥ 5%, sell at 25¢ | 89 | -$6.73 | -50% |
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments (all leagues) | Finished (verified) | Came back & won | Break-even win rate | Hold-to-end P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 77945 | 4244 | 20 (0%) | 1.1% | -$356.60 (-56%) | Hold to the end: -$356.60 (-56%) |
+| 77960 | 4245 | 20 (0%) | 1.1% | -$356.75 (-56%) | Hold to the end: -$356.75 (-56%) |
 
-*In play right now: 36. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
+*In play right now: 35. Verified = ESPN confirmed the game was still being played when we bought. Unverified leagues are shown separately below.*
 
 ## Prediction models
 
@@ -50,7 +50,7 @@
 
 | Model | Bets scored | Avg chance it gave | Actual win rate | Accuracy vs market | Verdict |
 |---|---|---|---|---|---|
-| ESPN win probability | 1175 | 2.8% | 0.3% (4) | -160% | ❌ Worse |
+| ESPN win probability | 1176 | 2.8% | 0.3% (4) | -160% | ❌ Worse |
 
 *Accuracy vs market compares the model's predictions with Kalshi's 1¢ price (log-loss skill). Positive = the model predicted outcomes better than the market.*
 
@@ -58,8 +58,8 @@
 
 | Buy only when… | Bets | Won | Hold return | Sell@2¢ | Sell@3¢ | Sell@5¢ |
 |---|---|---|---|---|---|---|
-| **Any 1¢ (no model)** | 1175 | 4 | -68% | -70% | -68% | -69% |
-| ESPN win probability ≥ 2% | 222 | 2 | -16% | -57% | -54% | -57% |
+| **Any 1¢ (no model)** | 1176 | 4 | -68% | -70% | -68% | -69% |
+| ESPN win probability ≥ 2% | 223 | 2 | -16% | -57% | -55% | -57% |
 | ESPN win probability ≥ 5% | 89 | 1 | +5% | -82% | -85% | -85% |
 | ESPN win probability ≥ 10% | 60 | 1 | +56% | -83% | -83% | -86% |
 
@@ -73,8 +73,8 @@
 
 | Group | Bets | ≥2¢ | ≥3¢ | ≥5¢ | ≥10¢ | ≥25¢ | ≥50¢ |
 |---|---|---|---|---|---|---|---|
-| Verified | 4244 | 14% | 10% | 7% | 3% | 1% | 1% |
-| Unverified | 73665 | 4% | 3% | 2% | 1% | 0% | 0% |
+| Verified | 4245 | 14% | 10% | 7% | 3% | 1% | 1% |
+| Unverified | 73680 | 4% | 3% | 2% | 1% | 0% | 0% |
 
 ## Exit strategies
 
@@ -82,13 +82,13 @@
 
 | Strategy | Hits | Hit rate | P&L | Return |
 |---|---|---|---|---|
-| Hold to the end | 20 | 0% | -$356.60 | -56% |
-| Sell at 2¢ | 606 | 14% | -$479.04 | -75% |
-| Sell at 3¢ | 433 | 10% | -$467.73 | -73% |
-| Sell at 5¢ | 289 | 7% | -$448.75 | -70% |
-| Sell at 10¢ | 123 | 3% | -$475.47 | -75% |
-| Sell at 25¢ | 49 | 1% | -$474.41 | -75% |
-| Sell at 50¢ | 33 | 1% | -$413.85 | -65% |
+| Hold to the end | 20 | 0% | -$356.75 | -56% |
+| Sell at 2¢ | 606 | 14% | -$479.19 | -75% |
+| Sell at 3¢ | 433 | 10% | -$467.88 | -73% |
+| Sell at 5¢ | 289 | 7% | -$448.90 | -70% |
+| Sell at 10¢ | 123 | 3% | -$475.62 | -75% |
+| Sell at 25¢ | 49 | 1% | -$474.56 | -75% |
+| Sell at 50¢ | 33 | 1% | -$414.00 | -65% |
 
 ![Exit strategies](study/charts/exits.png)
 
@@ -96,15 +96,15 @@
 
 | League | Verified | Bets | Won | ≥2¢ | ≥5¢ | Hold return | Sell@2¢ return | Typical time left |
 |---|---|---|---|---|---|---|---|---|
-| eSoccer Game | ✘ | 37531 | 28 | 1% | 1% | -93% | -98% | 3 min |
-| Russia Liga Pro Match | ✘ | 4939 | 0 | 2% | 1% | -100% | -97% | 4 min |
-| eBasketball Game | ✘ | 3734 | 8 | 4% | 2% | -80% | -91% | 3 min |
+| eSoccer Game | ✘ | 37536 | 28 | 1% | 1% | -93% | -98% | 3 min |
+| Russia Liga Pro Match | ✘ | 4942 | 0 | 2% | 1% | -100% | -97% | 4 min |
+| eBasketball Game | ✘ | 3735 | 8 | 4% | 2% | -80% | -91% | 3 min |
 | ITF Women's Match | ✘ | 2169 | 8 | 14% | 6% | -66% | -76% | 4 min |
 | ITF Men's Match | ✘ | 2067 | 5 | 14% | 6% | -77% | -76% | 5 min |
-| Counter-Strike 2 Game | ✘ | 1964 | 4 | 6% | 3% | -81% | -90% | 11 min |
+| Counter-Strike 2 Game | ✘ | 1965 | 4 | 6% | 3% | -81% | -90% | 11 min |
 | Challenger ATP  | ✘ | 1418 | 6 | 12% | 5% | -61% | -78% | 5 min |
 | TT Elite Series Match | ✘ | 1304 | 0 | 1% | 1% | -100% | -98% | 5 min |
-| Men's College Basketball Game | partly | 1116 | 5 | 19% | 9% | -58% | -67% | 24 min |
+| Men's College Basketball Game | partly | 1117 | 5 | 19% | 9% | -58% | -67% | 24 min |
 | Women's College Basketball Game | partly | 1039 | 3 | 15% | 6% | -73% | -75% | 29 min |
 | eFootball Game | ✘ | 858 | 2 | 2% | 2% | -78% | -97% | 2 min |
 | College Football Game | partly | 744 | 5 | 11% | 5% | -37% | -81% | 23 min |
@@ -173,10 +173,10 @@
 | Slovakian 2. Liga Game | ✘ | 100 | 0 | 5% | 4% | -100% | -91% | 44 min |
 | Liga Leumit Game | ✘ | 100 | 0 | 5% | 3% | -100% | -91% | 18 min |
 | Men's ODI Cricket Match | ✘ | 100 | 3 | 20% | 8% | +180% | -65% | 55 min |
+| Korea K-League 2 Game | ✘ | 98 | 0 | 10% | 5% | -100% | -82% | 10 min |
 | Ligue 1 Game | ✔ | 97 | 1 | 15% | 8% | -4% | -73% | 8 min |
 | Uruguay Primera Division Game | ✘ | 96 | 0 | 12% | 6% | -100% | -78% | 10 min |
 | SHL Game | ✘ | 96 | 0 | 3% | 2% | -100% | -95% | 6 min |
-| Korea K-League 2 Game | ✘ | 96 | 0 | 10% | 5% | -100% | -82% | 9 min |
 | Chinese Basketball Association Game  | ✘ | 95 | 0 | 8% | 2% | -100% | -85% | 10 min |
 | Bundesliga Game | ✔ | 95 | 1 | 16% | 8% | -2% | -73% | 9 min |
 | Ecuador Liga Pro Game | ✘ | 94 | 0 | 6% | 2% | -100% | -89% | 11 min |
@@ -206,9 +206,9 @@
 | LNB Elite 2 Game | ✘ | 77 | 0 | 1% | 0% | -100% | -98% | 6 min |
 | Serie A Femminile Game | ✘ | 77 | 1 | 8% | 4% | +21% | -86% | 15 min |
 | Serbian SuperLiga Game | ✘ | 75 | 0 | 5% | 1% | -100% | -91% | 16 min |
+| Korea K League Game | ✘ | 74 | 1 | 15% | 7% | +26% | -74% | 8 min |
 | Super League Greece Game | ✘ | 73 | 0 | 15% | 3% | -100% | -74% | 14 min |
 | Taca de Portugal Game | ✘ | 73 | 0 | 16% | 5% | -100% | -72% | 14 min |
-| Korea K League Game | ✘ | 72 | 1 | 15% | 7% | +30% | -74% | 8 min |
 | Romanian Liga I Game | ✘ | 72 | 1 | 12% | 4% | +30% | -78% | 13 min |
 | Vietnam V-League 1 Game | ✘ | 70 | 1 | 4% | 3% | +33% | -93% | 10 min |
 | Israeli Premier League Game | ✘ | 70 | 0 | 6% | 1% | -100% | -90% | 13 min |
@@ -326,13 +326,13 @@
 | China CBA (W) Game | ✘ | 8 | 0 | 0% | 0% | -100% | -100% | 9 min |
 | PREM Rugby Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | CONMEBOL Libertadores Game | ✘ | 7 | 0 | 29% | 0% | -100% | -50% | 12 min |
+| Korea KBL (W) Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 14 min |
 | Puerto Rico BSN (W) Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 6 min |
 | T10 Match | ✘ | 7 | 0 | 14% | 0% | -100% | -75% | 16 min |
 | Romania Division A Game | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 13 min |
 | Padel Match | ✘ | 7 | 0 | 0% | 0% | -100% | -100% | 2 min |
 | Professional Football Game | ✔ | 6 | 0 | 17% | 0% | -100% | -71% | 6 min |
 | Japan J League Cup Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 4 min |
-| Korea KBL (W) Game | ✘ | 6 | 0 | 0% | 0% | -100% | -100% | 17 min |
 | AFC Champions League Two Game | ✘ | 6 | 0 | 33% | 17% | -100% | -42% | 18 min |
 | Bosnia Division I Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 309 min |
 | Italy Serie A (W) Game | ✘ | 5 | 0 | 0% | 0% | -100% | -100% | 5 min |
@@ -372,7 +372,7 @@
 
 | Time left in game | Bets | ≥2¢ | ≥5¢ | Won | Sell@2¢ return |
 |---|---|---|---|---|---|
-| Under 5 min | 1499 | 4% | 1% | 0% | -94% |
+| Under 5 min | 1500 | 4% | 1% | 0% | -94% |
 | 5–15 min | 962 | 16% | 8% | 1% | -72% |
 | 15–30 min | 671 | 25% | 12% | 0% | -57% |
 | 30–60 min | 532 | 20% | 12% | 1% | -65% |
@@ -394,36 +394,36 @@
 
 | When | League | Pick | Verified | Situation at 1¢ | Peak | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
-| 11-28 06:49 | eSoccer Game | Nantes (Kovboj) | ✘ | — | — | In play | — |
-| 11-28 06:49 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-28 07:01 | eFootball Game | Buffalo (Speed) | ✘ | — | — | In play | — |
+| 11-28 07:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-28 07:00 | Russia Liga Pro Match | Kovalev Igor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 07:00 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-28 06:59 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-28 06:59 | eSoccer Game | CA Osasuna (Fede) | ✘ | — | — | In play | — |
+| 11-28 06:59 | Men's College Basketball Game | San Diego St. | ✔ | 0:03 - 2nd · SDSU 75 - TTU 78 | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 06:58 | eSoccer Game | Tie | ✘ | — | — | In play | — |
+| 11-28 06:58 | eSoccer Game | FC Barcelona (Holis) | ✘ | — | — | In play | — |
+| 11-28 06:57 | eSoccer Game | Arsenal (Demi) | ✘ | — | — | In play | — |
+| 11-28 06:57 | Japan B.League One Game | Niigata Albirex BB | ✘ | — | — | In play | — |
+| 11-28 06:57 | eSoccer Game | Manchester City (Gigi) | ✘ | — | — | In play | — |
+| 11-28 06:55 | Japan J League Game | Tie | ✘ | — | — | In play | — |
+| 11-28 06:55 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
+| 11-28 06:53 | Korea K League Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 06:49 | eSoccer Game | Nantes (Kovboj) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 06:49 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-28 06:48 | Korea K League Game | Tie | ✘ | — | — | In play | — |
 | 11-28 06:48 | eBasketball Game | Indiana Pacers (Zach) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:47 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | — | In play | — |
+| 11-28 06:47 | Russia Liga Pro Match | Bochev Viktor | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-28 06:47 | Japan J2 League Game | Imabari | ✘ | — | — | In play | — |
 | 11-28 06:47 | Japan J League Game | Urawa | ✘ | — | — | In play | — |
 | 11-28 06:46 | Men's T20 Cricket Match | Omrchecker | ✘ | — | — | In play | — |
-| 11-28 06:46 | Korea K League Game | Jeju SK | ✘ | — | — | In play | — |
-| 11-28 06:45 | eSoccer Game | Getafe CF (Bony) | ✘ | — | — | In play | — |
-| 11-28 06:45 | eSoccer Game | RC Celta (Hurricane) | ✘ | — | — | In play | — |
+| 11-28 06:46 | Korea K League Game | Jeju SK | ✘ | — | 1¢ | ❌ Lost | -$0.15 |
+| 11-28 06:45 | eSoccer Game | Getafe CF (Bony) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 06:45 | eSoccer Game | RC Celta (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-28 06:45 | eSoccer Game | CA Osasuna (Fede) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:45 | eSoccer Game | Tie | ✘ | — | — | In play | — |
-| 11-28 06:44 | Korea KBL (W) Game | Busan BNK Sum | ✘ | — | — | In play | — |
+| 11-28 06:45 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
+| 11-28 06:44 | Korea KBL (W) Game | Busan BNK Sum | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 | 11-28 06:43 | Korea K League Game | Daejeon Citizen | ✘ | — | — | In play | — |
-| 11-28 06:43 | Japan J League Game | Tie | ✘ | — | — | In play | — |
-| 11-28 06:42 | Korea K-League 2 Game | Tie | ✘ | — | — | In play | — |
-| 11-28 06:41 | Russia Liga Pro Match | SHipitsyn Gennadii | ✘ | — | — | In play | — |
-| 11-28 06:40 | Men's College Basketball Game | Gonzaga | ✔ | 0:29 - OT · CREI 92 - GONZ 86 | 1¢ | ❌ Lost | -$0.15 |
-| 11-28 06:36 | eFootball Game | Philadelphia (Speed) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:36 | Korea K-League 2 Game | Yongin FC | ✘ | — | — | In play | — |
-| 11-28 06:35 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:33 | Korea K-League 2 Game | Gimhae | ✘ | — | — | In play | — |
-| 11-28 06:33 | eSoccer Game | AS Monaco (SilentShooter) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:32 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:31 | eSoccer Game | Tie | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:31 | eSoccer Game | Girona (Antonio) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:31 | eSoccer Game | RC Celta (Hurricane) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:31 | eSoccer Game | Manchester City (Gigi) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
-| 11-28 06:31 | eSoccer Game | FC Barcelona (Holis) | ✘ | — | 0¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
