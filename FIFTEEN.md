@@ -1,6 +1,6 @@
 # 15-Minute 1¢ Study
 
-*Updated Sat Nov 28, 3:31 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
+*Updated Sat Nov 28, 3:41 AM MT. Paper money: every Kalshi 15-minute up/down market (crypto, currencies, commodities). Each time the UP or DOWN side hits 1¢ we buy 14 contracts (14¢ + 1¢ fee) and track that side's price every ~2 seconds until the window closes.*
 
 [← Back to all bots](README.md) · [Sports 1¢ Study](STUDY.md)
 
@@ -34,9 +34,9 @@
 
 | 1¢ moments caught | Finished | Came back & won | Break-even win rate | Hold-to-close P&L | Best exit so far |
 |---|---|---|---|---|---|
-| 69865 | 69829 | 259 (0%) | 1.07% | -$4,819.00 (-57%) | Hold to the close: -$4,819.00 (-57%) |
+| 69867 | 69829 | 259 (0%) | 1.07% | -$4,819.00 (-57%) | Hold to the close: -$4,819.00 (-57%) |
 
-*In play or awaiting result: 6. Commodity markets can take a few hours to settle.*
+*In play or awaiting result: 8. Commodity markets can take a few hours to settle.*
 
 ## Prediction models
 
@@ -190,6 +190,8 @@
 
 | When (MT) | Market | Side | Time left | Gap | Peak bid | Result | Hold P&L |
 |---|---|---|---|---|---|---|---|
+| 11/28 3:40:49 AM | ZEC | UP | 4.2 min | -0.441% | — | In play | — |
+| 11/28 3:37:34 AM | HYPE | UP | 7.4 min | -0.860% | — | In play | — |
 | 11/28 3:29:52 AM | ETH | DOWN | 7 sec | +0.044% | 0¢ | ❌ Lost | $0.00 |
 | 11/28 3:29:40 AM | HYPE | DOWN | 20 sec | +0.076% | 0¢ | ❌ Lost | $0.00 |
 | 11/28 3:29:20 AM | NEAR | UP | 39 sec | -0.127% | 0¢ | ❌ Lost | $0.00 |
@@ -218,8 +220,6 @@
 | 11/27 11:27:06 PM | BNB | DOWN | 2.9 min | +0.163% | 0¢ | ❌ Lost | -$0.15 |
 | 11/27 11:27:06 PM | NEAR | DOWN | 2.9 min | +0.465% | 1¢ | ❌ Lost | -$0.15 |
 | 11/27 11:27:06 PM | HYPE | DOWN | 2.9 min | +0.243% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 11:26:18 PM | DOGE | DOWN | 3.7 min | +0.220% | 1¢ | ❌ Lost | -$0.15 |
-| 11/27 11:25:29 PM | ZEC | DOWN | 4.5 min | +0.622% | 1¢ | ❌ Lost | -$0.15 |
 
 ## Raw data
 
